@@ -1,0 +1,573 @@
+new_roman_risorgimento = {
+    	slot = 1
+    	generic = no
+    	ai = yes
+    	potential = {
+		tag = RRR
+    	}
+    	has_country_shield = yes
+	RRR_romanga_conquest = {
+		icon = reclaim_the_ducal_lands
+		required_missions = {  }
+		position = 1
+		
+		provinces_to_highlight = {
+			OR = {
+				area = central_italy_area
+				area = emilia_romagna_area
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+
+		trigger = {
+			custom_trigger_tooltip = {
+				tooltip = emp_pap_patrimony_of_st_peter_tt
+				num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+					value = 6 # out of 8
+					OR = {
+						area = central_italy_area
+						area = emilia_romagna_area
+					}
+				}
+			}
+		}
+		effect = {
+			tuscany_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			liguria_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			piedmont_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+
+	RRR_tuscany_liguria_conquest = {
+		icon = conquer_tuscany
+		required_missions = { RRR_romanga_conquest }
+		position = 2
+		
+		provinces_to_highlight = {
+			OR = {
+				area = tuscany_area
+				area = liguria_area
+				area = piedmont_area
+			}
+			NOT = {
+				owned_by = ROOT
+			}
+		}
+		
+		trigger = {
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+				value = 9 # out of 12
+				OR = {
+					area = tuscany_area
+					area = liguria_area
+					area = piedmont_area
+				}
+			}
+		}
+		effect = {
+			venetia_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			lombardy_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			po_valley_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+	
+	RRR_cisalpine_conquest = {
+		icon = sweep_the_po
+		required_missions = { RRR_tuscany_liguria_conquest }
+		position = 3
+		
+		provinces_to_highlight = {
+			OR = {
+				area = venetia_area
+				area = lombardy_area
+				area = po_valley_area
+			}
+			NOT = {
+				owned_by = ROOT
+			}
+		}
+		
+		trigger = {
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+				value = 9 # out of 13
+				OR = {
+					area = venetia_area
+					area = lombardy_area
+					area = po_valley_area
+				}
+			}
+		}
+		effect = {
+			corsica_sardinia_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			sicily_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			western_sicily_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+	
+	RRR_island_screens = {
+		icon = mission_seize_the_isles
+		required_missions = { RRR_cisalpine_conquest }
+		position = 4
+		
+		provinces_to_highlight = {
+			OR = {
+				area = corsica_sardinia_area
+				area = sicily_area
+				area = western_sicily_area
+			}
+			NOT = {
+				owned_by = ROOT
+			}
+		}
+		
+		trigger = {
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+				value = 8 # out of 10
+				OR = {
+					area = corsica_sardinia_area
+					area = sicily_area
+					area = western_sicily_area
+				}
+			}
+		}
+		effect = {
+			naples_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			calabria_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			apulia_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+	
+	RRR_roman_risorgimento_mission = {
+		icon = mission_rule_italy
+		required_missions = { RRR_island_screens }
+		position = 5
+		
+		provinces_to_highlight = {
+			region = italy_region
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		
+		trigger = {
+			italy_region = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = "BFF_finished_the_risorgimento"
+				duration = 7300
+			}
+		}
+	}
+}
+growth_of_rome = {
+    	slot = 3
+    	generic = no
+    	ai = yes
+    	potential = {
+		tag = RRR
+    	}
+    	has_country_shield = yes
+	RRR_develop_rome = {
+		icon = public_works
+		required_missions = {  }
+		position = 1
+		
+		provinces_to_highlight = {
+			province_id = 118
+			OR = {
+				NOT = { grown_by_development = 10 }
+				NOT = { owned_by = ROOT }
+			}
+		}
+
+		trigger = {
+			118 = {
+				owned_by = ROOT
+				is_state = yes
+				grown_by_development = 10
+			}
+		}
+		effect = {
+			set_capital = 118
+			118 = {
+				add_province_modifier = { 
+    					name = "RRR_roman_metropolitian"
+    					duration = 7300
+				}
+			}
+		}
+	}
+
+	RRR_all_roads_lead_to_rome = {
+		icon = reform_the_monte
+		required_missions = { RRR_develop_rome }
+		position = 2
+		
+		provinces_to_highlight = {
+			province_id = 118
+			OR = {
+				NOT = { province_has_center_of_trade_of_level = 2 }
+				NOT = { owned_by = ROOT }
+			}
+		}
+
+		trigger = {
+			1298 = {
+				is_strongest_trade_power = ROOT
+			}
+			118 = {
+				owned_by = ROOT
+				province_has_center_of_trade_of_level = 2
+			}
+		}
+		effect = {
+			118 = {
+				add_province_modifier = { 
+    					name = "RRR_heart_of_rome"
+    					duration = -1
+				}
+			}
+			if = {
+				limit = {
+					NOT = { province_has_center_of_trade_of_level = 3 }
+				}
+				118 = { add_center_of_trade_level = 1 }
+			}
+			else = {
+				add_adm_power = 100
+			}
+		}
+	}
+	
+	RRR_strengthen_roman_guilds = {
+		icon = sources_of_trade
+		required_missions = { RRR_all_roads_lead_to_rome }
+		position = 3
+		
+		provinces_to_highlight = {
+			province_id = 118
+			OR = {
+				NOT = {
+					OR = {
+						has_building = mills
+						has_building = farm_estate
+						has_building = tradecompany
+						has_building = plantations
+						has_building = textile
+						has_building = weapons
+						has_building = wharf
+						has_building = furnace
+					}
+				}
+				NOT = { owned_by = ROOT }
+			}
+		}
+
+		trigger = {
+			if = {
+				limit = { has_estate = estate_burghers }
+				estate_influence = {
+    					estate = estate_burghers
+  					influence = 60
+				}
+			}
+			else = {
+				share_of_starting_income = 2.0
+			}
+			118 = {
+				owned_by = ROOT
+				OR = {
+					has_building = mills
+					has_building = farm_estate
+					has_building = tradecompany
+					has_building = plantations
+					has_building = textile
+					has_building = weapons
+					has_building = wharf
+					has_building = furnace
+				}
+			}
+		}
+		effect = {
+			118 = {
+				add_permanent_province_modifier = { 
+    					name = "RRR_strong_roman_guilds"
+    					duration = -1
+				}
+			}
+		}
+	}
+
+	RRR_improve_the_aurelian_walls = {
+		icon = fortress_of_belgrade
+		required_missions = { RRR_strengthen_roman_guilds }
+		position = 4
+		
+		provinces_to_highlight = {
+			province_id = 118
+			OR = {
+				NOT = { fort_level = 5 }
+				NOT = { owned_by = ROOT }
+			}
+		}
+
+		trigger = {
+			118 = {
+				owned_by = ROOT
+				fort_level = 5
+			}
+		}
+		effect = {
+			118 = {
+				add_permanent_province_modifier = { 
+    					name = "RRR_aurelian_walls"
+    					duration = -1
+				}
+			}
+		}
+	}
+}
+RRR_economy = {
+    	slot = 4
+    	generic = no
+    	ai = yes
+    	potential = {
+		tag = RRR
+    	}
+    	has_country_shield = yes
+	RRR_rebuild_the_roman_treasury = {
+		icon = mission_african_gold
+		required_missions = {  }
+		position = 1
+		
+		trigger = {
+			treasury = 1000
+			NOT = { num_of_loans = 1 }
+		}
+		effect = {
+			add_country_modifier = { 
+    				name = RRR_refinanced_the_aerarium
+				duration = 7300
+			}
+		}
+	}
+	RRR_promote_roman_renaissance = {
+		icon = continue_the_renaissance
+		required_missions = { RRR_rebuild_the_roman_treasury }
+		position = 2
+
+		provinces_to_highlight = {
+			province_id = 118
+		}		
+		trigger = {
+			has_institution = renaissance
+			owns = 118
+		}
+		effect = {
+			add_prestige = 20
+		}
+	}
+	RRR_rebuild_colosseum = {
+		icon = mission_colosseum
+		required_missions = {
+			RRR_promote_roman_renaissance
+			RRR_all_roads_lead_to_rome
+		}
+		position = 3
+
+		provinces_to_highlight = {
+			province_id = 118
+		}
+		trigger = {
+			118 = {
+				OR = {
+					has_building = training_fields
+					has_building = conscription_center
+				}
+				development = 40
+				owned_by = root
+			}
+		}
+		effect = {
+			add_country_modifier = { 
+    				name = "RRR_colosseum_modifier"
+    				duration = -1
+			}
+		}
+	}
+}
+RRR_roman_revolutionary_idealism = {
+    	slot = 3
+    	generic = no
+    	ai = yes
+    	potential = {
+		tag = RRR
+    	}
+    	has_country_shield = yes
+	RRR_roman_revolution = {
+		icon = french_revolution
+		required_missions = { RRR_strengthen_roman_republicanism }
+		position = 5
+		
+		trigger = {
+			OR = {
+				has_reform = revolutionary_empire_reform
+				has_reform = revolutionary_republic_reform
+				custom_trigger_tooltip = {
+					tooltip = center_of_revolution.3000.A.tt
+					has_global_flag = no_more_revolutions_ever
+				}
+				any_known_country = {
+					is_revolution_target = yes
+					war_with = ROOT
+					capital_scope = {
+						controlled_by = ROOT
+					}
+				}
+			}
+		}
+		effect = {
+			if = {
+				limit = {
+					OR = {
+						has_reform = revolutionary_empire_reform
+						has_reform = revolutionary_republic_reform
+					}
+				}
+				add_revolutionary_zeal = 25
+				add_country_modifier = {
+					name = "french_revolution_mission"
+					duration = -1
+				}
+			}
+			else_if = {
+				limit = { 
+					NOT = { has_country_modifier = ger_reactionary_zeal }
+				}
+				add_country_modifier = {
+					name = "ger_reactionary_zeal"
+					duration = -1
+				}
+			}
+			else = {
+				add_adm_power = 75
+				add_adm_power = 75
+				add_dip_power = 75
+			}
+		}
+	}
+}
+RRR_roman_republic = {
+    	slot = 4
+    	generic = no
+    	ai = yes
+    	potential = {
+		tag = RRR
+    	}
+    	has_country_shield = yes
+	RRR_strengthen_roman_republicanism = {
+		icon = republican_yearnings
+		required_missions = {  }
+		position = 4
+		
+		trigger = {
+			government = republic
+			republican_tradition = 80
+			has_institution = renaissance
+		}
+		effect = {
+			add_republican_tradition = 20
+			change_government_reform_progress = 150
+		}
+	}
+	RRR_reestablish_the_sentate = {
+		icon = mission_roman_senate
+		required_missions = { RRR_strengthen_roman_republicanism }
+		position = 5
+		
+		trigger = {
+			government = republic
+			has_parliament = yes
+		}
+		effect = {
+			add_country_modifier = {
+				name = "RRR_roman_senate"
+				duration = -1
+			}
+		}
+	}
+}

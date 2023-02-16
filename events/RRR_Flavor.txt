@@ -1,0 +1,318 @@
+namespace = new_roman_event
+
+# Status of the Papacy
+country_event = {
+	id = new_roman_event.1
+	title = "NEW_ROMAN_EVENT.1"
+	desc = "NEW_ROMAN_EVENT_DESC.1"
+	picture = COURT_eventPicture
+	
+	is_triggered_only = yes
+	major = yes
+
+	option = {
+		name = "NEW_ROMAN_EVENT.1A"			# We need Papal Approchement
+		if = {
+			limit = {
+				NOT = { has_country_flag = rrr_noncatholic_path_flag }
+				NOT = { has_country_flag = rrr_catholic_path_flag }
+			}
+			set_country_flag = rrr_catholic_path_flag
+			custom_tooltip = rrr_catholic_path_tt
+			hidden_effect = { swap_non_generic_missions = yes }
+		}
+		ai_chance = { 
+			factor = 1
+		}
+	}
+	option = {
+		name = "NEW_ROMAN_EVENT.1B"			# We need to Weaken the Papacy
+		if = {
+			limit = {
+				NOT = { has_country_flag = rrr_catholic_path_flag }
+				NOT = { has_country_flag = rrr_noncatholic_path_flag }
+			}
+			set_country_flag = rrr_noncatholic_path_flag 
+			custom_tooltip = rrr_noncatholic_path_tt
+			hidden_effect = { swap_non_generic_missions = yes }
+		}
+		ai_chance = { 
+			factor = 1
+		}
+	}
+}
+# [Root.GetAdjective] Expansionism
+country_event = {
+	id = new_roman_event.2
+	title = "NEW_ROMAN_EVENT.2"
+	desc = "NEW_ROMAN_EVENT_DESC.2"
+	picture = LAND_MILITARY_eventPicture
+	
+	is_triggered_only = yes
+	major = yes
+
+	option = {
+		name = "NEW_ROMAN_EVENT.2A"			# Expand Eastwards
+		if = {
+			limit = {
+				NOT = { has_country_flag = rrr_southern_path_flag }
+				NOT = { has_country_flag = rrr_western_path_flag }
+				NOT = { has_country_flag = rrr_eastern_path_flag}
+			}
+			set_country_flag = rrr_eastern_path_flag
+			custom_tooltip = rrr_eastwards_path_tt
+			hidden_effect = { swap_non_generic_missions = yes }
+		}
+		ai_chance = { 
+			factor = 1
+		}
+	}
+	option = {
+		name = "NEW_ROMAN_EVENT.2B"			# Expand Westwards
+		if = {
+			limit = {
+				NOT = { has_country_flag = rrr_southern_path_flag }
+				NOT = { has_country_flag = rrr_western_path_flag }
+				NOT = { has_country_flag = rrr_eastern_path_flag}
+			}
+			set_country_flag = rrr_western_path_flag 
+			custom_tooltip = rrr_westwards_path_tt
+			hidden_effect = { swap_non_generic_missions = yes }
+		}
+		ai_chance = { 
+			factor = 1
+		}
+	}
+	option = {
+		name = "NEW_ROMAN_EVENT.2C"			# Expand Southwards
+		if = {
+			limit = {
+				NOT = { has_country_flag = rrr_southern_path_flag }
+				NOT = { has_country_flag = rrr_western_path_flag }
+				NOT = { has_country_flag = rrr_eastern_path_flag}
+			}
+			set_country_flag = rrr_southern_path_flag
+			custom_tooltip = rrr_southwards_path_tt
+			hidden_effect = { swap_non_generic_missions = yes }
+		}
+		ai_chance = { 
+			factor = 1
+		}
+	}
+}
+
+# Roman Identity
+country_event = {
+	id = new_roman_event.3
+	title = "NEW_ROMAN_EVENT.3"
+	desc = "NEW_ROMAN_EVENT_DESC.3"
+	picture = COURT_eventPicture
+	
+	is_triggered_only = yes
+	major = yes
+
+	option = {
+		name = "NEW_ROMAN_EVENT.3A"			# We are true Romans
+		set_country_flag = BBF_easier_roman_formable_tag_flag
+		custom_tooltip = BBF_easier_roman_formable_tag_tt
+		ai_chance = { 
+			factor = 1
+		}
+	}
+	option = {
+		name = "NEW_ROMAN_EVENT.3B"			# We are Italians
+		if = {
+			limit = {
+				NOT = { government_rank = 2 }
+			}
+			hidden_effect = {
+				set_in_empire = no
+			}
+			set_government_rank = 2
+		}
+		change_tag = ITA
+		if = {
+			limit = { has_custom_ideas = no }
+			country_event = { id = ideagroups.1 } #Swap Ideas
+		}
+		set_country_flag = formed_italy_flag
+		ai_chance = { 
+			factor = 1
+		}
+	}
+	option = {
+		name = "NEW_ROMAN_EVENT.3C"			# We are Byzantines
+		trigger = { owns = 151 }
+		151 = {
+			move_capital_effect = yes
+		}
+		change_tag = BYZ
+		restore_country_name = yes
+		if = {
+			limit = {
+				NOT = { culture_group = byzantine }
+				NOT = { accepted_culture = greek }
+			}
+			add_accepted_culture = greek
+		}
+		swap_non_generic_missions = yes
+		add_country_modifier = {
+			name = "centralization_modifier"
+			duration = 7300
+		}
+		add_prestige = 10
+		BYZ = {
+			add_core = 151 # Constantinople
+		}
+		if = {
+			limit = {
+				is_part_of_hre = yes
+			}
+			every_owned_province = {
+				limit = {
+					is_part_of_hre = yes
+				}
+				set_in_empire = no
+			}
+		}
+		if = {
+			limit = { has_global_flag = hagia_sophia_now_mosque }
+			clr_global_flag = hagia_sophia_now_mosque
+			show_ambient_object = hagia_sophia
+			hide_ambient_object = hagia_sophia_minarets
+		}
+		set_government_rank = 3
+		if = {
+			limit = { has_custom_ideas = no }
+			country_event = { id = ideagroups.1 } #Swap Ideas
+		}
+		set_country_flag = formed_byzantium_flag
+		ai_chance = { 
+			factor = 1
+		}
+	}
+}
+
+# [Root.GetName] and Egypt
+country_event = {
+	id = new_roman_event.4
+	title = "NEW_ROMAN_EVENT.4"
+	desc = "NEW_ROMAN_EVENT_DESC.4"
+	picture = COURT_eventPicture
+	
+	is_triggered_only = yes
+	major = yes
+
+	option = {
+		name = "NEW_ROMAN_EVENT.3A"			# We are true Romans
+		set_country_flag = BBF_easier_roman_formable_tag_flag
+		custom_tooltip = BBF_easier_roman_formable_tag_tt
+		ai_chance = { 
+			factor = 1
+		}
+	}
+	option = {
+		name = "NEW_ROMAN_EVENT.3B"			# We are Italians
+		if = {
+			limit = {
+				NOT = { government_rank = 2 }
+			}
+			hidden_effect = {
+				set_in_empire = no
+			}
+			set_government_rank = 2
+		}
+		change_tag = ITA
+		if = {
+			limit = { has_custom_ideas = no }
+			country_event = { id = ideagroups.1 } #Swap Ideas
+		}
+		set_country_flag = formed_italy_flag
+		ai_chance = { 
+			factor = 1
+		}
+	}
+	option = {
+		name = "NEW_ROMAN_EVENT.4A"			# We are Egyptians
+		change_tag = EGY
+		set_capital = 361
+		remove_non_electors_emperors_from_empire_effect = yes
+		if = {
+			limit = {
+				NOT = { government_rank = 2 }
+			}
+			set_government_rank = 2
+		}
+		set_country_flag = formed_egypt_flag
+		ai_chance = { 
+			factor = 1
+		}
+	}
+}
+
+# The Jerusalemite Question
+country_event = {
+	id = new_roman_event.5
+	title = "NEW_ROMAN_EVENT.5"
+	desc = "NEW_ROMAN_EVENT_DESC.5"
+	picture = POPE_PREACHING_eventPicture
+	
+	is_triggered_only = yes
+	major = yes
+
+	option = {
+		name = "NEW_ROMAN_EVENT.5A"			# Reform the Kingdom of Jerusalem
+			add_papal_influence = 100
+			every_province = {
+				limit = {
+					OR = {
+						area = trans_jordan_area
+						area = palestine_area
+						area = syria_area
+						province_id = 4268 #Aqaba
+					}
+				}
+				add_core = KOJ
+				hidden_effect = { remove_core = ROOT }
+			}
+			release = KOJ
+			create_march = KOJ
+			KOJ = { change_primary_culture = ROOT }
+			379 = {
+				change_religion = catholic
+			}
+			hidden_effect = {
+				KOJ = {
+					set_capital = 379 #Jerusalem
+					change_religion = catholic
+					if = {
+						limit = {
+							NOT = { government = theocracy }
+						}
+						change_government_to_monarchy = yes
+						add_government_reform = holy_state_reform
+						#set_legacy_government = holy_state_legacy
+					}
+					else_if = {
+						limit = {
+							government = theocracy
+							NOT = { has_reform = holy_horde_reform }
+							NOT = { has_reform = militarized_crusader_order_reform }
+						}
+					add_government_reform = holy_state_reform
+					#set_legacy_government = holy_state_theocracy
+				}
+				set_country_flag = formed_jerusalem
+			}
+		ai_chance = { 
+			factor = 1
+		}
+	}
+	option = {
+		name = "NEW_ROMAN_EVENT.5B"			# No, Jerusalem is ours alone
+		add_prestige = 50
+		ai_chance = { 
+			factor = 1
+		}
+	}
+}

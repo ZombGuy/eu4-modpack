@@ -1,0 +1,10 @@
+﻿l_english: 
+ #Great Britian
+ british_industrialization:0 "Early Industrialization"
+ british_industrialization_desc:0 "Rapid advances in technology are creating possibilities never before dreamt of. People flock to the cities to work in new, highly efficient factories outfitted with astonishing modern machinery. [Root.GetName] must be at the heart of this industrial revolution, as any nation that fails to modernize will be swept away by those that do."
+ #Aragon
+ protection_of_the_little_folk:0 "Protect the Little Folk"
+ protection_of_the_little_folk_desc:0 "Our soldiers will want to know that their loved ones are looked after in the event they fall in battle. [Root.GetName] will do its duty and ensure that this is done through a system of workhouses for the orphans of the fallen."
+ #Germany
+ ger_reichstag:0 "Reichstag"
+ ger_reichstag_desc:0 "In a tradition dating back deep into the middle ages, which we have adapted to our nation, important men of our large empire come together at the Imperial Diet to discuss problems and make decisions collectively at the side of our emperor and for the benefit of our newly united realm. This allows us to forge a single cohesive state from the diverse patchwork of states that once made up Germany."

@@ -1,0 +1,220 @@
+namespace = aiu_event
+
+# The Great Italianization
+country_event = {
+	id = aiu_event.1
+	title = "AIU_EVENT.1"
+	desc = "AIU_EVENT_DESC.1"
+	picture = CONQUEST_eventPicture
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "AIU_EVENT.1A" #Accept the Italians
+		add_country_modifier = {
+			name = AIU_iberian_italian_union 
+			duration = -1
+		}
+		if = {	
+			limit = {
+				NOT = { accepted_culture = lombard }
+			}
+			add_accepted_culture = lombard
+		}
+		if = {	
+			limit = {
+				NOT = { accepted_culture = tuscan }
+			}
+			add_accepted_culture = tuscan 
+		}
+		if = {	
+			limit = {
+				NOT = { accepted_culture = sardinian }
+			}
+			add_accepted_culture = sardinian 
+		}
+		if = {	
+			limit = {
+				NOT = { accepted_culture = romagnan }
+			}
+			add_accepted_culture = romagnan 
+		}
+		if = {	
+			limit = {
+				NOT = { accepted_culture = ligurian }
+			}
+			add_accepted_culture = ligurian 
+		}
+		if = {	
+			limit = {
+				NOT = { accepted_culture = ligurian }
+			}
+			add_accepted_culture = ligurian 
+		}
+		if = {	
+			limit = {
+				NOT = { accepted_culture = venetian }
+			}
+			add_accepted_culture = venetian 
+		}
+		if = {	
+			limit = {
+				NOT = { accepted_culture = dalmatian }
+			}
+			add_accepted_culture = dalmatian 
+		}
+		if = {	
+			limit = {
+				NOT = { accepted_culture = dalmatian }
+			}
+			add_accepted_culture = dalmatian 
+		}
+		if = {	
+			limit = {
+				NOT = { accepted_culture = neapolitan }
+			}
+			add_accepted_culture = neapolitan 
+		}
+		if = {	
+			limit = {
+				NOT = { accepted_culture = piedmontese }
+			}
+			add_accepted_culture = piedmontese 
+		}
+		if = {	
+			limit = {
+				NOT = { accepted_culture = umbrian }
+			}
+			add_accepted_culture = umbrian 
+		}
+		if = {	
+			limit = {
+				NOT = { accepted_culture = maltese }
+			}
+			add_accepted_culture = maltese 
+		}
+		if = {	
+			limit = {
+				NOT = { accepted_culture = sicilian }
+			}
+			add_accepted_culture = sicilian 
+		}
+		ai_chance = { 
+			factor = 100
+		}
+	}
+	option = {
+		name = "AIU_EVENT.1B" #Unify the Italians
+		add_country_modifier = {
+			name = ARA_iberian_italian_union
+			duration = -1
+		}
+		if = {	
+			limit = {
+				NOT = { accepted_culture = aragonese }
+			}
+			add_accepted_culture = aragonese 
+		}
+		if = {	
+			limit = {
+				NOT = { accepted_culture = catalan }
+			}
+			add_accepted_culture = catalan 
+		}
+		custom_tooltip = AIU_italianization_tooltip
+		hidden_effect = {
+			every_province = { 
+				limit = {
+					OR = {
+						culture = maltese
+						culture = sicilian 
+						culture = neapolitan
+						culture = sardinian
+						culture = umbrian
+					}
+				}
+				change_culture = BBF_south_italian
+			}
+			every_province = { 
+				limit = {
+					culture_group = latin
+					NOT = { culture = BBF_north_italian }
+				}
+				change_culture = BBF_north_italian
+			}
+			remove_accepted_culture = maltese
+			remove_accepted_culture = sicilian 
+			remove_accepted_culture = neapolitan
+			remove_accepted_culture = sardinian
+			remove_accepted_culture = dalmatian 
+			remove_accepted_culture = piedmontese 
+			remove_accepted_culture = ligurian 
+			remove_accepted_culture = venetian 
+			remove_accepted_culture = lombard
+			remove_accepted_culture = tuscan
+			remove_accepted_culture = umbrian
+			remove_accepted_culture = romagnan
+			add_accepted_culture = BBF_north_italian 
+			add_accepted_culture = BBF_south_italian 
+		}
+		ai_chance = { 
+			factor = 100
+		}
+	}
+	option = {
+		name = "AIU_EVENT.1C" #Italianize the Realm
+		add_country_modifier = {
+			name = ARA_iberian_italian_union
+			duration = -1
+		}
+		if = {
+			limit = { owns = 118 }
+			change_primary_culture = umbrian
+			set_capital = 118
+		}
+		else_if = {
+			limit = { owns = 121 }
+			change_primary_culture = neapolitan
+			set_capital = 121
+		}
+		else_if = {
+			limit = { owns = 101 }
+			change_primary_culture = ligurian 
+			set_capital = 101
+		}
+		else_if = {
+			limit = { owns = 104 }
+			change_primary_culture = lombard
+			set_capital = 104
+		}
+		else_if = {
+			limit = { owns = 104 }
+			change_primary_culture = venetian 
+			set_capital = 112
+		}
+		else_if = {
+			limit = { owns = 104 }
+			change_primary_culture = tuscan
+			set_capital = 116
+		}
+		else = {
+			change_primary_culture = sardinian
+		}
+		set_government_rank = 3
+		if = {	
+			limit = {
+				NOT = { accepted_culture = aragonese }
+			}
+			add_accepted_culture = aragonese 
+		}
+		if = {	
+			limit = {
+				NOT = { accepted_culture = catalan }
+			}
+			add_accepted_culture = catalan 
+		}
+		ai_chance = { 
+			factor = 100
+		}
+	}
+}

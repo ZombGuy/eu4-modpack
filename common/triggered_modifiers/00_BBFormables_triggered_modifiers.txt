@@ -1,0 +1,171 @@
+# Triggered modifiers are here.
+# these are checked for each countries once/month and then applied.
+#
+# Effects are fully scriptable here.
+
+#Protectors of Swiss Neutrality
+protectors_swiss_neutrality = {
+
+	potential = {
+		OR = {
+			technology_group = western
+			technology_group = eastern
+		}
+		any_country = { 
+			has_country_modifier = alp_swiss_neutrality_modifier
+			OR = {
+				tag = ALP
+				tag = SWI
+			}
+		}
+		NOT = { tag = SWI }
+		NOT = { tag = ALP }
+	}
+
+	trigger = {
+		if = {
+			limit = {
+				exists = ALP
+				ALP = { has_country_modifier = alp_swiss_neutrality_modifier }
+			}
+			OR = {
+				has_guaranteed = ALP
+				alliance_with = ALP
+			}
+			military_strength = {
+				who = ALP
+				value = 2.0
+			}
+		}
+		else = {
+			OR = {
+				has_guaranteed = SWI
+				alliance_with = SWI
+			}
+			military_strength = {
+				who = SWI
+				value = 2.0
+			}
+		}
+	}
+	
+	diplomatic_reputation = 1
+	diplomatic_upkeep = 1
+}
+#Legacy of the Steppe
+BBF_legacy_of_the_steppe = {
+
+	potential = {
+		NOT = { has_country_flag = BBF_ended_nomatic_legacy }
+		OR = {
+			has_reform = steppe_horde
+			has_reform = great_mongol_state_reform
+			have_had_reform = steppe_horde
+			have_had_reform = great_mongol_state_reform
+		}
+	}
+
+	trigger = {
+		NOT = { has_reform = steppe_horde }
+		NOT = { has_reform = great_mongol_state_reform }
+	}
+	
+	reinforce_cost_modifier = -0.5
+	cav_to_inf_ratio = 0.25
+	movement_speed = 0.2
+	global_institution_spread = -0.15
+	monthly_reform_progress_modifier = -0.15
+}
+#Palaiologos Brotherhood
+BBF_palaiologos_brotherhood = {
+
+	potential = {
+		has_global_flag = enables_palaiologos_brotherhood_flag
+		OR = {
+			dynasty = "Palaiologos"
+			has_country_flag = has_enabled_palaiologos_brotherhood_flag
+		}
+	}
+
+	trigger = {
+		dynasty = "Palaiologos"
+		custom_trigger_tooltip = {
+			tooltip = allied_same_dynasty_tooltip
+			num_of_allies = 1
+			calc_true_if = {
+				all_ally = {
+					dynasty = ROOT
+				}
+			}
+			amount = 1
+		}
+	}
+	
+	legitimacy = 1
+	devotion = 1
+	meritocracy = 1
+	horde_unity = 1	
+	republican_tradition = 0.5
+	defensiveness = 0.15
+	diplomatic_upkeep = 1
+}
+#Harmonious Horde
+BBF_harmonious_horde = {
+
+	potential = {
+		OR = {
+			has_reform = steppe_horde
+			has_reform = great_mongol_state_reform
+		}
+	}
+
+	trigger = {
+		OR = {
+			AND = {
+				NOT = { government_rank = 3 }
+				all_owned_province = {
+					culture = ROOT
+				}
+			}
+			AND = {
+				government_rank = 3
+				all_owned_province = {
+					culture_group = ROOT
+				}
+			}
+		}
+	}
+	
+	discipline = 0.05
+	horde_unity = 2
+}
+#Greek Wars
+BBF_greek_wars_modifier = {
+
+	potential = {
+		has_global_flag = enabled_greek_wars_flag
+		OR = {
+			primary_culture = greek
+			tag = GRE
+		}
+		NOT = { tag = BYZ }
+		NOT = { tag = ROM }
+	}
+
+	trigger = {
+		culture_group = byzantine
+		custom_trigger_tooltip = {
+			tooltip = BBF_AT_WAR_WITH_GREEK_OWNED_PROVINCES_tt
+			any_country = {
+				war_with = ROOT
+				any_owned_province = {
+					culture = greek
+				}
+			}
+		}
+	}
+	
+	discipline = 0.05
+	army_tradition_from_battle = 0.50
+	relation_with_same_culture = 200
+}

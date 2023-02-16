@@ -1,0 +1,13 @@
+﻿l_english: 
+#Transeurasian Group
+ BBF_transeurasian:0 "Transeurasian"
+ BBF_altaic:0 "Altaic"
+ BBF_tartar:0 "Tartar"
+ BBF_tungustic:0 "Native Siberian"
+#Italian Group
+ BBF_latin:0 "Italian"
+ BBF_north_italian:0 "North Italian"
+ BBF_south_italian:0 "South Italian"
+#Angevin
+ BBF_angevin:0 "Angevin"
+ BBF_anglois:0 "Anglois"
