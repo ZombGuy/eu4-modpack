@@ -1,0 +1,1352 @@
+estate_dhimmi_manpower = {
+	icon = privilege_demand_more_troops
+	land_share = 5
+	max_absolutism = -5
+	loyalty = -0.05
+	influence = 0.05
+	is_valid = {
+		any_owned_province = {
+			NOT = { religion_group = root }
+		}
+	}
+	can_select = {
+	}
+	on_granted = {
+		if = {
+			limit = {
+				has_country_flag = GRA_strengthen_the_dhimmi_privilege_flag
+			}
+			custom_tooltip = GRA_estate_dhimmi_manpower_effect_tooltip
+		}
+		else = {
+			custom_tooltip = estate_dhimmi_manpower_effect_tooltip
+		}
+	}
+	on_granted_province = {
+		if = {
+			limit = {
+				has_country_flag = GRA_strengthen_the_dhimmi_privilege_flag
+			}
+			if = {
+				limit = {
+					NOT = { religion_group = root }
+				}
+				add_province_modifier = {
+					name = GRA_estate_dhimmi_manpower_mod
+					duration = -1
+				}
+			}
+			else_if = {
+				limit = {
+					has_province_modifier = GRA_estate_dhimmi_manpower_mod
+				}
+				remove_province_modifier = GRA_estate_dhimmi_manpower_mod
+			}
+		}
+		else = {
+			if = {
+				limit = {
+					NOT = { religion_group = root }
+				}
+				add_province_modifier = {
+					name = estate_dhimmi_manpower_mod
+					duration = -1
+				}
+			}
+			else_if = {
+				limit = {
+					has_province_modifier = estate_dhimmi_manpower_mod
+				}
+				remove_province_modifier = estate_dhimmi_manpower_mod
+			}
+		}
+	}
+	on_revoked = {
+		if = {
+			limit = {
+				has_country_flag = GRA_strengthen_the_dhimmi_privilege_flag
+			}
+			custom_tooltip = GRA_estate_dhimmi_manpower_revoke_effect_tooltip
+		}
+		else = {
+			custom_tooltip = estate_dhimmi_manpower_revoke_effect_tooltip
+		}
+	}
+	on_revoked_province = {
+		if = {
+			limit = {
+				has_country_flag = GRA_strengthen_the_dhimmi_privilege_flag
+			}
+			if = {
+				limit = {
+					has_province_modifier = GRA_estate_dhimmi_manpower_mod
+				}
+				remove_province_modifier = GRA_estate_dhimmi_manpower_mod
+			}
+		}
+		else = {
+			if = {
+				limit = {
+					has_province_modifier = estate_dhimmi_manpower_mod
+				}
+				remove_province_modifier = estate_dhimmi_manpower_mod
+			}
+		}
+	}
+	on_invalid = {
+		if = {
+			limit = {
+				has_country_flag = GRA_strengthen_the_dhimmi_privilege_flag
+			}
+			custom_tooltip = GRA_estate_dhimmi_manpower_revoke_effect_tooltip
+		}
+		else = {
+			custom_tooltip = estate_dhimmi_manpower_revoke_effect_tooltip
+		}
+	}
+	on_invalid_province = {
+		if = {
+			limit = {
+				has_country_flag = GRA_strengthen_the_dhimmi_privilege_flag
+			}
+			if = {
+				limit = {
+					has_province_modifier = GRA_estate_dhimmi_manpower_mod
+				}
+				remove_province_modifier = GRA_estate_dhimmi_manpower_mod
+			}
+		}
+		else = {
+			if = {
+				limit = {
+					has_province_modifier = estate_dhimmi_manpower_mod
+				}
+				remove_province_modifier = estate_dhimmi_manpower_mod
+			}
+		}
+	}
+	penalties = {
+	}
+	benefits = {
+	}
+	ai_will_do = {
+		factor = 0
+	}
+}
+
+estate_church_monopoly_of_wool = {
+	icon = privilege_monopoly_of_goods_wool
+	max_absolutism = -10
+	loyalty = 0.1
+	is_valid = {
+		has_dlc = "Emperor"
+		any_owned_province = {
+			trade_goods = wool
+		}
+	}
+	can_select = {
+		custom_trigger_tooltip = {
+			tooltip = unavailable_during_revolution_disaster
+			NOT = { has_disaster = revolution }
+			NOT = {
+				has_disaster_progress = {
+					disaster = revolution
+					value = 1
+				}
+			}
+			NOT = { has_disaster = french_revolution }
+			NOT = {
+				has_disaster_progress = {
+					disaster = french_revolution
+					value = 1
+				}
+			}
+		}
+	}
+	
+	conditional_modifier = {
+		trigger = {
+			has_country_flag = QIR_buff_wool_privilege_flag
+		}
+		modifier = {
+			turkic_tribes_loyalty_modifier = 0.05
+		}
+	}
+	on_granted = {
+		if = {
+			limit = {
+				has_country_flag = QIR_buff_wool_privilege_flag
+			}
+			if = {
+				limit = {
+					wool = 1
+				}
+				add_mercantilism = 2
+			}
+			add_years_of_owned_provinces_production_income = {
+				years = 16
+				trigger = {
+					trade_goods = wool
+				}
+				custom_tooltip = MONOPOLY_INCOME_WOOL_DESC
+			}
+			custom_tooltip = estate_church_monopoly_of_wool_effect_tooltip
+		}
+		else = {
+			if = {
+				limit = {
+					wool = 1
+				}
+				add_mercantilism = 1
+			}
+			add_years_of_owned_provinces_production_income = {
+				years = 8
+				trigger = {
+					trade_goods = wool
+				}
+				custom_tooltip = MONOPOLY_INCOME_WOOL_DESC
+			}
+			custom_tooltip = estate_church_monopoly_of_wool_effect_tooltip
+		}
+	}
+	on_granted_province = {
+		if = {
+			limit = {
+				trade_goods = wool
+			}
+			add_province_modifier = {
+				name = estate_church_monopoly_of_wool_mod
+				duration = -1
+			}
+		}
+		else_if = {
+			limit = {
+				has_province_modifier = estate_church_monopoly_of_wool_mod
+			}
+			remove_province_modifier = estate_church_monopoly_of_wool_mod
+		}
+	}
+	on_revoked = {
+		custom_tooltip = estate_church_monopoly_of_wool_revoke_tooltip
+	}
+	on_revoked_province = {
+		if = {
+			limit = {
+				has_province_modifier = estate_church_monopoly_of_wool_mod
+			}
+			remove_province_modifier = estate_church_monopoly_of_wool_mod
+		}
+	}
+	on_invalid = {
+		custom_tooltip = estate_church_monopoly_of_wool_revoke_tooltip
+	}
+	on_invalid_province = {
+		if = {
+			limit = {
+				has_province_modifier = estate_church_monopoly_of_wool_mod
+			}
+			remove_province_modifier = estate_church_monopoly_of_wool_mod
+		}
+	}
+	penalties = {
+	}
+	benefits = {
+	}
+	cooldown_years = 10
+	on_cooldown_expires = {
+		country_event = { id = monopoly_privileges.9 }
+	}
+	ai_will_do = {
+		factor = 0
+	}
+}
+
+estate_nobles_monopoly_of_gems = {
+	icon = privilege_monopoly_of_goods_gems
+	max_absolutism = -10
+	loyalty = 0.1
+	is_valid = {
+		has_dlc = "Emperor"
+		any_owned_province = {
+			trade_goods = gems
+		}
+	}
+	can_select = {
+		custom_trigger_tooltip = {
+			tooltip = unavailable_during_revolution_disaster
+			NOT = { has_disaster = revolution }
+			NOT = {
+				has_disaster_progress = {
+					disaster = revolution
+					value = 1
+				}
+			}
+			NOT = { has_disaster = french_revolution }
+			NOT = {
+				has_disaster_progress = {
+					disaster = french_revolution
+					value = 1
+				}
+			}
+		}
+	}
+	on_granted = {
+		if = {
+			limit = {
+				has_country_flag = ORM_gems_monopolies_buff
+			}
+			add_mercantilism = 2
+			add_years_of_owned_provinces_production_income = {
+				years = 16
+				trigger = {
+					trade_goods = gems
+				}
+				custom_tooltip = MONOPOLY_INCOME_GEMS_DESC
+			}
+			custom_tooltip = estate_nobles_monopoly_of_gems_effect_tooltip
+		}
+		else = {
+			add_mercantilism = 1
+			add_years_of_owned_provinces_production_income = {
+				years = 8
+				trigger = {
+					trade_goods = gems
+				}
+				custom_tooltip = MONOPOLY_INCOME_GEMS_DESC
+			}
+			custom_tooltip = estate_nobles_monopoly_of_gems_effect_tooltip
+		}
+	}
+	on_granted_province = {
+		if = {
+			limit = {
+				trade_goods = gems
+			}
+			add_province_modifier = {
+				name = estate_nobles_monopoly_of_gems_mod
+				duration = -1
+			}
+		}
+		else_if = {
+			limit = {
+				has_province_modifier = estate_nobles_monopoly_of_gems_mod
+			}
+			remove_province_modifier = estate_nobles_monopoly_of_gems_mod
+		}
+	}
+	on_revoked = {
+		custom_tooltip = estate_nobles_monopoly_of_gems_revoke_tooltip
+	}
+	on_revoked_province = {
+		if = {
+			limit = {
+				has_province_modifier = estate_nobles_monopoly_of_gems_mod
+			}
+			remove_province_modifier = estate_nobles_monopoly_of_gems_mod
+		}
+	}
+	on_invalid = {
+		custom_tooltip = estate_nobles_monopoly_of_gems_revoke_tooltip
+	}
+	on_invalid_province = {
+		if = {
+			limit = {
+				has_province_modifier = estate_nobles_monopoly_of_gems_mod
+			}
+			remove_province_modifier = estate_nobles_monopoly_of_gems_mod
+		}
+	}
+	penalties = {
+	}
+	benefits = {
+	}
+
+	cooldown_years = 10
+	on_cooldown_expires = {
+		country_event = { id = monopoly_privileges.7 }
+	}
+	ai_will_do = {
+		factor = 0
+	}
+}
+
+
+estate_church_enforced_one_faith = {
+	icon = privilege_recruit_inouisitor
+	max_absolutism = -5
+	loyalty = 0.1
+	is_valid = {
+		any_owned_province = {
+			NOT = { religion = root }
+		}
+	}
+	can_select = {
+		NOT = { has_estate_privilege = estate_burghers_enforced_interfaith_dialogue }
+		NOT = { has_estate_privilege = estate_dhimmi_tolerance }
+		NOT = { has_estate_privilege = estate_dhimmi_guarantee_of_traditions }
+	}
+	penalties = {
+		tolerance_heathen = -2
+		tolerance_heretic = -2
+	}
+	benefits = {
+		global_missionary_strength = 0.01
+		tolerance_own = 1
+	}
+	conditional_modifier = {
+		trigger = {
+			has_country_flag = ORM_empower_the_enforced_unity_of_faith_flag
+		}
+		modifier = {
+			global_heretic_missionary_strength = 0.015
+		}
+	}
+	cooldown_years = 20
+	on_cooldown_expires = {
+		remove_estate_privilege = estate_church_enforced_one_faith
+	}
+	ai_will_do = {
+		factor = 0
+	}
+}
+
+estate_burghers_private_trade_fleets = {
+	icon = privilege_comission_merchant_ships_for_war
+	max_absolutism = -5
+	influence = 0.1
+	loyalty = 0.05
+	is_valid = {
+		has_dlc = "Emperor"
+		any_owned_province = {
+			has_port = yes
+		}
+		navy_size = 1
+	}
+	penalties = {
+	}
+	benefits = {
+		light_ship_cost = -0.2
+		global_ship_trade_power = 0.1
+	}
+	
+	conditional_modifier = {
+		trigger = {
+			has_country_flag = YEM_upgrade_private_trade_fleets_flag
+		}
+		modifier = {
+			trade_efficiency = 0.05
+		}
+	}
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 10
+			num_of_light_ship = 15
+			trade_income_percentage = 0.35
+		}
+		modifier = {
+			factor = 0
+			is_absolutism_active = yes
+		}
+	}
+}
+
+estate_church_scholar_connections = {
+	icon = privilege_recruit_minister
+	max_absolutism = -5
+	influence = 0.1
+	loyalty = 0.05
+	is_valid = {
+		religion_group = muslim
+		has_dlc = "Cradle of Civilization"
+	}
+	can_select = {
+	}
+	on_granted = {
+		disable_scholar_cost = yes
+	}
+	on_revoked = {
+		enable_scholar_cost = yes
+	}
+	on_invalid = {
+		enable_scholar_cost = yes
+	}
+	penalties = {
+	}
+	benefits = {
+	}
+	
+	conditional_modifier = {
+		trigger = {
+			has_country_flag = AYY_establish_Religious_school_Buff
+		}
+		modifier = {
+			tolerance_own = 1
+		}
+	}
+	
+	conditional_modifier = {
+		trigger = {
+			has_country_flag = ARB_fiqh_privilege_upgrade
+			religious_school = {
+				group = muslim
+				school = hanafi_school
+			}
+		}
+		modifier = {
+			adm_tech_cost_modifier = -0.025
+		}
+	}
+	conditional_modifier = {
+		trigger = {
+			has_country_flag = ARB_fiqh_privilege_upgrade
+			religious_school = {
+				group = muslim
+				school = shafii_school
+			}
+		}
+		modifier = {
+			trade_efficiency = 0.05
+		}
+	}
+	conditional_modifier = {
+		trigger = {
+			has_country_flag = ARB_fiqh_privilege_upgrade
+			religious_school = {
+				group = muslim
+				school = hanbali_school
+			}
+		}
+		modifier = {
+			ae_impact = -0.05
+		}
+	}
+	conditional_modifier = {
+		trigger = {
+			has_country_flag = ARB_fiqh_privilege_upgrade
+			religious_school = {
+				group = muslim
+				school = maliki_school
+			}
+		}
+		modifier = {
+			development_cost = -0.05
+		}
+	}
+	conditional_modifier = {
+		trigger = {
+			has_country_flag = ARB_fiqh_privilege_upgrade
+			religious_school = {
+				group = muslim
+				school = ismaili_school
+			}
+		}
+		modifier = {
+			legitimacy = 0.5
+		}
+	}
+	conditional_modifier = {
+		trigger = {
+			has_country_flag = ARB_fiqh_privilege_upgrade
+			religious_school = {
+				group = muslim
+				school = jafari_school
+			}
+		}
+		modifier = {
+			shock_damage = 0.05
+		}
+	}
+	conditional_modifier = {
+		trigger = {
+			has_country_flag = ARB_fiqh_privilege_upgrade
+			religious_school = {
+				group = muslim
+				school = zaidi_school
+			}
+		}
+		modifier = {
+			shock_damage_received = -0.05
+		}
+	}
+	
+	ai_will_do = {
+		factor = 15
+		modifier = {
+			factor = 0
+			is_absolutism_active = yes
+		}
+	}
+}
+
+estate_burghers_patronage_of_the_arts = {
+	icon = privilege_build_jain_temple
+	max_absolutism = -5
+	loyalty = 0.05
+	influence = 0.05
+	penalties = {
+		global_tax_modifier = -0.05
+	}
+	benefits = {
+		prestige = 0.5
+	}
+	
+	conditional_modifier = {
+		trigger = {
+			has_country_flag = AKK_patronage_of_arts_buff
+			calc_true_if = {
+				accepted_culture = persian
+				accepted_culture = mazandarani
+				accepted_culture = kurdish
+				accepted_culture = afghani
+				accepted_culture = baluchi
+				accepted_culture = khorasani
+				accepted_culture = azerbaijani
+				accepted_culture = luri
+				amount = 5
+			}
+		}
+		modifier = {
+			prestige = 0.5
+		}
+	}
+	conditional_modifier = {
+		trigger = {
+			has_country_flag = AKK_patronage_of_arts_buff
+			calc_true_if = {
+				accepted_culture = persian
+				accepted_culture = mazandarani
+				accepted_culture = kurdish
+				accepted_culture = afghani
+				accepted_culture = baluchi
+				accepted_culture = khorasani
+				accepted_culture = azerbaijani
+				accepted_culture = luri
+				amount = 4
+			}
+			NOT = {
+				calc_true_if = {
+					accepted_culture = persian
+					accepted_culture = mazandarani
+					accepted_culture = kurdish
+					accepted_culture = afghani
+					accepted_culture = baluchi
+					accepted_culture = khorasani
+					accepted_culture = azerbaijani
+					accepted_culture = luri
+					amount = 5
+				}
+			}
+		}
+		modifier = {
+			prestige = 0.4
+		}
+	}
+	conditional_modifier = {
+		trigger = {
+			has_country_flag = AKK_patronage_of_arts_buff
+			calc_true_if = {
+				accepted_culture = persian
+				accepted_culture = mazandarani
+				accepted_culture = kurdish
+				accepted_culture = afghani
+				accepted_culture = baluchi
+				accepted_culture = khorasani
+				accepted_culture = azerbaijani
+				accepted_culture = luri
+				amount = 3
+			}
+			NOT = {
+				calc_true_if = {
+					accepted_culture = persian
+					accepted_culture = mazandarani
+					accepted_culture = kurdish
+					accepted_culture = afghani
+					accepted_culture = baluchi
+					accepted_culture = khorasani
+					accepted_culture = azerbaijani
+					accepted_culture = luri
+					amount = 4
+				}
+			}
+		}
+		modifier = {
+			prestige = 0.3
+		}
+	}
+	conditional_modifier = {
+		trigger = {
+			has_country_flag = AKK_patronage_of_arts_buff
+			calc_true_if = {
+				accepted_culture = persian
+				accepted_culture = mazandarani
+				accepted_culture = kurdish
+				accepted_culture = afghani
+				accepted_culture = baluchi
+				accepted_culture = khorasani
+				accepted_culture = azerbaijani
+				accepted_culture = luri
+				amount = 2
+			}
+			NOT = {
+				calc_true_if = {
+					accepted_culture = persian
+					accepted_culture = mazandarani
+					accepted_culture = kurdish
+					accepted_culture = afghani
+					accepted_culture = baluchi
+					accepted_culture = khorasani
+					accepted_culture = azerbaijani
+					accepted_culture = luri
+					amount = 3
+				}
+			}
+		}
+		modifier = {
+			prestige = 0.2
+		}
+	}
+	conditional_modifier = {
+		trigger = {
+			has_country_flag = AKK_patronage_of_arts_buff
+			OR = {
+				accepted_culture = persian
+				accepted_culture = mazandarani
+				accepted_culture = kurdish
+				accepted_culture = afghani
+				accepted_culture = baluchi
+				accepted_culture = khorasani
+				accepted_culture = azerbaijani
+				accepted_culture = luri
+			}
+			NOT = {
+				calc_true_if = {
+					accepted_culture = persian
+					accepted_culture = mazandarani
+					accepted_culture = kurdish
+					accepted_culture = afghani
+					accepted_culture = baluchi
+					accepted_culture = khorasani
+					accepted_culture = azerbaijani
+					accepted_culture = luri
+					amount = 2
+				}
+			}
+		}
+		modifier = {
+			prestige = 0.1
+		}
+	}
+		
+	on_granted = {
+		if = {
+			limit = {
+				has_country_flag = AYY_buff_prestige_priv
+			}
+			if = {
+				limit = { prestige = 50 }
+				add_prestige_or_monarch_power = { amount = 20 }
+			}
+			else_if = {
+				limit = { prestige = 0 }
+				add_prestige_or_monarch_power = { amount = 30 }
+			}
+			else_if = {
+				limit = { prestige = -25 }
+				add_prestige_or_monarch_power = { amount = 40 }
+			}
+			else_if = {
+				limit = { prestige = -50 }
+				add_prestige_or_monarch_power = { amount = 50 }
+			}
+			else = {
+				add_prestige_or_monarch_power = { amount = 60 }
+			}
+		}
+		else = {
+			if = {
+				limit = { prestige = 50 }
+				add_prestige = 10
+			}
+			else_if = {
+				limit = { prestige = 0 }
+				add_prestige = 15
+			}
+			else_if = {
+				limit = { prestige = -25 }
+				add_prestige = 20
+			}
+			else_if = {
+				limit = { prestige = -50 }
+				add_prestige = 25
+			}
+			else = {
+				add_prestige = 30
+			}
+		}
+	}
+	ai_will_do = {
+		factor = 0
+	}
+}
+
+estate_nobles_better_integration = {
+	icon = privilege_better_integration
+	max_absolutism = -10
+	influence = 0.15
+	loyalty = 0.05
+	is_valid = {
+		any_subject_country = {
+			OR = {
+				is_subject_of_type = vassal
+				is_subject_of_type = client_vassal
+				is_subject_of_type = daimyo_vassal
+				is_subject_of_type = personal_union
+			}
+		}
+	}
+	can_select = {
+	}
+	conditional_modifier = {
+		trigger = {
+			has_country_flag = MAM_buff_to_amirs_integration_policy_flag
+		}
+		modifier = {
+			reduced_liberty_desire = 15
+			diplomatic_annexation_cost = -0.05
+		}
+	}
+	on_granted = {
+		disable_annexation_penalty = yes
+	}
+	on_revoked = {
+		enable_annexation_penalty = yes
+	}
+	on_invalid = {
+		enable_annexation_penalty = yes
+	}
+	penalties = {
+		reduced_liberty_desire = -15
+	}
+	benefits = {
+		diplomatic_annexation_cost = -0.05
+	}
+	cooldown_years = 10
+	ai_will_do = {
+		factor = 10
+	}
+}
+
+estate_church_clerical_ministers = {
+	icon = privilege_recruit_minister
+	max_absolutism = -5
+	influence = 0.10
+	is_valid = {
+	}
+	can_select = {
+		NOT = {
+			has_estate_privilege = ME_estate_church_tariqa 
+		}
+	}
+	conditional_modifier = {
+		trigger = {
+			if = {
+				limit = {
+					has_dlc = "Common Sense"
+				}
+				NOT = { religion = protestant }
+				NOT = { religion = buddhism }
+				NOT = { religion = vajrayana }
+				NOT = { religion = mahayana }
+			}
+			if = {
+				limit = {
+					has_dlc = "Emperor"
+				}
+				NOT = { religion = hussite }
+			}
+			if = {
+				limit = {
+					has_dlc = "Wealth of Nations"
+				}
+				NOT = { religion = reformed }
+			}
+			if = {
+				limit = {
+					has_dlc = "Cradle of Civilization"
+				}
+				NOT = { religion_group = muslim }
+			}
+			if = {
+				limit = {
+					has_dlc = "Mandate of Heaven"
+				}
+				NOT = { religion = confucianism }
+			}
+			if = {
+				limit = {
+					has_dlc = "Third Rome"
+				}
+				NOT = { religion = orthodox }
+			}
+			if = {
+				limit = {
+					has_dlc = "Origins"
+				}
+				NOT = { religion = jewish }
+			}
+			NOT = { religion = anglican }
+		}
+		modifier = {
+			missionary_maintenance_cost = -0.2
+		}
+	}
+	conditional_modifier = {
+		trigger = {
+			has_dlc = "Common Sense"
+			OR = {
+				religion = buddhism
+				religion = vajrayana
+				religion = mahayana
+			}
+		}
+		modifier = {
+			yearly_karma_decay = 0.05
+		}
+	}
+	conditional_modifier = {
+		trigger = {
+			has_dlc = "Common Sense"
+			religion = protestant
+		}
+		modifier = {
+			church_power_modifier = 0.1
+		}
+	}
+	conditional_modifier = {
+		trigger = {
+			has_dlc = "Emperor"
+			religion = hussite
+		}
+		modifier = {
+			church_power_modifier = 0.1
+		}
+	}
+	conditional_modifier = {
+		trigger = {
+			has_dlc = "Origins"
+			religion = jewish
+		}
+		modifier = {
+			church_power_modifier = 0.1
+		}
+	}
+	conditional_modifier = {
+		trigger = {
+			has_dlc = "Wealth of Nations"
+			religion = reformed
+		}
+		modifier = {
+			monthly_fervor_increase = 0.5
+		}
+	}
+	conditional_modifier = {
+		trigger = {
+			has_dlc = "Cradle of Civilization"
+			religion_group = muslim
+			NOT = { has_country_flag = NAJ_get_double_piety_from_clerical_ministers_priv_flag }
+		}
+		modifier = {
+			monthly_piety = 0.001
+		}
+	}
+	conditional_modifier = {
+		trigger = {
+			has_dlc = "Cradle of Civilization"
+			religion_group = muslim
+			has_country_flag = NAJ_get_double_piety_from_clerical_ministers_priv_flag
+		}
+		modifier = {
+			monthly_piety = 0.002
+		}
+	}
+	conditional_modifier = {
+		trigger = {
+			has_dlc = "Mandate of Heaven"
+			religion = confucianism
+		}
+		modifier = {
+			yearly_harmony = 0.25
+		}
+	}
+	conditional_modifier = {
+		trigger = {
+			has_dlc = "Third Rome"
+			religion = orthodox
+		}
+		modifier = {
+			yearly_patriarch_authority = 0.005
+		}
+	}
+	conditional_modifier = {
+		trigger = {
+			religion = anglican
+		}
+		modifier = {
+			church_power_modifier = 0.1
+		}
+	}
+	conditional_modifier = {
+		trigger = {
+			has_government_attribute = clerical_ministers_tech_buff
+		}
+		modifier = {
+			technology_cost = -0.05
+		}
+	}
+	conditional_modifier = {
+		trigger = {
+			piety = 0.5
+			has_country_flag = NAJ_clerical_ministers_buff
+		}
+		modifier = {
+			global_prosperity_growth = 0.5
+		}
+	}
+	on_granted = {
+		if = {
+			limit = {
+				has_country_flag = NAJ_clerical_ministers_buff
+				has_dlc = "Mandate of Heaven"
+			}
+			custom_tooltip = NAJ_clerical_ministers_buff_tooltip
+		}
+	}
+	penalties = {
+	}
+	benefits = {
+	}
+	ai_will_do = {
+		factor = 10
+		modifier = {
+			factor = 0.5
+			is_absolutism_active = yes
+		}
+		modifier = {
+			factor = 0.5
+			OR = {
+				religion = protestant
+				religion = anglican
+			}
+			religion = protestant
+			num_of_aspects = 3
+		}
+		modifier = {
+			factor = 10
+			religion = orthodox
+			has_dlc = "Third Rome"
+		}
+	}
+}
+
+estate_church_independent_inquisition = {
+	icon = privilege_empty_throne
+	max_absolutism = -5
+	influence = 0.1
+	loyalty = 0.05
+	conditional_modifier = {
+		trigger = {
+			NOT = { has_country_flag = ARB_no_penalty_from_clerical_advisory_council }
+		}
+		modifier = {
+			stability_cost_modifier = 0.1
+		}
+	}
+	conditional_modifier = {
+		trigger = {
+			has_country_flag = ARB_no_penalty_from_clerical_advisory_council
+		}
+		modifier = {
+			max_absolutism = 5 
+		}
+	}
+	penalties = {
+	}
+	benefits = {
+		adm_advisor_cost = -0.25
+	}
+	ai_will_do = {
+		factor = 9
+		modifier = {
+			factor = 0.5
+			is_absolutism_active = yes
+		}
+		modifier = {
+			factor = 3
+			uses_meritocracy = yes
+		}
+	}
+}
+
+estate_dhimmi_dhimmi_nobles = {
+	icon = privilege_promoto_dhimmi_nobles
+	max_absolutism = -5
+	loyalty = 0.1
+	influence = 0.1
+	penalties = {
+		
+	}
+	benefits = {
+		free_leader_pool = 1
+	}
+	conditional_modifier = {
+		trigger = {
+			NOT = { has_global_flag = neo_sufism }
+		}
+		modifier = {
+			church_loyalty_modifier = -0.05
+			nobles_loyalty_modifier = -0.05
+		}
+	}
+	conditional_modifier = {
+		trigger = {
+			has_global_flag = neo_sufism
+		}
+		modifier = {
+			church_loyalty_modifier = -0.1
+			nobles_loyalty_modifier = -0.1
+		}
+	}
+	ai_will_do = {
+		factor = 0
+	}
+}
+
+estate_dhimmi_guaranteed_autonomy = {
+	icon = privilege_grant_autonomy
+	max_absolutism = -5
+	loyalty = 0.1
+	influence = 0.05
+	is_valid = {
+		any_owned_province = {
+			NOT = { religion_group = root }
+		}
+		NOT = { has_unlocked_estate_privilege = { estate_privilege = estate_dhimmi_guarantee_of_traditions } }
+	}
+	on_granted = {
+		custom_tooltip = estate_dhimmi_guaranteed_autonomy_effect_tooltip
+		hidden_effect = {
+			set_country_flag = dhimmi_tolerates_wrong_religion
+		}
+	}
+	on_granted_province = {
+		if = {
+			limit = {
+				NOT = { religion_group = root }
+			}
+			add_province_modifier = {
+				name = estate_dhimmi_guaranteed_autonomy_mod
+				duration = -1
+			}
+		}
+		else_if = {
+			limit = {
+				has_province_modifier = estate_dhimmi_guaranteed_autonomy_mod
+			}
+			remove_province_modifier = estate_dhimmi_guaranteed_autonomy_mod
+		}
+	}
+	on_revoked = {
+		custom_tooltip = estate_dhimmi_guaranteed_autonomy_revoke_effect_tooltip
+		hidden_effect = {
+			clr_country_flag = dhimmi_tolerates_wrong_religion
+		}
+	}
+	on_revoked_province = {
+		if = {
+			limit = {
+				has_province_modifier = estate_dhimmi_guaranteed_autonomy_mod
+			}
+			remove_province_modifier = estate_dhimmi_guaranteed_autonomy_mod
+		}
+	}
+	on_invalid = {
+		custom_tooltip = estate_dhimmi_guaranteed_autonomy_revoke_effect_tooltip
+		hidden_effect = {
+			clr_country_flag = dhimmi_tolerates_wrong_religion
+		}
+	}
+	on_invalid_province = {
+		if = {
+			limit = {
+				has_province_modifier = estate_dhimmi_guaranteed_autonomy_mod
+			}
+			remove_province_modifier = estate_dhimmi_guaranteed_autonomy_mod
+		}
+	}
+	penalties = {
+	}
+	benefits = {
+	}
+	conditional_modifier = {
+		trigger = { has_government_attribute = free_guarantee_dhimmi_autonomy }
+		modifier = {
+			max_absolutism = 5
+			dhimmi_influence_modifier = -0.05
+		}
+	}
+	ai_will_do = {
+		factor = 1000
+		modifier = {
+			factor = 0
+			NOT = {
+				any_owned_province = {
+					NOT = { religion_group = ROOT }
+				}
+			}
+		}
+		modifier = {
+			factor = 0
+			is_subject = yes
+			overlord = {
+				religion = ROOT
+				NOT = { has_estate_privilege = estate_dhimmi_guaranteed_autonomy }
+			}
+		}
+	}
+}
+
+estate_burghers_monopoly_of_textiles = {
+	icon = privilege_monopoly_of_goods_cloth
+	max_absolutism = -10
+	loyalty = 0.1
+	is_valid = {
+		has_dlc = "Emperor"
+		any_owned_province = {
+			OR = {
+				trade_goods = cloth
+				trade_goods = silk
+			}
+		}
+	}
+	can_select = {
+		custom_trigger_tooltip = {
+			tooltip = unavailable_during_revolution_disaster
+			NOT = { has_disaster = revolution }
+			NOT = {
+				has_disaster_progress = {
+					disaster = revolution
+					value = 1
+				}
+			}
+			NOT = { has_disaster = french_revolution }
+			NOT = {
+				has_disaster_progress = {
+					disaster = french_revolution
+					value = 1
+				}
+			}
+		}
+	}
+	on_granted = {
+		if = {
+			limit = {
+				OR = {
+					cloth = 1
+					silk = 1
+				}
+			}
+			if = {
+				limit = {
+					has_country_flag = RUM_monopoly_on_textiles_flag
+				}
+				add_mercantilism = 2
+			}
+			else = {
+				add_mercantilism = 1
+			}
+		}
+		if = {
+			limit = {
+				has_country_flag = RUM_monopoly_on_textiles_flag
+			}
+			add_years_of_owned_provinces_production_income = {
+				years = 12
+				trigger = {
+					OR = {
+						trade_goods = cloth
+						trade_goods = silk
+					}
+				}
+				custom_tooltip = MONOPOLY_INCOME_CLOTH_DESC
+			}
+		}
+		else = {
+			add_years_of_owned_provinces_production_income = {
+				years = 8
+				trigger = {
+					OR = {
+						trade_goods = cloth
+						trade_goods = silk
+					}
+				}
+				custom_tooltip = MONOPOLY_INCOME_CLOTH_DESC
+			}
+		}
+		
+		custom_tooltip = estate_burghers_monopoly_of_textiles_effect_tooltip
+	}
+	on_granted_province = {
+		if = {
+			limit = {
+				OR = {
+					trade_goods = cloth
+					trade_goods = silk
+				}
+			}
+			add_province_modifier = {
+				name = estate_burghers_monopoly_of_textiles_mod
+				duration = -1
+			}
+		}
+		else_if = {
+			limit = {
+				has_province_modifier = estate_burghers_monopoly_of_textiles_mod
+			}
+			remove_province_modifier = estate_burghers_monopoly_of_textiles_mod
+		}
+	}
+	on_revoked = {
+		custom_tooltip = estate_burghers_monopoly_of_textiles_revoke_tooltip
+	}
+	on_revoked_province = {
+		if = {
+			limit = {
+				has_province_modifier = estate_burghers_monopoly_of_textiles_mod
+			}
+			remove_province_modifier = estate_burghers_monopoly_of_textiles_mod
+		}
+	}
+	on_invalid = {
+		custom_tooltip = estate_burghers_monopoly_of_textiles_revoke_tooltip
+	}
+	on_invalid_province = {
+		if = {
+			limit = {
+				has_province_modifier = estate_burghers_monopoly_of_textiles_mod
+			}
+			remove_province_modifier = estate_burghers_monopoly_of_textiles_mod
+		}
+	}
+	penalties = {
+	}
+	benefits = {
+	}
+	cooldown_years = 10
+	on_cooldown_expires = {
+		country_event = { id = monopoly_privileges.1 }
+	}
+	ai_will_do = { #having the AI use these could lead to an unstoppable downwards spiral if it can't work out how to get rid of them
+		factor = 0
+	}
+}
