@@ -327,7 +327,7 @@ eastern_choice = {
 			add_prestige = 10
 			add_country_modifier = { 
     				name = religious_uni_modifier
-    				duration = 9125
+    				duration = -1
 			}
 		}
 	}
@@ -467,7 +467,7 @@ shinto_choice = {
 			add_prestige = 10
 			add_country_modifier = { 
     				name = religious_uni_modifier
-    				duration = 9125
+    				duration = -1
 			}
 		}
 	}	
@@ -585,7 +585,7 @@ muslim_choice = {
 			add_prestige = 10
 			add_country_modifier = { 
     				name = religious_uni_modifier
-    				duration = 9125
+    				duration = -1
 			}
 		}
 	}
@@ -736,7 +736,7 @@ christian_choice = {
 			add_prestige = 10
 			add_country_modifier = { 
     				name = religious_uni_modifier
-    				duration = 9125
+    				duration = -1
 			}
 		}
 	}
@@ -811,7 +811,7 @@ christian_choice = {
 		effect = {
 			add_country_modifier = { 
     				name = RSS_crusade 
-    				duration = 3650
+    				duration = -1
 			}
 		}
 	}

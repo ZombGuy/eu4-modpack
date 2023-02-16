@@ -39,7 +39,7 @@ uzbek_disaster = {
 		effect = {
 			add_country_modifier = {
 				name = shy_quell_the_kazakhs
-				duration = 7300
+				duration = -1
 			}
 		}
 	}
@@ -397,7 +397,7 @@ kazan_missions = {
 			add_prestige = 15
 			add_country_modifier = {
 				name = kaz_repel_the_russians
-				duration = 7300
+				duration = -1
 			}
 		}
 	}

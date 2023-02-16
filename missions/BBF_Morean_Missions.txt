@@ -366,7 +366,7 @@ morean_restore_byzantium = {
 		effect = {
 			add_country_modifier = { 
     				name = "MOE_aegean_trade_modifier"
-    				duration = 7300
+    				duration = -1
 			}
 		}
 		ai_weight = {
@@ -534,7 +534,7 @@ morean_diplomats = {
 		effect = {
 			add_country_modifier = {
 				name = "mediterranean_ambition"
-				duration = 3650
+				duration = -1
 			}
 			delta_area = {
 				limit = {
@@ -639,7 +639,7 @@ morean_institutions = {
 		effect = {
 			add_country_modifier = {
 				name = "MOE_return_of_intelligentsia_modifier"
-				duration = 7300
+				duration = -1
 			}
 		}
 		ai_weight = {

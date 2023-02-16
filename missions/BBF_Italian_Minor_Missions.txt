@@ -37,7 +37,7 @@ italian_minor_group_1 = {
 		effect = {
 			add_country_modifier = {
 				name = "itm_italian_renaissance_modifier"
-				duration = 7300
+				duration = -1
 			}
 		}
 	}
@@ -59,7 +59,7 @@ italian_minor_group_1 = {
 			add_adm_power = 50
 			add_country_modifier = {
 				name = "itm_labor_surplus"
-				duration = 9125
+				duration = -1
 			}
 		}
 	}
@@ -288,7 +288,7 @@ italian_minor_group_3 = {
 		effect = {
 			add_country_modifier = {
 				name = itm_italian_powerhouse
-				duration = 9125
+				duration = -1
 			}
 		}
 	}
