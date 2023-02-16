@@ -8,3 +8,8 @@ NDefines.NMilitary.HEAVY_SHIP_COMBAT_WIDTH = 1
 NDefines.NMilitary.LIGHT_SHIP_COMBAT_WIDTH = 0.5
 NDefines.NMilitary.GALLEY_COMBAT_WIDTH = 0.5
 NDefines.NMilitary.TRANSPORT_COMBAT_WIDTH = 0.5
+
+
+
+
+NDefines.NMilitary.LEADER_MAX_PIPS = 9
