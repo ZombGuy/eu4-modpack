@@ -1,0 +1,5 @@
+#5000 - High Atlas
+
+discovered_by = muslim
+discovered_by = ottoman
+discovered_by = western
