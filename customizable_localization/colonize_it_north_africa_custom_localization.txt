@@ -1,0 +1,25 @@
+
+defined_text = {
+	name = Colonize_it_north_africa_ver
+	text = {
+		localisation_key = Colonize_it_north_africa_ver
+	}
+}
+defined_text = {
+	name = Colonize_it_north_africa_month
+	text = {
+		localisation_key = Colonize_it_north_africa_month
+	}
+}
+defined_text = {
+	name = Colonize_it_north_africa_date
+	text = {
+		localisation_key = Colonize_it_north_africa_date
+	}
+}
+defined_text = {
+	name = Colonize_it_north_africa_year
+	text = {
+		localisation_key = Colonize_it_north_africa_year
+	}
+}

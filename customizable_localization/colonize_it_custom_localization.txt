@@ -1,0 +1,553 @@
+
+defined_text = {
+	name = Colonize_it_ver
+
+	text = {
+		localisation_key = Colonize_it_ver
+	}
+}
+
+defined_text = {
+	name = Colonize_it_year
+
+	text = {
+		localisation_key = Colonize_it_year
+	}
+}
+
+defined_text = {
+	name = Colonize_it_month
+
+	text = {
+		localisation_key = Colonize_it_month
+	}
+}
+
+defined_text = {
+	name = Colonize_it_date
+
+	text = {
+		localisation_key = Colonize_it_date
+	}
+}
+defined_text = {
+	name = ci_filter_trade_company_view
+
+	text = {
+		localisation_key = ci_filter_off
+		trigger = {
+			NOT = { has_country_flag = ci_filter_trade_company }
+		}
+	}
+	text = {
+		localisation_key = ci_filter_on
+		trigger = {
+			has_country_flag = ci_filter_trade_company
+		}
+	}
+}
+defined_text = {
+	name = ci_filter_region_view
+
+	text = {
+		localisation_key = ci_filter_off
+		trigger = {
+			NOT = { has_country_flag = ci_filter_region }
+		}
+	}
+	text = {
+		localisation_key = ci_filter_on
+		trigger = {
+			has_country_flag = ci_filter_region
+		}
+	}
+}
+defined_text = {
+	name = colonize_it_to_transfer
+
+	text = {
+		localisation_key = colonize_it_default_name_indonesia
+		trigger = {
+			has_country_flag = indonesia_colony
+		}
+	}
+	text = {
+		localisation_key = colonize_it_default_name_moluccas
+		trigger = {
+			has_country_flag = moluccas_colony
+		}
+	}
+	text = {
+		localisation_key = colonize_it_default_name_philippines
+		trigger = {
+			has_country_flag = philippines_colony
+		}
+	}
+	text = {
+		localisation_key = colonize_it_default_name_indochina
+		trigger = {
+			has_country_flag = indochina_colony
+		}
+	}
+	text = {
+		localisation_key = colonize_it_default_name_burma
+		trigger = {
+			has_country_flag = burma_colony
+		}
+	}
+	text = {
+		localisation_key = colonize_it_default_name_north_sea
+		trigger = {
+			has_country_flag = north_sea_colony
+		}
+	}
+	text = {
+		localisation_key = colonize_it_default_name_english_channel
+		trigger = {
+			has_country_flag = english_channel_colony
+		}
+	}
+	text = {
+		localisation_key = colonize_it_default_name_bordeaux
+		trigger = {
+			has_country_flag = bordeaux_colony
+		}
+	}
+	text = {
+		localisation_key = colonize_it_default_name_champagne
+		trigger = {
+			has_country_flag = champagne_colony
+		}
+	}
+	text = {
+		localisation_key = colonize_it_default_name_sevilla
+		trigger = {
+			has_country_flag = sevilla_colony
+		}
+	}
+	text = {
+		localisation_key = colonize_it_default_name_valencia
+		trigger = {
+			has_country_flag = valencia_colony
+		}
+	}
+	text = {
+		localisation_key = colonize_it_default_name_venice
+		trigger = {
+			has_country_flag = venice_colony
+		}
+	}
+	text = {
+		localisation_key = colonize_it_default_name_genua
+		trigger = {
+			has_country_flag = genua_colony
+		}
+	}
+	text = {
+		localisation_key = colonize_it_default_name_rheinland
+		trigger = {
+			has_country_flag = rheinland_colony
+		}
+	}
+	text = {
+		localisation_key = colonize_it_default_name_wien
+		trigger = {
+			has_country_flag = wien_colony
+		}
+	}
+	text = {
+		localisation_key = colonize_it_default_name_saxony
+		trigger = {
+			has_country_flag = saxony_colony
+		}
+	}
+	text = {
+		localisation_key = colonize_it_default_name_lubeck
+		trigger = {
+			has_country_flag = lubeck_colony
+		}
+	}
+	text = {
+		localisation_key = colonize_it_default_name_baltic_sea
+		trigger = {
+			has_country_flag = baltic_sea_colony
+		}
+	}
+	text = {
+		localisation_key = colonize_it_default_name_krakow
+		trigger = {
+			has_country_flag = krakow_colony
+		}
+	}
+	text = {
+		localisation_key = colonize_it_default_name_pest
+		trigger = {
+			has_country_flag = pest_colony
+		}
+	}
+	text = {
+		localisation_key = colonize_it_default_name_ragusa
+		trigger = {
+			has_country_flag = ragusa_colony
+		}
+	}
+	text = {
+		localisation_key = colonize_it_default_name_crimea
+		trigger = {
+			has_country_flag = crimea_colony
+		}
+	}
+	text = {
+		localisation_key = colonize_it_default_name_kiev
+		trigger = {
+			has_country_flag = kiev_colony
+		}
+	}
+	text = {
+		localisation_key = colonize_it_default_name_novgorod
+		trigger = {
+			has_country_flag = novgorod_colony
+		}
+	}
+	text = {
+		localisation_key = colonize_it_default_name_white_sea
+		trigger = {
+			has_country_flag = white_sea_colony
+		}
+	}
+	text = {
+		localisation_key = colonize_it_default_name_kazan
+		trigger = {
+			has_country_flag = kazan_colony
+		}
+	}
+	text = {
+		localisation_key = colonize_it_default_name_astrakhan
+		trigger = {
+			has_country_flag = astrakhan_colony
+		}
+	}
+	text = {
+		localisation_key = colonize_it_default_name_constantinople
+		trigger = {
+			has_country_flag = constantinople_colony
+		}
+	}
+	text = {
+		localisation_key = colonize_it_default_name_aleppo
+		trigger = {
+			has_country_flag = aleppo_colony
+		}
+	}
+	text = {
+		localisation_key = colonize_it_default_name_alexandria
+		trigger = {
+			has_country_flag = alexandria_colony
+		}
+	}
+	text = {
+		localisation_key = colonize_it_default_name_basra
+		trigger = {
+			has_country_flag = basra_colony
+		}
+	}
+	text = {
+		localisation_key = colonize_it_default_name_gulf_of_aden
+		trigger = {
+			has_country_flag = gulf_of_aden_colony
+		}
+	}
+	text = {
+		localisation_key = colonize_it_default_name_persia
+		trigger = {
+			has_country_flag = persia_colony
+		}
+	}
+	text = {
+		localisation_key = colonize_it_default_name_hormuz
+		trigger = {
+			has_country_flag = hormuz_colony
+		}
+	}
+	text = {
+		localisation_key = colonize_it_default_name_tunis
+		trigger = {
+			has_country_flag = tunis_colony
+		}
+	}
+	text = {
+		localisation_key = colonize_it_default_name_safi
+		trigger = {
+			has_country_flag = safi_colony
+		}
+	}
+	text = {
+		localisation_key = colonize_it_default_name_timbuktu
+		trigger = {
+			has_country_flag = timbuktu_colony
+		}
+	}
+	text = {
+		localisation_key = colonize_it_default_name_west_africa
+		trigger = {
+			has_country_flag = west_africa_colony
+		}
+	}
+	text = {
+		localisation_key = colonize_it_default_name_ethiopia
+		trigger = {
+			has_country_flag = ethiopia_colony
+		}
+	}
+	text = {
+		localisation_key = colonize_it_default_name_east_africa
+		trigger = {
+			has_country_flag = east_africa_colony
+		}
+	}
+	text = {
+		localisation_key = colonize_it_default_name_great_lakes
+		trigger = {
+			has_country_flag = great_lakes_colony
+		}
+	}
+	text = {
+		localisation_key = colonize_it_default_name_zambezi
+		trigger = {
+			has_country_flag = zambezi_colony
+		}
+	}
+	text = {
+		localisation_key = colonize_it_default_name_kongo
+		trigger = {
+			has_country_flag = kongo_colony
+		}
+	}
+	text = {
+		localisation_key = colonize_it_default_name_south_africa
+		trigger = {
+			has_country_flag = south_africa_colony
+		}
+	}
+	text = {
+		localisation_key = colonize_it_default_name_lahore
+		trigger = {
+			has_country_flag = lahore_colony
+		}
+	}
+	text = {
+		localisation_key = colonize_it_default_name_west_india
+		trigger = {
+			has_country_flag = west_india_colony
+		}
+	}
+	text = {
+		localisation_key = colonize_it_default_name_north_india
+		trigger = {
+			has_country_flag = north_india_colony
+		}
+	}
+	text = {
+		localisation_key = colonize_it_default_name_deccan
+		trigger = {
+			has_country_flag = deccan_colony
+		}
+	}
+	text = {
+		localisation_key = colonize_it_default_name_coromandel
+		trigger = {
+			has_country_flag = coromandel_colony
+		}
+	}
+	text = {
+		localisation_key = colonize_it_default_name_east_india
+		trigger = {
+			has_country_flag = east_india_colony
+		}
+	}
+	text = {
+		localisation_key = colonize_it_default_name_samarkand
+		trigger = {
+			has_country_flag = samarkand_colony
+		}
+	}
+	text = {
+		localisation_key = colonize_it_default_name_siberia
+		trigger = {
+			has_country_flag = siberia_colony
+		}
+	}
+	text = {
+		localisation_key = colonize_it_default_name_yumen
+		trigger = {
+			has_country_flag = yumen_colony
+		}
+	}
+	text = {
+		localisation_key = colonize_it_default_name_lhasa
+		trigger = {
+			has_country_flag = lhasa_colony
+		}
+	}
+	text = {
+		localisation_key = colonize_it_default_name_north_china
+		trigger = {
+			has_country_flag = north_china_colony
+		}
+	}
+	text = {
+		localisation_key = colonize_it_default_name_chengdu
+		trigger = {
+			has_country_flag = chengdu_colony
+		}
+	}
+	text = {
+		localisation_key = colonize_it_default_name_xian
+		trigger = {
+			has_country_flag = xian_colony
+		}
+	}
+	text = {
+		localisation_key = colonize_it_default_name_south_china
+		trigger = {
+			has_country_flag = south_china_colony
+		}
+	}
+	text = {
+		localisation_key = colonize_it_default_name_east_china
+		trigger = {
+			has_country_flag = east_china_colony
+		}
+	}
+	text = {
+		localisation_key = colonize_it_default_name_girin
+		trigger = {
+			has_country_flag = girin_colony
+		}
+	}
+	text = {
+		localisation_key = colonize_it_default_name_nippon
+		trigger = {
+			has_country_flag = nippon_colony
+		}
+	}
+	text = {
+		localisation_key = colonize_it_default_name_polynesia
+		trigger = {
+			has_country_flag = polynesia_colony
+		}
+	}
+	text = {
+		localisation_key = colonize_it_default_name_katsina
+		trigger = {
+			has_country_flag = katsina_colony
+		}
+	}
+	text = {
+		localisation_key = colonize_it_default_name_korea
+		trigger = {
+			has_country_flag = korea_colony
+		}
+	}
+	text = {
+		localisation_key = colonize_it_to_overlord
+		trigger = {
+			has_country_flag = colonize_it_to_overlord_transfer
+		}
+	}
+}
+defined_text = {
+	name = colonize_it_submod_extended_timeline
+
+	text = {
+		localisation_key = colonize_it_submod_extended_timeline_disable
+		trigger = {
+			NOT = { has_global_flag = colonize_it_extended_timeline_enable }
+		}
+	}
+	text = {
+		localisation_key = colonize_it_submod_extended_timeline_enable
+		trigger = {
+			has_global_flag = colonize_it_extended_timeline_enable
+		}
+	}
+}
+defined_text = {
+	name = colonize_it_edition
+
+	text = {
+		localisation_key = colonize_it_vanilla_edition
+		trigger = {
+			NOT = { has_global_flag = colonize_it_extended_timeline_enable }
+		}
+	}
+	text = {
+		localisation_key = colonize_it_extended_timeline_edition
+		trigger = {
+			has_global_flag = colonize_it_extended_timeline_enable
+		}
+	}
+}
+defined_text = {
+	name = Colonize_it_et_ver
+
+	text = {
+		localisation_key = Colonize_it_et_ver
+	}
+}
+
+defined_text = {
+	name = Colonize_it_et_year
+
+	text = {
+		localisation_key = Colonize_it_et_year
+	}
+}
+
+defined_text = {
+	name = Colonize_it_et_month
+
+	text = {
+		localisation_key = Colonize_it_et_month
+	}
+}
+
+defined_text = {
+	name = Colonize_it_et_date
+
+	text = {
+		localisation_key = Colonize_it_et_date
+	}
+}
+defined_text = {
+	name = colonize_it_expansion_large_image
+
+	text = {
+		localisation_key = colonize_it_expansion_large_image_disable
+		trigger = {
+			NOT = { has_global_flag = colonize_it_expansion_large_image_enable }
+		}
+	}
+	text = {
+		localisation_key = colonize_it_expansion_large_image_enable
+		trigger = {
+			has_global_flag = colonize_it_expansion_large_image_enable
+		}
+	}
+}
+defined_text = {
+	name = colonize_it_expansion_north_africa
+
+	text = {
+		localisation_key = colonize_it_expansion_north_africa_disable
+		trigger = {
+			NOT = { has_global_flag = colonize_it_expansion_north_africa }
+		}
+	}
+	text = {
+		localisation_key = colonize_it_expansion_north_africa_enable
+		trigger = {
+			has_global_flag = colonize_it_expansion_north_africa
+		}
+	}
+}

@@ -1,0 +1,8 @@
+# No previous file for Ohkay Owingeh
+
+government = native
+add_government_reform = feudalism_reform
+government_rank = 1
+primary_culture = pueblo
+religion = totemism
+technology_group = north_american

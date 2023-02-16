@@ -1,0 +1,5 @@
+government = tribal
+add_government_reform = steppe_horde
+technology_group = nomad_group
+primary_culture = manchu_new
+religion = confucianism

@@ -1,0 +1,19 @@
+country_decisions = {
+
+	colonize_it_menu = {
+		potential = {
+			NOT = {ai = yes}
+		}
+		provinces_to_highlight = {
+			
+		}
+		allow = {
+		}
+		effect = {
+			country_event = {
+				id = colonize_it_e_menu.1
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+}

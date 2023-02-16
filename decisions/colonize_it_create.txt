@@ -1,0 +1,4959 @@
+country_decisions = {
+
+	colonize_it_indonesia = {
+		potential = {
+			NOT = {
+				has_country_flag = colonize_it_indonesia_colony
+			}
+			any_owned_province = {
+				trade_company_region = trade_company_indonesia
+			}
+			capital_scope = {
+				AND = {
+					NOT = { superregion = east_indies_superregion }
+				}
+			}
+		}
+		provinces_to_highlight = {
+			country_or_subject_holds = ROOT
+			trade_company_region = trade_company_indonesia
+		}
+		allow = {
+			is_at_war = no
+			OR = {
+				has_idea_group = exploration_ideas
+				has_idea_group = expansion_ideas
+			}
+		}
+		effect = {
+			#set_country_flag = colonize_it_indonesia_colony
+			every_owned_province = {
+				limit = {
+					trade_company_region = trade_company_indonesia
+				}
+				set_province_flag = colonize_it_mark
+			}
+			ROOT = {
+				save_global_event_target_as = colonize_it_target
+			}
+			country_event = {
+				id = colonize_it_create.1
+			}
+		}
+		ai_will_do = { 
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { total_development = 150 }
+			}
+			modifier = {
+				factor = 0
+				has_global_flag = colonize_it_ai_disable
+			}
+			modifier = {
+				factor = 0
+				is_nomad = yes
+			}
+			modifier = {
+				factor = 0
+				tag = YUA
+			}
+			modifier = {
+				factor = 0
+				is_colonial_nation = yes
+			}
+		}
+	}
+	colonize_it_moluccas = {
+		potential = {
+			NOT = {
+				has_country_flag = colonize_it_moluccas_colony
+			}
+			any_owned_province = {
+				trade_company_region = trade_company_moluccas
+			}
+			capital_scope = {
+				AND = {
+					NOT = { superregion = east_indies_superregion }
+				}
+			}
+		}
+		provinces_to_highlight = {
+			country_or_subject_holds = ROOT
+			trade_company_region = trade_company_moluccas
+		}
+		allow = {
+			is_at_war = no
+			OR = {
+				has_idea_group = exploration_ideas
+				has_idea_group = expansion_ideas
+			}
+		}
+		effect = {
+			#set_country_flag = colonize_it_moluccas_colony
+			every_owned_province = {
+				limit = {
+					trade_company_region = trade_company_moluccas
+				}
+				set_province_flag = colonize_it_mark
+			}
+			ROOT = {
+				save_global_event_target_as = colonize_it_target
+			}
+			country_event = {
+				id = colonize_it_create.6
+			}
+		}
+		ai_will_do = { 
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { total_development = 150 }
+			}
+			modifier = {
+				factor = 0
+				has_global_flag = colonize_it_ai_disable
+			}
+			modifier = {
+				factor = 0
+				is_nomad = yes
+			}
+			modifier = {
+				factor = 0
+				tag = YUA
+			}
+			modifier = {
+				factor = 0
+				is_colonial_nation = yes
+			}
+		}
+	}
+	colonize_it_philippines = {
+		potential = {
+			NOT = {
+				has_country_flag = colonize_it_philippines_colony
+			}
+			any_owned_province = {
+				trade_company_region = trade_company_philippines
+			}
+			capital_scope = {
+				AND = {
+					NOT = { superregion = east_indies_superregion }
+				}
+			}
+		}
+		provinces_to_highlight = {
+			country_or_subject_holds = ROOT
+			trade_company_region = trade_company_philippines
+		}
+		allow = {
+			is_at_war = no
+			OR = {
+				has_idea_group = exploration_ideas
+				has_idea_group = expansion_ideas
+			}
+		}
+		effect = {
+			#set_country_flag = colonize_it_philippines_colony
+			every_owned_province = {
+				limit = {
+					trade_company_region = trade_company_philippines
+				}
+				set_province_flag = colonize_it_mark
+			}
+			ROOT = {
+				save_global_event_target_as = colonize_it_target
+			}
+			country_event = {
+				id = colonize_it_create.11
+			}
+		}
+		ai_will_do = { 
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { total_development = 150 }
+			}
+			modifier = {
+				factor = 0
+				has_global_flag = colonize_it_ai_disable
+			}
+			modifier = {
+				factor = 0
+				is_nomad = yes
+			}
+			modifier = {
+				factor = 0
+				tag = YUA
+			}
+			modifier = {
+				factor = 0
+				is_colonial_nation = yes
+			}
+		}
+	}
+	colonize_it_indochina = {
+		potential = {
+			NOT = {
+				has_country_flag = colonize_it_indochina_colony
+			}
+			any_owned_province = {
+				trade_company_region = trade_company_indochina
+			}
+			capital_scope = {
+				AND = {
+					NOT = { continent = asia }
+				}
+			}
+		}
+		provinces_to_highlight = {
+			country_or_subject_holds = ROOT
+			trade_company_region = trade_company_indochina
+		}
+		allow = {
+			is_at_war = no
+			OR = {
+				has_idea_group = exploration_ideas
+				has_idea_group = expansion_ideas
+			}
+		}
+		effect = {
+			#set_country_flag = colonize_it_indochina_colony
+			every_owned_province = {
+				limit = {
+					trade_company_region = trade_company_indochina
+				}
+				set_province_flag = colonize_it_mark
+			}
+			ROOT = {
+				save_global_event_target_as = colonize_it_target
+			}
+			country_event = {
+				id = colonize_it_create.16
+			}
+		}
+		ai_will_do = { 
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { total_development = 150 }
+			}
+			modifier = {
+				factor = 0
+				has_global_flag = colonize_it_ai_disable
+			}
+			modifier = {
+				factor = 0
+				is_nomad = yes
+			}
+			modifier = {
+				factor = 0
+				tag = YUA
+			}
+			modifier = {
+				factor = 0
+				is_colonial_nation = yes
+			}
+		}
+	}
+	colonize_it_burma = {
+		potential = {
+			NOT = {
+				has_country_flag = colonize_it_burma_colony
+			}
+			any_owned_province = {
+				trade_company_region = trade_company_burma
+			}
+			capital_scope = {
+				AND = {
+					NOT = { continent = asia }
+				}
+			}
+		}
+		provinces_to_highlight = {
+			country_or_subject_holds = ROOT
+			trade_company_region = trade_company_burma
+		}
+		allow = {
+			is_at_war = no
+			OR = {
+				has_idea_group = exploration_ideas
+				has_idea_group = expansion_ideas
+			}
+		}
+		effect = {
+			#set_country_flag = colonize_it_burma_colony
+			every_owned_province = {
+				limit = {
+					trade_company_region = trade_company_burma
+				}
+				set_province_flag = colonize_it_mark
+			}
+			ROOT = {
+				save_global_event_target_as = colonize_it_target
+			}
+			country_event = {
+				id = colonize_it_create.21
+			}
+		}
+		ai_will_do = { 
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { total_development = 150 }
+			}
+			modifier = {
+				factor = 0
+				has_global_flag = colonize_it_ai_disable
+			}
+			modifier = {
+				factor = 0
+				is_nomad = yes
+			}
+			modifier = {
+				factor = 0
+				tag = YUA
+			}
+			modifier = {
+				factor = 0
+				is_colonial_nation = yes
+			}
+		}
+	}
+	colonize_it_north_sea = {
+		potential = {
+			NOT = {
+				has_country_flag = colonize_it_north_sea_colony
+			}
+			any_owned_province = {
+				trade_company_region = trade_company_north_sea
+			}
+			capital_scope = {
+				AND = {
+					NOT = { continent = europe }
+				}
+			}
+		}
+		provinces_to_highlight = {
+			country_or_subject_holds = ROOT
+			trade_company_region = trade_company_north_sea
+		}
+		allow = {
+			is_at_war = no
+			OR = {
+				has_idea_group = exploration_ideas
+				has_idea_group = expansion_ideas
+			}
+		}
+		effect = {
+			#set_country_flag = colonize_it_north_sea_colony
+			every_owned_province = {
+				limit = {
+					trade_company_region = trade_company_north_sea
+				}
+				set_province_flag = colonize_it_mark
+			}
+			ROOT = {
+				save_global_event_target_as = colonize_it_target
+			}
+			country_event = {
+				id = colonize_it_create.26
+			}
+		}
+		ai_will_do = { 
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { total_development = 150 }
+			}
+			modifier = {
+				factor = 0
+				has_global_flag = colonize_it_ai_disable
+			}
+			modifier = {
+				factor = 0
+				is_nomad = yes
+			}
+			modifier = {
+				factor = 0
+				tag = YUA
+			}
+			modifier = {
+				factor = 0
+				is_colonial_nation = yes
+			}
+		}
+	}
+	colonize_it_english_channel = {
+		potential = {
+			NOT = {
+				has_country_flag = colonize_it_english_channel_colony
+			}
+			any_owned_province = {
+				trade_company_region = trade_company_english_channel
+			}
+			capital_scope = {
+				AND = {
+					NOT = { continent = europe }
+				}
+			}
+		}
+		provinces_to_highlight = {
+			country_or_subject_holds = ROOT
+			trade_company_region = trade_company_english_channel
+		}
+		allow = {
+			is_at_war = no
+			OR = {
+				has_idea_group = exploration_ideas
+				has_idea_group = expansion_ideas
+			}
+		}
+		effect = {
+			#set_country_flag = colonize_it_english_channel_colony
+			every_owned_province = {
+				limit = {
+					trade_company_region = trade_company_english_channel
+				}
+				set_province_flag = colonize_it_mark
+			}
+			ROOT = {
+				save_global_event_target_as = colonize_it_target
+			}
+			country_event = {
+				id = colonize_it_create.31
+			}
+		}
+		ai_will_do = { 
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { total_development = 150 }
+			}
+			modifier = {
+				factor = 0
+				has_global_flag = colonize_it_ai_disable
+			}
+			modifier = {
+				factor = 0
+				is_nomad = yes
+			}
+			modifier = {
+				factor = 0
+				tag = YUA
+			}
+			modifier = {
+				factor = 0
+				is_colonial_nation = yes
+			}
+		}
+	}
+	colonize_it_bordeaux = {
+		potential = {
+			NOT = {
+				has_country_flag = colonize_it_bordeaux_colony
+			}
+			any_owned_province = {
+				trade_company_region = trade_company_bordeaux
+			}
+			capital_scope = {
+				AND = {
+					NOT = { continent = europe }
+				}
+			}
+		}
+		provinces_to_highlight = {
+			country_or_subject_holds = ROOT
+			trade_company_region = trade_company_bordeaux
+		}
+		allow = {
+			is_at_war = no
+			OR = {
+				has_idea_group = exploration_ideas
+				has_idea_group = expansion_ideas
+			}
+		}
+		effect = {
+			#set_country_flag = colonize_it_bordeaux_colony
+			every_owned_province = {
+				limit = {
+					trade_company_region = trade_company_bordeaux
+				}
+				set_province_flag = colonize_it_mark
+			}
+			ROOT = {
+				save_global_event_target_as = colonize_it_target
+			}
+			country_event = {
+				id = colonize_it_create.36
+			}
+		}
+		ai_will_do = { 
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { total_development = 150 }
+			}
+			modifier = {
+				factor = 0
+				has_global_flag = colonize_it_ai_disable
+			}
+			modifier = {
+				factor = 0
+				is_nomad = yes
+			}
+			modifier = {
+				factor = 0
+				tag = YUA
+			}
+			modifier = {
+				factor = 0
+				is_colonial_nation = yes
+			}
+		}
+	}
+	colonize_it_champagne = {
+		potential = {
+			NOT = {
+				has_country_flag = colonize_it_champagne_colony
+			}
+			any_owned_province = {
+				trade_company_region = trade_company_champagne
+			}
+			capital_scope = {
+				AND = {
+					NOT = { continent = europe }
+				}
+			}
+		}
+		provinces_to_highlight = {
+			country_or_subject_holds = ROOT
+			trade_company_region = trade_company_champagne
+		}
+		allow = {
+			is_at_war = no
+			OR = {
+				has_idea_group = exploration_ideas
+				has_idea_group = expansion_ideas
+			}
+		}
+		effect = {
+			#set_country_flag = colonize_it_champagne_colony
+			every_owned_province = {
+				limit = {
+					trade_company_region = trade_company_champagne
+				}
+				set_province_flag = colonize_it_mark
+			}
+			ROOT = {
+				save_global_event_target_as = colonize_it_target
+			}
+			country_event = {
+				id = colonize_it_create.41
+			}
+		}
+		ai_will_do = { 
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { total_development = 150 }
+			}
+			modifier = {
+				factor = 0
+				has_global_flag = colonize_it_ai_disable
+			}
+			modifier = {
+				factor = 0
+				is_nomad = yes
+			}
+			modifier = {
+				factor = 0
+				tag = YUA
+			}
+			modifier = {
+				factor = 0
+				is_colonial_nation = yes
+			}
+		}
+	}
+	colonize_it_sevilla = {
+		potential = {
+			NOT = {
+				has_country_flag = colonize_it_sevilla_colony
+			}
+			any_owned_province = {
+				trade_company_region = trade_company_sevilla
+			}
+			capital_scope = {
+				AND = {
+					NOT = { continent = europe }
+				}
+			}
+		}
+		provinces_to_highlight = {
+			country_or_subject_holds = ROOT
+			trade_company_region = trade_company_sevilla
+		}
+		allow = {
+			is_at_war = no
+			OR = {
+				has_idea_group = exploration_ideas
+				has_idea_group = expansion_ideas
+			}
+		}
+		effect = {
+			#set_country_flag = colonize_it_sevilla_colony
+			every_owned_province = {
+				limit = {
+					trade_company_region = trade_company_sevilla
+				}
+				set_province_flag = colonize_it_mark
+			}
+			ROOT = {
+				save_global_event_target_as = colonize_it_target
+			}
+			country_event = {
+				id = colonize_it_create.46
+			}
+		}
+		ai_will_do = { 
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { total_development = 150 }
+			}
+			modifier = {
+				factor = 0
+				has_global_flag = colonize_it_ai_disable
+			}
+			modifier = {
+				factor = 0
+				is_nomad = yes
+			}
+			modifier = {
+				factor = 0
+				tag = YUA
+			}
+			modifier = {
+				factor = 0
+				is_colonial_nation = yes
+			}
+		}
+	}
+	colonize_it_valencia = {
+		potential = {
+			NOT = {
+				has_country_flag = colonize_it_valencia_colony
+			}
+			any_owned_province = {
+				trade_company_region = trade_company_valencia
+			}
+			capital_scope = {
+				AND = {
+					NOT = { continent = europe }
+				}
+			}
+		}
+		provinces_to_highlight = {
+			country_or_subject_holds = ROOT
+			trade_company_region = trade_company_valencia
+		}
+		allow = {
+			is_at_war = no
+			OR = {
+				has_idea_group = exploration_ideas
+				has_idea_group = expansion_ideas
+			}
+		}
+		effect = {
+			#set_country_flag = colonize_it_valencia_colony
+			every_owned_province = {
+				limit = {
+					trade_company_region = trade_company_valencia
+				}
+				set_province_flag = colonize_it_mark
+			}
+			ROOT = {
+				save_global_event_target_as = colonize_it_target
+			}
+			country_event = {
+				id = colonize_it_create.51
+			}
+		}
+		ai_will_do = { 
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { total_development = 150 }
+			}
+			modifier = {
+				factor = 0
+				has_global_flag = colonize_it_ai_disable
+			}
+			modifier = {
+				factor = 0
+				is_nomad = yes
+			}
+			modifier = {
+				factor = 0
+				tag = YUA
+			}
+			modifier = {
+				factor = 0
+				is_colonial_nation = yes
+			}
+		}
+	}
+	colonize_it_venice = {
+		potential = {
+			NOT = {
+				has_country_flag = colonize_it_venice_colony
+			}
+			any_owned_province = {
+				trade_company_region = trade_company_venice
+			}
+			capital_scope = {
+				AND = {
+					NOT = { continent = europe }
+				}
+			}
+		}
+		provinces_to_highlight = {
+			country_or_subject_holds = ROOT
+			trade_company_region = trade_company_venice
+		}
+		allow = {
+			is_at_war = no
+			OR = {
+				has_idea_group = exploration_ideas
+				has_idea_group = expansion_ideas
+			}
+		}
+		effect = {
+			#set_country_flag = colonize_it_venice_colony
+			every_owned_province = {
+				limit = {
+					trade_company_region = trade_company_venice
+				}
+				set_province_flag = colonize_it_mark
+			}
+			ROOT = {
+				save_global_event_target_as = colonize_it_target
+			}
+			country_event = {
+				id = colonize_it_create.56
+			}
+		}
+		ai_will_do = { 
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { total_development = 150 }
+			}
+			modifier = {
+				factor = 0
+				has_global_flag = colonize_it_ai_disable
+			}
+			modifier = {
+				factor = 0
+				is_nomad = yes
+			}
+			modifier = {
+				factor = 0
+				tag = YUA
+			}
+			modifier = {
+				factor = 0
+				is_colonial_nation = yes
+			}
+		}
+	}
+	colonize_it_genua = {
+		potential = {
+			NOT = {
+				has_country_flag = colonize_it_genua_colony
+			}
+			any_owned_province = {
+				trade_company_region = trade_company_genua
+			}
+			capital_scope = {
+				AND = {
+					NOT = { continent = europe }
+				}
+			}
+		}
+		provinces_to_highlight = {
+			country_or_subject_holds = ROOT
+			trade_company_region = trade_company_genua
+		}
+		allow = {
+			is_at_war = no
+			OR = {
+				has_idea_group = exploration_ideas
+				has_idea_group = expansion_ideas
+			}
+		}
+		effect = {
+			#set_country_flag = colonize_it_genua_colony
+			every_owned_province = {
+				limit = {
+					trade_company_region = trade_company_genua
+				}
+				set_province_flag = colonize_it_mark
+			}
+			ROOT = {
+				save_global_event_target_as = colonize_it_target
+			}
+			country_event = {
+				id = colonize_it_create.61
+			}
+		}
+		ai_will_do = { 
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { total_development = 150 }
+			}
+			modifier = {
+				factor = 0
+				has_global_flag = colonize_it_ai_disable
+			}
+			modifier = {
+				factor = 0
+				is_nomad = yes
+			}
+			modifier = {
+				factor = 0
+				tag = YUA
+			}
+			modifier = {
+				factor = 0
+				is_colonial_nation = yes
+			}
+		}
+	}
+	colonize_it_rheinland = {
+		potential = {
+			NOT = {
+				has_country_flag = colonize_it_rheinland_colony
+			}
+			any_owned_province = {
+				trade_company_region = trade_company_rheinland
+			}
+			capital_scope = {
+				AND = {
+					NOT = { continent = europe }
+				}
+			}
+		}
+		provinces_to_highlight = {
+			country_or_subject_holds = ROOT
+			trade_company_region = trade_company_rheinland
+		}
+		allow = {
+			is_at_war = no
+			OR = {
+				has_idea_group = exploration_ideas
+				has_idea_group = expansion_ideas
+			}
+		}
+		effect = {
+			#set_country_flag = colonize_it_rheinland_colony
+			every_owned_province = {
+				limit = {
+					trade_company_region = trade_company_rheinland
+				}
+				set_province_flag = colonize_it_mark
+			}
+			ROOT = {
+				save_global_event_target_as = colonize_it_target
+			}
+			country_event = {
+				id = colonize_it_create.66
+			}
+		}
+		ai_will_do = { 
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { total_development = 150 }
+			}
+			modifier = {
+				factor = 0
+				has_global_flag = colonize_it_ai_disable
+			}
+			modifier = {
+				factor = 0
+				is_nomad = yes
+			}
+			modifier = {
+				factor = 0
+				tag = YUA
+			}
+			modifier = {
+				factor = 0
+				is_colonial_nation = yes
+			}
+		}
+	}
+	colonize_it_wien = {
+		potential = {
+			NOT = {
+				has_country_flag = colonize_it_wien_colony
+			}
+			any_owned_province = {
+				trade_company_region = trade_company_wien
+			}
+			capital_scope = {
+				AND = {
+					NOT = { continent = europe }
+				}
+			}
+		}
+		provinces_to_highlight = {
+			country_or_subject_holds = ROOT
+			trade_company_region = trade_company_wien
+		}
+		allow = {
+			is_at_war = no
+			OR = {
+				has_idea_group = exploration_ideas
+				has_idea_group = expansion_ideas
+			}
+		}
+		effect = {
+			#set_country_flag = colonize_it_wien_colony
+			every_owned_province = {
+				limit = {
+					trade_company_region = trade_company_wien
+				}
+				set_province_flag = colonize_it_mark
+			}
+			ROOT = {
+				save_global_event_target_as = colonize_it_target
+			}
+			country_event = {
+				id = colonize_it_create.71
+			}
+		}
+		ai_will_do = { 
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { total_development = 150 }
+			}
+			modifier = {
+				factor = 0
+				has_global_flag = colonize_it_ai_disable
+			}
+			modifier = {
+				factor = 0
+				is_nomad = yes
+			}
+			modifier = {
+				factor = 0
+				tag = YUA
+			}
+			modifier = {
+				factor = 0
+				is_colonial_nation = yes
+			}
+		}
+	}
+	colonize_it_saxony = {
+		potential = {
+			NOT = {
+				has_country_flag = colonize_it_saxony_colony
+			}
+			any_owned_province = {
+				trade_company_region = trade_company_saxony
+			}
+			capital_scope = {
+				AND = {
+					NOT = { continent = europe }
+				}
+			}
+		}
+		provinces_to_highlight = {
+			country_or_subject_holds = ROOT
+			trade_company_region = trade_company_saxony
+		}
+		allow = {
+			is_at_war = no
+			OR = {
+				has_idea_group = exploration_ideas
+				has_idea_group = expansion_ideas
+			}
+		}
+		effect = {
+			#set_country_flag = colonize_it_saxony_colony
+			every_owned_province = {
+				limit = {
+					trade_company_region = trade_company_saxony
+				}
+				set_province_flag = colonize_it_mark
+			}
+			ROOT = {
+				save_global_event_target_as = colonize_it_target
+			}
+			country_event = {
+				id = colonize_it_create.76
+			}
+		}
+		ai_will_do = { 
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { total_development = 150 }
+			}
+			modifier = {
+				factor = 0
+				has_global_flag = colonize_it_ai_disable
+			}
+			modifier = {
+				factor = 0
+				is_nomad = yes
+			}
+			modifier = {
+				factor = 0
+				tag = YUA
+			}
+			modifier = {
+				factor = 0
+				is_colonial_nation = yes
+			}
+		}
+	}
+	colonize_it_lubeck = {
+		potential = {
+			NOT = {
+				has_country_flag = colonize_it_lubeck_colony
+			}
+			any_owned_province = {
+				trade_company_region = trade_company_lubeck
+			}
+			capital_scope = {
+				AND = {
+					NOT = { continent = europe }
+				}
+			}
+		}
+		provinces_to_highlight = {
+			country_or_subject_holds = ROOT
+			trade_company_region = trade_company_lubeck
+		}
+		allow = {
+			is_at_war = no
+			OR = {
+				has_idea_group = exploration_ideas
+				has_idea_group = expansion_ideas
+			}
+		}
+		effect = {
+			#set_country_flag = colonize_it_lubeck_colony
+			every_owned_province = {
+				limit = {
+					trade_company_region = trade_company_lubeck
+				}
+				set_province_flag = colonize_it_mark
+			}
+			ROOT = {
+				save_global_event_target_as = colonize_it_target
+			}
+			country_event = {
+				id = colonize_it_create.81
+			}
+		}
+		ai_will_do = { 
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { total_development = 150 }
+			}
+			modifier = {
+				factor = 0
+				has_global_flag = colonize_it_ai_disable
+			}
+			modifier = {
+				factor = 0
+				is_nomad = yes
+			}
+			modifier = {
+				factor = 0
+				tag = YUA
+			}
+			modifier = {
+				factor = 0
+				is_colonial_nation = yes
+			}
+		}
+	}
+	colonize_it_baltic_sea = {
+		potential = {
+			NOT = {
+				has_country_flag = colonize_it_baltic_sea_colony
+			}
+			any_owned_province = {
+				trade_company_region = trade_company_baltic_sea
+			}
+			capital_scope = {
+				AND = {
+					NOT = { continent = europe }
+				}
+			}
+		}
+		provinces_to_highlight = {
+			country_or_subject_holds = ROOT
+			trade_company_region = trade_company_baltic_sea
+		}
+		allow = {
+			is_at_war = no
+			OR = {
+				has_idea_group = exploration_ideas
+				has_idea_group = expansion_ideas
+			}
+		}
+		effect = {
+			#set_country_flag = colonize_it_baltic_sea_colony
+			every_owned_province = {
+				limit = {
+					trade_company_region = trade_company_baltic_sea
+				}
+				set_province_flag = colonize_it_mark
+			}
+			ROOT = {
+				save_global_event_target_as = colonize_it_target
+			}
+			country_event = {
+				id = colonize_it_create.86
+			}
+		}
+		ai_will_do = { 
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { total_development = 150 }
+			}
+			modifier = {
+				factor = 0
+				has_global_flag = colonize_it_ai_disable
+			}
+			modifier = {
+				factor = 0
+				is_nomad = yes
+			}
+			modifier = {
+				factor = 0
+				tag = YUA
+			}
+			modifier = {
+				factor = 0
+				is_colonial_nation = yes
+			}
+		}
+	}
+	colonize_it_krakow = {
+		potential = {
+			NOT = {
+				has_country_flag = colonize_it_krakow_colony
+			}
+			any_owned_province = {
+				trade_company_region = trade_company_krakow
+			}
+			capital_scope = {
+				AND = {
+					NOT = { continent = europe }
+				}
+			}
+		}
+		provinces_to_highlight = {
+			country_or_subject_holds = ROOT
+			trade_company_region = trade_company_krakow
+		}
+		allow = {
+			is_at_war = no
+			OR = {
+				has_idea_group = exploration_ideas
+				has_idea_group = expansion_ideas
+			}
+		}
+		effect = {
+			#set_country_flag = colonize_it_krakow_colony
+			every_owned_province = {
+				limit = {
+					trade_company_region = trade_company_krakow
+				}
+				set_province_flag = colonize_it_mark
+			}
+			ROOT = {
+				save_global_event_target_as = colonize_it_target
+			}
+			country_event = {
+				id = colonize_it_create.91
+			}
+		}
+		ai_will_do = { 
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { total_development = 150 }
+			}
+			modifier = {
+				factor = 0
+				has_global_flag = colonize_it_ai_disable
+			}
+			modifier = {
+				factor = 0
+				is_nomad = yes
+			}
+			modifier = {
+				factor = 0
+				tag = YUA
+			}
+			modifier = {
+				factor = 0
+				is_colonial_nation = yes
+			}
+		}
+	}
+	colonize_it_pest = {
+		potential = {
+			NOT = {
+				has_country_flag = colonize_it_pest_colony
+			}
+			any_owned_province = {
+				trade_company_region = trade_company_pest
+			}
+			capital_scope = {
+				AND = {
+					NOT = { continent = europe }
+				}
+			}
+		}
+		provinces_to_highlight = {
+			country_or_subject_holds = ROOT
+			trade_company_region = trade_company_pest
+		}
+		allow = {
+			is_at_war = no
+			OR = {
+				has_idea_group = exploration_ideas
+				has_idea_group = expansion_ideas
+			}
+		}
+		effect = {
+			#set_country_flag = colonize_it_pest_colony
+			every_owned_province = {
+				limit = {
+					trade_company_region = trade_company_pest
+				}
+				set_province_flag = colonize_it_mark
+			}
+			ROOT = {
+				save_global_event_target_as = colonize_it_target
+			}
+			country_event = {
+				id = colonize_it_create.96
+			}
+		}
+		ai_will_do = { 
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { total_development = 150 }
+			}
+			modifier = {
+				factor = 0
+				has_global_flag = colonize_it_ai_disable
+			}
+			modifier = {
+				factor = 0
+				is_nomad = yes
+			}
+			modifier = {
+				factor = 0
+				tag = YUA
+			}
+			modifier = {
+				factor = 0
+				is_colonial_nation = yes
+			}
+		}
+	}
+	colonize_it_ragusa = {
+		potential = {
+			NOT = {
+				has_country_flag = colonize_it_ragusa_colony
+			}
+			any_owned_province = {
+				trade_company_region = trade_company_ragusa
+			}
+			capital_scope = {
+				AND = {
+					NOT = { continent = europe }
+				}
+			}
+		}
+		provinces_to_highlight = {
+			country_or_subject_holds = ROOT
+			trade_company_region = trade_company_ragusa
+		}
+		allow = {
+			is_at_war = no
+			OR = {
+				has_idea_group = exploration_ideas
+				has_idea_group = expansion_ideas
+			}
+		}
+		effect = {
+			#set_country_flag = colonize_it_ragusa_colony
+			every_owned_province = {
+				limit = {
+					trade_company_region = trade_company_ragusa
+				}
+				set_province_flag = colonize_it_mark
+			}
+			ROOT = {
+				save_global_event_target_as = colonize_it_target
+			}
+			country_event = {
+				id = colonize_it_create.101
+			}
+		}
+		ai_will_do = { 
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { total_development = 150 }
+			}
+			modifier = {
+				factor = 0
+				has_global_flag = colonize_it_ai_disable
+			}
+			modifier = {
+				factor = 0
+				is_nomad = yes
+			}
+			modifier = {
+				factor = 0
+				tag = YUA
+			}
+			modifier = {
+				factor = 0
+				is_colonial_nation = yes
+			}
+		}
+	}
+	colonize_it_crimea = {
+		potential = {
+			NOT = {
+				has_country_flag = colonize_it_crimea_colony
+			}
+			any_owned_province = {
+				trade_company_region = trade_company_crimea
+			}
+			capital_scope = {
+				AND = {
+					NOT = { continent = europe }
+				}
+			}
+		}
+		provinces_to_highlight = {
+			country_or_subject_holds = ROOT
+			trade_company_region = trade_company_crimea
+		}
+		allow = {
+			is_at_war = no
+			OR = {
+				has_idea_group = exploration_ideas
+				has_idea_group = expansion_ideas
+			}
+		}
+		effect = {
+			#set_country_flag = colonize_it_crimea_colony
+			every_owned_province = {
+				limit = {
+					trade_company_region = trade_company_crimea
+				}
+				set_province_flag = colonize_it_mark
+			}
+			ROOT = {
+				save_global_event_target_as = colonize_it_target
+			}
+			country_event = {
+				id = colonize_it_create.106
+			}
+		}
+		ai_will_do = { 
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { total_development = 150 }
+			}
+			modifier = {
+				factor = 0
+				has_global_flag = colonize_it_ai_disable
+			}
+			modifier = {
+				factor = 0
+				is_nomad = yes
+			}
+			modifier = {
+				factor = 0
+				tag = YUA
+			}
+			modifier = {
+				factor = 0
+				is_colonial_nation = yes
+			}
+		}
+	}
+	colonize_it_kiev = {
+		potential = {
+			NOT = {
+				has_country_flag = colonize_it_kiev_colony
+			}
+			any_owned_province = {
+				trade_company_region = trade_company_kiev
+			}
+			capital_scope = {
+				AND = {
+					NOT = { continent = europe }
+				}
+			}
+		}
+		provinces_to_highlight = {
+			country_or_subject_holds = ROOT
+			trade_company_region = trade_company_kiev
+		}
+		allow = {
+			is_at_war = no
+			OR = {
+				has_idea_group = exploration_ideas
+				has_idea_group = expansion_ideas
+			}
+		}
+		effect = {
+			#set_country_flag = colonize_it_kiev_colony
+			every_owned_province = {
+				limit = {
+					trade_company_region = trade_company_kiev
+				}
+				set_province_flag = colonize_it_mark
+			}
+			ROOT = {
+				save_global_event_target_as = colonize_it_target
+			}
+			country_event = {
+				id = colonize_it_create.111
+			}
+		}
+		ai_will_do = { 
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { total_development = 150 }
+			}
+			modifier = {
+				factor = 0
+				has_global_flag = colonize_it_ai_disable
+			}
+			modifier = {
+				factor = 0
+				is_nomad = yes
+			}
+			modifier = {
+				factor = 0
+				tag = YUA
+			}
+			modifier = {
+				factor = 0
+				is_colonial_nation = yes
+			}
+		}
+	}
+	colonize_it_novgorod = {
+		potential = {
+			NOT = {
+				has_country_flag = colonize_it_novgorod_colony
+			}
+			any_owned_province = {
+				trade_company_region = trade_company_novgorod
+			}
+			capital_scope = {
+				AND = {
+					NOT = { continent = europe }
+				}
+			}
+		}
+		provinces_to_highlight = {
+			country_or_subject_holds = ROOT
+			trade_company_region = trade_company_novgorod
+		}
+		allow = {
+			is_at_war = no
+			OR = {
+				has_idea_group = exploration_ideas
+				has_idea_group = expansion_ideas
+			}
+		}
+		effect = {
+			#set_country_flag = colonize_it_novgorod_colony
+			every_owned_province = {
+				limit = {
+					trade_company_region = trade_company_novgorod
+				}
+				set_province_flag = colonize_it_mark
+			}
+			ROOT = {
+				save_global_event_target_as = colonize_it_target
+			}
+			country_event = {
+				id = colonize_it_create.116
+			}
+		}
+		ai_will_do = { 
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { total_development = 150 }
+			}
+			modifier = {
+				factor = 0
+				has_global_flag = colonize_it_ai_disable
+			}
+			modifier = {
+				factor = 0
+				is_nomad = yes
+			}
+			modifier = {
+				factor = 0
+				tag = YUA
+			}
+			modifier = {
+				factor = 0
+				is_colonial_nation = yes
+			}
+		}
+	}
+	colonize_it_white_sea = {
+		potential = {
+			NOT = {
+				has_country_flag = colonize_it_white_sea_colony
+			}
+			any_owned_province = {
+				trade_company_region = trade_company_white_sea
+			}
+			capital_scope = {
+				AND = {
+					NOT = { continent = europe }
+				}
+			}
+		}
+		provinces_to_highlight = {
+			country_or_subject_holds = ROOT
+			trade_company_region = trade_company_white_sea
+		}
+		allow = {
+			is_at_war = no
+			OR = {
+				has_idea_group = exploration_ideas
+				has_idea_group = expansion_ideas
+			}
+		}
+		effect = {
+			#set_country_flag = colonize_it_white_sea_colony
+			every_owned_province = {
+				limit = {
+					trade_company_region = trade_company_white_sea
+				}
+				set_province_flag = colonize_it_mark
+			}
+			ROOT = {
+				save_global_event_target_as = colonize_it_target
+			}
+			country_event = {
+				id = colonize_it_create.121
+			}
+		}
+		ai_will_do = { 
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { total_development = 150 }
+			}
+			modifier = {
+				factor = 0
+				has_global_flag = colonize_it_ai_disable
+			}
+			modifier = {
+				factor = 0
+				is_nomad = yes
+			}
+			modifier = {
+				factor = 0
+				tag = YUA
+			}
+			modifier = {
+				factor = 0
+				is_colonial_nation = yes
+			}
+		}
+	}
+	colonize_it_kazan = {
+		potential = {
+			NOT = {
+				has_country_flag = colonize_it_kazan_colony
+			}
+			any_owned_province = {
+				trade_company_region = trade_company_kazan
+			}
+			capital_scope = {
+				AND = {
+					NOT = { continent = europe }
+				}
+			}
+		}
+		provinces_to_highlight = {
+			country_or_subject_holds = ROOT
+			trade_company_region = trade_company_kazan
+		}
+		allow = {
+			is_at_war = no
+			OR = {
+				has_idea_group = exploration_ideas
+				has_idea_group = expansion_ideas
+			}
+		}
+		effect = {
+			#set_country_flag = colonize_it_kazan_colony
+			every_owned_province = {
+				limit = {
+					trade_company_region = trade_company_kazan
+				}
+				set_province_flag = colonize_it_mark
+			}
+			ROOT = {
+				save_global_event_target_as = colonize_it_target
+			}
+			country_event = {
+				id = colonize_it_create.126
+			}
+		}
+		ai_will_do = { 
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { total_development = 150 }
+			}
+			modifier = {
+				factor = 0
+				has_global_flag = colonize_it_ai_disable
+			}
+			modifier = {
+				factor = 0
+				is_nomad = yes
+			}
+			modifier = {
+				factor = 0
+				tag = YUA
+			}
+			modifier = {
+				factor = 0
+				is_colonial_nation = yes
+			}
+		}
+	}
+	colonize_it_astrakhan = {
+		potential = {
+			NOT = {
+				has_country_flag = colonize_it_astrakhan_colony
+			}
+			any_owned_province = {
+				trade_company_region = trade_company_astrakhan
+			}
+			capital_scope = {
+				AND = {
+					NOT = { continent = europe }
+				}
+			}
+		}
+		provinces_to_highlight = {
+			country_or_subject_holds = ROOT
+			trade_company_region = trade_company_astrakhan
+		}
+		allow = {
+			is_at_war = no
+			OR = {
+				has_idea_group = exploration_ideas
+				has_idea_group = expansion_ideas
+			}
+		}
+		effect = {
+			#set_country_flag = colonize_it_astrakhan_colony
+			every_owned_province = {
+				limit = {
+					trade_company_region = trade_company_astrakhan
+				}
+				set_province_flag = colonize_it_mark
+			}
+			ROOT = {
+				save_global_event_target_as = colonize_it_target
+			}
+			country_event = {
+				id = colonize_it_create.131
+			}
+		}
+		ai_will_do = { 
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { total_development = 150 }
+			}
+			modifier = {
+				factor = 0
+				has_global_flag = colonize_it_ai_disable
+			}
+			modifier = {
+				factor = 0
+				is_nomad = yes
+			}
+			modifier = {
+				factor = 0
+				tag = YUA
+			}
+			modifier = {
+				factor = 0
+				is_colonial_nation = yes
+			}
+		}
+	}
+	colonize_it_constantinople = {
+		potential = {
+			NOT = {
+				has_country_flag = colonize_it_constantinople_colony
+			}
+			any_owned_province = {
+				trade_company_region = trade_company_constantinople
+			}
+			#capital_scope = {
+			#	NOT = { superregion = near_east_superregion }
+			#	NOT = { region = balkan_region }
+			#	NOT = { region = carpathia_region }
+			#}
+		}
+		provinces_to_highlight = {
+			country_or_subject_holds = ROOT
+			trade_company_region = trade_company_constantinople
+		}
+		allow = {
+			is_at_war = no
+			capital_scope = {
+				NOT = { superregion = near_east_superregion }
+				NOT = { region = balkan_region }
+				NOT = { region = carpathia_region }
+			}
+		}
+		effect = {
+			#set_country_flag = colonize_it_constantinople_colony
+			every_owned_province = {
+				limit = {
+					trade_company_region = trade_company_constantinople
+				}
+				set_province_flag = colonize_it_mark
+			}
+			ROOT = {
+				save_global_event_target_as = colonize_it_target
+			}
+			country_event = {
+				id = colonize_it_create.136
+			}
+		}
+		ai_will_do = { 
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { total_development = 150 }
+			}
+			modifier = {
+				factor = 0
+				has_global_flag = colonize_it_ai_disable
+			}
+			modifier = {
+				factor = 0
+				capital_scope = {
+					OR = {
+						NOT = { superregion = near_east_superregion }
+						NOT = { superregion = near_east_superregion }
+					}
+				}
+			}
+			modifier = {
+				factor = 0
+				is_nomad = yes
+			}
+			modifier = {
+				factor = 0
+				tag = YUA
+			}
+			modifier = {
+				factor = 0
+				is_colonial_nation = yes
+			}
+		}
+	}
+	colonize_it_aleppo = {
+		potential = {
+			NOT = {
+				has_country_flag = colonize_it_aleppo_colony
+			}
+			any_owned_province = {
+				trade_company_region = trade_company_aleppo
+			}
+			capital_scope = {
+				AND = {
+					NOT = { continent = asia }
+				}
+			}
+		}
+		provinces_to_highlight = {
+			country_or_subject_holds = ROOT
+			trade_company_region = trade_company_aleppo
+		}
+		allow = {
+			is_at_war = no
+			OR = {
+				has_idea_group = exploration_ideas
+				has_idea_group = expansion_ideas
+			}
+		}
+		effect = {
+			#set_country_flag = colonize_it_aleppo_colony
+			every_owned_province = {
+				limit = {
+					trade_company_region = trade_company_aleppo
+				}
+				set_province_flag = colonize_it_mark
+			}
+			ROOT = {
+				save_global_event_target_as = colonize_it_target
+			}
+			country_event = {
+				id = colonize_it_create.141
+			}
+		}
+		ai_will_do = { 
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { total_development = 150 }
+			}
+			modifier = {
+				factor = 0
+				has_global_flag = colonize_it_ai_disable
+			}
+			modifier = {
+				factor = 0
+				is_nomad = yes
+			}
+			modifier = {
+				factor = 0
+				tag = YUA
+			}
+			modifier = {
+				factor = 0
+				is_colonial_nation = yes
+			}
+		}
+	}
+	colonize_it_alexandria = {
+		potential = {
+			NOT = {
+				has_country_flag = colonize_it_alexandria_colony
+			}
+			any_owned_province = {
+				trade_company_region = trade_company_alexandria
+			}
+			capital_scope = {
+				AND = {
+					NOT = { continent = africa }
+				}
+			}
+		}
+		provinces_to_highlight = {
+			country_or_subject_holds = ROOT
+			trade_company_region = trade_company_alexandria
+		}
+		allow = {
+			is_at_war = no
+			OR = {
+				has_idea_group = exploration_ideas
+				has_idea_group = expansion_ideas
+			}
+		}
+		effect = {
+			#set_country_flag = colonize_it_alexandria_colony
+			every_owned_province = {
+				limit = {
+					trade_company_region = trade_company_alexandria
+				}
+				set_province_flag = colonize_it_mark
+			}
+			ROOT = {
+				save_global_event_target_as = colonize_it_target
+			}
+			country_event = {
+				id = colonize_it_create.146
+			}
+		}
+		ai_will_do = { 
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { total_development = 150 }
+			}
+			modifier = {
+				factor = 0
+				capital_scope = {
+					OR = {
+						superregion = near_east_superregion
+						region = italy_region
+						region = balkan_region
+					}
+				}
+			}
+			modifier = {
+				factor = 0
+				has_global_flag = colonize_it_ai_disable
+			}
+			modifier = {
+				factor = 0
+				is_nomad = yes
+			}
+			modifier = {
+				factor = 0
+				tag = YUA
+			}
+			modifier = {
+				factor = 0
+				is_colonial_nation = yes
+			}
+		}
+	}
+	colonize_it_basra = {
+		potential = {
+			NOT = {
+				has_country_flag = colonize_it_basra_colony
+			}
+			any_owned_province = {
+				trade_company_region = trade_company_basra
+			}
+			capital_scope = {
+				AND = {
+					NOT = { continent = asia }
+				}
+			}
+		}
+		provinces_to_highlight = {
+			country_or_subject_holds = ROOT
+			trade_company_region = trade_company_basra
+		}
+		allow = {
+			is_at_war = no
+			OR = {
+				has_idea_group = exploration_ideas
+				has_idea_group = expansion_ideas
+			}
+		}
+		effect = {
+			#set_country_flag = colonize_it_basra_colony
+			every_owned_province = {
+				limit = {
+					trade_company_region = trade_company_basra
+				}
+				set_province_flag = colonize_it_mark
+			}
+			ROOT = {
+				save_global_event_target_as = colonize_it_target
+			}
+			country_event = {
+				id = colonize_it_create.151
+			}
+		}
+		ai_will_do = { 
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { total_development = 150 }
+			}
+			modifier = {
+				factor = 0
+				capital_scope = {
+					OR = {
+						region = anatolia_region
+						region = balkan_region
+						superregion = africa_superregion
+					}
+				}
+			}
+			modifier = {
+				factor = 0
+				has_global_flag = colonize_it_ai_disable
+			}
+			modifier = {
+				factor = 0
+				is_nomad = yes
+			}
+			modifier = {
+				factor = 0
+				tag = YUA
+			}
+			modifier = {
+				factor = 0
+				is_colonial_nation = yes
+			}
+		}
+	}
+	colonize_it_gulf_of_aden = {
+		potential = {
+			NOT = {
+				has_country_flag = colonize_it_gulf_of_aden_colony
+			}
+			any_owned_province = {
+				trade_company_region = trade_company_gulf_of_aden
+			}
+			capital_scope = {
+				AND = {
+					NOT = { continent = asia }
+				}
+			}
+		}
+		provinces_to_highlight = {
+			country_or_subject_holds = ROOT
+			trade_company_region = trade_company_gulf_of_aden
+		}
+		allow = {
+			is_at_war = no
+			OR = {
+				has_idea_group = exploration_ideas
+				has_idea_group = expansion_ideas
+			}
+		}
+		effect = {
+			#set_country_flag = colonize_it_gulf_of_aden_colony
+			every_owned_province = {
+				limit = {
+					trade_company_region = trade_company_gulf_of_aden
+				}
+				set_province_flag = colonize_it_mark
+			}
+			ROOT = {
+				save_global_event_target_as = colonize_it_target
+			}
+			country_event = {
+				id = colonize_it_create.156
+			}
+		}
+		ai_will_do = { 
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { total_development = 150 }
+			}
+			modifier = {
+				factor = 0
+				capital_scope = {
+					OR = {
+						region = balkan_region
+						region = anatolia_region
+						region = caucasia_region
+						trade_company_region = trade_company_gulf_of_aden
+						superregion = africa_superregion
+					}
+				}
+			}
+			modifier = {
+				factor = 0
+				has_global_flag = colonize_it_ai_disable
+			}
+			modifier = {
+				factor = 0
+				is_nomad = yes
+			}
+			modifier = {
+				factor = 0
+				tag = YUA
+			}
+			modifier = {
+				factor = 0
+				is_colonial_nation = yes
+			}
+		}
+	}
+	colonize_it_persia = {
+		potential = {
+			NOT = {
+				has_country_flag = colonize_it_persia_colony
+			}
+			any_owned_province = {
+				trade_company_region = trade_company_persia
+			}
+			capital_scope = {
+				AND = {
+					NOT = { continent = asia }
+				}
+			}
+		}
+		provinces_to_highlight = {
+			country_or_subject_holds = ROOT
+			trade_company_region = trade_company_persia
+		}
+		allow = {
+			is_at_war = no
+			OR = {
+				has_idea_group = exploration_ideas
+				has_idea_group = expansion_ideas
+			}
+		}
+		effect = {
+			#set_country_flag = colonize_it_persia_colony
+			every_owned_province = {
+				limit = {
+					trade_company_region = trade_company_persia
+				}
+				set_province_flag = colonize_it_mark
+			}
+			ROOT = {
+				save_global_event_target_as = colonize_it_target
+			}
+			country_event = {
+				id = colonize_it_create.161
+			}
+		}
+		ai_will_do = { 
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { total_development = 150 }
+			}
+			modifier = {
+				factor = 0
+				capital_scope = {
+					OR = {
+						region = anatolia_region
+						region = balkan_region
+						region = russia_region
+						region = crimea_region
+						region = ruthenia_region
+						region = ural_region
+					}
+				}
+			}
+			modifier = {
+				factor = 0
+				has_global_flag = colonize_it_ai_disable
+			}
+			modifier = {
+				factor = 0
+				is_nomad = yes
+			}
+			modifier = {
+				factor = 0
+				tag = YUA
+			}
+			modifier = {
+				factor = 0
+				is_colonial_nation = yes
+			}
+		}
+	}
+	colonize_it_hormuz = {
+		potential = {
+			NOT = {
+				has_country_flag = colonize_it_hormuz_colony
+			}
+			any_owned_province = {
+				trade_company_region = trade_company_hormuz
+			}
+			capital_scope = {
+				AND = {
+					NOT = { continent = asia }
+				}
+			}
+		}
+		provinces_to_highlight = {
+			country_or_subject_holds = ROOT
+			trade_company_region = trade_company_hormuz
+		}
+		allow = {
+			is_at_war = no
+			OR = {
+				has_idea_group = exploration_ideas
+				has_idea_group = expansion_ideas
+			}
+		}
+		effect = {
+			#set_country_flag = colonize_it_hormuz_colony
+			every_owned_province = {
+				limit = {
+					trade_company_region = trade_company_hormuz
+				}
+				set_province_flag = colonize_it_mark
+			}
+			ROOT = {
+				save_global_event_target_as = colonize_it_target
+			}
+			country_event = {
+				id = colonize_it_create.166
+			}
+		}
+		ai_will_do = { 
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { total_development = 150 }
+			}
+			modifier = {
+				factor = 0
+				capital_scope = {
+					OR = {
+						region = anatolia_region
+						region = balkan_region
+					}
+				}
+			}
+			modifier = {
+				factor = 0
+				has_global_flag = colonize_it_ai_disable
+			}
+			modifier = {
+				factor = 0
+				is_nomad = yes
+			}
+			modifier = {
+				factor = 0
+				tag = YUA
+			}
+			modifier = {
+				factor = 0
+				is_colonial_nation = yes
+			}
+		}
+	}
+	colonize_it_tunis = {
+		potential = {
+			NOT = {
+				has_country_flag = colonize_it_tunis_colony
+			}
+			any_owned_province = {
+				trade_company_region = trade_company_tunis
+			}
+			capital_scope = {
+				AND = {
+					NOT = { continent = africa }
+				}
+			}
+		}
+		provinces_to_highlight = {
+			country_or_subject_holds = ROOT
+			trade_company_region = trade_company_tunis
+		}
+		allow = {
+			is_at_war = no
+			OR = {
+				has_idea_group = exploration_ideas
+				has_idea_group = expansion_ideas
+			}
+		}
+		effect = {
+			#set_country_flag = colonize_it_tunis_colony
+			every_owned_province = {
+				limit = {
+					trade_company_region = trade_company_tunis
+				}
+				set_province_flag = colonize_it_mark
+			}
+			ROOT = {
+				save_global_event_target_as = colonize_it_target
+			}
+			country_event = {
+				id = colonize_it_create.171
+			}
+		}
+		ai_will_do = { 
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { total_development = 150 }
+			}
+			modifier = {
+				factor = 0
+				capital_scope = {
+					OR = {
+						superregion = near_east_superregion
+						region = italy_region
+						region = balkan_region
+					}
+				}
+			}
+			modifier = {
+				factor = 0
+				has_global_flag = colonize_it_ai_disable
+			}
+			modifier = {
+				factor = 0
+				is_nomad = yes
+			}
+			modifier = {
+				factor = 0
+				tag = YUA
+			}
+			modifier = {
+				factor = 0
+				is_colonial_nation = yes
+			}
+		}
+	}
+	colonize_it_safi = {
+		potential = {
+			NOT = {
+				has_country_flag = colonize_it_safi_colony
+			}
+			any_owned_province = {
+				trade_company_region = trade_company_safi
+			}
+			capital_scope = {
+				AND = {
+					NOT = { continent = africa }
+				}
+			}
+		}
+		provinces_to_highlight = {
+			country_or_subject_holds = ROOT
+			trade_company_region = trade_company_safi
+		}
+		allow = {
+			is_at_war = no
+			OR = {
+				has_idea_group = exploration_ideas
+				has_idea_group = expansion_ideas
+			}
+		}
+		effect = {
+			#set_country_flag = colonize_it_safi_colony
+			every_owned_province = {
+				limit = {
+					trade_company_region = trade_company_safi
+				}
+				set_province_flag = colonize_it_mark
+			}
+			ROOT = {
+				save_global_event_target_as = colonize_it_target
+			}
+			country_event = {
+				id = colonize_it_create.176
+			}
+		}
+		ai_will_do = { 
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { total_development = 150 }
+			}
+			modifier = {
+				factor = 0
+				capital_scope = {
+					OR = {
+						superregion = near_east_superregion
+						region = italy_region
+						region = balkan_region
+					}
+				}
+			}
+			modifier = {
+				factor = 0
+				has_global_flag = colonize_it_ai_disable
+			}
+			modifier = {
+				factor = 0
+				is_nomad = yes
+			}
+			modifier = {
+				factor = 0
+				tag = YUA
+			}
+			modifier = {
+				factor = 0
+				is_colonial_nation = yes
+			}
+		}
+	}
+	colonize_it_timbuktu = {
+		potential = {
+			NOT = {
+				has_country_flag = colonize_it_timbuktu_colony
+			}
+			any_owned_province = {
+				trade_company_region = trade_company_timbuktu
+			}
+			capital_scope = {
+				AND = {
+					NOT = { continent = africa }
+				}
+			}
+		}
+		provinces_to_highlight = {
+			country_or_subject_holds = ROOT
+			trade_company_region = trade_company_timbuktu
+		}
+		allow = {
+			is_at_war = no
+			OR = {
+				has_idea_group = exploration_ideas
+				has_idea_group = expansion_ideas
+			}
+		}
+		effect = {
+			#set_country_flag = colonize_it_timbuktu_colony
+			every_owned_province = {
+				limit = {
+					trade_company_region = trade_company_timbuktu
+				}
+				set_province_flag = colonize_it_mark
+			}
+			ROOT = {
+				save_global_event_target_as = colonize_it_target
+			}
+			country_event = {
+				id = colonize_it_create.181
+			}
+		}
+		ai_will_do = { 
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { total_development = 150 }
+			}
+			modifier = {
+				factor = 0
+				has_global_flag = colonize_it_ai_disable
+			}
+			modifier = {
+				factor = 0
+				is_nomad = yes
+			}
+			modifier = {
+				factor = 0
+				tag = YUA
+			}
+			modifier = {
+				factor = 0
+				is_colonial_nation = yes
+			}
+		}
+	}
+	colonize_it_west_africa = {
+		potential = {
+			NOT = {
+				has_country_flag = colonize_it_west_africa_colony
+			}
+			any_owned_province = {
+				trade_company_region = trade_company_west_africa
+			}
+			capital_scope = {
+				AND = {
+					NOT = { continent = africa }
+				}
+			}
+		}
+		provinces_to_highlight = {
+			country_or_subject_holds = ROOT
+			trade_company_region = trade_company_west_africa
+		}
+		allow = {
+			is_at_war = no
+			OR = {
+				has_idea_group = exploration_ideas
+				has_idea_group = expansion_ideas
+			}
+		}
+		effect = {
+			#set_country_flag = colonize_it_west_africa_colony
+			every_owned_province = {
+				limit = {
+					trade_company_region = trade_company_west_africa
+				}
+				set_province_flag = colonize_it_mark
+			}
+			ROOT = {
+				save_global_event_target_as = colonize_it_target
+			}
+			country_event = {
+				id = colonize_it_create.186
+			}
+		}
+		ai_will_do = { 
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { total_development = 150 }
+			}
+			modifier = {
+				factor = 0
+				has_global_flag = colonize_it_ai_disable
+			}
+			modifier = {
+				factor = 0
+				is_nomad = yes
+			}
+			modifier = {
+				factor = 0
+				tag = YUA
+			}
+			modifier = {
+				factor = 0
+				is_colonial_nation = yes
+			}
+		}
+	}
+	colonize_it_ethiopia = {
+		potential = {
+			NOT = {
+				has_country_flag = colonize_it_ethiopia_colony
+			}
+			any_owned_province = {
+				trade_company_region = trade_company_ethiopia
+			}
+			capital_scope = {
+				AND = {
+					NOT = { continent = africa }
+				}
+			}
+		}
+		provinces_to_highlight = {
+			country_or_subject_holds = ROOT
+			trade_company_region = trade_company_ethiopia
+		}
+		allow = {
+			is_at_war = no
+			OR = {
+				has_idea_group = exploration_ideas
+				has_idea_group = expansion_ideas
+			}
+		}
+		effect = {
+			#set_country_flag = colonize_it_ethiopia_colony
+			every_owned_province = {
+				limit = {
+					trade_company_region = trade_company_ethiopia
+				}
+				set_province_flag = colonize_it_mark
+			}
+			ROOT = {
+				save_global_event_target_as = colonize_it_target
+			}
+			country_event = {
+				id = colonize_it_create.191
+			}
+		}
+		ai_will_do = { 
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { total_development = 150 }
+			}
+			modifier = {
+				factor = 0
+				has_global_flag = colonize_it_ai_disable
+			}
+			modifier = {
+				factor = 0
+				is_nomad = yes
+			}
+			modifier = {
+				factor = 0
+				tag = YUA
+			}
+			modifier = {
+				factor = 0
+				is_colonial_nation = yes
+			}
+		}
+	}
+	colonize_it_east_africa = {
+		potential = {
+			NOT = {
+				has_country_flag = colonize_it_east_africa_colony
+			}
+			any_owned_province = {
+				trade_company_region = trade_company_east_africa
+			}
+			capital_scope = {
+				AND = {
+					NOT = { continent = africa }
+				}
+			}
+		}
+		provinces_to_highlight = {
+			country_or_subject_holds = ROOT
+			trade_company_region = trade_company_east_africa
+		}
+		allow = {
+			is_at_war = no
+			OR = {
+				has_idea_group = exploration_ideas
+				has_idea_group = expansion_ideas
+			}
+		}
+		effect = {
+			#set_country_flag = colonize_it_east_africa_colony
+			every_owned_province = {
+				limit = {
+					trade_company_region = trade_company_east_africa
+				}
+				set_province_flag = colonize_it_mark
+			}
+			ROOT = {
+				save_global_event_target_as = colonize_it_target
+			}
+			country_event = {
+				id = colonize_it_create.196
+			}
+		}
+		ai_will_do = { 
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { total_development = 150 }
+			}
+			modifier = {
+				factor = 0
+				has_global_flag = colonize_it_ai_disable
+			}
+			modifier = {
+				factor = 0
+				is_nomad = yes
+			}
+			modifier = {
+				factor = 0
+				tag = YUA
+			}
+			modifier = {
+				factor = 0
+				is_colonial_nation = yes
+			}
+		}
+	}
+	colonize_it_great_lakes = {
+		potential = {
+			NOT = {
+				has_country_flag = colonize_it_great_lakes_colony
+			}
+			any_owned_province = {
+				trade_company_region = trade_company_great_lakes
+			}
+			capital_scope = {
+				AND = {
+					NOT = { continent = africa }
+				}
+			}
+		}
+		provinces_to_highlight = {
+			country_or_subject_holds = ROOT
+			trade_company_region = trade_company_great_lakes
+		}
+		allow = {
+			is_at_war = no
+			OR = {
+				has_idea_group = exploration_ideas
+				has_idea_group = expansion_ideas
+			}
+		}
+		effect = {
+			#set_country_flag = colonize_it_great_lakes_colony
+			every_owned_province = {
+				limit = {
+					trade_company_region = trade_company_great_lakes
+				}
+				set_province_flag = colonize_it_mark
+			}
+			ROOT = {
+				save_global_event_target_as = colonize_it_target
+			}
+			country_event = {
+				id = colonize_it_create.201
+			}
+		}
+		ai_will_do = { 
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { total_development = 150 }
+			}
+			modifier = {
+				factor = 0
+				has_global_flag = colonize_it_ai_disable
+			}
+			modifier = {
+				factor = 0
+				is_nomad = yes
+			}
+			modifier = {
+				factor = 0
+				tag = YUA
+			}
+			modifier = {
+				factor = 0
+				is_colonial_nation = yes
+			}
+		}
+	}
+	colonize_it_zambezi = {
+		potential = {
+			NOT = {
+				has_country_flag = colonize_it_zambezi_colony
+			}
+			any_owned_province = {
+				trade_company_region = trade_company_zambezi
+			}
+			capital_scope = {
+				AND = {
+					NOT = { continent = africa }
+				}
+			}
+		}
+		provinces_to_highlight = {
+			country_or_subject_holds = ROOT
+			trade_company_region = trade_company_zambezi
+		}
+		allow = {
+			is_at_war = no
+			OR = {
+				has_idea_group = exploration_ideas
+				has_idea_group = expansion_ideas
+			}
+		}
+		effect = {
+			#set_country_flag = colonize_it_zambezi_colony
+			every_owned_province = {
+				limit = {
+					trade_company_region = trade_company_zambezi
+				}
+				set_province_flag = colonize_it_mark
+			}
+			ROOT = {
+				save_global_event_target_as = colonize_it_target
+			}
+			country_event = {
+				id = colonize_it_create.206
+			}
+		}
+		ai_will_do = { 
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { total_development = 150 }
+			}
+			modifier = {
+				factor = 0
+				has_global_flag = colonize_it_ai_disable
+			}
+			modifier = {
+				factor = 0
+				is_nomad = yes
+			}
+			modifier = {
+				factor = 0
+				tag = YUA
+			}
+			modifier = {
+				factor = 0
+				is_colonial_nation = yes
+			}
+		}
+	}
+	colonize_it_kongo = {
+		potential = {
+			NOT = {
+				has_country_flag = colonize_it_kongo_colony
+			}
+			any_owned_province = {
+				trade_company_region = trade_company_kongo
+			}
+			capital_scope = {
+				AND = {
+					NOT = { continent = africa }
+				}
+			}
+		}
+		provinces_to_highlight = {
+			country_or_subject_holds = ROOT
+			trade_company_region = trade_company_kongo
+		}
+		allow = {
+			is_at_war = no
+			OR = {
+				has_idea_group = exploration_ideas
+				has_idea_group = expansion_ideas
+			}
+		}
+		effect = {
+			#set_country_flag = colonize_it_kongo_colony
+			every_owned_province = {
+				limit = {
+					trade_company_region = trade_company_kongo
+				}
+				set_province_flag = colonize_it_mark
+			}
+			ROOT = {
+				save_global_event_target_as = colonize_it_target
+			}
+			country_event = {
+				id = colonize_it_create.211
+			}
+		}
+		ai_will_do = { 
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { total_development = 150 }
+			}
+			modifier = {
+				factor = 0
+				has_global_flag = colonize_it_ai_disable
+			}
+			modifier = {
+				factor = 0
+				is_nomad = yes
+			}
+			modifier = {
+				factor = 0
+				tag = YUA
+			}
+			modifier = {
+				factor = 0
+				is_colonial_nation = yes
+			}
+		}
+	}
+	colonize_it_south_africa = {
+		potential = {
+			NOT = {
+				has_country_flag = colonize_it_south_africa_colony
+			}
+			any_owned_province = {
+				trade_company_region = trade_company_south_africa
+			}
+			capital_scope = {
+				AND = {
+					NOT = { continent = africa }
+				}
+			}
+		}
+		provinces_to_highlight = {
+			country_or_subject_holds = ROOT
+			trade_company_region = trade_company_south_africa
+		}
+		allow = {
+			is_at_war = no
+			OR = {
+				has_idea_group = exploration_ideas
+				has_idea_group = expansion_ideas
+			}
+		}
+		effect = {
+			#set_country_flag = colonize_it_south_africa_colony
+			every_owned_province = {
+				limit = {
+					trade_company_region = trade_company_south_africa
+				}
+				set_province_flag = colonize_it_mark
+			}
+			ROOT = {
+				save_global_event_target_as = colonize_it_target
+			}
+			country_event = {
+				id = colonize_it_create.216
+			}
+		}
+		ai_will_do = { 
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { total_development = 150 }
+			}
+			modifier = {
+				factor = 0
+				has_global_flag = colonize_it_ai_disable
+			}
+			modifier = {
+				factor = 0
+				is_nomad = yes
+			}
+			modifier = {
+				factor = 0
+				tag = YUA
+			}
+			modifier = {
+				factor = 0
+				is_colonial_nation = yes
+			}
+		}
+	}
+	colonize_it_lahore = {
+		potential = {
+			NOT = {
+				has_country_flag = colonize_it_lahore_colony
+			}
+			any_owned_province = {
+				trade_company_region = trade_company_lahore
+			}
+			capital_scope = {
+				AND = {
+					NOT = { continent = asia }
+				}
+			}
+		}
+		provinces_to_highlight = {
+			country_or_subject_holds = ROOT
+			trade_company_region = trade_company_lahore
+		}
+		allow = {
+			is_at_war = no
+			OR = {
+				has_idea_group = exploration_ideas
+				has_idea_group = expansion_ideas
+			}
+		}
+		effect = {
+			#set_country_flag = colonize_it_lahore_colony
+			every_owned_province = {
+				limit = {
+					trade_company_region = trade_company_lahore
+				}
+				set_province_flag = colonize_it_mark
+			}
+			ROOT = {
+				save_global_event_target_as = colonize_it_target
+			}
+			country_event = {
+				id = colonize_it_create.221
+			}
+		}
+		ai_will_do = { 
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { total_development = 150 }
+			}
+			modifier = {
+				factor = 0
+				has_global_flag = colonize_it_ai_disable
+			}
+			modifier = {
+				factor = 0
+				is_nomad = yes
+			}
+			modifier = {
+				factor = 0
+				tag = YUA
+			}
+			modifier = {
+				factor = 0
+				is_colonial_nation = yes
+			}
+		}
+	}
+	colonize_it_west_india = {
+		potential = {
+			NOT = {
+				has_country_flag = colonize_it_west_india_colony
+			}
+			any_owned_province = {
+				trade_company_region = trade_company_west_india
+			}
+			capital_scope = {
+				AND = {
+					NOT = { continent = asia }
+				}
+			}
+		}
+		provinces_to_highlight = {
+			country_or_subject_holds = ROOT
+			trade_company_region = trade_company_west_india
+		}
+		allow = {
+			is_at_war = no
+			OR = {
+				has_idea_group = exploration_ideas
+				has_idea_group = expansion_ideas
+			}
+		}
+		effect = {
+			#set_country_flag = colonize_it_west_india_colony
+			every_owned_province = {
+				limit = {
+					trade_company_region = trade_company_west_india
+				}
+				set_province_flag = colonize_it_mark
+			}
+			ROOT = {
+				save_global_event_target_as = colonize_it_target
+			}
+			country_event = {
+				id = colonize_it_create.226
+			}
+		}
+		ai_will_do = { 
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { total_development = 150 }
+			}
+			modifier = {
+				factor = 0
+				has_global_flag = colonize_it_ai_disable
+			}
+			modifier = {
+				factor = 0
+				is_nomad = yes
+			}
+			modifier = {
+				factor = 0
+				tag = YUA
+			}
+			modifier = {
+				factor = 0
+				is_colonial_nation = yes
+			}
+		}
+	}
+	colonize_it_north_india = {
+		potential = {
+			NOT = {
+				has_country_flag = colonize_it_north_india_colony
+			}
+			any_owned_province = {
+				trade_company_region = trade_company_north_india
+			}
+			capital_scope = {
+				AND = {
+					NOT = { continent = asia }
+				}
+			}
+		}
+		provinces_to_highlight = {
+			country_or_subject_holds = ROOT
+			trade_company_region = trade_company_north_india
+		}
+		allow = {
+			is_at_war = no
+			OR = {
+				has_idea_group = exploration_ideas
+				has_idea_group = expansion_ideas
+			}
+		}
+		effect = {
+			#set_country_flag = colonize_it_north_india_colony
+			every_owned_province = {
+				limit = {
+					trade_company_region = trade_company_north_india
+				}
+				set_province_flag = colonize_it_mark
+			}
+			ROOT = {
+				save_global_event_target_as = colonize_it_target
+			}
+			country_event = {
+				id = colonize_it_create.231
+			}
+		}
+		ai_will_do = { 
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { total_development = 150 }
+			}
+			modifier = {
+				factor = 0
+				has_global_flag = colonize_it_ai_disable
+			}
+			modifier = {
+				factor = 0
+				is_nomad = yes
+			}
+			modifier = {
+				factor = 0
+				tag = YUA
+			}
+			modifier = {
+				factor = 0
+				is_colonial_nation = yes
+			}
+		}
+	}
+	colonize_it_deccan = {
+		potential = {
+			NOT = {
+				has_country_flag = colonize_it_deccan_colony
+			}
+			any_owned_province = {
+				trade_company_region = trade_company_deccan
+			}
+			capital_scope = {
+				AND = {
+					NOT = { continent = asia }
+				}
+			}
+		}
+		provinces_to_highlight = {
+			country_or_subject_holds = ROOT
+			trade_company_region = trade_company_deccan
+		}
+		allow = {
+			is_at_war = no
+			OR = {
+				has_idea_group = exploration_ideas
+				has_idea_group = expansion_ideas
+			}
+		}
+		effect = {
+			#set_country_flag = colonize_it_deccan_colony
+			every_owned_province = {
+				limit = {
+					trade_company_region = trade_company_deccan
+				}
+				set_province_flag = colonize_it_mark
+			}
+			ROOT = {
+				save_global_event_target_as = colonize_it_target
+			}
+			country_event = {
+				id = colonize_it_create.236
+			}
+		}
+		ai_will_do = { 
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { total_development = 150 }
+			}
+			modifier = {
+				factor = 0
+				has_global_flag = colonize_it_ai_disable
+			}
+			modifier = {
+				factor = 0
+				is_nomad = yes
+			}
+			modifier = {
+				factor = 0
+				tag = YUA
+			}
+			modifier = {
+				factor = 0
+				is_colonial_nation = yes
+			}
+		}
+	}
+	colonize_it_coromandel = {
+		potential = {
+			NOT = {
+				has_country_flag = colonize_it_coromandel_colony
+			}
+			any_owned_province = {
+				trade_company_region = trade_company_coromandel
+			}
+			capital_scope = {
+				AND = {
+					NOT = { continent = asia }
+				}
+			}
+		}
+		provinces_to_highlight = {
+			country_or_subject_holds = ROOT
+			trade_company_region = trade_company_coromandel
+		}
+		allow = {
+			is_at_war = no
+			OR = {
+				has_idea_group = exploration_ideas
+				has_idea_group = expansion_ideas
+			}
+		}
+		effect = {
+			#set_country_flag = colonize_it_coromandel_colony
+			every_owned_province = {
+				limit = {
+					trade_company_region = trade_company_coromandel
+				}
+				set_province_flag = colonize_it_mark
+			}
+			ROOT = {
+				save_global_event_target_as = colonize_it_target
+			}
+			country_event = {
+				id = colonize_it_create.241
+			}
+		}
+		ai_will_do = { 
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { total_development = 150 }
+			}
+			modifier = {
+				factor = 0
+				has_global_flag = colonize_it_ai_disable
+			}
+			modifier = {
+				factor = 0
+				is_nomad = yes
+			}
+			modifier = {
+				factor = 0
+				tag = YUA
+			}
+			modifier = {
+				factor = 0
+				is_colonial_nation = yes
+			}
+		}
+	}
+	colonize_it_east_india = {
+		potential = {
+			NOT = {
+				has_country_flag = colonize_it_east_india_colony
+			}
+			any_owned_province = {
+				trade_company_region = trade_company_east_india
+			}
+			capital_scope = {
+				AND = {
+					NOT = { continent = asia }
+				}
+			}
+		}
+		provinces_to_highlight = {
+			country_or_subject_holds = ROOT
+			trade_company_region = trade_company_east_india
+		}
+		allow = {
+			is_at_war = no
+			OR = {
+				has_idea_group = exploration_ideas
+				has_idea_group = expansion_ideas
+			}
+		}
+		effect = {
+			#set_country_flag = colonize_it_east_india_colony
+			every_owned_province = {
+				limit = {
+					trade_company_region = trade_company_east_india
+				}
+				set_province_flag = colonize_it_mark
+			}
+			ROOT = {
+				save_global_event_target_as = colonize_it_target
+			}
+			country_event = {
+				id = colonize_it_create.246
+			}
+		}
+		ai_will_do = { 
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { total_development = 150 }
+			}
+			modifier = {
+				factor = 0
+				has_global_flag = colonize_it_ai_disable
+			}
+			modifier = {
+				factor = 0
+				is_nomad = yes
+			}
+			modifier = {
+				factor = 0
+				tag = YUA
+			}
+			modifier = {
+				factor = 0
+				is_colonial_nation = yes
+			}
+		}
+	}
+	colonize_it_samarkand = {
+		potential = {
+			NOT = {
+				has_country_flag = colonize_it_samarkand_colony
+			}
+			any_owned_province = {
+				trade_company_region = trade_company_samarkand
+			}
+			capital_scope = {
+				AND = {
+					NOT = { continent = asia }
+				}
+			}
+		}
+		provinces_to_highlight = {
+			country_or_subject_holds = ROOT
+			trade_company_region = trade_company_samarkand
+		}
+		allow = {
+			is_at_war = no
+			OR = {
+				has_idea_group = exploration_ideas
+				has_idea_group = expansion_ideas
+			}
+		}
+		effect = {
+			#set_country_flag = colonize_it_samarkand_colony
+			every_owned_province = {
+				limit = {
+					trade_company_region = trade_company_samarkand
+				}
+				set_province_flag = colonize_it_mark
+			}
+			ROOT = {
+				save_global_event_target_as = colonize_it_target
+			}
+			country_event = {
+				id = colonize_it_create.251
+			}
+		}
+		ai_will_do = { 
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { total_development = 150 }
+			}
+			modifier = {
+				factor = 0
+				capital_scope = {
+					OR = {
+						region = russia_region
+						region = crimea_region
+						region = ruthenia_region
+						region = ural_region
+					}
+				}
+			}
+			modifier = {
+				factor = 0
+				has_global_flag = colonize_it_ai_disable
+			}
+			modifier = {
+				factor = 0
+				is_nomad = yes
+			}
+			modifier = {
+				factor = 0
+				tag = YUA
+			}
+			modifier = {
+				factor = 0
+				is_colonial_nation = yes
+			}
+		}
+	}
+	colonize_it_siberia = {
+		potential = {
+			NOT = {
+				has_country_flag = colonize_it_siberia_colony
+			}
+			any_owned_province = {
+				trade_company_region = trade_company_siberia
+			}
+			capital_scope = {
+				AND = {
+					NOT = { continent = asia }
+				}
+			}
+		}
+		provinces_to_highlight = {
+			country_or_subject_holds = ROOT
+			trade_company_region = trade_company_siberia
+		}
+		allow = {
+			is_at_war = no
+			OR = {
+				has_idea_group = exploration_ideas
+				has_idea_group = expansion_ideas
+			}
+		}
+		effect = {
+			#set_country_flag = colonize_it_siberia_colony
+			every_owned_province = {
+				limit = {
+					trade_company_region = trade_company_siberia
+				}
+				set_province_flag = colonize_it_mark
+			}
+			ROOT = {
+				save_global_event_target_as = colonize_it_target
+			}
+			country_event = {
+				id = colonize_it_create.256
+			}
+		}
+		ai_will_do = { 
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { total_development = 150 }
+			}
+			modifier = {
+				factor = 0
+				capital_scope = {
+					OR = {
+						region = russia_region
+						region = crimea_region
+						region = ruthenia_region
+						region = ural_region
+					}
+				}
+			}
+			modifier = {
+				factor = 0
+				has_global_flag = colonize_it_ai_disable
+			}
+			modifier = {
+				factor = 0
+				is_nomad = yes
+			}
+			modifier = {
+				factor = 0
+				tag = YUA
+			}
+			modifier = {
+				factor = 0
+				is_colonial_nation = yes
+			}
+		}
+	}
+	colonize_it_yumen = {
+		potential = {
+			NOT = {
+				has_country_flag = colonize_it_yumen_colony
+			}
+			any_owned_province = {
+				trade_company_region = trade_company_yumen
+			}
+			capital_scope = {
+				AND = {
+					NOT = { continent = asia }
+				}
+			}
+		}
+		provinces_to_highlight = {
+			country_or_subject_holds = ROOT
+			trade_company_region = trade_company_yumen
+		}
+		allow = {
+			is_at_war = no
+			OR = {
+				has_idea_group = exploration_ideas
+				has_idea_group = expansion_ideas
+			}
+		}
+		effect = {
+			#set_country_flag = colonize_it_yumen_colony
+			every_owned_province = {
+				limit = {
+					trade_company_region = trade_company_yumen
+				}
+				set_province_flag = colonize_it_mark
+			}
+			ROOT = {
+				save_global_event_target_as = colonize_it_target
+			}
+			country_event = {
+				id = colonize_it_create.261
+			}
+		}
+		ai_will_do = { 
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { total_development = 150 }
+			}
+			modifier = {
+				factor = 0
+				capital_scope = {
+					OR = {
+						region = russia_region
+						region = crimea_region
+						region = ruthenia_region
+						region = ural_region
+					}
+				}
+			}
+			modifier = {
+				factor = 0
+				has_global_flag = colonize_it_ai_disable
+			}
+			modifier = {
+				factor = 0
+				is_nomad = yes
+			}
+			modifier = {
+				factor = 0
+				tag = YUA
+			}
+			modifier = {
+				factor = 0
+				is_colonial_nation = yes
+			}
+		}
+	}
+	colonize_it_lhasa = {
+		potential = {
+			NOT = {
+				has_country_flag = colonize_it_lhasa_colony
+			}
+			any_owned_province = {
+				trade_company_region = trade_company_lhasa
+			}
+			capital_scope = {
+				AND = {
+					NOT = { continent = asia }
+				}
+			}
+		}
+		provinces_to_highlight = {
+			country_or_subject_holds = ROOT
+			trade_company_region = trade_company_lhasa
+		}
+		allow = {
+			is_at_war = no
+			OR = {
+				has_idea_group = exploration_ideas
+				has_idea_group = expansion_ideas
+			}
+		}
+		effect = {
+			#set_country_flag = colonize_it_lhasa_colony
+			every_owned_province = {
+				limit = {
+					trade_company_region = trade_company_lhasa
+				}
+				set_province_flag = colonize_it_mark
+			}
+			ROOT = {
+				save_global_event_target_as = colonize_it_target
+			}
+			country_event = {
+				id = colonize_it_create.266
+			}
+		}
+		ai_will_do = { 
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { total_development = 150 }
+			}
+			modifier = {
+				factor = 0
+				has_global_flag = colonize_it_ai_disable
+			}
+			modifier = {
+				factor = 0
+				is_nomad = yes
+			}
+			modifier = {
+				factor = 0
+				tag = YUA
+			}
+			modifier = {
+				factor = 0
+				is_colonial_nation = yes
+			}
+		}
+	}
+	colonize_it_north_china = {
+		potential = {
+			NOT = {
+				has_country_flag = colonize_it_north_china_colony
+			}
+			any_owned_province = {
+				trade_company_region = trade_company_north_china
+			}
+			capital_scope = {
+				AND = {
+					NOT = { continent = asia }
+				}
+			}
+		}
+		provinces_to_highlight = {
+			country_or_subject_holds = ROOT
+			trade_company_region = trade_company_north_china
+		}
+		allow = {
+			is_at_war = no
+			OR = {
+				has_idea_group = exploration_ideas
+				has_idea_group = expansion_ideas
+			}
+		}
+		effect = {
+			#set_country_flag = colonize_it_north_china_colony
+			every_owned_province = {
+				limit = {
+					trade_company_region = trade_company_north_china
+				}
+				set_province_flag = colonize_it_mark
+			}
+			ROOT = {
+				save_global_event_target_as = colonize_it_target
+			}
+			country_event = {
+				id = colonize_it_create.271
+			}
+		}
+		ai_will_do = { 
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { total_development = 150 }
+			}
+			modifier = {
+				factor = 0
+				has_global_flag = colonize_it_ai_disable
+			}
+			modifier = {
+				factor = 0
+				is_nomad = yes
+			}
+			modifier = {
+				factor = 0
+				tag = YUA
+			}
+			modifier = {
+				factor = 0
+				is_colonial_nation = yes
+			}
+		}
+	}
+	colonize_it_chengdu = {
+		potential = {
+			NOT = {
+				has_country_flag = colonize_it_chengdu_colony
+			}
+			any_owned_province = {
+				trade_company_region = trade_company_chengdu
+			}
+			capital_scope = {
+				AND = {
+					NOT = { continent = asia }
+				}
+			}
+		}
+		provinces_to_highlight = {
+			country_or_subject_holds = ROOT
+			trade_company_region = trade_company_chengdu
+		}
+		allow = {
+			is_at_war = no
+			OR = {
+				has_idea_group = exploration_ideas
+				has_idea_group = expansion_ideas
+			}
+		}
+		effect = {
+			#set_country_flag = colonize_it_chengdu_colony
+			every_owned_province = {
+				limit = {
+					trade_company_region = trade_company_chengdu
+				}
+				set_province_flag = colonize_it_mark
+			}
+			ROOT = {
+				save_global_event_target_as = colonize_it_target
+			}
+			country_event = {
+				id = colonize_it_create.276
+			}
+		}
+		ai_will_do = { 
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { total_development = 150 }
+			}
+			modifier = {
+				factor = 0
+				has_global_flag = colonize_it_ai_disable
+			}
+			modifier = {
+				factor = 0
+				is_nomad = yes
+			}
+			modifier = {
+				factor = 0
+				tag = YUA
+			}
+			modifier = {
+				factor = 0
+				is_colonial_nation = yes
+			}
+		}
+	}
+	colonize_it_xian = {
+		potential = {
+			NOT = {
+				has_country_flag = colonize_it_xian_colony
+			}
+			any_owned_province = {
+				trade_company_region = trade_company_xian
+			}
+			capital_scope = {
+				AND = {
+					NOT = { continent = asia }
+				}
+			}
+		}
+		provinces_to_highlight = {
+			country_or_subject_holds = ROOT
+			trade_company_region = trade_company_xian
+		}
+		allow = {
+			is_at_war = no
+			OR = {
+				has_idea_group = exploration_ideas
+				has_idea_group = expansion_ideas
+			}
+		}
+		effect = {
+			#set_country_flag = colonize_it_xian_colony
+			every_owned_province = {
+				limit = {
+					trade_company_region = trade_company_xian
+				}
+				set_province_flag = colonize_it_mark
+			}
+			ROOT = {
+				save_global_event_target_as = colonize_it_target
+			}
+			country_event = {
+				id = colonize_it_create.281
+			}
+		}
+		ai_will_do = { 
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { total_development = 150 }
+			}
+			modifier = {
+				factor = 0
+				has_global_flag = colonize_it_ai_disable
+			}
+			modifier = {
+				factor = 0
+				is_nomad = yes
+			}
+			modifier = {
+				factor = 0
+				tag = YUA
+			}
+			modifier = {
+				factor = 0
+				is_colonial_nation = yes
+			}
+		}
+	}
+	colonize_it_south_china = {
+		potential = {
+			NOT = {
+				has_country_flag = colonize_it_south_china_colony
+			}
+			any_owned_province = {
+				trade_company_region = trade_company_south_china
+			}
+			capital_scope = {
+				AND = {
+					NOT = { continent = asia }
+				}
+			}
+		}
+		provinces_to_highlight = {
+			country_or_subject_holds = ROOT
+			trade_company_region = trade_company_south_china
+		}
+		allow = {
+			is_at_war = no
+			OR = {
+				has_idea_group = exploration_ideas
+				has_idea_group = expansion_ideas
+			}
+		}
+		effect = {
+			#set_country_flag = colonize_it_south_china_colony
+			every_owned_province = {
+				limit = {
+					trade_company_region = trade_company_south_china
+				}
+				set_province_flag = colonize_it_mark
+			}
+			ROOT = {
+				save_global_event_target_as = colonize_it_target
+			}
+			country_event = {
+				id = colonize_it_create.286
+			}
+		}
+		ai_will_do = { 
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { total_development = 150 }
+			}
+			modifier = {
+				factor = 0
+				has_global_flag = colonize_it_ai_disable
+			}
+			modifier = {
+				factor = 0
+				is_nomad = yes
+			}
+			modifier = {
+				factor = 0
+				tag = YUA
+			}
+			modifier = {
+				factor = 0
+				is_colonial_nation = yes
+			}
+		}
+	}
+	colonize_it_east_china = {
+		potential = {
+			NOT = {
+				has_country_flag = colonize_it_east_china_colony
+			}
+			any_owned_province = {
+				trade_company_region = trade_company_east_china
+			}
+			capital_scope = {
+				AND = {
+					NOT = { continent = asia }
+				}
+			}
+		}
+		provinces_to_highlight = {
+			country_or_subject_holds = ROOT
+			trade_company_region = trade_company_east_china
+		}
+		allow = {
+			is_at_war = no
+			OR = {
+				has_idea_group = exploration_ideas
+				has_idea_group = expansion_ideas
+			}
+		}
+		effect = {
+			#set_country_flag = colonize_it_east_china_colony
+			every_owned_province = {
+				limit = {
+					trade_company_region = trade_company_east_china
+				}
+				set_province_flag = colonize_it_mark
+			}
+			ROOT = {
+				save_global_event_target_as = colonize_it_target
+			}
+			country_event = {
+				id = colonize_it_create.291
+			}
+		}
+		ai_will_do = { 
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { total_development = 150 }
+			}
+			modifier = {
+				factor = 0
+				has_global_flag = colonize_it_ai_disable
+			}
+			modifier = {
+				factor = 0
+				is_nomad = yes
+			}
+			modifier = {
+				factor = 0
+				tag = YUA
+			}
+			modifier = {
+				factor = 0
+				is_colonial_nation = yes
+			}
+		}
+	}
+	colonize_it_girin = {
+		potential = {
+			NOT = {
+				has_country_flag = colonize_it_girin_colony
+			}
+			any_owned_province = {
+				trade_company_region = trade_company_girin
+			}
+			capital_scope = {
+				AND = {
+					NOT = { continent = asia }
+				}
+			}
+		}
+		provinces_to_highlight = {
+			country_or_subject_holds = ROOT
+			trade_company_region = trade_company_girin
+		}
+		allow = {
+			is_at_war = no
+			OR = {
+				has_idea_group = exploration_ideas
+				has_idea_group = expansion_ideas
+			}
+		}
+		effect = {
+			#set_country_flag = colonize_it_girin_colony
+			every_owned_province = {
+				limit = {
+					trade_company_region = trade_company_girin
+				}
+				set_province_flag = colonize_it_mark
+			}
+			ROOT = {
+				save_global_event_target_as = colonize_it_target
+			}
+			country_event = {
+				id = colonize_it_create.296
+			}
+		}
+		ai_will_do = { 
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { total_development = 150 }
+			}
+			modifier = {
+				factor = 0
+				has_global_flag = colonize_it_ai_disable
+			}
+			modifier = {
+				factor = 0
+				is_nomad = yes
+			}
+			modifier = {
+				factor = 0
+				tag = YUA
+			}
+			modifier = {
+				factor = 0
+				is_colonial_nation = yes
+			}
+		}
+	}
+	colonize_it_nippon = {
+		potential = {
+			NOT = {
+				has_country_flag = colonize_it_nippon_colony
+			}
+			any_owned_province = {
+				trade_company_region = trade_company_nippon
+			}
+			capital_scope = {
+				AND = {
+					NOT = { continent = asia }
+				}
+			}
+		}
+		provinces_to_highlight = {
+			country_or_subject_holds = ROOT
+			trade_company_region = trade_company_nippon
+		}
+		allow = {
+			is_at_war = no
+			OR = {
+				has_idea_group = exploration_ideas
+				has_idea_group = expansion_ideas
+			}
+		}
+		effect = {
+			#set_country_flag = colonize_it_nippon_colony
+			every_owned_province = {
+				limit = {
+					trade_company_region = trade_company_nippon
+				}
+				set_province_flag = colonize_it_mark
+			}
+			ROOT = {
+				save_global_event_target_as = colonize_it_target
+			}
+			country_event = {
+				id = colonize_it_create.301
+			}
+		}
+		ai_will_do = { 
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { total_development = 150 }
+			}
+			modifier = {
+				factor = 0
+				has_global_flag = colonize_it_ai_disable
+			}
+			modifier = {
+				factor = 0
+				is_nomad = yes
+			}
+			modifier = {
+				factor = 0
+				tag = YUA
+			}
+			modifier = {
+				factor = 0
+				is_colonial_nation = yes
+			}
+		}
+	}
+	colonize_it_polynesia = {
+		potential = {
+			NOT = {
+				has_country_flag = colonize_it_polynesia_colony
+			}
+			any_owned_province = {
+				trade_company_region = trade_company_polynesia
+			}
+			capital_scope = {
+				trade_company_region = trade_company_polynesia
+			}
+		}
+		provinces_to_highlight = {
+			country_or_subject_holds = ROOT
+			trade_company_region = trade_company_polynesia
+		}
+		allow = {
+			is_at_war = no
+			OR = {
+				has_idea_group = exploration_ideas
+				has_idea_group = expansion_ideas
+			}
+		}
+		effect = {
+			#set_country_flag = colonize_it_polynesia_colony
+			every_owned_province = {
+				limit = {
+					trade_company_region = trade_company_polynesia
+				}
+				set_province_flag = colonize_it_mark
+			}
+			ROOT = {
+				save_global_event_target_as = colonize_it_target
+			}
+			country_event = {
+				id = colonize_it_create.306
+			}
+		}
+		ai_will_do = { 
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { total_development = 150 }
+			}
+			modifier = {
+				factor = 0
+				has_global_flag = colonize_it_ai_disable
+			}
+			modifier = {
+				factor = 0
+				is_nomad = yes
+			}
+			modifier = {
+				factor = 0
+				tag = YUA
+			}
+			modifier = {
+				factor = 0
+				is_colonial_nation = yes
+			}
+		}
+	}
+	colonize_it_katsina = {
+		potential = {
+			NOT = {
+				has_country_flag = colonize_it_katsina_colony
+			}
+			any_owned_province = {
+				trade_company_region = trade_company_katsina
+			}
+			capital_scope = {
+				AND = {
+					NOT = { continent = africa }
+				}
+			}
+		}
+		provinces_to_highlight = {
+			country_or_subject_holds = ROOT
+			trade_company_region = trade_company_katsina
+		}
+		allow = {
+			is_at_war = no
+			OR = {
+				has_idea_group = exploration_ideas
+				has_idea_group = expansion_ideas
+			}
+		}
+		effect = {
+			#set_country_flag = colonize_it_katsina_colony
+			every_owned_province = {
+				limit = {
+					trade_company_region = trade_company_katsina
+				}
+				set_province_flag = colonize_it_mark
+			}
+			ROOT = {
+				save_global_event_target_as = colonize_it_target
+			}
+			country_event = {
+				id = colonize_it_create.311
+			}
+		}
+		ai_will_do = { 
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { total_development = 150 }
+			}
+			modifier = {
+				factor = 0
+				has_global_flag = colonize_it_ai_disable
+			}
+			modifier = {
+				factor = 0
+				is_nomad = yes
+			}
+			modifier = {
+				factor = 0
+				tag = YUA
+			}
+			modifier = {
+				factor = 0
+				is_colonial_nation = yes
+			}
+		}
+	}
+	colonize_it_mexico = {
+		potential = {
+			NOT = {
+				has_country_flag = colonize_it_mexico_colony
+			}
+			any_owned_province = {
+				colonial_region = colonial_mexico
+			}
+			capital_scope = {
+				OR = {
+					continent = south_america
+					continent = oceania
+				}
+			}
+		}
+		provinces_to_highlight = {
+			country_or_subject_holds = ROOT
+			colonial_region = colonial_mexico
+		}
+		allow = {
+			is_at_war = no
+			OR = {
+				has_idea_group = exploration_ideas
+				has_idea_group = expansion_ideas
+			}
+		}
+		effect = {
+			#set_country_flag = colonize_it_mexico_colony
+			every_owned_province = {
+				limit = {
+					colonial_region = colonial_mexico
+				}
+				set_province_flag = colonize_it_mark
+			}
+			ROOT = {
+				save_global_event_target_as = colonize_it_target
+			}
+			country_event = {
+				id = colonize_it_create.316
+			}
+		}
+		ai_will_do = { 
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { total_development = 150 }
+			}
+			modifier = {
+				factor = 0
+				capital_scope = {
+					OR = {
+						colonial_region = colonial_peru
+						colonial_region = colonial_colombia
+						colonial_region = colonial_the_carribean
+					}
+				}
+			}
+			modifier = {
+				factor = 0
+				has_global_flag = colonize_it_ai_disable
+			}
+			modifier = {
+				factor = 0
+				is_nomad = yes
+			}
+			modifier = {
+				factor = 0
+				tag = YUA
+			}
+			modifier = {
+				factor = 0
+				is_colonial_nation = yes
+			}
+		}
+	}
+	colonize_it_california = {
+		potential = {
+			NOT = {
+				has_country_flag = colonize_it_california_colony
+			}
+			any_owned_province = {
+				colonial_region = colonial_california
+			}
+			capital_scope = {
+				OR = {
+					continent = south_america
+					continent = oceania
+				}
+			}
+		}
+		provinces_to_highlight = {
+			country_or_subject_holds = ROOT
+			colonial_region = colonial_california
+		}
+		allow = {
+			is_at_war = no
+			OR = {
+				has_idea_group = exploration_ideas
+				has_idea_group = expansion_ideas
+			}
+		}
+		effect = {
+			#set_country_flag = colonize_it_california_colony
+			every_owned_province = {
+				limit = {
+					colonial_region = colonial_california
+				}
+				set_province_flag = colonize_it_mark
+			}
+			ROOT = {
+				save_global_event_target_as = colonize_it_target
+			}
+			country_event = {
+				id = colonize_it_create.321
+			}
+		}
+		ai_will_do = { 
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { total_development = 150 }
+			}
+			modifier = {
+				factor = 0
+				has_global_flag = colonize_it_ai_disable
+			}
+			modifier = {
+				factor = 0
+				is_nomad = yes
+			}
+			modifier = {
+				factor = 0
+				tag = YUA
+			}
+			modifier = {
+				factor = 0
+				is_colonial_nation = yes
+			}
+		}
+	}
+	colonize_it_alaska = {
+		potential = {
+			NOT = {
+				has_country_flag = colonize_it_alaska_colony
+			}
+			any_owned_province = {
+				colonial_region = colonial_alaska
+			}
+			capital_scope = {
+				OR = {
+					continent = south_america
+					continent = oceania
+				}
+			}
+		}
+		provinces_to_highlight = {
+			country_or_subject_holds = ROOT
+			colonial_region = colonial_alaska
+		}
+		allow = {
+			is_at_war = no
+			OR = {
+				has_idea_group = exploration_ideas
+				has_idea_group = expansion_ideas
+			}
+		}
+		effect = {
+			#set_country_flag = colonize_it_alaska_colony
+			every_owned_province = {
+				limit = {
+					colonial_region = colonial_alaska
+				}
+				set_province_flag = colonize_it_mark
+			}
+			ROOT = {
+				save_global_event_target_as = colonize_it_target
+			}
+			country_event = {
+				id = colonize_it_create.326
+			}
+		}
+		ai_will_do = { 
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { total_development = 150 }
+			}
+			modifier = {
+				factor = 0
+				has_global_flag = colonize_it_ai_disable
+			}
+			modifier = {
+				factor = 0
+				is_nomad = yes
+			}
+			modifier = {
+				factor = 0
+				tag = YUA
+			}
+			modifier = {
+				factor = 0
+				is_colonial_nation = yes
+			}
+		}
+	}
+	colonize_it_louisiana = {
+		potential = {
+			NOT = {
+				has_country_flag = colonize_it_louisiana_colony
+			}
+			any_owned_province = {
+				colonial_region = colonial_louisiana
+			}
+			capital_scope = {
+				OR = {
+					continent = south_america
+					continent = oceania
+				}
+			}
+		}
+		provinces_to_highlight = {
+			country_or_subject_holds = ROOT
+			colonial_region = colonial_louisiana
+		}
+		allow = {
+			is_at_war = no
+			OR = {
+				has_idea_group = exploration_ideas
+				has_idea_group = expansion_ideas
+			}
+		}
+		effect = {
+			#set_country_flag = colonize_it_louisiana_colony
+			every_owned_province = {
+				limit = {
+					colonial_region = colonial_louisiana
+				}
+				set_province_flag = colonize_it_mark
+			}
+			ROOT = {
+				save_global_event_target_as = colonize_it_target
+			}
+			country_event = {
+				id = colonize_it_create.331
+			}
+		}
+		ai_will_do = { 
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { total_development = 150 }
+			}
+			modifier = {
+				factor = 0
+				has_global_flag = colonize_it_ai_disable
+			}
+			modifier = {
+				factor = 0
+				is_nomad = yes
+			}
+			modifier = {
+				factor = 0
+				tag = YUA
+			}
+			modifier = {
+				factor = 0
+				is_colonial_nation = yes
+			}
+		}
+	}
+	colonize_it_eastern_america = {
+		potential = {
+			NOT = {
+				has_country_flag = colonize_it_eastern_america_colony
+			}
+			any_owned_province = {
+				colonial_region = colonial_eastern_america
+			}
+			capital_scope = {
+				OR = {
+					continent = south_america
+					continent = oceania
+				}
+			}
+		}
+		provinces_to_highlight = {
+			country_or_subject_holds = ROOT
+			colonial_region = colonial_eastern_america
+		}
+		allow = {
+			is_at_war = no
+			OR = {
+				has_idea_group = exploration_ideas
+				has_idea_group = expansion_ideas
+			}
+		}
+		effect = {
+			#set_country_flag = colonize_it_eastern_america_colony
+			every_owned_province = {
+				limit = {
+					colonial_region = colonial_eastern_america
+				}
+				set_province_flag = colonize_it_mark
+			}
+			ROOT = {
+				save_global_event_target_as = colonize_it_target
+			}
+			country_event = {
+				id = colonize_it_create.336
+			}
+		}
+		ai_will_do = { 
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { total_development = 150 }
+			}
+			modifier = {
+				factor = 0
+				has_global_flag = colonize_it_ai_disable
+			}
+			modifier = {
+				factor = 0
+				is_nomad = yes
+			}
+			modifier = {
+				factor = 0
+				tag = YUA
+			}
+			modifier = {
+				factor = 0
+				is_colonial_nation = yes
+			}
+		}
+	}
+	colonize_it_canada = {
+		potential = {
+			NOT = {
+				has_country_flag = colonize_it_canada_colony
+			}
+			any_owned_province = {
+				colonial_region = colonial_canada
+			}
+			capital_scope = {
+				OR = {
+					continent = south_america
+					continent = oceania
+				}
+			}
+		}
+		provinces_to_highlight = {
+			country_or_subject_holds = ROOT
+			colonial_region = colonial_canada
+		}
+		allow = {
+			is_at_war = no
+			OR = {
+				has_idea_group = exploration_ideas
+				has_idea_group = expansion_ideas
+			}
+		}
+		effect = {
+			#set_country_flag = colonize_it_canada_colony
+			every_owned_province = {
+				limit = {
+					colonial_region = colonial_canada
+				}
+				set_province_flag = colonize_it_mark
+			}
+			ROOT = {
+				save_global_event_target_as = colonize_it_target
+			}
+			country_event = {
+				id = colonize_it_create.341
+			}
+		}
+		ai_will_do = { 
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { total_development = 150 }
+			}
+			modifier = {
+				factor = 0
+				has_global_flag = colonize_it_ai_disable
+			}
+			modifier = {
+				factor = 0
+				is_nomad = yes
+			}
+			modifier = {
+				factor = 0
+				tag = YUA
+			}
+			modifier = {
+				factor = 0
+				is_colonial_nation = yes
+			}
+		}
+	}
+	colonize_it_the_carribean = {
+		potential = {
+			NOT = {
+				has_country_flag = colonize_it_the_carribean_colony
+			}
+			any_owned_province = {
+				colonial_region = colonial_the_carribean
+			}
+			capital_scope = {
+				OR = {
+					continent = south_america
+					continent = oceania
+				}
+			}
+		}
+		provinces_to_highlight = {
+			country_or_subject_holds = ROOT
+			colonial_region = colonial_the_carribean
+		}
+		allow = {
+			is_at_war = no
+			OR = {
+				has_idea_group = exploration_ideas
+				has_idea_group = expansion_ideas
+			}
+		}
+		effect = {
+			#set_country_flag = colonize_it_the_carribean_colony
+			every_owned_province = {
+				limit = {
+					colonial_region = colonial_the_carribean
+				}
+				set_province_flag = colonize_it_mark
+			}
+			ROOT = {
+				save_global_event_target_as = colonize_it_target
+			}
+			country_event = {
+				id = colonize_it_create.346
+			}
+		}
+		ai_will_do = { 
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { total_development = 150 }
+			}
+			modifier = {
+				factor = 0
+				capital_scope = {
+					OR = {
+						colonial_region = colonial_peru
+						colonial_region = colonial_colombia
+						colonial_region = colonial_the_carribean
+					}
+				}
+			}
+			modifier = {
+				factor = 0
+				has_global_flag = colonize_it_ai_disable
+			}
+			modifier = {
+				factor = 0
+				is_nomad = yes
+			}
+			modifier = {
+				factor = 0
+				tag = YUA
+			}
+			modifier = {
+				factor = 0
+				is_colonial_nation = yes
+			}
+		}
+	}
+	colonize_it_colombia = {
+		potential = {
+			NOT = {
+				has_country_flag = colonize_it_colombia_colony
+			}
+			any_owned_province = {
+				colonial_region = colonial_colombia
+			}
+			capital_scope = {
+				OR = {
+					continent = north_america
+					continent = oceania
+				}
+			}
+		}
+		provinces_to_highlight = {
+			country_or_subject_holds = ROOT
+			colonial_region = colonial_colombia
+		}
+		allow = {
+			is_at_war = no
+			OR = {
+				has_idea_group = exploration_ideas
+				has_idea_group = expansion_ideas
+			}
+		}
+		effect = {
+			#set_country_flag = colonize_it_colombia_colony
+			every_owned_province = {
+				limit = {
+					colonial_region = colonial_colombia
+				}
+				set_province_flag = colonize_it_mark
+			}
+			ROOT = {
+				save_global_event_target_as = colonize_it_target
+			}
+			country_event = {
+				id = colonize_it_create.351
+			}
+		}
+		ai_will_do = { 
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { total_development = 150 }
+			}
+			modifier = {
+				factor = 0
+				capital_scope = {
+					OR = {
+						colonial_region = colonial_mexico
+						colonial_region = colonial_the_carribean
+					}
+				}
+			}
+			modifier = {
+				factor = 0
+				has_global_flag = colonize_it_ai_disable
+			}
+			modifier = {
+				factor = 0
+				is_nomad = yes
+			}
+			modifier = {
+				factor = 0
+				tag = YUA
+			}
+			modifier = {
+				factor = 0
+				is_colonial_nation = yes
+			}
+		}
+	}
+	colonize_it_peru = {
+		potential = {
+			NOT = {
+				has_country_flag = colonize_it_peru_colony
+			}
+			any_owned_province = {
+				colonial_region = colonial_peru
+			}
+			capital_scope = {
+				OR = {
+					continent = north_america
+					continent = oceania
+				}
+			}
+		}
+		provinces_to_highlight = {
+			country_or_subject_holds = ROOT
+			colonial_region = colonial_peru
+		}
+		allow = {
+			is_at_war = no
+			OR = {
+				has_idea_group = exploration_ideas
+				has_idea_group = expansion_ideas
+			}
+		}
+		effect = {
+			#set_country_flag = colonize_it_peru_colony
+			every_owned_province = {
+				limit = {
+					colonial_region = colonial_peru
+				}
+				set_province_flag = colonize_it_mark
+			}
+			ROOT = {
+				save_global_event_target_as = colonize_it_target
+			}
+			country_event = {
+				id = colonize_it_create.356
+			}
+		}
+		ai_will_do = { 
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { total_development = 150 }
+			}
+			modifier = {
+				factor = 0
+				has_global_flag = colonize_it_ai_disable
+			}
+			modifier = {
+				factor = 0
+				is_nomad = yes
+			}
+			modifier = {
+				factor = 0
+				tag = YUA
+			}
+			modifier = {
+				factor = 0
+				is_colonial_nation = yes
+			}
+		}
+	}
+	colonize_it_brazil = {
+		potential = {
+			NOT = {
+				has_country_flag = colonize_it_brazil_colony
+			}
+			any_owned_province = {
+				colonial_region = colonial_brazil
+			}
+			capital_scope = {
+				OR = {
+					continent = north_america
+					continent = oceania
+				}
+			}
+		}
+		provinces_to_highlight = {
+			country_or_subject_holds = ROOT
+			colonial_region = colonial_brazil
+		}
+		allow = {
+			is_at_war = no
+			OR = {
+				has_idea_group = exploration_ideas
+				has_idea_group = expansion_ideas
+			}
+		}
+		effect = {
+			#set_country_flag = colonize_it_brazil_colony
+			every_owned_province = {
+				limit = {
+					colonial_region = colonial_brazil
+				}
+				set_province_flag = colonize_it_mark
+			}
+			ROOT = {
+				save_global_event_target_as = colonize_it_target
+			}
+			country_event = {
+				id = colonize_it_create.361
+			}
+		}
+		ai_will_do = { 
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { total_development = 150 }
+			}
+			modifier = {
+				factor = 0
+				has_global_flag = colonize_it_ai_disable
+			}
+			modifier = {
+				factor = 0
+				is_nomad = yes
+			}
+			modifier = {
+				factor = 0
+				tag = YUA
+			}
+			modifier = {
+				factor = 0
+				is_colonial_nation = yes
+			}
+		}
+	}
+	colonize_it_la_plata = {
+		potential = {
+			NOT = {
+				has_country_flag = colonize_it_la_plata_colony
+			}
+			any_owned_province = {
+				colonial_region = colonial_la_plata
+			}
+			capital_scope = {
+				OR = {
+					continent = north_america
+					continent = oceania
+				}
+			}
+		}
+		provinces_to_highlight = {
+			country_or_subject_holds = ROOT
+			colonial_region = colonial_la_plata
+		}
+		allow = {
+			is_at_war = no
+			OR = {
+				has_idea_group = exploration_ideas
+				has_idea_group = expansion_ideas
+			}
+		}
+		effect = {
+			#set_country_flag = colonize_it_la_plata_colony
+			every_owned_province = {
+				limit = {
+					colonial_region = colonial_la_plata
+				}
+				set_province_flag = colonize_it_mark
+			}
+			ROOT = {
+				save_global_event_target_as = colonize_it_target
+			}
+			country_event = {
+				id = colonize_it_create.366
+			}
+		}
+		ai_will_do = { 
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { total_development = 150 }
+			}
+			modifier = {
+				factor = 0
+				has_global_flag = colonize_it_ai_disable
+			}
+			modifier = {
+				factor = 0
+				is_nomad = yes
+			}
+			modifier = {
+				factor = 0
+				tag = YUA
+			}
+			modifier = {
+				factor = 0
+				is_colonial_nation = yes
+			}
+		}
+	}
+	colonize_it_australia = {
+		potential = {
+			NOT = {
+				has_country_flag = colonize_it_australia_colony
+			}
+			any_owned_province = {
+				colonial_region = colonial_australia
+			}
+			capital_scope = {
+				OR = {
+					continent = north_america
+					continent = south_america
+				}
+			}
+		}
+		provinces_to_highlight = {
+			country_or_subject_holds = ROOT
+			colonial_region = colonial_australia
+		}
+		allow = {
+			is_at_war = no
+			OR = {
+				has_idea_group = exploration_ideas
+				has_idea_group = expansion_ideas
+			}
+		}
+		effect = {
+			#set_country_flag = colonize_it_australia_colony
+			every_owned_province = {
+				limit = {
+					colonial_region = colonial_australia
+				}
+				set_province_flag = colonize_it_mark
+			}
+			ROOT = {
+				save_global_event_target_as = colonize_it_target
+			}
+			country_event = {
+				id = colonize_it_create.371
+			}
+		}
+		ai_will_do = { 
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { total_development = 150 }
+			}
+			modifier = {
+				factor = 0
+				has_global_flag = colonize_it_ai_disable
+			}
+			modifier = {
+				factor = 0
+				is_nomad = yes
+			}
+			modifier = {
+				factor = 0
+				tag = YUA
+			}
+			modifier = {
+				factor = 0
+				is_colonial_nation = yes
+			}
+		}
+	}
+}

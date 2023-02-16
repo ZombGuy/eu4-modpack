@@ -1,0 +1,4 @@
+﻿l_english:
+ colonize_it_e_information_center.2.t: "MOD Information"
+ colonize_it_e_information_center.2.d: "Current edition of Colonize It! is [colonize_it_edition]\nHold it over the QR code to go to the mod distribution page.\nversion [Colonize_it_ver] [Colonize_it_month]/[Colonize_it_date]/[Colonize_it_year] Month/day/year\nauthor Ikumyon\nValid submods - Move it about a month in in-game time and it will reflect the correct information.\n[colonize_it_submod_extended_timeline]"
+ colonize_it_submod_extended_timeline: "Expansion - Colonize It! ET"

@@ -1,0 +1,2702 @@
+namespace = colonize_it_transfer
+
+country_event = { #インドネシア
+	id = colonize_it_transfer.1
+	title = none
+	desc = trade_company_region_indonesia
+	picture = none
+	hidden = yes
+	trigger = {
+		overlord = {
+			any_owned_province = {
+				trade_company_region = trade_company_indonesia
+			}
+		}
+		is_colonial_nation = yes
+		has_country_flag = colonize_it_trade_company_region
+		has_country_flag = colonize_it_tag_indonesia
+	}
+
+	immediate = {
+		overlord = {
+			every_owned_province = {
+				limit = {
+					trade_company_region = trade_company_indonesia
+				}
+				cede_province = ROOT
+				if = {
+					limit = {
+						is_core = overlord
+					}
+					add_core = ROOT
+					remove_core = overlord
+				}
+			}
+		}
+	}
+	option = {}
+}
+country_event = { #モルッカ
+	id = colonize_it_transfer.2
+	title = none
+	desc = trade_company_region_moluccas
+	picture = none
+	hidden = yes
+	trigger = {
+		overlord = {
+			any_owned_province = {
+				trade_company_region = trade_company_moluccas
+			}
+		}
+		is_colonial_nation = yes
+		has_country_flag = colonize_it_trade_company_region
+		has_country_flag = colonize_it_tag_moluccas
+	}
+
+	immediate = {
+		overlord = {
+			every_owned_province = {
+				limit = {
+					trade_company_region = trade_company_moluccas
+				}
+				cede_province = ROOT
+				if = {
+					limit = {
+						is_core = overlord
+					}
+					add_core = ROOT
+					remove_core = overlord
+				}
+			}
+		}
+	}
+	option = {}
+}
+country_event = { #フィリピン
+	id = colonize_it_transfer.3
+	title = none
+	desc = trade_company_region_philippines
+	picture = none
+	hidden = yes
+	trigger = {
+		overlord = {
+			any_owned_province = {
+				trade_company_region = trade_company_philippines
+			}
+		}
+		is_colonial_nation = yes
+		has_country_flag = colonize_it_trade_company_region
+		has_country_flag = colonize_it_tag_philippines
+	}
+
+	immediate = {
+		overlord = {
+			every_owned_province = {
+				limit = {
+					trade_company_region = trade_company_philippines
+				}
+				cede_province = ROOT
+				if = {
+					limit = {
+						is_core = overlord
+					}
+					add_core = ROOT
+					remove_core = overlord
+				}
+			}
+		}
+	}
+	option = {}
+}
+country_event = { #インドシナ
+	id = colonize_it_transfer.4
+	title = none
+	desc = trade_company_region_indochina
+	picture = none
+	hidden = yes
+	trigger = {
+		overlord = {
+			any_owned_province = {
+				trade_company_region = trade_company_indochina
+			}
+		}
+		is_colonial_nation = yes
+		has_country_flag = colonize_it_trade_company_region
+		has_country_flag = colonize_it_tag_indochina
+	}
+
+	immediate = {
+		overlord = {
+			every_owned_province = {
+				limit = {
+					trade_company_region = trade_company_indochina
+				}
+				cede_province = ROOT
+				if = {
+					limit = {
+						is_core = overlord
+					}
+					add_core = ROOT
+					remove_core = overlord
+				}
+			}
+		}
+	}
+	option = {}
+}
+country_event = { #ビルマ
+	id = colonize_it_transfer.5
+	title = none
+	desc = trade_company_region_burma
+	picture = none
+	hidden = yes
+	trigger = {
+		overlord = {
+			any_owned_province = {
+				trade_company_region = trade_company_burma
+			}
+		}
+		is_colonial_nation = yes
+		has_country_flag = colonize_it_trade_company_region
+		has_country_flag = colonize_it_tag_burma
+	}
+
+	immediate = {
+		overlord = {
+			every_owned_province = {
+				limit = {
+					trade_company_region = trade_company_burma
+				}
+				cede_province = ROOT
+				if = {
+					limit = {
+						is_core = overlord
+					}
+					add_core = ROOT
+					remove_core = overlord
+				}
+			}
+		}
+	}
+	option = {}
+}
+country_event = { #北海
+	id = colonize_it_transfer.6
+	title = none
+	desc = trade_company_region_north_sea
+	picture = none
+	hidden = yes
+	trigger = {
+		overlord = {
+			any_owned_province = {
+				trade_company_region = trade_company_north_sea
+			}
+		}
+		is_colonial_nation = yes
+		has_country_flag = colonize_it_trade_company_region
+		has_country_flag = colonize_it_tag_north_sea
+	}
+
+	immediate = {
+		overlord = {
+			every_owned_province = {
+				limit = {
+					trade_company_region = trade_company_north_sea
+				}
+				cede_province = ROOT
+				if = {
+					limit = {
+						is_core = overlord
+					}
+					add_core = ROOT
+					remove_core = overlord
+				}
+			}
+		}
+	}
+	option = {}
+}
+country_event = { #イギリス海峡
+	id = colonize_it_transfer.7
+	title = none
+	desc = trade_company_region_english_channel
+	picture = none
+	hidden = yes
+	trigger = {
+		overlord = {
+			any_owned_province = {
+				trade_company_region = trade_company_english_channel
+			}
+		}
+		is_colonial_nation = yes
+		has_country_flag = colonize_it_trade_company_region
+		has_country_flag = colonize_it_tag_english_channel
+	}
+
+	immediate = {
+		overlord = {
+			every_owned_province = {
+				limit = {
+					trade_company_region = trade_company_english_channel
+				}
+				cede_province = ROOT
+				if = {
+					limit = {
+						is_core = overlord
+					}
+					add_core = ROOT
+					remove_core = overlord
+				}
+			}
+		}
+	}
+	option = {}
+}
+country_event = { #ガスコーニュ
+	id = colonize_it_transfer.8
+	title = none
+	desc = trade_company_region_bordeaux
+	picture = none
+	hidden = yes
+	trigger = {
+		overlord = {
+			any_owned_province = {
+				trade_company_region = trade_company_bordeaux
+			}
+		}
+		is_colonial_nation = yes
+		has_country_flag = colonize_it_trade_company_region
+		has_country_flag = colonize_it_tag_bordeaux
+	}
+
+	immediate = {
+		overlord = {
+			every_owned_province = {
+				limit = {
+					trade_company_region = trade_company_bordeaux
+				}
+				cede_province = ROOT
+				if = {
+					limit = {
+						is_core = overlord
+					}
+					add_core = ROOT
+					remove_core = overlord
+				}
+			}
+		}
+	}
+	option = {}
+}
+country_event = { #ブルゴーニュ
+	id = colonize_it_transfer.9
+	title = none
+	desc = trade_company_region_champagne
+	picture = none
+	hidden = yes
+	trigger = {
+		overlord = {
+			any_owned_province = {
+				trade_company_region = trade_company_champagne
+			}
+		}
+		is_colonial_nation = yes
+		has_country_flag = colonize_it_trade_company_region
+		has_country_flag = colonize_it_tag_champagne
+	}
+
+	immediate = {
+		overlord = {
+			every_owned_province = {
+				limit = {
+					trade_company_region = trade_company_champagne
+				}
+				cede_province = ROOT
+				if = {
+					limit = {
+						is_core = overlord
+					}
+					add_core = ROOT
+					remove_core = overlord
+				}
+			}
+		}
+	}
+	option = {}
+}
+country_event = { #イベリア
+	id = colonize_it_transfer.10
+	title = none
+	desc = trade_company_region_sevilla
+	picture = none
+	hidden = yes
+	trigger = {
+		overlord = {
+			any_owned_province = {
+				trade_company_region = trade_company_sevilla
+			}
+		}
+		is_colonial_nation = yes
+		has_country_flag = colonize_it_trade_company_region
+		has_country_flag = colonize_it_tag_sevilla
+	}
+
+	immediate = {
+		overlord = {
+			every_owned_province = {
+				limit = {
+					trade_company_region = trade_company_sevilla
+				}
+				cede_province = ROOT
+				if = {
+					limit = {
+						is_core = overlord
+					}
+					add_core = ROOT
+					remove_core = overlord
+				}
+			}
+		}
+	}
+	option = {}
+}
+country_event = { #カタルーニャ
+	id = colonize_it_transfer.11
+	title = none
+	desc = trade_company_region_valencia
+	picture = none
+	hidden = yes
+	trigger = {
+		overlord = {
+			any_owned_province = {
+				trade_company_region = trade_company_valencia
+			}
+		}
+		is_colonial_nation = yes
+		has_country_flag = colonize_it_trade_company_region
+		has_country_flag = colonize_it_tag_valencia
+	}
+
+	immediate = {
+		overlord = {
+			every_owned_province = {
+				limit = {
+					trade_company_region = trade_company_valencia
+				}
+				cede_province = ROOT
+				if = {
+					limit = {
+						is_core = overlord
+					}
+					add_core = ROOT
+					remove_core = overlord
+				}
+			}
+		}
+	}
+	option = {}
+}
+country_event = { #西イタリア
+	id = colonize_it_transfer.12
+	title = none
+	desc = trade_company_region_venice
+	picture = none
+	hidden = yes
+	trigger = {
+		overlord = {
+			any_owned_province = {
+				trade_company_region = trade_company_venice
+			}
+		}
+		is_colonial_nation = yes
+		has_country_flag = colonize_it_trade_company_region
+		has_country_flag = colonize_it_tag_venice
+	}
+
+	immediate = {
+		overlord = {
+			every_owned_province = {
+				limit = {
+					trade_company_region = trade_company_venice
+				}
+				cede_province = ROOT
+				if = {
+					limit = {
+						is_core = overlord
+					}
+					add_core = ROOT
+					remove_core = overlord
+				}
+			}
+		}
+	}
+	option = {}
+}
+country_event = { #東イタリア
+	id = colonize_it_transfer.13
+	title = none
+	desc = trade_company_region_genua
+	picture = none
+	hidden = yes
+	trigger = {
+		overlord = {
+			any_owned_province = {
+				trade_company_region = trade_company_genua
+			}
+		}
+		is_colonial_nation = yes
+		has_country_flag = colonize_it_trade_company_region
+		has_country_flag = colonize_it_tag_genua
+	}
+
+	immediate = {
+		overlord = {
+			every_owned_province = {
+				limit = {
+					trade_company_region = trade_company_genua
+				}
+				cede_province = ROOT
+				if = {
+					limit = {
+						is_core = overlord
+					}
+					add_core = ROOT
+					remove_core = overlord
+				}
+			}
+		}
+	}
+	option = {}
+}
+country_event = { #ラインラント
+	id = colonize_it_transfer.14
+	title = none
+	desc = trade_company_region_rheinland
+	picture = none
+	hidden = yes
+	trigger = {
+		overlord = {
+			any_owned_province = {
+				trade_company_region = trade_company_rheinland
+			}
+		}
+		is_colonial_nation = yes
+		has_country_flag = colonize_it_trade_company_region
+		has_country_flag = colonize_it_tag_rheinland
+	}
+
+	immediate = {
+		overlord = {
+			every_owned_province = {
+				limit = {
+					trade_company_region = trade_company_rheinland
+				}
+				cede_province = ROOT
+				if = {
+					limit = {
+						is_core = overlord
+					}
+					add_core = ROOT
+					remove_core = overlord
+				}
+			}
+		}
+	}
+	option = {}
+}
+country_event = { #オーストリア
+	id = colonize_it_transfer.15
+	title = none
+	desc = trade_company_region_wien
+	picture = none
+	hidden = yes
+	trigger = {
+		overlord = {
+			any_owned_province = {
+				trade_company_region = trade_company_wien
+			}
+		}
+		is_colonial_nation = yes
+		has_country_flag = colonize_it_trade_company_region
+		has_country_flag = colonize_it_tag_wien
+	}
+
+	immediate = {
+		overlord = {
+			every_owned_province = {
+				limit = {
+					trade_company_region = trade_company_wien
+				}
+				cede_province = ROOT
+				if = {
+					limit = {
+						is_core = overlord
+					}
+					add_core = ROOT
+					remove_core = overlord
+				}
+			}
+		}
+	}
+	option = {}
+}
+country_event = { #ザクセン
+	id = colonize_it_transfer.16
+	title = none
+	desc = trade_company_region_saxony
+	picture = none
+	hidden = yes
+	trigger = {
+		overlord = {
+			any_owned_province = {
+				trade_company_region = trade_company_saxony
+			}
+		}
+		is_colonial_nation = yes
+		has_country_flag = colonize_it_trade_company_region
+		has_country_flag = colonize_it_tag_saxony
+	}
+
+	immediate = {
+		overlord = {
+			every_owned_province = {
+				limit = {
+					trade_company_region = trade_company_saxony
+				}
+				cede_province = ROOT
+				if = {
+					limit = {
+						is_core = overlord
+					}
+					add_core = ROOT
+					remove_core = overlord
+				}
+			}
+		}
+	}
+	option = {}
+}
+country_event = { #リューベック
+	id = colonize_it_transfer.17
+	title = none
+	desc = trade_company_region_lubeck
+	picture = none
+	hidden = yes
+	trigger = {
+		overlord = {
+			any_owned_province = {
+				trade_company_region = trade_company_lubeck
+			}
+		}
+		is_colonial_nation = yes
+		has_country_flag = colonize_it_trade_company_region
+		has_country_flag = colonize_it_tag_lubeck
+	}
+
+	immediate = {
+		overlord = {
+			every_owned_province = {
+				limit = {
+					trade_company_region = trade_company_lubeck
+				}
+				cede_province = ROOT
+				if = {
+					limit = {
+						is_core = overlord
+					}
+					add_core = ROOT
+					remove_core = overlord
+				}
+			}
+		}
+	}
+	option = {}
+}
+country_event = { #バルト
+	id = colonize_it_transfer.18
+	title = none
+	desc = trade_company_region_baltic_sea
+	picture = none
+	hidden = yes
+	trigger = {
+		overlord = {
+			any_owned_province = {
+				trade_company_region = trade_company_baltic_sea
+			}
+		}
+		is_colonial_nation = yes
+		has_country_flag = colonize_it_trade_company_region
+		has_country_flag = colonize_it_tag_baltic_sea
+	}
+
+	immediate = {
+		overlord = {
+			every_owned_province = {
+				limit = {
+					trade_company_region = trade_company_baltic_sea
+				}
+				cede_province = ROOT
+				if = {
+					limit = {
+						is_core = overlord
+					}
+					add_core = ROOT
+					remove_core = overlord
+				}
+			}
+		}
+	}
+	option = {}
+}
+country_event = { #ポーランド
+	id = colonize_it_transfer.19
+	title = none
+	desc = trade_company_region_krakow
+	picture = none
+	hidden = yes
+	trigger = {
+		overlord = {
+			any_owned_province = {
+				trade_company_region = trade_company_krakow
+			}
+		}
+		is_colonial_nation = yes
+		has_country_flag = colonize_it_trade_company_region
+		has_country_flag = colonize_it_tag_krakow
+	}
+
+	immediate = {
+		overlord = {
+			every_owned_province = {
+				limit = {
+					trade_company_region = trade_company_krakow
+				}
+				cede_province = ROOT
+				if = {
+					limit = {
+						is_core = overlord
+					}
+					add_core = ROOT
+					remove_core = overlord
+				}
+			}
+		}
+	}
+	option = {}
+}
+country_event = { #カルパチア
+	id = colonize_it_transfer.20
+	title = none
+	desc = trade_company_region_pest
+	picture = none
+	hidden = yes
+	trigger = {
+		overlord = {
+			any_owned_province = {
+				trade_company_region = trade_company_pest
+			}
+		}
+		is_colonial_nation = yes
+		has_country_flag = colonize_it_trade_company_region
+		has_country_flag = colonize_it_tag_pest
+	}
+
+	immediate = {
+		overlord = {
+			every_owned_province = {
+				limit = {
+					trade_company_region = trade_company_pest
+				}
+				cede_province = ROOT
+				if = {
+					limit = {
+						is_core = overlord
+					}
+					add_core = ROOT
+					remove_core = overlord
+				}
+			}
+		}
+	}
+	option = {}
+}
+country_event = { #バルカン
+	id = colonize_it_transfer.21
+	title = none
+	desc = trade_company_region_ragusa
+	picture = none
+	hidden = yes
+	trigger = {
+		overlord = {
+			any_owned_province = {
+				trade_company_region = trade_company_ragusa
+			}
+		}
+		is_colonial_nation = yes
+		has_country_flag = colonize_it_trade_company_region
+		has_country_flag = colonize_it_tag_ragusa
+	}
+
+	immediate = {
+		overlord = {
+			every_owned_province = {
+				limit = {
+					trade_company_region = trade_company_ragusa
+				}
+				cede_province = ROOT
+				if = {
+					limit = {
+						is_core = overlord
+					}
+					add_core = ROOT
+					remove_core = overlord
+				}
+			}
+		}
+	}
+	option = {}
+}
+country_event = { #クリミア
+	id = colonize_it_transfer.22
+	title = none
+	desc = trade_company_region_crimea
+	picture = none
+	hidden = yes
+	trigger = {
+		overlord = {
+			any_owned_province = {
+				trade_company_region = trade_company_crimea
+			}
+		}
+		is_colonial_nation = yes
+		has_country_flag = colonize_it_trade_company_region
+		has_country_flag = colonize_it_tag_crimea
+	}
+
+	immediate = {
+		overlord = {
+			every_owned_province = {
+				limit = {
+					trade_company_region = trade_company_crimea
+				}
+				cede_province = ROOT
+				if = {
+					limit = {
+						is_core = overlord
+					}
+					add_core = ROOT
+					remove_core = overlord
+				}
+			}
+		}
+	}
+	option = {}
+}
+country_event = { #キエフ
+	id = colonize_it_transfer.23
+	title = none
+	desc = trade_company_region_kiev
+	picture = none
+	hidden = yes
+	trigger = {
+		overlord = {
+			any_owned_province = {
+				trade_company_region = trade_company_kiev
+			}
+		}
+		is_colonial_nation = yes
+		has_country_flag = colonize_it_trade_company_region
+		has_country_flag = colonize_it_tag_kiev
+	}
+
+	immediate = {
+		overlord = {
+			every_owned_province = {
+				limit = {
+					trade_company_region = trade_company_kiev
+				}
+				cede_province = ROOT
+				if = {
+					limit = {
+						is_core = overlord
+					}
+					add_core = ROOT
+					remove_core = overlord
+				}
+			}
+		}
+	}
+	option = {}
+}
+country_event = { #モスクワ
+	id = colonize_it_transfer.24
+	title = none
+	desc = trade_company_region_novgorod
+	picture = none
+	hidden = yes
+	trigger = {
+		overlord = {
+			any_owned_province = {
+				trade_company_region = trade_company_novgorod
+			}
+		}
+		is_colonial_nation = yes
+		has_country_flag = colonize_it_trade_company_region
+		has_country_flag = colonize_it_tag_novgorod
+	}
+
+	immediate = {
+		overlord = {
+			every_owned_province = {
+				limit = {
+					trade_company_region = trade_company_novgorod
+				}
+				cede_province = ROOT
+				if = {
+					limit = {
+						is_core = overlord
+					}
+					add_core = ROOT
+					remove_core = overlord
+				}
+			}
+		}
+	}
+	option = {}
+}
+country_event = { #白海
+	id = colonize_it_transfer.25
+	title = none
+	desc = trade_company_region_white_sea
+	picture = none
+	hidden = yes
+	trigger = {
+		overlord = {
+			any_owned_province = {
+				trade_company_region = trade_company_white_sea
+			}
+		}
+		is_colonial_nation = yes
+		has_country_flag = colonize_it_trade_company_region
+		has_country_flag = colonize_it_tag_white_sea
+	}
+
+	immediate = {
+		overlord = {
+			every_owned_province = {
+				limit = {
+					trade_company_region = trade_company_white_sea
+				}
+				cede_province = ROOT
+				if = {
+					limit = {
+						is_core = overlord
+					}
+					add_core = ROOT
+					remove_core = overlord
+				}
+			}
+		}
+	}
+	option = {}
+}
+country_event = { #ウラル
+	id = colonize_it_transfer.26
+	title = none
+	desc = trade_company_region_kazan
+	picture = none
+	hidden = yes
+	trigger = {
+		overlord = {
+			any_owned_province = {
+				trade_company_region = trade_company_kazan
+			}
+		}
+		is_colonial_nation = yes
+		has_country_flag = colonize_it_trade_company_region
+		has_country_flag = colonize_it_tag_kazan
+	}
+
+	immediate = {
+		overlord = {
+			every_owned_province = {
+				limit = {
+					trade_company_region = trade_company_kazan
+				}
+				cede_province = ROOT
+				if = {
+					limit = {
+						is_core = overlord
+					}
+					add_core = ROOT
+					remove_core = overlord
+				}
+			}
+		}
+	}
+	option = {}
+}
+country_event = { #アストラハン
+	id = colonize_it_transfer.27
+	title = none
+	desc = trade_company_region_astrakhan
+	picture = none
+	hidden = yes
+	trigger = {
+		overlord = {
+			any_owned_province = {
+				trade_company_region = trade_company_astrakhan
+			}
+		}
+		is_colonial_nation = yes
+		has_country_flag = colonize_it_trade_company_region
+		has_country_flag = colonize_it_tag_astrakhan
+	}
+
+	immediate = {
+		overlord = {
+			every_owned_province = {
+				limit = {
+					trade_company_region = trade_company_astrakhan
+				}
+				cede_province = ROOT
+				if = {
+					limit = {
+						is_core = overlord
+					}
+					add_core = ROOT
+					remove_core = overlord
+				}
+			}
+		}
+	}
+	option = {}
+}
+country_event = { #トルコ
+	id = colonize_it_transfer.28
+	title = none
+	desc = trade_company_region_constantinople
+	picture = none
+	hidden = yes
+	trigger = {
+		overlord = {
+			any_owned_province = {
+				trade_company_region = trade_company_constantinople
+			}
+		}
+		is_colonial_nation = yes
+		has_country_flag = colonize_it_trade_company_region
+		has_country_flag = colonize_it_tag_constantinople
+	}
+
+	immediate = {
+		overlord = {
+			every_owned_province = {
+				limit = {
+					trade_company_region = trade_company_constantinople
+				}
+				cede_province = ROOT
+				if = {
+					limit = {
+						is_core = overlord
+					}
+					add_core = ROOT
+					remove_core = overlord
+				}
+			}
+		}
+	}
+	option = {}
+}
+country_event = { #レバント
+	id = colonize_it_transfer.29
+	title = none
+	desc = trade_company_region_aleppo
+	picture = none
+	hidden = yes
+	trigger = {
+		overlord = {
+			any_owned_province = {
+				trade_company_region = trade_company_aleppo
+			}
+		}
+		is_colonial_nation = yes
+		has_country_flag = colonize_it_trade_company_region
+		has_country_flag = colonize_it_tag_aleppo
+	}
+
+	immediate = {
+		overlord = {
+			every_owned_province = {
+				limit = {
+					trade_company_region = trade_company_aleppo
+				}
+				cede_province = ROOT
+				if = {
+					limit = {
+						is_core = overlord
+					}
+					add_core = ROOT
+					remove_core = overlord
+				}
+			}
+		}
+	}
+	option = {}
+}
+country_event = { #エジプト
+	id = colonize_it_transfer.30
+	title = none
+	desc = trade_company_region_alexandria
+	picture = none
+	hidden = yes
+	trigger = {
+		overlord = {
+			any_owned_province = {
+				trade_company_region = trade_company_alexandria
+			}
+		}
+		is_colonial_nation = yes
+		has_country_flag = colonize_it_trade_company_region
+		has_country_flag = colonize_it_tag_alexandria
+	}
+
+	immediate = {
+		overlord = {
+			every_owned_province = {
+				limit = {
+					trade_company_region = trade_company_alexandria
+				}
+				cede_province = ROOT
+				if = {
+					limit = {
+						is_core = overlord
+					}
+					add_core = ROOT
+					remove_core = overlord
+				}
+			}
+		}
+	}
+	option = {}
+}
+country_event = { #マシュリク
+	id = colonize_it_transfer.31
+	title = none
+	desc = trade_company_region_basra
+	picture = none
+	hidden = yes
+	trigger = {
+		overlord = {
+			any_owned_province = {
+				trade_company_region = trade_company_basra
+			}
+		}
+		is_colonial_nation = yes
+		has_country_flag = colonize_it_trade_company_region
+		has_country_flag = colonize_it_tag_basra
+	}
+
+	immediate = {
+		overlord = {
+			every_owned_province = {
+				limit = {
+					trade_company_region = trade_company_basra
+				}
+				cede_province = ROOT
+				if = {
+					limit = {
+						is_core = overlord
+					}
+					add_core = ROOT
+					remove_core = overlord
+				}
+			}
+		}
+	}
+	option = {}
+}
+country_event = { #イエメン
+	id = colonize_it_transfer.32
+	title = none
+	desc = trade_company_region_gulf_of_aden
+	picture = none
+	hidden = yes
+	trigger = {
+		overlord = {
+			any_owned_province = {
+				trade_company_region = trade_company_gulf_of_aden
+			}
+		}
+		is_colonial_nation = yes
+		has_country_flag = colonize_it_trade_company_region
+		has_country_flag = colonize_it_tag_gulf_of_aden
+	}
+
+	immediate = {
+		overlord = {
+			every_owned_province = {
+				limit = {
+					trade_company_region = trade_company_gulf_of_aden
+				}
+				cede_province = ROOT
+				if = {
+					limit = {
+						is_core = overlord
+					}
+					add_core = ROOT
+					remove_core = overlord
+				}
+			}
+		}
+	}
+	option = {}
+}
+country_event = { #ペルシア
+	id = colonize_it_transfer.33
+	title = none
+	desc = trade_company_region_persia
+	picture = none
+	hidden = yes
+	trigger = {
+		overlord = {
+			any_owned_province = {
+				trade_company_region = trade_company_persia
+			}
+		}
+		is_colonial_nation = yes
+		has_country_flag = colonize_it_trade_company_region
+		has_country_flag = colonize_it_tag_persia
+	}
+
+	immediate = {
+		overlord = {
+			every_owned_province = {
+				limit = {
+					trade_company_region = trade_company_persia
+				}
+				cede_province = ROOT
+				if = {
+					limit = {
+						is_core = overlord
+					}
+					add_core = ROOT
+					remove_core = overlord
+				}
+			}
+		}
+	}
+	option = {}
+}
+country_event = { #ホルムズ
+	id = colonize_it_transfer.34
+	title = none
+	desc = trade_company_region_hormuz
+	picture = none
+	hidden = yes
+	trigger = {
+		overlord = {
+			any_owned_province = {
+				trade_company_region = trade_company_hormuz
+			}
+		}
+		is_colonial_nation = yes
+		has_country_flag = colonize_it_trade_company_region
+		has_country_flag = colonize_it_tag_hormuz
+	}
+
+	immediate = {
+		overlord = {
+			every_owned_province = {
+				limit = {
+					trade_company_region = trade_company_hormuz
+				}
+				cede_province = ROOT
+				if = {
+					limit = {
+						is_core = overlord
+					}
+					add_core = ROOT
+					remove_core = overlord
+				}
+			}
+		}
+	}
+	option = {}
+}
+country_event = { #チュニス
+	id = colonize_it_transfer.35
+	title = none
+	desc = trade_company_region_tunis
+	picture = none
+	hidden = yes
+	trigger = {
+		overlord = {
+			any_owned_province = {
+				trade_company_region = trade_company_tunis
+			}
+		}
+		is_colonial_nation = yes
+		has_country_flag = colonize_it_trade_company_region
+		has_country_flag = colonize_it_tag_tunis
+	}
+
+	immediate = {
+		overlord = {
+			every_owned_province = {
+				limit = {
+					trade_company_region = trade_company_tunis
+				}
+				cede_province = ROOT
+				if = {
+					limit = {
+						is_core = overlord
+					}
+					add_core = ROOT
+					remove_core = overlord
+				}
+			}
+		}
+	}
+	option = {}
+}
+country_event = { #マグリブ（マグレブ）
+	id = colonize_it_transfer.36
+	title = none
+	desc = trade_company_region_safi
+	picture = none
+	hidden = yes
+	trigger = {
+		overlord = {
+			any_owned_province = {
+				trade_company_region = trade_company_safi
+			}
+		}
+		is_colonial_nation = yes
+		has_country_flag = colonize_it_trade_company_region
+		has_country_flag = colonize_it_tag_safi
+	}
+
+	immediate = {
+		overlord = {
+			every_owned_province = {
+				limit = {
+					trade_company_region = trade_company_safi
+				}
+				cede_province = ROOT
+				if = {
+					limit = {
+						is_core = overlord
+					}
+					add_core = ROOT
+					remove_core = overlord
+				}
+			}
+		}
+	}
+	option = {}
+}
+country_event = { #西アフリカ
+	id = colonize_it_transfer.37
+	title = none
+	desc = trade_company_region_timbuktu
+	picture = none
+	hidden = yes
+	trigger = {
+		overlord = {
+			any_owned_province = {
+				trade_company_region = trade_company_timbuktu
+			}
+		}
+		is_colonial_nation = yes
+		has_country_flag = colonize_it_trade_company_region
+		has_country_flag = colonize_it_tag_timbuktu
+	}
+
+	immediate = {
+		overlord = {
+			every_owned_province = {
+				limit = {
+					trade_company_region = trade_company_timbuktu
+				}
+				cede_province = ROOT
+				if = {
+					limit = {
+						is_core = overlord
+					}
+					add_core = ROOT
+					remove_core = overlord
+				}
+			}
+		}
+	}
+	option = {}
+}
+country_event = { #ギニア
+	id = colonize_it_transfer.38
+	title = none
+	desc = trade_company_region_west_africa
+	picture = none
+	hidden = yes
+	trigger = {
+		overlord = {
+			any_owned_province = {
+				trade_company_region = trade_company_west_africa
+			}
+		}
+		is_colonial_nation = yes
+		has_country_flag = colonize_it_trade_company_region
+		has_country_flag = colonize_it_tag_west_africa
+	}
+
+	immediate = {
+		overlord = {
+			every_owned_province = {
+				limit = {
+					trade_company_region = trade_company_west_africa
+				}
+				cede_province = ROOT
+				if = {
+					limit = {
+						is_core = overlord
+					}
+					add_core = ROOT
+					remove_core = overlord
+				}
+			}
+		}
+	}
+	option = {}
+}
+country_event = { #エチオピア
+	id = colonize_it_transfer.39
+	title = none
+	desc = trade_company_region_ethiopia
+	picture = none
+	hidden = yes
+	trigger = {
+		overlord = {
+			any_owned_province = {
+				trade_company_region = trade_company_ethiopia
+			}
+		}
+		is_colonial_nation = yes
+		has_country_flag = colonize_it_trade_company_region
+		has_country_flag = colonize_it_tag_ethiopia
+	}
+
+	immediate = {
+		overlord = {
+			every_owned_province = {
+				limit = {
+					trade_company_region = trade_company_ethiopia
+				}
+				cede_province = ROOT
+				if = {
+					limit = {
+						is_core = overlord
+					}
+					add_core = ROOT
+					remove_core = overlord
+				}
+			}
+		}
+	}
+	option = {}
+}
+country_event = { #東アフリカ
+	id = colonize_it_transfer.40
+	title = none
+	desc = trade_company_region_east_africa
+	picture = none
+	hidden = yes
+	trigger = {
+		overlord = {
+			any_owned_province = {
+				trade_company_region = trade_company_east_africa
+			}
+		}
+		is_colonial_nation = yes
+		has_country_flag = colonize_it_trade_company_region
+		has_country_flag = colonize_it_tag_east_africa
+	}
+
+	immediate = {
+		overlord = {
+			every_owned_province = {
+				limit = {
+					trade_company_region = trade_company_east_africa
+				}
+				cede_province = ROOT
+				if = {
+					limit = {
+						is_core = overlord
+					}
+					add_core = ROOT
+					remove_core = overlord
+				}
+			}
+		}
+	}
+	option = {}
+}
+country_event = { #タンザニア
+	id = colonize_it_transfer.41
+	title = none
+	desc = trade_company_region_great_lakes
+	picture = none
+	hidden = yes
+	trigger = {
+		overlord = {
+			any_owned_province = {
+				trade_company_region = trade_company_great_lakes
+			}
+		}
+		is_colonial_nation = yes
+		has_country_flag = colonize_it_trade_company_region
+		has_country_flag = colonize_it_tag_great_lakes
+	}
+
+	immediate = {
+		overlord = {
+			every_owned_province = {
+				limit = {
+					trade_company_region = trade_company_great_lakes
+				}
+				cede_province = ROOT
+				if = {
+					limit = {
+						is_core = overlord
+					}
+					add_core = ROOT
+					remove_core = overlord
+				}
+			}
+		}
+	}
+	option = {}
+}
+country_event = { #ザンベジ
+	id = colonize_it_transfer.42
+	title = none
+	desc = trade_company_region_zambezi
+	picture = none
+	hidden = yes
+	trigger = {
+		overlord = {
+			any_owned_province = {
+				trade_company_region = trade_company_zambezi
+			}
+		}
+		is_colonial_nation = yes
+		has_country_flag = colonize_it_trade_company_region
+		has_country_flag = colonize_it_tag_zambezi
+	}
+
+	immediate = {
+		overlord = {
+			every_owned_province = {
+				limit = {
+					trade_company_region = trade_company_zambezi
+				}
+				cede_province = ROOT
+				if = {
+					limit = {
+						is_core = overlord
+					}
+					add_core = ROOT
+					remove_core = overlord
+				}
+			}
+		}
+	}
+	option = {}
+}
+country_event = { #コンゴ
+	id = colonize_it_transfer.43
+	title = none
+	desc = trade_company_region_kongo
+	picture = none
+	hidden = yes
+	trigger = {
+		overlord = {
+			any_owned_province = {
+				trade_company_region = trade_company_kongo
+			}
+		}
+		is_colonial_nation = yes
+		has_country_flag = colonize_it_trade_company_region
+		has_country_flag = colonize_it_tag_kongo
+	}
+
+	immediate = {
+		overlord = {
+			every_owned_province = {
+				limit = {
+					trade_company_region = trade_company_kongo
+				}
+				cede_province = ROOT
+				if = {
+					limit = {
+						is_core = overlord
+					}
+					add_core = ROOT
+					remove_core = overlord
+				}
+			}
+		}
+	}
+	option = {}
+}
+country_event = { #南アフリカ
+	id = colonize_it_transfer.44
+	title = none
+	desc = trade_company_region_south_africa
+	picture = none
+	hidden = yes
+	trigger = {
+		overlord = {
+			any_owned_province = {
+				trade_company_region = trade_company_south_africa
+			}
+		}
+		is_colonial_nation = yes
+		has_country_flag = colonize_it_trade_company_region
+		has_country_flag = colonize_it_tag_south_africa
+	}
+
+	immediate = {
+		overlord = {
+			every_owned_province = {
+				limit = {
+					trade_company_region = trade_company_south_africa
+				}
+				cede_province = ROOT
+				if = {
+					limit = {
+						is_core = overlord
+					}
+					add_core = ROOT
+					remove_core = overlord
+				}
+			}
+		}
+	}
+	option = {}
+}
+country_event = { #パンジャーブ
+	id = colonize_it_transfer.45
+	title = none
+	desc = trade_company_region_lahore
+	picture = none
+	hidden = yes
+	trigger = {
+		overlord = {
+			any_owned_province = {
+				trade_company_region = trade_company_lahore
+			}
+		}
+		is_colonial_nation = yes
+		has_country_flag = colonize_it_trade_company_region
+		has_country_flag = colonize_it_tag_lahore
+	}
+
+	immediate = {
+		overlord = {
+			every_owned_province = {
+				limit = {
+					trade_company_region = trade_company_lahore
+				}
+				cede_province = ROOT
+				if = {
+					limit = {
+						is_core = overlord
+					}
+					add_core = ROOT
+					remove_core = overlord
+				}
+			}
+		}
+	}
+	option = {}
+}
+country_event = { #西インド
+	id = colonize_it_transfer.46
+	title = none
+	desc = trade_company_region_west_india
+	picture = none
+	hidden = yes
+	trigger = {
+		overlord = {
+			any_owned_province = {
+				trade_company_region = trade_company_west_india
+			}
+		}
+		is_colonial_nation = yes
+		has_country_flag = colonize_it_trade_company_region
+		has_country_flag = colonize_it_tag_west_india
+	}
+
+	immediate = {
+		overlord = {
+			every_owned_province = {
+				limit = {
+					trade_company_region = trade_company_west_india
+				}
+				cede_province = ROOT
+				if = {
+					limit = {
+						is_core = overlord
+					}
+					add_core = ROOT
+					remove_core = overlord
+				}
+			}
+		}
+	}
+	option = {}
+}
+country_event = { #北インド
+	id = colonize_it_transfer.47
+	title = none
+	desc = trade_company_region_north_india
+	picture = none
+	hidden = yes
+	trigger = {
+		overlord = {
+			any_owned_province = {
+				trade_company_region = trade_company_north_india
+			}
+		}
+		is_colonial_nation = yes
+		has_country_flag = colonize_it_trade_company_region
+		has_country_flag = colonize_it_tag_north_india
+	}
+
+	immediate = {
+		overlord = {
+			every_owned_province = {
+				limit = {
+					trade_company_region = trade_company_north_india
+				}
+				cede_province = ROOT
+				if = {
+					limit = {
+						is_core = overlord
+					}
+					add_core = ROOT
+					remove_core = overlord
+				}
+			}
+		}
+	}
+	option = {}
+}
+country_event = { #デカン
+	id = colonize_it_transfer.48
+	title = none
+	desc = trade_company_region_deccan
+	picture = none
+	hidden = yes
+	trigger = {
+		overlord = {
+			any_owned_province = {
+				trade_company_region = trade_company_deccan
+			}
+		}
+		is_colonial_nation = yes
+		has_country_flag = colonize_it_trade_company_region
+		has_country_flag = colonize_it_tag_deccan
+	}
+
+	immediate = {
+		overlord = {
+			every_owned_province = {
+				limit = {
+					trade_company_region = trade_company_deccan
+				}
+				cede_province = ROOT
+				if = {
+					limit = {
+						is_core = overlord
+					}
+					add_core = ROOT
+					remove_core = overlord
+				}
+			}
+		}
+	}
+	option = {}
+}
+country_event = { #コロマンデル
+	id = colonize_it_transfer.49
+	title = none
+	desc = trade_company_region_coromandel
+	picture = none
+	hidden = yes
+	trigger = {
+		overlord = {
+			any_owned_province = {
+				trade_company_region = trade_company_coromandel
+			}
+		}
+		is_colonial_nation = yes
+		has_country_flag = colonize_it_trade_company_region
+		has_country_flag = colonize_it_tag_coromandel
+	}
+
+	immediate = {
+		overlord = {
+			every_owned_province = {
+				limit = {
+					trade_company_region = trade_company_coromandel
+				}
+				cede_province = ROOT
+				if = {
+					limit = {
+						is_core = overlord
+					}
+					add_core = ROOT
+					remove_core = overlord
+				}
+			}
+		}
+	}
+	option = {}
+}
+country_event = { #東インド
+	id = colonize_it_transfer.50
+	title = none
+	desc = trade_company_region_east_india
+	picture = none
+	hidden = yes
+	trigger = {
+		overlord = {
+			any_owned_province = {
+				trade_company_region = trade_company_east_india
+			}
+		}
+		is_colonial_nation = yes
+		has_country_flag = colonize_it_trade_company_region
+		has_country_flag = colonize_it_tag_east_india
+	}
+
+	immediate = {
+		overlord = {
+			every_owned_province = {
+				limit = {
+					trade_company_region = trade_company_east_india
+				}
+				cede_province = ROOT
+				if = {
+					limit = {
+						is_core = overlord
+					}
+					add_core = ROOT
+					remove_core = overlord
+				}
+			}
+		}
+	}
+	option = {}
+}
+country_event = { #中央アジア
+	id = colonize_it_transfer.51
+	title = none
+	desc = trade_company_region_samarkand
+	picture = none
+	hidden = yes
+	trigger = {
+		overlord = {
+			any_owned_province = {
+				trade_company_region = trade_company_samarkand
+			}
+		}
+		is_colonial_nation = yes
+		has_country_flag = colonize_it_trade_company_region
+		has_country_flag = colonize_it_tag_samarkand
+	}
+
+	immediate = {
+		overlord = {
+			every_owned_province = {
+				limit = {
+					trade_company_region = trade_company_samarkand
+				}
+				cede_province = ROOT
+				if = {
+					limit = {
+						is_core = overlord
+					}
+					add_core = ROOT
+					remove_core = overlord
+				}
+			}
+		}
+	}
+	option = {}
+}
+country_event = { #シベリア
+	id = colonize_it_transfer.52
+	title = none
+	desc = trade_company_region_siberia
+	picture = none
+	hidden = yes
+	trigger = {
+		overlord = {
+			any_owned_province = {
+				trade_company_region = trade_company_siberia
+			}
+		}
+		is_colonial_nation = yes
+		has_country_flag = colonize_it_trade_company_region
+		has_country_flag = colonize_it_tag_siberia
+	}
+
+	immediate = {
+		overlord = {
+			every_owned_province = {
+				limit = {
+					trade_company_region = trade_company_siberia
+				}
+				cede_province = ROOT
+				if = {
+					limit = {
+						is_core = overlord
+					}
+					add_core = ROOT
+					remove_core = overlord
+				}
+			}
+		}
+	}
+	option = {}
+}
+country_event = { #モンゴル
+	id = colonize_it_transfer.53
+	title = none
+	desc = trade_company_region_yumen
+	picture = none
+	hidden = yes
+	trigger = {
+		overlord = {
+			any_owned_province = {
+				trade_company_region = trade_company_yumen
+			}
+		}
+		is_colonial_nation = yes
+		has_country_flag = colonize_it_trade_company_region
+		has_country_flag = colonize_it_tag_yumen
+	}
+
+	immediate = {
+		overlord = {
+			every_owned_province = {
+				limit = {
+					trade_company_region = trade_company_yumen
+				}
+				cede_province = ROOT
+				if = {
+					limit = {
+						is_core = overlord
+					}
+					add_core = ROOT
+					remove_core = overlord
+				}
+			}
+		}
+	}
+	option = {}
+}
+country_event = { #チベット
+	id = colonize_it_transfer.54
+	title = none
+	desc = trade_company_region_lhasa
+	picture = none
+	hidden = yes
+	trigger = {
+		overlord = {
+			any_owned_province = {
+				trade_company_region = trade_company_lhasa
+			}
+		}
+		is_colonial_nation = yes
+		has_country_flag = colonize_it_trade_company_region
+		has_country_flag = colonize_it_tag_lhasa
+	}
+
+	immediate = {
+		overlord = {
+			every_owned_province = {
+				limit = {
+					trade_company_region = trade_company_lhasa
+				}
+				cede_province = ROOT
+				if = {
+					limit = {
+						is_core = overlord
+					}
+					add_core = ROOT
+					remove_core = overlord
+				}
+			}
+		}
+	}
+	option = {}
+}
+country_event = { #華北
+	id = colonize_it_transfer.55
+	title = none
+	desc = trade_company_region_north_china
+	picture = none
+	hidden = yes
+	trigger = {
+		overlord = {
+			any_owned_province = {
+				trade_company_region = trade_company_north_china
+			}
+		}
+		is_colonial_nation = yes
+		has_country_flag = colonize_it_trade_company_region
+		has_country_flag = colonize_it_tag_north_china
+	}
+
+	immediate = {
+		overlord = {
+			every_owned_province = {
+				limit = {
+					trade_company_region = trade_company_north_china
+				}
+				cede_province = ROOT
+				if = {
+					limit = {
+						is_core = overlord
+					}
+					add_core = ROOT
+					remove_core = overlord
+				}
+			}
+		}
+	}
+	option = {}
+}
+country_event = { #四川
+	id = colonize_it_transfer.56
+	title = none
+	desc = trade_company_region_chengdu
+	picture = none
+	hidden = yes
+	trigger = {
+		overlord = {
+			any_owned_province = {
+				trade_company_region = trade_company_chengdu
+			}
+		}
+		is_colonial_nation = yes
+		has_country_flag = colonize_it_trade_company_region
+		has_country_flag = colonize_it_tag_chengdu
+	}
+
+	immediate = {
+		overlord = {
+			every_owned_province = {
+				limit = {
+					trade_company_region = trade_company_chengdu
+				}
+				cede_province = ROOT
+				if = {
+					limit = {
+						is_core = overlord
+					}
+					add_core = ROOT
+					remove_core = overlord
+				}
+			}
+		}
+	}
+	option = {}
+}
+country_event = { #黄河
+	id = colonize_it_transfer.57
+	title = none
+	desc = trade_company_region_xian
+	picture = none
+	hidden = yes
+	trigger = {
+		overlord = {
+			any_owned_province = {
+				trade_company_region = trade_company_xian
+			}
+		}
+		is_colonial_nation = yes
+		has_country_flag = colonize_it_trade_company_region
+		has_country_flag = colonize_it_tag_xian
+	}
+
+	immediate = {
+		overlord = {
+			every_owned_province = {
+				limit = {
+					trade_company_region = trade_company_xian
+				}
+				cede_province = ROOT
+				if = {
+					limit = {
+						is_core = overlord
+					}
+					add_core = ROOT
+					remove_core = overlord
+				}
+			}
+		}
+	}
+	option = {}
+}
+country_event = { #華南
+	id = colonize_it_transfer.58
+	title = none
+	desc = trade_company_region_south_china
+	picture = none
+	hidden = yes
+	trigger = {
+		overlord = {
+			any_owned_province = {
+				trade_company_region = trade_company_south_china
+			}
+		}
+		is_colonial_nation = yes
+		has_country_flag = colonize_it_trade_company_region
+		has_country_flag = colonize_it_tag_south_china
+	}
+
+	immediate = {
+		overlord = {
+			every_owned_province = {
+				limit = {
+					trade_company_region = trade_company_south_china
+				}
+				cede_province = ROOT
+				if = {
+					limit = {
+						is_core = overlord
+					}
+					add_core = ROOT
+					remove_core = overlord
+				}
+			}
+		}
+	}
+	option = {}
+}
+country_event = { #華東
+	id = colonize_it_transfer.59
+	title = none
+	desc = trade_company_region_east_china
+	picture = none
+	hidden = yes
+	trigger = {
+		overlord = {
+			any_owned_province = {
+				trade_company_region = trade_company_east_china
+			}
+		}
+		is_colonial_nation = yes
+		has_country_flag = colonize_it_trade_company_region
+		has_country_flag = colonize_it_tag_east_china
+	}
+
+	immediate = {
+		overlord = {
+			every_owned_province = {
+				limit = {
+					trade_company_region = trade_company_east_china
+				}
+				cede_province = ROOT
+				if = {
+					limit = {
+						is_core = overlord
+					}
+					add_core = ROOT
+					remove_core = overlord
+				}
+			}
+		}
+	}
+	option = {}
+}
+country_event = { #満州
+	id = colonize_it_transfer.60
+	title = none
+	desc = trade_company_region_girin
+	picture = none
+	hidden = yes
+	trigger = {
+		overlord = {
+			any_owned_province = {
+				trade_company_region = trade_company_girin
+			}
+		}
+		is_colonial_nation = yes
+		has_country_flag = colonize_it_trade_company_region
+		has_country_flag = colonize_it_tag_girin
+	}
+
+	immediate = {
+		overlord = {
+			every_owned_province = {
+				limit = {
+					trade_company_region = trade_company_girin
+				}
+				cede_province = ROOT
+				if = {
+					limit = {
+						is_core = overlord
+					}
+					add_core = ROOT
+					remove_core = overlord
+				}
+			}
+		}
+	}
+	option = {}
+}
+country_event = { #日本
+	id = colonize_it_transfer.61
+	title = none
+	desc = trade_company_region_nippon
+	picture = none
+	hidden = yes
+	trigger = {
+		overlord = {
+			any_owned_province = {
+				trade_company_region = trade_company_nippon
+			}
+		}
+		is_colonial_nation = yes
+		has_country_flag = colonize_it_trade_company_region
+		has_country_flag = colonize_it_tag_nippon
+	}
+
+	immediate = {
+		overlord = {
+			every_owned_province = {
+				limit = {
+					trade_company_region = trade_company_nippon
+				}
+				cede_province = ROOT
+				if = {
+					limit = {
+						is_core = overlord
+					}
+					add_core = ROOT
+					remove_core = overlord
+				}
+			}
+		}
+	}
+	option = {}
+}
+country_event = { #太平洋
+	id = colonize_it_transfer.62
+	title = none
+	desc = trade_company_region_polynesia
+	picture = none
+	hidden = yes
+	trigger = {
+		overlord = {
+			any_owned_province = {
+				trade_company_region = trade_company_polynesia
+			}
+		}
+		is_colonial_nation = yes
+		has_country_flag = colonize_it_trade_company_region
+		has_country_flag = colonize_it_tag_polynesia
+	}
+
+	immediate = {
+		overlord = {
+			every_owned_province = {
+				limit = {
+					trade_company_region = trade_company_polynesia
+				}
+				cede_province = ROOT
+				if = {
+					limit = {
+						is_core = overlord
+					}
+					add_core = ROOT
+					remove_core = overlord
+				}
+			}
+		}
+	}
+	option = {}
+}
+country_event = { #ニジェール
+	id = colonize_it_transfer.63
+	title = none
+	desc = trade_company_region_katsina
+	picture = none
+	hidden = yes
+	trigger = {
+		overlord = {
+			any_owned_province = {
+				trade_company_region = trade_company_katsina
+			}
+		}
+		is_colonial_nation = yes
+		has_country_flag = colonize_it_trade_company_region
+		has_country_flag = colonize_it_tag_katsina
+	}
+
+	immediate = {
+		overlord = {
+			every_owned_province = {
+				limit = {
+					trade_company_region = trade_company_katsina
+				}
+				cede_province = ROOT
+				if = {
+					limit = {
+						is_core = overlord
+					}
+					add_core = ROOT
+					remove_core = overlord
+				}
+			}
+		}
+	}
+	option = {}
+}
+country_event = { #メキシコ
+	id = colonize_it_transfer.64
+	title = none
+	desc = colonial_region_mexico
+	picture = none
+	hidden = yes
+	trigger = {
+		overlord = {
+			any_owned_province = {
+				colonial_region = colonial_mexico
+			}
+		}
+		is_colonial_nation = yes
+		has_country_flag = colonize_it_trade_company_region
+		has_country_flag = colonize_it_tag_mexico
+	}
+
+	immediate = {
+		overlord = {
+			every_owned_province = {
+				limit = {
+					colonial_region = colonial_mexico
+				}
+				cede_province = ROOT
+				if = {
+					limit = {
+						is_core = overlord
+					}
+					add_core = ROOT
+					remove_core = overlord
+				}
+			}
+		}
+	}
+	option = {}
+}
+country_event = { #カルフォルニア
+	id = colonize_it_transfer.65
+	title = none
+	desc = colonial_region_california
+	picture = none
+	hidden = yes
+	trigger = {
+		overlord = {
+			any_owned_province = {
+				colonial_region = colonial_california
+			}
+		}
+		is_colonial_nation = yes
+		has_country_flag = colonize_it_trade_company_region
+		has_country_flag = colonize_it_tag_california
+	}
+
+	immediate = {
+		overlord = {
+			every_owned_province = {
+				limit = {
+					colonial_region = colonial_california
+				}
+				cede_province = ROOT
+				if = {
+					limit = {
+						is_core = overlord
+					}
+					add_core = ROOT
+					remove_core = overlord
+				}
+			}
+		}
+	}
+	option = {}
+}
+country_event = { #アラスカ
+	id = colonize_it_transfer.66
+	title = none
+	desc = colonial_region_alaska
+	picture = none
+	hidden = yes
+	trigger = {
+		overlord = {
+			any_owned_province = {
+				colonial_region = colonial_alaska
+			}
+		}
+		is_colonial_nation = yes
+		has_country_flag = colonize_it_trade_company_region
+		has_country_flag = colonize_it_tag_alaska
+	}
+
+	immediate = {
+		overlord = {
+			every_owned_province = {
+				limit = {
+					colonial_region = colonial_alaska
+				}
+				cede_province = ROOT
+				if = {
+					limit = {
+						is_core = overlord
+					}
+					add_core = ROOT
+					remove_core = overlord
+				}
+			}
+		}
+	}
+	option = {}
+}
+country_event = { #ルイジアナ
+	id = colonize_it_transfer.67
+	title = none
+	desc = colonial_region_louisiana
+	picture = none
+	hidden = yes
+	trigger = {
+		overlord = {
+			any_owned_province = {
+				colonial_region = colonial_louisiana
+			}
+		}
+		is_colonial_nation = yes
+		has_country_flag = colonize_it_trade_company_region
+		has_country_flag = colonize_it_tag_louisiana
+	}
+
+	immediate = {
+		overlord = {
+			every_owned_province = {
+				limit = {
+					colonial_region = colonial_louisiana
+				}
+				cede_province = ROOT
+				if = {
+					limit = {
+						is_core = overlord
+					}
+					add_core = ROOT
+					remove_core = overlord
+				}
+			}
+		}
+	}
+	option = {}
+}
+country_event = { #東海岸
+	id = colonize_it_transfer.68
+	title = none
+	desc = colonial_region_eastern_america
+	picture = none
+	hidden = yes
+	trigger = {
+		overlord = {
+			any_owned_province = {
+				colonial_region = colonial_eastern_america
+			}
+		}
+		is_colonial_nation = yes
+		has_country_flag = colonize_it_trade_company_region
+		has_country_flag = colonize_it_tag_eastern_america
+	}
+
+	immediate = {
+		overlord = {
+			every_owned_province = {
+				limit = {
+					colonial_region = colonial_eastern_america
+				}
+				cede_province = ROOT
+				if = {
+					limit = {
+						is_core = overlord
+					}
+					add_core = ROOT
+					remove_core = overlord
+				}
+			}
+		}
+	}
+	option = {}
+}
+country_event = { #カナダ
+	id = colonize_it_transfer.69
+	title = none
+	desc = colonial_region_canada
+	picture = none
+	hidden = yes
+	trigger = {
+		overlord = {
+			any_owned_province = {
+				colonial_region = colonial_canada
+			}
+		}
+		is_colonial_nation = yes
+		has_country_flag = colonize_it_trade_company_region
+		has_country_flag = colonize_it_tag_canada
+	}
+
+	immediate = {
+		overlord = {
+			every_owned_province = {
+				limit = {
+					colonial_region = colonial_canada
+				}
+				cede_province = ROOT
+				if = {
+					limit = {
+						is_core = overlord
+					}
+					add_core = ROOT
+					remove_core = overlord
+				}
+			}
+		}
+	}
+	option = {}
+}
+country_event = { #カリブ
+	id = colonize_it_transfer.70
+	title = none
+	desc = colonial_region_the_carribean
+	picture = none
+	hidden = yes
+	trigger = {
+		overlord = {
+			any_owned_province = {
+				colonial_region = colonial_the_carribean
+			}
+		}
+		is_colonial_nation = yes
+		has_country_flag = colonize_it_trade_company_region
+		has_country_flag = colonize_it_tag_the_carribean
+	}
+
+	immediate = {
+		overlord = {
+			every_owned_province = {
+				limit = {
+					colonial_region = colonial_the_carribean
+				}
+				cede_province = ROOT
+				if = {
+					limit = {
+						is_core = overlord
+					}
+					add_core = ROOT
+					remove_core = overlord
+				}
+			}
+		}
+	}
+	option = {}
+}
+country_event = { #コロンビア
+	id = colonize_it_transfer.71
+	title = none
+	desc = colonial_region_colombia
+	picture = none
+	hidden = yes
+	trigger = {
+		overlord = {
+			any_owned_province = {
+				colonial_region = colonial_colombia
+			}
+		}
+		is_colonial_nation = yes
+		has_country_flag = colonize_it_trade_company_region
+		has_country_flag = colonize_it_tag_colombia
+	}
+
+	immediate = {
+		overlord = {
+			every_owned_province = {
+				limit = {
+					colonial_region = colonial_colombia
+				}
+				cede_province = ROOT
+				if = {
+					limit = {
+						is_core = overlord
+					}
+					add_core = ROOT
+					remove_core = overlord
+				}
+			}
+		}
+	}
+	option = {}
+}
+country_event = { #ペルー
+	id = colonize_it_transfer.72
+	title = none
+	desc = colonial_region_peru
+	picture = none
+	hidden = yes
+	trigger = {
+		overlord = {
+			any_owned_province = {
+				colonial_region = colonial_peru
+			}
+		}
+		is_colonial_nation = yes
+		has_country_flag = colonize_it_trade_company_region
+		has_country_flag = colonize_it_tag_peru
+	}
+
+	immediate = {
+		overlord = {
+			every_owned_province = {
+				limit = {
+					colonial_region = colonial_peru
+				}
+				cede_province = ROOT
+				if = {
+					limit = {
+						is_core = overlord
+					}
+					add_core = ROOT
+					remove_core = overlord
+				}
+			}
+		}
+	}
+	option = {}
+}
+country_event = { #ブラジル
+	id = colonize_it_transfer.73
+	title = none
+	desc = colonial_region_brazil
+	picture = none
+	hidden = yes
+	trigger = {
+		overlord = {
+			any_owned_province = {
+				colonial_region = colonial_brazil
+			}
+		}
+		is_colonial_nation = yes
+		has_country_flag = colonize_it_trade_company_region
+		has_country_flag = colonize_it_tag_brazil
+	}
+
+	immediate = {
+		overlord = {
+			every_owned_province = {
+				limit = {
+					colonial_region = colonial_brazil
+				}
+				cede_province = ROOT
+				if = {
+					limit = {
+						is_core = overlord
+					}
+					add_core = ROOT
+					remove_core = overlord
+				}
+			}
+		}
+	}
+	option = {}
+}
+country_event = { #ラプラタ
+	id = colonize_it_transfer.74
+	title = none
+	desc = colonial_region_la_plata
+	picture = none
+	hidden = yes
+	trigger = {
+		overlord = {
+			any_owned_province = {
+				colonial_region = colonial_la_plata
+			}
+		}
+		is_colonial_nation = yes
+		has_country_flag = colonize_it_trade_company_region
+		has_country_flag = colonize_it_tag_la_plata
+	}
+
+	immediate = {
+		overlord = {
+			every_owned_province = {
+				limit = {
+					colonial_region = colonial_la_plata
+				}
+				cede_province = ROOT
+				if = {
+					limit = {
+						is_core = overlord
+					}
+					add_core = ROOT
+					remove_core = overlord
+				}
+			}
+		}
+	}
+	option = {}
+}
+country_event = { #オーストラリア
+	id = colonize_it_transfer.75
+	title = none
+	desc = colonial_region_australia
+	picture = none
+	hidden = yes
+	trigger = {
+		overlord = {
+			any_owned_province = {
+				colonial_region = colonial_australia
+			}
+		}
+		is_colonial_nation = yes
+		has_country_flag = colonize_it_trade_company_region
+		has_country_flag = colonize_it_tag_australia
+	}
+
+	immediate = {
+		overlord = {
+			every_owned_province = {
+				limit = {
+					colonial_region = colonial_australia
+				}
+				cede_province = ROOT
+				if = {
+					limit = {
+						is_core = overlord
+					}
+					add_core = ROOT
+					remove_core = overlord
+				}
+			}
+		}
+	}
+	option = {}
+}

@@ -1,0 +1,67 @@
+namespace = ci_e_fate_of_colonize_effect
+country_event = { #
+	id = ci_e_fate_of_colonize_effect.1
+	title = ci_e_fate_of_colonize_effect.1.t
+	desc = ci_e_fate_of_colonize_effect.d
+	picture = CONQUEST_eventPicture
+	is_triggered_only = yes
+	
+	option = { #Vassal
+		name = vassal_colonize_it
+		trigger = {
+			event_target:colonize_it_target = {
+				is_subject_of = ROOT
+			}
+		}
+		create_subject = {
+			subject_type = vassal
+			subject = event_target:colonize_it_target
+		}
+		add_adm_power = -100
+		add_treasury = -500
+	}
+	option = { #annex
+		name = annex_colonize_it
+		trigger = {
+			event_target:colonize_it_target = {
+				is_subject_of = ROOT
+			}
+		}
+		hidden_effect = {
+			event_target:colonize_it_target = {
+				every_owned_province = {
+					remove_core = event_target:colonize_it_target
+					add_core = ROOT
+					clr_country_flag = colonize_it_regulation_claim
+				}
+			}
+		}
+		ROOT = { inherit = event_target:colonize_it_target }
+		add_adm_power = -300
+		add_dip_power = -300
+		add_treasury = -1000
+	}
+	option = { #Independence
+		name = independence_colonize_it
+		trigger = {
+			event_target:colonize_it_target = {
+				is_subject_of = ROOT
+			}
+		}
+		event_target:colonize_it_target = {
+			grant_independence = yes
+		}
+		add_adm_power = 300
+		add_dip_power = 300
+		add_treasury = 1000
+	}
+	option = {
+		name = ci_back
+		country_event = {
+			id = ci_e_colonies_indexes.1
+		}
+	}
+	after = {
+		clear_global_event_target = colonize_it_target
+	}
+}

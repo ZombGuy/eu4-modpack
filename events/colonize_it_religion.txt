@@ -1,0 +1,677 @@
+namespace = colonize_it_religion
+#宗教
+
+country_event = {
+	id = colonize_it_religion.1
+	title = none
+	desc = none
+	picture = none
+	is_triggered_only = yes
+
+	hidden = yes
+
+	immediate = {
+		overlord = {
+			country_event = {
+				id = colonize_it_religion.2
+			}
+		}
+	}
+
+	option = {}
+}
+country_event = {
+	id = colonize_it_religion.2
+	title = colonize_it_religion.2.t
+	desc = colonize_it_religion.2.d
+	picture = DEBATE_REPUBLICAN_eventPicture
+	is_triggered_only = yes
+
+	option = { #カトリック
+		name = colonize_it_religion_catholic
+		event_target:colonize_it_target = {
+			change_religion = catholic
+		}
+		ai_chance = { 
+			factor = 0
+			modifier = {
+				factor = 100
+				religion = catholic
+			}
+		}
+	}
+	option = { #聖公会
+		name = colonize_it_religion_anglican
+
+		event_target:colonize_it_target = {
+			change_religion = anglican
+		}
+		ai_chance = { 
+			factor = 0
+			modifier = {
+				factor = 100
+				religion = anglican
+			}
+		}
+	}
+	option = { #フス派
+		name = colonize_it_religion_hussite
+		event_target:colonize_it_target = {
+			change_religion = hussite
+		}
+		ai_chance = { 
+			factor = 0
+			modifier = {
+				factor = 100
+				religion = hussite
+			}
+		}
+	}
+	option = { #プロテスタント
+		name = colonize_it_religion_protestant
+		event_target:colonize_it_target = {
+			change_religion = protestant
+		}
+		ai_chance = { 
+			factor = 0
+			modifier = {
+				factor = 100
+				religion = protestant
+			}
+		}
+	}
+	option = { #改革派
+		name = colonize_it_religion_reformed
+		event_target:colonize_it_target = {
+			change_religion = reformed
+		}
+		ai_chance = { 
+			factor = 0
+			modifier = {
+				factor = 100
+				religion = reformed
+			}
+		}
+	}
+	option = { #正教会
+		name = colonize_it_religion_orthodox
+		event_target:colonize_it_target = {
+			change_religion = orthodox
+		}
+		ai_chance = { 
+			factor = 1
+			modifier = {
+				factor = 100
+				religion = orthodox
+			}
+		}
+	}
+	option = { #コプト教
+		name = colonize_it_religion_coptic
+		event_target:colonize_it_target = {
+			change_religion = coptic
+		}
+		ai_chance = { 
+			factor = 1
+			modifier = {
+				factor = 100
+				religion = coptic
+			}
+		}
+	}
+	option = { #スンニ
+		name = colonize_it_religion_sunni
+		event_target:colonize_it_target = {
+			change_religion = sunni
+		}
+		ai_chance = { 
+			factor = 1
+			modifier = {
+				factor = 100
+				religion = sunni
+			}
+		}
+	}
+	option = { #シーア派
+		name = colonize_it_religion_shiite
+		event_target:colonize_it_target = {
+			change_religion = shiite
+		}
+		ai_chance = { 
+			factor = 1
+			modifier = {
+				factor = 100
+				religion = shiite
+			}
+		}
+	}
+	option = { #イバード派
+		name = colonize_it_religion_ibadi
+		event_target:colonize_it_target = {
+			change_religion = ibadi
+		}
+		ai_chance = { 
+			factor = 1
+			modifier = {
+				factor = 100
+				religion = ibadi
+			}
+		}
+	}
+	option = { #上座部仏教
+		name = colonize_it_religion_buddhism
+		event_target:colonize_it_target = {
+			change_religion = buddhism
+		}
+		ai_chance = { 
+			factor = 1
+			modifier = {
+				factor = 100
+				religion = buddhism
+			}
+		}
+	}
+	option = { #密教
+		name = colonize_it_religion_vajrayana
+		event_target:colonize_it_target = {
+			change_religion = vajrayana
+		}
+		ai_chance = { 
+			factor = 1
+			modifier = {
+				factor = 100
+				religion = vajrayana
+			}
+		}
+	}
+	option = { #大乗仏教
+		name = colonize_it_religion_mahayana
+		event_target:colonize_it_target = {
+			change_religion = mahayana
+		}
+		ai_chance = { 
+			factor = 1
+			modifier = {
+				factor = 100
+				religion = mahayana
+			}
+		}
+	}
+	option = { #儒教
+		name = colonize_it_religion_confucianism
+		event_target:colonize_it_target = {
+			change_religion = confucianism
+		}
+		ai_chance = { 
+			factor = 1
+			modifier = {
+				factor = 100
+				religion = confucianism
+			}
+		}
+	}
+	option = { #神道
+		name = colonize_it_religion_shinto
+		event_target:colonize_it_target = {
+			change_religion = shinto
+		}
+		ai_chance = { 
+			factor = 1
+			modifier = {
+				factor = 100
+				religion = shinto
+			}
+		}
+	}
+	option = { #ヒンドゥー
+		name = colonize_it_religion_hinduism
+		event_target:colonize_it_target = {
+			change_religion = hinduism
+		}
+		ai_chance = { 
+			factor = 1
+			modifier = {
+				factor = 100
+				religion = hinduism
+			}
+		}
+	}
+	option = { #シク教
+		name = colonize_it_religion_sikhism
+		event_target:colonize_it_target = {
+			change_religion = sikhism
+		}
+		ai_chance = { 
+			factor = 1
+			modifier = {
+				factor = 100
+				religion = sikhism
+			}
+		}
+	}
+	option = { #精霊信仰
+		name = colonize_it_religion_animism
+		event_target:colonize_it_target = {
+			change_religion = animism
+		}
+		ai_chance = { 
+			factor = 1
+			modifier = {
+				factor = 100
+				religion = animism
+			}
+		}
+	}
+	option = { #呪術崇拝
+		name = colonize_it_religion_shamanism
+		event_target:colonize_it_target = {
+			change_religion = shamanism
+		}
+		ai_chance = { 
+			factor = 1
+			modifier = {
+				factor = 100
+				religion = shamanism
+			}
+		}
+	}
+	option = { #トーテム信仰
+		name = colonize_it_religion_totemism
+		event_target:colonize_it_target = {
+			change_religion = totemism
+		}
+		ai_chance = { 
+			factor = 1
+			modifier = {
+				factor = 100
+				religion = totemism
+			}
+		}
+	}
+	option = { #インティ
+		name = colonize_it_religion_inti
+		event_target:colonize_it_target = {
+			change_religion = inti
+		}
+		ai_chance = { 
+			factor = 1
+			modifier = {
+				factor = 100
+				religion = inti
+			}
+		}
+	}
+	option = { #ナワトル
+		name = colonize_it_religion_nahuatl
+		event_target:colonize_it_target = {
+			change_religion = nahuatl
+		}
+		ai_chance = { 
+			factor = 1
+			modifier = {
+				factor = 100
+				religion = nahuatl
+			}
+		}
+	}
+	option = { #マヤ
+		name = colonize_it_religion_mesoamerican_religion
+		event_target:colonize_it_target = {
+			change_religion = mesoamerican_religion
+		}
+		ai_chance = { 
+			factor = 1
+			modifier = {
+				factor = 100
+				religion = mesoamerican_religion
+			}
+		}
+	}
+	option = { #ノルス
+		name = colonize_it_religion_norse_pagan_reformed
+		event_target:colonize_it_target = {
+			change_religion = norse_pagan_reformed
+		}
+		ai_chance = { 
+			factor = 1
+			modifier = {
+				factor = 100
+				religion = norse_pagan_reformed
+			}
+		}
+	}
+	option = { #テングリ
+		name = colonize_it_religion_tengri_pagan_reformed
+		event_target:colonize_it_target = {
+			change_religion = tengri_pagan_reformed
+		}
+		ai_chance = { 
+			factor = 1
+			modifier = {
+				factor = 100
+				religion = tengri_pagan_reformed
+			}
+		}
+	}
+	option = { #アルチェリンガ
+		name = colonize_it_religion_dreamtime
+		event_target:colonize_it_target = {
+			change_religion = dreamtime
+		}
+		ai_chance = { 
+			factor = 1
+			modifier = {
+				factor = 100
+				religion = dreamtime
+			}
+		}
+	}
+	option = { #ユダヤ
+		name = colonize_it_religion_jewish
+		event_target:colonize_it_target = {
+			change_religion = jewish
+		}
+		ai_chance = { 
+			factor = 1
+			modifier = {
+				factor = 100
+				religion = jewish
+			}
+		}
+	}
+	option = { #ゾロアスター
+		name = colonize_it_religion_zoroastrian
+		event_target:colonize_it_target = {
+			change_religion = zoroastrian
+		}
+		ai_chance = { 
+			factor = 1
+			modifier = {
+				factor = 100
+				religion = zoroastrian
+			}
+		}
+	}
+	after = {
+		clear_global_event_target = colonize_it_target
+	}
+}
+country_event = {
+	id = colonize_it_religion.3
+	title = colonize_it_religion.2.t
+	desc = colonize_it_religion.2.d
+	picture = DEBATE_REPUBLICAN_eventPicture
+	#hidden = yes
+	trigger = {
+		NOT = {
+			has_country_flag = colonize_it_religion_change
+		}
+		is_colonial_nation = yes
+		AND = {
+			NOT = { religion = catholic }
+			NOT = { religion = anglican }
+			NOT = { religion = hussite }
+			NOT = { religion = protestant }
+			NOT = { religion = reformed }
+			NOT = { religion = orthodox }
+			NOT = { religion = coptic }
+			NOT = { religion = sunni }
+			NOT = { religion = shiite }
+			NOT = { religion = ibadi }
+			NOT = { religion = buddhism }
+			NOT = { religion = vajrayana }
+			NOT = { religion = mahayana }
+			NOT = { religion = confucianism }
+			NOT = { religion = shinto }
+			NOT = { religion = hinduism }
+			NOT = { religion = sikhism }
+			NOT = { religion = animism }
+			NOT = { religion = shamanism }
+			NOT = { religion = totemism }
+			NOT = { religion = inti }
+			NOT = { religion = nahuatl }
+			NOT = { religion = mesoamerican_religion }
+			NOT = { religion = norse_pagan_reformed }
+			NOT = { religion = tengri_pagan_reformed }
+			NOT = { religion = dreamtime }
+			NOT = { religion = jewish }
+			NOT = { religion = zoroastrian }
+		}
+	}
+	immediate = {
+		random_owned_province = {
+			limit = {
+				is_capital = yes
+			}
+			save_event_target_as = colonize_it_target_capital_religion
+		}
+	}
+	option = {}
+	after = {
+		set_country_flag = colonize_it_religion_change
+		if = {
+			limit = {
+				event_target:colonize_it_target_capital_religion = {
+					religion = catholic
+				}
+			}
+			change_religion = catholic
+		}
+		if = {
+			limit = {
+				event_target:colonize_it_target_capital_religion = {
+					religion = anglican
+				}
+			}
+			change_religion = anglican
+		}
+		if = {
+			limit = {
+				event_target:colonize_it_target_capital_religion = {
+					religion = hussite
+				}
+			}
+			change_religion = hussite
+		}
+		if = {
+			limit = {
+				event_target:colonize_it_target_capital_religion = {
+					religion = protestant
+				}
+			}
+			change_religion = protestant
+		}
+		if = {
+			limit = {
+				event_target:colonize_it_target_capital_religion = {
+					religion = reformed
+				}
+			}
+			change_religion = reformed
+		}
+		if = {
+			limit = {
+				event_target:colonize_it_target_capital_religion = {
+					religion = orthodox
+				}
+			}
+			change_religion = orthodox
+		}
+		if = {
+			limit = {
+				event_target:colonize_it_target_capital_religion = {
+					religion = coptic
+				}
+			}
+			change_religion = coptic
+		}
+		if = {
+			limit = {
+				event_target:colonize_it_target_capital_religion = {
+					religion = sunni
+				}
+			}
+			change_religion = sunni
+		}
+		if = {
+			limit = {
+				event_target:colonize_it_target_capital_religion = {
+					religion = shiite
+				}
+			}
+			change_religion = shiite
+		}
+		if = {
+			limit = {
+				event_target:colonize_it_target_capital_religion = {
+					religion = ibadi
+				}
+			}
+			change_religion = ibadi
+		}
+		if = {
+			limit = {
+				event_target:colonize_it_target_capital_religion = {
+					religion = buddhism
+				}
+			}
+			change_religion = buddhism
+		}
+		if = {
+			limit = {
+				event_target:colonize_it_target_capital_religion = {
+					religion = vajrayana
+				}
+			}
+			change_religion = vajrayana
+		}
+		if = {
+			limit = {
+				event_target:colonize_it_target_capital_religion = {
+					religion = mahayana
+				}
+			}
+			change_religion = mahayana
+		}
+		if = {
+			limit = {
+				event_target:colonize_it_target_capital_religion = {
+					religion = confucianism
+				}
+			}
+			change_religion = confucianism
+		}
+		if = {
+			limit = {
+				event_target:colonize_it_target_capital_religion = {
+					religion = shinto
+				}
+			}
+			change_religion = shinto
+		}
+		if = {
+			limit = {
+				event_target:colonize_it_target_capital_religion = {
+					religion = hinduism
+				}
+			}
+			change_religion = hinduism
+		}
+		if = {
+			limit = {
+				event_target:colonize_it_target_capital_religion = {
+					religion = sikhism
+				}
+			}
+			change_religion = sikhism
+		}
+		if = {
+			limit = {
+				event_target:colonize_it_target_capital_religion = {
+					religion = animism
+				}
+			}
+			change_religion = animism
+		}
+		if = {
+			limit = {
+				event_target:colonize_it_target_capital_religion = {
+					religion = shamanism
+				}
+			}
+			change_religion = shamanism
+		}
+		if = {
+			limit = {
+				event_target:colonize_it_target_capital_religion = {
+					religion = totemism
+				}
+			}
+			change_religion = totemism
+		}
+		if = {
+			limit = {
+				event_target:colonize_it_target_capital_religion = {
+					religion = inti
+				}
+			}
+			change_religion = inti
+		}
+		if = {
+			limit = {
+				event_target:colonize_it_target_capital_religion = {
+					religion = nahuatl
+				}
+			}
+			change_religion = nahuatl
+		}
+		if = {
+			limit = {
+				event_target:colonize_it_target_capital_religion = {
+					religion = mesoamerican_religion
+				}
+			}
+			change_religion = mesoamerican_religion
+		}
+		if = {
+			limit = {
+				event_target:colonize_it_target_capital_religion = {
+					religion = norse_pagan_reformed
+				}
+			}
+			change_religion = norse_pagan_reformed
+		}
+		if = {
+			limit = {
+				event_target:colonize_it_target_capital_religion = {
+					religion = tengri_pagan_reformed
+				}
+			}
+			change_religion = tengri_pagan_reformed
+		}
+		if = {
+			limit = {
+				event_target:colonize_it_target_capital_religion = {
+					religion = dreamtime
+				}
+			}
+			change_religion = dreamtime
+		}
+		if = {
+			limit = {
+				event_target:colonize_it_target_capital_religion = {
+					religion = jewish
+				}
+			}
+			change_religion = jewish
+		}
+		if = {
+			limit = {
+				event_target:colonize_it_target_capital_religion = {
+					religion = zoroastrian
+				}
+			}
+			change_religion = zoroastrian
+		}
+	}
+}

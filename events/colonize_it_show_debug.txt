@@ -1,0 +1,22 @@
+namespace = colonize_it_show_debug
+
+country_event = {
+	id = colonize_it_show_debug.1
+	title = none
+	desc = none
+	picture = none
+	is_triggered_only = yes
+
+	option = {
+		name = none
+		if = {
+			limit = {
+				has_country_flag = colonize_it_show_debug
+			}
+			clr_country_flag = colonize_it_show_debug
+		}
+		else = {
+			set_country_flag = colonize_it_show_debug
+		}
+	}
+}

@@ -1,0 +1,21 @@
+country_decisions = {
+
+	colonize_it_regon_checker = {
+		potential = {
+			any_province = {
+				has_province_flag = colonize_it_mark
+			}
+		}
+		provinces_to_highlight = {
+			has_province_flag = colonize_it_mark
+		}
+		allow = {
+			
+		}
+		effect = {
+		}
+		ai_will_do = { 
+			factor = 0
+		}
+	}
+}

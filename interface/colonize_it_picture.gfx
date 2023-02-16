@@ -1,0 +1,58 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "COLONIZE_IT_MOD_INFORMATION_EVENT_Picture"
+		texturefile = "gfx/event_pictures/event_pictures_colonize_it/COLONIZE_IT_MOD_INFORMATION_EVENT_Picture.dds"
+		alwaystransparent = yes
+	}
+	spriteType = {
+		name = "COLONIZE_IT_AFRICA_LIST_Picture"
+		texturefile = "gfx/event_pictures/event_pictures_colonize_it/COLONIZE_IT_AFRICA_LIST_Picture.dds"
+		alwaystransparent = yes
+	}
+	spriteType = {
+		name = "COLONIZE_IT_ASIA1_LIST_Picture"
+		texturefile = "gfx/event_pictures/event_pictures_colonize_it/COLONIZE_IT_ASIA1_LIST_Picture.dds"
+		alwaystransparent = yes
+	}
+	spriteType = {
+		name = "COLONIZE_IT_ASIA2_LIST_Picture"
+		texturefile = "gfx/event_pictures/event_pictures_colonize_it/COLONIZE_IT_ASIA2_LIST_Picture.dds"
+		alwaystransparent = yes
+	}
+	spriteType = {
+		name = "COLONIZE_IT_EUROPA_LIST_Picture"
+		texturefile = "gfx/event_pictures/event_pictures_colonize_it/COLONIZE_IT_EUROPA_LIST_Picture.dds"
+		alwaystransparent = yes
+	}
+	spriteType = {
+		name = "COLONIZE_IT_MOD_INFORMATION_BOOK_EVENT_Picture"
+		texturefile = "gfx/event_pictures/event_pictures_colonize_it/COLONIZE_IT_MOD_INFORMATION_BOOK_EVENT_Picture.dds"
+		alwaystransparent = yes
+	}
+	spriteType = {
+		name = "COLONIZE_IT_yemen_region_EVENT_Picture"
+		texturefile = "gfx/event_pictures/event_pictures_colonize_it/COLONIZE_IT_yemen_region_EVENT_Picture.dds"
+		alwaystransparent = yes
+	}
+	spriteType = {
+		name = "COLONIZE_IT_egypt_region_EVENT_Picture"
+		texturefile = "gfx/event_pictures/event_pictures_colonize_it/COLONIZE_IT_egypt_region_EVENT_Picture.dds"
+		alwaystransparent = yes
+	}
+	spriteType = {
+		name = "COLONIZE_IT_Extended_Timeline_edition_EVENT_Picture"
+		texturefile = "gfx/event_pictures/event_pictures_colonize_it/COLONIZE_IT_Extended_Timeline_edition_EVENT_Picture.dds"
+		alwaystransparent = yes
+	}
+	spriteType = {
+		name = "COLONIZE_IT_large_image_EVENT_Picture"
+		texturefile = "gfx/event_pictures/event_pictures_colonize_it/COLONIZE_IT_large_image_EVENT_Picture.dds"
+		alwaystransparent = yes
+	}
+	spriteType = {
+		name = "COLONIZE_IT__north_africa_EVENT_Picture"
+		texturefile = "gfx/event_pictures/event_pictures_colonize_it/COLONIZE_IT__north_africa_EVENT_Picture.dds"
+		alwaystransparent = yes
+	}
+}

@@ -1,0 +1,4 @@
+﻿l_english:
+ ci_e_colonies_rename.d: "Choose any name by selecting one of the options below."
+ colonize_it_default_name: "Return to default"
+ ci_e_colonies_rename.t: "Renaming the [colonize_it_target.GetName]"

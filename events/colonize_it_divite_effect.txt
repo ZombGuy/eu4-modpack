@@ -1,0 +1,1870 @@
+namespace = colonize_it_e_divite_effect
+
+country_event = { #インドネシア
+	id = colonize_it_e_divite_effect.1
+	title = colonize_it_e_divite.3.t
+	desc = colonize_it_e_divite.3.d
+	picture = DEBATE_REPUBLICAN_eventPicture
+	is_triggered_only = yes
+
+	option = {
+		name = colonize_it_e_divite.n
+		#set_country_flag = colonize_it_indonesia_colony
+		country_event = {
+			id = colonize_it_create.1
+		}
+	}
+	option = {
+		name = "ci_back"
+		country_event = {
+			id = colonize_it_e_divite_menu.17
+		}
+	}
+	after = {
+		clear_global_event_target = colonize_it_target
+	}
+}
+country_event = { #モルッカ
+	id = colonize_it_e_divite_effect.2
+	title = colonize_it_e_divite.3.t
+	desc = colonize_it_e_divite.3.d
+	picture = DEBATE_REPUBLICAN_eventPicture
+	is_triggered_only = yes
+
+	option = {
+		name = colonize_it_e_divite.n
+		#set_country_flag = colonize_it_moluccas_colony
+		country_event = {
+			id = colonize_it_create.6
+		}
+	}
+	option = {
+		name = "ci_back"
+		country_event = {
+			id = colonize_it_e_divite_menu.17
+		}
+	}
+	after = {
+		clear_global_event_target = colonize_it_target
+	}
+}
+country_event = { #フィリピン
+	id = colonize_it_e_divite_effect.3
+	title = colonize_it_e_divite.3.t
+	desc = colonize_it_e_divite.3.d
+	picture = DEBATE_REPUBLICAN_eventPicture
+	is_triggered_only = yes
+
+	option = {
+		name = colonize_it_e_divite.n
+		#set_country_flag = colonize_it_philippines_colony
+		country_event = {
+			id = colonize_it_create.11
+		}
+	}
+	option = {
+		name = "ci_back"
+		country_event = {
+			id = colonize_it_e_divite_menu.17
+		}
+	}
+	after = {
+		clear_global_event_target = colonize_it_target
+	}
+}
+country_event = { #インドシナ
+	id = colonize_it_e_divite_effect.4
+	title = colonize_it_e_divite.3.t
+	desc = colonize_it_e_divite.3.d
+	picture = DEBATE_REPUBLICAN_eventPicture
+	is_triggered_only = yes
+
+	option = {
+		name = colonize_it_e_divite.n
+		#set_country_flag = colonize_it_indochina_colony
+		country_event = {
+			id = colonize_it_create.16
+		}
+	}
+	option = {
+		name = "ci_back"
+		country_event = {
+			id = colonize_it_e_divite_menu.17
+		}
+	}
+	after = {
+		clear_global_event_target = colonize_it_target
+	}
+}
+country_event = { #ビルマ
+	id = colonize_it_e_divite_effect.5
+	title = colonize_it_e_divite.3.t
+	desc = colonize_it_e_divite.3.d
+	picture = DEBATE_REPUBLICAN_eventPicture
+	is_triggered_only = yes
+
+	option = {
+		name = colonize_it_e_divite.n
+		#set_country_flag = colonize_it_burma_colony
+		country_event = {
+			id = colonize_it_create.21
+		}
+	}
+	option = {
+		name = "ci_back"
+		country_event = {
+			id = colonize_it_e_divite_menu.17
+		}
+	}
+	after = {
+		clear_global_event_target = colonize_it_target
+	}
+}
+country_event = { #北海
+	id = colonize_it_e_divite_effect.6
+	title = colonize_it_e_divite.3.t
+	desc = colonize_it_e_divite.3.d
+	picture = DEBATE_REPUBLICAN_eventPicture
+	is_triggered_only = yes
+
+	option = {
+		name = colonize_it_e_divite.n
+		#set_country_flag = colonize_it_north_sea_colony
+		country_event = {
+			id = colonize_it_create.26
+		}
+	}
+	option = {
+		name = "ci_back"
+		country_event = {
+			id = colonize_it_e_divite_menu.7
+		}
+	}
+	after = {
+		clear_global_event_target = colonize_it_target
+	}
+}
+country_event = { #イギリス海峡
+	id = colonize_it_e_divite_effect.7
+	title = colonize_it_e_divite.3.t
+	desc = colonize_it_e_divite.3.d
+	picture = DEBATE_REPUBLICAN_eventPicture
+	is_triggered_only = yes
+
+	option = {
+		name = colonize_it_e_divite.n
+		#set_country_flag = colonize_it_english_channel_colony
+		country_event = {
+			id = colonize_it_create.31
+		}
+	}
+	option = {
+		name = "ci_back"
+		country_event = {
+			id = colonize_it_e_divite_menu.7
+		}
+	}
+	after = {
+		clear_global_event_target = colonize_it_target
+	}
+}
+country_event = { #ガスコーニュ
+	id = colonize_it_e_divite_effect.8
+	title = colonize_it_e_divite.3.t
+	desc = colonize_it_e_divite.3.d
+	picture = DEBATE_REPUBLICAN_eventPicture
+	is_triggered_only = yes
+
+	option = {
+		name = colonize_it_e_divite.n
+		#set_country_flag = colonize_it_bordeaux_colony
+		country_event = {
+			id = colonize_it_create.36
+		}
+	}
+	option = {
+		name = "ci_back"
+		country_event = {
+			id = colonize_it_e_divite_menu.7
+		}
+	}
+	after = {
+		clear_global_event_target = colonize_it_target
+	}
+}
+country_event = { #ブルゴーニュ
+	id = colonize_it_e_divite_effect.9
+	title = colonize_it_e_divite.3.t
+	desc = colonize_it_e_divite.3.d
+	picture = DEBATE_REPUBLICAN_eventPicture
+	is_triggered_only = yes
+
+	option = {
+		name = colonize_it_e_divite.n
+		#set_country_flag = colonize_it_champagne_colony
+		country_event = {
+			id = colonize_it_create.41
+		}
+	}
+	option = {
+		name = "ci_back"
+		country_event = {
+			id = colonize_it_e_divite_menu.7
+		}
+	}
+	after = {
+		clear_global_event_target = colonize_it_target
+	}
+}
+country_event = { #イベリア
+	id = colonize_it_e_divite_effect.10
+	title = colonize_it_e_divite.3.t
+	desc = colonize_it_e_divite.3.d
+	picture = DEBATE_REPUBLICAN_eventPicture
+	is_triggered_only = yes
+
+	option = {
+		name = colonize_it_e_divite.n
+		#set_country_flag = colonize_it_sevilla_colony
+		country_event = {
+			id = colonize_it_create.46
+		}
+	}
+	option = {
+		name = "ci_back"
+		country_event = {
+			id = colonize_it_e_divite_menu.7
+		}
+	}
+	after = {
+		clear_global_event_target = colonize_it_target
+	}
+}
+country_event = { #カタルーニャ
+	id = colonize_it_e_divite_effect.11
+	title = colonize_it_e_divite.3.t
+	desc = colonize_it_e_divite.3.d
+	picture = DEBATE_REPUBLICAN_eventPicture
+	is_triggered_only = yes
+
+	option = {
+		name = colonize_it_e_divite.n
+		#set_country_flag = colonize_it_valencia_colony
+		country_event = {
+			id = colonize_it_create.51
+		}
+	}
+	option = {
+		name = "ci_back"
+		country_event = {
+			id = colonize_it_e_divite_menu.7
+		}
+	}
+	after = {
+		clear_global_event_target = colonize_it_target
+	}
+}
+country_event = { #西イタリア
+	id = colonize_it_e_divite_effect.12
+	title = colonize_it_e_divite.3.t
+	desc = colonize_it_e_divite.3.d
+	picture = DEBATE_REPUBLICAN_eventPicture
+	is_triggered_only = yes
+
+	option = {
+		name = colonize_it_e_divite.n
+		#set_country_flag = colonize_it_venice_colony
+		country_event = {
+			id = colonize_it_create.56
+		}
+	}
+	option = {
+		name = "ci_back"
+		country_event = {
+			id = colonize_it_e_divite_menu.8
+		}
+	}
+	after = {
+		clear_global_event_target = colonize_it_target
+	}
+}
+country_event = { #東イタリア
+	id = colonize_it_e_divite_effect.13
+	title = colonize_it_e_divite.3.t
+	desc = colonize_it_e_divite.3.d
+	picture = DEBATE_REPUBLICAN_eventPicture
+	is_triggered_only = yes
+
+	option = {
+		name = colonize_it_e_divite.n
+		#set_country_flag = colonize_it_genua_colony
+		country_event = {
+			id = colonize_it_create.61
+		}
+	}
+	option = {
+		name = "ci_back"
+		country_event = {
+			id = colonize_it_e_divite_menu.8
+		}
+	}
+	after = {
+		clear_global_event_target = colonize_it_target
+	}
+}
+country_event = { #ラインラント
+	id = colonize_it_e_divite_effect.14
+	title = colonize_it_e_divite.3.t
+	desc = colonize_it_e_divite.3.d
+	picture = DEBATE_REPUBLICAN_eventPicture
+	is_triggered_only = yes
+
+	option = {
+		name = colonize_it_e_divite.n
+		#set_country_flag = colonize_it_rheinland_colony
+		country_event = {
+			id = colonize_it_create.66
+		}
+	}
+	option = {
+		name = "ci_back"
+		country_event = {
+			id = colonize_it_e_divite_menu.8
+		}
+	}
+	after = {
+		clear_global_event_target = colonize_it_target
+	}
+}
+country_event = { #オーストリア
+	id = colonize_it_e_divite_effect.15
+	title = colonize_it_e_divite.3.t
+	desc = colonize_it_e_divite.3.d
+	picture = DEBATE_REPUBLICAN_eventPicture
+	is_triggered_only = yes
+
+	option = {
+		name = colonize_it_e_divite.n
+		#set_country_flag = colonize_it_wien_colony
+		country_event = {
+			id = colonize_it_create.71
+		}
+	}
+	option = {
+		name = "ci_back"
+		country_event = {
+			id = colonize_it_e_divite_menu.8
+		}
+	}
+	after = {
+		clear_global_event_target = colonize_it_target
+	}
+}
+country_event = { #ザクセン
+	id = colonize_it_e_divite_effect.16
+	title = colonize_it_e_divite.3.t
+	desc = colonize_it_e_divite.3.d
+	picture = DEBATE_REPUBLICAN_eventPicture
+	is_triggered_only = yes
+
+	option = {
+		name = colonize_it_e_divite.n
+		#set_country_flag = colonize_it_saxony_colony
+		country_event = {
+			id = colonize_it_create.76
+		}
+	}
+	option = {
+		name = "ci_back"
+		country_event = {
+			id = colonize_it_e_divite_menu.8
+		}
+	}
+	after = {
+		clear_global_event_target = colonize_it_target
+	}
+}
+country_event = { #リューベック
+	id = colonize_it_e_divite_effect.17
+	title = colonize_it_e_divite.3.t
+	desc = colonize_it_e_divite.3.d
+	picture = DEBATE_REPUBLICAN_eventPicture
+	is_triggered_only = yes
+
+	option = {
+		name = colonize_it_e_divite.n
+		#set_country_flag = colonize_it_lubeck_colony
+		country_event = {
+			id = colonize_it_create.81
+		}
+	}
+	option = {
+		name = "ci_back"
+		country_event = {
+			id = colonize_it_e_divite_menu.8
+		}
+	}
+	after = {
+		clear_global_event_target = colonize_it_target
+	}
+}
+country_event = { #バルト
+	id = colonize_it_e_divite_effect.18
+	title = colonize_it_e_divite.3.t
+	desc = colonize_it_e_divite.3.d
+	picture = DEBATE_REPUBLICAN_eventPicture
+	is_triggered_only = yes
+
+	option = {
+		name = colonize_it_e_divite.n
+		#set_country_flag = colonize_it_baltic_sea_colony
+		country_event = {
+			id = colonize_it_create.86
+		}
+	}
+	option = {
+		name = "ci_back"
+		country_event = {
+			id = colonize_it_e_divite_menu.9
+		}
+	}
+	after = {
+		clear_global_event_target = colonize_it_target
+	}
+}
+country_event = { #ポーランド
+	id = colonize_it_e_divite_effect.19
+	title = colonize_it_e_divite.3.t
+	desc = colonize_it_e_divite.3.d
+	picture = DEBATE_REPUBLICAN_eventPicture
+	is_triggered_only = yes
+
+	option = {
+		name = colonize_it_e_divite.n
+		#set_country_flag = colonize_it_krakow_colony
+		country_event = {
+			id = colonize_it_create.91
+		}
+	}
+	option = {
+		name = "ci_back"
+		country_event = {
+			id = colonize_it_e_divite_menu.9
+		}
+	}
+	after = {
+		clear_global_event_target = colonize_it_target
+	}
+}
+country_event = { #カルパチア
+	id = colonize_it_e_divite_effect.20
+	title = colonize_it_e_divite.3.t
+	desc = colonize_it_e_divite.3.d
+	picture = DEBATE_REPUBLICAN_eventPicture
+	is_triggered_only = yes
+
+	option = {
+		name = colonize_it_e_divite.n
+		#set_country_flag = colonize_it_pest_colony
+		country_event = {
+			id = colonize_it_create.96
+		}
+	}
+	option = {
+		name = "ci_back"
+		country_event = {
+			id = colonize_it_e_divite_menu.9
+		}
+	}
+	after = {
+		clear_global_event_target = colonize_it_target
+	}
+}
+country_event = { #バルカン
+	id = colonize_it_e_divite_effect.21
+	title = colonize_it_e_divite.3.t
+	desc = colonize_it_e_divite.3.d
+	picture = DEBATE_REPUBLICAN_eventPicture
+	is_triggered_only = yes
+
+	option = {
+		name = colonize_it_e_divite.n
+		#set_country_flag = colonize_it_ragusa_colony
+		country_event = {
+			id = colonize_it_create.101
+		}
+	}
+	option = {
+		name = "ci_back"
+		country_event = {
+			id = colonize_it_e_divite_menu.9
+		}
+	}
+	after = {
+		clear_global_event_target = colonize_it_target
+	}
+}
+country_event = { #クリミア
+	id = colonize_it_e_divite_effect.22
+	title = colonize_it_e_divite.3.t
+	desc = colonize_it_e_divite.3.d
+	picture = DEBATE_REPUBLICAN_eventPicture
+	is_triggered_only = yes
+
+	option = {
+		name = colonize_it_e_divite.n
+		#set_country_flag = colonize_it_crimea_colony
+		country_event = {
+			id = colonize_it_create.106
+		}
+	}
+	option = {
+		name = "ci_back"
+		country_event = {
+			id = colonize_it_e_divite_menu.10
+		}
+	}
+	after = {
+		clear_global_event_target = colonize_it_target
+	}
+}
+country_event = { #キエフ
+	id = colonize_it_e_divite_effect.23
+	title = colonize_it_e_divite.3.t
+	desc = colonize_it_e_divite.3.d
+	picture = DEBATE_REPUBLICAN_eventPicture
+	is_triggered_only = yes
+
+	option = {
+		name = colonize_it_e_divite.n
+		#set_country_flag = colonize_it_kiev_colony
+		country_event = {
+			id = colonize_it_create.111
+		}
+	}
+	option = {
+		name = "ci_back"
+		country_event = {
+			id = colonize_it_e_divite_menu.10
+		}
+	}
+	after = {
+		clear_global_event_target = colonize_it_target
+	}
+}
+country_event = { #モスクワ
+	id = colonize_it_e_divite_effect.24
+	title = colonize_it_e_divite.3.t
+	desc = colonize_it_e_divite.3.d
+	picture = DEBATE_REPUBLICAN_eventPicture
+	is_triggered_only = yes
+
+	option = {
+		name = colonize_it_e_divite.n
+		#set_country_flag = colonize_it_novgorod_colony
+		country_event = {
+			id = colonize_it_create.116
+		}
+	}
+	option = {
+		name = "ci_back"
+		country_event = {
+			id = colonize_it_e_divite_menu.10
+		}
+	}
+	after = {
+		clear_global_event_target = colonize_it_target
+	}
+}
+country_event = { #白海
+	id = colonize_it_e_divite_effect.25
+	title = colonize_it_e_divite.3.t
+	desc = colonize_it_e_divite.3.d
+	picture = DEBATE_REPUBLICAN_eventPicture
+	is_triggered_only = yes
+
+	option = {
+		name = colonize_it_e_divite.n
+		#set_country_flag = colonize_it_white_sea_colony
+		country_event = {
+			id = colonize_it_create.121
+		}
+	}
+	option = {
+		name = "ci_back"
+		country_event = {
+			id = colonize_it_e_divite_menu.10
+		}
+	}
+	after = {
+		clear_global_event_target = colonize_it_target
+	}
+}
+country_event = { #ウラル
+	id = colonize_it_e_divite_effect.26
+	title = colonize_it_e_divite.3.t
+	desc = colonize_it_e_divite.3.d
+	picture = DEBATE_REPUBLICAN_eventPicture
+	is_triggered_only = yes
+
+	option = {
+		name = colonize_it_e_divite.n
+		#set_country_flag = colonize_it_kazan_colony
+		country_event = {
+			id = colonize_it_create.126
+		}
+	}
+	option = {
+		name = "ci_back"
+		country_event = {
+			id = colonize_it_e_divite_menu.10
+		}
+	}
+	after = {
+		clear_global_event_target = colonize_it_target
+	}
+}
+country_event = { #アストラハン
+	id = colonize_it_e_divite_effect.27
+	title = colonize_it_e_divite.3.t
+	desc = colonize_it_e_divite.3.d
+	picture = DEBATE_REPUBLICAN_eventPicture
+	is_triggered_only = yes
+
+	option = {
+		name = colonize_it_e_divite.n
+		#set_country_flag = colonize_it_astrakhan_colony
+		country_event = {
+			id = colonize_it_create.131
+		}
+	}
+	option = {
+		name = "ci_back"
+		country_event = {
+			id = colonize_it_e_divite_menu.10
+		}
+	}
+	after = {
+		clear_global_event_target = colonize_it_target
+	}
+}
+country_event = { #トルコ
+	id = colonize_it_e_divite_effect.28
+	title = colonize_it_e_divite.3.t
+	desc = colonize_it_e_divite.3.d
+	picture = DEBATE_REPUBLICAN_eventPicture
+	is_triggered_only = yes
+
+	option = {
+		name = colonize_it_e_divite.n
+		#set_country_flag = colonize_it_constantinople_colony
+		country_event = {
+			id = colonize_it_create.136
+		}
+	}
+	option = {
+		name = "ci_back"
+		country_event = {
+			id = colonize_it_e_divite_menu.13
+		}
+	}
+	after = {
+		clear_global_event_target = colonize_it_target
+	}
+}
+country_event = { #レバント
+	id = colonize_it_e_divite_effect.29
+	title = colonize_it_e_divite.3.t
+	desc = colonize_it_e_divite.3.d
+	picture = DEBATE_REPUBLICAN_eventPicture
+	is_triggered_only = yes
+
+	option = {
+		name = colonize_it_e_divite.n
+		#set_country_flag = colonize_it_aleppo_colony
+		country_event = {
+			id = colonize_it_create.141
+		}
+	}
+	option = {
+		name = "ci_back"
+		country_event = {
+			id = colonize_it_e_divite_menu.13
+		}
+	}
+	after = {
+		clear_global_event_target = colonize_it_target
+	}
+}
+country_event = { #エジプト
+	id = colonize_it_e_divite_effect.30
+	title = colonize_it_e_divite.3.t
+	desc = colonize_it_e_divite.3.d
+	picture = DEBATE_REPUBLICAN_eventPicture
+	is_triggered_only = yes
+
+	option = {
+		name = colonize_it_e_divite.n
+		#set_country_flag = colonize_it_alexandria_colony
+		country_event = {
+			id = colonize_it_create.146
+		}
+	}
+	option = {
+		name = "ci_back"
+		country_event = {
+			id = colonize_it_e_divite_menu.11
+		}
+	}
+	after = {
+		clear_global_event_target = colonize_it_target
+	}
+}
+country_event = { #マシュリク
+	id = colonize_it_e_divite_effect.31
+	title = colonize_it_e_divite.3.t
+	desc = colonize_it_e_divite.3.d
+	picture = DEBATE_REPUBLICAN_eventPicture
+	is_triggered_only = yes
+
+	option = {
+		name = colonize_it_e_divite.n
+		#set_country_flag = colonize_it_basra_colony
+		country_event = {
+			id = colonize_it_create.151
+		}
+	}
+	option = {
+		name = "ci_back"
+		country_event = {
+			id = colonize_it_e_divite_menu.13
+		}
+	}
+	after = {
+		clear_global_event_target = colonize_it_target
+	}
+}
+country_event = { #イエメン
+	id = colonize_it_e_divite_effect.32
+	title = colonize_it_e_divite.3.t
+	desc = colonize_it_e_divite.3.d
+	picture = DEBATE_REPUBLICAN_eventPicture
+	is_triggered_only = yes
+
+	option = {
+		name = colonize_it_e_divite.n
+		#set_country_flag = colonize_it_gulf_of_aden_colony
+		country_event = {
+			id = colonize_it_create.156
+		}
+	}
+	option = {
+		name = "ci_back"
+		country_event = {
+			id = colonize_it_e_divite_menu.13
+		}
+	}
+	after = {
+		clear_global_event_target = colonize_it_target
+	}
+}
+country_event = { #ペルシア
+	id = colonize_it_e_divite_effect.33
+	title = colonize_it_e_divite.3.t
+	desc = colonize_it_e_divite.3.d
+	picture = DEBATE_REPUBLICAN_eventPicture
+	is_triggered_only = yes
+
+	option = {
+		name = colonize_it_e_divite.n
+		#set_country_flag = colonize_it_persia_colony
+		country_event = {
+			id = colonize_it_create.161
+		}
+	}
+	option = {
+		name = "ci_back"
+		country_event = {
+			id = colonize_it_e_divite_menu.13
+		}
+	}
+	after = {
+		clear_global_event_target = colonize_it_target
+	}
+}
+country_event = { #ホルムズ
+	id = colonize_it_e_divite_effect.34
+	title = colonize_it_e_divite.3.t
+	desc = colonize_it_e_divite.3.d
+	picture = DEBATE_REPUBLICAN_eventPicture
+	is_triggered_only = yes
+
+	option = {
+		name = colonize_it_e_divite.n
+		#set_country_flag = colonize_it_hormuz_colony
+		country_event = {
+			id = colonize_it_create.166
+		}
+	}
+	option = {
+		name = "ci_back"
+		country_event = {
+			id = colonize_it_e_divite_menu.13
+		}
+	}
+	after = {
+		clear_global_event_target = colonize_it_target
+	}
+}
+country_event = { #チュニス
+	id = colonize_it_e_divite_effect.35
+	title = colonize_it_e_divite.3.t
+	desc = colonize_it_e_divite.3.d
+	picture = DEBATE_REPUBLICAN_eventPicture
+	is_triggered_only = yes
+
+	option = {
+		name = colonize_it_e_divite.n
+		#set_country_flag = colonize_it_tunis_colony
+		country_event = {
+			id = colonize_it_create.171
+		}
+	}
+	option = {
+		name = "ci_back"
+		country_event = {
+			id = colonize_it_e_divite_menu.11
+		}
+	}
+	after = {
+		clear_global_event_target = colonize_it_target
+	}
+}
+country_event = { #マグリブ（マグレブ）
+	id = colonize_it_e_divite_effect.36
+	title = colonize_it_e_divite.3.t
+	desc = colonize_it_e_divite.3.d
+	picture = DEBATE_REPUBLICAN_eventPicture
+	is_triggered_only = yes
+
+	option = {
+		name = colonize_it_e_divite.n
+		#set_country_flag = colonize_it_safi_colony
+		country_event = {
+			id = colonize_it_create.176
+		}
+	}
+	option = {
+		name = "ci_back"
+		country_event = {
+			id = colonize_it_e_divite_menu.11
+		}
+	}
+	after = {
+		clear_global_event_target = colonize_it_target
+	}
+}
+country_event = { #西アフリカ
+	id = colonize_it_e_divite_effect.37
+	title = colonize_it_e_divite.3.t
+	desc = colonize_it_e_divite.3.d
+	picture = DEBATE_REPUBLICAN_eventPicture
+	is_triggered_only = yes
+
+	option = {
+		name = colonize_it_e_divite.n
+		#set_country_flag = colonize_it_timbuktu_colony
+		country_event = {
+			id = colonize_it_create.181
+		}
+	}
+	option = {
+		name = "ci_back"
+		country_event = {
+			id = colonize_it_e_divite_menu.11
+		}
+	}
+	after = {
+		clear_global_event_target = colonize_it_target
+	}
+}
+country_event = { #ギニア
+	id = colonize_it_e_divite_effect.38
+	title = colonize_it_e_divite.3.t
+	desc = colonize_it_e_divite.3.d
+	picture = DEBATE_REPUBLICAN_eventPicture
+	is_triggered_only = yes
+
+	option = {
+		name = colonize_it_e_divite.n
+		#set_country_flag = colonize_it_west_africa_colony
+		country_event = {
+			id = colonize_it_create.186
+		}
+	}
+	option = {
+		name = "ci_back"
+		country_event = {
+			id = colonize_it_e_divite_menu.11
+		}
+	}
+	after = {
+		clear_global_event_target = colonize_it_target
+	}
+}
+country_event = { #エチオピア
+	id = colonize_it_e_divite_effect.39
+	title = colonize_it_e_divite.3.t
+	desc = colonize_it_e_divite.3.d
+	picture = DEBATE_REPUBLICAN_eventPicture
+	is_triggered_only = yes
+
+	option = {
+		name = colonize_it_e_divite.n
+		#set_country_flag = colonize_it_ethiopia_colony
+		country_event = {
+			id = colonize_it_create.191
+		}
+	}
+	option = {
+		name = "ci_back"
+		country_event = {
+			id = colonize_it_e_divite_menu.11
+		}
+	}
+	after = {
+		clear_global_event_target = colonize_it_target
+	}
+}
+country_event = { #東アフリカ
+	id = colonize_it_e_divite_effect.40
+	title = colonize_it_e_divite.3.t
+	desc = colonize_it_e_divite.3.d
+	picture = DEBATE_REPUBLICAN_eventPicture
+	is_triggered_only = yes
+
+	option = {
+		name = colonize_it_e_divite.n
+		#set_country_flag = colonize_it_east_africa_colony
+		country_event = {
+			id = colonize_it_create.196
+		}
+	}
+	option = {
+		name = "ci_back"
+		country_event = {
+			id = colonize_it_e_divite_menu.12
+		}
+	}
+	after = {
+		clear_global_event_target = colonize_it_target
+	}
+}
+country_event = { #タンザニア
+	id = colonize_it_e_divite_effect.41
+	title = colonize_it_e_divite.3.t
+	desc = colonize_it_e_divite.3.d
+	picture = DEBATE_REPUBLICAN_eventPicture
+	is_triggered_only = yes
+
+	option = {
+		name = colonize_it_e_divite.n
+		#set_country_flag = colonize_it_great_lakes_colony
+		country_event = {
+			id = colonize_it_create.201
+		}
+	}
+	option = {
+		name = "ci_back"
+		country_event = {
+			id = colonize_it_e_divite_menu.12
+		}
+	}
+	after = {
+		clear_global_event_target = colonize_it_target
+	}
+}
+country_event = { #ザンベジ
+	id = colonize_it_e_divite_effect.42
+	title = colonize_it_e_divite.3.t
+	desc = colonize_it_e_divite.3.d
+	picture = DEBATE_REPUBLICAN_eventPicture
+	is_triggered_only = yes
+
+	option = {
+		name = colonize_it_e_divite.n
+		#set_country_flag = colonize_it_zambezi_colony
+		country_event = {
+			id = colonize_it_create.206
+		}
+	}
+	option = {
+		name = "ci_back"
+		country_event = {
+			id = colonize_it_e_divite_menu.12
+		}
+	}
+	after = {
+		clear_global_event_target = colonize_it_target
+	}
+}
+country_event = { #コンゴ
+	id = colonize_it_e_divite_effect.43
+	title = colonize_it_e_divite.3.t
+	desc = colonize_it_e_divite.3.d
+	picture = DEBATE_REPUBLICAN_eventPicture
+	is_triggered_only = yes
+
+	option = {
+		name = colonize_it_e_divite.n
+		#set_country_flag = colonize_it_kongo_colony
+		country_event = {
+			id = colonize_it_create.211
+		}
+	}
+	option = {
+		name = "ci_back"
+		country_event = {
+			id = colonize_it_e_divite_menu.12
+		}
+	}
+	after = {
+		clear_global_event_target = colonize_it_target
+	}
+}
+country_event = { #南アフリカ
+	id = colonize_it_e_divite_effect.44
+	title = colonize_it_e_divite.3.t
+	desc = colonize_it_e_divite.3.d
+	picture = DEBATE_REPUBLICAN_eventPicture
+	is_triggered_only = yes
+
+	option = {
+		name = colonize_it_e_divite.n
+		#set_country_flag = colonize_it_south_africa_colony
+		country_event = {
+			id = colonize_it_create.216
+		}
+	}
+	option = {
+		name = "ci_back"
+		country_event = {
+			id = colonize_it_e_divite_menu.12
+		}
+	}
+	after = {
+		clear_global_event_target = colonize_it_target
+	}
+}
+country_event = { #パンジャーブ
+	id = colonize_it_e_divite_effect.45
+	title = colonize_it_e_divite.3.t
+	desc = colonize_it_e_divite.3.d
+	picture = DEBATE_REPUBLICAN_eventPicture
+	is_triggered_only = yes
+
+	option = {
+		name = colonize_it_e_divite.n
+		#set_country_flag = colonize_it_lahore_colony
+		country_event = {
+			id = colonize_it_create.221
+		}
+	}
+	option = {
+		name = "ci_back"
+		country_event = {
+			id = colonize_it_e_divite_menu.14
+		}
+	}
+	after = {
+		clear_global_event_target = colonize_it_target
+	}
+}
+country_event = { #西インド
+	id = colonize_it_e_divite_effect.46
+	title = colonize_it_e_divite.3.t
+	desc = colonize_it_e_divite.3.d
+	picture = DEBATE_REPUBLICAN_eventPicture
+	is_triggered_only = yes
+
+	option = {
+		name = colonize_it_e_divite.n
+		#set_country_flag = colonize_it_west_india_colony
+		country_event = {
+			id = colonize_it_create.226
+		}
+	}
+	option = {
+		name = "ci_back"
+		country_event = {
+			id = colonize_it_e_divite_menu.14
+		}
+	}
+	after = {
+		clear_global_event_target = colonize_it_target
+	}
+}
+country_event = { #北インド
+	id = colonize_it_e_divite_effect.47
+	title = colonize_it_e_divite.3.t
+	desc = colonize_it_e_divite.3.d
+	picture = DEBATE_REPUBLICAN_eventPicture
+	is_triggered_only = yes
+
+	option = {
+		name = colonize_it_e_divite.n
+		#set_country_flag = colonize_it_north_india_colony
+		country_event = {
+			id = colonize_it_create.231
+		}
+	}
+	option = {
+		name = "ci_back"
+		country_event = {
+			id = colonize_it_e_divite_menu.14
+		}
+	}
+	after = {
+		clear_global_event_target = colonize_it_target
+	}
+}
+country_event = { #デカン
+	id = colonize_it_e_divite_effect.48
+	title = colonize_it_e_divite.3.t
+	desc = colonize_it_e_divite.3.d
+	picture = DEBATE_REPUBLICAN_eventPicture
+	is_triggered_only = yes
+
+	option = {
+		name = colonize_it_e_divite.n
+		#set_country_flag = colonize_it_deccan_colony
+		country_event = {
+			id = colonize_it_create.236
+		}
+	}
+	option = {
+		name = "ci_back"
+		country_event = {
+			id = colonize_it_e_divite_menu.14
+		}
+	}
+	after = {
+		clear_global_event_target = colonize_it_target
+	}
+}
+country_event = { #コロマンデル
+	id = colonize_it_e_divite_effect.49
+	title = colonize_it_e_divite.3.t
+	desc = colonize_it_e_divite.3.d
+	picture = DEBATE_REPUBLICAN_eventPicture
+	is_triggered_only = yes
+
+	option = {
+		name = colonize_it_e_divite.n
+		#set_country_flag = colonize_it_coromandel_colony
+		country_event = {
+			id = colonize_it_create.241
+		}
+	}
+	option = {
+		name = "ci_back"
+		country_event = {
+			id = colonize_it_e_divite_menu.14
+		}
+	}
+	after = {
+		clear_global_event_target = colonize_it_target
+	}
+}
+country_event = { #東インド
+	id = colonize_it_e_divite_effect.50
+	title = colonize_it_e_divite.3.t
+	desc = colonize_it_e_divite.3.d
+	picture = DEBATE_REPUBLICAN_eventPicture
+	is_triggered_only = yes
+
+	option = {
+		name = colonize_it_e_divite.n
+		#set_country_flag = colonize_it_east_india_colony
+		country_event = {
+			id = colonize_it_create.246
+		}
+	}
+	option = {
+		name = "ci_back"
+		country_event = {
+			id = colonize_it_e_divite_menu.14
+		}
+	}
+	after = {
+		clear_global_event_target = colonize_it_target
+	}
+}
+country_event = { #中央アジア
+	id = colonize_it_e_divite_effect.51
+	title = colonize_it_e_divite.3.t
+	desc = colonize_it_e_divite.3.d
+	picture = DEBATE_REPUBLICAN_eventPicture
+	is_triggered_only = yes
+
+	option = {
+		name = colonize_it_e_divite.n
+		#set_country_flag = colonize_it_samarkand_colony
+		country_event = {
+			id = colonize_it_create.251
+		}
+	}
+	option = {
+		name = "ci_back"
+		country_event = {
+			id = colonize_it_e_divite_menu.13
+		}
+	}
+	after = {
+		clear_global_event_target = colonize_it_target
+	}
+}
+country_event = { #シベリア
+	id = colonize_it_e_divite_effect.52
+	title = colonize_it_e_divite.3.t
+	desc = colonize_it_e_divite.3.d
+	picture = DEBATE_REPUBLICAN_eventPicture
+	is_triggered_only = yes
+
+	option = {
+		name = colonize_it_e_divite.n
+		#set_country_flag = colonize_it_siberia_colony
+		country_event = {
+			id = colonize_it_create.256
+		}
+	}
+	option = {
+		name = "ci_back"
+		country_event = {
+			id = colonize_it_e_divite_menu.15
+		}
+	}
+	after = {
+		clear_global_event_target = colonize_it_target
+	}
+}
+country_event = { #モンゴル
+	id = colonize_it_e_divite_effect.53
+	title = colonize_it_e_divite.3.t
+	desc = colonize_it_e_divite.3.d
+	picture = DEBATE_REPUBLICAN_eventPicture
+	is_triggered_only = yes
+
+	option = {
+		name = colonize_it_e_divite.n
+		#set_country_flag = colonize_it_yumen_colony
+		country_event = {
+			id = colonize_it_create.261
+		}
+	}
+	option = {
+		name = "ci_back"
+		country_event = {
+			id = colonize_it_e_divite_menu.15
+		}
+	}
+	after = {
+		clear_global_event_target = colonize_it_target
+	}
+}
+country_event = { #チベット
+	id = colonize_it_e_divite_effect.54
+	title = colonize_it_e_divite.3.t
+	desc = colonize_it_e_divite.3.d
+	picture = DEBATE_REPUBLICAN_eventPicture
+	is_triggered_only = yes
+
+	option = {
+		name = colonize_it_e_divite.n
+		#set_country_flag = colonize_it_lhasa_colony
+		country_event = {
+			id = colonize_it_create.266
+		}
+	}
+	option = {
+		name = "ci_back"
+		country_event = {
+			id = colonize_it_e_divite_menu.15
+		}
+	}
+	after = {
+		clear_global_event_target = colonize_it_target
+	}
+}
+country_event = { #華北
+	id = colonize_it_e_divite_effect.55
+	title = colonize_it_e_divite.3.t
+	desc = colonize_it_e_divite.3.d
+	picture = DEBATE_REPUBLICAN_eventPicture
+	is_triggered_only = yes
+
+	option = {
+		name = colonize_it_e_divite.n
+		#set_country_flag = colonize_it_north_china_colony
+		country_event = {
+			id = colonize_it_create.271
+		}
+	}
+	option = {
+		name = "ci_back"
+		country_event = {
+			id = colonize_it_e_divite_menu.16
+		}
+	}
+	after = {
+		clear_global_event_target = colonize_it_target
+	}
+}
+country_event = { #四川
+	id = colonize_it_e_divite_effect.56
+	title = colonize_it_e_divite.3.t
+	desc = colonize_it_e_divite.3.d
+	picture = DEBATE_REPUBLICAN_eventPicture
+	is_triggered_only = yes
+
+	option = {
+		name = colonize_it_e_divite.n
+		#set_country_flag = colonize_it_chengdu_colony
+		country_event = {
+			id = colonize_it_create.276
+		}
+	}
+	option = {
+		name = "ci_back"
+		country_event = {
+			id = colonize_it_e_divite_menu.16
+		}
+	}
+	after = {
+		clear_global_event_target = colonize_it_target
+	}
+}
+country_event = { #黄河
+	id = colonize_it_e_divite_effect.57
+	title = colonize_it_e_divite.3.t
+	desc = colonize_it_e_divite.3.d
+	picture = DEBATE_REPUBLICAN_eventPicture
+	is_triggered_only = yes
+
+	option = {
+		name = colonize_it_e_divite.n
+		#set_country_flag = colonize_it_xian_colony
+		country_event = {
+			id = colonize_it_create.281
+		}
+	}
+	option = {
+		name = "ci_back"
+		country_event = {
+			id = colonize_it_e_divite_menu.16
+		}
+	}
+	after = {
+		clear_global_event_target = colonize_it_target
+	}
+}
+country_event = { #華南
+	id = colonize_it_e_divite_effect.58
+	title = colonize_it_e_divite.3.t
+	desc = colonize_it_e_divite.3.d
+	picture = DEBATE_REPUBLICAN_eventPicture
+	is_triggered_only = yes
+
+	option = {
+		name = colonize_it_e_divite.n
+		#set_country_flag = colonize_it_south_china_colony
+		country_event = {
+			id = colonize_it_create.286
+		}
+	}
+	option = {
+		name = "ci_back"
+		country_event = {
+			id = colonize_it_e_divite_menu.16
+		}
+	}
+	after = {
+		clear_global_event_target = colonize_it_target
+	}
+}
+country_event = { #華東
+	id = colonize_it_e_divite_effect.59
+	title = colonize_it_e_divite.3.t
+	desc = colonize_it_e_divite.3.d
+	picture = DEBATE_REPUBLICAN_eventPicture
+	is_triggered_only = yes
+
+	option = {
+		name = colonize_it_e_divite.n
+		#set_country_flag = colonize_it_east_china_colony
+		country_event = {
+			id = colonize_it_create.291
+		}
+	}
+	option = {
+		name = "ci_back"
+		country_event = {
+			id = colonize_it_e_divite_menu.16
+		}
+	}
+	after = {
+		clear_global_event_target = colonize_it_target
+	}
+}
+country_event = { #満州
+	id = colonize_it_e_divite_effect.60
+	title = colonize_it_e_divite.3.t
+	desc = colonize_it_e_divite.3.d
+	picture = DEBATE_REPUBLICAN_eventPicture
+	is_triggered_only = yes
+
+	option = {
+		name = colonize_it_e_divite.n
+		#set_country_flag = colonize_it_girin_colony
+		country_event = {
+			id = colonize_it_create.296
+		}
+	}
+	option = {
+		name = "ci_back"
+		country_event = {
+			id = colonize_it_e_divite_menu.16
+		}
+	}
+	after = {
+		clear_global_event_target = colonize_it_target
+	}
+}
+country_event = { #日本
+	id = colonize_it_e_divite_effect.61
+	title = colonize_it_e_divite.3.t
+	desc = colonize_it_e_divite.3.d
+	picture = DEBATE_REPUBLICAN_eventPicture
+	is_triggered_only = yes
+
+	option = {
+		name = colonize_it_e_divite.n
+		#set_country_flag = colonize_it_nippon_colony
+		country_event = {
+			id = colonize_it_create.301
+		}
+	}
+	option = {
+		name = "ci_back"
+		country_event = {
+			id = colonize_it_e_divite_menu.15
+		}
+	}
+	after = {
+		clear_global_event_target = colonize_it_target
+	}
+}
+country_event = { #太平洋
+	id = colonize_it_e_divite_effect.62
+	title = colonize_it_e_divite.3.t
+	desc = colonize_it_e_divite.3.d
+	picture = DEBATE_REPUBLICAN_eventPicture
+	is_triggered_only = yes
+
+	option = {
+		name = colonize_it_e_divite.n
+		#set_country_flag = colonize_it_polynesia_colony
+		country_event = {
+			id = colonize_it_create.306
+		}
+	}
+	option = {
+		name = "ci_back"
+		country_event = {
+			id = colonize_it_e_divite_menu.6
+		}
+	}
+	after = {
+		clear_global_event_target = colonize_it_target
+	}
+}
+country_event = { #ニジェール
+	id = colonize_it_e_divite_effect.63
+	title = colonize_it_e_divite.3.t
+	desc = colonize_it_e_divite.3.d
+	picture = DEBATE_REPUBLICAN_eventPicture
+	is_triggered_only = yes
+
+	option = {
+		name = colonize_it_e_divite.n
+		#set_country_flag = colonize_it_katsina_colony
+		country_event = {
+			id = colonize_it_create.311
+		}
+	}
+	option = {
+		name = "ci_back"
+		country_event = {
+			id = colonize_it_e_divite_menu.11
+		}
+	}
+	after = {
+		clear_global_event_target = colonize_it_target
+	}
+}
+country_event = { #メキシコ
+	id = colonize_it_e_divite_effect.64
+	title = colonize_it_e_divite.3.t
+	desc = colonize_it_e_divite.3.d
+	picture = DEBATE_REPUBLICAN_eventPicture
+	is_triggered_only = yes
+
+	option = {
+		name = colonize_it_e_divite.n
+		#set_country_flag = colonize_it_mexico_colony
+		country_event = {
+			id = colonize_it_create.316
+		}
+	}
+	option = {
+		name = "ci_back"
+		country_event = {
+			id = colonize_it_e_divite_menu.18
+		}
+	}
+	after = {
+		clear_global_event_target = colonize_it_target
+	}
+}
+country_event = { #カルフォルニア
+	id = colonize_it_e_divite_effect.65
+	title = colonize_it_e_divite.3.t
+	desc = colonize_it_e_divite.3.d
+	picture = DEBATE_REPUBLICAN_eventPicture
+	is_triggered_only = yes
+
+	option = {
+		name = colonize_it_e_divite.n
+		#set_country_flag = colonize_it_california_colony
+		country_event = {
+			id = colonize_it_create.321
+		}
+	}
+	option = {
+		name = "ci_back"
+		country_event = {
+			id = colonize_it_e_divite_menu.18
+		}
+	}
+	after = {
+		clear_global_event_target = colonize_it_target
+	}
+}
+country_event = { #アラスカ
+	id = colonize_it_e_divite_effect.66
+	title = colonize_it_e_divite.3.t
+	desc = colonize_it_e_divite.3.d
+	picture = DEBATE_REPUBLICAN_eventPicture
+	is_triggered_only = yes
+
+	option = {
+		name = colonize_it_e_divite.n
+		#set_country_flag = colonize_it_alaska_colony
+		country_event = {
+			id = colonize_it_create.326
+		}
+	}
+	option = {
+		name = "ci_back"
+		country_event = {
+			id = colonize_it_e_divite_menu.18
+		}
+	}
+	after = {
+		clear_global_event_target = colonize_it_target
+	}
+}
+country_event = { #ルイジアナ
+	id = colonize_it_e_divite_effect.67
+	title = colonize_it_e_divite.3.t
+	desc = colonize_it_e_divite.3.d
+	picture = DEBATE_REPUBLICAN_eventPicture
+	is_triggered_only = yes
+
+	option = {
+		name = colonize_it_e_divite.n
+		#set_country_flag = colonize_it_louisiana_colony
+		country_event = {
+			id = colonize_it_create.331
+		}
+	}
+	option = {
+		name = "ci_back"
+		country_event = {
+			id = colonize_it_e_divite_menu.18
+		}
+	}
+	after = {
+		clear_global_event_target = colonize_it_target
+	}
+}
+country_event = { #東海岸
+	id = colonize_it_e_divite_effect.68
+	title = colonize_it_e_divite.3.t
+	desc = colonize_it_e_divite.3.d
+	picture = DEBATE_REPUBLICAN_eventPicture
+	is_triggered_only = yes
+
+	option = {
+		name = colonize_it_e_divite.n
+		#set_country_flag = colonize_it_eastern_america_colony
+		country_event = {
+			id = colonize_it_create.336
+		}
+	}
+	option = {
+		name = "ci_back"
+		country_event = {
+			id = colonize_it_e_divite_menu.18
+		}
+	}
+	after = {
+		clear_global_event_target = colonize_it_target
+	}
+}
+country_event = { #カナダ
+	id = colonize_it_e_divite_effect.69
+	title = colonize_it_e_divite.3.t
+	desc = colonize_it_e_divite.3.d
+	picture = DEBATE_REPUBLICAN_eventPicture
+	is_triggered_only = yes
+
+	option = {
+		name = colonize_it_e_divite.n
+		#set_country_flag = colonize_it_canada_colony
+		country_event = {
+			id = colonize_it_create.341
+		}
+	}
+	option = {
+		name = "ci_back"
+		country_event = {
+			id = colonize_it_e_divite_menu.18
+		}
+	}
+	after = {
+		clear_global_event_target = colonize_it_target
+	}
+}
+country_event = { #カリブ
+	id = colonize_it_e_divite_effect.70
+	title = colonize_it_e_divite.3.t
+	desc = colonize_it_e_divite.3.d
+	picture = DEBATE_REPUBLICAN_eventPicture
+	is_triggered_only = yes
+
+	option = {
+		name = colonize_it_e_divite.n
+		#set_country_flag = colonize_it_the_carribean_colony
+		country_event = {
+			id = colonize_it_create.346
+		}
+	}
+	option = {
+		name = "ci_back"
+		country_event = {
+			id = colonize_it_e_divite_menu.18
+		}
+	}
+	after = {
+		clear_global_event_target = colonize_it_target
+	}
+}
+country_event = { #コロンビア
+	id = colonize_it_e_divite_effect.71
+	title = colonize_it_e_divite.3.t
+	desc = colonize_it_e_divite.3.d
+	picture = DEBATE_REPUBLICAN_eventPicture
+	is_triggered_only = yes
+
+	option = {
+		name = colonize_it_e_divite.n
+		#set_country_flag = colonize_it_colombia_colony
+		country_event = {
+			id = colonize_it_create.351
+		}
+	}
+	option = {
+		name = "ci_back"
+		country_event = {
+			id = colonize_it_e_divite_menu.19
+		}
+	}
+	after = {
+		clear_global_event_target = colonize_it_target
+	}
+}
+country_event = { #ペルー
+	id = colonize_it_e_divite_effect.72
+	title = colonize_it_e_divite.3.t
+	desc = colonize_it_e_divite.3.d
+	picture = DEBATE_REPUBLICAN_eventPicture
+	is_triggered_only = yes
+
+	option = {
+		name = colonize_it_e_divite.n
+		#set_country_flag = colonize_it_peru_colony
+		country_event = {
+			id = colonize_it_create.356
+		}
+	}
+	option = {
+		name = "ci_back"
+		country_event = {
+			id = colonize_it_e_divite_menu.19
+		}
+	}
+	after = {
+		clear_global_event_target = colonize_it_target
+	}
+}
+country_event = { #ブラジル
+	id = colonize_it_e_divite_effect.73
+	title = colonize_it_e_divite.3.t
+	desc = colonize_it_e_divite.3.d
+	picture = DEBATE_REPUBLICAN_eventPicture
+	is_triggered_only = yes
+
+	option = {
+		name = colonize_it_e_divite.n
+		country_event = {
+			id = colonize_it_create.361
+		}
+	}
+	option = {
+		name = "ci_back"
+		country_event = {
+			id = colonize_it_e_divite_menu.19
+		}
+	}
+	after = {
+		clear_global_event_target = colonize_it_target
+	}
+}
+country_event = { #ラプラタ
+	id = colonize_it_e_divite_effect.74
+	title = colonize_it_e_divite.3.t
+	desc = colonize_it_e_divite.3.d
+	picture = DEBATE_REPUBLICAN_eventPicture
+	is_triggered_only = yes
+
+	option = {
+		name = colonize_it_e_divite.n
+		country_event = {
+			id = colonize_it_create.366
+		}
+	}
+	option = {
+		name = "ci_back"
+		country_event = {
+			id = colonize_it_e_divite_menu.19
+		}
+	}
+	after = {
+		clear_global_event_target = colonize_it_target
+	}
+}
+country_event = { #オーストラリア
+	id = colonize_it_e_divite_effect.75
+	title = colonize_it_e_divite.3.t
+	desc = colonize_it_e_divite.3.d
+	picture = DEBATE_REPUBLICAN_eventPicture
+	is_triggered_only = yes
+
+	option = {
+		name = colonize_it_e_divite.n
+		country_event = {
+			id = colonize_it_create.371
+		}
+	}
+	option = {
+		name = "ci_back"
+		country_event = {
+			id = colonize_it_e_divite_menu.6
+		}
+	}
+	after = {
+		clear_global_event_target = colonize_it_target
+	}
+}
+country_event = { #宗主国
+	id = colonize_it_e_divite_effect.76
+	title = colonize_it_e_divite.3.t
+	desc = colonize_it_e_divite.3.d
+	picture = DEBATE_REPUBLICAN_eventPicture
+	is_triggered_only = yes
+
+	option = {
+		name = colonize_it_e_divite.n
+		hidden_effect = {
+			event_target:colonize_it_target = {
+				every_owned_province = {
+					limit = {
+						has_province_flag = colonize_it_mark
+					}
+					if = {
+						limit = {
+							is_core = event_target:colonize_it_target
+						}
+						add_core = ROOT
+						remove_core = event_target:colonize_it_target
+					}
+					cede_province = ROOT
+				}
+			}
+		}
+	}
+	option = {
+		name = "ci_back"
+		#clr_country_flag = colonize_it_to_overlord_transfer
+		country_event = {
+			id = colonize_it_e_divite_menu.2
+		}
+	}
+	after = {
+		clear_global_event_target = colonize_it_target
+		every_province = {
+			limit = {
+				has_province_flag = colonize_it_mark
+			}
+			clr_province_flag = colonize_it_mark
+		}
+		#clr_country_flag = colonize_it_to_overlord_transfer
+	}
+}
+country_event = { #朝鮮
+	id = colonize_it_e_divite_effect.77
+	title = colonize_it_e_divite.3.t
+	desc = colonize_it_e_divite.3.d
+	picture = DEBATE_REPUBLICAN_eventPicture
+	is_triggered_only = yes
+
+	option = { #朝鮮
+		name = colonize_it_e_divite.n
+		hidden_effect = {
+			country_event = {
+				id = colonize_it_create.376
+			}
+		}
+	}
+	option = {
+		name = "ci_back"
+		clr_country_flag = korea_colony
+		country_event = {
+			id = colonize_it_e_divite_menu.13
+		}
+	}
+	after = {
+		clear_global_event_target = colonize_it_target
+	}
+}

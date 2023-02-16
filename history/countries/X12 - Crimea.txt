@@ -1,0 +1,6 @@
+government = tribal
+add_government_reform = feudalism_reform
+technology_group = nomad_group
+religion = sunni
+primary_culture = crimean
+1

@@ -1,0 +1,19 @@
+namespace = colonize_it_compatibility_check
+
+country_event = {
+	id = colonize_it_compatibility_check.1
+	title = none
+	desc = none
+	picture = none
+	hidden = yes
+
+	trigger = {
+		NOT = { ai = yes }
+		NOT = { has_global_flag = colonize_it_enabled_vanilla }
+	}
+	immediate = {
+		set_global_flag = colonize_it_enabled_vanilla
+	}
+
+	option = {}
+}

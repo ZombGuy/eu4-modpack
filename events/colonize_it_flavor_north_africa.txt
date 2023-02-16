@@ -1,0 +1,234 @@
+namespace = colonize_it_flavor_north_africa
+
+
+country_event = { #植民地拠点フェズ1
+	id = colonize_it_flavor_north_africa.1
+	title = none
+	desc = none
+	picture = none
+	fire_only_once = yes
+
+	trigger = {
+		is_core = 343
+		is_colonial_nation = yes
+		NOT = {
+			capital = 343
+		}
+		NOT = {
+			has_country_flag = colonize_it_colonial_base_fez
+		}
+	}
+
+	immediate = {
+		overlord = {
+			country_event = {
+				id = colonize_it_flavor_north_africa.2
+			}
+		}
+	}
+	option = {}
+}
+
+country_event = { #植民地拠点フェズ2
+	id = colonize_it_flavor_north_africa.2
+	title = colonize_it_flavor_north_africa.2.t
+	desc = colonize_it_flavor_north_africa.2.d
+	picture = HOUSE_OF_TRADE_eventPicture
+	is_triggered_only = yes
+	goto = 343
+
+	option = { #この町を拠点にしよう!
+		name = colonize_it_flavor_north_africa.2.1.n
+		343 = {
+			add_base_tax = 2
+			add_base_production = 2
+			add_base_manpower = 2
+		}
+		FROM = {
+			set_capital =343
+		}
+		ai_chance = {factor = 3}
+	}
+	option = { #ここじゃなくてもいい
+		name = colonize_it_flavor_north_africa.2.2.n
+		FROM = {
+			every_owned_province = {
+				limit = {
+					is_capital = yes
+				}
+				add_base_tax = 2
+				add_base_production = 2
+				add_base_manpower = 2
+			}
+		}
+		ai_chance = {factor = 1}
+	}
+	after = {
+		set_country_flag = colonize_it_colonial_base_fez
+	}
+}
+country_event = { #サハラ交易1
+	id = colonize_it_flavor_north_africa.3
+	title = none
+	desc = none
+	picture = none
+	
+
+	trigger = {
+		is_core = 343
+		is_colonial_nation = yes
+		NOT = { is_at_war = yes }
+		NOT = { has_country_flag = colonize_it_flavor_north_africa_4 }
+		overlord = {
+			AND = {
+				NOT = { sahel_region = { has_discovered = ROOT }}
+				NOT = { niger_region = { has_discovered = ROOT }}
+			}
+		}
+	}
+	mean_time_to_happen = {
+		months = 300
+	}
+	immediate = {
+		overlord = {
+			country_event = {
+				id = colonize_it_flavor_north_africa.4
+			}
+		}
+	}
+	option = {}
+}
+country_event = { #サハラ交易2
+	id = colonize_it_flavor_north_africa.4
+	title = colonize_it_flavor_north_africa.4.t
+	desc = colonize_it_flavor_north_africa.4.d
+	picture = CORRUPTION_eventPicture
+	is_triggered_only = yes
+	goto = 343
+
+	option = { #金山だって!?金ならある!地図を売ってくれないか?
+		name = colonize_it_flavor_north_africa.4.1.n
+		add_treasury = -50
+		sahel_region = {
+			discover_country = ROOT
+		}
+		niger_region = {
+			discover_country = ROOT
+		}
+		guinea_region = {
+			discover_country = ROOT
+		}
+		hidden_effect = {
+			country_event = { 
+				id = colonize_it_flavor_north_africa.6
+				days = 100
+				random = 15
+			}
+		}
+		ai_chance = {factor = 1}
+	}
+	option = { #面白かった!良い教訓になりそうだ。
+		name = colonize_it_flavor_north_africa.4.2.n
+		add_corruption = -2
+		add_country_modifier = {
+			name = mansa_musa_wasting_money
+			duration = 3700
+		}
+		ai_chance = {factor = 3} #AIはアフリカに興味がない
+	}
+	after = {
+		set_country_flag = colonize_it_flavor_north_africa_4
+	}
+}
+country_event = { #スエズ運河
+	id = colonize_it_flavor_north_africa.5
+	title = colonize_it_flavor_north_africa.5.t
+	desc = colonize_it_flavor_north_africa.5.d
+	picture = SHIP_SAILING_eventPicture
+	mean_time_to_happen = {
+		months = 300
+	}
+	trigger = {
+		capital_scope = {
+			continent = europe
+		}
+		OR = {
+			has_country_flag = lahore_colony #パンジャーブ
+			has_country_flag = west_india_colony #西インド
+			has_country_flag = north_india_colony #北インド
+			has_country_flag = deccan_colony #デカン
+			has_country_flag = coromandel_colony #コロマンデル
+			has_country_flag = east_india_colony #東インド
+		}
+		NOT = { owns_or_subject_of = 4316 }
+		NOT = { owns_or_subject_of = 2315 }
+		NOT = { has_country_flag = colonize_it_flavor_north_africa_5 }
+		NOT = {
+			4316 = {
+				has_great_project = suez_canal
+			}
+		}
+	}
+	goto = 4316
+	option = { #エジプト遠征だ!
+		name = colonize_it_flavor_north_africa.5.1.n
+		egypt_region = {
+			limit = {
+				NOT = { is_core = ROOT }
+				NOT = { is_permanent_claim = ROOT }
+			}
+			add_claim = ROOT
+		}
+		ai_chance = {factor = 3}
+	}
+	option = { #エジプトに行くと本土がきな臭くなりそうだ。
+		name = colonize_it_flavor_north_africa.5.2.n
+		ai_chance = {factor = 1}
+	}
+	after = {
+		set_country_flag = colonize_it_flavor_north_africa_5
+	}
+}
+country_event = { #黄金郷への道
+	id = colonize_it_flavor_north_africa.6
+	title = colonize_it_flavor_north_africa.6.t
+	desc = colonize_it_flavor_north_africa.6.d
+	picture = COLONIZATION_eventPicture
+	is_triggered_only = yes
+	goto = 1127
+
+	option = { #要塞化
+		name = colonize_it_flavor_north_africa.6.1.n
+		add_treasury = -300
+		1127 = {
+			cede_province = ROOT
+			add_core = ROOT
+			add_building = fort_15th
+		}
+		ai_chance = {factor = 2}
+	}
+	option = { #要塞なし
+		name = colonize_it_flavor_north_africa.6.2.n
+		add_treasury = -150
+		1127 = {
+			cede_province = ROOT
+			add_core = ROOT
+		}
+		ai_chance = {factor = 3}
+	}
+	option = { #植民もなし
+		name = colonize_it_flavor_north_africa.6.3.n
+		
+		ai_chance = {factor = 1}
+	}
+	after = {
+		every_province = {
+			limit = {
+				region = sahel_region
+				region = niger_region
+				region = guinea_region
+			}
+			add_permanent_claim = ROOT
+		}
+	}
+}

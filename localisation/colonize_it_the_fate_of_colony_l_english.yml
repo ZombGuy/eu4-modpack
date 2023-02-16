@@ -1,0 +1,6 @@
+﻿l_english:
+ vassal_colonize_it: "Colonial rule will end, but we will make you a subject of our country."
+ annex_colonize_it: "Dismantle the colonies. Make it a direct jurisdiction."
+ independence_colonize_it: "Let them be independent. It's not worth anything."
+ ci_e_fate_of_colonize_effect.d: "Decide how to treat them by making the following choices. If there are multiple choices that are the same, save once and start over. If you know the nation tag, the number of the nation tag will increase in order from the top choice. For more information, visit the \"Colonize It! Information Center\".\n\nvassalize §R£adm£-100 ¤-500§!\nindepedence §G£adm£+300 £dip£+300 ¤+1000§!\nannexation §R£adm£-300 £dip£+300 ¤-1000§!"
+ ci_e_fate_of_colonize_effect.1.t: "Fate of the [colonize_it_target.GetName]"

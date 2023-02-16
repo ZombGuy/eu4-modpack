@@ -1,0 +1,133 @@
+namespace = colonize_it_auto_annex
+
+country_event = {
+	id = colonize_it_auto_annex.1
+	title = none
+	desc = none
+	picture = none
+
+	hidden = yes
+	
+	trigger = {
+		is_colonial_nation = yes
+		OR = {
+			has_country_flag = colonize_it_tag_indonesia
+			has_country_flag = colonize_it_tag_moluccas
+			has_country_flag = colonize_it_tag_philippines
+			has_country_flag = colonize_it_tag_indochina
+			has_country_flag = colonize_it_tag_burma
+			has_country_flag = colonize_it_tag_north_sea
+			has_country_flag = colonize_it_tag_english_channel
+			has_country_flag = colonize_it_tag_bordeaux
+			has_country_flag = colonize_it_tag_champagne
+			has_country_flag = colonize_it_tag_sevilla
+			has_country_flag = colonize_it_tag_valencia
+			has_country_flag = colonize_it_tag_venice
+			has_country_flag = colonize_it_tag_genua
+			has_country_flag = colonize_it_tag_rheinland
+			has_country_flag = colonize_it_tag_wien
+			has_country_flag = colonize_it_tag_saxony
+			has_country_flag = colonize_it_tag_lubeck
+			has_country_flag = colonize_it_tag_baltic_sea
+			has_country_flag = colonize_it_tag_krakow
+			has_country_flag = colonize_it_tag_pest
+			has_country_flag = colonize_it_tag_ragusa
+			has_country_flag = colonize_it_tag_crimea
+			has_country_flag = colonize_it_tag_kiev
+			has_country_flag = colonize_it_tag_novgorod
+			has_country_flag = colonize_it_tag_white_sea
+			has_country_flag = colonize_it_tag_kazan
+			has_country_flag = colonize_it_tag_astrakhan
+			has_country_flag = colonize_it_tag_constantinople
+			has_country_flag = colonize_it_tag_aleppo
+			has_country_flag = colonize_it_tag_alexandria
+			has_country_flag = colonize_it_tag_basra
+			has_country_flag = colonize_it_tag_gulf_of_aden
+			has_country_flag = colonize_it_tag_persia
+			has_country_flag = colonize_it_tag_hormuz
+			has_country_flag = colonize_it_tag_tunis
+			has_country_flag = colonize_it_tag_safi
+			has_country_flag = colonize_it_tag_timbuktu
+			has_country_flag = colonize_it_tag_west_africa
+			has_country_flag = colonize_it_tag_ethiopia
+			has_country_flag = colonize_it_tag_east_africa
+			has_country_flag = colonize_it_tag_great_lakes
+			has_country_flag = colonize_it_tag_zambezi
+			has_country_flag = colonize_it_tag_kongo
+			has_country_flag = colonize_it_tag_south_africa
+			has_country_flag = colonize_it_tag_lahore
+			has_country_flag = colonize_it_tag_west_india
+			has_country_flag = colonize_it_tag_north_india
+			has_country_flag = colonize_it_tag_deccan
+			has_country_flag = colonize_it_tag_coromandel
+			has_country_flag = colonize_it_tag_east_india
+			has_country_flag = colonize_it_tag_samarkand
+			has_country_flag = colonize_it_tag_siberia
+			has_country_flag = colonize_it_tag_yumen
+			has_country_flag = colonize_it_tag_lhasa
+			has_country_flag = colonize_it_tag_north_china
+			has_country_flag = colonize_it_tag_chengdu
+			has_country_flag = colonize_it_tag_xian
+			has_country_flag = colonize_it_tag_south_china
+			has_country_flag = colonize_it_tag_east_china
+			has_country_flag = colonize_it_tag_girin
+			has_country_flag = colonize_it_tag_nippon
+			has_country_flag = colonize_it_tag_polynesia
+			has_country_flag = colonize_it_tag_katsina
+			has_country_flag = colonize_it_tag_mexico
+			has_country_flag = colonize_it_tag_california
+			has_country_flag = colonize_it_tag_alaska
+			has_country_flag = colonize_it_tag_louisiana
+			has_country_flag = colonize_it_tag_eastern_america
+			has_country_flag = colonize_it_tag_canada
+			has_country_flag = colonize_it_tag_the_carribean
+			has_country_flag = colonize_it_tag_colombia
+			has_country_flag = colonize_it_tag_peru
+			has_country_flag = colonize_it_tag_brazil
+			has_country_flag = colonize_it_tag_la_plata
+			has_country_flag = colonize_it_tag_australia
+		}
+		any_owned_province = {
+			OR = {
+				colonial_region = colonial_mexico
+				colonial_region = colonial_california
+				colonial_region = colonial_alaska
+				colonial_region = colonial_louisiana
+				colonial_region = colonial_eastern_america
+				colonial_region = colonial_canada
+				colonial_region = colonial_the_carribean
+				colonial_region = colonial_colombia
+				colonial_region = colonial_peru
+				colonial_region = colonial_brazil
+				colonial_region = colonial_la_plata
+				colonial_region = colonial_australia
+			}
+		}
+		overlord = {
+			capital_scope = {
+				AND = {
+					NOT = { continent = south_america }
+					NOT = { continent = north_america }
+					NOT = { continent = oceania }
+				}
+			}
+		}
+	}
+
+	immediate = {
+		overlord = {
+			save_event_target_as = colonize_it_overlord
+		}
+	}
+	option = {}
+	after = {
+		every_owned_province = {
+			limit = {
+				is_core = ROOT
+			}
+			remove_core = ROOT
+			add_core = event_target:colonize_it_overlord
+		}
+		overlord = { inherit = ROOT }
+	}
+}
