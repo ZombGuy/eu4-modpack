@@ -1,0 +1,24 @@
+country_decisions = {
+	
+	proclaim_austrian_empire = {
+		major = yes
+		potential = {
+			tag = HAB
+			NOT = {
+				has_country_flag = proclaimed_austrian_empire
+			}
+		}
+		allow = {
+			is_free_or_tributary_trigger = yes
+			is_at_war = no
+			total_development = 1000
+		}
+		effect = {
+			override_country_name = PROCLAIM_AUSTRIAN_EMPIRE
+			set_country_flag = proclaimed_austrian_empire
+		}
+		ai_will_do = {
+			factor = 10
+		}
+	}
+}

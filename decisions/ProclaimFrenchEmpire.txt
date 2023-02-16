@@ -1,0 +1,32 @@
+country_decisions = {
+	
+	proclaim_french_empire = {
+		major = yes
+		potential = {
+			tag = FRA
+			NOT = {
+				has_country_flag = proclaimed_french_empire
+			}
+		}
+		allow = {
+			is_free_or_tributary_trigger = yes
+			is_at_war = no
+			if = {
+				limit = {
+					has_dlc = "Common Sense"
+				}
+				government_rank = 3
+			}
+			else = {
+				total_development = 1000
+			}
+		}
+		effect = {
+			override_country_name = PROCLAIM_FRENCH_EMPIRE
+			set_country_flag = proclaimed_french_empire
+		}
+		ai_will_do = {
+			factor = 10
+		}
+	}
+}

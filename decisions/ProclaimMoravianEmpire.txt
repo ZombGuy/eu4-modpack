@@ -1,0 +1,35 @@
+country_decisions = {
+	
+	proclaim_moravian_empire = {
+		major = yes
+		potential = {
+			OR = {
+				tag = MVA
+				tag = SLO
+			}
+			NOT = {
+				has_country_flag = proclaimed_moravian_empire
+			}
+		}
+		allow = {
+			is_free_or_tributary_trigger = yes
+			is_at_war = no
+			if = {
+				limit = {
+					has_dlc = "Common Sense"
+				}
+				government_rank = 3
+			}
+			else = {
+				total_development = 1000
+			}
+		}
+		effect = {
+			override_country_name = PROCLAIM_MORAVIAN_EMPIRE
+			set_country_flag = proclaimed_moravian_empire
+		}
+		ai_will_do = {
+			factor = 10
+		}
+	}
+}

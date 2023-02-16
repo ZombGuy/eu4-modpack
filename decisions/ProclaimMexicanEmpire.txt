@@ -1,0 +1,32 @@
+country_decisions = {
+	
+	proclaim_mexican_empire = {
+		major = yes
+		potential = {
+			tag = MEX
+			NOT = {
+				has_country_flag = proclaimed_mexican_empire
+			}
+		}
+		allow = {
+			is_free_or_tributary_trigger = yes
+			is_at_war = no
+			if = {
+				limit = {
+					has_dlc = "Common Sense"
+				}
+				government_rank = 3
+			}
+			else = {
+				total_development = 1
+			}
+		}
+		effect = {
+			override_country_name = PROCLAIM_MEXICAN_EMPIRE
+			set_country_flag = proclaimed_mexican_empire
+		}
+		ai_will_do = {
+			factor = 10
+		}
+	}
+}
