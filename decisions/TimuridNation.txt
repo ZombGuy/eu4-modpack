@@ -73,7 +73,7 @@ country_decisions = {
 			define_ruler = {
 				dynasty = "Timurid"
 			}
-			add_legitimacy = 20
+			add_legitimacy_equivalent = { amount = 20 republican_tradition = 10 }
 			if = {
 				limit = {
 					has_heir = yes
@@ -85,7 +85,15 @@ country_decisions = {
 			}
 		}
 		ai_will_do = {
-			factor = 1
+			factor = 10
+			modifier = {
+				factor = 0
+				NOT = { exists = MUG }	#Mughals should appear instead first
+			}
+			modifier = {
+				factor = 0
+				NOT = { exists = PER }	#Same goes for Persia
+			}
 		}
 	}
 
@@ -98,6 +106,10 @@ country_decisions = {
 			OR = {
 				ai = no
 				is_playing_custom_nation = no
+			}
+			OR = {
+				is_free_or_tributary_trigger = yes
+				ai = no
 			}
 			NOT = { tag = PAP }
 			NOT = { tag = HLR }
@@ -140,24 +152,29 @@ country_decisions = {
 		}
 		allow = {
 			NOT = { exists = TIM }
+			is_free_or_tributary_trigger = yes
 			is_at_war = no
 			owns_core_province = 446	# Herat
 			owns_core_province = 454	# Samarkand
 			454 = {						# Samarkand
 				is_state = yes
 			}
-			OR = {
-				AND = {
-					owns_core_province = 429	# Isfahan
-					owns_core_province = 2213	# Qom
-					owns_core_province = 2218	# Shiraz
+			
+			if = {
+				limit = {
+					NOT = {
+						has_country_flag = me_prince_faster_timurid_formation
+					}
 				}
-				AND = {
-					owns_core_province = 451	# Kabul
-					owns_core_province = 445	# Merv
-					owns_core_province = 428	# Teheran/Rayy
-				}
+				owns_core_province = 429
+				owns_core_province = 2213
+				owns_core_province = 2218
+				owns_core_province = 451
+				owns_core_province = 445
+				owns_core_province = 428
 			}
+			
+			TIM_can_form_timurids = yes
 		}
 		effect = {
 			454 = {
@@ -172,7 +189,7 @@ country_decisions = {
 				}
 				set_government_rank = 3
 			}
-			add_prestige = 25
+			add_prestige_or_monarch_power = { amount = 25 }
 			add_country_modifier = {
 				name = centralization_modifier
 				duration = 3650
@@ -281,6 +298,16 @@ country_decisions = {
 				}
 				add_permanent_claim = TIM
 			}
+			hidden_effect = {
+				every_known_country = {
+					limit = {
+						NOT = { tag = ROOT }
+					}
+					country_event = { id = ME_Timurid_Princes_Event.27 }
+				}
+			}
+			clr_country_flag = ME_can_use_timurid_legitimacy
+			country_event = { id = ME_Timurids_Events.1 }
 			if = {
 				limit = { has_custom_ideas = no }
 				country_event = { id = ideagroups.1 } #Swap Ideas
@@ -288,7 +315,17 @@ country_decisions = {
 			set_country_flag = formed_timurids_flag
 		}
 		ai_will_do = {
-			factor = 400
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = { exists = MUG }	#Mughals should appear instead first
+				NOT = { mission_completed = Timurid_prince_claim_the_empire }
+			}
+			modifier = {
+				factor = 0
+				NOT = { exists = PER }	#Same goes for Persia
+				NOT = { mission_completed = Timurid_prince_claim_the_empire }
+			}
 		}
 		ai_importance = 600
 	}

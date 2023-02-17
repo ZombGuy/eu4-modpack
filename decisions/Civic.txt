@@ -3,6 +3,7 @@ country_decisions = {
 	statue_in_restraint_of_appeals = {
 		potential = {
 			NOT = { has_country_modifier = the_statue_in_restraint_of_appeals }
+			NOT = { has_country_modifier = me_the_statue_in_restraint_of_appeals }
 			religion = catholic
 			exists = PAP
 			NOT = { tag = PAP }
@@ -25,9 +26,20 @@ country_decisions = {
 				add_opinion = { who = ROOT modifier = opinion_demote_pope }
 			}
 			PAP = { add_opinion = { who = ROOT modifier = opinion_pope_realise_demotion } }
-			add_country_modifier = {
-				name = "the_statue_in_restraint_of_appeals"
-				duration = -1
+			if = {
+				limit = {
+					has_country_flag = me_sty_double_bonuses_restraint
+				}
+				add_country_modifier = {
+					name = me_the_statue_in_restraint_of_appeals 
+					duration = -1
+				}
+			}
+			else = {
+				add_country_modifier = {
+					name = "the_statue_in_restraint_of_appeals"
+					duration = -1
+				}
 			}
 		}
 		

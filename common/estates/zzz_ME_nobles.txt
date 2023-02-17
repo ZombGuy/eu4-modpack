@@ -1,0 +1,9 @@
+estate_nobles = {
+	privileges = {
+		estate_nobles_recruit_grenzens
+		estate_nobles_conscription_law
+		ME_estate_nobles_bedouin_recruitment
+		ME_estate_maratha_special_privilege
+		ME_estate_nobles_loyal_military
+	}
+}

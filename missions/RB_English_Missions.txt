@@ -11,11 +11,8 @@ eng_british_naval_conq = {
 		OR = {
 			tag = ENG
 			tag = GBR
-			AND = {
-				tag = DOD
-				primary_culture = english
-			}
 		}
+		has_country_flag = use_paradox_missions
 		has_dlc = "Rule Britannia"
 		NOT = { map_setup = map_setup_random }
 	}
@@ -34,9 +31,6 @@ eng_british_naval_conq = {
 				factor = 0
 				NOT = { is_year = 1680 }
 			}
-		}
-		ai_priority = {
-			factor = 1
 		}
 		
 		trigger = {
@@ -69,11 +63,8 @@ eng_rb_gibraltar = {
 		OR = {
 			tag = ENG
 			tag = GBR
-			AND = {
-				tag = DOD
-				primary_culture = english
-			}
 		}
+		has_country_flag = use_paradox_missions
 		has_dlc = "Rule Britannia"
 		NOT = { map_setup = map_setup_random }
 	}
@@ -99,9 +90,6 @@ eng_rb_gibraltar = {
 				}
 			}
 		}
-		ai_priority = {
-			factor = 1
-		}
 		
 		trigger = {
 			226 = {
@@ -112,7 +100,7 @@ eng_rb_gibraltar = {
 		effect = {
 			add_country_modifier = {
 				name = "eng_rb_gibraltar_mod"
-				duration = 5475
+				duration = -1 
 			}
 			4559 = {
 				add_permanent_claim = ROOT
@@ -139,11 +127,8 @@ eng_rb_islands_med = {
 		OR = {
 			tag = ENG
 			tag = GBR
-			AND = {
-				tag = DOD
-				primary_culture = english
-			}
 		}
+		has_country_flag = use_paradox_missions
 		has_dlc = "Rule Britannia"
 		NOT = { map_setup = map_setup_random }
 	}
@@ -241,11 +226,8 @@ eng_rb_egypt = {
 		OR = {
 			tag = ENG
 			tag = GBR
-			AND = {
-				tag = DOD
-				primary_culture = english
-			}
 		}
+		has_country_flag = use_paradox_missions
 		has_dlc = "Rule Britannia"
 		NOT = { map_setup = map_setup_random }
 	}
@@ -312,7 +294,7 @@ eng_rb_egypt = {
 			358 = {
 				add_trade_modifier = {
 					who = root
-					duration = 7300
+					duration = -1 
 					power = 50
 					key = alexandria_ambition
 				}
@@ -339,11 +321,8 @@ eng_rb_stability = {
 		OR = {
 			tag = ENG
 			tag = GBR
-			AND = {
-				tag = DOD
-				primary_culture = english
-			}
 		}
+		has_country_flag = use_paradox_missions
 		has_dlc = "Rule Britannia"
 		NOT = { map_setup = map_setup_random }
 	}
@@ -370,7 +349,7 @@ eng_rb_stability = {
 		effect = {
 			add_country_modifier = {
 				name = "eng_rb_roses_legit"
-				duration = 5475
+				duration = -1 
 			}
 		}
 	}
@@ -393,7 +372,7 @@ eng_rb_stability = {
 		effect = {
 			add_country_modifier = {
 				name = "eng_rb_state_religion_mod"
-				duration = 5475
+				duration = -1 
 			}
 		}
 	}
@@ -433,11 +412,8 @@ eng_rb_burgundy = {
 		OR = {
 			tag = ENG
 			tag = GBR
-			AND = {
-				tag = DOD
-				primary_culture = english
-			}
 		}
+		has_country_flag = use_paradox_missions
 		has_dlc = "Rule Britannia"
 		NOT = { map_setup = map_setup_random }
 	}
@@ -487,19 +463,19 @@ eng_rb_burgundy = {
 			picardy_area = {
 				add_province_modifier = {
 					name = "eng_rb_local_conv"
-					duration = 5475
+					duration = -1 
 				}
 			}
 			west_burgundy_area = {
 				add_province_modifier = {
 					name = "eng_rb_local_conv"
-					duration = 5475
+					duration = -1 
 				}
 			}
 			bourgogne_area = {
 				add_province_modifier = {
 					name = "eng_rb_local_conv"
-					duration = 5475
+					duration = -1 
 				}
 			}
 		}
@@ -514,16 +490,11 @@ gbr_rb_canada_group = {
 		has_dlc = "Rule Britannia"
 	}
 	potential = {
-		OR = {
-			tag = GBR
-			AND = {
-				tag = DOD
-				primary_culture = english
-			}
-		}
+		tag = GBR
 		has_dlc = "Rule Britannia"
 		is_random_new_world = no
 		NOT = { map_setup = map_setup_random }
+		has_country_flag = use_paradox_missions
 	}
 	has_country_shield = yes
 
@@ -537,10 +508,6 @@ gbr_rb_canada_group = {
 			colonial_region = colonial_canada
 			NOT = { country_or_non_sovereign_subject_holds = ROOT }
 			has_discovered = ROOT
-		}
-		
-		ai_priority = {
-			factor = 2
 		}
 		
 		trigger = {
@@ -563,7 +530,7 @@ gbr_rb_canada_group = {
 		effect = {
 			add_country_modifier = {
 				name = "eng_rb_established_shipping"
-				duration = 7300
+				duration = -1 
 			}
 		}
 	
@@ -578,15 +545,10 @@ eng_rb_trade_value_group = {
 		has_dlc = "Rule Britannia"
 	}
 	potential = {
-		OR = {
-			tag = GBR
-			AND = {
-				tag = DOD
-				primary_culture = english
-			}
-		}
+		tag = GBR
 		has_dlc = "Rule Britannia"
 		NOT = { map_setup = map_setup_random }
+		has_country_flag = use_paradox_missions
 	}
 	has_country_shield = yes
 
@@ -609,7 +571,7 @@ eng_rb_trade_value_group = {
 		effect = {
 			add_country_modifier = {
 				name = "eng_rb_trade_value_mod"
-				duration = 7300
+				duration = -1 
 			}
 		}
 	
@@ -627,11 +589,8 @@ eng_rb_buildings_group = {
 		OR = {
 			tag = ENG
 			tag = GBR
-			AND = {
-				tag = DOD
-				primary_culture = english
-			}
 		}
+		has_country_flag = use_paradox_missions
 		has_dlc = "Rule Britannia"
 		NOT = { map_setup = map_setup_random }
 	}
@@ -745,7 +704,7 @@ eng_rb_buildings_group = {
 				add_base_manpower = 3
 				add_province_modifier = {
 					name = "eng_rb_coal_produced_mod"
-					duration = -1
+					duration = -1 
 				}
 			}
 			241 = {
@@ -753,7 +712,7 @@ eng_rb_buildings_group = {
 				add_base_manpower = 3
 				add_province_modifier = {
 					name = "eng_rb_coal_produced_mod"
-					duration = -1
+					duration = -1 
 				}
 			}
 			4375 = {
@@ -761,7 +720,7 @@ eng_rb_buildings_group = {
 				add_base_manpower = 3
 				add_province_modifier = {
 					name = "eng_rb_coal_produced_mod"
-					duration = -1
+					duration = -1 
 				}
 			}
 			246 = {
@@ -769,7 +728,7 @@ eng_rb_buildings_group = {
 				add_base_manpower = 3
 				add_province_modifier = {
 					name = "eng_rb_coal_produced_mod"
-					duration = -1
+					duration = -1 
 				}
 			}
 		}
@@ -829,11 +788,8 @@ eng_rb_conquest_europe = {
 		OR = {
 			tag = ENG
 			tag = GBR
-			AND = {
-				tag = DOD
-				primary_culture = english
-			}
 		}
+		has_country_flag = use_paradox_missions
 		has_dlc = "Rule Britannia"
 		NOT = { map_setup = map_setup_random }
 	}
@@ -860,10 +816,7 @@ eng_rb_conquest_europe = {
 				}
 			}
 		}
-		ai_priority = {
-			factor = 3
-		}
-		
+
 		trigger = {
 			brittany_area = {
 				type = all
@@ -875,7 +828,7 @@ eng_rb_conquest_europe = {
 			1276 = {
 				add_trade_modifier = {
 					who = root
-					duration = 5475
+					duration = -1 
 					power = 25
 					key = bordeaux_ambition
 				}
@@ -976,7 +929,7 @@ eng_rb_conquest_europe = {
 				add_base_manpower = 3
 				add_province_modifier = {
 					name = "eng_rb_angers_summer_court"
-					duration = -1
+					duration = -1 
 				}
 			}
 			picardy_area = {
@@ -1012,15 +965,10 @@ gbr_rb_empire_group = {
 		has_dlc = "Rule Britannia"
 	}
 	potential = {
-		OR = {
-			tag = GBR
-			AND = {
-				tag = DOD
-				primary_culture = english
-			}
-		}
+		tag = GBR
 		has_dlc = "Rule Britannia"
 		NOT = { map_setup = map_setup_random }
+		has_country_flag = use_paradox_missions
 	}
 	has_country_shield = yes
 
@@ -1058,7 +1006,7 @@ gbr_rb_empire_group = {
 		effect = {
 			add_country_modifier = {
 				name = "eng_rb_hre_relations"
-				duration = 5475
+				duration = -1 
 			}
 		}
 	}
@@ -1091,7 +1039,7 @@ gbr_rb_empire_group = {
 		effect = {
 			add_country_modifier = {
 				name = "eng_rb_imperial_ban_mod"
-				duration = 7300
+				duration = -1 
 			}
 		}
 	
@@ -1109,11 +1057,8 @@ gbr_rb_spice_islands_group = {
 		OR = {
 			tag = ENG
 			tag = GBR
-			AND = {
-				tag = DOD
-				primary_culture = english
-			}
 		}
+		has_country_flag = use_paradox_missions
 		has_dlc = "Rule Britannia"
 		NOT = { map_setup = map_setup_random }
 	}
@@ -1190,15 +1135,10 @@ gbr_rb_indian_group = {
 		has_dlc = "Rule Britannia"
 	}
 	potential = {
-		OR = {
-			tag = GBR
-			AND = {
-				tag = DOD
-				primary_culture = english
-			}
-		}
+		tag = GBR
 		has_dlc = "Rule Britannia"
 		NOT = { map_setup = map_setup_random }
+		has_country_flag = use_paradox_missions
 	}
 	has_country_shield = yes
 	
@@ -1212,10 +1152,6 @@ gbr_rb_indian_group = {
 			area = west_bengal_area
 			NOT = { country_or_non_sovereign_subject_holds = ROOT }
 			has_discovered = ROOT
-		}
-		
-		ai_priority = {
-			factor = 3
 		}
 		
 		trigger = {
@@ -1372,7 +1308,14 @@ gbr_rb_indian_group = {
 		effect = {
 			add_country_modifier = {	
 				name = "gbr_rb_indian_integration"
-				duration = 7300
+				duration = -1 
+			}
+			india_superregion = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
 			}
 		}
 	
@@ -1387,15 +1330,10 @@ gbr_rb_india_princes = {
 		has_dlc = "Rule Britannia"
 	}
 	potential = {
-		OR = {
-			tag = GBR
-			AND = {
-				tag = DOD
-				primary_culture = english
-			}
-		}
+		tag = GBR
 		has_dlc = "Rule Britannia"
 		NOT = { map_setup = map_setup_random }
+		has_country_flag = use_paradox_missions
 	}
 	has_country_shield = yes
 
@@ -1446,7 +1384,7 @@ gbr_rb_india_princes = {
 				}
 				add_province_modifier = {
 					name = "gbr_inland_trade"
-					duration = 5475
+					duration = -1 
 				}
 			}
 			maidan_area = {
@@ -1455,7 +1393,7 @@ gbr_rb_india_princes = {
 				}
 				add_province_modifier = {
 					name = "gbr_inland_trade"
-					duration = 5475
+					duration = -1 
 				}
 			}
 			gondwana_area = {
@@ -1464,7 +1402,7 @@ gbr_rb_india_princes = {
 				}
 				add_province_modifier = {
 					name = "gbr_inland_trade"
-					duration = 5475
+					duration = -1 
 				}
 			}
 			garjat_area = {
@@ -1473,7 +1411,7 @@ gbr_rb_india_princes = {
 				}
 				add_province_modifier = {
 					name = "gbr_inland_trade"
-					duration = 5475
+					duration = -1 
 				}
 			}
 		}
@@ -1489,16 +1427,11 @@ gbr_rb_northern_colonial = {
 		has_dlc = "Rule Britannia"
 	}
 	potential = {
-		OR = {
-			tag = GBR
-			AND = {
-				tag = DOD
-				primary_culture = english
-			}
-		}
+		tag = GBR
 		has_dlc = "Rule Britannia"
 		is_random_new_world = no
 		NOT = { map_setup = map_setup_random }
+		has_country_flag = use_paradox_missions
 	}
 	has_country_shield = yes
 
@@ -1516,10 +1449,6 @@ gbr_rb_northern_colonial = {
 			NOT = { country_or_non_sovereign_subject_holds = ROOT }
 		}
 		
-		ai_priority = {
-			factor = 2
-		}
-		
 		trigger = {
 			369 = {
 				country_or_non_sovereign_subject_holds = ROOT
@@ -1535,7 +1464,7 @@ gbr_rb_northern_colonial = {
 		effect = {
 			add_country_modifier = {
 				name = "eng_rb_faro_coast"
-				duration = 5475
+				duration = -1 
 			}
 			greenland_area = {
 				limit = {
@@ -1556,11 +1485,7 @@ gbr_rb_northern_colonial = {
 			NOT = { owned_by = ROOT }
 			has_discovered = ROOT
 		}
-		
-		ai_priority = {
-			factor = 2
-		}
-		
+
 		trigger = {
 			custom_trigger_tooltip = {
 				tooltip = miss_discover_greenland
@@ -1581,11 +1506,13 @@ gbr_rb_northern_colonial = {
 		effect = {
 			add_country_modifier = {
 				name = "eng_rb_colony_chance"
-				duration = 5475
+				duration = -1 
 			}
 			1104 = {
 				add_base_production = 3
 				add_base_manpower = 3
+				change_religion = ROOT
+				change_culture = ROOT
 				custom_tooltip = eng_rb_greenland.tooltip
 				hidden_effect = {
 					random_list = {
@@ -1643,6 +1570,8 @@ gbr_rb_northern_colonial = {
 			1105 = {
 				add_base_production = 2
 				add_base_manpower = 2
+				change_religion = ROOT
+				change_culture = ROOT
 			}
 		}
 	
@@ -1661,11 +1590,8 @@ eng_rb_thirteen_colonies_group = {
 		OR = {
 			tag = ENG
 			tag = GBR
-			AND = {
-				tag = DOD
-				primary_culture = english
-			}
 		}
+		has_country_flag = use_paradox_missions
 		is_random_new_world = no
 		has_dlc = "Rule Britannia"
 		NOT = { map_setup = map_setup_random }
@@ -1695,7 +1621,7 @@ eng_rb_thirteen_colonies_group = {
 		effect = {
 			add_country_modifier = {
 				name = "eng_rb_thirteen_colonies_mod"
-				duration = -1
+				duration = -1 
 			}
 		}
 	}
@@ -1712,11 +1638,8 @@ eng_rb_trade_in_home_cot_group = {
 		OR = {
 			tag = ENG
 			tag = GBR
-			AND = {
-				tag = DOD
-				primary_culture = english
-			}
 		}
+		has_country_flag = use_paradox_missions
 		has_dlc = "Rule Britannia"
 		NOT = { map_setup = map_setup_random }
 	}
@@ -1769,7 +1692,7 @@ eng_rb_trade_in_home_cot_group = {
 		effect = {
 			add_country_modifier = {
 				name = "eng_channel_dominance"
-				duration = 5475
+				duration = -1 
 			}
 			1874 = {
 				add_permanent_claim = ROOT

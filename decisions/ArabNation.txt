@@ -1,5 +1,5 @@
 country_decisions = {
-	
+	#TODO: allow nations with mecca vassal to form it
 	arab_nation = {
 		major = yes
 		potential = {
@@ -47,22 +47,60 @@ country_decisions = {
 			}
 		}
 		allow = {
+			is_free_or_tributary_trigger = yes
 			is_at_war = no
-			adm_tech = 10
-			owns_core_province = 358			#Alexandria
-			owns_core_province = 361			#Cairo
-			owns_core_province = 377			#Aleppo
-			owns_core_province = 379			#Jerusalem
-			owns_core_province = 382			#Damascus
-			owns_core_province = 384			#Medina
-			owns_core_province = 385			#Mecca
-			owns_core_province = 388			#Aden
-			owns_core_province = 390			#Sanaa
-			owns_core_province = 392			#Al-Arid
-			owns_core_province = 394			#Qatif
-			owns_core_province = 400			#Muscat
-			owns_core_province = 403			#Nizwa
-			owns_core_province = 410			#Baghdad
+			if = {
+				limit = {
+					NOT = { has_country_flag = ARB_no_tech_requirement }
+				}
+				adm_tech = 10
+			}
+			if = {
+				limit = {
+					MCC = {
+						is_subject_of = ROOT
+					}
+				}
+				owns_or_non_sovereign_subject_of = 358			#Alexandria
+				owns_or_non_sovereign_subject_of = 361			#Cairo
+				owns_or_non_sovereign_subject_of = 377			#Aleppo
+				owns_or_non_sovereign_subject_of = 379			#Jerusalem
+				owns_or_non_sovereign_subject_of = 382			#Damascus
+				owns_or_non_sovereign_subject_of = 384			#Medina
+				owns_or_non_sovereign_subject_of = 385			#Mecca
+				owns_or_non_sovereign_subject_of = 388			#Aden
+				owns_or_non_sovereign_subject_of = 390			#Sanaa
+				owns_or_non_sovereign_subject_of = 392			#Al-Arid
+				owns_or_non_sovereign_subject_of = 394			#Qatif
+				owns_or_non_sovereign_subject_of = 400			#Muscat
+				owns_or_non_sovereign_subject_of = 403			#Nizwa
+				owns_or_non_sovereign_subject_of = 410			#Baghdad
+			}
+			else = {
+				owns_core_province = 358			#Alexandria
+				owns_core_province = 361			#Cairo
+				owns_core_province = 377			#Aleppo
+				owns_core_province = 379			#Jerusalem
+				owns_core_province = 382			#Damascus
+				owns_core_province = 384			#Medina
+				owns_core_province = 385			#Mecca
+				owns_core_province = 388			#Aden
+				owns_core_province = 390			#Sanaa
+				owns_core_province = 392			#Al-Arid
+				owns_core_province = 394			#Qatif
+				owns_core_province = 400			#Muscat
+				owns_core_province = 403			#Nizwa
+				owns_core_province = 410			#Baghdad
+			}
+			if = {
+				limit = {
+					OR = {
+						tag = MAM
+						tag = EGY
+					}
+				}
+				MAM_is_not_unreformed_mamluks_trigger = yes
+			}
 		}
 		effect = {
 			remove_non_electors_emperors_from_empire_effect = yes
@@ -95,12 +133,85 @@ country_decisions = {
 				name = "centralization_modifier"
 				duration = 7300
 			}
-			add_prestige = 25
+			add_prestige_or_monarch_power = { amount = 25 }
 			set_country_flag = formed_arabia_flag
 			change_tag = ARB
+			
+			if = {
+				limit = {
+					MCC = {
+						is_subject_of = ROOT
+					}
+				}
+				inherit = MCC 
+			}
+			
+			swap_non_generic_missions = yes
+			
+			#Mission claims below
+			#For Subdue Persia
+			ME_give_claims = { area = shahrizor_area }
+			ME_give_claims = { area = khuzestan_area }
+			ME_give_claims = { area = luristan_area }
+			ME_give_claims = { area = tabriz_area }
+			ME_give_claims = { area = azerbaijan_area }
+			ME_give_claims = { area = tabarestan_area }
+			ME_give_claims = { area = iraq_e_ajam_area }
+			ME_give_claims = { area = persian_gulf_coast }
+			ME_give_claims = { area = isfahan_area }
+			ME_give_claims = { area = farsistan_area }
+			#For Tunis
+			ME_give_claims = { area = tripolitania_area }
+			ME_give_claims = { area = djerba_area }
+			ME_give_claims = { area = tunisia_area }
+			ME_give_claims = { area = kabylia_area }
+			ME_give_claims = { area = fezzan_area }
+			#For North Syria
+			ME_give_claims = { area = dulkadir_area }
+			ME_give_claims = { area = cukurova_area }
+			ME_give_claims = { area = north_kurdistan_area }
+
+			country_event = { id = ideagroups.1 }
+			
+			hidden_effect = {
+				if = {
+					limit = {
+						mission_completed = MAM_process_the_grains
+					}
+					complete_mission = ARB_breadbasket
+				}
+				if = {
+					limit = {
+						mission_completed = MAM_cultivate_the_delta
+					}
+					complete_mission = ARB_develop_the_delta
+				}
+			}
 		}
 		ai_will_do = {
-			factor = 0
+			factor = 400
+			modifier = {
+				factor = 0
+				NOT = {
+					calc_true_if = {
+						owns_core_province = 358			#Alexandria
+						owns_core_province = 361			#Cairo
+						owns_core_province = 377			#Aleppo
+						owns_core_province = 379			#Jerusalem
+						owns_core_province = 382			#Damascus
+						owns_core_province = 384			#Medina
+						owns_core_province = 385			#Mecca
+						owns_core_province = 388			#Aden
+						owns_core_province = 390			#Sanaa
+						owns_core_province = 392			#Al-Arid
+						owns_core_province = 394			#Qatif
+						owns_core_province = 400			#Muscat
+						owns_core_province = 403			#Nizwa
+						owns_core_province = 410			#Baghdad
+						amount = 7
+					}
+				}
+			}
 		}
 	}
 }

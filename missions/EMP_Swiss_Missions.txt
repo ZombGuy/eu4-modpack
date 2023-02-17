@@ -7,6 +7,7 @@ swiss_missions_1 = {
 	}
 	potential = {
 		tag = SWI
+		has_country_flag = use_paradox_missions
 		NOT = { map_setup = map_setup_random }
 		has_dlc = "Emperor"
 	}
@@ -113,6 +114,7 @@ swiss_missions_2 = {
 	}
 	potential = {
 		tag = SWI
+		has_country_flag = use_paradox_missions
 		NOT = { map_setup = map_setup_random }
 		has_dlc = "Emperor"
 	}
@@ -164,7 +166,7 @@ swiss_missions_2 = {
 		effect = {
 			add_country_modifier = {
 				name = "integration_of_the_three_leagues"
-				duration = 7300
+				duration = -1 
 			}
 			switzerland_area = {
 				add_base_tax = 1
@@ -206,7 +208,7 @@ swiss_missions_2 = {
 		effect = {
 			add_country_modifier = {
 				name = "reorganzied_swiss_confederacy"
-				duration = -1
+				duration = -1 
 			}
 			upper_swabia_area = {
 				limit = {
@@ -282,10 +284,8 @@ swiss_missions_3 = {
 		has_dlc = "Emperor"
 	}
 	potential = {
-		OR = {
-			tag = SWI
-			tag = ALP
-		}
+		tag = SWI
+		has_country_flag = use_paradox_missions
 		NOT = { map_setup = map_setup_random }
 		has_dlc = "Emperor"
 	}
@@ -332,7 +332,7 @@ swiss_missions_3 = {
 			}
 			add_country_modifier = {
 				name = "swi_expanded_papal_guard"
-				duration = 7300
+				duration = -1 
 			}
 		}
 	}
@@ -369,20 +369,6 @@ swiss_missions_3 = {
 			custom_tooltip = emp_swi_mercenaries_merc_tt
 		}
 	}
-}
-swiss_continue2_missions_3 = {
-	slot = 3
-	generic = no
-	ai = yes
-	potential_on_load = {
-		has_dlc = "Emperor"
-	}
-	potential = {
-		tag = SWI
-		NOT = { map_setup = map_setup_random }
-		has_dlc = "Emperor"
-	}
-	has_country_shield = yes
 	emp_swi_swabia = {
 		icon = expand_the_confederacy
 		required_missions = { emp_swi_confederacy }
@@ -414,11 +400,12 @@ swiss_continue2_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = "swi_swabia_joins_the_confederacy"
-				duration = 7300
+				duration = -1 
 			}
 		}
 	}
 }
+
 swiss_missions_4 = {
 	slot = 4
 	generic = no
@@ -427,10 +414,8 @@ swiss_missions_4 = {
 		has_dlc = "Emperor"
 	}
 	potential = {
-		OR = {
-			tag = SWI
-			tag = ALP
-		}
+		tag = SWI
+		has_country_flag = use_paradox_missions
 		NOT = { map_setup = map_setup_random }
 		has_dlc = "Emperor"
 	}
@@ -453,7 +438,7 @@ swiss_missions_4 = {
 		effect = {
 			add_country_modifier = {
 				name = "swiss_mountains_modifier"
-				duration = -1
+				duration = -1 
 			}
 		}
 	}
@@ -511,7 +496,7 @@ swiss_missions_4 = {
 		effect = {
 			add_country_modifier = {
 				name = "ended_the_habsburgs"
-				duration = -1
+				duration = -1 
 			}
 		}
 	}
@@ -525,10 +510,8 @@ swiss_missions_5 = {
 		has_dlc = "Emperor"
 	}
 	potential = {
-		OR = {
-			tag = SWI
-			tag = ALP
-		}
+		tag = SWI
+		has_country_flag = use_paradox_missions
 		NOT = { map_setup = map_setup_random }
 		has_dlc = "Emperor"
 	}
@@ -693,107 +676,6 @@ swiss_missions_5 = {
 				add_base_tax = 2
 				add_base_production = 2
 				add_base_manpower = 2
-			}
-		}
-	}
-}
-
-EMP_alpine_missions_3 = {
-    	slot = 3
-    	generic = no
-    	ai = yes
-	potential_on_load = {
-		 has_dlc = "Emperor"
-	}
-    	potential = {
-		tag = ALP
-		has_dlc = "Emperor"
-    	}
-    	has_country_shield = yes
-	emp_ALP_development = {
-		icon = sources_of_trade
-		position = 4
-		required_missions = { alp_regorganize_confederacy }
-		
-		provinces_to_highlight = {
-			OR = {
-				has_terrain = hills 
-				has_terrain = mountain 
-				has_terrain = highlands 
-			}
-			AND = {
-				owned_by = ROOT
-				NOT = { development = 20 }
-			}
-		}
-		trigger = {	
-			num_of_owned_provinces_with = {
-				value = 5
-				development = 20
-				OR = {
-					has_terrain = hills 
-					has_terrain = mountain 
-					has_terrain = highlands 
-				}
-			}
-		}
-		effect = {
-			custom_tooltip = ALP_mountain_development_tooltip
-			hidden_effect = {
-				set_country_flag = alpine_development_modifier_province_flag
-				every_owned_province = {
-					limit = {
-						OR = {
-							has_terrain = hills 
-							has_terrain = mountain 
-							has_terrain = highlands 
-						}
-					}
-					add_province_modifier = {
-						name = alp_mountain_development
-						duration = -1
-					}
-				}
-			}
-			custom_tooltip = BBF_PROVINCE_MODIFIER_SPREADS_tt
-		}
-	}
-	emp_alp_bavaria = {
-		icon = duchy_of_bavaria
-		required_missions = { emp_alp_challenge_the_germans }
-		position = 5
-		provinces_to_highlight = {
-			OR = {
-				area = east_bavaria_area
-				area = upper_bavaria_area
-				area = lower_bavaria_area
-			}
-			NOT = {
-				country_or_non_sovereign_subject_holds = ROOT
-			}
-		}
-		trigger = {
-			east_bavaria_area = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT
-			}
-			upper_bavaria_area = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT
-			}
-			lower_bavaria_area = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT
-			}
-		}
-		effect = {
-			add_mil_power = 100
-			custom_tooltip = ALP_bavaria_can_form_SGF_tt
-			hidden_effect = {
-				if = {
-					limit = { mission_completed = emp_alp_swabia }
-					set_country_flag = can_form_SGF_mission_flag
-				}
 			}
 		}
 	}

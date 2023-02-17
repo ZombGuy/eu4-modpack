@@ -10,6 +10,10 @@ country_decisions = {
 				ai = no
 				is_playing_custom_nation = no
 			}
+			OR = {
+				is_free_or_tributary_trigger = yes
+				ai = no
+			}
 			NOT = { tag = TUR }
 			NOT = { exists = RUM }
 			NOT = { tag = HLR }
@@ -18,6 +22,8 @@ country_decisions = {
 			NOT = { tag = RUS }
 			NOT = { tag = PRU }
 			NOT = { tag = ENG }
+			NOT = { tag = AKK }
+			NOT = { tag = TRK }
 			is_emperor_of_china = no
 			primary_culture = turkish
 			is_colonial_nation = no
@@ -47,11 +53,15 @@ country_decisions = {
 		}
 		allow = {
 			is_at_war = no
+			is_subject = no #Cannot even be a tributary
 			is_nomad = no
-			religion_group = muslim
+			if = {
+				limit = {
+					NOT = { has_country_flag = RUM_may_form_rum_irrespective_of_religion }
+				}
+				religion_group = muslim
+			}
 			NOT = { exists = RUM }
-			NOT = { exists = TUR }
-			NOT = { exists = BYZ }
 			owns_core_province = 151		# Constantinople
 			owns_core_province = 316		# Iznik
 			owns_core_province = 323		# Konya
@@ -60,9 +70,19 @@ country_decisions = {
 			owns_core_province = 331		# Erzurum
 			owns_core_province = 2301		# Kayseri
 			owns_core_province = 4312		# Eskeshehir
+			if = {
+				limit = {
+					OR = {
+						tag = MAM
+						tag = EGY
+					}
+				}
+				MAM_is_not_unreformed_mamluks_trigger = yes
+			}
 		}
 		effect = {
 			change_tag = RUM
+			swap_non_generic_missions = yes
 			RUM = {
 				if = {
 					limit = {
@@ -72,8 +92,14 @@ country_decisions = {
 					change_government_to_monarchy = yes
 				}
 				if = {
-					limit = { is_revolutionary = no }
+					limit = {
+						religion_group = muslim 
+						is_revolutionary = no
+					}
 					add_government_reform = ottoman_government
+				}
+				else = {
+					add_government_reform = ME_ottoman_government
 				}
 			}
 			remove_non_electors_emperors_from_empire_effect = yes
@@ -98,7 +124,7 @@ country_decisions = {
 				limit = { has_custom_ideas = no }
 				country_event = { id = ideagroups.1 } #Swap Ideas
 			}
-			add_prestige = 25
+			add_prestige_or_monarch_power = { amount = 25 }
 			set_country_flag = formed_rum_flag
 			swap_non_generic_missions = yes
 		}

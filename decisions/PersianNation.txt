@@ -27,6 +27,7 @@ country_decisions = {
 				culture_group = iranian
 				primary_culture = azerbaijani
 				tag = AKK
+				has_country_flag = MSY_may_form_persia
 			}
 			is_colonial_nation = no
 			OR = {
@@ -74,6 +75,7 @@ country_decisions = {
 			}
 		}
 		allow = {
+			is_free_or_tributary_trigger = yes
 			is_nomad = no
 			is_at_war = no
 			is_tribal = no

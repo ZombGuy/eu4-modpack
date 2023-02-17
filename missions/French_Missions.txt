@@ -3,15 +3,10 @@ french_missions_north = {
 	generic = no
 	ai = yes
 	potential = {
-		OR = {
-			tag = FRA
-			AND = {
-				tag = DOD
-				NOT = { primary_culture = english }
-			}
-		}
+		tag = FRA
 		NOT = { map_setup = map_setup_random }
 		NOT = { has_dlc = "Emperor" }
+		has_country_flag = use_paradox_missions
 	}
 	has_country_shield = yes
 
@@ -197,7 +192,7 @@ french_missions_north = {
 			87 = {
 				add_province_modifier = {
 					name = "french_callais"
-					duration = 7300
+					duration = -1 
 				}
 			}
 		}
@@ -212,15 +207,10 @@ french_mission_slot_2 = {
 	generic = no
 	ai = yes
 	potential = {
-		OR = {
-			tag = FRA
-			AND = {
-				tag = DOD
-				NOT = { primary_culture = english }
-			}
-		}
+		tag = FRA
 		NOT = { map_setup = map_setup_random }
 		NOT = { has_dlc = "Emperor" }
+		has_country_flag = use_paradox_missions
 	}
 	has_country_shield = yes
 	
@@ -256,19 +246,19 @@ french_mission_slot_2 = {
 			wallonia_area = {
 				add_province_modifier = {
 					name = "faster_integration"
-					duration = 7300
+					duration = -1 
 				}
 			}
 			brabant_area = {
 				add_province_modifier = {
 					name = "faster_integration"
-					duration = 7300
+					duration = -1 
 				}
 			}
 			flanders_area = {
 				add_province_modifier = {
 					name = "faster_integration"
-					duration = 7300
+					duration = -1 
 				}
 			}
 		}
@@ -280,16 +270,11 @@ french_missions_colonial = {
 	generic = no
 	ai = yes
 	potential = {
-		OR = {
-			tag = FRA
-			AND = {
-				tag = DOD
-				NOT = { primary_culture = english }
-			}
-		}
+		tag = FRA
 		is_random_new_world = no
 		NOT = { map_setup = map_setup_random }
 		NOT = { has_dlc = "Emperor" }
+		has_country_flag = use_paradox_missions
 	}
 	has_country_shield = yes
 	build_french_fleet = {
@@ -300,7 +285,7 @@ french_missions_colonial = {
 		effect = {
 			add_country_modifier = {
 				name = "naval_enthusiasm_mission"
-				duration = 9125 #25 years
+				duration = -1 
 			}
 		}
 	}
@@ -333,7 +318,7 @@ french_missions_colonial = {
 		effect = {
 			add_country_modifier = {
 				name = "colonial_enthusiasm"
-				duration = 7300
+				duration = -1 
 			}
 		}
 	}
@@ -370,7 +355,7 @@ french_missions_colonial = {
 		effect = {
 			add_country_modifier = {
 				name = "french_tariffs"
-				duration = 7300
+				duration = -1 
 			}
 		}
 		ai_weight = {
@@ -397,7 +382,7 @@ french_missions_colonial = {
 		effect = {
 			add_country_modifier = {
 				name = "fra_to_india"
-				duration = 7300
+				duration = -1 
 			}
 			andhra_area = {
 				limit = {
@@ -455,7 +440,7 @@ french_missions_colonial = {
 		effect = {
 			add_country_modifier = {
 				name = "east_india_trade_rush"
-				duration = 9125 #25 years
+				duration = -1 
 			}
 			golconda_area = {
 				limit = {
@@ -598,15 +583,10 @@ france_expand_south = {
 	generic = no
 	ai = yes
 	potential = {
-		OR = {
-			tag = FRA
-			AND = {
-				tag = DOD
-				NOT = { primary_culture = english }
-			}
-		}
+		tag = FRA
 		NOT = { map_setup = map_setup_random }
 		NOT = { has_dlc = "Emperor" }
+		has_country_flag = use_paradox_missions
 	}
 	has_country_shield = yes
 	reconquer_gascony = {
@@ -788,7 +768,7 @@ france_expand_south = {
 		effect = {
 			add_country_modifier = {
 				name = "fra_into_germany"
-				duration = 7300
+				duration = -1 
 			}
 		}
 		ai_weight = {
@@ -801,14 +781,9 @@ france_expand_south_2 = {
 	generic = no
 	ai = yes
 	potential = {
-		OR = {
-			tag = FRA
-			AND = {
-				tag = DOD
-				NOT = { primary_culture = english }
-			}
-		}
+		tag = FRA
 		NOT = { has_dlc = "Emperor" }
+		has_country_flag = use_paradox_missions
 	}
 	has_country_shield = yes
 	annex_savoy = {
@@ -879,7 +854,7 @@ france_expand_south_2 = {
 		effect = {
 			add_country_modifier = {
 				name = "italian_ambition_modifier"
-				duration = 7300
+				duration = -1 
 			}
 		}
 	}

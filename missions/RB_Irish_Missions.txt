@@ -24,6 +24,7 @@ ire_conquest_1 = {
 			tag = IRE
 		}
 		NOT = { map_setup = map_setup_random }
+		has_country_flag = use_paradox_missions
 	}
 	has_country_shield = yes
 	ire_conquer_ulster = {
@@ -112,6 +113,7 @@ ire_conquest_main = {
 			tag = IRE
 		}
 		NOT = { map_setup = map_setup_random }
+		has_country_flag = use_paradox_missions
 	}
 	has_country_shield = yes
 	
@@ -216,7 +218,7 @@ ire_conquest_main = {
 		effect = {
 			add_country_modifier = {
 				name = "high_king_of_ireland"
-				duration = 7300
+				duration = -1 
 			}
 			373 = {
 				if = {
@@ -248,7 +250,7 @@ ire_conquest_main = {
 		effect = {
 			add_country_modifier = {
 				name = "beyond_the_pale_modifier"
-				duration = 7300
+				duration = -1 
 			}
 			wales_area = {
 				limit = {
@@ -373,6 +375,7 @@ ire_conquest_2 = {
 			tag = IRE
 		}
 		NOT = { map_setup = map_setup_random }
+		has_country_flag = use_paradox_missions
 	}
 	has_country_shield = yes
 	
@@ -438,7 +441,7 @@ ire_conquest_2 = {
 				}
 				add_province_modifier = {
 					name = "ire_recruiting_from_clans"
-					duration = 7300
+					duration = -1 
 				}
 			}
 			kingdom_of_the_isles_area = {
@@ -447,7 +450,7 @@ ire_conquest_2 = {
 				}
 				add_province_modifier = {
 					name = "ire_recruiting_from_clans"
-					duration = 7300
+					duration = -1 
 				}
 			}
 			lowlands_area = {
@@ -518,7 +521,7 @@ ire_conquest_2 = {
 			add_prestige = 25
 			add_country_modifier = {
 				name = "rule_britannia"
-				duration = 14600
+				duration = -1 
 			}
 		}
 	}
@@ -550,6 +553,7 @@ ire_conquest_4 = {
 			tag = IRE
 		}
 		NOT = { map_setup = map_setup_random }
+		has_country_flag = use_paradox_missions
 	}
 	has_country_shield = yes
 	
@@ -607,7 +611,7 @@ ire_conquest_4 = {
 		effect = {
 			add_country_modifier = {
 				name = "trinity_college"
-				duration = 7300
+				duration = -1 
 			}
 		}
 	}
@@ -637,9 +641,9 @@ ire_colonial_missions = {
 			tag = DMS
 			tag = MCM
 			tag = IRE
-			tag = GCU
 		}
 		NOT = { map_setup = map_setup_random }
+		has_country_flag = use_paradox_missions
 	}
 	has_country_shield = yes
 	irish_america = {
@@ -662,7 +666,7 @@ ire_colonial_missions = {
 		effect = {
 			add_country_modifier = {
 				name = "irish_new_world"
-				duration = 7300
+				duration = -1 
 			}
 		}
 	}
@@ -691,7 +695,7 @@ ire_colonial_missions = {
 		effect = {
 			add_country_modifier = {
 				name = "irish_potatoes"
-				duration = 7300
+				duration = -1 
 			}
 			capital_scope = {
 				add_base_production = 2

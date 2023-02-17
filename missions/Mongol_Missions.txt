@@ -5,13 +5,7 @@ oir_missions_1 = {
 	generic = no
 	ai = yes
 	potential = {
-		OR = {
-			tag = OIR
-			AND = {
-				tag = YUA
-				was_tag = OIR
-			}
-		}
+		tag = OIR
 		NOT = { map_setup = map_setup_random }
 	}
 	has_country_shield = yes
@@ -47,8 +41,8 @@ mongol_missions_1 = {
 	generic = no
 	ai = yes
 	potential = {
+		NOT = { tag = GLH }
 		OR = {
-			tag = YUA
 			primary_culture = mongol
 			primary_culture = chahar
 			primary_culture = khalkha
@@ -56,6 +50,14 @@ mongol_missions_1 = {
 			primary_culture = altaic_new
 		}
 		NOT = { map_setup = map_setup_random }
+		OR = {
+			AND = {
+				NOT = { tag = KHA }
+				NOT = { tag = YUA }
+				NOT = { tag = ILK }
+			}
+			has_country_flag = use_paradox_missions
+		}
 	}
 	has_country_shield = yes
 	
@@ -169,7 +171,7 @@ mongol_missions_1 = {
 			}
 			add_country_modifier = {
 				name = mongol_fleet_modifier
-				duration = 7300
+				duration = -1 
 			}
 			kinai_area = {
 				limit = {
@@ -200,7 +202,7 @@ mongol_missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = "mongol_defeated_japan"
-				duration = -1
+				duration = -1 
 			}
 			japan_region = {
 				limit = {
@@ -218,8 +220,8 @@ mongol_missions_2 = {
 	generic = no
 	ai = yes
 	potential = {
+		NOT = { tag = GLH }
 		OR = {
-			tag = YUA
 			primary_culture = mongol
 			primary_culture = chahar
 			primary_culture = khalkha
@@ -227,6 +229,14 @@ mongol_missions_2 = {
 			primary_culture = altaic_new
 		}
 		NOT = { map_setup = map_setup_random }
+		OR = {
+			AND = {
+				NOT = { tag = KHA }
+				NOT = { tag = YUA }
+				NOT = { tag = ILK }
+			}
+			has_country_flag = use_paradox_missions
+		}
 	}
 	has_country_shield = yes
 	
@@ -318,7 +328,7 @@ mongol_missions_2 = {
 				}
 				add_country_modifier = {
 					name = "reorganized_mongols"
-					duration = -1
+					duration = -1 
 				}
 			}
 			else = {
@@ -464,8 +474,8 @@ mongol_missions_3 = {
 	generic = no
 	ai = yes
 	potential = {
+		NOT = { tag = GLH }
 		OR = {
-			tag = YUA
 			primary_culture = mongol
 			primary_culture = chahar
 			primary_culture = khalkha
@@ -473,6 +483,14 @@ mongol_missions_3 = {
 			primary_culture = altaic_new
 		}
 		NOT = { map_setup = map_setup_random }
+		OR = {
+			AND = {
+				NOT = { tag = KHA }
+				NOT = { tag = YUA }
+				NOT = { tag = ILK }
+			}
+			has_country_flag = use_paradox_missions
+		}
 	}
 	has_country_shield = yes
 	
@@ -506,7 +524,7 @@ mongol_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = "mongol_religion_unity"
-				duration = -1
+				duration = -1 
 			}
 		}
 	}
@@ -623,7 +641,7 @@ mongol_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = "pax_mongolica"
-				duration = -1
+				duration = -1 
 			}
 		}
 	}
@@ -634,8 +652,8 @@ mongol_missions_4 = {
 	generic = no
 	ai = yes
 	potential = {
+		NOT = { tag = GLH }
 		OR = {
-			tag = YUA
 			primary_culture = mongol
 			primary_culture = chahar
 			primary_culture = khalkha
@@ -643,6 +661,14 @@ mongol_missions_4 = {
 			primary_culture = altaic_new
 		}
 		NOT = { map_setup = map_setup_random }
+		OR = {
+			AND = {
+				NOT = { tag = KHA }
+				NOT = { tag = YUA }
+				NOT = { tag = ILK }
+			}
+			has_country_flag = use_paradox_missions
+		}
 	}
 	has_country_shield = yes
 	
@@ -671,7 +697,7 @@ mongol_missions_4 = {
 		effect = {
 			add_country_modifier = {
 				name = "mongol_european_conquest"
-				duration = -1
+				duration = -1 
 			}
 			poland_region = {
 				limit = {

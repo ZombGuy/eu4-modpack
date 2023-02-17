@@ -10,6 +10,10 @@ country_decisions = {
 				ai = no
 				is_playing_custom_nation = no
 			}
+			OR = {
+				is_free_or_tributary_trigger = yes
+				ai = no
+			}
 			NOT = { tag = MOR }
 			NOT = { tag = TUN }
 			NOT = { tag = PAP }
@@ -55,6 +59,7 @@ country_decisions = {
 		allow = {
 			NOT = { exists = MOR }
 			is_at_war = no
+			is_free_or_tributary_trigger = yes
 			is_nomad = no
 			owns_core_province = 343 	#Fez
 			owns_core_province = 344 	#Marrekech
@@ -115,7 +120,7 @@ country_decisions = {
 				}
 				add_permanent_claim = MOR
 			}
-			add_prestige = 25
+			add_prestige_or_monarch_power = { amount = 25 }
 			if = {
 				limit = { NOT = { has_reform = celestial_empire } }
 				change_government_to_monarchy = yes #Desert tribes settling down, theocracies become monarchies.
@@ -147,9 +152,16 @@ country_decisions = {
 				ai = no
 				is_playing_custom_nation = no
 			}
+			OR = {
+				is_free_or_tributary_trigger = yes
+				ai = no
+			}
 			NOT = { tag = MOR }
 			NOT = { tag = TUN }
-			NOT = { tag = TLC }
+			OR = {
+				NOT = { tag = TLC }
+				has_country_flag = TLC_may_form_algiers
+			}
 			NOT = { tag = ALG }
 			NOT = { tag = PAP }
 			NOT = { tag = HLR }
@@ -157,23 +169,15 @@ country_decisions = {
 				primary_culture = algerian
 				AND = {
 					primary_culture = berber
-					capital_scope = { area = algiers_area }
-				}
-				AND = {
-					primary_culture = berber
-					capital_scope = { area = hautes_plaines_area }
-				}
-				AND = {
-					primary_culture = berber
-					capital_scope = { area = ouled_nail_area }
-				}
-				AND = {
-					primary_culture = berber
-					capital_scope = { area = kabylia_area }
-				}
-				AND = {
-					primary_culture = berber
-					capital_scope = { area = north_saharan_area }
+					capital_scope = {
+						OR = { #improved by Stiopa
+							area = algiers_area
+							area = hautes_plaines_area
+							area = ouled_nail_area
+							area = kabylia_area
+							area = north_saharan_area
+						}
+					}
 				}
 			}
 			OR = {
@@ -214,6 +218,7 @@ country_decisions = {
 		allow = {
 			NOT = { exists = ALG }
 			is_at_war = no
+			is_free_or_tributary_trigger = yes
 			is_nomad = no
 			owns_core_province = 2461 	#Dahra
 			owns_core_province = 338 	#Algiers
@@ -275,7 +280,7 @@ country_decisions = {
 				change_government_to_monarchy = yes
 				#set_legacy_government = despotic_monarchy
 			}
-			add_prestige = 25
+			add_prestige_or_monarch_power = { amount = 25 }
 			set_country_flag = formed_algiers_flag
 			if = {
 				limit = {
@@ -300,6 +305,10 @@ country_decisions = {
 			OR = {
 				ai = no
 				is_playing_custom_nation = no
+			}
+			OR = {
+				is_free_or_tributary_trigger = yes
+				ai = no
 			}
 			NOT = { tag = MOR }
 			NOT = { tag = TUN }
@@ -347,6 +356,7 @@ country_decisions = {
 		allow = {
 			NOT = { exists = TUN }
 			is_at_war = no
+			is_free_or_tributary_trigger = yes
 			is_nomad = no
 			owns_core_province = 2473	#Souss
 			owns_core_province = 341 	#Tunis
@@ -385,7 +395,7 @@ country_decisions = {
 				change_government_to_monarchy = yes #Desert tribes settling down.
 				#set_legacy_government = despotic_monarchy
 			}
-			add_prestige = 25
+			add_prestige_or_monarch_power = { amount = 25 }
 			set_country_flag = formed_tunisia_flag
 			if = {
 				limit = {
@@ -410,6 +420,10 @@ country_decisions = {
 			OR = {
 				ai = no
 				is_playing_custom_nation = no
+			}
+			OR = {
+				is_free_or_tributary_trigger = yes
+				ai = no
 			}
 			NOT = { tag = MOR }
 			NOT = { tag = TUN }
@@ -458,6 +472,7 @@ country_decisions = {
 		allow = {
 			NOT = { exists = TRP }
 			is_at_war = no
+			is_free_or_tributary_trigger = yes
 			is_nomad = no
 			owns_core_province = 2451 	#Thubaqt
 			owns_core_province = 354	#Tripoli
@@ -495,7 +510,7 @@ country_decisions = {
 				change_government_to_monarchy = yes
 				#set_legacy_government = despotic_monarchy
 			}
-			add_prestige = 25
+			add_prestige_or_monarch_power = { amount = 25 }
 			set_country_flag = formed_tripoli_flag
 			if = {
 				limit = {

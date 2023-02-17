@@ -46,6 +46,7 @@ country_decisions = {
 		}
 		allow = {
 			is_at_war = no
+			is_free_or_tributary_trigger = yes
 			is_nomad = no
 			if = {
 				limit = {
@@ -65,6 +66,7 @@ country_decisions = {
 		}
 		effect = {
 			change_tag = MAY
+			swap_non_generic_missions = yes
 			remove_non_electors_emperors_from_empire_effect = yes
 			if = {
 				limit = {
@@ -84,7 +86,7 @@ country_decisions = {
 				}
 				add_permanent_claim = MAY
 			}
-			add_prestige = 25
+			add_prestige_or_monarch_power = { amount = 25 }
 			set_country_flag = formed_mayapan_flag
 			if = {
 				limit = { is_tribal = yes }
@@ -93,7 +95,7 @@ country_decisions = {
 			}
 		}
 		ai_will_do = {
-			factor = 1
+			factor = 10
 		}
 		ai_importance = 400
 	}

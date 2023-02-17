@@ -5,7 +5,13 @@ country_decisions = {
 			is_emperor = yes
 			NOT = { has_global_flag = italians_leave_hre }
 			NOT = { is_year = 1500 }
-		}		
+		}
+		provinces_to_highlight = {
+			owner = {
+				is_shadow_kingdom_eligible_trigger = yes
+				will_leave_for_shadow_kingdom_trigger = yes
+			}
+		}
 		allow = {
 			custom_trigger_tooltip = {
 				tooltip = emperor_trying_to_avert_shadow_kingdom_tt
