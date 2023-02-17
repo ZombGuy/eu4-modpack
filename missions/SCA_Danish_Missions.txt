@@ -15,7 +15,6 @@ dan_secure_baltic_mission_slot = {
 		}
 		has_dlc = "Lions of the North"
 		NOT = { map_setup = map_setup_random }
-		has_country_flag = use_paradox_missions
 	}
 	has_country_shield = yes
 
@@ -82,13 +81,18 @@ dan_secure_baltic_mission_slot = {
 				NOT = { exists = HSA }
 				if = {
 					limit = { has_dlc = "Mare Nostrum" }
-					NOT = { any_known_country = { is_in_trade_league_with = HSA } }
+					custom_trigger_tooltip = {
+						tooltip = dan_eliminate_the_hanse_ct
+						NOT = { any_known_country = { is_in_trade_league_with = HSA } }
+					}
 				}
-				45 = { 
-					NOT = { is_strongest_trade_power = HSA } 
-					trade_share = {
-						country = ROOT
-						share = 30
+				custom_trigger_tooltip = {
+					tooltip = dan_eliminate_the_hanse_bt
+					45 = {
+						trade_share = {
+							country = ROOT
+							share = 30
+						}
 					}
 				}
 			}
@@ -96,7 +100,7 @@ dan_secure_baltic_mission_slot = {
 		effect = {
 			add_country_modifier = {
 				name = dan_humiliated_the_hanse
-				duration = -1 
+				duration = 10950
 			}
 			custom_tooltip = dan_eliminate_the_hanse_at
 			hidden_effect = { set_country_flag = dan_enable_trade_conflict_war_decision }
@@ -176,7 +180,7 @@ dan_secure_baltic_mission_slot = {
 			1876 = {
 				add_trade_modifier = {
 					who = ROOT
-					duration = -1 
+					duration = -1
 					power = 10
 					key = dan_the_german_trade
 				}
@@ -184,7 +188,7 @@ dan_secure_baltic_mission_slot = {
 			61 = {
 				add_trade_modifier = {
 					who = ROOT
-					duration = -1 
+					duration = -1
 					power = 10
 					key = dan_the_german_trade
 				}
@@ -279,7 +283,7 @@ dan_secure_baltic_mission_slot = {
 		effect = {
 			add_country_modifier = {
 				name = dan_control_over_the_english_channel
-				duration = -1 
+				duration = -1
 				desc = dan_control_over_the_english_channel_tt
 			}
 		}
@@ -336,13 +340,13 @@ dan_secure_baltic_mission_slot = {
 					NOT = { has_any_colonist_idea = yes }
 				}
 				add_temporary_colonist = {
-					duration = -1 
+					duration = 27375
 				}
 			}
 			else = {
 				add_country_modifier = {
 					name = dan_new_world_expansion
-					duration = -1 
+					duration = 9125
 				}
 			}
 			if = {
@@ -396,7 +400,6 @@ dan_north_america_mission_slot = {
 		has_dlc = "Lions of the North"
 		NOT = { map_setup = map_setup_random }
 		is_random_new_world = no
-		has_country_flag = use_paradox_missions
 	}
 	has_country_shield = yes
 
@@ -480,7 +483,6 @@ dan_rnw_mission_slot = {
 		has_dlc = "Lions of the North"
 		NOT = { map_setup = map_setup_random }
 		is_random_new_world = yes
-		has_country_flag = use_paradox_missions
 	}
 	has_country_shield = yes
 
@@ -527,7 +529,6 @@ dan_trade_and_colonial_mission_slot = {
 		}
 		has_dlc = "Lions of the North"
 		NOT = { map_setup = map_setup_random }
-		has_country_flag = use_paradox_missions
 	}
 	has_country_shield = yes
 
@@ -591,7 +592,7 @@ dan_trade_and_colonial_mission_slot = {
 			add_accepted_culture_or_dip_power = { culture = estonian }
 			add_country_modifier = {
 				name = dan_estonian_culture_accepted
-				duration = -1 
+				duration = -1
 				desc = dan_estonian_culture_accepted_tt
 			}
 			custom_tooltip = dan_livonian_order_tt
@@ -602,7 +603,7 @@ dan_trade_and_colonial_mission_slot = {
 					}
 					add_province_modifier = {
 						name = dan_estonian_support
-						duration = -1 
+						duration = -1
 					}
 				}
 			}
@@ -648,16 +649,14 @@ dan_trade_and_colonial_mission_slot = {
 				province_id = 310
 			}
 			OR = {
-				NOT = { is_core = ROOT }
-				NOT = { owned_by = ROOT }
-				is_owned_by_trade_company = no
-				NOT = { has_state_edict = edict_protect_trade }
+				NOT = { country_or_non_sovereign_subject_holds = ROOT }
+				NOT = { province_has_current_tech_fort_trigger = yes }
 			}
 		}
 		trigger = {
-			owns_core_province = 33
-			owns_core_province = 274
-			owns_core_province = 310
+			owns_or_non_sovereign_subject_of = 33
+			owns_or_non_sovereign_subject_of = 274
+			owns_or_non_sovereign_subject_of = 310
 			33 = { province_has_current_tech_fort_trigger = yes }
 			274 = { province_has_current_tech_fort_trigger = yes }
 			310 = { province_has_current_tech_fort_trigger = yes }
@@ -666,7 +665,7 @@ dan_trade_and_colonial_mission_slot = {
 			33 = {
 				add_trade_modifier = {
 					who = ROOT
-					duration = -1 
+					duration = -1
 					power = 10
 					key = dan_take_over_neva_tt
 				}
@@ -674,7 +673,7 @@ dan_trade_and_colonial_mission_slot = {
 			1082 = {
 				add_trade_modifier = {
 					who = ROOT
-					duration = -1 
+					duration = -1
 					power = 10
 					key = dan_take_over_neva_tt
 				}
@@ -682,7 +681,7 @@ dan_trade_and_colonial_mission_slot = {
 			280 = {
 				add_trade_modifier = {
 					who = ROOT
-					duration = -1 
+					duration = -1
 					power = 10
 					key = dan_take_over_neva_tt
 				}
@@ -715,6 +714,7 @@ dan_trade_and_colonial_mission_slot = {
 			share_of_starting_income = 2
 			is_in_deficit = no
 			is_bankrupt = no
+			is_year = 1650
 		}
 		effect = {
 			create_explorer = {
@@ -727,7 +727,7 @@ dan_trade_and_colonial_mission_slot = {
 			}
 			add_country_modifier = {
 				name = dan_colonial_ambitions_mod
-				duration = -1 
+				duration = 18250
 			}
 		}
 	}
@@ -767,13 +767,13 @@ dan_trade_and_colonial_mission_slot = {
 					}
 					add_province_modifier = {
 						name = dan_danish_gold_coast
-						duration = -1 
+						duration = 9125
 					}
 				}
 			}
 			add_country_modifier = {
 				name = dan_gold_coast_control
-				duration = -1 
+				duration = 9125
 			}
 			custom_tooltip = dan_colonize_the_gold_coast_tt
 			hidden_effect = {
@@ -863,7 +863,7 @@ dan_trade_and_colonial_mission_slot = {
 			add_years_of_income = 2
 			add_country_modifier = {
 				name = dan_african_trade_company
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -887,7 +887,6 @@ dan_caribbeans_mission_slot = {
 		has_dlc = "Lions of the North"
 		NOT = { map_setup = map_setup_random }
 		is_random_new_world = no
-		has_country_flag = use_paradox_missions
 	}
 	has_country_shield = yes
 
@@ -912,7 +911,7 @@ dan_caribbeans_mission_slot = {
 			1516 = {
 				add_trade_modifier = {
 					who = ROOT
-					duration = -1 
+					duration = -1
 					power = 10
 					key = swe_colonialism_trade_desc
 				}
@@ -920,7 +919,7 @@ dan_caribbeans_mission_slot = {
 			1500 = {
 				add_trade_modifier = {
 					who = ROOT
-					duration = -1 
+					duration = -1
 					power = 10
 					key = swe_colonialism_trade_desc
 				}
@@ -928,7 +927,7 @@ dan_caribbeans_mission_slot = {
 			1490 = {
 				add_trade_modifier = {
 					who = ROOT
-					duration = -1 
+					duration = -1
 					power = 10
 					key = swe_colonialism_trade_desc
 				}
@@ -975,7 +974,6 @@ dan_norway_holstein_mission_slot = {
 		}
 		has_dlc = "Lions of the North"
 		NOT = { map_setup = map_setup_random }
-		has_country_flag = use_paradox_missions
 	}
 	has_country_shield = yes
 
@@ -1169,11 +1167,18 @@ dan_norway_holstein_mission_slot = {
 			}
 		}
 		effect = {
+			if = {
+				limit = { has_country_modifier = annexers_legacy }
+				remove_country_modifier = annexers_legacy
+			}
+			else = {
+				custom_tooltip = dan_integrate_holstein_tt
+			}
 			remove_country_modifier = dan_nor_equal_crowns
 			remove_country_modifier = dan_exploiting_norwegians
 			add_country_modifier = {
 				name = dan_norwegian_marines
-				duration = -1 
+				duration = 18250
 			}
 		}
 	}
@@ -1321,10 +1326,13 @@ dan_norway_holstein_mission_slot = {
 		trigger = {
 			OR = {
 				num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
-					superregion = india_superregion
-					OR = {
-						province_has_center_of_trade_of_level = 1
-						has_river_estuary_trigger = yes
+					custom_trigger_tooltip = {
+						tooltip = dan_trade_post_in_india_at
+						superregion = india_superregion
+						OR = {
+							province_has_center_of_trade_of_level = 1
+							has_river_estuary_trigger = yes
+						}
 					}
 					value = 5
 				}
@@ -1470,7 +1478,7 @@ dan_norway_holstein_mission_slot = {
 				}
 				add_province_modifier = {
 					name = dan_east_india_company
-					duration = -1 
+					duration = 9125
 				}
 			}
 			kanara_area = {
@@ -1479,7 +1487,7 @@ dan_norway_holstein_mission_slot = {
 				}
 				add_province_modifier = {
 					name = dan_east_india_company
-					duration = -1 
+					duration = 9125
 				}
 			}
 			konkan_area = {
@@ -1488,7 +1496,7 @@ dan_norway_holstein_mission_slot = {
 				}
 				add_province_modifier = {
 					name = dan_east_india_company
-					duration = -1 
+					duration = 9125
 				}
 			}
 			if = {
@@ -1529,7 +1537,6 @@ dan_sweden_and_great_power_mission_slot = {
 		}
 		has_dlc = "Lions of the North"
 		NOT = { map_setup = map_setup_random }
-		has_country_flag = use_paradox_missions
 	}
 	has_country_shield = yes
 
@@ -1655,9 +1662,16 @@ dan_sweden_and_great_power_mission_slot = {
 			}
 		}
 		effect = {
+			if = {
+				limit = { has_country_modifier = annexers_legacy }
+				remove_country_modifier = annexers_legacy
+			}
+			else = {
+				custom_tooltip = dan_integrate_holstein_tt
+			}
 			add_country_modifier = {
 				name = dan_swedish_steel
-				duration = -1 
+				duration = 18250
 			}
 		}
 	}
@@ -1740,7 +1754,7 @@ dan_sweden_and_great_power_mission_slot = {
 		effect = {
 			add_country_modifier = {
 				name = dan_danish_absolutism
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -1764,18 +1778,16 @@ dan_sweden_and_great_power_mission_slot = {
 		trigger = {
 			OR = {
 				calc_true_if = {
-					custom_trigger_tooltip = {
-						tooltip = dan_denmark_on_european_stage_ct
-						all_ally = {
-							capital_scope = { same_continent = ROOT }
-							total_development = 90
-						}
+					desc = dan_denmark_on_european_stage_ct
+					all_ally = {
+						capital_scope = { same_continent = ROOT }
+						total_development = 90
 					}
 					amount = 2
 				}
 				AND = {
+					total_development = 400
 					power_projection = 100
-					total_own_and_non_tributary_subject_development = 400
 				}
 				total_own_and_non_tributary_subject_development = 1000
 			}
@@ -1975,7 +1987,7 @@ dan_sweden_and_great_power_mission_slot = {
 				}
 				add_province_modifier = {
 					name = dan_east_india_company
-					duration = -1 
+					duration = 9125
 				}
 			}
 			east_bengal_area = {
@@ -1984,7 +1996,7 @@ dan_sweden_and_great_power_mission_slot = {
 				}
 				add_province_modifier = {
 					name = dan_east_india_company
-					duration = -1 
+					duration = 9125
 				}
 			}
 			west_bengal_area = {
@@ -1993,7 +2005,7 @@ dan_sweden_and_great_power_mission_slot = {
 				}
 				add_province_modifier = {
 					name = dan_east_india_company
-					duration = -1 
+					duration = 9125
 				}
 			}
 			if = {
@@ -2034,7 +2046,6 @@ dan_england_mission_slot = {
 		}
 		has_dlc = "Lions of the North"
 		NOT = { map_setup = map_setup_random }
-		has_country_flag = use_paradox_missions
 	}
 	has_country_shield = yes
 
@@ -2101,7 +2112,7 @@ dan_england_mission_slot = {
 		effect = {
 			add_country_modifier = {
 				name = dan_naval_preperations
-				duration = -1 
+				duration = 10950
 			}
 		}
 	}
@@ -2113,7 +2124,7 @@ dan_england_mission_slot = {
 		provinces_to_highlight = {}
 		trigger = {
 			if = {
-				limit = { has_dlc = "Rule Britannia" }
+				limit = { has_dlc = "Golden Century" }
 				has_flagship = yes
 			}
 			if = {
@@ -2299,7 +2310,7 @@ dan_england_mission_slot = {
 			}
 			add_country_modifier = {
 				name = dan_king_of_denmark_and_england
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -2322,7 +2333,6 @@ dan_religion_start_mission_slot = {
 		}
 		has_dlc = "Lions of the North"
 		NOT = { map_setup = map_setup_random }
-		has_country_flag = use_paradox_missions
 	}
 	has_country_shield = yes
 
@@ -2430,7 +2440,6 @@ dan_religion_mission_slot = {
 		NOT = { has_country_flag = sca_unlock_humanist_missions }
 		has_dlc = "Lions of the North"
 		NOT = { map_setup = map_setup_random }
-		has_country_flag = use_paradox_missions
 	}
 	has_country_shield = yes
 	
@@ -2492,20 +2501,20 @@ dan_religion_mission_slot = {
 			add_papal_influence = 50
 			add_country_modifier = {
 				name = dan_catholic_support
-				duration = -1 
+				duration = 9125
 			}
 			custom_tooltip = swe_reformation_effects_tt
 			add_church_power = 100
 			add_fervor = 50
 			add_country_modifier = {
 				name = dan_protestant_support
-				duration = -1 
+				duration = 9125
 			}
 			custom_tooltip = swe_humanist_effects_tt
 			add_stability_or_adm_power = yes
 			add_country_modifier = {
 				name = dan_communication_between_the_faiths
-				duration = -1 
+				duration = 9125
 			}
 		}
 	}
@@ -2852,7 +2861,6 @@ dan_catholic_mission_slot = {
 		has_country_flag = sca_unlock_catholic_missions
 		has_dlc = "Lions of the North"
 		NOT = { map_setup = map_setup_random }
-		has_country_flag = use_paradox_missions
 	}
 	has_country_shield = yes
 
@@ -2877,7 +2885,7 @@ dan_catholic_mission_slot = {
 			add_papal_influence = 50
 			add_country_modifier = {
 				name = dan_catholic_support
-				duration = -1 
+				duration = 9125
 			}
 		}
 	}
@@ -3059,7 +3067,6 @@ dan_protestant_mission_slot = {
 		has_country_flag = sca_unlock_protestant_missions
 		has_dlc = "Lions of the North"
 		NOT = { map_setup = map_setup_random }
-		has_country_flag = use_paradox_missions
 	}
 	has_country_shield = yes
 
@@ -3086,7 +3093,7 @@ dan_protestant_mission_slot = {
 			add_fervor = 50
 			add_country_modifier = {
 				name = dan_protestant_support
-				duration = -1 
+				duration = 9125
 			}
 		}
 	}
@@ -3263,7 +3270,6 @@ dan_humanist_mission_slot = {
 		has_country_flag = sca_unlock_humanist_missions
 		has_dlc = "Lions of the North"
 		NOT = { map_setup = map_setup_random }
-		has_country_flag = use_paradox_missions
 	}
 	has_country_shield = yes
 
@@ -3285,7 +3291,7 @@ dan_humanist_mission_slot = {
 			add_stability_or_adm_power = yes
 			add_country_modifier = {
 				name = dan_communication_between_the_faiths
-				duration = -1 
+				duration = 9125
 			}
 		}
 	}
@@ -3367,7 +3373,6 @@ dan_norse_mission_slot = {
 		has_country_flag = sca_unlock_norse_missions
 		has_dlc = "Lions of the North"
 		NOT = { map_setup = map_setup_random }
-		has_country_flag = use_paradox_missions
 	}
 	has_country_shield = yes
 
@@ -3448,7 +3453,7 @@ dan_norse_mission_slot = {
 		effect = {
 			add_country_modifier = {
 				name = dan_plunder_and_pillaging
-				duration = -1 
+				duration = 12775
 			}
 		}
 	}
@@ -3478,7 +3483,7 @@ dan_norse_mission_slot = {
 			}
 			add_country_modifier = {
 				name = swe_norse_great_power
-				duration = -1 
+				duration = -1
 			}
 			if = {
 				limit = { tag = SCA }
@@ -3553,7 +3558,6 @@ dan_merc_mission_slot = {
 		}
 		has_dlc = "Lions of the North"
 		NOT = { map_setup = map_setup_random }
-		has_country_flag = use_paradox_missions
 	}
 	has_country_shield = yes
 
@@ -3619,7 +3623,7 @@ dan_merc_mission_slot = {
 		effect = {
 			add_country_modifier = {
 				name = dan_sca_grand_merc_army
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -3642,7 +3646,6 @@ dan_sca_india_mission_slot_3 = {
 		tag = SCA
 		has_dlc = "Lions of the North"
 		NOT = { map_setup = map_setup_random }
-		has_country_flag = use_paradox_missions
 	}
 	has_country_shield = yes
 
@@ -3673,7 +3676,7 @@ dan_sca_india_mission_slot_3 = {
 				}
 				add_province_modifier = {
 					name = dan_sca_scandinavian_india
-					duration = -1 
+					duration = 9125
 				}
 			}
 			deccan_region = {
@@ -3682,14 +3685,14 @@ dan_sca_india_mission_slot_3 = {
 				}
 				add_province_modifier = {
 					name = dan_sca_scandinavian_india
-					duration = -1 
+					duration = 9125
 				}
 			}
 			if = {
 				limit = { mission_completed = dan_sca_take_north_india }
 				add_country_modifier = {
 					name = dan_sca_heathen_tolerance
-					duration = -1 
+					duration = -1
 				}
 			}
 			else = {
@@ -3719,7 +3722,7 @@ dan_sca_india_mission_slot_3 = {
 			#Unlock Indian estates?
 			add_country_modifier = {
 				name = dan_sca_indian_administration
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -3737,7 +3740,6 @@ dan_sca_india_mission_slot_4 = {
 		tag = SCA
 		has_dlc = "Lions of the North"
 		NOT = { map_setup = map_setup_random }
-		has_country_flag = use_paradox_missions
 	}
 	has_country_shield = yes
 
@@ -3768,7 +3770,7 @@ dan_sca_india_mission_slot_4 = {
 				}
 				add_province_modifier = {
 					name = dan_sca_scandinavian_india
-					duration = -1 
+					duration = 9125
 				}
 			}
 			hindusthan_region = {
@@ -3777,14 +3779,14 @@ dan_sca_india_mission_slot_4 = {
 				}
 				add_province_modifier = {
 					name = dan_sca_scandinavian_india
-					duration = -1 
+					duration = 9125
 				}
 			}
 			if = {
 				limit = { mission_completed = dan_sca_annex_gujurat }
 				add_country_modifier = {
 					name = dan_sca_heathen_tolerance
-					duration = -1 
+					duration = -1
 				}
 			}
 			else = {
@@ -3808,7 +3810,6 @@ dan_sca_colonize_north_america_mission_slot_1 = {
 		has_dlc = "Lions of the North"
 		NOT = { map_setup = map_setup_random }
 		is_random_new_world = no
-		has_country_flag = use_paradox_missions
 	}
 	has_country_shield = yes
 
@@ -3895,7 +3896,7 @@ dan_sca_colonize_north_america_mission_slot_1 = {
 			1486 = {
 				add_trade_modifier = {
 					who = ROOT
-					duration = -1 
+					duration = 10950
 					power = 15
 					key = dan_colonize_canada_and_na_at
 				}
@@ -3903,7 +3904,7 @@ dan_sca_colonize_north_america_mission_slot_1 = {
 			1490 = {
 				add_trade_modifier = {
 					who = ROOT
-					duration = -1 
+					duration = 10950
 					power = 15
 					key = dan_colonize_canada_and_na_at
 				}
@@ -3911,7 +3912,7 @@ dan_sca_colonize_north_america_mission_slot_1 = {
 			1500 = {
 				add_trade_modifier = {
 					who = ROOT
-					duration = -1 
+					duration = 10950
 					power = 15
 					key = dan_colonize_canada_and_na_at
 				}
@@ -3936,7 +3937,7 @@ dan_sca_colonize_north_america_mission_slot_1 = {
 		effect = {
 			add_country_modifier = {
 				name = nor_new_world_administration
-				duration = -1 
+				duration = 9125
 			}
 		}
 	}
@@ -3955,7 +3956,6 @@ dan_sca_colonize_north_america_mission_slot_2 = {
 		has_dlc = "Lions of the North"
 		NOT = { map_setup = map_setup_random }
 		is_random_new_world = no
-		has_country_flag = use_paradox_missions
 	}
 	has_country_shield = yes
 	
@@ -3999,7 +3999,6 @@ dan_sca_conquest_slot_2 = {
 		tag = SCA
 		has_dlc = "Lions of the North"
 		NOT = { map_setup = map_setup_random }
-		has_country_flag = use_paradox_missions
 	}
 	has_country_shield = yes
 
@@ -4063,7 +4062,7 @@ dan_sca_conquest_slot_2 = {
 				}
 				add_country_modifier = {
 					name = "swe_pommerania_conquered"
-					duration = -1 
+					duration = 9125
 				}
 				lower_saxony_area = {
 					limit = {
@@ -4169,7 +4168,6 @@ dan_sca_conquest_slot_3 = {
 		tag = SCA
 		has_dlc = "Lions of the North"
 		NOT = { map_setup = map_setup_random }
-		has_country_flag = use_paradox_missions
 	}
 	has_country_shield = yes
 
@@ -4270,7 +4268,7 @@ dan_sca_conquest_slot_3 = {
 		effect = {
 			add_country_modifier = {
 				name = dan_sca_balticum_dominance_mod
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -4288,7 +4286,6 @@ dan_sca_conquest_slot_4 = {
 		tag = SCA
 		has_dlc = "Lions of the North"
 		NOT = { map_setup = map_setup_random }
-		has_country_flag = use_paradox_missions
 	}
 	has_country_shield = yes
 
@@ -4351,7 +4348,6 @@ dan_sca_merc_mission_slot = {
 		tag = SCA
 		has_dlc = "Lions of the North"
 		NOT = { map_setup = map_setup_random }
-		has_country_flag = use_paradox_missions
 	}
 	has_country_shield = yes
 
@@ -4397,7 +4393,6 @@ dan_sca_internal_development = {
 		tag = SCA
 		has_dlc = "Lions of the North"
 		NOT = { map_setup = map_setup_random }
-		has_country_flag = use_paradox_missions
 	}
 	has_country_shield = yes
 	
@@ -4503,7 +4498,7 @@ dan_sca_internal_development = {
 					}
 					add_province_modifier = {
 						name = swe_arctic_expansion
-						duration = -1 
+						duration = -1
 					}
 				}
 				scandinavia_region = {

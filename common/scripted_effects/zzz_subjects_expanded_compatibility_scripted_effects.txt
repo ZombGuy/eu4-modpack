@@ -1,4 +1,0 @@
-# to make sure the ET flag is set, we use this scripted effect
-# empty definition here, in case ET is not active
-et_setup_effect = {
-}

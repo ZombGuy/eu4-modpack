@@ -1,4 +1,0 @@
-MOR_clashes_with_granada = {
-	opinion = -150
-	yearly_decay = 1
-}

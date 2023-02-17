@@ -1,4 +1,0 @@
-defeated_france_prussia_opinion = {
-	opinion = 75
-	yearly_decay = 0.5
-}

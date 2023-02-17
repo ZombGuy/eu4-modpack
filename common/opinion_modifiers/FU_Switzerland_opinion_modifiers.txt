@@ -1,4 +1,0 @@
-swi_peaceful_coexistence_of_beliefs_modifier = {
-	opinion = 25 
-	yearly_decay = 1 
-}

@@ -1,4 +1,0 @@
-POL_jagiellonian_ties = {
-	opinion = 75
-	yearly_decay = 0.5
-}
