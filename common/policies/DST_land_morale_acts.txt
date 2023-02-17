@@ -10,31 +10,6 @@ dse_policy_land_morale_1 = {
 	allow = {
 		full_idea_group = quantity_ideas
 		full_idea_group = gesellschaft0
-		NOT = {
-		calc_true_if = {
-			amount = 2
-                has_active_policy = dse_policy_land_morale_1
-                has_active_policy = dse_policy_land_morale_2
-                has_active_policy = dse_policy_land_morale_3
-                has_active_policy = dse_policy_land_morale_4
-                has_active_policy = dse_policy_land_morale_5
-                has_active_policy = dse_policy_land_morale_6
-                has_active_policy = dse_policy_land_morale_7
-                has_active_policy = dse_policy_land_morale_8
-                has_active_policy = dse_policy_land_morale_9
-                has_active_policy = dse_policy_land_morale_10
-                has_active_policy = dse_policy_land_morale_11
-                has_active_policy = dse_policy_land_morale_12
-                has_active_policy = dse_policy_land_morale_13
-                has_active_policy = dse_policy_land_morale_14
-                has_active_policy = dse_policy_land_morale_15
-                has_active_policy = dse_policy_land_morale_16
-                has_active_policy = dse_policy_land_morale_17
-                has_active_policy = dse_policy_land_morale_18
-                has_active_policy = dse_policy_land_morale_19
-                has_active_policy = dse_policy_land_morale_20
-			}
-		}
 	}
 	
 	
@@ -69,31 +44,6 @@ dse_policy_land_morale_2 = {
 			full_idea_group = aristo0
 			full_idea_group = horde0
 		}
-		NOT = {
-		calc_true_if = {
-			amount = 2
-                has_active_policy = dse_policy_land_morale_1
-                has_active_policy = dse_policy_land_morale_2
-                has_active_policy = dse_policy_land_morale_3
-                has_active_policy = dse_policy_land_morale_4
-                has_active_policy = dse_policy_land_morale_5
-                has_active_policy = dse_policy_land_morale_6
-                has_active_policy = dse_policy_land_morale_7
-                has_active_policy = dse_policy_land_morale_8
-                has_active_policy = dse_policy_land_morale_9
-                has_active_policy = dse_policy_land_morale_10
-                has_active_policy = dse_policy_land_morale_11
-                has_active_policy = dse_policy_land_morale_12
-                has_active_policy = dse_policy_land_morale_13
-                has_active_policy = dse_policy_land_morale_14
-                has_active_policy = dse_policy_land_morale_15
-                has_active_policy = dse_policy_land_morale_16
-                has_active_policy = dse_policy_land_morale_17
-                has_active_policy = dse_policy_land_morale_18
-                has_active_policy = dse_policy_land_morale_19
-                has_active_policy = dse_policy_land_morale_20
-			}
-		}
 	}
 	
 	
@@ -116,31 +66,6 @@ dse_policy_land_morale_3 = {
 	allow = {
 		full_idea_group = generalstab0
         full_idea_group = assimilation0
-		NOT = {
-		calc_true_if = {
-			amount = 2
-                has_active_policy = dse_policy_land_morale_1
-                has_active_policy = dse_policy_land_morale_2
-                has_active_policy = dse_policy_land_morale_3
-                has_active_policy = dse_policy_land_morale_4
-                has_active_policy = dse_policy_land_morale_5
-                has_active_policy = dse_policy_land_morale_6
-                has_active_policy = dse_policy_land_morale_7
-                has_active_policy = dse_policy_land_morale_8
-                has_active_policy = dse_policy_land_morale_9
-                has_active_policy = dse_policy_land_morale_10
-                has_active_policy = dse_policy_land_morale_11
-                has_active_policy = dse_policy_land_morale_12
-                has_active_policy = dse_policy_land_morale_13
-                has_active_policy = dse_policy_land_morale_14
-                has_active_policy = dse_policy_land_morale_15
-                has_active_policy = dse_policy_land_morale_16
-                has_active_policy = dse_policy_land_morale_17
-                has_active_policy = dse_policy_land_morale_18
-                has_active_policy = dse_policy_land_morale_19
-                has_active_policy = dse_policy_land_morale_20
-			}
-		}
 	}
 	
 	
@@ -229,31 +154,6 @@ dse_policy_land_morale_4 = {
 			full_idea_group = hussite0
 			full_idea_group = alche0
 		}
-		NOT = {
-		calc_true_if = {
-			amount = 2
-                has_active_policy = dse_policy_land_morale_1
-                has_active_policy = dse_policy_land_morale_2
-                has_active_policy = dse_policy_land_morale_3
-                has_active_policy = dse_policy_land_morale_4
-                has_active_policy = dse_policy_land_morale_5
-                has_active_policy = dse_policy_land_morale_6
-                has_active_policy = dse_policy_land_morale_7
-                has_active_policy = dse_policy_land_morale_8
-                has_active_policy = dse_policy_land_morale_9
-                has_active_policy = dse_policy_land_morale_10
-                has_active_policy = dse_policy_land_morale_11
-                has_active_policy = dse_policy_land_morale_12
-                has_active_policy = dse_policy_land_morale_13
-                has_active_policy = dse_policy_land_morale_14
-                has_active_policy = dse_policy_land_morale_15
-                has_active_policy = dse_policy_land_morale_16
-                has_active_policy = dse_policy_land_morale_17
-                has_active_policy = dse_policy_land_morale_18
-                has_active_policy = dse_policy_land_morale_19
-                has_active_policy = dse_policy_land_morale_20
-			}
-		}
 	}
 	
 	
@@ -276,31 +176,6 @@ dse_policy_land_morale_5 = {
 	allow = {
 		full_idea_group = militarismus0
 		full_idea_group = exploration_ideas
-		NOT = {
-		calc_true_if = {
-			amount = 2
-                has_active_policy = dse_policy_land_morale_1
-                has_active_policy = dse_policy_land_morale_2
-                has_active_policy = dse_policy_land_morale_3
-                has_active_policy = dse_policy_land_morale_4
-                has_active_policy = dse_policy_land_morale_5
-                has_active_policy = dse_policy_land_morale_6
-                has_active_policy = dse_policy_land_morale_7
-                has_active_policy = dse_policy_land_morale_8
-                has_active_policy = dse_policy_land_morale_9
-                has_active_policy = dse_policy_land_morale_10
-                has_active_policy = dse_policy_land_morale_11
-                has_active_policy = dse_policy_land_morale_12
-                has_active_policy = dse_policy_land_morale_13
-                has_active_policy = dse_policy_land_morale_14
-                has_active_policy = dse_policy_land_morale_15
-                has_active_policy = dse_policy_land_morale_16
-                has_active_policy = dse_policy_land_morale_17
-                has_active_policy = dse_policy_land_morale_18
-                has_active_policy = dse_policy_land_morale_19
-                has_active_policy = dse_policy_land_morale_20
-			}
-		}
 	}
 	
 	
@@ -323,31 +198,6 @@ dse_policy_land_morale_6 = {
 	allow = {
 		full_idea_group = militarismus0
 		full_idea_group = humanist_ideas
-		NOT = {
-		calc_true_if = {
-			amount = 2
-                has_active_policy = dse_policy_land_morale_1
-                has_active_policy = dse_policy_land_morale_2
-                has_active_policy = dse_policy_land_morale_3
-                has_active_policy = dse_policy_land_morale_4
-                has_active_policy = dse_policy_land_morale_5
-                has_active_policy = dse_policy_land_morale_6
-                has_active_policy = dse_policy_land_morale_7
-                has_active_policy = dse_policy_land_morale_8
-                has_active_policy = dse_policy_land_morale_9
-                has_active_policy = dse_policy_land_morale_10
-                has_active_policy = dse_policy_land_morale_11
-                has_active_policy = dse_policy_land_morale_12
-                has_active_policy = dse_policy_land_morale_13
-                has_active_policy = dse_policy_land_morale_14
-                has_active_policy = dse_policy_land_morale_15
-                has_active_policy = dse_policy_land_morale_16
-                has_active_policy = dse_policy_land_morale_17
-                has_active_policy = dse_policy_land_morale_18
-                has_active_policy = dse_policy_land_morale_19
-                has_active_policy = dse_policy_land_morale_20
-			}
-		}
 	}
 	
 	
@@ -370,31 +220,6 @@ dse_policy_land_morale_7 = {
 	allow = {
 		full_idea_group = defensive_ideas
 		full_idea_group = nationalismus0
-		NOT = {
-		calc_true_if = {
-			amount = 2
-                has_active_policy = dse_policy_land_morale_1
-                has_active_policy = dse_policy_land_morale_2
-                has_active_policy = dse_policy_land_morale_3
-                has_active_policy = dse_policy_land_morale_4
-                has_active_policy = dse_policy_land_morale_5
-                has_active_policy = dse_policy_land_morale_6
-                has_active_policy = dse_policy_land_morale_7
-                has_active_policy = dse_policy_land_morale_8
-                has_active_policy = dse_policy_land_morale_9
-                has_active_policy = dse_policy_land_morale_10
-                has_active_policy = dse_policy_land_morale_11
-                has_active_policy = dse_policy_land_morale_12
-                has_active_policy = dse_policy_land_morale_13
-                has_active_policy = dse_policy_land_morale_14
-                has_active_policy = dse_policy_land_morale_15
-                has_active_policy = dse_policy_land_morale_16
-                has_active_policy = dse_policy_land_morale_17
-                has_active_policy = dse_policy_land_morale_18
-                has_active_policy = dse_policy_land_morale_19
-                has_active_policy = dse_policy_land_morale_20
-			}
-		}
 	}
 	
 	
@@ -417,31 +242,6 @@ dse_policy_land_morale_8 = {
 	allow = {
 		full_idea_group = defensive_ideas
 		full_idea_group = gesundheit0
-		NOT = {
-		calc_true_if = {
-			amount = 2
-                has_active_policy = dse_policy_land_morale_1
-                has_active_policy = dse_policy_land_morale_2
-                has_active_policy = dse_policy_land_morale_3
-                has_active_policy = dse_policy_land_morale_4
-                has_active_policy = dse_policy_land_morale_5
-                has_active_policy = dse_policy_land_morale_6
-                has_active_policy = dse_policy_land_morale_7
-                has_active_policy = dse_policy_land_morale_8
-                has_active_policy = dse_policy_land_morale_9
-                has_active_policy = dse_policy_land_morale_10
-                has_active_policy = dse_policy_land_morale_11
-                has_active_policy = dse_policy_land_morale_12
-                has_active_policy = dse_policy_land_morale_13
-                has_active_policy = dse_policy_land_morale_14
-                has_active_policy = dse_policy_land_morale_15
-                has_active_policy = dse_policy_land_morale_16
-                has_active_policy = dse_policy_land_morale_17
-                has_active_policy = dse_policy_land_morale_18
-                has_active_policy = dse_policy_land_morale_19
-                has_active_policy = dse_policy_land_morale_20
-			}
-		}
 	}
 	
 	
@@ -464,31 +264,6 @@ dse_policy_land_morale_9 = {
 	allow = {
 		full_idea_group = quality_ideas
 		full_idea_group = gesellschaft0
-		NOT = {
-		calc_true_if = {
-			amount = 2
-                has_active_policy = dse_policy_land_morale_1
-                has_active_policy = dse_policy_land_morale_2
-                has_active_policy = dse_policy_land_morale_3
-                has_active_policy = dse_policy_land_morale_4
-                has_active_policy = dse_policy_land_morale_5
-                has_active_policy = dse_policy_land_morale_6
-                has_active_policy = dse_policy_land_morale_7
-                has_active_policy = dse_policy_land_morale_8
-                has_active_policy = dse_policy_land_morale_9
-                has_active_policy = dse_policy_land_morale_10
-                has_active_policy = dse_policy_land_morale_11
-                has_active_policy = dse_policy_land_morale_12
-                has_active_policy = dse_policy_land_morale_13
-                has_active_policy = dse_policy_land_morale_14
-                has_active_policy = dse_policy_land_morale_15
-                has_active_policy = dse_policy_land_morale_16
-                has_active_policy = dse_policy_land_morale_17
-                has_active_policy = dse_policy_land_morale_18
-                has_active_policy = dse_policy_land_morale_19
-                has_active_policy = dse_policy_land_morale_20
-			}
-		}
 	}
 	
 	
@@ -523,31 +298,6 @@ dse_policy_land_morale_10 = {
 			full_idea_group = aristo0
 			full_idea_group = horde0
 		}
-		NOT = {
-		calc_true_if = {
-			amount = 2
-                has_active_policy = dse_policy_land_morale_1
-                has_active_policy = dse_policy_land_morale_2
-                has_active_policy = dse_policy_land_morale_3
-                has_active_policy = dse_policy_land_morale_4
-                has_active_policy = dse_policy_land_morale_5
-                has_active_policy = dse_policy_land_morale_6
-                has_active_policy = dse_policy_land_morale_7
-                has_active_policy = dse_policy_land_morale_8
-                has_active_policy = dse_policy_land_morale_9
-                has_active_policy = dse_policy_land_morale_10
-                has_active_policy = dse_policy_land_morale_11
-                has_active_policy = dse_policy_land_morale_12
-                has_active_policy = dse_policy_land_morale_13
-                has_active_policy = dse_policy_land_morale_14
-                has_active_policy = dse_policy_land_morale_15
-                has_active_policy = dse_policy_land_morale_16
-                has_active_policy = dse_policy_land_morale_17
-                has_active_policy = dse_policy_land_morale_18
-                has_active_policy = dse_policy_land_morale_19
-                has_active_policy = dse_policy_land_morale_20
-			}
-		}
 	}
 	
 	
@@ -570,31 +320,6 @@ dse_policy_land_morale_11 = {
 	allow = {
 		full_idea_group = kriegsproduktion0
 		full_idea_group = assimilation0
-		NOT = {
-		calc_true_if = {
-			amount = 2
-                has_active_policy = dse_policy_land_morale_1
-                has_active_policy = dse_policy_land_morale_2
-                has_active_policy = dse_policy_land_morale_3
-                has_active_policy = dse_policy_land_morale_4
-                has_active_policy = dse_policy_land_morale_5
-                has_active_policy = dse_policy_land_morale_6
-                has_active_policy = dse_policy_land_morale_7
-                has_active_policy = dse_policy_land_morale_8
-                has_active_policy = dse_policy_land_morale_9
-                has_active_policy = dse_policy_land_morale_10
-                has_active_policy = dse_policy_land_morale_11
-                has_active_policy = dse_policy_land_morale_12
-                has_active_policy = dse_policy_land_morale_13
-                has_active_policy = dse_policy_land_morale_14
-                has_active_policy = dse_policy_land_morale_15
-                has_active_policy = dse_policy_land_morale_16
-                has_active_policy = dse_policy_land_morale_17
-                has_active_policy = dse_policy_land_morale_18
-                has_active_policy = dse_policy_land_morale_19
-                has_active_policy = dse_policy_land_morale_20
-			}
-		}
 	}
 	
 	
@@ -617,31 +342,6 @@ dse_policy_land_morale_12 = {
 	allow = {
 		full_idea_group = kriegsproduktion0
 		full_idea_group = gesundheit0
-		NOT = {
-		calc_true_if = {
-			amount = 2
-                has_active_policy = dse_policy_land_morale_1
-                has_active_policy = dse_policy_land_morale_2
-                has_active_policy = dse_policy_land_morale_3
-                has_active_policy = dse_policy_land_morale_4
-                has_active_policy = dse_policy_land_morale_5
-                has_active_policy = dse_policy_land_morale_6
-                has_active_policy = dse_policy_land_morale_7
-                has_active_policy = dse_policy_land_morale_8
-                has_active_policy = dse_policy_land_morale_9
-                has_active_policy = dse_policy_land_morale_10
-                has_active_policy = dse_policy_land_morale_11
-                has_active_policy = dse_policy_land_morale_12
-                has_active_policy = dse_policy_land_morale_13
-                has_active_policy = dse_policy_land_morale_14
-                has_active_policy = dse_policy_land_morale_15
-                has_active_policy = dse_policy_land_morale_16
-                has_active_policy = dse_policy_land_morale_17
-                has_active_policy = dse_policy_land_morale_18
-                has_active_policy = dse_policy_land_morale_19
-                has_active_policy = dse_policy_land_morale_20
-			}
-		}
 	}
 	
 	
@@ -664,31 +364,6 @@ dse_policy_land_morale_13 = {
 	allow = {
 		full_idea_group = offensive_ideas
 		full_idea_group = propaganda0
-		NOT = {
-		calc_true_if = {
-			amount = 2
-                has_active_policy = dse_policy_land_morale_1
-                has_active_policy = dse_policy_land_morale_2
-                has_active_policy = dse_policy_land_morale_3
-                has_active_policy = dse_policy_land_morale_4
-                has_active_policy = dse_policy_land_morale_5
-                has_active_policy = dse_policy_land_morale_6
-                has_active_policy = dse_policy_land_morale_7
-                has_active_policy = dse_policy_land_morale_8
-                has_active_policy = dse_policy_land_morale_9
-                has_active_policy = dse_policy_land_morale_10
-                has_active_policy = dse_policy_land_morale_11
-                has_active_policy = dse_policy_land_morale_12
-                has_active_policy = dse_policy_land_morale_13
-                has_active_policy = dse_policy_land_morale_14
-                has_active_policy = dse_policy_land_morale_15
-                has_active_policy = dse_policy_land_morale_16
-                has_active_policy = dse_policy_land_morale_17
-                has_active_policy = dse_policy_land_morale_18
-                has_active_policy = dse_policy_land_morale_19
-                has_active_policy = dse_policy_land_morale_20
-			}
-		}
 	}
 	
 	
@@ -777,31 +452,6 @@ dse_policy_land_morale_14 = {
 			full_idea_group = hussite0
 			full_idea_group = alche0
 		}
-		NOT = {
-		calc_true_if = {
-			amount = 2
-                has_active_policy = dse_policy_land_morale_1
-                has_active_policy = dse_policy_land_morale_2
-                has_active_policy = dse_policy_land_morale_3
-                has_active_policy = dse_policy_land_morale_4
-                has_active_policy = dse_policy_land_morale_5
-                has_active_policy = dse_policy_land_morale_6
-                has_active_policy = dse_policy_land_morale_7
-                has_active_policy = dse_policy_land_morale_8
-                has_active_policy = dse_policy_land_morale_9
-                has_active_policy = dse_policy_land_morale_10
-                has_active_policy = dse_policy_land_morale_11
-                has_active_policy = dse_policy_land_morale_12
-                has_active_policy = dse_policy_land_morale_13
-                has_active_policy = dse_policy_land_morale_14
-                has_active_policy = dse_policy_land_morale_15
-                has_active_policy = dse_policy_land_morale_16
-                has_active_policy = dse_policy_land_morale_17
-                has_active_policy = dse_policy_land_morale_18
-                has_active_policy = dse_policy_land_morale_19
-                has_active_policy = dse_policy_land_morale_20
-			}
-		}
 	}
 	
 	
@@ -824,31 +474,6 @@ dse_policy_land_morale_15 = {
 	allow = {
 		full_idea_group = festung0
 		full_idea_group = nationalismus0
-		NOT = {
-		calc_true_if = {
-			amount = 2
-                has_active_policy = dse_policy_land_morale_1
-                has_active_policy = dse_policy_land_morale_2
-                has_active_policy = dse_policy_land_morale_3
-                has_active_policy = dse_policy_land_morale_4
-                has_active_policy = dse_policy_land_morale_5
-                has_active_policy = dse_policy_land_morale_6
-                has_active_policy = dse_policy_land_morale_7
-                has_active_policy = dse_policy_land_morale_8
-                has_active_policy = dse_policy_land_morale_9
-                has_active_policy = dse_policy_land_morale_10
-                has_active_policy = dse_policy_land_morale_11
-                has_active_policy = dse_policy_land_morale_12
-                has_active_policy = dse_policy_land_morale_13
-                has_active_policy = dse_policy_land_morale_14
-                has_active_policy = dse_policy_land_morale_15
-                has_active_policy = dse_policy_land_morale_16
-                has_active_policy = dse_policy_land_morale_17
-                has_active_policy = dse_policy_land_morale_18
-                has_active_policy = dse_policy_land_morale_19
-                has_active_policy = dse_policy_land_morale_20
-			}
-		}
 	}
 	
 	
@@ -871,31 +496,6 @@ dse_policy_land_morale_16 = {
 	allow = {
 		full_idea_group = festung0
 		full_idea_group = humanist_ideas
-		NOT = {
-		calc_true_if = {
-			amount = 2
-                has_active_policy = dse_policy_land_morale_1
-                has_active_policy = dse_policy_land_morale_2
-                has_active_policy = dse_policy_land_morale_3
-                has_active_policy = dse_policy_land_morale_4
-                has_active_policy = dse_policy_land_morale_5
-                has_active_policy = dse_policy_land_morale_6
-                has_active_policy = dse_policy_land_morale_7
-                has_active_policy = dse_policy_land_morale_8
-                has_active_policy = dse_policy_land_morale_9
-                has_active_policy = dse_policy_land_morale_10
-                has_active_policy = dse_policy_land_morale_11
-                has_active_policy = dse_policy_land_morale_12
-                has_active_policy = dse_policy_land_morale_13
-                has_active_policy = dse_policy_land_morale_14
-                has_active_policy = dse_policy_land_morale_15
-                has_active_policy = dse_policy_land_morale_16
-                has_active_policy = dse_policy_land_morale_17
-                has_active_policy = dse_policy_land_morale_18
-                has_active_policy = dse_policy_land_morale_19
-                has_active_policy = dse_policy_land_morale_20
-			}
-		}
 	}
 	
 	
@@ -918,31 +518,6 @@ dse_policy_land_morale_17 = {
 	allow = {
 		full_idea_group = soldnerheer0
 		full_idea_group = propaganda0
-		NOT = {
-		calc_true_if = {
-			amount = 2
-                has_active_policy = dse_policy_land_morale_1
-                has_active_policy = dse_policy_land_morale_2
-                has_active_policy = dse_policy_land_morale_3
-                has_active_policy = dse_policy_land_morale_4
-                has_active_policy = dse_policy_land_morale_5
-                has_active_policy = dse_policy_land_morale_6
-                has_active_policy = dse_policy_land_morale_7
-                has_active_policy = dse_policy_land_morale_8
-                has_active_policy = dse_policy_land_morale_9
-                has_active_policy = dse_policy_land_morale_10
-                has_active_policy = dse_policy_land_morale_11
-                has_active_policy = dse_policy_land_morale_12
-                has_active_policy = dse_policy_land_morale_13
-                has_active_policy = dse_policy_land_morale_14
-                has_active_policy = dse_policy_land_morale_15
-                has_active_policy = dse_policy_land_morale_16
-                has_active_policy = dse_policy_land_morale_17
-                has_active_policy = dse_policy_land_morale_18
-                has_active_policy = dse_policy_land_morale_19
-                has_active_policy = dse_policy_land_morale_20
-			}
-		}
 	}
 	
 	
@@ -965,31 +540,6 @@ dse_policy_land_morale_18 = {
 	allow = {
 		full_idea_group = soldnerheer0
 		full_idea_group = innovativeness_ideas
-		NOT = {
-		calc_true_if = {
-			amount = 2
-                has_active_policy = dse_policy_land_morale_1
-                has_active_policy = dse_policy_land_morale_2
-                has_active_policy = dse_policy_land_morale_3
-                has_active_policy = dse_policy_land_morale_4
-                has_active_policy = dse_policy_land_morale_5
-                has_active_policy = dse_policy_land_morale_6
-                has_active_policy = dse_policy_land_morale_7
-                has_active_policy = dse_policy_land_morale_8
-                has_active_policy = dse_policy_land_morale_9
-                has_active_policy = dse_policy_land_morale_10
-                has_active_policy = dse_policy_land_morale_11
-                has_active_policy = dse_policy_land_morale_12
-                has_active_policy = dse_policy_land_morale_13
-                has_active_policy = dse_policy_land_morale_14
-                has_active_policy = dse_policy_land_morale_15
-                has_active_policy = dse_policy_land_morale_16
-                has_active_policy = dse_policy_land_morale_17
-                has_active_policy = dse_policy_land_morale_18
-                has_active_policy = dse_policy_land_morale_19
-                has_active_policy = dse_policy_land_morale_20
-			}
-		}
 	}
 	
 	
@@ -1012,31 +562,6 @@ dse_policy_land_morale_19 = {
 	allow = {
 		full_idea_group = formation0
 		full_idea_group = exploration_ideas
-		NOT = {
-		calc_true_if = {
-			amount = 2
-                has_active_policy = dse_policy_land_morale_1
-                has_active_policy = dse_policy_land_morale_2
-                has_active_policy = dse_policy_land_morale_3
-                has_active_policy = dse_policy_land_morale_4
-                has_active_policy = dse_policy_land_morale_5
-                has_active_policy = dse_policy_land_morale_6
-                has_active_policy = dse_policy_land_morale_7
-                has_active_policy = dse_policy_land_morale_8
-                has_active_policy = dse_policy_land_morale_9
-                has_active_policy = dse_policy_land_morale_10
-                has_active_policy = dse_policy_land_morale_11
-                has_active_policy = dse_policy_land_morale_12
-                has_active_policy = dse_policy_land_morale_13
-                has_active_policy = dse_policy_land_morale_14
-                has_active_policy = dse_policy_land_morale_15
-                has_active_policy = dse_policy_land_morale_16
-                has_active_policy = dse_policy_land_morale_17
-                has_active_policy = dse_policy_land_morale_18
-                has_active_policy = dse_policy_land_morale_19
-                has_active_policy = dse_policy_land_morale_20
-			}
-		}
 	}
 	
 	
@@ -1059,31 +584,6 @@ dse_policy_land_morale_20 = {
 	allow = {
 		full_idea_group = formation0
 		full_idea_group = innovativeness_ideas
-		NOT = {
-		calc_true_if = {
-			amount = 2
-                has_active_policy = dse_policy_land_morale_1
-                has_active_policy = dse_policy_land_morale_2
-                has_active_policy = dse_policy_land_morale_3
-                has_active_policy = dse_policy_land_morale_4
-                has_active_policy = dse_policy_land_morale_5
-                has_active_policy = dse_policy_land_morale_6
-                has_active_policy = dse_policy_land_morale_7
-                has_active_policy = dse_policy_land_morale_8
-                has_active_policy = dse_policy_land_morale_9
-                has_active_policy = dse_policy_land_morale_10
-                has_active_policy = dse_policy_land_morale_11
-                has_active_policy = dse_policy_land_morale_12
-                has_active_policy = dse_policy_land_morale_13
-                has_active_policy = dse_policy_land_morale_14
-                has_active_policy = dse_policy_land_morale_15
-                has_active_policy = dse_policy_land_morale_16
-                has_active_policy = dse_policy_land_morale_17
-                has_active_policy = dse_policy_land_morale_18
-                has_active_policy = dse_policy_land_morale_19
-                has_active_policy = dse_policy_land_morale_20
-			}
-		}
 	}
 	
 	

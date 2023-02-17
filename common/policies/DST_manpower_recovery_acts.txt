@@ -10,25 +10,6 @@ dse_policy_manpower_recovery_1 = {
 	allow = {
 		full_idea_group = wehrpflicht0
 		full_idea_group = humanist_ideas
-		NOT = {
-			calc_true_if = {
-				amount = 2
-				has_active_policy = dse_policy_manpower_recovery_1
-                has_active_policy = dse_policy_manpower_recovery_2
-                has_active_policy = dse_policy_manpower_recovery_3
-                has_active_policy = dse_policy_manpower_recovery_4
-                has_active_policy = dse_policy_manpower_recovery_5
-                has_active_policy = dse_policy_manpower_recovery_6
-                has_active_policy = dse_policy_manpower_recovery_7
-                has_active_policy = dse_policy_manpower_recovery_8
-                has_active_policy = dse_policy_manpower_recovery_9
-                has_active_policy = dse_policy_manpower_recovery_10
-                has_active_policy = dse_policy_manpower_recovery_11
-                has_active_policy = dse_policy_manpower_recovery_12
-
-				
-			}
-		}
 	}
 		
 	manpower_recovery_speed = 0.15
@@ -55,25 +36,6 @@ dse_policy_manpower_recovery_2 = {
 	allow = {
 		full_idea_group = wehrpflicht0
 		full_idea_group = gesellschaft0
-		NOT = {
-			calc_true_if = {
-				amount = 2
-				has_active_policy = dse_policy_manpower_recovery_1
-                has_active_policy = dse_policy_manpower_recovery_2
-                has_active_policy = dse_policy_manpower_recovery_3
-                has_active_policy = dse_policy_manpower_recovery_4
-                has_active_policy = dse_policy_manpower_recovery_5
-                has_active_policy = dse_policy_manpower_recovery_6
-                has_active_policy = dse_policy_manpower_recovery_7
-                has_active_policy = dse_policy_manpower_recovery_8
-                has_active_policy = dse_policy_manpower_recovery_9
-                has_active_policy = dse_policy_manpower_recovery_10
-                has_active_policy = dse_policy_manpower_recovery_11
-                has_active_policy = dse_policy_manpower_recovery_12
-
-				
-			}
-		}
 	}
 		
 	manpower_recovery_speed = 0.15
@@ -100,25 +62,6 @@ dse_policy_manpower_recovery_3 = {
 	allow = {
 		full_idea_group = wehrpflicht0
 		full_idea_group = propaganda0
-		NOT = {
-			calc_true_if = {
-				amount = 2
-				has_active_policy = dse_policy_manpower_recovery_1
-                has_active_policy = dse_policy_manpower_recovery_2
-                has_active_policy = dse_policy_manpower_recovery_3
-                has_active_policy = dse_policy_manpower_recovery_4
-                has_active_policy = dse_policy_manpower_recovery_5
-                has_active_policy = dse_policy_manpower_recovery_6
-                has_active_policy = dse_policy_manpower_recovery_7
-                has_active_policy = dse_policy_manpower_recovery_8
-                has_active_policy = dse_policy_manpower_recovery_9
-                has_active_policy = dse_policy_manpower_recovery_10
-                has_active_policy = dse_policy_manpower_recovery_11
-                has_active_policy = dse_policy_manpower_recovery_12
-
-				
-			}
-		}
 	}
 		
 	manpower_recovery_speed = 0.15
@@ -145,25 +88,6 @@ dse_policy_manpower_recovery_4 = {
 	allow = {
 		full_idea_group = stehendesheer0
 		full_idea_group = gesundheit0
-		NOT = {
-			calc_true_if = {
-				amount = 2
-				has_active_policy = dse_policy_manpower_recovery_1
-                has_active_policy = dse_policy_manpower_recovery_2
-                has_active_policy = dse_policy_manpower_recovery_3
-                has_active_policy = dse_policy_manpower_recovery_4
-                has_active_policy = dse_policy_manpower_recovery_5
-                has_active_policy = dse_policy_manpower_recovery_6
-                has_active_policy = dse_policy_manpower_recovery_7
-                has_active_policy = dse_policy_manpower_recovery_8
-                has_active_policy = dse_policy_manpower_recovery_9
-                has_active_policy = dse_policy_manpower_recovery_10
-                has_active_policy = dse_policy_manpower_recovery_11
-                has_active_policy = dse_policy_manpower_recovery_12
-
-				
-			}
-		}
 	}
 		
 	manpower_recovery_speed = 0.15
@@ -190,25 +114,6 @@ dse_policy_manpower_recovery_5 = {
 	allow = {
 		full_idea_group = stehendesheer0
 		full_idea_group = assimilation0
-		NOT = {
-			calc_true_if = {
-				amount = 2
-				has_active_policy = dse_policy_manpower_recovery_1
-                has_active_policy = dse_policy_manpower_recovery_2
-                has_active_policy = dse_policy_manpower_recovery_3
-                has_active_policy = dse_policy_manpower_recovery_4
-                has_active_policy = dse_policy_manpower_recovery_5
-                has_active_policy = dse_policy_manpower_recovery_6
-                has_active_policy = dse_policy_manpower_recovery_7
-                has_active_policy = dse_policy_manpower_recovery_8
-                has_active_policy = dse_policy_manpower_recovery_9
-                has_active_policy = dse_policy_manpower_recovery_10
-                has_active_policy = dse_policy_manpower_recovery_11
-                has_active_policy = dse_policy_manpower_recovery_12
-
-				
-			}
-		}
 	}
 		
 	manpower_recovery_speed = 0.15
@@ -235,25 +140,6 @@ dse_policy_manpower_recovery_6 = {
 	allow = {
 		full_idea_group = stehendesheer0
 		full_idea_group = nationalismus0
-		NOT = {
-			calc_true_if = {
-				amount = 2
-				has_active_policy = dse_policy_manpower_recovery_1
-                has_active_policy = dse_policy_manpower_recovery_2
-                has_active_policy = dse_policy_manpower_recovery_3
-                has_active_policy = dse_policy_manpower_recovery_4
-                has_active_policy = dse_policy_manpower_recovery_5
-                has_active_policy = dse_policy_manpower_recovery_6
-                has_active_policy = dse_policy_manpower_recovery_7
-                has_active_policy = dse_policy_manpower_recovery_8
-                has_active_policy = dse_policy_manpower_recovery_9
-                has_active_policy = dse_policy_manpower_recovery_10
-                has_active_policy = dse_policy_manpower_recovery_11
-                has_active_policy = dse_policy_manpower_recovery_12
-
-				
-			}
-		}
 	}
 		
 	manpower_recovery_speed = 0.15
@@ -288,25 +174,6 @@ dse_policy_manpower_recovery_7 = {
             full_idea_group = dezentra0
             full_idea_group = zentra0
         }
-		NOT = {
-			calc_true_if = {
-				amount = 2
-				has_active_policy = dse_policy_manpower_recovery_1
-                has_active_policy = dse_policy_manpower_recovery_2
-                has_active_policy = dse_policy_manpower_recovery_3
-                has_active_policy = dse_policy_manpower_recovery_4
-                has_active_policy = dse_policy_manpower_recovery_5
-                has_active_policy = dse_policy_manpower_recovery_6
-                has_active_policy = dse_policy_manpower_recovery_7
-                has_active_policy = dse_policy_manpower_recovery_8
-                has_active_policy = dse_policy_manpower_recovery_9
-                has_active_policy = dse_policy_manpower_recovery_10
-                has_active_policy = dse_policy_manpower_recovery_11
-                has_active_policy = dse_policy_manpower_recovery_12
-
-				
-			}
-		}
 	}
 		
 	manpower_recovery_speed = 0.15
@@ -333,25 +200,6 @@ dse_policy_manpower_recovery_8 = {
 	allow = {
 		full_idea_group = fire0
 		full_idea_group = maritime_ideas
-		NOT = {
-			calc_true_if = {
-				amount = 2
-				has_active_policy = dse_policy_manpower_recovery_1
-                has_active_policy = dse_policy_manpower_recovery_2
-                has_active_policy = dse_policy_manpower_recovery_3
-                has_active_policy = dse_policy_manpower_recovery_4
-                has_active_policy = dse_policy_manpower_recovery_5
-                has_active_policy = dse_policy_manpower_recovery_6
-                has_active_policy = dse_policy_manpower_recovery_7
-                has_active_policy = dse_policy_manpower_recovery_8
-                has_active_policy = dse_policy_manpower_recovery_9
-                has_active_policy = dse_policy_manpower_recovery_10
-                has_active_policy = dse_policy_manpower_recovery_11
-                has_active_policy = dse_policy_manpower_recovery_12
-
-				
-			}
-		}
 	}
 		
 	manpower_recovery_speed = 0.15
@@ -388,25 +236,6 @@ dse_policy_manpower_recovery_9 = {
             full_idea_group = galle0
             full_idea_group = gross0
 		}
-		NOT = {
-			calc_true_if = {
-				amount = 2
-				has_active_policy = dse_policy_manpower_recovery_1
-                has_active_policy = dse_policy_manpower_recovery_2
-                has_active_policy = dse_policy_manpower_recovery_3
-                has_active_policy = dse_policy_manpower_recovery_4
-                has_active_policy = dse_policy_manpower_recovery_5
-                has_active_policy = dse_policy_manpower_recovery_6
-                has_active_policy = dse_policy_manpower_recovery_7
-                has_active_policy = dse_policy_manpower_recovery_8
-                has_active_policy = dse_policy_manpower_recovery_9
-                has_active_policy = dse_policy_manpower_recovery_10
-                has_active_policy = dse_policy_manpower_recovery_11
-                has_active_policy = dse_policy_manpower_recovery_12
-
-				
-			}
-		}
 	}
 		
 	manpower_recovery_speed = 0.15
@@ -441,25 +270,6 @@ dse_policy_manpower_recovery_10 = {
             full_idea_group = dezentra0
             full_idea_group = zentra0
         }
-		NOT = {
-			calc_true_if = {
-				amount = 2
-				has_active_policy = dse_policy_manpower_recovery_1
-                has_active_policy = dse_policy_manpower_recovery_2
-                has_active_policy = dse_policy_manpower_recovery_3
-                has_active_policy = dse_policy_manpower_recovery_4
-                has_active_policy = dse_policy_manpower_recovery_5
-                has_active_policy = dse_policy_manpower_recovery_6
-                has_active_policy = dse_policy_manpower_recovery_7
-                has_active_policy = dse_policy_manpower_recovery_8
-                has_active_policy = dse_policy_manpower_recovery_9
-                has_active_policy = dse_policy_manpower_recovery_10
-                has_active_policy = dse_policy_manpower_recovery_11
-                has_active_policy = dse_policy_manpower_recovery_12
-
-				
-			}
-		}
 	}
 		
 	manpower_recovery_speed = 0.15
@@ -486,25 +296,6 @@ dse_policy_manpower_recovery_11 = {
 	allow = {
 		full_idea_group = shock0
 		full_idea_group = flottenbasis0
-		NOT = {
-			calc_true_if = {
-				amount = 2
-				has_active_policy = dse_policy_manpower_recovery_1
-                has_active_policy = dse_policy_manpower_recovery_2
-                has_active_policy = dse_policy_manpower_recovery_3
-                has_active_policy = dse_policy_manpower_recovery_4
-                has_active_policy = dse_policy_manpower_recovery_5
-                has_active_policy = dse_policy_manpower_recovery_6
-                has_active_policy = dse_policy_manpower_recovery_7
-                has_active_policy = dse_policy_manpower_recovery_8
-                has_active_policy = dse_policy_manpower_recovery_9
-                has_active_policy = dse_policy_manpower_recovery_10
-                has_active_policy = dse_policy_manpower_recovery_11
-                has_active_policy = dse_policy_manpower_recovery_12
-
-				
-			}
-		}
 	}
 		
 	manpower_recovery_speed = 0.15
@@ -540,25 +331,6 @@ dse_policy_manpower_recovery_12 = {
             full_idea_group = handel0
             full_idea_group = galle0
             full_idea_group = gross0
-		}
-		NOT = {
-			calc_true_if = {
-				amount = 2
-				has_active_policy = dse_policy_manpower_recovery_1
-                has_active_policy = dse_policy_manpower_recovery_2
-                has_active_policy = dse_policy_manpower_recovery_3
-                has_active_policy = dse_policy_manpower_recovery_4
-                has_active_policy = dse_policy_manpower_recovery_5
-                has_active_policy = dse_policy_manpower_recovery_6
-                has_active_policy = dse_policy_manpower_recovery_7
-                has_active_policy = dse_policy_manpower_recovery_8
-                has_active_policy = dse_policy_manpower_recovery_9
-                has_active_policy = dse_policy_manpower_recovery_10
-                has_active_policy = dse_policy_manpower_recovery_11
-                has_active_policy = dse_policy_manpower_recovery_12
-
-				
-			}
 		}
 	}
 		
