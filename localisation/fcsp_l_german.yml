@@ -1,0 +1,8 @@
+﻿l_german:
+ fcsp_events.1.t:0 "Platzhalter-Title FCSP"
+ fcsp_events.1.d:0 "Bitte schreiben Sie eine Nachricht unter Bugreports im Steam Workshop."
+ fcsp_events.1.o:0 "OK?"
+ set_fcsp_behavior_title:0 "Altes Verhalten nutzen (FeN-Mod)"
+ set_fcsp_behavior_desc:0 "Beim alten Verhalten werden Provinzen, welche im Einflussbereich von unbesetzten Festungen liegen, nach erfolgreicher Belagerung mit eingenommen."
+ reset_fcsp_behavior_title:0 "Neues Verhalten nutzen (FeN-Mod)"
+ reset_fcsp_behavior_desc:0 "Beim neuen Verhalten werden Provinzen, welche im Einflussbereich von unbesetzten Festungen liegen, nach erfolgreicher Belagerung nicht mit eingenommen."
