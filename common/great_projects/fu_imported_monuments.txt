@@ -14,7 +14,7 @@ fu_vladislav_hall = {
 	build_cost = 500
 	
 	#can we move it?
-	  can_be_moved = yes
+	can_be_moved = no
 	
 	#time to move the project one unit of distance, in days
 	move_days_per_unit_distance = 1
@@ -556,7 +556,7 @@ fu_kinkaku_ji = {
 	build_cost = 1000
 	
 	#can we move it?
-	  can_be_moved = yes 
+	can_be_moved = no 
 	
 	#time to move the project one unit of distance, in days
 	move_days_per_unit_distance = 1
@@ -731,7 +731,7 @@ fu_venetian_arsenal = {
 	build_cost = 500
 	
 	#can we move it?
-	  can_be_moved = yes
+	can_be_moved = no
 	
 	#time to move the project one unit of distance, in days
 	move_days_per_unit_distance = 1
@@ -761,7 +761,7 @@ fu_venetian_arsenal = {
 				full_idea_group = naval_ideas
 				custom_trigger_tooltip = {
 					tooltip = general_tooltip_special_reward_tt
-					  
+					has_country_flag = lan_allow_access_to_venetian_arsenal_flag
 				}
 			}
 		}
@@ -911,7 +911,7 @@ fu_warsaw_palace = {
 	build_cost = 500
 	
 	#can we move it?
-	  can_be_moved = yes
+	can_be_moved = no
 	
 	#time to move the project one unit of distance, in days
 	move_days_per_unit_distance = 1
@@ -931,7 +931,7 @@ fu_warsaw_palace = {
 				tag = PLC
 				custom_trigger_tooltip = {
 					tooltip = general_tooltip_special_reward_tt
-					  
+					has_country_flag = enable_access_royal_castle_warsaw_flag
 				}
 				primary_culture = polish
 			}
@@ -946,7 +946,7 @@ fu_warsaw_palace = {
 				tag = PLC 
 				custom_trigger_tooltip = {
 					tooltip = general_tooltip_special_reward_tt
-					  
+					has_country_flag = enable_access_royal_castle_warsaw_flag
 				}
 				primary_culture = polish
 			}
@@ -962,7 +962,7 @@ fu_warsaw_palace = {
 				tag = PLC 
 				custom_trigger_tooltip = {
 					tooltip = general_tooltip_special_reward_tt
-					  
+					has_country_flag = enable_access_royal_castle_warsaw_flag
 				}
 				primary_culture = polish
 			}
@@ -1300,7 +1300,7 @@ fu_terracotta_army = { #costs are high but it's ming so... yeah
 	build_cost = 500
 	
 	#can we move it?
-	  can_be_moved = yes
+	can_be_moved = no
 	
 	#time to move the project one unit of distance, in days
 	move_days_per_unit_distance = 1
@@ -1602,7 +1602,7 @@ fu_pharos_alexandria = {
 	
 	build_cost = 500
 	
-	  can_be_moved = yes
+	can_be_moved = no
 	
 	move_days_per_unit_distance = 1
 	
@@ -1715,7 +1715,7 @@ fu_pharos_alexandria = {
 		conditional_modifier = {
 			trigger = {
 				owner = {
-					  
+					has_country_flag = MAM_pharos_of_alexandria_buff
 				}
 			}
 			modifier = {
@@ -1767,7 +1767,7 @@ fu_red_fort = {
 	
 	build_cost = 1000
 	
-	  can_be_moved = yes
+	can_be_moved = no
 	
 	move_days_per_unit_distance = 1
 	
@@ -1786,7 +1786,7 @@ fu_red_fort = {
 				technology_group = indian
 				custom_trigger_tooltip = {
 					tooltip = per_delhi_requirement_tt
-					  
+					has_country_flag = per_delhi_requirement_flag
 				}
 			}
 		}
@@ -1799,7 +1799,7 @@ fu_red_fort = {
 				technology_group = indian
 				custom_trigger_tooltip = {
 					tooltip = per_delhi_requirement_tt
-					  
+					has_country_flag = per_delhi_requirement_flag
 				}
 			}
 		}
@@ -2058,7 +2058,7 @@ fu_leaning_tower = {
 	
 	build_cost = 500
 	
-	  can_be_moved = yes
+	can_be_moved = no
 	
 	move_days_per_unit_distance = 1
 	
@@ -2196,7 +2196,7 @@ fu_theodosian_walls = {
 	
 	build_cost = 500
 	
-	  can_be_moved = yes
+	can_be_moved = no
 	
 	move_days_per_unit_distance = 1
 	
@@ -2322,7 +2322,7 @@ fu_library_alexandria = {
 	
 	build_cost = 1250
 	
-	  can_be_moved = yes
+	can_be_moved = no
 	
 	move_days_per_unit_distance = 2
 	
@@ -2461,7 +2461,7 @@ fu_kasbah_of_tunis = {
 	
 	build_cost = 500
 	
-	  can_be_moved = yes
+	can_be_moved = no
 	
 	move_days_per_unit_distance = 2
 	
@@ -2594,7 +2594,7 @@ fu_blue_mosque = {
 	
 	build_cost = 250
 	
-	  can_be_moved = yes
+	can_be_moved = no
 	
 	move_days_per_unit_distance = 2
 	
@@ -2735,7 +2735,7 @@ fu_isfahan_city = {
 	
 	build_cost = 250
 	
-	  can_be_moved = yes
+	can_be_moved = no
 	
 	move_days_per_unit_distance = 2
 	
@@ -2873,7 +2873,7 @@ fu_potala_palace = {
 	
 	build_cost = 500
 	
-	  can_be_moved = yes
+	can_be_moved = no
 	
 	move_days_per_unit_distance = 2
 	
@@ -2994,7 +2994,7 @@ fu_walls_of_ragusa = {
 	
 	build_cost = 250
 	
-	  can_be_moved = yes
+	can_be_moved = no
 	
 	move_days_per_unit_distance = 2
 	
@@ -3112,7 +3112,7 @@ fu_foreign_quarters = {
 	
 	build_cost = 1000
 	
-	  can_be_moved = yes
+	can_be_moved = no
 	
 	move_days_per_unit_distance = 2
 	
@@ -3244,7 +3244,7 @@ fu_lingyin_temple = {
 	
 	build_cost = 250
 	
-	  can_be_moved = yes
+	can_be_moved = no
 	
 	move_days_per_unit_distance = 2
 	
@@ -3369,7 +3369,7 @@ fu_edinburgh_castle = {
 	
 	build_cost = 250
 	
-	  can_be_moved = yes
+	can_be_moved = no
 	
 	move_days_per_unit_distance = 2
 	
@@ -3624,7 +3624,7 @@ fu_amsterdam_stock_exchange = {
 	
 	build_cost = 750
 	
-	  can_be_moved = yes
+	can_be_moved = no
 	
 	move_days_per_unit_distance = 2
 	
@@ -3762,7 +3762,7 @@ fu_university_vienna = {
 	
 	build_cost = 1500
 	
-	  can_be_moved = yes
+	can_be_moved = no
 	
 	move_days_per_unit_distance = 2
 	
@@ -3891,7 +3891,7 @@ fu_white_tower = {
 	
 	build_cost = 250
 	
-	  can_be_moved = yes
+	can_be_moved = no
 	
 	move_days_per_unit_distance = 2
 	
@@ -4013,7 +4013,7 @@ fu_ali_qapu = {
 	
 	build_cost = 500
 	
-	  can_be_moved = yes
+	can_be_moved = no
 	
 	move_days_per_unit_distance = 2
 	
@@ -4149,7 +4149,7 @@ fu_ishtar_gate = {
 	
 	build_cost = 500
 	
-	  can_be_moved = yes
+	can_be_moved = no
 	
 	move_days_per_unit_distance = 2
 	
@@ -4277,7 +4277,7 @@ fu_brugge_dike = {
 	
 	build_cost = 100
 	
-	  can_be_moved = yes
+	can_be_moved = no
 	
 	move_days_per_unit_distance = 2
 	
@@ -4429,7 +4429,7 @@ fu_gent_dike = {
 	
 	build_cost = 100
 	
-	  can_be_moved = yes
+	can_be_moved = no
 	
 	move_days_per_unit_distance = 2
 	
@@ -4566,7 +4566,7 @@ fu_antwerp_dike = {
 	
 	build_cost = 100
 	
-	  can_be_moved = yes
+	can_be_moved = no
 	
 	move_days_per_unit_distance = 2
 	
@@ -4703,7 +4703,7 @@ fu_zeeland_dike = {
 	
 	build_cost = 100
 	
-	  can_be_moved = yes
+	can_be_moved = no
 	
 	move_days_per_unit_distance = 2
 	
@@ -4840,7 +4840,7 @@ fu_den_haag_dike = {
 	
 	build_cost = 100
 	
-	  can_be_moved = yes
+	can_be_moved = no
 	
 	move_days_per_unit_distance = 2
 	
@@ -4977,7 +4977,7 @@ fu_amsterdam_dike = {
 	
 	build_cost = 100
 	
-	  can_be_moved = yes
+	can_be_moved = no
 	
 	move_days_per_unit_distance = 2
 	
@@ -5114,7 +5114,7 @@ fu_admiralty_amsterdam = {
 	
 	build_cost = 1500
 	
-	  can_be_moved = yes
+	can_be_moved = no
 	
 	move_days_per_unit_distance = 2
 	
@@ -5196,7 +5196,7 @@ fu_admiralty_amsterdam = {
 		on_upgraded = {
 			if = {
 				limit = { 
-					owner = {   
+					owner = { has_country_flag = enables_ned_hol_naval_professionalism_mechanic }
 				}
 				owner = { 
 					change_variable = { naval_professionalism_var = 5 }
@@ -5231,7 +5231,7 @@ fu_admiralty_amsterdam = {
 		on_upgraded = {
 			if = {
 				limit = { 
-					owner = {   
+					owner = { has_country_flag = enables_ned_hol_naval_professionalism_mechanic }
 				}
 				owner = { 
 					change_variable = { naval_professionalism_var = 5 }
@@ -5267,7 +5267,7 @@ fu_admiralty_amsterdam = {
 		on_upgraded = { 
 			if = {
 				limit = { 
-					owner = {   
+					owner = { has_country_flag = enables_ned_hol_naval_professionalism_mechanic }
 				}
 				owner = { 
 					change_variable = { naval_professionalism_var = 5 }
@@ -5291,7 +5291,7 @@ fu_topkapi_palace = {
 	
 	build_cost = 750
 	
-	  can_be_moved = yes
+	can_be_moved = no
 	
 	move_days_per_unit_distance = 2
 	
@@ -5422,7 +5422,7 @@ fu_bosphorus_toll = {
 	
 	build_cost = 750
 	
-	  can_be_moved = yes
+	can_be_moved = no
 	
 	move_days_per_unit_distance = 2
 	
@@ -5531,7 +5531,7 @@ fu_port_havana = {
 	
 	build_cost = 150
 	
-	  can_be_moved = yes
+	can_be_moved = no
 	
 	move_days_per_unit_distance = 2
 	
@@ -5647,7 +5647,7 @@ fu_toob_benadir = {
 	
 	build_cost = 500
 	
-	  can_be_moved = yes
+	can_be_moved = no
 	
 	move_days_per_unit_distance = 2
 	

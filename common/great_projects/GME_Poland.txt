@@ -3,7 +3,7 @@ gme_cathedral_poznan = {
 	date = 1.01.01
 	time = { months = 120 }
 	build_cost = 1000
-	  can_be_moved = yes
+	can_be_moved = no
 	starting_tier = 1
 	type = monument
 	build_trigger = { }
@@ -116,7 +116,7 @@ gme_jagielon_university = {
 	date = 1.01.01
 	time = { months = 120 }
 	build_cost = 1000
-	  can_be_moved = yes
+	can_be_moved = no
 	starting_tier = 1
 	type = monument
 	build_trigger = { }
@@ -223,7 +223,7 @@ gme_lazienki_park = {
 	date = 1.01.01
 	time = { months = 120 }
 	build_cost = 1000
-	  can_be_moved = yes
+	can_be_moved = no
 	starting_tier = 0
 	type = monument
 	build_trigger = { }
@@ -368,7 +368,7 @@ gme_saint_mary_basilica = {
 	date = 1.01.01
 	time = { months = 120 }
 	build_cost = 1000
-	  can_be_moved = yes
+	can_be_moved = no
 	starting_tier = 1
 	type = monument
 	build_trigger = { }
@@ -467,7 +467,7 @@ gme_wawel = {
 	date = 1.01.01
 	time = { months = 120 }
 	build_cost = 1000
-	  can_be_moved = yes
+	can_be_moved = no
 	starting_tier = 1
 	type = monument
 	build_trigger = { }
@@ -576,7 +576,7 @@ gme_zamosc_city = {
 	build_cost = 1000
 	starting_tier = 1
 	type = monument
-	  can_be_moved = yes
+	can_be_moved = no
 	build_trigger = { }
 	on_built = { }
 	on_destroyed = { }
