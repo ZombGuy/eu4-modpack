@@ -6,12 +6,12 @@ fu_sari_markets = {
 		months = 60
 	}
 	build_cost = 1000
-	can_be_moved = no
+	  can_be_moved = yes
 	starting_tier = 1
 	type = canal
 	build_trigger = {
 		FROM = {
-			has_country_flag = tur_markets_of_sari_flag
+			  
 		}
 	}
 	on_built = { }
@@ -112,12 +112,12 @@ fu_hormuz_toll = {
 		months = 60
 	}
 	build_cost = 1500
-	can_be_moved = no
+	  can_be_moved = yes
 	starting_tier = 1
 	type = canal
 	build_trigger = {
 		FROM = {
-			has_country_flag = fu_hormuz_toll_flag
+			  
 		}
 	}
 	on_built = { }
@@ -243,12 +243,12 @@ fu_mehmed_pasha_mosque = {
 		months = 60
 	}
 	build_cost = 0
-	can_be_moved = no
+	  can_be_moved = yes
 	starting_tier = 1
 	type = canal
 	build_trigger = {
 		FROM = {
-			has_country_flag = tur_taken_decision_to_build_mehmed_pasha_mosque_flag
+			  
 		}
 	}
 	on_built = { }
@@ -347,12 +347,12 @@ fu_acemi_oglan = {
 		months = 60
 	}
 	build_cost = 0
-	can_be_moved = no
+	  can_be_moved = yes
 	starting_tier = 1
 	type = canal
 	build_trigger = {
 		FROM = {
-			has_country_flag = tur_gain_access_to_acemi_oglan_academy_flag
+			  
 		}
 	}
 	on_built = { }
@@ -451,12 +451,12 @@ fu_holy_cross_cathedral = {
 		months = 24
 	}
 	build_cost = 0
-	can_be_moved = no
+	  can_be_moved = yes
 	starting_tier = 1
 	type = canal
 	build_trigger = {
 		FROM = {
-			has_country_flag = orl_enable_holy_cross_cathedral_flag
+			  
 		}
 	}
 	on_built = { }

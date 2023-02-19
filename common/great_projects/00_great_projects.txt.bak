@@ -204,10 +204,15 @@ suez_canal = {
 	#can we build it?
 	build_trigger = {
 		FROM = {
+			OR = { 
+				AND = { 
 					owns_or_vassal_of = 4316
 					owns_or_vassal_of = 2315
 					is_subject = no
 					adm_tech = 22
+				}
+				  
+			}
 		}
 	}
 
@@ -292,7 +297,6 @@ suez_canal = {
 
 		#what effects happen when this tier is achieved
 		on_upgraded = {
-			owner = { add_prestige = 40 }
 		}
 	}
 
@@ -384,9 +388,20 @@ panama_canal = {
 	#can we build it?
 	build_trigger = {
 		FROM = {
+			OR = { 
+				AND = {
 					owns_or_vassal_of = 835
 					is_subject = no
 					adm_tech = 22
+				}
+				AND = { 
+					custom_trigger_tooltip = {
+						tooltip = nss_enable_construction_of_panama_tt
+						  
+					}
+					owns_or_vassal_of = 835
+				}
+			}
 		}
 	}
 
@@ -471,7 +486,6 @@ panama_canal = {
 
 		#what effects happen when this tier is achieved
 		on_upgraded = {
-			owner = { add_prestige = 50 }
 		}
 	}
 

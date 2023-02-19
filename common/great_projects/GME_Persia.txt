@@ -3,7 +3,7 @@ gme_agha_bozorg_mosque = {
 	date = 1.01.01
 	time = { months = 120 }
 	build_cost = 1000
-	can_be_moved = no
+	  can_be_moved = yes
 	starting_tier = 0
 	type = monument
 	build_trigger = { }
@@ -120,7 +120,7 @@ gme_bazaar_tabriz = {
 	build_cost = 1000
 	starting_tier = 1
 	type = monument
-	can_be_moved = no
+	  can_be_moved = yes
 	build_trigger = { }
 	on_built = { }
 	on_destroyed = { }
@@ -226,7 +226,7 @@ gme_behistun_inscription = {
 	date = 1.01.01
 	time = { months = 120 }
 	build_cost = 1000
-	can_be_moved = no
+	  can_be_moved = yes
 	starting_tier = 1
 	type = monument
 	build_trigger = { }
@@ -309,7 +309,7 @@ gme_chaharbagh_school = {
 	date = 1.01.01
 	time = { months = 120 }
 	build_cost = 1000
-	can_be_moved = no
+	  can_be_moved = yes
 	starting_tier = 1
 	type = monument
 	build_trigger = { }
@@ -414,7 +414,7 @@ gme_golestan_palace = {
 	date = 1.01.01
 	time = { months = 120 }
 	build_cost = 1000
-	can_be_moved = no
+	  can_be_moved = yes
 	starting_tier = 0
 	type = monument
 	build_trigger = { }
@@ -515,7 +515,7 @@ gme_gonbad_qabus_tower = {
 	date = 1.01.01
 	time = { months = 120 }
 	build_cost = 1000
-	can_be_moved = no
+	  can_be_moved = yes
 	starting_tier = 1
 	type = monument
 	build_trigger = { }
@@ -589,7 +589,7 @@ gme_maragheh_observatory = {
 	date = 1.01.01
 	time = { months = 120 }
 	build_cost = 1000
-	can_be_moved = no
+	  can_be_moved = yes
 	starting_tier = 1
 	type = monument
 	build_trigger = { }
@@ -702,7 +702,7 @@ gme_sheikh_safi = {
 	date = 1.01.01
 	time = { months = 120 }
 	build_cost = 1000
-	can_be_moved = no
+	  can_be_moved = yes
 	starting_tier = 1
 	type = monument
 	build_trigger = { }
@@ -803,7 +803,7 @@ gme_towers_silence = {
 	date = 1.01.01
 	time = { months = 120 }
 	build_cost = 1000
-	can_be_moved = no
+	  can_be_moved = yes
 	starting_tier = 1
 	type = monument
 	build_trigger = { }
@@ -877,7 +877,7 @@ gme_vank_cathedral = {
 	date = 1.01.01
 	time = { months = 120 }
 	build_cost = 1000
-	can_be_moved = no
+	  can_be_moved = yes
 	starting_tier = 2
 	type = monument
 	build_trigger = { }

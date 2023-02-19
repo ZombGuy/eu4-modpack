@@ -14,7 +14,7 @@ hagia_sophia = {
 	build_cost = 0
 	
 	#can we move it?
-	can_be_moved = yes
+	  can_be_moved = yes
 	
 	#time to move the project one unit of distance, in days
 	move_days_per_unit_distance = 10
@@ -27,6 +27,39 @@ hagia_sophia = {
 
 	#can we build it?
 	build_trigger = {
+		custom_trigger_tooltip = {
+			tooltip = hagia_sophia_tt
+			OR = {
+				AND = {
+					OR = {
+						religion = orthodox
+						religion = coptic
+						religion = catholic
+						religion_group = muslim
+					}
+					has_owner_religion = yes
+				}
+				AND = {
+					owner = {
+						OR = {
+							secondary_religion = orthodox
+							secondary_religion = coptic
+							secondary_religion = catholic
+							secondary_religion = sunni
+							secondary_religion = shiite
+							secondary_religion = ibadi
+						}
+					}
+					OR = {
+						religion = orthodox
+						religion = coptic
+						religion = catholic
+						religion_group = muslim
+						has_owner_religion = yes
+					}
+				}
+			}
+		}
 	}
 
 	#what to do when it's built
@@ -50,10 +83,76 @@ hagia_sophia = {
 
 	#can our country use it?
 	can_use_modifiers_trigger = {
+		custom_trigger_tooltip = {
+			tooltip = hagia_sophia_tt
+			OR = {
+				AND = {
+					OR = {
+						religion = orthodox
+						religion = coptic
+						religion = catholic
+						religion_group = muslim
+					}
+					has_owner_religion = yes
+				}
+				AND = {
+					owner = {
+						OR = {
+							secondary_religion = orthodox
+							secondary_religion = coptic
+							secondary_religion = catholic
+							secondary_religion = sunni
+							secondary_religion = shiite
+							secondary_religion = ibadi
+						}
+					}
+					OR = {
+						religion = orthodox
+						religion = coptic
+						religion = catholic
+						religion_group = muslim
+						has_owner_religion = yes
+					}
+				}
+			}
+		}
 	}
 
 	#can our country upgrade it?
 	can_upgrade_trigger = {
+		custom_trigger_tooltip = {
+			tooltip = hagia_sophia_tt
+			OR = {
+				AND = {
+					OR = {
+						religion = orthodox
+						religion = coptic
+						religion = catholic
+						religion_group = muslim
+					}
+					has_owner_religion = yes
+				}
+				AND = {
+					owner = {
+						OR = {
+							secondary_religion = orthodox
+							secondary_religion = coptic
+							secondary_religion = catholic
+							secondary_religion = sunni
+							secondary_religion = shiite
+							secondary_religion = ibadi
+						}
+					}
+					OR = {
+						religion = orthodox
+						religion = coptic
+						religion = catholic
+						religion_group = muslim
+						has_owner_religion = yes
+					}
+				}
+			}
+		}
 	}
 
 	#can our country keep it or is it destroyed when we get hold of it?
@@ -230,6 +329,15 @@ stonehenge = {
 
 	#can we build it?
 	build_trigger = {
+		OR = {
+			province_is_or_accepts_religion_group = {
+				religion_group = pagan
+			}
+			AND = {
+				culture = english
+				province_is_or_accepts_culture = yes
+			}
+		}
 	}
 
 	#what to do when it's built
@@ -244,10 +352,28 @@ stonehenge = {
 
 	#can our country use it?
 	can_use_modifiers_trigger = {
+		OR = {
+			province_is_or_accepts_religion_group = {
+				religion_group = pagan
+			}
+			AND = {
+				culture = english
+				province_is_or_accepts_culture = yes
+			}
+		}	
 	}
 
 	#can our country upgrade it?
 	can_upgrade_trigger = {
+		OR = {
+			province_is_or_accepts_religion_group = {
+				religion_group = pagan
+			}
+			AND = {
+				culture = english
+				province_is_or_accepts_culture = yes
+			}
+		}
 	}
 
 	#can our country keep it or is it destroyed when we get hold of it?
@@ -393,7 +519,7 @@ tower_of_london = {
 	build_cost = 0
 	
 	#can we move it?
-	can_be_moved = yes
+	  can_be_moved = yes
 	
 	#time to move the project one unit of distance, in days
 	move_days_per_unit_distance = 7
@@ -406,6 +532,16 @@ tower_of_london = {
 
 	#can we build it?
 	build_trigger = {
+		OR = {
+			AND = {
+				culture = normand
+				province_is_or_accepts_culture = yes
+			}
+			AND = {
+				culture_group = british
+				province_is_or_accepts_culture = yes
+			}
+		}
 	}
 
 	#what to do when it's built
@@ -420,10 +556,30 @@ tower_of_london = {
 
 	#can our country use it?
 	can_use_modifiers_trigger = {
+		OR = {
+			AND = {
+				culture = normand
+				province_is_or_accepts_culture = yes
+			}
+			AND = {
+				culture_group = british
+				province_is_or_accepts_culture = yes
+			}
+		}
 	}
 
 	#can our country upgrade it?
 	can_upgrade_trigger = {
+		OR = {
+			AND = {
+				culture = normand
+				province_is_or_accepts_culture = yes
+			}
+			AND = {
+				culture_group = british
+				province_is_or_accepts_culture = yes
+			}
+		}
 	}
 
 	#can our country keep it or is it destroyed when we get hold of it?
@@ -581,6 +737,7 @@ buddha_statues = {
 
 	#can we build it?
 	build_trigger = {
+		province_is_buddhist_or_accepts_buddhism = yes
 	}
 
 	#what to do when it's built
@@ -597,10 +754,12 @@ buddha_statues = {
 
 	#can our country use it?
 	can_use_modifiers_trigger = {
+		province_is_buddhist_or_accepts_buddhism = yes
 	}
 
 	#can our country upgrade it?
 	can_upgrade_trigger = {
+		province_is_buddhist_or_accepts_buddhism = yes
 	}
 
 	#can our country keep it or is it destroyed when we get hold of it?
@@ -746,7 +905,7 @@ parthenon = {
 	build_cost = 0
 	
 	#can we move it?
-	can_be_moved = yes
+	  can_be_moved = yes
 	
 	#time to move the project one unit of distance, in days
 	move_days_per_unit_distance = 6
@@ -759,6 +918,19 @@ parthenon = {
 
 	#can we build it?
 	build_trigger = {
+		OR = {
+			province_is_or_accepts_religion_group = {
+				religion_group = pagan
+			}
+			AND = {
+				culture = greek
+				province_is_or_accepts_culture = yes
+			}
+			AND = {
+				culture = athenian
+				province_is_or_accepts_culture = yes
+			}
+		}	
 	}
 
 	#what to do when it's built
@@ -782,10 +954,36 @@ parthenon = {
 
 	#can our country use it?
 	can_use_modifiers_trigger = {
+		OR = {
+			province_is_or_accepts_religion_group = {
+				religion_group = pagan
+			}
+			AND = {
+				culture = greek
+				province_is_or_accepts_culture = yes
+			}
+			AND = {
+				culture = athenian
+				province_is_or_accepts_culture = yes
+			}
+		}
 	}
 
 	#can our country upgrade it?
 	can_upgrade_trigger = {
+		OR = {
+			province_is_or_accepts_religion_group = {
+				religion_group = pagan
+			}
+			AND = {
+				culture = greek
+				province_is_or_accepts_culture = yes
+			}
+			AND = {
+				culture = athenian
+				province_is_or_accepts_culture = yes
+			}
+		}
 	}
 
 	#can our country keep it or is it destroyed when we get hold of it?
@@ -931,7 +1129,7 @@ forbidden_city = {
 	build_cost = 0
 	
 	#can we move it?
-	can_be_moved = yes
+	  can_be_moved = yes
 	
 	#time to move the project one unit of distance, in days
 	move_days_per_unit_distance = 10
@@ -944,6 +1142,9 @@ forbidden_city = {
 
 	#can we build it?
 	build_trigger = {
+		owner = {
+			has_reform = celestial_empire
+		}
 	}
 
 	#what to do when it's built
@@ -958,10 +1159,16 @@ forbidden_city = {
 
 	#can our country use it?
 	can_use_modifiers_trigger = {
+		owner = {
+			has_reform = celestial_empire
+		}
 	}
 
 	#can our country upgrade it?
 	can_upgrade_trigger = {
+		owner = {
+			has_reform = celestial_empire
+		}
 	}
 
 	#can our country keep it or is it destroyed when we get hold of it?
@@ -1106,7 +1313,7 @@ angkor_wat = {
 	build_cost = 0
 	
 	#can we move it?
-	can_be_moved = yes
+	  can_be_moved = yes
 	
 	#time to move the project one unit of distance, in days
 	move_days_per_unit_distance = 10
@@ -1119,6 +1326,7 @@ angkor_wat = {
 
 	#can we build it?
 	build_trigger = {
+		province_is_buddhist_or_accepts_buddhism = yes
 	}
 
 	#what to do when it's built
@@ -1133,10 +1341,12 @@ angkor_wat = {
 
 	#can our country use it?
 	can_use_modifiers_trigger = {
+		province_is_buddhist_or_accepts_buddhism = yes
 	}
 
 	#can our country upgrade it?
 	can_upgrade_trigger = {
+		province_is_buddhist_or_accepts_buddhism = yes
 	}
 
 	#can our country keep it or is it destroyed when we get hold of it?
@@ -1291,7 +1501,7 @@ petra = {
 	build_cost = 0
 	
 	#can we move it?
-	can_be_moved = yes
+	  can_be_moved = yes
 	
 	#time to move the project one unit of distance, in days
 	move_days_per_unit_distance = 10
@@ -1304,6 +1514,16 @@ petra = {
 
 	#can we build it?
 	build_trigger = {
+		OR = {
+			AND = {
+				culture = al_suryah_arabic
+				province_is_or_accepts_culture = yes
+			}
+			AND = {
+				culture = bedouin_arabic
+				province_is_or_accepts_culture = yes
+			}
+		}
 	}
 
 	#what to do when it's built
@@ -1318,10 +1538,30 @@ petra = {
 
 	#can our country use it?
 	can_use_modifiers_trigger = {
+		OR = {
+			AND = {
+				culture = al_suryah_arabic
+				province_is_or_accepts_culture = yes
+			}
+			AND = {
+				culture = bedouin_arabic
+				province_is_or_accepts_culture = yes
+			}
+		}
 	}
 
 	#can our country upgrade it?
 	can_upgrade_trigger = {
+		OR = {
+			AND = {
+				culture = al_suryah_arabic
+				province_is_or_accepts_culture = yes
+			}
+			AND = {
+				culture = bedouin_arabic
+				province_is_or_accepts_culture = yes
+			}
+		}
 	}
 
 	#can our country keep it or is it destroyed when we get hold of it?
@@ -1467,7 +1707,7 @@ cologne_cathedral = {
 	build_cost = 0
 	
 	#can we move it?
-	can_be_moved = yes
+	  can_be_moved = yes
 	
 	#time to move the project one unit of distance, in days
 	move_days_per_unit_distance = 10
@@ -1480,6 +1720,9 @@ cologne_cathedral = {
 
 	#can we build it?
 	build_trigger = {
+		province_is_or_accepts_religion_group = {
+			religion_group = christian
+		}
 	}
 
 	#what to do when it's built
@@ -1494,10 +1737,16 @@ cologne_cathedral = {
 
 	#can our country use it?
 	can_use_modifiers_trigger = {
+		province_is_or_accepts_religion_group = {
+			religion_group = christian
+		}
 	}
 
 	#can our country upgrade it?
 	can_upgrade_trigger = {
+		province_is_or_accepts_religion_group = {
+			religion_group = christian
+		}
 	}
 
 	#can our country keep it or is it destroyed when we get hold of it?
@@ -1658,7 +1907,7 @@ kremlin = {
 	build_cost = 0
 	
 	#can we move it?
-	can_be_moved = yes
+	  can_be_moved = yes
 	
 	#time to move the project one unit of distance, in days
 	move_days_per_unit_distance = 1
@@ -1671,6 +1920,8 @@ kremlin = {
 
 	#can we build it?
 	build_trigger = {
+		culture_group = east_slavic
+		province_is_or_accepts_culture = yes
 	}
 
 	#what to do when it's built
@@ -1685,10 +1936,14 @@ kremlin = {
 
 	#can our country use it?
 	can_use_modifiers_trigger = {
+		culture_group = east_slavic
+		province_is_or_accepts_culture = yes
 	}
 
 	#can our country upgrade it?
 	can_upgrade_trigger = {
+		culture_group = east_slavic
+		province_is_or_accepts_culture = yes
 	}
 
 	#can our country keep it or is it destroyed when we get hold of it?
@@ -1833,7 +2088,7 @@ machu_picchu = {
 	build_cost = 0
 	
 	#can we move it?
-	can_be_moved = yes
+	  can_be_moved = yes
 	
 	#time to move the project one unit of distance, in days
 	move_days_per_unit_distance = 1
@@ -1846,6 +2101,8 @@ machu_picchu = {
 
 	#can we build it?
 	build_trigger = {
+		culture_group = andean_group
+		province_is_or_accepts_culture = yes
 	}
 
 	#what to do when it's built
@@ -1860,10 +2117,14 @@ machu_picchu = {
 
 	#can our country use it?
 	can_use_modifiers_trigger = {
+		culture_group = andean_group
+		province_is_or_accepts_culture = yes
 	}
 
 	#can our country upgrade it?
 	can_upgrade_trigger = {
+		culture_group = andean_group
+		province_is_or_accepts_culture = yes
 	}
 
 	#can our country keep it or is it destroyed when we get hold of it?
@@ -2018,7 +2279,7 @@ chichen_itza = {
 	build_cost = 0
 	
 	#can we move it?
-	can_be_moved = yes
+	  can_be_moved = yes
 	
 	#time to move the project one unit of distance, in days
 	move_days_per_unit_distance = 1
@@ -2031,6 +2292,8 @@ chichen_itza = {
 
 	#can we build it?
 	build_trigger = {
+		culture_group = maya
+		province_is_or_accepts_culture = yes
 	}
 
 	#what to do when it's built
@@ -2045,10 +2308,14 @@ chichen_itza = {
 
 	#can our country use it?
 	can_use_modifiers_trigger = {
+		culture_group = maya
+		province_is_or_accepts_culture = yes
 	}
 
 	#can our country upgrade it?
 	can_upgrade_trigger = {
+		culture_group = maya
+		province_is_or_accepts_culture = yes
 	}
 
 	#can our country keep it or is it destroyed when we get hold of it?
@@ -2210,7 +2477,7 @@ himeji_castle = {
 	build_cost = 0
 	
 	#can we move it?
-	can_be_moved = yes
+	  can_be_moved = yes
 	
 	#time to move the project one unit of distance, in days
 	move_days_per_unit_distance = 1
@@ -2401,6 +2668,8 @@ moai = {
 
 	#can we build it?
 	build_trigger = {
+		culture = polynesian
+		province_is_or_accepts_culture = yes
 	}
 
 	#what to do when it's built
@@ -2415,10 +2684,14 @@ moai = {
 
 	#can our country use it?
 	can_use_modifiers_trigger = {
+		culture = polynesian
+		province_is_or_accepts_culture = yes
 	}
 
 	#can our country upgrade it?
 	can_upgrade_trigger = {
+		culture = polynesian
+		province_is_or_accepts_culture = yes
 	}
 
 	#can our country keep it or is it destroyed when we get hold of it?
@@ -2571,7 +2844,7 @@ stpeters_cathedral = {
 	build_cost = 0
 	
 	#can we move it?
-	can_be_moved = yes
+	  can_be_moved = yes
 	
 	#time to move the project one unit of distance, in days
 	move_days_per_unit_distance = 1
@@ -2584,6 +2857,15 @@ stpeters_cathedral = {
 
 	#can we build it?
 	build_trigger = {
+		OR = {
+			province_is_or_accepts_religion = {
+				religion = catholic
+			}
+			custom_trigger_tooltip = { 
+				tooltip = tur_has_enabled_st_peters_basilica_tt
+				owner = {   
+			}
+		}
 	}
 
 	#what to do when it's built
@@ -2598,10 +2880,28 @@ stpeters_cathedral = {
 
 	#can our country use it?
 	can_use_modifiers_trigger = {
+		OR = {
+			province_is_or_accepts_religion = {
+				religion = catholic
+			}
+			custom_trigger_tooltip = { 
+				tooltip = tur_has_enabled_st_peters_basilica_tt
+				owner = {   
+			}
+		}
 	}
 
 	#can our country upgrade it?
 	can_upgrade_trigger = {
+		OR = {
+			province_is_or_accepts_religion = {
+				religion = catholic
+			}
+			custom_trigger_tooltip = { 
+				tooltip = tur_has_enabled_st_peters_basilica_tt
+				owner = {   
+			}
+		}
 	}
 
 	#can our country keep it or is it destroyed when we get hold of it?
@@ -2738,6 +3038,13 @@ stpeters_cathedral = {
 					estate = estate_church
 					loyalty = 20
 				}
+				if = { 
+					limit = {   
+					add_country_modifier = { 
+						name = tur_celebration_of_christian_traditions_modifier
+						duration = -1 
+					}
+				}
 			}
 		}
 	}
@@ -2759,7 +3066,7 @@ mount_fuji = {
 	build_cost = 0
 	
 	#can we move it?
-	can_be_moved = yes
+	  can_be_moved = yes
 	
 	#time to move the project one unit of distance, in days
 	move_days_per_unit_distance = 1
@@ -2772,6 +3079,53 @@ mount_fuji = {
 
 	#can we build it?
 	build_trigger = {
+		custom_trigger_tooltip = {
+			tooltip = mount_fuji_tt
+			OR = {		
+				AND = {
+					religion = shinto
+					has_owner_religion = yes
+				}
+				AND = {
+					religion = mahayana
+					has_owner_religion = yes
+				}
+				AND = {
+					OR = {
+						religion = shinto
+						has_owner_religion = yes
+					}
+					owner = { has_harmonized_with = shinto }
+				}
+				AND = {
+					owner = {
+						religion = tengri_pagan_reformed
+						secondary_religion = shinto
+					}
+					OR = {
+						religion = shinto
+						has_owner_religion = yes
+					}
+				}
+				AND = {
+					OR = {
+						religion = mahayana
+						has_owner_religion = yes
+					}
+					owner = { has_harmonized_with = mahayana }
+				}
+				AND = {
+					owner = {
+						religion = tengri_pagan_reformed
+						secondary_religion = mahayana
+					}
+					OR = {
+						religion = mahayana
+						has_owner_religion = yes
+					}
+				}
+			}
+		}
 	}
 
 	#what to do when it's built
@@ -2786,10 +3140,104 @@ mount_fuji = {
 
 	#can our country use it?
 	can_use_modifiers_trigger = {
+		custom_trigger_tooltip = {
+			tooltip = mount_fuji_tt
+			OR = {		
+				AND = {
+					religion = shinto
+					has_owner_religion = yes
+				}
+				AND = {
+					religion = mahayana
+					has_owner_religion = yes
+				}
+				AND = {
+					OR = {
+						religion = shinto
+						has_owner_religion = yes
+					}
+					owner = { has_harmonized_with = shinto }
+				}
+				AND = {
+					owner = {
+						religion = tengri_pagan_reformed
+						secondary_religion = shinto
+					}
+					OR = {
+						religion = shinto
+						has_owner_religion = yes
+					}
+				}
+				AND = {
+					OR = {
+						religion = mahayana
+						has_owner_religion = yes
+					}
+					owner = { has_harmonized_with = mahayana }
+				}
+				AND = {
+					owner = {
+						religion = tengri_pagan_reformed
+						secondary_religion = mahayana
+					}
+					OR = {
+						religion = mahayana
+						has_owner_religion = yes
+					}
+				}
+			}
+		}
 	}
 
 	#can our country upgrade it?
 	can_upgrade_trigger = {
+		custom_trigger_tooltip = {
+			tooltip = mount_fuji_tt
+			OR = {		
+				AND = {
+					religion = shinto
+					has_owner_religion = yes
+				}
+				AND = {
+					religion = mahayana
+					has_owner_religion = yes
+				}
+				AND = {
+					OR = {
+						religion = shinto
+						has_owner_religion = yes
+					}
+					owner = { has_harmonized_with = shinto }
+				}
+				AND = {
+					owner = {
+						religion = tengri_pagan_reformed
+						secondary_religion = shinto
+					}
+					OR = {
+						religion = shinto
+						has_owner_religion = yes
+					}
+				}
+				AND = {
+					OR = {
+						religion = mahayana
+						has_owner_religion = yes
+					}
+					owner = { has_harmonized_with = mahayana }
+				}
+				AND = {
+					owner = {
+						religion = tengri_pagan_reformed
+						secondary_religion = mahayana
+					}
+					OR = {
+						religion = mahayana
+						has_owner_religion = yes
+					}
+				}
+			}
+		}
 	}
 
 	#can our country keep it or is it destroyed when we get hold of it?
@@ -2939,7 +3387,7 @@ tenochtitlan = {
 	build_cost = 0
 	
 	#can we move it?
-	can_be_moved = yes
+	  can_be_moved = yes
 	
 	#time to move the project one unit of distance, in days
 	move_days_per_unit_distance = 1
@@ -2952,6 +3400,8 @@ tenochtitlan = {
 
 	#can we build it?
 	build_trigger = {
+		culture_group = central_american
+		province_is_or_accepts_culture = yes
 	}
 
 	#what to do when it's built
@@ -2966,10 +3416,14 @@ tenochtitlan = {
 
 	#can our country use it?
 	can_use_modifiers_trigger = {
+		culture_group = central_american
+		province_is_or_accepts_culture = yes
 	}
 
 	#can our country upgrade it?
 	can_upgrade_trigger = {
+		culture_group = central_american
+		province_is_or_accepts_culture = yes
 	}
 
 	#can our country keep it or is it destroyed when we get hold of it?
@@ -3118,7 +3572,7 @@ notre_dame_cathedral = {
 	build_cost = 0
 	
 	#can we move it?
-	can_be_moved = yes
+	  can_be_moved = yes
 	
 	#time to move the project one unit of distance, in days
 	move_days_per_unit_distance = 1
@@ -3131,6 +3585,9 @@ notre_dame_cathedral = {
 
 	#can we build it?
 	build_trigger = {
+		province_is_or_accepts_religion_group = {
+			religion_group = christian
+		}
 	}
 
 	#what to do when it's built
@@ -3145,10 +3602,16 @@ notre_dame_cathedral = {
 
 	#can our country use it?
 	can_use_modifiers_trigger = {
+		province_is_or_accepts_religion_group = {
+			religion_group = christian
+		}
 	}
 
 	#can our country upgrade it?
 	can_upgrade_trigger = {
+		province_is_or_accepts_religion_group = {
+			religion_group = christian
+		}
 	}
 
 	#can our country keep it or is it destroyed when we get hold of it?
@@ -3298,7 +3761,7 @@ shwedagon_pagoda = {
 	build_cost = 0
 	
 	#can we move it?
-	can_be_moved = yes
+	  can_be_moved = yes
 	
 	#time to move the project one unit of distance, in days
 	move_days_per_unit_distance = 1
@@ -3311,6 +3774,7 @@ shwedagon_pagoda = {
 
 	#can we build it?
 	build_trigger = {
+		province_is_buddhist_or_accepts_buddhism = yes
 	}
 
 	#what to do when it's built
@@ -3325,10 +3789,12 @@ shwedagon_pagoda = {
 
 	#can our country use it?
 	can_use_modifiers_trigger = {
+		province_is_buddhist_or_accepts_buddhism = yes
 	}
 
 	#can our country upgrade it?
 	can_upgrade_trigger = {
+		province_is_buddhist_or_accepts_buddhism = yes
 	}
 
 	#can our country keep it or is it destroyed when we get hold of it?
@@ -3481,7 +3947,7 @@ the_great_wall_of_china = {
 	build_cost = 0
 	
 	#can we move it?
-	can_be_moved = yes
+	  can_be_moved = yes
 	
 	#time to move the project one unit of distance, in days
 	move_days_per_unit_distance = 1
@@ -3494,6 +3960,8 @@ the_great_wall_of_china = {
 
 	#can we build it?
 	build_trigger = {
+		culture_group = east_asian
+		province_is_or_accepts_culture = yes
 	}
 
 	#what to do when it's built
@@ -3508,10 +3976,14 @@ the_great_wall_of_china = {
 
 	#can our country use it?
 	can_use_modifiers_trigger = {
+		culture_group = east_asian
+		province_is_or_accepts_culture = yes
 	}
 
 	#can our country upgrade it?
 	can_upgrade_trigger = {
+		culture_group = east_asian
+		province_is_or_accepts_culture = yes
 	}
 
 	#can our country keep it or is it destroyed when we get hold of it?
@@ -3658,7 +4130,7 @@ ambras_castle = {
 	build_cost = 0
 	
 	#can we move it?
-	can_be_moved = yes
+	  can_be_moved = yes
 	
 	#time to move the project one unit of distance, in days
 	move_days_per_unit_distance = 1
@@ -3857,7 +4329,7 @@ mesa_verde = {
 	build_cost = 0
 	
 	#can we move it?
-	can_be_moved = yes
+	  can_be_moved = yes
 	
 	#time to move the project one unit of distance, in days
 	move_days_per_unit_distance = 1
@@ -3870,6 +4342,9 @@ mesa_verde = {
 
 	#can we build it?
 	build_trigger = {
+		province_is_or_accepts_religion = {
+			religion = totemism
+		}
 	}
 
 	#what to do when it's built
@@ -3884,10 +4359,16 @@ mesa_verde = {
 
 	#can our country use it?
 	can_use_modifiers_trigger = {
+		province_is_or_accepts_religion = {
+			religion = totemism
+		}
 	}
 
 	#can our country upgrade it?
 	can_upgrade_trigger = {
+		province_is_or_accepts_religion = {
+			religion = totemism
+		}
 	}
 
 	#can our country keep it or is it destroyed when we get hold of it?
@@ -4032,7 +4513,7 @@ taj_mahal = {
 	build_cost = 0
 	
 	#can we move it?
-	can_be_moved = yes
+	  can_be_moved = yes
 	
 	#time to move the project one unit of distance, in days
 	move_days_per_unit_distance = 1
@@ -4045,6 +4526,17 @@ taj_mahal = {
 
 	#can we build it?
 	build_trigger = {
+		OR = {
+			province_is_or_accepts_religion_group = {
+				religion_group = muslim
+			}
+			custom_trigger_tooltip = {
+				tooltip = me_mug_completed_mission_architecture
+				owner = {
+					  
+				}
+			}
+		}
 	}
 
 	#what to do when it's built
@@ -4059,10 +4551,32 @@ taj_mahal = {
 
 	#can our country use it?
 	can_use_modifiers_trigger = {
+		OR = {
+			province_is_or_accepts_religion_group = {
+				religion_group = muslim
+			}
+			custom_trigger_tooltip = {
+				tooltip = me_mug_completed_mission_architecture
+				owner = {
+					  
+				}
+			}
+		}
 	}
 
 	#can our country upgrade it?
 	can_upgrade_trigger = {
+		OR = {
+			province_is_or_accepts_religion_group = {
+				religion_group = muslim
+			}
+			custom_trigger_tooltip = {
+				tooltip = me_mug_completed_mission_architecture
+				owner = {
+					  
+				}
+			}
+		}
 	}
 
 	#can our country keep it or is it destroyed when we get hold of it?
@@ -4211,7 +4725,7 @@ alhambra = {
 	build_cost = 0
 	
 	#can we move it?
-	can_be_moved = yes
+	  can_be_moved = yes
 	
 	#time to move the project one unit of distance, in days
 	move_days_per_unit_distance = 1
@@ -4387,7 +4901,7 @@ the_grand_palace = {
 	build_cost = 0
 	
 	#can we move it?
-	can_be_moved = yes
+	  can_be_moved = yes
 	
 	#time to move the project one unit of distance, in days
 	move_days_per_unit_distance = 1
@@ -4566,7 +5080,7 @@ bagan_temples = {
 	build_cost = 0
 	
 	#can we move it?
-	can_be_moved = yes
+	  can_be_moved = yes
 	
 	#time to move the project one unit of distance, in days
 	move_days_per_unit_distance = 1
@@ -4579,6 +5093,7 @@ bagan_temples = {
 
 	#can we build it?
 	build_trigger = {
+		province_is_buddhist_or_accepts_buddhism = yes
 	}
 
 	#what to do when it's built
@@ -4593,10 +5108,12 @@ bagan_temples = {
 
 	#can our country use it?
 	can_use_modifiers_trigger = {
+		province_is_buddhist_or_accepts_buddhism = yes
 	}
 
 	#can our country upgrade it?
 	can_upgrade_trigger = {
+		province_is_buddhist_or_accepts_buddhism = yes
 	}
 
 	#can our country keep it or is it destroyed when we get hold of it?
@@ -4744,7 +5261,7 @@ ait_benhaddou = {
 	build_cost = 0
 	
 	#can we move it?
-	can_be_moved = yes
+	  can_be_moved = yes
 	
 	#time to move the project one unit of distance, in days
 	move_days_per_unit_distance = 1
@@ -4923,7 +5440,7 @@ registan_square = {
 	build_cost = 0
 	
 	#can we move it?
-	can_be_moved = yes
+	  can_be_moved = yes
 	
 	#time to move the project one unit of distance, in days
 	move_days_per_unit_distance = 1
@@ -4936,6 +5453,9 @@ registan_square = {
 
 	#can we build it?
 	build_trigger = {
+		province_is_or_accepts_religion_group = {
+			religion_group = muslim
+		}
 	}
 
 	#what to do when it's built
@@ -4950,10 +5470,16 @@ registan_square = {
 
 	#can our country use it?
 	can_use_modifiers_trigger = {
+		province_is_or_accepts_religion_group = {
+			religion_group = muslim
+		}
 	}
 
 	#can our country upgrade it?
 	can_upgrade_trigger = {
+		province_is_or_accepts_religion_group = {
+			religion_group = muslim
+		}
 	}
 
 	#can our country keep it or is it destroyed when we get hold of it?
@@ -5099,7 +5625,7 @@ golden_temple = {
 	build_cost = 0
 	
 	#can we move it?
-	can_be_moved = yes
+	  can_be_moved = yes
 	
 	#time to move the project one unit of distance, in days
 	move_days_per_unit_distance = 1
@@ -5112,6 +5638,17 @@ golden_temple = {
 
 	#can we build it?
 	build_trigger = {
+		OR = {
+			province_is_or_accepts_religion_group = {
+				religion_group = dharmic
+			}
+			custom_trigger_tooltip = {
+				tooltip = me_mug_completed_mission_architecture
+				owner = {
+					  
+				}
+			}
+		}
 	}
 
 	#what to do when it's built
@@ -5126,10 +5663,32 @@ golden_temple = {
 
 	#can our country use it?
 	can_use_modifiers_trigger = {
+		OR = {
+			province_is_or_accepts_religion_group = {
+				religion_group = dharmic
+			}
+			custom_trigger_tooltip = {
+				tooltip = me_mug_completed_mission_architecture
+				owner = {
+					  
+				}
+			}
+		}
 	}
 
 	#can our country upgrade it?
 	can_upgrade_trigger = {
+		OR = {
+			province_is_or_accepts_religion_group = {
+				religion_group = dharmic
+			}
+			custom_trigger_tooltip = {
+				tooltip = me_mug_completed_mission_architecture
+				owner = {
+					  
+				}
+			}
+		}
 	}
 
 	#can our country keep it or is it destroyed when we get hold of it?
@@ -5221,6 +5780,30 @@ golden_temple = {
 			min_autonomy_in_territories = -0.1
 		}
 
+		conditional_modifier = {
+			trigger = {
+				owner = {
+					tag = MUG
+				}
+			}
+			
+			modifier = {
+				autonomy_change_time = -0.15
+			}
+		}
+
+		conditional_modifier = {
+			trigger = {
+				owner = {
+					NOT = { tag = MUG }
+				}
+			}
+			
+			modifier = {
+				min_autonomy_in_territories = -0.1
+			}
+		}
+
 		#what effects happen when this tier is achieved
 		on_upgraded = {
 		}
@@ -5249,8 +5832,31 @@ golden_temple = {
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
 			global_autonomy = -0.1
-			min_autonomy_in_territories = -0.15
 			
+		}
+
+		conditional_modifier = {
+			trigger = {
+				owner = {
+					tag = MUG
+				}
+			}
+			
+			modifier = {
+				autonomy_change_time = -0.25
+			}
+		}
+
+		conditional_modifier = {
+			trigger = {
+				owner = {
+					NOT = { tag = MUG }
+				}
+			}
+			
+			modifier = {
+				min_autonomy_in_territories = -0.15
+			}
 		}
 
 		#what effects happen when this tier is achieved
@@ -5275,7 +5881,7 @@ jokhang_temple = {
 	build_cost = 0
 	
 	#can we move it?
-	can_be_moved = yes
+	  can_be_moved = yes
 	
 	#time to move the project one unit of distance, in days
 	move_days_per_unit_distance = 1
@@ -5288,6 +5894,7 @@ jokhang_temple = {
 
 	#can we build it?
 	build_trigger = {
+		province_is_buddhist_or_accepts_buddhism = yes
 	}
 
 	#what to do when it's built
@@ -5302,10 +5909,12 @@ jokhang_temple = {
 
 	#can our country use it?
 	can_use_modifiers_trigger = {
+		province_is_buddhist_or_accepts_buddhism = yes 
 	}
 
 	#can our country upgrade it?
 	can_upgrade_trigger = {
+		province_is_buddhist_or_accepts_buddhism = yes 
 	}
 
 	#can our country keep it or is it destroyed when we get hold of it?
@@ -5453,7 +6062,7 @@ borobudur_temple = {
 	build_cost = 0
 	
 	#can we move it?
-	can_be_moved = yes
+	  can_be_moved = yes
 	
 	#time to move the project one unit of distance, in days
 	move_days_per_unit_distance = 1
@@ -5466,6 +6075,13 @@ borobudur_temple = {
 
 	#can we build it?
 	build_trigger = {
+		OR = {
+			AND = {
+				culture_group = malay
+				province_is_or_accepts_culture = yes
+			}
+			province_is_buddhist_or_accepts_buddhism = yes
+		}	
 	}
 
 	#what to do when it's built
@@ -5480,10 +6096,24 @@ borobudur_temple = {
 
 	#can our country use it?
 	can_use_modifiers_trigger = {
+		OR = {
+			AND = {
+				culture_group = malay
+				province_is_or_accepts_culture = yes
+			}
+			province_is_buddhist_or_accepts_buddhism = yes
+		}
 	}
 
 	#can our country upgrade it?
 	can_upgrade_trigger = {
+		OR = {
+			AND = {
+				culture_group = malay
+				province_is_or_accepts_culture = yes
+			}
+			province_is_buddhist_or_accepts_buddhism = yes
+		}
 	}
 
 	#can our country keep it or is it destroyed when we get hold of it?
@@ -5629,7 +6259,7 @@ temple_of_confucius = {
 	build_cost = 0
 	
 	#can we move it?
-	can_be_moved = yes
+	  can_be_moved = yes
 	
 	#time to move the project one unit of distance, in days
 	move_days_per_unit_distance = 1
@@ -5642,6 +6272,9 @@ temple_of_confucius = {
 
 	#can we build it?
 	build_trigger = {
+		province_is_or_accepts_religion = {
+			religion = confucianism
+		}	
 	}
 
 	#what to do when it's built
@@ -5656,10 +6289,16 @@ temple_of_confucius = {
 
 	#can our country use it?
 	can_use_modifiers_trigger = {
+		province_is_or_accepts_religion = {
+			religion = confucianism
+		}
 	}
 
 	#can our country upgrade it?
 	can_upgrade_trigger = {
+		province_is_or_accepts_religion = {
+			religion = confucianism
+		}
 	}
 
 	#can our country keep it or is it destroyed when we get hold of it?
@@ -5759,12 +6398,6 @@ temple_of_confucius = {
 
 		#what effects happen when this tier is achieved
 		on_upgraded = {
-			owner = {
-				add_estate_loyalty = {
-					estate = estate_church
-					loyalty = 10
-				}
-			}
 		}
 	}
 
@@ -5822,7 +6455,7 @@ murud_janjira = {
 	build_cost = 0
 	
 	#can we move it?
-	can_be_moved = yes
+	  can_be_moved = yes
 	
 	#time to move the project one unit of distance, in days
 	move_days_per_unit_distance = 1
@@ -6001,7 +6634,7 @@ pura_besakih = {
 	build_cost = 0
 	
 	#can we move it?
-	can_be_moved = yes
+	  can_be_moved = yes
 	
 	#time to move the project one unit of distance, in days
 	move_days_per_unit_distance = 1
@@ -6014,6 +6647,9 @@ pura_besakih = {
 
 	#can we build it?
 	build_trigger = {
+		province_is_or_accepts_religion_group = {
+			religion_group = dharmic
+		}
 	}
 
 	#what to do when it's built
@@ -6028,10 +6664,16 @@ pura_besakih = {
 
 	#can our country use it?
 	can_use_modifiers_trigger = {
+		province_is_or_accepts_religion_group = {
+			religion_group = dharmic
+		}
 	}
 
 	#can our country upgrade it?
 	can_upgrade_trigger = {
+		province_is_or_accepts_religion_group = {
+			religion_group = dharmic
+		}
 	}
 
 	#can our country keep it or is it destroyed when we get hold of it?
@@ -6177,7 +6819,7 @@ kanbawzathadi_palace = {
 	build_cost = 0
 	
 	#can we move it?
-	can_be_moved = yes
+	  can_be_moved = yes
 	
 	#time to move the project one unit of distance, in days
 	move_days_per_unit_distance = 1
@@ -6355,7 +6997,7 @@ pyramid_of_cheops = {
 	build_cost = 0
 	
 	#can we move it?
-	can_be_moved = yes
+	  can_be_moved = yes
 	
 	#time to move the project one unit of distance, in days
 	move_days_per_unit_distance = 1
@@ -6368,6 +7010,15 @@ pyramid_of_cheops = {
 
 	#can we build it?
 	build_trigger = {
+		OR = {
+			province_is_or_accepts_religion_group = {
+				religion_group = pagan
+			}
+			AND = {
+				culture_group = turko_semitic
+				province_is_or_accepts_culture = yes
+			}
+		}
 	}
 
 	#what to do when it's built
@@ -6382,10 +7033,28 @@ pyramid_of_cheops = {
 
 	#can our country use it?
 	can_use_modifiers_trigger = {
+		OR = {
+			province_is_or_accepts_religion_group = {
+				religion_group = pagan
+			}
+			AND = {
+				culture_group = turko_semitic
+				province_is_or_accepts_culture = yes
+			}
+		}
 	}
 
 	#can our country upgrade it?
 	can_upgrade_trigger = {
+		OR = {
+			province_is_or_accepts_religion_group = {
+				religion_group = pagan
+			}
+			AND = {
+				culture_group = turko_semitic
+				province_is_or_accepts_culture = yes
+			}
+		}
 	}
 
 	#can our country keep it or is it destroyed when we get hold of it?
@@ -6530,7 +7199,7 @@ khami_ruins = {
 	build_cost = 0
 	
 	#can we move it?
-	can_be_moved = yes
+	  can_be_moved = yes
 	
 	#time to move the project one unit of distance, in days
 	move_days_per_unit_distance = 1
@@ -6705,7 +7374,7 @@ prambanan_temple = {
 	build_cost = 0
 	
 	#can we move it?
-	can_be_moved = yes
+	  can_be_moved = yes
 	
 	#time to move the project one unit of distance, in days
 	move_days_per_unit_distance = 1
@@ -6718,6 +7387,9 @@ prambanan_temple = {
 
 	#can we build it?
 	build_trigger = {
+		province_is_or_accepts_religion_group = {
+			religion_group = dharmic
+		}
 	}
 
 	#what to do when it's built
@@ -6732,10 +7404,16 @@ prambanan_temple = {
 
 	#can our country use it?
 	can_use_modifiers_trigger = {
+		province_is_or_accepts_religion_group = {
+			religion_group = dharmic
+		}
 	}
 
 	#can our country upgrade it?
 	can_upgrade_trigger = {
+		province_is_or_accepts_religion_group = {
+			religion_group = dharmic
+		}
 	}
 
 	#can our country keep it or is it destroyed when we get hold of it?
@@ -7052,7 +7730,7 @@ fire_temple_of_ateshgah = {
 	build_cost = 0
 	
 	#can we move it?
-	can_be_moved = yes
+	  can_be_moved = yes
 	
 	#time to move the project one unit of distance, in days
 	move_days_per_unit_distance = 1
@@ -7065,6 +7743,9 @@ fire_temple_of_ateshgah = {
 
 	#can we build it?
 	build_trigger = {
+		province_is_or_accepts_religion = {
+			religion = zoroastrian
+		}
 	}
 
 	#what to do when it's built
@@ -7079,10 +7760,16 @@ fire_temple_of_ateshgah = {
 
 	#can our country use it?
 	can_use_modifiers_trigger = {
+		province_is_or_accepts_religion = {
+			religion = zoroastrian
+		}
 	}
 
 	#can our country upgrade it?
 	can_upgrade_trigger = {
+		province_is_or_accepts_religion = {
+			religion = zoroastrian
+		}
 	}
 
 	#can our country keep it or is it destroyed when we get hold of it?
@@ -7228,7 +7915,7 @@ kiev_pechersk_lavra = {
 	build_cost = 0
 	
 	#can we move it?
-	can_be_moved = yes
+	  can_be_moved = yes
 	
 	#time to move the project one unit of distance, in days
 	move_days_per_unit_distance = 1
@@ -7241,6 +7928,9 @@ kiev_pechersk_lavra = {
 
 	#can we build it?
 	build_trigger = {
+		province_is_or_accepts_religion = {
+			religion = orthodox
+		}
 	}
 
 	#what to do when it's built
@@ -7255,10 +7945,16 @@ kiev_pechersk_lavra = {
 
 	#can our country use it?
 	can_use_modifiers_trigger = {
+		province_is_or_accepts_religion = {
+			religion = orthodox
+		}
 	}
 
 	#can our country upgrade it?
 	can_upgrade_trigger = {
+		province_is_or_accepts_religion = {
+			religion = orthodox
+		}
 	}
 
 	#can our country keep it or is it destroyed when we get hold of it?
@@ -7407,7 +8103,7 @@ kiev_pechersk_lavra = {
 	# build_cost = 0
 	
 	#can we move it?
-	# can_be_moved = yes
+	#   can_be_moved = yes
 	
 	#time to move the project one unit of distance, in days
 	# move_days_per_unit_distance = 1
@@ -7601,7 +8297,7 @@ belem_tower = {
 	build_cost = 0
 	
 	#can we move it?
-	can_be_moved = yes
+	  can_be_moved = yes
 	
 	#time to move the project one unit of distance, in days
 	move_days_per_unit_distance = 1
@@ -7783,7 +8479,7 @@ sankin_kotai_palaces = {
 	build_cost = 0
 	
 	#can we move it?
-	can_be_moved = yes
+	  can_be_moved = yes
 	
 	#time to move the project one unit of distance, in days
 	move_days_per_unit_distance = 1
@@ -7796,6 +8492,8 @@ sankin_kotai_palaces = {
 
 	#can we build it?
 	build_trigger = {
+		culture_group = japanese_g
+		province_is_or_accepts_culture = yes
 	}
 
 	#what to do when it's built
@@ -7810,10 +8508,14 @@ sankin_kotai_palaces = {
 
 	#can our country use it?
 	can_use_modifiers_trigger = {
+		culture_group = japanese_g
+		province_is_or_accepts_culture = yes
 	}
 
 	#can our country upgrade it?
 	can_upgrade_trigger = {
+		culture_group = japanese_g
+		province_is_or_accepts_culture = yes
 	}
 
 	#can our country keep it or is it destroyed when we get hold of it?
@@ -7960,7 +8662,7 @@ mausoleum_at_halicarnassus = {
 	build_cost = 0
 	
 	#can we move it?
-	can_be_moved = yes
+	  can_be_moved = yes
 	
 	#time to move the project one unit of distance, in days
 	move_days_per_unit_distance = 1
@@ -8139,7 +8841,7 @@ heddal_stave_church = {
 	build_cost = 0
 	
 	#can we move it?
-	can_be_moved = yes
+	  can_be_moved = yes
 	
 	#time to move the project one unit of distance, in days
 	move_days_per_unit_distance = 1
@@ -8152,6 +8854,9 @@ heddal_stave_church = {
 
 	#can we build it?
 	build_trigger = {
+		province_is_or_accepts_religion_group = {
+			religion_group = christian
+		}
 	}
 
 	#what to do when it's built
@@ -8166,10 +8871,16 @@ heddal_stave_church = {
 
 	#can our country use it?
 	can_use_modifiers_trigger = {
+		province_is_or_accepts_religion_group = {
+			religion_group = christian
+		}
 	}
 
 	#can our country upgrade it?
 	can_upgrade_trigger = {
+		province_is_or_accepts_religion_group = {
+			religion_group = christian
+		}
 	}
 
 	#can our country keep it or is it destroyed when we get hold of it?
@@ -8317,7 +9028,7 @@ versailles = {
 	build_cost = 0
 	
 	#can we move it?
-	can_be_moved = yes
+	  can_be_moved = yes
 	
 	#time to move the project one unit of distance, in days
 	move_days_per_unit_distance = 1
@@ -8330,6 +9041,8 @@ versailles = {
 
 	#can we build it?
 	build_trigger = {
+		culture_group = french
+		province_is_or_accepts_culture = yes
 	}
 
 	#what to do when it's built
@@ -8344,10 +9057,14 @@ versailles = {
 
 	#can our country use it?
 	can_use_modifiers_trigger = {
+		culture_group = french
+		province_is_or_accepts_culture = yes
 	}
 
 	#can our country upgrade it?
 	can_upgrade_trigger = {
+		culture_group = french
+		province_is_or_accepts_culture = yes
 	}
 
 	#can our country keep it or is it destroyed when we get hold of it?
@@ -8499,7 +9216,7 @@ el_escorial = {
 	build_cost = 0
 	
 	#can we move it?
-	can_be_moved = yes
+	  can_be_moved = yes
 	
 	#time to move the project one unit of distance, in days
 	move_days_per_unit_distance = 1
@@ -8512,6 +9229,8 @@ el_escorial = {
 
 	#can we build it?
 	build_trigger = {
+		culture_group = iberian
+		province_is_or_accepts_culture = yes
 	}
 
 	#what to do when it's built
@@ -8526,10 +9245,14 @@ el_escorial = {
 
 	#can our country use it?
 	can_use_modifiers_trigger = {
+		culture_group = iberian
+		province_is_or_accepts_culture = yes
 	}
 
 	#can our country upgrade it?
 	can_upgrade_trigger = {
+		culture_group = iberian
+		province_is_or_accepts_culture = yes
 	}
 
 	#can our country keep it or is it destroyed when we get hold of it?
@@ -8678,7 +9401,7 @@ potosi = {
 	build_cost = 0
 	
 	#can we move it?
-	can_be_moved = yes
+	  can_be_moved = yes
 	
 	#time to move the project one unit of distance, in days
 	move_days_per_unit_distance = 1
@@ -8857,7 +9580,7 @@ kaaba = {
 	build_cost = 0
 	
 	#can we move it?
-	can_be_moved = yes
+	  can_be_moved = yes
 	
 	#time to move the project one unit of distance, in days
 	move_days_per_unit_distance = 1
@@ -8870,6 +9593,9 @@ kaaba = {
 
 	#can we build it?
 	build_trigger = {
+		province_is_or_accepts_religion_group = {
+			religion_group = muslim
+		}
 	}
 
 	#what to do when it's built
@@ -8884,10 +9610,16 @@ kaaba = {
 
 	#can our country use it?
 	can_use_modifiers_trigger = {
+		province_is_or_accepts_religion_group = {
+			religion_group = muslim
+		}
 	}
 
 	#can our country upgrade it?
 	can_upgrade_trigger = {
+		province_is_or_accepts_religion_group = {
+			religion_group = muslim
+		}
 	}
 
 	#can our country keep it or is it destroyed when we get hold of it?
@@ -8936,17 +9668,18 @@ kaaba = {
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
-		province_modifiers = {			
+		province_modifiers = {
 		}
-		
+
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
 		area_modifier = {
+			
 		}
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
-			prestige = 0.1
-			religious_unity = 0.1
+			global_missionary_strength = 0.01
+			manpower_in_true_faith_provinces = 0.10
 		}
 
 		#what effects happen when this tier is achieved
@@ -8971,13 +9704,15 @@ kaaba = {
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
 		area_modifier = {
+			local_development_cost = -0.15
 		}
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
-			prestige = 0.25
-			religious_unity = 0.15
-			warscore_cost_vs_other_religion = -0.05
+			global_missionary_strength = 0.01
+			manpower_in_true_faith_provinces = 0.15
+			tolerance_own = 1
+			# warscore_cost_vs_other_religion = -0.05
 		}
 
 		#what effects happen when this tier is achieved
@@ -9002,17 +9737,34 @@ kaaba = {
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
 		area_modifier = {
+			local_development_cost = -0.35
 		}
 
 		#what modifiers are added to the country when we have this project here on this tier
 		country_modifiers = {
-			prestige = 0.5
-			religious_unity = 0.2
-			warscore_cost_vs_other_religion = -0.1
+			global_missionary_strength = 0.01
+			manpower_in_true_faith_provinces = 0.15
+			tolerance_own = 1 
+			# warscore_cost_vs_other_religion = -0.1 conditional for arabia
+			
+		}
+		
+		conditional_modifier = {
+			trigger = {
+				owner = {
+					  
+				}
+			}
+			modifier = {
+				warscore_cost_vs_other_religion = -0.1
+			}
 		}
 
 		#what effects happen when this tier is achieved
 		on_upgraded = {
+			owner = {
+				add_positive_or_negative_piety = { amount = 0.1 }
+			}
 		}
 	}
 }
@@ -9033,7 +9785,7 @@ holy_city_jerusalem = {
 	build_cost = 0
 	
 	#can we move it?
-	can_be_moved = yes
+	  can_be_moved = yes
 	
 	#time to move the project one unit of distance, in days
 	move_days_per_unit_distance = 1
@@ -9046,6 +9798,17 @@ holy_city_jerusalem = {
 
 	#can we build it?
 	build_trigger = {
+		OR = {
+			province_is_or_accepts_religion_group = {
+				religion_group = muslim
+			}
+			province_is_or_accepts_religion_group = {
+				religion_group = christian
+			}
+			province_is_or_accepts_religion = {
+				religion = jewish
+			}
+		}
 	}
 
 	#what to do when it's built
@@ -9060,10 +9823,32 @@ holy_city_jerusalem = {
 
 	#can our country use it?
 	can_use_modifiers_trigger = {
+		OR = {
+			province_is_or_accepts_religion_group = {
+				religion_group = muslim
+			}
+			province_is_or_accepts_religion_group = {
+				religion_group = christian
+			}
+			province_is_or_accepts_religion = {
+				religion = jewish
+			}
+		}
 	}
 
 	#can our country upgrade it?
 	can_upgrade_trigger = {
+		OR = {
+			province_is_or_accepts_religion_group = {
+				religion_group = muslim
+			}
+			province_is_or_accepts_religion_group = {
+				religion_group = christian
+			}
+			province_is_or_accepts_religion = {
+				religion = jewish
+			}
+		}
 	}
 
 	#can our country keep it or is it destroyed when we get hold of it?
@@ -9220,7 +10005,7 @@ great_mosque_djenne = {
 	build_cost = 0
 	
 	#can we move it?
-	can_be_moved = yes
+	  can_be_moved = yes
 	
 	#time to move the project one unit of distance, in days
 	move_days_per_unit_distance = 1
@@ -9233,6 +10018,9 @@ great_mosque_djenne = {
 
 	#can we build it?
 	build_trigger = {
+		province_is_or_accepts_religion_group = {
+			religion_group = muslim
+		}
 	}
 
 	#what to do when it's built
@@ -9247,10 +10035,16 @@ great_mosque_djenne = {
 
 	#can our country use it?
 	can_use_modifiers_trigger = {
+		province_is_or_accepts_religion_group = {
+			religion_group = muslim
+		}
 	}
 
 	#can our country upgrade it?
 	can_upgrade_trigger = {
+		province_is_or_accepts_religion_group = {
+			religion_group = muslim
+		}
 	}
 
 	#can our country keep it or is it destroyed when we get hold of it?
@@ -9295,11 +10089,13 @@ great_mosque_djenne = {
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 1000
+			factor = 500
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
 		province_modifiers = {
+			tax_income = 6
+			local_development_cost = -0.10
 		}
 		
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
@@ -9320,20 +10116,23 @@ great_mosque_djenne = {
 	tier_2 = {
 		#time to upgrade to this level (0 for tier 0)
 		upgrade_time = {
-			months = 240
+			months = 120
 		}
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 2500
+			factor = 1000
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
 		province_modifiers = {
+			tax_income = 18
+			local_development_cost = -0.20
 		}
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
 		area_modifier = {
+			local_tax_modifier = 0.20
 		}
 
 		#what modifiers are added to the country when we have this project here on this tier
@@ -9351,20 +10150,23 @@ great_mosque_djenne = {
 	tier_3 = {
 		#time to upgrade to this level (0 for tier 0)
 		upgrade_time = {
-			months = 480
+			months = 120
 		}
 
 		#cost to upgrade to this level (0 for tier 0)
 		cost_to_upgrade = {
-			factor = 5000
+			factor = 2500
 		}
 
 		#what modifiers are added to the province when we have this project here on this tier
 		province_modifiers = {
+			tax_income = 120
+			local_development_cost = -0.25
 		}
 
 		#what modifiers are added to the provinces in the map area when we have this project here on this tier
 		area_modifier = {
+			local_tax_modifier = 0.25
 		}
 
 		#what modifiers are added to the country when we have this project here on this tier
@@ -9376,6 +10178,21 @@ great_mosque_djenne = {
 
 		#what effects happen when this tier is achieved
 		on_upgraded = {
+			# custom_tooltip = fu_djenne_every_province_tt
+			# hidden_effect = {
+				# owner = {
+					# every_owned_province = {
+						# limit = {
+							# OR = {
+								# has_building = temple 
+								# has_building = cathedral 
+							# }
+						# }
+						# add_base_tax = 1 
+					# }
+				# }
+			# }
+			#TODO: distribute 25 base tax among our temple provinces
 		}
 	}
 }
@@ -9396,7 +10213,7 @@ imperial_city_hue = {
 	build_cost = 0
 	
 	#can we move it?
-	can_be_moved = yes
+	  can_be_moved = yes
 	
 	#time to move the project one unit of distance, in days
 	move_days_per_unit_distance = 1
@@ -9409,6 +10226,7 @@ imperial_city_hue = {
 
 	#can we build it?
 	build_trigger = {
+		province_is_buddhist_or_accepts_buddhism = yes
 	}
 
 	#what to do when it's built
@@ -9423,10 +10241,12 @@ imperial_city_hue = {
 
 	#can our country use it?
 	can_use_modifiers_trigger = {
+		province_is_buddhist_or_accepts_buddhism = yes
 	}
 
 	#can our country upgrade it?
 	can_upgrade_trigger = {
+		province_is_buddhist_or_accepts_buddhism = yes
 	}
 
 	#can our country keep it or is it destroyed when we get hold of it?
@@ -9567,12 +10387,15 @@ baiturrahman_grand_mosque = {
 	date = 1444.01.01	#1612.01.01
 	time = { months = 0	}
 	build_cost = 0
-	can_be_moved = yes
+	  can_be_moved = yes
 	move_days_per_unit_distance = 10
 	starting_tier = 0
 	type = monument
 
 	build_trigger = {
+		province_is_or_accepts_religion_group = {
+			religion_group = muslim
+		}
 	}
 
 	on_built = {
@@ -9582,9 +10405,15 @@ baiturrahman_grand_mosque = {
 	}
 
 	can_use_modifiers_trigger = {
+		province_is_or_accepts_religion_group = {
+			religion_group = muslim
+		}
 	}
 
 	can_upgrade_trigger = {
+		province_is_or_accepts_religion_group = {
+			religion_group = muslim
+		}
 	}
 
 	keep_trigger = {
@@ -9675,7 +10504,7 @@ bam_citadel = {
 	date = 10.01.01
 	time = { months = 0	}
 	build_cost = 0
-	can_be_moved = yes
+	  can_be_moved = yes
 	move_days_per_unit_distance = 10
 	starting_tier = 2
 	type = monument
@@ -9780,12 +10609,27 @@ bara_katra = {
 	date = 1444.01.01	#1644.01.01
 	time = { months = 0	}
 	build_cost = 0
-	can_be_moved = yes
+	  can_be_moved = yes
 	move_days_per_unit_distance = 10
 	starting_tier = 0
 	type = monument
 
 	build_trigger = {
+		OR = {
+			AND = {
+				OR = {
+					culture_group = eastern_aryan
+					culture_group = hindusthani
+				}
+				province_is_or_accepts_culture = yes
+			}
+			custom_trigger_tooltip = {
+				tooltip = me_mug_completed_mission_architecture
+				owner = {
+					  
+				}
+			}
+		}
 	}
 
 	on_built = {
@@ -9795,9 +10639,39 @@ bara_katra = {
 	}
 
 	can_use_modifiers_trigger = {
+		OR = {
+			AND = {
+				OR = {
+					culture_group = eastern_aryan
+					culture_group = hindusthani
+				}
+				province_is_or_accepts_culture = yes
+			}
+			custom_trigger_tooltip = {
+				tooltip = me_mug_completed_mission_architecture
+				owner = {
+					  
+				}
+			}
+		}
 	}
 
 	can_upgrade_trigger = {
+		OR = {
+			AND = {
+				OR = {
+					culture_group = eastern_aryan
+					culture_group = hindusthani
+				}
+				province_is_or_accepts_culture = yes
+			}
+			custom_trigger_tooltip = {
+				tooltip = me_mug_completed_mission_architecture
+				owner = {
+					  
+				}
+			}
+		}
 	}
 
 	keep_trigger = {
@@ -9890,12 +10764,21 @@ bran_castle = {
 	date = 1357.01.01
 	time = { months = 0	}
 	build_cost = 0
-	can_be_moved = yes
+	  can_be_moved = yes
 	move_days_per_unit_distance = 10
 	starting_tier = 1
 	type = monument
 
 	build_trigger = {
+		if = {
+			limit = {
+				owner = {
+					NOT = {   
+				}
+			}
+			culture_group = carpathian
+			province_is_or_accepts_culture = yes
+		}
 	}
 
 	on_built = {
@@ -9905,9 +10788,27 @@ bran_castle = {
 	}
 
 	can_use_modifiers_trigger = {
+		if = {
+			limit = {
+				owner = {
+					NOT = {   
+				}
+			}
+			culture_group = carpathian
+			province_is_or_accepts_culture = yes
+		}
 	}
 
 	can_upgrade_trigger = {
+		if = {
+			limit = {
+				owner = {
+					NOT = {   
+				}
+			}
+			culture_group = carpathian
+			province_is_or_accepts_culture = yes
+		}
 	}
 
 	keep_trigger = {
@@ -9996,7 +10897,7 @@ brandenburg_gate = {
 	date = 1444.01.01	#1788.01.01
 	time = { months = 0	}
 	build_cost = 0
-	can_be_moved = yes
+	  can_be_moved = yes
 	move_days_per_unit_distance = 10
 	starting_tier = 0
 	type = monument
@@ -10046,12 +10947,20 @@ brandenburg_gate = {
 		province_modifiers = {
 		}
 		area_modifier = {
+			local_defensiveness = 0.1
 		}
 		country_modifiers = {
 			monthly_militarized_society = 0.01
 			prestige_from_land = 0.5			
 		}
 		on_upgraded = {
+			owner = {
+				add_power_projection = {
+					type = mission_rewards_power_projection
+					amount = 25
+				}
+				country_event = { id = FU_Monument_Events.1 }
+			}
 		}
 	}
 
@@ -10065,6 +10974,7 @@ brandenburg_gate = {
 		province_modifiers = {
 		}
 		area_modifier = {
+			local_defensiveness = 0.2
 		}
 		country_modifiers = {
 			monthly_militarized_society = 0.02	
@@ -10072,6 +10982,12 @@ brandenburg_gate = {
 			army_tradition_from_battle = 0.25
 		}
 		on_upgraded = {
+			owner = {
+				add_power_projection = {
+					type = mission_rewards_power_projection
+					amount = 25
+				}
+			}
 		}
 	}
 
@@ -10085,6 +11001,7 @@ brandenburg_gate = {
 		province_modifiers = {
 		}
 		area_modifier = {
+			local_defensiveness = 0.25
 		}
 		country_modifiers = {
 			monthly_militarized_society = 0.05
@@ -10092,6 +11009,12 @@ brandenburg_gate = {
 			army_tradition_from_battle = 0.5
 		}
 		on_upgraded = {
+			owner = {
+				add_power_projection = {
+					type = mission_rewards_power_projection
+					amount = 50
+				}
+			}
 		}
 	}
 }
@@ -10101,7 +11024,7 @@ buda_castle = {
 	date = 1444.01.01 #1460.01.01
 	time = { months = 0	}
 	build_cost = 0
-	can_be_moved = yes
+	  can_be_moved = yes
 	move_days_per_unit_distance = 10
 	starting_tier = 0
 	type = monument
@@ -10204,12 +11127,15 @@ cahokia = {
 	date = 100.01.01
 	time = { months = 0	}
 	build_cost = 0
-	can_be_moved = yes
+	  can_be_moved = yes
 	move_days_per_unit_distance = 10
 	starting_tier = 2
 	type = monument
 
 	build_trigger = {
+		province_is_or_accepts_religion = {
+			religion = totemism
+		}
 	}
 
 	on_built = {
@@ -10219,9 +11145,15 @@ cahokia = {
 	}
 
 	can_use_modifiers_trigger = {
+		province_is_or_accepts_religion = {
+			religion = totemism
+		}
 	}
 
 	can_upgrade_trigger = {
+		province_is_or_accepts_religion = {
+			religion = totemism
+		}
 	}
 
 	keep_trigger = {
@@ -10309,7 +11241,7 @@ cartagena_de_indias = {
 	date = 1444.01.01	#1719.01.01
 	time = { months = 0	}
 	build_cost = 0
-	can_be_moved = yes
+	  can_be_moved = yes
 	move_days_per_unit_distance = 10
 	starting_tier = 0
 	type = monument
@@ -10421,7 +11353,7 @@ chan_chan_citadel = {
 	date = 850.01.01
 	time = { months = 0	}
 	build_cost = 0
-	can_be_moved = yes
+	  can_be_moved = yes
 	move_days_per_unit_distance = 10
 	starting_tier = 2
 	type = monument
@@ -10534,7 +11466,7 @@ doges_palace = {
 	date = 1340.01.01
 	time = { months = 0	}
 	build_cost = 0
-	can_be_moved = yes
+	  can_be_moved = yes
 	move_days_per_unit_distance = 10
 	starting_tier = 2
 	type = monument
@@ -10639,12 +11571,15 @@ duomo_milano = {
 	date = 1386.01.01
 	time = { months = 0	}
 	build_cost = 0
-	can_be_moved = yes
+	  can_be_moved = yes
 	move_days_per_unit_distance = 10
 	starting_tier = 1
 	type = monument
 
 	build_trigger = {
+		province_is_or_accepts_religion_group = {
+			religion_group = christian
+		}
 	}
 
 	on_built = {
@@ -10654,9 +11589,15 @@ duomo_milano = {
 	}
 
 	can_use_modifiers_trigger = {
+		province_is_or_accepts_religion_group = {
+			religion_group = christian
+		}
 	}
 
 	can_upgrade_trigger = {
+		province_is_or_accepts_religion_group = {
+			religion_group = christian
+		}
 	}
 
 	keep_trigger = {
@@ -10757,12 +11698,18 @@ dutch_polders = {
 	date = 1100.01.01
 	time = { months = 0	}
 	build_cost = 0
-	can_be_moved = yes
+	  can_be_moved = yes
 	move_days_per_unit_distance = 10
 	starting_tier = 1
 	type = monument
 
 	build_trigger = {
+		OR = {
+			culture = dutch
+			culture = flemish
+			culture = frisian
+		}
+		province_is_or_accepts_culture = yes
 	}
 
 	on_built = {
@@ -10772,9 +11719,21 @@ dutch_polders = {
 	}
 
 	can_use_modifiers_trigger = {
+		OR = {
+			culture = dutch
+			culture = flemish
+			culture = frisian
+		}
+		province_is_or_accepts_culture = yes
 	}
 
 	can_upgrade_trigger = {
+		OR = {
+			culture = dutch
+			culture = flemish
+			culture = frisian
+		}
+		province_is_or_accepts_culture = yes
 	}
 
 	keep_trigger = {
@@ -10866,12 +11825,25 @@ ellora_caves = {
 	date = 100.01.01
 	time = { months = 0	}
 	build_cost = 0
-	can_be_moved = yes
+	  can_be_moved = yes
 	move_days_per_unit_distance = 10
 	starting_tier = 1
 	type = monument
 
 	build_trigger = {
+		OR = {
+			AND = {
+				religion_group = dharmic
+				has_owner_religion = yes
+			}
+			province_is_buddhist_or_accepts_buddhism = yes
+			custom_trigger_tooltip = {
+				tooltip = me_mug_completed_mission_architecture
+				owner = {
+					  
+				}
+			}
+		}
 	}
 
 	on_built = {
@@ -10881,9 +11853,35 @@ ellora_caves = {
 	}
 
 	can_use_modifiers_trigger = {
+		OR = {
+			AND = {
+				religion_group = dharmic
+				has_owner_religion = yes
+			}
+			province_is_buddhist_or_accepts_buddhism = yes
+			custom_trigger_tooltip = {
+				tooltip = me_mug_completed_mission_architecture
+				owner = {
+					  
+				}
+			}
+		}
 	}
 
 	can_upgrade_trigger = {
+		OR = {
+			AND = {
+				religion_group = dharmic
+				has_owner_religion = yes
+			}
+			province_is_buddhist_or_accepts_buddhism = yes
+			custom_trigger_tooltip = {
+				tooltip = me_mug_completed_mission_architecture
+				owner = {
+					  
+				}
+			}
+		}
 	}
 
 	keep_trigger = {
@@ -10975,12 +11973,19 @@ erdene_zuu = {
 	date = 1444.01.01	#1585.01.01
 	time = { months = 0	}
 	build_cost = 0
-	can_be_moved = yes
+	  can_be_moved = yes
 	move_days_per_unit_distance = 10
 	starting_tier = 0
 	type = monument
 
 	build_trigger = {
+		OR = {
+			AND = {
+				religion = tengri_pagan_reformed
+				has_owner_religion = yes
+			}
+			province_is_buddhist_or_accepts_buddhism = yes
+		}
 	}
 
 	on_built = {
@@ -10990,9 +11995,23 @@ erdene_zuu = {
 	}
 
 	can_use_modifiers_trigger = {
+		OR = {
+			AND = {
+				religion = tengri_pagan_reformed
+				has_owner_religion = yes
+			}
+			province_is_buddhist_or_accepts_buddhism = yes
+		}
 	}
 
 	can_upgrade_trigger = {
+		OR = {
+			AND = {
+				religion = tengri_pagan_reformed
+				has_owner_religion = yes
+			}
+			province_is_buddhist_or_accepts_buddhism = yes
+		}
 	}
 
 	keep_trigger = {
@@ -11086,12 +12105,23 @@ etchimiadzin_cathedral = {
 	date = 301.01.01
 	time = { months = 0	}
 	build_cost = 0
-	can_be_moved = yes
+	  can_be_moved = yes
 	move_days_per_unit_distance = 10
 	starting_tier = 1
 	type = monument
 
 	build_trigger = {
+		OR = {
+			province_is_or_accepts_religion = {
+				religion = coptic
+			}
+			owner = {
+				custom_trigger_tooltip = {
+					tooltip = QAR_unlocked_cathedral_tt
+					  
+				}
+			}
+		}
 	}
 
 	on_built = {
@@ -11101,9 +12131,31 @@ etchimiadzin_cathedral = {
 	}
 
 	can_use_modifiers_trigger = {
+		OR = {
+			province_is_or_accepts_religion = {
+				religion = coptic
+			}
+			owner = {
+				custom_trigger_tooltip = {
+					tooltip = QAR_unlocked_cathedral_tt
+					  
+				}
+			}
+		}
 	}
 
 	can_upgrade_trigger = {
+		OR = {
+			province_is_or_accepts_religion = {
+				religion = coptic
+			}
+			owner = {
+				custom_trigger_tooltip = {
+					tooltip = QAR_unlocked_cathedral_tt
+					  
+				}
+			}
+		}
 	}
 
 	keep_trigger = {
@@ -11195,7 +12247,7 @@ fuerte_del_morro = {
 	date = 1444.01.01	#1589.01.01
 	time = { months = 0	}
 	build_cost = 0
-	can_be_moved = yes
+	  can_be_moved = yes
 	move_days_per_unit_distance = 10
 	starting_tier = 0
 	type = monument
@@ -11309,6 +12361,17 @@ gomateshwara_statue = {
 	type = monument
 
 	build_trigger = {
+		OR = {
+			province_is_or_accepts_religion_group = {
+				religion_group = dharmic
+			}
+			custom_trigger_tooltip = {
+				tooltip = me_mug_completed_mission_architecture
+				owner = {
+					  
+				}
+			}
+		}
 	}
 
 	on_built = {
@@ -11318,9 +12381,31 @@ gomateshwara_statue = {
 	}
 
 	can_use_modifiers_trigger = {
+		OR = {
+			province_is_or_accepts_religion_group = {
+				religion_group = dharmic
+			}
+			custom_trigger_tooltip = {
+				tooltip = me_mug_completed_mission_architecture
+				owner = {
+					  
+				}
+			}
+		}
 	}
 
 	can_upgrade_trigger = {
+		OR = {
+			province_is_or_accepts_religion_group = {
+				religion_group = dharmic
+			}
+			custom_trigger_tooltip = {
+				tooltip = me_mug_completed_mission_architecture
+				owner = {
+					  
+				}
+			}
+		}
 	}
 
 	keep_trigger = {
@@ -11421,12 +12506,23 @@ chola_temples = {
 	date = 1035.01.01
 	time = { months = 0	}
 	build_cost = 0
-	can_be_moved = yes
+	  can_be_moved = yes
 	move_days_per_unit_distance = 10
 	starting_tier = 2
 	type = monument
 
 	build_trigger = {
+		OR = {
+			province_is_or_accepts_religion_group = {
+				religion_group = dharmic
+			}
+			custom_trigger_tooltip = {
+				tooltip = me_mug_completed_mission_architecture
+				owner = {
+					  
+				}
+			}
+		}
 	}
 
 	on_built = {
@@ -11436,9 +12532,31 @@ chola_temples = {
 	}
 
 	can_use_modifiers_trigger = {
+		OR = {
+			province_is_or_accepts_religion_group = {
+				religion_group = dharmic
+			}
+			custom_trigger_tooltip = {
+				tooltip = me_mug_completed_mission_architecture
+				owner = {
+					  
+				}
+			}
+		}
 	}
 
 	can_upgrade_trigger = {
+		OR = {
+			province_is_or_accepts_religion_group = {
+				religion_group = dharmic
+			}
+			custom_trigger_tooltip = {
+				tooltip = me_mug_completed_mission_architecture
+				owner = {
+					  
+				}
+			}
+		}
 	}
 
 	keep_trigger = {
@@ -11526,12 +12644,20 @@ gyeongbok_palace = {
 	date = 1394.01.01
 	time = { months = 0	}
 	build_cost = 0
-	can_be_moved = yes
+	  can_be_moved = yes
 	move_days_per_unit_distance = 10
 	starting_tier = 2
 	type = monument
 
 	build_trigger = {
+		OR = {
+			culture = korean_new
+			culture = korean
+		}
+		province_is_or_accepts_culture = yes
+		province_is_or_accepts_religion = {
+			religion = confucianism
+		}	
 	}
 
 	on_built = {
@@ -11541,9 +12667,25 @@ gyeongbok_palace = {
 	}
 
 	can_use_modifiers_trigger = {
+		OR = {
+			culture = korean_new
+			culture = korean
+		}
+		province_is_or_accepts_culture = yes
+		province_is_or_accepts_religion = {
+			religion = confucianism
+		}	
 	}
 
 	can_upgrade_trigger = {
+		OR = {
+			culture = korean_new
+			culture = korean
+		}
+		province_is_or_accepts_culture = yes
+		province_is_or_accepts_religion = {
+			religion = confucianism
+		}	
 	}
 
 	keep_trigger = {
@@ -11636,12 +12778,25 @@ hampi = {
 	date = 100.01.01	#Construction dates differ quite a lot, but it is definitely before 1444
 	time = { months = 0	}
 	build_cost = 0
-	can_be_moved = yes
+	  can_be_moved = yes
 	move_days_per_unit_distance = 10
 	starting_tier = 1
 	type = monument
 
 	build_trigger = {
+		OR = {
+			AND = {
+				religion_group = dharmic
+				has_owner_religion = yes
+			}
+			province_is_buddhist_or_accepts_buddhism = yes
+			custom_trigger_tooltip = {
+				tooltip = me_mug_completed_mission_architecture
+				owner = {
+					  
+				}
+			}
+		}
 	}
 
 	on_built = {
@@ -11651,9 +12806,35 @@ hampi = {
 	}
 
 	can_use_modifiers_trigger = {
+		OR = {
+			AND = {
+				religion_group = dharmic
+				has_owner_religion = yes
+			}
+			province_is_buddhist_or_accepts_buddhism = yes
+			custom_trigger_tooltip = {
+				tooltip = me_mug_completed_mission_architecture
+				owner = {
+					  
+				}
+			}
+		}
 	}
 
 	can_upgrade_trigger = {
+		OR = {
+			AND = {
+				religion_group = dharmic
+				has_owner_religion = yes
+			}
+			province_is_buddhist_or_accepts_buddhism = yes
+			custom_trigger_tooltip = {
+				tooltip = me_mug_completed_mission_architecture
+				owner = {
+					  
+				}
+			}
+		}
 	}
 
 	keep_trigger = {
@@ -11745,12 +12926,15 @@ prague = {
 	date = 700.01.01
 	time = { months = 0	}
 	build_cost = 0
-	can_be_moved = yes
+	  can_be_moved = yes
 	move_days_per_unit_distance = 10
 	starting_tier = 2
 	type = monument
 
 	build_trigger = {
+		province_is_or_accepts_religion_group = {
+			religion_group = christian
+		}
 	}
 
 	on_built = {
@@ -11760,9 +12944,15 @@ prague = {
 	}
 
 	can_use_modifiers_trigger = {
+		province_is_or_accepts_religion_group = {
+			religion_group = christian
+		}
 	}
 
 	can_upgrade_trigger = {
+		province_is_or_accepts_religion_group = {
+			religion_group = christian
+		}
 	}
 
 	keep_trigger = {		
@@ -11797,11 +12987,22 @@ prague = {
 		area_modifier = {
 		}
 		country_modifiers = {
-			imperial_authority_value = 0.05
 			tolerance_own = 0.25
 			tolerance_heretic = 0.25
 		}
+		conditional_modifier = {
+			trigger = {
+				owner = {
+					tag = BOH
+				}
+			}
+			modifier = {
+				imperial_authority_value = 0.05
+			}
+		}
+			
 		on_upgraded = {
+			custom_tooltip = me_prague_bohemia_owner_1
 		}
 	}
 
@@ -11817,14 +13018,24 @@ prague = {
 		area_modifier = {
 		}
 		country_modifiers = {
-			imperial_authority_value = 0.1
 			tolerance_own = 0.25
 			tolerance_heretic = 0.25
 			papal_influence = 0.5
 			monthly_fervor_increase = 0.25
 			church_power_modifier = 0.05
 		}
+		conditional_modifier = {
+			trigger = {
+				owner = {
+					tag = BOH
+				}
+			}
+			modifier = {
+				imperial_authority_value = 0.1
+			}
+		}
 		on_upgraded = {
+			custom_tooltip = me_prague_bohemia_owner_2
 		}
 	}
 
@@ -11840,14 +13051,24 @@ prague = {
 		area_modifier = {
 		}
 		country_modifiers = {
-			imperial_authority_value = 0.15
 			tolerance_own = 0.5
 			tolerance_heretic = 0.5
 			papal_influence = 1
 			monthly_fervor_increase = 0.5
 			church_power_modifier = 0.1
 		}
+		conditional_modifier = {
+			trigger = {
+				owner = {
+					tag = BOH
+				}
+			}
+			modifier = {
+				imperial_authority_value = 0.15
+			}
+		}
 		on_upgraded = {
+			custom_tooltip = me_prague_bohemia_owner_3
 		}
 	}
 }
@@ -11857,12 +13078,15 @@ holy_city_kairouan = {
 	date = 670.01.01
 	time = { months = 0	}
 	build_cost = 0
-	can_be_moved = yes
+	  can_be_moved = yes
 	move_days_per_unit_distance = 10
 	starting_tier = 2
 	type = monument
 
 	build_trigger = {
+		province_is_or_accepts_religion_group = {
+			religion_group = muslim
+		}
 	}
 
 	on_built = {
@@ -11872,9 +13096,15 @@ holy_city_kairouan = {
 	}
 
 	can_use_modifiers_trigger = {
+		province_is_or_accepts_religion_group = {
+			religion_group = muslim
+		}
 	}
 
 	can_upgrade_trigger = {
+		province_is_or_accepts_religion_group = {
+			religion_group = muslim
+		}
 	}
 
 	keep_trigger = {
@@ -11962,12 +13192,15 @@ imam_hussein_al-abbas = {
 	date = 680.01.01
 	time = { months = 0	}
 	build_cost = 0
-	can_be_moved = yes
+	  can_be_moved = yes
 	move_days_per_unit_distance = 10
 	starting_tier = 1
 	type = monument
 
 	build_trigger = {
+		province_is_or_accepts_religion = {
+			religion = shiite
+		}
 	}
 
 	on_built = {
@@ -11977,9 +13210,15 @@ imam_hussein_al-abbas = {
 	}
 
 	can_use_modifiers_trigger = {
+		province_is_or_accepts_religion = {
+			religion = shiite
+		}
 	}
 
 	can_upgrade_trigger = {
+		province_is_or_accepts_religion = {
+			religion = shiite
+		}
 	}
 
 	keep_trigger = {
@@ -12068,12 +13307,23 @@ kashi_vishwanath = {
 	date = 1194.01.01
 	time = { months = 0	}
 	build_cost = 0
-	can_be_moved = yes
+	  can_be_moved = yes
 	move_days_per_unit_distance = 10
 	starting_tier = 1
 	type = monument
 
 	build_trigger = {
+		OR = {
+			province_is_or_accepts_religion_group = {
+				religion_group = dharmic
+			}
+			custom_trigger_tooltip = {
+				tooltip = me_mug_completed_mission_architecture
+				owner = {
+					  
+				}
+			}
+		}
 	}
 
 	on_built = {
@@ -12083,9 +13333,31 @@ kashi_vishwanath = {
 	}
 
 	can_use_modifiers_trigger = {
+		OR = {
+			province_is_or_accepts_religion_group = {
+				religion_group = dharmic
+			}
+			custom_trigger_tooltip = {
+				tooltip = me_mug_completed_mission_architecture
+				owner = {
+					  
+				}
+			}
+		}
 	}
 
 	can_upgrade_trigger = {
+		OR = {
+			province_is_or_accepts_religion_group = {
+				religion_group = dharmic
+			}
+			custom_trigger_tooltip = {
+				tooltip = me_mug_completed_mission_architecture
+				owner = {
+					  
+				}
+			}
+		}
 	}
 
 	keep_trigger = {
@@ -12120,8 +13392,30 @@ kashi_vishwanath = {
 		area_modifier = {
 		}
 		country_modifiers = {
-			core_creation = -0.05
 			brahmins_hindu_loyalty_modifier = 0.05
+		}
+		conditional_modifier = {
+			trigger = {
+				owner = {
+					tag = MUG
+				}
+			}
+			
+			modifier = {
+				harsh_treatment_cost = -0.05
+			}
+		}
+
+		conditional_modifier = {
+			trigger = {
+				owner = {
+					NOT = { tag = MUG }
+				}
+			}
+			
+			modifier = {
+				core_creation = -0.05
+			}
 		}
 		on_upgraded = {
 		}
@@ -12139,9 +13433,30 @@ kashi_vishwanath = {
 		area_modifier = {
 		}
 		country_modifiers = {
-			core_creation = -0.075
 			ae_impact = -0.05
 			brahmins_hindu_loyalty_modifier = 0.1
+		}
+		conditional_modifier = {
+			trigger = {
+				owner = {
+					tag = MUG
+				}
+			}
+			
+			modifier = {
+				harsh_treatment_cost = -0.1
+			}
+		}
+		conditional_modifier = {
+			trigger = {
+				owner = {
+					NOT = { tag = MUG }
+				}
+			}
+			
+			modifier = {
+				core_creation = -0.075
+			}
 		}
 		on_upgraded = {			
 		}
@@ -12159,11 +13474,32 @@ kashi_vishwanath = {
 		area_modifier = {
 		}
 		country_modifiers = {
-			core_creation = -0.1
 			ae_impact = -0.1
 			brahmins_hindu_loyalty_modifier = 0.15
 		}
-		on_upgraded = {			
+		conditional_modifier = {
+			trigger = {
+				owner = {
+					tag = MUG
+				}
+			}
+			
+			modifier = {
+				harsh_treatment_cost = -0.2
+			}
+		}
+		conditional_modifier = {
+			trigger = {
+				owner = {
+					NOT = { tag = MUG }
+				}
+			}
+			
+			modifier = {
+				core_creation = -0.1
+			}
+		}
+		on_upgraded = {
 		}
 	}
 }
@@ -12173,12 +13509,23 @@ khajuraho = {
 	date = 850.01.01
 	time = { months = 0	}
 	build_cost = 0
-	can_be_moved = yes
+	  can_be_moved = yes
 	move_days_per_unit_distance = 10
 	starting_tier = 1
 	type = monument
 
 	build_trigger = {
+		OR = {
+			province_is_or_accepts_religion_group = {
+				religion_group = dharmic
+			}
+			custom_trigger_tooltip = {
+				tooltip = me_mug_completed_mission_architecture
+				owner = {
+					  
+				}
+			}
+		}
 	}
 
 	on_built = {
@@ -12188,9 +13535,31 @@ khajuraho = {
 	}
 
 	can_use_modifiers_trigger = {
+		OR = {
+			province_is_or_accepts_religion_group = {
+				religion_group = dharmic
+			}
+			custom_trigger_tooltip = {
+				tooltip = me_mug_completed_mission_architecture
+				owner = {
+					  
+				}
+			}
+		}
 	}
 
 	can_upgrade_trigger = {
+		OR = {
+			province_is_or_accepts_religion_group = {
+				religion_group = dharmic
+			}
+			custom_trigger_tooltip = {
+				tooltip = me_mug_completed_mission_architecture
+				owner = {
+					  
+				}
+			}
+		}
 	}
 
 	keep_trigger = {
@@ -12278,12 +13647,15 @@ kilwa_city = {
 	date = 975.01.01
 	time = { months = 0	}
 	build_cost = 0
-	can_be_moved = yes
+	  can_be_moved = yes
 	move_days_per_unit_distance = 10
 	starting_tier = 2
 	type = monument
 
 	build_trigger = {
+		province_is_or_accepts_religion_group = {
+			religion_group = muslim
+		}
 	}
 
 	on_built = {
@@ -12293,9 +13665,15 @@ kilwa_city = {
 	}
 
 	can_use_modifiers_trigger = {
+		province_is_or_accepts_religion_group = {
+			religion_group = muslim
+		}
 	}
 
 	can_upgrade_trigger = {
+		province_is_or_accepts_religion_group = {
+			religion_group = muslim
+		}
 	}
 
 	keep_trigger = {
@@ -12383,7 +13761,7 @@ krakow_cloth_hall = {
 	date = 1250.01.01
 	time = { months = 0	}
 	build_cost = 0
-	can_be_moved = yes
+	  can_be_moved = yes
 	move_days_per_unit_distance = 10
 	starting_tier = 1
 	type = monument
@@ -12488,12 +13866,15 @@ maidan-e_naqsh-e_jahan = {
 	date = 1444.01.01	#1600.01.01
 	time = { months = 0	}
 	build_cost = 0
-	can_be_moved = yes
+	  can_be_moved = yes
 	move_days_per_unit_distance = 10
 	starting_tier = 0
 	type = monument
 
 	build_trigger = {
+		province_is_or_accepts_religion_group = {
+			religion_group = muslim
+		}
 	}
 
 	on_built = {
@@ -12503,9 +13884,15 @@ maidan-e_naqsh-e_jahan = {
 	}
 
 	can_use_modifiers_trigger = {
+		province_is_or_accepts_religion_group = {
+			religion_group = muslim
+		}
 	}
 
 	can_upgrade_trigger = {
+		province_is_or_accepts_religion_group = {
+			religion_group = muslim
+		}
 	}
 
 	keep_trigger = {
@@ -12594,7 +13981,7 @@ malbork_castle = {
 	date = 1300.01.01
 	time = { months = 0	}
 	build_cost = 0
-	can_be_moved = yes
+	  can_be_moved = yes
 	move_days_per_unit_distance = 10
 	starting_tier = 2
 	type = monument
@@ -12709,7 +14096,7 @@ malta_forts = {
 	date = 100.01.01	#Ancient fortresses existed way earlier
 	time = { months = 0	}
 	build_cost = 0
-	can_be_moved = yes
+	  can_be_moved = yes
 	move_days_per_unit_distance = 10
 	starting_tier = 1
 	type = monument
@@ -12817,7 +14204,7 @@ mehrangarh_fort = {
 	date = 1444.01.01	#1454.01.01
 	time = { months = 0	}
 	build_cost = 0
-	can_be_moved = yes
+	  can_be_moved = yes
 	move_days_per_unit_distance = 10
 	starting_tier = 0
 	type = monument
@@ -12926,7 +14313,7 @@ nan_madoll = {
 	date = 500.01.01	#Date is a little bit iffy here
 	time = { months = 0	}
 	build_cost = 0
-	can_be_moved = yes
+	  can_be_moved = yes
 	move_days_per_unit_distance = 10
 	starting_tier = 1
 	type = monument
@@ -13029,12 +14416,14 @@ porcelain_tower_nanjing = {
 	date = 1431.01.01
 	time = { months = 0	}
 	build_cost = 0
-	can_be_moved = yes
+	  can_be_moved = yes
 	move_days_per_unit_distance = 10
 	starting_tier = 2
 	type = monument
 
 	build_trigger = {
+		culture_group = east_asian
+		province_is_or_accepts_culture = yes
 	}
 
 	on_built = {
@@ -13044,9 +14433,13 @@ porcelain_tower_nanjing = {
 	}
 
 	can_use_modifiers_trigger = {
+		culture_group = east_asian
+		province_is_or_accepts_culture = yes
 	}
 
 	can_upgrade_trigger = {
+		culture_group = east_asian
+		province_is_or_accepts_culture = yes
 	}
 
 	keep_trigger = {
@@ -13077,15 +14470,21 @@ porcelain_tower_nanjing = {
 			factor = 1000
 		}
 		province_modifiers = {
-			local_unrest = -1
 		}
 		area_modifier = {
 		}
 		country_modifiers = {
-			meritocracy = 0.1
-			global_institution_spread = 0.1
+			monthly_splendor = 1
 		}
 		on_upgraded = {
+			owner = {
+				define_advisor = {
+					type = artist 
+					skill = 3
+					cost_multiplier = 0.5
+				}
+				change_innovativeness = 1 
+			}
 		}
 	}
 
@@ -13102,9 +14501,9 @@ porcelain_tower_nanjing = {
 			local_unrest = -1
 		}
 		country_modifiers = {
-			meritocracy = 0.25
-			global_institution_spread = 0.2
-			embracement_cost = -0.1
+			monthly_splendor = 2
+			innovativeness_gain = 0.5
+			num_accepted_cultures = 1
 		}
 		on_upgraded = {
 		}
@@ -13123,11 +14522,18 @@ porcelain_tower_nanjing = {
 			local_unrest = -2
 		}
 		country_modifiers = {
-			meritocracy = 0.5
-			global_institution_spread = 0.3
-			embracement_cost = -0.15
+			monthly_splendor = 2
+			innovativeness_gain = 0.5
+			num_accepted_cultures = 2
 		}
 		on_upgraded = {
+			owner = {
+				add_ruler_modifier = {
+					name = fu_golden_era_of_culture_modifier
+					duration = -1 
+				}
+				country_event = { id = FU_Monument_Events.3 } 
+			}
 		}
 	}
 }
@@ -13137,12 +14543,18 @@ qhapaq_nam = {
 	date = 100.01.01
 	time = { months = 0	}
 	build_cost = 0
-	can_be_moved = yes
+	  can_be_moved = yes
 	move_days_per_unit_distance = 10
 	starting_tier = 1
 	type = monument
 
 	build_trigger = {
+		OR = {
+			culture_group = andean_group
+			culture = cara
+			culture = chachapoyan
+		}
+		province_is_or_accepts_culture = yes
 	}
 
 	on_built = {
@@ -13152,9 +14564,21 @@ qhapaq_nam = {
 	}
 
 	can_use_modifiers_trigger = {
+		OR = {
+			culture_group = andean_group
+			culture = cara
+			culture = chachapoyan
+		}
+		province_is_or_accepts_culture = yes
 	}
 
 	can_upgrade_trigger = {
+		OR = {
+			culture_group = andean_group
+			culture = cara
+			culture = chachapoyan
+		}
+		province_is_or_accepts_culture = yes
 	}
 
 	keep_trigger = {
@@ -13249,12 +14673,15 @@ rila_monasteries = {
 	date = 927.01.01
 	time = { months = 0	}
 	build_cost = 0
-	can_be_moved = yes
+	  can_be_moved = yes
 	move_days_per_unit_distance = 10
 	starting_tier = 1
 	type = monument
 
 	build_trigger = {
+		province_is_or_accepts_religion = {
+			religion = orthodox
+		}
 	}
 
 	on_built = {
@@ -13264,9 +14691,15 @@ rila_monasteries = {
 	}
 
 	can_use_modifiers_trigger = {
+		province_is_or_accepts_religion = {
+			religion = orthodox
+		}
 	}
 
 	can_upgrade_trigger = {
+		province_is_or_accepts_religion = {
+			religion = orthodox
+		}
 	}
 
 	keep_trigger = {
@@ -13355,12 +14788,15 @@ churches_lalibela = {
 	date = 1137.01.01
 	time = { months = 0	}
 	build_cost = 0
-	can_be_moved = yes
+	  can_be_moved = yes
 	move_days_per_unit_distance = 10
 	starting_tier = 2
 	type = monument
 
 	build_trigger = {
+		province_is_or_accepts_religion = {
+			religion = coptic
+		}
 	}
 
 	on_built = {
@@ -13370,9 +14806,15 @@ churches_lalibela = {
 	}
 
 	can_use_modifiers_trigger = {
+		province_is_or_accepts_religion = {
+			religion = coptic
+		}
 	}
 
 	can_upgrade_trigger = {
+		province_is_or_accepts_religion = {
+			religion = coptic
+		}
 	}
 
 	keep_trigger = {
@@ -13460,7 +14902,7 @@ royal_palace_caserta = {
 	date = 1444.01.01	#1752.01.01
 	time = { months = 0	}
 	build_cost = 0
-	can_be_moved = yes
+	  can_be_moved = yes
 	move_days_per_unit_distance = 10
 	starting_tier = 0
 	type = monument
@@ -13565,12 +15007,15 @@ san_antonio_missions = {
 	date = 1444.01.01	#1716.01.01
 	time = { months = 0	}
 	build_cost = 0
-	can_be_moved = yes
+	  can_be_moved = yes
 	move_days_per_unit_distance = 10
 	starting_tier = 0
 	type = monument
 
 	build_trigger = {
+		province_is_or_accepts_religion = {
+			religion = catholic
+		}
 	}
 
 	on_built = {
@@ -13580,9 +15025,15 @@ san_antonio_missions = {
 	}
 
 	can_use_modifiers_trigger = {
+		province_is_or_accepts_religion = {
+			religion = catholic
+		}
 	}
 
 	can_upgrade_trigger = {
+		province_is_or_accepts_religion = {
+			religion = catholic
+		}
 	}
 
 	keep_trigger = {
@@ -13677,7 +15128,7 @@ sankore_madrasah = {
 	date = 989.01.01
 	time = { months = 0	}
 	build_cost = 0
-	can_be_moved = yes
+	  can_be_moved = yes
 	move_days_per_unit_distance = 10
 	starting_tier = 1
 	type = monument
@@ -13782,12 +15233,15 @@ santa_maria_del_fiore = {
 	date = 1379.01.01	#Cathedral was able to be used for praying
 	time = { months = 0	}
 	build_cost = 0
-	can_be_moved = yes
+	  can_be_moved = yes
 	move_days_per_unit_distance = 10
 	starting_tier = 2
 	type = monument
 
 	build_trigger = {
+		province_is_or_accepts_religion_group = {
+			religion_group = christian
+		}
 	}
 
 	on_built = {
@@ -13797,9 +15251,15 @@ santa_maria_del_fiore = {
 	}
 
 	can_use_modifiers_trigger = {
+		province_is_or_accepts_religion_group = {
+			religion_group = christian
+		}
 	}
 
 	can_upgrade_trigger = {
+		province_is_or_accepts_religion_group = {
+			religion_group = christian
+		}
 	}
 
 	keep_trigger = {
@@ -13830,6 +15290,7 @@ santa_maria_del_fiore = {
 			factor = 1000
 		}
 		province_modifiers = {
+			local_build_cost = -0.1 
 		}
 		area_modifier = {
 		}
@@ -13838,6 +15299,13 @@ santa_maria_del_fiore = {
 			prestige_decay = -0.005
 		}
 		on_upgraded = {
+			PAP = {
+				add_opinion = {
+					who = ROOT 
+					modifier = fu_constructed_the_florentine_cathedral
+				}
+			}
+			owner = { add_papal_influence = 5 }
 		}
 	}
 
@@ -13849,6 +15317,7 @@ santa_maria_del_fiore = {
 			factor = 2500
 		}
 		province_modifiers = {
+			local_build_cost = -0.1 
 		}
 		area_modifier = {
 		}
@@ -13858,6 +15327,20 @@ santa_maria_del_fiore = {
 			prestige_decay = -0.01
 		}
 		on_upgraded = {
+			PAP = {
+				add_opinion = {
+					who = ROOT 
+					modifier = fu_expanded_the_florentine_cathedral
+				}
+			}
+			owner = { 
+				add_papal_influence = 10
+				add_reform_desire = -0.01
+				# if = {
+					# limit = { is_excommunicated = yes }
+					# excommunicate = ROOT 
+				# }
+			}
 		}
 	}
 
@@ -13869,6 +15352,7 @@ santa_maria_del_fiore = {
 			factor = 5000
 		}
 		province_modifiers = {
+			local_tax_modifier = 0.25
 		}
 		area_modifier = {
 		}
@@ -13878,6 +15362,14 @@ santa_maria_del_fiore = {
 			prestige_decay = -0.01
 		}
 		on_upgraded = {
+			owner = { 
+				add_papal_influence = 25
+				add_reform_desire = -0.05
+				# if = {
+					# limit = { is_excommunicated = yes }
+					# excommunicate = ROOT 
+				# }
+			}
 		}
 	}
 }
@@ -13887,12 +15379,15 @@ spiral_minaret_samarra = {
 	date = 850.01.01
 	time = { months = 0	}
 	build_cost = 0
-	can_be_moved = yes
+	  can_be_moved = yes
 	move_days_per_unit_distance = 10
 	starting_tier = 0
 	type = monument
 
 	build_trigger = {
+		province_is_or_accepts_religion_group = {
+			religion_group = muslim
+		}
 	}
 
 	on_built = {
@@ -13902,9 +15397,15 @@ spiral_minaret_samarra = {
 	}
 
 	can_use_modifiers_trigger = {
+		province_is_or_accepts_religion_group = {
+			religion_group = muslim
+		}
 	}
 
 	can_upgrade_trigger = {
+		province_is_or_accepts_religion_group = {
+			religion_group = muslim
+		}
 	}
 
 	keep_trigger = {
@@ -13993,12 +15494,15 @@ sultan_ahmed_mosque = {
 	date = 1444.01.01	#1616.01.01
 	time = { months = 0	}
 	build_cost = 0
-	can_be_moved = yes
+	  can_be_moved = yes
 	move_days_per_unit_distance = 10
 	starting_tier = 0
 	type = monument
 
 	build_trigger = {
+		province_is_or_accepts_religion_group = {
+			religion_group = muslim
+		}
 	}
 
 	on_built = {
@@ -14008,9 +15512,15 @@ sultan_ahmed_mosque = {
 	}
 
 	can_use_modifiers_trigger = {
+		province_is_or_accepts_religion_group = {
+			religion_group = muslim
+		}
 	}
 
 	can_upgrade_trigger = {
+		province_is_or_accepts_religion_group = {
+			religion_group = muslim
+		}
 	}
 
 	keep_trigger = {
@@ -14099,12 +15609,23 @@ sun_temple_konarak = {
 	date = 1250.01.01
 	time = { months = 0	}
 	build_cost = 0
-	can_be_moved = yes
+	  can_be_moved = yes
 	move_days_per_unit_distance = 10
 	starting_tier = 2
 	type = monument
 
 	build_trigger = {
+		OR = {
+			province_is_or_accepts_religion_group = {
+				religion_group = dharmic
+			}
+			custom_trigger_tooltip = {
+				tooltip = me_mug_completed_mission_architecture
+				owner = {
+					  
+				}
+			}
+		}
 	}
 
 	on_built = {
@@ -14114,9 +15635,31 @@ sun_temple_konarak = {
 	}
 
 	can_use_modifiers_trigger = {
+		OR = {
+			province_is_or_accepts_religion_group = {
+				religion_group = dharmic
+			}
+			custom_trigger_tooltip = {
+				tooltip = me_mug_completed_mission_architecture
+				owner = {
+					  
+				}
+			}
+		}
 	}
 
 	can_upgrade_trigger = {
+		OR = {
+			province_is_or_accepts_religion_group = {
+				religion_group = dharmic
+			}
+			custom_trigger_tooltip = {
+				tooltip = me_mug_completed_mission_architecture
+				owner = {
+					  
+				}
+			}
+		}
 	}
 
 	keep_trigger = {
@@ -14204,12 +15747,21 @@ swayambhunath = {
 	date = 10.01.01	#Long before 1444
 	time = { months = 0	}
 	build_cost = 0
-	can_be_moved = yes
+	  can_be_moved = yes
 	move_days_per_unit_distance = 10
 	starting_tier = 1
 	type = monument
 
 	build_trigger = {
+		OR = {
+			province_is_buddhist_or_accepts_buddhism = yes
+			custom_trigger_tooltip = {
+				tooltip = me_mug_completed_mission_architecture
+				owner = {
+					  
+				}
+			}
+		}
 	}
 
 	on_built = {
@@ -14219,9 +15771,27 @@ swayambhunath = {
 	}
 
 	can_use_modifiers_trigger = {
+		OR = {
+			province_is_buddhist_or_accepts_buddhism = yes
+			custom_trigger_tooltip = {
+				tooltip = me_mug_completed_mission_architecture
+				owner = {
+					  
+				}
+			}
+		}
 	}
 
 	can_upgrade_trigger = {
+		OR = {
+			province_is_buddhist_or_accepts_buddhism = yes
+			custom_trigger_tooltip = {
+				tooltip = me_mug_completed_mission_architecture
+				owner = {
+					  
+				}
+			}
+		}
 	}
 
 	keep_trigger = {
@@ -14314,12 +15884,18 @@ white_house = {
 	date = 1444.01.01	#1800.01.01
 	time = { months = 0	}
 	build_cost = 0
-	can_be_moved = yes
+	  can_be_moved = yes
 	move_days_per_unit_distance = 10
 	starting_tier = 0
 	type = monument
 
 	build_trigger = {
+		owner = {
+			OR = {
+				is_former_colonial_nation = yes
+				tag = USA
+			}			
+		}
 	}
 
 	on_built = {
@@ -14329,9 +15905,21 @@ white_house = {
 	}
 
 	can_use_modifiers_trigger = {
+		owner = {
+			OR = {
+				is_former_colonial_nation = yes
+				tag = USA
+			}			
+		}
 	}
 
 	can_upgrade_trigger = {
+		owner = {
+			OR = {
+				is_former_colonial_nation = yes
+				tag = USA
+			}			
+		}
 	}
 
 	keep_trigger = {
@@ -14371,6 +15959,10 @@ white_house = {
 			reelection_cost = -0.05
 		}
 		on_upgraded = {
+			owner = { 
+				add_republican_tradition = 3 
+				change_government_reform_progress = 50 
+			}
 		}
 	}
 
@@ -14391,6 +15983,10 @@ white_house = {
 			reelection_cost = -0.1
 		}
 		on_upgraded = {
+			owner = { 
+				add_republican_tradition = 3 
+				change_government_reform_progress = 50 
+			}
 		}
 	}
 
@@ -14411,6 +16007,10 @@ white_house = {
 			reelection_cost = -0.1
 		}
 		on_upgraded = {
+			owner = { 
+				add_republican_tradition = 5
+				change_government_reform_progress = 50 
+			}
 		}
 	}
 }
@@ -14420,12 +16020,14 @@ tikal = {
 	date = 10.01.01
 	time = { months = 0	}
 	build_cost = 0
-	can_be_moved = yes
+	  can_be_moved = yes
 	move_days_per_unit_distance = 10
 	starting_tier = 0
 	type = monument
 
 	build_trigger = {
+		culture_group = maya
+		province_is_or_accepts_culture = yes
 	}
 
 	on_built = {
@@ -14435,9 +16037,13 @@ tikal = {
 	}
 
 	can_use_modifiers_trigger = {
+		culture_group = maya
+		province_is_or_accepts_culture = yes
 	}
 
 	can_upgrade_trigger = {
+		culture_group = maya
+		province_is_or_accepts_culture = yes
 	}
 
 	keep_trigger = {
@@ -14526,12 +16132,15 @@ tiwanaku = {
 	date = 10.01.01
 	time = { months = 0	}
 	build_cost = 0
-	can_be_moved = yes
+	  can_be_moved = yes
 	move_days_per_unit_distance = 10
 	starting_tier = 0
 	type = monument
 
 	build_trigger = {
+		province_is_or_accepts_religion = {
+			religion = inti
+		}
 	}
 
 	on_built = {
@@ -14541,9 +16150,15 @@ tiwanaku = {
 	}
 
 	can_use_modifiers_trigger = {
+		province_is_or_accepts_religion = {
+			religion = inti
+		}
 	}
 
 	can_upgrade_trigger = {
+		province_is_or_accepts_religion = {
+			religion = inti
+		}
 	}
 
 	keep_trigger = {
@@ -14631,7 +16246,7 @@ tortuga_island = {
 	date = 1444.01.01	#1640.01.01
 	time = { months = 0	}
 	build_cost = 0
-	can_be_moved = yes
+	  can_be_moved = yes
 	move_days_per_unit_distance = 10
 	starting_tier = 0
 	type = monument
@@ -14742,12 +16357,14 @@ ulm_minster_great_project = {
 	date = 1377.01.01
 	time = { months = 0	}
 	build_cost = 0
-	can_be_moved = yes
+	  can_be_moved = yes
 	move_days_per_unit_distance = 10
 	starting_tier = 1
 	type = monument
 
 	build_trigger = {
+		culture_group = germanic
+		province_is_or_accepts_culture = yes
 	}
 
 	on_built = {
@@ -14757,9 +16374,13 @@ ulm_minster_great_project = {
 	}
 
 	can_use_modifiers_trigger = {
+		culture_group = germanic
+		province_is_or_accepts_culture = yes
 	}
 
 	can_upgrade_trigger = {
+		culture_group = germanic
+		province_is_or_accepts_culture = yes
 	}
 
 	keep_trigger = {
@@ -14849,12 +16470,15 @@ walls_benin = {
 	date = 900.01.01
 	time = { months = 0	}
 	build_cost = 0
-	can_be_moved = yes
+	  can_be_moved = yes
 	move_days_per_unit_distance = 10
 	starting_tier = 2
 	type = monument
 
 	build_trigger = {
+		province_is_or_accepts_religion_group = {
+			religion_group = pagan
+		}
 	}
 
 	on_built = {
@@ -14864,9 +16488,15 @@ walls_benin = {
 	}
 
 	can_use_modifiers_trigger = {
+		province_is_or_accepts_religion_group = {
+			religion_group = pagan
+		}
 	}
 
 	can_upgrade_trigger = {
+		province_is_or_accepts_religion_group = {
+			religion_group = pagan
+		}
 	}
 
 	keep_trigger = {
@@ -14894,16 +16524,16 @@ walls_benin = {
 			months = 120
 		}
 		cost_to_upgrade = {
-			factor = 1000
+			factor = 350
 		}
 		province_modifiers = {
 			local_defensiveness = 0.15
+			local_hostile_movement_speed = -0.2
 		}
 		area_modifier = {
+			local_development_cost = -0.15
 		}
 		country_modifiers = {
-			prestige_from_land = 0.5
-			nobles_loyalty_modifier = 0.05
 		}
 		on_upgraded = {
 		}
@@ -14911,20 +16541,19 @@ walls_benin = {
 
 	tier_2 = {
 		upgrade_time = {
-			months = 240
+			months = 120
 		}
 		cost_to_upgrade = {
-			factor = 2500
+			factor = 500
 		}
 		province_modifiers = {
+			local_defensiveness = 0.2 
+			local_hostile_movement_speed = -0.25
 		}
 		area_modifier = {
-			local_defensiveness = 0.15
+			local_development_cost = -0.25
 		}
 		country_modifiers = {
-			prestige_from_land = 1
-			global_prov_trade_power_modifier = 0.1
-			nobles_loyalty_modifier = 0.1
 		}
 		on_upgraded = {
 		}
@@ -14932,22 +16561,27 @@ walls_benin = {
 
 	tier_3 = {
 		upgrade_time = {
-			months = 480
+			months = 120
 		}
 		cost_to_upgrade = {
-			factor = 5000
+			factor = 1500
 		}
 		province_modifiers = {
+			local_defensiveness = 0.25
+			local_hostile_movement_speed = -0.3
 		}
 		area_modifier = {
-			local_defensiveness = 0.25
+			local_development_cost = -0.25
 		}
 		country_modifiers = {
-			prestige_from_land = 1
-			global_prov_trade_power_modifier = 0.2
-			nobles_loyalty_modifier = 0.15
+			build_cost = -0.05
 		}
 		on_upgraded = {
+			1147 = {
+				create_or_add_center_of_trade_level = {
+					level = 1
+				}
+			}
 		}
 	}
 }
@@ -14957,12 +16591,14 @@ winter_palace = {
 	date = 1444.01.01	#1711.01.01
 	time = { months = 0	}
 	build_cost = 0
-	can_be_moved = yes
+	  can_be_moved = yes
 	move_days_per_unit_distance = 10
 	starting_tier = 0
 	type = monument
 
 	build_trigger = {
+		culture_group = east_slavic
+		province_is_or_accepts_culture = yes
 	}
 
 	on_built = {
@@ -14972,9 +16608,13 @@ winter_palace = {
 	}
 
 	can_use_modifiers_trigger = {
+		culture_group = east_slavic
+		province_is_or_accepts_culture = yes
 	}
 
 	can_upgrade_trigger = {
+		culture_group = east_slavic
+		province_is_or_accepts_culture = yes
 	}
 
 	keep_trigger = {
@@ -15014,6 +16654,7 @@ winter_palace = {
 			reform_progress_growth = 0.1
 		}
 		on_upgraded = {
+			owner = { add_absolutism = 5 }
 		}
 	}
 
@@ -15035,6 +16676,12 @@ winter_palace = {
 			reform_progress_growth = 0.15
 		}
 		on_upgraded = {
+			custom_tooltip = fu_if_possible_absolutist_tt
+			hidden_effect = {
+				owner = { 	
+					country_event = { id = FU_Monument_Events.7 }
+				}
+			}
 		}
 	}
 
@@ -15054,8 +16701,15 @@ winter_palace = {
 		country_modifiers = {
 			yearly_absolutism = 0.5
 			reform_progress_growth = 0.2
+			diplomatic_annexation_cost = -0.1
 		}
 		on_upgraded = {
+			custom_tooltip = fu_if_possible_leg_stat_tt
+			hidden_effect = {
+				owner = { 	
+					country_event = { id = FU_Monument_Events.8 }
+				}
+			}
 		}
 	}
 }
@@ -15065,7 +16719,7 @@ zacatecas_mine_city = {
 	date = 1444.01.01	#1548.01.01
 	time = { months = 0	}
 	build_cost = 0
-	can_be_moved = yes
+	  can_be_moved = yes
 	move_days_per_unit_distance = 10
 	starting_tier = 0
 	type = monument
@@ -15170,7 +16824,7 @@ falun_copper_mine = {
 	date = 1000.01.01
 	time = { months = 0	}
 	build_cost = 0
-	can_be_moved = yes
+	  can_be_moved = yes
 	move_days_per_unit_distance = 10
 	starting_tier = 1
 	type = monument
@@ -15278,7 +16932,7 @@ kronborg = {
 	date = 1420.01.01
 	time = { months = 0	}
 	build_cost = 0
-	can_be_moved = yes
+	  can_be_moved = yes
 	move_days_per_unit_distance = 10
 	starting_tier = 1
 	type = monument
@@ -15392,7 +17046,7 @@ visby_city = {
 	date = 800.01.01
 	time = { months = 0	}
 	build_cost = 0
-	can_be_moved = yes
+	  can_be_moved = yes
 	move_days_per_unit_distance = 10
 	starting_tier = 1
 	type = monument
@@ -15500,7 +17154,7 @@ trakai_castle = {
 	date = 1409.01.01
 	time = { months = 0	}
 	build_cost = 0
-	can_be_moved = yes
+	  can_be_moved = yes
 	move_days_per_unit_distance = 10
 	starting_tier = 1
 	type = monument
@@ -15605,7 +17259,7 @@ salvador_da_bahia = {
 	date = 1444.01.01	#1549.3.29
 	time = { months = 0	}
 	build_cost = 0
-	can_be_moved = yes
+	  can_be_moved = yes
 	move_days_per_unit_distance = 10
 	starting_tier = 0
 	type = monument
@@ -15717,12 +17371,14 @@ mbanza_kongo = {
 	date = 1390.01.01
 	time = { months = 0	}
 	build_cost = 0
-	can_be_moved = yes
+	  can_be_moved = yes
 	move_days_per_unit_distance = 10
 	starting_tier = 0
 	type = monument
 
 	build_trigger = {
+		culture_group = kongo_group
+		province_is_or_accepts_culture = yes
 	}
 
 	on_built = {
@@ -15732,9 +17388,13 @@ mbanza_kongo = {
 	}
 
 	can_use_modifiers_trigger = {
+		culture_group = kongo_group
+		province_is_or_accepts_culture = yes
 	}
 
 	can_upgrade_trigger = {
+		culture_group = kongo_group
+		province_is_or_accepts_culture = yes
 	}
 
 	keep_trigger = {
@@ -15823,12 +17483,15 @@ harar_jugol = {
 	date = 500.01.01
 	time = { months = 0	}
 	build_cost = 0
-	can_be_moved = yes
+	  can_be_moved = yes
 	move_days_per_unit_distance = 10
 	starting_tier = 1
 	type = monument
 
 	build_trigger = {
+		province_is_or_accepts_religion_group = {
+			religion_group = muslim
+		}
 	}
 
 	on_built = {
@@ -15838,9 +17501,15 @@ harar_jugol = {
 	}
 
 	can_use_modifiers_trigger = {
+		province_is_or_accepts_religion_group = {
+			religion_group = muslim
+		}
 	}
 
 	can_upgrade_trigger = {
+		province_is_or_accepts_religion_group = {
+			religion_group = muslim
+		}
 	}
 
 	keep_trigger = {
@@ -15929,7 +17598,7 @@ dujiangyan = {
 	date = 100.01.01
 	time = { months = 0	}
 	build_cost = 0
-	can_be_moved = yes
+	  can_be_moved = yes
 	move_days_per_unit_distance = 10
 	starting_tier = 1
 	type = monument
@@ -15977,7 +17646,7 @@ dujiangyan = {
 			factor = 1000
 		}
 		province_modifiers = {
-			local_development_cost_modifier = -0.05
+			development_cost_modifier = -0.05
 			local_governing_cost = -0.2
 		}
 		area_modifier = {
@@ -15995,7 +17664,7 @@ dujiangyan = {
 			factor = 2500
 		}
 		province_modifiers = {
-			local_development_cost_modifier = -0.1
+			development_cost_modifier = -0.1
 			allowed_num_of_buildings = 1
 		}
 		area_modifier = {
@@ -16018,7 +17687,7 @@ dujiangyan = {
 		province_modifiers = {
 		}
 		area_modifier = {
-			local_development_cost_modifier = -0.1
+			development_cost_modifier = -0.1
 			allowed_num_of_buildings = 1
 			local_governing_cost = -0.4
 		}
