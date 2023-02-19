@@ -1,0 +1,32 @@
+on_startup = {
+	run_on_startup_compatability_effects = yes
+	riverupdate = yes
+	update_monuments_self = yes
+}
+
+on_dependency_gained = {
+	run_on_dependency_gained_compatability_effects = yes
+	update_monuments_self = yes
+	FROM = { update_monuments_self = yes }
+}
+
+# ROOT = Overlord, FROM = Minor
+on_dependency_lost = {
+	FROM = { set_country_flag = dependencylost }
+	ROOT = { set_country_flag = dependencylost }
+	update_monuments_self = yes
+	FROM = { clr_country_flag = dependencylost }
+	ROOT = { clr_country_flag = dependencylost }
+	run_on_dependency_lost_compatability_effects = yes
+}
+
+on_great_project_constructed = {
+	update_monuments_self = yes
+}
+
+on_province_owner_change = {
+	update_monuments_dependence = yes
+	FROM = { riverupdate = yes }
+	owner = { riverupdate = yes }
+	run_on_province_owner_change_compatability_effects = yes
+}

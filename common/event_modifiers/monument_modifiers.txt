@@ -1,0 +1,5919 @@
+kiel_canal1 = {
+	global_trade_power = 0.02
+}
+kiel_canal2 = {
+	global_trade_power = 0.03
+}
+kiel_canal3 = {
+	global_trade_power = 0.05
+}
+suez_canal1 = {
+	global_trade_power = 0.02
+}
+suez_canal2 = {
+	global_trade_power = 0.03
+}
+suez_canal3 = {
+	global_trade_power = 0.05
+}
+panama_canal1 = {
+	global_trade_power = 0.02
+}
+panama_canal2 = {
+	global_trade_power = 0.03
+}
+panama_canal3 = {
+	global_trade_power = 0.05
+}
+panama_canal1 = {
+	global_trade_power = 0.02
+}
+panama_canal2 = {
+	global_trade_power = 0.03
+}
+panama_canal3 = {
+	global_trade_power = 0.05
+}
+panama_canal1 = {
+	global_trade_power = 0.02
+}
+panama_canal2 = {
+	global_trade_power = 0.03
+}
+panama_canal3 = {
+	global_trade_power = 0.05
+}
+panama_canal1 = {
+	global_trade_power = 0.02
+}
+panama_canal2 = {
+	global_trade_power = 0.03
+}
+panama_canal3 = {
+	global_trade_power = 0.05
+}
+fu_sari_markets1 = {
+	global_trade_power = 0.025
+}
+fu_sari_markets2 = {
+	global_trade_power = 0.05
+}
+fu_sari_markets3 = {
+	global_trade_power = 0.1
+}
+fu_hormuz_toll3 = {
+	merchants = 1  
+}
+fu_mehmed_pasha_mosque1 = {
+	monthly_piety = 0.001
+}
+fu_mehmed_pasha_mosque2 = {
+	monthly_piety = 0.0025
+}
+fu_mehmed_pasha_mosque3 = {
+	monthly_piety = 0.0025
+	culture_conversion_cost = -0.15
+}
+fu_acemi_oglan3 = {
+	free_leader_pool = 1 
+}
+fu_holy_cross_cathedral2 = {
+	papal_influence = 1
+	church_power_modifier = 0.2
+}
+fu_holy_cross_cathedral3 = {
+	papal_influence = 1
+	church_power_modifier = 0.25
+}
+fu_holy_cross_cathedral1 = {
+	global_trade_power = 0.02
+}
+fu_holy_cross_cathedral2 = {
+	global_trade_power = 0.03
+}
+fu_holy_cross_cathedral3 = {
+	global_trade_power = 0.05
+}
+fu_holy_cross_cathedral1 = {
+	global_trade_power = 0.02
+}
+fu_holy_cross_cathedral2 = {
+	global_trade_power = 0.03
+}
+fu_holy_cross_cathedral3 = {
+	global_trade_power = 0.05
+}
+fu_holy_cross_cathedral1 = {
+	global_trade_power = 0.02
+}
+fu_holy_cross_cathedral2 = {
+	global_trade_power = 0.03
+}
+fu_holy_cross_cathedral3 = {
+	global_trade_power = 0.05
+}
+alp_arslan1 = {
+	army_tradition_decay = -0.005
+}
+alp_arslan2 = {
+	army_tradition_decay = -0.01
+	army_tradition_from_battle = 0.25
+}
+alp_arslan3 = {
+	army_tradition_decay = -0.01
+	army_tradition_from_battle = 0.5
+}
+theodosian1 = {
+	army_tradition_decay = -0.005
+}
+theodosian2 = {
+	war_exhaustion_cost = -0.1
+}
+theodosian3 = {
+	war_exhaustion_cost = -0.2
+}
+barlin1 = {
+	governing_capacity_modifier = 0.1
+}
+barlin2 = {
+	war_exhaustion = -0.03
+	governing_capacity_modifier = 0.1
+}
+barlin3 = {
+	war_exhaustion = -0.05
+	governing_capacity_modifier = 0.15
+}
+sanssouci_palace1 = {
+	yearly_absolutism = 0.1
+}
+sanssouci_palace2 = {
+	yearly_absolutism = 0.2
+	max_absolutism = 5
+}
+sanssouci_palace3 = {
+	yearly_absolutism = 0.3
+	max_absolutism = 10
+	global_institution_spread = 0.1
+}
+german_reichstag1 = {
+	governing_capacity_modifier = 0.05
+	prestige = 0.25
+}
+german_reichstag2 = {
+	governing_capacity_modifier = 0.10
+	prestige = 0.5
+}
+german_reichstag3 = {
+	administrative_efficiency = 0.05
+	governing_capacity_modifier = 0.15
+	prestige = 1
+}
+siegessaule1 = {
+	monthly_splendor = 0.5
+	prestige = 0.2
+}
+siegessaule2 = {
+	monthly_splendor = 1
+	prestige = 0.5
+}
+siegessaule3 = {
+	monthly_splendor = 1.5
+	prestige = 1
+	power_projection_from_insults = 0.2
+}
+zweibruecken_castle1 = {
+	stability_cost_modifier = -0.025
+}
+zweibruecken_castle2 = {
+	stability_cost_modifier = -0.05
+}
+zweibruecken_castle3 = {
+	stability_cost_modifier = -0.1
+}
+speyer_cathedral1 = {
+	papal_influence = 0.25
+}
+speyer_cathedral2 = {
+	papal_influence = 0.5
+	monthly_fervor_increase = 0.25
+	religious_unity = 0.05
+}
+speyer_cathedral3 = {
+	papal_influence = 1
+	monthly_fervor_increase = 0.5
+	religious_unity = 0.1
+}
+dresdner_zwinger1 = {
+	yearly_absolutism = 0.1
+}
+dresdner_zwinger2 = {
+	yearly_absolutism = 0.2
+	stability_cost_modifier = -0.05
+}
+dresdner_zwinger3 = {
+	yearly_absolutism = 0.3
+	stability_cost_modifier = -0.1
+}
+kaiserburg_nuernberg1 = {
+	free_city_imperial_authority = 0.05
+}
+kaiserburg_nuernberg2 = {
+	free_city_imperial_authority = 0.1
+	diplomatic_reputation = 1
+}
+kaiserburg_nuernberg3 = {
+	free_city_imperial_authority = 0.25
+	diplomatic_reputation = 2
+}
+marienplatz_munich2 = {
+	burghers_loyalty_modifier = 0.05
+}
+marienplatz_munich3 = {
+	burghers_loyalty_modifier = 0.1
+}
+hofbrauhaus1 = {
+	global_tax_modifier = 0.05
+	stability_cost_modifier = -0.05
+}
+hofbrauhaus2 = {
+	global_tax_modifier = 0.10
+	stability_cost_modifier = -0.10
+}
+hofbrauhaus3 = {
+	global_tax_modifier = 0.15
+	stability_cost_modifier = -0.15
+}
+neuschwanstein_castle1 = {
+	yearly_absolutism = 0.2
+	prestige = 0.25
+}
+neuschwanstein_castle2 = {
+	yearly_absolutism = 0.5
+	prestige = 0.5
+}
+neuschwanstein_castle3 = {
+	yearly_absolutism = 0.5
+	prestige = 1
+}
+vienna_hofburg1 = {
+	imperial_authority_value = 0.05
+}
+vienna_hofburg2 = {
+	imperial_authority_value = 0.1
+	liberty_desire_from_subject_development = -0.10
+}
+vienna_hofburg3 = {
+	imperial_authority_value = 0.2
+	liberty_desire_from_subject_development = -0.20
+	administrative_efficiency = 0.05
+}
+vienna_belvedere1 = {
+	diplomatic_reputation = 0.25
+	envoy_travel_time = -0.2
+}
+vienna_belvedere2 = {
+	diplomatic_reputation = 0.5
+	envoy_travel_time = -0.25
+	prestige = 0.25
+}
+vienna_belvedere3 = {
+	diplomatic_reputation = 1
+	envoy_travel_time = -0.33
+	prestige = 0.5
+	diplomatic_upkeep = 1
+}
+stephens_cathedral1 = {
+	tolerance_own = 0.5
+}
+stephens_cathedral2 = {
+	tolerance_own = 1
+	papal_influence = 0.5
+	monthly_fervor_increase = 0.25
+	enforce_religion_cost = -0.10
+}
+stephens_cathedral3 = {
+	tolerance_own = 2
+	papal_influence = 1
+	monthly_fervor_increase = 0.5
+	enforce_religion_cost = -0.20
+}
+prague_castle2 = {
+	legitimacy = 0.5
+}
+prague_castle3 = {
+	legitimacy = 1
+}
+vitus_cathedral1 = {
+	tolerance_own = 0.25
+}
+vitus_cathedral2 = {
+	tolerance_own = 0.5
+	papal_influence = 0.2
+	monthly_fervor_increase = 0.1
+}
+vitus_cathedral3 = {
+	tolerance_own = 1
+	papal_influence = 0.5
+	monthly_fervor_increase = 0.25
+}
+aachen_cathedral1 = {
+	tolerance_own = 0.5
+	legitimate_subject_elector = 10
+	imperial_authority_value = 0.1
+}
+aachen_cathedral2 = {
+	tolerance_own = 1
+	legitimate_subject_elector = 25
+	imperial_authority_value = 0.2
+}
+aachen_cathedral3 = {
+	tolerance_own = 2
+	legitimate_subject_elector = 50
+	imperial_authority_value = 0.3
+}
+frankfurter_roemer1 = {
+	go
+}
+frankfurter_roemer2 = {
+	tolerance_own = 1
+	imperial_authority = 0.15
+}
+frankfurt_paulskirche1 = {
+	tolerance_own = 0.5
+	republican_tradition = 0.5
+	legitimacy = -0.5
+}
+frankfurt_paulskirche2 = {
+	tolerance_own = 1
+	republican_tradition = 1
+	legitimacy = -1
+}
+frankfurt_paulskirche3 = {
+	tolerance_own = 2
+	republican_tradition = 1.5
+	legitimacy = -1.5
+	global_unrest = -2
+	yearly_revolutionary_zeal = 0.1
+}
+trier_cathedral1 = {
+	tolerance_own = 0.25
+}
+trier_cathedral2 = {
+	tolerance_own = 0.5
+	papal_influence = 0.2
+	monthly_fervor_increase = 0.1
+}
+trier_cathedral3 = {
+	tolerance_own = 1
+	papal_influence = 0.5
+	monthly_fervor_increase = 0.25
+	monarch_lifespan = 0.05
+}
+herrenhausen_palace1 = {
+	prestige = 0.1
+}
+herrenhausen_palace2 = {
+	prestige = 0.2
+	diplomatic_reputation = 0.25
+}
+herrenhausen_palace3 = {
+	prestige = 0.5
+	diplomatic_reputation = 0.5
+	advisor_pool = 1
+}
+august_library1 = {
+	advisor_cost = -0.05
+}
+august_library2 = {
+	advisor_cost = -0.10
+	idea_cost = -0.05
+}
+august_library3 = {
+	advisor_cost = -0.15
+	idea_cost = -0.10
+	technology_cost = -0.05
+}
+hamburg_neustadt2 = {
+	naval_forcelimit_modifier = 0.1
+}
+hamburg_neustadt3 = {
+	naval_forcelimit_modifier = 0.2
+}
+market_square2 = {
+	trade_steering = 0.05
+}
+market_square3 = {
+	trade_steering = 0.1
+	merchants = 1
+}
+long_market1 = {
+	prestige = 0.1
+}
+long_market2 = {
+	prestige = 0.2
+	mercantilism_cost = -0.1
+}
+long_market3 = {
+	prestige = 0.5
+	mercantilism_cost = -0.2
+	trade_efficiency = 0.1
+}
+wurzburg_residence1 = {
+	governing_capacity = 50
+}
+wurzburg_residence2 = {
+	governing_capacity = 100
+	diplomatic_reputation = 0.25
+}
+wurzburg_residence3 = {
+	governing_capacity = 150
+	diplomatic_reputation = 0.5
+	administrative_efficiency = 0.02
+}
+chillon_castle3 = {
+	governing_cost = -0.02
+}
+ludwigsburg_palace1 = {
+	yearly_absolutism = 0.1
+	prestige = 0.1
+}
+ludwigsburg_palace2 = {
+	yearly_absolutism = 0.25
+	prestige = 0.25
+	nobles_loyalty_modifier = 0.05
+}
+ludwigsburg_palace3 = {
+	yearly_absolutism = 0.5
+	prestige = 0.5
+	nobles_loyalty_modifier = 0.1
+	max_absolutism = 5
+}
+bremen_schutting1 = {
+	trade_efficiency = 0.05
+}
+bremen_schutting2 = {
+	burghers_loyalty_modifier = 0.05
+	trade_efficiency = 0.1
+	ship_power_propagation = 0.05
+}
+bremen_schutting3 = {
+	burghers_loyalty_modifier = 0.1
+	trade_efficiency = 0.15
+	ship_power_propagation = 0.1
+	merchants = 1
+}
+dresden_frauenkirche1 = {
+	tolerance_own = 0.2
+}
+dresden_frauenkirche2 = {
+	tolerance_own = 0.5
+	relation_with_heretics = 20
+}
+dresden_frauenkirche3 = {
+	tolerance_own = 1
+	relation_with_heretics = 50
+	tolerance_of_heretics_capacity = 0.5
+}
+admont_abbey1 = {
+	tolerance_own = 0.05
+	institution_spread_from_true_faith = 0.05
+}
+admont_abbey2 = {
+	tolerance_own = 0.1
+	institution_spread_from_true_faith = 0.15
+}
+admont_abbey3 = {
+	tolerance_own = 0.2
+	institution_spread_from_true_faith = 0.3
+	possible_adm_policy = 1
+}
+ruhr_valley1 = {
+	prestige = 0.1
+}
+ruhr_valley3 = {
+	production_efficiency = 0.05
+	global_prosperity_growth = 0.01
+}
+hagia_sophia1 = {
+	tolerance_own = 0.25
+	tolerance_heretic = 0.25
+	church_loyalty_modifier = 0.05
+}
+hagia_sophia2 = {
+	tolerance_own = 0.5
+	tolerance_heretic = 0.5
+	monthly_piety_accelerator = 0.001
+	yearly_patriarch_authority = 0.002
+	papal_influence = 0.5
+	church_loyalty_modifier = 0.1
+}
+hagia_sophia3 = {
+	tolerance_own = 1
+	tolerance_heretic = 1
+	monthly_piety_accelerator = 0.002
+	yearly_patriarch_authority = 0.005
+	papal_influence = 1
+	church_loyalty_modifier = 0.15
+}
+stonehenge1 = {
+	tolerance_heretic = 0.5
+	tolerance_heathen = 0.5
+}
+stonehenge2 = {
+	tolerance_heretic = 0.5
+	tolerance_heathen = 0.5
+	stability_cost_modifier = -0.1
+}
+stonehenge3 = {
+	tolerance_heretic = 1
+	tolerance_heathen = 1
+	stability_cost_modifier = -0.25
+	global_missionary_strength = 0.01
+}
+tower_of_london1 = {
+	army_tradition = 0.25
+}
+tower_of_london2 = {
+	army_tradition = 0.25
+	prestige = 0.25
+}
+tower_of_london3 = {
+	army_tradition = 0.5
+	prestige = 0.5
+}
+buddha_statues1 = {
+	culture_conversion_cost = -0.1
+	global_missionary_strength = 0.01
+}
+buddha_statues2 = {
+	culture_conversion_cost = -0.10
+	global_missionary_strength = 0.01
+	missionaries = 1
+}
+buddha_statues3 = {
+	culture_conversion_cost = -0.25
+	global_missionary_strength = 0.01
+	missionaries = 1
+	idea_cost = -0.05
+}
+parthenon1 = {
+	advisor_cost = -0.10
+}
+parthenon2 = {
+	advisor_cost = -0.1
+	advisor_pool = 1
+}
+parthenon3 = {
+	advisor_cost = -0.2
+	advisor_pool = 1
+	yearly_corruption = -0.1
+}
+forbidden_city1 = {
+	yearly_absolutism = 0.25
+	imperial_mandate = 0.03
+}
+forbidden_city2 = {
+	yearly_absolutism = 0.5
+	imperial_mandate = 0.03
+	prestige_decay = -0.01
+}
+forbidden_city3 = {
+	yearly_absolutism = 0.5
+	imperial_mandate = 0.05
+	prestige_decay = -0.02
+}
+angkor_wat1 = {
+	yearly_karma_decay = 0.05  
+	technology_cost = -0.05
+}
+angkor_wat2 = {
+	yearly_karma_decay = 0.1  
+	technology_cost = -0.1
+}
+angkor_wat3 = {
+	yearly_karma_decay = 0.15  
+	technology_cost = -0.10
+}
+petra1 = {
+	diplomatic_reputation = 1
+	envoy_travel_time = -0.20
+}
+petra2 = {
+	diplomatic_reputation = 1
+	envoy_travel_time = -0.25
+	fabricate_claims_cost = -0.1
+}
+petra3 = {
+	diplomatic_reputation = 2
+	envoy_travel_time = -0.33
+	diplomatic_upkeep = 1
+	fabricate_claims_cost = -0.2
+}
+cologne_cathedral1 = {
+	papal_influence = 0.5
+	monthly_fervor_increase = 0.25
+	church_power_modifier = 0.05
+	enforce_religion_cost = -0.1
+}
+cologne_cathedral2 = {
+	papal_influence = 1
+	monthly_fervor_increase = 0.5
+	church_power_modifier = 0.1
+	enforce_religion_cost = -0.25
+}
+cologne_cathedral3 = {
+	papal_influence = 2
+	monthly_fervor_increase = 1
+	church_power_modifier = 0.15
+	enforce_religion_cost = -0.33
+}
+kremlin3 = {
+	global_regiment_cost = -0.1
+}
+machu_picchu1 = {
+	idea_cost = -0.05
+}
+machu_picchu2 = {
+	idea_cost = -0.1
+	reform_progress_growth = 0.1
+}
+machu_picchu3 = {
+	idea_cost = -0.15
+	reform_progress_growth = 0.1
+	mercantilism_cost = -0.15
+}
+chichen_itza1 = {
+	manpower_recovery_speed = 0.1
+	global_regiment_recruit_speed = -0.1
+}
+chichen_itza2 = {
+	manpower_recovery_speed = 0.15
+	global_regiment_recruit_speed = -0.3
+}
+chichen_itza3 = {
+	manpower_recovery_speed = 0.2
+	global_regiment_recruit_speed = -0.5
+	infantry_cost = -0.10
+}
+himeji_castle1 = {
+	prestige = 0.5
+}
+himeji_castle2 = {
+	prestige = 0.5
+	spy_offence = 0.1
+	global_spy_defence = 0.2
+}
+himeji_castle3 = {
+	prestige = 0.5
+	spy_offence = 0.15
+	global_spy_defence = 0.25
+}
+moai1 = {
+	religious_unity = 0.05
+	tolerance_own = 0.5
+	nobles_loyalty_modifier = 0.05
+}
+moai2 = {
+	religious_unity = 0.10
+	tolerance_own = 1
+	nobles_loyalty_modifier = 0.1
+}
+moai3 = {
+	religious_unity = 0.25
+	tolerance_own = 1
+	tolerance_heretic = 1
+	nobles_loyalty_modifier = 0.15
+}
+stpeters_cathedral1 = {
+	appoint_cardinal_cost = -0.05
+	curia_powers_cost = -0.05
+}
+stpeters_cathedral2 = {
+	appoint_cardinal_cost = -0.1
+	curia_powers_cost = -0.1
+	idea_cost = -0.05
+}
+stpeters_cathedral3 = {
+	appoint_cardinal_cost = -0.2
+	curia_powers_cost = -0.1
+	idea_cost = -0.1
+	church_influence_modifier = 0.1
+}
+mount_fuji3 = {
+	yearly_karma_decay = 0.1  
+	prestige = 0.5
+}
+tenochtitlan1 = {
+	yearly_doom_reduction = 1
+}
+tenochtitlan2 = {
+	yearly_doom_reduction = 2
+}
+tenochtitlan3 = {
+	yearly_doom_reduction = 3
+}
+notre_dame_cathedral1 = {
+	papal_influence = 0.5
+	monthly_fervor_increase = 0.25
+	church_power_modifier = 0.05
+	tolerance_own = 0.5
+}
+notre_dame_cathedral2 = {
+	papal_influence = 1
+	monthly_fervor_increase = 0.5
+	church_power_modifier = 0.1
+	tolerance_own = 1
+}
+notre_dame_cathedral3 = {
+	papal_influence = 2
+	monthly_fervor_increase = 1
+	church_power_modifier = 0.15
+	tolerance_own = 2
+	religious_unity = 0.1
+}
+shwedagon_pagoda1 = {
+	church_loyalty_modifier = 0.05
+}
+shwedagon_pagoda2 = {
+	church_loyalty_modifier = 0.1
+	yearly_karma_decay = 0.05
+}
+shwedagon_pagoda3 = {
+	yearly_karma_decay = 0.1
+	church_loyalty_modifier = 0.15
+}
+the_great_wall_of_china2 = {
+	hostile_attrition = 1
+	garrison_size = 0.15
+}
+the_great_wall_of_china3 = {
+	hostile_attrition = 2
+	garrison_size = 0.25
+}
+ambras_castle1 = {
+	prestige = 0.1
+	drill_gain_modifier = 0.1
+}
+ambras_castle2 = {
+	prestige = 0.25
+	drill_gain_modifier = 0.3
+}
+ambras_castle3 = {
+	prestige = 0.5
+	drill_gain_modifier = 0.5
+}
+mesa_verde1 = {
+	technology_cost = -0.05
+}
+mesa_verde2 = {
+	idea_cost = -0.05
+	technology_cost = -0.05
+}
+mesa_verde3 = {
+	idea_cost = -0.1
+	technology_cost = -0.1
+}
+taj_mahal1 = {
+	monthly_piety_accelerator = 0.001
+	prestige_decay = -0.005
+}
+taj_mahal2 = {
+	monthly_piety_accelerator = 0.002
+	prestige_decay = -0.005
+	monthly_splendor = 1
+}
+taj_mahal3 = {
+	monthly_piety_accelerator = 0.003
+	prestige_decay = -0.01
+	monthly_splendor = 2
+	power_projection_from_insults = 1
+}
+alhambra1 = {
+	vassal_income = 0.1
+	reduced_liberty_desire = 5
+}
+alhambra2 = {
+	vassal_income = 0.1
+	reduced_liberty_desire = 5
+	diplomatic_reputation = 1
+}
+alhambra3 = {
+	administrative_efficiency = 0.05
+	vassal_income = 0.1
+	reduced_liberty_desire = 10
+	diplomatic_reputation = 1
+}
+the_grand_palace1 = {
+	yearly_absolutism = 0.25
+	governing_capacity_modifier = 0.05
+}
+the_grand_palace2 = {
+	yearly_absolutism = 0.5
+	governing_capacity_modifier = 0.1
+	vassal_forcelimit_bonus = 0.30
+}
+the_grand_palace3 = {
+	yearly_absolutism = 1
+	governing_capacity_modifier = 0.15
+	vassal_forcelimit_bonus = 0.5
+	ae_impact = -0.1
+}
+bagan_temples1 = {
+	yearly_karma_decay = 0.05
+	global_missionary_strength = 0.01
+}
+bagan_temples2 = {
+	yearly_karma_decay = 0.1
+	global_missionary_strength = 0.01
+	missionaries = 1
+}
+bagan_temples3 = {
+	yearly_karma_decay = 0.15
+	global_missionary_strength = 0.02
+	missionaries = 2
+}
+ait_benhaddou1 = {
+	caravan_power = 0.1
+}
+ait_benhaddou2 = {
+	caravan_power = 0.2
+	trade_efficiency = 0.05
+}
+ait_benhaddou3 = {
+	caravan_power = 0.33
+	trade_efficiency = 0.10
+	global_trade_power = 0.05
+}
+registan_square1 = {
+	monthly_piety_accelerator = 0.001
+	stability_cost_modifier = -0.1
+	enforce_religion_cost = -0.05
+}
+registan_square2 = {
+	monthly_piety_accelerator = 0.002
+	stability_cost_modifier = -0.15
+	enforce_religion_cost = -0.1
+}
+registan_square3 = {
+	monthly_piety_accelerator = 0.003
+	stability_cost_modifier = -0.25
+	enforce_religion_cost = -0.15
+}
+golden_temple1 = {
+	global_autonomy = -0.025
+}
+golden_temple2 = {
+	global_autonomy = -0.05
+	min_autonomy_in_territories = -0.1
+}
+golden_temple3 = {
+	global_autonomy = -0.1
+	min_autonomy_in_territories = -0.15
+}
+jokhang_temple1 = {
+	religious_unity = 0.05
+	missionary_maintenance_cost = -0.1
+	yearly_karma_decay = 0.01
+}
+jokhang_temple2 = {
+	religious_unity = 0.10
+	global_missionary_strength = 0.01
+	missionary_maintenance_cost = -0.2
+	yearly_karma_decay = 0.025
+}
+jokhang_temple3 = {
+	religious_unity = 0.25
+	global_missionary_strength = 0.02
+	missionary_maintenance_cost = -0.3
+	yearly_karma_decay = 0.05
+}
+borobudur_temple1 = {
+	culture_conversion_cost = -0.05
+}
+borobudur_temple2 = {
+	culture_conversion_cost = -0.1
+	global_unrest = -1
+}
+borobudur_temple3 = {
+	culture_conversion_cost = -0.25
+	global_unrest = -2
+	num_accepted_cultures = 1
+	global_autonomy = -0.05
+}
+temple_of_confucius1 = {
+	yearly_harmony = 0.25
+	prestige = 0.25
+}
+temple_of_confucius2 = {
+	yearly_harmony = 0.33
+	religious_unity = 0.25
+	prestige = 0.5
+}
+temple_of_confucius3 = {
+	yearly_harmony = 0.5
+	religious_unity = 0.5
+	prestige = 1
+}
+murud_janjira1 = {
+	naval_forcelimit_modifier = 0.1
+	naval_maintenance_modifier = -0.1
+}
+murud_janjira2 = {
+	naval_forcelimit_modifier = 0.2
+	naval_maintenance_modifier = -0.15
+	navy_tradition = 0.5
+}
+murud_janjira3 = {
+	naval_forcelimit_modifier = 0.3
+	naval_maintenance_modifier = -0.2
+	navy_tradition = 1
+	admiral_cost = -0.1
+}
+pura_besakih1 = {
+	brahmins_hindu_loyalty_modifier = 0.05
+	stability_cost_modifier = -0.05
+}
+pura_besakih2 = {
+	brahmins_hindu_loyalty_modifier = 0.1
+	stability_cost_modifier = -0.1
+	war_exhaustion = -0.02
+}
+pura_besakih3 = {
+	brahmins_hindu_loyalty_modifier = 0.15
+	stability_cost_modifier = -0.15
+	war_exhaustion = -0.05
+	global_unrest = -1
+}
+kanbawzathadi_palace1 = {
+	diplomatic_reputation = 1
+	dip_advisor_cost = -0.1
+}
+kanbawzathadi_palace2 = {
+	diplomatic_reputation = 1
+	diplomatic_upkeep = 1
+	dip_advisor_cost = -0.2
+}
+kanbawzathadi_palace3 = {
+	diplomatic_reputation = 1
+	diplomatic_upkeep = 2
+	advisor_cost = -0.2
+}
+pyramid_of_cheops1 = {
+	advisor_cost = -0.05
+	church_loyalty_modifier = 0.05
+}
+pyramid_of_cheops2 = {
+	advisor_cost = -0.1
+	church_loyalty_modifier = 0.1
+	idea_cost = -0.05
+}
+pyramid_of_cheops3 = {
+	advisor_cost = -0.15
+	church_loyalty_modifier = 0.15
+	idea_cost = -0.05
+}
+khami_ruins1 = {
+	fabricate_claims_cost = -0.1
+}
+khami_ruins2 = {
+	technology_cost = -0.05
+	fabricate_claims_cost = -0.2
+}
+khami_ruins3 = {
+	technology_cost = -0.05
+	fabricate_claims_cost = -0.3
+}
+prambanan_temple1 = {
+	development_cost = -0.02
+	global_missionary_strength =  0.005
+}
+prambanan_temple2 = {
+	development_cost = -0.05
+	global_missionary_strength = 0.01
+}
+prambanan_temple3 = {
+	development_cost = -0.10
+	global_missionary_strength = 0.02
+	missionaries = 1
+}
+inukshuk1 = {
+	num_accepted_cultures = 1
+}
+inukshuk2 = {
+	num_accepted_cultures = 1
+	same_culture_advisor_cost = -0.15
+}
+inukshuk3 = {
+	num_accepted_cultures = 2
+	same_culture_advisor_cost = -0.2
+	promote_culture_cost = -0.15
+}
+fire_temple_of_ateshgah1 = {
+	discipline = 0.025
+	fire_damage_received = -0.05
+}
+fire_temple_of_ateshgah2 = {
+	discipline = 0.05
+	fire_damage_received = -0.1
+	culture_conversion_cost = -0.05
+}
+fire_temple_of_ateshgah3 = {
+	discipline = 0.1
+	fire_damage_received = -0.1
+	fire_damage = 0.05
+	culture_conversion_cost = -0.1
+}
+kiev_pechersk_lavra1 = {
+	yearly_patriarch_authority = 0.001
+}
+kiev_pechersk_lavra2 = {
+	yearly_patriarch_authority = 0.002
+	tolerance_own = 1
+}
+kiev_pechersk_lavra3 = {
+	yearly_patriarch_authority = 0.005
+	tolerance_own = 2
+}
+belem_tower1 = {
+	global_trade_power = 0.05
+}
+belem_tower2 = {
+	global_trade_power = 0.1
+	global_sailors_modifier = 0.1
+}
+belem_tower3 = {
+	global_trade_power = 0.15
+	global_sailors_modifier = 0.25
+}
+sankin_kotai_palaces1 = {
+	war_taxes_cost_modifier = -0.5
+	prestige_from_land = 0.5
+}
+sankin_kotai_palaces2 = {
+	war_taxes_cost_modifier = -0.5
+	prestige_from_land = 1
+	general_cost = -0.1
+}
+sankin_kotai_palaces3 = {
+	war_taxes_cost_modifier = -1
+	prestige_from_land = 1
+	general_cost = -0.1
+}
+mausoleum_at_halicarnassus1 = {
+	prestige = 0.25
+	monthly_splendor = 0.5
+}
+mausoleum_at_halicarnassus2 = {
+	prestige = 0.5
+	monthly_splendor = 1
+	monarch_lifespan = 0.05
+}
+mausoleum_at_halicarnassus3 = {
+	prestige = 1
+	monthly_splendor = 1.5
+	monarch_lifespan = 0.1
+}
+heddal_stave_church1 = {
+	stability_cost_modifier = -0.025
+}
+heddal_stave_church2 = {
+	stability_cost_modifier = -0.05
+	missionary_maintenance_cost = -0.1
+	missionaries = 1
+}
+heddal_stave_church3 = {
+	stability_cost_modifier = -0.1
+	missionary_maintenance_cost = -0.2
+	missionaries = 1
+}
+versailles1 = {
+	global_tax_modifier = 0.1
+	improve_relation_modifier = 0.1
+	nobles_loyalty_modifier = 0.05
+	nobles_influence_modifier = 0.05
+}
+versailles2 = {
+	global_tax_modifier = 0.15
+	improve_relation_modifier = 0.1
+	vassal_income = 0.1
+	nobles_loyalty_modifier = 0.1
+	nobles_influence_modifier = 0.1
+}
+versailles3 = {
+	global_tax_modifier = 0.2
+	improve_relation_modifier = 0.15
+	vassal_income = 0.2
+	nobles_loyalty_modifier = 0.15
+	nobles_influence_modifier = 0.1
+}
+el_escorial1 = {
+	global_autonomy = -0.01
+	global_tariffs = 0.05
+	treasure_fleet_income = 0.05
+}
+el_escorial2 = {
+	global_autonomy = -0.025
+	governing_capacity_modifier = 0.05
+	global_tariffs = 0.1
+	treasure_fleet_income = 0.1
+}
+el_escorial3 = {
+	global_autonomy = -0.05
+	governing_capacity_modifier = 0.1
+	global_tariffs = 0.2
+	treasure_fleet_income = 0.2
+}
+potosi2 = {
+	interest = -0.25
+}
+potosi3 = {
+	interest = -0.5
+}
+kaaba1 = {
+	prestige = 0.1
+	religious_unity = 0.1
+}
+kaaba2 = {
+	prestige = 0.25
+	religious_unity = 0.15
+	warscore_cost_vs_other_religion = -0.05
+}
+kaaba3 = {
+	prestige = 0.5
+	religious_unity = 0.2
+	warscore_cost_vs_other_religion = -0.1
+}
+holy_city_jerusalem1 = {
+	prestige = 0.1
+	global_heretic_missionary_strength = 0.01
+	monthly_fervor_increase = 0.25
+	church_power_modifier = 0.05
+	papal_influence = 0.25
+}
+holy_city_jerusalem2 = {
+	prestige = 0.25
+	global_heretic_missionary_strength = 0.02
+	monthly_fervor_increase = 0.5
+	church_power_modifier = 0.1
+	papal_influence = 0.5
+}
+holy_city_jerusalem3 = {
+	prestige = 0.5
+	global_heretic_missionary_strength = 0.03
+	missionaries = 1
+	monthly_fervor_increase = 1
+	church_power_modifier = 0.15
+	papal_influence = 1
+}
+great_mosque_djenne1 = {
+	monthly_piety_accelerator = 0.001
+	global_heathen_missionary_strength = 0.01
+}
+great_mosque_djenne2 = {
+	monthly_piety_accelerator = 0.002
+	global_heathen_missionary_strength = 0.02
+	missionaries = 1
+}
+great_mosque_djenne3 = {
+	monthly_piety_accelerator = 0.003
+	global_heathen_missionary_strength = 0.03
+	missionaries = 1
+}
+imperial_city_hue1 = {
+	yearly_harmony = 0.25
+	legitimacy = 0.5
+	state_maintenance_modifier = -0.1
+}
+imperial_city_hue2 = {
+	yearly_harmony = 0.33
+	yearly_karma_decay = 0.1
+	legitimacy = 1
+	state_maintenance_modifier = -0.2
+	min_autonomy_in_territories = -0.05
+}
+imperial_city_hue3 = {
+	yearly_harmony = 0.5
+	yearly_karma_decay = 0.15
+	legitimacy = 1
+	state_maintenance_modifier = -0.25
+	min_autonomy_in_territories = -0.1
+}
+baiturrahman_grand_mosque1 = {
+	global_missionary_strength = 0.005
+	church_loyalty_modifier = 0.05
+}
+baiturrahman_grand_mosque2 = {
+	global_missionary_strength = 0.01
+	tolerance_own = 1
+	church_loyalty_modifier = 0.1
+}
+baiturrahman_grand_mosque3 = {
+	global_missionary_strength = 0.02
+	tolerance_own = 2
+	church_loyalty_modifier = 0.15
+}
+bam_citadel1 = {
+	caravan_power = 0.1
+}
+bam_citadel2 = {
+	caravan_power = 0.2
+	merchants = 1
+}
+bam_citadel3 = {
+	caravan_power = 0.4
+	merchants = 1
+}
+bara_katra1 = {
+	trade_steering = 0.05
+	global_ship_trade_power = 0.1
+	burghers_loyalty_modifier = 0.05
+	jains_loyalty_modifier = 0.05
+}
+bara_katra2 = {
+	trade_steering = 0.1
+	global_ship_trade_power = 0.1
+	burghers_loyalty_modifier = 0.1
+	jains_loyalty_modifier = 0.1
+}
+bara_katra3 = {
+	trade_steering = 0.2
+	global_ship_trade_power = 0.3
+	merchants = 1
+	burghers_loyalty_modifier = 0.15
+	jains_loyalty_modifier = 0.15
+}
+bran_castle1 = {
+	rival_border_fort_maintenance = -0.15
+	global_garrison_growth = 0.1
+}
+bran_castle2 = {
+	rival_border_fort_maintenance = -0.2
+	global_garrison_growth = 0.2
+}
+bran_castle3 = {
+	rival_border_fort_maintenance = -0.3
+	global_garrison_growth = 0.3
+}
+brandenburg_gate1 = {
+	monthly_militarized_society = 0.01
+	prestige_from_land = 0.5
+}
+brandenburg_gate2 = {
+	monthly_militarized_society = 0.02
+	prestige_from_land = 1
+	army_tradition_from_battle = 0.25
+}
+brandenburg_gate3 = {
+	monthly_militarized_society = 0.05
+	prestige_from_land = 1.5
+	army_tradition_from_battle = 0.5
+}
+buda_castle1 = {
+	global_institution_spread = 0.1
+}
+buda_castle2 = {
+	global_institution_spread = 0.2
+	embracement_cost = -0.05
+}
+buda_castle3 = {
+	global_institution_spread = 0.3
+	embracement_cost = -0.1
+	idea_cost = -0.05
+}
+cahokia1 = {
+	tribal_development_growth = 0.01
+}
+cahokia2 = {
+	tribal_development_growth = 0.02
+	global_manpower_modifier = 0.1
+}
+cahokia3 = {
+	tribal_development_growth = 0.03
+	global_manpower_modifier = 0.2
+}
+cartagena_de_indias1 = {
+	global_ship_trade_power = 0.1
+}
+cartagena_de_indias2 = {
+	global_ship_trade_power = 0.2
+	prestige_from_naval = 0.5
+}
+cartagena_de_indias3 = {
+	global_ship_trade_power = 0.3
+	prestige_from_naval = 1
+}
+chan_chan_citadel1 = {
+	diplomatic_upkeep = 1
+	yearly_authority = 0.1
+}
+chan_chan_citadel2 = {
+	diplomatic_upkeep = 1
+	yearly_authority = 0.2
+}
+chan_chan_citadel3 = {
+	diplomatic_upkeep = 2
+	yearly_authority = 0.3
+}
+doges_palace1 = {
+	reform_progress_growth = 0.1
+	republican_tradition = 0.1
+}
+doges_palace2 = {
+	reform_progress_growth = 0.2
+	republican_tradition = 0.25
+	prestige = 0.5
+}
+doges_palace3 = {
+	reform_progress_growth = 0.3
+	republican_tradition = 0.5
+	prestige = 1
+}
+duomo_milano1 = {
+	papal_influence = 0.5
+	monthly_fervor_increase = 0.25
+	church_power_modifier = 0.05
+	global_religious_conversion_resistance = 0.15
+	church_loyalty_modifier = 0.05
+}
+duomo_milano2 = {
+	papal_influence = 1
+	monthly_fervor_increase = 0.5
+	church_power_modifier = 0.1
+	global_religious_conversion_resistance = 0.30
+	church_loyalty_modifier = 0.1
+}
+duomo_milano3 = {
+	papal_influence = 2
+	monthly_fervor_increase = 1
+	church_power_modifier = 0.15
+	global_religious_conversion_resistance = 0.5
+	church_loyalty_modifier = 0.15
+}
+dutch_polders1 = {
+	global_trade_goods_size_modifier = 0.05
+	burghers_loyalty_modifier = 0.05
+}
+dutch_polders2 = {
+	global_trade_goods_size_modifier = 0.05
+	burghers_loyalty_modifier = 0.1
+}
+dutch_polders3 = {
+	global_trade_goods_size_modifier = 0.1
+	burghers_loyalty_modifier = 0.15
+}
+ellora_caves1 = {
+	tolerance_own = 0.25
+	tolerance_heretic = 0.25
+	tolerance_heathen = 0.25
+	brahmins_hindu_loyalty_modifier = 0.05
+}
+ellora_caves2 = {
+	tolerance_own = 0.5
+	tolerance_heretic = 0.5
+	tolerance_heathen = 0.5
+	brahmins_hindu_loyalty_modifier = 0.1
+}
+ellora_caves3 = {
+	tolerance_own = 1
+	tolerance_heretic = 1
+	tolerance_heathen = 1
+	brahmins_hindu_loyalty_modifier = 0.15
+}
+erdene_zuu1 = {
+	religious_unity = 0.1
+	church_loyalty_modifier = 0.05
+	yearly_karma_decay = 0.01
+}
+erdene_zuu2 = {
+	horde_unity = 0.5
+	religious_unity = 0.2
+	church_loyalty_modifier = 0.1
+	yearly_karma_decay = 0.025
+}
+erdene_zuu3 = {
+	horde_unity = 1
+	religious_unity = 0.3
+	church_loyalty_modifier = 0.15
+	yearly_karma_decay = 0.05
+}
+etchimiadzin_cathedral1 = {
+	tolerance_own = 0.5
+	global_missionary_strength = 0.005
+	prestige_per_development_from_conversion = 0.1
+}
+etchimiadzin_cathedral2 = {
+	tolerance_own = 1
+	global_missionary_strength = 0.01
+	prestige_per_development_from_conversion = 0.2
+}
+etchimiadzin_cathedral3 = {
+	tolerance_own = 2
+	global_missionary_strength = 0.02
+	prestige_per_development_from_conversion = 0.3
+}
+fuerte_del_morro1 = {
+	naval_forcelimit_modifier = 0.1
+	overlord_naval_forcelimit_modifier = 0.1
+}
+fuerte_del_morro2 = {
+	naval_forcelimit_modifier = 0.2
+	overlord_naval_forcelimit_modifier = 0.2
+}
+fuerte_del_morro3 = {
+	naval_forcelimit_modifier = 0.3
+	overlord_naval_forcelimit_modifier = 0.3
+}
+gomateshwara_statue1 = {
+	tolerance_own = 0.25
+	tolerance_heretic = 0.25
+	tolerance_heathen = 0.25
+	tolerance_of_heretics_capacity = 0.25
+	tolerance_of_heathens_capacity = 0.25
+	diplomatic_reputation = 1
+}
+gomateshwara_statue2 = {
+	tolerance_own = 0.5
+	tolerance_heretic = 0.5
+	tolerance_heathen = 0.5
+	tolerance_of_heretics_capacity = 0.5
+	tolerance_of_heathens_capacity = 0.5
+	diplomatic_reputation = 1
+}
+gomateshwara_statue3 = {
+	tolerance_own = 1
+	tolerance_heretic = 1
+	tolerance_heathen = 1
+	tolerance_of_heretics_capacity = 1
+	tolerance_of_heathens_capacity = 1
+	diplomatic_reputation = 2
+}
+chola_temples1 = {
+	global_missionary_strength = 0.005
+	brahmins_hindu_loyalty_modifier = 0.05
+}
+chola_temples2 = {
+	global_missionary_strength = 0.01
+	culture_conversion_cost = -0.05
+	brahmins_hindu_loyalty_modifier = 0.1
+}
+chola_temples3 = {
+	global_missionary_strength = 0.02
+	culture_conversion_cost = -0.1
+	brahmins_hindu_loyalty_modifier = 0.15
+}
+gyeongbok_palace1 = {
+	advisor_cost = -0.05
+	global_autonomy = -0.025
+}
+gyeongbok_palace2 = {
+	advisor_cost = -0.1
+	monarch_admin_power = 1
+	global_autonomy = -0.05
+}
+gyeongbok_palace3 = {
+	advisor_cost = -0.2
+	monarch_admin_power = 2
+	global_autonomy = -0.1
+}
+hampi1 = {
+	prestige = 0.25
+	religious_unity = 0.1
+	all_estate_loyalty_equilibrium = 0.05
+}
+hampi2 = {
+	prestige = 0.5
+	religious_unity = 0.25
+	all_estate_loyalty_equilibrium = 0.1
+}
+hampi3 = {
+	prestige = 1
+	religious_unity = 0.25
+	all_estate_loyalty_equilibrium = 0.15
+}
+prague1 = {
+	imperial_authority_value = 0.05
+	tolerance_own = 0.25
+	tolerance_heretic = 0.25
+}
+prague2 = {
+	imperial_authority_value = 0.1
+	tolerance_own = 0.25
+	tolerance_heretic = 0.25
+	papal_influence = 0.5
+	monthly_fervor_increase = 0.25
+	church_power_modifier = 0.05
+}
+prague3 = {
+	imperial_authority_value = 0.15
+	tolerance_own = 0.5
+	tolerance_heretic = 0.5
+	papal_influence = 1
+	monthly_fervor_increase = 0.5
+	church_power_modifier = 0.1
+}
+holy_city_kairouan1 = {
+	monthly_piety_accelerator = 0.001
+	institution_spread_from_true_faith = 0.2
+}
+holy_city_kairouan2 = {
+	monthly_piety_accelerator = 0.002
+	tolerance_own = 0.5
+	institution_spread_from_true_faith = 0.33
+}
+holy_city_kairouan3 = {
+	monthly_piety_accelerator = 0.003
+	tolerance_own = 1
+	institution_spread_from_true_faith = 0.5
+}
+imam_hussein_al-abbas1 = {
+	monthly_piety_accelerator = 0.001
+	global_heretic_missionary_strength = 0.01
+	church_loyalty_modifier = 0.05
+}
+imam_hussein_al-abbas2 = {
+	monthly_piety_accelerator = 0.002
+	global_heretic_missionary_strength = 0.02
+	church_loyalty_modifier = 0.1
+}
+imam_hussein_al-abbas3 = {
+	monthly_piety_accelerator = 0.003
+	global_heretic_missionary_strength = 0.03
+	church_loyalty_modifier = 0.15
+}
+kashi_vishwanath1 = {
+	core_creation = -0.05
+	brahmins_hindu_loyalty_modifier = 0.05
+}
+kashi_vishwanath2 = {
+	core_creation = -0.075
+	ae_impact = -0.05
+	brahmins_hindu_loyalty_modifier = 0.1
+}
+kashi_vishwanath3 = {
+	core_creation = -0.1
+	ae_impact = -0.1
+	brahmins_hindu_loyalty_modifier = 0.15
+}
+khajuraho1 = {
+	monthly_heir_claim_increase = 0.1
+}
+khajuraho2 = {
+	monthly_heir_claim_increase = 0.2
+	heir_chance = 0.33
+}
+khajuraho3 = {
+	monthly_heir_claim_increase = 0.3
+	heir_chance = 0.5
+}
+kilwa_city1 = {
+	prestige = 0.25
+	global_ship_trade_power = 0.1
+}
+kilwa_city2 = {
+	prestige = 0.5
+	global_ship_trade_power = 0.2
+	placed_merchant_power = 2
+}
+kilwa_city3 = {
+	prestige = 1
+	global_ship_trade_power = 0.3
+	placed_merchant_power = 4
+}
+krakow_cloth_hall1 = {
+	merchants = 1
+}
+krakow_cloth_hall2 = {
+	merchants = 1
+	global_trade_power = 0.05
+}
+krakow_cloth_hall3 = {
+	merchants = 2
+	global_trade_power = 0.1
+}
+maidan-e_naqsh-e_jahan1 = {
+	legitimacy = 0.25
+	monthly_splendor = 0.5
+	prestige_per_development_from_conversion = 0.1
+}
+maidan-e_naqsh-e_jahan2 = {
+	legitimacy = 0.5
+	monthly_splendor = 1
+	prestige_per_development_from_conversion = 0.2
+}
+maidan-e_naqsh-e_jahan3 = {
+	legitimacy = 1
+	monthly_splendor = 1.5
+	prestige_per_development_from_conversion = 0.3
+}
+malbork_castle1 = {
+	legitimacy = 0.25
+	devotion = 0.25
+	mercenary_cost = -0.05
+	garrison_size = 0.1
+}
+malbork_castle2 = {
+	legitimacy = 0.5
+	devotion = 0.5
+	mercenary_cost = -0.05
+	garrison_size = 0.15
+}
+malbork_castle3 = {
+	legitimacy = 1
+	devotion = 1
+	mercenary_cost = -0.1
+	garrison_size = 0.25
+}
+malta_forts1 = {
+	warscore_cost_vs_other_religion = -0.05
+}
+malta_forts2 = {
+	warscore_cost_vs_other_religion = -0.1
+}
+malta_forts3 = {
+	warscore_cost_vs_other_religion = -0.15
+}
+mehrangarh_fort1 = {
+	prestige = 0.25
+}
+mehrangarh_fort2 = {
+	prestige = 0.5
+	advisor_cost = -0.1
+}
+mehrangarh_fort3 = {
+	prestige = 1
+	advisor_cost = -0.2
+	special_unit_forcelimit = 0.1
+}
+nan_madoll1 = {
+	global_colonial_growth = 10
+}
+nan_madoll2 = {
+	global_colonial_growth = 15
+	navy_tradition = 0.5
+}
+nan_madoll3 = {
+	global_colonial_growth = 25
+	navy_tradition = 1
+	colonist_placement_chance = 0.05
+}
+porcelain_tower_nanjing1 = {
+	meritocracy = 0.1
+	global_institution_spread = 0.1
+}
+porcelain_tower_nanjing2 = {
+	meritocracy = 0.25
+	global_institution_spread = 0.2
+	embracement_cost = -0.1
+}
+porcelain_tower_nanjing3 = {
+	meritocracy = 0.5
+	global_institution_spread = 0.3
+	embracement_cost = -0.15
+}
+qhapaq_nam1 = {
+	yearly_authority = 0.1
+	reinforce_speed = 0.1
+	trade_efficiency = 0.05
+}
+qhapaq_nam2 = {
+	yearly_authority = 0.2
+	reinforce_speed = 0.2
+	trade_efficiency = 0.1
+}
+qhapaq_nam3 = {
+	yearly_authority = 0.3
+	reinforce_speed = 0.33
+	trade_efficiency = 0.2
+}
+rila_monasteries1 = {
+	stability_cost_modifier = -0.1
+	religious_unity = 0.1
+	church_loyalty_modifier = 0.05
+}
+rila_monasteries2 = {
+	stability_cost_modifier = -0.2
+	religious_unity = 0.1
+	church_loyalty_modifier = 0.1
+}
+rila_monasteries3 = {
+	stability_cost_modifier = -0.3
+	religious_unity = 0.25
+	church_loyalty_modifier = 0.15
+}
+churches_lalibela1 = {
+	global_missionary_strength = 0.005
+	prestige = 0.25
+}
+churches_lalibela2 = {
+	global_missionary_strength = 0.01
+	missionary_maintenance_cost = -0.05
+	prestige = 0.5
+}
+churches_lalibela3 = {
+	global_missionary_strength = 0.02
+	missionary_maintenance_cost = -0.1
+	prestige = 1
+}
+royal_palace_caserta1 = {
+	prestige = 0.25
+	reform_progress_growth = 0.05
+}
+royal_palace_caserta2 = {
+	prestige = 0.5
+	reform_progress_growth = 0.1
+	governing_capacity = 50
+}
+royal_palace_caserta3 = {
+	prestige = 1
+	reform_progress_growth = 0.15
+	governing_capacity = 100
+}
+san_antonio_missions1 = {
+	global_heathen_missionary_strength = 0.01
+	institution_spread_from_true_faith = 0.1
+}
+san_antonio_missions2 = {
+	global_heathen_missionary_strength = 0.02
+	institution_spread_from_true_faith = 0.2
+}
+san_antonio_missions3 = {
+	global_heathen_missionary_strength = 0.03
+	institution_spread_from_true_faith = 0.3
+	missionaries = 1
+}
+sankore_madrasah1 = {
+	global_institution_spread = 0.15
+	church_loyalty_modifier = 0.05
+}
+sankore_madrasah2 = {
+	global_institution_spread = 0.3
+	technology_cost = -0.05
+	church_loyalty_modifier = 0.1
+}
+sankore_madrasah3 = {
+	global_institution_spread = 0.5
+	technology_cost = -0.1
+	church_loyalty_modifier = 0.15
+}
+santa_maria_del_fiore1 = {
+	monthly_splendor = 0.5
+	prestige_decay = -0.005
+}
+santa_maria_del_fiore2 = {
+	advisor_cost = -0.1
+	monthly_splendor = 1
+	prestige_decay = -0.01
+}
+santa_maria_del_fiore3 = {
+	advisor_cost = -0.2
+	monthly_splendor = 2
+	prestige_decay = -0.01
+}
+spiral_minaret_samarra1 = {
+	global_missionary_strength = 0.01
+	prestige = 0.25
+	church_loyalty_modifier = 0.05
+}
+spiral_minaret_samarra2 = {
+	global_missionary_strength = 0.02
+	prestige = 0.5
+	church_loyalty_modifier = 0.1
+}
+spiral_minaret_samarra3 = {
+	global_missionary_strength = 0.03
+	prestige = 1
+	church_loyalty_modifier = 0.15
+}
+sultan_ahmed_mosque1 = {
+	prestige_per_development_from_conversion = 0.1
+	tolerance_own = 0.25
+}
+sultan_ahmed_mosque2 = {
+	prestige_per_development_from_conversion = 0.2
+	tolerance_own = 0.5
+}
+sultan_ahmed_mosque3 = {
+	prestige_per_development_from_conversion = 0.3
+	tolerance_own = 1
+}
+sun_temple_konarak1 = {
+	religious_unity = 0.1
+}
+sun_temple_konarak2 = {
+	prestige_decay = -0.005
+	religious_unity = 0.15
+}
+sun_temple_konarak3 = {
+	prestige_decay = -0.01
+	religious_unity = 0.25
+}
+swayambhunath1 = {
+	church_loyalty_modifier = 0.05
+	brahmins_hindu_loyalty_modifier = 0.05
+}
+swayambhunath2 = {
+	yearly_karma_decay = 0.05
+	church_loyalty_modifier = 0.1
+	brahmins_hindu_loyalty_modifier = 0.1
+	global_heretic_missionary_strength = 0.01
+}
+swayambhunath3 = {
+	yearly_karma_decay = 0.1
+	church_loyalty_modifier = 0.15
+	brahmins_hindu_loyalty_modifier = 0.15
+	global_heretic_missionary_strength = 0.02
+}
+white_house1 = {
+	reform_progress_growth = 0.05
+	state_governing_cost = -0.05
+	reelection_cost = -0.05
+}
+white_house2 = {
+	reform_progress_growth = 0.1
+	state_governing_cost = -0.15
+	reelection_cost = -0.1
+}
+white_house3 = {
+	reform_progress_growth = 0.2
+	state_governing_cost = -0.25
+	reelection_cost = -0.1
+}
+tikal1 = {
+	stability_cost_modifier = -0.1
+}
+tikal2 = {
+	stability_cost_modifier = -0.2
+}
+tikal3 = {
+	stability_cost_modifier = -0.3
+	global_unrest = -2
+}
+tiwanaku1 = {
+	yearly_authority = 0.1
+	global_missionary_strength = 0.005
+}
+tiwanaku2 = {
+	yearly_authority = 0.2
+	global_missionary_strength = 0.01
+	religious_unity = 0.15
+}
+tiwanaku3 = {
+	yearly_authority = 0.3
+	global_missionary_strength = 0.02
+	religious_unity = 0.3
+}
+tortuga_island1 = {
+	privateer_efficiency = 0.2
+	capture_ship_chance = 0.1
+}
+tortuga_island2 = {
+	privateer_efficiency = 0.33
+	power_projection_from_insults = 0.5
+	capture_ship_chance = 0.2
+}
+tortuga_island3 = {
+	privateer_efficiency = 0.5
+	power_projection_from_insults = 1
+	capture_ship_chance = 0.3
+}
+ulm_minster_great_project1 = {
+	prestige = 0.25
+	church_loyalty_modifier = 0.05
+}
+ulm_minster_great_project2 = {
+	free_city_imperial_authority = 0.1
+	prestige = 0.5
+	tolerance_own = 0.5
+	church_loyalty_modifier = 0.1
+}
+ulm_minster_great_project3 = {
+	free_city_imperial_authority = 0.2
+	prestige = 1
+	tolerance_own = 1
+	church_loyalty_modifier = 0.15
+}
+walls_benin1 = {
+	prestige_from_land = 0.5
+	nobles_loyalty_modifier = 0.05
+}
+walls_benin2 = {
+	prestige_from_land = 1
+	global_prov_trade_power_modifier = 0.1
+	nobles_loyalty_modifier = 0.1
+}
+walls_benin3 = {
+	prestige_from_land = 1
+	global_prov_trade_power_modifier = 0.2
+	nobles_loyalty_modifier = 0.15
+}
+winter_palace1 = {
+	yearly_absolutism = 0.25
+	reform_progress_growth = 0.1
+}
+winter_palace2 = {
+	yearly_absolutism = 0.5
+	reform_progress_growth = 0.15
+}
+winter_palace3 = {
+	yearly_absolutism = 0.5
+	reform_progress_growth = 0.2
+}
+zacatecas_mine_city2 = {
+	interest = -0.25
+}
+zacatecas_mine_city3 = {
+	interest = -0.5
+}
+falun_copper_mine2 = {
+	artillery_cost = -0.1
+}
+falun_copper_mine3 = {
+	artillery_cost = -0.2
+}
+kronborg1 = {
+	naval_tradition_from_trade = 0.25
+}
+kronborg2 = {
+	naval_tradition_from_trade = 0.5
+}
+kronborg3 = {
+	naval_tradition_from_trade = 1
+}
+visby_city1 = {
+	privateer_efficiency = 0.2
+}
+visby_city2 = {
+	privateer_efficiency = 0.33
+	global_own_trade_power = 0.15
+}
+visby_city3 = {
+	privateer_efficiency = 0.5
+	global_own_trade_power = 0.25
+}
+trakai_castle1 = {
+	prestige = 0.25
+	monthly_splendor = 0.5
+	reform_progress_growth = 0.05
+}
+trakai_castle2 = {
+	prestige = 0.5
+	monthly_splendor = 1
+	reform_progress_growth = 0.1
+	advisor_pool = 1
+}
+trakai_castle3 = {
+	prestige = 1
+	monthly_splendor = 1.5
+	reform_progress_growth = 0.2
+	advisor_pool = 2
+}
+salvador_da_bahia1 = {
+	global_trade_power = 0.1
+	global_colonial_growth = 10
+}
+salvador_da_bahia2 = {
+	global_trade_power = 0.15
+	global_colonial_growth = 15
+}
+salvador_da_bahia3 = {
+	global_trade_power = 0.2
+	global_colonial_growth = 20
+}
+mbanza_kongo1 = {
+	institution_spread_from_true_faith = 0.2
+	reform_progress_growth = 0.1
+}
+mbanza_kongo2 = {
+	institution_spread_from_true_faith = 0.33
+	reform_progress_growth = 0.15
+	legitimacy = 0.5
+}
+mbanza_kongo3 = {
+	institution_spread_from_true_faith = 0.5
+	reform_progress_growth = 0.2
+	legitimacy = 1
+	allow_free_estate_privilege_revocation = yes
+}
+harar_jugol1 = {
+	prestige_per_development_from_conversion = 0.1
+}
+harar_jugol2 = {
+	stability_cost_modifier = -0.1
+	prestige_per_development_from_conversion = 0.2
+}
+harar_jugol3 = {
+	stability_cost_modifier = -0.25
+	prestige_per_development_from_conversion = 0.3
+}
+dujiangyan3 = {
+	global_monthly_devastation = -0.05
+}
+dujiangyan1 = {
+	tolerance_own = 0.25
+	tolerance_heretic = 0.25
+	church_loyalty_modifier = 0.05
+}
+dujiangyan2 = {
+	tolerance_own = 0.5
+	tolerance_heretic = 0.5
+	monthly_piety_accelerator = 0.001
+	yearly_patriarch_authority = 0.002
+	papal_influence = 0.5
+	church_loyalty_modifier = 0.1
+}
+dujiangyan3 = {
+	tolerance_own = 1
+	tolerance_heretic = 1
+	monthly_piety_accelerator = 0.002
+	yearly_patriarch_authority = 0.005
+	papal_influence = 1
+	church_loyalty_modifier = 0.15
+}
+dujiangyan1 = {
+	tolerance_heretic = 0.5
+	tolerance_heathen = 0.5
+}
+dujiangyan2 = {
+	tolerance_heretic = 0.5
+	tolerance_heathen = 0.5
+	stability_cost_modifier = -0.1
+}
+dujiangyan3 = {
+	tolerance_heretic = 1
+	tolerance_heathen = 1
+	stability_cost_modifier = -0.25
+	global_missionary_strength = 0.01
+}
+dujiangyan1 = {
+	army_tradition = 0.25
+}
+dujiangyan2 = {
+	army_tradition = 0.25
+	prestige = 0.25
+}
+dujiangyan3 = {
+	army_tradition = 0.5
+	prestige = 0.5
+}
+dujiangyan1 = {
+	culture_conversion_cost = -0.1
+	global_missionary_strength = 0.01
+}
+dujiangyan2 = {
+	culture_conversion_cost = -0.10
+	global_missionary_strength = 0.01
+	missionaries = 1
+}
+dujiangyan3 = {
+	culture_conversion_cost = -0.25
+	global_missionary_strength = 0.01
+	missionaries = 1
+	idea_cost = -0.05
+}
+dujiangyan1 = {
+	advisor_cost = -0.10
+}
+dujiangyan2 = {
+	advisor_cost = -0.1
+	advisor_pool = 1
+}
+dujiangyan3 = {
+	advisor_cost = -0.2
+	advisor_pool = 1
+	yearly_corruption = -0.1
+}
+dujiangyan1 = {
+	yearly_absolutism = 0.25
+	imperial_mandate = 0.03
+}
+dujiangyan2 = {
+	yearly_absolutism = 0.5
+	imperial_mandate = 0.03
+	prestige_decay = -0.01
+}
+dujiangyan3 = {
+	yearly_absolutism = 0.5
+	imperial_mandate = 0.05
+	prestige_decay = -0.02
+}
+dujiangyan1 = {
+	yearly_karma_decay = 0.05  
+	technology_cost = -0.05
+}
+dujiangyan2 = {
+	yearly_karma_decay = 0.1  
+	technology_cost = -0.1
+}
+dujiangyan3 = {
+	yearly_karma_decay = 0.15  
+	technology_cost = -0.10
+}
+dujiangyan1 = {
+	diplomatic_reputation = 1
+	envoy_travel_time = -0.20
+}
+dujiangyan2 = {
+	diplomatic_reputation = 1
+	envoy_travel_time = -0.25
+	fabricate_claims_cost = -0.1
+}
+dujiangyan3 = {
+	diplomatic_reputation = 2
+	envoy_travel_time = -0.33
+	diplomatic_upkeep = 1
+	fabricate_claims_cost = -0.2
+}
+dujiangyan1 = {
+	papal_influence = 0.5
+	monthly_fervor_increase = 0.25
+	church_power_modifier = 0.05
+	enforce_religion_cost = -0.1
+}
+dujiangyan2 = {
+	papal_influence = 1
+	monthly_fervor_increase = 0.5
+	church_power_modifier = 0.1
+	enforce_religion_cost = -0.25
+}
+dujiangyan3 = {
+	papal_influence = 2
+	monthly_fervor_increase = 1
+	church_power_modifier = 0.15
+	enforce_religion_cost = -0.33
+}
+kremlin3 = {
+	global_regiment_cost = -0.1
+}
+kremlin1 = {
+	idea_cost = -0.05
+}
+kremlin2 = {
+	idea_cost = -0.1
+	reform_progress_growth = 0.1
+}
+kremlin3 = {
+	idea_cost = -0.15
+	reform_progress_growth = 0.1
+	mercantilism_cost = -0.15
+}
+kremlin1 = {
+	manpower_recovery_speed = 0.1
+	global_regiment_recruit_speed = -0.1
+}
+kremlin2 = {
+	manpower_recovery_speed = 0.15
+	global_regiment_recruit_speed = -0.3
+}
+kremlin3 = {
+	manpower_recovery_speed = 0.2
+	global_regiment_recruit_speed = -0.5
+	infantry_cost = -0.10
+}
+kremlin1 = {
+	prestige = 0.5
+}
+kremlin2 = {
+	prestige = 0.5
+	spy_offence = 0.1
+	global_spy_defence = 0.2
+}
+kremlin3 = {
+	prestige = 0.5
+	spy_offence = 0.15
+	global_spy_defence = 0.25
+}
+kremlin1 = {
+	religious_unity = 0.05
+	tolerance_own = 0.5
+	nobles_loyalty_modifier = 0.05
+}
+kremlin2 = {
+	religious_unity = 0.10
+	tolerance_own = 1
+	nobles_loyalty_modifier = 0.1
+}
+kremlin3 = {
+	religious_unity = 0.25
+	tolerance_own = 1
+	tolerance_heretic = 1
+	nobles_loyalty_modifier = 0.15
+}
+kremlin1 = {
+	appoint_cardinal_cost = -0.05
+	curia_powers_cost = -0.05
+}
+kremlin2 = {
+	appoint_cardinal_cost = -0.1
+	curia_powers_cost = -0.1
+	idea_cost = -0.05
+}
+kremlin3 = {
+	appoint_cardinal_cost = -0.2
+	curia_powers_cost = -0.1
+	idea_cost = -0.1
+	church_influence_modifier = 0.1
+}
+mount_fuji3 = {
+	yearly_karma_decay = 0.1  
+	prestige = 0.5
+}
+mount_fuji1 = {
+	yearly_doom_reduction = 1
+}
+mount_fuji2 = {
+	yearly_doom_reduction = 2
+}
+mount_fuji3 = {
+	yearly_doom_reduction = 3
+}
+mount_fuji1 = {
+	papal_influence = 0.5
+	monthly_fervor_increase = 0.25
+	church_power_modifier = 0.05
+	tolerance_own = 0.5
+}
+mount_fuji2 = {
+	papal_influence = 1
+	monthly_fervor_increase = 0.5
+	church_power_modifier = 0.1
+	tolerance_own = 1
+}
+mount_fuji3 = {
+	papal_influence = 2
+	monthly_fervor_increase = 1
+	church_power_modifier = 0.15
+	tolerance_own = 2
+	religious_unity = 0.1
+}
+mount_fuji1 = {
+	church_loyalty_modifier = 0.05
+}
+mount_fuji2 = {
+	church_loyalty_modifier = 0.1
+	yearly_karma_decay = 0.05
+}
+mount_fuji3 = {
+	yearly_karma_decay = 0.1
+	church_loyalty_modifier = 0.15
+}
+the_great_wall_of_china2 = {
+	hostile_attrition = 1
+	garrison_size = 0.15
+}
+the_great_wall_of_china3 = {
+	hostile_attrition = 2
+	garrison_size = 0.25
+}
+the_great_wall_of_china1 = {
+	prestige = 0.1
+	drill_gain_modifier = 0.1
+}
+the_great_wall_of_china2 = {
+	prestige = 0.25
+	drill_gain_modifier = 0.3
+}
+the_great_wall_of_china3 = {
+	prestige = 0.5
+	drill_gain_modifier = 0.5
+}
+the_great_wall_of_china1 = {
+	technology_cost = -0.05
+}
+the_great_wall_of_china2 = {
+	idea_cost = -0.05
+	technology_cost = -0.05
+}
+the_great_wall_of_china3 = {
+	idea_cost = -0.1
+	technology_cost = -0.1
+}
+the_great_wall_of_china1 = {
+	monthly_piety_accelerator = 0.001
+	prestige_decay = -0.005
+}
+the_great_wall_of_china2 = {
+	monthly_piety_accelerator = 0.002
+	prestige_decay = -0.005
+	monthly_splendor = 1
+}
+the_great_wall_of_china3 = {
+	monthly_piety_accelerator = 0.003
+	prestige_decay = -0.01
+	monthly_splendor = 2
+	power_projection_from_insults = 1
+}
+the_great_wall_of_china1 = {
+	vassal_income = 0.1
+	reduced_liberty_desire = 5
+}
+the_great_wall_of_china2 = {
+	vassal_income = 0.1
+	reduced_liberty_desire = 5
+	diplomatic_reputation = 1
+}
+the_great_wall_of_china3 = {
+	administrative_efficiency = 0.05
+	vassal_income = 0.1
+	reduced_liberty_desire = 10
+	diplomatic_reputation = 1
+}
+the_great_wall_of_china1 = {
+	yearly_absolutism = 0.25
+	governing_capacity_modifier = 0.05
+}
+the_great_wall_of_china2 = {
+	yearly_absolutism = 0.5
+	governing_capacity_modifier = 0.1
+	vassal_forcelimit_bonus = 0.30
+}
+the_great_wall_of_china3 = {
+	yearly_absolutism = 1
+	governing_capacity_modifier = 0.15
+	vassal_forcelimit_bonus = 0.5
+	ae_impact = -0.1
+}
+the_great_wall_of_china1 = {
+	yearly_karma_decay = 0.05
+	global_missionary_strength = 0.01
+}
+the_great_wall_of_china2 = {
+	yearly_karma_decay = 0.1
+	global_missionary_strength = 0.01
+	missionaries = 1
+}
+the_great_wall_of_china3 = {
+	yearly_karma_decay = 0.15
+	global_missionary_strength = 0.02
+	missionaries = 2
+}
+the_great_wall_of_china1 = {
+	caravan_power = 0.1
+}
+the_great_wall_of_china2 = {
+	caravan_power = 0.2
+	trade_efficiency = 0.05
+}
+the_great_wall_of_china3 = {
+	caravan_power = 0.33
+	trade_efficiency = 0.10
+	global_trade_power = 0.05
+}
+the_great_wall_of_china1 = {
+	monthly_piety_accelerator = 0.001
+	stability_cost_modifier = -0.1
+	enforce_religion_cost = -0.05
+}
+the_great_wall_of_china2 = {
+	monthly_piety_accelerator = 0.002
+	stability_cost_modifier = -0.15
+	enforce_religion_cost = -0.1
+}
+the_great_wall_of_china3 = {
+	monthly_piety_accelerator = 0.003
+	stability_cost_modifier = -0.25
+	enforce_religion_cost = -0.15
+}
+the_great_wall_of_china1 = {
+	global_autonomy = -0.025
+}
+the_great_wall_of_china2 = {
+	global_autonomy = -0.05
+	min_autonomy_in_territories = -0.1
+}
+the_great_wall_of_china3 = {
+	global_autonomy = -0.1
+	min_autonomy_in_territories = -0.15
+}
+the_great_wall_of_china1 = {
+	religious_unity = 0.05
+	missionary_maintenance_cost = -0.1
+	yearly_karma_decay = 0.01
+}
+the_great_wall_of_china2 = {
+	religious_unity = 0.10
+	global_missionary_strength = 0.01
+	missionary_maintenance_cost = -0.2
+	yearly_karma_decay = 0.025
+}
+the_great_wall_of_china3 = {
+	religious_unity = 0.25
+	global_missionary_strength = 0.02
+	missionary_maintenance_cost = -0.3
+	yearly_karma_decay = 0.05
+}
+the_great_wall_of_china1 = {
+	culture_conversion_cost = -0.05
+}
+the_great_wall_of_china2 = {
+	culture_conversion_cost = -0.1
+	global_unrest = -1
+}
+the_great_wall_of_china3 = {
+	culture_conversion_cost = -0.25
+	global_unrest = -2
+	num_accepted_cultures = 1
+	global_autonomy = -0.05
+}
+the_great_wall_of_china1 = {
+	yearly_harmony = 0.25
+	prestige = 0.25
+}
+the_great_wall_of_china2 = {
+	yearly_harmony = 0.33
+	religious_unity = 0.25
+	prestige = 0.5
+}
+the_great_wall_of_china3 = {
+	yearly_harmony = 0.5
+	religious_unity = 0.5
+	prestige = 1
+}
+the_great_wall_of_china1 = {
+	naval_forcelimit_modifier = 0.1
+	naval_maintenance_modifier = -0.1
+}
+the_great_wall_of_china2 = {
+	naval_forcelimit_modifier = 0.2
+	naval_maintenance_modifier = -0.15
+	navy_tradition = 0.5
+}
+the_great_wall_of_china3 = {
+	naval_forcelimit_modifier = 0.3
+	naval_maintenance_modifier = -0.2
+	navy_tradition = 1
+	admiral_cost = -0.1
+}
+the_great_wall_of_china1 = {
+	brahmins_hindu_loyalty_modifier = 0.05
+	stability_cost_modifier = -0.05
+}
+the_great_wall_of_china2 = {
+	brahmins_hindu_loyalty_modifier = 0.1
+	stability_cost_modifier = -0.1
+	war_exhaustion = -0.02
+}
+the_great_wall_of_china3 = {
+	brahmins_hindu_loyalty_modifier = 0.15
+	stability_cost_modifier = -0.15
+	war_exhaustion = -0.05
+	global_unrest = -1
+}
+the_great_wall_of_china1 = {
+	diplomatic_reputation = 1
+	dip_advisor_cost = -0.1
+}
+the_great_wall_of_china2 = {
+	diplomatic_reputation = 1
+	diplomatic_upkeep = 1
+	dip_advisor_cost = -0.2
+}
+the_great_wall_of_china3 = {
+	diplomatic_reputation = 1
+	diplomatic_upkeep = 2
+	advisor_cost = -0.2
+}
+the_great_wall_of_china1 = {
+	advisor_cost = -0.05
+	church_loyalty_modifier = 0.05
+}
+the_great_wall_of_china2 = {
+	advisor_cost = -0.1
+	church_loyalty_modifier = 0.1
+	idea_cost = -0.05
+}
+the_great_wall_of_china3 = {
+	advisor_cost = -0.15
+	church_loyalty_modifier = 0.15
+	idea_cost = -0.05
+}
+the_great_wall_of_china1 = {
+	fabricate_claims_cost = -0.1
+}
+the_great_wall_of_china2 = {
+	technology_cost = -0.05
+	fabricate_claims_cost = -0.2
+}
+the_great_wall_of_china3 = {
+	technology_cost = -0.05
+	fabricate_claims_cost = -0.3
+}
+the_great_wall_of_china1 = {
+	development_cost = -0.02
+	global_missionary_strength =  0.005
+}
+the_great_wall_of_china2 = {
+	development_cost = -0.05
+	global_missionary_strength = 0.01
+}
+the_great_wall_of_china3 = {
+	development_cost = -0.10
+	global_missionary_strength = 0.02
+	missionaries = 1
+}
+the_great_wall_of_china1 = {
+	num_accepted_cultures = 1
+}
+the_great_wall_of_china2 = {
+	num_accepted_cultures = 1
+	same_culture_advisor_cost = -0.15
+}
+the_great_wall_of_china3 = {
+	num_accepted_cultures = 2
+	same_culture_advisor_cost = -0.2
+	promote_culture_cost = -0.15
+}
+the_great_wall_of_china1 = {
+	discipline = 0.025
+	fire_damage_received = -0.05
+}
+the_great_wall_of_china2 = {
+	discipline = 0.05
+	fire_damage_received = -0.1
+	culture_conversion_cost = -0.05
+}
+the_great_wall_of_china3 = {
+	discipline = 0.1
+	fire_damage_received = -0.1
+	fire_damage = 0.05
+	culture_conversion_cost = -0.1
+}
+the_great_wall_of_china1 = {
+	yearly_patriarch_authority = 0.001
+}
+the_great_wall_of_china2 = {
+	yearly_patriarch_authority = 0.002
+	tolerance_own = 1
+}
+the_great_wall_of_china3 = {
+	yearly_patriarch_authority = 0.005
+	tolerance_own = 2
+}
+the_great_wall_of_china1 = {
+	global_trade_power = 0.05
+}
+the_great_wall_of_china2 = {
+	global_trade_power = 0.1
+	global_sailors_modifier = 0.1
+}
+the_great_wall_of_china3 = {
+	global_trade_power = 0.15
+	global_sailors_modifier = 0.25
+}
+the_great_wall_of_china1 = {
+	war_taxes_cost_modifier = -0.5
+	prestige_from_land = 0.5
+}
+the_great_wall_of_china2 = {
+	war_taxes_cost_modifier = -0.5
+	prestige_from_land = 1
+	general_cost = -0.1
+}
+the_great_wall_of_china3 = {
+	war_taxes_cost_modifier = -1
+	prestige_from_land = 1
+	general_cost = -0.1
+}
+the_great_wall_of_china1 = {
+	prestige = 0.25
+	monthly_splendor = 0.5
+}
+the_great_wall_of_china2 = {
+	prestige = 0.5
+	monthly_splendor = 1
+	monarch_lifespan = 0.05
+}
+the_great_wall_of_china3 = {
+	prestige = 1
+	monthly_splendor = 1.5
+	monarch_lifespan = 0.1
+}
+the_great_wall_of_china1 = {
+	stability_cost_modifier = -0.025
+}
+the_great_wall_of_china2 = {
+	stability_cost_modifier = -0.05
+	missionary_maintenance_cost = -0.1
+	missionaries = 1
+}
+the_great_wall_of_china3 = {
+	stability_cost_modifier = -0.1
+	missionary_maintenance_cost = -0.2
+	missionaries = 1
+}
+the_great_wall_of_china1 = {
+	global_tax_modifier = 0.1
+	improve_relation_modifier = 0.1
+	nobles_loyalty_modifier = 0.05
+	nobles_influence_modifier = 0.05
+}
+the_great_wall_of_china2 = {
+	global_tax_modifier = 0.15
+	improve_relation_modifier = 0.1
+	vassal_income = 0.1
+	nobles_loyalty_modifier = 0.1
+	nobles_influence_modifier = 0.1
+}
+the_great_wall_of_china3 = {
+	global_tax_modifier = 0.2
+	improve_relation_modifier = 0.15
+	vassal_income = 0.2
+	nobles_loyalty_modifier = 0.15
+	nobles_influence_modifier = 0.1
+}
+the_great_wall_of_china1 = {
+	global_autonomy = -0.01
+	global_tariffs = 0.05
+	treasure_fleet_income = 0.05
+}
+the_great_wall_of_china2 = {
+	global_autonomy = -0.025
+	governing_capacity_modifier = 0.05
+	global_tariffs = 0.1
+	treasure_fleet_income = 0.1
+}
+the_great_wall_of_china3 = {
+	global_autonomy = -0.05
+	governing_capacity_modifier = 0.1
+	global_tariffs = 0.2
+	treasure_fleet_income = 0.2
+}
+potosi2 = {
+	interest = -0.25
+}
+potosi3 = {
+	interest = -0.5
+}
+potosi1 = {
+	global_missionary_strength = 0.01
+	manpower_in_true_faith_provinces = 0.10
+}
+potosi2 = {
+	global_missionary_strength = 0.01
+	manpower_in_true_faith_provinces = 0.15
+	tolerance_own = 1 
+}
+potosi3 = {
+	global_missionary_strength = 0.01
+	cb_on_religious_enemies = yes
+	manpower_in_true_faith_provinces = 0.15
+	tolerance_own = 1 
+}
+potosi1 = {
+	prestige = 0.1
+	global_heretic_missionary_strength = 0.01
+	monthly_fervor_increase = 0.25
+	church_power_modifier = 0.05
+	papal_influence = 0.25
+}
+potosi2 = {
+	prestige = 0.25
+	global_heretic_missionary_strength = 0.02
+	monthly_fervor_increase = 0.5
+	church_power_modifier = 0.1
+	papal_influence = 0.5
+}
+potosi3 = {
+	prestige = 0.5
+	global_heretic_missionary_strength = 0.03
+	missionaries = 1
+	monthly_fervor_increase = 1
+	church_power_modifier = 0.15
+	papal_influence = 0.1
+}
+potosi1 = {
+	church_loyalty_modifier = 0.05
+}
+potosi2 = {
+	tolerance_own = 1 
+	church_loyalty_modifier = 0.05
+}
+potosi3 = {
+	tolerance_own = 1 
+	global_missionary_strength = 0.01
+	church_loyalty_modifier = 0.05
+}
+potosi1 = {
+	yearly_harmony = 0.25
+	legitimacy = 0.5
+	state_maintenance_modifier = -0.1
+}
+potosi2 = {
+	yearly_harmony = 0.33
+	yearly_karma_decay = 0.1
+	legitimacy = 1
+	state_maintenance_modifier = -0.2
+	min_autonomy_in_territories = -0.05
+}
+potosi3 = {
+	yearly_harmony = 0.5
+	yearly_karma_decay = 0.15
+	legitimacy = 1
+	state_maintenance_modifier = -0.25
+	min_autonomy_in_territories = -0.1
+}
+potosi1 = {
+	global_missionary_strength = 0.005
+	church_loyalty_modifier = 0.05
+}
+potosi2 = {
+	global_missionary_strength = 0.01
+	tolerance_own = 1
+	church_loyalty_modifier = 0.1
+}
+potosi3 = {
+	global_missionary_strength = 0.02
+	tolerance_own = 2
+	church_loyalty_modifier = 0.15
+}
+potosi1 = {
+	caravan_power = 0.1
+}
+potosi2 = {
+	caravan_power = 0.2
+	merchants = 1
+}
+potosi3 = {
+	caravan_power = 0.4
+	merchants = 1
+}
+potosi1 = {
+	trade_steering = 0.05
+	global_ship_trade_power = 0.1
+	burghers_loyalty_modifier = 0.05
+	jains_loyalty_modifier = 0.05
+}
+potosi2 = {
+	trade_steering = 0.1
+	global_ship_trade_power = 0.1
+	burghers_loyalty_modifier = 0.1
+	jains_loyalty_modifier = 0.1
+}
+potosi3 = {
+	trade_steering = 0.2
+	global_ship_trade_power = 0.3
+	merchants = 1
+	burghers_loyalty_modifier = 0.15
+	jains_loyalty_modifier = 0.15
+}
+potosi1 = {
+	rival_border_fort_maintenance = -0.15
+	global_garrison_growth = 0.1
+}
+potosi2 = {
+	rival_border_fort_maintenance = -0.2
+	global_garrison_growth = 0.2
+}
+potosi3 = {
+	rival_border_fort_maintenance = -0.3
+	global_garrison_growth = 0.3
+}
+potosi1 = {
+	diplomatic_reputation = 1 
+}
+potosi2 = {
+	diplomatic_reputation = 1 
+	diplomatic_upkeep = 1 
+}
+potosi3 = {
+	diplomatic_reputation = 2 
+	diplomatic_upkeep = 1 
+}
+potosi1 = {
+	global_institution_spread = 0.1
+}
+potosi2 = {
+	global_institution_spread = 0.2
+	embracement_cost = -0.05
+}
+potosi3 = {
+	global_institution_spread = 0.3
+	embracement_cost = -0.1
+	idea_cost = -0.05
+}
+potosi1 = {
+	tribal_development_growth = 0.01
+}
+potosi2 = {
+	tribal_development_growth = 0.02
+	global_manpower_modifier = 0.1
+}
+potosi3 = {
+	tribal_development_growth = 0.03
+	global_manpower_modifier = 0.2
+}
+potosi1 = {
+	global_ship_trade_power = 0.1
+}
+potosi2 = {
+	global_ship_trade_power = 0.2
+	prestige_from_naval = 0.5
+}
+potosi3 = {
+	global_ship_trade_power = 0.3
+	prestige_from_naval = 1
+}
+potosi1 = {
+	diplomatic_upkeep = 1
+	yearly_authority = 0.1
+}
+potosi2 = {
+	diplomatic_upkeep = 1
+	yearly_authority = 0.2
+}
+potosi3 = {
+	diplomatic_upkeep = 2
+	yearly_authority = 0.3
+}
+potosi1 = {
+	reform_progress_growth = 0.1
+	republican_tradition = 0.1 
+}
+potosi2 = {
+	reform_progress_growth = 0.2
+	republican_tradition = 0.25 
+	prestige = 0.5
+}
+potosi3 = {
+	reform_progress_growth = 0.3
+	republican_tradition = 0.5 
+	prestige = 1
+}
+potosi1 = {
+	papal_influence = 0.5
+	monthly_fervor_increase = 0.25
+	church_power_modifier = 0.05
+	global_religious_conversion_resistance = 0.15
+	church_loyalty_modifier = 0.05
+}
+potosi2 = {
+	papal_influence = 1
+	monthly_fervor_increase = 0.5
+	church_power_modifier = 0.1
+	global_religious_conversion_resistance = 0.30
+	church_loyalty_modifier = 0.1
+}
+potosi3 = {
+	papal_influence = 2
+	monthly_fervor_increase = 1
+	church_power_modifier = 0.15
+	global_religious_conversion_resistance = 0.5
+	church_loyalty_modifier = 0.15
+}
+potosi1 = {
+	global_trade_goods_size_modifier = 0.05
+}
+potosi2 = {
+	global_trade_goods_size_modifier = 0.05
+	burghers_loyalty_modifier = 0.1
+}
+potosi3 = {
+	global_trade_goods_size_modifier = 0.1
+	burghers_loyalty_modifier = 0.15
+}
+potosi1 = {
+	tolerance_own = 0.25
+	tolerance_heretic = 0.25
+	tolerance_heathen = 0.25
+	brahmins_hindu_loyalty_modifier = 0.05
+}
+potosi2 = {
+	tolerance_own = 0.5
+	tolerance_heretic = 0.5
+	tolerance_heathen = 0.5
+	brahmins_hindu_loyalty_modifier = 0.1
+}
+potosi3 = {
+	tolerance_own = 1
+	tolerance_heretic = 1
+	tolerance_heathen = 1
+	brahmins_hindu_loyalty_modifier = 0.15
+}
+potosi1 = {
+	religious_unity = 0.1
+	church_loyalty_modifier = 0.05
+	yearly_karma_decay = 0.01
+}
+potosi2 = {
+	horde_unity = 0.5
+	religious_unity = 0.2
+	church_loyalty_modifier = 0.1
+	yearly_karma_decay = 0.025
+}
+potosi3 = {
+	horde_unity = 1
+	religious_unity = 0.3
+	church_loyalty_modifier = 0.15
+	yearly_karma_decay = 0.05
+}
+potosi1 = {
+	tolerance_own = 0.5
+	global_missionary_strength = 0.005
+	prestige_per_development_from_conversion = 0.1
+}
+potosi2 = {
+	tolerance_own = 1
+	global_missionary_strength = 0.01
+	prestige_per_development_from_conversion = 0.2
+}
+potosi3 = {
+	tolerance_own = 2
+	global_missionary_strength = 0.02
+	prestige_per_development_from_conversion = 0.3
+}
+potosi1 = {
+	naval_forcelimit_modifier = 0.1
+	overlord_naval_forcelimit_modifier = 0.2
+}
+potosi2 = {
+	naval_forcelimit_modifier = 0.2
+	overlord_naval_forcelimit_modifier = 0.2
+}
+potosi3 = {
+	naval_forcelimit_modifier = 0.3
+	overlord_naval_forcelimit_modifier = 0.3
+}
+potosi1 = {
+	tolerance_own = 0.25
+	tolerance_heretic = 0.25
+	tolerance_heathen = 0.25
+	tolerance_of_heretics_capacity = 0.25
+	tolerance_of_heathens_capacity = 0.25
+	diplomatic_reputation = 1
+}
+potosi2 = {
+	tolerance_own = 0.5
+	tolerance_heretic = 0.5
+	tolerance_heathen = 0.5
+	tolerance_of_heretics_capacity = 0.5
+	tolerance_of_heathens_capacity = 0.5
+	diplomatic_reputation = 1
+}
+potosi3 = {
+	tolerance_own = 1
+	tolerance_heretic = 1
+	tolerance_heathen = 1
+	tolerance_of_heretics_capacity = 1
+	tolerance_of_heathens_capacity = 1
+	diplomatic_reputation = 2
+}
+potosi1 = {
+	global_missionary_strength = 0.005
+	brahmins_hindu_loyalty_modifier = 0.05
+}
+potosi2 = {
+	global_missionary_strength = 0.01
+	culture_conversion_cost = -0.05
+	brahmins_hindu_loyalty_modifier = 0.1
+}
+potosi3 = {
+	global_missionary_strength = 0.02
+	culture_conversion_cost = -0.1
+	brahmins_hindu_loyalty_modifier = 0.15
+}
+potosi1 = {
+	advisor_cost = -0.05
+	global_autonomy = -0.025
+}
+potosi2 = {
+	advisor_cost = -0.1
+	monarch_admin_power = 1
+	global_autonomy = -0.05
+}
+potosi3 = {
+	advisor_cost = -0.2
+	monarch_admin_power = 2
+	global_autonomy = -0.1
+}
+potosi1 = {
+	prestige = 0.25
+	religious_unity = 0.1
+}
+potosi2 = {
+	prestige = 0.5
+	religious_unity = 0.25
+	all_estate_loyalty_equilibrium = 0.1
+}
+potosi3 = {
+	prestige = 1
+	religious_unity = 0.25
+	all_estate_loyalty_equilibrium = 0.15
+}
+potosi1 = {
+	imperial_authority_value = 0.05
+	tolerance_own = 0.25
+	tolerance_heretic = 0.25
+}
+potosi2 = {
+	imperial_authority_value = 0.1
+	tolerance_own = 0.25
+	tolerance_heretic = 0.25
+	papal_influence = 0.5
+	monthly_fervor_increase = 0.25
+	church_power_modifier = 0.05
+}
+potosi3 = {
+	imperial_authority_value = 0.15
+	tolerance_own = 0.5
+	tolerance_heretic = 0.5
+	papal_influence = 1
+	monthly_fervor_increase = 0.5
+	church_power_modifier = 0.1
+}
+potosi1 = {
+	monthly_piety_accelerator = 0.001
+	institution_spread_from_true_faith = 0.2
+}
+potosi2 = {
+	monthly_piety_accelerator = 0.002
+	tolerance_own = 0.5
+	institution_spread_from_true_faith = 0.33
+}
+potosi3 = {
+	monthly_piety_accelerator = 0.003
+	tolerance_own = 1
+	institution_spread_from_true_faith = 0.5
+}
+potosi1 = {
+	monthly_piety_accelerator = 0.001
+	global_heretic_missionary_strength = 0.01
+	church_loyalty_modifier = 0.05
+}
+potosi2 = {
+	monthly_piety_accelerator = 0.002
+	global_heretic_missionary_strength = 0.02
+	church_loyalty_modifier = 0.1
+}
+potosi3 = {
+	monthly_piety_accelerator = 0.003
+	global_heretic_missionary_strength = 0.03
+	church_loyalty_modifier = 0.15
+}
+potosi1 = {
+	core_creation = -0.05
+	brahmins_hindu_loyalty_modifier = 0.05
+}
+potosi2 = {
+	core_creation = -0.075
+	ae_impact = -0.05
+	brahmins_hindu_loyalty_modifier = 0.1
+}
+potosi3 = {
+	core_creation = -0.1
+	ae_impact = -0.1
+	brahmins_hindu_loyalty_modifier = 0.15
+}
+potosi1 = {
+	monthly_heir_claim_increase = 0.1
+}
+potosi2 = {
+	monthly_heir_claim_increase = 0.2
+	heir_chance = 0.33
+}
+potosi3 = {
+	monthly_heir_claim_increase = 0.3
+	heir_chance = 0.5
+}
+potosi1 = {
+	prestige = 0.25
+	global_ship_trade_power = 0.1
+}
+potosi2 = {
+	prestige = 0.5
+	global_ship_trade_power = 0.2
+	placed_merchant_power = 2
+}
+potosi3 = {
+	prestige = 1
+	global_ship_trade_power = 0.3
+	placed_merchant_power = 4
+}
+potosi1 = {
+	merchants = 1
+}
+potosi2 = {
+	merchants = 1
+	global_trade_power = 0.05
+}
+potosi3 = {
+	merchants = 2
+	global_trade_power = 0.1
+}
+potosi1 = {
+	legitimacy = 0.25
+	monthly_splendor = 0.5
+	prestige_per_development_from_conversion = 0.1
+}
+potosi2 = {
+	legitimacy = 0.5
+	monthly_splendor = 1
+	prestige_per_development_from_conversion = 0.2
+}
+potosi3 = {
+	legitimacy = 1
+	monthly_splendor = 1.5
+	prestige_per_development_from_conversion = 0.3
+}
+potosi1 = {
+	warscore_cost_vs_other_religion = -0.05
+}
+potosi2 = {
+	warscore_cost_vs_other_religion = -0.1
+}
+potosi3 = {
+	warscore_cost_vs_other_religion = -0.15
+}
+potosi1 = {
+	prestige = 0.25
+}
+potosi2 = {
+	prestige = 0.5
+	advisor_cost = -0.1
+}
+potosi3 = {
+	prestige = 1
+	advisor_cost = -0.2
+	special_unit_forcelimit = 0.1
+}
+potosi1 = {
+	global_colonial_growth = 10
+}
+potosi2 = {
+	global_colonial_growth = 15
+	navy_tradition = 0.5
+}
+potosi3 = {
+	global_colonial_growth = 25
+	navy_tradition = 1
+	colonist_placement_chance = 0.05
+}
+potosi1 = {
+	monthly_splendor = 1
+}
+potosi2 = {
+	monthly_splendor = 2
+	innovativeness_gain = 0.5
+	num_accepted_cultures = 1
+}
+potosi3 = {
+	monthly_splendor = 2
+	innovativeness_gain = 0.5
+	num_accepted_cultures = 2
+}
+potosi1 = {
+	yearly_authority = 0.1
+	reinforce_speed = 0.1
+	trade_efficiency = 0.05
+}
+potosi2 = {
+	yearly_authority = 0.2
+	reinforce_speed = 0.2
+	trade_efficiency = 0.1
+}
+potosi3 = {
+	yearly_authority = 0.3
+	reinforce_speed = 0.33
+	trade_efficiency = 0.2
+}
+potosi1 = {
+	stability_cost_modifier = -0.1
+	religious_unity = 0.1
+	church_loyalty_modifier = 0.05
+}
+potosi2 = {
+	stability_cost_modifier = -0.2
+	religious_unity = 0.1
+	church_loyalty_modifier = 0.1
+}
+potosi3 = {
+	stability_cost_modifier = -0.3
+	religious_unity = 0.25
+	church_loyalty_modifier = 0.15
+}
+potosi1 = {
+	global_missionary_strength = 0.005
+	prestige = 0.25
+}
+potosi2 = {
+	global_missionary_strength = 0.01
+	missionary_maintenance_cost = -0.05
+	prestige = 0.5
+}
+potosi3 = {
+	global_missionary_strength = 0.02
+	missionary_maintenance_cost = -0.1
+	prestige = 1
+}
+potosi1 = {
+	prestige = 0.25
+	reform_progress_growth = 0.05
+}
+potosi2 = {
+	prestige = 0.5
+	reform_progress_growth = 0.1
+	governing_capacity = 50
+}
+potosi3 = {
+	prestige = 1
+	reform_progress_growth = 0.15
+	governing_capacity = 100
+}
+potosi1 = {
+	global_heathen_missionary_strength = 0.01
+	institution_spread_from_true_faith = 0.1
+}
+potosi2 = {
+	global_heathen_missionary_strength = 0.02
+	institution_spread_from_true_faith = 0.2
+}
+potosi3 = {
+	global_heathen_missionary_strength = 0.03
+	institution_spread_from_true_faith = 0.3
+	missionaries = 1 
+}
+potosi1 = {
+	global_institution_spread = 0.15
+	church_loyalty_modifier = 0.05
+}
+potosi2 = {
+	global_institution_spread = 0.3
+	technology_cost = -0.05
+	church_loyalty_modifier = 0.1
+}
+potosi3 = {
+	global_institution_spread = 0.5
+	technology_cost = -0.1
+	church_loyalty_modifier = 0.15
+}
+potosi1 = {
+	papal_influence = 1 
+}
+potosi2 = {
+	papal_influence = 2 
+}
+potosi3 = {
+	papal_influence = 3 
+	missionaries = 1 
+}
+potosi1 = {
+	global_missionary_strength = 0.01
+	prestige = 0.25
+	church_loyalty_modifier = 0.05
+}
+potosi2 = {
+	global_missionary_strength = 0.02
+	prestige = 0.5
+	church_loyalty_modifier = 0.1
+}
+potosi3 = {
+	global_missionary_strength = 0.03
+	prestige = 1
+	church_loyalty_modifier = 0.15
+}
+potosi1 = {
+	prestige_per_development_from_conversion = 0.1
+	tolerance_own = 0.25
+}
+potosi2 = {
+	prestige_per_development_from_conversion = 0.2
+	tolerance_own = 0.5
+}
+potosi3 = {
+	prestige_per_development_from_conversion = 0.3
+	tolerance_own = 1
+}
+potosi1 = {
+	religious_unity = 0.1
+}
+potosi2 = {
+	prestige_decay = -0.005
+	religious_unity = 0.15
+}
+potosi3 = {
+	prestige_decay = -0.01
+	religious_unity = 0.25
+}
+potosi1 = {
+	church_loyalty_modifier = 0.05
+	brahmins_hindu_loyalty_modifier = 0.05
+}
+potosi2 = {
+	yearly_karma_decay = 0.05
+	church_loyalty_modifier = 0.1
+	brahmins_hindu_loyalty_modifier = 0.1
+	global_heretic_missionary_strength = 0.01
+}
+potosi3 = {
+	yearly_karma_decay = 0.1
+	church_loyalty_modifier = 0.15
+	brahmins_hindu_loyalty_modifier = 0.15
+	global_heretic_missionary_strength = 0.02
+}
+potosi1 = {
+	global_unrest = -1
+	republican_tradition = 0.1
+	legitimacy = 0.25
+	governing_capacity_modifier = 0.1
+}
+potosi2 = {
+	global_unrest = -1
+	republican_tradition = 0.15
+	legitimacy = 0.3
+	governing_capacity_modifier = 0.15
+}
+potosi3 = {
+	global_unrest = -1
+	republican_tradition = 0.25
+	legitimacy = 0.5
+	governing_capacity_modifier = 0.2
+}
+potosi1 = {
+	stability_cost_modifier = -0.1
+}
+potosi2 = {
+	stability_cost_modifier = -0.2
+}
+potosi3 = {
+	stability_cost_modifier = -0.3
+	global_unrest = -2
+}
+potosi1 = {
+	yearly_authority = 0.1
+	global_missionary_strength = 0.005
+}
+potosi2 = {
+	yearly_authority = 0.2
+	global_missionary_strength = 0.01
+	religious_unity = 0.15
+}
+potosi3 = {
+	yearly_authority = 0.3
+	global_missionary_strength = 0.02
+	religious_unity = 0.3
+}
+potosi1 = {
+	privateer_efficiency = 0.2
+	capture_ship_chance = 0.1
+}
+potosi2 = {
+	privateer_efficiency = 0.33
+	power_projection_from_insults = 0.5
+	capture_ship_chance = 0.2
+}
+potosi3 = {
+	privateer_efficiency = 0.5
+	power_projection_from_insults = 1
+	capture_ship_chance = 0.3
+}
+potosi1 = {
+	prestige = 0.25
+	church_loyalty_modifier = 0.05
+}
+potosi2 = {
+	free_city_imperial_authority = 0.1
+	prestige = 0.5
+	tolerance_own = 0.5
+	church_loyalty_modifier = 0.1
+}
+potosi3 = {
+	free_city_imperial_authority = 0.2
+	prestige = 1
+	tolerance_own = 1
+	church_loyalty_modifier = 0.15
+}
+potosi3 = {
+	build_cost = -0.05
+}
+potosi1 = {
+	max_absolutism = 5
+	harsh_treatment_cost = -0.15
+	monthly_heir_claim_increase = 0.1
+	reduced_liberty_desire = 5
+}
+potosi2 = {
+	max_absolutism = 10
+	harsh_treatment_cost = -0.2
+	monthly_heir_claim_increase = 0.2
+	reduced_liberty_desire = 5
+}
+potosi3 = {
+	max_absolutism = 10
+	harsh_treatment_cost = -0.25
+	monthly_heir_claim_increase = 0.25
+	reduced_liberty_desire = 5
+	diplomatic_annexation_cost = -0.1
+}
+zacatecas_mine_city2 = {
+	interest = -0.25
+}
+zacatecas_mine_city3 = {
+	interest = -0.5
+}
+fu_hansehalle1 = {
+	republican_tradition = 0.05
+}
+fu_hansehalle2 = {
+	republican_tradition = 0.1
+}
+fu_hansehalle3 = {
+	republican_tradition = 0.2
+	expand_administration_cost = -1
+}
+fu_vladislav_hall1 = {
+	army_tradition = 0.25
+	legitimacy = 0.5
+}
+fu_vladislav_hall2 = {
+	army_tradition = 0.5
+	legitimacy = 1
+}
+fu_vladislav_hall3 = {
+	army_tradition = 1
+	legitimacy = 1
+	nobles_loyalty_modifier = 0.05
+}
+fu_la_scala1 = {
+	dip_advisor_cost = -0.20
+	yearly_absolutism = 0.5
+}
+fu_la_scala2 = {
+	dip_advisor_cost = -0.25
+	promote_culture_cost = -0.20
+	yearly_absolutism = 1
+}
+fu_la_scala3 = {
+	dip_advisor_cost = -0.5
+	max_absolutism = 10
+	promote_culture_cost = -0.3
+}
+fu_escola_de_marina1 = {
+	navy_tradition_decay = -0.005
+}
+fu_escola_de_marina2 = {
+	navy_tradition_decay = -0.005
+	naval_tradition_from_battle = 1
+}
+fu_escola_de_marina3 = {
+	navy_tradition_decay = -0.005
+	naval_tradition_from_battle = 1
+	naval_tradition_from_trade = 1
+	admiral_skill_gain_modifier = 0.01
+}
+fu_kinkaku_ji1 = {
+	tolerance_own = 1 
+}
+fu_kinkaku_ji2 = {
+	tolerance_own = 1 
+	church_loyalty_modifier = 0.05
+}
+fu_kinkaku_ji3 = {
+	tolerance_own = 1 
+	church_loyalty_modifier = 0.1
+	legitimacy = 1
+	republican_tradition = 0.33
+}
+fu_venetian_arsenal2 = {
+	naval_forcelimit_modifier = 0.1
+}
+fu_venetian_arsenal3 = {
+	naval_forcelimit_modifier = 0.15
+	ship_durability = 0.05
+}
+fu_warsaw_palace1 = {
+	adm_tech_cost_modifier = -0.05 
+	stability_cost_modifier = -0.1
+}
+fu_warsaw_palace2 = {
+	adm_tech_cost_modifier = -0.1
+	stability_cost_modifier = -0.2
+}
+fu_warsaw_palace3 = {
+	adm_tech_cost_modifier = -0.1
+	stability_cost_modifier = -0.25
+	administrative_efficiency = 0.05
+}
+fu_arc_of_triumph1 = {
+	mil_tech_cost_modifier = -0.05
+	possible_mil_policy = 1 
+}
+fu_arc_of_triumph2 = {
+	mil_tech_cost_modifier = -0.1
+	possible_mil_policy = 1
+	power_projection_from_insults = 0.5
+}
+fu_arc_of_triumph3 = {
+	mil_tech_cost_modifier = -0.1
+	possible_mil_policy = 1
+	power_projection_from_insults = 1
+	max_revolutionary_zeal = 10 
+}
+fu_terracotta_army1 = {
+	land_maintenance_modifier = -0.05 
+}
+fu_terracotta_army2 = {
+	land_maintenance_modifier = -0.05
+	monarch_lifespan = 0.1
+	meritocracy = 0.25
+}
+fu_terracotta_army3 = {
+	land_maintenance_modifier = -0.05
+	monarch_lifespan = 0.15
+	meritocracy = 0.5
+}
+fu_colossus1 = {
+	sailor_maintenance_modifer = -0.05
+	global_ship_trade_power = 0.1
+}
+fu_colossus2 = {
+	sailor_maintenance_modifer = -0.1
+	global_ship_trade_power = 0.15
+}
+fu_colossus3 = {
+	sailor_maintenance_modifer = -0.15
+	global_ship_trade_power = 0.2
+}
+fu_pharos_alexandria1 = {
+	trade_range_modifier = 0.20
+	trade_efficiency = 0.05
+}
+fu_pharos_alexandria2 = {
+	trade_range_modifier = 0.25
+	trade_efficiency = 0.1
+}
+fu_pharos_alexandria3 = {
+	trade_range_modifier = 0.25
+	trade_efficiency = 0.1
+	leader_naval_manuever = 1 
+}
+fu_red_fort1 = {
+	governing_capacity_modifier = 0.05
+}
+fu_red_fort2 = {
+	governing_capacity_modifier = 0.1 
+}
+fu_red_fort3 = {
+	governing_capacity_modifier = 0.15
+	core_creation = -0.05
+}
+fu_globe_theatre1 = {
+	country_diplomatic_power = 1
+	dip_tech_cost_modifier = -0.05
+}
+fu_globe_theatre2 = {
+	country_diplomatic_power = 1
+	promote_culture_cost = -0.25
+}
+fu_globe_theatre3 = {
+	country_diplomatic_power = 1
+	promote_culture_cost = -0.5
+}
+fu_leaning_tower1 = {
+	advisor_cost = -0.1
+}
+fu_leaning_tower2 = {
+	advisor_cost = -0.15
+}
+fu_leaning_tower3 = {
+	advisor_cost = -0.2 
+	possible_dip_policy = 1 
+}
+fu_theodosian_walls2 = {
+	garrison_size = 0.15
+}
+fu_theodosian_walls3 = {
+	garrison_size = 0.2
+}
+fu_library_alexandria1 = {
+	innovativeness_gain = 0.25
+	embracement_cost = -0.05 
+}
+fu_library_alexandria2 = {
+	innovativeness_gain = 0.5
+	embracement_cost = -0.1
+}
+fu_library_alexandria3 = {
+	innovativeness_gain = 0.5
+	embracement_cost = -0.1
+	administrative_efficiency = 0.025
+}
+fu_kasbah_of_tunis3 = {
+	merchants = 1
+}
+fu_blue_mosque1 = {
+	yearly_tribal_allegiance = 0.25
+	legitimacy = 0.25
+}
+fu_blue_mosque2 = {
+	yearly_tribal_allegiance = 0.3
+	legitimacy = 0.3
+}
+fu_blue_mosque3 = {
+	yearly_tribal_allegiance = 0.3
+	legitimacy = 0.5
+}
+fu_isfahan_city3 = {
+	prestige_decay = -0.005
+}
+fu_potala_palace1 = {
+	yearly_karma_decay = 0.005
+}
+fu_potala_palace2 = {
+	yearly_karma_decay = 0.005
+	idea_cost = -0.025
+}
+fu_potala_palace3 = {
+	yearly_karma_decay = 0.005
+	idea_cost = -0.05
+}
+fu_walls_of_ragusa3 = {
+	mercantilism_cost = -0.05
+}
+fu_foreign_quarters3 = {
+	global_trade_power = 0.05
+}
+fu_lingyin_temple3 = {
+	harmonization_speed = 0.1
+}
+fu_edinburgh_castle3 = {
+	fort_maintenance_modifier = -0.05
+}
+fu_axum_obelisk1 = {
+	church_loyalty_modifier = 0.05
+}
+fu_axum_obelisk2 = {
+	church_loyalty_modifier = 0.05
+}
+fu_axum_obelisk3 = {
+	church_loyalty_modifier = 0.05
+	tolerance_own = 1 
+}
+fu_amsterdam_stock_exchange2 = {
+	trade_company_investment_cost = -0.05
+}
+fu_amsterdam_stock_exchange3 = {
+	trade_company_investment_cost = -0.1
+	inflation_reduction = 0.05
+}
+fu_university_vienna1 = {
+	embracement_cost = -0.05
+	innovativeness_gain = 0.20
+}
+fu_university_vienna2 = {
+	embracement_cost = -0.1
+	innovativeness_gain = 0.25
+}
+fu_university_vienna3 = {
+	embracement_cost = -0.1
+	innovativeness_gain = 0.25
+	monarch_admin_power = 1 
+}
+fu_white_tower2 = {
+	harsh_treatment_cost = -0.1
+}
+fu_white_tower3 = {
+	harsh_treatment_cost = -0.15
+	nobles_loyalty_modifier = 0.05
+}
+fu_ali_qapu1 = {
+	improve_relation_modifier = 0.1
+	envoy_travel_time = -0.15
+	reduced_liberty_desire_on_same_continent = 5
+}
+fu_ali_qapu2 = {
+	improve_relation_modifier = 0.15
+	envoy_travel_time = -0.2
+	reduced_liberty_desire_on_same_continent = 5
+}
+fu_ali_qapu3 = {
+	improve_relation_modifier = 0.2
+	envoy_travel_time = -0.25
+	reduced_liberty_desire_on_same_continent = 10
+}
+fu_ishtar_gate1 = {
+	heir_chance = 0.15
+}
+fu_ishtar_gate2 = {
+	heir_chance = 0.25
+}
+fu_ishtar_gate3 = {
+	heir_chance = 0.5
+	expand_administration_cost = -0.5
+}
+fu_admiralty_amsterdam1 = {
+	navy_tradition_decay = -0.005
+}
+fu_admiralty_amsterdam2 = {
+	navy_tradition_decay = -0.01
+}
+fu_admiralty_amsterdam3 = {
+	leader_naval_manuever = 1 
+	navy_tradition_decay = -0.01
+}
+fu_topkapi_palace1 = {
+	all_estate_loyalty_equilibrium = 0.05
+	yearly_corruption = -0.025
+	monthly_favor_modifier = 0.1
+}
+fu_topkapi_palace2 = {
+	all_estate_loyalty_equilibrium = 0.075
+	yearly_corruption = -0.03
+	monthly_favor_modifier = 0.15
+}
+fu_topkapi_palace3 = {
+	all_estate_loyalty_equilibrium = 0.1
+	yearly_corruption = -0.05
+	monthly_favor_modifier = 0.25
+}
+fu_bosphorus_toll2 = {
+	 mercantilism_cost = -0.1 
+}
+fu_bosphorus_toll3 = {
+	 mercantilism_cost = -0.15 
+}
+fu_port_havana2 = {
+	 admiral_skill_gain_modifier = 0.005 
+}
+fu_port_havana3 = {
+	admiral_skill_gain_modifier = 0.01 
+	naval_maintenance_modifier = -0.1
+}
+fu_toob_benadir3 = {
+	trade_efficiency = 0.1
+}
+fu_toob_benadir1 = {
+	tolerance_own = 0.25
+	tolerance_heretic = 0.25
+	church_loyalty_modifier = 0.05
+}
+fu_toob_benadir2 = {
+	tolerance_own = 0.5
+	tolerance_heretic = 0.5
+	monthly_piety_accelerator = 0.001
+	yearly_patriarch_authority = 0.002
+	papal_influence = 0.5
+	church_loyalty_modifier = 0.1
+}
+fu_toob_benadir3 = {
+	tolerance_own = 1
+	tolerance_heretic = 1
+	monthly_piety_accelerator = 0.002
+	yearly_patriarch_authority = 0.005
+	papal_influence = 1
+	church_loyalty_modifier = 0.15
+}
+fu_toob_benadir1 = {
+	tolerance_heretic = 0.5
+	tolerance_heathen = 0.5
+}
+fu_toob_benadir2 = {
+	tolerance_heretic = 0.5
+	tolerance_heathen = 0.5
+	stability_cost_modifier = -0.1
+}
+fu_toob_benadir3 = {
+	tolerance_heretic = 1
+	tolerance_heathen = 1
+	stability_cost_modifier = -0.25
+	global_missionary_strength = 0.01
+}
+fu_toob_benadir1 = {
+	army_tradition = 0.25
+}
+fu_toob_benadir2 = {
+	army_tradition = 0.25
+	prestige = 0.25
+}
+fu_toob_benadir3 = {
+	army_tradition = 0.5
+	prestige = 0.5
+}
+fu_toob_benadir1 = {
+	culture_conversion_cost = -0.1
+	global_missionary_strength = 0.01
+}
+fu_toob_benadir2 = {
+	culture_conversion_cost = -0.10
+	global_missionary_strength = 0.01
+	missionaries = 1
+}
+fu_toob_benadir3 = {
+	culture_conversion_cost = -0.25
+	global_missionary_strength = 0.01
+	missionaries = 1
+	idea_cost = -0.05
+}
+fu_toob_benadir1 = {
+	advisor_cost = -0.10
+}
+fu_toob_benadir2 = {
+	advisor_cost = -0.1
+	advisor_pool = 1
+}
+fu_toob_benadir3 = {
+	advisor_cost = -0.2
+	advisor_pool = 1
+	yearly_corruption = -0.1
+}
+fu_toob_benadir1 = {
+	yearly_absolutism = 0.25
+	imperial_mandate = 0.03
+}
+fu_toob_benadir2 = {
+	yearly_absolutism = 0.5
+	imperial_mandate = 0.03
+	prestige_decay = -0.01
+}
+fu_toob_benadir3 = {
+	yearly_absolutism = 0.5
+	imperial_mandate = 0.05
+	prestige_decay = -0.02
+}
+fu_toob_benadir1 = {
+	yearly_karma_decay = 0.05  
+	technology_cost = -0.05
+}
+fu_toob_benadir2 = {
+	yearly_karma_decay = 0.1  
+	technology_cost = -0.1
+}
+fu_toob_benadir3 = {
+	yearly_karma_decay = 0.15  
+	technology_cost = -0.10
+}
+fu_toob_benadir1 = {
+	diplomatic_reputation = 1
+	envoy_travel_time = -0.20
+}
+fu_toob_benadir2 = {
+	diplomatic_reputation = 1
+	envoy_travel_time = -0.25
+	fabricate_claims_cost = -0.1
+}
+fu_toob_benadir3 = {
+	diplomatic_reputation = 2
+	envoy_travel_time = -0.33
+	diplomatic_upkeep = 1
+	fabricate_claims_cost = -0.2
+}
+fu_toob_benadir1 = {
+	papal_influence = 0.5
+	monthly_fervor_increase = 0.25
+	church_power_modifier = 0.05
+	enforce_religion_cost = -0.1
+}
+fu_toob_benadir2 = {
+	papal_influence = 1
+	monthly_fervor_increase = 0.5
+	church_power_modifier = 0.1
+	enforce_religion_cost = -0.25
+}
+fu_toob_benadir3 = {
+	papal_influence = 2
+	monthly_fervor_increase = 1
+	church_power_modifier = 0.15
+	enforce_religion_cost = -0.33
+}
+fu_toob_benadir3 = {
+	global_regiment_cost = -0.1
+}
+fu_toob_benadir1 = {
+	idea_cost = -0.05
+}
+fu_toob_benadir2 = {
+	idea_cost = -0.1
+	reform_progress_growth = 0.1
+}
+fu_toob_benadir3 = {
+	idea_cost = -0.15
+	reform_progress_growth = 0.1
+	mercantilism_cost = -0.15
+}
+fu_toob_benadir1 = {
+	manpower_recovery_speed = 0.1
+	global_regiment_recruit_speed = -0.1
+}
+fu_toob_benadir2 = {
+	manpower_recovery_speed = 0.15
+	global_regiment_recruit_speed = -0.3
+}
+fu_toob_benadir3 = {
+	manpower_recovery_speed = 0.2
+	global_regiment_recruit_speed = -0.5
+	infantry_cost = -0.10
+}
+fu_toob_benadir1 = {
+	prestige = 0.5
+}
+fu_toob_benadir2 = {
+	prestige = 0.5
+	spy_offence = 0.1
+	global_spy_defence = 0.2
+}
+fu_toob_benadir3 = {
+	prestige = 0.5
+	spy_offence = 0.15
+	global_spy_defence = 0.25
+}
+fu_toob_benadir1 = {
+	religious_unity = 0.05
+	tolerance_own = 0.5
+	nobles_loyalty_modifier = 0.05
+}
+fu_toob_benadir2 = {
+	religious_unity = 0.10
+	tolerance_own = 1
+	nobles_loyalty_modifier = 0.1
+}
+fu_toob_benadir3 = {
+	religious_unity = 0.25
+	tolerance_own = 1
+	tolerance_heretic = 1
+	nobles_loyalty_modifier = 0.15
+}
+fu_toob_benadir1 = {
+	appoint_cardinal_cost = -0.05
+	curia_powers_cost = -0.05
+}
+fu_toob_benadir2 = {
+	appoint_cardinal_cost = -0.1
+	curia_powers_cost = -0.1
+	idea_cost = -0.05
+}
+fu_toob_benadir3 = {
+	appoint_cardinal_cost = -0.2
+	curia_powers_cost = -0.1
+	idea_cost = -0.1
+	church_influence_modifier = 0.1
+}
+fu_toob_benadir3 = {
+	yearly_karma_decay = 0.1  
+	prestige = 0.5
+}
+fu_toob_benadir1 = {
+	yearly_doom_reduction = 1
+}
+fu_toob_benadir2 = {
+	yearly_doom_reduction = 2
+}
+fu_toob_benadir3 = {
+	yearly_doom_reduction = 3
+}
+fu_toob_benadir1 = {
+	papal_influence = 0.5
+	monthly_fervor_increase = 0.25
+	church_power_modifier = 0.05
+	tolerance_own = 0.5
+}
+fu_toob_benadir2 = {
+	papal_influence = 1
+	monthly_fervor_increase = 0.5
+	church_power_modifier = 0.1
+	tolerance_own = 1
+}
+fu_toob_benadir3 = {
+	papal_influence = 2
+	monthly_fervor_increase = 1
+	church_power_modifier = 0.15
+	tolerance_own = 2
+	religious_unity = 0.1
+}
+fu_toob_benadir1 = {
+	church_loyalty_modifier = 0.05
+}
+fu_toob_benadir2 = {
+	church_loyalty_modifier = 0.1
+	yearly_karma_decay = 0.05
+}
+fu_toob_benadir3 = {
+	yearly_karma_decay = 0.1
+	church_loyalty_modifier = 0.15
+}
+fu_toob_benadir2 = {
+	hostile_attrition = 1
+	garrison_size = 0.15
+}
+fu_toob_benadir3 = {
+	hostile_attrition = 2
+	garrison_size = 0.25
+}
+fu_toob_benadir1 = {
+	prestige = 0.1
+	drill_gain_modifier = 0.1
+}
+fu_toob_benadir2 = {
+	prestige = 0.25
+	drill_gain_modifier = 0.3
+}
+fu_toob_benadir3 = {
+	prestige = 0.5
+	drill_gain_modifier = 0.5
+}
+fu_toob_benadir1 = {
+	technology_cost = -0.05
+}
+fu_toob_benadir2 = {
+	idea_cost = -0.05
+	technology_cost = -0.05
+}
+fu_toob_benadir3 = {
+	idea_cost = -0.1
+	technology_cost = -0.1
+}
+fu_toob_benadir1 = {
+	monthly_piety_accelerator = 0.001
+	prestige_decay = -0.005
+}
+fu_toob_benadir2 = {
+	monthly_piety_accelerator = 0.002
+	prestige_decay = -0.005
+	monthly_splendor = 1
+}
+fu_toob_benadir3 = {
+	monthly_piety_accelerator = 0.003
+	prestige_decay = -0.01
+	monthly_splendor = 2
+	power_projection_from_insults = 1
+}
+fu_toob_benadir1 = {
+	vassal_income = 0.1
+	reduced_liberty_desire = 5
+}
+fu_toob_benadir2 = {
+	vassal_income = 0.1
+	reduced_liberty_desire = 5
+	diplomatic_reputation = 1
+}
+fu_toob_benadir3 = {
+	administrative_efficiency = 0.05
+	vassal_income = 0.1
+	reduced_liberty_desire = 10
+	diplomatic_reputation = 1
+}
+fu_toob_benadir1 = {
+	yearly_absolutism = 0.25
+	governing_capacity_modifier = 0.05
+}
+fu_toob_benadir2 = {
+	yearly_absolutism = 0.5
+	governing_capacity_modifier = 0.1
+	vassal_forcelimit_bonus = 0.30
+}
+fu_toob_benadir3 = {
+	yearly_absolutism = 1
+	governing_capacity_modifier = 0.15
+	vassal_forcelimit_bonus = 0.5
+	ae_impact = -0.1
+}
+fu_toob_benadir1 = {
+	yearly_karma_decay = 0.05
+	global_missionary_strength = 0.01
+}
+fu_toob_benadir2 = {
+	yearly_karma_decay = 0.1
+	global_missionary_strength = 0.01
+	missionaries = 1
+}
+fu_toob_benadir3 = {
+	yearly_karma_decay = 0.15
+	global_missionary_strength = 0.02
+	missionaries = 2
+}
+fu_toob_benadir1 = {
+	caravan_power = 0.1
+}
+fu_toob_benadir2 = {
+	caravan_power = 0.2
+	trade_efficiency = 0.05
+}
+fu_toob_benadir3 = {
+	caravan_power = 0.33
+	trade_efficiency = 0.10
+	global_trade_power = 0.05
+}
+fu_toob_benadir1 = {
+	monthly_piety_accelerator = 0.001
+	stability_cost_modifier = -0.1
+	enforce_religion_cost = -0.05
+}
+fu_toob_benadir2 = {
+	monthly_piety_accelerator = 0.002
+	stability_cost_modifier = -0.15
+	enforce_religion_cost = -0.1
+}
+fu_toob_benadir3 = {
+	monthly_piety_accelerator = 0.003
+	stability_cost_modifier = -0.25
+	enforce_religion_cost = -0.15
+}
+fu_toob_benadir1 = {
+	global_autonomy = -0.025
+}
+fu_toob_benadir2 = {
+	global_autonomy = -0.05
+	min_autonomy_in_territories = -0.1
+}
+fu_toob_benadir3 = {
+	global_autonomy = -0.1
+	min_autonomy_in_territories = -0.15
+}
+fu_toob_benadir1 = {
+	religious_unity = 0.05
+	missionary_maintenance_cost = -0.1
+	yearly_karma_decay = 0.01
+}
+fu_toob_benadir2 = {
+	religious_unity = 0.10
+	global_missionary_strength = 0.01
+	missionary_maintenance_cost = -0.2
+	yearly_karma_decay = 0.025
+}
+fu_toob_benadir3 = {
+	religious_unity = 0.25
+	global_missionary_strength = 0.02
+	missionary_maintenance_cost = -0.3
+	yearly_karma_decay = 0.05
+}
+fu_toob_benadir1 = {
+	culture_conversion_cost = -0.05
+}
+fu_toob_benadir2 = {
+	culture_conversion_cost = -0.1
+	global_unrest = -1
+}
+fu_toob_benadir3 = {
+	culture_conversion_cost = -0.25
+	global_unrest = -2
+	num_accepted_cultures = 1
+	global_autonomy = -0.05
+}
+fu_toob_benadir1 = {
+	yearly_harmony = 0.25
+	prestige = 0.25
+}
+fu_toob_benadir2 = {
+	yearly_harmony = 0.33
+	religious_unity = 0.25
+	prestige = 0.5
+}
+fu_toob_benadir3 = {
+	yearly_harmony = 0.5
+	religious_unity = 0.5
+	prestige = 1
+}
+fu_toob_benadir1 = {
+	naval_forcelimit_modifier = 0.1
+	naval_maintenance_modifier = -0.1
+}
+fu_toob_benadir2 = {
+	naval_forcelimit_modifier = 0.2
+	naval_maintenance_modifier = -0.15
+	navy_tradition = 0.5
+}
+fu_toob_benadir3 = {
+	naval_forcelimit_modifier = 0.3
+	naval_maintenance_modifier = -0.2
+	navy_tradition = 1
+	admiral_cost = -0.1
+}
+fu_toob_benadir1 = {
+	brahmins_hindu_loyalty_modifier = 0.05
+	stability_cost_modifier = -0.05
+}
+fu_toob_benadir2 = {
+	brahmins_hindu_loyalty_modifier = 0.1
+	stability_cost_modifier = -0.1
+	war_exhaustion = -0.02
+}
+fu_toob_benadir3 = {
+	brahmins_hindu_loyalty_modifier = 0.15
+	stability_cost_modifier = -0.15
+	war_exhaustion = -0.05
+	global_unrest = -1
+}
+fu_toob_benadir1 = {
+	diplomatic_reputation = 1
+	dip_advisor_cost = -0.1
+}
+fu_toob_benadir2 = {
+	diplomatic_reputation = 1
+	diplomatic_upkeep = 1
+	dip_advisor_cost = -0.2
+}
+fu_toob_benadir3 = {
+	diplomatic_reputation = 1
+	diplomatic_upkeep = 2
+	advisor_cost = -0.2
+}
+fu_toob_benadir1 = {
+	advisor_cost = -0.05
+	church_loyalty_modifier = 0.05
+}
+fu_toob_benadir2 = {
+	advisor_cost = -0.1
+	church_loyalty_modifier = 0.1
+	idea_cost = -0.05
+}
+fu_toob_benadir3 = {
+	advisor_cost = -0.15
+	church_loyalty_modifier = 0.15
+	idea_cost = -0.05
+}
+fu_toob_benadir1 = {
+	fabricate_claims_cost = -0.1
+}
+fu_toob_benadir2 = {
+	technology_cost = -0.05
+	fabricate_claims_cost = -0.2
+}
+fu_toob_benadir3 = {
+	technology_cost = -0.05
+	fabricate_claims_cost = -0.3
+}
+fu_toob_benadir1 = {
+	development_cost = -0.02
+	global_missionary_strength =  0.005
+}
+fu_toob_benadir2 = {
+	development_cost = -0.05
+	global_missionary_strength = 0.01
+}
+fu_toob_benadir3 = {
+	development_cost = -0.10
+	global_missionary_strength = 0.02
+	missionaries = 1
+}
+fu_toob_benadir1 = {
+	num_accepted_cultures = 1
+}
+fu_toob_benadir2 = {
+	num_accepted_cultures = 1
+	same_culture_advisor_cost = -0.15
+}
+fu_toob_benadir3 = {
+	num_accepted_cultures = 2
+	same_culture_advisor_cost = -0.2
+	promote_culture_cost = -0.15
+}
+fu_toob_benadir1 = {
+	discipline = 0.025
+	fire_damage_received = -0.05
+}
+fu_toob_benadir2 = {
+	discipline = 0.05
+	fire_damage_received = -0.1
+	culture_conversion_cost = -0.05
+}
+fu_toob_benadir3 = {
+	discipline = 0.1
+	fire_damage_received = -0.1
+	fire_damage = 0.05
+	culture_conversion_cost = -0.1
+}
+fu_toob_benadir1 = {
+	yearly_patriarch_authority = 0.001
+}
+fu_toob_benadir2 = {
+	yearly_patriarch_authority = 0.002
+	tolerance_own = 1
+}
+fu_toob_benadir3 = {
+	yearly_patriarch_authority = 0.005
+	tolerance_own = 2
+}
+fu_toob_benadir1 = {
+	global_trade_power = 0.05
+}
+fu_toob_benadir2 = {
+	global_trade_power = 0.1
+	global_sailors_modifier = 0.1
+}
+fu_toob_benadir3 = {
+	global_trade_power = 0.15
+	global_sailors_modifier = 0.25
+}
+fu_toob_benadir1 = {
+	war_taxes_cost_modifier = -0.5
+	prestige_from_land = 0.5
+}
+fu_toob_benadir2 = {
+	war_taxes_cost_modifier = -0.5
+	prestige_from_land = 1
+	general_cost = -0.1
+}
+fu_toob_benadir3 = {
+	war_taxes_cost_modifier = -1
+	prestige_from_land = 1
+	general_cost = -0.1
+}
+fu_toob_benadir1 = {
+	prestige = 0.25
+	monthly_splendor = 0.5
+}
+fu_toob_benadir2 = {
+	prestige = 0.5
+	monthly_splendor = 1
+	monarch_lifespan = 0.05
+}
+fu_toob_benadir3 = {
+	prestige = 1
+	monthly_splendor = 1.5
+	monarch_lifespan = 0.1
+}
+fu_toob_benadir1 = {
+	stability_cost_modifier = -0.025
+}
+fu_toob_benadir2 = {
+	stability_cost_modifier = -0.05
+	missionary_maintenance_cost = -0.1
+	missionaries = 1
+}
+fu_toob_benadir3 = {
+	stability_cost_modifier = -0.1
+	missionary_maintenance_cost = -0.2
+	missionaries = 1
+}
+fu_toob_benadir1 = {
+	global_tax_modifier = 0.1
+	improve_relation_modifier = 0.1
+	nobles_loyalty_modifier = 0.05
+	nobles_influence_modifier = 0.05
+}
+fu_toob_benadir2 = {
+	global_tax_modifier = 0.15
+	improve_relation_modifier = 0.1
+	vassal_income = 0.1
+	nobles_loyalty_modifier = 0.1
+	nobles_influence_modifier = 0.1
+}
+fu_toob_benadir3 = {
+	global_tax_modifier = 0.2
+	improve_relation_modifier = 0.15
+	vassal_income = 0.2
+	nobles_loyalty_modifier = 0.15
+	nobles_influence_modifier = 0.1
+}
+fu_toob_benadir1 = {
+	global_autonomy = -0.01
+	global_tariffs = 0.05
+	treasure_fleet_income = 0.05
+}
+fu_toob_benadir2 = {
+	global_autonomy = -0.025
+	governing_capacity_modifier = 0.05
+	global_tariffs = 0.1
+	treasure_fleet_income = 0.1
+}
+fu_toob_benadir3 = {
+	global_autonomy = -0.05
+	governing_capacity_modifier = 0.1
+	global_tariffs = 0.2
+	treasure_fleet_income = 0.2
+}
+fu_toob_benadir2 = {
+	interest = -0.25
+}
+fu_toob_benadir3 = {
+	interest = -0.5
+}
+fu_toob_benadir1 = {
+	prestige = 0.1
+	religious_unity = 0.1
+}
+fu_toob_benadir2 = {
+	prestige = 0.25
+	religious_unity = 0.15
+	warscore_cost_vs_other_religion = -0.05
+}
+fu_toob_benadir3 = {
+	prestige = 0.5
+	religious_unity = 0.2
+	warscore_cost_vs_other_religion = -0.1
+}
+fu_toob_benadir1 = {
+	prestige = 0.1
+	global_heretic_missionary_strength = 0.01
+	monthly_fervor_increase = 0.25
+	church_power_modifier = 0.05
+	papal_influence = 0.25
+}
+fu_toob_benadir2 = {
+	prestige = 0.25
+	global_heretic_missionary_strength = 0.02
+	monthly_fervor_increase = 0.5
+	church_power_modifier = 0.1
+	papal_influence = 0.5
+}
+fu_toob_benadir3 = {
+	prestige = 0.5
+	global_heretic_missionary_strength = 0.03
+	missionaries = 1
+	monthly_fervor_increase = 1
+	church_power_modifier = 0.15
+	papal_influence = 1
+}
+fu_toob_benadir1 = {
+	monthly_piety_accelerator = 0.001
+	global_heathen_missionary_strength = 0.01
+}
+fu_toob_benadir2 = {
+	monthly_piety_accelerator = 0.002
+	global_heathen_missionary_strength = 0.02
+	missionaries = 1
+}
+fu_toob_benadir3 = {
+	monthly_piety_accelerator = 0.003
+	global_heathen_missionary_strength = 0.03
+	missionaries = 1
+}
+fu_toob_benadir1 = {
+	yearly_harmony = 0.25
+	legitimacy = 0.5
+	state_maintenance_modifier = -0.1
+}
+fu_toob_benadir2 = {
+	yearly_harmony = 0.33
+	yearly_karma_decay = 0.1
+	legitimacy = 1
+	state_maintenance_modifier = -0.2
+	min_autonomy_in_territories = -0.05
+}
+fu_toob_benadir3 = {
+	yearly_harmony = 0.5
+	yearly_karma_decay = 0.15
+	legitimacy = 1
+	state_maintenance_modifier = -0.25
+	min_autonomy_in_territories = -0.1
+}
+fu_toob_benadir1 = {
+	global_missionary_strength = 0.005
+	church_loyalty_modifier = 0.05
+}
+fu_toob_benadir2 = {
+	global_missionary_strength = 0.01
+	tolerance_own = 1
+	church_loyalty_modifier = 0.1
+}
+fu_toob_benadir3 = {
+	global_missionary_strength = 0.02
+	tolerance_own = 2
+	church_loyalty_modifier = 0.15
+}
+fu_toob_benadir1 = {
+	caravan_power = 0.1
+}
+fu_toob_benadir2 = {
+	caravan_power = 0.2
+	merchants = 1
+}
+fu_toob_benadir3 = {
+	caravan_power = 0.4
+	merchants = 1
+}
+fu_toob_benadir1 = {
+	trade_steering = 0.05
+	global_ship_trade_power = 0.1
+	burghers_loyalty_modifier = 0.05
+	jains_loyalty_modifier = 0.05
+}
+fu_toob_benadir2 = {
+	trade_steering = 0.1
+	global_ship_trade_power = 0.1
+	burghers_loyalty_modifier = 0.1
+	jains_loyalty_modifier = 0.1
+}
+fu_toob_benadir3 = {
+	trade_steering = 0.2
+	global_ship_trade_power = 0.3
+	merchants = 1
+	burghers_loyalty_modifier = 0.15
+	jains_loyalty_modifier = 0.15
+}
+fu_toob_benadir1 = {
+	rival_border_fort_maintenance = -0.15
+	global_garrison_growth = 0.1
+}
+fu_toob_benadir2 = {
+	rival_border_fort_maintenance = -0.2
+	global_garrison_growth = 0.2
+}
+fu_toob_benadir3 = {
+	rival_border_fort_maintenance = -0.3
+	global_garrison_growth = 0.3
+}
+fu_toob_benadir1 = {
+	monthly_militarized_society = 0.01
+	prestige_from_land = 0.5
+}
+fu_toob_benadir2 = {
+	monthly_militarized_society = 0.02
+	prestige_from_land = 1
+	army_tradition_from_battle = 0.25
+}
+fu_toob_benadir3 = {
+	monthly_militarized_society = 0.05
+	prestige_from_land = 1.5
+	army_tradition_from_battle = 0.5
+}
+fu_toob_benadir1 = {
+	global_institution_spread = 0.1
+}
+fu_toob_benadir2 = {
+	global_institution_spread = 0.2
+	embracement_cost = -0.05
+}
+fu_toob_benadir3 = {
+	global_institution_spread = 0.3
+	embracement_cost = -0.1
+	idea_cost = -0.05
+}
+fu_toob_benadir1 = {
+	tribal_development_growth = 0.01
+}
+fu_toob_benadir2 = {
+	tribal_development_growth = 0.02
+	global_manpower_modifier = 0.1
+}
+fu_toob_benadir3 = {
+	tribal_development_growth = 0.03
+	global_manpower_modifier = 0.2
+}
+fu_toob_benadir1 = {
+	global_ship_trade_power = 0.1
+}
+fu_toob_benadir2 = {
+	global_ship_trade_power = 0.2
+	prestige_from_naval = 0.5
+}
+fu_toob_benadir3 = {
+	global_ship_trade_power = 0.3
+	prestige_from_naval = 1
+}
+fu_toob_benadir1 = {
+	diplomatic_upkeep = 1
+	yearly_authority = 0.1
+}
+fu_toob_benadir2 = {
+	diplomatic_upkeep = 1
+	yearly_authority = 0.2
+}
+fu_toob_benadir3 = {
+	diplomatic_upkeep = 2
+	yearly_authority = 0.3
+}
+fu_toob_benadir1 = {
+	reform_progress_growth = 0.1
+	republican_tradition = 0.1 
+}
+fu_toob_benadir2 = {
+	reform_progress_growth = 0.2
+	republican_tradition = 0.25 
+	prestige = 0.5
+}
+fu_toob_benadir3 = {
+	reform_progress_growth = 0.3
+	republican_tradition = 0.5 
+	prestige = 1
+}
+fu_toob_benadir1 = {
+	papal_influence = 0.5
+	monthly_fervor_increase = 0.25
+	church_power_modifier = 0.05
+	global_religious_conversion_resistance = 0.15
+	church_loyalty_modifier = 0.05
+}
+fu_toob_benadir2 = {
+	papal_influence = 1
+	monthly_fervor_increase = 0.5
+	church_power_modifier = 0.1
+	global_religious_conversion_resistance = 0.30
+	church_loyalty_modifier = 0.1
+}
+fu_toob_benadir3 = {
+	papal_influence = 2
+	monthly_fervor_increase = 1
+	church_power_modifier = 0.15
+	global_religious_conversion_resistance = 0.5
+	church_loyalty_modifier = 0.15
+}
+fu_toob_benadir1 = {
+	global_trade_goods_size_modifier = 0.05
+	burghers_loyalty_modifier = 0.05
+}
+fu_toob_benadir2 = {
+	global_trade_goods_size_modifier = 0.05
+	burghers_loyalty_modifier = 0.1
+}
+fu_toob_benadir3 = {
+	global_trade_goods_size_modifier = 0.1
+	burghers_loyalty_modifier = 0.15
+}
+fu_toob_benadir1 = {
+	tolerance_own = 0.25
+	tolerance_heretic = 0.25
+	tolerance_heathen = 0.25
+	brahmins_hindu_loyalty_modifier = 0.05
+}
+fu_toob_benadir2 = {
+	tolerance_own = 0.5
+	tolerance_heretic = 0.5
+	tolerance_heathen = 0.5
+	brahmins_hindu_loyalty_modifier = 0.1
+}
+fu_toob_benadir3 = {
+	tolerance_own = 1
+	tolerance_heretic = 1
+	tolerance_heathen = 1
+	brahmins_hindu_loyalty_modifier = 0.15
+}
+fu_toob_benadir1 = {
+	religious_unity = 0.1
+	church_loyalty_modifier = 0.05
+	yearly_karma_decay = 0.01
+}
+fu_toob_benadir2 = {
+	horde_unity = 0.5
+	religious_unity = 0.2
+	church_loyalty_modifier = 0.1
+	yearly_karma_decay = 0.025
+}
+fu_toob_benadir3 = {
+	horde_unity = 1
+	religious_unity = 0.3
+	church_loyalty_modifier = 0.15
+	yearly_karma_decay = 0.05
+}
+fu_toob_benadir1 = {
+	tolerance_own = 0.5
+	global_missionary_strength = 0.005
+	prestige_per_development_from_conversion = 0.1
+}
+fu_toob_benadir2 = {
+	tolerance_own = 1
+	global_missionary_strength = 0.01
+	prestige_per_development_from_conversion = 0.2
+}
+fu_toob_benadir3 = {
+	tolerance_own = 2
+	global_missionary_strength = 0.02
+	prestige_per_development_from_conversion = 0.3
+}
+fu_toob_benadir1 = {
+	naval_forcelimit_modifier = 0.1
+	overlord_naval_forcelimit_modifier = 0.1
+}
+fu_toob_benadir2 = {
+	naval_forcelimit_modifier = 0.2
+	overlord_naval_forcelimit_modifier = 0.2
+}
+fu_toob_benadir3 = {
+	naval_forcelimit_modifier = 0.3
+	overlord_naval_forcelimit_modifier = 0.3
+}
+fu_toob_benadir1 = {
+	tolerance_own = 0.25
+	tolerance_heretic = 0.25
+	tolerance_heathen = 0.25
+	tolerance_of_heretics_capacity = 0.25
+	tolerance_of_heathens_capacity = 0.25
+	diplomatic_reputation = 1
+}
+fu_toob_benadir2 = {
+	tolerance_own = 0.5
+	tolerance_heretic = 0.5
+	tolerance_heathen = 0.5
+	tolerance_of_heretics_capacity = 0.5
+	tolerance_of_heathens_capacity = 0.5
+	diplomatic_reputation = 1
+}
+fu_toob_benadir3 = {
+	tolerance_own = 1
+	tolerance_heretic = 1
+	tolerance_heathen = 1
+	tolerance_of_heretics_capacity = 1
+	tolerance_of_heathens_capacity = 1
+	diplomatic_reputation = 2
+}
+fu_toob_benadir1 = {
+	global_missionary_strength = 0.005
+	brahmins_hindu_loyalty_modifier = 0.05
+}
+fu_toob_benadir2 = {
+	global_missionary_strength = 0.01
+	culture_conversion_cost = -0.05
+	brahmins_hindu_loyalty_modifier = 0.1
+}
+fu_toob_benadir3 = {
+	global_missionary_strength = 0.02
+	culture_conversion_cost = -0.1
+	brahmins_hindu_loyalty_modifier = 0.15
+}
+fu_toob_benadir1 = {
+	advisor_cost = -0.05
+	global_autonomy = -0.025
+}
+fu_toob_benadir2 = {
+	advisor_cost = -0.1
+	monarch_admin_power = 1
+	global_autonomy = -0.05
+}
+fu_toob_benadir3 = {
+	advisor_cost = -0.2
+	monarch_admin_power = 2
+	global_autonomy = -0.1
+}
+fu_toob_benadir1 = {
+	prestige = 0.25
+	religious_unity = 0.1
+	all_estate_loyalty_equilibrium = 0.05
+}
+fu_toob_benadir2 = {
+	prestige = 0.5
+	religious_unity = 0.25
+	all_estate_loyalty_equilibrium = 0.1
+}
+fu_toob_benadir3 = {
+	prestige = 1
+	religious_unity = 0.25
+	all_estate_loyalty_equilibrium = 0.15
+}
+fu_toob_benadir1 = {
+	imperial_authority_value = 0.05
+	tolerance_own = 0.25
+	tolerance_heretic = 0.25
+}
+fu_toob_benadir2 = {
+	imperial_authority_value = 0.1
+	tolerance_own = 0.25
+	tolerance_heretic = 0.25
+	papal_influence = 0.5
+	monthly_fervor_increase = 0.25
+	church_power_modifier = 0.05
+}
+fu_toob_benadir3 = {
+	imperial_authority_value = 0.15
+	tolerance_own = 0.5
+	tolerance_heretic = 0.5
+	papal_influence = 1
+	monthly_fervor_increase = 0.5
+	church_power_modifier = 0.1
+}
+fu_toob_benadir1 = {
+	monthly_piety_accelerator = 0.001
+	institution_spread_from_true_faith = 0.2
+}
+fu_toob_benadir2 = {
+	monthly_piety_accelerator = 0.002
+	tolerance_own = 0.5
+	institution_spread_from_true_faith = 0.33
+}
+fu_toob_benadir3 = {
+	monthly_piety_accelerator = 0.003
+	tolerance_own = 1
+	institution_spread_from_true_faith = 0.5
+}
+fu_toob_benadir1 = {
+	monthly_piety_accelerator = 0.001
+	global_heretic_missionary_strength = 0.01
+	church_loyalty_modifier = 0.05
+}
+fu_toob_benadir2 = {
+	monthly_piety_accelerator = 0.002
+	global_heretic_missionary_strength = 0.02
+	church_loyalty_modifier = 0.1
+}
+fu_toob_benadir3 = {
+	monthly_piety_accelerator = 0.003
+	global_heretic_missionary_strength = 0.03
+	church_loyalty_modifier = 0.15
+}
+fu_toob_benadir1 = {
+	core_creation = -0.05
+	brahmins_hindu_loyalty_modifier = 0.05
+}
+fu_toob_benadir2 = {
+	core_creation = -0.075
+	ae_impact = -0.05
+	brahmins_hindu_loyalty_modifier = 0.1
+}
+fu_toob_benadir3 = {
+	core_creation = -0.1
+	ae_impact = -0.1
+	brahmins_hindu_loyalty_modifier = 0.15
+}
+fu_toob_benadir1 = {
+	monthly_heir_claim_increase = 0.1
+}
+fu_toob_benadir2 = {
+	monthly_heir_claim_increase = 0.2
+	heir_chance = 0.33
+}
+fu_toob_benadir3 = {
+	monthly_heir_claim_increase = 0.3
+	heir_chance = 0.5
+}
+fu_toob_benadir1 = {
+	prestige = 0.25
+	global_ship_trade_power = 0.1
+}
+fu_toob_benadir2 = {
+	prestige = 0.5
+	global_ship_trade_power = 0.2
+	placed_merchant_power = 2
+}
+fu_toob_benadir3 = {
+	prestige = 1
+	global_ship_trade_power = 0.3
+	placed_merchant_power = 4
+}
+fu_toob_benadir1 = {
+	merchants = 1
+}
+fu_toob_benadir2 = {
+	merchants = 1
+	global_trade_power = 0.05
+}
+fu_toob_benadir3 = {
+	merchants = 2
+	global_trade_power = 0.1
+}
+fu_toob_benadir1 = {
+	legitimacy = 0.25
+	monthly_splendor = 0.5
+	prestige_per_development_from_conversion = 0.1
+}
+fu_toob_benadir2 = {
+	legitimacy = 0.5
+	monthly_splendor = 1
+	prestige_per_development_from_conversion = 0.2
+}
+fu_toob_benadir3 = {
+	legitimacy = 1
+	monthly_splendor = 1.5
+	prestige_per_development_from_conversion = 0.3
+}
+fu_toob_benadir1 = {
+	legitimacy = 0.25
+	devotion = 0.25
+	mercenary_cost = -0.05
+	garrison_size = 0.1
+}
+fu_toob_benadir2 = {
+	legitimacy = 0.5
+	devotion = 0.5
+	mercenary_cost = -0.05
+	garrison_size = 0.15
+}
+fu_toob_benadir3 = {
+	legitimacy = 1
+	devotion = 1
+	mercenary_cost = -0.1
+	garrison_size = 0.25
+}
+fu_toob_benadir1 = {
+	warscore_cost_vs_other_religion = -0.05
+}
+fu_toob_benadir2 = {
+	warscore_cost_vs_other_religion = -0.1
+}
+fu_toob_benadir3 = {
+	warscore_cost_vs_other_religion = -0.15
+}
+fu_toob_benadir1 = {
+	prestige = 0.25
+}
+fu_toob_benadir2 = {
+	prestige = 0.5
+	advisor_cost = -0.1
+}
+fu_toob_benadir3 = {
+	prestige = 1
+	advisor_cost = -0.2
+	special_unit_forcelimit = 0.1
+}
+fu_toob_benadir1 = {
+	global_colonial_growth = 10
+}
+fu_toob_benadir2 = {
+	global_colonial_growth = 15
+	navy_tradition = 0.5
+}
+fu_toob_benadir3 = {
+	global_colonial_growth = 25
+	navy_tradition = 1
+	colonist_placement_chance = 0.05
+}
+fu_toob_benadir1 = {
+	meritocracy = 0.1
+	global_institution_spread = 0.1
+}
+fu_toob_benadir2 = {
+	meritocracy = 0.25
+	global_institution_spread = 0.2
+	embracement_cost = -0.1
+}
+fu_toob_benadir3 = {
+	meritocracy = 0.5
+	global_institution_spread = 0.3
+	embracement_cost = -0.15
+}
+fu_toob_benadir1 = {
+	yearly_authority = 0.1
+	reinforce_speed = 0.1
+	trade_efficiency = 0.05
+}
+fu_toob_benadir2 = {
+	yearly_authority = 0.2
+	reinforce_speed = 0.2
+	trade_efficiency = 0.1
+}
+fu_toob_benadir3 = {
+	yearly_authority = 0.3
+	reinforce_speed = 0.33
+	trade_efficiency = 0.2
+}
+fu_toob_benadir1 = {
+	stability_cost_modifier = -0.1
+	religious_unity = 0.1
+	church_loyalty_modifier = 0.05
+}
+fu_toob_benadir2 = {
+	stability_cost_modifier = -0.2
+	religious_unity = 0.1
+	church_loyalty_modifier = 0.1
+}
+fu_toob_benadir3 = {
+	stability_cost_modifier = -0.3
+	religious_unity = 0.25
+	church_loyalty_modifier = 0.15
+}
+fu_toob_benadir1 = {
+	global_missionary_strength = 0.005
+	prestige = 0.25
+}
+fu_toob_benadir2 = {
+	global_missionary_strength = 0.01
+	missionary_maintenance_cost = -0.05
+	prestige = 0.5
+}
+fu_toob_benadir3 = {
+	global_missionary_strength = 0.02
+	missionary_maintenance_cost = -0.1
+	prestige = 1
+}
+fu_toob_benadir1 = {
+	prestige = 0.25
+	reform_progress_growth = 0.05
+}
+fu_toob_benadir2 = {
+	prestige = 0.5
+	reform_progress_growth = 0.1
+	governing_capacity = 50
+}
+fu_toob_benadir3 = {
+	prestige = 1
+	reform_progress_growth = 0.15
+	governing_capacity = 100
+}
+fu_toob_benadir1 = {
+	global_heathen_missionary_strength = 0.01
+	institution_spread_from_true_faith = 0.1
+}
+fu_toob_benadir2 = {
+	global_heathen_missionary_strength = 0.02
+	institution_spread_from_true_faith = 0.2
+}
+fu_toob_benadir3 = {
+	global_heathen_missionary_strength = 0.03
+	institution_spread_from_true_faith = 0.3
+	missionaries = 1
+}
+fu_toob_benadir1 = {
+	global_institution_spread = 0.15
+	church_loyalty_modifier = 0.05
+}
+fu_toob_benadir2 = {
+	global_institution_spread = 0.3
+	technology_cost = -0.05
+	church_loyalty_modifier = 0.1
+}
+fu_toob_benadir3 = {
+	global_institution_spread = 0.5
+	technology_cost = -0.1
+	church_loyalty_modifier = 0.15
+}
+fu_toob_benadir1 = {
+	monthly_splendor = 0.5
+	prestige_decay = -0.005
+}
+fu_toob_benadir2 = {
+	advisor_cost = -0.1
+	monthly_splendor = 1
+	prestige_decay = -0.01
+}
+fu_toob_benadir3 = {
+	advisor_cost = -0.2
+	monthly_splendor = 2
+	prestige_decay = -0.01
+}
+fu_toob_benadir1 = {
+	global_missionary_strength = 0.01
+	prestige = 0.25
+	church_loyalty_modifier = 0.05
+}
+fu_toob_benadir2 = {
+	global_missionary_strength = 0.02
+	prestige = 0.5
+	church_loyalty_modifier = 0.1
+}
+fu_toob_benadir3 = {
+	global_missionary_strength = 0.03
+	prestige = 1
+	church_loyalty_modifier = 0.15
+}
+fu_toob_benadir1 = {
+	prestige_per_development_from_conversion = 0.1
+	tolerance_own = 0.25
+}
+fu_toob_benadir2 = {
+	prestige_per_development_from_conversion = 0.2
+	tolerance_own = 0.5
+}
+fu_toob_benadir3 = {
+	prestige_per_development_from_conversion = 0.3
+	tolerance_own = 1
+}
+fu_toob_benadir1 = {
+	religious_unity = 0.1
+}
+fu_toob_benadir2 = {
+	prestige_decay = -0.005
+	religious_unity = 0.15
+}
+fu_toob_benadir3 = {
+	prestige_decay = -0.01
+	religious_unity = 0.25
+}
+fu_toob_benadir1 = {
+	church_loyalty_modifier = 0.05
+	brahmins_hindu_loyalty_modifier = 0.05
+}
+fu_toob_benadir2 = {
+	yearly_karma_decay = 0.05
+	church_loyalty_modifier = 0.1
+	brahmins_hindu_loyalty_modifier = 0.1
+	global_heretic_missionary_strength = 0.01
+}
+fu_toob_benadir3 = {
+	yearly_karma_decay = 0.1
+	church_loyalty_modifier = 0.15
+	brahmins_hindu_loyalty_modifier = 0.15
+	global_heretic_missionary_strength = 0.02
+}
+fu_toob_benadir1 = {
+	reform_progress_growth = 0.05
+	state_governing_cost = -0.05
+	reelection_cost = -0.05
+}
+fu_toob_benadir2 = {
+	reform_progress_growth = 0.1
+	state_governing_cost = -0.15
+	reelection_cost = -0.1
+}
+fu_toob_benadir3 = {
+	reform_progress_growth = 0.2
+	state_governing_cost = -0.25
+	reelection_cost = -0.1
+}
+fu_toob_benadir1 = {
+	stability_cost_modifier = -0.1
+}
+fu_toob_benadir2 = {
+	stability_cost_modifier = -0.2
+}
+fu_toob_benadir3 = {
+	stability_cost_modifier = -0.3
+	global_unrest = -2
+}
+fu_toob_benadir1 = {
+	yearly_authority = 0.1
+	global_missionary_strength = 0.005
+}
+fu_toob_benadir2 = {
+	yearly_authority = 0.2
+	global_missionary_strength = 0.01
+	religious_unity = 0.15
+}
+fu_toob_benadir3 = {
+	yearly_authority = 0.3
+	global_missionary_strength = 0.02
+	religious_unity = 0.3
+}
+fu_toob_benadir1 = {
+	privateer_efficiency = 0.2
+	capture_ship_chance = 0.1
+}
+fu_toob_benadir2 = {
+	privateer_efficiency = 0.33
+	power_projection_from_insults = 0.5
+	capture_ship_chance = 0.2
+}
+fu_toob_benadir3 = {
+	privateer_efficiency = 0.5
+	power_projection_from_insults = 1
+	capture_ship_chance = 0.3
+}
+fu_toob_benadir1 = {
+	prestige = 0.25
+	church_loyalty_modifier = 0.05
+}
+fu_toob_benadir2 = {
+	free_city_imperial_authority = 0.1
+	prestige = 0.5
+	tolerance_own = 0.5
+	church_loyalty_modifier = 0.1
+}
+fu_toob_benadir3 = {
+	free_city_imperial_authority = 0.2
+	prestige = 1
+	tolerance_own = 1
+	church_loyalty_modifier = 0.15
+}
+fu_toob_benadir1 = {
+	prestige_from_land = 0.5
+	nobles_loyalty_modifier = 0.05
+}
+fu_toob_benadir2 = {
+	prestige_from_land = 1
+	global_prov_trade_power_modifier = 0.1
+	nobles_loyalty_modifier = 0.1
+}
+fu_toob_benadir3 = {
+	prestige_from_land = 1
+	global_prov_trade_power_modifier = 0.2
+	nobles_loyalty_modifier = 0.15
+}
+fu_toob_benadir1 = {
+	yearly_absolutism = 0.25
+}
+fu_toob_benadir2 = {
+	yearly_absolutism = 0.5
+	accept_vassalization_reasons = 15
+	diplomats = 1
+}
+fu_toob_benadir3 = {
+	yearly_absolutism = 0.5
+	accept_vassalization_reasons = 30
+	diplomats = 1
+}
+zacatecas_mine_city2 = {
+	interest = -0.25
+}
+zacatecas_mine_city3 = {
+	interest = -0.5
+}
+temple_of_arkona1 = {
+	missionaries = 1
+	missionary_maintenance_cost = -0.1
+}
+temple_of_arkona2 = {
+	missionaries = 1
+	missionary_maintenance_cost = -0.15
+}
+temple_of_arkona3 = {
+	missionaries = 1
+	missionary_maintenance_cost = -0.25
+	prestige_per_development_from_conversion = 0.35
+}
+fortress_veligrad3 = {
+	leader_siege = 1
+}
+szeged1 = {
+	cav_to_inf_ratio = 0.15
+	cavalry_power = 0.1
+}
+szeged2 = {
+	cav_to_inf_ratio = 0.25
+	cavalry_power = 0.15
+}
+szeged3 = {
+	cav_to_inf_ratio = 0.5
+	cavalry_power = 0.2
+	cavalry_shock = 1
+}
+lighthouse_alexandria3 = {
+	own_coast_naval_combat_bonus = 1
+}
+ottoman_market1 = {
+	trade_range_modifier = 0.1
+}
+ottoman_market2 = {
+	trade_range_modifier = 0.15
+}
+ottoman_market3 = {
+	trade_range_modifier = 0.25
+	merchants = 1
+}
+hohenstaufen_palace1 = {
+	diplomatic_reputation = 1
+}
+hohenstaufen_palace2 = {
+	diplomatic_reputation = 1
+	improve_relation_modifier = 0.1
+}
+hohenstaufen_palace3 = {
+	diplomatic_reputation = 1
+	imperial_authority_value = 0.1
+	improve_relation_modifier = 0.2
+}
+hradcany1 = {
+	advisor_cost = -0.05
+}
+hradcany2 = {
+	advisor_cost = -0.1
+	advisor_pool = 1
+}
+hradcany3 = {
+	advisor_cost = -0.25
+	advisor_pool = 1
+}
+walls_ston2 = {
+	global_garrison_growth = 0.1
+}
+walls_ston3 = {
+	global_garrison_growth = 0.2
+}
+nicene_academy2 = {
+	mil_tech_cost_modifier = -0.05
+}
+nicene_academy3 = {
+	mil_tech_cost_modifier = -0.1
+	free_mil_policy = 1
+}
+preslav_literary_school1 = {
+	institution_spread_from_true_faith = 0.1
+}
+preslav_literary_school2 = {
+	institution_spread_from_true_faith = 0.15
+	idea_cost = -0.05
+}
+preslav_literary_school3 = {
+	institution_spread_from_true_faith = 0.25
+	idea_cost = -0.1
+}
+new_world_port1 = {
+	global_colonial_growth = 10
+}
+new_world_port2 = {
+	colonist_placement_chance = 0.05
+	global_colonial_growth = 15
+}
+new_world_port3 = {
+	colonist_placement_chance = 0.1
+	global_colonial_growth = 20
+}
+pirate_haven_medina1 = {
+	capture_ship_chance = 0.1
+	privateer_efficiency = 0.1
+}
+pirate_haven_medina2 = {
+	capture_ship_chance = 0.2
+	privateer_efficiency = 0.2
+}
+pirate_haven_medina3 = {
+	capture_ship_chance = 0.3
+	privateer_efficiency = 0.3
+}
+arsenal1 = {
+	naval_forcelimit_modifier = 0.1
+}
+arsenal2 = {
+	naval_forcelimit_modifier = 0.15
+}
+arsenal3 = {
+	naval_forcelimit_modifier = 0.3
+	navy_tradition_decay = -0.01
+}
+arsenal1 = {
+	diplomatic_upkeep = 1
+	improve_relation_modifier = 0.15
+}
+arsenal2 = {
+	diplomatic_upkeep = 1
+	improve_relation_modifier = 0.2
+	free_dip_policy = 1
+}
+arsenal3 = {
+	diplomatic_upkeep = 2
+	improve_relation_modifier = 0.3
+	free_dip_policy = 1
+}
+shrine_ukko1 = {
+	warscore_cost_vs_other_religion = -0.1
+}
+shrine_ukko2 = {
+	warscore_cost_vs_other_religion = -0.15
+	missionaries = 1
+}
+shrine_ukko3 = {
+	warscore_cost_vs_other_religion = -0.25
+	prestige_per_development_from_conversion = 0.25
+	missionaries = 1
+}
+aachen1 = {
+	tolerance_own = 1
+	imperial_authority = 0.05
+}
+aachen2 = {
+	tolerance_own = 1
+	imperial_authority = 0.1
+	prestige_decay = -0.005
+}
+aachen3 = {
+	tolerance_own = 1
+	imperial_authority = 0.15
+	prestige_decay = -0.01
+}
+sich1 = {
+	cavalry_flanking = 0.25
+	power_projection_from_insults = 0.25
+}
+sich2 = {
+	cav_to_inf_ratio = 0.1
+	cavalry_flanking = 0.25
+	power_projection_from_insults = 0.5
+}
+sich3 = {
+	cav_to_inf_ratio = 0.25
+	cavalry_flanking = 0.5
+	power_projection_from_insults = 1
+}
+ch_irrigation1 = {
+	global_prosperity_growth = 0.05
+}
+ch_irrigation2 = {
+	global_prosperity_growth = 0.1
+}
+ch_irrigation3 = {
+	global_prosperity_growth = 0.15
+}
+yuelu_academy1 = {
+	monthly_reform_progress_modifier = 0.1
+	innovativeness_gain = 0.25
+}
+yuelu_academy2 = {
+	idea_cost = -0.025
+	innovativeness_gain = 0.5
+}
+yuelu_academy3 = {
+	idea_cost = -0.05
+	innovativeness_gain = 0.75
+}
+xian_wall1 = {
+	rival_border_fort_maintenance = -0.1
+}
+xian_wall2 = {
+	rival_border_fort_maintenance = -0.15
+}
+xian_wall3 = {
+	leader_siege = 1
+	rival_border_fort_maintenance = -0.2
+}
+mukden1 = {
+	governing_capacity_modifier = 0.1
+	state_maintenance_modifier = -0.1
+}
+mukden2 = {
+	governing_capacity_modifier = 0.15
+	state_maintenance_modifier = -0.15
+}
+mukden3 = {
+	max_absolutism = 5
+	governing_capacity_modifier = 0.2
+	state_maintenance_modifier = -0.2
+}
+koreana1 = {
+	tolerance_own = 1
+	embracement_cost = -0.1
+}
+koreana2 = {
+	tolerance_own = 1
+	embracement_cost = -0.15
+}
+koreana3 = {
+	tolerance_own = 1
+	free_dip_policy = 1
+	embracement_cost = -0.25
+}
+bergen1 = {
+	global_ship_trade_power = 0.1
+	trade_steering = 0.1
+}
+bergen2 = {
+	global_ship_trade_power = 0.15
+	trade_steering = 0.2
+}
+bergen3 = {
+	global_ship_trade_power = 0.2
+	trade_steering = 0.3
+	merchants = 1
+}
+nidaros1 = {
+	naval_maintenance_modifier = -0.1
+}
+nidaros2 = {
+	naval_maintenance_modifier = -0.2
+	heavy_ship_power = 0.05
+}
+nidaros3 = {
+	naval_maintenance_modifier = -0.3
+	heavy_ship_power = 0.1
+	navy_tradition_decay = -0.01
+}
+cursed1 = {
+	land_morale = 0.05
+}
+cursed2 = {
+	land_morale = 0.1
+}
+cursed3 = {
+	land_morale = 0.2
+}
+tsarevets1 = {
+	hostile_attrition = 1
+}
+tsarevets2 = {
+	hostile_attrition = 1
+	rival_border_fort_maintenance = -0.10
+}
+tsarevets3 = {
+	hostile_attrition = 1
+	rival_border_fort_maintenance = -0.25
+}
+saladin1 = {
+	monthly_piety = 0.001
+}
+saladin2 = {
+	land_morale = 0.05
+	monthly_piety = 0.001
+}
+saladin3 = {
+	land_morale = 0.1
+	monthly_piety = 0.002
+}
+sivas1 = {
+	church_loyalty_modifier = 0.05
+}
+sivas2 = {
+	idea_cost = -0.05
+	monarch_lifespan = 0.1
+	church_loyalty_modifier = 0.05
+}
+sivas3 = {
+	idea_cost = -0.1
+	monarch_lifespan = 0.15
+	church_loyalty_modifier = 0.1
+}
+gelati1 = {
+	tolerance_own = 1
+	institution_spread_from_true_faith = 0.1
+}
+gelati2 = {
+	tolerance_own = 1
+	institution_spread_from_true_faith = 0.25
+}
+gelati3 = {
+	institution_spread_from_true_faith = 0.5
+	yearly_patriarch_authority = 0.01
+	tolerance_own = 1
+}
+rhodes1 = {
+	global_garrison_growth = 0.1
+}
+rhodes2 = {
+	war_exhaustion = -0.03
+	global_garrison_growth = 0.2
+}
+rhodes3 = {
+	war_exhaustion = -0.05
+	global_garrison_growth = 0.25
+}
+apollo1 = {
+	dip_advisor_cost = -0.1
+}
+apollo2 = {
+	diplomatic_reputation = 1
+	dip_advisor_cost = -0.15
+}
+apollo3 = {
+	diplomatic_reputation = 2
+	dip_advisor_cost = -0.2
+	female_advisor_chance = 0.25
+}
+jagiellonian_university2 = {
+	advisor_cost = -0.1
+	idea_cost = -0.05
+}
+jagiellonian_university3 = {
+	advisor_cost = -0.15
+	technology_cost = -0.05
+	idea_cost = -0.05
+}
+wieliczka_salt_mines2 = {
+	caravan_power = 0.1
+}
+wieliczka_salt_mines3 = {
+	caravan_power = 0.2
+}
+gdansk_crane2 = {
+	global_ship_trade_power = 0.1
+}
+gdansk_crane3 = {
+	global_ship_trade_power = 0.2
+}
+kalwaria_zebrzydowska1 = {
+	tolerance_own = 1
+	papal_influence = 0.5
+}
+kalwaria_zebrzydowska2 = {
+	tolerance_own = 1
+	missionary_maintenance_cost = -0.1
+	papal_influence = 1
+}
+kalwaria_zebrzydowska3 = {
+	tolerance_own = 2
+	missionary_maintenance_cost = -0.25
+	manpower_in_true_faith_provinces = 0.2
+	papal_influence = 2
+}
+nidarosdomen1 = {
+	legitimacy = 0.5
+	papal_influence = 0.5
+	church_power_modifier = 0.05
+	monthly_fervor_increase = 0.1
+}
+nidarosdomen2 = {
+	legitimacy = 1
+	papal_influence = 1
+	church_power_modifier = 0.1
+	monthly_fervor_increase = 0.25
+	global_missionary_strength = 0.005
+	church_loyalty_modifier = 0.05
+}
+nidarosdomen3 = {
+	legitimacy = 2
+	papal_influence = 2
+	church_power_modifier = 0.2
+	monthly_fervor_increase = 0.5
+	global_missionary_strength = 0.01
+	church_loyalty_modifier = 0.1
+}
+halden_festning2 = {
+	garrison_size = 0.1
+}
+halden_festning3 = {
+	garrison_size = 0.2
+}
+kongsberg_silver_mine2 = {
+	global_foreign_trade_power = 0.1
+}
+kongsberg_silver_mine3 = {
+	global_foreign_trade_power = 0.2
+}
+kronborg_castle1 = {
+	prestige = 0.5
+}
+kronborg_castle2 = {
+	trade_efficiency = 0.1
+	prestige = 0.5
+}
+kronborg_castle3 = {
+	trade_efficiency = 0.15
+	prestige = 1
+}
+lund_cathedral1 = {
+	religious_unity = 0.1
+}
+lund_cathedral2 = {
+	religious_unity = 0.1
+	missionary_maintenance_cost = -0.1
+}
+lund_cathedral3 = {
+	missionaries = 1
+	religious_unity = 0.1
+	missionary_maintenance_cost = -0.2
+}
+dannevirke2 = {
+	hostile_attrition = 0.5
+}
+dannevirke3 = {
+	hostile_attrition = 1
+}
+kutna_hora1 = {
+	inflation_reduction = 0.05
+	religious_unity = 0.1
+	tolerance_heretic = 1
+}
+kutna_hora2 = {
+	inflation_reduction = 0.1
+	production_efficiency = 0.1
+	tolerance_heretic = 2
+	religious_unity = 0.15
+}
+kutna_hora3 = {
+	inflation_reduction = 0.15
+	production_efficiency = 0.2
+	religious_unity = 0.2
+	tolerance_heretic = 3
+}
+visby_harbour1 = {
+	global_trade_power = 0.05
+	privateer_efficiency = 0.1
+}
+visby_harbour2 = {
+	global_trade_power = 0.1
+	privateer_efficiency = 0.15
+}
+visby_harbour3 = {
+	merchants = 1
+	global_trade_power = 0.15
+	privateer_efficiency = 0.25
+}
+wilanow_palace1 = {
+	prestige = 0.25
+	army_tradition_from_battle = 0.25
+	all_estate_loyalty_equilibrium = 0.05
+}
+wilanow_palace2 = {
+	prestige = 0.5
+	army_tradition_from_battle = 0.5
+	reform_progress_growth = 0.1
+	all_estate_loyalty_equilibrium = 0.05
+}
+wilanow_palace3 = {
+	prestige = 1
+	army_tradition_from_battle = 1
+	reform_progress_growth = 0.2
+	all_estate_loyalty_equilibrium = 0.1
+}
+cesky_krumlov1 = {
+	embracement_cost = -0.05
+	global_institution_spread = 0.1
+}
+cesky_krumlov2 = {
+	tolerance_own = 1
+	embracement_cost = -0.1
+	global_institution_spread = 0.15
+}
+cesky_krumlov3 = {
+	tolerance_own = 2
+	global_institution_spread = 0.2
+	embracement_cost = -0.2
+}
+praca_do_comercio1 = {
+	global_foreign_trade_power = 0.05
+}
+praca_do_comercio2 = {
+	global_foreign_trade_power = 0.15
+	trade_steering = 0.1
+}
+praca_do_comercio3 = {
+	global_foreign_trade_power = 0.25
+	trade_steering = 0.2
+	merchants = 1
+}
+convento_de_cristo1 = {
+	establish_order_cost = -0.1
+	papal_influence_from_cardinals = 0.25
+}
+convento_de_cristo2 = {
+	establish_order_cost = -0.15
+	papal_influence_from_cardinals = 0.5
+	manpower_in_true_faith_provinces = 0.15
+}
+convento_de_cristo3 = {
+	establish_order_cost = -0.25
+	papal_influence_from_cardinals = 1.0
+	manpower_in_true_faith_provinces = 0.25
+}
+palacio_de_mafra1 = {
+	treasure_fleet_income = 0.1
+	prestige = 0.25
+}
+palacio_de_mafra2 = {
+	treasure_fleet_income = 0.2
+	prestige = 0.5
+	global_unrest = -1
+}
+palacio_de_mafra3 = {
+	treasure_fleet_income = 0.3
+	prestige = 1
+	min_autonomy_in_territories = -0.05
+	global_unrest = -1
+	nobles_exclusive_loyalty_modifier = 0.1
+}
+igreja_dos_clerigos1 = {
+	global_missionary_strength = 0.005
+}
+igreja_dos_clerigos2 = {
+	global_missionary_strength = 0.01
+}
+igreja_dos_clerigos3 = {
+	global_missionary_strength = 0.01
+	unrest_catholic_provinces = -1
+}
+universidade_de_coimbra1 = {
+	trade_company_governing_cost = -0.1
+}
+universidade_de_coimbra2 = {
+	advisor_cost = -0.1
+	trade_company_governing_cost = -0.25
+}
+universidade_de_coimbra3 = {
+	advisor_cost = -0.15
+	trade_company_governing_cost = -0.5
+	technology_cost = -0.05
+}
+gbr_oxford_university1 = {
+	prestige = 0.1
+	advisor_cost = -0.10
+	advisor_pool = 1
+}
+gbr_oxford_university2 = {
+	prestige = 0.25
+	advisor_cost = -0.15
+	advisor_pool = 1
+	dip_tech_cost_modifier = -0.1
+}
+gbr_oxford_university3 = {
+	prestige = .5
+	advisor_cost = -0.15
+	advisor_pool = 2
+	dip_tech_cost_modifier = -0.15
+}
+gbr_cambridge_university1 = {
+	prestige = 0.1
+	innovativeness_gain = 0.25
+	global_institution_spread = 0.1
+	embracement_cost = -0.05
+}
+gbr_cambridge_university2 = {
+	prestige = 0.25
+	innovativeness_gain = 0.25
+	embracement_cost = -0.1
+	global_institution_spread = 0.2
+	idea_cost = -0.05
+}
+gbr_cambridge_university3 = {
+	prestige = 0.5
+	innovativeness_gain = 0.3
+	embracement_cost = -0.1
+	global_institution_spread = 0.30
+	idea_cost = -0.1
+}
+gbr_admiralty1 = {
+	navy_tradition = 0.25
+	leader_naval_manuever = 1
+	admiral_cost = -0.1
+}
+gbr_admiralty2 = {
+	navy_tradition = 0.5
+	leader_naval_manuever = 1
+	leader_naval_shock = 1
+	admiral_cost = -0.2
+}
+gbr_admiralty3 = {
+	navy_tradition = 0.5
+	leader_naval_fire = 1
+	leader_naval_shock = 1
+	leader_naval_manuever = 1
+	admiral_cost = -0.4
+}
+gbr_royal_exchange1 = {
+	inflation_reduction = 0.01
+	interest = -0.1
+	mercantilism_cost = -0.05
+}
+gbr_royal_exchange2 = {
+	inflation_reduction = 0.05
+	interest = -0.25
+	merchants = 1
+	mercantilism_cost = -0.10
+}
+gbr_royal_exchange3 = {
+	inflation_reduction = 0.1
+	interest = -0.5
+	merchants = 1
+	mercantilism_cost = -0.20
+}
+gbr_portsmouth_royal_dockyard1 = {
+	ship_durability = 0.05
+	naval_maintenance_modifier = -0.1
+}
+gbr_portsmouth_royal_dockyard2 = {
+	ship_durability = 0.1
+	naval_maintenance_modifier = -0.2
+	naval_forcelimit_modifier = 0.2
+}
+gbr_portsmouth_royal_dockyard3 = {
+	ship_durability = 0.1
+	naval_maintenance_modifier = -0.2
+	naval_forcelimit_modifier = 0.2
+	sailors_recovery_speed = 0.2
+}
+gbr_sandhurst_royal_military_academy1 = {
+	army_tradition = 0.15
+	leader_land_shock = 1
+	leader_land_siege = 1
+}
+gbr_sandhurst_royal_military_academy2 = {
+	army_tradition = 0.25
+	leader_land_manuever = 1
+	leader_land_shock = 1
+	leader_land_siege = 1
+	drill_gain_modifier = 0.10
+}
+gbr_sandhurst_royal_military_academy3 = {
+	army_tradition = 0.5
+	leader_land_fire = 1
+	leader_land_shock = 1
+	leader_land_manuever = 1
+	leader_land_siege = 1
+	drill_gain_modifier = 0.25
+}
+gbr_westminster_abbey1 = {
+	papal_influence = 1
+	monthly_fervor_increase = 0.5
+	church_power_modifier = 0.10
+	tolerance_own = 0.5
+}
+gbr_westminster_abbey2 = {
+	papal_influence = 1
+	monthly_fervor_increase = 1
+	church_power_modifier = 0.25
+	tolerance_own = 1
+	church_loyalty_modifier = 0.05
+}
+gbr_westminster_abbey3 = {
+	papal_influence = 2
+	monthly_fervor_increase = 1
+	church_power_modifier = 0.50
+	tolerance_own = 2
+	church_loyalty_modifier = 0.10
+	religious_unity = 0.2
+}
+gbr_windsor_castle1 = {
+	prestige = 0.1
+	diplomats = 1
+	diplomatic_reputation = 1
+}
+gbr_windsor_castle2 = {
+	prestige = 0.25
+	diplomats = 1
+	diplomatic_reputation = 1
+	diplomatic_upkeep = 1
+	heir_chance = 0.30
+}
+gbr_windsor_castle3 = {
+	prestige = 0.5
+	diplomats = 1
+	diplomatic_upkeep = 1
+	diplomatic_reputation = 1
+	heir_chance = 0.5
+}
+gbr_colonial_office1 = {
+	range = 0.25
+	colonist_placement_chance = 0.05
+}
+gbr_colonial_office2 = {
+	range = 0.35
+	colonist_placement_chance = 0.10
+	global_tariffs = 0.15
+	trade_company_investment_cost = -0.20
+	colonists = 1
+}
+gbr_colonial_office3 = {
+	range = 0.50
+	colonist_placement_chance = 0.20
+	global_tariffs = 0.25
+	trade_company_investment_cost = -0.33
+	colonists = 1
+}
+me_schonbrunn_palace1 = {
+	all_estate_loyalty_equilibrium = 0.05
+	diplomatic_reputation = 1
+}
+me_schonbrunn_palace2 = {
+	all_estate_loyalty_equilibrium = 0.1
+	diplomatic_reputation = 1
+}
+me_schonbrunn_palace3 = {
+	all_estate_loyalty_equilibrium = 0.1
+	diplomatic_reputation = 2
+	reasons_to_elect = 20
+}
+me_venetian_arsenal2 = {
+	naval_forcelimit_modifier = 0.1
+}
+me_venetian_arsenal3 = {
+	naval_forcelimit_modifier = 0.15
+	ship_durability = 0.05
+}
