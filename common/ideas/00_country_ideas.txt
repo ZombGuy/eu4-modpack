@@ -309,16 +309,21 @@ NOR_ideas = {
 	free = yes
 	
 	call_of_our_forefathers = {
-		range = 0.33			# Removed may_explore
+		range = 0.33
+		may_explore = yes				# Removed may_explore
 	}
 	pioneer_spirit = {
-		may_explore = yes			# Replaced Colonist with may_explore
+		# Replaced Colonist with may_explore
+		colonists = 1
+		global_colonial_growth = 25
 	}
 	natural_seamanship = {
-		naval_morale = 0.20		
+		naval_morale = 0.20
+		#range = 0.33	
 	}
 	nor_shipbuilding = {
 		global_ship_cost = -0.1
+		#naval_maintenance_modifier = -0.1
 	}
 	seize_the_opportunity = {
  		global_trade_power = 0.1
