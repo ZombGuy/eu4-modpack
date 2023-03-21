@@ -1,4 +1,0 @@
-#5059 - Sikhote Alin
-
-discovered_by = chinese
-discovered_by = nomad_group
