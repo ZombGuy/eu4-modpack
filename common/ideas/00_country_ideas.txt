@@ -315,7 +315,7 @@ NOR_ideas = {
 	pioneer_spirit = {
 		# Replaced Colonist with may_explore
 		colonists = 1
-		global_colonial_growth = 25
+		global_colonial_growth = 15
 	}
 	natural_seamanship = {
 		naval_morale = 0.20
