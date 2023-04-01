@@ -10,18 +10,10 @@ gme_ynnakh_mountain = {
 	on_built = { }
 	on_destroyed = { }
 	can_use_modifiers_trigger = {
-		OR = {
-			culture_group = evenks
-			culture_group = kamchatkan_g
-		}
-		has_owner_accepted_culture = yes
+
 	}
 	can_upgrade_trigger = {
-		OR = {
-			culture_group = evenks
-			culture_group = kamchatkan_g
-		}
-		has_owner_accepted_culture = yes
+
 	}
 	keep_trigger = { }
 	tier_0 = {

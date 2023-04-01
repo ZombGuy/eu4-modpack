@@ -83,14 +83,10 @@ gme_great_mosque_hospital = {
 	on_built = { }
 	on_destroyed = { }
 	can_use_modifiers_trigger = {
-		culture_group = turko_semitic
-		has_owner_accepted_culture = yes
 		religion_group = muslim
 		has_owner_religion = yes
 	}
 	can_upgrade_trigger = {
-		culture_group = turko_semitic
-		has_owner_accepted_culture = yes
 		religion_group = muslim
 		has_owner_religion = yes
 	}
@@ -170,22 +166,11 @@ gme_mevlana_museum = {
 	on_built = { }
 	on_destroyed = { }
 	can_use_modifiers_trigger = {
-		OR = {
-			culture_group = iranian
-			culture_group = altaic
-			culture_group = turko_semitic
-		}
-		has_owner_accepted_culture = yes
 		religion_group = muslim
 		has_owner_religion = yes
 	}
 	can_upgrade_trigger = {
-		OR = {
-			culture_group = iranian
-			culture_group = altaic
-			culture_group = turko_semitic
-		}
-		has_owner_accepted_culture = yes
+
 		religion_group = muslim
 		has_owner_religion = yes
 	}
@@ -252,26 +237,10 @@ gme_seljuk_cemetery = {
 	on_built = { }
 	on_destroyed = { }
 	can_use_modifiers_trigger = {
-		owner = {
-			OR = {
-				primary_culture = turkish
-				primary_culture = persian
-			}
-		}
-		NOT = { owned_by = PER }
-		NOT = { owned_by = TUR }
-		has_owner_accepted_culture = yes
+
 	}
 	can_upgrade_trigger = {
-		owner = {
-			OR = {
-				primary_culture = turkish
-				primary_culture = persian
-			}
-		}
-		NOT = { owned_by = PER }
-		NOT = { owned_by = TUR }
-		has_owner_accepted_culture = yes
+
 	}
 	keep_trigger = { }
 	tier_0 = {
@@ -338,14 +307,10 @@ gme_sumela_monastery = {
 	can_use_modifiers_trigger = {
 		religion = orthodox
 		has_owner_religion = yes
-		culture_group = byzantine
-		has_owner_accepted_culture = yes
 	}
 	can_upgrade_trigger = {
 		religion = orthodox
 		has_owner_religion = yes
-		culture_group = byzantine
-		has_owner_accepted_culture = yes
 	}
 	keep_trigger = { }
 	tier_0 = {

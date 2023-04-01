@@ -924,49 +924,16 @@ fu_warsaw_palace = {
 
 	#can we build it?
 	build_trigger = {
-		owner = {
-			OR = {
-				tag = POL 
-				tag = LIT 
-				tag = PLC
-				custom_trigger_tooltip = {
-					tooltip = general_tooltip_special_reward_tt
-					has_country_flag = enable_access_royal_castle_warsaw_flag
-				}
-				primary_culture = polish
-			}
-		}
+
 	}
 	
 	can_use_modifiers_trigger = {
-		owner = {
-			OR = {
-				tag = POL 
-				tag = LIT 
-				tag = PLC 
-				custom_trigger_tooltip = {
-					tooltip = general_tooltip_special_reward_tt
-					has_country_flag = enable_access_royal_castle_warsaw_flag
-				}
-				primary_culture = polish
-			}
-		}
+
 	}
 
 	#can our country upgrade it?
 	can_upgrade_trigger = {
-		owner = {
-			OR = {
-				tag = POL 
-				tag = LIT 
-				tag = PLC 
-				custom_trigger_tooltip = {
-					tooltip = general_tooltip_special_reward_tt
-					has_country_flag = enable_access_royal_castle_warsaw_flag
-				}
-				primary_culture = polish
-			}
-		}
+
 	}
 
 	#can our country keep it or is it destroyed when we get hold of it?
@@ -1932,12 +1899,10 @@ fu_globe_theatre = {
 	}
 	
 	can_use_modifiers_trigger = {
-		owner = { culture_group = british }	
 		NOT = { current_age = age_of_discovery }
 	}
 
 	can_upgrade_trigger = {
-		owner = { culture_group = british }	
 		NOT = { current_age = age_of_discovery }
 	}
 
@@ -3637,10 +3602,6 @@ fu_amsterdam_stock_exchange = {
 			97 = { 
 				owner = { has_institution = global_trade }
 			}
-			97 = {
-				has_owner_culture = yes 
-				development = 40 
-			}
 		}
 	}
 	
@@ -3649,10 +3610,6 @@ fu_amsterdam_stock_exchange = {
 	}
 
 	can_upgrade_trigger = {
-		OR = { 
-			culture = dutch
-			owner = { accepted_culture = dutch } 
-		}
 		OR = { 
 			owner = { full_idea_group = economic_ideas }
 			owner = { full_idea_group = trade_ideas }
@@ -4286,27 +4243,15 @@ fu_brugge_dike = {
 	type = monument
 
 	build_trigger = {
-		OR = {
-			primary_culture = dutch
-			primary_culture = flemish
-			has_owner_accepted_culture = yes
-		}
+
 	}
 	
 	can_use_modifiers_trigger = {
-		OR = {
-			primary_culture = dutch
-			primary_culture = flemish
-			has_owner_accepted_culture = yes
-		}
+
 	}
 
 	can_upgrade_trigger = {
-		OR = {
-			primary_culture = dutch
-			primary_culture = flemish
-			has_owner_accepted_culture = yes
-		}
+
 	}
 
 	keep_trigger = {
@@ -4438,27 +4383,15 @@ fu_gent_dike = {
 	type = monument
 
 	build_trigger = {
-		OR = {
-			primary_culture = dutch
-			primary_culture = flemish
-			has_owner_accepted_culture = yes
-		}
+
 	}
 	
 	can_use_modifiers_trigger = {
-		OR = {
-			primary_culture = dutch
-			primary_culture = flemish
-			has_owner_accepted_culture = yes
-		}
+
 	}
 
 	can_upgrade_trigger = {
-		OR = {
-			primary_culture = dutch
-			primary_culture = flemish
-			has_owner_accepted_culture = yes
-		}
+
 	}
 
 	keep_trigger = {
@@ -4575,27 +4508,15 @@ fu_antwerp_dike = {
 	type = monument
 
 	build_trigger = {
-		OR = {
-			primary_culture = dutch
-			primary_culture = flemish
-			has_owner_accepted_culture = yes
-		}
+
 	}
 	
 	can_use_modifiers_trigger = {
-		OR = {
-			primary_culture = dutch
-			primary_culture = flemish
-			has_owner_accepted_culture = yes
-		}
+
 	}
 
 	can_upgrade_trigger = {
-		OR = {
-			primary_culture = dutch
-			primary_culture = flemish
-			has_owner_accepted_culture = yes
-		}
+
 	}
 
 	keep_trigger = {
@@ -4712,27 +4633,15 @@ fu_zeeland_dike = {
 	type = monument
 
 	build_trigger = {
-		OR = {
-			primary_culture = dutch
-			primary_culture = flemish
-			has_owner_accepted_culture = yes
-		}
+
 	}
 	
 	can_use_modifiers_trigger = {
-		OR = {
-			primary_culture = dutch
-			primary_culture = flemish
-			has_owner_accepted_culture = yes
-		}
+
 	}
 
 	can_upgrade_trigger = {
-		OR = {
-			primary_culture = dutch
-			primary_culture = flemish
-			has_owner_accepted_culture = yes
-		}
+
 	}
 
 	keep_trigger = {
@@ -4849,27 +4758,15 @@ fu_den_haag_dike = {
 	type = monument
 
 	build_trigger = {
-		OR = {
-			primary_culture = dutch
-			primary_culture = flemish
-			has_owner_accepted_culture = yes
-		}
+
 	}
 	
 	can_use_modifiers_trigger = {
-		OR = {
-			primary_culture = dutch
-			primary_culture = flemish
-			has_owner_accepted_culture = yes
-		}
+
 	}
 
 	can_upgrade_trigger = {
-		OR = {
-			primary_culture = dutch
-			primary_culture = flemish
-			has_owner_accepted_culture = yes
-		}
+
 	}
 
 	keep_trigger = {
@@ -4986,27 +4883,15 @@ fu_amsterdam_dike = {
 	type = monument
 
 	build_trigger = {
-		OR = {
-			primary_culture = dutch
-			primary_culture = flemish
-			has_owner_accepted_culture = yes
-		}
+
 	}
 	
 	can_use_modifiers_trigger = {
-		OR = {
-			primary_culture = dutch
-			primary_culture = flemish
-			has_owner_accepted_culture = yes
-		}
+
 	}
 
 	can_upgrade_trigger = {
-		OR = {
-			primary_culture = dutch
-			primary_culture = flemish
-			has_owner_accepted_culture = yes
-		}
+
 	}
 
 	keep_trigger = {
@@ -5124,9 +5009,6 @@ fu_admiralty_amsterdam = {
 
 	build_trigger = {
 		OR = {
-			primary_culture = dutch
-			primary_culture = flemish
-			has_owner_accepted_culture = yes
 			owner = { full_idea_group = naval_ideas }
 			owner = { full_idea_group = maritime_ideas } 
 		}
@@ -5134,9 +5016,6 @@ fu_admiralty_amsterdam = {
 	
 	can_use_modifiers_trigger = {
 		OR = {
-			primary_culture = dutch
-			primary_culture = flemish
-			has_owner_accepted_culture = yes
 			owner = { full_idea_group = naval_ideas }
 			owner = { full_idea_group = maritime_ideas } 
 		}
@@ -5144,9 +5023,6 @@ fu_admiralty_amsterdam = {
 
 	can_upgrade_trigger = {
 		OR = {
-			primary_culture = dutch
-			primary_culture = flemish
-			has_owner_accepted_culture = yes
 			owner = { full_idea_group = naval_ideas }
 			owner = { full_idea_group = maritime_ideas } 
 		}

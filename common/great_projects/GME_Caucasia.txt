@@ -82,28 +82,10 @@ gme_gelati_monastery = {
 	on_built = { }
 	on_destroyed = { }
 	can_use_modifiers_trigger = {
-		religion_group = christian
-		has_owner_religion = yes
-		culture_group = caucasian
-		OR = {
-			has_owner_culture = yes
-			owner = {
-				culture_group = caucasian
-				has_cultural_union = yes
-			}
-		}
+
 	}
 	can_upgrade_trigger = {
-		religion_group = christian
-		has_owner_religion = yes
-		culture_group = caucasian
-		OR = {
-			has_owner_culture = yes
-			owner = {
-				culture_group = caucasian
-				has_cultural_union = yes
-			}
-		}
+
 	}
 	keep_trigger = { }
 	tier_0 = {
@@ -174,24 +156,10 @@ gme_narikala = {
 	on_built = { }
 	on_destroyed = { }
 	can_use_modifiers_trigger = {
-		culture_group = caucasian
-		OR = {
-			has_owner_culture = yes
-			owner = {
-				culture_group = caucasian
-				has_cultural_union = yes
-			}
-		}
+
 	}
 	can_upgrade_trigger = {
-		culture_group = caucasian
-		OR = {
-			has_owner_culture = yes
-			owner = {
-				culture_group = caucasian
-				has_cultural_union = yes
-			}
-		}
+
 	}
 	keep_trigger = { }
 	tier_0 = {
@@ -273,32 +241,10 @@ gme_noah_mausoleum = {
 	on_built = { }
 	on_destroyed = { }
 	can_use_modifiers_trigger = {
-		OR = {
-			culture_group = caucasian
-			religion = coptic
-		}
-		OR = {
-			has_owner_religion = yes
-			has_owner_culture = yes
-			owner = {
-				culture_group = caucasian
-				has_cultural_union = yes
-			}
-		}
+
 	}
 	can_upgrade_trigger = {
-		OR = {
-			culture_group = caucasian
-			religion = coptic
-		}
-		OR = {
-			has_owner_religion = yes
-			has_owner_culture = yes
-			owner = {
-				culture_group = caucasian
-				has_cultural_union = yes
-			}
-		}
+
 	}
 	keep_trigger = { }
 	tier_0 = {
@@ -372,24 +318,10 @@ gme_vardzia = {
 	on_built = { }
 	on_destroyed = { }
 	can_use_modifiers_trigger = {
-		culture_group = caucasian
-		OR = {
-			has_owner_culture = yes
-			owner = {
-				culture_group = caucasian
-				has_cultural_union = yes
-			}
-		}
+
 	}
 	can_upgrade_trigger = {
-		culture_group = caucasian
-		OR = {
-			has_owner_culture = yes
-			owner = {
-				culture_group = caucasian
-				has_cultural_union = yes
-			}
-		}
+
 	}
 	keep_trigger = { }
 	tier_0 = {
