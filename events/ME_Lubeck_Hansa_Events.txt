@@ -237,19 +237,19 @@ country_event = { #Hansetage of [Current year]
 		#Prepare for War
 		add_country_modifier = {
 			name = "glut_of_mercs"
-			duration = 3650
+			duration = -1
 			hidden = yes
 		}
 		add_country_modifier = {
 			name = HNS_mercs
-			duration = 3650
+			duration = -1
 		}
 		custom_tooltip = generic_more_mercs_available_tt
 		custom_tooltip = HNS_every_trade_league_member
 		tooltip = {
 			add_country_modifier = {
 				name = HNS_mercs
-				duration = 3650
+				duration = -1
 			}
 		}
 		hidden_effect = {
@@ -283,7 +283,7 @@ country_event = { #Hansetage of [Current year]
 		add_years_of_income = 1
 		add_country_modifier = {
 			name = HNS_prospering_times
-			duration = 3650
+			duration = -1
 		}
 		if = {
 			limit = { has_dlc = "Mandate of Heaven" }
@@ -298,7 +298,7 @@ country_event = { #Hansetage of [Current year]
 			}
 			add_country_modifier = {
 				name = HNS_prospering_times
-				duration = 3650
+				duration = -1
 			}
 		}
 		hidden_effect = {

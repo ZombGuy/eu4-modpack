@@ -211,6 +211,10 @@ HSA_missions_2 = {
 					duration = -1 
 				}
 			}
+			add_country_modifier = {
+				name = hsa_modern_drilling_techniques_modifier
+				duration = -1 
+			}
 			hidden_effect = {
 				if = {
 					limit = {
@@ -1678,6 +1682,11 @@ HNS_missions_4 = {
 				name = HNS_scandinavia_control
 				duration = -1 
 			}
+			add_country_modifier = {
+				name = hsa_hanseatic_artillery_modifier
+				duration = -1 
+			}
+			
 		}
 	}
 

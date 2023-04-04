@@ -257,7 +257,7 @@ FRX_ideas = {
 HNS_ideas_COC = {
 	start = {
 		merchants = 2
-		republican_tradition = 0.5
+		republican_tradition = 1.0
 	}
 
 	bonus = {
@@ -287,6 +287,7 @@ HNS_ideas_COC = {
 	}
 	HNS5_COC = {
 		own_coast_naval_combat_bonus = 1
+		ship_power_propagation = 0.15
 	}
 	HNS6_COC = {
 		trade_steering = 0.15

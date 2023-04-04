@@ -1450,13 +1450,14 @@ action_and_reaction = {
 }
 
 krantor_crane = {
-	global_trade_power = 0.05
-	trade_efficiency = 0.1
-	dip_tech_cost_modifier = -0.01
+	global_trade_power = 0.15
+	trade_efficiency = 0.15
+	dip_tech_cost_modifier = -0.05
 }
 
 adler_von_lubeck = {
 	heavy_ship_cost = -0.15
+	light_ship_cost = -0.15
 	dip_tech_cost_modifier = -0.1
 	number_of_cannons_flagship_modifier = 0.5
 	navy_tradition_decay = -0.01

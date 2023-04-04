@@ -5360,6 +5360,8 @@ hsa_baltic_trade_modifier = {
 hsa_advance_our_interests_modifier = {
 	global_trade_power = 0.10
 	dip_tech_cost_modifier = -0.1
+	transport_attrition = -0.15
+	regiment_disembark_speed = 0.75
 }
 
 hsa_united_league_modifier = {
@@ -5374,6 +5376,7 @@ hanseatic_shipwrights_modifier = {
 	ship_recruit_speed = -0.2
 	local_sailors = 1000 
 	allowed_num_of_buildings = 1 
+	transport_attrition = -0.4
 }
 
 hanseatic_bookkeeping_modifier = {
@@ -5383,15 +5386,17 @@ hanseatic_bookkeeping_modifier = {
 
 hanseatic_merchant_navy_modifier = {
 	global_ship_trade_power = 0.25
+	transport_attrition = -0.4
 }
 
 adler_von_lubeck_modifier = {
 	naval_morale = 0.2
 	heavy_ship_power = 0.05
+	light_ship_power = 0.15
 }
 
 new_lubeck_modifier = {
-	global_colonial_growth = 25
+	global_colonial_growth = 45
 	global_foreign_trade_power = 0.15
 }
 
@@ -7483,7 +7488,7 @@ hsa_hanseatic_military_conduct_modifier = {
 }
 hsa_modern_drilling_techniques_modifier = {
 	drill_gain_modifier = 0.33
-	fire_damage_received = -0.05 
+	fire_damage_received = -0.10 
 }
 hsa_fortification_efforts_modifier = {
 	defensiveness = 0.25
@@ -7514,15 +7519,16 @@ hsa_hanseatic_trade_fleet_modifier = {
 	naval_tradition_from_trade = 1
 }
 hsa_new_world_ambitions_modifier = {
-	colonists = 1 
-	range = 0.25
-	global_colonial_growth = 20
+	colonists = 2 
+	range = 0.5
+	global_colonial_growth = 30
+	colonist_placement_chance = 0.1
 }
 hsa_victory_in_holstein_modifier = {
 	prestige = 1
 }
 hsa_high_seas_navy_modifier = {
-	global_naval_engagement_modifier = 0.2 
+	global_naval_engagement_modifier = 0.25 
 	heavy_ship_cost = -0.1
 }
 hsa_hanseatic_merchant_cogs_modifier = {
@@ -7578,6 +7584,6 @@ hsa_maritime_hegemon_modifier = {
 	navy_tradition = 1
 }
 capital_expansion_modifier = {
-	local_development_cost_modifier = -0.15 
+	local_development_cost_modifier = -0.35 
 	local_build_time = -0.25 
 }
