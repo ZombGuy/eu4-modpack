@@ -28,7 +28,7 @@ kiel_canal = {
 			owns_or_vassal_of = 1775
 			owns_or_vassal_of = 4141
 			is_subject = no			
-			adm_tech = 22
+			adm_tech = 14
 		}
 	}
 	
@@ -209,7 +209,7 @@ suez_canal = {
 					owns_or_vassal_of = 4316
 					owns_or_vassal_of = 2315
 					is_subject = no
-					adm_tech = 22
+					adm_tech = 14
 				}
 				has_country_flag = fu_enable_suez_canal
 			}
@@ -392,7 +392,7 @@ panama_canal = {
 				AND = {
 					owns_or_vassal_of = 835
 					is_subject = no
-					adm_tech = 22
+					adm_tech = 14
 				}
 				AND = { 
 					custom_trigger_tooltip = {

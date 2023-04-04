@@ -30,7 +30,7 @@ suez_canal = {
 			is_subject = no
 			OR = {
 				has_country_flag = AYY_may_upgrade_suez
-				adm_tech = 22
+				adm_tech = 14
 			}
 		}
 	}
