@@ -10,18 +10,10 @@ gme_bakhchisaray_palace = {
 	on_built = { }
 	on_destroyed = { }
 	can_use_modifiers_trigger = {
-		has_owner_accepted_culture = yes
-		OR = {
-			owned_by = GLH
-			owned_by = MGE
-		}
+
 	}
 	can_upgrade_trigger = {
-		has_owner_accepted_culture = yes
-		OR = {
-			owned_by = GLH
-			owned_by = MGE
-		}
+
 	}
 	keep_trigger = { }
 	tier_0 = {

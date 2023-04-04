@@ -10,16 +10,12 @@ gme_djinguereber_mosque = {
 	on_built = { }
 	on_destroyed = { }
 	can_use_modifiers_trigger = {
-		culture_group = sahelian
 		religion_group = muslim
 		has_owner_religion = yes
-		has_owner_culture = yes
 	}
 	can_upgrade_trigger = {
-		culture_group = sahelian
 		religion_group = muslim
 		has_owner_religion = yes
-		has_owner_culture = yes
 	}
 	keep_trigger = { }
 	tier_0 = {
@@ -80,12 +76,10 @@ gme_tomb_askia = {
 	on_built = { }
 	on_destroyed = { }
 	can_use_modifiers_trigger = {
-		culture_group = mande
-		has_owner_culture = yes
+
 	}
 	can_upgrade_trigger = {
-		culture_group = mande
-		has_owner_culture = yes
+
 	}
 	keep_trigger = { }
 	tier_0 = {

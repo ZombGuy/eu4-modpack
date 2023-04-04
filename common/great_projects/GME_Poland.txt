@@ -10,26 +10,10 @@ gme_cathedral_poznan = {
 	on_built = { }
 	on_destroyed = { }
 	can_use_modifiers_trigger = {
-		culture_group = west_slavic
-		religion = catholic
-		has_owner_religion = yes
-		OR = {
-			has_owner_culture = yes
-			owner = {
-				culture_group = west_slavic
-				has_cultural_union = yes
-			}
-		}
+
 	}
 	can_upgrade_trigger = {
-		culture_group = west_slavic
-		OR = {
-			has_owner_culture = yes
-			owner = {
-				culture_group = west_slavic
-				has_cultural_union = yes
-			}
-		}
+
 	}
 	keep_trigger = { }
 	tier_0 = {
@@ -123,26 +107,10 @@ gme_jagielon_university = {
 	on_built = { }
 	on_destroyed = { }
 	can_use_modifiers_trigger = {
-		culture_group = west_slavic
-		religion = catholic
-		has_owner_religion = yes
-		OR = {
-			has_owner_culture = yes
-			owner = {
-				culture_group = west_slavic
-				has_cultural_union = yes
-			}
-		}
+
 	}
 	can_upgrade_trigger = {
-		culture_group = west_slavic
-		OR = {
-			has_owner_culture = yes
-			owner = {
-				culture_group = west_slavic
-				has_cultural_union = yes
-			}
-		}
+
 	}
 	keep_trigger = { }
 	tier_0 = {
@@ -230,24 +198,10 @@ gme_lazienki_park = {
 	on_built = { }
 	on_destroyed = { }
 	can_use_modifiers_trigger = {
-		culture_group = west_slavic
-		OR = {
-			has_owner_culture = yes
-			owner = {
-				culture_group = west_slavic
-				has_cultural_union = yes
-			}
-		}
+
 	}
 	can_upgrade_trigger = {
-		culture_group = west_slavic
-		OR = {
-			has_owner_culture = yes
-			owner = {
-				culture_group = west_slavic
-				has_cultural_union = yes
-			}
-		}
+
 	}
 	keep_trigger = { }
 	tier_0 = {
@@ -375,26 +329,10 @@ gme_saint_mary_basilica = {
 	on_built = { }
 	on_destroyed = { }
 	can_use_modifiers_trigger = {
-		culture_group = west_slavic
-		religion = catholic
-		has_owner_religion = yes
-		OR = {
-			has_owner_culture = yes
-			owner = {
-				culture_group = west_slavic
-				has_cultural_union = yes
-			}
-		}
+
 	}
 	can_upgrade_trigger = {
-		culture_group = west_slavic
-		OR = {
-			has_owner_culture = yes
-			owner = {
-				culture_group = west_slavic
-				has_cultural_union = yes
-			}
-		}
+
 	}
 	keep_trigger = { }
 	tier_0 = {
@@ -474,24 +412,10 @@ gme_wawel = {
 	on_built = { }
 	on_destroyed = { }
 	can_use_modifiers_trigger = {
-		culture_group = west_slavic
-		OR = {
-			has_owner_culture = yes
-			owner = {
-				culture_group = west_slavic
-				has_cultural_union = yes
-			}
-		}
+
 	}
 	can_upgrade_trigger = {
-		culture_group = west_slavic
-		OR = {
-			has_owner_culture = yes
-			owner = {
-				culture_group = west_slavic
-				has_cultural_union = yes
-			}
-		}
+
 	}
 	keep_trigger = { }
 	tier_0 = {

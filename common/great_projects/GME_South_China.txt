@@ -10,24 +10,10 @@ gme_classical_gardens_suzhou = {
 	on_built = { }
 	on_destroyed = { }
 	can_use_modifiers_trigger = {
-		culture_group = east_asian
-		OR = {
-			has_owner_culture = yes
-			owner = {
-				culture_group = east_asian
-				has_cultural_union = yes
-			}
-		}
+
 	}
 	can_upgrade_trigger = {
-		culture_group = east_asian
-		OR = {
-			has_owner_culture = yes
-			owner = {
-				culture_group = east_asian
-				has_cultural_union = yes
-			}
-		}
+
 	}
 	keep_trigger = { }
 	tier_0 = {
@@ -103,24 +89,10 @@ gme_donglin_academy = {
 	on_built = { }
 	on_destroyed = { }
 	can_use_modifiers_trigger = {
-		culture_group = east_asian
-		OR = {
-			has_owner_culture = yes
-			owner = {
-				culture_group = east_asian
-				has_cultural_union = yes
-			}
-		}
+
 	}
 	can_upgrade_trigger = {
-		culture_group = east_asian
-		OR = {
-			has_owner_culture = yes
-			owner = {
-				culture_group = east_asian
-				has_cultural_union = yes
-			}
-		}
+
 	}
 	keep_trigger = { }
 	tier_0 = {
@@ -504,24 +476,10 @@ gme_shi_bo_si = {
 	on_built = { }
 	on_destroyed = { }
 	can_use_modifiers_trigger = {
-		culture_group = east_asian
-		OR = {
-			has_owner_culture = yes
-			owner = {
-				culture_group = east_asian
-				has_cultural_union = yes
-			}
-		}
+
 	}
 	can_upgrade_trigger = {
-		culture_group = east_asian
-		OR = {
-			has_owner_culture = yes
-			owner = {
-				culture_group = east_asian
-				has_cultural_union = yes
-			}
-		}
+
 	}
 	keep_trigger = { }
 	tier_0 = {

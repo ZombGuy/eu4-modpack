@@ -10,24 +10,10 @@ gme_chengde_mountain_resort = {
 	on_built = { }
 	on_destroyed = { }
 	can_use_modifiers_trigger = {
-		culture_group = east_asian
-		OR = {
-			has_owner_culture = yes
-			owner = {
-				culture_group = east_asian
-				has_cultural_union = yes
-			}
-		}
+
 	}
 	can_upgrade_trigger = {
-		culture_group = east_asian
-		OR = {
-			has_owner_culture = yes
-			owner = {
-				culture_group = east_asian
-				has_cultural_union = yes
-			}
-		}
+
 	}
 	keep_trigger = { }
 	tier_0 = { 
@@ -100,24 +86,10 @@ gme_governor_office_of_zhili = {
 	on_built = { }
 	on_destroyed = { }
 	can_use_modifiers_trigger = {
-		culture_group = east_asian
-		OR = {
-			has_owner_culture = yes
-			owner = {
-				culture_group = east_asian
-				has_cultural_union = yes
-			}
-		}
+
 	}
 	can_upgrade_trigger = {
-		culture_group = east_asian
-		OR = {
-			has_owner_culture = yes
-			owner = {
-				culture_group = east_asian
-				has_cultural_union = yes
-			}
-		}
+
 	}
 	keep_trigger = { }
 	tier_0 = { 
@@ -273,24 +245,10 @@ gme_old_summer_palace = {
 	on_built = { }
 	on_destroyed = { }
 	can_use_modifiers_trigger = {
-		culture_group = east_asian
-		OR = {
-			has_owner_culture = yes
-			owner = {
-				culture_group = east_asian
-				has_cultural_union = yes
-			}
-		}
+
 	}
 	can_upgrade_trigger = {
-		culture_group = east_asian
-		OR = {
-			has_owner_culture = yes
-			owner = {
-				culture_group = east_asian
-				has_cultural_union = yes
-			}
-		}
+
 	}
 	keep_trigger = { }
 	tier_0 = { 
@@ -372,18 +330,10 @@ gme_prince_kungs_mansion = {
 	on_built = { }
 	on_destroyed = { }
 	can_use_modifiers_trigger = {
-		has_owner_accepted_culture = yes
-		OR = {
-			owned_by = MCH
-			owned_by = QNG
-		}
+
 	}
 	can_upgrade_trigger = {
-		has_owner_accepted_culture = yes
-		OR = {
-			owned_by = MCH
-			owned_by = QNG
-		}
+
 	}
 	keep_trigger = { }
 	tier_0 = { 
@@ -458,24 +408,10 @@ gme_temple_of_heaven = {
 	on_built = { }
 	on_destroyed = { }
 	can_use_modifiers_trigger = {
-		culture_group = east_asian
-		OR = {
-			has_owner_culture = yes
-			owner = {
-				culture_group = east_asian
-				has_cultural_union = yes
-			}
-		}
+
 	}
 	can_upgrade_trigger = {
-		culture_group = east_asian
-		OR = {
-			has_owner_culture = yes
-			owner = {
-				culture_group = east_asian
-				has_cultural_union = yes
-			}
-		}
+
 	}
 	keep_trigger = { }
 	tier_0 = { 
@@ -547,25 +483,10 @@ gme_thirteen_ming_tombs = {
 	on_built = { }
 	on_destroyed = { }
 	can_use_modifiers_trigger = {
-		culture_group = east_asian
-		OR = {
-			has_owner_culture = yes
-			owner = {
-				culture_group = east_asian
-				has_cultural_union = yes
-			}
-		}
+
 	}
 	can_upgrade_trigger = {
-		culture_group = east_asian
-		owned_by = MNG
-		OR = {
-			has_owner_culture = yes
-			owner = {
-				culture_group = east_asian
-				has_cultural_union = yes
-			}
-		}
+
 	}
 	keep_trigger = { }
 	tier_0 = { 
@@ -626,26 +547,10 @@ gme_yungang_grottoes = {
 	on_built = { }
 	on_destroyed = { }
 	can_use_modifiers_trigger = {
-		culture_group = east_asian
-		province_is_buddhist_or_accepts_buddhism = yes
-		OR = {
-			has_owner_culture = yes
-			owner = {
-				culture_group = east_asian
-				has_cultural_union = yes
-			}
-		}
+
 	}
 	can_upgrade_trigger = {
-		culture_group = east_asian
-		province_is_buddhist_or_accepts_buddhism = yes
-		OR = {
-			has_owner_culture = yes
-			owner = {
-				culture_group = east_asian
-				has_cultural_union = yes
-			}
-		}
+
 	}
 	keep_trigger = { }
 	tier_0 = {
