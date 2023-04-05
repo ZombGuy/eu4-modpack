@@ -32,7 +32,7 @@ technology = { #Advanced Tribes
 	expects_institution = {
 		feudalism = 0.25
 	}
-	
+	early_road = yes
 	tribal_democracy_legacy = yes
 	tribal_kingdom_legacy = yes
 }
@@ -149,7 +149,7 @@ technology = { #Modern Theocracy
 		renaissance = 0.5
 		new_world_i = 0.3
 	}
-	
+	gravel_road = yes
 	theocratic_government = yes
 }
 
@@ -259,6 +259,8 @@ technology = { #University
 	administrative_efficiency = 0.1
 	development_cost_modifier = -0.1
 	allowed_idea_groups = 8
+
+	royal_road = yes
 }
 
 technology = { #National Sovereignty
@@ -356,6 +358,8 @@ technology = { #Measuring the World
 	administrative_efficiency = 0.1
 	development_cost_modifier = -0.1
 	allowed_idea_groups = 11
+
+	macadam_road = yes
 }
 
 technology = { #Bonds and Tontines
@@ -426,6 +430,8 @@ technology = { #Modern Bureaucracy
 	development_cost_modifier = -0.1	
 	governing_capacity = 250
 	allowed_idea_groups = 13
+
+	railroad = yes
 }
 
 technology = { #Rotherham Plough
