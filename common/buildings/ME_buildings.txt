@@ -307,6 +307,8 @@ early_road = {
 		local_friendly_movement_speed = 0.1
 		#local_hostile_movement_speed = None
 
+		local_governing_cost = -0.05
+
 		
     }
     ai_will_do = {
@@ -340,6 +342,8 @@ gravel_road = {
 		local_friendly_movement_speed = 0.15
 		#local_hostile_movement_speed = 0.05
 
+		local_governing_cost = -0.1
+
     }
     ai_will_do = {
         factor = 5
@@ -370,6 +374,8 @@ royal_road = {
 		# Movement
 		local_friendly_movement_speed = 0.2
 		#local_hostile_movement_speed = 0.1
+
+		local_governing_cost = -0.15
     }
     ai_will_do = {
         factor = 5
@@ -400,6 +406,8 @@ macadam_road = {
 		# Movement
 		local_friendly_movement_speed = 0.25
 		#local_hostile_movement_speed = 0.15
+
+		local_governing_cost = -0.2
     }
     ai_will_do = {
         factor = 5
@@ -432,6 +440,8 @@ railroad = {
 		# Movement
 		local_friendly_movement_speed = 0.5
 		#local_hostile_movement_speed = 0.3
+
+		local_governing_cost = -0.25
     }
 
 	ai_will_do = {
