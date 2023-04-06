@@ -23,7 +23,7 @@ country_decisions = {
 				AND = {
 					ai = yes
 					num_of_cities = 15
-					adm_tech = 20
+					adm_tech = 15
 				}
 			}
 			culture_group = germanic
@@ -142,7 +142,7 @@ country_decisions = {
 		}
 		allow = {
 			OR = {
-				adm_tech = 20
+				adm_tech = 15
 				custom_trigger_tooltip = {
 					tooltip = me_completed_faster_german_formation_mission
 					has_country_flag = me_hab_easier_german_formation
