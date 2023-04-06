@@ -103,7 +103,7 @@ country_decisions = {
 			45 = { #lubeck node
 				trade_share = {
 					country = ROOT
-					share = 40
+					share = 430
 				}
 			}
 			is_at_war = no

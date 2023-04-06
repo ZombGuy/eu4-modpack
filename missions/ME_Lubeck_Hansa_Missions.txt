@@ -421,7 +421,7 @@ HSA_missions_3 = {
 			45 = {
 				trade_share = {
 					country = ROOT
-					share = 40
+					share = 30
 				}
 			}
 			calc_true_if = {
