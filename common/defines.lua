@@ -237,7 +237,7 @@ NDiplomacy = {
 	-- Peace Option Effects, base values for the winner. The loser gets the inverse.
 	PO_DEMAND_PROVINCES_AE = 0.6, 				-- _DDEF_PO_DEMAND_PROVINCES_AE = 10, (Per development)
 	PO_RETURN_CORES_AE = 0.4, 					-- (Per core, only applied if returning cores to vassals of winner)
-	PO_FORM_PU_AE = 0.20, 							-- _DDEF_PO_FORM_PU_AE = 10, (Per development)
+	PO_FORM_PU_AE = 0.12, 							-- _DDEF_PO_FORM_PU_AE = 10, (Per development)
 	PO_CONCEDE_COLONIAL_AE = 0.2,
 	PO_BECOME_VASSAL_AE = 0.5, 					-- _DDEF_PO_BECOME_VASSAL_AE = 10, (Per development)
 	PO_FORCE_JOIN_EMPIRE_AE = 0.2, 					-- _DDEF_PO_BECOME_VASSAL_AE = 10, (Per development)
@@ -482,7 +482,7 @@ NCountry = {
 	EXPLOIT_ADM_INCOME = 60,	-- months of income
 	EXPLOIT_DIP_SAILORS = 6,
 	EXPLOIT_MIL_MANPOWER = 6,
-	EXPLOIT_COOLDOWN_MONTHS = 240,
+	EXPLOIT_COOLDOWN_MONTHS = 0,
 	
 	SCORNFUL_INSULT_MULTIPLIER = 2,
 	
@@ -651,10 +651,10 @@ NCountry = {
 	SUPPORT_OWN_HEIR_PRESTIGE_COST = 10,
 	SUPPORT_OWN_HEIR_SUPPORT_BONUS = 5,
 	ELECTIVE_HEIR_CLAIM_STRENGTH = 80,
-	MAX_ACTIVE_POLICIES = 5,						-- how many active policies at once.
-	MINIMUM_POLICY_TIME = 10,						-- how many years minimum for a policy
+	MAX_ACTIVE_POLICIES = 8,						-- how many active policies at once.
+	MINIMUM_POLICY_TIME = 2,						-- how many years minimum for a policy
 	POLICY_COST = 1,								-- Monthly cost per policy
-	BASE_POSSIBLE_POLICIES = 3,						-- How many policies in a category a nation can have as a base
+	BASE_POSSIBLE_POLICIES = 4,						-- How many policies in a category a nation can have as a base
 	BASE_FREE_POLICIES = 1,							-- How many policies in a category a nation get for free
 
 	MIN_FEDERAL_AUTHORITY = -100,					-- federal authority cannot go lower than -100
@@ -689,7 +689,7 @@ NCountry = {
 	MINIMUM_ADVISOR_DURATION = 10, 					-- _CDEF_MINIMUM_ADVISOR_DURATION_
 	MINIMUM_ADVISOR_DURATION_CHANCE_VALUE = 15,		-- Higher value here gives lower daily death chance after MINIMUM_ADVISOR_DURATION
 	ADVISOR_CUT_OFF_AGE = 30, 						-- _CDEF_ADVISOR_CUT_OFF_AGE = 10,
-	MAXIMUM_ADVISOR_SKILL = 5,						-- Maximum advisor skill reachable through promotion
+	MAXIMUM_ADVISOR_SKILL = 10,						-- Maximum advisor skill reachable through promotion
 	PROMOTE_COST_MONTHS_ADVISOR_SALARY = 60.0,		-- Promote advisor cost in monthly salaries
 	CULTURE_LOSS_THRESHOLD = 0.10, 					-- _CDEF_CULTURE_LOSS_THRESHOLD = 10,
 	CULTURE_GAIN_THRESHOLD = 0.20, 					-- _CDEF_CULTURE_GAIN_THRESHOLD = 10,
@@ -778,7 +778,7 @@ NCountry = {
 
 
 	STRENGTHEN_GOVERNMENT_LEGITIMACY = 10,
-	STRENGTHEN_GOVERNMENT_REPUBLICAN_TRADITION = 3,
+	STRENGTHEN_GOVERNMENT_REPUBLICAN_TRADITION = 5,
 	STRENGTHEN_GOVERNMENT_HORDE_UNITY = 10,
 	STRENGTHEN_GOVERNMENT_DEVOTION = 10,
 	STRENGTHEN_GOVERNMENT_MERITOCRACY = 10,
@@ -823,7 +823,7 @@ NCountry = {
 
 	START_YEARLY_INFLATION = 0.0, 					-- _CDEF_START_YEARLY_INFLATION_
 	CLAIM_LOSE = 25,								-- how many years until a claim is lost.
-	CORE_LOSE = 50, 								-- how many years until a core is lost.
+	CORE_LOSE = 115, 								-- how many years until a core is lost.
 	CORE_LOSE_CULTURE_GROUP =150,					-- how many years until a core in a country's culture group is lost.
 	CORE_LOSE_PRIMARY_CULTURE_TAG = -1,				-- how many years until a core is lost for the primary tag of a country (-1 = never lost)
 	CORE_LOSE_PRESTIGE = -10.0,						-- Prestige change when lost core
