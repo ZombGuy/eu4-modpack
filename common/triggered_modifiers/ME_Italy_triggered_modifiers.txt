@@ -53,8 +53,10 @@ italy_four_maritime_republics = {
 	}
 	
 	mercantilism_cost = -0.25
-	trade_efficiency = 0.2
-	global_trade_goods_size_modifier = 0.20
+	trade_efficiency = 0.4
+	global_trade_goods_size_modifier = 0.25
+	trade_steering = 0.2
+	global_prov_trade_power_modifier = 0.2
 }
 
 ita_domus_marium = {
