@@ -39,7 +39,7 @@ country_decisions = {
 			owns_or_vassal_of = 1775
 			owns_or_vassal_of = 4141
 			is_subject = no			
-			adm_tech = 26
+			adm_tech = 15
 			treasury = 10000
 		}
 		effect = {
@@ -69,7 +69,7 @@ country_decisions = {
 				NOT = { has_great_project = suez_canal }
 				NOT = { has_construction = canal }
 			}
-			adm_tech = 20
+			adm_tech = 15
 		}
 		provinces_to_highlight = {
 			OR = {
@@ -116,7 +116,7 @@ country_decisions = {
 				NOT = { has_great_project = panama_canal }
 				NOT = { has_construction = canal }
 			}
-			adm_tech = 20
+			adm_tech = 15
 		}
 		provinces_to_highlight = {
 			province_id = 835
