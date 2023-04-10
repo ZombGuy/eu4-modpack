@@ -279,7 +279,7 @@ venice_merchants_reform = {
 		max_absolutism = -10
 		merchants = 1
 		yearly_corruption = -0.1
-		trade_deals_slots = 0.02
+		trade_deals_slots = 0.20
 		total_liberalism_modifier = 0.20
 	}
 	effect = {
@@ -340,6 +340,7 @@ venice_merchants_reform = {
 		lottery_election = yes
 		election_on_death = yes
 		is_merchant_republic = yes
+		enables_capitalism = yes
 	}
 	has_term_election = no
 }

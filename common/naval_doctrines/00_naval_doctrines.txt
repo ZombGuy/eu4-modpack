@@ -214,7 +214,10 @@ venetian_arsenal_naval_doctrine = {
 
 	country_modifier = {
 		global_ship_cost = -0.15
-		sailor_maintenance_modifer = -0.1
+		ship_durability = 0.2
+		sailor_maintenance_modifer = -0.2
+		global_ship_trade_power = 0.25
+		naval_tradition_from_trade = 0.75
 	}
 
 	button_gfx = 14

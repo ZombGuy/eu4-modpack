@@ -1228,6 +1228,7 @@ VEN_ideas = {
 	start = {
 		trade_steering = 0.33
 		republican_tradition = 0.25
+		trade_efficiency = 0.2
 	}
 	
 	bonus = {
@@ -1245,6 +1246,8 @@ VEN_ideas = {
 	}
 	printing_industry = {
 		diplomats = 1
+		diplomatic_reputation = 2
+		ae_impact = -0.20
 	}
 	stato_da_mar = {
 		trade_efficiency = 0.2
@@ -1258,6 +1261,7 @@ VEN_ideas = {
 	}
 	defend_the_law = {
 		global_unrest = -2
+		free_policy = 1
 	}
 	provveditori_ai_beni_inculti = {
 		development_cost = -0.1
