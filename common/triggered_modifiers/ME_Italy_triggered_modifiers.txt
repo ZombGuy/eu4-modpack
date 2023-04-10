@@ -56,7 +56,7 @@ italy_four_maritime_republics = {
 	trade_efficiency = 0.4
 	global_trade_goods_size_modifier = 0.25
 	trade_steering = 0.2
-	global_prov_trade_power_modifier = 0.2
+	global_ship_trade_power = 0.5
 }
 
 ita_domus_marium = {
