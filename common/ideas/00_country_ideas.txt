@@ -2005,7 +2005,7 @@ MAM_ideas = {
 NAP_ideas = {
 	start = {
 		global_institution_spread = 0.1 #University of Naples, Angevine Heritage, Academies, centre of Neapolitan renaissance.
-		trade_efficiency = 0.1 #One of the main trade port of the mediterrenean for much of the timeframe
+		trade_efficiency = 0.2 #One of the main trade port of the mediterrenean for much of the timeframe
 	}
 	
 	bonus = {
@@ -2061,20 +2061,21 @@ SIC_ideas = {
 	free = yes
 	
 	sic_university_of_catania = {
-		technology_cost = -0.05
+		technology_cost = -0.1
 	}
 	sic_constitions_of_melfi = {
-		global_unrest = -1
-		possible_policy = 1
+		global_unrest = -2
+		possible_policy = 2
 	}
 	sic_noble_admirals = {
-		navy_tradition = 1
+		navy_tradition = 1.5
 	}
 	sic_greater_sicily = {
 		core_creation = -0.1
+		ae_impact = -0.40
 	}
 	sic_trade_fleet = {
-		global_ship_trade_power = 0.2
+		global_ship_trade_power = 0.25
 	}
 	sic_grand_navy = {
 		naval_morale = 0.15
