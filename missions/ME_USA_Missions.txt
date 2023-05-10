@@ -93,7 +93,7 @@ USA_missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = usa_chain_of_command_modifier
-				duration = 7300
+				duration = -1
 			}
 		}
 	}
@@ -330,7 +330,7 @@ USA_missions_2 = {
 		effect = {
 			add_country_modifier = {
 				name = usa_civilize_the_plains_modifier
-				duration = 10950
+				duration = -1
 			}
 		}
 	}
@@ -399,7 +399,7 @@ USA_missions_2 = {
 			4638 = {
 				add_province_modifier = {
 					name = usa_gold_rush_province_modifier
-					duration = 183
+					duration = -1
 				}
 			}
 		}
@@ -466,7 +466,7 @@ USA_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = usa_building_a_nation_modifier
-				duration = 12775
+				duration = -1
 			}
 		}
 	}
@@ -558,7 +558,7 @@ USA_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = usa_manifest_destiny_modifier
-				duration = 36500
+				duration = -1
 			}
 		}
 	}
@@ -673,7 +673,7 @@ USA_missions_3 = {
 			}
 			add_country_modifier = {
 				name = usa_californian_compromise_modifier
-				duration = 10950
+				duration = -1
 			}
 		}
 	}
@@ -729,7 +729,7 @@ USA_missions_3 = {
 			add_treasury = -2500
 			add_country_modifier = {
 				name = usa_a_western_gateway_modifier
-				duration = 10950
+				duration = -1
 			}
 			4637 = {
 				create_or_add_center_of_trade_level = { level = 1 }
@@ -753,7 +753,7 @@ USA_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = usa_beacon_of_democracy_modifier
-				duration = 36500
+				duration = -1
 			}
 		}
 	}
@@ -804,7 +804,7 @@ USA_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = usa_expel_the_invaders_modifier
-				duration = 3650
+				duration = -1
 			}
 			if = {
 				limit = {
@@ -912,7 +912,7 @@ USA_missions_3 = {
 					}
 					add_country_modifier = {
 						name = usa_monroe_doctrine_modifier_2
-						duration = 9125
+						duration = -1
 					}
 				}
 			}
@@ -1061,7 +1061,7 @@ USA_missions_4 = {
 		effect = {
 			add_country_modifier = {
 				name = usa_reconnect_with_the_west_modifier
-				duration = 9125
+				duration = -1
 			}
 		}
 	}
@@ -1159,7 +1159,7 @@ USA_missions_4 = {
 			add_mercantilism = 3
 			add_country_modifier = {
 				name = usa_the_inland_trade_modifier
-				duration = 5475
+				duration = -1
 			}
 		}
 	}
@@ -1212,37 +1212,37 @@ USA_missions_4 = {
 			959 = {
 				add_province_modifier = {
 					name = usa_continental_canals_province_modifier
-					duration = 18250
+					duration = -1
 				}
 			}
 			958 = {
 				add_province_modifier = {
 					name = usa_continental_canals_province_modifier
-					duration = 18250
+					duration = -1
 				}
 			}
 			954 = {
 				add_province_modifier = {
 					name = usa_continental_canals_province_modifier
-					duration = 18250
+					duration = -1
 				}
 			}
 			2557 = {
 				add_province_modifier = {
 					name = usa_continental_canals_province_modifier
-					duration = 18250
+					duration = -1
 				}
 			}
 			2023 = {
 				add_province_modifier = {
 					name = usa_continental_canals_province_modifier
-					duration = 18250
+					duration = -1
 				}
 			}
 			956 = {
 				add_province_modifier = {
 					name = usa_continental_canals_province_modifier
-					duration = 18250
+					duration = -1
 				}
 			}
 		}
@@ -1379,7 +1379,7 @@ USA_missions_5 = {
 		effect = {
 			add_country_modifier = {
 				name = usa_the_continental_navy_modifier
-				duration = 10950
+				duration = -1
 			}
 		}
 	}
@@ -1436,7 +1436,7 @@ USA_missions_5 = {
 		effect = {
 			add_country_modifier = {
 				name = usa_the_american_navy_modifier
-				duration = 18250
+				duration = -1
 			}
 		}
 	}
@@ -1479,7 +1479,7 @@ USA_missions_5 = {
 					}
 					add_province_modifier = {
 						name = usa_build_manufactories_province_modifier
-						duration = 10950
+						duration = -1
 					}
 				}
 			}
@@ -1516,7 +1516,7 @@ USA_missions_5 = {
 			}
 			add_country_modifier = {
 				name = usa_a_new_revolution_modifier
-				duration = 10950
+				duration = -1
 			}
 		}
 	}
@@ -1548,7 +1548,7 @@ USA_missions_5 = {
 		effect = {
 			add_country_modifier = {
 				name = usa_fuel_the_fires_modifier
-				duration = 18250
+				duration = -1
 			}
 		}
 	}

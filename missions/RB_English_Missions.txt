@@ -104,7 +104,7 @@ eng_rb_gibraltar = {
 		effect = {
 			add_country_modifier = {
 				name = "eng_rb_gibraltar_mod"
-				duration = 5475
+				duration = -1
 			}
 			4559 = {
 				add_permanent_claim = ROOT
@@ -302,7 +302,7 @@ eng_rb_egypt = {
 			358 = {
 				add_trade_modifier = {
 					who = root
-					duration = 7300
+					duration = -1
 					power = 50
 					key = alexandria_ambition
 				}
@@ -359,7 +359,7 @@ eng_rb_stability = {
 		effect = {
 			add_country_modifier = {
 				name = "eng_rb_roses_legit"
-				duration = 5475
+				duration = -1
 			}
 		}
 	}
@@ -382,7 +382,7 @@ eng_rb_stability = {
 		effect = {
 			add_country_modifier = {
 				name = "eng_rb_state_religion_mod"
-				duration = 5475
+				duration = -1
 			}
 		}
 	}
@@ -475,19 +475,19 @@ eng_rb_burgundy = {
 			picardy_area = {
 				add_province_modifier = {
 					name = "eng_rb_local_conv"
-					duration = 5475
+					duration = -1
 				}
 			}
 			west_burgundy_area = {
 				add_province_modifier = {
 					name = "eng_rb_local_conv"
-					duration = 5475
+					duration = -1
 				}
 			}
 			bourgogne_area = {
 				add_province_modifier = {
 					name = "eng_rb_local_conv"
-					duration = 5475
+					duration = -1
 				}
 			}
 		}
@@ -544,7 +544,7 @@ gbr_rb_canada_group = {
 		effect = {
 			add_country_modifier = {
 				name = "eng_rb_established_shipping"
-				duration = 7300
+				duration = -1
 			}
 		}
 	
@@ -587,7 +587,7 @@ eng_rb_trade_value_group = {
 		effect = {
 			add_country_modifier = {
 				name = "eng_rb_trade_value_mod"
-				duration = 7300
+				duration = -1
 			}
 		}
 	
@@ -848,7 +848,7 @@ eng_rb_conquest_europe = {
 			1276 = {
 				add_trade_modifier = {
 					who = root
-					duration = 5475
+					duration = -1
 					power = 25
 					key = bordeaux_ambition
 				}
@@ -1028,7 +1028,7 @@ gbr_rb_empire_group = {
 		effect = {
 			add_country_modifier = {
 				name = "eng_rb_hre_relations"
-				duration = 5475
+				duration = -1
 			}
 		}
 	}
@@ -1412,7 +1412,7 @@ gbr_rb_india_princes = {
 				}
 				add_province_modifier = {
 					name = "gbr_inland_trade"
-					duration = 5475
+					duration = -1
 				}
 			}
 			maidan_area = {
@@ -1421,7 +1421,7 @@ gbr_rb_india_princes = {
 				}
 				add_province_modifier = {
 					name = "gbr_inland_trade"
-					duration = 5475
+					duration = -1
 				}
 			}
 			gondwana_area = {
@@ -1430,7 +1430,7 @@ gbr_rb_india_princes = {
 				}
 				add_province_modifier = {
 					name = "gbr_inland_trade"
-					duration = 5475
+					duration = -1
 				}
 			}
 			garjat_area = {
@@ -1439,7 +1439,7 @@ gbr_rb_india_princes = {
 				}
 				add_province_modifier = {
 					name = "gbr_inland_trade"
-					duration = 5475
+					duration = -1
 				}
 			}
 		}
@@ -1494,7 +1494,7 @@ gbr_rb_northern_colonial = {
 		effect = {
 			add_country_modifier = {
 				name = "eng_rb_faro_coast"
-				duration = 5475
+				duration = -1
 			}
 			greenland_area = {
 				limit = {
@@ -1536,7 +1536,7 @@ gbr_rb_northern_colonial = {
 		effect = {
 			add_country_modifier = {
 				name = "eng_rb_colony_chance"
-				duration = 5475
+				duration = -1
 			}
 			1104 = {
 				add_base_production = 3
@@ -1726,7 +1726,7 @@ eng_rb_trade_in_home_cot_group = {
 		effect = {
 			add_country_modifier = {
 				name = "eng_channel_dominance"
-				duration = 5475
+				duration = -1
 			}
 			1874 = {
 				add_permanent_claim = ROOT

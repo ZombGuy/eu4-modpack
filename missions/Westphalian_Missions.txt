@@ -150,7 +150,7 @@ westfalian_group_1 = {
 					add_base_manpower = 1
 					add_province_modifier = { 
 						name = westfalen_capital_modifier
-						duration = 3650
+						duration = -1
 					}
 				}
 			}
@@ -315,14 +315,14 @@ westfalian_group_2 = {
 			tooltip = {
 				add_country_modifier = { 
 					name = westphalia_religious_peace_mod 
-					duration = -1 
+					duration = -1
 				}
 			}
 			custom_tooltip = westphalia_peace_reward2_tt
 			tooltip = {
 				add_country_modifier = { 
 					name = westphalia_religious_supermacy_mod 
-					duration = -1 
+					duration = -1
 				}
 			}
 			hidden_effect = {
@@ -332,13 +332,13 @@ westfalian_group_2 = {
 					}
 					add_country_modifier = { 
 						name = westphalia_religious_peace_mod 
-						duration = -1 
+						duration = -1
 					}
 				}
 				else = {
 					add_country_modifier = { 
 						name = westphalia_religious_supermacy_mod 
-						duration = -1 
+						duration = -1
 					}
 				}
 			}
@@ -392,7 +392,7 @@ westfalian_group_3 = {
 			add_mercantilism = 5
 			add_country_modifier = { 
 				name = efficienct_merchants 
-				duration = 7300
+				duration = -1
 			}
 		}
 	}
@@ -508,7 +508,7 @@ westfalian_group_3 = {
 			add_accepted_culture_or_dip_power = { culture = hannoverian }
 			add_country_modifier = { 
 				name = westphalia_integrate_rheinland
-				duration = -1 
+				duration = -1
 			}
 		}
 	}

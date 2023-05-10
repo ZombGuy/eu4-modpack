@@ -114,7 +114,7 @@ POM_STE_missions_1 = {
 			add_prestige_or_monarch_power = { amount = 10 }
 			add_country_modifier = {
 				name = STE_resisting_the_eagle
-				duration = 10950
+				duration = -1
 			}
 		}
 	}
@@ -194,7 +194,7 @@ POM_STE_missions_1 = {
 			}
 			add_country_modifier = {
 				name = STE_wheat_war_resolved
-				duration = 1825
+				duration = -1
 			}
 		}
 	}
@@ -256,7 +256,7 @@ POM_WOL_missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = WOL_supporting_cities
-				duration = 7300
+				duration = -1
 			}
 			home_trade_node_effect_scope = {
 				add_trade_node_income = 24
@@ -292,7 +292,7 @@ POM_WOL_missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = WOL_golden_priveleges_modifier
-				duration = 14600
+				duration = -1
 			}
 		}
 	}
@@ -335,7 +335,7 @@ POM_GEN_missions_2 = {
 		effect = {
 			add_country_modifier = {
 				name = POM_uniting_pomerania
-				duration = 7300
+				duration = -1
 			}
 			vorpommern_area = {
 				limit = {
@@ -376,21 +376,21 @@ POM_GEN_missions_2 = {
 				add_nationalism = -5
 				add_province_modifier = {
 					name = POM_similar_customs
-					duration = 9125
+					duration = -1
 				}
 			}
 			4749 = {
 				add_nationalism = -5
 				add_province_modifier = {
 					name = POM_similar_customs
-					duration = 9125
+					duration = -1
 				}
 			}
 			46 = {
 				add_nationalism = -5
 				add_province_modifier = {
 					name = POM_similar_customs
-					duration = 9125
+					duration = -1
 				}
 			}
 		}
@@ -543,7 +543,7 @@ POM_GEN_missions_4 = {
 		effect = {
 			add_country_modifier = {
 				name = POM_surrounded_by_kinsmen
-				duration = 9125
+				duration = -1
 			}
 		}
 	}
@@ -573,7 +573,7 @@ POM_GEN_missions_4 = {
 		effect = {
 			add_country_modifier = {
 				name = POM_imperial_prince
-				duration = 7300
+				duration = -1
 			}
 		}
 	}
@@ -624,7 +624,7 @@ POM_GEN_missions_5 = {
 			set_country_flag = POM_may_get_event
 			add_country_modifier = {
 				name = POM_independence_mandated
-				duration = 10950
+				duration = -1
 			}
 		}
 	}
@@ -662,7 +662,7 @@ POM_missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = POM_great_minds
-				duration = 9125
+				duration = -1
 			}
 			custom_tooltip = POM_advisor
 			if = {
@@ -809,7 +809,7 @@ POM_missions_2 = {
 				add_papal_influence = 10
 				add_country_modifier = {
 					name = POM_unity_with_rome
-					duration = 9125
+					duration = -1
 				}
 				add_estate_loyalty = {
 					estate = estate_nobles
@@ -824,7 +824,7 @@ POM_missions_2 = {
 			tooltip = {
 				add_country_modifier = {
 					name = POM_kirche
-					duration = 10950
+					duration = -1
 				}
 				add_estate_loyalty = {
 					estate = estate_burghers
@@ -843,7 +843,7 @@ POM_missions_2 = {
 					add_papal_influence = 10
 					add_country_modifier = {
 						name = POM_unity_with_rome
-						duration = 9125
+						duration = -1
 					}
 					add_estate_loyalty = {
 						estate = estate_nobles
@@ -857,7 +857,7 @@ POM_missions_2 = {
 				else = {
 					add_country_modifier = {
 						name = POM_kirche
-						duration = 10950
+						duration = -1
 					}
 					add_estate_loyalty = {
 						estate = estate_burghers
@@ -994,7 +994,7 @@ POM_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = POM_uniting_with_piasts
-				duration = 10950
+				duration = -1
 			}
 		}
 	}
@@ -1041,7 +1041,7 @@ POM_missions_3 = {
 				hidden_effect = {
 					add_country_modifier = {
 						name = BRA_prussian_ambition_2
-						duration = 5475
+						duration = -1
 					}
 				}
 			}
@@ -1148,7 +1148,7 @@ POM_missions_4 = {
 			}
 			add_country_modifier = {
 				name = POM_legacy_of_eric_modifier
-				duration = 9125
+				duration = -1
 			}
 		}
 	}
@@ -1231,7 +1231,7 @@ POM_missions_5 = {
 			home_trade_node_effect_scope = {
 				add_trade_modifier = {
 					who = ROOT
-					duration = 10950
+					duration = -1
 					power = 15
 					key = POM_supporting_merchants
 				}
@@ -1251,7 +1251,7 @@ POM_missions_5 = {
 			add_years_of_income = 0.5
 			add_country_modifier = {
 				name = POM_Boguslaw #the coin emitted, silver
-				duration = 9125
+				duration = -1
 			}
 		}
 	}

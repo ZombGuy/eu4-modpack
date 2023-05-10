@@ -119,7 +119,7 @@ bur_conquest = {
 			add_prestige = 15
 			add_country_modifier = {
 				name = "bur_diplo_mod"
-				duration = 5475
+				duration = -1
 			}
 			frisia_area = {
 				limit = {
@@ -164,7 +164,7 @@ bur_conquest = {
 			1975 = {
 				add_trade_modifier = {
 					who = root
-					duration = 7300
+					duration = -1
 					power = 20
 					key = bur_channel_ambition
 				}
@@ -347,7 +347,7 @@ bur_arles = {
 			}
 			add_country_modifier = {
 				name = "bur_arles_mod"
-				duration = "7300"
+				duration = -1
 			}
 			liguria_area = {
 				limit = {

@@ -24,7 +24,7 @@ MAL_missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = the_new_mali
-				duration = 5475
+				duration = -1
 			}
 			jolof_area = {
 				limit = {
@@ -68,14 +68,14 @@ MAL_missions_1 = {
 			1114 = {
 				add_trade_modifier = {
 					who = ROOT
-					duration = 10950
+					duration = -1
 					power = 10
 					key = WHERE_THE_RIVER_ENDS
 				}
 			}
 			add_country_modifier = {
 				name = african_expansion
-				duration = 10950
+				duration = -1
 			}
 		}
 	}
@@ -156,7 +156,7 @@ MAL_missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = african_trade_infux
-				duration = 7300
+				duration = -1
 			}
 			add_mercantilism = 1
 		}
@@ -187,7 +187,7 @@ MAL_missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = islamic_brotherhood
-				duration = 3650
+				duration = -1
 			}
 			every_country = {
 				limit = {
@@ -196,7 +196,7 @@ MAL_missions_1 = {
 				}
 				add_country_modifier = {
 					name = european_technology
-					duration = 18250
+					duration = -1
 				}
 			}
 		}
@@ -236,7 +236,7 @@ MAL_missions_2 = {
 		effect = {
 			add_country_modifier = {
 				name = consolidated_the_bend
-				duration = 5475
+				duration = -1
 			}
 			jenne_area = {
 				limit = {
@@ -342,14 +342,14 @@ MAL_missions_2 = {
 			223 = {
 				add_trade_modifier = {
 					who = ROOT
-					duration = 9125
+					duration = -1
 					power = 30
 					key = IBERIAN_INFLUX
 				}
 			}
 			add_country_modifier = {
 				name = transsaharan_empire
-				duration = 3650
+				duration = -1
 			}
 		}
 	}
@@ -379,7 +379,7 @@ MAL_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = restored_old_borders
-				duration = 5475
+				duration = -1
 			}
 			kong_area = {
 				limit = {
@@ -438,7 +438,7 @@ MAL_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = gold_exports
-				duration = 10950
+				duration = -1
 			}
 			tekrur_area = {
 				limit = {
@@ -585,7 +585,7 @@ MAL_missions_4 = {
 			}
 			add_country_modifier = {
 				name = owner_of_first_city
-				duration = 9125
+				duration = -1
 			}
 		}
 	}
@@ -741,7 +741,7 @@ MAL_missions_4 = {
 				}
 				add_country_modifier = {
 					name = closed_the_gap
-					duration = 7300
+					duration = -1
 				}
 			}
 			else = {
@@ -838,7 +838,7 @@ MAL_missions_5 = {
 		effect = {
 			add_country_modifier = {
 				name = revilatized_islam
-				duration = 9125
+				duration = -1
 			}
 		}
 	}
@@ -857,7 +857,7 @@ MAL_missions_5 = {
 		effect = {
 			add_country_modifier = {
 				name = gathered_great_minds
-				duration = 7300
+				duration = -1
 			}
 		}
 	}
@@ -895,7 +895,7 @@ MAL_missions_5 = {
 			1132 = {
 				add_province_modifier = {
 					name = revival_project
-					duration = 7300
+					duration = -1
 				}
 			}
 		}

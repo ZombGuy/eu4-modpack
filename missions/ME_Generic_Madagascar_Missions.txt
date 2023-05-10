@@ -29,7 +29,7 @@ generic_madagascar_missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = "generic_madagascar_tribal_nation_modifier"
-				duration = 10950
+				duration = -1
 			}
 		}
 	}
@@ -72,7 +72,7 @@ generic_madagascar_missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = "generic_madagascar_court_modifier"
-				duration = 7300
+				duration = -1
 			}
 		}
 	}
@@ -87,7 +87,7 @@ generic_madagascar_missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = "generic_madagascar_rebirth_modifier"
-				duration = 9125
+				duration = -1
 			}
 		}
 	}
@@ -130,7 +130,7 @@ generic_madagascar_missions_2 = {
 		effect = {
 			add_country_modifier = {
 				name = "generic_madagascar_shipyards_modifier"
-				duration = 7300
+				duration = -1
 			}
 		}
 	}
@@ -166,7 +166,7 @@ generic_madagascar_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = "generic_madagascar_ready_modifier"
-				duration = 5475
+				duration = -1
 			}
 		}
 	}
@@ -195,7 +195,7 @@ generic_madagascar_missions_3 = {
 			}
 			add_country_modifier = {
 				name = "generic_madagascar_defense_modifier"
-				duration = 9125
+				duration = -1
 			}
 		}
 	}
@@ -217,7 +217,7 @@ generic_madagascar_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = "generic_madagascar_culture_modifier"
-				duration = 7300
+				duration = -1
 			}
 		}
 	}
@@ -258,7 +258,7 @@ generic_madagascar_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = "generic_madagascar_europe_modifier"
-				duration = 18250
+				duration = -1
 			}
 		}
 	}
@@ -375,7 +375,7 @@ generic_madagascar_missions_5 = {
 		effect = {
 			add_country_modifier = {
 				name = "generic_madagascar_consolidation_modifier"
-				duration = 9125
+				duration = -1
 			}
 		}
 	}
@@ -399,7 +399,7 @@ generic_madagascar_missions_5 = {
 		effect = {
 			add_country_modifier = {
 				name = "generic_madagascar_zeal_modifier"
-				duration = 18250
+				duration = -1
 			}
 		}
 	}
@@ -416,7 +416,7 @@ generic_madagascar_missions_5 = {
 		effect = {
 			add_country_modifier = {
 				name = "generic_madagascar_zanzibar_modifier"
-				duration = 9125
+				duration = -1
 			}
 		}
 	}

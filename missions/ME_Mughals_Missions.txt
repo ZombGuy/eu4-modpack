@@ -86,7 +86,7 @@ Mughal_missions_1_locked = {
 			set_country_flag = me_mug_industry_easier
 			add_country_modifier = {
 				name = me_mug_indian_clothing
-				duration = 7300
+				duration = -1
 			}
 			custom_tooltip = me_mug_gain_mana_per_cloth_province
 			hidden_effect = {
@@ -139,13 +139,13 @@ Mughal_missions_1_locked = {
 		effect = {
 			add_country_modifier = {
 				name = me_mug_indian_riches
-				duration = 14600
+				duration = -1
 			}
 			custom_tooltip = me_mug_if_we_picked_trade_ideas
 			tooltip = {
 				add_country_modifier = {
 					name = me_mug_trade_exploitation
-					duration = 9125
+					duration = -1
 				}
 			}
 			custom_tooltip = me_mug_if_not
@@ -189,7 +189,7 @@ Mughal_missions_1_unlocked = {
 			set_country_flag = me_mug_industry_easier
 			add_country_modifier = {
 				name = me_mug_indian_clothing
-				duration = 7300
+				duration = -1
 			}
 			custom_tooltip = me_mug_gain_mana_per_cloth_province
 			hidden_effect = {
@@ -261,13 +261,13 @@ Mughal_missions_1_unlocked = {
 		effect = {
 			add_country_modifier = {
 				name = me_mug_indian_riches
-				duration = 14600
+				duration = -1
 			}
 			custom_tooltip = me_mug_if_we_picked_trade_ideas
 			tooltip = {
 				add_country_modifier = {
 					name = me_mug_trade_exploitation
-					duration = 9125
+					duration = -1
 				}
 			}
 			custom_tooltip = me_mug_if_not
@@ -281,7 +281,7 @@ Mughal_missions_1_unlocked = {
 					}
 					add_country_modifier = {
 						name = me_mug_trade_exploitation
-						duration = 9125
+						duration = -1
 					}
 				}
 				else = {
@@ -442,7 +442,7 @@ Mughal_missions_1_branching = {
 			custom_tooltip = me_mug_allows_raising_ahadis
 			add_country_modifier = {
 				name = me_mug_indian_standing_army
-				duration = 7300
+				duration = -1
 			}
 			custom_tooltip = " "
 			custom_tooltip = me_mug_if_indian_army
@@ -451,7 +451,7 @@ Mughal_missions_1_branching = {
 			set_country_flag = me_mug_marathi_privileges
 			add_country_modifier = {
 				name = me_mug_recruit_marathi_horsemen
-				duration = 7300
+				duration = -1
 			}
 		}
 	}
@@ -511,7 +511,7 @@ Mughal_missions_1_unlocked_gunpowder_empire = {
 			custom_tooltip = me_mug_allows_raising_ahadis
 			add_country_modifier = {
 				name = me_mug_indian_standing_army
-				duration = 7300
+				duration = -1
 			}
 			set_country_flag = me_mug_allows_ahadis
 		}
@@ -606,7 +606,7 @@ Mughal_missions_1_unlocked_indian_army = {
 			set_country_flag = me_mug_marathi_privileges
 			add_country_modifier = {
 				name = me_mug_recruit_marathi_horsemen
-				duration = 7300
+				duration = -1
 			}
 		}
 	}
@@ -641,7 +641,7 @@ Mughal_missions_1_1 = {
 			set_country_flag = me_seizing_land_costs_less
 			add_country_modifier = {
 				name = me_mug_land_reforms
-				duration = 7300
+				duration = -1
 			}
 		}
 	}
@@ -746,7 +746,7 @@ Mughal_missions_1_1_locked = {
 				ME_give_claims = { region = indonesia_region }
 				add_country_modifier = {
 					name = me_mug_sea_expedition
-					duration = 7300
+					duration = -1
 				}
 			}
 			set_country_flag = me_mug_expedition_start
@@ -907,7 +907,7 @@ Mughal_missions_1_1_unlocked = {
 				ME_give_claims = { region = indonesia_region }
 				add_country_modifier = {
 					name = me_mug_sea_expedition
-					duration = 7300
+					duration = -1
 				}
 			}
 			set_country_flag = me_mug_expedition_start
@@ -954,7 +954,7 @@ Mughal_missions_1_1_unlocked = {
 					ME_give_claims = { region = indonesia_region }
 					add_country_modifier = {
 						name = me_mug_sea_expedition
-						duration = 7300
+						duration = -1
 					}
 				}
 			}
@@ -1593,7 +1593,7 @@ Mughal_missions_2_military = {
 			custom_tooltip = " "
 			add_country_modifier = {
 				name = me_mug_sowar_innovation
-				duration = 5475
+				duration = -1
 			}
 			custom_tooltip = " "
 			custom_tooltip = me_mug_unlocks_sowars
@@ -1645,7 +1645,7 @@ Mughal_missions_2_military = {
 			custom_tooltip = " "
 			add_country_modifier = {
 				name = me_mug_integration_of_artillery
-				duration = 7300
+				duration = -1
 			}
 			custom_tooltip = me_mug_once_modifier_expires
 			set_country_flag = me_mug_integrating_artillery
@@ -1794,7 +1794,7 @@ Mughal_missions_2_unlocked_gunpowder_empire = {
 		effect = {
 			add_country_modifier = {
 				name = me_mug_integration_of_artillery
-				duration = 7300
+				duration = -1
 			}
 			custom_tooltip = me_mug_once_modifier_expires
 			set_country_flag = me_mug_integrating_artillery
@@ -1877,7 +1877,7 @@ Mughal_missions_2_unlocked_indian_army = {
 		effect = {
 			add_country_modifier = {
 				name = me_mug_sowar_innovation
-				duration = 5475
+				duration = -1
 			}
 			custom_tooltip = " "
 			custom_tooltip = me_mug_unlocks_sowars
@@ -2052,7 +2052,7 @@ Mughal_missions_2_1_locked = {
 		effect = {
 			add_country_modifier = {
 				name = me_mug_trade_protection
-				duration = 7300
+				duration = -1
 			}
 			ME_distribute_development = {
 				type = production
@@ -2161,7 +2161,7 @@ Mughal_missions_2_1_locked = {
 			tooltip = {
 				add_country_modifier = {
 					name = me_mug_conquest_of_malay
-					duration = 7300
+					duration = -1
 				}
 				custom_tooltip = me_mug_5_spice_provinces
 				add_building = tradecompany
@@ -2176,7 +2176,7 @@ Mughal_missions_2_1_locked = {
 			tooltip = {
 				add_country_modifier = {
 					name = me_mug_islam_in_malay
-					duration = 7300
+					duration = -1
 				}
 				custom_tooltip = me_mug_every_islamic_province
 				add_province_modifier = {
@@ -2285,7 +2285,7 @@ Mughal_missions_2_1_unlocked = {
 		effect = {
 			add_country_modifier = {
 				name = me_mug_trade_protection
-				duration = 7300
+				duration = -1
 			}
 			ME_distribute_development = {
 				type = production
@@ -2403,7 +2403,7 @@ Mughal_missions_2_1_unlocked = {
 			tooltip = {
 				add_country_modifier = {
 					name = me_mug_conquest_of_malay
-					duration = 7300
+					duration = -1
 				}
 				custom_tooltip = me_mug_5_spice_provinces
 				add_building = tradecompany
@@ -2418,7 +2418,7 @@ Mughal_missions_2_1_unlocked = {
 			tooltip = {
 				add_country_modifier = {
 					name = me_mug_islam_in_malay
-					duration = 7300
+					duration = -1
 				}
 				custom_tooltip = me_mug_every_islamic_province
 				add_province_modifier = {
@@ -2458,7 +2458,7 @@ Mughal_missions_2_1_unlocked = {
 					}
 					add_country_modifier = {
 						name = me_mug_islam_in_malay
-						duration = 7300
+						duration = -1
 					}
 					malaya_region = {
 						limit = {
@@ -2482,7 +2482,7 @@ Mughal_missions_2_1_unlocked = {
 				else = {
 					add_country_modifier = {
 						name = me_mug_conquest_of_malay
-						duration = 7300
+						duration = -1
 					}
 					random_owned_province = {
 						limit = {
@@ -2897,7 +2897,7 @@ Mughal_missions_3_1 = {
 		effect = {
 			add_country_modifier = {
 				name = me_mug_jizya_tax
-				duration = 9125
+				duration = -1
 			}
 		}
 	}
@@ -2963,7 +2963,7 @@ Mughal_missions_3_1_locked = {
 		effect = {
 			add_country_modifier = {
 				name = me_mug_indian_conscription
-				duration = 12775
+				duration = -1
 			}
 			custom_tooltip = me_mug_every_indian_province
 			tooltip = {
@@ -3017,7 +3017,7 @@ Mughal_missions_3_1_unlocked = {
 		effect = {
 			add_country_modifier = {
 				name = me_mug_indian_conscription
-				duration = 12775
+				duration = -1
 			}
 			custom_tooltip = me_mug_every_indian_province
 			tooltip = {
@@ -3309,7 +3309,7 @@ Mughal_missions_3_2_locked = {
 		effect = {
 			add_country_modifier = {
 				name = me_mug_textile_production
-				duration = 7300
+				duration = -1
 			}
 			add_adm_power = 100
 			add_prestige_or_monarch_power = { amount = 10 }
@@ -3447,7 +3447,7 @@ Mughal_missions_3_2_locked = {
 		effect = {
 			add_country_modifier = {
 				name = me_mug_creation_of_a_navy
-				duration = 9125
+				duration = -1
 			}
 			custom_tooltip = " "
 			custom_tooltip = me_mug_two_random_ports
@@ -3590,7 +3590,7 @@ Mughal_missions_3_2_unlocked = {
 		effect = {
 			add_country_modifier = {
 				name = me_mug_textile_production
-				duration = 7300
+				duration = -1
 			}
 			add_adm_power = 100
 			add_prestige_or_monarch_power = { amount = 10 }
@@ -3715,7 +3715,7 @@ Mughal_missions_3_2_unlocked = {
 		effect = {
 			add_country_modifier = {
 				name = me_mug_creation_of_a_navy
-				duration = 9125
+				duration = -1
 			}
 			custom_tooltip = " "
 			custom_tooltip = me_mug_two_random_ports
@@ -4233,7 +4233,7 @@ Mughal_missions_4_1 = {
 		effect = {
 			add_country_modifier = {
 				name = me_mug_sarkar_reform
-				duration = 7300
+				duration = -1
 			}
 			change_government_reform_progress = 100
 		}
@@ -4356,7 +4356,7 @@ Mughal_missions_4_1_locked = {
 		effect = {
 			add_country_modifier = {
 				name = me_mug_reform_economy
-				duration = 9125
+				duration = -1
 			}
 			add_years_of_income = 1
 			custom_tooltip = " "
@@ -4454,7 +4454,7 @@ Mughal_missions_4_1_locked = {
 			tooltip = {
 				add_country_modifier = {
 					name = me_mug_grand_fleet
-					duration = 12775
+					duration = -1
 				}
 			}
 			custom_tooltip = " "
@@ -4462,7 +4462,7 @@ Mughal_missions_4_1_locked = {
 			tooltip = {
 				add_country_modifier = {
 					name = me_mug_trade_fleet
-					duration = 12775
+					duration = -1
 				}
 			}
 			custom_tooltip = " "
@@ -4470,7 +4470,7 @@ Mughal_missions_4_1_locked = {
 			tooltip = {
 				add_country_modifier = {
 					name = me_mug_mixed_fleet
-					duration = 12775
+					duration = -1
 				}
 			}
 			custom_tooltip = " "
@@ -4483,7 +4483,7 @@ Mughal_missions_4_1_locked = {
 					}
 					add_country_modifier = {
 						name = me_mug_grand_fleet
-						duration = 12775
+						duration = -1
 					}
 				}
 				else_if = {
@@ -4493,13 +4493,13 @@ Mughal_missions_4_1_locked = {
 					}
 					add_country_modifier = {
 						name = me_mug_trade_fleet
-						duration = 12775
+						duration = -1
 					}
 				}
 				else = {
 					add_country_modifier = {
 						name = me_mug_mixed_fleet
-						duration = 12775
+						duration = -1
 					}
 				}
 			}
@@ -4639,7 +4639,7 @@ Mughal_missions_4_1_unlocked = {
 		effect = {
 			add_country_modifier = {
 				name = me_mug_reform_economy
-				duration = 9125
+				duration = -1
 			}
 			add_years_of_income = 1
 			custom_tooltip = " "
@@ -4744,7 +4744,7 @@ Mughal_missions_4_1_unlocked = {
 			tooltip = {
 				add_country_modifier = {
 					name = me_mug_grand_fleet
-					duration = 12775
+					duration = -1
 				}
 			}
 			custom_tooltip = " "
@@ -4752,7 +4752,7 @@ Mughal_missions_4_1_unlocked = {
 			tooltip = {
 				add_country_modifier = {
 					name = me_mug_trade_fleet
-					duration = 12775
+					duration = -1
 				}
 			}
 			custom_tooltip = " "
@@ -4760,7 +4760,7 @@ Mughal_missions_4_1_unlocked = {
 			tooltip = {
 				add_country_modifier = {
 					name = me_mug_mixed_fleet
-					duration = 12775
+					duration = -1
 				}
 			}
 			hidden_effect = {
@@ -4771,7 +4771,7 @@ Mughal_missions_4_1_unlocked = {
 					}
 					add_country_modifier = {
 						name = me_mug_grand_fleet
-						duration = 12775
+						duration = -1
 					}
 				}
 				else_if = {
@@ -4781,13 +4781,13 @@ Mughal_missions_4_1_unlocked = {
 					}
 					add_country_modifier = {
 						name = me_mug_trade_fleet
-						duration = 12775
+						duration = -1
 					}
 				}
 				else = {
 					add_country_modifier = {
 						name = me_mug_mixed_fleet
-						duration = 12775
+						duration = -1
 					}
 				}
 			}
@@ -5901,7 +5901,7 @@ Mughal_missions_5_1_locked = {
 			custom_tooltip = " "
 			add_country_modifier = {
 				name = me_mug_recruiting_sailors
-				duration = 9125
+				duration = -1
 			}
 			custom_tooltip = " "
 			custom_tooltip = me_unlocked_when_we_form_mughals
@@ -6103,7 +6103,7 @@ Mughal_missions_5_1_unlocked = {
 			custom_tooltip = " "
 			add_country_modifier = {
 				name = me_mug_recruiting_sailors
-				duration = 9125
+				duration = -1
 			}
 		}
 	}

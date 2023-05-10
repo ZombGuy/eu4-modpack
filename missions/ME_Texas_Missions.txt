@@ -420,7 +420,7 @@ texas_missions_2_tex = {
 		effect = {
 			add_country_modifier = {
 				name = tex_settle_natives_lands
-				duration = 12775
+				duration = -1
 			}
 		}
 	}
@@ -442,7 +442,7 @@ texas_missions_2_tex = {
 		effect = {
 			add_country_modifier = {
 				name = tex_culturally_united_texas
-				duration = 12775
+				duration = -1
 			}
 		}
 	}
@@ -487,13 +487,13 @@ texas_missions_3 = {
 			texas_area = {
 				add_province_modifier = {
 					name = tex_purified_texas
-					duration = 10950
+					duration = -1
 				}
 			}
 			coastal_prarie_area = {
 				add_province_modifier = {
 					name = tex_purified_texas
-					duration = 10950
+					duration = -1
 				}
 			}
 		}
@@ -529,7 +529,7 @@ texas_missions_3 = {
 			}
 			add_country_modifier = {
 				name = tex_gulf_trade
-				duration = 10950
+				duration = -1
 			}
 		}
 	}
@@ -579,7 +579,7 @@ texas_missions_3 = {
 			1551 = {
 				add_trade_modifier = {
 					who = ROOT
-					duration = 14600
+					duration = -1
 					power = 40
 					key = tex_texan_dominance_mexico
 				}
@@ -654,7 +654,7 @@ texas_missions_3 = {
 				north_america = {
 					add_trade_modifier = {
 						who = THIS
-						duration = 10950
+						duration = -1
 						power = -15
 						key = tex_merchants_outcompeted
 					}
@@ -732,12 +732,12 @@ texas_missions_4 = {
 		effect = {
 			add_country_modifier = {
 				name = tex_diplomatic_enterprise
-				duration = 10950
+				duration = -1
 			}
 			capital_scope = {
 				add_province_modifier = {
 					name = tex_shining_fort_capital
-					duration = 9125
+					duration = -1
 				}
 			}
 		}
@@ -769,7 +769,7 @@ texas_missions_4 = {
 		effect = {
 			add_country_modifier = {
 				name = tex_ranches_new_mexico
-				duration = 7300
+				duration = -1
 			}
 			california_region = { discover_country = ROOT }
 		}
@@ -809,7 +809,7 @@ texas_missions_4 = {
 			}
 			add_country_modifier = {
 				name = tex_centralization_texas
-				duration = 14600
+				duration = -1
 			}
 		}
 	}
@@ -950,7 +950,7 @@ texas_missions_5 = {
 			change_mil = 1
 			add_country_modifier = {
 				name = tex_professionalize_rangers
-				duration = 12775
+				duration = -1
 			}
 		}
 	}

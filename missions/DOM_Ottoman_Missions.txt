@@ -298,7 +298,7 @@ tur_conquest_of_europe = {
 					add_mercantilism = 3
 					add_country_modifier = {
 						name = tur_preperation_for_naval_war
-						duration = 7300
+						duration = -1
 					}
 				}
 				hidden_effect = {
@@ -313,7 +313,7 @@ tur_conquest_of_europe = {
 						add_mercantilism = 3
 						add_country_modifier = {
 							name = tur_preperation_for_naval_war
-							duration = 7300
+							duration = -1
 						}
 					}
 				}
@@ -322,7 +322,7 @@ tur_conquest_of_europe = {
 				add_mercantilism = 3
 				add_country_modifier = {
 					name = tur_preperation_for_naval_war
-					duration = 7300
+					duration = -1
 				}
 			}
 		}
@@ -684,7 +684,7 @@ tur_conquest_of_europe = {
 			}
 			add_country_modifier = {
 				name = tur_march_for_rome
-				duration = 9125
+				duration = -1
 			}
 			tuscany_area = {
 				limit = {
@@ -1115,7 +1115,8 @@ tur_african_conquest = {
 				set_country_flag = tur_improved_pashas
 				every_owned_province = {
 					limit = { NOT = { culture_group = ROOT } has_pasha = yes }
-					add_province_modifier = { name = tur_competent_pashas duration = -1 hidden = yes }
+					add_province_modifier = { name = tur_competent_pashas duration = -1
+					hidden = yes }
 				}
 			}
 			custom_tooltip = tur_establish_the_pashas_ct
@@ -1180,7 +1181,7 @@ tur_african_conquest = {
 				custom_tooltip = tur_guns_of_urban_at
 				add_country_modifier = { 
 					name = tur_early_cannons_modifier
-					duration = 3650 
+					duration = -1
 				}
 			}
 			else = {
@@ -1188,7 +1189,7 @@ tur_african_conquest = {
 				tooltip = {
 					add_country_modifier = { 
 						name = tur_early_cannons_modifier
-						duration = 3650 
+						duration = -1
 					}
 				}
 			}
@@ -1283,7 +1284,7 @@ tur_african_conquest = {
 			tooltip = {
 				add_province_modifier = {
 					name = tur_local_millet_rule
-					duration = 7300
+					duration = -1
 				}
 			}
 			hidden_effect = {
@@ -1293,7 +1294,7 @@ tur_african_conquest = {
 					}
 					add_province_modifier = {
 						name = tur_local_millet_rule
-						duration = 7300
+						duration = -1
 					}
 				}
 			}
@@ -1395,7 +1396,7 @@ tur_african_conquest = {
 			}
 			add_country_modifier = {
 				name = tur_romanian_tribute
-				duration = 9125
+				duration = -1
 			}
 			add_yearly_manpower = 0.25
 			add_army_tradition = 10
@@ -2072,7 +2073,7 @@ tur_egyptian_conquest = {
 				effect_tooltip = "
 				add_country_modifier = {
 					name = defeated_byzantine_empire
-					duration = 5475
+					duration = -1
 				}
 				151 = {
 					add_base_tax = 1
@@ -2080,7 +2081,7 @@ tur_egyptian_conquest = {
 					add_base_manpower = 1
 					add_province_modifier = {
 						name = tur_resettlement_of_constantinople
-						duration = 9125
+						duration = -1
 					}
 				}"
 			}
@@ -2569,7 +2570,7 @@ tur_egyptian_conquest = {
 					}
 					add_province_modifier = {
 						name = tur_investment_into_infrastructure
-						duration = 9125
+						duration = -1
 					}
 				}"
 			}
@@ -2607,7 +2608,7 @@ tur_egyptian_conquest = {
 			4346 = {
 				add_trade_modifier = {
 					who = ROOT
-					duration = 18250
+					duration = -1
 					power = 30
 					key = TUR_OTTOMAN_RED_SEA_ACCESS
 				}
@@ -2757,7 +2758,7 @@ tur_egyptian_conquest = {
 			}
 			add_country_modifier = {
 				name = tur_control_over_the_red_sea
-				duration = 9125
+				duration = -1
 			}
 		}
 
@@ -2824,7 +2825,7 @@ tur_egyptian_conquest = {
 			add_mercantilism = 5
 			add_country_modifier = {
 				name = tur_indonesian_trade
-				duration = 7300
+				duration = -1
 			}
 		}
 
@@ -2951,7 +2952,7 @@ tur_arabian_conquest = {
 		effect = {
 			add_country_modifier = {
 				name = tur_janissary_example
-				duration = 9125
+				duration = -1
 			}
 			if = {
 				limit = { has_estate = estate_janissaries }
@@ -3015,7 +3016,7 @@ tur_arabian_conquest = {
 				add_mil_power = 25
 				add_country_modifier = {
 					name = tur_janissary_loyalty
-					duration = 36500
+					duration = -1
 				}"
 			}
 		}
@@ -3116,7 +3117,7 @@ tur_arabian_conquest = {
 				}
 				add_country_modifier = {
 					name = tur_respected_the_patriarchate
-					duration = 9125
+					duration = -1
 				}
 				define_advisor = { 
 					name = "Gennadios II" 
@@ -3139,7 +3140,7 @@ tur_arabian_conquest = {
 				}
 				add_country_modifier = {
 					name = tur_removed_the_patriarchate
-					duration = 9125
+					duration = -1
 				}
 				capital_scope = {
 					add_base_tax = 3
@@ -3203,7 +3204,7 @@ tur_arabian_conquest = {
 				}
 				add_country_modifier = {
 					name = tur_baghdad_city_of_learning
-					duration = 10850
+					duration = -1
 				}"
 			}
 		}
@@ -3312,7 +3313,7 @@ tur_arabian_conquest = {
 					effect_tooltip = "
 					add_country_modifier = { 
 						name = tur_allowed_tatars_in_sipahi_modifier
-						duration = 7300
+						duration = -1
 					}"
 				}
 			}
@@ -3351,7 +3352,7 @@ tur_arabian_conquest = {
 						effect_tooltip = "
 						add_country_modifier = { 
 							name = tur_allowed_tatars_in_sipahi_modifier
-							duration = 7300
+							duration = -1
 						}"
 					}
 				}
@@ -3549,7 +3550,7 @@ tur_arabian_conquest = {
 					swap_non_generic_missions = yes
 					add_country_modifier = {
 						name = tur_end_of_the_caliphate_modifier
-						duration = 18250
+						duration = -1
 					}"
 				}
 			}
@@ -4219,7 +4220,7 @@ tur_non_muslim_path = {
 			}
 			add_country_modifier = {
 				name = tur_one_faith_empire_mod
-				duration = 10850
+				duration = -1
 			}
 		}
 
@@ -4340,7 +4341,7 @@ tur_issue_the_kannuname_slot = {
 				}
 				add_ruler_modifier = { 
 					name = tur_legendary_lawgiver_modifier 
-					duration = -1 
+					duration = -1
 				}"
 			}
 		}
@@ -4458,7 +4459,7 @@ tur_persian_conquest = {
 					limit = { country_or_non_sovereign_subject_holds = ROOT }
 					add_province_modifier = { 
 						name = tur_integration_in_the_ottoman_government_modifier
-						duration = 5475
+						duration = -1
 					}
 				}"
 			}
@@ -4509,7 +4510,7 @@ tur_persian_conquest = {
 					}
 					add_province_modifier = {
 						name = tur_caucasian_conquest
-						duration = 9125
+						duration = -1
 					}
 				}"
 			}
@@ -4559,7 +4560,7 @@ tur_persian_conquest = {
 				}
 				add_country_modifier = {
 					name = tur_conquest_of_persia
-					duration = 18250
+					duration = -1
 				}"
 			}
 		}
@@ -4690,7 +4691,7 @@ tur_persian_conquest = {
 					}
 					add_province_modifier = {
 						name = tur_investment_into_infrastructure
-						duration = 9125
+						duration = -1
 					}
 				}"
 			}
@@ -4797,7 +4798,7 @@ tur_persian_conquest = {
 				custom_tooltip = tur_25_goods_fabrics_tt
 				add_country_modifier = { 
 					name = tur_golden_silk_modifier
-					duration = -1 
+					duration = -1
 				}"
 			}
 		}
@@ -4930,7 +4931,7 @@ tur_persian_conquest = {
 					else = {
 						add_country_modifier = {
 							name = tur_second_islamic_golden_era_modifier
-							duration = 18250
+							duration = -1
 						}
 					}
 					custom_tooltip = flavor_tur.255.a.tt"
@@ -5136,7 +5137,7 @@ tur_stagnation_slot_1 = {
 			}
 			add_country_modifier = {
 				name = tur_the_turkish_national_force
-				duration = 9125
+				duration = -1
 			}
 		}
 
@@ -5432,7 +5433,7 @@ tur_stagnation_slot_3 = {
 			add_stability_or_adm_power = yes
 			add_country_modifier = {
 				name = tur_reigned_the_eyalets
-				duration = 19750
+				duration = -1
 			}
 		}
 

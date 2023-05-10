@@ -18,7 +18,7 @@ Ulm_missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = "influential_diplomacy"
-				duration = 10950
+				duration = -1
 			}
 		}
 	}
@@ -33,7 +33,7 @@ Ulm_missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = "thriving_arms_industry"
-				duration = 9125 #25 years
+				duration = -1
 			}
 		}
 	}
@@ -80,7 +80,7 @@ Ulm_missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = "influential_diplomacy"
-				duration = 10950
+				duration = -1
 			}
 			lower_swabia_area = {
 				limit = {

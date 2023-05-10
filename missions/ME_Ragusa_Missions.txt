@@ -243,7 +243,7 @@ ragusa_missions_slot_1 = {
 		effect = {
 			add_country_modifier = {
 				name = rag_doge_demisal
-				duration = 1825
+				duration = -1
 			}
 		}
 	}
@@ -264,7 +264,7 @@ ragusa_missions_slot_1 = {
 			add_mercantilism = 2
 			add_country_modifier = {
 				name = italian_minor_venetian_secret
-				duration = 5475
+				duration = -1
 			}
 		}
 	}
@@ -451,7 +451,7 @@ ragusa_missions_slot_1 = {
 			add_years_of_income = 2
 			add_country_modifier = {
 				name = rag_ragusan_mastery
-				duration = 3650
+				duration = -1
 			}
 		}
 	}
@@ -574,7 +574,7 @@ ragusa_missions_slot_2 = {
 		effect = {
 			add_country_modifier = {
 				name = rag_new_strength
-				duration = 5475
+				duration = -1
 			}
 		}
 	}
@@ -677,7 +677,7 @@ ragusa_missions_slot_2 = {
 		effect = {
 			add_country_modifier = {
 				name = rag_end_republic
-				duration = 3650
+				duration = -1
 			}
 		}
 	}
@@ -941,7 +941,7 @@ ragusa_missions_slot_3 = {
 		effect = {
 			add_country_modifier = {
 				name = italian_minor_naval_propaganda
-				duration = 5475
+				duration = -1
 			}
 			macedonia_area = {
 				limit = {
@@ -1031,7 +1031,7 @@ ragusa_missions_slot_3 = {
 		effect = {
 			add_country_modifier = {
 				name = rag_tuscan_renaissance
-				duration = 5475
+				duration = -1
 			}
 		}
 	}
@@ -1055,7 +1055,7 @@ ragusa_missions_slot_3 = {
 			add_mercantilism = 3
 			add_country_modifier = {
 				name = italian_minor_genoese_school
-				duration = 5475
+				duration = -1
 			}
 		}
 	}
@@ -1138,7 +1138,7 @@ ragusa_missions_slot_4 = {
 			capital_scope = {
 				add_province_modifier = {
 					name = rag_balkan_crossway
-					duration = 5475
+					duration = -1
 				}
 			}
 		}
@@ -1452,7 +1452,7 @@ ragusa_missions_slot_5 = {
 		effect = {
 			add_country_modifier = {
 				name = ragusa_latin_slav_bridge
-				duration = 9125
+				duration = -1
 			}
 		}
 	}
@@ -1587,7 +1587,7 @@ ragusa_missions_slot_5 = {
 			504 = {
 				add_trade_modifier = {
 					who = ROOT
-					duration = 9125
+					duration = -1
 					power = 15
 					key = ven_discovered_trade_route
 				}
@@ -1595,7 +1595,7 @@ ragusa_missions_slot_5 = {
 			1340 = {
 				add_trade_modifier = {
 					who = ROOT
-					duration = 9125
+					duration = -1
 					power = 15
 					key = ven_discovered_trade_route
 				}
@@ -1615,7 +1615,7 @@ ragusa_missions_slot_5 = {
 			1334 = {
 				add_trade_modifier = {
 					who = ROOT
-					duration = 9125
+					duration = -1
 					power = 15
 					key = ven_discovered_trade_route
 				}

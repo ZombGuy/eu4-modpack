@@ -51,7 +51,7 @@ DAN_missions_1 = {
 			# a nice diplomatic modifier. dip rep and something else
 			add_country_modifier = {
 				name = "denmark_norway_united"
-				duration = 5475
+				duration = -1
 			}
 			if = {
 				limit = {
@@ -144,7 +144,7 @@ DAN_missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = "united_scandinavia"
-				duration = 5475
+				duration = -1
 			}
 			scandinavia_region = {
 				limit = {
@@ -204,25 +204,25 @@ DAN_missions_1 = {
 			finland_area = {
 				add_province_modifier = {
 					name = dan_danish_integration
-					duration = 7300
+					duration = -1
 				}
 			}
 			bothnia_area = {
 				add_province_modifier = {
 					name = dan_danish_integration
-					duration = 7300
+					duration = -1
 				}
 			}
 			north_karelia = {
 				add_province_modifier = {
 					name = dan_danish_integration
-					duration = 7300
+					duration = -1
 				}
 			}
 			pomor_area = {
 				add_province_modifier = {
 					name = dan_danish_integration
-					duration = 7300
+					duration = -1
 				}
 			}
 		}
@@ -245,7 +245,7 @@ DAN_missions_1 = {
 			wales_area = {
 				add_province_modifier = {
 					name = dan_danish_integration
-					duration = 7300
+					duration = -1
 				}
 			}
 		}
@@ -268,7 +268,7 @@ DAN_missions_1 = {
 			kingdom_of_the_isles_area = {
 				add_province_modifier = {
 					name = dan_danish_integration
-					duration = 7300
+					duration = -1
 				}
 			}
 			leinster_area = {
@@ -298,7 +298,7 @@ DAN_missions_1 = {
 			leinster_area = {
 				add_province_modifier = {
 					name = dan_danish_integration
-					duration = 7300
+					duration = -1
 				}
 			}
 			munster_area = {
@@ -356,19 +356,19 @@ DAN_missions_1 = {
 			munster_area = {
 				add_province_modifier = {
 					name = dan_danish_integration
-					duration = 7300
+					duration = -1
 				}
 			}
 			ulster_area = {
 				add_province_modifier = {
 					name = dan_danish_integration
-					duration = 7300
+					duration = -1
 				}
 			}
 			connacht_area = {
 				add_province_modifier = {
 					name = dan_danish_integration
-					duration = 7300
+					duration = -1
 				}
 			}
 			leinster_area = {
@@ -448,25 +448,25 @@ DAN_missions_1 = {
 			highlands_area = {
 				add_province_modifier = {
 					name = dan_danish_integration
-					duration = 7300
+					duration = -1
 				}
 			}
 			lowlands_area = {
 				add_province_modifier = {
 					name = dan_danish_integration
-					duration = 7300
+					duration = -1
 				}
 			}
 			4361 = {
 				add_province_modifier = {
 					name = dan_danish_integration
-					duration = 7300
+					duration = -1
 				}
 			}
 			4362 = {
 				add_province_modifier = {
 					name = dan_danish_integration
-					duration = 7300
+					duration = -1
 				}
 			}
 			highlands_area = {
@@ -549,7 +549,7 @@ DAN_missions_2 = {
 			yorkshire_area = {
 				add_province_modifier = {
 					name = dan_viking_warriors_supress_dissent
-					duration = 3650
+					duration = -1
 				}
 			}
 			east_midlands_area = {
@@ -606,19 +606,19 @@ DAN_missions_2 = {
 			east_midlands_area = {
 				add_province_modifier = {
 					name = dan_viking_warriors_supress_dissent
-					duration = 3650
+					duration = -1
 				}
 			}
 			east_anglia_area = {
 				add_province_modifier = {
 					name = dan_viking_warriors_supress_dissent
-					duration = 3650
+					duration = -1
 				}
 			}
 			244 = {
 				add_province_modifier = {
 					name = dan_viking_warriors_supress_dissent
-					duration = 3650
+					duration = -1
 				}
 			}
 			west_midlands_area = {
@@ -765,7 +765,7 @@ DAN_missions_2 = {
 			normandy_area = {
 				add_province_modifier = {
 					name = dan_danish_integration
-					duration = 7300
+					duration = -1
 				}
 			}
 			brittany_area = {
@@ -822,7 +822,7 @@ DAN_missions_2 = {
 			brittany_area = {
 				add_province_modifier = {
 					name = dan_danish_integration
-					duration = 7300
+					duration = -1
 				}
 			}
 			206 = {
@@ -853,7 +853,7 @@ DAN_missions_2 = {
 			206 = {
 				add_province_modifier = {
 					name = dan_danish_integration
-					duration = 7300
+					duration = -1
 				}
 			}
 		}
@@ -922,7 +922,7 @@ DAN_missions_2 = {
 		effect = {
 			add_country_modifier = {
 				name = dan_trade_hegemon
-				duration = 10950
+				duration = -1
 			}
 		}
 	}
@@ -1053,7 +1053,7 @@ DAN_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = "baltic_ambition_new"
-				duration = 7300
+				duration = -1
 			}
 			livonia_area = {
 				limit = {
@@ -1190,19 +1190,19 @@ DAN_missions_3 = {
 			124 = {
 				add_province_modifier = {
 					name = dan_danish_integration
-					duration = 7300
+					duration = -1
 				}
 			}
 			125 = {
 				add_province_modifier = {
 					name = dan_danish_integration
-					duration = 7300
+					duration = -1
 				}
 			}
 			2982 = {
 				add_province_modifier = {
 					name = dan_danish_integration
-					duration = 7300
+					duration = -1
 				}
 			}
 			226 = {
@@ -1274,25 +1274,25 @@ DAN_missions_3 = {
 			226 = {
 				add_province_modifier = {
 					name = dan_danish_integration
-					duration = 7300
+					duration = -1
 				}
 			}
 			333 = {
 				add_province_modifier = {
 					name = dan_danish_integration
-					duration = 7300
+					duration = -1
 				}
 			}
 			126 = {
 				add_province_modifier = {
 					name = dan_danish_integration
-					duration = 7300
+					duration = -1
 				}
 			}
 			320 = {
 				add_province_modifier = {
 					name = dan_danish_integration
-					duration = 7300
+					duration = -1
 				}
 			}
 			151 = {
@@ -1322,7 +1322,7 @@ DAN_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = dan_control_of_constantinople
-				duration = 7300
+				duration = -1
 			}
 		}
 	}
@@ -1396,7 +1396,7 @@ DAN_missions_4 = {
 		effect = {
 			add_country_modifier = {
 				name = "denmark_holstein_integrated"
-				duration = 3650
+				duration = -1
 			}
 			add_adm_power = 50
 		}
@@ -1424,7 +1424,7 @@ DAN_missions_4 = {
 		effect = {
 			add_country_modifier = {
 				name = dan_colonization_boom
-				duration = 7300
+				duration = -1
 			}
 		}
 	}
@@ -1451,7 +1451,7 @@ DAN_missions_4 = {
 		effect = {
 			add_country_modifier = {
 				name = dan_colonization_boom
-				duration = 7300
+				duration = -1
 			}
 		}
 	}
@@ -1478,7 +1478,7 @@ DAN_missions_4 = {
 		effect = {
 			add_country_modifier = {
 				name = dan_colonization_boom
-				duration = 7300
+				duration = -1
 			}
 		}
 	}
@@ -1575,7 +1575,7 @@ DAN_missions_4 = {
 			12 = {
 				add_province_modifier = {
 					name = sjaeland_developed
-					duration = 7300
+					duration = -1
 				}
 			}
 		}
@@ -1632,7 +1632,7 @@ DAN_missions_5 = {
 		effect = {
 			add_country_modifier = {
 				name = dan_colonial_excitement
-				duration = 7300
+				duration = -1
 			}
 			add_dip_power = 100
 		}
@@ -1659,7 +1659,7 @@ DAN_missions_5 = {
 		effect = {
 			add_country_modifier = {
 				name = dan_colonization_boom
-				duration = 7300
+				duration = -1
 			}
 		}
 	}
@@ -1685,7 +1685,7 @@ DAN_missions_5 = {
 		effect = {
 			add_country_modifier = {
 				name = dan_route_to_india
-				duration = 7300
+				duration = -1
 			}
 			2026 = {
 				if = {
@@ -1720,7 +1720,7 @@ DAN_missions_5 = {
 		effect = {
 			add_country_modifier = {
 				name = dan_indian_trade
-				duration = 7300
+				duration = -1
 			}
 			561 = {
 				if = {
@@ -1755,7 +1755,7 @@ DAN_missions_5 = {
 		effect = {
 			add_country_modifier = {
 				name = dan_indian_trade
-				duration = 7300
+				duration = -1
 			}
 		}
 	}
@@ -1781,7 +1781,7 @@ DAN_missions_5 = {
 		effect = {
 			add_country_modifier = {
 				name = dan_indian_trade
-				duration = 7300
+				duration = -1
 			}
 			2686 = {
 				if = {
@@ -1816,7 +1816,7 @@ DAN_missions_5 = {
 		effect = {
 			add_country_modifier = {
 				name = dan_indian_trade
-				duration = 7300
+				duration = -1
 			}
 			2686 = {
 				if = {

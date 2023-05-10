@@ -31,7 +31,7 @@ ARA_missions_1 = {
 				}
 				add_country_modifier = {
 					name = diplomatic_ties
-					duration = 5475
+					duration = -1
 				}
 			}
 			else = {
@@ -135,7 +135,7 @@ ARA_missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = ara_colonial_vibes
-				duration = 9125
+				duration = -1
 			}
 		}
 	}
@@ -169,7 +169,7 @@ ARA_missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = ara_holy_land_conquered
-				duration = 9125
+				duration = -1
 			}
 			add_adm_power = 50
 			add_dip_power = 50
@@ -197,7 +197,7 @@ ARA_missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = ara_consulate
-				duration = 9125
+				duration = -1
 			}
 		}
 	}
@@ -221,7 +221,7 @@ ARA_missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = ara_archive_expanded
-				duration = 7300
+				duration = -1
 			}
 		}
 	}
@@ -293,7 +293,7 @@ ARA_missions_1 = {
 			aragon_area = {
 				add_province_modifier = {
 					name = ara_aragon_prospers_modifier
-					duration = 9125
+					duration = -1
 				}
 			}
 			214 = {
@@ -371,18 +371,18 @@ ARA_missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = ara_splendor
-				duration = 9125
+				duration = -1
 			}
 			catalonia_area = {
 				add_province_modifier = {
 					name = ara_aragon_prospers_modifier
-					duration = 9125
+					duration = -1
 				}
 			}
 			valencia_area = {
 				add_province_modifier = {
 					name = ara_aragon_prospers_modifier
-					duration = 9125
+					duration = -1
 				}
 			}
 			define_advisor = {
@@ -417,7 +417,7 @@ ARA_missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = ara_american_goods_opened_up
-				duration = 9125
+				duration = -1
 			}
 		}
 	}
@@ -496,7 +496,7 @@ ARA_missions_2 = {
 		effect = {
 			add_country_modifier = {
 				name = ara_reconquista_finished
-				duration = 9125
+				duration = -1
 			}
 		}
 	}
@@ -519,16 +519,16 @@ ARA_missions_2 = {
 			northern_morocco_area = {
 				add_province_modifier = {
 					name = ara_new_administration
-					duration = 1825
+					duration = -1
 				}
 				add_province_modifier = {
 					name = ara_convert
-					duration = 7300
+					duration = -1
 				}
 			}
 			add_country_modifier = {
 				name = ara_continue_the_reconquista_modifier
-				duration = 9125
+				duration = -1
 			}
 			southern_morocco_area = {
 				limit = {
@@ -612,51 +612,51 @@ ARA_missions_2 = {
 			tafilalt_area = {
 				add_province_modifier = {
 					name = ara_new_administration
-					duration = 1825
+					duration = -1
 				}
 				add_province_modifier = {
 					name = ara_convert
-					duration = 7300
+					duration = -1
 				}
 			}
 			sus_area = {
 				add_province_modifier = {
 					name = ara_new_administration
-					duration = 1825
+					duration = -1
 				}
 				add_province_modifier = {
 					name = ara_convert
-					duration = 7300
+					duration = -1
 				}
 			}
 			marrekesh_area = {
 				add_province_modifier = {
 					name = ara_new_administration
-					duration = 1825
+					duration = -1
 				}
 				add_province_modifier = {
 					name = ara_convert
-					duration = 7300
+					duration = -1
 				}
 			}
 			western_morocco_area = {
 				add_province_modifier = {
 					name = ara_new_administration
-					duration = 1825
+					duration = -1
 				}
 				add_province_modifier = {
 					name = ara_convert
-					duration = 7300
+					duration = -1
 				}
 			}
 			southern_morocco_area = {
 				add_province_modifier = {
 					name = ara_new_administration
-					duration = 1825
+					duration = -1
 				}
 				add_province_modifier = {
 					name = ara_convert
-					duration = 7300
+					duration = -1
 				}
 			}
 		}
@@ -700,7 +700,7 @@ ARA_missions_2 = {
 			}
 			add_country_modifier = {
 				name = ara_egypt_conquered
-				duration = 9125
+				duration = -1
 			}
 		}
 	}
@@ -751,7 +751,7 @@ ARA_missions_2 = {
 		effect = {
 			add_country_modifier = {
 				name = ara_bronze_demand_modifier
-				duration = 9125
+				duration = -1
 			}
 		}
 	}
@@ -778,7 +778,7 @@ ARA_missions_2 = {
 		effect = {
 			add_country_modifier = {
 				name = ara_iron_demand_modifier
-				duration = 9125
+				duration = -1
 			}
 		}
 	}
@@ -820,7 +820,7 @@ ARA_missions_2 = {
 		effect = {
 			add_country_modifier = {
 				name = ara_opened_up_ports
-				duration = 7300
+				duration = -1
 			}
 			add_mercantilism = 5
 		}
@@ -914,11 +914,11 @@ ARA_missions_3 = {
 			kabylia_area = {
 				add_province_modifier = {
 					name = ara_new_administration
-					duration = 1825
+					duration = -1
 				}
 				add_province_modifier = {
 					name = ara_convert
-					duration = 7300
+					duration = -1
 				}
 			}
 			barbary_coast_area = {
@@ -970,21 +970,21 @@ ARA_missions_3 = {
 			barbary_coast_area = {
 				add_province_modifier = {
 					name = ara_new_administration
-					duration = 1825
+					duration = -1
 				}
 				add_province_modifier = {
 					name = ara_convert
-					duration = 7300
+					duration = -1
 				}
 			}
 			algiers_area = {
 				add_province_modifier = {
 					name = ara_new_administration
-					duration = 1825
+					duration = -1
 				}
 				add_province_modifier = {
 					name = ara_convert
-					duration = 7300
+					duration = -1
 				}
 			}
 			north_saharan_area = {
@@ -1046,41 +1046,41 @@ ARA_missions_3 = {
 			fezzan_area = {
 				add_province_modifier = {
 					name = ara_new_administration
-					duration = 1825
+					duration = -1
 				}
 				add_province_modifier = {
 					name = ara_convert
-					duration = 7300
+					duration = -1
 				}
 			}
 			hautes_plaines_area = {
 				add_province_modifier = {
 					name = ara_new_administration
-					duration = 1825
+					duration = -1
 				}
 				add_province_modifier = {
 					name = ara_convert
-					duration = 7300
+					duration = -1
 				}
 			}
 			north_saharan_area = {
 				add_province_modifier = {
 					name = ara_new_administration
-					duration = 1825
+					duration = -1
 				}
 				add_province_modifier = {
 					name = ara_convert
-					duration = 7300
+					duration = -1
 				}
 			}
 			ouled_nail_area = {
 				add_province_modifier = {
 					name = ara_new_administration
-					duration = 1825
+					duration = -1
 				}
 				add_province_modifier = {
 					name = ara_convert
-					duration = 7300
+					duration = -1
 				}
 			}
 			custom_tooltip = ARA_DJERID_STATES_ARE_FREE
@@ -1204,12 +1204,12 @@ ARA_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = ara_adriatic_trade
-				duration = 7300
+				duration = -1
 			}
 			136 = {
 				add_trade_modifier = {
 					who = ROOT
-					duration = 9125
+					duration = -1
 					power = 15
 					key = ara_adriatic_trade_modifier
 				}
@@ -1267,7 +1267,7 @@ ARA_missions_3 = {
 			}
 			add_country_modifier = {
 				name = ara_ivory_coast_trade_modifier
-				duration = 9125
+				duration = -1
 			}
 		}
 	}
@@ -1308,7 +1308,7 @@ ARA_missions_4 = {
 			201 = {
 				add_trade_modifier = {
 					who = ROOT
-					duration = 10950
+					duration = -1
 					power = 10
 					key = Me_ara_Rhone_Route
 				}
@@ -1316,7 +1316,7 @@ ARA_missions_4 = {
 			192 = {
 				add_trade_modifier = {
 					who = ROOT
-					duration = 10950
+					duration = -1
 					power = 10
 					key = Me_ara_Rhone_Route
 				}
@@ -1350,7 +1350,7 @@ ARA_missions_4 = {
 		effect = {
 			add_country_modifier = {
 				name = ara_power
-				duration = 5475
+				duration = -1
 			}
 			random_owned_province = {
 				limit = {
@@ -1421,21 +1421,21 @@ ARA_missions_4 = {
 			tunisia_area = {
 				add_province_modifier = {
 					name = ara_new_administration
-					duration = 1825
+					duration = -1
 				}
 				add_province_modifier = {
 					name = ara_convert
-					duration = 7300
+					duration = -1
 				}
 			}
 			djerba_area = {
 				add_province_modifier = {
 					name = ara_new_administration
-					duration = 1825
+					duration = -1
 				}
 				add_province_modifier = {
 					name = ara_convert
-					duration = 7300
+					duration = -1
 				}
 			}
 			tripolitania_area = {
@@ -1466,11 +1466,11 @@ ARA_missions_4 = {
 			tripolitania_area = {
 				add_province_modifier = {
 					name = ara_new_administration
-					duration = 1825
+					duration = -1
 				}
 				add_province_modifier = {
 					name = ara_convert
-					duration = 7300
+					duration = -1
 				}
 			}
 			fezzan_area = {
@@ -1508,11 +1508,11 @@ ARA_missions_4 = {
 			cyrenaica_area = {
 				add_province_modifier = {
 					name = ara_new_administration
-					duration = 1825
+					duration = -1
 				}
 				add_province_modifier = {
 					name = ara_convert
-					duration = 7300
+					duration = -1
 				}
 			}
 			delta_area = {
@@ -1596,7 +1596,7 @@ ARA_missions_4 = {
 			}
 			add_country_modifier = {
 				name = ara_centre_of_renaissance
-				duration = 9125
+				duration = -1
 			}
 		}
 	}
@@ -1668,7 +1668,7 @@ ARA_missions_4 = {
 			318 = {
 				add_trade_modifier = {
 					who = ROOT
-					duration = 7300
+					duration = -1
 					power = 15
 					key = ara_sugla_trade
 				}
@@ -1690,7 +1690,7 @@ ARA_missions_4 = {
 		effect = {
 			add_country_modifier = {
 				name = Booming_trade
-				duration = 7300
+				duration = -1
 			}
 			add_years_of_income = 0.5
 		}
@@ -1706,7 +1706,7 @@ ARA_missions_4 = {
 		effect = {
 			add_country_modifier = {
 				name = Booming_trade
-				duration = 7300
+				duration = -1
 			}
 			add_years_of_income = 0.5
 		}
@@ -1748,7 +1748,7 @@ ARA_missions_5 = {
 		effect = {
 			add_country_modifier = {
 				name = ara_hegemony_in_the_mediterranean
-				duration = 9125
+				duration = -1
 			}
 		}
 	}
@@ -1896,7 +1896,7 @@ ARA_missions_5 = {
 			}
 			add_country_modifier = {
 				name = ara_athenian_legacy
-				duration = 9125
+				duration = -1
 			}
 		}
 	}
@@ -1939,7 +1939,7 @@ ARA_missions_5 = {
 			}
 			add_country_modifier = {
 				name = ara_alexander_legacy
-				duration = 9125
+				duration = -1
 			}
 		}
 	}
@@ -1964,7 +1964,7 @@ ARA_missions_5 = {
 				}
 				add_province_modifier = {
 					name = ara_production
-					duration = 7300
+					duration = -1
 				}
 			}
 		}
@@ -1994,7 +1994,7 @@ ARA_missions_5 = {
 		effect = {
 			add_country_modifier = {
 				name = "proto_industrialization"
-				duration = 9125
+				duration = -1
 			}
 			add_years_of_income = 1.5
 		}

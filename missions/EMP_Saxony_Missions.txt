@@ -58,7 +58,7 @@ emp_sax_missions_conquest = {
 				add_nationalism = -10
 				add_province_modifier = {
 					name = sax_saxon_settlement
-					duration = 10950
+					duration = -1
 				}
 			}
 			lusatia_area = {
@@ -66,7 +66,7 @@ emp_sax_missions_conquest = {
 				add_nationalism = -10
 				add_province_modifier = {
 					name = sax_saxon_settlement
-					duration = 10950
+					duration = -1
 				}
 			}
 			silesia_area = {
@@ -107,7 +107,7 @@ emp_sax_missions_conquest = {
 				add_nationalism = -10
 				add_province_modifier = {
 					name = sax_saxon_settlement
-					duration = 10950
+					duration = -1
 				}
 			}
 			neumark_area = {
@@ -263,7 +263,7 @@ emp_sax_missions_defragment_and_go_east = {
 		effect = {
 			add_country_modifier = {
 				name = sax_saxon_ambition
-				duration = 7300
+				duration = -1
 			}
 		}
 	}
@@ -306,7 +306,7 @@ emp_sax_missions_defragment_and_go_east = {
 		effect = {
 			add_country_modifier = {
 				name = sax_defeated_brandenburg
-				duration = 7300
+				duration = -1
 			}
 		}
 	}
@@ -476,7 +476,7 @@ emp_sax_missions_conquer_franconia = {
 			add_adm_power = 50
 			add_country_modifier = {
 				name = sax_holder_of_duchies
-				duration = 7300
+				duration = -1
 				
 			}
 		}
@@ -535,7 +535,7 @@ emp_sax_missions_religion = {
 		effect = {
 			add_country_modifier = {
 				name = sax_wittenberg_uni
-				duration = 7300
+				duration = -1
 			}
 			59 = {
 				if = {
@@ -663,7 +663,7 @@ emp_sax_missions_religion = {
 			add_dip_power = 50
 			add_country_modifier = {
 				name = sax_king_of_poland
-				duration = 7300
+				duration = -1
 			}
 		}
 	}
@@ -702,7 +702,7 @@ emp_sax_missions_culture_1 = {
 			add_prestige = 25
 			add_country_modifier = {
 				name = sax_weimar_classicism
-				duration = 7300
+				duration = -1
 			}
 		}
 	}
@@ -920,13 +920,13 @@ emp_sax_missions_culture_2 = {
 				}
 				add_country_modifier = {
 					name = sax_many_thrones
-					duration = 7300
+					duration = -1
 				}
 			}
 			else = {
 				add_country_modifier = {
 					name = sax_lots_of_influence
-					duration = 7300
+					duration = -1
 				}
 			}
 
@@ -1120,7 +1120,7 @@ emp_sax_missions_economic = {
 					add_base_production = 4
 					add_province_modifier = {
 						name = sax_meissen_development
-						duration = 7300
+						duration = -1
 					}
 				}
 			}

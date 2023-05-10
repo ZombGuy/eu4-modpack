@@ -21,7 +21,7 @@ GEO_missions_1_shared = {
 		effect = {
 			add_country_modifier = {
 				name = GEO_bastion_of_christ
-				duration = 18250
+				duration = -1
 			}
 		}
 	}
@@ -62,7 +62,7 @@ IME_missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = GEO_our_lands
-				duration = 1825
+				duration = -1
 			}
 		}
 	}
@@ -181,7 +181,7 @@ GEO_missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = GEO_peasants_flock
-				duration = 5475
+				duration = -1
 			}
 		}
 	}
@@ -219,7 +219,7 @@ GEO_missions_1 = {
 			#doesn't make quite sense
 			add_country_modifier = {
 				name = GEO_unbrided_prosperity
-				duration = 9125
+				duration = -1
 			}
 		}
 	}
@@ -251,7 +251,7 @@ GEO_missions_2_shared = {
 		effect = {
 			add_country_modifier = {
 				name = GEO_restoration_campaigns
-				duration = 7300
+				duration = -1
 			}
 			if = {
 				limit = {
@@ -337,7 +337,7 @@ GEO_missions_2 = {
 		effect = {
 			add_country_modifier = {
 				name = GEO_our_lands
-				duration = 1825
+				duration = -1
 			}
 		}
 	}
@@ -371,7 +371,7 @@ GEO_missions_2 = {
 		effect = {
 			add_country_modifier = {
 				name = GEO_ruler_of_the_georgian_people
-				duration = 10950
+				duration = -1
 			}
 			armenia_area = {
 				limit = {
@@ -505,7 +505,7 @@ IME_missions_3 = {
 				change_mil = 1
 				add_country_modifier = {
 					name = GEO_resolved_centralization
-					duration = 10950
+					duration = -1
 				}
 			}
 			else = {
@@ -515,14 +515,14 @@ IME_missions_3 = {
 					}
 					add_province_modifier = {
 						name = GEO_harsh_centralization
-						duration = 5475
+						duration = -1
 					}
 				}
 			}
 			4301 = {
 				add_province_modifier = {
 					name = GEO_flank_secured
-					duration = 3650
+					duration = -1
 				}
 			}
 			armenia_area = {
@@ -620,21 +620,21 @@ GEO_missions_3 = {
 				change_adm = 1
 				add_country_modifier = {
 					name = GEO_resolved_centralization
-					duration = 10950
+					duration = -1
 				}
 			}
 			else = {
 				imereti_area = {
 					add_province_modifier = {
 						name = GEO_harsh_centralization
-						duration = 5475
+						duration = -1
 					}
 				}
 			}
 			4301 = {
 				add_province_modifier = {
 					name = GEO_flank_secured
-					duration = 3650
+					duration = -1
 				}
 			}
 			circassia_area = {
@@ -664,7 +664,7 @@ GEO_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name =  GEO_conquest_of_circassia
-				duration = 7300
+				duration = -1
 			}
 			dagestan_area = {
 				limit = {
@@ -693,7 +693,7 @@ GEO_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = GEO_dagestani_levy
-				duration = 10950
+				duration = -1
 			}
 		}
 	}
@@ -724,7 +724,7 @@ GEO_missions_4_shared = {
 			add_prestige = 10
 			add_country_modifier = {
 				name = GEO_georgians_stand_strong
-				duration = 5475
+				duration = -1
 			}
 		}
 	}
@@ -750,7 +750,7 @@ GEO_missions_4_shared = {
 		effect = {
 			add_country_modifier = {
 				name = GEO_influx_of_trade
-				duration = 10950
+				duration = -1
 			}
 			crimea_area = {
 				limit = {
@@ -790,7 +790,7 @@ GEO_missions_4 = {
 			#not adding the core effect, reduntant and hard to script, also needs custom tooltip
 			add_country_modifier = {
 				name = GEO_conquest_of_the_peninsula
-				duration = 10950
+				duration = -1
 			}
 		}
 	}
@@ -826,7 +826,7 @@ GEO_missions_5_shared = {
 			change_mil = 1
 			add_country_modifier = {
 				name = GEO_mountain_men
-				duration = 10950
+				duration = -1
 			}
 		}
 	}
@@ -843,7 +843,7 @@ GEO_missions_5_shared = {
 		effect = {
 			add_country_modifier = {
 				name = GEO_full_militarization
-				duration = 10950
+				duration = -1
 			}
 		}
 	}

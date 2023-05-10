@@ -111,7 +111,7 @@ dan_secure_baltic_mission_slot = {
 		effect = {
 			add_country_modifier = {
 				name = dan_humiliated_the_hanse
-				duration = 10950
+				duration = -1
 			}
 			custom_tooltip = dan_eliminate_the_hanse_at
 			hidden_effect = { set_country_flag = dan_enable_trade_conflict_war_decision }
@@ -351,13 +351,13 @@ dan_secure_baltic_mission_slot = {
 					NOT = { has_any_colonist_idea = yes }
 				}
 				add_temporary_colonist = {
-					duration = 27375
+					duration = -1
 				}
 			}
 			else = {
 				add_country_modifier = {
 					name = dan_new_world_expansion
-					duration = 9125
+					duration = -1
 				}
 			}
 			if = {
@@ -740,7 +740,7 @@ dan_trade_and_colonial_mission_slot = {
 			}
 			add_country_modifier = {
 				name = dan_colonial_ambitions_mod
-				duration = 18250
+				duration = -1
 			}
 		}
 	}
@@ -780,13 +780,13 @@ dan_trade_and_colonial_mission_slot = {
 					}
 					add_province_modifier = {
 						name = dan_danish_gold_coast
-						duration = 9125
+						duration = -1
 					}
 				}
 			}
 			add_country_modifier = {
 				name = dan_gold_coast_control
-				duration = 9125
+				duration = -1
 			}
 			custom_tooltip = dan_colonize_the_gold_coast_tt
 			hidden_effect = {
@@ -1193,7 +1193,7 @@ dan_norway_holstein_mission_slot = {
 			remove_country_modifier = dan_exploiting_norwegians
 			add_country_modifier = {
 				name = dan_norwegian_marines
-				duration = 18250
+				duration = -1
 			}
 		}
 	}
@@ -1493,7 +1493,7 @@ dan_norway_holstein_mission_slot = {
 				}
 				add_province_modifier = {
 					name = dan_east_india_company
-					duration = 9125
+					duration = -1
 				}
 			}
 			kanara_area = {
@@ -1502,7 +1502,7 @@ dan_norway_holstein_mission_slot = {
 				}
 				add_province_modifier = {
 					name = dan_east_india_company
-					duration = 9125
+					duration = -1
 				}
 			}
 			konkan_area = {
@@ -1511,7 +1511,7 @@ dan_norway_holstein_mission_slot = {
 				}
 				add_province_modifier = {
 					name = dan_east_india_company
-					duration = 9125
+					duration = -1
 				}
 			}
 			if = {
@@ -1687,7 +1687,7 @@ dan_sweden_and_great_power_mission_slot = {
 			}
 			add_country_modifier = {
 				name = dan_swedish_steel
-				duration = 18250
+				duration = -1
 			}
 		}
 	}
@@ -2003,7 +2003,7 @@ dan_sweden_and_great_power_mission_slot = {
 				}
 				add_province_modifier = {
 					name = dan_east_india_company
-					duration = 9125
+					duration = -1
 				}
 			}
 			east_bengal_area = {
@@ -2012,7 +2012,7 @@ dan_sweden_and_great_power_mission_slot = {
 				}
 				add_province_modifier = {
 					name = dan_east_india_company
-					duration = 9125
+					duration = -1
 				}
 			}
 			west_bengal_area = {
@@ -2021,7 +2021,7 @@ dan_sweden_and_great_power_mission_slot = {
 				}
 				add_province_modifier = {
 					name = dan_east_india_company
-					duration = 9125
+					duration = -1
 				}
 			}
 			if = {
@@ -2129,7 +2129,7 @@ dan_england_mission_slot = {
 		effect = {
 			add_country_modifier = {
 				name = dan_naval_preperations
-				duration = 10950
+				duration = -1
 			}
 		}
 	}
@@ -2520,20 +2520,20 @@ dan_religion_mission_slot = {
 			add_papal_influence = 50
 			add_country_modifier = {
 				name = dan_catholic_support
-				duration = 9125
+				duration = -1
 			}
 			custom_tooltip = swe_reformation_effects_tt
 			add_church_power = 100
 			add_fervor = 50
 			add_country_modifier = {
 				name = dan_protestant_support
-				duration = 9125
+				duration = -1
 			}
 			custom_tooltip = swe_humanist_effects_tt
 			add_stability_or_adm_power = yes
 			add_country_modifier = {
 				name = dan_communication_between_the_faiths
-				duration = 9125
+				duration = -1
 			}
 		}
 	}
@@ -2905,7 +2905,7 @@ dan_catholic_mission_slot = {
 			add_papal_influence = 50
 			add_country_modifier = {
 				name = dan_catholic_support
-				duration = 9125
+				duration = -1
 			}
 		}
 	}
@@ -3114,7 +3114,7 @@ dan_protestant_mission_slot = {
 			add_fervor = 50
 			add_country_modifier = {
 				name = dan_protestant_support
-				duration = 9125
+				duration = -1
 			}
 		}
 	}
@@ -3313,7 +3313,7 @@ dan_humanist_mission_slot = {
 			add_stability_or_adm_power = yes
 			add_country_modifier = {
 				name = dan_communication_between_the_faiths
-				duration = 9125
+				duration = -1
 			}
 		}
 	}
@@ -3476,7 +3476,7 @@ dan_norse_mission_slot = {
 		effect = {
 			add_country_modifier = {
 				name = dan_plunder_and_pillaging
-				duration = 12775
+				duration = -1
 			}
 		}
 	}
@@ -3701,7 +3701,7 @@ dan_sca_india_mission_slot_3 = {
 				}
 				add_province_modifier = {
 					name = dan_sca_scandinavian_india
-					duration = 9125
+					duration = -1
 				}
 			}
 			deccan_region = {
@@ -3710,7 +3710,7 @@ dan_sca_india_mission_slot_3 = {
 				}
 				add_province_modifier = {
 					name = dan_sca_scandinavian_india
-					duration = 9125
+					duration = -1
 				}
 			}
 			if = {
@@ -3796,7 +3796,7 @@ dan_sca_india_mission_slot_4 = {
 				}
 				add_province_modifier = {
 					name = dan_sca_scandinavian_india
-					duration = 9125
+					duration = -1
 				}
 			}
 			hindusthan_region = {
@@ -3805,7 +3805,7 @@ dan_sca_india_mission_slot_4 = {
 				}
 				add_province_modifier = {
 					name = dan_sca_scandinavian_india
-					duration = 9125
+					duration = -1
 				}
 			}
 			if = {
@@ -3923,7 +3923,7 @@ dan_sca_colonize_north_america_mission_slot_1 = {
 			1486 = {
 				add_trade_modifier = {
 					who = ROOT
-					duration = 10950
+					duration = -1
 					power = 15
 					key = dan_colonize_canada_and_na_at
 				}
@@ -3931,7 +3931,7 @@ dan_sca_colonize_north_america_mission_slot_1 = {
 			1490 = {
 				add_trade_modifier = {
 					who = ROOT
-					duration = 10950
+					duration = -1
 					power = 15
 					key = dan_colonize_canada_and_na_at
 				}
@@ -3939,7 +3939,7 @@ dan_sca_colonize_north_america_mission_slot_1 = {
 			1500 = {
 				add_trade_modifier = {
 					who = ROOT
-					duration = 10950
+					duration = -1
 					power = 15
 					key = dan_colonize_canada_and_na_at
 				}
@@ -3964,7 +3964,7 @@ dan_sca_colonize_north_america_mission_slot_1 = {
 		effect = {
 			add_country_modifier = {
 				name = nor_new_world_administration
-				duration = 9125
+				duration = -1
 			}
 		}
 	}
@@ -4091,7 +4091,7 @@ dan_sca_conquest_slot_2 = {
 				}
 				add_country_modifier = {
 					name = "swe_pommerania_conquered"
-					duration = 9125
+					duration = -1
 				}
 				lower_saxony_area = {
 					limit = {

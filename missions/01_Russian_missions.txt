@@ -263,7 +263,7 @@ consolidate_expand_russia_missions = {
 			# dip rep/integration speed to annex remaining vassals
 			add_country_modifier = {
 				name = "russian_integration"
-				duration = 5475
+				duration = -1
 			}
 			ruthenia_region = {
 				limit = {
@@ -321,7 +321,7 @@ consolidate_expand_russia_missions = {
 				limit = { owned_by = ROOT }
 				add_province_modifier = {
 					name = "ruthenian_integration"
-					duration = 5475
+					duration = -1
 				}
 			}
 			finland_area = {
@@ -401,7 +401,7 @@ consolidate_expand_russia_missions = {
 		effect = {
 			add_country_modifier = {
 				name = "conquest_of_finland"
-				duration = 5475
+				duration = -1
 			}
 		}
 		ai_weight = {
@@ -458,7 +458,7 @@ russia_conquer_baltic_mission_slot = {
 			# military bonus
 			add_country_modifier = {
 				name = "baltic_ambition_new"
-				duration = 5475
+				duration = -1
 			}
 		}
 		ai_weight = {
@@ -572,28 +572,28 @@ russia_steppe_siberia_missions = {
 				limit = { owned_by = ROOT }
 				add_province_modifier = {
 					name = "convert_the_steppes"
-					duration = 5475
+					duration = -1
 				}
 			}
 			volga_area = {
 				limit = { owned_by = ROOT }
 				add_province_modifier = {
 					name = "convert_the_steppes"
-					duration = 5475
+					duration = -1
 				}
 			}
 			kama_area = {
 				limit = { owned_by = ROOT }
 				add_province_modifier = {
 					name = "convert_the_steppes"
-					duration = 5475
+					duration = -1
 				}
 			}
 			samara_area = {
 				limit = { owned_by = ROOT }
 				add_province_modifier = {
 					name = "convert_the_steppes"
-					duration = 5475
+					duration = -1
 				}
 			}
 			tambov_area = {
@@ -671,7 +671,7 @@ russia_steppe_siberia_missions = {
 				}
 				add_province_modifier = {
 					name = "convert_the_steppes"
-					duration = 5475
+					duration = -1
 				}
 			}
 			lower_don_area = {
@@ -680,7 +680,7 @@ russia_steppe_siberia_missions = {
 				}
 				add_province_modifier = {
 					name = "convert_the_steppes"
-					duration = 5475
+					duration = -1
 				}
 			}
 			astrakhan_area = {
@@ -689,7 +689,7 @@ russia_steppe_siberia_missions = {
 				}
 				add_province_modifier = {
 					name = "convert_the_steppes"
-					duration = 5475
+					duration = -1
 				}
 			}
 			saratov_area = {
@@ -698,7 +698,7 @@ russia_steppe_siberia_missions = {
 				}
 				add_province_modifier = {
 					name = "convert_the_steppes"
-					duration = 5475
+					duration = -1
 				}
 			}
 			crimea_region = {
@@ -761,7 +761,7 @@ russia_steppe_siberia_missions = {
 		effect = {
 			add_country_modifier = {
 				name = "controlling_the_steppes"
-				duration = 5475
+				duration = -1
 			}
 			crimea_region = {
 				limit = {
@@ -769,7 +769,7 @@ russia_steppe_siberia_missions = {
 				}
 				add_province_modifier = {
 					name = "convert_the_steppes"
-					duration = 5475
+					duration = -1
 				}
 			}
 		}
@@ -821,7 +821,7 @@ russia_siberian_missions_slot = {
 				}
 				add_country_modifier = {
 					name = "colonial_enthusiasm"
-					duration = 5475
+					duration = -1
 				}
 				
 			}
@@ -835,7 +835,7 @@ russia_siberian_missions_slot = {
 				}
 				add_province_modifier = {
 					name = "siberian_fur_production"
-					duration = 5475
+					duration = -1
 				}
 			}
 		}
@@ -863,7 +863,7 @@ russia_siberian_missions_slot = {
 		effect = {
 			add_country_modifier = {
 				name = "colonial_enthusiasm"
-				duration = 5475
+				duration = -1
 			}
 			if = {
 				limit = {
@@ -965,7 +965,7 @@ russia_continue_steppes_mission_slot = {
 		effect = {
 			add_country_modifier = {
 				name = "controlling_the_steppes" # from old missions
-				duration = 5475
+				duration = -1
 			}
 			ural_region = {
 				limit = {
@@ -973,7 +973,7 @@ russia_continue_steppes_mission_slot = {
 				}
 				add_province_modifier = {
 					name = "convert_the_steppes"
-					duration = 5475
+					duration = -1
 				}
 			}
 			west_siberia_region = {
@@ -982,7 +982,7 @@ russia_continue_steppes_mission_slot = {
 				}
 				add_province_modifier = {
 					name = "convert_the_steppes"
-					duration = 5475
+					duration = -1
 				}
 			}
 			nogai_area = {
@@ -991,7 +991,7 @@ russia_continue_steppes_mission_slot = {
 				}
 				add_province_modifier = {
 					name = "convert_the_steppes"
-					duration = 5475
+					duration = -1
 				}
 			}
 			lower_yik_area = {
@@ -1000,7 +1000,7 @@ russia_continue_steppes_mission_slot = {
 				}
 				add_province_modifier = {
 					name = "convert_the_steppes"
-					duration = 5475
+					duration = -1
 				}
 			}
 		}

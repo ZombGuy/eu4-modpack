@@ -29,7 +29,7 @@ tur_conquerors_of_the_near_east = {
 		effect = {
 			add_country_modifier = {
 				name = "defeated_byzantine_empire"
-				duration = 5475
+				duration = -1
 			}
 			every_province = {
 				limit = {
@@ -77,7 +77,7 @@ tur_conquerors_of_the_near_east = {
 		effect = {
 			add_country_modifier = {
 				name = "ottoman_naval_expansion"
-				duration = 5475
+				duration = -1
 			}
 			rascia_area = {
 				limit = {
@@ -151,7 +151,7 @@ tur_conquerors_of_the_near_east = {
 		effect = {
 			add_country_modifier = {
 				name = "at_the_gates_of_europe"
-				duration = 3650
+				duration = -1
 			}
 			bosnia_area = {
 				limit = {
@@ -226,7 +226,7 @@ tur_conquerors_of_the_near_east = {
 		effect = {
 			add_country_modifier = {
 				name = "ottoman_hungary"
-				duration = 7300
+				duration = -1
 			}
 			austria_proper_area = {
 				limit = {
@@ -335,7 +335,7 @@ tur_eastern_balkans = {
 		effect = {
 			add_country_modifier = {
 				name = "principality_of_transylvania"
-				duration = 5475
+				duration = -1
 			}
 			slovakia_area = {
 				limit = {
@@ -493,7 +493,7 @@ tur_conquest_of_middle_east = {
 		effect = {
 			add_country_modifier = {
 				name = "anatolia_eyalet"
-				duration = 3650
+				duration = -1
 			}
 			north_kurdistan_area = {
 				limit = {
@@ -681,7 +681,7 @@ tur_conquest_of_middle_east = {
 			408 = {
 				add_trade_modifier = {
 					who = root
-					duration = 7300
+					duration = -1
 					power = 20
 					key = indian_ocean_ambition
 				}
@@ -766,7 +766,7 @@ tur_black_sea = {
 			285 = {
 				add_trade_modifier = {
 					who = root
-					duration = 7300
+					duration = -1
 					power = 35
 					key = black_sea_ambition
 				}
@@ -828,7 +828,7 @@ tur_eastern_mediterrenean_missions = {
 		effect = {
 			add_country_modifier = {
 				name = "conquest_of_the_levant"
-				duration = 5475
+				duration = -1
 			}
 			delta_area = {
 				limit = {
@@ -938,7 +938,7 @@ tur_eastern_mediterrenean_missions = {
 				limit = { owned_by = ROOT }
 				add_province_modifier = {
 					name = "faster_integration"
-					duration = 5475
+					duration = -1
 				}
 			}
 			#Hejaz:
@@ -1011,7 +1011,7 @@ tur_eastern_mediterrenean_missions = {
 			add_permanent_claim = 163
 			add_country_modifier = {
 				name = "ottoman_naval_dominance"
-				duration = 7300
+				duration = -1
 			}
 		}
 		
@@ -1036,7 +1036,7 @@ tur_eastern_mediterrenean_missions = {
 			add_claim = 142
 			add_country_modifier = {
 				name = "mediterranean_ambition"
-				duration = 7300 #20 Years
+				duration = -1
 			}
 		}
 		
@@ -1247,7 +1247,7 @@ tur_indian_ocean = {
 			387 = {
 				add_trade_modifier = {
 					who = root
-					duration = 7300
+					duration = -1
 					power = 25
 					key = indian_ocean_ambition
 				}

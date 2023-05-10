@@ -396,7 +396,7 @@ aachen_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = "frankfurt_trade"
-				duration = 9125
+				duration = -1
 			}
 		}
 	}
@@ -475,7 +475,7 @@ aachen_missions_4 = {
 				limit = { is_elector = yes }
 				add_country_modifier = {
 					name = "elector_claimant"
-					duration = 3650
+					duration = -1
 				}
 			}
 			else = {
@@ -546,7 +546,7 @@ aachen_form_francia_mission = {
 		effect = {
 			add_country_modifier = {
 				name = "flemish_cloth_trade"
-				duration = 9125
+				duration = -1
 			}
 		}
 	}

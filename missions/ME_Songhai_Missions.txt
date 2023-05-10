@@ -328,7 +328,7 @@ songhai_missions_2 = {
 					}
 					add_province_modifier = {
 						name = son_centre_of_gold
-						duration = 12775
+						duration = -1
 					}
 				}
 			}
@@ -336,7 +336,7 @@ songhai_missions_2 = {
 			tooltip = {
 				add_province_modifier = {
 					name = son_centre_of_gold
-					duration = 12775
+					duration = -1
 				}
 			}
 		}
@@ -581,7 +581,7 @@ songhai_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = son_scholars_of_songhai
-				duration = 7300
+				duration = -1
 			}
 			if = {
 				limit = {
@@ -646,7 +646,7 @@ songhai_missions_4 = {
 				}
 				add_province_modifier = {
 					name = son_convert_the_unbelievers
-					duration = 7300
+					duration = -1
 				}
 			}
 			atacora_oueme_area = {
@@ -655,7 +655,7 @@ songhai_missions_4 = {
 				}
 				add_province_modifier = {
 					name = son_convert_the_unbelievers
-					duration = 7300
+					duration = -1
 				}
 			}
 			lower_volta_area = {
@@ -664,7 +664,7 @@ songhai_missions_4 = {
 				}
 				add_province_modifier = {
 					name = son_convert_the_unbelievers
-					duration = 7300
+					duration = -1
 				}
 			}
 			lower_niger_area = {
@@ -720,7 +720,7 @@ songhai_missions_4 = {
 			else = {
 				add_country_modifier = {
 					name = son_conservative_society
-					duration = 7300
+					duration = -1
 				}
 			}
 		}
@@ -769,7 +769,7 @@ songhai_missions_4 = {
 		effect = {
 			add_country_modifier = {
 				name = son_trade_with_europe
-				duration = 5475
+				duration = -1
 			}
 		}
 	}
@@ -857,13 +857,13 @@ songhai_missions_5 = {
 				}
 				add_country_modifier = {
 					name = son_tran_saharan_trade
-					duration = 7300
+					duration = -1
 				}
 			}
 			else = {
 				add_country_modifier = {
 					name = son_tran_saharan_trade_no_dlc
-					duration = 7300
+					duration = -1
 				}
 			}
 		}

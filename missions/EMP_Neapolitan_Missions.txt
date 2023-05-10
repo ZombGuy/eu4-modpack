@@ -199,7 +199,7 @@ emp_naples_2 = {
 			else = {
 				add_country_modifier = {
 					name = "nap_ragusa_trade"
-					duration = 7300
+					duration = -1
 				}
 			}
 		}

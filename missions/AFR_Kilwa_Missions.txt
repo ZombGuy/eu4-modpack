@@ -116,7 +116,7 @@ kilwa_cape_missions_slot = {
 		effect = {
 			add_country_modifier = {
 				name = zan_expansion_into_the_cape
-				duration = 18250
+				duration = -1
 			}
 			create_colony_mission_reward = {
 				province = 1177
@@ -576,14 +576,14 @@ kilwa_trade_conquest_missions_slot = {
 			4346 = {
 				add_trade_modifier = {
 					who = ROOT
-					duration = 9125
+					duration = -1
 					power = 10
 					key = ZAN_DOMINATION
 				}
 			}
 			add_country_modifier = {
 				name = zan_kilwan_trade_dominance
-				duration = 9125
+				duration = -1
 			}
 			custom_tooltip = zan_dominate_gulf_of_aden_ct
 			hidden_effect = {
@@ -789,7 +789,7 @@ kilwa_asia_trade_missions_slot = {
 					}
 					add_province_modifier = {
 						name = zan_conversion_of_fetishist
-						duration = 9125
+						duration = -1
 					}
 				}
 				southern_madagascar = {
@@ -798,7 +798,7 @@ kilwa_asia_trade_missions_slot = {
 					}
 					add_province_modifier = {
 						name = zan_conversion_of_fetishist
-						duration = 9125
+						duration = -1
 					}
 				}
 				sakalava_area = {
@@ -807,7 +807,7 @@ kilwa_asia_trade_missions_slot = {
 					}
 					add_province_modifier = {
 						name = zan_conversion_of_fetishist
-						duration = 9125
+						duration = -1
 					}
 				}
 				betsimasaraka_area = {
@@ -816,7 +816,7 @@ kilwa_asia_trade_missions_slot = {
 					}
 					add_province_modifier = {
 						name = zan_conversion_of_fetishist
-						duration = 9125
+						duration = -1
 					}
 				}
 			}
@@ -943,7 +943,7 @@ kilwa_colonization_missions_slot = {
 		effect = {
 			add_country_modifier = {
 				name = zan_trade_with_india
-				duration = 9125
+				duration = -1
 			}
 			create_explorer = {
 				tradition = 40
@@ -1085,7 +1085,7 @@ kilwa_colonization_missions_slot = {
 		effect = {
 			add_country_modifier = {
 				name = zan_colonial_ambition
-				duration = 9125
+				duration = -1
 			}
 		}
 		ai_weight = {

@@ -65,28 +65,28 @@ SardiniaPiedmont_missions_1 = {
 			tooltip = {
 				add_country_modifier = {
 					name = spi_cassa_ecclesiastica
-					duration = 12775
+					duration = -1
 				}
 			}
 			custom_tooltip = SPI_blessing_TT
 			tooltip = {
 				add_country_modifier = {
 					name = spi_papal_blessing
-					duration = 7300
+					duration = -1
 				}
 			}
 			custom_tooltip = SPI_pious_TT
 			tooltip = {
 				add_country_modifier = {
 					name = spi_pious_ruling
-					duration = 9125
+					duration = -1
 				}
 			}
 			custom_tooltip = SPI_progressive_TT
 			tooltip = {
 				add_country_modifier = {
 					name = spi_progressive_society
-					duration = 9125
+					duration = -1
 				}
 			}
 			hidden_effect = {
@@ -103,7 +103,7 @@ SardiniaPiedmont_missions_1 = {
 					}
 					add_country_modifier = {
 						name = spi_cassa_ecclesiastica
-						duration = 12775
+						duration = -1
 					}
 					if = {
 						limit = {
@@ -126,7 +126,7 @@ SardiniaPiedmont_missions_1 = {
 					}
 					add_country_modifier = {
 						name = spi_papal_blessing
-						duration = 7300
+						duration = -1
 					}
 				}
 				if = {
@@ -135,7 +135,7 @@ SardiniaPiedmont_missions_1 = {
 					}
 					add_country_modifier = {
 						name = spi_pious_ruling
-						duration = 9125
+						duration = -1
 					}
 				}
 				else_if = {
@@ -144,7 +144,7 @@ SardiniaPiedmont_missions_1 = {
 					}
 					add_country_modifier = {
 						name = spi_progressive_society
-						duration = 9125
+						duration = -1
 					}
 				}
 			}
@@ -181,7 +181,7 @@ SardiniaPiedmont_missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = spi_public_education
-				duration = 5475
+				duration = -1
 			}
 			define_advisor = {
 				type = natural_scientist
@@ -301,7 +301,7 @@ SardiniaPiedmont_missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = spi_dismanter_empires
-				duration = 7300
+				duration = -1
 			}
 		}
 	}
@@ -350,7 +350,7 @@ SardiniaPiedmont_missions_2 = {
 		effect = {
 			add_country_modifier = {
 				name = spi_resurgence
-				duration = 3650
+				duration = -1
 			}
 		}
 	}
@@ -675,7 +675,7 @@ SardiniaPiedmont_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = spi_florentine_mind
-				duration = 9125
+				duration = -1
 			}
 		}
 	}
@@ -799,7 +799,7 @@ SardiniaPiedmont_missions_4 = {
 		effect = {
 			add_country_modifier = {
 				name = spi_naval_preparation
-				duration = 9125
+				duration = -1
 			}
 		}
 	}
@@ -822,7 +822,7 @@ SardiniaPiedmont_missions_4 = {
 		effect = {
 			add_country_modifier = {
 				name = end_borboni
-				duration = 9125
+				duration = -1
 			}
 		}
 	}
@@ -869,7 +869,7 @@ SardiniaPiedmont_missions_5 = {
 			tooltip = {
 				add_province_modifier = {
 					name = spi_industrialisaton_sprint
-					duration = 5475
+					duration = -1
 				}
 			}
 			hidden_effect = {
@@ -879,7 +879,7 @@ SardiniaPiedmont_missions_5 = {
 					}
 					add_province_modifier = {
 						name = spi_industrialisaton_sprint
-						duration = 5475
+						duration = -1
 					}
 				}
 			}
@@ -946,7 +946,7 @@ SardiniaPiedmont_missions_5 = {
 			western_sicily_area = {
 				add_province_modifier = {
 					name = spi_dream_independence
-					duration = 3650
+					duration = -1
 				}
 			}
 			sicily_area = {
@@ -955,7 +955,7 @@ SardiniaPiedmont_missions_5 = {
 				}
 				add_province_modifier = {
 					name = spi_dream_independence
-					duration = 3650
+					duration = -1
 				}
 			}
 		}

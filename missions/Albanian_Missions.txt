@@ -25,7 +25,7 @@ alb_1 = {
 		effect = {
 			add_country_modifier = {
 				name = "skanderbeg_rebellion"
-				duration = 7300
+				duration = -1
 			}
 		}
 		ai_weight = {
@@ -50,7 +50,7 @@ alb_1 = {
 		effect = {
 			add_country_modifier = {
 				name = "albanian_diplomacy"
-				duration = 7300
+				duration = -1
 			}
 			if = {
 				limit = {

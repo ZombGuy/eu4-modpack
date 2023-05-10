@@ -103,7 +103,7 @@ beylik_missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = BEY_court_of_a_great_bey
-				duration = 10950
+				duration = -1
 			}
 			
 			add_stability_or_adm_power = yes
@@ -127,7 +127,7 @@ beylik_missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = BEY_naval_routes
-				duration = 7300
+				duration = -1
 			}
 			#invite venetians over?
 			
@@ -173,7 +173,7 @@ beylik_missions_2 = {
 			
 			add_country_modifier = {
 				name = BEY_anatolian_architecture_modifier
-				duration = 14600
+				duration = -1
 			}
 		}
 	}
@@ -333,7 +333,7 @@ beylik_missions_2 = {
 		effect = {
 			add_country_modifier = {
 				name = BEY_hospitality
-				duration = 10950
+				duration = -1
 			}
 			custom_tooltip = BEY_the_province_completed
 			tooltip = {
@@ -659,7 +659,7 @@ RAM_missions_3 = {
 					}
 					add_country_modifier = {
 						name = ram_manpower
-						duration = 12775
+						duration = -1
 					}
 				}
 				else_if = {
@@ -693,7 +693,7 @@ RAM_missions_3 = {
 					}
 					add_country_modifier = {
 						name = ram_home_defense
-						duration = 9125
+						duration = -1
 					}
 				}
 				else = {
@@ -818,7 +818,7 @@ beylik_missions_4 = {
 		effect = {
 			add_country_modifier = {
 				name = RUM_we_grow
-				duration = 7300
+				duration = -1
 			}
 			anatolia_region = {
 				limit = {
@@ -987,28 +987,28 @@ beylik_missions_5 = {
 			tooltip = {
 				add_country_modifier = {
 					name = BEY_reward_venice
-					duration = 10950
+					duration = -1
 				}
 			}
 			custom_tooltip = BEY_aq_qoyunlu
 			tooltip = {
 				add_country_modifier = {
 					name = BEY_reward_aq_qoyunlu
-					duration = 9125
+					duration = -1
 				}
 			}
 			custom_tooltip = BEY_mamluks
 			tooltip = {
 				add_country_modifier = {
 					name = BEY_reward_mamluks
-					duration = 7300
+					duration = -1
 				}
 			}
 			custom_tooltip = BEY_hungary_or_poland
 			tooltip = {
 				add_country_modifier = {
 					name = BEY_reward_hungary_or_poland
-					duration = 9125
+					duration = -1
 				}
 			}
 			hidden_effect = {
@@ -1018,7 +1018,7 @@ beylik_missions_5 = {
 					}
 					add_country_modifier = {
 						name = BEY_reward_venice
-						duration = 10950
+						duration = -1
 					}
 				}
 				if = {
@@ -1027,7 +1027,7 @@ beylik_missions_5 = {
 					}
 					add_country_modifier = {
 						name = BEY_reward_aq_qoyunlu
-						duration = 10950
+						duration = -1
 					}
 				}
 				if = {
@@ -1036,7 +1036,7 @@ beylik_missions_5 = {
 					}
 					add_country_modifier = {
 						name = BEY_reward_mamluks
-						duration = 7300
+						duration = -1
 					}
 				}
 				if = {
@@ -1048,7 +1048,7 @@ beylik_missions_5 = {
 					}
 					add_country_modifier = {
 						name = BEY_reward_hungary_or_poland
-						duration = 7300
+						duration = -1
 					}
 				}
 			}
@@ -1069,7 +1069,7 @@ beylik_missions_5 = {
 			add_mil_power = 50 
 			add_country_modifier = {
 				name = BEY_a_grand_force
-				duration = 9125
+				duration = -1
 			}
 		}
 	}
@@ -1200,7 +1200,7 @@ RUM_missions_1 = {
 				add_or_upgrade_dock_building = yes
 				add_trade_modifier = {
 					who = ROOT
-					duration = 10950
+					duration = -1
 					power = 25
 					key = RUM_sinop
 				} 
@@ -1240,7 +1240,7 @@ RUM_missions_1 = {
 				}
 				add_country_modifier = {
 					name = RUM_janissary_caste
-					duration = 9125
+					duration = -1
 				}
 				
 				custom_tooltip = RUM_decrease_jannissary_cost
@@ -1323,7 +1323,7 @@ RUM_missions_1 = {
 			
 			add_country_modifier = {
 				name = RUM_claimant_of_the_rum
-				duration = 10950
+				duration = -1
 			}
 		}
 	}
@@ -1432,7 +1432,7 @@ RUM_missions_2 = {
 			
 			add_country_modifier = {
 				name = RUM_unique_position
-				duration = 14600
+				duration = -1
 			}
 		}
 	}
@@ -1514,7 +1514,7 @@ RUM_missions_2 = {
 			else = {
 				add_country_modifier = {
 					name = RUM_janissary_buff_no_coc
-					duration = 10950
+					duration = -1
 				}
 			}
 			
@@ -1587,7 +1587,7 @@ RUM_missions_2_continued = {
 			
 			add_country_modifier = {
 				name = RUM_komnenoi_defeated
-				duration = 9125
+				duration = -1
 			}
 		}
 	}
@@ -1716,7 +1716,7 @@ RUM_missions_3 = {
 			tooltip = {
 				add_province_modifier = {
 					name = RUM_caravans_of_traders
-					duration = 10950
+					duration = -1
 				}
 				add_prosperity = 50
 			}
@@ -1732,7 +1732,7 @@ RUM_missions_3 = {
 						}
 						add_province_modifier = {
 							name = RUM_caravans_of_traders
-							duration = 10950
+							duration = -1
 						}
 					}
 				}
@@ -1834,7 +1834,7 @@ RUM_missions_3 = {
 			else = {
 				add_country_modifier = {
 					name = RUM_loyal_pashas
-					duration = 9125
+					duration = -1
 				}
 				
 				add_adm_power = 100
@@ -1897,7 +1897,7 @@ RUM_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = RUM_restored_the_old_border
-				duration = 10950
+				duration = -1
 			}
 			
 			add_mil_power = 50
@@ -1990,7 +1990,7 @@ RUM_missions_4 = {
 				add_local_autonomy = -10
 				add_province_modifier = {
 					name = RUM_rest_for_the_weary
-					duration = 10950
+					duration = -1
 				}
 			}
 			hidden_effect = {
@@ -2011,7 +2011,7 @@ RUM_missions_4 = {
 						}
 						add_province_modifier = {
 							name = RUM_rest_for_the_weary
-							duration = 10950
+							duration = -1
 						}
 						add_local_autonomy = -10
 					}
@@ -2069,7 +2069,7 @@ RUM_missions_4 = {
 			aleppo_area = {
 				add_province_modifier = {
 					name = RUM_end_of_the_road
-					duration = 14600
+					duration = -1
 				}
 			}
 		}
@@ -2146,7 +2146,7 @@ RUM_missions_5 = {
 		effect = {
 			add_country_modifier = {
 				name = RUM_weve_been_gifted
-				duration = 10950
+				duration = -1
 			}
 			
 			custom_tooltip = RUM_10_tax
@@ -2446,7 +2446,7 @@ RUM_missions_2_rome = {
 		effect = {
 			add_country_modifier = {
 				name = RUM_italian_ambition
-				duration = 10950
+				duration = -1
 			}
 			
 			add_mil_power = 50
@@ -2574,7 +2574,7 @@ RUM_missions_3_rome = {
 				}
 				add_province_modifier = {
 					name = RUM_muslim_sicily
-					duration = 10950
+					duration = -1
 				}
 			}
 			sicily_area = {
@@ -2583,7 +2583,7 @@ RUM_missions_3_rome = {
 				}
 				add_province_modifier = {
 					name = RUM_muslim_sicily
-					duration = 10950
+					duration = -1
 				}
 			}
 			add_dip_power = 50
@@ -2644,7 +2644,7 @@ RUM_missions_3_rome = {
 			
 			add_country_modifier = {
 				name = RUM_morale
-				duration = 9125
+				duration = -1
 			}
 		}
 	}
@@ -3074,7 +3074,7 @@ RUM_missions_2_seljuk = {
 			
 			add_country_modifier = {
 				name = RUM_entering_iran
-				duration = 10950
+				duration = -1
 			}
 			
 			set_country_flag = RUM_pasha_seljuk_flag
@@ -3169,7 +3169,7 @@ RUM_missions_3_seljuk = {
 		effect = {
 			add_country_modifier = {
 				name = RUM_baghdad_conquered
-				duration = 9125
+				duration = -1
 			}
 			add_war_exhaustion = -2
 				
@@ -3274,7 +3274,7 @@ RUM_missions_3_seljuk = {
 		effect = {
 			add_country_modifier = {
 				name = RUM_economic_heartland_conquered
-				duration = 7300
+				duration = -1
 			}
 			
 			# 2999 = {
@@ -3437,7 +3437,7 @@ RUM_missions_3_seljuk = {
 		effect = {
 			add_country_modifier = {
 				name = RUM_indus_conquered
-				duration = 5475
+				duration = -1
 			}
 			
 			add_mil_power = 100
@@ -3721,7 +3721,7 @@ RUM_missions_5_seljuk = {
 		effect = {
 			add_country_modifier = {
 				name = RUM_the_heirs_of_alp_arslan
-				duration = 10950
+				duration = -1
 			}
 			
 			add_prestige_or_monarch_power = { amount = 15 }
@@ -4265,7 +4265,7 @@ RUM_missions_2_religion = {
 		effect = {
 			add_country_modifier = {
 				name = RUM_rich_coast
-				duration = 7300
+				duration = -1
 			}
 			
 			1448 = {
@@ -4516,7 +4516,7 @@ RUM_missions_3_religion = {
 			1361 = {
 				add_trade_modifier = {
 					who = ROOT
-					duration = 10950
+					duration = -1
 					power = 25
 					key = RUM_trade_with_india
 				}
@@ -4563,7 +4563,7 @@ RUM_missions_4_religion = {
 		effect = {
 			add_country_modifier = {
 				name = RUM_idea_cost
-				duration = 7300
+				duration = -1
 			}
 			
 			custom_tooltip = RUM_distribute_some_powah
@@ -5142,7 +5142,7 @@ RUM_missions_5_religion = {
 			
 			add_country_modifier = {
 				name = RUM_steering_through_mesopotamia
-				duration = 7300
+				duration = -1
 			}
 
 			yamamah_area = {

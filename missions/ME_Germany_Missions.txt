@@ -37,7 +37,7 @@ GER_missions_1 = {
 				add_trade_modifier = {
 					who = ROOT
 					power = 15
-					duration = 7300
+					duration = -1
 					key = germany_deutsch_kamerun_trade_modifier
 				}
 			}
@@ -63,7 +63,7 @@ GER_missions_1 = {
 			angola_namibia_area = {
 				add_province_modifier = {
 					name = germany_deutsch_suedwestafrika_province_modifier
-					duration = 7300
+					duration = -1
 				}
 			}
 		}
@@ -126,7 +126,7 @@ GER_missions_1 = {
 				}
 				add_province_modifier = {
 					name = germany_reintegrating_the_french_province_modifier
-					duration = 18250
+					duration = -1
 				}
 			}
 		}
@@ -173,7 +173,7 @@ GER_missions_2 = {
 		effect = {
 			add_country_modifier = {
 				name = germany_our_place_in_the_sun_modifier
-				duration = 7300
+				duration = -1
 			}
 		}
 	}
@@ -197,7 +197,7 @@ GER_missions_2 = {
 			papua_area = {
 				add_province_modifier = {
 					name = germany_kaiser_wilhelms_land_province_modifier
-					duration = 5475
+					duration = -1
 				}
 			}
 		}
@@ -635,7 +635,7 @@ GER_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = germany_plundering_the_polders_modifier
-				duration = 5475
+				duration = -1
 			}
 			187 = {
 				if = {
@@ -703,7 +703,7 @@ GER_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = germany_revenge_for_fontenoy_modifier
-				duration = 10950
+				duration = -1
 			}
 		}
 	}
@@ -982,7 +982,7 @@ GER_missions_4 = {
 		effect = {
 			add_country_modifier = {
 				name = germany_bolstering_the_german_economy_modifier
-				duration = 7300
+				duration = -1
 			}
 		}
 	}
@@ -1012,7 +1012,7 @@ GER_missions_4 = {
 		effect = {
 			add_country_modifier = {
 				name = germany_preparing_high_seas_fleet_modifier
-				duration = 9125
+				duration = -1
 			}
 			if = {
 				limit = {
@@ -1104,7 +1104,7 @@ GER_missions_4 = {
 		effect = {
 			add_country_modifier = {
 				name = germany_modernization_of_tactics_modifier
-				duration = 9125
+				duration = -1
 			}
 		}
 	}

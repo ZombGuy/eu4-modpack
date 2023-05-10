@@ -248,19 +248,19 @@ emp_france_missions_1 = {
 			wallonia_area = {
 				add_province_modifier = {
 					name = "faster_integration"
-					duration = 7300
+					duration = -1
 				}
 			}
 			brabant_area = {
 				add_province_modifier = {
 					name = "faster_integration"
-					duration = 7300
+					duration = -1
 				}
 			}
 			flanders_area = {
 				add_province_modifier = {
 					name = "faster_integration"
-					duration = 7300
+					duration = -1
 				}
 			}
 		}
@@ -317,7 +317,7 @@ emp_france_missions_1_b = {
 		effect = {
 			add_country_modifier = {
 				name = "fra_colonial_enthusiasm"
-				duration = 7300
+				duration = -1
 			}
 		}
 		ai_weight = {
@@ -368,7 +368,7 @@ emp_france_missions_1_b = {
 		effect = {
 			add_country_modifier = {
 				name = "french_tariffs"
-				duration = 7300
+				duration = -1
 			}
 		}
 		ai_weight = {
@@ -681,7 +681,7 @@ emp_france_missions_2 = {
 			87 = {
 				add_province_modifier = {
 					name = "french_callais"
-					duration = 7300
+					duration = -1
 				}
 			}
 			wallonia_area = {
@@ -989,7 +989,7 @@ emp_france_missions_2_b = {
 			add_dip_power = 100
 			add_country_modifier = {
 				name = "fra_colonial_enthusiasm_2"
-				duration = 7300
+				duration = -1
 			}
 		}
 		ai_weight = {
@@ -1046,7 +1046,7 @@ emp_france_missions_2_b = {
 		effect = {
 			add_country_modifier = {
 				name = "fra_native_relations_mission"
-				duration = 7300
+				duration = -1
 			}
 		}
 		ai_weight = {
@@ -1309,7 +1309,7 @@ emp_france_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = "italian_ambition_modifier"
-				duration = 7300
+				duration = -1
 			}
 		}
 		ai_weight = {
@@ -1380,7 +1380,7 @@ emp_france_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = "fra_to_india"
-				duration = 7300
+				duration = -1
 			}
 			andhra_area = {
 				limit = {
@@ -1440,7 +1440,7 @@ emp_france_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = "east_india_trade_rush"
-				duration = 7300
+				duration = -1
 			}
 			indo_china_region = {
 				limit = {
@@ -1654,7 +1654,7 @@ emp_france_missions_4 = {
 		effect = {
 			add_country_modifier = {
 				name = "fra_into_germany"
-				duration = 7300
+				duration = -1
 			}
 			upper_rhineland_area = {
 				limit = {
@@ -1922,7 +1922,7 @@ emp_france_missions_5 = {
 		effect = {
 			add_country_modifier = {
 				name = "dragonnades"
-				duration = 7300
+				duration = -1
 			}
 		}
 	}

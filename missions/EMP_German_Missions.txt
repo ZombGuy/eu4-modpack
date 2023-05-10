@@ -51,7 +51,7 @@ emp_germany_hlr_1 = {
 		effect = {
 			add_country_modifier = {
 				name = "ger_crushed_dutch_independence"
-				duration = 7300
+				duration = -1
 			}
 		}
 	}

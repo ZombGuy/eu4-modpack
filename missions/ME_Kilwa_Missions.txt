@@ -104,7 +104,7 @@ ZAN_missions_1 = {
 				add_base_tax = 4
 				add_province_modifier = {
 					name = kilwa_invite_foreign_city_designers_province_modifier
-					duration = 3650
+					duration = -1
 				}
 			}
 		}
@@ -852,7 +852,7 @@ ZAN_missions_4 = {
 					}
 					add_province_modifier = {
 						name = kilwa_ending_the_shona_culture_province_modifier
-						duration = 9125
+						duration = -1
 					}
 				}
 			}
@@ -982,7 +982,7 @@ ZAN_missions_4 = {
 		effect = {
 			add_country_modifier = {
 				name = kilwa_men_at_work_modifier
-				duration = 7300
+				duration = -1
 			}
 			every_subject_country = {
 				limit = {
@@ -991,7 +991,7 @@ ZAN_missions_4 = {
 				}
 				add_country_modifier = {
 					name = kilwa_men_at_work_modifier
-					duration = 7300
+					duration = -1
 				}
 			}
 		}
@@ -1030,7 +1030,7 @@ ZAN_missions_5 = {
 		effect = {
 			add_country_modifier = {
 				name = kilwa_exploring_the_indian_ocean_modifier
-				duration = 7300
+				duration = -1
 			}
 		}
 	}
@@ -1446,7 +1446,7 @@ ZAN_missions_3_spain_2 = {
 			add_mercantilism = 5
 			add_country_modifier = {
 				name = kilwa_kick_out_foreign_traders_modifier
-				duration = 18250
+				duration = -1
 			}
 		}
 	}
@@ -1729,7 +1729,7 @@ ZAN_missions_2_portugal_2 = {
 			add_mercantilism = 5
 			add_country_modifier = {
 				name = kilwa_kick_out_foreign_traders_modifier
-				duration = 18250
+				duration = -1
 			}
 		}
 	}
@@ -1994,7 +1994,7 @@ ZAN_missions_2_neutrality = {
 		effect = {
 			add_country_modifier = {
 				name = kilwa_modernize_our_army_modifier
-				duration = 9125
+				duration = -1
 			}
 		}
 	}
@@ -2039,7 +2039,7 @@ ZAN_missions_2_neutrality = {
 			add_mercantilism = 5
 			add_country_modifier = {
 				name = kilwa_kick_out_foreign_traders_modifier
-				duration = 18250
+				duration = -1
 			}
 		}
 	}

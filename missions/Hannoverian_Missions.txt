@@ -320,7 +320,7 @@ hannoverian_group_1 = {
 		effect = {
 			add_country_modifier = {
 				name = han_dominant_in_northern_germany
-				duration = 10950
+				duration = -1
 			}
 		}
 	}
@@ -358,7 +358,7 @@ hannoverian_group_2 = {
 		effect = {
 			add_country_modifier = {
 				name = han_herrenhausen_gardens_mod
-				duration = 7300
+				duration = -1
 			}
 
 			if = {
@@ -599,7 +599,7 @@ hannoverian_group_3 = {
 			}
 			add_country_modifier = {
 				name = han_hansa_cities_mod
-				duration = 7300
+				duration = -1
 			}
 		}
 	}
@@ -656,7 +656,7 @@ hannoverian_group_4 = {
 			45 = {
 				add_trade_modifier = {
 					who = root
-					duration = 7300
+					duration = -1
 					power = 35
 					key = han_naval_dominance_trade_mod
 				}
@@ -900,7 +900,7 @@ hannoverian_group_4 = {
 		effect = {
 			add_country_modifier = {
 				name = han_kings_of_england
-				duration = 7300
+				duration = -1
 			}
 		}
 	}

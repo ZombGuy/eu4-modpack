@@ -41,7 +41,7 @@ TID_TER_missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = MKS_ambitions_outwards
-				duration = 9125
+				duration = -1
 			}
 			MSA_claims_borneo = yes
 		}
@@ -114,7 +114,7 @@ TID_TER_missions_2 = {
 			MSA_claims_sulawesi = yes
 			add_country_modifier = {
 				name = TID_TER_no_rival_sultanate
-				duration = 9125
+				duration = -1
 			}
 		}
 	}
@@ -308,7 +308,7 @@ TID_TER_missions_3 = {
 			#Raid on Bohol event?
 			add_country_modifier = {
 				name = TID_TER_raids_into_mindanao
-				duration = 9125
+				duration = -1
 			}
 			
 			add_mil_power = 50

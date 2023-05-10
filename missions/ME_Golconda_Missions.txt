@@ -105,7 +105,7 @@ golconda_column_1 = {
 			add_years_of_income = 0.75
 			add_country_modifier = {
 				name = "golconda_rising_capital_wealth"
-				duration = 9125 #25 Years
+				duration = -1
 			}
 		}
 	}
@@ -497,7 +497,7 @@ golconda_column_4 = {
 			andhra_area = {
 				add_province_modifier = {
 					name = "golconda_shown_telegu_might"
-					duration = 7300 #20 Years
+					duration = -1
 				}
 			}
 			orissa_area = {
@@ -541,7 +541,7 @@ golconda_column_4 = {
 		effect = {
 			add_country_modifier = {
 				name = "golconda_telegu_unification"
-				duration = 9125 #25 Years
+				duration = -1
 			}
 		}
 	}
@@ -593,7 +593,7 @@ golconda_column_5 = {
 		effect = {
 			add_country_modifier = {
 				name = "golconda_ready_to_fight"
-				duration = 7300 #20 Years
+				duration = -1
 			}
 		}
 	}
@@ -624,7 +624,7 @@ golconda_column_5 = {
 		effect = {
 			add_country_modifier = {
 				name = "golconda_tight_control"
-				duration = 7300 #20 Years
+				duration = -1
 			}
 		}
 	}

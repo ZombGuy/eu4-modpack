@@ -220,7 +220,7 @@ teu_livonian_mission_slot = {
 				}
 				add_country_modifier = {
 					name = teu_unified_orders
-					duration = 9125
+					duration = -1
 				}
 			}
 			else_if = {
@@ -229,7 +229,7 @@ teu_livonian_mission_slot = {
 				}
 				add_country_modifier = {
 					name = teu_livonian_teutonic_alliance
-					duration = 9125
+					duration = -1
 				}
 			}
 			else_if = {
@@ -245,7 +245,7 @@ teu_livonian_mission_slot = {
 				}
 				add_country_modifier = {
 					name = teu_ruler_over_livonia
-					duration = 9125
+					duration = -1
 				}
 			}
 			else = {
@@ -314,7 +314,7 @@ teu_danzig_and_poland_mission_slot = {
 			add_prestige = 10
 			add_country_modifier = {
 				name = "pru_confederation_curtailed_modifier"
-				duration = 7300
+				duration = -1
 			}
 		}
 	}
@@ -389,7 +389,7 @@ teu_army_mission_slot = {
 		effect = {
 			add_country_modifier = {
 				name = teu_teutonic_persistance
-				duration = 9125
+				duration = -1
 			}
 			kuyavia_area = {
 				limit = {
@@ -758,13 +758,13 @@ teu_pru_dummy_hre_mission_slot_1 = {
 				}
 				add_country_modifier = {
 					name = teu_prussian_electorship
-					duration = 9125
+					duration = -1
 				}
 			}
 			custom_tooltip = teu_conquest_hre_path_effects_tt
 			add_country_modifier = {
 				name = "prussian_ambition"
-				duration = 7300
+				duration = -1
 			}
 			add_dip_power = 100
 			south_saxony_area = {
@@ -1020,7 +1020,7 @@ teu_pru_dummy_hre_mission_slot_1 = {
 			custom_tooltip = teu_conquest_hre_path_effects_tt
 			add_country_modifier = {
 				name = teu_pru_saxon_productivity
-				duration = 9125
+				duration = -1
 			}
 			upper_franconia_area = {
 				limit = {
@@ -1052,7 +1052,7 @@ teu_pru_dummy_hre_mission_slot_1 = {
 				add_base_production = 1
 				add_province_modifier = {
 					name = teu_pru_wine_and_faith
-					duration = 9125
+					duration = -1
 				}
 			}
 		}
@@ -1156,7 +1156,7 @@ teu_pru_dummy_hre_mission_slot_1 = {
 					}
 					add_country_modifier = {
 						name = teu_pru_imperial_crown
-						duration = 18250
+						duration = -1
 						desc = UNTIL_NO_MORE_EMPEROR
 					}
 				}
@@ -1700,7 +1700,7 @@ teu_pru_dummy_hre_mission_slot_2 = {
 			45 = {
 				add_trade_modifier = {
 					who = ROOT
-					duration = 10950
+					duration = -1
 					power = 20
 					key = pru_merchants_of_the_hansa
 				}
@@ -1708,7 +1708,7 @@ teu_pru_dummy_hre_mission_slot_2 = {
 			61 = {
 				add_trade_modifier = {
 					who = ROOT
-					duration = 10950
+					duration = -1
 					power = 20
 					key = pru_merchants_of_the_hansa
 				}
@@ -1855,7 +1855,7 @@ teu_pru_dummy_hre_mission_slot_2 = {
 			custom_tooltip = teu_conquest_hre_path_effects_tt
 			add_country_modifier = {
 				name = teu_pru_westphalian_uniforms
-				duration = 9125
+				duration = -1
 			}
 			if = {
 				limit = { has_country_modifier = poor_uniforms }
@@ -1965,7 +1965,7 @@ teu_pru_dummy_hre_mission_slot_2 = {
 			add_adm_power = 200
 			add_country_modifier = {
 				name = "prussian_rhine"
-				duration = 7300
+				duration = -1
 			}
 			custom_tooltip = teu_kingdom_prussia_path_effects_tt
 			define_advisor = {
@@ -2095,7 +2095,7 @@ teu_pru_diplomatic_hre_mission_slot = {
 			}
 			add_country_modifier = {
 				name = teu_prussian_electorship
-				duration = 9125
+				duration = -1
 			}
 		}
 	}
@@ -2349,7 +2349,7 @@ teu_pru_diplomatic_hre_mission_slot = {
 				}
 				add_country_modifier = {
 					name = teu_pru_imperial_crown
-					duration = 18250
+					duration = -1
 					desc = UNTIL_NO_MORE_EMPEROR
 				}
 			}
@@ -2748,7 +2748,7 @@ teu_pru_conquest_hre_mission_slot = {
 		effect = {
 			add_country_modifier = {
 				name = "prussian_ambition"
-				duration = 7300
+				duration = -1
 			}
 			add_dip_power = 100
 			south_saxony_area = {
@@ -2801,7 +2801,7 @@ teu_pru_conquest_hre_mission_slot = {
 		effect = {
 			add_country_modifier = {
 				name = teu_pru_saxon_productivity
-				duration = 9125
+				duration = -1
 			}
 			upper_franconia_area = {
 				limit = {
@@ -3134,7 +3134,7 @@ teu_pru_secondary_conquest_hre_mission_slot = {
 			45 = {
 				add_trade_modifier = {
 					who = ROOT
-					duration = 10950
+					duration = -1
 					power = 20
 					key = pru_merchants_of_the_hansa
 				}
@@ -3142,7 +3142,7 @@ teu_pru_secondary_conquest_hre_mission_slot = {
 			61 = {
 				add_trade_modifier = {
 					who = ROOT
-					duration = 10950
+					duration = -1
 					power = 20
 					key = pru_merchants_of_the_hansa
 				}
@@ -3204,7 +3204,7 @@ teu_pru_secondary_conquest_hre_mission_slot = {
 		effect = {
 			add_country_modifier = {
 				name = teu_pru_westphalian_uniforms
-				duration = 9125
+				duration = -1
 			}
 			if = {
 				limit = { has_country_modifier = poor_uniforms }
@@ -3271,7 +3271,7 @@ teu_pru_secondary_conquest_hre_mission_slot = {
 			add_adm_power = 200
 			add_country_modifier = {
 				name = "prussian_rhine"
-				duration = 7300
+				duration = -1
 			}
 		}
 	}
@@ -3426,7 +3426,7 @@ teu_pru_kingdom_of_prussia_mission_slot = {
 				add_base_production = 1
 				add_province_modifier = {
 					name = teu_pru_wine_and_faith
-					duration = 9125
+					duration = -1
 				}
 			}
 		}
@@ -3847,7 +3847,8 @@ teu_pru_secondary_kingdom_of_prussia_mission_slot = {
 						province_has_current_tech_fort_trigger = yes 
 						NOT = { has_province_modifier = teu_pru_fortified_border } 
 					}
-					add_province_modifier = { name = teu_pru_fortified_border duration = -1 }
+					add_province_modifier = { name = teu_pru_fortified_border duration = -1
+}
 				}
 				random_province = {
 					limit = {
@@ -3866,7 +3867,8 @@ teu_pru_secondary_kingdom_of_prussia_mission_slot = {
 						province_has_current_tech_fort_trigger = yes 
 						NOT = { has_province_modifier = teu_pru_fortified_border } 
 					}
-					add_province_modifier = { name = teu_pru_fortified_border duration = -1 }
+					add_province_modifier = { name = teu_pru_fortified_border duration = -1
+}
 				}
 				random_province = {
 					limit = {
@@ -3885,7 +3887,8 @@ teu_pru_secondary_kingdom_of_prussia_mission_slot = {
 						province_has_current_tech_fort_trigger = yes 
 						NOT = { has_province_modifier = teu_pru_fortified_border } 
 					}
-					add_province_modifier = { name = teu_pru_fortified_border duration = -1 }
+					add_province_modifier = { name = teu_pru_fortified_border duration = -1
+}
 				}
 				random_province = {
 					limit = {
@@ -3904,7 +3907,8 @@ teu_pru_secondary_kingdom_of_prussia_mission_slot = {
 						province_has_current_tech_fort_trigger = yes 
 						NOT = { has_province_modifier = teu_pru_fortified_border } 
 					}
-					add_province_modifier = { name = teu_pru_fortified_border duration = -1 }
+					add_province_modifier = { name = teu_pru_fortified_border duration = -1
+}
 				}
 				random_province = {
 					limit = {
@@ -3923,7 +3927,8 @@ teu_pru_secondary_kingdom_of_prussia_mission_slot = {
 						province_has_current_tech_fort_trigger = yes 
 						NOT = { has_province_modifier = teu_pru_fortified_border } 
 					}
-					add_province_modifier = { name = teu_pru_fortified_border duration = -1 }
+					add_province_modifier = { name = teu_pru_fortified_border duration = -1
+}
 				}
 			}
 		}
@@ -3997,7 +4002,7 @@ teu_pru_prussia_mission_slot = {
 				add_prosperity = 100
 				add_province_modifier = {
 					name = teu_pru_developed_prussia
-					duration = 9125
+					duration = -1
 				}
 			}
 			west_prussia_area = {
@@ -4005,7 +4010,7 @@ teu_pru_prussia_mission_slot = {
 				add_prosperity = 100
 				add_province_modifier = {
 					name = teu_pru_developed_prussia
-					duration = 9125
+					duration = -1
 				}
 			}
 		}
@@ -4404,7 +4409,7 @@ teu_pru_development_mission_slot = {
 			}
 			add_country_modifier = {
 				name = teu_pru_prussian_navy
-				duration = 9125
+				duration = -1
 			}
 		}
 	}
@@ -4541,7 +4546,7 @@ teu_pru_development_mission_slot = {
 			add_mil_power = 75
 			add_country_modifier = {
 				name = teu_pru_expanded_cabinet
-				duration = 9125
+				duration = -1
 			}
 		}
 	}
@@ -4905,7 +4910,7 @@ teu_crusader_russia_mission_slot = {
 					limit = { has_building = cathedral }
 					add_province_modifier = {
 						name = teu_crusade_teutonic_cathedral
-						duration = 9125
+						duration = -1
 					}
 					owner = { add_papal_influence = 5 }
 				}
@@ -4984,7 +4989,7 @@ teu_crusader_more_conquest_mission_slot = {
 				limit = { NOT = { has_country_modifier = teu_crusade_zeal_of_the_crusader } }
 				add_country_modifier = {
 					name = teu_crusade_zeal_of_the_crusader
-					duration = 9125
+					duration = -1
 				}
 			}
 			else = {
@@ -5015,7 +5020,7 @@ teu_crusader_more_conquest_mission_slot = {
 		effect = {
 			add_country_modifier = {
 				name = teu_crusade_horses_of_the_steppes
-				duration = 9125
+				duration = -1
 			}
 			circassia_area = {
 				limit = {
@@ -5191,7 +5196,7 @@ teu_crusader_eastern_conquest_mission_slot = {
 				limit = { NOT = { has_country_modifier = teu_crusade_zeal_of_the_crusader } }
 				add_country_modifier = {
 					name = teu_crusade_zeal_of_the_crusader
-					duration = 9125
+					duration = -1
 				}
 			}
 			else = {
@@ -5648,7 +5653,7 @@ teu_crusader_development_mission_slot = {
 		effect = {
 			add_country_modifier = {
 				name = teu_crusader_the_great_missionaries
-				duration = 36500
+				duration = -1
 			}
 		}
 	}
@@ -5675,13 +5680,13 @@ teu_crusader_development_mission_slot = {
 					limit = { owned_by = ROOT }
 					add_province_modifier = {
 						name = "growth_of_capital"
-						duration = 9125 #25 years
+						duration = -1
 					}
 				}
 			}
 			add_country_modifier = {
 				name = "growing_economy"
-				duration = 9125
+				duration = -1
 			}
 		}
 	}
@@ -5705,7 +5710,7 @@ teu_crusader_development_mission_slot = {
 		effect = {
 			add_country_modifier = {
 				name = teu_crusader_a_fortified_order
-				duration = 36500
+				duration = -1
 			}
 		}
 	}
@@ -6374,7 +6379,7 @@ teu_dummy_mission_slot_2 = {
 				limit = { NOT = { has_country_modifier = teu_crusade_zeal_of_the_crusader } }
 				add_country_modifier = {
 					name = teu_crusade_zeal_of_the_crusader
-					duration = 9125
+					duration = -1
 				}
 			}
 			else = {
@@ -6424,7 +6429,7 @@ teu_dummy_mission_slot_2 = {
 			custom_tooltip = teu_crsuader_path_effects_tt
 			add_country_modifier = {
 				name = teu_crusade_horses_of_the_steppes
-				duration = 9125
+				duration = -1
 			}
 			circassia_area = {
 				limit = {
@@ -6650,7 +6655,7 @@ teu_dummy_mission_slot_3 = {
 				add_prosperity = 100
 				add_province_modifier = {
 					name = teu_pru_developed_prussia
-					duration = 9125
+					duration = -1
 				}
 			}
 			west_prussia_area = {
@@ -6658,7 +6663,7 @@ teu_dummy_mission_slot_3 = {
 				add_prosperity = 100
 				add_province_modifier = {
 					name = teu_pru_developed_prussia
-					duration = 9125
+					duration = -1
 				}
 			}
 			custom_tooltip = teu_crsuader_path_effects_tt
@@ -6683,7 +6688,7 @@ teu_dummy_mission_slot_3 = {
 				limit = { NOT = { has_country_modifier = teu_crusade_zeal_of_the_crusader } }
 				add_country_modifier = {
 					name = teu_crusade_zeal_of_the_crusader
-					duration = 9125
+					duration = -1
 				}
 			}
 			else = {
@@ -7410,7 +7415,7 @@ teu_dummy_mission_slot_5 = {
 			}
 			add_country_modifier = {
 				name = teu_pru_prussian_navy
-				duration = 9125
+				duration = -1
 			}
 			custom_tooltip = teu_crsuader_path_effects_tt
 			add_papal_influence = 75
@@ -7545,7 +7550,7 @@ teu_dummy_mission_slot_5 = {
 			custom_tooltip = teu_crsuader_path_effects_tt
 			add_country_modifier = {
 				name = teu_crusader_the_great_missionaries
-				duration = 36500
+				duration = -1
 			}
 		}
 	}
@@ -7602,13 +7607,13 @@ teu_dummy_mission_slot_5 = {
 					limit = { owned_by = ROOT }
 					add_province_modifier = {
 						name = "growth_of_capital"
-						duration = 9125 #25 years
+						duration = -1
 					}
 				}
 			}
 			add_country_modifier = {
 				name = "growing_economy"
-				duration = 9125
+				duration = -1
 			}
 		}
 	}
@@ -7662,7 +7667,7 @@ teu_dummy_mission_slot_5 = {
 			custom_tooltip = teu_crsuader_path_effects_tt
 			add_country_modifier = {
 				name = teu_crusader_a_fortified_order
-				duration = 36500
+				duration = -1
 			}
 		}
 	}
@@ -7726,7 +7731,7 @@ teu_dummy_mission_slot_5 = {
 			add_mil_power = 75
 			add_country_modifier = {
 				name = teu_pru_expanded_cabinet
-				duration = 9125
+				duration = -1
 			}
 			custom_tooltip = teu_crsuader_path_effects_tt
 			custom_tooltip = can_always_embrace_the_counter_reformation_tt

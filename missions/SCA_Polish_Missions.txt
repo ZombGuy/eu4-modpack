@@ -85,7 +85,7 @@ poland_sca_slot_1 = { #Made by William 'Big Boss' S.
 			tooltip = {
 				add_country_modifier = { 
 					name = pol_crimson_privileges_modifier
-					duration = -1 
+					duration = -1
 					desc = until_we_centralize_tt
 				}
 				if = { 
@@ -103,7 +103,7 @@ poland_sca_slot_1 = { #Made by William 'Big Boss' S.
 					limit = { has_estate_privilege = estate_nobles_nieszawa_privileges }
 					add_country_modifier = { 
 						name = pol_crimson_privileges_modifier
-						duration = -1 
+						duration = -1
 						desc = until_we_centralize_tt
 					}
 					halves_parliament_bribe_costs = yes		
@@ -223,7 +223,7 @@ poland_sca_slot_1_b = {
 			tooltip = {
 				add_country_modifier = {
 					name = pol_new_henrikian_articles_modifier
-					duration = -1 
+					duration = -1
 				}
 			}
 			custom_tooltip = pol_alternatively_tt 
@@ -271,7 +271,7 @@ poland_sca_slot_1_b = {
 			tooltip = { 
 				add_country_modifier = { 
 					name = pol_cardinal_laws_modifier
-					duration = -1 
+					duration = -1
 				}
 			}
 			clr_country_flag = pol_royal_power_monarchy_won_flag
@@ -370,7 +370,7 @@ poland_sca_slot_1_plc_1 = {
 			tooltip = {
 				add_country_modifier = {
 					name = pol_new_henrikian_articles_modifier
-					duration = -1 
+					duration = -1
 				}
 			}
 			custom_tooltip = pol_alternatively_tt 
@@ -394,7 +394,7 @@ poland_sca_slot_1_plc_1 = {
 					limit = { has_country_flag = pol_killed_rebel_flag }
 					add_country_modifier = {
 						name = pol_new_henrikian_articles_modifier
-						duration = -1 
+						duration = -1
 					}
 				}
 				else = {
@@ -437,7 +437,7 @@ poland_sca_slot_1_plc_1 = {
 			tooltip = { 
 				add_country_modifier = { 
 					name = pol_cardinal_laws_modifier
-					duration = -1 
+					duration = -1
 				}
 			}
 			hidden_effect = {
@@ -448,7 +448,7 @@ poland_sca_slot_1_plc_1 = {
 				else = {
 					add_country_modifier = { 
 						name = pol_cardinal_laws_modifier
-						duration = -1 
+						duration = -1
 					}
 				}
 			}
@@ -613,7 +613,7 @@ poland_sca_slot_1_d = {
 			custom_tooltip = enable_unite_balkans_cb_tt
 			add_country_modifier = {
 				name = pol_uniting_the_fractures_modifier
-				duration = 5475 
+				duration = -1
 			}
 			custom_tooltip = pol_unlock_when_plc_tt
 		}
@@ -654,7 +654,7 @@ poland_sca_slot_1_plc_2 = {
 			custom_tooltip = enable_unite_balkans_cb_tt
 			add_country_modifier = {
 				name = pol_uniting_the_fractures_modifier
-				duration = 5475 
+				duration = -1
 			}
 		}
 	}
@@ -945,7 +945,7 @@ poland_sca_slot_2_a = {
 				limit = { has_reform = representation_of_the_crown_reform }
 				add_ruler_modifier = {
 					name = pol_stable_internal_affairs_modifier
-					duration = -1 
+					duration = -1
 				}
 			}
 			else = {
@@ -953,7 +953,7 @@ poland_sca_slot_2_a = {
 				tooltip = {
 					add_ruler_modifier = {
 						name = pol_stable_internal_affairs_modifier
-						duration = -1 
+						duration = -1
 					}
 				}
 			}
@@ -1030,7 +1030,7 @@ poland_sca_slot_2_b = {
 		effect = {
 			add_country_modifier = {
 				name = pol_cultural_flowering_polish_domain_modifier
-				duration = 9125 
+				duration = -1
 			}
 			if = { 
 				limit = { 
@@ -1109,7 +1109,7 @@ poland_sca_slot_2_plc_1 = {
 		effect = {
 			add_country_modifier = {
 				name = pol_cultural_flowering_polish_domain_modifier
-				duration = 9125 
+				duration = -1
 			}
 			if = { 
 				limit = { 
@@ -1270,7 +1270,7 @@ poland_sca_slot_2_d = {
 				limit = { has_dlc = "Mandate of Heaven" } 
 				add_country_modifier = { 
 					name = pol_splendor_polish_crown_modifier
-					duration = 7300 
+					duration = -1
 				}
 			}
 			else = { add_dip_power = 100 add_prestige = 25 } 
@@ -1343,7 +1343,7 @@ poland_sca_slot_2_plc_2 = {
 				limit = { has_dlc = "Mandate of Heaven" } 
 				add_country_modifier = { 
 					name = pol_splendor_polish_crown_modifier
-					duration = 7300 
+					duration = -1
 				}
 			}
 			else = { add_dip_power = 100 add_prestige = 25 } 
@@ -1412,7 +1412,7 @@ poland_sca_slot_2_e = {
 				}
 				add_province_modifier = { 
 					name = pol_fortified_border_modifier
-					duration = 7300 
+					duration = -1
 				}
 			}
 			bulgaria_area = { 
@@ -1944,14 +1944,14 @@ poland_sca_slot_3_a = {
 			tooltip = {
 				add_province_modifier = {
 					name = pol_breadbasket_europe_modifier
-					duration = 7300 
+					duration = -1
 				}
 			}
 			change_price = {
 				trade_goods = grain
 				key = polish_grain
 				value = 0.2
-				duration = 5475
+				duration = -1
 			}
 			hidden_effect = { 
 				every_owned_province = {
@@ -1961,7 +1961,7 @@ poland_sca_slot_3_a = {
 					}
 					add_province_modifier = {
 						name = pol_breadbasket_europe_modifier
-						duration = 7300 
+						duration = -1
 					}
 				}
 			}	
@@ -1993,7 +1993,7 @@ poland_sca_slot_3_a = {
 			poland_region = {
 				add_province_modifier = { 
 					name = pol_growing_prosperity_modifier
-					duration = 9125 
+					duration = -1
 				}
 			}
 		}
@@ -2106,7 +2106,7 @@ poland_sca_slot_3_b = {
 			else = {
 				add_country_modifier = {
 					name = pol_golden_era_modifier
-					duration = 10950 
+					duration = -1
 				}
 			}
 			custom_tooltip = pol_every_province_with_40_dev_tt
@@ -2180,7 +2180,7 @@ poland_sca_slot_3_b = {
 			tooltip = {
 				add_country_modifier = { 
 					name = broke_the_rus
-					duration = 9125 
+					duration = -1
 				}
 				add_yearly_manpower = 2
 				karelia_area = {
@@ -2287,21 +2287,21 @@ poland_sca_slot_3_b = {
 			tooltip = { 
 				add_country_modifier = { 
 					name = pol_efficienct_development_modifier
-					duration = 9125 
+					duration = -1
 				}
 			}
 			custom_tooltip = pol_naval_hegemony_tt
 			tooltip = { 
 				add_country_modifier = { 
 					name = pol_global_maritime_empire_modifier
-					duration = -1 
+					duration = -1
 				}
 			}
 			custom_tooltip = pol_alternatively_mil_hegemony_tt
 			tooltip = { 
 				add_country_modifier = { 
 					name = pol_poland_rise_modifier
-					duration = -1 
+					duration = -1
 				}
 			}
 			custom_tooltip = pol_unlock_when_plc_tt
@@ -2468,7 +2468,7 @@ poland_sca_slot_3_plc_1 = {
 			else = {
 				add_country_modifier = {
 					name = pol_golden_era_modifier
-					duration = 10950 
+					duration = -1
 				}
 			}
 			custom_tooltip = pol_every_province_with_40_dev_tt
@@ -2477,7 +2477,7 @@ poland_sca_slot_3_plc_1 = {
 					limit = { development = 40 } 
 					add_province_modifier = { 
 						name = pol_enable_2nd_manufactory_modifier
-						duration = -1 
+						duration = -1
 						hidden = yes 
 					}
 				}
@@ -2561,7 +2561,7 @@ poland_sca_slot_3_plc_1 = {
 			tooltip = {
 				add_country_modifier = { 
 					name = broke_the_rus
-					duration = 9125 
+					duration = -1
 				}
 				add_yearly_manpower = 2
 				karelia_area = {
@@ -2618,7 +2618,7 @@ poland_sca_slot_3_plc_1 = {
 					add_yearly_manpower = 2 
 					add_country_modifier = { 
 						name = broke_the_rus
-						duration = 9125 
+						duration = -1
 					}
 					karelia_area = {
 						limit = { 
@@ -2715,21 +2715,21 @@ poland_sca_slot_3_plc_1 = {
 			tooltip = {
 				add_country_modifier = { 
 					name = pol_efficienct_development_modifier
-					duration = 9125 
+					duration = -1
 				}
 			}
 			custom_tooltip = pol_naval_hegemony_tt
 			tooltip = { 
 				add_country_modifier = { 
 					name = pol_global_maritime_empire_modifier
-					duration = -1 
+					duration = -1
 				}
 			}
 			custom_tooltip = pol_alternatively_mil_hegemony_tt
 			tooltip = { 
 				add_country_modifier = { 
 					name = pol_poland_rise_modifier
-					duration = -1 
+					duration = -1
 				}
 			}
 			hidden_effect = {
@@ -2739,7 +2739,7 @@ poland_sca_slot_3_plc_1 = {
 						limit = { is_hegemon_of_type = economic_hegemon }
 						add_country_modifier = { 
 							name = pol_efficienct_development_modifier
-							duration = 9125 
+							duration = -1
 						}
 						set_country_flag = enable_upgrading_centers_of_trade_dev
 						set_country_flag = enable_supplemental_development_flag
@@ -2748,13 +2748,13 @@ poland_sca_slot_3_plc_1 = {
 						limit = { is_hegemon_of_type = naval_hegemon }
 						add_country_modifier = { 
 							name = pol_global_maritime_empire_modifier
-							duration = -1 
+							duration = -1
 						}
 					}
 					else = {
 						add_country_modifier = { 
 							name = pol_poland_rise_modifier
-							duration = -1 
+							duration = -1
 						}
 					}
 				}
@@ -2762,7 +2762,7 @@ poland_sca_slot_3_plc_1 = {
 					limit = { monthly_income = 1000 }
 					add_country_modifier = { 
 						name = pol_efficienct_development_modifier
-						duration = 9125 
+						duration = -1
 					}
 					set_country_flag = enable_upgrading_centers_of_trade_dev
 					set_country_flag = enable_supplemental_development_flag
@@ -2771,13 +2771,13 @@ poland_sca_slot_3_plc_1 = {
 					limit = { navy_size = 500 }
 					add_country_modifier = { 
 						name = pol_global_maritime_empire_modifier
-						duration = -1 
+						duration = -1
 					}
 				}
 				else = { 
 					add_country_modifier = { 
 						name = pol_poland_rise_modifier
-						duration = -1 
+						duration = -1
 					}
 				}
 			}
@@ -3063,7 +3063,7 @@ poland_sca_slot_4_b = {
 				add_base_manpower = 1 
 				add_province_modifier = {
 					name = pol_polish_seat_of_power_modifier
-					duration = 5475 
+					duration = -1
 				}
 			}
 		}
@@ -3100,14 +3100,14 @@ poland_sca_slot_4_b = {
 			tooltip = { 
 				add_country_modifier = {
 					name = pol_official_papal_nunciature_modifier
-					duration = 5475 
+					duration = -1
 				}
 			}
 			custom_tooltip = pol_catholic_reward_twice_if_religious_ideas_2_tt
 			tooltip = { 
 				add_country_modifier = { 
 					name = pol_official_papal_nunciature_2_modifier
-					duration = 7300 
+					duration = -1
 				}
 				if = { 
 					limit = { 
@@ -3122,7 +3122,7 @@ poland_sca_slot_4_b = {
 			tooltip = { 
 				add_ruler_modifier = {
 					name = pol_facing_the_catholics_modifier
-					duration = -1 
+					duration = -1
 				}
 			}
 			hidden_effect = { 
@@ -3140,14 +3140,14 @@ poland_sca_slot_4_b = {
 					} 
 					add_country_modifier = { 
 						name = pol_official_papal_nunciature_2_modifier
-						duration = 7300 
+						duration = -1
 					}
 				}
 				else_if = {
 					limit = { religion = catholic }
 					add_country_modifier = {
 						name = pol_official_papal_nunciature_modifier
-						duration = 5475 
+						duration = -1
 					}
 				}
 				if = { 
@@ -3166,7 +3166,7 @@ poland_sca_slot_4_b = {
 					}
 					add_ruler_modifier = {
 						name = pol_facing_the_catholics_modifier
-						duration = -1 
+						duration = -1
 					}
 				}
 			}
@@ -3237,7 +3237,7 @@ poland_sca_slot_4_c = {
 		effect = {
 			add_country_modifier = {
 				name = pol_reformed_education_system_modifier
-				duration = 7300
+				duration = -1
 			}
 			custom_tooltip = pol_5_ref_prog_per_university
 			custom_tooltip = pol_unlock_when_plc_tt
@@ -3286,7 +3286,7 @@ poland_sca_slot_4_plc_2 = {
 		effect = {
 			add_country_modifier = {
 				name = pol_reformed_education_system_modifier
-				duration = 7300
+				duration = -1
 			}
 			custom_tooltip = pol_5_ref_prog_per_university
 			hidden_effect = {
@@ -3519,7 +3519,7 @@ poland_sca_slot_4_e = {
 				}
 				add_country_modifier = {
 					name = pol_winter_preparations_modifier
-					duration = 3650 
+					duration = -1
 				}
 			}
 			custom_tooltip = pol_alternatively_tt
@@ -3533,14 +3533,14 @@ poland_sca_slot_4_e = {
 				}
 				add_country_modifier = {
 					name = pol_winter_preparations_modifier
-					duration = 3650 
+					duration = -1
 				}
 			}
 			custom_tooltip = pol_via_alliance_or_subjugation_tt
 			tooltip = {
 				add_country_modifier = {
 					name = pol_polish_swedish_act_of_baltic_coprosperity_modifier
-					duration = 7300 
+					duration = -1
 				}
 			}
 			custom_tooltip = pol_unlock_when_plc_tt	
@@ -3611,7 +3611,7 @@ poland_sca_slot_4_e = {
 				}
 				add_country_modifier = { 
 					name = pol_swedish_metal_imports_modifier
-					duration = 7300
+					duration = -1
 				}
 				1 = {
 					owner = { add_historical_friend = ROOT }
@@ -3621,7 +3621,7 @@ poland_sca_slot_4_e = {
 			tooltip = {
 				add_ruler_modifier = {
 					name = pol_victory_polish_crown_modifier
-					duration = -1 
+					duration = -1
 				}
 			}
 			custom_tooltip = pol_unlock_when_plc_tt				
@@ -3703,7 +3703,7 @@ poland_sca_slot_4_plc_3 = {
 				}
 				add_country_modifier = {
 					name = pol_winter_preparations_modifier
-					duration = 3650 
+					duration = -1
 				}
 			}
 			custom_tooltip = pol_alternatively_tt
@@ -3717,14 +3717,14 @@ poland_sca_slot_4_plc_3 = {
 				}
 				add_country_modifier = {
 					name = pol_winter_preparations_modifier
-					duration = 3650 
+					duration = -1
 				}
 			}
 			custom_tooltip = pol_via_alliance_or_subjugation_tt
 			tooltip = {
 				add_country_modifier = {
 					name = pol_polish_swedish_act_of_baltic_coprosperity_modifier
-					duration = 7300 
+					duration = -1
 				}
 			}
 			hidden_effect = { 
@@ -3750,7 +3750,7 @@ poland_sca_slot_4_plc_3 = {
 					}
 					add_country_modifier = {
 						name = pol_winter_preparations_modifier
-						duration = 3650 
+						duration = -1
 					}
 					scandinavia_region = {
 						limit = { 
@@ -3775,7 +3775,7 @@ poland_sca_slot_4_plc_3 = {
 					}
 					add_country_modifier = {
 						name = pol_winter_preparations_modifier
-						duration = 3650 
+						duration = -1
 					}
 					scandinavia_region = {
 						limit = { 
@@ -3801,13 +3801,13 @@ poland_sca_slot_4_plc_3 = {
 					}
 					add_country_modifier = {
 						name = pol_polish_swedish_act_of_baltic_coprosperity_modifier
-						duration = 7300 
+						duration = -1
 					}
 					1 = {
 						owner = {
 							add_country_modifier = {
 								name = pol_polish_swedish_act_of_baltic_coprosperity_modifier
-								duration = 7300 
+								duration = -1
 							}
 						}
 					}
@@ -3860,14 +3860,14 @@ poland_sca_slot_4_plc_3 = {
 				}
 				add_country_modifier = { 
 					name = pol_swedish_metal_imports_modifier
-					duration = 7300
+					duration = -1
 				}
 			}
 			custom_tooltip = pol_alternatively_tt
 			tooltip = {
 				add_ruler_modifier = {
 					name = pol_victory_polish_crown_modifier
-					duration = -1 
+					duration = -1
 				}
 			}
 			hidden_effect = {
@@ -3905,7 +3905,7 @@ poland_sca_slot_4_plc_3 = {
 								}
 								add_province_modifier = {
 									name = pol_increased_production_of_metals_modifier
-									duration = 7300
+									duration = -1
 									hidden = yes 
 								}
 							}
@@ -3913,13 +3913,13 @@ poland_sca_slot_4_plc_3 = {
 					}
 					add_country_modifier = { 
 						name = pol_swedish_metal_imports_modifier
-						duration = 7300
+						duration = -1
 					}
 				}
 				else = {
 					add_ruler_modifier = {
 						name = pol_victory_polish_crown_modifier
-						duration = -1 
+						duration = -1
 					}
 				}
 			}					
@@ -4052,7 +4052,7 @@ poland_sca_slot_5_branching_lit_hre = {
 				west_dniepr_area = {
 					add_province_modifier = {
 						name = pol_prosperity_in_ukraine_modifier
-						duration = 7300 
+						duration = -1
 					}
 					if = {
 						limit = { has_dlc = "Mandate of Heaven" } 
@@ -4062,7 +4062,7 @@ poland_sca_slot_5_branching_lit_hre = {
 				east_dniepr_area = {
 					add_province_modifier = {
 						name = pol_prosperity_in_ukraine_modifier
-						duration = 7300 
+						duration = -1
 					}
 					if = {
 						limit = { has_dlc = "Mandate of Heaven" } 
@@ -4072,7 +4072,7 @@ poland_sca_slot_5_branching_lit_hre = {
 				podolia_volhynia_area = {
 					add_province_modifier = {
 						name = pol_prosperity_in_ukraine_modifier
-						duration = 7300 
+						duration = -1
 					}
 					if = {
 						limit = { has_dlc = "Mandate of Heaven" } 
@@ -4150,7 +4150,7 @@ poland_sca_slot_5_branching_lit_hre = {
 		effect = { 
 			add_country_modifier = {
 				name = pol_efficient_taxation_lit_lands_modifier
-				duration = 5475
+				duration = -1
 			}
 			if = {
 				limit = { has_estate = estate_nobles }
@@ -4196,13 +4196,13 @@ poland_sca_slot_5_branching_lit_hre = {
 				limit = { is_emperor = yes } 
 				add_country_modifier = {
 					name = pol_polish_empire_modifier
-					duration = -1 
+					duration = -1
 				}
 			}
 			else = {
 				add_country_modifier = {
 					name = pol_bid_emperorship_modifier
-					duration = 5475 
+					duration = -1
 				}
 			}
 			every_elector = {
@@ -4252,11 +4252,11 @@ poland_sca_slot_5_branching_lit_hre = {
 		effect = { 
 			add_country_modifier = {
 				name = pol_commonwealth_supreme_modifier
-				duration = 9125 
+				duration = -1
 			}
 			add_country_modifier = {
 				name = pol_imperial_polish_decrees_modifier
-				duration = 9125 
+				duration = -1
 			}
 			change_ruler_stat = {
 				stat = dip
@@ -4395,7 +4395,7 @@ poland_sca_slot_5_branching_lit_east = {
 				west_dniepr_area = {
 					add_province_modifier = {
 						name = pol_prosperity_in_ukraine_modifier
-						duration = 7300 
+						duration = -1
 					}
 					if = {
 						limit = { has_dlc = "Mandate of Heaven" } 
@@ -4405,7 +4405,7 @@ poland_sca_slot_5_branching_lit_east = {
 				east_dniepr_area = {
 					add_province_modifier = {
 						name = pol_prosperity_in_ukraine_modifier
-						duration = 7300 
+						duration = -1
 					}
 					if = {
 						limit = { has_dlc = "Mandate of Heaven" } 
@@ -4415,7 +4415,7 @@ poland_sca_slot_5_branching_lit_east = {
 				podolia_volhynia_area = {
 					add_province_modifier = {
 						name = pol_prosperity_in_ukraine_modifier
-						duration = 7300 
+						duration = -1
 					}
 					if = {
 						limit = { has_dlc = "Mandate of Heaven" } 
@@ -4468,7 +4468,7 @@ poland_sca_slot_5_branching_lit_east = {
 		effect = { 
 			add_country_modifier = {
 				name = pol_efficient_taxation_lit_lands_modifier
-				duration = 5475
+				duration = -1
 			}
 			if = {
 				limit = { has_estate = estate_nobles }
@@ -4533,7 +4533,7 @@ poland_sca_slot_5_branching_lit_east = {
 		effect = { 
 			add_country_modifier = {
 				name = pol_commonwealth_supreme_modifier
-				duration = 9125 
+				duration = -1
 			}
 		}
 	}
@@ -4682,7 +4682,7 @@ poland_sca_slot_5_branching_hre_west = {
 				limit = { is_emperor = yes } 
 				add_country_modifier = {
 					name = pol_polish_empire_modifier
-					duration = -1 
+					duration = -1
 				}
 				every_elector = {
 					add_opinion = {
@@ -4695,7 +4695,7 @@ poland_sca_slot_5_branching_hre_west = {
 				limit = { hre_size = 1 }
 				add_country_modifier = {
 					name = pol_bid_emperorship_modifier
-					duration = 5475 
+					duration = -1
 				}
 				every_elector = {
 					add_opinion = {
@@ -4756,7 +4756,7 @@ poland_sca_slot_5_branching_hre_west = {
 				limit = { hre_size = 1 }
 				add_country_modifier = {
 					name = pol_imperial_polish_decrees_modifier
-					duration = 9125 
+					duration = -1
 				}
 			}
 			else = {
@@ -4804,13 +4804,13 @@ poland_sca_slot_5_b = {
 				limit = { has_dlc = "Rule Britannia" }
 				add_ruler_modifier = {
 					name = pol_incentives_modifier
-					duration = -1 
+					duration = -1
 				}
 			}
 			else = { 
 				add_ruler_modifier = {
 					name = pol_incentives2_modifier
-					duration = -1 
+					duration = -1
 				}
 			}
 		}
@@ -4841,7 +4841,7 @@ poland_sca_slot_5_b = {
 				add_papal_influence = 50
 				add_country_modifier = {
 					name = pol_strong_catholic_ties_modifier
-					duration = 7300 
+					duration = -1
 				}
 			}
 			custom_tooltip = pol_non_catholic_religious_ideas_tt 
@@ -4855,7 +4855,7 @@ poland_sca_slot_5_b = {
 				}
 				add_country_modifier = { 
 					name = pol_shield_against_catholicism_modifier
-					duration = -1 
+					duration = -1
 					desc = pol_until_we_not_defender_desc 
 				}
 			}
@@ -4863,7 +4863,7 @@ poland_sca_slot_5_b = {
 			tooltip = { 
 				add_country_modifier = { 
 					name = pol_guarantee_religious_rights_modifier
-					duration = -1 
+					duration = -1
 				}
 			}
 			hidden_effect = {
@@ -4871,7 +4871,7 @@ poland_sca_slot_5_b = {
 					limit = { full_idea_group = humanist_ideas }
 					add_country_modifier = { 
 						name = pol_guarantee_religious_rights_modifier
-						duration = -1 
+						duration = -1
 					}
 				}
 				else_if = { 
@@ -4885,7 +4885,7 @@ poland_sca_slot_5_b = {
 					add_papal_influence = 50
 					add_country_modifier = {
 						name = pol_strong_catholic_ties_modifier
-						duration = 7300 
+						duration = -1
 					}
 				}
 				else = { 
@@ -4899,7 +4899,7 @@ poland_sca_slot_5_b = {
 					}
 					add_country_modifier = { 
 						name = pol_shield_against_catholicism_modifier
-						duration = -1 
+						duration = -1
 						desc = pol_until_we_not_defender_desc 
 					}
 				}
@@ -4946,7 +4946,7 @@ poland_sca_slot_5_c = {
 				change_trade_goods = paper 
 				add_province_modifier = { 
 					name = pol_major_printing_center_modifier
-					duration = -1 
+					duration = -1
 				}
 			}
 			generate_scaled_advisor_of_type_and_cost_effect = {
@@ -4991,7 +4991,7 @@ poland_sca_slot_5_plc_2 = {
 				change_trade_goods = paper 
 				add_province_modifier = { 
 					name = pol_major_printing_center_modifier
-					duration = -1 
+					duration = -1
 				}
 			}
 			generate_scaled_advisor_of_type_and_cost_effect = {
@@ -5090,7 +5090,7 @@ poland_sca_slot_5_d = {
 				add_base_production = 1 
 				add_province_modifier = {
 					name = pol_developing_port_modifier
-					duration = 5475 
+					duration = -1
 				}
 			}
 			livonia_area = {
@@ -5248,7 +5248,7 @@ poland_sca_slot_5_e = {
 					change_culture = ROOT 
 					add_province_modifier = {
 						name = pol_wave_of_migration_modifier 
-						duration = 5475 
+						duration = -1
 					}
 					add_base_manpower = 1 
 				}
@@ -5256,7 +5256,7 @@ poland_sca_slot_5_e = {
 					change_culture = ROOT 
 					add_province_modifier = {
 						name = pol_wave_of_migration_modifier
-						duration = 5475 
+						duration = -1
 					}
 					add_base_manpower = 1 
 				}
@@ -5268,7 +5268,7 @@ poland_sca_slot_5_e = {
 						change_culture = ROOT 
 						add_province_modifier = {
 							name = pol_wave_of_migration_modifier
-							duration = 5475 
+							duration = -1
 						}
 						add_base_manpower = 1 
 					}
@@ -5276,7 +5276,7 @@ poland_sca_slot_5_e = {
 						change_culture = ROOT 
 						add_province_modifier = {
 							name = pol_wave_of_migration_modifier
-							duration = 5475 
+							duration = -1
 						}
 						add_base_manpower = 1 
 					}
@@ -5285,13 +5285,13 @@ poland_sca_slot_5_e = {
 					hidden_effect = {
 						add_country_modifier = {
 							name = pol_cheap_ap_mercs_modifier
-							duration = 7300 
+							duration = -1
 							hidden = yes
 						}
 					}
 					add_country_modifier = {
 						name = "mercenaries_to_the_standard"
-						duration = 3650
+						duration = -1
 						hidden = yes
 					}
 				}
@@ -5360,7 +5360,7 @@ poland_sca_slot_5_plc_3 = {
 					remove_province_modifier = daugava_estuary_modifier
 					add_province_modifier = {
 						name = pol_daugava_estuary_modifier
-						duration = -1 
+						duration = -1
 					}
 				}
 			}
@@ -5430,7 +5430,7 @@ poland_sca_slot_5_plc_3 = {
 					change_culture = ROOT 
 					add_province_modifier = {
 						name = pol_wave_of_migration_modifier 
-						duration = 5475 
+						duration = -1
 					}
 					add_base_manpower = 1 
 				}
@@ -5438,7 +5438,7 @@ poland_sca_slot_5_plc_3 = {
 					change_culture = ROOT 
 					add_province_modifier = {
 						name = pol_wave_of_migration_modifier
-						duration = 5475 
+						duration = -1
 					}
 					add_base_manpower = 1 
 				}
@@ -5450,7 +5450,7 @@ poland_sca_slot_5_plc_3 = {
 						change_culture = ROOT 
 						add_province_modifier = {
 							name = pol_wave_of_migration_modifier
-							duration = 5475 
+							duration = -1
 						}
 						add_base_manpower = 1 
 					}
@@ -5458,7 +5458,7 @@ poland_sca_slot_5_plc_3 = {
 						change_culture = ROOT 
 						add_province_modifier = {
 							name = pol_wave_of_migration_modifier
-							duration = 5475 
+							duration = -1
 						}
 						add_base_manpower = 1 
 					}
@@ -5467,13 +5467,13 @@ poland_sca_slot_5_plc_3 = {
 					hidden_effect = {
 						add_country_modifier = {
 							name = pol_cheap_ap_mercs_modifier
-							duration = 7300 
+							duration = -1
 							hidden = yes
 						}
 					}
 					add_country_modifier = {
 						name = "mercenaries_to_the_standard"
-						duration = 3650
+						duration = -1
 						hidden = yes
 					}
 				}

@@ -99,7 +99,7 @@ PLB_missions_1 = {
 			add_army_tradition_or_mil_power = { amount = 10 }
 			add_country_modifier = {
 				name = PLB_defeated_the_empire
-				duration = 7300
+				duration = -1
 			}
 			sulawesi_area = {
 				limit = {
@@ -260,12 +260,12 @@ PLB_missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = PLB_the_spice_does_flow
-				duration = 7300
+				duration = -1
 			}
 			641 = {
 				add_trade_modifier = {
 					who = ROOT
-					duration = 7300
+					duration = -1
 					power = 15
 					key = PLB_the_spice_does_flow
 				}
@@ -496,7 +496,7 @@ PLB_missions_3_1 = {
 					add_navy_tradition = 10
 					add_country_modifier = {
 						name = PLB_return_of_the_pirates
-						duration = 9125
+						duration = -1
 					}
 				}
 				custom_tooltip = PLB_non_pirate_reward
@@ -504,7 +504,7 @@ PLB_missions_3_1 = {
 					add_mercantilism = 2
 					add_country_modifier = {
 						name = PLB_chinese_viceroyalty
-						duration = 7300
+						duration = -1
 					}
 				}
 				hidden_effect = {
@@ -515,7 +515,7 @@ PLB_missions_3_1 = {
 						add_navy_tradition = 10
 						add_country_modifier = {
 							name = PLB_return_of_the_pirates
-							duration = 9125
+							duration = -1
 						}
 						set_country_flag = PLB_pirate
 						swap_non_generic_missions = yes
@@ -524,7 +524,7 @@ PLB_missions_3_1 = {
 						add_mercantilism = 2
 						add_country_modifier = {
 							name = PLB_chinese_viceroyalty
-							duration = 7300
+							duration = -1
 						}
 					}
 				}
@@ -533,7 +533,7 @@ PLB_missions_3_1 = {
 				add_mercantilism = 2
 				add_country_modifier = {
 					name = PLB_chinese_viceroyalty
-					duration = 7300
+					duration = -1
 				}
 			}
 		}
@@ -622,7 +622,7 @@ PLB_missions_3_non_pirate = {
 		effect = {
 			add_country_modifier = {
 				name = PLB_imperial_diplomacy
-				duration = 7300
+				duration = -1
 			}
 		}
 	}
@@ -699,7 +699,7 @@ PLB_missions_3_non_pirate = {
 			tooltip = {
 				add_country_modifier = {
 					name = MLC_diplomats
-					duration = 9125
+					duration = -1
 				}
 				add_dip_power = 50
 			}
@@ -707,7 +707,7 @@ PLB_missions_3_non_pirate = {
 			tooltip = {
 				add_country_modifier = {
 					name = MLC_harm_to_injury
-					duration = 7300
+					duration = -1
 				}
 				add_mil_power = 50
 			}
@@ -715,7 +715,7 @@ PLB_missions_3_non_pirate = {
 			tooltip = {
 				add_country_modifier = {
 					name = MLC_careful_distancing
-					duration = 9125
+					duration = -1
 				}
 				add_adm_power = 50
 			}
@@ -729,7 +729,7 @@ PLB_missions_3_non_pirate = {
 					}
 					add_country_modifier = {
 						name = MLC_diplomats
-						duration = 9125
+						duration = -1
 					}
 					add_dip_power = 50
 				}
@@ -742,14 +742,14 @@ PLB_missions_3_non_pirate = {
 					}
 					add_country_modifier = {
 						name = MLC_harm_to_injury
-						duration = 7300
+						duration = -1
 					}
 					add_mil_power = 50
 				}
 				else = {
 					add_country_modifier = {
 						name = MLC_careful_distancing
-						duration = 9125
+						duration = -1
 					}
 					add_adm_power = 50
 				}
@@ -942,7 +942,7 @@ PLB_missions_4_non_pirate = {
 		effect = {
 			add_country_modifier = {
 				name = PLB_loopholes
-				duration = 10950
+				duration = -1
 			}
 			add_dip_power = 50
 			#add_years_of_trade_income = { years = 2 }
@@ -1009,7 +1009,7 @@ PLB_missions_4_non_pirate = {
 			}
 			add_country_modifier = {
 				name = SUM_trade
-				duration = 9125
+				duration = -1
 			}
 		}
 	}
@@ -1149,7 +1149,7 @@ PLB_missions_4_pirate = {
 		effect = {
 			add_country_modifier = {
 				name = PLB_unrestricted_raiding
-				duration = 10950
+				duration = -1
 			}
 			create_admiral = { tradition = 40 }
 			add_dip_power = 50
@@ -1172,14 +1172,14 @@ PLB_missions_4_pirate = {
 		effect = {
 			add_country_modifier = {
 				name = PLB_issue_shipping_permits
-				duration = 10950
+				duration = -1
 			}
 			add_years_of_income = 1
 			custom_tooltip = BEI_if_we_have_galleys
 			tooltip = {
 				add_country_modifier = {
 					name = PLB_supreme_control
-					duration = 7300
+					duration = -1
 				}
 			}
 			hidden_effect = {
@@ -1189,7 +1189,7 @@ PLB_missions_4_pirate = {
 					}
 					add_country_modifier = {
 						name = PLB_supreme_control
-						duration = 7300
+						duration = -1
 					}
 				}
 			}
@@ -1403,7 +1403,7 @@ PLB_missions_5_non_pirate = {
 		effect = {
 			add_country_modifier = {
 				name = PLB_naval_dominance
-				duration = 9125
+				duration = -1
 			}
 		}
 	}

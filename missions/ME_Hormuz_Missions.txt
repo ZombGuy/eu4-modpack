@@ -287,7 +287,7 @@ ORM_missions_2 = {
 			
 			add_country_modifier = {
 				name = ORM_theologians_from_SEA
-				duration = 7300 
+				duration = -1
 			}
 			
 			custom_tooltip = " "
@@ -871,7 +871,7 @@ ORM_missions_5 = {
 			
 			add_country_modifier = {
 				name = ORM_aden
-				duration = 9125
+				duration = -1
 			}
 		}
 	}
@@ -950,7 +950,7 @@ ORM_missions_5 = {
 			
 			add_country_modifier = {
 				name = ORM_trade_efficiency
-				duration = 7300 
+				duration = -1
 			}
 		}
 	}

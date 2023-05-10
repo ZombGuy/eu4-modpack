@@ -403,7 +403,7 @@ me_bavaria_minor_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = bavaria_minor_the_bavarian_economy_modifier
-				duration = 7300
+				duration = -1
 			}
 		}
 	}
@@ -507,7 +507,7 @@ me_bavaria_minor_missions_4_1 = {
 		effect = {
 			add_country_modifier = {
 				name = bavaria_minor_a_bavarian_army_modifier
-				duration = 9125
+				duration = -1
 				desc = BAVARIA_MINOR_A_BAVARIAN_ARMY_MODIFIER_TT
 			}
 			if = {
@@ -575,7 +575,7 @@ me_bavaria_minor_missions_4_2 = {
 		effect = {
 			add_country_modifier = {
 				name = bavaria_minor_bavarian_churches_modifier
-				duration = 7300
+				duration = -1
 			}
 		}
 	}
@@ -665,7 +665,7 @@ me_bavaria_minor_missions_5 = {
 			}
 			add_country_modifier = {
 				name = bavaria_minor_a_pious_people_modifier
-				duration = 7300
+				duration = -1
 			}
 		}
 	}
@@ -1036,7 +1036,7 @@ me_bavaria_missions_2 = {
 			}
 			add_country_modifier = {
 				name = bavaria_the_kingdom_of_bavaria_modifier_2
-				duration = 5475
+				duration = -1
 			}
 			if = {
 				limit = {
@@ -1206,7 +1206,7 @@ me_bavaria_missions_2 = {
 		effect = {
 			add_country_modifier = {
 				name = bavaria_reclaim_styria_modifier
-				duration = 9125
+				duration = -1
 			}
 			inner_austria_area = {
 				add_base_tax = 1
@@ -1484,7 +1484,7 @@ me_bavaria_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = bavaria_monastery_breweries_modifier
-				duration = 9125
+				duration = -1
 			}
 			custom_tooltip = BAVARIA_MONASTERY_BREWERIES_TT
 			hidden_effect = {
@@ -1596,7 +1596,7 @@ me_bavaria_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = bavaria_a_bavarian_army_modifier
-				duration = 5475
+				duration = -1
 			}
 			if = {
 				limit = {
@@ -1645,7 +1645,7 @@ me_bavaria_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = bavaria_reunification_of_bavaria_modifier
-				duration = 5475
+				duration = -1
 			}
 			upper_swabia_area = {
 				limit = {
@@ -1794,7 +1794,7 @@ me_bavaria_missions_3 = {
 			add_yearly_sailors = 1
 			add_country_modifier = {
 				name = bavaria_reconquer_verona_modifier
-				duration = 10950
+				duration = -1
 			}
 		}
 	}
@@ -2082,7 +2082,7 @@ me_bavaria_missions_4 = {
 			franconia_area = {
 				add_province_modifier = {
 					name = bavaria_capture_lower_franconia_province_modifier
-					duration = 5475
+					duration = -1
 				}
 			}
 			custom_tooltip = BAVARIA_CAPTURE_LOWER_FRANCONIA_TT
@@ -2163,7 +2163,7 @@ me_bavaria_missions_4 = {
 			austria_proper_area = {
 				add_province_modifier = {
 					name = bavaria_reintegrate_the_eastern_march_modifier
-					duration = 9125
+					duration = -1
 				}
 			}
 		}
@@ -2479,7 +2479,7 @@ me_bavaria_missions_5_2 = {
 				}
 				add_country_modifier = {
 					name = bavaria_a_fight_for_faith_and_power_modifier
-					duration = 9125
+					duration = -1
 				}
 			}
 			custom_tooltip = BAVARIA_A_FIGHT_FOR_FAITH_AND_POWER_TT_4
@@ -2524,7 +2524,7 @@ me_bavaria_missions_5_2 = {
 					}
 					add_country_modifier = {
 						name = bavaria_a_fight_for_faith_and_power_modifier
-						duration = 9125
+						duration = -1
 					}
 					if = {
 						limit = {
@@ -2579,7 +2579,7 @@ me_bavaria_missions_5_3 = {
 			upper_swabia_area = {
 				add_province_modifier = {
 					name = bavaria_the_swabian_border_province_modifier
-					duration = 7300
+					duration = -1
 				}
 			}
 			lower_swabia_area = {
@@ -2610,7 +2610,7 @@ me_bavaria_missions_5_3 = {
 			add_mil_power = 100
 			add_country_modifier = {
 				name = bavaria_the_swabian_heartland_modifier
-				duration = 9125
+				duration = -1
 			}
 		}
 	}
@@ -2761,7 +2761,7 @@ me_bavaria_missions_wittelsbach_1 = {
 		effect = {
 			add_country_modifier = {
 				name = bavaria_the_electorate_of_cologne_modifier
-				duration = 7300
+				duration = -1
 			}
 			if = {
 				limit = {
@@ -2948,7 +2948,7 @@ me_bavaria_missions_wittelsbach_2 = {
 		effect = {
 			add_country_modifier = {
 				name = bavaria_restore_wittelsbach_rule_in_the_low_lands_modifier
-				duration = 9125
+				duration = -1
 			}
 		}
 	}
@@ -3144,7 +3144,7 @@ me_bavaria_missions_wittelsbach_3 = {
 				}
 				add_country_modifier = {
 					name = bavaria_reunite_bavaria_and_the_palatinate_modifier
-					duration = 7300
+					duration = -1
 				}
 				if = {
 					limit = {
@@ -3531,7 +3531,7 @@ me_bavaria_missions_wittelsbach_4 = {
 			else = {
 				add_country_modifier = {
 					name = bavaria_the_fate_of_brandenburg_modifier
-					duration = 5475
+					duration = -1
 				}
 			}
 		}
@@ -3646,7 +3646,7 @@ me_bavaria_missions_wittelsbach_4 = {
 			}
 			add_country_modifier = {
 				name = bavaria_erbt_den_thron_brandenburgs_modifier
-				duration = 10950
+				duration = -1
 			}
 		}
 	}
@@ -3866,14 +3866,14 @@ me_bavaria_missions_wittelsbach_5 = {
 				tooltip = {
 					add_country_modifier = {
 						name = bavaria_a_bavarian_denmark_modifier_1
-						duration = 12775
+						duration = -1
 					}
 				}
 				custom_tooltip = BAVARIA_A_BAVARIAN_DENMARK_TT_2
 				tooltip = {
 					add_country_modifier = {
 						name = bavaria_a_bavarian_denmark_modifier_2
-						duration = 9125
+						duration = -1
 					}
 				}
 				hidden_effect = {
@@ -3888,13 +3888,13 @@ me_bavaria_missions_wittelsbach_5 = {
 						}
 						add_country_modifier = {
 							name = bavaria_a_bavarian_denmark_modifier_1
-							duration = 12775
+							duration = -1
 						}
 					}
 					else = {
 						add_country_modifier = {
 							name = bavaria_a_bavarian_denmark_modifier_2
-							duration = 9125
+							duration = -1
 						}
 					}
 				}
@@ -3902,7 +3902,7 @@ me_bavaria_missions_wittelsbach_5 = {
 			else = {
 				add_country_modifier = {
 					name = bavaria_a_bavarian_denmark_modifier_3
-					duration = 7300
+					duration = -1
 				}
 			}
 			if = {
@@ -4039,7 +4039,7 @@ me_bavaria_missions_wittelsbach_5 = {
 				}
 				add_province_modifier = {
 					name = bavaria_integration_of_norway_and_sweden_province_modifier
-					duration = 18250
+					duration = -1
 				}
 			}
 		}
@@ -4130,7 +4130,7 @@ me_bavaria_missions_welf_1 = {
 			}
 			add_country_modifier = {
 				name = bavaria_the_welfs_in_saxony_modifier
-				duration = 10950
+				duration = -1
 			}
 			braunschweig_area = {
 				limit = {
@@ -4294,7 +4294,7 @@ me_bavaria_missions_welf_2 = {
 			else = {
 				add_country_modifier = {
 					name = bavaria_the_fate_of_saxony_modifier
-					duration = 5475
+					duration = -1
 				}
 			}
 		}
@@ -4763,7 +4763,7 @@ me_bavaria_missions_welf_4 = {
 		effect = {
 			add_country_modifier = {
 				name = bavaria_find_the_roots_modifier
-				duration = 10950
+				duration = -1
 			}
 			if = {
 				limit = {
@@ -5042,7 +5042,7 @@ me_bavaria_missions_welf_5 = {
 		effect = {
 			add_country_modifier = {
 				name = bavaria_a_power_in_north_italy_modifier
-				duration = 10950
+				duration = -1
 			}
 			if = {
 				limit = {

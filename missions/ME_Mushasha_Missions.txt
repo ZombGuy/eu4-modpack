@@ -30,7 +30,7 @@ MSY_missions_1 = {
 			2312 = {
 				add_province_modifier = {
 					name = MSY_conversion_zeal
-					duration = 7300
+					duration = -1
 				}
 			}
 			if = {
@@ -43,7 +43,7 @@ MSY_missions_1 = {
 				4288 = {
 					add_province_modifier = {
 						name = MSY_conversion_zeal
-						duration = 7300
+						duration = -1
 					}
 				}
 			}
@@ -875,7 +875,7 @@ MSY_missions_4 = {
 			
 			add_country_modifier = {
 				name = MSY_conquest_of_fars
-				duration = 9125
+				duration = -1
 			}
 		}
 	}

@@ -37,7 +37,7 @@
 		# effect = {
 			# add_country_modifier = {
 				# name = "colonial_enthusiasm"
-				# duration = 7300
+				# duration = -1
 			# }
 		# }
 		# ai_weight = {

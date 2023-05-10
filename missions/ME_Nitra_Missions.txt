@@ -41,7 +41,7 @@ nitra_first = {
 			}
 			add_country_modifier = {
 				name = "slo_core"
-				duration = 9125
+				duration = -1
 			}
 			custom_tooltip = SLO_VELEHRAD_CAPITAL
 			custom_tooltip = SLO_BOH_1
@@ -279,7 +279,7 @@ nitra_first = {
 			}
 			add_country_modifier = {
 				name = "slo_royal"
-				duration = 5475
+				duration = -1
 			}
 		}
 	}
@@ -328,7 +328,7 @@ nitra_second = {
 			custom_tooltip = SLO_PROVINCE_NAMES
 			add_country_modifier = {
 				name = "slo_stabilize"
-				duration = 7300
+				duration = -1
 			}
 			hidden_effect = {
 				1772 = {
@@ -369,7 +369,7 @@ nitra_second = {
 			set_country_flag = slovak_westernization
 			add_country_modifier = {
 				name = "slo_entrance"
-				duration = 7300
+				duration = -1
 			}
 			custom_tooltip = SLO_EMPEROR_ALLY
 			tooltip = {
@@ -408,7 +408,7 @@ nitra_second = {
 			262 = {
 				add_trade_modifier = {
 					who = ROOT
-					duration = 5475
+					duration = -1
 					power = 25
 					key = nitra_krakow_trade
 				}
@@ -499,7 +499,7 @@ nitra_second = {
 		effect = {
 			add_country_modifier = {
 				name = "slo_sphere"
-				duration = 9125
+				duration = -1
 			}
 			1770 = {
 				if = {
@@ -666,7 +666,7 @@ nitra_second = {
 			tooltip = {
 				add_country_modifier = {
 					name = "slo_class"
-					duration = 9125
+					duration = -1
 				}
 			}
 			hidden_effect = {
@@ -678,7 +678,7 @@ nitra_second = {
 					}
 					add_country_modifier = {
 						name = "slo_class"
-						duration = 9125
+						duration = -1
 					}
 				}
 			}
@@ -753,7 +753,7 @@ nitra_third = {
 			custom_tooltip = SLO_HUNGARY_SUBJECT
 			add_country_modifier = {
 				name = "slo_independence"
-				duration = 5475
+				duration = -1
 			}
 			hidden_effect = {
 				if = {
@@ -799,7 +799,7 @@ nitra_third = {
 			tooltip = {
 				add_country_modifier = {
 					name = "slo_foreign_support"
-					duration = 9125
+					duration = -1
 				}
 			}
 			hidden_effect = {
@@ -814,7 +814,7 @@ nitra_third = {
 					}
 					add_country_modifier = {
 						name = "slo_foreign_support"
-						duration = 9125
+						duration = -1
 					}
 				}
 			}
@@ -858,7 +858,7 @@ nitra_third = {
 			custom_tooltip = SLO_NAMES_CARPATHIA
 			add_country_modifier = {
 				name = slo_hegemony
-				duration = 9125
+				duration = -1
 			}
 			hidden_effect = {
 				4125 = {
@@ -1002,13 +1002,13 @@ nitra_third = {
 			add_adm_power = 100
 			add_country_modifier = {
 				name = "slo_imperial"
-				duration = 5475
+				duration = -1
 			}
 			custom_tooltip = SLO_CONQUER_VIENNA
 			tooltip = {
 				add_country_modifier = {
 					name = "slo_capture"
-					duration = 9125
+					duration = -1
 				}
 			}
 			hidden_effect = {
@@ -1020,7 +1020,7 @@ nitra_third = {
 					}
 					add_country_modifier = {
 						name = "slo_capture"
-						duration = 9125
+						duration = -1
 					}
 				}
 			}
@@ -1051,7 +1051,7 @@ nitra_third = {
 		effect = {
 			add_country_modifier = {
 				name = "slo_embraced_slovakization"
-				duration = 9125
+				duration = -1
 			}
 			define_advisor = {
 				type = statesman
@@ -1094,7 +1094,7 @@ nitra_third = {
 			custom_tooltip = SLO_BURGHER_MANA
 			add_country_modifier = {
 				name = "slo_prosperous_towns"
-				duration = 9125
+				duration = -1
 			}
 			hidden_effect = {
 				if = {
@@ -1336,7 +1336,7 @@ nitra_fourth = {
 			add_yearly_manpower = 3
 			add_country_modifier = {
 				name = slo_romania
-				duration = 7300
+				duration = -1
 			}
 			bulgaria_area = {
 				limit = {
@@ -1521,7 +1521,7 @@ nitra_fourth = {
 			}
 			add_country_modifier = {
 				name = "slo_literary"
-				duration = 7300
+				duration = -1
 			}
 		}
 	}
@@ -1574,7 +1574,7 @@ nitra_fourth = {
 			}
 			add_country_modifier = {
 				name = "slo_slovak_romanticism"
-				duration = 18250
+				duration = -1
 			}
 			custom_tooltip = SLO_MISSION_CATHOLIC
 			tooltip = {

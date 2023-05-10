@@ -29,7 +29,7 @@ Azerbaijani_Generic_Missions_2 = {
 		effect = {
 			add_country_modifier = {
 				name = Azerbaijani_reconquering_land
-				duration = 7300
+				duration = -1
 			}
 		}
 	}
@@ -103,7 +103,7 @@ Azerbaijani_Generic_Missions_3 = {
 			421 = {
 				add_trade_modifier = {
 					key = Azerbaijani_trade
-					duration = 9125
+					duration = -1
 					power = 25
 					who = ROOT
 				}
@@ -130,7 +130,7 @@ Azerbaijani_Generic_Missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = Azerbaijani_unity
-				duration = 9125
+				duration = -1
 			}
 			tabarestan_area = {
 				limit = {
@@ -196,7 +196,7 @@ Azerbaijani_Generic_Missions_4= {
 		effect = {
 			add_country_modifier = {
 				name = Azerbaijani_in_support_of_arts
-				duration = 5475
+				duration = -1
 			}
 		}
 	}
@@ -217,7 +217,7 @@ Azerbaijani_Generic_Missions_4= {
 		effect = {
 			add_country_modifier = {
 				name = TRE_cities_of_knowledge
-				duration = 9125
+				duration = -1
 			}
 			change_innovativeness = 5
 		}
@@ -253,13 +253,13 @@ Azerbaijani_Generic_Missions_5 = {
 				}
 				add_country_modifier = {
 					name = Azerbaijani_splendor
-					duration = 9125
+					duration = -1
 				}
 			}
 			else = {
 				add_country_modifier = {
 					name = Azerbaijani_splendor_2
-					duration = 9125
+					duration = -1
 				}
 			}
 		}
@@ -283,7 +283,7 @@ Azerbaijani_Generic_Missions_5 = {
 			else = {
 				add_country_modifier = {
 					name = Azerbaijani_renaissance
-					duration = 9125
+					duration = -1
 				}
 			}
 		}
@@ -394,7 +394,7 @@ Azerbaijani_Generic_Missions_SRV = {
 			421 = {
 				add_province_modifier = {
 					name = Azerbaijani_fortifications
-					duration = 9125
+					duration = -1
 				}
 			}
 		}
@@ -419,7 +419,7 @@ Azerbaijani_Generic_Missions_SRV = {
 		effect = {
 			add_country_modifier = {
 				name = Azerbaijani_supporting_religion
-				duration = 7300
+				duration = -1
 			}
 		}
 	}
@@ -687,7 +687,7 @@ AZE_Missions_1 = {
 				area = {
 					add_province_modifier = {
 						name = AZE_growth_of_capital
-						duration = 10950
+						duration = -1
 					}
 				}
 			}
@@ -852,7 +852,7 @@ AZE_Missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = AZE_crossroad_of_persian_trade
-				duration = 9125
+				duration = -1
 			}
 		}
 	}
@@ -940,7 +940,7 @@ AZE_Missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = AZE_city_of_worlds_desire
-				duration = 9125
+				duration = -1
 			}
 			add_prestige = 50
 		}
@@ -982,7 +982,7 @@ AZE_Missions_4 = {
 		effect = {
 			add_country_modifier = {
 				name = AZE_pushing_west
-				duration = 9125
+				duration = -1
 			}
 			erzurum_area = {
 				limit = {
@@ -1137,7 +1137,7 @@ AZE_Missions_4 = {
 		effect = {
 			add_country_modifier = {
 				name = AZE_qizilbashi
-				duration = 9125
+				duration = -1
 			}
 		}
 	}
@@ -1192,7 +1192,7 @@ AZE_Missions_5 = {
 			}
 			add_country_modifier = {
 				name = AZE_end_of_georgia
-				duration = 9125
+				duration = -1
 			}
 		}
 	}
@@ -1242,7 +1242,7 @@ AZE_Missions_5 = {
 		effect = {
 			add_country_modifier = {
 				name = AZE_true_faith
-				duration = 9125
+				duration = -1
 			}
 			add_stability_or_adm_power = yes
 		}

@@ -28,7 +28,7 @@ KOL_missions_1 = {
 			}
 			add_country_modifier = {
 				name = "army_enthusiasm"
-				duration = 5475
+				duration = -1
 			}
 			84 = {
 				if = {
@@ -133,7 +133,7 @@ KOL_missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = "cologne_modifier2"
-				duration = 3650
+				duration = -1
 			}
 			1876 = {
 				if = {
@@ -163,7 +163,7 @@ KOL_missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = "cologne_modifier3"
-				duration = 3650
+				duration = -1
 			}
 		}
 	}
@@ -293,7 +293,7 @@ KOL_missions_2 = {
 			custom_tooltip = cologne_tooltip
 			add_country_modifier = {
 				name = "cologne_modifier"
-				duration = 9125
+				duration = -1
 			}
 			hidden_effect = {
 				south_saxony_area = {

@@ -147,7 +147,7 @@ mnd_mlc_1 = {
 		effect = {
 			add_country_modifier = {
 				name = mlc_morale
-				duration = 7300
+				duration = -1
 			}
 		}
 	}
@@ -592,7 +592,7 @@ mnd_mlc_2 = {
 				596 = {
 					add_province_modifier = {
 						name = mlc_trade_modifier
-						duration = 36500
+						duration = -1
 					}
 				}
 			}

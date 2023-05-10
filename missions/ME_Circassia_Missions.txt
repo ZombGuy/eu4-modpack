@@ -18,7 +18,7 @@ Circassia_Missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = CIR_dockyard_innovations
-				duration = 10950
+				duration = -1
 			}
 		}
 	}
@@ -44,7 +44,7 @@ Circassia_Missions_2 = {
 		effect = {
 			add_country_modifier = {
 				name = CIR_army_of_defense_modifier
-				duration = 9125
+				duration = -1
 			}
 		}
 	}
@@ -72,7 +72,7 @@ Circassia_Missions_2 = {
 			}
 			add_country_modifier = {
 				name = CIR_benign_expansion
-				duration = 9125
+				duration = -1
 			}
 		}
 	}
@@ -96,7 +96,7 @@ Circassia_Missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = CIR_stabilizing
-				duration = 9125
+				duration = -1
 			}
 		}
 	}
@@ -146,7 +146,7 @@ Circassia_Missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = CIR_unavenged_yet_gay
-				duration = 10950
+				duration = -1
 			}
 		}
 	}
@@ -195,7 +195,7 @@ Circassia_Missions_4 = {
 		effect = {
 			add_country_modifier = {
 				name = CIR_torn_asunder
-				duration = 7300
+				duration = -1
 			}
 			add_stability_or_adm_power = yes
 		}
@@ -218,12 +218,12 @@ Circassia_Missions_4 = {
 			dagestan_area = {
 				add_province_modifier = {
 					name = CIR_dagestani_mining
-					duration = 10950
+					duration = -1
 				}
 			}
 			add_country_modifier = {
 				name = CIR_access_to_the_steppe
-				duration = 10950
+				duration = -1
 			}
 		}
 	}
@@ -270,7 +270,7 @@ Circassia_Missions_5 = {
 		effect = {
 			add_country_modifier = {
 				name = CIR_nomadic_assistance
-				duration = 9125
+				duration = -1
 			}
 		}
 	}

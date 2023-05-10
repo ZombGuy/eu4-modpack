@@ -148,7 +148,7 @@ gc_aragon_1 = {
 		effect = {
 			add_country_modifier = {
 				name = "industria_sedera"
-				duration = 7300
+				duration = -1
 			}
 		}
 	}
@@ -162,7 +162,7 @@ gc_aragon_1 = {
 		effect = {
 			add_country_modifier = {
 				name = "ara_golden_age"
-				duration = 36500
+				duration = -1
 			}
 		}
 	}
@@ -296,7 +296,7 @@ gc_aragon_2 = {
 				add_base_production = 3
 				add_province_modifier = {
 					name = "barcelona_guilds"
-					duration = 7300
+					duration = -1
 				}
 			}
 		}
@@ -312,7 +312,7 @@ gc_aragon_2 = {
 		effect = {
 			add_country_modifier = {
 				name = "taula_de_canvi"
-				duration = 7300
+				duration = -1
 			}
 		}
 	}
@@ -601,7 +601,7 @@ gc_aragon_3 = {
 		effect = {
 			add_country_modifier = {
 				name = military_vassalization
-				duration = 7300
+				duration = -1
 			}
 			provence_area = {
 				limit = {
@@ -875,7 +875,7 @@ gc_aragon_4 = {
 		effect = {
 			add_country_modifier = {
 				name = "mediterranean_ambition"
-				duration = 7300
+				duration = -1
 			}
 			albania_area = {
 				limit = {
@@ -1162,7 +1162,7 @@ gc_aragon_5 = {
 		effect = {
 			add_country_modifier = {
 				name = "refoming_barbary_pirates"
-				duration = 7300
+				duration = -1
 			}
 			kabylia_area = {
 				limit = {
@@ -1207,7 +1207,7 @@ gc_aragon_5 = {
 		effect = {
 			add_country_modifier = {
 				name = "ara_ship_trade_modifier"
-				duration = 7300
+				duration = -1
 			}
 			delta_area = {
 				limit = {
@@ -1309,7 +1309,7 @@ gc_aragon_5 = {
 		effect = {
 			add_country_modifier ={	
 				name = "ara_envoy_to_ethiopia"
-				duration = 7300
+				duration = -1
 			}
 		}
 	}

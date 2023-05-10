@@ -146,7 +146,7 @@ AKK_missions_1 = {
 			
 			add_country_modifier = {
 				name = AKK_subduing_the_tribes_of_dulkadir
-				duration = 9125
+				duration = -1
 			}
 			
 			ME_give_claims = { area = rum_area }
@@ -187,7 +187,7 @@ AKK_missions_1 = {
 			
 			add_country_modifier = {
 				name = AKK_war_is_imminent
-				duration = 10950
+				duration = -1
 			}
 		}
 	}
@@ -316,7 +316,7 @@ AKK_missions_2 = {
 		effect = {
 			add_country_modifier = {
 				name = AKK_loyalist_court
-				duration = 7300
+				duration = -1
 			}
 			
 			add_stability_or_adm_power = yes
@@ -374,7 +374,7 @@ AKK_missions_2 = {
 			tooltip = {
 				add_province_modifier = {
 					name = AKK_pwsc_syria
-					duration = 5475
+					duration = -1
 				}
 			}
 			
@@ -383,7 +383,7 @@ AKK_missions_2 = {
 				SYR = {
 					add_country_modifier = {
 						name = AKK_reconquest_of_syria
-						duration = 5475
+						duration = -1
 					}
 					capital_scope = {
 						infantry = SYR
@@ -403,7 +403,7 @@ AKK_missions_2 = {
 					SYR = {
 						add_country_modifier = {
 							name = AKK_reconquest_of_syria
-							duration = 5475
+							duration = -1
 						}
 						capital_scope = {
 							infantry = SYR
@@ -447,7 +447,7 @@ AKK_missions_2 = {
 		effect = {
 			add_country_modifier = {
 				name = QAR_advance_against_mamluks
-				duration = 10950
+				duration = -1
 			}
 			
 			custom_tooltip = QAR_directly_owned_provinces_in_syria_get
@@ -524,7 +524,7 @@ AKK_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = AKK_raids_on_qq_begin
-				duration = 7300
+				duration = -1
 			}
 			
 			QIR_add_turkic_tribes_loyalty = { amount = 15 }
@@ -688,7 +688,7 @@ AKK_missions_3 = {
 			tooltip = {
 				add_country_modifier = {
 					name = AKK_defeated_the_last_remnant
-					duration = 5475
+					duration = -1
 				}
 			
 				if = {
@@ -744,7 +744,7 @@ AKK_missions_3 = {
 			
 			add_country_modifier = {
 				name = AKK_georgian_dissent
-				duration = 9125
+				duration = -1
 			}
 		}
 	}
@@ -936,7 +936,7 @@ AKK_missions_4 = {
 			else = {
 				add_country_modifier = {
 					name = AKK_conquest_of_armenia_yay
-					duration = 5475
+					duration = -1
 				}
 			}
 			set_country_flag = AKK_empower_the_tolerating_armenians_privilege_flag
@@ -1132,7 +1132,7 @@ AKK_missions_5 = {
 			
 			add_country_modifier = {
 				name = AKK_tribal_cohesion
-				duration = 7300
+				duration = -1
 			}
 		}
 	}
@@ -1204,7 +1204,7 @@ AKK_missions_5 = {
 		effect = {
 			add_country_modifier = {
 				name = AKK_tribal_feuds
-				duration = 10950
+				duration = -1
 			}
 			
 			add_casus_belli = {

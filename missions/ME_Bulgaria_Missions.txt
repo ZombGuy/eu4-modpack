@@ -51,13 +51,13 @@ bulgaria_missions_1 = {
 			1765 = {
 				add_province_modifier = {
 					name = bul_kreposti_rebuilt
-					duration = 7300
+					duration = -1
 				}
 			}
 			159 = {
 				add_province_modifier = {
 					name = bul_kreposti_rebuilt
-					duration = 7300
+					duration = -1
 				}
 			}
 		}
@@ -171,7 +171,7 @@ bulgaria_missions_1_roman = {
 			add_dip_power = 50
 			add_country_modifier = {
 				name = bul_bulgarian_navy
-				duration = 5475
+				duration = -1
 			}
 		}
 	}
@@ -238,7 +238,7 @@ bulgaria_missions_1_roman = {
 		effect = {
 			add_country_modifier = {
 				name = bul_roman_cultural_revival_mod
-				duration = 10950
+				duration = -1
 			}
 			118 = {
 				add_province_modifier = {
@@ -327,13 +327,13 @@ bulgaria_missions_2 = {
 				}
 				add_country_modifier = {
 					name = bul_expert_diplomats
-					duration = 1825
+					duration = -1
 				}
 			}
 			else = {
 				add_country_modifier = {
 					name = bul_expert_diplomats_independent
-					duration = 1825
+					duration = -1
 				}
 			}
 		}
@@ -414,37 +414,37 @@ bulgaria_missions_2 = {
 			4173 = {
 				add_province_modifier = {
 					name = bul_bulgarian_roads
-					duration = 7300
+					duration = -1
 				}
 			}
 			140 = {
 				add_province_modifier = {
 					name = bul_bulgarian_roads
-					duration = 7300
+					duration = -1
 				}
 			}
 			131 = {
 				add_province_modifier = {
 					name = bul_bulgarian_roads
-					duration = 7300
+					duration = -1
 				}
 			}
 			161 = {
 				add_province_modifier = {
 					name = bul_bulgarian_roads
-					duration = 7300
+					duration = -1
 				}
 			}
 			151 = {
 				add_province_modifier = {
 					name = bul_bulgarian_roads
-					duration = 7300
+					duration = -1
 				}
 			}
 			148 = {
 				add_province_modifier = {
 					name = bul_bulgarian_roads
-					duration = 7300
+					duration = -1
 				}
 			}
 		}
@@ -464,7 +464,7 @@ bulgaria_missions_2 = {
 		effect = {
 			add_country_modifier = {
 				name = bul_modernizing_bulgaria
-				duration = 5475
+				duration = -1
 			}
 			if = {
 				limit = {
@@ -472,13 +472,13 @@ bulgaria_missions_2 = {
 				}
 				add_country_modifier = {
 					name = bul_innovativeness_dlc
-					duration = 7300
+					duration = -1
 				}
 			}
 			else = {
 				add_country_modifier = {
 					name = bul_innovativeness
-					duration = 7300
+					duration = -1
 				}
 			}
 		}
@@ -540,7 +540,7 @@ bulgaria_missions_2_roman = {
 		effect = {
 			add_country_modifier = {
 				name = bul_mock_theme_system
-				duration = 7300
+				duration = -1
 			}
 			italy_region = {
 				limit = {
@@ -580,7 +580,7 @@ bulgaria_missions_2_roman = {
 		effect = {
 			add_country_modifier = {
 				name = bul_seat_rome
-				duration = 3650
+				duration = -1
 			}
 			egypt_region = {
 				limit = {
@@ -728,7 +728,7 @@ bulgaria_missions_2_roman = {
 		effect = {
 			add_country_modifier = {
 				name = bul_back_maroon
-				duration = 10950
+				duration = -1
 			}
 			iberia_region = {
 				limit = {
@@ -1089,7 +1089,7 @@ bulgaria_missions_3 = {
 				convert_ruler_to_general = yes
 				add_country_modifier = {
 					name = bul_challenging_elan
-					duration = 3650
+					duration = -1
 				}
 			}
 			macedonia_area = {
@@ -1188,7 +1188,7 @@ bulgaria_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = bul_rights_to_balkans
-				duration = 10950
+				duration = -1
 			}
 			balkan_region = {
 				limit = {
@@ -1226,7 +1226,7 @@ bulgaria_missions_3 = {
 			}
 			add_country_modifier = {
 				name = bul_growing_morale
-				duration = 10950
+				duration = -1
 			}
 		}
 	}
@@ -1395,7 +1395,7 @@ bulgaria_missions_3_roman = {
 			add_stability_or_adm_power = yes
 			add_country_modifier = {
 				name = bul_prosperity_homeland
-				duration = 3650
+				duration = -1
 			}
 			every_owned_province = {
 				limit = {
@@ -1403,7 +1403,7 @@ bulgaria_missions_3_roman = {
 				}
 				add_province_modifier = {
 					name = bul_government_investments
-					duration = 3650
+					duration = -1
 				}
 			}
 		}
@@ -1436,7 +1436,7 @@ bulgaria_missions_3_roman = {
 			add_years_of_income = 1
 			add_country_modifier = {
 				name = bul_rebuilding_new_land
-				duration = 7300
+				duration = -1
 			}
 		}
 	}
@@ -1539,7 +1539,7 @@ bulgaria_missions_3_slavic = {
 			add_stability_or_adm_power = yes
 			add_country_modifier = {
 				name = bul_prosperity_homeland
-				duration = 3650
+				duration = -1
 			}
 			every_owned_province = {
 				limit = {
@@ -1547,7 +1547,7 @@ bulgaria_missions_3_slavic = {
 				}
 				add_province_modifier = {
 					name = bul_government_investments
-					duration = 3650
+					duration = -1
 				}
 			}
 		}
@@ -1580,7 +1580,7 @@ bulgaria_missions_3_slavic = {
 			add_years_of_income = 1
 			add_country_modifier = {
 				name = bul_rebuilding_new_land
-				duration = 7300
+				duration = -1
 			}
 		}
 	}
@@ -1628,7 +1628,7 @@ bulgaria_missions_4 = {
 		effect = {
 			add_country_modifier = {
 				name = bul_becoming_master
-				duration = 9125
+				duration = -1
 			}
 			northern_greece_area = {
 				limit = {
@@ -1885,7 +1885,7 @@ bulgaria_missions_4_slavic = {
 		effect = {
 			add_country_modifier = {
 				name = bul_into_bear
-				duration = 10950
+				duration = -1
 			}
 			russia_region = {
 				limit = {
@@ -2001,7 +2001,7 @@ bulgaria_missions_5 = {
 		effect = {
 			add_country_modifier = {
 				name = bul_bulgarian_steaks
-				duration = 5475
+				duration = -1
 			}
 		}
 	}
@@ -2051,7 +2051,7 @@ bulgaria_missions_5 = {
 			}
 			add_country_modifier = {
 				name = bul_subsidized_the_migrants
-				duration = 5475
+				duration = -1
 			}
 			4531 = {
 				change_province_name = "Bukuresht"
@@ -2114,7 +2114,7 @@ bulgaria_missions_5 = {
 			add_adm_power = 200
 			add_country_modifier = {
 				name = bul_monetary_benefits
-				duration = 10950
+				duration = -1
 			}
 		}
 	}
@@ -2157,7 +2157,7 @@ bulgaria_missions_5_slavic = {
 				add_local_autonomy = -20
 				add_province_modifier = {
 					name = bul_new_balkan_overlord
-					duration = 7300
+					duration = -1
 				}
 			}
 		}

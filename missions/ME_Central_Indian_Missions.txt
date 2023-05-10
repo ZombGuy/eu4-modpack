@@ -63,7 +63,7 @@ central_indian_column_1 = {
 					limit = { owned_by = ROOT }
 					add_province_modifier = {
 						name = "central_indian_construction"
-						duration = 9125 #25 years
+						duration = -1
 					}
 				}
 			}
@@ -95,7 +95,7 @@ central_indian_column_1 = {
 			add_mil_power = 50
 			add_country_modifier = {
 				name = "central_indian_scholarship"
-				duration = 9125
+				duration = -1
 			}
 		}
 	}
@@ -132,7 +132,7 @@ central_indian_column_2 = {
 			add_yearly_manpower = 1
 			add_country_modifier = {
 				name = "central_indian_military_unity"
-				duration = 7300 #20 Years
+				duration = -1
 			}
 		}
 	}
@@ -195,7 +195,7 @@ central_indian_column_3 = {
 			add_legitimacy_equivalent = { amount = 10 republican_tradition = 5 }
 			add_country_modifier = {
 				name = "central_indian_first_strike"
-				duration = 3650 #10 Years
+				duration = -1
 			}
 		}
 	}
@@ -259,7 +259,7 @@ central_indian_column_3 = {
 			}
 			add_country_modifier = {
 				name = "central_indian_founding_of_nagpur"
-				duration = 3650 #10 Years
+				duration = -1
 			}
 			if = {
 				limit = {
@@ -279,7 +279,7 @@ central_indian_column_3 = {
 			546 = {
 				add_province_modifier = {
 					name = "foundations_of_nagpur"
-					duration = 9125 #25 years
+					duration = -1
 				}
 			}
 		}
@@ -325,7 +325,7 @@ central_indian_column_4 = {
 			}
 			add_country_modifier = {
 				name = "central_indian_new_weaponry"
-				duration = 7300 #20 Years
+				duration = -1
 			}
 		}
 	}
@@ -390,7 +390,7 @@ central_indian_column_5 = {
 		effect = {
 			add_country_modifier = {
 				name = "central_indian_stable_court"
-				duration = 5475 #15 Years
+				duration = -1
 			}
 		}
 	}
@@ -492,7 +492,7 @@ central_indian_column_5 = {
 			}
 			add_country_modifier = {
 				name = "central_indian_basic_loyalty"
-				duration = 7300 #20 Years
+				duration = -1
 			}
 		}
 	}
@@ -536,7 +536,7 @@ central_indian_column_5 = {
 			add_mil_power = 50
 			add_country_modifier = {
 				name = "central_indian_landed_elites"
-				duration = 9125 #25 Years
+				duration = -1
 			}
 		}
 	}

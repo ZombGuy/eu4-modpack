@@ -176,7 +176,7 @@ Timurid_princes_missions_2 = {
 			tooltip = {
 				add_country_modifier = {
 					name = me_prince_rise_to_power
-					duration = 7300
+					duration = -1
 				}
 			}
 		}
@@ -222,7 +222,7 @@ Timurid_princes_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = ME_heir_of_timur
-				duration = 7300
+				duration = -1
 			}
 			custom_tooltip = me_tim_if_we_declare_war_on_timurids_we_do_not_lose_stability
 			set_country_flag = me_tim_no_stab_hit_vassal
@@ -251,7 +251,7 @@ Timurid_princes_missions_3 = {
 			add_legitimacy_equivalent = { amount = 10 republican_tradition = 10 }
 			add_country_modifier = {
 				name = me_prince_forwards
-				duration = 9125
+				duration = -1
 			}
 			custom_tooltip = me_prince_at_per_war_won
 			
@@ -280,7 +280,7 @@ Timurid_princes_missions_3 = {
 			}
 			add_country_modifier = {
 				name = me_prince_uncontested_reign
-				duration = 7300
+				duration = -1
 			}
 		}
 	}
@@ -402,7 +402,7 @@ Timurid_princes_missions_4 = {
 				}
 				add_country_modifier = {
 					name = me_prince_tolerance
-					duration = 7300
+					duration = -1
 				}
 			}
 			custom_tooltip = " "
@@ -414,7 +414,7 @@ Timurid_princes_missions_4 = {
 				}
 				add_country_modifier = {
 					name = me_prince_conversion
-					duration = 7300
+					duration = -1
 				}
 			}
 		}
@@ -456,7 +456,7 @@ Timurid_princes_missions_5 = {
 		effect = {
 			add_country_modifier = {
 				name = ME_seljuk_architecture
-				duration = 10950
+				duration = -1
 			}
 			custom_tooltip = me_prince_gain_income_per_church
 			hidden_effect = {
@@ -488,12 +488,12 @@ Timurid_princes_missions_5 = {
 				custom_tooltip = me_prince_gain_progress_institution
 				add_province_modifier = {
 					name = me_prince_cultural_centre
-					duration = 5475
+					duration = -1
 				}
 			}
 			add_country_modifier = {
 				name = me_prince_islamic_arts
-				duration = 7300
+				duration = -1
 			}
 		}
 	}

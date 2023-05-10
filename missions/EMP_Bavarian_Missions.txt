@@ -87,7 +87,7 @@ emp_bav_prestige_branch = {
 
 			add_country_modifier = {
 				name = bav_splendorous_bavaria
-				duration = 7300
+				duration = -1
 			}
 
 			if = {
@@ -273,7 +273,7 @@ emp_bav_missions_conquest = {
 							limit = { owned_by = ROOT }
 							add_province_modifier = {
 								name = faster_integration
-								duration = 7300
+								duration = -1
 							}
 						}
 					}
@@ -288,7 +288,7 @@ emp_bav_missions_conquest = {
 							limit = { owned_by = ROOT }
 							add_province_modifier = {
 								name = faster_integration
-								duration = 7300
+								duration = -1
 							}
 						}
 					}
@@ -326,7 +326,7 @@ emp_bav_missions_conquest = {
 					limit = { owned_by = ROOT }
 					add_province_modifier = {
 						name = faster_integration
-						duration = 7300
+						duration = -1
 					}
 				}
 			}
@@ -495,7 +495,7 @@ emp_bav_missions_conquest_2 = {
 		effect = {
 			add_country_modifier = {
 				name = bav_tamed_brandenburg
-				duration = 7300
+				duration = -1
 			}
 		}
 		ai_weight = {
@@ -566,13 +566,13 @@ emp_bav_missions_military = {
 				}
 				add_country_modifier = {
 					name = bav_professional_army
-					duration = 7300
+					duration = -1
 				}
 			}
 			else = {
 				add_country_modifier = {
 					name = bav_professional_army2
-					duration = 7300
+					duration = -1
 				}
 			}
 		}
@@ -731,7 +731,7 @@ emp_bav_missions_religious = {
 		effect = {
 			add_country_modifier = {
 				name = bav_piety_shown
-				duration = 7300
+				duration = -1
 			}
 		}
 	}
@@ -778,7 +778,7 @@ emp_bav_missions_religious = {
 		effect = {
 			add_country_modifier = {
 				name = bav_piety_spread
-				duration = 7300
+				duration = -1
 			}
 			every_neighbor_country = {
 				add_opinion = {
@@ -1238,7 +1238,7 @@ emp_bav_missions_conquer_italy = {
 			}
 			add_country_modifier = {
 				name = bav_italian_coast
-				duration = 7300
+				duration = -1
 			}
 		}
 		ai_weight = {
@@ -1310,7 +1310,7 @@ emp_bav_missions_netherlands = {
 		effect = {
 			add_country_modifier = {
 				name = bav_bavarian_netherlands
-				duration = 7300
+				duration = -1
 			}
 		}
 		ai_weight = {

@@ -37,7 +37,7 @@ bohemian_missions_1 = {
 			
 			add_country_modifier = {
 				name = boh_war_vs_emperor_modifier
-				duration = 3650 
+				duration = -1
 			}
 		}
 	}
@@ -125,7 +125,7 @@ bohemian_missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = boh_eradicated_the_habsburgs_modifier
-				duration = -1 
+				duration = -1
 			}
 			
 			change_national_focus_effect = yes
@@ -149,13 +149,13 @@ bohemian_missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = boh_stabilized_balkans_modifier
-				duration = 9125 
+				duration = -1
 			}
 			balkan_region = {
 				limit = { country_or_non_sovereign_subject_holds = ROOT } 
 				add_province_modifier = {
 					name = boh_period_of_peace_modifier
-					duration = 7300 
+					duration = -1
 				}
 			}
 		}
@@ -198,7 +198,7 @@ bohemian_missions_1 = {
 			tooltip = {
 				add_ruler_modifier = {
 					name = boh_king_of_two_peoples_modifier 
-					duration = -1 
+					duration = -1
 				}
 			}
 			
@@ -206,7 +206,7 @@ bohemian_missions_1 = {
 			tooltip = {
 				add_ruler_modifier = {
 					name = boh_bohemian_reconciliation_with_rome_modifier
-					duration = -1 
+					duration = -1
 				}
 				random_owned_province = {
 					limit = { has_cardinal = no }
@@ -244,7 +244,7 @@ bohemian_missions_1 = {
 					}
 					add_ruler_modifier = {
 						name = boh_king_of_two_peoples_modifier 
-						duration = -1 
+						duration = -1
 					}
 				}
 				
@@ -255,7 +255,7 @@ bohemian_missions_1 = {
 					}
 					add_ruler_modifier = {
 						name = boh_bohemian_reconciliation_with_rome_modifier
-						duration = -1 
+						duration = -1
 					}
 					random_owned_province = {
 						limit = { has_cardinal = no }
@@ -297,7 +297,7 @@ bohemian_missions_1 = {
 			tooltip = {
 				add_country_modifier = {
 					name = boh_successful_hussite_trials_modifier
-					duration = 7300 
+					duration = -1
 				}
 				add_reform_desire = -0.05
 				if = {
@@ -315,7 +315,7 @@ bohemian_missions_1 = {
 			tooltip = {
 				add_country_modifier = {
 					name = boh_canonization_of_jan_hus_modifier 
-					duration = 7300 
+					duration = -1
 				}
 			}
 			
@@ -324,7 +324,7 @@ bohemian_missions_1 = {
 					limit = { religion = catholic }
 					add_country_modifier = {
 						name = boh_successful_hussite_trials_modifier
-						duration = 7300 
+						duration = -1
 					}
 					add_reform_desire = -0.05
 					add_estate_loyalty = {
@@ -335,7 +335,7 @@ bohemian_missions_1 = {
 				else = {
 					add_country_modifier = {
 						name = boh_canonization_of_jan_hus_modifier 
-						duration = 7300 
+						duration = -1
 					}
 				}
 			}
@@ -379,7 +379,7 @@ bohemian_missions_1 = {
 				# }
 				# add_country_modifier = {
 					# name = boh_defenestration_of_heretics_modifier1
-					# duration = -1 
+					# duration = -1
 				# }
 			# }
 			# else_if = {
@@ -397,7 +397,7 @@ bohemian_missions_1 = {
 				# }
 				# add_country_modifier = {
 					# name = boh_defenestration_of_heretics_modifier2
-					# duration = -1 
+					# duration = -1
 				# }
 			# }	
 			# else_if = {
@@ -415,7 +415,7 @@ bohemian_missions_1 = {
 				# }
 				# add_country_modifier = {
 					# name = boh_defenestration_of_heretics_modifier3
-					# duration = -1 
+					# duration = -1
 				# }
 			# }	
 			# else_if = {
@@ -433,7 +433,7 @@ bohemian_missions_1 = {
 				# }
 				# add_country_modifier = {
 					# name = boh_defenestration_of_heretics_modifier4
-					# duration = -1 
+					# duration = -1
 				# }
 			# }
 			# else_if = {
@@ -445,13 +445,13 @@ bohemian_missions_1 = {
 				# }
 				# add_country_modifier = {
 					# name = boh_defenestration_of_heretics_modifier5
-					# duration = -1 
+					# duration = -1
 				# }
 			# }
 			
 			add_country_modifier = {
 				name = boh_defenestration_of_heretics_modifier3
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -476,7 +476,7 @@ bohemian_missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = boh_renewed_land_ordinance_laws_modifier 
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -621,7 +621,7 @@ bohemian_missions_2 = {
 		effect = {
 			add_country_modifier = {
 				name = boh_demonstration_of_strength_modifier 
-				duration = 7300 
+				duration = -1
 			}
 			add_dip_power = 50 
 		}
@@ -655,7 +655,7 @@ bohemian_missions_2 = {
 			
 			add_country_modifier = {
 				name = boh_campaign_against_the_turks_modifier 
-				duration = 5475 
+				duration = -1
 			}
 		}
 	}
@@ -725,7 +725,7 @@ bohemian_missions_2 = {
 			266 = {
 				add_province_modifier = {
 					name = boh_restoration_project_of_praha_modifier
-					duration = 9125 
+					duration = -1
 				}
 				add_prosperity = 100 
 			}
@@ -795,7 +795,7 @@ bohemian_missions_2 = {
 			tooltip = {
 				add_country_modifier = {
 					name = boh_supremacy_in_religious_matters_modifier
-					duration = 9125 
+					duration = -1
 				}
 				change_adm = 1 
 			}
@@ -804,7 +804,7 @@ bohemian_missions_2 = {
 			tooltip = {
 				add_country_modifier = {
 					name = boh_supremacy_of_the_clergy_modifier 
-					duration = 7300 
+					duration = -1
 				}
 			}
 			
@@ -821,7 +821,7 @@ bohemian_missions_2 = {
 					}
 					add_country_modifier = {
 						name = boh_supremacy_in_religious_matters_modifier
-						duration = 9125 
+						duration = -1
 					}
 					change_adm = 1 
 				}
@@ -834,7 +834,7 @@ bohemian_missions_2 = {
 					}
 					add_country_modifier = {
 						name = boh_supremacy_of_the_clergy_modifier 
-						duration = 7300 
+						duration = -1
 					}
 				}
 			}
@@ -857,7 +857,7 @@ bohemian_missions_2 = {
 			4725 = {
 				add_province_modifier = {
 					name = boh_printing_house_of_bohemia
-					duration = 9125 
+					duration = -1
 				}
 				
 				
@@ -886,21 +886,21 @@ bohemian_missions_2 = {
 			tooltip = {
 				add_country_modifier = {
 					name = boh_masterful_administration_modifier 
-					duration = 9125
+					duration = -1
 				}
 			}
 			custom_tooltip = BOH_if_we_have_11_monthly_dip
 			tooltip = {
 				add_country_modifier = {
 					name = boh_bohemian_diplomatic_corps_modifier 
-					duration = 9125
+					duration = -1
 				}
 			}
 			custom_tooltip = BOH_if_we_have_11_monthly_mil
 			tooltip = {
 				add_country_modifier = {
 					name = boh_elite_guard_of_the_kral_modifier
-					duration = 9125
+					duration = -1
 				}
 			}
 			
@@ -909,21 +909,21 @@ bohemian_missions_2 = {
 					limit = { adm = 6 } 
 					add_country_modifier = {
 						name = boh_masterful_administration_modifier 
-						duration = 9125
+						duration = -1
 					}
 				}
 				if = {
 					limit = { dip = 6 }
 					add_country_modifier = {
 						name = boh_bohemian_diplomatic_corps_modifier 
-						duration = 9125
+						duration = -1
 					}
 				}
 				if = {
 					limit = { mil = 6 }
 					add_country_modifier = {
 						name = boh_elite_guard_of_the_kral_modifier
-						duration = 9125
+						duration = -1
 					}
 				}
 			}
@@ -983,7 +983,7 @@ bohemian_missions_3 = {
 			else = {
 				add_country_modifier = {
 					name = boh_wagon_forts_modifier
-					duration = 5475 
+					duration = -1
 				}
 			}
 			ME_give_claims = { area = mittelmark_area }
@@ -1130,7 +1130,7 @@ bohemian_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = boh_serbian_hadjuks_modifier 
-				duration = -1 
+				duration = -1
 			}
 			
 			ME_add_power_projection = { amount = 10 }
@@ -1183,7 +1183,7 @@ bohemian_missions_3 = {
 					remove_province_modifier = bosphorous_sound_toll
 					add_province_modifier = {
 						name = boh_bosphorous_sound_toll_modifier 
-						duration = -1 
+						duration = -1
 					}
 				}
 			}
@@ -1217,7 +1217,7 @@ bohemian_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = boh_bohemian_rhapsody_modifier 
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -1324,7 +1324,7 @@ bohemian_missions_3 = {
 			tooltip = {
 				add_province_modifier = {
 					name = boh_urban_work_regiments_modifier
-					duration = 18250
+					duration = -1
 				}
 				# add_base_production = 1 
 			}
@@ -1333,7 +1333,7 @@ bohemian_missions_3 = {
 					limit = { province_has_center_of_trade_of_level = 1 }
 					add_province_modifier = {
 						name = boh_urban_work_regiments_modifier
-						duration = 18250 
+						duration = -1
 					}
 					# add_base_production = 1 
 				}
@@ -1370,7 +1370,7 @@ bohemian_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = boh_crown_authority_modifier 
-				duration = 7300 
+				duration = -1
 			}
 			change_government_reform_progress = 100
 		}
@@ -1446,7 +1446,7 @@ bohemian_missions_4 = {
 					change_tag = SIL 
 					add_country_modifier = {
 						name = boh_home_of_the_piasts_modifier 
-						duration = 7300 
+						duration = -1
 					}
 					if = {
 						limit = { owns = 264 } 
@@ -1483,7 +1483,7 @@ bohemian_missions_4 = {
 						change_tag = SIL 
 						add_country_modifier = {
 							name = boh_home_of_the_piasts_modifier 
-							duration = 7300 
+							duration = -1
 						}
 						if = {
 							limit = { owns = 264 } 
@@ -1532,7 +1532,7 @@ bohemian_missions_4 = {
 				add_adm_power = 100 
 				add_country_modifier = {
 					name = boh_bavarian_rottaler_modifier
-					duration = 7300 
+					duration = -1
 				}
 			}
 		}
@@ -1563,7 +1563,7 @@ bohemian_missions_4 = {
 				add_trade_modifier = {
 					who = ROOT
 					power = 20
-					duration = 7300
+					duration = -1
 					key = boh_capital_venture
 				}
 			}
@@ -1595,7 +1595,7 @@ bohemian_missions_4 = {
 					owner = { 
 						add_country_modifier = {
 							name = boh_bohemian_trade_modifier 
-							duration = 7300 
+							duration = -1
 						}
 					}
 				}
@@ -1627,7 +1627,7 @@ bohemian_missions_4 = {
 		effect = {
 			add_country_modifier = {
 				name = boh_maritime_trade_modifier
-				duration = 10950 
+				duration = -1
 			}
 			137 = { 
 				add_center_of_trade_level = 1 
@@ -1666,7 +1666,7 @@ bohemian_missions_4 = {
 			remove_country_modifier = boh_hussite_wars_destruction_modifier 
 			add_country_modifier = {
 				name = boh_wave_of_prosperity_modifier
-				duration = 7300 
+				duration = -1
 			}
 		}
 	}
@@ -1706,7 +1706,7 @@ bohemian_missions_4 = {
 			2967 = {
 				add_province_modifier = {
 					name = boh_smelting_facility_modifier 
-					duration = 7300 
+					duration = -1
 				}
 			}
 			custom_tooltip = boh_if_tge_active_silver_tt 
@@ -1722,7 +1722,7 @@ bohemian_missions_4 = {
 					2968 = { 
 						add_province_modifier = {
 							name = boh_smelting_facility_modifier 
-							duration = 7300 
+							duration = -1
 						}
 					}
 				}
@@ -1774,18 +1774,18 @@ bohemian_missions_4 = {
 		effect = {
 			add_country_modifier = {
 				name = boh_elbe_affluence_modifier
-				duration = 7300 
+				duration = -1
 			}
 			61 = {
 				add_province_modifier = {
 					name = boh_river_city_of_elbe_modifier
-					duration = -1 
+					duration = -1
 				}
 			}
 			52 = {
 				add_province_modifier = {
 					name = boh_river_city_of_elbe_modifier
-					duration = -1 
+					duration = -1
 				}
 			}
 		}
@@ -1824,7 +1824,7 @@ bohemian_missions_4 = {
 			tooltip = {
 				add_province_modifier = {
 					name = boh_new_mining_regulations_modifier 
-					duration = 10950
+					duration = -1
 				}
 			}
 			hidden_effect = {
@@ -1840,7 +1840,7 @@ bohemian_missions_4 = {
 					}
 					add_province_modifier = {
 						name = boh_new_mining_regulations_modifier 
-						duration = 10950 
+						duration = -1
 					}
 				}
 			}
@@ -1848,7 +1848,7 @@ bohemian_missions_4 = {
 			tooltip = {
 				add_province_modifier = {
 					name = boh_railway_modifier
-					duration = 14600
+					duration = -1
 				}
 			}
 			hidden_effect = {
@@ -1858,7 +1858,7 @@ bohemian_missions_4 = {
 						limit = { development = 25 }
 						add_province_modifier = {
 							name = boh_railway_modifier 
-							duration = 14600 
+							duration = -1
 						}
 					}
 				}
@@ -1907,7 +1907,7 @@ bohemian_missions_5 = {
 		effect = {
 			add_country_modifier = {
 				name = boh_realpolitik_statesmanship_modifier 
-				duration = 5475 
+				duration = -1
 			}
 			
 			custom_tooltip = BOH_if_pu_is_valid_on_pol
@@ -1992,7 +1992,7 @@ bohemian_missions_5 = {
 			else = {
 				add_country_modifier = {
 					name = boh_legacy_of_premsylids_modifier 
-					duration = -1 
+					duration = -1
 				}
 			}
 			custom_tooltip = boh_poland_plc_friendship_tt 
@@ -2080,7 +2080,7 @@ bohemian_missions_5 = {
 		effect = {
 			add_country_modifier = {
 				name = boh_czech_protonationalism_modifier 
-				duration = -1 
+				duration = -1
 			}
 			add_prestige_or_monarch_power = { amount = 25 }
 			ME_give_claims = { area = west_prussia_area }
@@ -2176,7 +2176,7 @@ bohemian_missions_5 = {
 				}
 				add_country_modifier = {
 					name = boh_golden_age_of_prosperity_modifier 
-					duration = 18250 
+					duration = -1
 				}
 			}
 			else_if = {
@@ -2186,7 +2186,7 @@ bohemian_missions_5 = {
 				}
 				add_country_modifier = {
 					name = boh_golden_age_of_prosperity_modifier2 
-					duration = 18250 
+					duration = -1
 				}
 			}
 			else_if = {
@@ -2196,7 +2196,7 @@ bohemian_missions_5 = {
 				}
 				add_country_modifier = {
 					name = boh_golden_age_of_prosperity_modifier3 
-					duration = 18250 
+					duration = -1
 				}
 			}
 			else_if = {
@@ -2205,7 +2205,7 @@ bohemian_missions_5 = {
 				}
 				add_country_modifier = {
 					name = boh_golden_age_of_prosperity_modifier3 
-					duration = 18250 
+					duration = -1
 				}
 			}
 		}
@@ -2246,7 +2246,7 @@ bohemian_missions_5 = {
 		effect = {
 			add_country_modifier = {
 				name = boh_distinctive_bohemian_aesthetic_modifier 
-				duration = 7300 
+				duration = -1
 			}
 			change_innovativeness = 2 
 		}
@@ -2314,7 +2314,7 @@ bohemian_missions_5 = {
 			
 			add_country_modifier = { 
 				name = boh_knights_stairway_modifier 
-				duration = 5475 
+				duration = -1
 			}
 			
 			266 = {

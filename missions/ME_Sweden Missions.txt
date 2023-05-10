@@ -134,7 +134,7 @@ SWE_missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = sweden_foothold_in_prussia_modifier
-				duration = 5475
+				duration = -1
 			}
 		}
 	}
@@ -202,7 +202,7 @@ SWE_missions_2 = {
 		effect = {
 			add_country_modifier = {
 				name = sweden_defeating_the_tercios_modifier
-				duration = 18250
+				duration = -1
 			}
 		}
 	}
@@ -231,7 +231,7 @@ SWE_missions_2 = {
 			}
 			add_country_modifier = {
 				name = sweden_cold_port_at_neva_modifier
-				duration = 5475
+				duration = -1
 			}
 			livonia_area = {
 				limit = {
@@ -345,7 +345,7 @@ SWE_missions_2 = {
 			}
 			add_country_modifier = {
 				name = sweden_dealing_with_the_hansa_modifier
-				duration = 7300
+				duration = -1
 			}
 			northern_norway = {
 				limit = {
@@ -511,7 +511,7 @@ SWE_missions_3 = {
 				}
 				add_country_modifier = {
 					name = sweden_echoes_of_freedom_modifier
-					duration = 7300
+					duration = -1
 					desc = UNTIL_LOYAL_FREE_OR_20_YEARS
 				}
 			}
@@ -651,7 +651,7 @@ SWE_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = sweden_liberate_norway_modifier
-				duration = 5475
+				duration = -1
 			}
 			jutland_area = {
 				limit = {
@@ -737,7 +737,7 @@ SWE_missions_4 = {
 				}
 				add_province_modifier = {
 					name = sweden_expand_dalaskogen_province_modifier
-					duration = 3650
+					duration = -1
 				}
 			}
 		}
@@ -926,12 +926,12 @@ SWE_missions_5_catholic_1 = {
 			}
 			add_country_modifier = {
 				name = sweden_support_the_roman_church_modifier
-				duration = 7300
+				duration = -1
 			}
 			capital_scope = {
 				add_province_modifier = {
 					name = sweden_support_the_roman_church_province_modifier
-					duration = 7300
+					duration = -1
 				}
 			}
 			remove_country_modifier = sweden_the_reformation_in_sweden_modifier
@@ -1027,7 +1027,7 @@ SWE_missions_5_catholic_2 = {
 		effect = {
 			add_country_modifier = {
 				name = sweden_protect_scandinavia_modifier
-				duration = 10950
+				duration = -1
 			}
 			if = {
 				limit = {
@@ -1142,7 +1142,7 @@ SWE_missions_4_protestant_1 = {
 			}
 			add_country_modifier = {
 				name = sweden_support_the_lutherans_modifier
-				duration = 5475
+				duration = -1
 			}
 			remove_country_modifier = sweden_the_reformation_in_sweden_modifier
 			set_country_flag = swe_protestant_missions
@@ -1183,7 +1183,7 @@ SWE_missions_4_protestant_2 = {
 				}
 				add_country_modifier = {
 					name = sweden_the_dacke_wars_modifier
-					duration = 9125
+					duration = -1
 				}
 			}
 			if = {
@@ -1253,7 +1253,7 @@ SWE_missions_5_protestant = {
 			}
 			add_country_modifier = {
 				name = sweden_defending_against_the_heretics_modifier
-				duration = 7300
+				duration = -1
 			}
 		}
 	}

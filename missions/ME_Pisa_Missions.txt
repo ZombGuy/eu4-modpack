@@ -94,7 +94,7 @@ pisa_missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = pis_ancient_crusader_state
-				duration = 7300
+				duration = -1
 			}
 		}
 	}
@@ -136,7 +136,7 @@ pisa_missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = pis_pisan_devotion
-				duration = 7300
+				duration = -1
 			}
 		}
 	}
@@ -195,7 +195,7 @@ pisa_missions_2 = {
 			}
 			add_country_modifier = {
 				name = pis_republican_army
-				duration = 3650
+				duration = -1
 			}
 		}
 	}
@@ -274,7 +274,7 @@ pisa_missions_2 = {
 		effect = {
 			add_country_modifier = {
 				name = pis_pisan_art_school
-				duration = 7300
+				duration = -1
 			}
 			115 = {
 				add_base_tax = 2
@@ -308,7 +308,7 @@ pisa_missions_2 = {
 		effect = {
 			add_country_modifier = {
 				name = pis_glory_pisa
-				duration = 9125
+				duration = -1
 			}
 			hidden_effect = {
 				complete_mission = lan_granducato
@@ -457,14 +457,14 @@ pisa_missions_3 = {
 				limit = { owned_by = ROOT }
 				add_province_modifier = {
 					name = pis_sultan_deceived
-					duration = 7300
+					duration = -1
 				}
 			}
 			bahari_area = {
 				limit = { owned_by = ROOT }
 				add_province_modifier = {
 					name = pis_sultan_deceived
-					duration = 7300
+					duration = -1
 				}
 			}
 		}
@@ -689,7 +689,7 @@ pisa_missions_4 = {
 			341 = {
 				add_trade_modifier = {
 					who = ROOT
-					duration = 7300
+					duration = -1
 					power = 20
 					key = pis_berber_subjugation
 				}
@@ -718,7 +718,7 @@ pisa_missions_4 = {
 			add_mercantilism = 5
 			add_country_modifier = {
 				name = pis_mercantilism_restored
-				duration = 10950
+				duration = -1
 			}
 		}
 	}
@@ -774,7 +774,7 @@ pisa_missions_5 = {
 			1298 = {
 				add_trade_modifier = {
 					who = ROOT
-					duration = 7300
+					duration = -1
 					power = 20
 					key = pis_corsican_corsair
 				}

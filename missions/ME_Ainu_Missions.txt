@@ -25,7 +25,7 @@ ANU_missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = ANU_The_ainu_resistance
-				duration = 36500
+				duration = -1
 			}
 			hokkaido_area = {
 				limit = {
@@ -268,7 +268,7 @@ ANU_missions_4 = {
 		effect = {
 			add_country_modifier = {
 				name = ANU_manchurian_war_techniques
-				duration = 9125
+				duration = -1
 			}
 		}
 	}

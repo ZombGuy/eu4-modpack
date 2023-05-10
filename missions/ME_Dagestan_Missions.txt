@@ -35,7 +35,7 @@ dagestan_missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = dagestan_shamkhal_levy_system_modifier
-				duration = 10950
+				duration = -1
 			}
 		}
 	}
@@ -50,7 +50,7 @@ dagestan_missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = dagestan_assault_en_masse_modifier
-				duration = 14600
+				duration = -1
 			}
 		}
 	}
@@ -145,7 +145,7 @@ dagestan_missions_3 = {
 			circassia_area = {
 				add_province_modifier = {
 					name = dagestan_dogged_contenders_province_modifier
-					duration = 3650
+					duration = -1
 				}
 			}
 		}
@@ -168,7 +168,7 @@ dagestan_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = dagestan_march_on_georgia_modifier
-				duration = 10950
+				duration = -1
 			}
 			kartli_kakheti_area = {
 				limit = {
@@ -211,7 +211,7 @@ dagestan_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = dagestan_georgian_consolidation_modifier
-				duration = 18250
+				duration = -1
 			}
 		}
 	}
@@ -264,7 +264,7 @@ dagestan_missions_4 = {
 		effect = {
 			add_country_modifier = {
 				name = dagestan_messenger_system_modifier
-				duration = 10950
+				duration = -1
 			}
 			425 = {
 				add_province_modifier = {
@@ -411,7 +411,7 @@ dagestan_missions_4 = {
 				}
 				add_province_modifier = {
 					name = dagestan_armenian_liberation_province_modifier
-					duration = 10950
+					duration = -1
 				}
 			}
 		}
@@ -480,13 +480,13 @@ dagestan_missions_5 = {
 				}
 				add_country_modifier = {
 					name = dagestan_the_fringes_of_islam_modifier_1
-					duration = 7300
+					duration = -1
 				}
 			}
 			else = {
 				add_country_modifier = {
 					name = dagestan_the_fringes_of_islam_modifier_2
-					duration = 7300
+					duration = -1
 				}
 			}
 		}
@@ -536,7 +536,7 @@ dagestan_missions_5 = {
 			dagestan_area = {
 				add_province_modifier = {
 					name = dagestan_faith_above_all_province_modifier
-					duration = 10950
+					duration = -1
 				}
 			}
 		}

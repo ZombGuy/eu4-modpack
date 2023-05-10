@@ -109,7 +109,7 @@ akk_missions = {
 		effect = {
 			add_country_modifier = {
 				name = "white_sheep_ascendant"
-				duration = 7300
+				duration = -1
 			}
 			shirvan_area = {
 				limit = {
@@ -207,7 +207,7 @@ akk_missions = {
 		effect = {
 			add_country_modifier = {
 				name = "akk_caucasus"
-				duration = 7300
+				duration = -1
 			}
 			azerbaijan_area = {
 				limit = {
@@ -261,7 +261,7 @@ akk_missions = {
 			set_government_rank = 3
 			add_country_modifier = {
 				name = "akk_persia"
-				duration = 7300
+				duration = -1
 			}
 		}
 		ai_weight = {
@@ -321,7 +321,7 @@ akk_missions_2 = {
 			# missionary modifier
 			add_country_modifier = {
 				name = "akk_iraq"
-				duration = 7300
+				duration = -1
 			}
 			persian_gulf_coast = {
 				limit = {

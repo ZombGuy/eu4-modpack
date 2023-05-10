@@ -97,7 +97,7 @@ ZCV_missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = zcv_religious_unity_modifier
-				duration = 3650
+				duration = -1
 			}
 		}
 	}
@@ -121,7 +121,7 @@ ZCV_missions_1 = {
 			add_innovativeness_small_effect = yes
 			add_country_modifier = {
 				name = zcv_universities_expanded
-				duration = 10950
+				duration = -1
 			}
 		}
 	}
@@ -146,7 +146,7 @@ ZCV_missions_2 = {
 		effect = {
 			add_country_modifier = {
 				name = zcv_full_army
-				duration = 7300
+				duration = -1
 			}
 			add_yearly_manpower = 0.5
 		}
@@ -212,7 +212,7 @@ ZCV_missions_2 = {
 			41 = {
 				add_trade_modifier = {
 					who = ROOT
-					duration = 10950
+					duration = -1
 					power = 30
 					key = zcv_baltic_trade
 				}
@@ -296,7 +296,7 @@ ZCV_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = zcv_legacy_of_lech_and_czech
-				duration = 9125
+				duration = -1
 			}
 			west_prussia_area = {
 				limit = {
@@ -400,7 +400,7 @@ ZCV_missions_3 = {
 			}
 			add_country_modifier = {
 				name = zcv_conquered_rus
-				duration = 7300
+				duration = -1
 			}
 		}
 	}
@@ -475,7 +475,7 @@ ZCV_missions_3_2 = {
 		effect = {
 			add_country_modifier = {
 				name = ME_loyal_poles
-				duration = 7300
+				duration = -1
 			}
 			add_absolutism = 20
 			change_variable = { ME_polish_loyalty = 20 }
@@ -579,7 +579,7 @@ ZCV_missions_4 = {
 		effect = {
 			add_country_modifier = {
 				name = zcv_claimed_wendish_land
-				duration = 7300
+				duration = -1
 			}
 		}
 	}
@@ -715,7 +715,7 @@ ZCV_missions_5 = {
 		effect = {
 			add_country_modifier = {
 				name = zcv_humiliated_emperor
-				duration = 14600
+				duration = -1
 			}
 			if = {
 				limit = {

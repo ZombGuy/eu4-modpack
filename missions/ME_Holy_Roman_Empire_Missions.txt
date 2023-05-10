@@ -118,7 +118,7 @@ HLR_missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = "HRE_Council"
-				duration = 18250
+				duration = -1
 			}
 		}
 	}
@@ -133,7 +133,7 @@ HLR_missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = "HRE_Constitution"
-				duration = 18250
+				duration = -1
 			}
 		}
 	}
@@ -148,7 +148,7 @@ HLR_missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = "HRE_Laws"
-				duration = 18250
+				duration = -1
 			}
 		}
 	}
@@ -184,7 +184,7 @@ HLR_missions_1 = {
 			}
 			add_country_modifier = {
 				name = "HRE_Taxation_Policy"
-				duration = 18250
+				duration = -1
 			}
 		}
 	}
@@ -220,7 +220,7 @@ HLR_missions_1 = {
 			}
 			add_country_modifier = {
 				name = "HRE_Production_Policy"
-				duration = 18250
+				duration = -1
 			}
 		}
 	}
@@ -238,43 +238,43 @@ HLR_missions_1 = {
 				random_owned_province = {
 					add_province_modifier = {
 						name = "HRE_production"
-						duration = 18250
+						duration = -1
 					}
 				}
 				random_owned_province = {
 					add_province_modifier = {
 						name = "HRE_production"
-						duration = 18250
+						duration = -1
 					}
 				}
 				random_owned_province = {
 					add_province_modifier = {
 						name = "HRE_production"
-						duration = 18250
+						duration = -1
 					}
 				}
 				random_owned_province = {
 					add_province_modifier = {
 						name = "HRE_production"
-						duration = 18250
+						duration = -1
 					}
 				}
 				random_owned_province = {
 					add_province_modifier = {
 						name = "HRE_production"
-						duration = 18250
+						duration = -1
 					}
 				}
 				random_owned_province = {
 					add_province_modifier = {
 						name = "HRE_production"
-						duration = 18250
+						duration = -1
 					}
 				}
 			}
 			add_country_modifier = {
 				name = "HRE_Trading_Policy"
-				duration = 18250
+				duration = -1
 			}
 		}
 	}
@@ -310,7 +310,7 @@ HLR_missions_1 = {
 			}
 			add_country_modifier = {
 				name = "HRE_Drafting_Policy"
-				duration = 18250
+				duration = -1
 			}
 		}
 	}
@@ -593,7 +593,7 @@ HLR_missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = "colonial_enthusiasm"
-				duration = 7300
+				duration = -1
 			}
 		}
 	}
@@ -637,7 +637,7 @@ HLR_missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = "colonial_enthusiasm"
-				duration = 7300
+				duration = -1
 			}
 		}
 	}
@@ -676,7 +676,7 @@ HLR_missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = "colonial_enthusiasm"
-				duration = 7300
+				duration = -1
 			}
 		}
 	}
@@ -705,7 +705,7 @@ HLR_missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = "colonial_enthusiasm"
-				duration = 7300
+				duration = -1
 			}
 		}
 	}
@@ -754,7 +754,7 @@ HLR_missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = "colonial_enthusiasm"
-				duration = 7300
+				duration = -1
 			}
 		}
 	}
@@ -803,7 +803,7 @@ HLR_missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = "colonial_enthusiasm"
-				duration = 7300
+				duration = -1
 			}
 		}
 	}
@@ -842,7 +842,7 @@ HLR_missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = "colonial_enthusiasm"
-				duration = 7300
+				duration = -1
 			}
 		}
 	}
@@ -930,79 +930,79 @@ HLR_missions_1 = {
 			97 = {
 				add_province_modifier = {
 					name = "HRE_booming_production"
-					duration = 18250
+					duration = -1
 				}
 			}
 			4383 = {
 				add_province_modifier = {
 					name = "HRE_booming_production"
-					duration = 18250
+					duration = -1
 				}
 			}
 			4382 = {
 				add_province_modifier = {
 					name = "HRE_booming_production"
-					duration = 18250
+					duration = -1
 				}
 			}
 			98 = {
 				add_province_modifier = {
 					name = "HRE_booming_production"
-					duration = 18250
+					duration = -1
 				}
 			}
 			95 = {
 				add_province_modifier = {
 					name = "HRE_booming_production"
-					duration = 18250
+					duration = -1
 				}
 			}
 			2974 = {
 				add_province_modifier = {
 					name = "HRE_booming_production"
-					duration = 18250
+					duration = -1
 				}
 			}
 			1742 = {
 				add_province_modifier = {
 					name = "HRE_booming_production"
-					duration = 18250
+					duration = -1
 				}
 			}
 			92 = {
 				add_province_modifier = {
 					name = "HRE_booming_production"
-					duration = 18250
+					duration = -1
 				}
 			}
 			91 = {
 				add_province_modifier = {
 					name = "HRE_booming_production"
-					duration = 18250
+					duration = -1
 				}
 			}
 			86 = {
 				add_province_modifier = {
 					name = "HRE_booming_production"
-					duration = 18250
+					duration = -1
 				}
 			}
 			84 = {
 				add_province_modifier = {
 					name = "HRE_booming_production"
-					duration = 18250
+					duration = -1
 				}
 			}
 			2973 = {
 				add_province_modifier = {
 					name = "HRE_booming_production"
-					duration = 18250
+					duration = -1
 				}
 			}
 			2975 = {
 				add_province_modifier = {
 					name = "HRE_booming_production"
-					duration = 18250
+					duration = -1
 				}
 			}
 		}
@@ -1086,73 +1086,73 @@ HLR_missions_1 = {
 			94 = {
 				add_province_modifier = {
 					name = "HRE_booming_production"
-					duration = 18250
+					duration = -1
 				}
 			}
 			189 = {
 				add_province_modifier = {
 					name = "HRE_booming_production"
-					duration = 18250
+					duration = -1
 				}
 			}
 			1880 = {
 				add_province_modifier = {
 					name = "HRE_booming_production"
-					duration = 18250
+					duration = -1
 				}
 			}
 			165 = {
 				add_province_modifier = {
 					name = "HRE_booming_production"
-					duration = 18250
+					duration = -1
 				}
 			}
 			166 = {
 				add_province_modifier = {
 					name = "HRE_booming_production"
-					duration = 18250
+					duration = -1
 				}
 			}
 			57 = {
 				add_province_modifier = {
 					name = "HRE_booming_production"
-					duration = 18250
+					duration = -1
 				}
 			}
 			1759 = {
 				add_province_modifier = {
 					name = "HRE_booming_production"
-					duration = 18250
+					duration = -1
 				}
 			}
 			61 = {
 				add_province_modifier = {
 					name = "HRE_booming_production"
-					duration = 18250
+					duration = -1
 				}
 			}
 			110 = {
 				add_province_modifier = {
 					name = "HRE_booming_production"
-					duration = 18250
+					duration = -1
 				}
 			}
 			1768 = {
 				add_province_modifier = {
 					name = "HRE_booming_production"
-					duration = 18250
+					duration = -1
 				}
 			}
 			128 = {
 				add_province_modifier = {
 					name = "HRE_booming_production"
-					duration = 18250
+					duration = -1
 				}
 			}
 			1769 = {
 				add_province_modifier = {
 					name = "HRE_booming_production"
-					duration = 18250
+					duration = -1
 				}
 			}
 		}
@@ -1227,37 +1227,37 @@ HLR_missions_1_RB = {
 			263 = {
 				add_province_modifier = {
 					name = "HRE_booming_production"
-					duration = 18250
+					duration = -1
 				}
 			}
 			62 = {
 				add_province_modifier = {
 					name = "HRE_booming_production"
-					duration = 18250
+					duration = -1
 				}
 			}
 			1878 = {
 				add_province_modifier = {
 					name = "HRE_booming_production"
-					duration = 18250
+					duration = -1
 				}
 			}
 			82 = {
 				add_province_modifier = {
 					name = "HRE_booming_production"
-					duration = 18250
+					duration = -1
 				}
 			}
 			188 = {
 				add_province_modifier = {
 					name = "HRE_booming_production"
-					duration = 18250
+					duration = -1
 				}
 			}
 			1886 = {
 				add_province_modifier = {
 					name = "HRE_booming_production"
-					duration = 18250
+					duration = -1
 				}
 			}
 		}
@@ -1305,7 +1305,7 @@ HLR_missions_2 = {
 		effect = {
 			add_country_modifier = {
 				name = "expansionist_country"
-				duration = 3650
+				duration = -1
 			}
 			flanders_area = {
 				limit = {
@@ -1404,7 +1404,7 @@ HLR_missions_2 = {
 			italy_region ={
 				add_province_modifier = {
 					name = "Hre_peace"
-					duration = 3650
+					duration = -1
 				}
 			}
 			set_country_flag = HRE_completed_italia_mission
@@ -1656,7 +1656,7 @@ HLR_missions_2 = {
 		effect = {
 			add_country_modifier = {
 				name = "HRE_colonist_rush"
-				duration = 3650
+				duration = -1
 			}
 		}
 	}
@@ -1678,7 +1678,7 @@ HLR_missions_2 = {
 		effect = {
 			add_country_modifier = {
 				name = "sweden_dominium_maris_baltici_modifier"
-				duration = 7300
+				duration = -1
 			}
 		}
 	}
@@ -1722,7 +1722,7 @@ HLR_missions_2 = {
 		effect = {
 			add_country_modifier = {
 				name = "colonial_enthusiasm"
-				duration = 7300
+				duration = -1
 			}
 		}
 	}
@@ -1766,7 +1766,7 @@ HLR_missions_2 = {
 		effect = {
 			add_country_modifier = {
 				name = "colonial_enthusiasm"
-				duration = 7300
+				duration = -1
 			}
 		}
 	}
@@ -1810,7 +1810,7 @@ HLR_missions_2 = {
 		effect = {
 			add_country_modifier = {
 				name = "colonial_enthusiasm"
-				duration = 7300
+				duration = -1
 			}
 		}
 	}
@@ -1854,7 +1854,7 @@ HLR_missions_2 = {
 		effect = {
 			add_country_modifier = {
 				name = "colonial_enthusiasm"
-				duration = 7300
+				duration = -1
 			}
 		}
 	}
@@ -1898,7 +1898,7 @@ HLR_missions_2 = {
 		effect = {
 			add_country_modifier = {
 				name = "colonial_enthusiasm"
-				duration = 7300
+				duration = -1
 			}
 		}
 	}
@@ -1947,7 +1947,7 @@ HLR_missions_2 = {
 		effect = {
 			add_country_modifier = {
 				name = "colonial_enthusiasm"
-				duration = 7300
+				duration = -1
 			}
 		}
 	}
@@ -2010,49 +2010,49 @@ HLR_missions_2 = {
 			1761 = {
 				add_province_modifier = {
 					name = "HRE_booming_production"
-					duration = 18250
+					duration = -1
 				}
 			}
 			77 = {
 				add_province_modifier = {
 					name = "HRE_booming_production"
-					duration = 18250
+					duration = -1
 				}
 			}
 			2955 = {
 				add_province_modifier = {
 					name = "HRE_booming_production"
-					duration = 18250
+					duration = -1
 				}
 			}
 			74 = {
 				add_province_modifier = {
 					name = "HRE_booming_production"
-					duration = 18250
+					duration = -1
 				}
 			}
 			79 = {
 				add_province_modifier = {
 					name = "HRE_booming_production"
-					duration = 18250
+					duration = -1
 				}
 			}
 			134 = {
 				add_province_modifier = {
 					name = "HRE_booming_production"
-					duration = 18250
+					duration = -1
 				}
 			}
 			66 = {
 				add_province_modifier = {
 					name = "HRE_booming_production"
-					duration = 18250
+					duration = -1
 				}
 			}
 			1770 = {
 				add_province_modifier = {
 					name = "HRE_booming_production"
-					duration = 18250
+					duration = -1
 				}
 			}
 		}
@@ -2106,37 +2106,37 @@ HLR_missions_2 = {
 			56 = {
 				add_province_modifier = {
 					name = "HRE_booming_production"
-					duration = 18250
+					duration = -1
 				}
 			}
 			55 = {
 				add_province_modifier = {
 					name = "HRE_booming_production"
-					duration = 18250
+					duration = -1
 				}
 			}
 			1931 = {
 				add_province_modifier = {
 					name = "HRE_booming_production"
-					duration = 18250
+					duration = -1
 				}
 			}
 			53 = {
 				add_province_modifier = {
 					name = "HRE_booming_production"
-					duration = 18250
+					duration = -1
 				}
 			}
 			1857 = {
 				add_province_modifier = {
 					name = "HRE_booming_production"
-					duration = 18250
+					duration = -1
 				}
 			}
 			2994 = {
 				add_province_modifier = {
 					name = "HRE_booming_production"
-					duration = 18250
+					duration = -1
 				}
 			}
 		}
@@ -2190,37 +2190,37 @@ HLR_missions_2 = {
 			2996 = {
 				add_province_modifier = {
 					name = "HRE_booming_production"
-					duration = 18250
+					duration = -1
 				}
 			}
 			2993 = {
 				add_province_modifier = {
 					name = "HRE_booming_production"
-					duration = 18250
+					duration = -1
 				}
 			}
 			52 = {
 				add_province_modifier = {
 					name = "HRE_booming_production"
-					duration = 18250
+					duration = -1
 				}
 			}
 			50 = {
 				add_province_modifier = {
 					name = "HRE_booming_production"
-					duration = 18250
+					duration = -1
 				}
 			}
 			2964 = {
 				add_province_modifier = {
 					name = "HRE_booming_production"
-					duration = 18250
+					duration = -1
 				}
 			}
 			2969 = {
 				add_province_modifier = {
 					name = "HRE_booming_production"
-					duration = 18250
+					duration = -1
 				}
 			}
 		}
@@ -2323,7 +2323,7 @@ HLR_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = "expansionist_country"
-				duration = 3650
+				duration = -1
 			}
 			calabria_area = {
 				limit = {
@@ -2574,7 +2574,7 @@ HLR_missions_3 = {
 			france_region = {
 				add_province_modifier = {
 					name = "Hre_peace"
-					duration = 3650
+					duration = -1
 				}
 			}
 		}
@@ -2713,7 +2713,7 @@ HLR_missions_3 = {
 			british_isles_region = {
 				add_province_modifier = {
 					name = "Hre_peace"
-					duration = 3650
+					duration = -1
 				}
 			}
 		}
@@ -2994,7 +2994,7 @@ HLR_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = "colonial_enthusiasm"
-				duration = 7300
+				duration = -1
 			}
 		}
 	}
@@ -3023,7 +3023,7 @@ HLR_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = "colonial_enthusiasm"
-				duration = 7300
+				duration = -1
 			}
 		}
 	}
@@ -3052,7 +3052,7 @@ HLR_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = "colonial_enthusiasm"
-				duration = 7300
+				duration = -1
 			}
 		}
 	}
@@ -3115,19 +3115,19 @@ HLR_missions_3 = {
 			84 = {
 				add_province_modifier = {
 					name = "HRE_Plan"
-					duration = 3650
+					duration = -1
 				}
 			}
 			83 = {
 				add_province_modifier = {
 					name = "HRE_Plan"
-					duration = 3650
+					duration = -1
 				}
 			}
 			1872 = {
 				add_province_modifier = {
 					name = "HRE_Plan"
-					duration = 3650
+					duration = -1
 				}
 			}
 		}
@@ -3213,7 +3213,7 @@ HLR_missions_4 = {
 		effect = {
 			add_country_modifier = {
 				name = "expansionist_country"
-				duration = 3650
+				duration = -1
 			}
 			provence_area = {
 				limit = {
@@ -3375,7 +3375,7 @@ HLR_missions_4 = {
 				}
 				add_province_modifier = {
 					name = "Hre_peace"
-					duration = 3650
+					duration = -1
 				}
 			}
 		}
@@ -3680,157 +3680,157 @@ HLR_missions_4 = {
 			4381 = {
 				add_province_modifier = {
 					name = "HRE_Plan"
-					duration = 3650
+					duration = -1
 				}
 			}
 			2973 = {
 				add_province_modifier = {
 					name = "HRE_Plan"
-					duration = 3650
+					duration = -1
 				}
 			}
 			56 = {
 				add_province_modifier = {
 					name = "HRE_Plan"
-					duration = 3650
+					duration = -1
 				}
 			}
 			1931 = {
 				add_province_modifier = {
 					name = "HRE_Plan"
-					duration = 3650
+					duration = -1
 				}
 			}
 			55 = {
 				add_province_modifier = {
 					name = "HRE_Plan"
-					duration = 3650
+					duration = -1
 				}
 			}
 			82 = {
 				add_province_modifier = {
 					name = "HRE_Plan"
-					duration = 3650
+					duration = -1
 				}
 			}
 			2972 = {
 				add_province_modifier = {
 					name = "HRE_Plan"
-					duration = 3650
+					duration = -1
 				}
 			}
 			2971 = {
 				add_province_modifier = {
 					name = "HRE_Plan"
-					duration = 3650
+					duration = -1
 				}
 			}
 			74 = {
 				add_province_modifier = {
 					name = "HRE_Plan"
-					duration = 3650
+					duration = -1
 				}
 			}
 			72 = {
 				add_province_modifier = {
 					name = "HRE_Plan"
-					duration = 3650
+					duration = -1
 				}
 			}
 			70 = {
 				add_province_modifier = {
 					name = "HRE_Plan"
-					duration = 3650
+					duration = -1
 				}
 			}
 			2955 = {
 				add_province_modifier = {
 					name = "HRE_Plan"
-					duration = 3650
+					duration = -1
 				}
 			}
 			1873 = {
 				add_province_modifier = {
 					name = "HRE_Plan"
-					duration = 3650
+					duration = -1
 				}
 			}
 			110 = {
 				add_province_modifier = {
 					name = "HRE_Plan"
-					duration = 3650
+					duration = -1
 				}
 			}
 			4141 = {
 				add_province_modifier = {
 					name = "HRE_Plan"
-					duration = 3650
+					duration = -1
 				}
 			}
 			53 = {
 				add_province_modifier = {
 					name = "HRE_Plan"
-					duration = 3650
+					duration = -1
 				}
 			}
 			1857 = {
 				add_province_modifier = {
 					name = "HRE_Plan"
-					duration = 3650
+					duration = -1
 				}
 			}
 			2966 = {
 				add_province_modifier = {
 					name = "HRE_Plan"
-					duration = 3650
+					duration = -1
 				}
 			}
 			51 = {
 				add_province_modifier = {
 					name = "HRE_Plan"
-					duration = 3650
+					duration = -1
 				}
 			}
 			2993 = {
 				add_province_modifier = {
 					name = "HRE_Plan"
-					duration = 3650
+					duration = -1
 				}
 			}
 			47 = {
 				add_province_modifier = {
 					name = "HRE_Plan"
-					duration = 3650
+					duration = -1
 				}
 			}
 			2994 = {
 				add_province_modifier = {
 					name = "HRE_Plan"
-					duration = 3650
+					duration = -1
 				}
 			}
 			48 = {
 				add_province_modifier = {
 					name = "HRE_Plan"
-					duration = 3650
+					duration = -1
 				}
 			}
 			2995 = {
 				add_province_modifier = {
 					name = "HRE_Plan"
-					duration = 3650
+					duration = -1
 				}
 			}
 			49 = {
 				add_province_modifier = {
 					name = "HRE_Plan"
-					duration = 3650
+					duration = -1
 				}
 			}
 			2969 = {
 				add_province_modifier = {
 					name = "HRE_Plan"
-					duration = 3650
+					duration = -1
 				}
 			}
 		}
@@ -3884,25 +3884,25 @@ HLR_missions_4 = {
 			265 = {
 				add_province_modifier = {
 					name = "HRE_Plan"
-					duration = 3650
+					duration = -1
 				}
 			}
 			79 = {
 				add_province_modifier = {
 					name = "HRE_Plan"
-					duration = 3650
+					duration = -1
 				}
 			}
 			66 = {
 				add_province_modifier = {
 					name = "HRE_Plan"
-					duration = 3650
+					duration = -1
 				}
 			}
 			71 = {
 				add_province_modifier = {
 					name = "HRE_Plan"
-					duration = 3650
+					duration = -1
 				}
 			}
 		}
@@ -3998,7 +3998,7 @@ HLR_missions_5 = {
 		effect = {
 			add_country_modifier = {
 				name = "expansionist_country"
-				duration = 3650
+				duration = -1
 			}
 			west_prussia_area = {
 				limit = {
@@ -4732,43 +4732,43 @@ HLR_missions_5 = {
 			63 = {
 				add_province_modifier = {
 					name = "HRE_Plan"
-					duration = 3650
+					duration = -1
 				}
 			}
 			58 = {
 				add_province_modifier = {
 					name = "HRE_Plan"
-					duration = 3650
+					duration = -1
 				}
 			}
 			2965 = {
 				add_province_modifier = {
 					name = "HRE_Plan"
-					duration = 3650
+					duration = -1
 				}
 			}
 			60 = {
 				add_province_modifier = {
 					name = "HRE_Plan"
-					duration = 3650
+					duration = -1
 				}
 			}
 			1763 = {
 				add_province_modifier = {
 					name = "HRE_Plan"
-					duration = 3650
+					duration = -1
 				}
 			}
 			2966 = {
 				add_province_modifier = {
 					name = "HRE_Plan"
-					duration = 3650
+					duration = -1
 				}
 			}
 			263 = {
 				add_province_modifier = {
 					name = "HRE_Plan"
-					duration = 3650
+					duration = -1
 				}
 			}
 		}

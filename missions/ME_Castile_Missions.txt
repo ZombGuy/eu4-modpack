@@ -111,7 +111,7 @@ CAS_missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = "Castile_spice_trade"
-				duration = 10950
+				duration = -1
 			}
 		}
 	}
@@ -136,7 +136,7 @@ CAS_missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = "Castile_spice_trade"
-				duration = 10950
+				duration = -1
 			}
 		}
 	}
@@ -208,7 +208,7 @@ CAS_missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = Castile_foundations
-				duration = 10950
+				duration = -1
 			}
 		}
 	}
@@ -233,7 +233,7 @@ CAS_missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = Castile_supported_school_of_salamanca
-				duration = 18250
+				duration = -1
 			}
 			216 = {
 				add_institution_embracement = {
@@ -265,7 +265,7 @@ CAS_missions_2 = {
 		effect = {
 			add_country_modifier = {
 				name = "Castile_explorer_modifier"
-				duration = 10950
+				duration = -1
 			}
 			if = {
 				limit = {
@@ -329,7 +329,7 @@ CAS_missions_2 = {
 		effect = {
 			add_country_modifier = {
 				name = "spa_hispaniola_discovered"
-				duration = 5475
+				duration = -1
 			}
 		}
 	}
@@ -359,7 +359,7 @@ CAS_missions_2 = {
 		effect = {
 			add_country_modifier = {
 				name = "spa_rb_overseas_trade"
-				duration = 5475
+				duration = -1
 			}
 		}
 	}
@@ -394,7 +394,7 @@ CAS_missions_2 = {
 		effect = {
 			add_country_modifier = {
 				name = Castile_Brazilian_Frontier
-				duration = 10950
+				duration = -1
 			}
 		}
 	}
@@ -445,25 +445,25 @@ CAS_missions_2 = {
 			795 = {
 				add_province_modifier = {
 					name = "spa_rb_gold_rush"
-					duration = 5475
+					duration = -1
 				}
 			}
 			2946 = {
 				add_province_modifier = {
 					name = "spa_rb_gold_rush"
-					duration = 5475
+					duration = -1
 				}
 			}
 			2941 = {
 				add_province_modifier = {
 					name = "spa_rb_gold_rush"
-					duration = 5475
+					duration = -1
 				}
 			}
 			804 = {
 				add_province_modifier = {
 					name = "spa_rb_gold_rush"
-					duration = 5475
+					duration = -1
 				}
 			}
 		}
@@ -585,7 +585,7 @@ CAS_missions_2 = {
 		effect = {
 			add_country_modifier = {
 				name = Castile_philipines
-				duration = 7300
+				duration = -1
 			}
 			luzon_area = {
 				limit = {
@@ -676,7 +676,7 @@ CAS_missions_3 = {
 			add_prestige = 15
 			add_country_modifier = {
 				name = "the_unknown_frontier"
-				duration = 5475
+				duration = -1
 			}
 		}
 	}
@@ -1025,7 +1025,7 @@ CAS_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = "spa_rb_italian_ambition_mod"
-				duration = 5475
+				duration = -1
 			}
 			lazio_area = {
 				limit = {
@@ -1218,7 +1218,7 @@ CAS_missions_4 = {
 		effect = {
 			add_country_modifier = {
 				name = "spa_rb_christian_iberia"
-				duration = 5475
+				duration = -1
 			}
 			126 = {
 				if = {
@@ -1256,7 +1256,7 @@ CAS_missions_4 = {
 		effect = {
 			add_country_modifier = {
 				name = "completing_the_reconquista"
-				duration = 5475
+				duration = -1
 			}
 			western_morocco_area = {
 				limit = {
@@ -1525,7 +1525,7 @@ CAS_missions_4 = {
 				}
 				add_province_modifier = {
 					name = cas_march
-					duration = 10950
+					duration = -1
 				}
 			}
 			pyrenees_area = {
@@ -1534,7 +1534,7 @@ CAS_missions_4 = {
 				}
 				add_province_modifier = {
 					name = cas_march
-					duration = 10950
+					duration = -1
 				}
 			}
 		}
@@ -1572,7 +1572,7 @@ CAS_missions_4 = {
 		effect = {
 			add_country_modifier = {
 				name = cas_attractive_land
-				duration = 7300
+				duration = -1
 			}
 		}
 	}
@@ -1601,7 +1601,7 @@ CAS_missions_5 = {
 		effect = {
 			add_country_modifier = {
 				name = "spa_rb_morale"
-				duration = 5475
+				duration = -1
 			}
 			upper_andalucia_area = {
 				limit = {
@@ -1692,7 +1692,7 @@ CAS_missions_5 = {
 			210 = {
 				add_province_modifier = {
 					name = cas_centralization
-					duration = 7300
+					duration = -1
 				}
 			}
 		}

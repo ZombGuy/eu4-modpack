@@ -39,7 +39,7 @@ boh_hussite_group = {
 				}
 				add_country_modifier = { # misionary maintenance cost
 					name = "hussite_conversions"
-					duration = 3650
+					duration = -1
 				}
 			}
 			else_if = {
@@ -163,7 +163,7 @@ boh_hussite_group = {
 			add_adm_power = 100
 			add_country_modifier = {
 				name = "boh_premysl_mod"
-				duration = 7300
+				duration = -1
 			}
 		}
 		ai_weight = {

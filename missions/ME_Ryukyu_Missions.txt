@@ -26,7 +26,7 @@
 		effect = {
 			add_country_modifier = {
 				name = RYU_deterrent
-				duration = 10950
+				duration = -1
 			}
 			kyushu_area = {
 				limit = {
@@ -48,7 +48,7 @@
 		effect = {
 			add_country_modifier = {
 				name = RYU_growing
-				duration = 7300
+				duration = -1
 			}
 			capital_scope = {
 				add_base_tax = 1
@@ -137,7 +137,7 @@ RYU_missions_2 = {
 			add_mil_power = 100
 			add_country_modifier = {
 				name = RYU_technology_sharing
-				duration = 9125
+				duration = -1
 			}
 		}
 	}
@@ -291,7 +291,7 @@ RYU_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = RYU_the_medium
-				duration = 9125
+				duration = -1
 			}
 		}
 	}
@@ -332,7 +332,7 @@ RYU_missions_4 = {
 			else = {
 				add_country_modifier = {
 					name = RYU_maritime_culture_thriving
-					duration = 10950
+					duration = -1
 				}
 			}
 		}
@@ -350,7 +350,7 @@ RYU_missions_4 = {
 			add_stability_or_adm_power = yes
 			add_country_modifier = {
 				name = RYU_prospering_times
-				duration = 7300
+				duration = -1
 			}
 		}
 	}
@@ -456,7 +456,7 @@ RYU_missions_5 = {
 		effect = {
 			add_country_modifier = {
 				name = RYU_relations_with_china
-				duration = 9125
+				duration = -1
 			}
 		}
 	}
@@ -548,7 +548,7 @@ RYU_missions_5 = {
 		effect = {
 			add_country_modifier = {
 				name = RYU_chinese_approval
-				duration = 5475
+				duration = -1
 			}
 		}
 	}

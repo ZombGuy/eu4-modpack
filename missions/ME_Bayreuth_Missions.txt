@@ -59,7 +59,7 @@ BYT_missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = BYT_minting_new_coin
-				duration = 18250
+				duration = -1
 			}
 		}
 	}
@@ -130,7 +130,7 @@ BYT_missions_5 = {
 		effect = {
 			add_country_modifier = {
 				name = BYT_order
-				duration = 10950
+				duration = -1
 			}
 		}
 	}

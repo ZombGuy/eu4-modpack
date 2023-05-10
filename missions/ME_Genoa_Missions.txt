@@ -189,7 +189,7 @@ genoa_missions_1 = {
 					}
 					add_country_modifier = {
 						name = gen_mending_schism
-						duration = 7300
+						duration = -1
 					}
 				}
 				else_if = {
@@ -201,7 +201,7 @@ genoa_missions_1 = {
 				else = {
 					add_country_modifier = {
 						name = gen_conquest_constantinople
-						duration = 7300
+						duration = -1
 					}
 				}
 			}
@@ -302,7 +302,7 @@ genoa_missions_1 = {
 			crimea_area = {
 				add_province_modifier = {
 					name = gen_krymchaks
-					duration = 10950
+					duration = -1
 				}
 			}
 			azov_area = {
@@ -463,13 +463,13 @@ genoa_missions_1 = {
 			lower_don_area = {
 				add_province_modifier = {
 					name = gen_return_genoese_ruling
-					duration = 9125
+					duration = -1
 				}
 			}
 			zaporizhia_area = {
 				add_province_modifier = {
 					name = gen_return_genoese_ruling
-					duration = 9125
+					duration = -1
 				}
 			}
 			random_province = {
@@ -511,7 +511,7 @@ genoa_missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = gen_protecting_trade
-				duration = 7300
+				duration = -1
 			}
 		}
 	}
@@ -710,7 +710,7 @@ genoa_missions_2 = {
 			2410 = {
 				add_trade_modifier = {
 					who = ROOT
-					duration = 5475
+					duration = -1
 					power = 15
 					key = gen_theodoro_loc
 				}
@@ -1186,7 +1186,7 @@ genoa_missions_2 = {
 		effect = {
 			add_country_modifier = {
 				name = gen_colonial_expedition
-				duration = 36500
+				duration = -1
 			}
 			west_african_sea_region = {
 				discover_country = ROOT
@@ -1290,7 +1290,7 @@ genoa_missions_2 = {
 		effect = {
 			add_country_modifier = {
 				name = gen_specie_indian
-				duration = 10950
+				duration = -1
 			}
 			1340 = {
 				every_trade_node_member_province = {
@@ -1451,7 +1451,7 @@ genoa_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = gen_genoese_naval_tactics
-				duration = 7300
+				duration = -1
 			}
 			corsica_sardinia_area = {
 				limit = {
@@ -1610,7 +1610,7 @@ genoa_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = gen_facing_doge
-				duration = 9125
+				duration = -1
 			}
 			112 = {
 				if = {
@@ -1666,7 +1666,7 @@ genoa_missions_3 = {
 			add_mercantilism = 5
 			add_ruler_modifier = {
 				name = gen_victory_doge
-				duration = 7300
+				duration = -1
 			}
 			venetia_area = {
 				limit = {
@@ -1825,7 +1825,7 @@ genoa_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = gen_mediterranean_ambition
-				duration = 5475
+				duration = -1
 			}
 			delta_area = {
 				limit = {
@@ -1887,7 +1887,7 @@ genoa_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = gen_trading_egypt
-				duration = 18250
+				duration = -1
 			}
 		}
 	}
@@ -2016,7 +2016,7 @@ genoa_missions_3 = {
 			add_mercantilism = 10
 			add_country_modifier = {
 				name = gen_mediterranean_trade_republic
-				duration = 18250
+				duration = -1
 			}
 		}
 	}
@@ -2069,7 +2069,7 @@ genoa_missions_3 = {
 			add_accepted_culture_or_dip_power = { culture = piedmontese }
 			add_country_modifier = {
 				name = gen_defensive_on_the_alps
-				duration = 7300
+				duration = -1
 			}
 			hidden_effect = {
 				add_country_modifier = {
@@ -2206,7 +2206,7 @@ genoa_missions_4 = {
 			}
 			add_country_modifier = {
 				name = gen_timber_surplus
-				duration = 10950
+				duration = -1
 			}
 			baleares_area = {
 				limit = {
@@ -2234,7 +2234,7 @@ genoa_missions_4 = {
 		effect = {
 			add_country_modifier = {
 				name = gen_protecting_maghreb_trade
-				duration = 9125
+				duration = -1
 			}
 			tunisia_area = {
 				limit = {
@@ -2299,7 +2299,7 @@ genoa_missions_4 = {
 			354 = {
 				add_province_modifier = {
 					name = gen_genoese_fortress
-					duration = 9125
+					duration = -1
 				}
 			}
 		}
@@ -2373,7 +2373,7 @@ genoa_missions_4 = {
 			}
 			add_country_modifier = {
 				name = gen_merchant_army
-				duration = 9125
+				duration = -1
 			}
 			tuscany_area = {
 				limit = {
@@ -2439,7 +2439,7 @@ genoa_missions_4 = {
 			add_accepted_culture_or_dip_power = { culture = tuscan }
 			add_country_modifier = {
 				name = gen_arts
-				duration = 9125
+				duration = -1
 			}
 			hidden_effect = {
 				add_country_modifier = {
@@ -2466,7 +2466,7 @@ genoa_missions_4 = {
 		effect = {
 			add_country_modifier = {
 				name = gen_italian_trade_conquered
-				duration = 18250
+				duration = -1
 			}
 		}
 	}
@@ -2502,7 +2502,7 @@ genoa_missions_5 = {
 		effect = {
 			add_country_modifier = {
 				name = gen_genoese_market_dominance
-				duration = 9125
+				duration = -1
 			}
 		}
 	}
@@ -2526,7 +2526,7 @@ genoa_missions_5 = {
 				add_nationalism = -10
 				add_province_modifier = {
 					name = gen_anziani_fall
-					duration = 3650
+					duration = -1
 				}
 			}
 		}
@@ -2616,13 +2616,13 @@ genoa_missions_5 = {
 			1882 = {
 				add_province_modifier = {
 					name = gen_genoese_fortress
-					duration = 5475
+					duration = -1
 				}
 			}
 			2455 = {
 				add_province_modifier = {
 					name = gen_genoese_fortress
-					duration = 5475
+					duration = -1
 				}
 			}
 		}
@@ -2661,7 +2661,7 @@ genoa_missions_5 = {
 		effect = {
 			add_country_modifier = {
 				name = gen_san_giovanni_battista
-				duration = 9125
+				duration = -1
 			}
 			101 = {
 				add_permanent_province_modifier = {
@@ -2770,7 +2770,7 @@ genoa_missions_5 = {
 			add_accepted_culture_or_dip_power = { culture = lombard }
 			add_country_modifier = {
 				name = gen_trade_with_alps
-				duration = 7300
+				duration = -1
 			}
 			hidden_effect = {
 				add_country_modifier = {

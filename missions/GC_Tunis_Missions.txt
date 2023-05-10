@@ -55,7 +55,7 @@ gc_tunis_1 = {
 		effect = {
 			add_country_modifier = {
 				name = "tun_berbers_pacified"
-				duration = 7300
+				duration = -1
 			}
 		}
 	}
@@ -166,7 +166,7 @@ gc_tunis_1 = {
 		effect = {
 			add_country_modifier = {
 				name = "conquest_of_air"
-				duration = 7300
+				duration = -1
 			}
 			katsina_area = {
 				limit = {
@@ -224,7 +224,7 @@ gc_tunis_1 = {
 		effect = {
 			add_country_modifier = {
 				name = "tun_conquest_of_kanem"
-				duration = 7300
+				duration = -1
 			}
 		}
 	}
@@ -408,7 +408,7 @@ gc_tunis_3 = {
 		effect = {
 			add_country_modifier = {
 				name = "tun_med_conquest"
-				duration = 7300
+				duration = -1
 			}
 			163 = {
 				if = {
@@ -472,7 +472,7 @@ gc_tunis_3 = {
 		effect = {
 			add_country_modifier = {
 				name = "tun_med_conquest_east"
-				duration = 7300
+				duration = -1
 			}
 			112 = {
 				if = {
@@ -570,7 +570,7 @@ gc_tunis_4 = {
 			add_yearly_sailors = 3
 			add_country_modifier = {
 				name = "tun_barbary_pirates"
-				duration = 7300
+				duration = -1
 			}
 		}
 	}
@@ -674,7 +674,7 @@ gc_tunis_4 = {
 		effect = {
 			add_country_modifier = {
 				name = "tun_morocco"
-				duration = 7300
+				duration = -1
 			}
 		}
 	}

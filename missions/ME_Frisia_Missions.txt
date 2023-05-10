@@ -43,7 +43,7 @@ FRI_missions_1 = {
 					}
 					add_province_modifier = {
 						name = fri_integration
-						duration = 7300
+						duration = -1
 					}
 				}
 				else = {
@@ -57,7 +57,7 @@ FRI_missions_1 = {
 					}
 					add_province_modifier = {
 						name = fri_integration
-						duration = 7300
+						duration = -1
 					}
 				}
 				else = {
@@ -71,7 +71,7 @@ FRI_missions_1 = {
 					}
 					add_province_modifier = {
 						name = fri_integration
-						duration = 7300
+						duration = -1
 					}
 				}
 				else = {
@@ -85,7 +85,7 @@ FRI_missions_1 = {
 					}
 					add_province_modifier = {
 						name = fri_integration
-						duration = 7300
+						duration = -1
 					}
 				}
 				else = {
@@ -207,7 +207,7 @@ FRI_missions_2 = {
 					}
 					add_province_modifier = {
 						name = fri_integration
-						duration = 7300
+						duration = -1
 					}
 				}
 				else = {
@@ -221,7 +221,7 @@ FRI_missions_2 = {
 					}
 					add_province_modifier = {
 						name = fri_integration
-						duration = 7300
+						duration = -1
 					}
 				}
 				else = {
@@ -460,7 +460,7 @@ FRI_missions_3 = {
 					}
 					add_province_modifier = {
 						name = fri_integration
-						duration = 7300
+						duration = -1
 					}
 				}
 				else = {

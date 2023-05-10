@@ -26,12 +26,12 @@ mazandaran_missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = maz_caspian_ports
-				duration = 7300
+				duration = -1
 			}
 			home_trade_node_effect_scope = {
 				add_trade_modifier = {
 					who = ROOT
-					duration = 7300
+					duration = -1
 					power = 25
 					key = maz_caspian_ports
 				}
@@ -117,7 +117,7 @@ mazandaran_missions_1 = {
 			add_dip_power = 150
 			add_country_modifier = {
 				name = maz_silk_dominance
-				duration = 14600
+				duration = -1
 			}
 		}
 	}
@@ -186,7 +186,7 @@ mazandaran_missions_2 = {
 			add_mil_power = 150
 			add_country_modifier = {
 				name = maz_army_innovation
-				duration = 7300
+				duration = -1
 			}
 		}
 	}
@@ -285,13 +285,13 @@ mazandaran_missions_2 = {
 				}
 				add_country_modifier = {
 					name = maz_end_timurid_legacy_moh
-					duration = 18250
+					duration = -1
 				}
 			}
 			else = {
 				add_country_modifier = {
 					name = maz_end_timurid_legacy
-					duration = 18250
+					duration = -1
 				}
 			}
 		}
@@ -320,7 +320,7 @@ mazandaran_missions_3 = {
 			}
 			add_country_modifier = {
 				name = maz_campaign_order
-				duration = 3650
+				duration = -1
 			}
 			417 = {
 				if = {
@@ -528,7 +528,7 @@ mazandaran_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = maz_patronizing_arts
-				duration = 7300
+				duration = -1
 			}
 			random_owned_province = {
 				limit = {
@@ -618,7 +618,7 @@ mazandaran_missions_3 = {
 			else = {
 				add_country_modifier = {
 					name = maz_shahanshan
-					duration = 10950
+					duration = -1
 				}
 			}
 		}
@@ -650,7 +650,7 @@ mazandaran_missions_4_islam = {
 		effect = {
 			add_country_modifier = {
 				name = maz_urban_development
-				duration = 9125
+				duration = -1
 			}
 		}
 	}
@@ -809,12 +809,12 @@ mazandaran_missions_4 = {
 		effect = {
 			add_country_modifier = {
 				name = maz_naval_foundations
-				duration = 3650
+				duration = -1
 			}
 			home_trade_node_effect_scope = {
 				add_trade_modifier = {
 					who = ROOT
-					duration = 3650
+					duration = -1
 					power = 10
 					key = maz_naval_foundations
 				}
@@ -850,7 +850,7 @@ mazandaran_missions_5 = {
 		effect = {
 			add_country_modifier = {
 				name = maz_diplomats_successful
-				duration = 18250
+				duration = -1
 			}
 			every_country = {
 				limit = {
@@ -889,7 +889,7 @@ mazandaran_missions_5 = {
 			add_dip_power = 100
 			add_country_modifier = {
 				name = maz_secured_position
-				duration = 7300
+				duration = -1
 			}
 		}
 	}
@@ -1080,7 +1080,7 @@ mazandaran_missions_5_islam = {
 				}
 				add_province_modifier = {
 					name = maz_indian_exchanges
-					duration = 7300
+					duration = -1
 				}
 			}
 			random_owned_province = {
@@ -1089,7 +1089,7 @@ mazandaran_missions_5_islam = {
 				}
 				add_province_modifier = {
 					name = maz_indian_exchanges
-					duration = 7300
+					duration = -1
 				}
 			}
 			random_owned_province = {
@@ -1098,7 +1098,7 @@ mazandaran_missions_5_islam = {
 				}
 				add_province_modifier = {
 					name = maz_indian_exchanges
-					duration = 7300
+					duration = -1
 				}
 			}
 			random_owned_province = {
@@ -1107,7 +1107,7 @@ mazandaran_missions_5_islam = {
 				}
 				add_province_modifier = {
 					name = maz_indian_exchanges
-					duration = 7300
+					duration = -1
 				}
 			}
 			random_owned_province = {
@@ -1116,7 +1116,7 @@ mazandaran_missions_5_islam = {
 				}
 				add_province_modifier = {
 					name = maz_indian_exchanges
-					duration = 7300
+					duration = -1
 				}
 			}
 			random_owned_province = {
@@ -1125,7 +1125,7 @@ mazandaran_missions_5_islam = {
 				}
 				add_province_modifier = {
 					name = maz_indian_exchanges
-					duration = 7300
+					duration = -1
 				}
 			}
 			random_owned_province = {
@@ -1134,7 +1134,7 @@ mazandaran_missions_5_islam = {
 				}
 				add_province_modifier = {
 					name = maz_indian_exchanges
-					duration = 7300
+					duration = -1
 				}
 			}
 			random_owned_province = {
@@ -1143,7 +1143,7 @@ mazandaran_missions_5_islam = {
 				}
 				add_province_modifier = {
 					name = maz_indian_exchanges
-					duration = 7300
+					duration = -1
 				}
 			}
 			random_owned_province = {
@@ -1152,7 +1152,7 @@ mazandaran_missions_5_islam = {
 				}
 				add_province_modifier = {
 					name = maz_indian_exchanges
-					duration = 7300
+					duration = -1
 				}
 			}
 			random_owned_province = {
@@ -1161,7 +1161,7 @@ mazandaran_missions_5_islam = {
 				}
 				add_province_modifier = {
 					name = maz_indian_exchanges
-					duration = 7300
+					duration = -1
 				}
 			}
 		}

@@ -358,7 +358,7 @@ ARB_missions_2 = {
 		effect = {
 			add_country_modifier = {
 				name = ARB_second_tours
-				duration = 7300
+				duration = -1
 			}
 			
 			create_general_with_pips = { tradition = 100 add_shock = 3 add_siege = 1 }
@@ -442,7 +442,7 @@ ARB_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = ARB_caliphal_claimant_defeated
-				duration = 10950
+				duration = -1
 			}
 			
 			add_power_projection = {
@@ -484,7 +484,7 @@ ARB_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = ARB_conversion_of_balkans
-				duration = 10950
+				duration = -1
 			}
 			
 			add_army_tradition_or_mil_power = { amount = 10 }
@@ -559,7 +559,7 @@ ARB_missions_3 = {
 				504 = {
 					add_trade_modifier = {
 						who = ROOT
-						duration = 14600
+						duration = -1
 						power = 50
 						key = ARB_indian_trade
 					}
@@ -567,7 +567,7 @@ ARB_missions_3 = {
 				1340 = {
 					add_trade_modifier = {
 						who = ROOT
-						duration = 14600
+						duration = -1
 						power = 50
 						key = ARB_indian_trade
 					}
@@ -634,7 +634,7 @@ ARB_missions_3 = {
 					504 = {
 						add_trade_modifier = {
 							who = ROOT
-							duration = 14600
+							duration = -1
 							power = 50
 							key = ARB_indian_trade
 						}
@@ -642,7 +642,7 @@ ARB_missions_3 = {
 					1340 = {
 						add_trade_modifier = {
 							who = ROOT
-							duration = 14600
+							duration = -1
 							power = 50
 							key = ARB_indian_trade
 						}
@@ -751,7 +751,7 @@ ARB_missions_3 = {
 				
 				add_country_modifier = {
 					name = ARB_malayan_trade_eff
-					duration = 7300
+					duration = -1
 				}
 			}
 			
@@ -770,7 +770,7 @@ ARB_missions_3 = {
 				
 					add_country_modifier = {
 						name = ARB_malayan_trade_eff
-						duration = 7300
+						duration = -1
 					}
 				}
 				else = {
@@ -815,7 +815,7 @@ ARB_missions_4 = {
 		effect = {			
 			add_country_modifier = {
 				name = ARB_linking_the_world
-				duration = 7300
+				duration = -1
 			}
 			
 			define_advisor = { #referring to the mamluks of circassia here
@@ -978,7 +978,7 @@ ARB_missions_4 = {
 		effect = {
 			add_country_modifier = {
 				name = ARB_convert_the_amhara
-				duration = 10950
+				duration = -1
 			}
 			
 			ME_add_power_projection = { amount = 20 }
@@ -1042,7 +1042,7 @@ ARB_missions_5 = {
 			
 			add_country_modifier = {
 				name = ARB_second_conquest_of_persia
-				duration = 9125
+				duration = -1
 			}
 			
 			if = {
@@ -1679,7 +1679,7 @@ ARB_missions_2_2 = {
 		effect = {
 			add_country_modifier = {
 				name = ARB_converting_the_masses
-				duration = 14600
+				duration = -1
 			}
 			set_defender_of_the_faith_effect = yes
 			
@@ -1810,7 +1810,7 @@ ARB_missions_2_2 = {
 		effect = {
 			add_country_modifier = {
 				name = ARB_army_reforms
-				duration = 7300
+				duration = -1
 			}
 			
 			add_mil_power = 100
@@ -1841,7 +1841,7 @@ ARB_missions_2_2 = {
 			tooltip = {
 				add_province_modifier = {
 					name = ARB_misr
-					duration = 9125
+					duration = -1
 				}
 			}
 			
@@ -1863,7 +1863,7 @@ ARB_missions_2_2 = {
 					}
 					add_province_modifier = {
 						name = ARB_misr
-						duration = 9125
+						duration = -1
 					}
 				}
 				pick_best_provinces = {
@@ -1920,7 +1920,7 @@ ARB_missions_2_2 = {
 		effect = {
 			add_country_modifier = {
 				name = ARB_rise_of_a_gunpowder_empire
-				duration = 10950
+				duration = -1
 			}
 			
 			add_army_tradition_or_mil_power = { amount = 15 }
@@ -1953,7 +1953,7 @@ ARB_missions_3_2 = {
 			
 			add_country_modifier = {
 				name = ARB_calling_all_to_war
-				duration = 5475
+				duration = -1
 			}
 		}
 	}
@@ -2109,7 +2109,7 @@ ARB_missions_3_2 = {
 			else = {
 				add_country_modifier = {
 					name = ARB_no_leviathan
-					duration = 10950
+					duration = -1
 				}
 			}
 			
@@ -2152,7 +2152,7 @@ ARB_missions_3_2 = {
 			# Fursan -  Mobile Guard (Tulay'a mutaharikkah) - 
 			add_country_modifier = {
 				name = ARB_fursan
-				duration = 9125
+				duration = -1
 			}
 			set_country_flag = ARB_arabian_horses_flag
 			
@@ -2241,7 +2241,7 @@ ARB_missions_4_2 = {
 		effect = {
 			add_country_modifier = {
 				name = ARB_coffee_entrepot
-				duration = 10950
+				duration = -1
 			}
 			
 			country_event = { id = ME_Arabia_Events.12 } #National Drink?
@@ -2298,7 +2298,7 @@ ARB_missions_4_2 = {
 			
 			add_country_modifier = {
 				name = ARB_some_income_boost
-				duration = 7300
+				duration = -1
 			}
 		}
 	}
@@ -2341,7 +2341,7 @@ ARB_missions_4_2 = {
 		effect = {
 			add_country_modifier = {
 				name = ARB_prosperity_in_the_cities
-				duration = 10950
+				duration = -1
 			}
 			
 			country_event = { id = ME_Arabia_Events.14 } # A New Capital
@@ -2451,7 +2451,7 @@ ARB_missions_4_2 = {
 		effect = {
 			add_country_modifier = {
 				name = ARB_barid_routes_reestablished
-				duration = 9125
+				duration = -1
 			}
 			
 			add_country_modifier = {
@@ -2486,7 +2486,7 @@ ARB_missions_5_2 = {
 		effect = {
 			add_country_modifier = {
 				name = ARB_famous_goods_of_arabia
-				duration = 7300
+				duration = -1
 			}
 			
 			custom_tooltip = ARB_distribute_15_base_tax_among_production_buildings

@@ -23,7 +23,7 @@ crimean_missions_column_1 = {
 		effect = {
 			add_country_modifier = {
 				name = "crimean_horse_warriors"
-				duration = 9125
+				duration = -1
 			}
 			2410 = {
 				if = {
@@ -375,7 +375,7 @@ crimean_missions_column_2 = {
 		effect = {
 			add_country_modifier = {
 				name = "cri_new_slaves"
-				duration = 9125
+				duration = -1
 			}
 		}
 	}
@@ -456,7 +456,7 @@ crimean_missions_column_3 = {
 		effect = {
 			add_country_modifier = {
 				name = "cri_new_slaves"
-				duration = 9125
+				duration = -1
 			}
 		}
 	}
@@ -481,7 +481,7 @@ crimean_missions_column_3 = {
 		effect = {
 			add_country_modifier = {
 				name = "cri_new_slaves"
-				duration = 9125
+				duration = -1
 			}
 		}
 	}
@@ -506,7 +506,7 @@ crimean_missions_column_3 = {
 		effect = {
 			add_country_modifier = {
 				name = "cri_new_slaves"
-				duration = 9125
+				duration = -1
 			}
 		}
 	}
@@ -571,7 +571,7 @@ crimean_missions_column_3 = {
 		effect = {
 			add_country_modifier = {
 				name = "cri_new_slaves"
-				duration = 9125
+				duration = -1
 			}
 			284 = {
 				if = {
@@ -738,7 +738,7 @@ crimean_missions_column_4 = {
 		effect = {
 			add_country_modifier = {
 				name = "cri_new_slaves"
-				duration = 9125
+				duration = -1
 			}
 		}
 	}
@@ -767,7 +767,7 @@ crimean_missions_column_5 = {
 		effect = {
 			add_country_modifier = {
 				name = "cri_religious_focus"
-				duration = 9125
+				duration = -1
 			}
 		}
 	}

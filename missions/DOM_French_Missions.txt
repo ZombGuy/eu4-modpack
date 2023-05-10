@@ -135,7 +135,7 @@ french_missions_1 = {
 				tooltip = { 
 					add_country_modifier = { 
 						name = fra_reintegration_of_burgundian_lands_modifier
-						duration = 7300
+						duration = -1
 					}
 				}
 				custom_tooltip = fra_complete_via_opinion_alliance_and_trust_tt
@@ -145,7 +145,7 @@ french_missions_1 = {
 				tooltip = { 
 					add_country_modifier = { 
 						name = fra_reintegration_of_burgundian_lands_modifier
-						duration = 7300
+						duration = -1
 					}
 				}
 			}
@@ -178,7 +178,7 @@ french_missions_1 = {
 					}
 					add_country_modifier = { 
 						name = fra_reintegration_of_burgundian_lands_modifier
-						duration = 7300
+						duration = -1
 					}
 					random_owned_province = { 
 						limit = { 
@@ -476,38 +476,38 @@ french_missions_1_kill_hre_path = {
 		effect = {
 			add_country_modifier = {
 				name = fra_victory_germany_modifier
-				duration = 9125 
+				duration = -1
 			}
 			custom_tooltip = fra_every_required_area_gains_tt
 			tooltip = {
 				add_province_modifier = {
 					name = fra_french_buffer_modifier
-					duration = 7300
+					duration = -1
 				}
 			}
 			hidden_effect = {
 				alsace_area = { 
 					add_province_modifier = {
 						name = fra_french_buffer_modifier
-						duration = 7300
+						duration = -1
 					}
 				}
 				upper_rhineland_area = { 
 					add_province_modifier = {
 						name = fra_french_buffer_modifier
-						duration = 7300
+						duration = -1
 					}
 				}
 				romandie_area = { 
 					add_province_modifier = {
 						name = fra_french_buffer_modifier
-						duration = 7300
+						duration = -1
 					}
 				}
 				switzerland_area = { 
 					add_province_modifier = {
 						name = fra_french_buffer_modifier
-						duration = 7300
+						duration = -1
 					}
 				}
 			}
@@ -567,7 +567,7 @@ french_missions_1_hre_branch = {
 			# }
 			add_country_modifier = { 
 				name = fra_imperial_messengers_modifier
-				duration =  7300
+				duration = -1
 			}
 			if = { 
 				limit = { 
@@ -658,7 +658,7 @@ french_missions_1_Continuation_a = {
 			custom_tooltip = fra_event_insight_202_tt
 			add_country_modifier = { 
 				name = fra_replenished_slave_crews_modifier
-				duration = 7300
+				duration = -1
 			}
 			sicily_area = { 
 				limit = { 
@@ -740,7 +740,7 @@ french_missions_1_Continuation_a = {
 					}
 					add_country_modifier = {
 						name = fra_french_raiding_parties_modifier
-						duration = 7300
+						duration = -1
 					}
 				}
 				else = { 
@@ -778,7 +778,7 @@ french_missions_1_Continuation_a = {
 		effect = {
 			add_country_modifier = {
 				name = "fra_colonial_enthusiasm"
-				duration = 7300
+				duration = -1
 			}
 		}
 		ai_weight = {
@@ -826,7 +826,7 @@ french_missions_1_Continuation_a = {
 						}
 						add_country_modifier = {
 							name = fra_french_canadian_settlers_modifier
-							duration = 7300
+							duration = -1
 						}
 					}
 				}
@@ -893,7 +893,7 @@ french_missions_1_Continuation_a = {
 		effect = {
 			add_country_modifier = {
 				name = fra_overseas_focus_modifier
-				duration = 9125 
+				duration = -1
 			}
 			add_mercantilism = 5 
 		}
@@ -927,7 +927,7 @@ french_missions_1_Continuation_a = {
 		effect = {
 			add_country_modifier = {
 				name = fra_masters_of_india_modifier
-				duration = -1 
+				duration = -1
 			}
 			if = { 
 				limit = { has_dlc = "Dharma" }
@@ -935,7 +935,7 @@ french_missions_1_Continuation_a = {
 				tooltip = {
 					add_province_modifier = {
 						name = fra_compagnie_francaise_modifier
-						duration = -1 
+						duration = -1
 					}
 				}
 				hidden_effect = {
@@ -949,7 +949,7 @@ french_missions_1_Continuation_a = {
 						}
 						add_province_modifier = {
 							name = fra_compagnie_francaise_modifier
-							duration = -1 
+							duration = -1
 						}
 					}
 				}
@@ -1021,7 +1021,7 @@ french_missions_1_Continuation_a = {
 		effect = {
 			add_country_modifier = {
 				name = fra_growth_appanages
-				duration = 7300 
+				duration = -1
 			}
 			
 			custom_tooltip = fra_appanage_dev_tt
@@ -1073,7 +1073,7 @@ french_missions_1_Continuation_a = {
 		effect = {
 			add_country_modifier = {
 				name = fra_increased_crown_authority_modifier
-				duration = 7300
+				duration = -1
 			}
 			
 			custom_tooltip = fra_20rf_per_adm
@@ -1175,7 +1175,7 @@ french_missions_1_Continuation_a = {
 			tooltip = {
 				add_country_modifier = {
 					name = fra_catholic_supremacy_modifier
-					duration = -1 
+					duration = -1
 				}
 				set_defender_of_the_faith = {
 					who = ROOT 
@@ -1186,14 +1186,14 @@ french_missions_1_Continuation_a = {
 			tooltip = {
 				add_country_modifier = {
 					name = fra_heart_of_protestantism_modifier
-					duration = -1 
+					duration = -1
 				}
 			}
 			custom_tooltip = fra_moderate_tt
 			tooltip = { 
 				add_country_modifier = { 
 					name = fra_moderate_path_modifier
-					duration = -1 
+					duration = -1
 				}
 			}
 			
@@ -1202,7 +1202,7 @@ french_missions_1_Continuation_a = {
 					limit = { has_country_flag = FRA_supports_protestant_majority }
 					add_country_modifier = {
 						name = fra_heart_of_protestantism_modifier
-						duration = -1 
+						duration = -1
 					}
 					clr_country_flag = FRA_supports_protestant_majority
 				}
@@ -1210,7 +1210,7 @@ french_missions_1_Continuation_a = {
 					limit = { has_country_flag = FRA_supports_catholic_majority }
 					add_country_modifier = {
 						name = fra_catholic_supremacy_modifier
-						duration = 9125 
+						duration = -1
 					}
 					set_defender_of_the_faith = {
 						who = ROOT 
@@ -1221,7 +1221,7 @@ french_missions_1_Continuation_a = {
 				else = {
 					add_country_modifier = { 
 						name = fra_moderate_path_modifier
-						duration = -1 
+						duration = -1
 					}
 					clr_country_flag = supports_french_moderates
 				}
@@ -1285,7 +1285,7 @@ french_rev_missions_1 = {
 		effect = { 
 			add_country_modifier = {
 				name = fra_iberian_domination_modifier 
-				duration = -1 
+				duration = -1
 			}
 			if = { 
 				limit = { 
@@ -1336,7 +1336,7 @@ french_rev_missions_1 = {
 				tooltip = {
 					add_country_modifier = {
 						name = fra_elite_guard_modifier
-						duration = -1 
+						duration = -1
 					}
 				}
 				
@@ -1344,7 +1344,7 @@ french_rev_missions_1 = {
 				tooltip = {
 					add_country_modifier = {
 						name = fra_mass_guard_modifier
-						duration = -1 
+						duration = -1
 					}
 				}
 				
@@ -1352,7 +1352,7 @@ french_rev_missions_1 = {
 				tooltip = {
 					add_country_modifier = {
 						name = fra_vanguard_guard_modifier
-						duration = -1 
+						duration = -1
 					}
 				}
 				
@@ -1360,7 +1360,7 @@ french_rev_missions_1 = {
 				tooltip = {
 					add_country_modifier = {
 						name = fra_professional_guard_modifier
-						duration = -1 
+						duration = -1
 					}
 				}
 			}
@@ -1368,13 +1368,13 @@ french_rev_missions_1 = {
 				limit = { has_dlc = "Cradle of Civilization" }
 				add_country_modifier = {
 					name = fra_trained_revolutionary_guard1_modifier
-					duration = -1 
+					duration = -1
 				}
 			}
 			else = {
 				add_country_modifier = {
 					name = fra_trained_revolutionary_guard2_modifier
-					duration = -1 
+					duration = -1
 				}
 			}
 			hidden_effect = {
@@ -1382,28 +1382,28 @@ french_rev_missions_1 = {
 					limit = { has_country_modifier = elite_revolutionary_guard_modifier }
 					add_country_modifier = {
 						name = fra_elite_guard_modifier
-						duration = -1 
+						duration = -1
 					}
 				}
 				if = {
 					limit = { has_country_modifier = mass_revolutionary_guard_modifier }
 					add_country_modifier = {
 						name = fra_mass_guard_modifier
-						duration = -1 
+						duration = -1
 					}
 				}
 				if = {
 					limit = { has_country_modifier = vanguard_revolutionary_guard_modifier }
 					add_country_modifier = {
 						name = fra_vanguard_guard_modifier
-						duration = -1 
+						duration = -1
 					}
 				}
 				if = {
 					limit = { has_country_modifier = professional_revolutionary_guard_modifier }
 					add_country_modifier = {
 						name = fra_professional_guard_modifier
-						duration = -1 
+						duration = -1
 					}
 				}
 			}
@@ -1576,7 +1576,7 @@ french_missions_2_charlemagne_path = {
 			add_imperial_influence = 20 
 			add_country_modifier = {
 				name = fra_rightful_emperor_of_italy_modifier
-				duration = -1 
+				duration = -1
 				desc = fra_as_long_as_we_remain_hre_emperors
 			}
 			if = {
@@ -1646,7 +1646,7 @@ french_missions_2_kill_hre_path = {
 		effect = {
 			add_country_modifier = {
 				name = fra_cultural_hegemony_modifier
-				duration = -1 
+				duration = -1
 			}
 			custom_tooltip = fra_enable_mil_hegemony_tt
 			set_country_flag = fra_enable_mil_hegemony_flag
@@ -1758,7 +1758,7 @@ french_missions_2_Continuation_b = {
 			tooltip = {
 				add_country_modifier = {
 					name = fra_franco_iberian_cooperation_modifier
-					duration = -1 
+					duration = -1
 					desc = fra_as_long_as_we_maintain_the_alliance_desc
 				}
 				random_ally = { 
@@ -1776,7 +1776,7 @@ french_missions_2_Continuation_b = {
 					}
 					add_country_modifier = {
 						name = fra_franco_iberian_cooperation_modifier
-						duration = -1 
+						duration = -1
 						desc = fra_as_long_as_we_maintain_the_alliance_desc
 					}
 					add_historical_friend = ROOT 
@@ -1814,14 +1814,14 @@ french_missions_2_Continuation_b = {
 						}
 						add_country_modifier = {
 							name = fra_franco_iberian_cooperation_modifier
-							duration = -1 
+							duration = -1
 							desc = fra_as_long_as_we_maintain_the_alliance_desc
 						}
 						add_historical_friend = ROOT
 					}
 					add_country_modifier = {
 						name = fra_franco_iberian_cooperation_modifier
-						duration = -1 
+						duration = -1
 						desc = fra_as_long_as_we_maintain_the_alliance_desc
 					}
 				} 
@@ -1837,7 +1837,7 @@ french_missions_2_Continuation_b = {
 				}
 				add_country_modifier = {
 					name = fra_light_of_catholicism_modifier
-					duration = -1 
+					duration = -1
 				}
 			}
 			else_if = { 
@@ -1917,7 +1917,7 @@ french_missions_2_Continuation_b = {
 					}
 					add_country_modifier = {
 						name = fra_colonial_rush_modifier 
-						duration = 7300 
+						duration = -1
 					}
 				}
 			}
@@ -1931,7 +1931,7 @@ french_missions_2_Continuation_b = {
 					}
 					add_country_modifier = {
 						name = fra_colonial_rush_modifier 
-						duration = 7300 
+						duration = -1
 					}
 				}
 			}
@@ -1960,7 +1960,7 @@ french_missions_2_Continuation_b = {
 			tooltip = {
 				add_province_modifier = {
 					name = fra_hudson_bay_fur_modifier
-					duration = -1 
+					duration = -1
 				}
 			}
 			hidden_effect = {
@@ -1972,7 +1972,8 @@ french_missions_2_Continuation_b = {
 					}
 					type = random
 					amount = 6 
-					add_province_modifier = { name = fra_hudson_bay_fur_modifier duration = -1 }
+					add_province_modifier = { name = fra_hudson_bay_fur_modifier duration = -1
+}
 				}
 			}
 		}
@@ -2005,7 +2006,7 @@ french_missions_2_Continuation_b = {
 		effect = {
 			add_country_modifier = {
 				name = fra_french_bombards_modifier
-				duration = 5475
+				duration = -1
 			}
 			if = {
 				limit = { NOT = { mil_tech = 7 } }
@@ -2110,7 +2111,7 @@ french_missions_2_Continuation_b = {
 		effect = { 
 			add_country_modifier = {
 				name = fra_proper_legal_systems_modifier
-				duration = 9125 
+				duration = -1
 			}
 			custom_tooltip = fra_every_court_house_tt
 			hidden_effect = {
@@ -2172,7 +2173,7 @@ french_rev_missions_2 = {
 		effect = {
 			add_country_modifier = {
 				name = fra_napoleonic_warfare_modifier
-				duration = 9125 
+				duration = -1
 			}
 			
 			add_army_tradition = 10 
@@ -2204,7 +2205,7 @@ french_rev_missions_2 = {
 		effect = {
 			add_country_modifier = {
 				name = fra_subjugation_of_the_germans_modifier
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -2250,7 +2251,7 @@ french_rev_missions_2 = {
 		effect = {
 			add_country_modifier = {
 				name = fra_french_supremacy_modifier
-				duration = -1 
+				duration = -1
 			}
 			
 			if = { 
@@ -2295,7 +2296,7 @@ french_rev_missions_2 = {
 			tooltip = {
 				add_country_modifier = {
 					name = fra_church_and_state_harmony_modifier
-					duration = -1 
+					duration = -1
 				}
 			}
 			
@@ -2303,7 +2304,7 @@ french_rev_missions_2 = {
 			tooltip = {
 				add_country_modifier = {
 					name = fra_popularization_of_secular_beliefs_modifier
-					duration = -1 
+					duration = -1
 				}
 			}
 			
@@ -2312,13 +2313,13 @@ french_rev_missions_2 = {
 					limit = { has_estate = estate_church } 
 					add_country_modifier = {
 						name = fra_church_and_state_harmony_modifier
-						duration = -1 
+						duration = -1
 					}
 				}
 				else = {
 					add_country_modifier = {
 						name = fra_popularization_of_secular_beliefs_modifier
-						duration = -1 
+						duration = -1
 					}
 				}
 			}
@@ -2370,7 +2371,7 @@ french_missions_3 = {
 			tooltip = { 
 				add_country_modifier = {
 					name = fra_victory_against_the_english_modifier
-					duration = 5475
+					duration = -1
 				}
 			}
 			hidden_effect = { 
@@ -2389,14 +2390,14 @@ french_missions_3 = {
 					174 = { 
 						add_province_modifier = {
 							name = fra_unification_movement_modifier 
-							duration = -1 
+							duration = -1
 							desc = until_we_peace_desc
 						}
 					}
 					173 = { 
 						add_province_modifier = {
 							name = fra_unification_movement_modifier 
-							duration = -1 
+							duration = -1
 							desc = until_we_peace_desc
 						}
 					}
@@ -2404,7 +2405,7 @@ french_missions_3 = {
 				else = { 
 					add_country_modifier = {
 						name = fra_victory_against_the_english_modifier
-						duration = 5475
+						duration = -1
 					}
 					173 = { add_devastation = -10 } 
 					174 = { add_devastation = -10 }
@@ -2587,7 +2588,7 @@ french_missions_3_charlemagne_path = {
 				183 = {
 					add_province_modifier = {
 						name = center_mil_matters_strategy_modifier
-						duration = -1 
+						duration = -1
 					}
 				}
 			}
@@ -2678,7 +2679,7 @@ french_missions_3_kill_hre_path = {
 			else = { 
 				add_ruler_modifier = {
 					name = fra_iron_crowned_modifier
-					duration = -1 
+					duration = -1
 				}
 			}
 			add_mil_power = 150
@@ -2751,7 +2752,7 @@ french_missions_3_continuation_after_hre_missions = {
 				# }
 				add_country_modifier = { 
 					name = fra_venetian_craftsmanship_modifier
-					duration = -1 
+					duration = -1
 					desc = fra_as_long_as_owned_by_pap_or_subject_desc
 				}
 			}
@@ -2774,7 +2775,7 @@ french_missions_3_continuation_after_hre_missions = {
 					112 = { 
 						add_province_modifier = {
 							name = fra_roi_palace_modifier 
-							duration = -1 
+							duration = -1
 						}
 					}
 					add_prestige = 20 
@@ -2793,7 +2794,7 @@ french_missions_3_continuation_after_hre_missions = {
 					}
 					add_country_modifier = { 
 						name = fra_venetian_craftsmanship_modifier
-						duration = -1 
+						duration = -1
 						desc = fra_as_long_as_owned_by_pap_or_subject_desc
 					}
 				}
@@ -2814,7 +2815,7 @@ french_missions_3_continuation_after_hre_missions = {
 					112 = { 
 						add_province_modifier = {
 							name = fra_roi_palace_modifier 
-							duration = -1 
+							duration = -1
 						}
 					}
 					add_prestige = 20 
@@ -2953,7 +2954,7 @@ french_missions_3_continuation_after_hre_missions = {
 			tooltip = { 
 				add_country_modifier = { 
 					name = fra_golden_march_modifier
-					duration = -1 
+					duration = -1
 				}
 			}
 			hidden_effect = { 
@@ -2986,7 +2987,7 @@ french_missions_3_continuation_after_hre_missions = {
 				else = { 
 					add_country_modifier = { 
 						name = fra_golden_march_modifier
-						duration = -1 
+						duration = -1
 					}
 				}
 			}
@@ -3072,7 +3073,7 @@ french_missions_3_continuation_after_hre_missions = {
 					remove_country_modifier = fra_golden_march_modifier 
 					add_country_modifier = { 
 						name = fra_golden_march2_modifier
-						duration = -1 
+						duration = -1
 					}
 				}
 			}
@@ -3135,7 +3136,7 @@ french_missions_3_normal_continued = {
 				add_base_production = 1 
 				add_province_modifier = {
 					name = fra_french_cloth_centers_modifier
-					duration = -1 
+					duration = -1
 				}
 			}
 			hidden_effect = { 
@@ -3148,7 +3149,7 @@ french_missions_3_normal_continued = {
 					add_base_production = 1 
 					add_province_modifier = {
 						name = fra_french_cloth_centers_modifier
-						duration = -1 
+						duration = -1
 					}
 				}
 			}
@@ -3208,7 +3209,7 @@ french_missions_3_normal_continued = {
 			1269 = { change_province_name = "Basse-Côte" }
 			add_country_modifier = {
 				name = fra_channel_dominance_modifier
-				duration = -1 
+				duration = -1
 			}
 			custom_tooltip = fra_merc_per_province_tt
 			if = { 
@@ -3267,7 +3268,7 @@ french_missions_3_normal_continued = {
 		effect = {
 			add_country_modifier = { 
 				name = fra_beatification_joan_arc_modifier
-				duration = 9125 
+				duration = -1
 			}
 		}
 	}
@@ -3296,7 +3297,7 @@ french_missions_3_normal_continued = {
 			custom_tooltip = fra_enable_musketeer_reform_tt
 			add_country_modifier = {
 				name = fra_musketeers_modifier
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -3319,7 +3320,7 @@ french_missions_3_normal_continued = {
 			tooltip = {
 				add_country_modifier = {
 					name = fra_letat_cest_moi_modifier
-					duration = -1 
+					duration = -1
 				}
 			}
 			
@@ -3327,7 +3328,7 @@ french_missions_3_normal_continued = {
 			tooltip = {
 				add_country_modifier = {
 					name = fra_absolutism_modifier
-					duration = 7300 
+					duration = -1
 				}
 			}
 			
@@ -3341,13 +3342,13 @@ french_missions_3_normal_continued = {
 					}
 					add_country_modifier = {
 						name = fra_letat_cest_moi_modifier
-						duration = -1 
+						duration = -1
 					}
 				}
 				else = {
 					add_country_modifier = {
 						name = fra_absolutism_modifier
-						duration = 7300 
+						duration = -1
 					}
 				}
 			}	
@@ -3408,7 +3409,7 @@ french_missions_3_normal_continued = {
 		effect = {
 			add_country_modifier = {
 				name = fra_french_industrial_revolution_modifier
-				duration = -1 
+				duration = -1
 			}
 			
 			custom_tooltip = fra_trading_iron_tt
@@ -3417,7 +3418,7 @@ french_missions_3_normal_continued = {
 			tooltip = {
 				add_province_modifier = {
 					name = fra_canal_royal_en_languedoc_modifier
-					duration = -1 
+					duration = -1
 				}
 			}
 			
@@ -3443,7 +3444,7 @@ french_missions_3_normal_continued = {
 						}
 						add_province_modifier = {
 							name = fra_metal_barons_modifier
-							duration = -1 
+							duration = -1
 							hidden = yes 
 						}
 					}
@@ -3470,25 +3471,25 @@ french_missions_3_normal_continued = {
 					2753 = {
 						add_province_modifier = {
 							name = fra_canal_royal_en_languedoc_modifier
-							duration = -1 
+							duration = -1
 						}
 					}
 					196 = {
 						add_province_modifier = {
 							name = fra_canal_royal_en_languedoc_modifier 
-							duration = -1 
+							duration = -1
 						}
 					}
 					175 = { 
 						add_province_modifier = {
 							name = fra_canal_royal_en_languedoc_modifier
-							duration = -1 
+							duration = -1
 						}
 					}
 					174 = {
 						add_province_modifier = {
 							name = fra_canal_royal_en_languedoc_modifier
-							duration = -1 
+							duration = -1
 						}
 					}
 				}
@@ -3549,7 +3550,7 @@ french_rev_missions_3 = {
 		effect = {			
 			add_country_modifier = {
 				name = fra_riches_of_italy_modifier 
-				duration = -1 
+				duration = -1
 			}
 			
 			if = {
@@ -3598,7 +3599,7 @@ french_rev_missions_3 = {
 		effect = {
 			add_country_modifier = { 
 				name = fra_stable_currency_modifier
-				duration = -1 
+				duration = -1
 			}
 			
 			change_ruler_stat = {
@@ -3630,7 +3631,7 @@ french_rev_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = fra_code_napoleon_modifier
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -3672,7 +3673,7 @@ french_missions_4_normal = {
 		effect = { 
 			add_country_modifier = { 
 				name = fra_strong_familial_ties_modifier
-				duration = 7300
+				duration = -1
 			}
 			custom_tooltip = fra_if_pro_190_opinion_and_100_trust_tt
 			hidden_effect = {
@@ -3819,7 +3820,7 @@ french_missions_4_italian = {
 		effect = { 
 			add_country_modifier = {
 				name = fra_kingdom_sea_modifier
-				duration = 7300 
+				duration = -1
 			}
 			if = { 
 				limit = { 
@@ -3864,7 +3865,7 @@ french_missions_4_italian = {
 			tooltip = { 
 				add_country_modifier = { 
 					name = fra_host_city_of_lights_modifier
-					duration = -1 
+					duration = -1
 				}
 			}
 			custom_tooltip = fra_restraint_wont_cost_pi_and_no_dip_penalty_and_ruler_papal_puppetmaster_tt
@@ -3875,14 +3876,14 @@ french_missions_4_italian = {
 					}
 					add_country_modifier = {
 						name = fra_host_city_of_lights_modifier 
-						duration = -1 
+						duration = -1
 					}
 					add_ruler_personality = legendary_conqueror_personality
 				}
 				else = { 
 					add_country_modifier = {
 						name = fra_supplementary_pi_and_dip_rep_modifier
-						duration = -1 
+						duration = -1
 						hidden = yes 
 					}
 					set_country_flag = general_flag_for_FU_Rome_flag
@@ -3930,7 +3931,7 @@ french_missions_4_crusader_kings = {
 		effect = { 
 			add_ruler_modifier = {
 				name = fra_catholic_head_of_state_modifier
-				duration = -1 
+				duration = -1
 			}
 			custom_tooltip = fra_religious_cb_on_every_muslim_gp_tt
 			every_known_country = {
@@ -4005,7 +4006,7 @@ french_missions_4_crusader_kings = {
 		effect = { 
 			add_country_modifier = { 
 				name = fra_fervent_call_to_arms_modifier
-				duration = 7300
+				duration = -1
 			}
 			if = { 
 				limit = { 
@@ -4113,7 +4114,7 @@ french_missions_4_normal_continuation = {
 				}
 				add_country_modifier = {
 					name = fra_entry_in_italy_modifier 
-					duration = 7300
+					duration = -1
 				}
 				if = { 
 					limit = { has_estate = estate_nobles }
@@ -4138,7 +4139,7 @@ french_missions_4_normal_continuation = {
 					}
 					add_country_modifier = {
 						name = fra_entry_in_italy_modifier 
-						duration = 7300
+						duration = -1
 					}
 					if = { 
 						limit = { has_estate = estate_nobles }
@@ -4202,7 +4203,7 @@ french_missions_4_normal_continuation = {
 				}
 				add_country_modifier = { 
 					name = fra_influx_of_milanese_engineers_modifier
-					duration = 9125
+					duration = -1
 				}
 			}
 			custom_tooltip = fra_if_completed_via_conquest_tt
@@ -4223,7 +4224,7 @@ french_missions_4_normal_continuation = {
 						add_base_production = 1 
 						add_province_modifier = {
 							name = fra_first_opera_house_modifier
-							duration = -1 
+							duration = -1
 						}
 					}
 				}
@@ -4258,7 +4259,7 @@ french_missions_4_normal_continuation = {
 					104 = { add_base_tax = 3 }
 					add_country_modifier = { 
 						name = fra_influx_of_milanese_engineers_modifier
-						duration = 9125
+						duration = -1
 					}
 				}
 				else_if = { 
@@ -4280,7 +4281,7 @@ french_missions_4_normal_continuation = {
 						add_base_production = 1 
 						add_province_modifier = {
 							name = fra_first_opera_house_modifier
-							duration = -1 
+							duration = -1
 						}
 					}
 				}
@@ -4351,14 +4352,14 @@ french_missions_4_normal_continuation = {
 			tooltip = { 
 				add_country_modifier = {
 					name = fra_catholic_italy_modifier
-					duration = -1 
+					duration = -1
 				}
 				PAP = { 
 					override_country_name = FU_KINGDOM_OF_GOD 
 					set_country_flag = is_kingdom_of_god_flag
 					add_country_modifier = { 
 						name = fra_suzerainty_italy_modifier
-						duration = -1 
+						duration = -1
 					}
 				}
 			}
@@ -4385,7 +4386,7 @@ french_missions_4_normal_continuation = {
 					}
 					add_country_modifier = {
 						name = fra_catholic_italy_modifier
-						duration = -1 
+						duration = -1
 					}
 				}
 				else_if = {
@@ -4393,7 +4394,7 @@ french_missions_4_normal_continuation = {
 					custom_tooltip = fra_access_new_papal_bulls_tt
 					add_country_modifier = {
 						name = fra_catholic_italy_modifier
-						duration = -1 
+						duration = -1
 					}
 					PAP = { 
 						override_country_name = FU_KINGDOM_OF_GOD 
@@ -4401,7 +4402,7 @@ french_missions_4_normal_continuation = {
 						set_country_flag = has_overriden_name_flag
 						add_country_modifier = { 
 							name = fra_suzerainty_italy_modifier
-							duration = -1 
+							duration = -1
 						}
 					}
 				}
@@ -4410,7 +4411,7 @@ french_missions_4_normal_continuation = {
 					remove_country_modifier = fra_golden_march2_modifier
 					add_country_modifier = { 
 						name = fra_golden_march3_modifier
-						duration = -1 
+						duration = -1
 					}
 					balkan_region = { 
 						limit = { 
@@ -4549,7 +4550,7 @@ french_missions_4_normal_contiuation = {
 				capital_scope = { 
 					add_province_modifier = {
 						name = fra_leonardo_workshop_modifier
-						duration = 7300 
+						duration = -1
 					}
 				}
 			}
@@ -4639,7 +4640,7 @@ french_missions_4_normal_contiuation = {
 			else = { 
 				add_country_modifier = {
 					name = fra_centralized_commerce_modifier
-					duration = 9125 
+					duration = -1
 				}
 			}
 			define_advisor = {
@@ -4680,7 +4681,7 @@ french_missions_4_normal_contiuation = {
 			tooltip = {
 				add_country_modifier = {
 					name = fra_cabinet_reforms_modifier
-					duration = 9125 
+					duration = -1
 				}
 			}
 			
@@ -4688,7 +4689,7 @@ french_missions_4_normal_contiuation = {
 			tooltip = {
 				add_country_modifier = {
 					name = fra_economic_reforms_modifier
-					duration = 9125 
+					duration = -1
 				}
 			}
 			
@@ -4696,7 +4697,7 @@ french_missions_4_normal_contiuation = {
 			tooltip = { 
 				add_country_modifier = {
 					name = fra_colbert_trade_reforms_modifier
-					duration = 9125 
+					duration = -1
 				}
 			}
 			
@@ -4704,7 +4705,7 @@ french_missions_4_normal_contiuation = {
 			tooltip = {
 				add_country_modifier = {
 					name = fra_colbert_naval_reforms_modifier
-					duration = 9125 
+					duration = -1
 				}
 			}
 			
@@ -4736,28 +4737,28 @@ french_missions_4_normal_contiuation = {
 					limit = { has_country_flag = fra_colbert_excellent_minister_flag }
 					add_country_modifier = {
 						name = fra_cabinet_reforms_modifier
-						duration = 9125 
+						duration = -1
 					}
 				}
 				else_if = {
 					limit = { has_country_flag = fra_colbert_economic_reform_flag }
 					add_country_modifier = {
 						name = fra_economic_reforms_modifier
-						duration = 9125 
+						duration = -1
 					}
 				}
 				else_if = {
 					limit = { has_country_flag = fra_colbert_trade_reforms_flag }
 					add_country_modifier = {
 						name = fra_colbert_trade_reforms_modifier
-						duration = 9125 
+						duration = -1
 					}
 				}
 				else_if = {
 					limit = { has_country_flag = fra_colbert_naval_reforms_flag }
 					add_country_modifier = {
 						name = fra_colbert_naval_reforms_modifier
-						duration = 9125 
+						duration = -1
 					}
 				}
 			}
@@ -4807,7 +4808,7 @@ french_rev_missions_4 = {
 		effect = {
 			add_country_modifier = {
 				name = fra_increased_naval_capacity_modifier
-				duration = 9125
+				duration = -1
 			}
 			
 			custom_tooltip = fra_coastal_dev_tt
@@ -4848,7 +4849,7 @@ french_rev_missions_4 = {
 		effect = {
 			add_country_modifier = {
 				name = fra_studying_dutch_naval_conduct_modifier
-				duration = 7300
+				duration = -1
 			}
 			
 			custom_tooltip = fra_1_navy_trad_per_impressment_office_tt
@@ -4885,7 +4886,7 @@ french_rev_missions_4 = {
 		effect = {
 			add_country_modifier = {
 				name = fra_funded_reforms_of_condorcet_modifier
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -4955,7 +4956,7 @@ french_missions_5_normal = {
 			tooltip = { 
 				add_country_modifier = { 
 					name = fra_conquered_the_capetian_house_of_anjou_modifier
-					duration = 5475 
+					duration = -1
 				}
 				add_prestige = 20 
 			}
@@ -4987,7 +4988,7 @@ french_missions_5_normal = {
 				else = { 
 					add_country_modifier = { 
 						name = fra_conquered_the_capetian_house_of_anjou_modifier
-						duration = 5475 
+						duration = -1
 					}
 					add_prestige = 20
 				}
@@ -5038,7 +5039,7 @@ french_missions_5_normal = {
 			tooltip = { 
 				add_country_modifier = { 
 					name = fra_resurgence_of_crusader_fervor_modifier
-					duration = 9125
+					duration = -1
 				}
 				palestine_area = {
 					limit = { 
@@ -5052,7 +5053,7 @@ french_missions_5_normal = {
 			tooltip = { 
 				add_country_modifier = { 
 					name = fra_italian_wars_modifier
-					duration = 7300 
+					duration = -1
 				}
 				piedmont_area = { 
 					limit = { 
@@ -5145,7 +5146,7 @@ french_missions_5_normal = {
 					}
 					add_country_modifier = { 
 						name = fra_italian_wars_modifier
-						duration = 7300 
+						duration = -1
 					}
 					piedmont_area = { 
 						limit = { 
@@ -5217,7 +5218,7 @@ french_missions_5_normal = {
 					}
 					add_country_modifier = { 
 						name = fra_resurgence_of_crusader_fervor_modifier
-						duration = 9125
+						duration = -1
 					}
 					palestine_area = {
 						limit = { 
@@ -5360,7 +5361,7 @@ french_missions_5_crusader_kings = {
 				}
 				add_country_modifier = {
 					name = fra_sword_of_christianity_modifier
-					duration = -1 
+					duration = -1
 				}
 			}
 			else_if = {
@@ -5369,7 +5370,7 @@ french_missions_5_crusader_kings = {
 				}
 				add_country_modifier = {
 					name = fra_sword_of_christianity_modifier2
-					duration = -1 
+					duration = -1
 				}
 			}
 			else_if = {
@@ -5378,7 +5379,7 @@ french_missions_5_crusader_kings = {
 				}
 				add_country_modifier = {
 					name = fra_sword_of_christianity_modifier3
-					duration = 9125 
+					duration = -1
 				}
 			}
 			else_if = {
@@ -5387,7 +5388,7 @@ french_missions_5_crusader_kings = {
 				}
 				add_country_modifier = {
 					name = fra_sword_of_christianity_modifier4
-					duration = 9125 
+					duration = -1
 				}
 			}
 			else_if = {
@@ -5396,7 +5397,7 @@ french_missions_5_crusader_kings = {
 				}
 				add_country_modifier = {
 					name = fra_sword_of_christianity_modifier5
-					duration = 9125 
+					duration = -1
 				}
 			}
 			else_if = {
@@ -5461,7 +5462,7 @@ french_missions_5_continuation_normal_1 = {
 				1298 = { 
 					add_trade_modifier = {
 						who = ROOT
-						duration = 9125
+						duration = -1
 						power = 50
 						key = FRA_FRENCH_PRESENCE_GENOA_KEY
 					}
@@ -5484,7 +5485,7 @@ french_missions_5_continuation_normal_1 = {
 					1298 = { 
 						add_trade_modifier = {
 							who = ROOT
-							duration = 9125
+							duration = -1
 							power = 50
 							key = FRA_FRENCH_PRESENCE_GENOA_KEY
 						}
@@ -5554,7 +5555,7 @@ french_missions_5_continuation_normal_1 = {
 			101 = { 
 				add_province_modifier = { 
 					name = fra_banca_carige_modifier
-					duration = 9125
+					duration = -1
 				}
 			}
 			if = { 
@@ -5740,7 +5741,7 @@ fra_missions_5_continuation = {
 						add_historical_friend = ROOT 
 						add_country_modifier = {
 							name = fra_support_of_the_french_crown_modifier
-							duration = 5475 
+							duration = -1
 						}
 					}
 				}
@@ -5750,7 +5751,7 @@ fra_missions_5_continuation = {
 						add_historical_friend = ROOT 
 						add_country_modifier = {
 							name = fra_support_of_the_french_crown_modifier
-							duration = 5475 
+							duration = -1
 						}
 					}
 				}
@@ -5799,7 +5800,7 @@ fra_missions_5_continuation = {
 						add_historical_friend = ROOT 
 						add_country_modifier = {
 							name = fra_support_of_the_french_crown_modifier
-							duration = 5475 
+							duration = -1
 						}
 					}
 				}
@@ -5831,7 +5832,7 @@ fra_missions_5_continuation = {
 						add_historical_friend = ROOT 
 						add_country_modifier = {
 							name = fra_support_of_the_french_crown_modifier
-							duration = 5475 
+							duration = -1
 						}
 					}
 				}
@@ -5879,7 +5880,7 @@ fra_missions_5_continuation = {
 		effect = {
 			add_country_modifier = {
 				name = fra_france_rules_the_waves_modifier
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -5916,14 +5917,14 @@ fra_missions_5_continuation = {
 			else = { 
 				add_country_modifier = {
 					name = fra_provincial_road_system
-					duration = 9125 
+					duration = -1
 				}
 			}
 			custom_tooltip = fra_develop_urban_centers
 			tooltip = {
 				add_province_modifier = { 
 					name = fra_developing_urban_center_modifier
-					duration = 5475
+					duration = -1
 				}
 			}
 			hidden_effect = {
@@ -5935,7 +5936,7 @@ fra_missions_5_continuation = {
 					}
 					add_province_modifier = { 
 						name = fra_developing_urban_center_modifier
-						duration = 5475
+						duration = -1
 					}
 				}
 			}
@@ -6051,7 +6052,7 @@ fra_missions_5_continuation = {
 		effect = { 
 			add_country_modifier = {
 				name = fra_trade_fair_prosperity_modifier
-				duration = 3650 
+				duration = -1
 			}
 		}
 	}
@@ -6076,7 +6077,7 @@ fra_missions_5_continuation = {
 				add_base_production = 1 
 				add_province_modifier = {
 					name = fra_french_dockyard_industry_modifier
-					duration = -1 
+					duration = -1
 				}
 			}
 			custom_tooltip = fra_alternatively_tt 
@@ -6085,7 +6086,7 @@ fra_missions_5_continuation = {
 					add_base_production = 2
 					add_province_modifier = {
 						name = fra_toulon_dockyards_modifier
-						duration = -1 
+						duration = -1
 					}
 				}
 			}
@@ -6106,7 +6107,7 @@ fra_missions_5_continuation = {
 						add_base_production = 1 
 						add_province_modifier = {
 							name = fra_french_dockyard_industry_modifier
-							duration = -1 
+							duration = -1
 						}
 					}
 				}
@@ -6115,7 +6116,7 @@ fra_missions_5_continuation = {
 						add_base_production = 3
 						add_province_modifier = {
 							name = fra_toulon_dockyards_modifier
-							duration = -1 
+							duration = -1
 						}
 					}
 				}
@@ -6229,7 +6230,7 @@ french_rev_missions_5 = {
 		effect = {
 			add_country_modifier = {
 				name = fra_naval_due_diligence_modifier
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -6267,7 +6268,7 @@ french_rev_missions_5 = {
 		effect = {
 			add_country_modifier = {
 				name = fra_french_naval_dominance_modifier
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -6286,7 +6287,7 @@ french_rev_missions_5 = {
 		effect = {
 			add_country_modifier = {
 				name = fra_trade_hegemony_modifier
-				duration = -1 
+				duration = -1
 			}
 		}
 	}

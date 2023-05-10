@@ -31,7 +31,7 @@ emp_mlo_conquest_branch = {
 			101 = {
 				add_trade_modifier = {
 					who = root
-					duration = 7300
+					duration = -1
 					power = 20
 					key = mlo_taken_genoa
 				}
@@ -111,7 +111,7 @@ emp_mlo_conquest_branch = {
 				capital_scope = {
 					add_province_modifier = {
 						name = mlo_mona_lisa
-						duration = 10950
+						duration = -1
 					}
 				}
 			}
@@ -184,21 +184,21 @@ emp_mlo_conquest_branch = {
 					limit = { owned_by = root }
 					add_province_modifier = {
 						name = mlo_unified_italy
-						duration = 7300
+						duration = -1
 					}
 				}
 				apulia_area = {
 					limit = { owned_by = root }
 					add_province_modifier = {
 						name = mlo_unified_italy
-						duration = 7300
+						duration = -1
 					}
 				}
 				calabria_area = {
 					limit = { owned_by = root }
 					add_province_modifier = {
 						name = mlo_unified_italy
-						duration = 7300
+						duration = -1
 					}
 				}
 			}
@@ -545,7 +545,7 @@ emp_mlo_venice_branch = {
 		effect = {
 			add_country_modifier = {
 				name = mlo_ascendant_force
-				duration = 7300
+				duration = -1
 			}
 		}
 		ai_weight = {
@@ -594,7 +594,7 @@ emp_mlo_security_branch = {
 			add_prestige = 10
 			add_country_modifier = {
 				name = mlo_has_friends
-				duration = 7300
+				duration = -1
 			}
 		}
 	}
@@ -614,7 +614,7 @@ emp_mlo_security_branch = {
 		effect = {
 			add_country_modifier = {
 				name = mlo_dealt_with_republicanism
-				duration = 7300
+				duration = -1
 			}
 		}
 	}
@@ -745,7 +745,7 @@ emp_mlo_security_branch = {
 			add_stability_or_adm_power = yes
 			add_country_modifier = {
 				name = mlo_secure_state
-				duration = 7300
+				duration = -1
 			}
 			if = {
 				limit = {
@@ -811,13 +811,13 @@ emp_mlo_security_branch = {
 				limit = { government = republic }
 				add_country_modifier = {
 					name = mlo_successful_ambrosian_republic
-					duration = 10950 #special
+					duration = -1
 				}
 			}
 			else = {
 				add_country_modifier = {
 					name = mlo_law_courts_and_university
-					duration = 7300
+					duration = -1
 				}
 			}
 		}
@@ -907,7 +907,7 @@ emp_mlo_victorious_branch = {
 			add_mil_power = 100
 			add_country_modifier = {
 				name = mlo_milan_victorious_modifier
-				duration = 7300
+				duration = -1
 			}
 		}
 	}
@@ -951,7 +951,7 @@ emp_mlo_swiss_mercs_branch = {
 		effect = {
 			add_country_modifier = {
 				name = mlo_the_swiss_mercs
-				duration = 10950
+				duration = -1
 			}
 		}
 	}
@@ -1031,7 +1031,7 @@ emp_mlo_security_branch_2 = {
 					}
 					add_province_modifier = {
 						name = mlo_expanded_fortifications
-						duration = 36500
+						duration = -1
 					}
 				}
 				every_owned_province = {
@@ -1143,7 +1143,7 @@ emp_mlo_security_branch_2 = {
 
 			add_country_modifier = {
 				name = mlo_alpine_fortifications
-				duration = 7300
+				duration = -1
 			}
 		}
 	}
@@ -1187,7 +1187,7 @@ emp_mlo_security_branch_2 = {
 		effect = {
 			add_country_modifier = {
 				name = mlo_italian_freedom
-				duration = 7300
+				duration = -1
 			}
 		}
 	}
@@ -1228,7 +1228,7 @@ emp_mlo_economy_branch = {
 		effect = {
 			add_country_modifier = {
 				name = mlo_lombard_renaissance
-				duration = 7300
+				duration = -1
 			}
 		}
 	}
@@ -1385,13 +1385,13 @@ emp_mlo_papal_branch = {
 				}
 				add_country_modifier = {
 					name = mlo_controls_pope
-					duration = 7300
+					duration = -1
 				}
 			}
 			else = {
 				add_country_modifier = {
 					name = mlo_controls_pope_heretic
-					duration = 7300
+					duration = -1
 				}
 			}
 		}

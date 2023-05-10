@@ -36,7 +36,7 @@ GRA_ADU_missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = GRA_looking_for_help
-				duration = 7300 
+				duration = -1
 			}
 			
 			add_dip_power = 25
@@ -104,7 +104,7 @@ GRA_ADU_missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = GRA_military_support
-				duration = 9125 
+				duration = -1
 			}
 			
 			add_mil_power = 75
@@ -266,7 +266,7 @@ GRA_ADU_missions_2 = {
 		effect = {
 			add_country_modifier = {
 				name = GRA_stable_leadership_modifier
-				duration = 9125
+				duration = -1
 			}
 			
 			define_advisor = {
@@ -846,7 +846,7 @@ GRA_ADU_missions_4 = {
 				add_nationalism = -30
 				add_province_modifier = {
 					name = GRA_island_possessions
-					duration = -1 
+					duration = -1
 				}
 			}
 			
@@ -963,7 +963,7 @@ GRA_ADU_missions_5 = {
 			
 			add_country_modifier = {
 				name = GRA_galleys
-				duration = 9125
+				duration = -1
 			}
 		}
 	}
@@ -1196,7 +1196,7 @@ ADU_missions_1_western = {
 			
 			add_country_modifier = {
 				name = GRA_merc_discipline
-				duration = 9125
+				duration = -1
 			}
 		}
 	}
@@ -1380,7 +1380,7 @@ ADU_missions_1_cont = {
 			1466 = {
 				add_trade_modifier = {
 					who = ROOT
-					duration = 14600
+					duration = -1
 					power = 30
 					key = GRA_new_arrivals
 				}
@@ -1650,7 +1650,7 @@ ADU_missions_1_cont = {
 		
 			add_country_modifier = {
 				name = GRA_piety_acceleration
-				duration = 10950
+				duration = -1
 			}
 		}
 	}
@@ -1696,49 +1696,49 @@ ADU_missions_1_cont = {
 						limit = { has_country_modifier = hanafi_scholar_modifier }
 						add_country_modifier = {
 							name = GRA_hanafi_scholar_modifier
-							duration = 9125
+							duration = -1
 						}
 					}
 					if = {
 						limit = { has_country_modifier = hanbali_scholar_modifier }
 						add_country_modifier = {
 							name = GRA_hanbali_scholar_modifier
-							duration = 9125
+							duration = -1
 						}
 					}
 					if = {
 						limit = { has_country_modifier = maliki_scholar_modifier }
 						add_country_modifier = {
 							name = GRA_maliki_scholar_modifier
-							duration = 9125
+							duration = -1
 						}
 					}
 					if = {
 						limit = { has_country_modifier = shafii_scholar_modifier }
 						add_country_modifier = {
 							name = GRA_shafii_scholar_modifier
-							duration = 9125
+							duration = -1
 						}
 					}
 					if = {
 						limit = { has_country_modifier = ismaili_scholar_modifier }
 						add_country_modifier = {
 							name = GRA_ismaili_scholar_modifier
-							duration = 9125
+							duration = -1
 						}
 					}
 					if = {
 						limit = { has_country_modifier = jafari_scholar_modifier }
 						add_country_modifier = {
 							name = GRA_jafari_scholar_modifier
-							duration = 9125
+							duration = -1
 						}
 					}
 					if = {
 						limit = { has_country_modifier = zaidi_scholar_modifier }
 						add_country_modifier = {
 							name = GRA_zaidi_scholar_modifier
-							duration = 9125
+							duration = -1
 						}
 					}
 				}
@@ -2148,7 +2148,7 @@ ADU_missions_2_western = {
 			
 			add_country_modifier = {
 				name = GRA_professionalism
-				duration = 7300
+				duration = -1
 			}
 		}
 	}
@@ -2544,7 +2544,7 @@ ADU_missions_2_cont = {
 				estate = estate_burghers
 				desc = GRA_growing_urbanization
 				loyalty = 15
-				duration = 9125
+				duration = -1
 			}
 			
 			custom_tooltip = " "
@@ -2998,7 +2998,7 @@ ADU_missions_3_continued = {
 		effect = {
 			add_country_modifier = {
 				name = GRA_crossing_the_high_oceans
-				duration = 10950
+				duration = -1
 			}
 		}
 	}
@@ -3027,7 +3027,7 @@ ADU_missions_3_continued = {
 			
 			add_country_modifier = {
 				name = GRA_mission_to_caribbean
-				duration = 7300
+				duration = -1
 			}
 		}
 	}
@@ -3053,7 +3053,7 @@ ADU_missions_3_continued = {
 		effect = {
 			add_country_modifier = {
 				name = GRA_wealth_awaits
-				duration = 10950
+				duration = -1
 			}
 			
 			custom_tooltip = GRA_our_colonial_caribbean_subject
@@ -3156,7 +3156,7 @@ ADU_missions_3_continued = {
 		effect = {
 			add_country_modifier = {
 				name = GRA_proliferation_of_knowledge
-				duration = 7300
+				duration = -1
 			}
 			
 			custom_tooltip = GRA_most_developed_province_in_capital_area
@@ -3244,7 +3244,7 @@ ADU_missions_3_continued = {
 			
 			add_country_modifier = {
 				name = GRA_has_seized_the_caliph
-				duration = 7300
+				duration = -1
 			}
 		}
 	}
@@ -3348,7 +3348,7 @@ ADU_missions_4 = {
 			
 			add_country_modifier = {
 				name = GRA_naval_morale
-				duration = 9125
+				duration = -1
 			}
 			
 			ME_add_years_of_trade_income = { value = 2 }
@@ -3444,7 +3444,7 @@ ADU_missions_4 = {
 			
 			add_country_modifier = {
 				name = GRA_the_capture_of_tunis
-				duration = 9125
+				duration = -1
 			}
 		}
 	}
@@ -3473,7 +3473,7 @@ ADU_missions_4 = {
 		effect = {
 			add_country_modifier = {
 				name = GRA_to_protect_the_treasure_fleets
-				duration = 9125
+				duration = -1
 			}
 			
 			add_years_of_income = 0.5
@@ -3636,7 +3636,7 @@ ADU_missions_4 = {
 		effect = {
 			add_country_modifier = {
 				name = GRA_sugar_empire
-				duration = 18250
+				duration = -1
 			}
 		}
 	}
@@ -4133,7 +4133,7 @@ ADU_missions_5 = {
 			
 			add_country_modifier = {
 				name = GRA_spread_of_faith
-				duration = 9125
+				duration = -1
 			}
 		}
 	}
@@ -4177,7 +4177,7 @@ ADU_missions_5 = {
 			
 			add_country_modifier = {
 				name = GRA_cash_crop_imports
-				duration = 5475
+				duration = -1
 			}
 			
 			country_event = { id = ME_Granada_Events.44 }
@@ -4209,7 +4209,7 @@ ADU_missions_5 = {
 			
 			add_country_modifier = {
 				name = GRA_settlers_flocking_south
-				duration = 9125
+				duration = -1
 			}
 			
 			ME_give_claims = { region = colonial_peru }
@@ -4277,13 +4277,13 @@ ADU_missions_5 = {
 					}
 					add_country_modifier = {
 						name = GRA_adm_adv_buff_2
-						duration = 9125
+						duration = -1
 					}
 				}
 				else = {
 					add_country_modifier = {
 						name = GRA_adm_adv_buff_1
-						duration = 9125
+						duration = -1
 					}
 				}
 				if = {
@@ -4292,13 +4292,13 @@ ADU_missions_5 = {
 					}
 					add_country_modifier = {
 						name = GRA_dip_adv_buff_2
-						duration = 9125
+						duration = -1
 					}
 				}
 				else = {
 					add_country_modifier = {
 						name = GRA_dip_adv_buff_1
-						duration = 9125
+						duration = -1
 					}
 				}
 				if = {
@@ -4307,13 +4307,13 @@ ADU_missions_5 = {
 					}
 					add_country_modifier = {
 						name = GRA_mil_adv_buff_2
-						duration = 9125
+						duration = -1
 					}
 				}
 				else = {
 					add_country_modifier = {
 						name = GRA_mil_adv_buff_1
-						duration = 9125
+						duration = -1
 					}
 				}
 			}
@@ -4345,7 +4345,7 @@ ADU_missions_5 = {
 			
 			add_country_modifier = {
 				name = GRA_advanced_scientific_fields
-				duration = 9125
+				duration = -1
 			}
 		}
 	}

@@ -52,7 +52,7 @@ HES_Missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = HES_peace_of_frankfurt
-				duration = 7300
+				duration = -1
 			}
 			thuringia_area = {
 				limit = {
@@ -175,7 +175,7 @@ HES_Missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = HES_mainzian_control_denied
-				duration = 10950
+				duration = -1
 			}
 			add_dip_power = 50
 		}
@@ -197,7 +197,7 @@ HES_Missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = HES_militarization_modifier
-				duration = 9125
+				duration = -1
 			}
 			add_mil_power = 50
 		}
@@ -240,7 +240,7 @@ HES_Missions_3 = {
 			}
 			add_country_modifier = {
 				name = HES_training_elsewhere
-				duration = 10950
+				duration = -1
 			}
 		}
 	}
@@ -309,7 +309,7 @@ HES_Missions_4 = {
 		effect = {
 			add_country_modifier = {
 				name = HES_political_manuevers
-				duration = 9125
+				duration = -1
 			}
 		}
 	}
@@ -398,7 +398,7 @@ HES_Missions_4 = {
 		effect = {
 			add_country_modifier = {
 				name = HES_prosperity
-				duration = 10950
+				duration = -1
 			}
 		}
 	}
@@ -472,7 +472,7 @@ HES_Missions_5 = {
 				hidden_effect = {
 					add_country_modifier = {
 						name = HES_catholic_unity
-						duration = 7300
+						duration = -1
 					}
 				}
 			}
@@ -482,7 +482,7 @@ HES_Missions_5 = {
 			tooltip = {
 				add_country_modifier = {
 					name = HES_catholic_unity
-					duration = 7300
+					duration = -1
 				}
 			}
 
@@ -582,7 +582,7 @@ HES_Missions_5 = {
 		effect = {
 			add_country_modifier = {
 				name = HES_emperorship_candidacy
-				duration = 9125
+				duration = -1
 			}
 		}
 	}

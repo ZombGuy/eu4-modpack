@@ -144,7 +144,7 @@ nagpur_column_1 = {
 					estate = estate_vaisyas
 					desc = EST_VAL_FURTHERED_SPOUSES_FAMILY_NOBLES
 					influence = 10
-					duration = 7300
+					duration = -1
 				}
 			}
 			else_if = {
@@ -159,7 +159,7 @@ nagpur_column_1 = {
 					estate = estate_burghers
 					desc = EST_VAL_FURTHERED_SPOUSES_FAMILY_NOBLES
 					influence = 10
-					duration = 7300
+					duration = -1
 				}
 			}
 			else = {
@@ -173,26 +173,26 @@ nagpur_column_1 = {
 				area = {
 					add_province_modifier = {
 						name = "nagpur_local_developments"
-						duration = 10950 #30 Years
+						duration = -1
 					}
 				}
 			}
 			upper_mahanadi_area = {
 				add_province_modifier = {
 					name = "nagpur_local_developments"
-					duration = 10950 #30 Years
+					duration = -1
 				}
 			}
 			garjat_area = {
 				add_province_modifier = {
 					name = "nagpur_local_developments"
-					duration = 10950 #30 Years
+					duration = -1
 				}
 			}
 			jharkhand_area = {
 				add_province_modifier = {
 					name = "nagpur_local_developments"
-					duration = 10950 #30 Years
+					duration = -1
 				}
 			}
 		}
@@ -348,7 +348,7 @@ nagpur_column_2 = {
 			add_prestige = 25
 			add_country_modifier = {
 				name = "nagpur_turned_the_tables"
-				duration = 7300 #20 Years
+				duration = -1
 			}
 		}
 	}
@@ -469,7 +469,7 @@ nagpur_column_2 = {
 			add_mil_power = 50
 			add_country_modifier = {
 				name = "nagpur_pillars_of_north_india"
-				duration = 10950 #30 Years
+				duration = -1
 			}
 			hindusthan_region = {
 				limit = {
@@ -521,7 +521,7 @@ nagpur_column_2 = {
 			add_mil_power = 75
 			add_country_modifier = {
 				name = "nagpur_the_trunk_road"
-				duration = 10950 #30 Years
+				duration = -1
 			}
 		}
 	}
@@ -712,7 +712,7 @@ nagpur_column_3 = {
 			add_prestige = 10
 			add_country_modifier = {
 				name = "nagpur_vijayanagar_conquest"
-				duration = 7300 #20 Years
+				duration = -1
 			}
 			mysore_area = {
 				limit = {
@@ -785,7 +785,7 @@ nagpur_column_3 = {
 			add_mil_power = 50
 			add_country_modifier = {
 				name = "nagpur_southern_coasts"
-				duration = 7300 #20 Years
+				duration = -1
 			}
 			south_lanka_area = {
 				limit = {
@@ -905,7 +905,7 @@ nagpur_column_3 = {
 			add_mil_power = 75
 			add_country_modifier = {
 				name = "nagpur_growing_western_trade"
-				duration = 9125 #25 Years
+				duration = -1
 			}
 			517 = {
 				if = {
@@ -1162,7 +1162,7 @@ nagpur_column_4 = {
 			add_mercantilism = 5
 			add_country_modifier = {
 				name = "nagpur_dominating_bengali_trade"
-				duration = 7300 #20 Years
+				duration = -1
 			}
 			4477 = {
 				if = {
@@ -1315,7 +1315,7 @@ nagpur_column_4 = {
 			add_prestige = 10
 			add_country_modifier = {
 				name = "nagpur_bahamanid_conquest"
-				duration = 7300 #20 Years
+				duration = -1
 			}
 			desh_area = {
 				limit = {
@@ -1402,7 +1402,7 @@ nagpur_column_4 = {
 			add_mil_power = 50
 			add_country_modifier = {
 				name = "nagpur_konkan_landing"
-				duration = 7300 #20 Years
+				duration = -1
 			}
 			529 = {
 				if = {
@@ -1622,7 +1622,7 @@ nagpur_column_5 = {
 			add_mercantilism = 4
 			add_country_modifier = {
 				name = "nagpur_control_over_bengal"
-				duration = 7300 #20 Years
+				duration = -1
 			}
 		}
 	}
@@ -1671,7 +1671,7 @@ nagpur_column_5 = {
 			add_dip_power = 100
 			add_country_modifier = {
 				name = "nagpur_bengali_lock_down"
-				duration = 7300 #20 Years
+				duration = -1
 			}
 		}
 	}
@@ -1707,7 +1707,7 @@ nagpur_column_5 = {
 			add_prestige = 10
 			add_country_modifier = {
 				name = "nagpur_malwa_conquest"
-				duration = 7300 #20 Years
+				duration = -1
 			}
 			khandesh_area = {
 				limit = {
@@ -1867,7 +1867,7 @@ nagpur_column_5 = {
 			add_mil_power = 75
 			add_country_modifier = {
 				name = "nagpur_hegemon_of_the_south"
-				duration = 9125 #25 Years
+				duration = -1
 			}
 		}
 	}

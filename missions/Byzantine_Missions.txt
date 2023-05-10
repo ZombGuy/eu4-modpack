@@ -47,7 +47,7 @@ byz_western = {
 		effect = {
 			add_country_modifier = {
 				name = "byzantium_resurgent"
-				duration = 5475
+				duration = -1
 			}
 			bulgaria_area = {
 				limit = {
@@ -252,7 +252,7 @@ byz_western = {
 		effect = {
 			add_country_modifier = {
 				name = "theme_of_sicily"
-				duration = 5475
+				duration = -1
 			}
 		}
 		ai_weight = {
@@ -287,7 +287,7 @@ byz_generic_slot_2 = {
 		effect = {
 			add_country_modifier = {
 				name = "roman_italy"
-				duration = 5475
+				duration = -1
 			}
 			venetia_area = {
 				limit = {
@@ -302,7 +302,7 @@ byz_generic_slot_2 = {
 				}
 				add_country_modifier = {
 					name = "conversion_of_rome"
-					duration = 7300
+					duration = -1
 				}
 				hidden_effect = {
 					every_country = {
@@ -340,7 +340,7 @@ byz_generic_slot_2 = {
 			venetia_area = {
 				add_province_modifier = {
 					name = "faster_integration"
-					duration = 5475
+					duration = -1
 				}
 			}
 		}
@@ -600,7 +600,7 @@ byz_generic_slot_5 = {
 		effect = {
 			add_country_modifier = {
 				name = "growth_of_the_orthodox_church"
-				duration = 7300
+				duration = -1
 			}
 			add_patriarch_authority = 0.1
 			add_permanent_claim = 358

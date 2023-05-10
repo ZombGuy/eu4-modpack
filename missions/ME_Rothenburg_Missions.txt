@@ -99,7 +99,7 @@ ROT_missions_1 = {
 			}
 			add_country_modifier = {
 				name = ROT_against_the_heretics
-				duration = 5475
+				duration = -1
 			}
 		}
 	}
@@ -191,7 +191,7 @@ ROT_missions_5 = {
 			add_mil_power = 50
 			add_country_modifier = {
 				name = ROT_resisting_foreign_powers
-				duration = 9125
+				duration = -1
 			}
 		}
 	}

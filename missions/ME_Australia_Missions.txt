@@ -18,7 +18,7 @@ australia_missions_1 = {
 			create_admiral = { tradition = 75 }
 			add_country_modifier = {
 				name = aus_riding_waves
-				duration = 7300
+				duration = -1
 			}
 			papua_area = {
 				limit = {
@@ -130,19 +130,19 @@ australia_missions_1 = {
 			central_java_area = {
 				add_province_modifier = {
 					name = aus_java_modifier
-					duration = 9125
+					duration = -1
 				}
 			}
 			east_java_area = {
 				add_province_modifier = {
 					name = aus_java_modifier
-					duration = 9125
+					duration = -1
 				}
 			}
 			west_java_area = {
 				add_province_modifier = {
 					name = aus_java_modifier
-					duration = 9125
+					duration = -1
 				}
 			}
 		}
@@ -470,7 +470,7 @@ australia_missions_3 = {
 			add_dip_power = 250
 			add_country_modifier = {
 				name = aus_trade_growth
-				duration = 9125
+				duration = -1
 			}
 		}
 	}
@@ -504,7 +504,7 @@ australia_missions_3 = {
 					}
 					add_province_modifier = {
 						name = aus_jarrah
-						duration = 18250
+						duration = -1
 					}
 				}
 			}
@@ -649,7 +649,7 @@ australia_missions_4 = {
 			}
 			add_country_modifier = {
 				name = aus_colonial_expansion
-				duration = 9125
+				duration = -1
 			}
 		}
 	}
@@ -832,19 +832,19 @@ australia_missions_5 = {
 			te_waipounamu_area = {
 				add_province_modifier = {
 					name = aus_settling
-					duration = 9125
+					duration = -1
 				}
 			}
 			te_ika_a_maui_waho_area = {
 				add_province_modifier = {
 					name = aus_settling
-					duration = 9125
+					duration = -1
 				}
 			}
 			te_ika_a_maui_hauauru_area = {
 				add_province_modifier = {
 					name = aus_settling
-					duration = 9125
+					duration = -1
 				}
 			}
 		}

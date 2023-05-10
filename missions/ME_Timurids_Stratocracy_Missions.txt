@@ -32,7 +32,7 @@ Timurid_stratocracy_path_1 = {
         effect = {
             add_country_modifier = {
                 name = me_tim_increase_in_power
-                duration = 7300
+                duration = -1
             }
             change_government_reform_progress = 50
         }
@@ -244,7 +244,7 @@ Timurid_stratocracy_path_3 = {
         effect = {
             add_country_modifier = {
                 name = me_tim_hard_trained_generals
-                duration = 7300
+                duration = -1
             }
             fifty_percent_merc_army_professionalism_cost = yes
             custom_tooltip = " "

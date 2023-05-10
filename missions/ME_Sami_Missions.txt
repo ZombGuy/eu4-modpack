@@ -164,7 +164,7 @@ SMI_missions_1 = {
 			}
 			add_country_modifier = {
 				name = "unified_sami"
-				duration = 9125
+				duration = -1
 			}
 		}
 	}
@@ -406,7 +406,7 @@ SMI_missions_1 = {
 			23 = {				# North Sea
 				add_trade_modifier = {
 					who = ROOT
-					duration = 5475
+					duration = -1
 					power = 20
 					key = north_sea_ambition
 				}
@@ -636,7 +636,7 @@ SMI_missions_2 = {
 			17 = {				# Lubeck
 				add_trade_modifier = {
 					who = ROOT
-					duration = 5475
+					duration = -1
 					power = 20
 					key = danish_sea_ambition
 				}
@@ -770,7 +770,7 @@ SMI_missions_3 = {
 			23 = {				# North Sea
 				add_trade_modifier = {
 					who = ROOT
-					duration = 5475
+					duration = -1
 					power = 20
 					key = north_sea_ambition
 				}
@@ -948,7 +948,7 @@ SMI_missions_3 = {
 			43 = {				# Baltic Sea
 				add_trade_modifier = {
 					who = ROOT
-					duration = 5475
+					duration = -1
 					power = 20
 					key = baltic_sea_ambition
 				}
@@ -979,7 +979,7 @@ SMI_missions_4 = {
 			23 = {				# North Sea
 				add_trade_modifier = {
 					who = ROOT
-					duration = 5475
+					duration = -1
 					power = 20
 					key = north_sea_ambition
 				}
@@ -987,7 +987,7 @@ SMI_missions_4 = {
 			315 = {				# White Sea
 				add_trade_modifier = {
 					who = ROOT
-					duration = 5475
+					duration = -1
 					power = 20
 					key = white_sea_ambition
 				}
@@ -1011,7 +1011,7 @@ SMI_missions_4 = {
 			28 = {				# Baltic Sea
 				add_trade_modifier = {
 					who = ROOT
-					duration = 5475
+					duration = -1
 					power = 20
 					key = baltic_sea_ambition
 				}
@@ -1035,7 +1035,7 @@ SMI_missions_4 = {
 			17 = {				# Lubeck
 				add_trade_modifier = {
 					who = ROOT
-					duration = 5475
+					duration = -1
 					power = 20
 					key = danish_sea_ambition
 				}
@@ -1055,7 +1055,7 @@ SMI_missions_4 = {
 		effect = {
 			add_country_modifier = {
 				name = scandinavian_trade
-				duration = 7300
+				duration = -1
 			}
 		}
 	}
@@ -1115,7 +1115,7 @@ SMI_missions_5 = {
 		effect = {
 			add_country_modifier = {
 				name = sami_colonial_enthusiasm
-				duration = 5475
+				duration = -1
 			}
 		}
 	}
@@ -1153,7 +1153,7 @@ SMI_missions_5 = {
 			add_dip_power = 50
 			add_country_modifier = {
 				name = sami_colonial_enthusiasm
-				duration = 5475
+				duration = -1
 			}
 			add_prestige = 10
 		}

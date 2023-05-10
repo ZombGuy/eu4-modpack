@@ -27,7 +27,7 @@ TRI_Missions_1 = {
 			add_adm_power = 50
 			add_country_modifier = {
 				name = TRI_crisis_averted
-				duration = 9125
+				duration = -1
 			}
 		}
 	}
@@ -57,7 +57,7 @@ TRI_Missions_1 = {
 			}
 			add_country_modifier = {
 				name = TRI_recovering_from_manderscheid
-				duration = 10950
+				duration = -1
 			}
 		}
 	}
@@ -98,7 +98,7 @@ TRI_Missions_4 = {
 		effect = {
 			add_country_modifier = {
 				name = TRI_french_diplomacy
-				duration = 5475
+				duration = -1
 			}
 		}
 	}

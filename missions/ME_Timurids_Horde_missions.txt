@@ -277,7 +277,7 @@ Timurid_horde_path_3 = {
 			tooltip = {
 				add_country_modifier = {
 					name = me_tim_frightening_enemy
-					duration = 5475
+					duration = -1
 				}
 			}
 			custom_tooltip = " "
@@ -286,7 +286,7 @@ Timurid_horde_path_3 = {
 				custom_tooltip = me_tim_said_country
 				add_country_modifier = {
 					name = me_tim_auxilary_elephants
-					duration = 7300
+					duration = -1
 				}
 				custom_tooltip = me_tim_they_must_accept
 			}
@@ -312,7 +312,7 @@ Timurid_horde_path_3 = {
 		effect = {
 			add_country_modifier = {
 				name = me_tim_art_of_offense
-				duration = 7300
+				duration = -1
 			}
 			custom_tooltip = " "
 			custom_tooltip = me_tim_modify_war_elephants
@@ -478,7 +478,7 @@ Timurid_horde_path_4 = {
 		effect = {
 			add_country_modifier = {
 				name = me_tim_invasion_of_india
-				duration = 5475
+				duration = -1
 			}
 			custom_tooltip = " "
 			custom_tooltip = me_tim_if_roh_has_fort

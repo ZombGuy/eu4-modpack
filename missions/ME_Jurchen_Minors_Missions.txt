@@ -82,7 +82,7 @@ donghai_missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = jurchen_ming_trade
-				duration = 9125
+				duration = -1
 			}
 		}
 	}
@@ -162,7 +162,7 @@ haixi_missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = jurchen_ming_trade
-				duration = 9125
+				duration = -1
 			}
 		}
 	}
@@ -214,7 +214,7 @@ haixi_missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = jurchen_old_ways
-				duration = 9125
+				duration = -1
 			}
 		}
 	}
@@ -310,7 +310,7 @@ jianzhou_missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = jurchen_ming_trade
-				duration = 9125
+				duration = -1
 			}
 		}
 	}

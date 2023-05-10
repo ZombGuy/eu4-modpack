@@ -40,7 +40,7 @@ emp_hun_religion_branch_1 = {
 			add_prestige = 20
 			add_country_modifier = {
 				name = hun_funded_paulines
-				duration = 7300
+				duration = -1
 			}
 		}
 	}
@@ -277,7 +277,7 @@ emp_hun_black_army_branch = {
 			add_army_tradition = 20
 			add_country_modifier = {
 				name = hun_supreme_black_army
-				duration = 7300
+				duration = -1
 			}
 		}
 	}
@@ -307,7 +307,7 @@ emp_hun_economy_branch = {
 		effect = {
 			add_country_modifier = {
 				name = hun_strong_economy
-				duration = 7300
+				duration = -1
 			}
 		}
 	}
@@ -330,7 +330,7 @@ emp_hun_economy_branch = {
 		effect = {
 			add_country_modifier = {
 				name = hun_corviana_library
-				duration = 7300
+				duration = -1
 			}
 			153 = {
 				if = {
@@ -380,13 +380,13 @@ emp_hun_economy_branch = {
 				}
 				add_country_modifier = {
 					name = hun_nagysz_uni_catholic
-					duration = 7300
+					duration = -1
 				}
 			}
 			else = {
 				add_country_modifier = {
 					name = hun_nagysz_uni_non_catholic
-					duration = 7300
+					duration = -1
 				}
 			}
 		}
@@ -447,7 +447,7 @@ emp_hun_economy_political_branch = {
 			capital_scope = {
 				add_province_modifier = {
 					name = hun_great_city
-					duration = 7300
+					duration = -1
 				}
 			}
 		}
@@ -464,7 +464,7 @@ emp_hun_economy_political_branch = {
 		effect = {
 			add_country_modifier = {
 				name = hun_golden_age_of_hungary
-				duration = 9125
+				duration = -1
 			}
 		}
 	}
@@ -873,7 +873,7 @@ emp_hun_bulwark_of_christianity_branch = {
 		effect = {
 			add_country_modifier = {
 				name = hun_bulwark_of_christianity
-				duration = 7300
+				duration = -1
 			}
 		}
 	}

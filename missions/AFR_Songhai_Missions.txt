@@ -281,7 +281,7 @@ songhai_historical_conquest_slot = {
 			2246 = {
 				add_province_modifier = {
 					name = son_foothold_in_enemy_territory
-					duration = 9125
+					duration = -1
 				}
 			}
 		}
@@ -923,7 +923,7 @@ songhai_question_mark_slot = {
 					add_local_autonomy = -100
 					add_province_modifier = {
 						name = son_separitism_killer
-						duration = 10950
+						duration = -1
 					}
 				}
 			}
@@ -943,7 +943,7 @@ songhai_question_mark_slot = {
 			else = {
 				add_country_modifier = {
 					name = son_tolerance_of_old_traditions
-					duration = 9125
+					duration = -1
 				}
 			}
 		}
@@ -1020,7 +1020,7 @@ songhai_question_mark_slot = {
 			}
 			add_country_modifier = {
 				name = son_religious_scholars
-				duration = 9125
+				duration = -1
 			}
 			custom_tooltip = son_tolerance_effects_tt
 			custom_tooltip = add_increase_opinion_of_fetishists_tt
@@ -1180,7 +1180,7 @@ songhai_question_mark_slot = {
 			else = {
 				add_country_modifier = {
 					name = son_religious_friends
-					duration = 9125
+					duration = -1
 				}
 			}
 			custom_tooltip = son_tolerance_effects_tt
@@ -1190,7 +1190,7 @@ songhai_question_mark_slot = {
 			}
 			add_country_modifier = {
 				name = son_defender_of_traditions
-				duration = 9125
+				duration = -1
 			}
 		}
 	}
@@ -1320,7 +1320,7 @@ songhai_jihad_slot = {
 					add_local_autonomy = -100
 					add_province_modifier = {
 						name = son_separitism_killer
-						duration = 10950
+						duration = -1
 					}
 				}
 			}
@@ -1365,7 +1365,7 @@ songhai_jihad_slot = {
 			}
 			add_country_modifier = {
 				name = son_religious_scholars
-				duration = 9125
+				duration = -1
 			}
 		}
 		ai_weight = {
@@ -1524,7 +1524,7 @@ songhai_jihad_slot = {
 			else = {
 				add_country_modifier = {
 					name = son_religious_friends
-					duration = 9125
+					duration = -1
 				}
 			}
 		}
@@ -1635,7 +1635,7 @@ songhai_protection_slot = {
 			else = {
 				add_country_modifier = {
 					name = son_tolerance_of_old_traditions
-					duration = 9125
+					duration = -1
 				}
 			}
 		}
@@ -1748,7 +1748,7 @@ songhai_protection_slot = {
 			}
 			add_country_modifier = {
 				name = son_defender_of_traditions
-				duration = 9125
+				duration = -1
 			}
 		}
 		ai_weight = {
@@ -1895,7 +1895,7 @@ songhai_money_maker_slot = {
 			hidden_effect = {
 				add_country_modifier = {
 					name = son_salt_cloth_trader
-					duration = 9125
+					duration = -1
 				}
 			}
 		}
@@ -2038,7 +2038,7 @@ songhai_money_maker_slot = {
 			}
 			add_country_modifier = {
 				name = mal_protected_economy
-				duration = 9125
+				duration = -1
 			}
 		}
 		ai_weight = {

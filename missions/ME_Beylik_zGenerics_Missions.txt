@@ -75,7 +75,7 @@
 		# effect = {
 			# add_country_modifier = {
 				# name = beylik_freedom
-				# duration = 3650
+				# duration = -1
 			# }
 			# hidden_effect = {
 				# anatolia_region = {

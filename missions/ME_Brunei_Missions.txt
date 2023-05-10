@@ -34,7 +34,7 @@ BEI_missions_1 = {
 			capital_scope = {
 				add_province_modifier = {
 					name = BEI_humble_rise_to_greatness
-					duration = 9125
+					duration = -1
 				}
 			}
 			set_country_flag = BEI_rise_of_brunei
@@ -68,7 +68,7 @@ BEI_missions_1 = {
 				}
 				add_province_modifier = {
 					name = BEI_islamization
-					duration = 10950
+					duration = -1
 				}
 			}
 			custom_tooltip = BEI_convert_sambas
@@ -184,7 +184,7 @@ BEI_missions_1 = {
 			1361 = {
 				add_trade_modifier = {
 					who = ROOT
-					duration = 10950
+					duration = -1
 					power = 25
 					key = BEI_controlling_the_strait
 				}
@@ -269,7 +269,7 @@ BEI_missions_2 = {
 				}
 				add_province_modifier = {
 					name = BEI_islamization
-					duration = 10950
+					duration = -1
 				}
 			}
 			kutai_area = {
@@ -278,7 +278,7 @@ BEI_missions_2 = {
 				}
 				add_province_modifier = {
 					name = BEI_islamization
-					duration = 10950
+					duration = -1
 				}
 			}
 			custom_tooltip = BEI_convert_kutai
@@ -331,7 +331,7 @@ BEI_missions_2 = {
 				}
 				add_province_modifier = {
 					name = BEI_islamization
-					duration = 10950
+					duration = -1
 				}
 			}
 			custom_tooltip = BEI_convert_banjar
@@ -424,7 +424,7 @@ BEI_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = BEI_victory_over_seludong
-				duration = 10950
+				duration = -1
 			}
 			add_prestige_or_monarch_power = { amount = 15 }
 		}
@@ -514,7 +514,7 @@ BEI_missions_3 = {
 			tooltip = {
 				add_country_modifier = {
 					name = BEI_safe_passage
-					duration = 7300
+					duration = -1
 				}
 			}
 			hidden_effect = {
@@ -524,7 +524,7 @@ BEI_missions_3 = {
 					}
 					add_country_modifier = {
 						name = BEI_safe_passage
-						duration = 7300
+						duration = -1
 					}
 				}
 			}
@@ -753,7 +753,7 @@ BEI_missions_4 = {
 			}
 			add_country_modifier = {
 				name = BEI_muslim_center
-				duration = 9125
+				duration = -1
 			}
 		}
 	}
@@ -878,7 +878,7 @@ BEI_missions_5 = {
 		effect = {
 			add_country_modifier = {
 				name = BEI_camphor_trade
-				duration = 9125
+				duration = -1
 			}
 			country_event = { id = ME_Brunei_Events.3 }
 			add_mercantilism = 3

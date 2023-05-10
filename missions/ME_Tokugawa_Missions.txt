@@ -26,7 +26,7 @@ TKG_missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = tokugawa_not_only_in_name_modifier
-				duration = 7300
+				duration = -1
 			}
 		}
 	}
@@ -47,7 +47,7 @@ TKG_missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = tokugawa_the_sekisho_network_modifier
-				duration = 7300
+				duration = -1
 			}
 		}
 	}
@@ -73,7 +73,7 @@ TKG_missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = tokugawa_the_uesugi_modifier
-				duration = 7300
+				duration = -1
 			}
 			eastern_kanto_area = {
 				limit = {
@@ -151,7 +151,7 @@ TKG_missions_2 = {
 		effect = {
 			add_country_modifier = {
 				name = tokugawa_march_eastwards_modifier
-				duration = 5475
+				duration = -1
 			}
 			4188 = {
 				if = {
@@ -232,7 +232,7 @@ TKG_missions_2 = {
 		effect = {
 			add_country_modifier = {
 				name = tokugawa_the_rest_of_the_east_modifier
-				duration = 7300
+				duration = -1
 			}
 		}
 	}
@@ -294,7 +294,7 @@ TKG_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = tokugawa_inabayama_fortress_modifier
-				duration = 7300
+				duration = -1
 			}
 		}
 	}
@@ -310,7 +310,7 @@ TKG_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = tokugawa_founding_the_metsukes_modifier
-				duration = 10950
+				duration = -1
 			}
 		}
 	}
@@ -375,7 +375,7 @@ TKG_missions_4 = {
 		effect = {
 			add_country_modifier = {
 				name = tokugawa_kyoto_modifier
-				duration = 9125
+				duration = -1
 			}
 			if = {
 				limit = {
@@ -452,7 +452,7 @@ TKG_missions_4 = {
 			add_army_tradition = 20
 			add_country_modifier = {
 				name = tokugawa_expand_the_hatamoto_modifier
-				duration = 18250
+				duration = -1
 			}
 		}
 	}
@@ -518,7 +518,7 @@ TKG_missions_5 = {
 				1030 = {
 					add_province_modifier = {
 						name = tokugawa_the_oda_allies_province_modifier
-						duration = 7300
+						duration = -1
 					}
 				}
 			}
@@ -539,7 +539,7 @@ TKG_missions_5 = {
 					1030 = {
 						add_province_modifier = {
 							name = tokugawa_the_oda_allies_province_modifier
-							duration = 7300
+							duration = -1
 						}
 					}
 				}

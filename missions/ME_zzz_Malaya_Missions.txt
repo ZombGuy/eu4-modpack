@@ -49,7 +49,7 @@ MSA_Missions_Expansion_1 = {
 		effect = {
 			add_country_modifier = {
 				name = MSA_valour_of_hang_nadim
-				duration = 7300
+				duration = -1
 			}
 			add_army_tradition_or_mil_power = { amount = 20 }
 		}
@@ -204,21 +204,21 @@ MSA_Missions_Expansion_2 = {
 			tooltip = {
 				add_country_modifier = {
 					name = MSA_offensive_focus
-					duration = 5475
+					duration = -1
 				}
 			}
 			custom_tooltip = MSA_completed_by_fortification
 			tooltip = {
 				add_country_modifier = {
 					name = MSA_defensive_focus
-					duration = 10950
+					duration = -1
 				}
 			}
 			custom_tooltip = MSA_completed_by_both
 			tooltip = {
 				add_country_modifier = {
 					name = MSA_balanced_focus
-					duration = 9125
+					duration = -1
 				}
 			}
 			hidden_effect = {
@@ -239,7 +239,7 @@ MSA_Missions_Expansion_2 = {
 					}
 					add_country_modifier = {
 						name = MSA_balanced_focus
-						duration = 9125
+						duration = -1
 					}
 				}
 				else_if = {
@@ -249,13 +249,13 @@ MSA_Missions_Expansion_2 = {
 					}
 					add_country_modifier = {
 						name = MSA_offensive_focus
-						duration = 5475
+						duration = -1
 					}
 				}
 				else = {
 					add_country_modifier = {
 						name = MSA_balanced_focus
-						duration = 9125
+						duration = -1
 					}
 				}
 			}
@@ -305,7 +305,7 @@ MSA_Missions_Expansion_2 = {
 		effect = {
 			add_country_modifier = {
 				name = MSA_against_a_million_elephants
-				duration = 10950
+				duration = -1
 			}
 			north_laos_area = {
 				limit = {
@@ -429,7 +429,7 @@ MSA_Missions_Expansion_2 = {
 		effect = {
 			add_country_modifier = {
 				name = MSA_land_of_gold
-				duration = 9125
+				duration = -1
 			}
 		}
 	}
@@ -500,7 +500,7 @@ MSA_Missions_Expansion_2 = {
 		effect = {
 			add_country_modifier = {
 				name = MSA_china_defeated
-				duration = 10950
+				duration = -1
 			}
 			add_power_projection = {
 				type = mission_rewards_power_projection
@@ -594,7 +594,7 @@ MSA_Missions_Expansion_3 = {
 				}
 				add_country_modifier = {
 					name = MSA_fellow_cham
-					duration = 7300
+					duration = -1
 				}
 			}
 			custom_tooltip = MSA_completed_by_conquest
@@ -616,7 +616,7 @@ MSA_Missions_Expansion_3 = {
 					}
 					add_country_modifier = {
 						name = MSA_fellow_cham
-						duration = 7300
+						duration = -1
 					}
 				}
 				else = {
@@ -663,13 +663,13 @@ MSA_Missions_Expansion_3 = {
 		effect = {
 			add_country_modifier = {
 				name = MSA_conqueror_of_the_khmer_empire
-				duration = 10950
+				duration = -1
 			}
 			custom_tooltip = MSA_if_we_are_hindu
 			tooltip = {
 				add_country_modifier = {
 					name = MSA_legacy_of_the_hindu_empire
-					duration = 7300
+					duration = -1
 				}
 			}
 			hidden_effect = {
@@ -679,7 +679,7 @@ MSA_Missions_Expansion_3 = {
 					}
 					add_country_modifier = {
 						name = MSA_legacy_of_the_hindu_empire
-						duration = 7300
+						duration = -1
 					}
 				}
 
@@ -777,7 +777,7 @@ MSA_Missions_Expansion_4 = {
 			MSA_claims_philippines = yes
 			add_country_modifier = {
 				name = MSA_nation_of_seafarers
-				duration = 5475
+				duration = -1
 			}
 		}
 	}
@@ -839,7 +839,7 @@ MSA_Missions_Expansion_4 = {
 			add_mercantilism = 2
 			add_country_modifier = {
 				name = MSA_spice_trade
-				duration = 5475
+				duration = -1
 			}
 		}
 	}
@@ -875,7 +875,7 @@ MSA_Missions_Expansion_4 = {
 		effect = {
 			add_country_modifier = {
 				name = MSA_new_frontiers
-				duration = 10950
+				duration = -1
 			}
 			add_dip_power = 50
 		}
@@ -1082,7 +1082,7 @@ MSA_Missions_Expansion_5 = {
 			custom_tooltip = MSA_distribute_5_base_tax_and_5_base_production
 			add_country_modifier = {
 				name = MSA_spice_islands_modifier
-				duration = 9125
+				duration = -1
 			}
 			hidden_effect = {
 				for = {
@@ -1227,7 +1227,7 @@ MSA_Missions_Trade_1 = {
 			tooltip = {
 				add_province_modifier = {
 					name = MSA_masterful_spice
-					duration = 10950
+					duration = -1
 				}
 			}
 		}
@@ -1373,7 +1373,7 @@ MSA_Missions_Trade_1 = {
 		effect = {
 			add_country_modifier = {
 				name = MSA_foreign_trade_power
-				duration = 7300
+				duration = -1
 			}
 			custom_tooltip = MSA_every_trade_node_in_range
 			hidden_effect = {
@@ -1388,7 +1388,7 @@ MSA_Missions_Trade_1 = {
 						}
 						add_trade_modifier = {
 							who = ROOT
-							duration = 5475
+							duration = -1
 							power = 25
 							key = MSA_onset_of_modern_trade_modifier
 						}
@@ -1396,7 +1396,7 @@ MSA_Missions_Trade_1 = {
 					else = {
 						add_trade_modifier = {
 							who = ROOT
-							duration = 5475
+							duration = -1
 							power = 10
 							key = MSA_onset_of_modern_trade_modifier
 						}
@@ -1531,7 +1531,7 @@ MSA_Missions_Trade_3 = {
 			1361 = {
 				add_trade_modifier = {
 					who = ROOT
-					duration = 36500
+					duration = -1
 					power = 25
 					key = MSA_native_node
 				}
@@ -1573,7 +1573,7 @@ MSA_Missions_Trade_3 = {
 					}
 					add_trade_modifier = {
 						who = ROOT
-						duration = 9125
+						duration = -1
 						power = 10
 						key = MSA_great_trading_city
 					}
@@ -1675,13 +1675,13 @@ MSA_Missions_Trade_3 = {
 		effect = {
 			add_country_modifier = {
 				name = MSA_malay_ports
-				duration = 9125
+				duration = -1
 			}
 			custom_tooltip = MSA_every_area_with_a_shipyard
 			tooltip = {
 				add_province_modifier = {
 					name = MSA_shipyard_building
-					duration = 10950
+					duration = -1
 				}
 			}
 			hidden_effect = {
@@ -1694,7 +1694,7 @@ MSA_Missions_Trade_3 = {
 					}
 					add_province_modifier = {
 						name = MSA_shipyard_building
-						duration = 10950
+						duration = -1
 					}
 				}
 			}
@@ -1727,13 +1727,13 @@ MSA_Missions_Trade_4 = {
 			add_mercantilism = 5
 			add_country_modifier = {
 				name = MSA_great_merchant_fleet_modifier
-				duration = 7300
+				duration = -1
 			}
 			custom_tooltip = MSA_if_we_have_naval_commander
 			tooltip = {
 				add_country_modifier = {
 					name = MSA_innovations
-					duration = 9125
+					duration = -1
 				}
 			}
 			hidden_effect = {
@@ -1743,7 +1743,7 @@ MSA_Missions_Trade_4 = {
 					}
 					add_country_modifier = {
 						name = MSA_innovations
-						duration = 9125
+						duration = -1
 					}
 				}
 			}
@@ -1991,7 +1991,7 @@ MSA_Missions_Trade_5 = {
 		effect = {
 			add_country_modifier = {
 				name = MSA_trading_in_tea
-				duration = 7300
+				duration = -1
 			}
 			add_dip_power = 50
 		}
@@ -2011,7 +2011,7 @@ MSA_Missions_Trade_5 = {
 		effect = {
 			add_country_modifier = {
 				name = MSA_stable_currency
-				duration = 10950
+				duration = -1
 			}
 		}
 	}
@@ -2051,7 +2051,7 @@ MSA_Missions_Trade_5 = {
 			tooltip = {
 				add_province_modifier = {
 					name = MSA_gold_production
-					duration = 9125
+					duration = -1
 				}
 			}
 			hidden_effect = {
@@ -2063,7 +2063,7 @@ MSA_Missions_Trade_5 = {
 					}
 					add_province_modifier = {
 						name = MSA_gold_production
-						duration = 9125
+						duration = -1
 					}
 				}
 			}
@@ -2145,7 +2145,7 @@ MSA_Missions_General_2 = {
 		effect = {
 			add_country_modifier = {
 				name = MSA_splendor
-				duration = 7300
+				duration = -1
 			}
 		}
 	}
@@ -2162,7 +2162,7 @@ MSA_Missions_General_2 = {
 		effect = {
 			add_country_modifier = {
 				name = MSA_new_laws
-				duration = 10950
+				duration = -1
 			}
 			add_stability_or_adm_power = yes
 		}
@@ -2213,7 +2213,7 @@ MSA_Missions_General_3 = {
 				1361 = {
 					add_trade_modifier = {
 						who = ROOT
-						duration = 5475
+						duration = -1
 						power = 15
 						key = MLC_orang_laut
 					}
@@ -2256,7 +2256,7 @@ MSA_Missions_General_4 = {
 		effect = {
 			add_country_modifier = {
 				name = MSA_managing_the_nobles
-				duration = 7300
+				duration = -1
 			}
 			add_mil_power = 50
 		}
@@ -2489,7 +2489,7 @@ MSA_Missions_Muslim_1 = {
 			tooltip = {
 				add_country_modifier = {
 					name = MSA_islamic_learning
-					duration = 7300
+					duration = -1
 				}
 			}
 			hidden_effect = {
@@ -2499,7 +2499,7 @@ MSA_Missions_Muslim_1 = {
 					}
 					add_country_modifier = {
 						name = MSA_islamic_learning
-						duration = 7300
+						duration = -1
 					}
 				}
 			}
@@ -2520,7 +2520,7 @@ MSA_Missions_Muslim_1 = {
 				add_prosperity = 50
 				add_province_modifier = {
 					name = MSA_faithful_needs
-					duration = 7300
+					duration = -1
 				}
 			}
 			hidden_effect = {
@@ -2531,7 +2531,7 @@ MSA_Missions_Muslim_1 = {
 					add_prosperity = 50
 					add_province_modifier = {
 						name = MSA_faithful_needs
-						duration = 7300
+						duration = -1
 					}
 				}
 			}
@@ -2631,7 +2631,7 @@ MSA_Missions_Muslim_2 = {
 		effect = {
 			add_country_modifier = {
 				name = MSA_converting_the_commons
-				duration = 9125
+				duration = -1
 			}
 			add_estate_loyalty = {
 				estate = estate_church
@@ -2684,7 +2684,7 @@ MSA_Missions_Muslim_2 = {
 		effect = {
 			add_country_modifier = {
 				name = MSA_propagating
-				duration = 9125
+				duration = -1
 			}
 			add_yearly_sailors = 0.5
 		}
@@ -2834,7 +2834,7 @@ MSA_Missions_Muslim_3 = {
 				add_adm_power = 25
 				add_country_modifier = {
 					name = MSA_propagation_of_faith
-					duration = 9125
+					duration = -1
 				}
 			}
 			custom_tooltip = MSA_completed_by_force_conversion
@@ -2842,7 +2842,7 @@ MSA_Missions_Muslim_3 = {
 				add_mil_power = 50
 				add_country_modifier = {
 					name = MSA_sword_of_islam
-					duration = 10950
+					duration = -1
 				}
 			}
 			hidden_effect = {
@@ -2853,7 +2853,7 @@ MSA_Missions_Muslim_3 = {
 					add_mil_power = 50
 					add_country_modifier = {
 						name = MSA_sword_of_islam
-						duration = 10950
+						duration = -1
 					}
 				}
 				if = {
@@ -2872,7 +2872,7 @@ MSA_Missions_Muslim_3 = {
 					add_adm_power = 25
 					add_country_modifier = {
 						name = MSA_propagation_of_faith
-						duration = 9125
+						duration = -1
 					}
 				}
 			}
@@ -3104,7 +3104,7 @@ MSA_Missions_Muslim_4 = {
 		effect = {
 			add_country_modifier = {
 				name = MSA_pilgrim_routes_protected
-				duration = 9125
+				duration = -1
 			}
 			if = {
 				limit = {
@@ -3242,14 +3242,14 @@ MSA_Missions_Muslim_5 = {
 			tooltip = {
 				add_country_modifier = {
 					name = MSA_studying_the_scripts
-					duration = 7300
+					duration = -1
 				}
 			}
 			custom_tooltip = MSA_completed_by_mysticism
 			tooltip = {
 				add_country_modifier = {
 					name = MSA_malay_annals
-					duration = 10950
+					duration = -1
 				}
 			}
 			hidden_effect = {
@@ -3259,13 +3259,13 @@ MSA_Missions_Muslim_5 = {
 					}
 					add_country_modifier = {
 						name = MSA_studying_the_scripts
-						duration = 7300
+						duration = -1
 					}
 				}
 				else = {
 					add_country_modifier = {
 						name = MSA_malay_annals
-						duration = 10950
+						duration = -1
 					}
 				}
 			}
@@ -3341,7 +3341,7 @@ MSA_Missions_Muslim_5 = {
 			}
 			add_country_modifier = {
 				name = MSA_scholarly_practices
-				duration = 10950
+				duration = -1
 			}
 		}
 	}
@@ -3397,13 +3397,13 @@ MSA_Missions_Hindu_1 = {
 		effect = {
 			add_country_modifier = {
 				name = MSA_pranidhana
-				duration = 9125
+				duration = -1
 			}
 			custom_tooltip = MSA_if_brahmans_are_loyal
 			tooltip = {
 				add_country_modifier = {
 					name = MSA_enlightened_advice
-					duration = 5475
+					duration = -1
 				}
 			}
 			hidden_effect = {
@@ -3416,7 +3416,7 @@ MSA_Missions_Hindu_1 = {
 					}
 					add_country_modifier = {
 						name = MSA_enlightened_advice
-						duration = 5475
+						duration = -1
 					}
 				}
 			}
@@ -3506,7 +3506,7 @@ MSA_Missions_Hindu_2 = {
 			#https://en.wikipedia.org/wiki/Vijaya_(bow)
 			add_country_modifier = {
 				name = MSA_vijaya_strikes
-				duration = 5475
+				duration = -1
 			}
 			add_estate_loyalty =  {
 				estate = estate_church
@@ -3551,7 +3551,7 @@ MSA_Missions_Hindu_2 = {
 			set_country_flag = MAJ_immunity_from_spread
 			add_country_modifier = {
 				name = MSA_hindu_comes_back
-				duration = 9125
+				duration = -1
 			}
 		}
 	}
@@ -3719,7 +3719,7 @@ MSA_Missions_Hindu_4 = {
 		effect = {
 			add_country_modifier = {
 				name = MSA_scholarly_practices
-				duration = 9125
+				duration = -1
 			}
 			if = {
 				limit = {
@@ -3815,7 +3815,7 @@ MSA_Missions_Hindu_5 = {
 		effect = {
 			add_country_modifier = {
 				name = MSA_candi_shrines
-				duration = 7300
+				duration = -1
 			}
 			if = {
 				limit = {
@@ -3933,7 +3933,7 @@ MSA_Missions_Hindu_5 = {
 		# effect = {
 			# add_country_modifier = {
 				# name = MSA_evangelization
-				# duration = 9125
+				# duration = -1
 			# }
 
 			# change_religious_influence_equivalent = { add = 10 }
@@ -4280,7 +4280,7 @@ MSA_Missions_Europe_1 = {
 			tooltip = {
 				add_country_modifier = {
 					name = MSA_partners_in_the_spice_trade
-					duration = 9125
+					duration = -1
 				}
 			}
 			hidden_effect = {
@@ -4290,7 +4290,7 @@ MSA_Missions_Europe_1 = {
 					}
 					add_country_modifier = {
 						name = MSA_partners_in_the_spice_trade
-						duration = 9125
+						duration = -1
 					}
 				}
 			}
@@ -4380,7 +4380,7 @@ MSA_Missions_Europe_2 = {
 		effect = {
 			add_country_modifier = {
 				name = MSA_trade_negotiatons_modifier
-				duration = 9125
+				duration = -1
 			}
 			add_dip_power = 50
 		}
@@ -4402,7 +4402,7 @@ MSA_Missions_Europe_2 = {
 		effect = {
 			add_country_modifier = {
 				name = MSA_foreign_investment_modifier
-				duration = 5475
+				duration = -1
 			}
 			custom_tooltip = MSA_invest_in_production
 			set_country_flag = MSA_invest_in_production
@@ -4474,7 +4474,7 @@ MSA_Missions_Europe_3 = {
 		effect = {
 			add_country_modifier = {
 				name = MSA_great_power_diplomacy
-				duration = 5475
+				duration = -1
 			}
 			define_advisor = {
 				type = diplomat
@@ -4508,7 +4508,7 @@ MSA_Missions_Europe_3 = {
 		effect = {
 			add_country_modifier = {
 				name = MSA_high_seas
-				duration = 7300
+				duration = -1
 			}
 			create_admiral = {
 				tradition = 75
@@ -4605,7 +4605,7 @@ MSA_Missions_Europe_5 = {
 		effect = {
 			add_country_modifier = {
 				name = MSA_colonial_thought
-				duration = 9125
+				duration = -1
 			}
 			create_explorer = { tradition = 25 }
 		}
@@ -4643,21 +4643,21 @@ MSA_Missions_Europe_5 = {
 			tooltip = {
 				add_country_modifier = {
 					name = MSA_sanskrit
-					duration = 9125
+					duration = -1
 				}
 			}
 			custom_tooltip = MSA_if_we_are_muslim
 			tooltip = {
 				add_country_modifier = {
 					name = MSA_jawi
-					duration = 9125
+					duration = -1
 				}
 			}
 			# custom_tooltip = MSA_if_we_are_christian
 			# tooltip = {
 				# add_country_modifier = {
 					# name = MSA_latin
-					# duration = 9125
+					# duration = -1
 				# }
 			# }
 			hidden_effect = {
@@ -4679,7 +4679,7 @@ MSA_Missions_Europe_5 = {
 					}
 					add_country_modifier = {
 						name = MSA_jawi
-						duration = 9125
+						duration = -1
 					}
 				}
 				else_if = {
@@ -4688,7 +4688,7 @@ MSA_Missions_Europe_5 = {
 					}
 					add_country_modifier = {
 						name = MSA_latin
-						duration = 9125
+						duration = -1
 					}
 				}
 				else_if = {
@@ -4700,7 +4700,7 @@ MSA_Missions_Europe_5 = {
 					}
 					add_country_modifier = {
 						name = MSA_sanskrit
-						duration = 9125
+						duration = -1
 					}
 				}
 			}
@@ -4729,14 +4729,14 @@ MSA_Missions_Europe_5 = {
 			tooltip = {
 				add_country_modifier = {
 					name = MSA_army_innovation_modifier
-					duration = 10950
+					duration = -1
 				}
 			}
 			custom_tooltip = MSA_if_we_have_more_navy_tradition
 			tooltip = {
 				add_country_modifier = {
 					name = MSA_navy_innovation_modifier
-					duration = 10950
+					duration = -1
 				}
 			}
 			hidden_effect = {
@@ -4759,13 +4759,13 @@ MSA_Missions_Europe_5 = {
 					}
 					add_country_modifier = {
 						name = MSA_army_innovation_modifier
-						duration = 10950
+						duration = -1
 					}
 				}
 				else = {
 					add_country_modifier = {
 						name = MSA_navy_innovation_modifier
-						duration = 10950
+						duration = -1
 					}
 				}
 			}
@@ -4803,7 +4803,7 @@ MSA_Missions_Independence_1 = {
 			add_mercantilism = 5
 			add_country_modifier = {
 				name = MSA_securing_resources
-				duration = 7300
+				duration = -1
 			}
 		}
 	}
@@ -4845,7 +4845,7 @@ MSA_Missions_Independence_1 = {
 		effect = {
 			add_country_modifier = {
 				name = MSA_rallied_against_colonizers
-				duration = 7300
+				duration = -1
 			}
 			create_general = {
 				tradition = 90
@@ -4892,7 +4892,7 @@ MSA_Missions_Independence_2 = {
 		effect = {
 			add_country_modifier = {
 				name = MSA_power_on_the_rise
-				duration = 10950
+				duration = -1
 			}
 			add_power_projection = {
 				type = mission_rewards_power_projection
@@ -4973,7 +4973,7 @@ MSA_Missions_Independence_3 = {
 			add_navy_tradition = 20
 			add_country_modifier = {
 				name = MSA_navy_reward
-				duration = 14600
+				duration = -1
 			}
 		}
 	}
@@ -4999,7 +4999,7 @@ MSA_Missions_Independence_3 = {
 			add_army_tradition_or_mil_power = { amount = 20 }
 			add_country_modifier = {
 				name = MSA_army_reward
-				duration = 14600
+				duration = -1
 			}
 		}
 	}

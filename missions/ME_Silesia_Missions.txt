@@ -19,7 +19,7 @@ Silesia_missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = "army_enthusiasm"
-				duration = 10950
+				duration = -1
 			}
 		}
 	}

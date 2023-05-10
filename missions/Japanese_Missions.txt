@@ -73,7 +73,7 @@ japanse_missions_sea = {
 				}
 				add_province_modifier = {
 					name = "integrating_ainu"
-					duration = 7300
+					duration = -1
 				}
 			}
 			if = {
@@ -115,7 +115,7 @@ japanse_missions_sea = {
 		effect = {
 			add_country_modifier = {
 				name = "colonial_enthusiasm"
-				duration = 7300
+				duration = -1
 			}
 			kamchatka_area = {
 				limit = {
@@ -166,7 +166,7 @@ japanse_missions_sea = {
 					}
 					add_province_modifier = {
 						name = "JAP_siberian_boom"
-						duration = 3650
+						duration = -1
 					}
 				}
 			}
@@ -202,7 +202,7 @@ japanse_missions_china = {
 			add_navy_tradition = 20
 			add_country_modifier = {
 				name = "divine_wind_modifier"
-				duration = 7300
+				duration = -1
 			}
 		}
 	}
@@ -316,7 +316,7 @@ japanse_missions_china = {
 			add_mil_power = 100
 			add_country_modifier = {
 				name = "military_victory"
-				duration = 7300
+				duration = -1
 			}
 			hebei_area = {
 				limit = {
@@ -488,7 +488,7 @@ japanse_missions_china = {
 		effect = {
 			add_country_modifier = {
 				name = JAP_indochinese_trade
-				duration = 7300
+				duration = -1
 			}
 		}
 	}
@@ -521,7 +521,7 @@ japanse_missions_the_empire = {
 		effect = {
 			add_country_modifier = {
 				name = JAP_sengoku_contender
-				duration = 7300
+				duration = -1
 			}
 		}
 	}
@@ -575,7 +575,7 @@ japanse_missions_the_empire = {
 			# province modifier in okinawa. 3 mountains.
 			add_country_modifier = {
 				name = "jap_three_mountains"
-				duration = 7300
+				duration = -1
 			}
 			taiwan_area = {
 				limit = {
@@ -737,7 +737,7 @@ japanse_missions_domestic = {
 		effect = {
 			add_country_modifier = {
 				name = "strengthened_bushido"
-				duration = 7300
+				duration = -1
 			}
 		}
 	}
@@ -858,7 +858,7 @@ japanse_missions_domestic = {
 				every_owned_province = {
 					add_province_modifier = {
 						name = JAP_gokaido_stations
-						duration = 3650
+						duration = -1
 					}
 				}
 			}
@@ -1041,7 +1041,7 @@ japanse_missions_economic = {
 		effect = {
 			add_country_modifier = {
 				name = JAP_currency_regulations
-				duration = 7300
+				duration = -1
 			}
 		}
 	}
@@ -1055,7 +1055,7 @@ japanse_missions_economic = {
 		effect = {
 			add_country_modifier = {
 				name = "growing_economy"
-				duration = 9125 #25 years
+				duration = -1
 			}
 		}
 	}
@@ -1073,7 +1073,7 @@ japanse_missions_economic = {
 		effect = {
 			add_country_modifier = {
 				name = JAP_cadastral_surveys
-				duration = 7300
+				duration = -1
 			}
 		}
 	}

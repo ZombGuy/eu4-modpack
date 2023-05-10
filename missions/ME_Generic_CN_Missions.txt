@@ -28,7 +28,7 @@ CN_Generic_missions_1 = {
 			}
 			add_country_modifier = {
 				name = CN_merchant_guilds_shaping
-				duration = 7300
+				duration = -1
 			}
 		}
 	}
@@ -46,7 +46,7 @@ CN_Generic_missions_1 = {
 			custom_tooltip = CN_Tooltips.1
 			add_country_modifier = {
 				name = CN_positive_vibes
-				duration = 9125
+				duration = -1
 			}
 			hidden_effect = {
 				home_trade_node_effect_scope = {
@@ -155,7 +155,7 @@ CN_Generic_missions_2 = {
 		effect = {
 			add_country_modifier = {
 				name = CN_colony_thriving
-				duration = 5475
+				duration = -1
 			}
 		}
 	}
@@ -186,7 +186,7 @@ CN_Generic_missions_2 = {
 		effect = {
 			add_country_modifier = {
 				name = CN_developing_own_diplomacy
-				duration = 9125
+				duration = -1
 			}
 		}
 	}
@@ -233,7 +233,7 @@ CN_Generic_missions_2 = {
 						}
 						add_province_modifier = {
 							name = CN_renowned_products
-							duration = 10950
+							duration = -1
 						}
 					}
 				}
@@ -249,7 +249,7 @@ CN_Generic_missions_2 = {
 						}
 						add_province_modifier = {
 							name = CN_renowned_products
-							duration = 10950
+							duration = -1
 						}
 					}
 				}
@@ -265,7 +265,7 @@ CN_Generic_missions_2 = {
 						}
 						add_province_modifier = {
 							name = CN_renowned_products
-							duration = 10950
+							duration = -1
 						}
 					}
 				}
@@ -281,7 +281,7 @@ CN_Generic_missions_2 = {
 						}
 						add_province_modifier = {
 							name = CN_renowned_products
-							duration = 10950
+							duration = -1
 						}
 					}
 				}
@@ -297,7 +297,7 @@ CN_Generic_missions_2 = {
 						}
 						add_province_modifier = {
 							name = CN_renowned_products
-							duration = 10950
+							duration = -1
 						}
 					}
 				}
@@ -313,7 +313,7 @@ CN_Generic_missions_2 = {
 						}
 						add_province_modifier = {
 							name = CN_renowned_products
-							duration = 10950
+							duration = -1
 						}
 					}
 				}
@@ -346,7 +346,7 @@ CN_Generic_missions_3 = {
 			set_country_flag = CN_dominion
 			add_country_modifier = {
 				name = CN_colonial_assembly_modifier
-				duration = 10950
+				duration = -1
 			}
 		}
 	}
@@ -379,7 +379,7 @@ CN_Generic_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = CN_workshops_going_boom
-				duration = 5475
+				duration = -1
 			}
 		}
 	}
@@ -479,7 +479,7 @@ CN_Generic_missions_3_Gold_Producing_Cns = {
 				add_base_manpower = 1
 				add_province_modifier = {
 					name = CN_influx_of_settlers
-					duration = 9125
+					duration = -1
 				}
 			}
 		}
@@ -524,7 +524,7 @@ CN_Generic_missions_4 = {
 		effect = {
 			add_country_modifier = {
 				name = CN_centralization
-				duration = 9125
+				duration = -1
 			}
 			custom_tooltip = CN_Tooltips.8
 			hidden_effect = {
@@ -586,7 +586,7 @@ CN_Generic_missions_4 = {
 		effect = {
 			add_country_modifier = {
 				name = CN_new_lands_new_opportunities
-				duration = 7300
+				duration = -1
 			}
 		}
 	}
@@ -623,7 +623,7 @@ CN_Generic_missions_4 = {
 		effect = {
 			add_country_modifier = {
 				name = CN_growing_economy
-				duration = 9125
+				duration = -1
 			}
 		}
 	}
@@ -671,7 +671,7 @@ CN_Generic_missions_5 = {
 		effect = {
 			add_country_modifier = {
 				name = CN_the_more_we_grow_the_more_we_plow #amazing name
-				duration = 9125
+				duration = -1
 			}
 		}
 	}
@@ -703,7 +703,7 @@ CN_Generic_missions_5 = {
 		effect = {
 			add_country_modifier = {
 				name = CN_new_land_claimed
-				duration = 10950
+				duration = -1
 			}
 		}
 	}
@@ -729,7 +729,7 @@ CN_Generic_missions_5 = {
 		effect = {
 			add_country_modifier = {
 				name = CN_region_united
-				duration = 10950
+				duration = -1
 			}
 		}
 	}

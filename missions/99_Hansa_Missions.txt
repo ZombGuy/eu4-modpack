@@ -88,7 +88,7 @@ lubeck_missions_1 = { #Made by Big Boss
 					limit = { is_in_trade_league_with = ROOT }
 					add_country_modifier = {
 						name = hsa_wealth_of_the_hansa_modifier
-						duration = 3650 
+						duration = -1
 					}
 					capital_scope = {
 						random_list = {
@@ -142,7 +142,7 @@ lubeck_missions_1 = { #Made by Big Boss
 			45 = {
 				add_province_modifier = {
 					name = free_shipping_through_the_sound
-					duration = 10950 
+					duration = -1
 				}
 			}
 			if = {
@@ -320,7 +320,7 @@ lubeck_missions_1 = { #Made by Big Boss
 				add_stability_or_adm_power = yes 
 				add_ruler_modifier = {
 					name = hsa_fresh_administration_modifier
-					duration = 10950 
+					duration = -1
 				}
 			}
 			else_if = {
@@ -332,7 +332,7 @@ lubeck_missions_1 = { #Made by Big Boss
 				}
 				add_country_modifier = { 
 					name = hsa_longterm_admin_modifier 
-					duration = 9125 
+					duration = -1
 				}
 				if = { 
 					limit = {
@@ -383,13 +383,13 @@ lubeck_missions_1 = { #Made by Big Boss
 				limit = { has_reform = lottery_reform }
 				add_ruler_modifier = {
 					name = hsa_diplomatic_powerhouse 
-					duration = 10950 
+					duration = -1
 				}
 			}
 			else = {
 				add_country_modifier = {
 					name = hsa_hanseatic_diets_modifier 
-					duration = 7300 
+					duration = -1
 				}
 				add_republican_tradition = 5
 				add_legitimacy = 10 
@@ -416,7 +416,7 @@ lubeck_missions_1 = { #Made by Big Boss
 		effect = {
 			add_country_modifier = {
 				name = hsa_altermanner_modifier
-				duration = 9125 
+				duration = -1
 			}
 			custom_tooltip = hsa_every_league_member_gets_this_reward_tt
 			hidden_effect = {
@@ -424,7 +424,7 @@ lubeck_missions_1 = { #Made by Big Boss
 					limit = { is_in_trade_league_with = ROOT }
 					add_country_modifier = {
 						name = hsa_altermanner_modifier
-						duration = 9125 
+						duration = -1
 					}
 				}
 			}
@@ -575,7 +575,7 @@ lubeck_missions_2 = { #Made by Big Boss
 		effect = {
 			add_country_modifier = {
 				name = hsa_influx_of_trade_and_foreigners_modifier
-				duration = 5475 
+				duration = -1
 			}
 		}
 	}
@@ -625,7 +625,7 @@ lubeck_missions_2 = { #Made by Big Boss
 				capital_scope = {
 					add_province_modifier = {
 						name = hsa_mercantile_burgermeister_modifier
-						duration = 7300 
+						duration = -1
 					}
 				}
 				hidden_effect = {
@@ -634,7 +634,7 @@ lubeck_missions_2 = { #Made by Big Boss
 						capital_scope = {
 							add_province_modifier = {
 								name = hsa_mercantile_burgermeister_modifier
-								duration = 7300 
+								duration = -1
 							}
 						}
 					}
@@ -650,7 +650,7 @@ lubeck_missions_2 = { #Made by Big Boss
 				capital_scope = {
 					add_province_modifier = {
 						name = hsa_guild_burgermeister_modifier
-						duration = 7300 
+						duration = -1
 					}
 				}
 				hidden_effect = {
@@ -659,7 +659,7 @@ lubeck_missions_2 = { #Made by Big Boss
 						capital_scope = {
 							add_province_modifier = {
 								name = hsa_guild_burgermeister_modifier
-								duration = 7300 
+								duration = -1
 							}
 						}
 					}
@@ -675,7 +675,7 @@ lubeck_missions_2 = { #Made by Big Boss
 				capital_scope = {
 					add_province_modifier = {
 						name = hsa_aristocrat_burgermeister_modifier
-						duration = 7300 
+						duration = -1
 					}
 					add_base_manpower = 1 
 				}
@@ -685,7 +685,7 @@ lubeck_missions_2 = { #Made by Big Boss
 						capital_scope = {
 							add_province_modifier = {
 								name = hsa_aristocrat_burgermeister_modifier
-								duration = 7300 
+								duration = -1
 							}
 							add_base_manpower = 1
 						}
@@ -696,7 +696,7 @@ lubeck_missions_2 = { #Made by Big Boss
 				capital_scope = {
 					add_province_modifier = {
 						name = hsa_mercantile_burgermeister_modifier
-						duration = 7300 
+						duration = -1
 					}
 				}
 				hidden_effect = {
@@ -705,7 +705,7 @@ lubeck_missions_2 = { #Made by Big Boss
 						capital_scope = {
 							add_province_modifier = {
 								name = hsa_mercantile_burgermeister_modifier
-								duration = 7300 
+								duration = -1
 							}
 						}
 					}
@@ -740,7 +740,7 @@ lubeck_missions_2 = { #Made by Big Boss
 		effect = {
 			add_country_modifier = {
 				name = hsa_strong_mercantile_union_modifier
-				duration = 10950 
+				duration = -1
 			}
 			custom_tooltip = hsa_every_league_member_gets_prosperity_and_25_trust_towards_you_tt
 			hidden_effect = {
@@ -843,13 +843,13 @@ lubeck_missions_2 = { #Made by Big Boss
 					owner = {
 						add_country_modifier = {
 							name = hsa_valuable_mineral_deposits_modifier
-							duration = 9125
+							duration = -1
 						}
 					}
 				}
 				add_country_modifier = {
 					name = hsa_valuable_mineral_abundance_modifier
-					duration = 9125
+					duration = -1
 				}
 			}
 			else = {
@@ -862,7 +862,7 @@ lubeck_missions_2 = { #Made by Big Boss
 					remove_province_modifier = hsa_lubeck_herring_market_modifier
 					add_province_modifier = {
 						name = hsa_center_of_mineral_trade
-						duration = -1 
+						duration = -1
 					}
 				}
 			}
@@ -874,13 +874,13 @@ lubeck_missions_2 = { #Made by Big Boss
 					limit = { trade_goods = gold }
 					add_province_modifier = {
 						name = hsa_valuable_mineral_deposits_modifier
-						duration = 9125
+						duration = -1
 					}
 				}
 			}
 			add_country_modifier = {
 				name = hsa_valuable_mineral_abundance_modifier
-				duration = 9125
+				duration = -1
 			}
 			custom_tooltip = general_tooltip_dynamic_reward
 		}
@@ -920,7 +920,7 @@ lubeck_missions_3 = { #Made by Big Boss
 				}
 				add_country_modifier = {
 					name = hsa_recruiting_from_league_modifier3
-					duration = 7300 
+					duration = -1
 				}
 			}
 			else_if = {
@@ -934,7 +934,7 @@ lubeck_missions_3 = { #Made by Big Boss
 				}
 				add_country_modifier = {
 					name = hsa_recruiting_from_league_modifier2
-					duration = 5475 
+					duration = -1
 				}
 			}
 			else_if = {
@@ -948,7 +948,7 @@ lubeck_missions_3 = { #Made by Big Boss
 				}
 				add_country_modifier = {
 					name = hsa_recruiting_from_league_modifier
-					duration = 3650 
+					duration = -1
 				}
 			}
 			else = { add_army_tradition = 20 }
@@ -1048,7 +1048,7 @@ lubeck_missions_3 = { #Made by Big Boss
 					limit = { country_or_non_sovereign_subject_holds = ROOT }
 					add_province_modifier = {
 						name = hsa_lubeck_law_modifier
-						duration = 5475
+						duration = -1
 					}
 					add_devastation = -20
 				}
@@ -1107,7 +1107,7 @@ lubeck_missions_3 = { #Made by Big Boss
 				}
 				add_country_modifier = {
 					name = hsa_secured_pomeranian_coast_modifier
-					duration = 7300
+					duration = -1
 				}
 			}
 			else = {
@@ -1178,7 +1178,7 @@ lubeck_missions_3 = { #Made by Big Boss
 			45 = {
 				add_province_modifier = {
 					name = hsa_expand_the_hansehalle_modifier
-					duration = 7300 
+					duration = -1
 				}
 			}
 		}
@@ -1301,41 +1301,41 @@ lubeck_missions_3 = { #Made by Big Boss
 					limit = { num_of_non_tributary_subjects = 6 }
 					add_country_modifier = {
 						name = hsa_northern_alliance_of_trade_cities6_modifier
-						duration = 10950 
+						duration = -1
 					}
 				}
 				else_if = {
 					limit = { num_of_non_tributary_subjects = 5 }
 					add_country_modifier = {
 						name = hsa_northern_alliance_of_trade_cities5_modifier
-						duration = 10950 
+						duration = -1
 					}
 				}
 				else_if = {
 					limit = { num_of_non_tributary_subjects = 4 }
 					add_country_modifier = {
 						name = hsa_northern_alliance_of_trade_cities4_modifier
-						duration = 10950 
+						duration = -1
 					}
 				}	
 				else_if = {
 					limit = { num_of_non_tributary_subjects = 3 }
 					add_country_modifier = {
 						name = hsa_northern_alliance_of_trade_cities3_modifier
-						duration = 10950 
+						duration = -1
 					}
 				}
 				else_if = {
 					limit = { num_of_non_tributary_subjects = 2 }
 					add_country_modifier = {
 						name = hsa_northern_alliance_of_trade_cities2_modifier
-						duration = 10950 
+						duration = -1
 					}
 				}
 				else = {
 					add_country_modifier = {
 						name = hsa_northern_alliance_of_trade_cities1_modifier
-						duration = 10950 
+						duration = -1
 					}
 				}
 			}
@@ -1378,7 +1378,7 @@ lubeck_missions_4 = { #Made by Big Boss
 			}
 			add_country_modifier = {
 				name = hsa_lower_saxon_drittel_modifier 
-				duration = 5475
+				duration = -1
 			}
 			custom_tooltip = hsa_hamburg_dev_per_member
 			hidden_effect = {
@@ -1400,13 +1400,13 @@ lubeck_missions_4 = { #Made by Big Boss
 					}
 					add_country_modifier = {
 						name = hsa_development_works_of_the_hansa_modifier6
-						duration = 5475 
+						duration = -1
 					}
 					every_country = {
 						limit = { is_in_trade_league_with = ROOT }
 						add_country_modifier = {
 							name = hsa_development_works_of_the_hansa_modifier6
-							duration = 5475 
+							duration = -1
 						}
 					}
 				}
@@ -1428,13 +1428,13 @@ lubeck_missions_4 = { #Made by Big Boss
 					}
 					add_country_modifier = {
 						name = hsa_development_works_of_the_hansa_modifier5
-						duration = 5475 
+						duration = -1
 					}
 					every_country = {
 						limit = { is_in_trade_league_with = ROOT }
 						add_country_modifier = {
 							name = hsa_development_works_of_the_hansa_modifier5
-							duration = 5475 
+							duration = -1
 						}
 					}
 				}
@@ -1456,13 +1456,13 @@ lubeck_missions_4 = { #Made by Big Boss
 					}
 					add_country_modifier = {
 						name = hsa_development_works_of_the_hansa_modifier4
-						duration = 5475 
+						duration = -1
 					}
 					every_country = {
 						limit = { is_in_trade_league_with = ROOT }
 						add_country_modifier = {
 							name = hsa_development_works_of_the_hansa_modifier4
-							duration = 5475 
+							duration = -1
 						}
 					}
 				}
@@ -1484,13 +1484,13 @@ lubeck_missions_4 = { #Made by Big Boss
 					}
 					add_country_modifier = {
 						name = hsa_development_works_of_the_hansa_modifier3
-						duration = 5475 
+						duration = -1
 					}
 					every_country = {
 						limit = { is_in_trade_league_with = ROOT }
 						add_country_modifier = {
 							name = hsa_development_works_of_the_hansa_modifier3
-							duration = 5475 
+							duration = -1
 						}
 					}
 				}
@@ -1512,26 +1512,26 @@ lubeck_missions_4 = { #Made by Big Boss
 					}
 					add_country_modifier = {
 						name = hsa_development_works_of_the_hansa_modifier2
-						duration = 5475 
+						duration = -1
 					}
 					every_country = {
 						limit = { is_in_trade_league_with = ROOT }
 						add_country_modifier = {
 							name = hsa_development_works_of_the_hansa_modifier2
-							duration = 5475 
+							duration = -1
 						}
 					}
 				}
 				else = {
 					add_country_modifier = {
 						name = hsa_development_works_of_the_hansa_modifier1
-						duration = 5475 
+						duration = -1
 					}
 					every_country = {
 						limit = { is_in_trade_league_with = ROOT }
 						add_country_modifier = {
 							name = hsa_development_works_of_the_hansa_modifier1
-							duration = 5475 
+							duration = -1
 						}
 					}
 				}
@@ -1572,7 +1572,7 @@ lubeck_missions_4 = { #Made by Big Boss
 			1876 = { #Rhineland
 				add_trade_modifier = {
 					who = ROOT
-					duration = 7300
+					duration = -1
 					power = 30
 					key = hsa_secured_inland_trade
 				}
@@ -1598,7 +1598,7 @@ lubeck_missions_4 = { #Made by Big Boss
 				1876 = {
 					add_province_modifier = {
 						name = hsa_mercantile_stronghold_of_the_hansa_modifier
-						duration = 9125
+						duration = -1
 					}
 				}
 			}
@@ -1627,49 +1627,49 @@ lubeck_missions_4 = { #Made by Big Boss
 			tooltip = {
 				add_country_modifier = {
 					name = hsa_general_army_reform_modifier
-					duration = -1 
+					duration = -1
 				}
 			}
 			custom_tooltip = hsa_army_organiser_tt
 			tooltip = {
 				add_country_modifier = {
 					name = hsa_general_army_organization_modifier
-					duration = -1 
+					duration = -1
 				}
 			}
 			custom_tooltip = hsa_commandant_tt
 			tooltip = {
 				add_country_modifier = {
 					name = hsa_military_excellence_modifier
-					duration = -1 
+					duration = -1
 				}
 			}
 			custom_tooltip = hsa_quartermaster_tt
 			tooltip = {
 				add_country_modifier = {
 					name = hsa_modernized_supply_lines_modifier
-					duration = -1 
+					duration = -1
 				}
 			}
 			custom_tooltip = hsa_recruitmaster_tt
 			tooltip = {
 				add_country_modifier = {
 					name = hsa_zealous_recruitment_modifier
-					duration = -1 
+					duration = -1
 				}
 			}
 			custom_tooltip = hsa_grandcaptain_tt
 			tooltip = {
 				add_country_modifier = {
 					name = hsa_improved_military_administration_modifier
-					duration = -1 
+					duration = -1
 				}
 			}
 			custom_tooltip = hsa_fortification_expert_tt
 			tooltip = {
 				add_country_modifier = {
 					name = hsa_fortification_efforts_modifier
-					duration = -1 
+					duration = -1
 				}
 			}
 			hidden_effect = {#
@@ -1677,49 +1677,49 @@ lubeck_missions_4 = { #Made by Big Boss
 					limit = { army_reformer = 3 }
 					add_country_modifier = {
 						name = hsa_general_army_reform_modifier
-						duration = -1 
+						duration = -1
 					}
 				}
 				else_if = {#
 					limit = { army_organiser = 3 }
 					add_country_modifier = {
 						name = hsa_general_army_organization_modifier
-						duration = -1 
+						duration = -1
 					}
 				}
 				else_if = {#
 					limit = { commandant = 3 }
 					add_country_modifier = {
 						name = hsa_military_excellence_modifier
-						duration = -1 
+						duration = -1
 					}
 				}
 				else_if = {#
 					limit = { quartermaster = 3 }
 					add_country_modifier = {
 						name = hsa_modernized_supply_lines_modifier
-						duration = -1 
+						duration = -1
 					}
 				}
 				else_if = {#
 					limit = { recruitmaster = 3 }
 					add_country_modifier = {
 						name = hsa_zealous_recruitment_modifier
-						duration = -1 
+						duration = -1
 					}
 				}
 				else_if = {#
 					limit = { grand_captain = 3 }
 					add_country_modifier = {
 						name = hsa_improved_military_administration_modifier
-						duration = -1 
+						duration = -1
 					}
 				}
 				else_if = {
 					limit = { fortification_expert = 3 }
 					add_country_modifier = {
 						name = hsa_fortification_efforts_modifier
-						duration = -1 
+						duration = -1
 					}
 				}
 			}
@@ -1746,7 +1746,7 @@ lubeck_missions_4 = { #Made by Big Boss
 		effect = {
 			add_country_modifier = {
 				name = hsa_shipwrights_naval_expansion_modifier 
-				duration = 7300 
+				duration = -1
 			}
 			if = {
 				limit = {
@@ -1791,7 +1791,7 @@ lubeck_missions_4 = { #Made by Big Boss
 					}
 					add_country_modifier = {
 						name = hsa_shipwrights_naval_expansion_modifier 
-						duration = 7300 
+						duration = -1
 					}
 				}
 			}
@@ -1811,7 +1811,7 @@ lubeck_missions_4 = { #Made by Big Boss
 			add_navy_tradition = 15 
 			add_country_modifier = {
 				name = hsa_hanseatic_trade_fleet_modifier
-				duration = 10950
+				duration = -1
 			}
 		}
 	}
@@ -1830,7 +1830,7 @@ lubeck_missions_4 = { #Made by Big Boss
 		effect = {
 			add_country_modifier = { 
 				name = hsa_new_world_ambitions_modifier
-				duration = 10950 
+				duration = -1
 			}
 			create_explorer = { tradition = 80 }
 		}
@@ -1928,7 +1928,7 @@ lubeck_missions_5 = { #Made by Big Boss
 			}
 			add_country_modifier = {
 				name = hsa_victory_in_holstein_modifier
-				duration = 7300
+				duration = -1
 			}
 			if = {
 				limit = {	
@@ -1946,7 +1946,7 @@ lubeck_missions_5 = { #Made by Big Boss
 					45 = { #Lubeck
 						add_trade_modifier = {
 							who = DAN
-							duration = 3650
+							duration = -1
 							power = -50
 							key = hsa_submission_to_the_hansa
 						}
@@ -2028,7 +2028,7 @@ lubeck_missions_5 = { #Made by Big Boss
 		effect = {
 			add_country_modifier = {
 				name = hsa_high_seas_navy_modifier
-				duration = 9125 
+				duration = -1
 			}
 			45 = { add_trade_node_income = 10 }
 			add_mercantilism = 5
@@ -2126,7 +2126,7 @@ lubeck_missions_5 = { #Made by Big Boss
 		effect = {
 			add_country_modifier = {
 				name = hsa_safe_seaways_modifier 
-				duration = 7300 
+				duration = -1
 			}	
 			define_advisor = {
 				type = naval_reformer 

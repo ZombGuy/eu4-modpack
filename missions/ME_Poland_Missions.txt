@@ -65,7 +65,7 @@ POL_Missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = POL_papal_favour
-				duration = 7300
+				duration = -1
 			}
 			if = {
 				limit = {
@@ -152,7 +152,7 @@ POL_Missions_1 = {
 		effect = {
 			add_country_modifier = { 
 				name = POL_leave_brick
-				duration = 7300
+				duration = -1
 			}
 			if = {
 				limit = {
@@ -166,7 +166,7 @@ POL_Missions_1 = {
 					remove_country_modifier = POL_leave_brick
 					add_country_modifier = {
 						name = POL_leave_brick_2
-						duration = 7300
+						duration = -1
 					}
 				}
 			}
@@ -177,7 +177,7 @@ POL_Missions_1 = {
 			tooltip = {
 				add_province_modifier = {
 					name = POL_faithful_adherence
-					duration = 9125
+					duration = -1
 				}
 			}
 			hidden_effect = {
@@ -189,7 +189,7 @@ POL_Missions_1 = {
 					}
 					add_province_modifier = {
 						name = POL_faithful_adherence
-						duration = 9125
+						duration = -1
 					}
 				}
 			}
@@ -263,7 +263,7 @@ POL_Missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = POL_athelta_christi
-				duration = 10950
+				duration = -1
 			}
 			add_prestige_or_monarch_power = { amount = 20 }
 			custom_tooltip = POL_if_before_1500
@@ -299,7 +299,7 @@ POL_Missions_1 = {
 			tooltip = {
 				add_country_modifier = {
 					name = POL_autorament_cudzoziemski
-					duration = 10950
+					duration = -1
 				}
 				#event to get 10 mercenary infantry in capital???
 			}
@@ -307,7 +307,7 @@ POL_Missions_1 = {
 			tooltip = {
 				add_country_modifier = {
 					name = POL_autorament_narodowy
-					duration = 10950
+					duration = -1
 				}
 			}
 			
@@ -318,13 +318,13 @@ POL_Missions_1 = {
 					}
 					add_country_modifier = {
 						name = POL_autorament_cudzoziemski
-						duration = 10950
+						duration = -1
 					}
 				}
 				else = {
 					add_country_modifier = {
 						name = POL_autorament_narodowy
-						duration = 10950
+						duration = -1
 					}
 				}
 			}
@@ -423,7 +423,7 @@ POL_Missions_1 = {
 			}
 			add_country_modifier = {
 				name = POL_leading_jagiellonian_university
-				duration = 10950
+				duration = -1
 			}
 		}
 	}
@@ -556,7 +556,7 @@ POL_Missions_1 = {
 					}
 					add_province_modifier = {
 						name = POL_demand_for_amber
-						duration = 9125
+						duration = -1
 					}
 				}
 			}
@@ -567,7 +567,7 @@ POL_Missions_1 = {
 					}
 					add_province_modifier = {
 						name = POL_demand_for_amber
-						duration = 9125
+						duration = -1
 					}
 				}
 			}
@@ -578,7 +578,7 @@ POL_Missions_1 = {
 					}
 					add_province_modifier = {
 						name = POL_demand_for_amber
-						duration = 9125
+						duration = -1
 					}
 				}
 			}
@@ -649,12 +649,12 @@ POL_Missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = POL_sluck_sashes
-				duration = 10950
+				duration = -1
 			}
 			
 			add_country_modifier = {
 				name = POL_world_renowned
-				duration = 5475
+				duration = -1
 			}
 			
 			add_years_of_income = 0.5
@@ -731,14 +731,14 @@ POL_Missions_2 = {
 			red_ruthenia_area = {
 				add_province_modifier = {
 					name = POL_influx_of_polish_settlers
-					duration = 10950
+					duration = -1
 				}
 				set_province_flag = POL_can_convert
 			}
 			4538 = {
 				add_province_modifier = {
 					name = POL_influx_of_polish_settlers
-					duration = 10950
+					duration = -1
 				}
 				set_province_flag = POL_can_convert
 			}
@@ -852,7 +852,7 @@ POL_Missions_2 = {
 			tooltip = {
 				add_province_modifier = {
 					name = POL_grain
-					duration = 10950
+					duration = -1
 				}
 			}
 			hidden_effect = {
@@ -862,7 +862,7 @@ POL_Missions_2 = {
 					}
 					add_province_modifier = {
 						name = POL_grain
-						duration = 10950
+						duration = -1
 					}
 				}
 			}
@@ -928,7 +928,7 @@ POL_Missions_2 = {
 			4531 = {
 				add_trade_modifier = {
 					who = ROOT
-					duration = 10950
+					duration = -1
 					power = 30
 					key = POL_danube
 				}
@@ -937,7 +937,7 @@ POL_Missions_2 = {
 			tooltip = {
 				add_country_modifier = {
 					name = POL_double_trouble
-					duration = 14600
+					duration = -1
 				}
 			}
 			if = {
@@ -948,7 +948,7 @@ POL_Missions_2 = {
 				hidden_effect = {
 					add_country_modifier = {
 						name = POL_double_trouble
-						duration = 14600
+						duration = -1
 					}
 				}
 			}
@@ -1104,7 +1104,7 @@ POL_Missions_2 = {
 			257 = {
 				add_province_modifier = {
 					name = POL_splendor_of_the_capital
-					duration = 10950
+					duration = -1
 				}
 			}
 		}
@@ -1136,7 +1136,7 @@ POL_Missions_2 = {
 		effect = {
 			add_country_modifier = {
 				name = POL_magnate_education
-				duration = 7300
+				duration = -1
 			}
 		}
 	}
@@ -1212,7 +1212,7 @@ POL_Missions_2 = {
 			
 			add_country_modifier = {
 				name = POL_crown_investments
-				duration = 7300
+				duration = -1
 			}
 		}
 	}
@@ -1235,7 +1235,7 @@ POL_Missions_2 = {
 			add_stability_or_adm_power = yes
 			add_country_modifier = {
 				name = POL_mending_the_government
-				duration = 7300
+				duration = -1
 			}
 		}
 	}
@@ -1255,7 +1255,7 @@ POL_Missions_2 = {
 		effect = {
 			add_country_modifier = {
 				name = POL_control_over_the_army_and_state
-				duration = 10950
+				duration = -1
 			}
 			
 			custom_tooltip = POL_the_noble_privileges
@@ -1346,7 +1346,7 @@ POL_Missions_3_1 = {
 				}
 				add_country_modifier = {
 					name = POL_return
-					duration = 9125
+					duration = -1
 				}
 			}
 			custom_tooltip = POL_reward_if_piast
@@ -1380,7 +1380,7 @@ POL_Missions_3_1 = {
 					}
 					add_country_modifier = {
 						name = POL_return
-						duration = 9125
+						duration = -1
 					}
 				}
 				else = {
@@ -1559,7 +1559,7 @@ POL_Missions_3_2 = {
 			country_event = { id = ME_Ducal_Prussia_Events.1 }
 			add_country_modifier = {
 				name = POL_reputation
-				duration = 9125
+				duration = -1
 			}
 			curonia_area = {
 				limit = {
@@ -1731,7 +1731,7 @@ POL_Missions_3_2 = {
 		effect = {
 			add_country_modifier = {
 				name = POL_the_folwarks
-				duration = 7300
+				duration = -1
 			}
 			
 			custom_tooltip = 10_base_tax_distributed_among_farm_estates
@@ -1768,7 +1768,7 @@ POL_Missions_3_2 = {
 		effect = {
 			add_country_modifier = {
 				name = "proto_industrialization"
-				duration = 9125
+				duration = -1
 			}
 			add_years_of_income = 1.5
 		}
@@ -1807,7 +1807,7 @@ POL_Missions_3_2 = {
 			}
 			add_country_modifier = {
 				name = POL_industrial_exploitation
-				duration = 5475
+				duration = -1
 			}
 		}
 	}
@@ -1844,7 +1844,7 @@ POL_Missions_4_Jagiellon = {
 		effect = {
 			add_country_modifier = {
 				name = POL_country_stabilized
-				duration = 9125
+				duration = -1
 			}
 			silesia_area = {
 				limit = {
@@ -1971,7 +1971,7 @@ POL_Missions_4_1 = {
 				}
 				add_province_modifier = {
 					name = POL_polish_land
-					duration = 3650
+					duration = -1
 				}
 			}
 			hidden_effect = {
@@ -2041,7 +2041,7 @@ POL_Missions_4_Jagiellon_2 = {
 		effect = {
 			add_country_modifier = {
 				name = POL_king_of_bohemia
-				duration = 9125
+				duration = -1
 			}
 			if = {
 				limit = {
@@ -2141,7 +2141,7 @@ POL_Missions_4_Piast_2 = {
 		effect = {
 			add_country_modifier = {
 				name = POL_recovering_the_grody_of_the_march
-				duration = 10950
+				duration = -1
 			}
 			add_adm_power = 50
 			add_dip_power = 50
@@ -2228,7 +2228,7 @@ POL_Missions_4_2 = {
 				else = {
 					add_country_modifier = {
 						name = POL_cost_reduction
-						duration = 9125
+						duration = -1
 					}
 				}
 			}
@@ -2257,7 +2257,7 @@ POL_Missions_4_2 = {
 					else = {
 						add_country_modifier = {
 							name = POL_cost_reduction
-							duration = 9125
+							duration = -1
 						}
 					}
 				}
@@ -2292,7 +2292,7 @@ POL_Missions_4_2 = {
 			country_event = { id = flavor_pol.3473 }
 			add_country_modifier = {
 				name = "polish_ambition"
-				duration = 5475
+				duration = -1
 			}
 			custom_tooltip = POL_remove_annexed_subjects
 			hidden_effect = {
@@ -2388,13 +2388,13 @@ POL_Missions_4_2 = {
 		effect = {
 			add_country_modifier = {
 				name = POL_settle_the_east
-				duration = 9125
+				duration = -1
 			}
 			custom_tooltip = POL_every_province_with_east_slavic_dev
 			tooltip = {
 				add_province_modifier = {
 					name = POL_growing_aglomeration
-					duration = 10950
+					duration = -1
 				}
 			}
 			hidden_effect = {
@@ -2405,7 +2405,7 @@ POL_Missions_4_2 = {
 					}
 					add_province_modifier = {
 						name = POL_growing_aglomeration
-						duration = 10950
+						duration = -1
 					}
 				}
 			}
@@ -2487,7 +2487,7 @@ POL_Missions_4_2 = {
 		effect = {
 			add_country_modifier = {
 				name = POL_fidei_defensor
-				duration = 9125
+				duration = -1
 			}
 			add_mil_power = 50
 			
@@ -2519,7 +2519,7 @@ POL_Missions_4_2 = {
 		effect = {
 			add_country_modifier = {
 				name = POL_defeated_the_ottoman_empire
-				duration = 10950
+				duration = -1
 			}
 			
 			add_papal_influence = 50
@@ -2559,7 +2559,7 @@ POL_Missions_4_2 = {
 		effect = {
 			add_country_modifier = {
 				name = POL_growing_population
-				duration = 10950
+				duration = -1
 			}
 			custom_tooltip = POL_distribute_10_manpower
 			
@@ -2613,7 +2613,7 @@ POL_Missions_4_2 = {
 		effect = {
 			add_country_modifier = {
 				name = POL_spread_of_ideas
-				duration = 18250
+				duration = -1
 			}
 			
 			add_dip_power = 100
@@ -2656,7 +2656,7 @@ POL_Missions_4_2 = {
 		effect = {
 			add_country_modifier = {
 				name = POL_sarmatism
-				duration = 10950
+				duration = -1
 			}
 			
 			define_foreign_advisor = {
@@ -2711,20 +2711,20 @@ POL_Missions_5_1 = {
 						}
 						add_country_modifier = {
 							name = POL_adm_adv_3
-							duration = 9125
+							duration = -1
 						}
 					}
 					else = {
 						add_country_modifier = {
 							name = POL_adm_adv_2
-							duration = 9125
+							duration = -1
 						}
 					}
 				}
 				else = {
 					add_country_modifier = {
 						name = POL_adm_adv_1
-						duration = 9125
+						duration = -1
 					}
 				}
 				if = {
@@ -2737,20 +2737,20 @@ POL_Missions_5_1 = {
 						}
 						add_country_modifier = {
 							name = POL_dip_adv_3
-							duration = 9125
+							duration = -1
 						}
 					}
 					else = {
 						add_country_modifier = {
 							name = POL_dip_adv_2
-							duration = 9125
+							duration = -1
 						}
 					}
 				}
 				else = {
 					add_country_modifier = {
 						name = POL_dip_adv_1
-						duration = 9125
+						duration = -1
 					}
 				}
 				if = {
@@ -2763,20 +2763,20 @@ POL_Missions_5_1 = {
 						}
 						add_country_modifier = {
 							name = POL_mil_adv_3
-							duration = 9125
+							duration = -1
 						}
 					}
 					else = {
 						add_country_modifier = {
 							name = POL_mil_adv_2
-							duration = 9125
+							duration = -1
 						}
 					}
 				}
 				else = {
 					add_country_modifier = {
 						name = POL_mil_adv_1
-						duration = 9125
+						duration = -1
 					}
 				}
 			}
@@ -2883,7 +2883,7 @@ POL_Missions_5_Jagiellon = {
 		effect = {
 			add_country_modifier = {
 				name = POL_contesting_bohemia
-				duration = 9125
+				duration = -1
 			}
 			if = {
 				limit = {
@@ -3127,7 +3127,7 @@ POL_Missions_5_Jagiellon = {
 			country_event = { id = ME_Poland_Events.12 }
 			add_country_modifier = {
 				name = POL_knowledge_of_bibliotheca
-				duration = 7300
+				duration = -1
 			}
 			add_prestige_or_monarch_power = { amount = 20 }
 		}
@@ -3258,12 +3258,12 @@ POL_Missions_5_Piast = {
 		effect = {
 			add_country_modifier = {
 				name = POL_access_to_sea_regained
-				duration = 10950
+				duration = -1
 			}
 			
 			add_country_modifier = {
 				name = POL_west
-				duration = 9125
+				duration = -1
 			}
 			
 			custom_tooltip = POL_tuchola_and_gdansk
@@ -3312,7 +3312,7 @@ POL_Missions_5_Piast = {
 		effect = {
 			add_country_modifier = {
 				name = POL_reconquests_in_the_west
-				duration = 9125
+				duration = -1
 			}
 			add_accepted_culture_or_dip_power = { culture = sorbian }
 		}
@@ -3499,7 +3499,7 @@ POL_Missions_5_2 = {
 			}
 			add_country_modifier = {
 				name = POL_victory_in_russia
-				duration = 10950
+				duration = -1
 			}
 		}
 	}
@@ -3556,7 +3556,7 @@ POL_Missions_5_2 = {
 			tooltip = {
 				add_country_modifier = {
 					name = POL_kremlin
-					duration = 9125
+					duration = -1
 				}
 				add_accepted_culture_or_dip_power = { culture = russian }
 			}
@@ -3573,7 +3573,7 @@ POL_Missions_5_2 = {
 				else = {
 					add_country_modifier = {
 						name = POL_kremlin
-						duration = 9125
+						duration = -1
 					}
 					add_accepted_culture_or_dip_power = { culture = russian }
 				}
@@ -3717,7 +3717,7 @@ POL_Missions_5_2 = {
 		effect = {
 			add_country_modifier = {
 				name = POL_rejoice_mother_poland
-				duration = 10950
+				duration = -1
 			}
 		}
 	}
@@ -3782,7 +3782,7 @@ POL_Missions_5_2 = {
 		effect = {
 			add_country_modifier = {
 				name = POL_reaching_new_markets
-				duration = 9125
+				duration = -1
 			}
 			add_mercantilism = 2
 			
@@ -3836,7 +3836,7 @@ POL_Missions_5_2 = {
 		effect = {
 			add_country_modifier = {
 				name = POL_in_eastern_markets
-				duration = 7300
+				duration = -1
 			}
 			add_years_of_income = 0.5
 		}
@@ -3855,7 +3855,7 @@ POL_Missions_5_2 = {
 		effect = {
 			add_country_modifier = {
 				name = POL_enlightened_thought
-				duration = 7300
+				duration = -1
 			}
 		}
 	}

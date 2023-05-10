@@ -28,7 +28,7 @@
 			# set_country_flag = lun_bru_ally
 			# add_country_modifier = {
 				# name = "dynastic_ties_welf"
-				# duration = 9125
+				# duration = -1
 			# }
 			# add_trust = {
 				# who = LUN
@@ -71,7 +71,7 @@
 				# create_union = LUN
 				# add_country_modifier = {
 					# name = "dynastic_ties_welf"
-					# duration = 9125
+					# duration = -1
 				# }
 			# }
 			# else = {

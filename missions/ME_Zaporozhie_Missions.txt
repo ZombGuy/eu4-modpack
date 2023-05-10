@@ -67,7 +67,7 @@ ZAZ_missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = zaz_taxes
-				duration = 9125
+				duration = -1
 			}
 			every_owned_province = {
 				limit = {
@@ -150,7 +150,7 @@ ZAZ_missions_2 = {
 			add_yearly_manpower = 2.5
 			add_country_modifier = {
 				name = zaz_army
-				duration = 5475
+				duration = -1
 			}
 			282 = {
 				if = {
@@ -262,7 +262,7 @@ ZAZ_missions_3 = {
 			}
 			add_country_modifier = {
 				name = zaz_lit_kill
-				duration = 1825
+				duration = -1
 			}
 		}
 	}
@@ -460,13 +460,13 @@ ZAZ_missions_4 = {
 					}
 					add_province_modifier = {
 			   			name = zaz_prepped
-			  			duration = 3650
+			  			duration = -1
 		   			}
 	   			}
 				else = {
 					add_province_modifier = {
 						name = zaz_prepped
-						duration = 7000
+						duration = -1
 					}
 				}
   			}
@@ -567,7 +567,7 @@ ZAZ_missions_5 = {
 			}
 			add_country_modifier = {
 				name = zaz_proper_khan
-				duration = 9125
+				duration = -1
 			}
 		}
 	}
@@ -1041,13 +1041,13 @@ ZAZ_TUR_missions_2 = {
 				}
 				add_country_modifier = {
 					name = zaz_unchecked_horde
-					duration = 10950
+					duration = -1
 				}
 				add_stability = -1
 			}
 			add_country_modifier = {
 				name = zaz_turkish_help
-				duration = 18250
+				duration = -1
 			}
 		}
 	}
@@ -1081,7 +1081,7 @@ ZAZ_TUR_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = kaz_connections
-				duration = 9125
+				duration = -1
 			}
 		}
 	}
@@ -1103,7 +1103,7 @@ ZAZ_TUR_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = zaz_tur_trade
-				duration = 9125
+				duration = -1
 			}
 		}
 	}
@@ -1134,7 +1134,7 @@ ZAZ_TUR_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = zaz_steppe_raiders
-				duration  = 9125
+				duration = -1
 			}
 		}
 	}
@@ -1207,7 +1207,7 @@ ZAZ_TUR_missions_4 = {
 			151 = {
 				add_trade_modifier = {
 					who = ROOT
-					duration = 18250
+					duration = -1
 					power = 15
 					key = ZAZ_SLAVE_TRADE
 				}
@@ -1280,7 +1280,7 @@ ZAZ_TUR_missions_5 = {
 			}
 			add_country_modifier = {
 				name = zaz_rivaled_rus
-				duration = 9125
+				duration = -1
 			}
 		}
 	}
@@ -1492,7 +1492,7 @@ ZAZ_RUS_missions_2 = {
 		effect = {
 			add_country_modifier = {
 				name = zaz_trade_eff
-				duration = 9125
+				duration = -1
 			}
 		}
 	}
@@ -1527,7 +1527,7 @@ ZAZ_RUS_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = kaz_connections
-				duration = 9125
+				duration = -1
 			}
 		}
 	}
@@ -1549,7 +1549,7 @@ ZAZ_RUS_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = kaz_caravan
-				duration = 9125
+				duration = -1
 			}
 		}
 	}
@@ -1568,7 +1568,7 @@ ZAZ_RUS_missions_3 = {
 			add_patriarch_authority = 0.3
 			add_country_modifier = {
 				name = zaz_faith
-				duration = 9125
+				duration = -1
 			}
 		}
 	}
@@ -1599,7 +1599,7 @@ ZAZ_RUS_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = zaz_steppe_raiders
-				duration  = 9125
+				duration = -1
 			}
 		}
 	}
@@ -1641,13 +1641,13 @@ ZAZ_RUS_missions_3 = {
 				}
 				add_country_modifier = {
 					name = zaz_unchecked_horde
-					duration = 10950
+					duration = -1
 				}
 				add_stability = -1
 			}
 			add_country_modifier = {
 				name = zaz_russian_help
-				duration = 18250
+				duration = -1
 			}
 		}
 	}
@@ -1665,7 +1665,7 @@ ZAZ_RUS_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = zaz_threaten_tur
-				duration = 9125
+				duration = -1
 			}
 		}
 	}
@@ -2082,7 +2082,7 @@ ZAZ_GOL_missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = zaz_insult_tur
-				duration = 9125
+				duration = -1
 			}
 		}
 	}
@@ -2279,7 +2279,7 @@ ZAZ_GOL_missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = zaz_plc_buff
-				duration = 9125
+				duration = -1
 			}
 		}
 	}
@@ -2583,7 +2583,7 @@ ZAZ_GOL_missions_2 = {
 		effect = {
 			add_country_modifier = {
 				name = zaz_tur_buff
-				duration = 9125
+				duration = -1
 			}
 			country_event = { id = ME_Zaporozhie_Events.9 }
 		}
@@ -2744,7 +2744,7 @@ ZAZ_GOL_missions_3 = {
 			}
 			add_country_modifier = {
 				name = zaz_ruthenia
-				duration = 9125
+				duration = -1
 			}
 		}
 	}
@@ -2877,7 +2877,7 @@ ZAZ_GOL_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = zaz_russia_buff
-				duration = 9125
+				duration = -1
 			}
 		}
 	}

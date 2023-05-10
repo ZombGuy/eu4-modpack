@@ -41,7 +41,7 @@ emp_bohemia_1 = {
 				}
 				add_country_modifier = { # misionary maintenance cost
 					name = "hussite_conversions"
-					duration = 7300
+					duration = -1
 				}
 			}
 			else_if = {
@@ -126,7 +126,7 @@ emp_bohemia_1 = {
 				}
 				add_country_modifier = {
 					name = "boh_hussite_revolt"
-					duration = 7300
+					duration = -1
 				}
 			}
 			else = {
@@ -370,7 +370,7 @@ emp_bohemia_2 = {
 			}
 			add_country_modifier = {
 				name = "boh_integrated_silesia"
-				duration = 7300
+				duration = -1
 			}
 			slovakia_area = {
 				limit = {
@@ -459,7 +459,7 @@ emp_bohemia_2 = {
 		effect = {
 			add_country_modifier = {
 				name = "boh_fortification_effort"
-				duration = 7300
+				duration = -1
 			}
 			austria_proper_area = {
 				limit = {
@@ -786,7 +786,7 @@ emp_bohemia_3 = {
 			add_adm_power = 100
 			add_country_modifier = {
 				name = "boh_premysl_mod"
-				duration = 7300
+				duration = -1
 			}
 		}
 		ai_weight = {
@@ -1044,7 +1044,7 @@ emp_bohemia_4 = {
 				}
 				add_country_modifier = {
 					name = "boh_sigismund_reforms"
-					duration = 7300
+					duration = -1
 				}
 			}
 			else = {

@@ -138,7 +138,7 @@ BAM_missions_5 = {
 			66 = {
 				add_province_modifier = {
 					name = BAM_residence_of_the_bishops
-					duration = 9125
+					duration = -1
 				}
 			}
 		}

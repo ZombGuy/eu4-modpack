@@ -103,7 +103,7 @@ sca_conquest_slot_2 = {
 					}
 					add_province_modifier = {
 						name = sca_german_integration
-						duration = 9125
+						duration = -1
 					}
 				}
 			}
@@ -322,7 +322,8 @@ sca_conquqest_slot_4 = {
 						province_has_current_tech_fort_trigger = yes 
 						NOT = { has_province_modifier = teu_pru_fortified_border } 
 					}
-					add_province_modifier = { name = teu_pru_fortified_border duration = -1 }
+					add_province_modifier = { name = teu_pru_fortified_border duration = -1
+}
 				}
 				random_province = {
 					limit = {
@@ -331,7 +332,8 @@ sca_conquqest_slot_4 = {
 						province_has_current_tech_fort_trigger = yes 
 						NOT = { has_province_modifier = teu_pru_fortified_border } 
 					}
-					add_province_modifier = { name = teu_pru_fortified_border duration = -1 }
+					add_province_modifier = { name = teu_pru_fortified_border duration = -1
+}
 				}
 				random_province = {
 					limit = {
@@ -340,7 +342,8 @@ sca_conquqest_slot_4 = {
 						province_has_current_tech_fort_trigger = yes 
 						NOT = { has_province_modifier = teu_pru_fortified_border } 
 					}
-					add_province_modifier = { name = teu_pru_fortified_border duration = -1 }
+					add_province_modifier = { name = teu_pru_fortified_border duration = -1
+}
 				}
 				random_province = {
 					limit = {
@@ -349,7 +352,8 @@ sca_conquqest_slot_4 = {
 						province_has_current_tech_fort_trigger = yes 
 						NOT = { has_province_modifier = teu_pru_fortified_border } 
 					}
-					add_province_modifier = { name = teu_pru_fortified_border duration = -1 }
+					add_province_modifier = { name = teu_pru_fortified_border duration = -1
+}
 				}
 				random_province = {
 					limit = {
@@ -358,7 +362,8 @@ sca_conquqest_slot_4 = {
 						province_has_current_tech_fort_trigger = yes 
 						NOT = { has_province_modifier = teu_pru_fortified_border } 
 					}
-					add_province_modifier = { name = teu_pru_fortified_border duration = -1 }
+					add_province_modifier = { name = teu_pru_fortified_border duration = -1
+}
 				}
 			}
 		}

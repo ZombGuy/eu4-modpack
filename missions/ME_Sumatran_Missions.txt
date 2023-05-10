@@ -38,7 +38,7 @@ SUM_generic_missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = SUM_army_modifier
-				duration = 7300
+				duration = -1
 			}
 			custom_tooltip = SUM_when_both_are_completed
 			
@@ -80,7 +80,7 @@ SUM_generic_missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = SUM_capital_of_srivijaya_conquered
-				duration = 10950
+				duration = -1
 			}
 			add_adm_power = 100
 		}
@@ -253,7 +253,7 @@ SUM_generic_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = SUM_navy_modifier
-				duration = 7300
+				duration = -1
 			}
 			custom_tooltip = SUM_when_both_are_completed
 			hidden_effect = {
@@ -295,7 +295,7 @@ SUM_generic_missions_3 = {
 			1361 = {
 				add_trade_modifier = {
 					who = ROOT
-					duration = 9125
+					duration = -1
 					power = 15
 					key = MKS_gateway
 				}
@@ -384,7 +384,7 @@ SUM_generic_missions_4 = {
 		effect = {
 			add_country_modifier = {
 				name = SUM_sumatran_architecture
-				duration = 10950
+				duration = -1
 			}
 			
 			capital_scope = {
@@ -569,7 +569,7 @@ SUM_generic_missions_5 = {
 			}
 			add_country_modifier = {
 				name = SUM_trade
-				duration = 9125
+				duration = -1
 			}
 		}
 	}

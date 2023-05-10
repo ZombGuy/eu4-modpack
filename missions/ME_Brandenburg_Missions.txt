@@ -39,7 +39,7 @@ BRA_missions_1 = {
 				else = {
 					add_country_modifier = {
 						name = BRA_prussian_legacy
-						duration = 7300
+						duration = -1
 					}
 				}
 			}
@@ -51,7 +51,7 @@ BRA_missions_1 = {
 			tooltip = {
 				add_country_modifier = {
 					name = BRA_prussian_legacy
-					duration = 7300
+					duration = -1
 				}
 			}
 		}
@@ -103,7 +103,7 @@ BRA_missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = BRA_geheimer_rat
-				duration = 10950
+				duration = -1
 			}
 		}
 	}
@@ -225,7 +225,7 @@ BRA_missions_1_franconia = {
 			}
 			add_country_modifier = {
 				name = BRA_nurturing_kinsmen
-				duration = 7300
+				duration = -1
 			}
 		}
 	}
@@ -255,7 +255,7 @@ BRA_missions_1_franconia = {
 		effect = {
 			add_country_modifier = {
 				name = BRA_hohenzollern_hegemony
-				duration = 9125
+				duration = -1
 			}
 			every_country = {
 				limit = {
@@ -305,13 +305,13 @@ BRA_missions_2 = {
 			4747 = {
 				add_province_modifier = {
 					name = BRA_neumark_province
-					duration = 7300
+					duration = -1
 				}
 			}
 			49 = {
 				add_province_modifier = {
 					name = BRA_neumark_province
-					duration = 7300
+					duration = -1
 				}
 			}
 			hidden_effect = {
@@ -467,7 +467,7 @@ BRA_missions_2 = {
 		effect = {
 			add_country_modifier = {
 				name = BRA_kirchenordnung
-				duration = 9125
+				duration = -1
 			}
 			custom_tooltip = POM_FOR_EVERY_STAB
 			hidden_effect = {
@@ -515,7 +515,7 @@ BRA_missions_2 = {
 		effect = {
 			add_country_modifier = {
 				name = BRA_protestant_power
-				duration = 9125
+				duration = -1
 			}
 		}
 	}
@@ -624,7 +624,7 @@ BRA_missions_3 = {
 			}
 			add_country_modifier = {
 				name = BRA_hegemon
-				duration = 14600
+				duration = -1
 			}
 		}
 	}
@@ -720,7 +720,7 @@ BRA_missions_3 = {
 				hidden_effect = {
 					add_country_modifier = {
 						name = BRA_prussian_ambition_2
-						duration = 5475
+						duration = -1
 					}
 				}
 			}
@@ -822,7 +822,7 @@ BRA_missions_4 = {
 			}
 			add_country_modifier = {
 				name = BRA_controlling_the_circle
-				duration = 7300
+				duration = -1
 			}
 		}
 	}
@@ -875,7 +875,7 @@ BRA_missions_4 = {
 							}
 							add_province_modifier = {
 								name = BRA_saxon_trading_company
-								duration = 10950
+								duration = -1
 							}
 							random_neighbor_province = {
 								limit = {
@@ -883,7 +883,7 @@ BRA_missions_4 = {
 								}
 								add_province_modifier = {
 									name = BRA_saxon_trading_company
-									duration = 10950
+									duration = -1
 								}
 							}
 						}
@@ -913,7 +913,7 @@ BRA_missions_4 = {
 							}
 							add_province_modifier = {
 								name = BRA_saxon_trading_company
-								duration = 10950
+								duration = -1
 							}
 							random_neighbor_province = {
 								limit = {
@@ -921,7 +921,7 @@ BRA_missions_4 = {
 								}
 								add_province_modifier = {
 									name = BRA_saxon_trading_company
-									duration = 10950
+									duration = -1
 								}
 							}
 						}
@@ -933,7 +933,7 @@ BRA_missions_4 = {
 				else = {
 					add_country_modifier = {
 						name = BRA_absolute_upper_saxon_leader
-						duration = 7300
+						duration = -1
 					}
 					add_adm_power = 50
 				}
@@ -947,7 +947,7 @@ BRA_missions_4 = {
 			tooltip = {
 				add_province_modifier = {
 					name = BRA_saxon_trading_company
-					duration = 10950
+					duration = -1
 				}
 			}
 			custom_tooltip = BRA_saxon_extra_comments
@@ -956,7 +956,7 @@ BRA_missions_4 = {
 				add_mil_power = 50
 				add_country_modifier = {
 					name = BRA_absolute_upper_saxon_leader
-					duration = 7300
+					duration = -1
 				}
 			}
 		}
@@ -989,7 +989,7 @@ BRA_missions_4 = {
 		effect = {
 			add_country_modifier = {
 				name = BRA_firm_control
-				duration = 10950
+				duration = -1
 			}
 		}
 	}
@@ -1161,7 +1161,7 @@ BRA_missions_5 = {
 				hidden_effect = {
 					add_country_modifier = {
 						name = BRA_schwanenorden
-						duration = -1 #removed in age of reformation
+						duration = -1
 					}
 				}
 				custom_tooltip = BRA_schwanenorden_modifier
@@ -1169,7 +1169,7 @@ BRA_missions_5 = {
 			else = {
 				add_country_modifier = {
 					name = BRA_tamed_the_nobility
-					duration = 9125
+					duration = -1
 				}
 			}
 		}
@@ -1202,7 +1202,7 @@ BRA_missions_5 = {
 		effect = {
 			add_country_modifier = {
 				name = BRA_new_lords_of_brandenburg
-				duration = 9125
+				duration = -1
 			}
 			add_stability_or_adm_power = yes
 			country_event = { id = ME_Prussia_Events.18 } 

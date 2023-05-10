@@ -113,7 +113,7 @@ mam_south_missions = {
 		effect = {
 			add_country_modifier = {
 				name = "yemeni_trade_modifier"
-				duration = 7300
+				duration = -1
 			}
 		}
 	}
@@ -194,7 +194,7 @@ mam_north_missions = {
 		effect = {
 			add_country_modifier = {
 				name = "bedouins_pacified"
-				duration = 7300
+				duration = -1
 			}
 			aleppo_area = {
 				limit = {
@@ -279,7 +279,7 @@ mam_north_missions = {
 		effect = {
 			add_country_modifier = {
 				name = "beyliks_subjugated"
-				duration = 7300
+				duration = -1
 			}
 			erzurum_area = {
 				limit = {

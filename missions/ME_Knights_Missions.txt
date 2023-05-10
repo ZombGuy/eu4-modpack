@@ -147,7 +147,7 @@ KNI_slot_1 = {
 		effect = {
 			add_country_modifier = {
 				name = KNI_Great
-				duration = 9125
+				duration = -1
 			}
 		}
 	}
@@ -191,7 +191,7 @@ KNI_slot_2 = {
 			}
 			add_country_modifier = {
 				name = KNI_papal_blessing
-				duration = 9125
+				duration = -1
 			}
 		}
 	}
@@ -224,7 +224,7 @@ KNI_slot_2 = {
 		effect = {
 			add_country_modifier = {
 				name = KNI_bastion_of_christianity
-				duration = 9125
+				duration = -1
 			}
 		}
 	}
@@ -246,7 +246,7 @@ KNI_slot_2 = {
 		effect = {
 			add_country_modifier = {
 				name = KNI_Vult
-				duration = 5475
+				duration = -1
 			}
 			custom_tooltip = KNI_Tooltips.1
 			tooltip = {
@@ -385,7 +385,7 @@ KNI_slot_2 = {
 		effect = {
 			add_country_modifier = {
 				name = KNI_Centralization
-				duration = 3650
+				duration = -1
 			}
 			358 = {
 				if = {
@@ -444,7 +444,7 @@ KNI_slot_2 = {
 			add_mil_power = 100
 			add_country_modifier = {
 				name = KNI_mediterranean_modifier
-				duration = 9125
+				duration = -1
 			}
 		}
 	}
@@ -580,7 +580,7 @@ KNI_slot_3 = {
 		effect = {
 			add_country_modifier = {
 				name = KNI_New_Era
-				duration = 18250
+				duration = -1
 			}
 			aleppo_area = {
 				limit = {
@@ -613,7 +613,7 @@ KNI_slot_3 = {
 		effect = {
 			add_country_modifier = {
 				name = KNI_in_the_name_of_god
-				duration = 9125
+				duration = -1
 			}
 		}
 	}
@@ -648,7 +648,7 @@ KNI_slot_4 = {
 		effect = {
 			add_country_modifier = {
 				name = KNI_all_is_calm
-				duration = 7300
+				duration = -1
 			}
 		}
 	}
@@ -946,7 +946,7 @@ KNI_slot_5 = {
 		effect = {
 			add_country_modifier = {
 				name = KNI_Terror
-				duration = 18250
+				duration = -1
 			}
 		}
 	}
@@ -968,7 +968,7 @@ KNI_slot_5 = {
 		effect = {
 			add_country_modifier = {
 				name = KNI_Raiders
-				duration = 18250
+				duration = -1
 			}
 		}
 	}

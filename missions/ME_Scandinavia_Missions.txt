@@ -95,7 +95,7 @@ SCA_missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = thriving_arms_industry
-				duration = 7300
+				duration = -1
 			}
 			finland_area = {
 				limit = {
@@ -181,7 +181,7 @@ SCA_missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = sca_lubeck_conquered
-				duration = 3650
+				duration = -1
 			}
 			46 = {
 				if = {
@@ -226,7 +226,7 @@ SCA_missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = sca_mecklenburg_conquered
-				duration = 7300
+				duration = -1
 			}
 			vorpommern_area = {
 				limit = {
@@ -269,7 +269,7 @@ SCA_missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = sca_german_mercenaries
-				duration = 7300
+				duration = -1
 			}
 			west_prussia_area = {
 				limit = {
@@ -358,7 +358,7 @@ SCA_missions_2 = {
 		effect = {
 			add_country_modifier = {
 				name = expansionist_country
-				duration = 7300
+				duration = -1
 			}
 			33 = {
 				if = {
@@ -381,7 +381,7 @@ SCA_missions_2 = {
 			finland_area = {
 				add_province_modifier = {
 					name = sca_finnish_march
-					duration = 7300
+					duration = -1
 				}
 			}
 		}
@@ -452,7 +452,7 @@ SCA_missions_2 = {
 			33 = {
 				add_trade_modifier = {
 					who = ROOT
-					duration = 5475
+					duration = -1
 					power = 15
 					key = Scandinavia_Neva
 				}
@@ -532,7 +532,7 @@ SCA_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = sca_vinland_timber
-				duration = 9125
+				duration = -1
 			}
 		}
 	}
@@ -559,7 +559,7 @@ SCA_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = sca_colonist_rush
-				duration = 7300
+				duration = -1
 			}
 		}
 	}
@@ -593,7 +593,7 @@ SCA_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = army_enthusiasm
-				duration = 7300
+				duration = -1
 			}
 		}
 	}
@@ -721,7 +721,7 @@ SCA_missions_4 = {
 			add_prestige = 10
 			add_country_modifier = {
 				name = sca_colonial_rush
-				duration = 9125
+				duration = -1
 			}
 		}
 	}
@@ -791,7 +791,7 @@ SCA_missions_4 = {
 		effect = {
 			add_country_modifier = {
 				name = sca_land_of_prosperity
-				duration = 7300
+				duration = -1
 			}
 		}
 	}
@@ -859,7 +859,7 @@ SCA_missions_4 = {
 			}
 			add_country_modifier = {
 				name = sca_viking_invasion
-				duration = 7300
+				duration = -1
 			}
 		}
 	}
@@ -1010,7 +1010,7 @@ SCA_missions_5 = {
 			}
 			add_country_modifier = {
 				name = sca_pillage
-				duration = 36500
+				duration = -1
 			}
 		}
 	}
@@ -1050,7 +1050,7 @@ SCA_missions_5 = {
 		effect = {
 			add_country_modifier = {
 				name = sca_pillage_2
-				duration = 7300
+				duration = -1
 			}
 			east_anglia_area = {
 				limit = {
@@ -1100,7 +1100,7 @@ SCA_missions_5 = {
 		effect = {
 			add_country_modifier = {
 				name = sca_pillage_3
-				duration = 7300
+				duration = -1
 			}
 			kingdom_of_the_isles_area = {
 				limit = {
@@ -1199,25 +1199,25 @@ SCA_missions_5 = {
 			munster_area = {
 				add_province_modifier = {
 					name = sca_ireland_exploitation
-					duration = 7300
+					duration = -1
 				}
 			}
 			leinster_area = {
 				add_province_modifier = {
 					name = sca_ireland_exploitation
-					duration = 7300
+					duration = -1
 				}
 			}
 			connacht_area = {
 				add_province_modifier = {
 					name = sca_ireland_exploitation
-					duration = 7300
+					duration = -1
 				}
 			}
 			ulster_area = {
 				add_province_modifier = {
 					name = sca_ireland_exploitation
-					duration = 7300
+					duration = -1
 				}
 			}
 		}

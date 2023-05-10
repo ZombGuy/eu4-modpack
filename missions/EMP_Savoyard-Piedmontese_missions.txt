@@ -303,7 +303,7 @@ emp_sav_missions_conquest = {
 			}
 			add_country_modifier = {
 				name = sav_tyrrhenian_sea
-				duration = 7300
+				duration = -1
 			}
 		}
 		ai_weight = {
@@ -505,7 +505,7 @@ emp_sav_missions_conquest_north = {
 			add_adm_power = 50
 			add_country_modifier = {
 				name = sav_duke_of_burgundy
-				duration = 7300
+				duration = -1
 			}
 		}
 	}
@@ -572,7 +572,7 @@ emp_sav_missions_conquest_italia = {
 		effect = {
 			add_country_modifier = {
 				name = sav_piedmont_lombardy
-				duration = 7300
+				duration = -1
 			}
 			venetia_area = {
 				limit = {
@@ -633,7 +633,7 @@ emp_sav_missions_conquest_italia = {
 		effect = {
 			add_country_modifier = {
 				name = sav_northern_italian_empire
-				duration = 10950
+				duration = -1
 			}
 		}
 		ai_weight = {
@@ -757,7 +757,7 @@ emp_sav_missions_conquest_west = {
 					}
 					add_province_modifier = {
 						name = sav_savoyard_occitania
-						duration = 10950
+						duration = -1
 					}
 				}
 			}
@@ -805,7 +805,7 @@ emp_sav_missions_conquest_west = {
 		effect = {
 			add_country_modifier = {
 				name = sav_king_of_france
-				duration = 7300
+				duration = -1
 			}
 
 			if = {
@@ -903,7 +903,7 @@ emp_sav_missions_conquest_italia_2 = {
 			112 = {
 				add_trade_modifier = {
 					who = root
-					duration = 7300
+					duration = -1
 					power = 50
 					key = sav_trade_in_venice
 				}
@@ -949,7 +949,7 @@ emp_sav_missions_security = {
 		effect = {
 			add_country_modifier = {
 				name = sav_savoyard_diplomacy
-				duration = 7300
+				duration = -1
 			}
 		}
 	}
@@ -1001,7 +1001,7 @@ emp_sav_missions_security = {
 			change_heir_dip = 1
 			add_country_modifier = {
 				name = sav_savoyard_diplomacy2
-				duration = 10950
+				duration = -1
 			}
 		}
 	}
@@ -1124,7 +1124,7 @@ emp_sav_missions_security = {
 					}
 					add_province_modifier = {
 						name = mlo_expanded_fortifications
-						duration = 36500
+						duration = -1
 					}
 				}
 				every_owned_province = {
@@ -1183,7 +1183,7 @@ emp_sav_missions_security = {
 			add_mil_power = 100
 			add_country_modifier = {
 				name = sav_savoyard_army
-				duration = 10950
+				duration = -1
 			}
 		}
 	}
@@ -1292,7 +1292,7 @@ emp_sav_missions_economy = {
 						}
 						add_province_modifier = {
 							name = sav_prosperous_homelands
-							duration = 7300
+							duration = -1
 						}
 					}
 				}
@@ -1432,7 +1432,7 @@ emp_sav_missions_papacy = {
 		effect = {
 			add_country_modifier = {
 				name = sav_king_of_cyprus
-				duration = 10950
+				duration = -1
 			}
 			palestine_area = {
 				limit = {

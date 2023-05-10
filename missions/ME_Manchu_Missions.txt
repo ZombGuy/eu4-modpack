@@ -170,7 +170,7 @@ me_manchu_missions_1 = {
 			}
 			add_country_modifier = {
 				name = manchu_northern_hegemony
-				duration = 5475
+				duration = -1
 			}
 		}
 	}
@@ -321,7 +321,7 @@ me_manchu_missions_2 = {
 		effect = {
 			add_country_modifier = {
 				name = manchu_enforced_korean_trade
-				duration = 3650
+				duration = -1
 			}
 		}
 	}
@@ -517,7 +517,7 @@ me_manchu_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = QNG_invasion_of_ming
-				duration = 10950 #30 years
+				duration = -1
 			}
 			north_china_region = {
 				limit = {
@@ -548,7 +548,7 @@ me_manchu_missions_3 = {
 			MNG = {
 				add_country_modifier = {
 					name = manchu_destabilize_ming
-					duration = 5475
+					duration = -1
 				}
 			}
 			south_china_region = {
@@ -709,7 +709,7 @@ me_manchu_missions_4 = {
 			}
 			add_country_modifier = {
 				name = manchu_mongol_horsemen
-				duration = 9125
+				duration = -1
 			}
 		}
 	}
@@ -890,7 +890,7 @@ me_manchu_missions_5 = {
 		effect = {
 			add_country_modifier = {
 				name = manchu_close_circle
-				duration = 9125
+				duration = -1
 			}
 		}
 	}

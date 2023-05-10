@@ -86,7 +86,7 @@ PAL_Missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = PAL_wine
-				duration = 10950
+				duration = -1
 			}
 			add_years_of_owned_provinces_production_income = {
 				years = 5
@@ -186,7 +186,7 @@ PAL_Missions_3 = {
 			add_army_tradition_or_mil_power = { amount = 10 }
 			add_country_modifier = {
 				name = PAL_territories_reconnected
-				duration = 5475
+				duration = -1
 			}
 			upper_bavaria_area = {
 				limit = {
@@ -249,7 +249,7 @@ PAL_Missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = PAL_united_the_house_of_wittelsbachs
-				duration = 10950
+				duration = -1
 			}
 		}
 	}
@@ -306,7 +306,7 @@ PAL_Missions_4 = {
 		effect = {
 			add_country_modifier = {
 				name = PAL_unifying_the_lines_of_palatinate
-				duration = 9125
+				duration = -1
 			}
 			franconia_area = {
 				limit = {
@@ -493,7 +493,7 @@ PAL_Missions_5 = {
 			tooltip = {
 				add_country_modifier = {
 					name = PAL_heidelberg_catechism
-					duration = 9125
+					duration = -1
 				}
 				if = {
 					limit = {
@@ -536,7 +536,7 @@ PAL_Missions_5 = {
 				else = {
 					add_country_modifier = {
 						name = PAL_heidelberg_catechism
-						duration = 9125
+						duration = -1
 					}
 					define_advisor = {
 						type = theologian

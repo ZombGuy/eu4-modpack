@@ -36,7 +36,7 @@ BRBR_missions_1 = { #BRBR is the namespace for this
 		effect = {
 			add_country_modifier = {
 				name = BRBR_moorish_refugees
-				duration = 7300
+				duration = -1
 			}
 			add_yearly_sailors = 0.5
 			add_yearly_manpower = 0.5
@@ -45,7 +45,7 @@ BRBR_missions_1 = { #BRBR is the namespace for this
 				effect = "
 					add_country_modifier = {
 						name = BRBR_moorish_refugees_overlord
-						duration = 7300
+						duration = -1
 					}
 				"
 			}
@@ -416,7 +416,7 @@ BRBR_missions_4 = {
 		effect = {
 			add_country_modifier = {
 				name = BRBR_capturing_christian_islands
-				duration = 9125
+				duration = -1
 			}
 			add_navy_tradition = 25
 				
@@ -627,7 +627,7 @@ BRBR_missions_5 = {
 		effect = {
 			add_country_modifier = {
 				name = BRBR_relentless_vile_raids
-				duration = 10950
+				duration = -1
 			}
 			
 			set_country_flag = BRBR_slave_trade_nation

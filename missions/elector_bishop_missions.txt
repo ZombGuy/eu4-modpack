@@ -49,7 +49,7 @@ bishop_elector_group_3 = {
 		effect = {
 			add_country_modifier = {
 				name = bishop_elector_good_diplomacy
-				duration = 7300
+				duration = -1
 			}
 		}
 	}
@@ -70,7 +70,7 @@ bishop_elector_group_3 = {
 		effect = {
 			add_country_modifier = {
 				name = bishop_elector_elects_emperor
-				duration = 7300
+				duration = -1
 			}
 			emperor = {
 				add_opinion = {
@@ -174,7 +174,7 @@ bishop_elector_group_2 = {
 		effect = {
 			add_country_modifier = {
 				name = bishop_elector_ecclesiastic_league
-				duration = 7300
+				duration = -1
 			}
 		}
 	}

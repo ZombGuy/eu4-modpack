@@ -171,7 +171,7 @@ mongol_missions_1 = {
 			}
 			add_country_modifier = {
 				name = mongol_fleet_modifier
-				duration = 7300
+				duration = -1
 			}
 			kinai_area = {
 				limit = {

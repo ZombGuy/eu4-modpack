@@ -22,7 +22,7 @@ Generic_Persian_Missions_PER_1 = {
 		effect = {
 			add_country_modifier = {
 				name = PER_efficient_fiscal_policy
-				duration = 7300
+				duration = -1
 			}
 			add_mercantilism = 2
 		}
@@ -187,7 +187,7 @@ Generic_Persian_Missions_PER_2_1 = {
 		effect = {
 			add_country_modifier = {
 				name = PER_diplomacy
-				duration = 9125
+				duration = -1
 			}
 			every_ally = {
 				add_trust = {
@@ -443,7 +443,7 @@ Generic_Persian_Missions_PER_4 = {
 			custom_tooltip = ME_Persian_Generic_Tooltips.1
 			add_country_modifier = {
 				name = "thriving_arms_industry"
-				duration = 9125
+				duration = -1
 			}
 			if = {
 				limit = {
@@ -482,7 +482,7 @@ Generic_Persian_Missions_PER_4 = {
 		effect = {
 			add_country_modifier = {
 				name = PER_the_persian_army
-				duration = 9125
+				duration = -1
 			}
 		}
 	}
@@ -506,7 +506,7 @@ Generic_Persian_Missions_BAL_5 = {
 		effect = {
 			add_country_modifier = {
 				name = BAL_tribes_united
-				duration = 9125
+				duration = -1
 			}
 			sindh_area = {
 				limit = {
@@ -550,7 +550,7 @@ Generic_Persian_Missions_BAL_5 = {
 			504 = {
 				add_trade_modifier = {
 					who = ROOT
-					duration = 9125
+					duration = -1
 					power = 30
 					key = PER_indus_secured
 				}
@@ -610,7 +610,7 @@ Generic_Persian_Missions_BAL_5 = {
 			add_mercantilism = 2
 			add_country_modifier = {
 				name = BAL_adopting_indian_military
-				duration = 9125
+				duration = -1
 			}
 			522 = {
 				if = {
@@ -707,7 +707,7 @@ Generic_Persian_Missions_SIS_5 = {
 		effect = {
 			add_country_modifier = {
 				name = SIS_reconquest_of_quhistan
-				duration = 9125
+				duration = -1
 			}
 			herat_area = {
 				add_local_autonomy = -25
@@ -736,7 +736,7 @@ Generic_Persian_Missions_SIS_5 = {
 		effect = {
 			add_country_modifier = {
 				name = SIS_mihrabanids
-				duration = 36500
+				duration = -1
 			}
 		}
 	}
@@ -801,7 +801,7 @@ Generic_Persian_Missions_KRM_YZD_ISF_2 = {
 				area = {
 					add_province_modifier = {
 						name = YZD_KRM_ISF_prospering
-						duration = 9125
+						duration = -1
 					}
 				}
 			}
@@ -841,7 +841,7 @@ Generic_Persian_Missions_KRM_YZD_ISF_5 = {
 		effect = {
 			add_country_modifier = {
 				name = YZD_KRM_ISF_loyal_shiite_warriors
-				duration = 9125
+				duration = -1
 			}
 		}
 	}

@@ -28,7 +28,7 @@ CYP_slot_1 = {
 			add_sailors = 500
 			add_country_modifier = {
 				name = cyp_wooden_wall
-				duration = 7120
+				duration = -1
 			}
 		}
 	}
@@ -283,7 +283,7 @@ CYP_slot_2 = {
 		effect = {
 			add_country_modifier = {
 				name = cyp_aegean_merchant_flag
-				duration = 7300
+				duration = -1
 			}
 			random_owned_province = {
 				limit = {
@@ -297,7 +297,7 @@ CYP_slot_2 = {
 			151 = {
 				add_trade_modifier = {
 					who = ROOT
-					duration = 7300
+					duration = -1
 					power = 20
 					key = cyp_mercantile_fleet
 				}
@@ -346,7 +346,7 @@ CYP_slot_3 = {
 				}
 				add_country_modifier = {
 					name = cyp_reinstated_crusading_army
-					duration = 7300
+					duration = -1
 				}
 				2302 = {
 					if = {
@@ -429,7 +429,7 @@ CYP_slot_3 = {
 			}
 			add_country_modifier = {
 				name = cyp_heathen_persecution
-				duration = 3650
+				duration = -1
 			}
 			2302 = {
 				if = {
@@ -463,7 +463,7 @@ CYP_slot_3 = {
 		effect = {
 			add_country_modifier = {
 				name = cyp_integrated_mercenaries
-				duration = 18250
+				duration = -1
 			}
 		}
 	}
@@ -484,7 +484,7 @@ CYP_slot_3 = {
 		effect = {
 			add_country_modifier = {
 				name = cyp_victory_turks
-				duration = 10950
+				duration = -1
 			}
 		}
 	}
@@ -576,7 +576,7 @@ CYP_slot_3_Orthodox = { # Orthodox
 				add_base_manpower = 2
 				add_province_modifier = {
 					name = cyp_forward_naval_base
-					duration = 	-1
+					duration = -1
 				}
 			}
 		}
@@ -695,13 +695,13 @@ CYP_slot_4 = {
 				}
 				add_country_modifier = {
 					name = cyp_reformed_crusader_knights_CoC
-					duration = 10950
+					duration = -1
 				}
 			}
 			else = {
 				add_country_modifier = {
 					name = cyp_reformed_crusader_knights_moral
-					duration = 10950
+					duration = -1
 				}
 			}
 		}
@@ -863,7 +863,7 @@ CYP_slot_4_Catholic = { # Catholic
 		effect = {
 			add_country_modifier = {
 				name = cyp_the_deus_vult_modifier
-				duration = 10950
+				duration = -1
 			}
 		}
 	}
@@ -908,7 +908,7 @@ CYP_slot_4_Orthodox = { # Orthodox
 			country_event = { id = ME_Cyprus_Events.5 days = 60 tooltip = ME_Cyprus_Events.5.tooltip }
 			add_country_modifier = {
 				name = cyp_cretian_trade
-				duration = 3650
+				duration = -1
 			}
 		}
 	}
@@ -960,7 +960,7 @@ CYP_slot_4_Orthodox = { # Orthodox
 		effect = {
 			add_country_modifier = {
 				name = cyp_greek_revolutionaries
-				duration = 3650
+				duration = -1
 			}
 		}
 	}
@@ -1106,7 +1106,7 @@ CYP_slot_5_Catholic = { # Catholic
 		effect = {
 			add_country_modifier = {
 				name = cyp_deus_vult_modifier
-				duration = 5475
+				duration = -1
 			}
 			palestine_area = {
 				limit = {
@@ -1155,7 +1155,7 @@ CYP_slot_5_Catholic = { # Catholic
 			add_papal_influence = 30
 			add_country_modifier = {
 				name = cyp_catholic_jerusalem
-				duration = 7300
+				duration = -1
 			}
 			every_country = {
 				limit = {
@@ -1318,7 +1318,7 @@ CYP_slot_5_Orthodox = { # Orthodox
 			country_event = { id = ME_Cyprus_Events.10 }
 			add_country_modifier = {
 				name = cyp_filiki_eteria_modifier
-				duration = 3650
+				duration = -1
 			}
 		}
 	}

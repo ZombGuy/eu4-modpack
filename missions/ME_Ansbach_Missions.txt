@@ -59,7 +59,7 @@ ANS_missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = ANS_to_unify_franconia
-				duration = 9125
+				duration = -1
 			}
 			67 = {
 				add_core = ROOT

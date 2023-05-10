@@ -117,7 +117,7 @@ provence_missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = "pro_king_of_hungary"
-				duration = 7300
+				duration = -1
 			}
 		}
 	}
@@ -436,7 +436,7 @@ provence_missions_3 = {
 			remove_country_modifier = annexers_legacy
 			add_country_modifier = {
 				name = "pro_lorraine_modifier"
-				duration = 7300
+				duration = -1
 			}
 		}
 	}
@@ -455,7 +455,7 @@ provence_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = "pro_imperial_diplomacy"
-				duration = 7300
+				duration = -1
 			}
 		}
 	}
@@ -644,7 +644,7 @@ provence_missions_4 = {
 		effect = {
 			add_country_modifier = {
 				name = "pro_king_of_france"
-				duration = 7300
+				duration = -1
 			}
 		}
 	}
@@ -684,7 +684,7 @@ provence_missions_5 = {
 				add_base_manpower = 1
 				add_province_modifier = {
 					name = "pro_renaissance"
-					duration = 7300
+					duration = -1
 				}
 			}
 		}

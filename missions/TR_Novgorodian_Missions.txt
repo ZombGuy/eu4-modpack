@@ -183,7 +183,7 @@ tr_novgorod_1 = {
 		effect = {
 			add_country_modifier = {
 				name = "nov_defeated_muscovy"
-				duration = 7300
+				duration = -1
 			}
 			oka_area = {
 				limit = {
@@ -261,7 +261,7 @@ tr_novgorod_2 = {
 				}
 				add_province_modifier = {
 					name = "nov_tver_conquest"
-					duration = 7300
+					duration = -1
 				}
 			}
 			274 = {
@@ -348,7 +348,7 @@ tr_novgorod_2 = {
 		effect = {
 			add_country_modifier = {
 				name = "nov_ruriks_eliminated"
-				duration = 7300
+				duration = -1
 			}
 		}
 	}
@@ -545,7 +545,7 @@ tr_novgorod_3 = {
 			add_mercantilism = 2
 			add_country_modifier = {
 				name = "nov_lubeck_conquest"
-				duration = 7300
+				duration = -1
 			}
 		}
 	}
@@ -822,7 +822,7 @@ tr_novgorod_4 = {
 			1926 = {
 				add_trade_modifier = {
 					who = root
-					duration = 7300
+					duration = -1
 					power = 25
 					key = baltic_ambition_key
 				}
@@ -874,7 +874,7 @@ tr_novgorod_5 = {
 			add_patriarch_authority = 0.1
 			add_country_modifier = {
 				name = "nov_archbishop"
-				duration = 7300
+				duration = -1
 			}
 		}
 	}
@@ -891,7 +891,7 @@ tr_novgorod_5 = {
 			add_patriarch_authority = 0.1
 			add_country_modifier = {
 				name = "nov_cathedrals_modifier"
-				duration = 7300
+				duration = -1
 			}
 		}
 	}
@@ -932,7 +932,7 @@ tr_novgorod_5 = {
 			add_mercantilism = 2
 			add_country_modifier = {
 				name = "nov_north_sea_trade"
-				duration = 7300
+				duration = -1
 			}
 		}
 	}

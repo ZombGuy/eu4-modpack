@@ -60,7 +60,7 @@ me_tibet_missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = tibetan_pale_earth_school
-				duration = 9125
+				duration = -1
 			}
 		}
 	}
@@ -89,7 +89,7 @@ me_tibet_missions_1 = {
 			country_event = { id = ME_Tibet_Events.1 }
 			add_country_modifier = {
 				name = tibetan_highest_lama
-				duration = 9125
+				duration = -1
 			}
 			capital_scope = {
 				add_permanent_province_modifier = {
@@ -269,19 +269,19 @@ me_tibet_missions_2 = {
 			tsang_area = {
 				add_permanent_province_modifier = {
 					name = tibetan_quelled_chiefdoms
-					duration = 3650
+					duration = -1
 				}
 			}
 			ngari_area = {
 				add_permanent_province_modifier = {
 					name = tibetan_quelled_chiefdoms
-					duration = 3650
+					duration = -1
 				}
 			}
 			bhutan_area = {
 				add_permanent_province_modifier = {
 					name = tibetan_quelled_chiefdoms
-					duration = 3650
+					duration = -1
 				}
 			}
 		}
@@ -305,7 +305,7 @@ me_tibet_missions_2 = {
 				create_or_add_center_of_trade_level = { level = 1 }
 				add_permanent_province_modifier = {
 					name = tibetan_domesticated_yak
-					duration = 7300
+					duration = -1
 				}
 			}
 		}
@@ -458,7 +458,7 @@ me_tibet_missions_2 = {
 		effect = {
 			add_country_modifier = {
 				name = tibetan_gurkhas
-				duration = 7300
+				duration = -1
 			}
 			4483 = {
 				add_base_tax = 4
@@ -539,7 +539,7 @@ me_tibet_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = tibetan_bon_influence
-				duration = 9125
+				duration = -1
 			}
 			tibet_region = {
 				limit = {
@@ -579,7 +579,7 @@ me_tibet_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = tibetan_dzong_governance
-				duration = 5475
+				duration = -1
 			}
 		}
 	}
@@ -663,7 +663,7 @@ me_tibet_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = tibetan_nyingma_tradition
-				duration = 5475
+				duration = -1
 			}
 			kashgaria_area = {
 				limit = {
@@ -1012,19 +1012,19 @@ me_tibet_missions_4 = {
 			amdo_area = {
 				add_permanent_province_modifier = {
 					name = tibetan_quelled_chiefdoms
-					duration = 3650
+					duration = -1
 				}
 			}
 			kham_area = {
 				add_permanent_province_modifier = {
 					name = tibetan_quelled_chiefdoms
-					duration = 3650
+					duration = -1
 				}
 			}
 			tsang_area = {
 				add_permanent_province_modifier = {
 					name = tibetan_quelled_chiefdoms
-					duration = 3650
+					duration = -1
 				}
 			}
 		}
@@ -1136,7 +1136,7 @@ me_tibet_missions_4 = {
 				}
 				add_permanent_province_modifier = {
 					name = tibetan_chinese_production
-					duration = 9125
+					duration = -1
 				}
 			}
 			679 = {
@@ -1146,7 +1146,7 @@ me_tibet_missions_4 = {
 					}
 					add_permanent_province_modifier = {
 						name = tibetan_chinese_production
-						duration = 9125
+						duration = -1
 					}
 				}
 			}

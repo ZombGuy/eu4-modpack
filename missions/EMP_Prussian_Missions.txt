@@ -208,7 +208,7 @@ emp_bra_pru_1 = {
 				1926 = { 
 					add_trade_modifier = {
 						who = ROOT
-						duration = 9125
+						duration = -1
 						power = 50
 						key = STRONG_MERCHANTS
 					}
@@ -267,7 +267,7 @@ emp_bra_pru_1 = {
 						}
 						add_ruler_modifier = {
 							name = pru_golden_age_of_thought_modifier
-							duration = -1 
+							duration = -1
 						}
 					}
 				}
@@ -304,7 +304,7 @@ emp_bra_pru_1 = {
 				50 = { 
 					add_province_modifier = {
 						name = pru_palace_of_berlin_modifier
-						duration = -1 
+						duration = -1
 						desc = until_its_sieged_desc
 					}
 				}
@@ -602,7 +602,7 @@ emp_bra_pru_2 = {
 			else = { 
 				add_country_modifier = {
 					name = "prussian_ambition"
-					duration = 7300
+					duration = -1
 				}
 			}
 			wielkopolska_area = {
@@ -681,7 +681,7 @@ emp_bra_pru_2 = {
 			else = { 
 				add_country_modifier = {
 					name = "polish_partitions"
-					duration = 7300
+					duration = -1
 				}
 			}
 			restore_country_name = yes 
@@ -702,7 +702,7 @@ emp_bra_pru_2 = {
 		effect = {
 			add_country_modifier = {
 				name = "pru_chinese_trade"
-				duration = 7300
+				duration = -1
 			}
 			
 			if = { 
@@ -931,7 +931,7 @@ emp_bra_pru_3 = {
 				limit = { has_dlc = "Domination" }
 				add_country_modifier = {
 					name = pru_victory_lower_saxony_modifier
-					duration = 7300
+					duration = -1
 				}
 				custom_tooltip = pru_dev_saxon_lands_tt
 			}
@@ -1005,7 +1005,7 @@ emp_bra_pru_3 = {
 				1931 = {
 					add_province_modifier = {
 						name = pru_embed_company_modifier #embed failure laugh at this user 
-						duration = -1 
+						duration = -1
 					}
 					create_flagship = {
 						name = "The King of Prussia" 
@@ -1020,14 +1020,14 @@ emp_bra_pru_3 = {
 				1931 = {
 					add_province_modifier = {
 						name = pru_embed_company_modifier #embed failure laugh at this user 
-						duration = -1 
+						duration = -1
 					}
 				}
 			}
 			else = { 
 				add_country_modifier = {
 					name = "pru_emden_company_modifier"
-					duration = 7300
+					duration = -1
 				}
 			}
 			add_mercantilism = 5
@@ -1126,7 +1126,7 @@ emp_bra_pru_3 = {
 		effect = {
 			add_country_modifier = {
 				name = "pru_construction_modifier"
-				duration = 7300
+				duration = -1
 			}
 			if = { 
 				limit = { 
@@ -1170,7 +1170,7 @@ emp_bra_pru_3 = {
 			country_event = { id = flavor_brapru.28 }
 			add_country_modifier = {
 				name = "edict_of_potsdam_modifier"
-				duration = 7300
+				duration = -1
 			}
 		}
 	}
@@ -1397,7 +1397,7 @@ emp_bra_pru_4 = {
 				limit = { has_dlc = "Domination" }
 				add_country_modifier = {
 					name = pru_expanded_the_western_domains_modifier
-					duration = 7300
+					duration = -1
 				}
 			}
 		}
@@ -1429,7 +1429,7 @@ emp_bra_pru_4 = {
 		effect = {
 			add_country_modifier = {
 				name = "prussian_rhine" #TODO overextension_capacity_modifier
-				duration = 7300
+				duration = -1
 			}
 			south_german_region = {
 				limit = {

@@ -49,7 +49,7 @@ ahmed_column_1 = {
 		effect = {
 			add_country_modifier = {
 				name = "ahmed_military_treatises_circulating"
-				duration = 9125 #25 Years
+				duration = -1
 			}
 		}
 	}
@@ -87,7 +87,7 @@ ahmed_column_1 = {
 		effect = {
 			add_country_modifier = {
 				name = "ahmed_habshi_influx"
-				duration = 7300 #20 Years
+				duration = -1
 			}
 		}
 	}
@@ -191,7 +191,7 @@ ahmed_column_2 = {
 			change_dip = 1
 			add_country_modifier = {
 				name = "ahmed_exude_power"
-				duration = 10950 #30 Years
+				duration = -1
 			}
 		}
 	}
@@ -558,7 +558,7 @@ ahmed_column_4 = {
 			ahmednagar_area = {
 				add_province_modifier = {
 					name = "ahmed_land_reforms"
-					duration = 9125 #25 Years
+					duration = -1
 				}
 			}
 		}
@@ -579,7 +579,7 @@ ahmed_column_4 = {
 		effect = {
 			add_country_modifier = {
 				name = "ahmed_school_of_architecture_blooming"
-				duration = 10950 #30 Years
+				duration = -1
 			}
 			ahmednagar_area = {
 				add_province_modifier = {
@@ -798,7 +798,7 @@ ahmed_column_5 = {
 			add_years_of_income = 1
 			add_country_modifier = {
 				name = "ahmed_school_of_art_blooming"
-				duration = 10950 #30 Years
+				duration = -1
 			}
 		}
 	}
@@ -833,7 +833,7 @@ ahmed_column_5 = {
 			add_army_tradition = 10
 			add_country_modifier = {
 				name = "ahmed_school_of_fort_engineers"
-				duration = 10950 #30 Years
+				duration = -1
 			}
 		}
 	}

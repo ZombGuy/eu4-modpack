@@ -26,7 +26,7 @@ ALS_missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = als_prepared_for_the_worst
-				duration = 9125
+				duration = -1
 			}
 			188 = {
 				if = {
@@ -71,7 +71,7 @@ ALS_missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = als_conquered_lorraine
-				duration = 18250
+				duration = -1
 			}
 			add_prestige = 5
 			add_adm_power = 50
@@ -165,7 +165,7 @@ ALS_missions_5 = {
 		effect = {
 			add_country_modifier = {
 				name = als_embrace_renaissance
-				duration = 9125
+				duration = -1
 			}
 		}
 	}
@@ -190,7 +190,7 @@ ALS_missions_5 = {
 		effect = {
 			add_country_modifier = {
 				name = als_education
-				duration = 9125
+				duration = -1
 			}
 			add_adm_power = 100
 			add_army_tradition = 15

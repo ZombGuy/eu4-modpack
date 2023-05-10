@@ -57,7 +57,7 @@ KAZ_TRN_missions_1 = {
 			add_prestige = 10
 			add_country_modifier = {
 				name = kaz_revitalised_horde
-				duration = 3650
+				duration = -1
 			}
 			define_general = {
 				name = "Olug Moxumatt"
@@ -122,7 +122,7 @@ KAZ_TRN_missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = kaz_kill_gol
-				duration = 3650
+				duration = -1
 			}
 			if = {
 				limit = {
@@ -192,7 +192,7 @@ KAZ_TRN_missions_1 = {
 			}
 			add_country_modifier = {
 				name = kaz_victory_crimea
-				duration = 7300
+				duration = -1
 			}
 		}
 	}
@@ -285,7 +285,7 @@ KAZ_TRN_missions_1 = {
 							add_devastation = 30
 							add_province_modifier = {
 								name = kaz_strategic_skirmish
-								duration = 3650
+								duration = -1
 							}
 						}
 					}
@@ -308,7 +308,7 @@ KAZ_TRN_missions_1 = {
 								}
 								add_province_modifier = {
 									name = kaz_strategic_skirmish
-									duration = 3650
+									duration = -1
 								}
 							}
 						}
@@ -332,7 +332,7 @@ KAZ_TRN_missions_1 = {
 								}
 								add_province_modifier = {
 									name = kaz_strategic_skirmish
-									duration = 3650
+									duration = -1
 								}
 							}
 						}
@@ -356,7 +356,7 @@ KAZ_TRN_missions_1 = {
 								}
 								add_province_modifier = {
 									name = kaz_strategic_skirmish
-									duration = 3650
+									duration = -1
 								}
 							}
 						}
@@ -412,7 +412,7 @@ KAZ_TRN_missions_2 = {
 			add_yearly_manpower = 3.0
 			add_country_modifier = {
 				name = kaz_mobilized_horses
-				duration = 9125
+				duration = -1
 			}
 		}
 	}
@@ -663,7 +663,7 @@ KAZ_TRN_missions_2 = {
 		effect = {
 			add_country_modifier = {
 				name = kaz_caucasian_conscripts
-				duration = 3650
+				duration = -1
 			}
 		}
 	}
@@ -708,7 +708,7 @@ KAZ_TRN_missions_3 = {
 					}
 					add_province_modifier = {
 						name = kaz_novgorod_unprepared
-						duration = 1825
+						duration = -1
 					}
 				}
 			}
@@ -762,7 +762,7 @@ KAZ_TRN_missions_3 = {
 			}
 			add_country_modifier = {
 				name = kaz_renewed_morale
-				duration = 3650
+				duration = -1
 			}
 			add_yearly_manpower = 2.5
 		}
@@ -862,7 +862,7 @@ KAZ_TRN_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = kaz_familiar_terain
-				duration = 3650
+				duration = -1
 			}
 		}
 	}
@@ -909,7 +909,7 @@ KAZ_TRN_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = kaz_occupied_mos
-				duration = 365
+				duration = -1
 			}
 		}
 	}
@@ -940,11 +940,11 @@ KAZ_TRN_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = kaz_tatar_yoke
-				duration = 7300
+				duration = -1
 			}
 			add_country_modifier = {
 				name = kaz_great_terror
-				duration = 3650
+				duration = -1
 			}
 			add_prestige = 50
 			295 = {
@@ -1017,7 +1017,7 @@ KAZ_TRN_missions_4 = {
 		effect = {
 			add_country_modifier = {
 				name = kaz_trade
-				duration = 9125
+				duration = -1
 			}
 			add_mercantilism = 10
 		}
@@ -1481,7 +1481,7 @@ KAZ_TRN_missions_5 = {
 		effect = {
 			add_country_modifier = {
 				name = kaz_kill_nog
-				duration = 3650
+				duration = -1
 			}
 		}
 	}
@@ -1499,7 +1499,7 @@ KAZ_TRN_missions_5 = {
 		effect = {
 			add_country_modifier = {
 				name = kaz_kill_shy
-				duration = 3650
+				duration = -1
 			}
 		}
 	}
@@ -1553,25 +1553,25 @@ KAZ_missions_1 = {
 			sloboda_ukraine_area = {
 				add_province_modifier = {
 					name = kaz_exploit_goods
-					duration = 9125
+					duration = -1
 				}
 			}
 			zaporizhia_area = {
 				add_province_modifier = {
 					name = kaz_exploit_goods
-					duration = 9125
+					duration = -1
 				}
 			}
 			yedisan_area = {
 				add_province_modifier = {
 					name = kaz_exploit_goods
-					duration = 9125
+					duration = -1
 				}
 			}
 			east_dniepr_area = {
 				add_province_modifier = {
 					name = kaz_exploit_goods
-					duration = 9125
+					duration = -1
 				}
 			}
 		}
@@ -1622,7 +1622,7 @@ KAZ_missions_1 = {
 				}
 				add_province_modifier = {
 					name = kaz_exploit_goods
-					duration = 9125
+					duration = -1
 				}
 			}
 			podolia_volhynia_area = {
@@ -1631,7 +1631,7 @@ KAZ_missions_1 = {
 				}
 				add_province_modifier = {
 					name = kaz_exploit_goods
-					duration = 9125
+					duration = -1
 				}
 			}
 			moldavia_area = {
@@ -1640,7 +1640,7 @@ KAZ_missions_1 = {
 				}
 				add_province_modifier = {
 					name = kaz_exploit_goods
-					duration = 9125
+					duration = -1
 				}
 			}
 		}
@@ -1670,7 +1670,7 @@ KAZ_missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = kaz_poland_trade
-				duration = 3650
+				duration = -1
 			}
 		}
 	}
@@ -1701,7 +1701,7 @@ KAZ_missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = kaz_hussar
-				duration = 9125
+				duration = -1
 			}
 		}
 	}
@@ -1872,19 +1872,19 @@ KAZ_missions_2 = {
 			minsk_area = {
 				add_province_modifier = {
 					name = kaz_exploit_goods
-					duration = 9125
+					duration = -1
 				}
 			}
 			white_ruthenia_area = {
 				add_province_modifier = {
 					name = kaz_exploit_goods
-					duration = 9125
+					duration = -1
 				}
 			}
 			smolensk_area = {
 				add_province_modifier = {
 					name = kaz_exploit_goods
-					duration = 9125
+					duration = -1
 				}
 			}
 		}
@@ -1927,25 +1927,25 @@ KAZ_missions_2 = {
 			samogitia_area = {
 				add_province_modifier = {
 					name = kaz_exploit_goods
-					duration = 9125
+					duration = -1
 				}
 			}
 			pripyat_area = {
 				add_province_modifier = {
 					name = kaz_exploit_goods
-					duration = 9125
+					duration = -1
 				}
 			}
 			lithuania_area = {
 				add_province_modifier = {
 					name = kaz_exploit_goods
-					duration = 9125
+					duration = -1
 				}
 			}
 			pskov_area = {
 				add_province_modifier = {
 					name = kaz_exploit_goods
-					duration = 9125
+					duration = -1
 				}
 			}
 		}
@@ -2011,7 +2011,7 @@ KAZ_missions_2 = {
 		effect = {
 			add_country_modifier = {
 				name = kaz_baltic_trade
-				duration = 5475
+				duration = -1
 			}
 		}
 	}
@@ -2049,7 +2049,7 @@ KAZ_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = kaz_georgian_conscripts
-				duration = 3650
+				duration = -1
 			}
 		}
 	}
@@ -2118,7 +2118,7 @@ KAZ_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = kaz_razing
-				duration = 365
+				duration = -1
 			}
 		}
 	}
@@ -2149,7 +2149,7 @@ KAZ_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = kaz_razing_2
-				duration = 365
+				duration = -1
 			}
 		}
 	}
@@ -2206,7 +2206,7 @@ KAZ_missions_4 = {
 		effect = {
 			add_country_modifier = {
 				name = trn_eastern_turks
-				duration = 3650
+				duration = -1
 			}
 			gansu_area = {
 				limit = {
@@ -2294,7 +2294,7 @@ KAZ_missions_5 = {
 		effect = {
 			add_country_modifier = {
 				name = kaz_central_asian_trade
-				duration = 9125
+				duration = -1
 			}
 		}
 	}
@@ -2318,11 +2318,11 @@ KAZ_missions_5 = {
 		effect = {
 			add_country_modifier = {
 				name = kaz_connection_to_mongol
-				duration = 9125
+				duration = -1
 			}
 			add_country_modifier = {
 				name = kaz_mongol_horses
-				duration = 18250
+				duration = -1
 			}
 		}
 	}
@@ -2633,7 +2633,7 @@ TRN_missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = trn_expedition
-				duration = 7300
+				duration = -1
 			}
 		}
 	}
@@ -3684,7 +3684,7 @@ TRN_missions_4 = {
 				}
 				add_province_modifier = {
 					name = trn_liberation
-					duration = 3650
+					duration = -1
 				}
 			}
 		}
@@ -3768,7 +3768,7 @@ TRN_missions_5 = {
 		effect = {
 			add_country_modifier = {
 				name = trn_baltic
-				duration = 7300
+				duration = -1
 			}
 		}
 	}

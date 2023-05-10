@@ -189,7 +189,7 @@ swe_scandinavian_colonialism_mission_slot = {
 			else = { custom_tooltip = swe_historical_friends_nor_tt } 
 			add_country_modifier = {
 				name = "norway_subjugated_swe"
-				duration = 5475
+				duration = -1
 			}
 			jutland_area = {
 				limit = {
@@ -510,10 +510,10 @@ swe_scandinavian_colonialism_mission_slot = {
 			}
 			add_country_modifier = {
 				name = swe_search_for_new_world
-				duration = 9125
+				duration = -1
 			}
 			add_temporary_colonist = {
-				duration = 27375
+				duration = -1
 			}
 			if = {
 				limit = {
@@ -630,7 +630,7 @@ swe_north_america_mission_slot = {
 		effect = {
 			add_country_modifier = {
 				name = swe_swedish_colonialism
-				duration = 9125
+				duration = -1
 			}
 			custom_tooltip = swe_colonize_delaware_tt
 			hidden_effect = {
@@ -694,7 +694,7 @@ swe_north_america_mission_slot = {
 			
 			add_country_modifier = { 
 				name = swe_global_trade_empire_modifier
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -739,7 +739,7 @@ swe_rnw_mission_slot = {
 		effect = {
 			add_country_modifier = {
 				name = swe_swedish_colonialism
-				duration = 9125
+				duration = -1
 			}
 		}
 	}
@@ -906,7 +906,7 @@ swe_diplomacy_mission_slot = {
 				}
 				add_country_modifier = {
 					name = "swe_pommerania_conquered"
-					duration = 9125
+					duration = -1
 				}
 				lower_saxony_area = {
 					limit = {
@@ -1054,7 +1054,7 @@ swe_diplomacy_mission_slot = {
 			45 = {
 				add_trade_modifier = {
 					who = ROOT
-					duration = 18250
+					duration = -1
 					power = 30
 					key = swe_bane_of_the_hansa_trade_tt
 				}
@@ -1117,7 +1117,7 @@ swe_diplomacy_mission_slot = {
 		effect = {
 			add_country_modifier = {
 				name = swe_baltic_trade_fleet
-				duration = 9125
+				duration = -1
 			}
 			add_navy_tradition = 15
 		}
@@ -1177,7 +1177,7 @@ swe_diplomacy_mission_slot = {
 			add_mercantilism = 5
 			add_country_modifier = {
 				name = swe_baltic_trade
-				duration = 9125
+				duration = -1
 			}
 		}
 	}
@@ -1313,7 +1313,7 @@ swe_diplomacy_mission_slot = {
 			add_prestige = 25
 			add_country_modifier = {
 				name = swe_swedish_influence_in_asia
-				duration = 18250
+				duration = -1
 			}
 		}
 	}
@@ -1826,7 +1826,7 @@ swe_kalmar_union_mission_slot = {
 				}
 				add_country_modifier = {
 					name = swe_baltic_diplomacy
-					duration = 9125
+					duration = -1
 				}
 			}
 			else = {
@@ -1853,7 +1853,7 @@ swe_kalmar_union_mission_slot = {
 		effect = {
 			add_country_modifier = {
 				name = swe_economical_upswing
-				duration = 9125
+				duration = -1
 			}
 			svealand_area = {
 				limit = {
@@ -1861,7 +1861,7 @@ swe_kalmar_union_mission_slot = {
 				}
 				add_province_modifier = {
 					name = swe_local_economical_upswing
-					duration = 9125
+					duration = -1
 				}
 			}
 			ostra_svealand_area = {
@@ -1870,7 +1870,7 @@ swe_kalmar_union_mission_slot = {
 				}
 				add_province_modifier = {
 					name = swe_local_economical_upswing
-					duration = 9125
+					duration = -1
 				}
 			}
 		}
@@ -1952,7 +1952,7 @@ swe_kalmar_union_mission_slot = {
 		effect = {
 			add_country_modifier = {
 				name = swe_guns_drums_and_steel
-				duration = 9125
+				duration = -1
 			}
 			add_years_of_owned_provinces_production_income = {
 				years = 4
@@ -2905,7 +2905,7 @@ swe_religion_start_mission_slot = {
 			}
 			add_country_modifier = {
 				name = swe_diplomat_from_the_north
-				duration = 9125
+				duration = -1
 			}
 		}
 	}
@@ -2989,13 +2989,13 @@ swe_religion_start_mission_slot = {
 				}
 				add_country_modifier = {
 					name = swe_norse_opportunist
-					duration = 9125
+					duration = -1
 				}
 			}
 			else = {
 				add_country_modifier = {
 					name = swe_theologian_discussions
-					duration = 9125
+					duration = -1
 				}
 			}
 		}
@@ -3098,7 +3098,7 @@ swe_religion_mission_slot = {
 			add_papal_influence = 100
 			add_country_modifier = {
 				name = swe_support_from_the_pope
-				duration = 18250
+				duration = -1
 			}
 			if = {
 				limit = {
@@ -3107,7 +3107,7 @@ swe_religion_mission_slot = {
 				PAP = {
 					add_country_modifier = {
 						name = swe_swedish_steel_for_the_pope
-						duration = 18250
+						duration = -1
 					}
 				}
 			}
@@ -3121,13 +3121,13 @@ swe_religion_mission_slot = {
 			change_government_reform_progress = 100
 			add_country_modifier = {
 				name = swe_support_from_the_reformers
-				duration = 18250
+				duration = -1
 			}
 			custom_tooltip = swe_humanist_effects_tt
 			add_stability_or_adm_power = yes
 			add_country_modifier = {
 				name = dan_communication_between_the_faiths
-				duration = 9125
+				duration = -1
 			}
 		}
 	}
@@ -3664,7 +3664,7 @@ swe_catholic_mission_slot = {
 			add_papal_influence = 100
 			add_country_modifier = {
 				name = swe_support_from_the_pope
-				duration = 18250
+				duration = -1
 			}
 			if = {
 				limit = {
@@ -3673,7 +3673,7 @@ swe_catholic_mission_slot = {
 				PAP = {
 					add_country_modifier = {
 						name = swe_swedish_steel_for_the_pope
-						duration = 18250
+						duration = -1
 					}
 				}
 			}
@@ -3715,7 +3715,7 @@ swe_catholic_mission_slot = {
 			add_papal_influence = 50
 			add_country_modifier = {
 				name = swe_enforcers_of_religious_superiority
-				duration = 9125
+				duration = -1
 			}
 		}
 	}
@@ -3935,7 +3935,7 @@ swe_protestant_mission_slot = {
 			change_government_reform_progress = 100
 			add_country_modifier = {
 				name = swe_support_from_the_reformers
-				duration = 18250
+				duration = -1
 			}
 		}
 	}
@@ -4040,7 +4040,7 @@ swe_protestant_mission_slot = {
 			}
 			add_country_modifier = {
 				name = swe_enforcers_of_religious_superiority
-				duration = 9125
+				duration = -1
 			}
 		}
 	}
@@ -4207,7 +4207,7 @@ swe_humanist_mission_slot = {
 			add_stability_or_adm_power = yes
 			add_country_modifier = {
 				name = dan_communication_between_the_faiths
-				duration = 9125
+				duration = -1
 			}
 		}
 	}
@@ -4433,7 +4433,7 @@ swe_norse_mission_slot = {
 			add_prestige = 100
 			add_country_modifier = {
 				name = swe_might_of_the_varangians
-				duration = 9125
+				duration = -1
 			}
 		}
 	}
@@ -4552,7 +4552,7 @@ swe_sca_hre_slot = {
 				}
 				add_country_modifier = {
 					name = "succesful_bid_for_imperial_crown"
-					duration = 5475 #15 years
+					duration = -1
 				}
 			}
 			else_if = {
@@ -4726,7 +4726,7 @@ swe_sca_hre_slot = {
 				}
 				add_country_modifier = {
 					name = sca_swe_imperial_low_countries
-					duration = 9125
+					duration = -1
 				}
 				add_imperial_influence = 25
 			}
@@ -4747,7 +4747,7 @@ swe_sca_hre_slot = {
 					}
 					add_province_modifier = {
 						name = sca_swe_control_over_the_low_countries
-						duration = 5475
+						duration = -1
 					}
 				}
 				add_years_of_income = 1
@@ -4868,7 +4868,7 @@ swe_sca_caroliner_slot = {
 				}
 				add_country_modifier = {
 					name = gen_hre_emperor_mod
-					duration = 9125
+					duration = -1
 				}
 				add_imperial_influence = 25
 			}
@@ -5202,7 +5202,7 @@ swe_sca_hakkapeliitta_slot = {
 				add_imperial_influence = 25
 				add_country_modifier = {
 					name = "gen_hre_imperial_ban_mod"
-					duration = 9125
+					duration = -1
 				}
 			}
 			else = {
@@ -5506,7 +5506,7 @@ swe_sca_competent_fleet_slot = {
 		effect = {
 			add_country_modifier = {
 				name = sca_swe_norwegian_navy
-				duration = 9125
+				duration = -1
 			}
 			if = {
 				limit = {

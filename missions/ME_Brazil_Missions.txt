@@ -41,7 +41,7 @@ BRZ_missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = BRA_hardy_settlers
-				duration = 10950
+				duration = -1
 			}
 			748 = {
 				add_base_tax = 1
@@ -102,7 +102,7 @@ BRZ_missions_1 = {
 			add_years_of_income = 0.5
 			add_country_modifier = {
 				name = BRZ_northern_reaches
-				duration = 9125
+				duration = -1
 			}
 		}
 	}
@@ -126,7 +126,7 @@ BRZ_missions_1 = {
 			add_years_of_income = 0.5
 			add_country_modifier = {
 				name = BRZ_merchants
-				duration = 10950
+				duration = -1
 			}
 		}
 	}
@@ -302,7 +302,7 @@ BRZ_missions_2 = {
 			custom_tooltip = BRZ_NEW_CB
 			add_country_modifier = {
 				name = BRZ_golden_law
-				duration = 10950
+				duration = -1
 			}
 		}
 	}
@@ -347,7 +347,7 @@ BRZ_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = BRZ_struggle_for_freedom
-				duration = 3650
+				duration = -1
 			}
 		}
 	}
@@ -374,7 +374,7 @@ BRZ_missions_3 = {
 			}
 			add_country_modifier = {
 				name = BRZ_bandeirantes
-				duration = 7300
+				duration = -1
 			}
 		}
 	}
@@ -433,7 +433,7 @@ BRZ_missions_3 = {
 			brazil_region = {
 				add_province_modifier = {
 					name = BRZ_unity
-					duration = 10950
+					duration = -1
 				}
 			}
 		}
@@ -474,7 +474,7 @@ BRZ_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = BRZ_enlightenment
-				duration = 9125
+				duration = -1
 			}
 		}
 	}
@@ -568,13 +568,13 @@ BRZ_missions_4 = {
 				}
 				add_country_modifier = {
 					name = BRZ_national_guard
-					duration = 9125
+					duration = -1
 				}
 			}
 			else = {
 				add_country_modifier = {
 					name = BRZ_foreign_mercenaries
-					duration = 9125
+					duration = -1
 				}
 			}
 			banda_oriental_area = {

@@ -415,7 +415,7 @@ Tuscany_missions_2 = {
 		effect = {
 			add_country_modifier = {
 				name = "lan_clean_government"
-				duration = 7300
+				duration = -1
 			}
 		}
 	}
@@ -610,7 +610,7 @@ Tuscany_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = "lan_secure_public_funds"
-				duration = 7300
+				duration = -1
 			}
 		}
 	}
@@ -793,7 +793,7 @@ Tuscany_missions_4 = {
 			add_yearly_sailors = 2
 			add_country_modifier = {
 				name = tus_porto_mezzo
-				duration = 7300
+				duration = -1
 			}
 		}
 	}
@@ -812,7 +812,7 @@ Tuscany_missions_4 = {
 		effect = {
 			add_country_modifier = {
 				name = tus_colonial_ventures
-				duration = 18250
+				duration = -1
 			}
 			create_conquistador = {
 				tradition = 50
@@ -851,7 +851,7 @@ Tuscany_missions_4 = {
 			1531 = {
 				add_trade_modifier = {
 					who = ROOT
-					duration = 7300
+					duration = -1
 					power = 20
 					key = ita_carribean_import_ge
 				}
@@ -874,7 +874,7 @@ Tuscany_missions_4 = {
 		effect = {
 			add_country_modifier = {
 				name = ita_colonial_victory
-				duration = 7300
+				duration = -1
 			}
 		}
 	}
@@ -1004,7 +1004,7 @@ Tuscany_missions_5 = {
 		effect = {
 			add_country_modifier = {
 				name = tus_marina_granducato_toscana
-				duration = 3650
+				duration = -1
 			}
 			custom_tooltip = CLAIM_ON_341_TRADE_NODE
 			hidden_effect = {
@@ -1056,18 +1056,18 @@ Tuscany_missions_5 = {
 			}
 			add_country_modifier = {
 				name = sar_piracy_defeaten
-				duration = 9125
+				duration = -1
 			}
 			341 = {
 				add_province_modifier = {
 					name = sar_purification_land
-					duration = 7300
+					duration = -1
 				}
 			}
 			339 = {
 				add_province_modifier = {
 					name = sar_purification_land
-					duration = 7300
+					duration = -1
 				}
 			}
 		}

@@ -44,7 +44,7 @@ WLS_CYR_BRL_missions_1 = {
 			west_midlands_area = {
 				add_province_modifier = {
 					name = wls_raided_march
-					duration = 9125
+					duration = -1
 				}
 			}
 			wales_area = {
@@ -153,7 +153,7 @@ WLS_CYR_BRL_missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = wls_english_channel
-				duration = 9125
+				duration = -1
 			}
 			236 = {
 				if = {
@@ -315,7 +315,7 @@ WLS_CYR_BRL_missions_2 = {
 				}
 				add_province_modifier = {
 					name = wls_marches
-					duration = 9125
+					duration = -1
 				}
 			}
 			if = {
@@ -373,13 +373,13 @@ WLS_CYR_BRL_missions_2 = {
 			east_midlands_area = {
 				add_province_modifier = {
 					name = wls_integration
-					duration = 7300
+					duration = -1
 				}
 			}
 			yorkshire_area = {
 				add_province_modifier = {
 					name = wls_integration
-					duration = 7300
+					duration = -1
 				}
 			}
 			245 = { #york
@@ -439,7 +439,7 @@ WLS_CYR_BRL_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = wls_diplo
-				duration = 7300
+				duration = -1
 			}
 		}
 	}
@@ -457,11 +457,11 @@ WLS_CYR_BRL_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = wls_indep
-				duration = 9125
+				duration = -1
 			}
 			add_country_modifier = {
 				name = wls_indep_2
-				duration = 3650
+				duration = -1
 			}
 			change_adm = 1
 			4369 = {
@@ -501,13 +501,13 @@ WLS_CYR_BRL_missions_3 = {
 			247 = { #cumbria
 				add_province_modifier = {
 					name = wls_marches
-					duration = 9125
+					duration = -1
 				}
 			}
 			246 = { #northumberland
 				add_province_modifier = {
 					name = wls_marches
-					duration = 9125
+					duration = -1
 				}
 				change_province_name = "Gogleddumberland"
 			}
@@ -690,7 +690,7 @@ WLS_CYR_BRL_missions_5 = {
 		effect = {
 			add_country_modifier = {
 				name = wls_papal
-				duration = 5475
+				duration = -1
 			}
 		}
 	}
@@ -708,7 +708,7 @@ WLS_CYR_BRL_missions_5 = {
 		effect = {
 			add_country_modifier = {
 				name = wls_tithe
-				duration = 9125
+				duration = -1
 			}
 		}
 	}
@@ -834,7 +834,7 @@ BRL_missions_2 = {
 		effect = {
 			add_country_modifier = {
 				name = wls_colonize_america
-				duration  = 10950
+				duration = -1
 			}
 		}
 	}
@@ -927,7 +927,7 @@ BRL_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = wls_colonize_carribean
-				duration  = 10950
+				duration = -1
 			}
 		}
 	}
@@ -1012,7 +1012,7 @@ BRL_missions_4 = {
 		effect = {
 			add_country_modifier = {
 				name = wls_colonize_canada
-				duration  = -1
+				duration = -1
 			}
 		}
 	}
@@ -1095,7 +1095,7 @@ BRL_missions_5 = {
 		effect = {
 			add_country_modifier = {
 				name = wls_colonize_louisiana
-				duration  = 10950
+				duration = -1
 			}
 		}
 	}
@@ -1144,21 +1144,21 @@ WLS_missions_3 = {
 				add_nationalism = -5
 				add_province_modifier = {
 					name = wls_integrate_scot
-					duration = 9125
+					duration = -1
 				}
 			}
 			lowlands_area = {
 				add_nationalism = -5
 				add_province_modifier = {
 					name = wls_integrate_scot
-					duration = 9125
+					duration = -1
 				}
 			}
 			highlands_area = {
 				add_nationalism = -5
 				add_province_modifier = {
 					name = wls_integrate_scot
-					duration = 9125
+					duration = -1
 				}
 			}
 		}
@@ -1192,19 +1192,19 @@ WLS_missions_3 = {
 				add_nationalism = -3
 				add_province_modifier = {
 					name = wls_integrate_isles
-					duration = 9125
+					duration = -1
 				}
 			}
 			369 = {
 				add_province_modifier = {
 					name = wls_integrate_isles
-					duration = 9125
+					duration = -1
 				}
 			}
 			4365 = {
 				add_province_modifier = {
 					name = wls_integrate_isles
-					duration = 9125
+					duration = -1
 				}
 			}
 		}
@@ -1380,28 +1380,28 @@ WLS_missions_5 = {
 				add_nationalism = -5
 				add_province_modifier = {
 					name = wls_tax_ire
-					duration = 9125
+					duration = -1
 				}
 			}
 			connacht_area = {
 				add_nationalism = -5
 				add_province_modifier = {
 					name = wls_tax_ire
-					duration = 9125
+					duration = -1
 				}
 			}
 			leinster_area = {
 				add_nationalism = -5
 				add_province_modifier = {
 					name = wls_tax_ire
-					duration = 9125
+					duration = -1
 				}
 			}
 			ulster_area = {
 				add_nationalism = -5
 				add_province_modifier = {
 					name = wls_tax_ire
-					duration = 9125
+					duration = -1
 				}
 			}
 		}

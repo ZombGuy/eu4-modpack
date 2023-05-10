@@ -103,14 +103,14 @@ noppbyzantine_missions_1 = {
 				limit = { religion = orthodox }
 				add_country_modifier = {
 					name = byz_gates_of_catholicism_modifier
-					duration = 7300 
+					duration = -1
 				}
 			}
 			else_if = {
 				limit = { religion = catholicism }
 				add_country_modifier = {
 					name = byz_host_of_the_holy_see_modifier
-					duration = -1 
+					duration = -1
 				}
 			}
 			else = { 
@@ -219,7 +219,7 @@ noppbyzantine_missions_1 = {
 					limit = { region = italy_region }
 					add_province_modifier = {
 						name = byz_expanded_italian_katepanikeion_modifier 
-						duration = -1 
+						duration = -1
 					}
 				}
 			}
@@ -228,7 +228,7 @@ noppbyzantine_missions_1 = {
 			hidden_effect = {
 				add_country_modifier = {
 					name = byz_legendary_bloodline_modifier
-					duration = -1 
+					duration = -1
 					hidden = yes 
 				}
 			}
@@ -278,7 +278,7 @@ noppbyzantine_missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = byz_berber_sailors_modifier 
-				duration = -1 
+				duration = -1
 			}
 			iberia_region = {
 				limit = {
@@ -348,7 +348,7 @@ noppbyzantine_missions_1 = {
 			#}
 			add_country_modifier = { 
 				name = byz_new_world_ventures_modifier
-				duration = 7300
+				duration = -1
 			}
 			223 = {
 				if = {
@@ -388,7 +388,7 @@ noppbyzantine_missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = byz_stable_religious_affairs_modifier 
-				duration = 7300 
+				duration = -1
 			}
 			if = {
 				limit = { 
@@ -466,7 +466,7 @@ noppbyzantine_missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = byz_eighth_ecumenical_council_of_constantinople_modifier 
-				duration = 7300 
+				duration = -1
 			}
 			define_advisor = {
 				type = inquisitor 
@@ -539,7 +539,7 @@ noppbyzantine_missions_1 = {
 				}
 				add_country_modifier = {
 					name = byz_heart_of_orthodoxy_modifier 
-					duration = -1  
+					duration = -1
 				}
 			}
 			else_if = {
@@ -554,14 +554,14 @@ noppbyzantine_missions_1 = {
 				}
 				add_country_modifier = {
 					name = byz_center_of_faith_modifier 
-					duration = -1 
+					duration = -1
 				}
 			}
 			else_if = { 
 				limit = { religion = orthodox }
 				add_country_modifier = {
 					name = byz_heart_of_orthodoxy_modifier 
-					duration = 10950  
+					duration = -1
 				}
 				custom_tooltip = byz_haghia_sophia_magnificent_tt
 			}
@@ -571,7 +571,7 @@ noppbyzantine_missions_1 = {
 				}
 				add_country_modifier = {
 					name = byz_center_of_faith_modifier 
-					duration = 10950 
+					duration = -1
 				}
 				custom_tooltip = byz_haghia_sophia_magnificent_tt
 			}
@@ -603,7 +603,7 @@ noppbyzantine_missions_1 = {
 				2313 = {
 					add_province_modifier = {
 						name = byz_seat_of_the_patriarchate_modifier 
-						duration = 7300 
+						duration = -1
 					}
 				}
 				add_patriarch_authority = 0.10 
@@ -612,7 +612,7 @@ noppbyzantine_missions_1 = {
 				2313 = {
 					add_province_modifier = {
 						name = byz_important_center_of_faith_modifier 
-						duration = 7300 
+						duration = -1
 					}
 				}
 			}
@@ -688,7 +688,7 @@ noppbyzantine_missions_1 = {
 				358 = {
 					add_province_modifier = {
 						name = byz_seat_of_the_patriarchate_modifier 
-						duration = 7300 
+						duration = -1
 					}
 				}
 				add_patriarch_authority = 0.1 
@@ -697,7 +697,7 @@ noppbyzantine_missions_1 = {
 				358 = {
 					add_province_modifier = {
 						name = byz_important_center_of_faith_modifier 
-						duration = 7300 
+						duration = -1
 					}
 				}
 			}
@@ -827,7 +827,7 @@ noppbyzantine_missions_1 = {
 				country_event = { id = catholic_flavor.3 }
 				add_country_modifier = {
 					name = byz_master_of_the_pentarchy_modifier 
-					duration = -1 
+					duration = -1
 				}
 			}
 		}
@@ -886,7 +886,7 @@ noppbyzantine_missions_1 = {
 			2296 = { 
 				add_province_modifier = {
 					name = byz_center_of_gunpowder_production_modifier
-					duration = 9125 
+					duration = -1
 				}
 			}
 			add_mil_power = 100 
@@ -924,7 +924,7 @@ noppbyzantine_missions_1 = {
 				limit = { has_estate = estate_nobles }
 				add_country_modifier = {
 					name = byz_appointed_new_military_offices_modifier
-					duration = 10950 
+					duration = -1
 				}
 			}
 			random_owned_province = { #Write TT for this
@@ -936,7 +936,7 @@ noppbyzantine_missions_1 = {
 				}
 				add_province_modifier = {
 					name = byz_power_center_of_nobility_modifier 
-					duration = -1 
+					duration = -1
 				}
 				add_base_manpower = 1
 			}
@@ -974,7 +974,7 @@ noppbyzantine_missions_1 = {
 		effect = { 
 			add_country_modifier = {
 				name = byz_reformed_byzantine_education_system_modifier
-				duration = -1 
+				duration = -1
 			}
 			change_adm = 1
 			change_dip = 1
@@ -1008,7 +1008,7 @@ noppbyzantine_missions_2 = {
 			}
 			add_country_modifier = {
 				name = byz_resurgent_empire_modifier 
-				duration = 9125 
+				duration = -1
 			}
 			custom_tooltip = byz_claim_balkans_tt
 			hidden_effect = {
@@ -1077,13 +1077,13 @@ noppbyzantine_missions_2 = {
 		effect = {
 			add_country_modifier = {
 				name = byz_magistri_militum_italy_modifier
-				duration = 7300 
+				duration = -1
 			}
 			custom_tooltip = byz_accept_all_italian_cultures_tt
 			hidden_effect = {
 				add_country_modifier = {
 					name = byz_accept_all_italian_cultures_modifier
-					duration = -1 
+					duration = -1
 				}
 				add_accepted_culture = neapolitan 
 				add_accepted_culture = umbrian 
@@ -1171,7 +1171,7 @@ noppbyzantine_missions_2 = {
 				remove_province_modifier = granary_of_the_mediterranean 
 				add_province_modifier = {
 					name = byz_breadbasket_of_zawarudo_modifier 
-					duration = -1 
+					duration = -1
 				}
 			}
 			if = {
@@ -1196,7 +1196,7 @@ noppbyzantine_missions_2 = {
 				custom_tooltip = byz_if_you_build_the_pharos_tt_positive
 				add_country_modifier = {
 					name = byz_surplus_grain_exports_in_the_med_modifier
-					duration = 7300 
+					duration = -1
 				}
 			}
 			else = { 
@@ -1204,7 +1204,7 @@ noppbyzantine_missions_2 = {
 				tooltip = {
 					add_country_modifier = {
 						name = byz_surplus_grain_exports_in_the_med_modifier
-						duration = 7300 
+						duration = -1
 					}
 				}
 			} 
@@ -1263,7 +1263,7 @@ noppbyzantine_missions_2 = {
 			341 = {
 				add_province_modifier = {
 					name = byz_metropolitan_watchtower_modifier
-					duration = -1 
+					duration = -1
 				}
 			}
 			add_adm_power = 100 
@@ -1518,7 +1518,7 @@ noppbyzantine_missions_2 = {
 			tooltip = {
 				add_country_modifier = {
 					name = byz_appointed_military_exarchos_modifier
-					duration = 10950
+					duration = -1
 				}
 			}
 			if = {
@@ -1536,7 +1536,7 @@ noppbyzantine_missions_2 = {
 			tooltip = {
 				add_country_modifier = {
 					name = byz_appointed_administrative_exarchos_modifier
-					duration = 10950 
+					duration = -1
 				}
 			}
 			if = {
@@ -1560,7 +1560,7 @@ noppbyzantine_missions_2 = {
 			tooltip = {
 				add_country_modifier = {
 					name = byz_appointed_clerical_exarchos_modifier
-					duration = 10950
+					duration = -1
 				}
 			}
 			hidden_effect = {
@@ -1573,7 +1573,7 @@ noppbyzantine_missions_2 = {
 					}
 					add_country_modifier = {
 						name = byz_appointed_military_exarchos_modifier
-						duration = 10950
+						duration = -1
 					}
 				}
 				else_if = {
@@ -1585,7 +1585,7 @@ noppbyzantine_missions_2 = {
 					}
 					add_country_modifier = {
 						name = byz_appointed_administrative_exarchos_modifier
-						duration = 10950 
+						duration = -1
 					}
 				}
 				else_if = {
@@ -1603,7 +1603,7 @@ noppbyzantine_missions_2 = {
 					}
 					add_country_modifier = {
 						name = byz_appointed_clerical_exarchos_modifier
-						duration = 10950
+						duration = -1
 					}
 				}
 			}
@@ -1630,7 +1630,7 @@ noppbyzantine_missions_2 = {
 		effect = {
 			add_country_modifier = {
 				name = byz_eastern_musket_techniques_modifier
-				duration = 9125 
+				duration = -1
 			}
 			if = { 
 				limit = { has_dlc = "Cradle of Civilization" } 
@@ -1678,7 +1678,7 @@ noppbyzantine_missions_2 = {
 			else = { custom_tooltip = byz_reward_if_parliament }
 			add_country_modifier = {
 				name = byz_self_reliant_government_modifier
-				duration = 7300
+				duration = -1
 			}
 			change_adm = 2 
 		}
@@ -1716,7 +1716,7 @@ noppbyzantine_missions_2 = {
 			}
 			add_country_modifier = {
 				name = byz_renewed_judicial_process_modifier
-				duration = 9125 
+				duration = -1
 			}
 			custom_tooltip = byz_every_province_with_courthouse_or_town_hall_tt
 			hidden_effect = {
@@ -1806,13 +1806,13 @@ noppbyzantine_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = byz_protector_balkan_people_modifier 
-				duration = 7300
+				duration = -1
 			}
 			custom_tooltip = byz_cb_on_heathens_etc_tt 
 			hidden_effect = {
 				add_country_modifier = {
 					name = byz_cb_on_religious_enemies_modifier
-					duration = 9125 
+					duration = -1
 				}
 			}
 			custom_tooltip = " "
@@ -1848,7 +1848,7 @@ noppbyzantine_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = byz_revival_of_roman_aspirations_modifier
-				duration = -1 
+				duration = -1
 			}
 			add_adm_power = 100 
 			add_dip_power = 100 
@@ -1889,7 +1889,7 @@ noppbyzantine_missions_3 = {
 			}
 			add_country_modifier = {
 				name = byz_custodians_of_the_holy_city_modifier
-				duration = -1 
+				duration = -1
 				desc = byz_as_long_as_we_hold_the_city_d
 			}
 			if = {
@@ -1913,7 +1913,7 @@ noppbyzantine_missions_3 = {
 				379 = {
 					add_province_modifier = {
 						name = byz_magnificent_city_of_god_modifier
-						duration = 9125
+						duration = -1
 					}
 					add_base_tax = 2
 					add_base_manpower = 1 
@@ -1925,7 +1925,7 @@ noppbyzantine_missions_3 = {
 					379 = {
 						add_province_modifier = {
 							name = byz_magnificent_city_of_god_modifier
-							duration = 9125
+							duration = -1
 						}
 						add_base_tax = 2
 						add_base_manpower = 1 
@@ -2020,7 +2020,7 @@ noppbyzantine_missions_3 = {
 			capital_scope = { add_next_institution_embracement = 100 }
 			add_country_modifier = {
 				name = byz_second_byzantine_renaissance_modifier 
-				duration = 7300 
+				duration = -1
 			}
 			if = {
 				limit = {
@@ -2072,7 +2072,7 @@ noppbyzantine_missions_3 = {
 		effect = {
 			#add_ruler_modifier = {
 			#	name = byz_third_byzantine_wave_of_wealth_and_renaissance_modifier
-			#	duration = -1 
+			#	duration = -1
 			#}
 			ME_add_or_reset_golden_age = yes
 			custom_tooltip = " "
@@ -2123,7 +2123,7 @@ noppbyzantine_missions_3 = {
 				410 = {
 					add_province_modifier = {
 						name = byz_permitted_islamic_teaching_in_the_house_of_wisdom_modifier
-						duration = -1 
+						duration = -1
 					}
 				}
 			}
@@ -2224,7 +2224,7 @@ noppbyzantine_missions_3 = {
 				151 = {
 					add_province_modifier = {
 						name = byz_expansion_theodosian_walls_lev_modifier
-						duration = -1 
+						duration = -1
 					}
 					if = {
 						limit = { has_building = barracks }
@@ -2237,7 +2237,7 @@ noppbyzantine_missions_3 = {
 				151 = {
 					add_province_modifier = {
 						name = byz_expansion_theodosian_walls_modifier
-						duration = -1 
+						duration = -1
 					}
 					if = {
 						limit = { has_building = fort_17th }
@@ -2282,7 +2282,7 @@ noppbyzantine_missions_3 = {
 			tooltip = {
 				add_province_modifier = {
 					name = byz_eptapyrgio_defensive_line_modifier
-					duration = -1 
+					duration = -1
 				}
 			}
 			hidden_effect = {
@@ -2299,7 +2299,7 @@ noppbyzantine_missions_3 = {
 					}
 					add_province_modifier = {
 						name = byz_eptapyrgio_defensive_line_modifier
-						duration = -1 
+						duration = -1
 					}
 				}
 				random_owned_province = {
@@ -2315,7 +2315,7 @@ noppbyzantine_missions_3 = {
 					}
 					add_province_modifier = {
 						name = byz_eptapyrgio_defensive_line_modifier
-						duration = -1 
+						duration = -1
 					}
 				}
 				random_owned_province = {
@@ -2331,7 +2331,7 @@ noppbyzantine_missions_3 = {
 					}
 					add_province_modifier = {
 						name = byz_eptapyrgio_defensive_line_modifier
-						duration = -1 
+						duration = -1
 					}
 				}
 				random_owned_province = {
@@ -2347,7 +2347,7 @@ noppbyzantine_missions_3 = {
 					}
 					add_province_modifier = {
 						name = byz_eptapyrgio_defensive_line_modifier
-						duration = -1 
+						duration = -1
 					}
 				}
 				random_owned_province = {
@@ -2363,7 +2363,7 @@ noppbyzantine_missions_3 = {
 					}
 					add_province_modifier = {
 						name = byz_eptapyrgio_defensive_line_modifier
-						duration = -1 
+						duration = -1
 					}
 				}
 				random_owned_province = {
@@ -2379,7 +2379,7 @@ noppbyzantine_missions_3 = {
 					}
 					add_province_modifier = {
 						name = byz_eptapyrgio_defensive_line_modifier
-						duration = -1 
+						duration = -1
 					}
 				}
 				random_owned_province = {
@@ -2395,7 +2395,7 @@ noppbyzantine_missions_3 = {
 					}
 					add_province_modifier = {
 						name = byz_eptapyrgio_defensive_line_modifier
-						duration = -1 
+						duration = -1
 					}
 				}
 			}
@@ -2500,13 +2500,13 @@ noppbyzantine_missions_3 = {
 				limit = { has_dlc = "Cradle of Civilization" }
 				add_country_modifier = {
 					name = byz_army_centralization_effort_COC_modifier
-					duration = 9125 
+					duration = -1
 				}
 			}
 			else = { 
 				add_country_modifier = {
 					name = byz_army_centralization_effort_modifier
-					duration = 9125 
+					duration = -1
 				}
 			}
 			# else = { custom_tooltip = byz_uniform_centre_tt } 
@@ -2548,7 +2548,7 @@ noppbyzantine_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = byz_supremacy_over_faith_modifier
-				duration = -1 
+				duration = -1
 			}
 			#custom_tooltip = byz_convert_papal_points_to_absolutism
 		}
@@ -2581,7 +2581,7 @@ noppbyzantine_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = byz_absolute_autokrator_modifier
-				duration = -1 
+				duration = -1
 			}
 		}		
 	}
@@ -2622,7 +2622,7 @@ noppbyzantine_missions_4 = {
 				4779 = {
 					add_province_modifier = {
 						name = byz_dardanelles_passage_modifier
-						duration = -1 
+						duration = -1
 					}
 				}
 			}
@@ -2661,7 +2661,7 @@ noppbyzantine_missions_4 = {
 			country_event = { id = FU_Byzantium_Events.14 }
 			add_country_modifier = {
 				name = byz_victory_in_greece_modifier 
-				duration = 7300 
+				duration = -1
 			}
 		}
 	}
@@ -2751,7 +2751,7 @@ noppbyzantine_missions_4 = {
 			anatolia_region = {
 				add_province_modifier = {
 					name = byz_restored_roman_administration_modifier 
-					duration = 9125
+					duration = -1
 				}
 			}
 			caucasia_region = {
@@ -2818,7 +2818,7 @@ noppbyzantine_missions_4 = {
 		effect = {
 			add_country_modifier = {
 				name = byz_manuscripts_of_islamic_thought_modifier 
-				duration = 7300 
+				duration = -1
 			}
 			change_innovativeness = 2 
 		}
@@ -2887,31 +2887,31 @@ noppbyzantine_missions_4 = {
 			basra_area = {	
 				add_province_modifier = {
 					name = byz_renewed_affluence_modifier 
-					duration = -1 
+					duration = -1
 				}
 			}
 			410 = {
 				add_province_modifier = {
 					name = byz_renewed_affluence_modifier 
-					duration = -1 
+					duration = -1
 				}
 			}
 			409 = {
 				add_province_modifier = {
 					name = byz_renewed_affluence_modifier 
-					duration = -1 
+					duration = -1
 				}
 			}
 			406 = {
 				add_province_modifier = {
 					name = byz_renewed_affluence_modifier 
-					duration = -1 
+					duration = -1
 				}
 			}	
 			2314 = {
 				add_province_modifier = {
 					name = byz_renewed_affluence_modifier 
-					duration = -1 
+					duration = -1
 				}
 			}	
 		}
@@ -2943,7 +2943,7 @@ noppbyzantine_missions_4 = {
 		effect = {
 			add_country_modifier = {
 				name = byz_broke_sword_islam_modifier 
-				duration = 9125 
+				duration = -1
 			}
 			add_patriarch_authority = 0.1
 			arabia_region = {
@@ -3048,7 +3048,7 @@ noppbyzantine_missions_4 = {
 						limit = { province_has_center_of_trade_of_level = 1 } 
 						add_province_modifier = { 
 							name = byz_expanded_land_rights_of_merchants_modifier
-							duration = 5475
+							duration = -1
 						}
 					}
 				}
@@ -3069,7 +3069,7 @@ noppbyzantine_missions_4 = {
 				limit = { has_estate_privilege = estate_burghers_land_of_commerce }
 				add_country_modifier = {
 					name = byz_commercial_focus_modifier 
-					duration = 7300 
+					duration = -1
 				}
 			}
 			if = {
@@ -3080,7 +3080,7 @@ noppbyzantine_missions_4 = {
 				limit = { has_estate_privilege = estate_burghers_patronage_of_the_arts }
 				add_country_modifier = {
 					name = byz_attracting_people_of_thought_modifier
-					duration = 5475
+					duration = -1
 				}
 			}
 			# if = {
@@ -3111,7 +3111,7 @@ noppbyzantine_missions_4 = {
 				limit = { has_estate_privilege = estate_burghers_free_enterprise }
 				add_country_modifier = {
 					name = byz_relaxation_of_trade_policy_abroad_modifier
-					duration = 5475 
+					duration = -1
 				}
 			}
 			if = {
@@ -3213,7 +3213,7 @@ noppbyzantine_missions_4 = {
 			151 = {
 				add_province_modifier = {
 					name = byz_university_of_constantinople_modifier
-					duration = -1 
+					duration = -1
 				}
 			}
 		}
@@ -3276,7 +3276,7 @@ noppbyzantine_missions_4 = {
 				146 = {
 					add_province_modifier = {
 						name = byz_pristine_athenian_marble_modifier
-						duration = -1 
+						duration = -1
 					}
 				}
 			}
@@ -3321,7 +3321,7 @@ noppbyzantine_missions_4 = {
 				limit = { country_or_non_sovereign_subject_holds = ROOT } 
 				add_province_modifier = {
 					name = byz_crown_investments_modifier 
-					duration = 7300
+					duration = -1
 				}
 			}
 			custom_tooltip = byz_every_balkan_above_20_tt
@@ -3355,7 +3355,7 @@ noppbyzantine_missions_4 = {
 		effect = {
 			add_country_modifier = {
 				name = byz_war_galleys_of_the_empire_modifier
-				duration = 9125
+				duration = -1
 			}
 			if = {
 				limit = {
@@ -3476,7 +3476,7 @@ noppbyzantine_missions_4 = {
 		effect = {
 			add_country_modifier = {
 				name = byz_nationalized_trade_avenues_modifier
-				duration = 10950
+				duration = -1
 			}
 			if = { 
 				limit = { mission_completed = byz_fund_urban_infrastructure }
@@ -3568,7 +3568,7 @@ noppbyzantine_missions_5 = {
 			country_event = { id = FU_Byzantium_Events.16 }
 			add_country_modifier = {
 				name = byz_anatolian_campaign_modifier 
-				duration = 5475 
+				duration = -1
 			}
 			anatolia_region = {
 				limit = {
@@ -3616,28 +3616,28 @@ noppbyzantine_missions_5 = {
 			erzurum_area = {
 				add_province_modifier = {
 					name = byz_eastern_prefecture_modifier 
-					duration = 7300 
+					duration = -1
 				}
 				add_devastation = -15
 			}
 			rum_area = {
 				add_province_modifier = {
 					name = byz_eastern_prefecture_modifier 
-					duration = 7300 
+					duration = -1
 				}
 				add_devastation = -15
 			}
 			dulkadir_area = {
 				add_province_modifier = {
 					name = byz_eastern_prefecture_modifier 
-					duration = 7300 
+					duration = -1
 				}
 				add_devastation = -15
 			}
 			north_kurdistan_area = {
 				add_province_modifier = {
 					name = byz_eastern_prefecture_modifier 
-					duration = 7300 
+					duration = -1
 				}
 				add_devastation = -15
 			}
@@ -3693,12 +3693,12 @@ noppbyzantine_missions_5 = {
 		effect = {
 			add_country_modifier = {
 				name = byz_ended_persian_hegemony_modifier
-				duration = 9125 
+				duration = -1
 			}
 			416 = {
 				add_province_modifier = {
 					name = byz_important_carmin_center_of_the_east_modifier
-					duration = -1 
+					duration = -1
 				}
 				add_base_production = 1 
 			}
@@ -3727,7 +3727,7 @@ noppbyzantine_missions_5 = {
 		effect = {
 			add_country_modifier = {
 				name = byz_oriental_trade_modifier 
-				duration = 7300 
+				duration = -1
 			}
 			add_dip_power = 100 
 			add_mercantilism = 3 
@@ -3773,7 +3773,7 @@ noppbyzantine_missions_5 = {
 				}
 				add_country_modifier = {
 					name = byz_exhibition_of_strength_in_diplomacy_modifier
-					duration = 7300 
+					duration = -1
 				}
 			}
 			else_if = {
@@ -3821,7 +3821,7 @@ noppbyzantine_missions_5 = {
 		effect = {
 			add_country_modifier = {
 				name = byz_restored_the_carabisians_modifier 
-				duration = 9125 
+				duration = -1
 			}
 			add_navy_tradition = 10 
 		}
@@ -3888,7 +3888,7 @@ noppbyzantine_missions_5 = {
 		effect = {
 			add_ruler_modifier = {
 				name = byz_host_of_the_queen_of_the_cities_modifier
-				duration = -1 
+				duration = -1
 			}
 			capital_scope = {
 				add_scaled_local_adm_power = 10 
@@ -3923,7 +3923,7 @@ noppbyzantine_missions_5 = {
 					}
 					add_province_modifier = {
 						name = byz_boosted_state_production_modifier
-						duration = 7300 
+						duration = -1
 					}
 				}
 			}
@@ -4005,7 +4005,7 @@ noppbyzantine_missions_5 = {
 				EGY = { 
 					add_country_modifier = {
 						name = byz_grain_surplus_modifier 
-						duration = 9125 
+						duration = -1
 					}
 				}
 			}
@@ -4015,7 +4015,7 @@ noppbyzantine_missions_5 = {
 					EGY = {
 						add_country_modifier = {
 							name = byz_grain_surplus_modifier 
-							duration = 9125 
+							duration = -1
 						}
 					}
 				}
@@ -4042,11 +4042,11 @@ noppbyzantine_missions_5 = {
 		effect = {
 			add_country_modifier = {
 				name = byz_restored_naval_supremacy_modifier
-				duration = 7300 
+				duration = -1
 			}
 			add_ruler_modifier = {	
 				name = byz_naval_brilliance_modifier
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -4100,7 +4100,7 @@ noppbyzantine_missions_5 = {
 					}
 					add_province_modifier = {
 						name = byz_byzantine_coastal_fortifications_modifier
-						duration = -1 
+						duration = -1
 					}
 					add_base_manpower = 1
 				}
@@ -4130,7 +4130,7 @@ noppbyzantine_missions_5 = {
 		effect = {
 			add_country_modifier = {
 				name = byz_funds_roads_and_expansion_modifier
-				duration = 9125
+				duration = -1
 			}
 		}
 	}
@@ -4165,7 +4165,7 @@ noppbyzantine_missions_5 = {
 		effect = {
 			add_country_modifier = {
 				name = byz_singular_currency_modifier
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -4210,7 +4210,7 @@ noppbyzantine_missions_5 = {
 			tooltip = {
 				add_province_modifier = {
 					name = byz_industrial_center_of_production 
-					duration = 12775
+					duration = -1
 				}
 				add_base_production = 1
 			}
@@ -4219,7 +4219,7 @@ noppbyzantine_missions_5 = {
 					limit = { has_manufactory_trigger = yes development = 30 }
 					add_province_modifier = {
 						name = byz_industrial_center_of_production 
-						duration = 12775
+						duration = -1
 					}
 					add_base_production = 1
 				}

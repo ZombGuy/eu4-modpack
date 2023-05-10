@@ -18,7 +18,7 @@ generic_japan_me_1 = {
 		effect = {
 			add_country_modifier = {
 				name = "strengthened_bushido"
-				duration = 9125
+				duration = -1
 			}
 		}
 	}
@@ -36,7 +36,7 @@ generic_japan_me_1 = {
 		effect = {
 			add_country_modifier = {
 				name = JAP_ashigarus
-				duration = 5475
+				duration = -1
 			}
 		}
 	}
@@ -85,7 +85,7 @@ generic_japan_me_1 = {
 		effect = {
 			add_country_modifier = {
 				name = JAP_rise_of_a_new_clan
-				duration = 7300
+				duration = -1
 			}
 		}
 	}
@@ -154,7 +154,7 @@ generic_japan_me_1_MoH = {
 			add_years_of_income = 0.6
 			add_country_modifier = {
 				name = JAP_seized_ikko_wealth
-				duration = 7300
+				duration = -1
 			}
 		}
 	}
@@ -217,7 +217,7 @@ generic_japan_me_2 = {
 		effect = {
 			add_country_modifier = {
 				name = JAP_sengoku_contender
-				duration = 7300
+				duration = -1
 			}
 		}
 	}
@@ -279,7 +279,7 @@ generic_japan_me_2_MoH = {
 		effect = {
 			add_country_modifier = {
 				name = JAP_no_more_budhists_in_our_ranks
-				duration = 10950
+				duration = -1
 			}
 		}
 	}
@@ -305,7 +305,7 @@ generic_japan_me_3 = {
 		effect = {
 			add_country_modifier = {
 				name = JAP_faithful_samurai
-				duration = 7300
+				duration = -1
 			}
 		}
 	}
@@ -321,12 +321,12 @@ generic_japan_me_3 = {
 		effect = {
 			add_country_modifier = {
 				name = JAP_future_of_warfare
-				duration = 9125
+				duration = -1
 			}
 			random_owned_province = {
 				add_province_modifier = {
 					name = JAP_skilled_weapon_manufacturer
-					duration = 10950
+					duration = -1
 				}
 			}
 		}
@@ -461,7 +461,7 @@ generic_japan_me_4 = {
 		effect = {
 			add_country_modifier = {
 				name = JAP_developing_own_nanikata_system
-				duration = 9125
+				duration = -1
 			}
 		}
 	}
@@ -620,7 +620,7 @@ generic_japan_me_4_MoH = {
 		effect = {
 			add_country_modifier = {
 				name = JAP_warrior_monks
-				duration = 7300
+				duration = -1
 			}
 		}
 	}
@@ -658,7 +658,7 @@ generic_japan_me_5 = {
 		effect = {
 			add_country_modifier = {
 				name = generic_jap_nanban_trade
-				duration = 9125
+				duration = -1
 			}
 		}
 	}
@@ -700,7 +700,7 @@ generic_japan_me_5 = {
 		effect = {
 			add_country_modifier = {
 				name = JAP_organized_clan
-				duration = 9125
+				duration = -1
 			}
 		}
 	}

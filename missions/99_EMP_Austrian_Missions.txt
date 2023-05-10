@@ -42,7 +42,7 @@ emp_hab_netherlands_branch = {
 		effect = {
 			add_country_modifier = {
 				name = hab_austrian_netherlands
-				duration = 7300
+				duration = -1
 			}
 		}
 		ai_weight = {
@@ -443,7 +443,7 @@ emp_hab_netherlands_branch = {
 			}
 			add_country_modifier = {
 				name = hab_chinese_riches
-				duration = 7300
+				duration = -1
 			}
 		}
 		ai_weight = {
@@ -485,7 +485,7 @@ emp_hab_netherlands_branch = {
 			add_prestige = 20
 			add_country_modifier = {
 				name = hab_austrian_australia
-				duration = 10950
+				duration = -1
 			}
 		}
 		ai_weight = {
@@ -604,7 +604,7 @@ emp_hab_develop_hungary_bohemia_branch = {
 		effect = {
 			add_country_modifier = {
 				name = hab_invested_in_provinces
-				duration = 10950
+				duration = -1
 			}
 		}
 		ai_weight = {

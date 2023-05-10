@@ -48,7 +48,7 @@ BRG_Missions_1 = {
 			}
 			add_country_modifier = {
 				name = BRG_julich_kleves
-				duration = 9125
+				duration = -1
 			}
 			ME_override_country_name = { name = BRGKLE }
 		}
@@ -81,7 +81,7 @@ BRG_Missions_1 = {
 			}
 			add_country_modifier = {
 				name = BRG_order_of_the_horn
-				duration = 10950
+				duration = -1
 			}
 		}
 	}
@@ -166,7 +166,7 @@ BRG_Missions_5 = {
 		effect = {
 			add_country_modifier = {
 				name = BRG_geheimer_rat_fur_die_mark
-				duration = 10950
+				duration = -1
 			}
 		}
 	}
@@ -193,7 +193,7 @@ BRG_Missions_5 = {
 		effect = {
 			add_country_modifier = {
 				name = BRG_centralization
-				duration = 9125
+				duration = -1
 			}
 			custom_tooltip = RHN_westfalian
 			hidden_effect = {

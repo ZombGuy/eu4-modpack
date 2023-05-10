@@ -37,7 +37,7 @@ MOR_missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = MOR_berber_loyalties
-				duration = 7300
+				duration = -1
 			}
 		}
 	}
@@ -202,7 +202,8 @@ MOR_missions_1 = {
 			}
 		}
 		effect = {
-			add_temporary_colonist = { duration = 14600 }
+			add_temporary_colonist = { duration = -1
+}
 			
 			custom_tooltip = " "
 			
@@ -243,7 +244,7 @@ MOR_missions_1 = {
 			
 			add_country_modifier = {
 				name = MOR_west_africa_conquest
-				duration = 10950
+				duration = -1
 			}
 		}
 	}
@@ -293,7 +294,7 @@ MOR_missions_1 = {
 			
 			add_country_modifier = {
 				name = MOR_corsairs_of_the_mediterranean
-				duration = 9125
+				duration = -1
 			}
 		}
 	}
@@ -510,7 +511,7 @@ MOR_missions_2 = {
 			
 			add_country_modifier = {
 				name = MOR_zayyanids_subjugated
-				duration = 9125
+				duration = -1
 			}
 			
 			ME_give_claims = { area = kabylia_area }
@@ -763,7 +764,7 @@ MOR_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = MOR_reorganized_forces
-				duration = 7300
+				duration = -1
 			}
 			
 			ME_give_claims = { area = algiers_area }
@@ -789,7 +790,7 @@ MOR_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = MOR_accross_the_strait
-				duration = 9125
+				duration = -1
 			}
 			
 			add_navy_tradition = 20
@@ -1172,7 +1173,7 @@ MOR_missions_4 = {
 		effect = {
 			add_country_modifier = { #convert to an age modifier?
 				name = MOR_al_andalus
-				duration = 14600
+				duration = -1
 			}
 			
 			change_national_focus_effect = yes
@@ -1277,7 +1278,7 @@ MOR_missions_4 = {
 		effect = {
 			add_country_modifier = {
 				name = MOR_gunpowder_warfare
-				duration = 7300
+				duration = -1
 			}
 			
 			define_advisor = {
@@ -1319,7 +1320,7 @@ MOR_missions_4 = {
 			home_trade_node_effect_scope = {
 				add_trade_modifier = {
 					who = ROOT
-					duration = 5475
+					duration = -1
 					power = 15
 					key = MOR_funduqs_expanded
 				}
@@ -1375,7 +1376,7 @@ MOR_missions_5 = {
 				GRA = {
 					add_country_modifier = {
 						name = MOR_moroccan_support
-						duration = 9125
+						duration = -1
 					}
 				}
 				custom_tooltip = MOR_if_we_can_save_them_for_10_years
@@ -1412,7 +1413,7 @@ MOR_missions_5 = {
 					GRA = {
 						add_country_modifier = {
 							name = MOR_moroccan_support
-							duration = 9125
+							duration = -1
 						}
 					}
 					GRA = {
@@ -1643,7 +1644,7 @@ MOR_missions_5 = {
 				add_or_upgrade_forcelimit_building = yes
 				add_province_modifier = {
 					name = MOR_local_guich_tribes_stationed
-					duration = -1 
+					duration = -1
 				}
 			}
 			344 = {
@@ -1651,13 +1652,13 @@ MOR_missions_5 = {
 				add_or_upgrade_forcelimit_building = yes
 				add_province_modifier = {
 					name = MOR_local_guich_tribes_stationed
-					duration = -1 
+					duration = -1
 				}
 			}
 			
 			add_country_modifier = {
 				name = MOR_garrison_tribes
-				duration = 10950
+				duration = -1
 			}
 		}
 	}

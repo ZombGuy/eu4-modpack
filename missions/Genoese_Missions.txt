@@ -216,7 +216,7 @@ genoa_africa_slot_2 = {
 			add_mercantilism = 2
 			add_country_modifier = {
 				name = "mediterranean_ambition"
-				duration = 5475
+				duration = -1
 			}
 		}
 	}
@@ -349,7 +349,7 @@ genoa_europe_slot = {
 			add_mercantilism = 2
 			add_country_modifier = {
 				name = "black_sea_ambition"
-				duration = 5475
+				duration = -1
 			}
 		}
 	}

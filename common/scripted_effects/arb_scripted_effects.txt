@@ -1,7 +1,7 @@
 ARB_reward_west_arabia = {
 	add_country_modifier = {
 		name = ARB_holy_cities_routes_secured
-		duration = 9125
+		duration = -1
 	}
 	
 	add_estate_loyalty = {
@@ -13,7 +13,7 @@ ARB_reward_west_arabia = {
 ARB_reward_central_arabia = {
 	add_country_modifier = {
 		name = ARB_horses
-		duration = 9125
+		duration = -1
 	}
 	
 	custom_tooltip = ARB_in_random_province_of_central_arabia
@@ -68,7 +68,7 @@ ARB_reward_east_arabia = {
 ARB_reward_yemen = {
 	add_country_modifier = {
 		name = ARB_yemeni_trade_routes
-		duration = 5475
+		duration = -1
 	}
 	add_mercantilism = 3
 }
@@ -76,7 +76,7 @@ ARB_reward_yemen = {
 ARB_reward_levant = {
 	add_country_modifier = {
 		name = ARB_levant_conquered
-		duration = 7300
+		duration = -1
 	}
 	
 	add_power_projection = {
@@ -88,7 +88,7 @@ ARB_reward_levant = {
 ARB_reward_iraq = {
 	add_country_modifier = {
 		name = ARB_house_of_wisdom_conquered
-		duration = 10950
+		duration = -1
 	}
 	
 	ME_technology_split_120_power = yes #will be done later ;)
@@ -98,7 +98,7 @@ ARB_reward_egypt = {
 	358 = {
 		add_trade_modifier = {
 			who = ROOT
-			duration = 19250
+			duration = -1
 			power = 25
 			key = ARB_important_asset
 		}
@@ -580,7 +580,7 @@ ARB_claims_next = {
 YEM_madrasah_effect = {
 	add_country_modifier = {
 		name = YEM_united_in_faith
-		duration = 9125
+		duration = -1
 	}
 	
 	capital_scope = {
@@ -758,12 +758,11 @@ GRA_add_war_modifier = {
 
 TUN_leo_africanus_spawn = {
 		if = {
-			limit = {
-				NOT = {
-					had_global_flag = {
-						flag = Leo_Africanus_employment
-						days = 18250
-					}
+		limit = {
+			NOT = {
+				had_global_flag = {
+					flag = Leo_Africanus_employment
+					days = 18250
 				}
 			}
 		}
@@ -821,14 +820,14 @@ TUN_leo_africanus_spawn = {
 										}
 									}
 								}
-								ME_TUN_$type$_advisor = { cost_multiplier = $discount$ }
+								ME_TUN_$type$_advisor = { age = 0 cost_multiplier = $discount$ }
 							}
 							else = {
-								ME_TUN_$type$_advisor = { cost_multiplier = $discount$ }
+								ME_TUN_$type$_advisor = { age = 1 cost_multiplier = $discount$ }
 							}
 						}
 						else = {
-							ME_TUN_$type$_advisor = { cost_multiplier = $discount$ }
+							ME_TUN_$type$_advisor = { age = 2 cost_multiplier = $discount$ }
 						}
 					}
 					else = {
@@ -841,10 +840,10 @@ TUN_leo_africanus_spawn = {
 									}
 								}
 							}
-							ME_TUN_$type$_advisor = { cost_multiplier = $discount$ }
+							ME_TUN_$type$_advisor = { age = 3 cost_multiplier = $discount$ }
 						}
 						else = {
-							ME_TUN_$type$_advisor = { cost_multiplier = $discount$ }
+							ME_TUN_$type$_advisor = { age = 4 cost_multiplier = $discount$ }
 						}
 					}
 				}
@@ -867,10 +866,10 @@ TUN_leo_africanus_spawn = {
 									}
 								}
 							}
-							ME_TUN_$type$_advisor = { cost_multiplier = $discount$ }
+							ME_TUN_$type$_advisor = { age = 5 cost_multiplier = $discount$ }
 						}
 						else = {
-							ME_TUN_$type$_advisor = { cost_multiplier = $discount$ }
+							ME_TUN_$type$_advisor = { age = 6 cost_multiplier = $discount$ }
 						}
 					}
 					else = {
@@ -883,10 +882,10 @@ TUN_leo_africanus_spawn = {
 									}
 								}
 							}
-							ME_TUN_$type$_advisor = { cost_multiplier = $discount$ }
+							ME_TUN_$type$_advisor = { age = 7 cost_multiplier = $discount$ }
 						}
 						else = {
-							ME_TUN_$type$_advisor = { cost_multiplier = $discount$ }
+							ME_TUN_$type$_advisor = { age = 8 cost_multiplier = $discount$ }
 						}
 					}
 				}
@@ -919,10 +918,10 @@ TUN_leo_africanus_spawn = {
 									}
 								}
 							}
-							ME_TUN_$type$_advisor = { cost_multiplier = $discount$ }
+							ME_TUN_$type$_advisor = { age = 9 cost_multiplier = $discount$ }
 						}
 						else = {
-							ME_TUN_$type$_advisor = { cost_multiplier = $discount$ }
+							ME_TUN_$type$_advisor = { age = 10 cost_multiplier = $discount$ }
 						}
 					}
 					else = {
@@ -935,10 +934,10 @@ TUN_leo_africanus_spawn = {
 									}
 								}
 							}
-							ME_TUN_$type$_advisor = { cost_multiplier = $discount$ }
+							ME_TUN_$type$_advisor = { age = 11 cost_multiplier = $discount$ }
 						}
 						else = {
-							ME_TUN_$type$_advisor = { cost_multiplier = $discount$ }
+							ME_TUN_$type$_advisor = { age = 12 cost_multiplier = $discount$ }
 						}
 					}
 				}
@@ -961,10 +960,10 @@ TUN_leo_africanus_spawn = {
 									}
 								}
 							}
-							ME_TUN_$type$_advisor = { cost_multiplier = $discount$ }
+							ME_TUN_$type$_advisor = { age = 13 cost_multiplier = $discount$ }
 						}
 						else = {
-							ME_TUN_$type$_advisor = { cost_multiplier = $discount$ }
+							ME_TUN_$type$_advisor = { age = 14 cost_multiplier = $discount$ }
 						}
 					}
 					else = {
@@ -977,10 +976,10 @@ TUN_leo_africanus_spawn = {
 									}
 								}
 							}
-							ME_TUN_$type$_advisor = { cost_multiplier = $discount$ }
+							ME_TUN_$type$_advisor = { age = 15 cost_multiplier = $discount$ }
 						}
 						else = {
-							ME_TUN_$type$_advisor = { cost_multiplier = $discount$ }
+							ME_TUN_$type$_advisor = { age = 16 cost_multiplier = $discount$ }
 						}
 					}
 				}
@@ -1023,10 +1022,10 @@ TUN_leo_africanus_spawn = {
 									}
 								}
 							}
-							ME_TUN_$type$_advisor = { cost_multiplier = $discount$ }
+							ME_TUN_$type$_advisor = { age = 17 cost_multiplier = $discount$ }
 						}
 						else = {
-							ME_TUN_$type$_advisor = { cost_multiplier = $discount$ }
+							ME_TUN_$type$_advisor = { age = 18 cost_multiplier = $discount$ }
 						}
 					}
 					else = {
@@ -1039,10 +1038,10 @@ TUN_leo_africanus_spawn = {
 									}
 								}
 							}
-							ME_TUN_$type$_advisor = { cost_multiplier = $discount$ }
+							ME_TUN_$type$_advisor = { age = 19 cost_multiplier = $discount$ }
 						}
 						else = {
-							ME_TUN_$type$_advisor = { cost_multiplier = $discount$ }
+							ME_TUN_$type$_advisor = { age = 20 cost_multiplier = $discount$ }
 						}
 					}
 				}
@@ -1065,10 +1064,10 @@ TUN_leo_africanus_spawn = {
 									}
 								}
 							}
-							ME_TUN_$type$_advisor = { cost_multiplier = $discount$ }
+							ME_TUN_$type$_advisor = { age = 21 cost_multiplier = $discount$ }
 						}
 						else = {
-							ME_TUN_$type$_advisor = { cost_multiplier = $discount$ }
+							ME_TUN_$type$_advisor = { age = 22 cost_multiplier = $discount$ }
 						}
 					}
 					else = {
@@ -1081,10 +1080,10 @@ TUN_leo_africanus_spawn = {
 									}
 								}
 							}
-							ME_TUN_$type$_advisor = { cost_multiplier = $discount$ }
+							ME_TUN_$type$_advisor = { age = 23 cost_multiplier = $discount$ }
 						}
 						else = {
-							ME_TUN_$type$_advisor = { cost_multiplier = $discount$ }
+							ME_TUN_$type$_advisor = { age = 24 cost_multiplier = $discount$ }
 						}
 					}
 				}
@@ -1117,10 +1116,10 @@ TUN_leo_africanus_spawn = {
 									}
 								}
 							}
-							ME_TUN_$type$_advisor = { cost_multiplier = $discount$ }
+							ME_TUN_$type$_advisor = { age = 25 cost_multiplier = $discount$ }
 						}
 						else = {
-							ME_TUN_$type$_advisor = { cost_multiplier = $discount$ }
+							ME_TUN_$type$_advisor = { age = 26 cost_multiplier = $discount$ }
 						}
 					}
 					else = {
@@ -1133,10 +1132,10 @@ TUN_leo_africanus_spawn = {
 									}
 								}
 							}
-							ME_TUN_$type$_advisor = { cost_multiplier = $discount$ }
+							ME_TUN_$type$_advisor = { age = 27 cost_multiplier = $discount$ }
 						}
 						else = {
-							ME_TUN_$type$_advisor = { cost_multiplier = $discount$ }
+							ME_TUN_$type$_advisor = { age = 28 cost_multiplier = $discount$ }
 						}
 					}
 				}
@@ -1159,10 +1158,10 @@ TUN_leo_africanus_spawn = {
 									}
 								}
 							}
-							ME_TUN_$type$_advisor = { cost_multiplier = $discount$ }
+							ME_TUN_$type$_advisor = { age = 29 cost_multiplier = $discount$ }
 						}
 						else = {
-							ME_TUN_$type$_advisor = { cost_multiplier = $discount$ }
+							ME_TUN_$type$_advisor = { age = 30 cost_multiplier = $discount$ }
 						}
 					}
 					else = {
@@ -1175,15 +1174,16 @@ TUN_leo_africanus_spawn = {
 									}
 								}
 							}
-							ME_TUN_$type$_advisor = { cost_multiplier = $discount$ }
+							ME_TUN_$type$_advisor = { age = 31 cost_multiplier = $discount$ }
 						}
 						else = {
-							ME_TUN_$type$_advisor = { cost_multiplier = $discount$ }
+							ME_TUN_$type$_advisor = { age = 32 cost_multiplier = $discount$ }
 						}
 					}
 				}
 			}
 		}
+	}
 	else = {
 		if = {
 			limit = {
@@ -1230,10 +1230,10 @@ TUN_leo_africanus_spawn = {
 									}
 								}
 							}
-							ME_TUN_$type$_advisor = { cost_multiplier = $discount$ }
+							ME_TUN_$type$_advisor = { age = 33 cost_multiplier = $discount$ }
 						}
 						else = {
-							ME_TUN_$type$_advisor = { cost_multiplier = $discount$ }
+							ME_TUN_$type$_advisor = { age = 34 cost_multiplier = $discount$ }
 						}
 					}
 					else = {
@@ -1246,10 +1246,10 @@ TUN_leo_africanus_spawn = {
 									}
 								}
 							}
-							ME_TUN_$type$_advisor = { cost_multiplier = $discount$ }
+							ME_TUN_$type$_advisor = { age = 35 cost_multiplier = $discount$ }
 						}
 						else = {
-							ME_TUN_$type$_advisor = { cost_multiplier = $discount$ }
+							ME_TUN_$type$_advisor = { age = 36 cost_multiplier = $discount$ }
 						}
 					}
 				}
@@ -1272,10 +1272,10 @@ TUN_leo_africanus_spawn = {
 									}
 								}
 							}
-							ME_TUN_$type$_advisor = { cost_multiplier = $discount$ }
+							ME_TUN_$type$_advisor = { age = 37 cost_multiplier = $discount$ }
 						}
 						else = {
-							ME_TUN_$type$_advisor = { cost_multiplier = $discount$ }
+							ME_TUN_$type$_advisor = { age = 38 cost_multiplier = $discount$ }
 						}
 					}
 					else = {
@@ -1288,10 +1288,10 @@ TUN_leo_africanus_spawn = {
 									}
 								}
 							}
-							ME_TUN_$type$_advisor = { cost_multiplier = $discount$ }
+							ME_TUN_$type$_advisor = { age = 39 cost_multiplier = $discount$ }
 						}
 						else = {
-							ME_TUN_$type$_advisor = { cost_multiplier = $discount$ }
+							ME_TUN_$type$_advisor = { age = 40 cost_multiplier = $discount$ }
 						}
 					}
 				}
@@ -1324,10 +1324,10 @@ TUN_leo_africanus_spawn = {
 									}
 								}
 							}
-							ME_TUN_$type$_advisor = { cost_multiplier = $discount$ }
+							ME_TUN_$type$_advisor = { age = 41 cost_multiplier = $discount$ }
 						}
 						else = {
-							ME_TUN_$type$_advisor = { cost_multiplier = $discount$ }
+							ME_TUN_$type$_advisor = { age = 42 cost_multiplier = $discount$ }
 						}
 					}
 					else = {
@@ -1340,10 +1340,10 @@ TUN_leo_africanus_spawn = {
 									}
 								}
 							}
-							ME_TUN_$type$_advisor = { cost_multiplier = $discount$ }
+							ME_TUN_$type$_advisor = { age = 43 cost_multiplier = $discount$ }
 						}
 						else = {
-							ME_TUN_$type$_advisor = { cost_multiplier = $discount$ }
+							ME_TUN_$type$_advisor = { age = 44 cost_multiplier = $discount$ }
 						}
 					}
 				}
@@ -1366,10 +1366,10 @@ TUN_leo_africanus_spawn = {
 									}
 								}
 							}
-							ME_TUN_$type$_advisor = { cost_multiplier = $discount$ }
+							ME_TUN_$type$_advisor = { age = 45 cost_multiplier = $discount$ }
 						}
 						else = {
-							ME_TUN_$type$_advisor = { cost_multiplier = $discount$ }
+							ME_TUN_$type$_advisor = { age = 46 cost_multiplier = $discount$ }
 						}
 					}
 					else = {
@@ -1382,10 +1382,10 @@ TUN_leo_africanus_spawn = {
 									}
 								}
 							}
-							ME_TUN_$type$_advisor = { cost_multiplier = $discount$ }
+							ME_TUN_$type$_advisor = { age = 47 cost_multiplier = $discount$ }
 						}
 						else = {
-							ME_TUN_$type$_advisor = { cost_multiplier = $discount$ }
+							ME_TUN_$type$_advisor = { age = 48 cost_multiplier = $discount$ }
 						}
 					}
 				}
@@ -1428,10 +1428,10 @@ TUN_leo_africanus_spawn = {
 									}
 								}
 							}
-							ME_TUN_$type$_advisor = { cost_multiplier = $discount$ }
+							ME_TUN_$type$_advisor = { age = 49 cost_multiplier = $discount$ }
 						}
 						else = {
-							ME_TUN_$type$_advisor = { cost_multiplier = $discount$ }
+							ME_TUN_$type$_advisor = { age = 50 cost_multiplier = $discount$ }
 						}
 					}
 					else = {
@@ -1444,10 +1444,10 @@ TUN_leo_africanus_spawn = {
 									}
 								}
 							}
-							ME_TUN_$type$_advisor = { cost_multiplier = $discount$ }
+							ME_TUN_$type$_advisor = { age = 51 cost_multiplier = $discount$ }
 						}
 						else = {
-							ME_TUN_$type$_advisor = { cost_multiplier = $discount$ }
+							ME_TUN_$type$_advisor = { age = 52 cost_multiplier = $discount$ }
 						}
 					}
 				}
@@ -1470,10 +1470,10 @@ TUN_leo_africanus_spawn = {
 									}
 								}
 							}
-							ME_TUN_$type$_advisor = { cost_multiplier = $discount$ }
+							ME_TUN_$type$_advisor = { age = 53 cost_multiplier = $discount$ }
 						}
 						else = {
-							ME_TUN_$type$_advisor = { cost_multiplier = $discount$ }
+							ME_TUN_$type$_advisor = { age = 54 cost_multiplier = $discount$ }
 						}
 					}
 					else = {
@@ -1486,10 +1486,10 @@ TUN_leo_africanus_spawn = {
 									}
 								}
 							}
-							ME_TUN_$type$_advisor = { cost_multiplier = $discount$ }
+							ME_TUN_$type$_advisor = { age = 55 cost_multiplier = $discount$ }
 						}
 						else = {
-							ME_TUN_$type$_advisor = { cost_multiplier = $discount$ }
+							ME_TUN_$type$_advisor = { age = 56 cost_multiplier = $discount$ }
 						}
 					}
 				}
@@ -1522,10 +1522,10 @@ TUN_leo_africanus_spawn = {
 									}
 								}
 							}
-							ME_TUN_$type$_advisor = { cost_multiplier = $discount$ }
+							ME_TUN_$type$_advisor = { age = 57 cost_multiplier = $discount$ }
 						}
 						else = {
-							ME_TUN_$type$_advisor = { cost_multiplier = $discount$ }
+							ME_TUN_$type$_advisor = { age = 58 cost_multiplier = $discount$ }
 						}
 					}
 					else = {
@@ -1538,10 +1538,10 @@ TUN_leo_africanus_spawn = {
 									}
 								}
 							}
-							ME_TUN_$type$_advisor = { cost_multiplier = $discount$ }
+							ME_TUN_$type$_advisor = { age = 59 cost_multiplier = $discount$ }
 						}
 						else = {
-							ME_TUN_$type$_advisor = { cost_multiplier = $discount$ }
+							ME_TUN_$type$_advisor = { age = 60 cost_multiplier = $discount$ }
 						}
 					}
 				}
@@ -1564,10 +1564,10 @@ TUN_leo_africanus_spawn = {
 									}
 								}
 							}
-							ME_TUN_$type$_advisor = { cost_multiplier = $discount$ }
+							ME_TUN_$type$_advisor = { age = 61 cost_multiplier = $discount$ }
 						}
 						else = {
-							ME_TUN_$type$_advisor = { cost_multiplier = $discount$ }
+							ME_TUN_$type$_advisor = { age = 62 cost_multiplier = $discount$ }
 						}
 					}
 					else = {
@@ -1580,10 +1580,10 @@ TUN_leo_africanus_spawn = {
 									}
 								}
 							}
-							ME_TUN_$type$_advisor = { cost_multiplier = $discount$ }
+							ME_TUN_$type$_advisor = { age = 63 cost_multiplier = $discount$ }
 						}
 						else = {
-							ME_TUN_$type$_advisor = { cost_multiplier = $discount$ }
+							ME_TUN_$type$_advisor = { age = 64 cost_multiplier = $discount$ }
 						}
 					}
 				}
@@ -1599,6 +1599,7 @@ ME_TUN_muslim_advisor = {
 		skill = 3
 		culture = andalucian 
 		religion = sunni
+		age = 30
 		cost_multiplier = $cost_multiplier$
 	}
 }
@@ -1610,6 +1611,7 @@ ME_TUN_christian_advisor = {
 		skill = 3
 		culture = andalucian 
 		religion = catholic
+		age = 30
 		cost_multiplier = $cost_multiplier$
 	}
 }
@@ -1702,3 +1704,4 @@ RUM_112_clr_flags = {
 	clr_country_flag = RUM_4_province
 	clr_country_flag = RUM_5_province
 }
+

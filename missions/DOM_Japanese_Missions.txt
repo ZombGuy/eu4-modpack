@@ -76,7 +76,7 @@ DOM_japanse_missions_1 = {
 		effect = {
 			add_country_modifier = { 
 				name = jap_stability_edo_period_modifier
-				duration = -1 
+				duration = -1
 				desc = until_end_of_age_desc 
 			}
 		}
@@ -117,7 +117,7 @@ DOM_japanse_missions_1 = {
 			tooltip = {
 				add_country_modifier = { 
 					name = jap_exchange_ideas_modifier 
-					duration = 9125 
+					duration = -1
 				}
 				if = { 
 					limit = { has_dlc = "Rights of Man" NOT = { num_of_ruler_traits = { amount = 3 } } } 
@@ -134,7 +134,7 @@ DOM_japanse_missions_1 = {
 					limit = { owned_by = ROOT } 
 					add_province_modifier = { 
 						name = jap_sakoku_modifier 
-						duration = -1 
+						duration = -1
 					} 
 				}
 			}
@@ -143,7 +143,7 @@ DOM_japanse_missions_1 = {
 			tooltip = {
 				add_country_modifier = { 
 					name = jap_trade_innovations_modifier 
-					duration = 10950 
+					duration = -1
 				}
 			}
 			
@@ -152,7 +152,7 @@ DOM_japanse_missions_1 = {
 					limit = { has_country_flag = jap_chose_kaikoku_flag }
 					add_country_modifier = { 
 						name = jap_exchange_ideas_modifier 
-						duration = 9125 
+						duration = -1
 					}
 					if = { 
 						limit = { has_dlc = "Rights of Man" NOT = { num_of_ruler_traits = { amount = 3 } } } 
@@ -175,14 +175,14 @@ DOM_japanse_missions_1 = {
 						limit = { owned_by = ROOT } 
 						add_province_modifier = { 
 							name = jap_sakoku_modifier 
-							duration = -1 
+							duration = -1
 						}
 					}
 				}
 				else = { 
 					add_country_modifier = { 
 						name = jap_trade_innovations_modifier 
-						duration = 10950 
+						duration = -1
 					}
 				}
 			}
@@ -261,13 +261,13 @@ DOM_japanse_missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = jap_wealth_of_china_modifier 
-				duration = -1 
+				duration = -1
 			}
 			
 			2174 = {
 				add_province_modifier = {	
 					name = jap_expanded_mining_operations_modifier
-					duration = 9125 
+					duration = -1
 				}
 			}
 			
@@ -368,7 +368,7 @@ japanese_missions_eoc_1 = {
 			tooltip = {
 				add_country_modifier = { 
 					name = mng_increased_eunuch_influence_modifier
-					duration = 18250
+					duration = -1
 				}
 			}
 			custom_tooltip = pol_alternatively_tt
@@ -419,7 +419,7 @@ japanese_missions_eoc_1 = {
 				else = {
 					add_country_modifier = { 
 						name = mng_increased_eunuch_influence_modifier
-						duration = 18250
+						duration = -1
 					}
 				}
 			}
@@ -661,7 +661,7 @@ DOM_japanse_missions_2_dejima = {
 				center_of_trade = 2 
 				add_province_modifier = {
 					name = dejima_port_entry_modifier
-					duration = -1 
+					duration = -1
 				}
 				change_trade_goods = silk 
 			} 
@@ -723,7 +723,7 @@ DOM_japanse_missions_2_b = {
 				tooltip = {
 					add_country_modifier = {
 						name = jap_korean_cooperation_modifier
-						duration = 9125 
+						duration = -1
 					}
 				}
 			}
@@ -740,7 +740,7 @@ DOM_japanse_missions_2_b = {
 					limit = { accepted_culture = korean }
 					add_country_modifier = {
 						name = jap_korean_cooperation_modifier
-						duration = 9125 
+						duration = -1
 					}
 				}
 				else = { set_country_flag = jap_dip_advisor_culture_conversion_cost_flag }
@@ -784,7 +784,7 @@ DOM_japanse_missions_2_b = {
 			tooltip = {
 				add_country_modifier = {
 					name = jap_scramble_for_china_modifier
-					duration = 7300 
+					duration = -1
 				}
 			}
 			hidden_effect = {
@@ -800,7 +800,7 @@ DOM_japanse_missions_2_b = {
 				else = {
 					add_country_modifier = {
 						name = jap_scramble_for_china_modifier
-						duration = 7300 
+						duration = -1
 					}
 				}
 			}
@@ -835,7 +835,7 @@ DOM_japanse_missions_2_b = {
 		effect = {
 			add_country_modifier = {
 				name = jap_masters_dragon_throne_modifier
-				duration = -1 
+				duration = -1
 			}
 			
 			if = {
@@ -848,7 +848,7 @@ DOM_japanse_missions_2_b = {
 				
 				add_country_modifier = {
 					name = jap_divine_aspirations_modifier
-					duration = -1 
+					duration = -1
 				}
 			}
 			else_if = {
@@ -861,7 +861,7 @@ DOM_japanse_missions_2_b = {
 				tooltip = {
 					add_country_modifier = {
 						name = jap_divine_aspirations_modifier
-						duration = -1 
+						duration = -1
 					}
 				}
 			}
@@ -970,7 +970,7 @@ japanese_missions_eoc_2 = {
 			tooltip = {
 				add_ruler_modifier = {
 					name = mng_cabinet_cooperation_modifier
-					duration = -1 
+					duration = -1
 				}
 			}
 			
@@ -998,7 +998,7 @@ japanese_missions_eoc_2 = {
 					set_country_flag = mng_increased_land_rights_flag 
 					add_ruler_modifier = {
 						name = mng_cabinet_cooperation_modifier
-						duration = -1 
+						duration = -1
 					}
 				}
 				else_if = {
@@ -1062,7 +1062,7 @@ japanese_missions_eoc_2 = {
 				tooltip = {
 					add_country_modifier = {
 						name = mng_decentralized_migration_modifier
-						duration = -1 
+						duration = -1
 					}
 				}
 			}
@@ -1099,7 +1099,7 @@ japanese_missions_eoc_2 = {
 				create_explorer = { tradition = 80 } 
 				add_country_modifier = { 
 					name = mng_colonial_focus
-					duration = 7300 
+					duration = -1
 				}
 			}
 			hidden_effect = {
@@ -1120,7 +1120,7 @@ japanese_missions_eoc_2 = {
 					remove_country_modifier = mng_starting_malus_5_modifier 
 					add_country_modifier = {
 						name = mng_starting_malus_4_modifier
-						duration = -1 
+						duration = -1
 					}
 				}
 				else_if = {
@@ -1134,7 +1134,7 @@ japanese_missions_eoc_2 = {
 					remove_country_modifier = mng_starting_malus_4_modifier
 					add_country_modifier = {
 						name = mng_starting_malus_3_modifier
-						duration = -1 
+						duration = -1
 					}
 				}
 				else_if = {
@@ -1148,7 +1148,7 @@ japanese_missions_eoc_2 = {
 					remove_country_modifier = mng_starting_malus_3_modifier
 					add_country_modifier = {
 						name = mng_starting_malus_2_modifier
-						duration = -1 
+						duration = -1
 					}
 				}
 				else_if = {
@@ -1162,7 +1162,7 @@ japanese_missions_eoc_2 = {
 					remove_country_modifier = mng_starting_malus_1_modifier
 					add_country_modifier = {
 						name = mng_starting_malus_2_modifier
-						duration = -1 
+						duration = -1
 					}
 				}
 				else_if = {
@@ -1214,14 +1214,14 @@ japanese_missions_eoc_2 = {
 					limit = { has_reform = decentralize_reform } 
 					add_country_modifier = {
 						name = mng_decentralized_migration_modifier
-						duration = -1 
+						duration = -1
 					}
 				}
 				if = {
 					limit = { has_reform = expand_imperial_court_reform }
 					add_country_modifier = {
 						name = mng_expanded_eunuch_palatial_rights_modifier  
-						duration = -1 
+						duration = -1
 					}
 					set_estate_privilege = estate_eunuchs_bookkeepers_privilege
 					if = {
@@ -1347,7 +1347,7 @@ japanese_missions_eoc_2 = {
 					create_explorer = { tradition = 80 } 
 					add_country_modifier = { 
 						name = mng_colonial_focus
-						duration = 7300 
+						duration = -1
 					}
 				}
 			}
@@ -1397,7 +1397,7 @@ japanese_missions_eoc_2 = {
 			tooltip = {
 				add_country_modifier = {
 					name = mng_trade_access_in_china_modifier
-					duration = -1 
+					duration = -1
 					desc = as_long_as_we_stay_allies_desc
 				}
 			}
@@ -1413,7 +1413,7 @@ japanese_missions_eoc_2 = {
 			tooltip = {
 				add_country_modifier = {
 					name = mng_foreign_merchant_influx_modifier
-					duration = 7300 
+					duration = -1
 				}
 			}
 			
@@ -1452,13 +1452,13 @@ japanese_missions_eoc_2 = {
 						}
 						add_country_modifier = {
 							name = mng_trade_access_in_china_modifier
-							duration = -1 
+							duration = -1
 							desc = as_long_as_we_stay_allies_desc
 						}
 					}
 					add_country_modifier = {
 						name = mng_foreign_merchant_influx_modifier
-						duration = 7300 
+						duration = -1
 					}
 					if = {
 						limit = { has_dlc = "Mandate of Heaven" } 
@@ -1540,7 +1540,7 @@ DOM_japanse_missions_3_a = {
 		effect = {
 			add_country_modifier = {
 				name = jap_balancing_koban_and_ryo_modifier
-				duration = 7300
+				duration = -1
 			}
 			
 			if = { 
@@ -1590,7 +1590,7 @@ DOM_japanse_missions_3_a = {
 		effect = {
 			add_country_modifier = {
 				name = growing_economy
-				duration = 9125
+				duration = -1
 			}
 			
 			custom_tooltip = jap_ginza_districts_tt
@@ -1599,7 +1599,7 @@ DOM_japanse_missions_3_a = {
 					limit = { country_or_non_sovereign_subject_holds = ROOT } 
 					add_province_modifier = {
 						name = jap_ginza_districts_modifier 
-						duration = 7300
+						duration = -1
 					}
 				}
 			}
@@ -1608,7 +1608,7 @@ DOM_japanse_missions_3_a = {
 					limit = { country_or_non_sovereign_subject_holds = ROOT } 
 					add_province_modifier = {
 						name = jap_ginza_districts_modifier 
-						duration = 7300
+						duration = -1
 					}
 				}
 			}
@@ -1644,7 +1644,7 @@ DOM_japanse_missions_3_a = {
 		effect = {
 			add_country_modifier = {
 				name = JAP_cadastral_surveys
-				duration = 7300
+				duration = -1
 			}
 			custom_tooltip = jap_increase_base_tax_grants_more_crown_land_tt
 		}
@@ -1669,7 +1669,7 @@ DOM_japanse_missions_3_a = {
 			hidden_effect = {
 				add_country_modifier = {
 					name = jap_20_years_devving_tax_yields_twice_bonus_1_burgher_loyalt_modifier
-					duration = 7300
+					duration = -1
 					hidden = yes 
 				}
 			}
@@ -1687,7 +1687,7 @@ DOM_japanse_missions_3_a = {
 		effect = {
 			add_country_modifier = {
 				name = jap_new_world_exploration_modifier
-				duration = 7300
+				duration = -1
 			}
 			create_explorer = { tradition = 60 }
 		}
@@ -1714,14 +1714,14 @@ DOM_japanse_missions_3_a = {
 		effect = {
 			add_country_modifier = {
 				name = jap_commercialization_of_mineral_resources_modifier
-				duration = 7300 
+				duration = -1
 			}
 			
 			change_price = {
 				trade_goods = iron
 				key = chinese_iron_key
 				value = 0.25
-				duration = 7300
+				duration = -1
 			}
 			custom_tooltip = jap_every_owned_prov_with_iron_1_bp_tt
 			hidden_effect = {
@@ -1770,7 +1770,7 @@ DOM_japanse_missions_3_a = {
 				override_country_name = KRJ
 				add_country_modifier = {
 					name = jap_protectors_east_catholicism
-					duration = -1 
+					duration = -1
 				}
 			}
 			
@@ -1783,7 +1783,7 @@ DOM_japanse_missions_3_a = {
 			tooltip = {
 				add_country_modifier = {
 					name = jap_shinto_warriors_modifier
-					duration = -1 
+					duration = -1
 				}
 			}
 			
@@ -1794,7 +1794,7 @@ DOM_japanse_missions_3_a = {
 					set_country_flag = has_overriden_name_flag
 					add_country_modifier = {
 						name = jap_protectors_east_catholicism
-						duration = -1 
+						duration = -1
 					}
 				}
 				else_if = {
@@ -1804,7 +1804,7 @@ DOM_japanse_missions_3_a = {
 				else = {
 					add_country_modifier = {
 						name = jap_shinto_warriors_modifier
-						duration = -1 
+						duration = -1
 					}
 				}
 				swap_non_generic_missions = yes
@@ -2504,7 +2504,7 @@ japanese_missions_eoc_3 = {
 			tooltip = {
 				add_country_modifier = {
 					name = mng_well_governed_era_modifier 
-					duration = 9125 
+					duration = -1
 				}
 				add_power_projection = {
 					type = 25_permanent_power_projection
@@ -2528,7 +2528,7 @@ japanese_missions_eoc_3 = {
 			tooltip = {
 				add_country_modifier = { 
 					name = mng_prosperous_era_modifier
-					duration = -1 
+					duration = -1
 				}
 				if = { 
 					limit = { has_dlc = "Mandate of Heaven" }
@@ -2559,7 +2559,7 @@ japanese_missions_eoc_3 = {
 					}
 					add_country_modifier = { 
 						name = mng_prosperous_era_modifier
-						duration = -1 
+						duration = -1
 					}
 					if = { 
 						limit = { has_dlc = "Mandate of Heaven" }
@@ -2582,7 +2582,7 @@ japanese_missions_eoc_3 = {
 				else = {
 					add_country_modifier = {
 						name = mng_well_governed_era_modifier 
-						duration = 9125 
+						duration = -1
 					}
 					add_power_projection = {
 						type = 25_permanent_power_projection
@@ -2675,7 +2675,7 @@ DOM_japanse_missions_4_a = {
 				remove_country_modifier = jap_mushashi_5_books_modifier 
 				add_country_modifier = {
 					name = jap_eighteen_arts_modifier
-					duration = -1 
+					duration = -1
 				}
 			}
 			
@@ -2684,7 +2684,7 @@ DOM_japanse_missions_4_a = {
 				remove_country_modifier = jap_domineering_naval_focus_modifier
 				add_country_modifier = {
 					name = jap_naval_academy_of_japan_modifier
-					duration = -1 
+					duration = -1
 				}
 			}
 		}
@@ -2735,7 +2735,7 @@ DOM_japanse_missions_4_b = {
 			remove_country_modifier = jap_mushashi_5_books_modifier
 			add_country_modifier = {
 				name = jap_eighteen_arts_modifier
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -2782,7 +2782,7 @@ DOM_japanse_missions_4_c = {
 			remove_country_modifier = jap_domineering_naval_focus_modifier
 			add_country_modifier = {
 				name = jap_naval_academy_of_japan_modifier
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -2854,7 +2854,7 @@ DOM_japanse_missions_4_d = {
 		effect = {
 			add_country_modifier = {
 				name = jap_tekkosen_modifier
-				duration = 7300
+				duration = -1
 			}
 			add_navy_tradition = 10 
 			if = {
@@ -2909,7 +2909,7 @@ DOM_japanse_missions_4_d = {
 			else = {
 				add_country_modifier = {
 					name = jap_shogoki_modifier
-					duration = -1 
+					duration = -1
 				}
 			}
 		}
@@ -2965,7 +2965,7 @@ japanese_missions_eoc_4 = {
 					remove_province_modifier = pearl_estuary_modifier
 					add_province_modifier = {
 						name = mng_bogue_modifier 
-						duration = -1 
+						duration = -1
 					}
 				}
 				if = { 
@@ -3180,7 +3180,7 @@ japanese_missions_eoc_4 = {
 			tooltip = { 
 				add_province_modifier = { 
 					name = mng_imperial_printing_center_modifier
-					duration = -1 
+					duration = -1
 				}
 			}
 			
@@ -3212,7 +3212,7 @@ japanese_missions_eoc_4 = {
 					}
 					add_province_modifier = { 
 						name = mng_imperial_printing_center_modifier
-						duration = -1 
+						duration = -1
 					}
 				}
 			}
@@ -3320,13 +3320,13 @@ DOM_japanse_missions_5 = {
 					}
 					add_country_modifier = {
 						name = jap_marine_samurai_modifier
-						duration = -1 
+						duration = -1
 					}
 				}
 				else = {
 					add_country_modifier = {
 						name = jap_marine_samurai_modifier2
-						duration = -1 
+						duration = -1
 					}
 				}
 			}
@@ -3341,7 +3341,7 @@ DOM_japanse_missions_5 = {
 					}
 					add_country_modifier = {
 						name = jap_marine_samurai_modifier
-						duration = -1 
+						duration = -1
 					}
 				}
 				else_if = { 
@@ -3353,7 +3353,7 @@ DOM_japanse_missions_5 = {
 					}
 					add_country_modifier = {
 						name = jap_marine_samurai_modifier2
-						duration = -1 
+						duration = -1
 					}
 				}
 				else = { add_government_reform = reform_the_samurai_reform }
@@ -3469,7 +3469,7 @@ DOM_japanse_missions_5 = {
 			tooltip = {
 				add_country_modifier = {
 					name = jap_thundering_firepower_modifier
-					duration = 10950 
+					duration = -1
 				}
 			}
 			
@@ -3479,7 +3479,7 @@ DOM_japanse_missions_5 = {
 			tooltip = {
 				add_country_modifier = {
 					name = jap_unbreakable_spirit_modifier
-					duration = 10950 
+					duration = -1
 				}
 			}
 			
@@ -3487,7 +3487,7 @@ DOM_japanse_missions_5 = {
 			tooltip = {
 				add_country_modifier = {
 					name = jap_advent_firearms_modifier
-					duration = 10950
+					duration = -1
 				}
 			}
 			
@@ -3496,7 +3496,7 @@ DOM_japanse_missions_5 = {
 					limit = { has_country_flag = perfecting_the_musket_flag }
 					add_country_modifier = {
 						name = jap_thundering_firepower_modifier
-						duration = 10950 
+						duration = -1
 					}
 				}
 				else_if = {
@@ -3505,7 +3505,7 @@ DOM_japanse_missions_5 = {
 						limit = { region = japan_region } 
 						add_province_modifier = {
 							name = jap_firearm_production_modifier
-							duration = 10950 
+							duration = -1
 						}
 					}
 				}
@@ -3513,13 +3513,13 @@ DOM_japanse_missions_5 = {
 					limit = { has_country_flag = example_of_bushido_flag } 
 					add_country_modifier = {
 						name = jap_unbreakable_spirit_modifier
-						duration = 10950 
+						duration = -1
 					}
 				}
 				else = {
 					add_country_modifier = {
 						name = jap_advent_firearms_modifier
-						duration = 10950
+						duration = -1
 					}
 				}
 			}
@@ -3567,7 +3567,7 @@ DOM_japanse_missions_5 = {
 			else = { 
 				add_country_modifier = {
 					name = jap_high_quality_weapons_modifier
-					duration = 9125
+					duration = -1
 				}
 			}
 			
@@ -3598,7 +3598,7 @@ DOM_japanse_missions_5 = {
 				tooltip = {
 					add_country_modifier = {
 						name = jap_trade_west_modifier
-						duration = 7300
+						duration = -1
 					}
 				}
 				
@@ -3606,7 +3606,7 @@ DOM_japanse_missions_5 = {
 				tooltip = {
 					add_country_modifier = {
 						name = jap_improved_engineering_expertise_modifier
-						duration = 7300
+						duration = -1
 					}
 				}
 				
@@ -3614,7 +3614,7 @@ DOM_japanse_missions_5 = {
 				tooltip = {
 					add_country_modifier = {
 						name = jap_self_sufficient_market_modifier
-						duration = 7300
+						duration = -1
 					}
 				}
 				hidden_effect = {
@@ -3624,7 +3624,7 @@ DOM_japanse_missions_5 = {
 						}
 						add_country_modifier = {
 							name = jap_trade_west_modifier
-							duration = 7300
+							duration = -1
 						}
 					}
 					else_if = {
@@ -3634,13 +3634,13 @@ DOM_japanse_missions_5 = {
 						}
 						add_country_modifier = {
 							name = jap_improved_engineering_expertise_modifier
-							duration = 7300
+							duration = -1
 						}
 					}
 					else = {
 						add_country_modifier = {
 							name = jap_self_sufficient_market_modifier
-							duration = 7300
+							duration = -1
 						}
 					}
 				}
@@ -3648,7 +3648,7 @@ DOM_japanse_missions_5 = {
 			else = {
 				add_country_modifier = {
 					name = jap_self_sufficient_market_modifier
-					duration = 7300
+					duration = -1
 				}
 			}
 		}
@@ -3686,7 +3686,7 @@ DOM_japanse_missions_5 = {
 				tooltip = {
 					add_country_modifier = {
 						name = jap_overseas_ventures_modifier
-						duration = 7300
+						duration = -1
 					}
 				}
 				
@@ -3694,7 +3694,7 @@ DOM_japanse_missions_5 = {
 				tooltip = {
 					add_country_modifier = {
 						name = influx_of_foreign_knowledge_modifier
-						duration = 7300
+						duration = -1
 					}
 				}
 				
@@ -3702,7 +3702,7 @@ DOM_japanse_missions_5 = {
 				tooltip = {
 					add_country_modifier = {
 						name = jap_internal_monopolies_modifier
-						duration = 7300
+						duration = -1
 					}
 				}
 				hidden_effect = {
@@ -3712,7 +3712,7 @@ DOM_japanse_missions_5 = {
 						}
 						add_country_modifier = {
 							name = jap_overseas_ventures_modifier
-							duration = 7300
+							duration = -1
 						}
 					}
 					else_if = {
@@ -3722,13 +3722,13 @@ DOM_japanse_missions_5 = {
 						}
 						add_country_modifier = {
 							name = influx_of_foreign_knowledge_modifier
-							duration = 7300
+							duration = -1
 						}
 					}
 					else = {
 						add_country_modifier = {
 							name = jap_internal_monopolies_modifier
-							duration = 7300
+							duration = -1
 						}
 					}
 				}
@@ -3736,7 +3736,7 @@ DOM_japanse_missions_5 = {
 			else = {
 				add_country_modifier = {
 					name = jap_internal_monopolies_modifier
-					duration = 7300
+					duration = -1
 				}
 			}
 		}
@@ -3793,7 +3793,7 @@ DOM_japanse_missions_5 = {
 						}
 						add_country_modifier = {
 							name = jap_presence_global_markets
-							duration = 7300
+							duration = -1
 						}
 					}
 					else_if = {
@@ -3803,13 +3803,13 @@ DOM_japanse_missions_5 = {
 						}
 						add_country_modifier = {
 							name = jap_mixed_commercial_policy_modifier
-							duration = 7300
+							duration = -1
 						}
 					}
 					else = {
 						add_country_modifier = {
 							name = jap_enforced_mercantilism_modifier
-							duration = 7300
+							duration = -1
 						}
 					}
 				}
@@ -3817,7 +3817,7 @@ DOM_japanse_missions_5 = {
 			else = {
 				add_country_modifier = {
 					name = jap_enforced_mercantilism_modifier
-					duration = 7300
+					duration = -1
 				}
 			}
 		}
@@ -3928,7 +3928,7 @@ japanese_missions_eoc_5 = {
 				1816 = {
 					add_province_modifier = {
 						name = mng_outer_wall_beijing_modifier
-						duration = -1 
+						duration = -1
 						desc = until_it_is_conquered_desc
 					}
 				}
@@ -4004,7 +4004,7 @@ japanese_missions_eoc_5 = {
 				} 
 				add_province_modifier = {
 					name = mng_safe_coasts_modifier
-					duration = 9125 
+					duration = -1
 				}
 			}
 			
@@ -4048,7 +4048,7 @@ japanese_missions_eoc_5 = {
 				else = {
 					add_province_modifier = {
 						name = mng_safe_coasts_modifier
-						duration = 9125 
+						duration = -1
 					}
 					set_country_flag = mng_dev_per_adm_advisor_level_flag
 					if = {

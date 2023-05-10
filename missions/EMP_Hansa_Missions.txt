@@ -87,7 +87,7 @@ hanseatic_expansion_tree = {
 			capital_scope = {
 				add_trade_modifier = {
 					who = root
-					duration = 7300
+					duration = -1
 					power = 20
 					key = hsa_lubeck_ascendant
 				}
@@ -238,7 +238,7 @@ hanseatic_return_visby_tree = {
 			310 = {
 				add_trade_modifier = {
 					who = root
-					duration = 7300
+					duration = -1
 					power = 50
 					key = hsa_hansa_in_novgorod
 				}
@@ -282,7 +282,7 @@ lubeck_misc_tree = {
 		effect = {
 			add_country_modifier = {
 				name = hanseatic_bookkeeping_modifier
-				duration = 7300
+				duration = -1
 			}
 			if = { 
 				limit = { has_estate = estate_burghers }
@@ -328,7 +328,7 @@ hanseatic_united_tree = {
 				add_province_triggered_modifier = krantor_crane
 				add_province_modifier = { 
 					name = capital_expansion_modifier
-					duration = 3650 
+					duration = -1
 				}
 			}
 		}
@@ -403,7 +403,7 @@ hanseatic_united_tree = {
 		effect = {
 			add_country_modifier = {
 				name = "hsa_advance_our_interests_modifier"
-				duration = 10950
+				duration = -1
 			}
 		}
 	}
@@ -516,7 +516,7 @@ hanseatic_sound_toll_tree = {
 			}
 			add_country_modifier = {
 				name = "hsa_baltic_trade_modifier"
-				duration = 7300
+				duration = -1
 			}
 		}
 	}
@@ -762,7 +762,7 @@ hanseatic_britain_tree = {
 			1269 = {
 				add_trade_modifier = {
 					who = root
-					duration = 7300
+					duration = -1
 					power = 25
 					key = hsa_hanseatic_channel
 				}
@@ -886,7 +886,7 @@ hanseatic_britain_tree = {
 		effect = {
 			add_country_modifier = {
 				name = hsa_north_sea_trading
-				duration = 7300
+				duration = -1
 			}
 			create_explorer = {
 				tradition = 60
@@ -986,7 +986,7 @@ hanseatic_colonisation_tree = {
 		effect = {
 			add_country_modifier = {
 				name = new_lubeck_modifier
-				duration = 7300	
+				duration = -1
 			}
 			965 = {
 				add_base_tax = 2
@@ -1025,7 +1025,7 @@ hanseatic_shipwright_tree = {
 		effect = {
 			add_country_modifier = {
 				name = hanseatic_merchant_navy_modifier
-				duration = 9125			
+				duration = -1
 			}
 			if =  {
 				limit = { 
@@ -1153,7 +1153,7 @@ hanseatic_shipwright_tree = {
 		effect = {
 			add_country_modifier = {
 				name = adler_von_lubeck_modifier
-				duration = 7300
+				duration = -1
 			}
 		}
 	}

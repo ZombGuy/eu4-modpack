@@ -117,7 +117,7 @@ byz_pp_balkans_north_italy = {
 			}
 			add_country_modifier = {
 				name = "balkan_empire"
-				duration = 5475
+				duration = -1
 			}
 		}
 		ai_weight = {
@@ -175,7 +175,7 @@ byz_pp_balkans_north_italy = {
 			country_event = { id = flavor_byz.1 }
 			add_country_modifier = {
 				name = "venetian_revenge"
-				duration = 7300
+				duration = -1
 			}
 		}
 		ai_weight = {
@@ -216,7 +216,7 @@ byz_pp_italian = {
 		effect = {
 			add_country_modifier = {
 				name = "roman_italy"
-				duration = 5475
+				duration = -1
 			}
 			tuscany_area = {
 				limit = {
@@ -276,21 +276,21 @@ byz_pp_italian = {
 				limit = { owned_by = ROOT }
 				add_province_modifier = {
 					name = "faster_integration"
-					duration = 5475
+					duration = -1
 				}
 			}
 			central_italy_area = {
 				limit = { owned_by = ROOT }
 				add_province_modifier = {
 					name = "faster_integration"
-					duration = 5475
+					duration = -1
 				}
 			}
 			emilia_romagna_area = {
 				limit = { owned_by = ROOT }
 				add_province_modifier = {
 					name = "faster_integration"
-					duration = 5475
+					duration = -1
 				}
 			}
 			lombardy_area = {
@@ -362,7 +362,7 @@ byz_pp_italian = {
 		effect = {
 			add_country_modifier = {
 				name = "byzantine_unification_of_italy"
-				duration = 7300
+				duration = -1
 			}
 		}
 		ai_weight = {
@@ -588,14 +588,14 @@ byz_pp_maritime = {
 				limit = { owned_by = ROOT }
 				add_province_modifier = {
 					name = "faster_integration"
-					duration = 5475
+					duration = -1
 				}
 			}
 			lower_andalucia_area = {
 				limit = { owned_by = ROOT }
 				add_province_modifier = {
 					name = "faster_integration"
-					duration = 5475
+					duration = -1
 				}
 			}
 		}
@@ -890,7 +890,7 @@ byz_pp_religion = {
 			add_patriarch_authority = 0.2
 			add_country_modifier = {
 				name = "conversion_of_rome"
-				duration = 7300
+				duration = -1
 			}
 			hidden_effect = {
 				every_country = {
@@ -1094,7 +1094,7 @@ byz_pp_east = {
 			285 = {
 				add_trade_modifier = {
 					who = root
-					duration = 7300
+					duration = -1
 					power = 35
 					key = byzantine_kaffa
 				}

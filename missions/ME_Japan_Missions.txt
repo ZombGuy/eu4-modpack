@@ -26,7 +26,7 @@ Japan_missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = jap_ryogaesho
-				duration = 5475
+				duration = -1
 			}
 		}
 	}
@@ -83,7 +83,7 @@ Japan_missions_1 = {
 			}
 			add_country_modifier = {
 				name = jap_fudashi
-				duration = 9125
+				duration = -1
 			}
 		}
 	}
@@ -116,13 +116,13 @@ Japan_missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = jap_development_program
-				duration = 18250
+				duration = -1
 			}
 			custom_tooltip = JAP_URBANIZATION_TT
 			tooltip = {
 				add_province_modifier = {
 					name = jap_urbanization
-					duration = 7300
+					duration = -1
 				}
 			}
 			hidden_effect = {
@@ -133,7 +133,7 @@ Japan_missions_1 = {
 					}
 					add_province_modifier = {
 						name = jap_urbanization
-						duration = 7300
+						duration = -1
 					}
 				}
 			}
@@ -207,7 +207,7 @@ Japan_missions_1 = {
 			add_yearly_manpower = 1
 			add_country_modifier = {
 				name = jap_wanto_giri
-				duration = 3650
+				duration = -1
 			}
 		}
 	}
@@ -269,7 +269,7 @@ Japan_missions_1 = {
 				limit = { owned_by = ROOT }
 				add_province_modifier = {
 					name = jap_kokujo
-					duration = 7300
+					duration = -1
 				}
 			}
 		}
@@ -399,7 +399,7 @@ Japan_missions_1 = {
 				}
 				add_province_modifier = {
 					name = jap_daibutsu_giri
-					duration = 7300
+					duration = -1
 				}
 			}
 		}
@@ -498,55 +498,55 @@ Japan_missions_2 = {
 			1020 = {
 				add_province_modifier = {
 					name = jap_renge
-					duration = 7300
+					duration = -1
 				}
 			}
 			1030 = {
 				add_province_modifier = {
 					name = jap_renge
-					duration = 7300
+					duration = -1
 				}
 			}
 			1835 = {
 				add_province_modifier = {
 					name = jap_renge
-					duration = 7300
+					duration = -1
 				}
 			}
 			4360 = {
 				add_province_modifier = {
 					name = jap_renge
-					duration = 7300
+					duration = -1
 				}
 			}
 			1839 = {
 				add_province_modifier = {
 					name = jap_renge
-					duration = 7300
+					duration = -1
 				}
 			}
 			4189 = {
 				add_province_modifier = {
 					name = jap_renge
-					duration = 7300
+					duration = -1
 				}
 			}
 			1028 = {
 				add_province_modifier = {
 					name = jap_renge
-					duration = 7300
+					duration = -1
 				}
 			}
 			1843 = {
 				add_province_modifier = {
 					name = jap_renge
-					duration = 7300
+					duration = -1
 				}
 			}
 			4188 = {
 				add_province_modifier = {
 					name = jap_renge
-					duration = 7300
+					duration = -1
 				}
 			}
 		}
@@ -606,7 +606,7 @@ Japan_missions_2 = {
 		effect = {
 			add_country_modifier = {
 				name = jap_klesha
-				duration = 18250
+				duration = -1
 			}
 			every_owned_province = {
 				limit = {
@@ -627,7 +627,7 @@ Japan_missions_2 = {
 				}
 				add_province_modifier = {
 					name = jap_senhachiju_pound_ho
-					duration = 9125
+					duration = -1
 				}
 			}
 		}
@@ -692,7 +692,7 @@ Japan_missions_2 = {
 		effect = {
 			add_country_modifier = {
 				name = jap_tatsu_maki_modifier
-				duration = 7300
+				duration = -1
 			}
 			korea_region = {
 				limit = {
@@ -724,7 +724,7 @@ Japan_missions_2 = {
 		effect = {
 			add_country_modifier = {
 				name = jap_ugui
-				duration = 5475
+				duration = -1
 			}
 		}
 	}
@@ -770,12 +770,12 @@ Japan_missions_2 = {
 		effect = {
 			add_country_modifier = {
 				name = jap_horde_integration
-				duration = 5475
+				duration = -1
 			}
 			korea_region = {
 				add_province_modifier = {
 					name = jap_rodan
-					duration = 7300
+					duration = -1
 				}
 			}
 		}
@@ -826,7 +826,7 @@ Japan_missions_2 = {
 				}
 				add_country_modifier = {
 					name = jap_rengoku_oni_giri
-					duration = 1825
+					duration = -1
 				}
 			}
 			if = {
@@ -835,7 +835,7 @@ Japan_missions_2 = {
 				}
 				add_country_modifier = {
 					name = jap_yasha_garasu
-					duration = 1825
+					duration = -1
 				}
 			}
 		}
@@ -885,12 +885,12 @@ Japan_missions_2 = {
 		effect = {
 			add_country_modifier = {
 				name = jap_chinese_tea
-				duration = 7300
+				duration = -1
 			}
 			1371 = {
 				add_trade_modifier = {
 					who = ROOT
-					duration = 7300
+					duration = -1
 					power = 10
 					key = jap_chinese_tea
 				}
@@ -898,7 +898,7 @@ Japan_missions_2 = {
 			684 = {
 				add_trade_modifier = {
 					who = ROOT
-					duration = 7300
+					duration = -1
 					power = 10
 					key = jap_chinese_tea
 				}
@@ -906,7 +906,7 @@ Japan_missions_2 = {
 			4233 = {
 				add_trade_modifier = {
 					who = ROOT
-					duration = 7300
+					duration = -1
 					power = 10
 					key = jap_chinese_tea
 				}
@@ -1013,7 +1013,7 @@ Japan_missions_2 = {
 		effect = {
 			add_country_modifier = {
 				name = jap_indochinese_red_seal_ship
-				duration = 7300
+				duration = -1
 			}
 		}
 	}
@@ -1036,7 +1036,7 @@ Japan_missions_2 = {
 		effect = {
 			add_country_modifier = {
 				name = jap_ul_tora_gari
-				duration = 7300
+				duration = -1
 			}
 		}
 	}
@@ -1145,7 +1145,7 @@ Japan_missions_3 = {
 			}
 			add_country_modifier = {
 				name = jap_yamato
-				duration = 3650
+				duration = -1
 			}
 		}
 	}
@@ -1178,7 +1178,7 @@ Japan_missions_3 = {
 				add_prosperity = 10
 				add_province_modifier = {
 					name = jap_seimei_kikan
-					duration = 7300
+					duration = -1
 				}
 			}
 			country_event = { id = ME_Japan_Events.1 }
@@ -1233,7 +1233,7 @@ Japan_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = jap_gasuto_sodo
-				duration = 3650
+				duration = -1
 			}
 			taiwan_area = {
 				if = {
@@ -1405,7 +1405,7 @@ Japan_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = jap_yarinami
-				duration = 7300
+				duration = -1
 			}
 		}
 	}
@@ -1663,7 +1663,7 @@ Japan_missions_4 = {
 		effect = {
 			add_country_modifier = {
 				name = jap_sanzen_sekai
-				duration = 5475
+				duration = -1
 			}
 		}
 	}
@@ -1877,7 +1877,7 @@ Japan_missions_4 = {
 		effect = {
 			add_country_modifier = {
 				name = jap_kaimen_wari
-				duration = 7300
+				duration = -1
 			}
 			1240 = {
 				if = {
@@ -1976,7 +1976,7 @@ Japan_missions_4 = {
 			tooltip = {
 				add_province_modifier = {
 					name = jap_new_markets
-					duration = 7300
+					duration = -1
 				}
 			}
 			hidden_effect = {
@@ -1984,7 +1984,7 @@ Japan_missions_4 = {
 					limit = { trade_goods = spices }
 					add_province_modifier = {
 						name = jap_new_markets
-						duration = 7300
+						duration = -1
 					}
 				}
 			}
@@ -2293,7 +2293,7 @@ Japan_missions_5 = {
 		effect = {
 			add_country_modifier = {
 				name = jap_takitate
-				duration = 7300
+				duration = -1
 			}
 			1032 = {
 				if = {
@@ -2381,7 +2381,7 @@ Japan_missions_5 = {
 		effect = {
 			add_country_modifier = {
 				name = jap_venturing
-				duration = 7300
+				duration = -1
 			}
 		}
 	}
@@ -2406,7 +2406,7 @@ Japan_missions_5 = {
 			tooltip = {
 				add_country_modifier = {
 					name = jap_japanese_knowledge
-					duration = 5475
+					duration = -1
 				}
 			}
 			hidden_effect = {
@@ -2416,7 +2416,7 @@ Japan_missions_5 = {
 					}
 					add_country_modifier = {
 						name = jap_japanese_knowledge
-						duration = 5475
+						duration = -1
 					}
 				}
 			}
@@ -2444,7 +2444,7 @@ Japan_missions_5 = {
 		effect = {
 			add_country_modifier = {
 				name = jap_kairyu_ipponzeoi
-				duration = 5475
+				duration = -1
 			}
 		}
 	}

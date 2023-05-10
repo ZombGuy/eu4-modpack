@@ -260,7 +260,7 @@ ireland_missions_column_1 = {
 		effect = {
 			add_country_modifier = {
 				name = "french_elan_ire"
-				duration = 3650
+				duration = -1
 			}
 		}
 	}
@@ -286,7 +286,7 @@ ireland_missions_column_1 = {
 		effect = {
 			add_country_modifier = {
 				name = "irish_new_world"
-				duration = 7300
+				duration = -1
 			}
 		}
 	}
@@ -318,7 +318,7 @@ ireland_missions_column_1 = {
 		effect = {
 			add_country_modifier = {
 				name = "irish_potatoes"
-				duration = 7300
+				duration = -1
 			}
 			capital_scope = {
 				add_base_production = 2
@@ -354,7 +354,7 @@ ireland_missions_column_2 = {
 		effect = {
 			add_country_modifier = {
 				name = "admin_growth_ire"
-				duration = 9125
+				duration = -1
 			}
 		}
 	}
@@ -369,7 +369,7 @@ ireland_missions_column_2 = {
 		effect = {
 			add_country_modifier = {
 				name = "economy_growth_ire"
-				duration = 9125
+				duration = -1
 			}
 		}
 	}
@@ -423,7 +423,7 @@ ireland_missions_column_3 = {
 		effect = {
 			add_country_modifier = {
 				name = "reigning_in_clans"
-				duration = 9125
+				duration = -1
 			}
 		}
 	}
@@ -441,7 +441,7 @@ ireland_missions_column_3 = {
 		effect = {
 			add_country_modifier = {
 				name = "production_growth_ire"
-				duration = 9125
+				duration = -1
 			}
 		}
 	}
@@ -460,7 +460,7 @@ ireland_missions_column_3 = {
 		effect = {
 			add_country_modifier = {
 				name = "trade_growth_ire"
-				duration = 9125
+				duration = -1
 			}
 		}
 	}
@@ -609,7 +609,7 @@ ireland_missions_column_3 = {
 			add_prestige = 25
 			add_country_modifier = {
 				name = "rule_britannia"
-				duration = 14600
+				duration = -1
 			}
 		}
 	}
@@ -641,7 +641,7 @@ ireland_missions_column_4 = {
 		effect = {
 			add_country_modifier = {
 				name = "military_growth_ire"
-				duration = 9125
+				duration = -1
 			}
 		}
 	}
@@ -656,7 +656,7 @@ ireland_missions_column_4 = {
 		effect = {
 			add_country_modifier = {
 				name = "army_tradition_ire"
-				duration = 9125
+				duration = -1
 			}
 		}
 	}
@@ -998,7 +998,7 @@ ireland_missions_column_5 = {
 		effect = {
 			add_country_modifier = {
 				name = "scottish_charge_ire"
-				duration = 3650
+				duration = -1
 			}
 		}
 	}

@@ -74,7 +74,7 @@ MOS_1 = {
 		effect = {
 			add_country_modifier = {
 				name = muscovy_churches_people
-				duration = 5475 #15 years
+				duration = -1
 			}
 		}
 	}
@@ -346,7 +346,7 @@ MOS_2 = {
 		effect = {
 			add_country_modifier = {
 				name = muscovy_steppes_pacified
-				duration = 7300 #20 years
+				duration = -1
 			}
 			bashkiria_area = {
 				limit = {
@@ -724,7 +724,7 @@ MOS_3 = {
 
 			add_country_modifier = {
 				name = muscovy_outwards_expansion
-				duration = 7300 #20 years
+				duration = -1
 			}
 		}
 	}
@@ -902,26 +902,26 @@ MOS_4 = {
 				saratov_area = {
 					add_province_modifier = {
 						name = muscovy_supressing_steppes
-						duration = 5475 #15 years
+						duration = -1
 					}
 				}
 				tambov_area = {
 					add_province_modifier = {
 						name = muscovy_supressing_steppes
-						duration = 5475 #15 years
+						duration = -1
 					}
 				}
 				lower_don_area = {
 					add_province_modifier = {
 						name = muscovy_supressing_steppes
-						duration = 5475 #15 years
+						duration = -1
 					}
 				}
 			}
 			else = {
 				add_country_modifier = {
 					name = muscovy_peaceful_integration
-					duration = 7300 #20 years
+					duration = -1
 				}
 			}
 			astrakhan_area = {
@@ -1065,7 +1065,7 @@ MOS_5 = {
 			295 = {
 				add_province_modifier = {
 					name = muscovy_walls_modifier
-					duration = 7300 #20 years
+					duration = -1
 				}
 			}
 			define_advisor = {

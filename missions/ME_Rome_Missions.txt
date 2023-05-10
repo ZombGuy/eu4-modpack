@@ -18,7 +18,7 @@ ROM_missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = rome_navy
-				duration = 7300
+				duration = -1
 			}
 		}
 	}
@@ -1860,7 +1860,7 @@ ROM_missions_5 = {
 		effect = {
 			add_country_modifier = {
 				name = rome_army
-				duration = 7300
+				duration = -1
 			}
 			kingdom_of_the_isles_area = {
 				limit = {

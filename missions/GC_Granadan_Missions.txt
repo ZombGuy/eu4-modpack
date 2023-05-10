@@ -263,7 +263,7 @@ granada_slot_2_missions = {
 				}
 				add_country_modifier = {
 					name = gra_bolstered_morale
-					duration = 7300
+					duration = -1
 				}
 				custom_tooltip = gra_friends_in_high_places_tooltip
 				tooltip = {
@@ -277,14 +277,14 @@ granada_slot_2_missions = {
 				}
 				add_country_modifier = {
 					name = gra_bolstered_morale
-					duration = 7300
+					duration = -1
 				}
 				add_prestige = 25
 			}
 			else = {
 				add_country_modifier = {
 					name = gra_bolstered_morale
-					duration = 7300
+					duration = -1
 				}
 			}
 		}
@@ -451,19 +451,19 @@ granada_slot_2_missions = {
 			221 = {
 				add_province_modifier = {
 					name = gra_rebuilding_mosques
-					duration = 7300
+					duration = -1
 				}
 			}
 			4547 = {
 				add_province_modifier = {
 					name = gra_rebuilding_mosques
-					duration = 7300
+					duration = -1
 				}
 			}
 			valencia_area = {
 				add_province_modifier = {
 					name = gra_rebuilding_mosques
-					duration = 7300
+					duration = -1
 				}
 			}
 		}
@@ -495,7 +495,7 @@ granada_slot_2_missions = {
 		effect = {
 			add_country_modifier = {
 				name = "adu_righteous_conquest"
-				duration = 7300
+				duration = -1
 			}
 			toledo_area = {
 				limit = {
@@ -711,7 +711,7 @@ adu_slot_2_missions = {
 		effect = {
 			add_country_modifier = {
 				name = adu_white_phoenix
-				duration = 7300
+				duration = -1
 			}
 			languedoc_area = {
 				limit = {
@@ -815,7 +815,7 @@ adu_slot_2_missions = {
 		effect = {
 			add_country_modifier = {
 				name = "adu_trade_company_founded"
-				duration = 7300
+				duration = -1
 			}
 			define_advisor = {
 				type = naval_reformer
@@ -894,7 +894,7 @@ granada_slot_3_missions = {
 				add_historical_friend = MOR
 				add_country_modifier = {
 					name = gra_seperation_of_power
-					duration = 7300
+					duration = -1
 				}
 			}
 			else_if = {
@@ -1034,7 +1034,7 @@ andalusia_slot_3_missions = {
 			}
 			add_country_modifier = {
 				name = "adu_new_world_discoveries"
-				duration = 7300
+				duration = -1
 			}
 		}
 		
@@ -1132,7 +1132,7 @@ andalusia_slot_3_missions_c = {
 			add_prestige = 25
 			add_country_modifier = {
 				name = "the_unknown_frontier"
-				duration = 7300
+				duration = -1
 			}
 		}
 	}
@@ -1168,7 +1168,7 @@ granada_slot_4_missions = {
 		effect = {
 			add_country_modifier = {
 				name = gra_merchants_inspired
-				duration = 7300
+				duration = -1
 			}
 		}
 		
@@ -1453,7 +1453,7 @@ andalusia_slot_4_missions_b = {
 		effect = {
 			add_country_modifier = {
 				name = "adu_native_concord"
-				duration = 18250
+				duration = -1
 			}
 		}
 	}
@@ -1517,7 +1517,7 @@ andalusia_slot_4_missions_c = {
 		effect = {
 			add_country_modifier = {
 				name = "adu_tolerance_heretics_mod"
-				duration = 7300
+				duration = -1
 			}
 		}
 	}
@@ -1631,7 +1631,7 @@ granada_slot_5_missions = {
 		effect = {
 			add_country_modifier = {
 				name = "gra_eagerness_to_serve"
-				duration = 7300
+				duration = -1
 			}
 		}
 		
@@ -2174,7 +2174,7 @@ andalusia_slot_5_missions = {
 			add_adm_power = 300
 			add_country_modifier = {
 				name = "adu_greater_than_alexander"
-				duration = 7300
+				duration = -1
 			}
 			iraq_e_ajam_area = {
 				limit = {

@@ -56,7 +56,7 @@ atj_1 = {
 			else = {
 				add_country_modifier = {
 					name = atj_porch_of_mecca_modifier
-					duration = 7300
+					duration = -1
 				}
 			}
 			custom_tooltip = atj_holy_war_cb_sumatra_tt

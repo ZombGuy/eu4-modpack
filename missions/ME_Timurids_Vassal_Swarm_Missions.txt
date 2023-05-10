@@ -237,13 +237,13 @@ Timurid_main_1_1 = {
 				}
 				add_country_modifier = {
 					name = me_tim_scientific_innovations
-					duration = 10950
+					duration = -1
 				}
 			}
 			else = {
 				add_country_modifier = {
 					name = me_tim_scientific_innovations
-					duration = 7300
+					duration = -1
 				}
 				custom_tooltip = " "
 				custom_tooltip = me_tim_10_moreyears_if_inno
@@ -321,7 +321,7 @@ Timurid_main_2_branching = {
 			custom_tooltip = " "
 			add_country_modifier = {
 				name = me_tim_in_honor_of_timur
-				duration = 5475
+				duration = -1
 			}
 			custom_tooltip = me_tim_more_likely_to_get_conqueror
 		}
@@ -627,7 +627,7 @@ Timurid_main_2_centralized_army = {
 		effect = {
 			add_country_modifier = {
 				name = me_tim_in_honor_of_timur
-				duration = 5475
+				duration = -1
 			}
 			custom_tooltip = me_tim_more_likely_to_get_conqueror
 			set_country_flag = me_tim_double_conqueror_chances
@@ -842,7 +842,7 @@ Timurid_vassal_swarm_3 = {
 			tooltip = {
 				add_country_modifier = {
 					name = me_mug_spice_dominance
-					duration = 7300
+					duration = -1
 				}
 				ME_add_years_of_trade_income = { years = 2 }
 			}
@@ -853,7 +853,7 @@ Timurid_vassal_swarm_3 = {
 				build_possible_manufactory_in_province = yes
 				add_province_modifier = {
 					name = me_tim_spice_production
-					duration = 5475
+					duration = -1
 				}
 			}
 			hidden_effect = {
@@ -865,7 +865,7 @@ Timurid_vassal_swarm_3 = {
 					}
 					add_country_modifier = {
 						name = me_mug_spice_dominance
-						duration = 7300
+						duration = -1
 					}
 					ME_add_years_of_trade_income = { years = 2 }
 				}
@@ -877,7 +877,7 @@ Timurid_vassal_swarm_3 = {
 						build_possible_manufactory_in_province = yes
 						add_province_modifier = {
 							name = me_tim_spice_production
-							duration = 5475
+							duration = -1
 						}
 					}
 				}
@@ -939,7 +939,7 @@ Timurid_vassal_swarm_3 = {
 			tooltip = {
 				add_country_modifier = {
 					name = me_tim_frightening_enemy
-					duration = 5475
+					duration = -1
 				}
 			}
 			custom_tooltip = " "
@@ -948,7 +948,7 @@ Timurid_vassal_swarm_3 = {
 				custom_tooltip = me_tim_said_country
 				add_country_modifier = {
 					name = me_tim_auxilary_elephants
-					duration = 7300
+					duration = -1
 				}
 				custom_tooltip = me_tim_they_must_accept
 			}
@@ -1016,7 +1016,7 @@ Timurid_main_3_branching = {
 			custom_tooltip = " "
 			add_country_modifier = {
 				name = me_tim_art_of_offense
-				duration = 7300
+				duration = -1
 			}
 			custom_tooltip = me_tim_modify_war_elephants
 		}
@@ -1170,7 +1170,7 @@ Timurid_main_3_centralized_army = {
 		effect = {
 			add_country_modifier = {
 				name = me_tim_art_of_offense
-				duration = 7300
+				duration = -1
 			}
 			custom_tooltip = me_tim_modify_war_elephants
 			set_country_flag = me_tim_modified_war_elephants
@@ -1244,7 +1244,7 @@ Timurid_main_3_2 = {
 			}
 			add_country_modifier = {
 				name = me_tim_new_men
-				duration = 7300
+				duration = -1
 			}
 			ME_distribute_development = {
 				type = tax
@@ -1331,7 +1331,7 @@ Timurid_vassal_swarm_4 = {
 			tooltip = {
 				add_country_modifier = {
 					name = me_tim_hoarding_the_trade
-					duration = 7300
+					duration = -1
 				}
 			}
 			custom_tooltip = " "
@@ -1339,7 +1339,7 @@ Timurid_vassal_swarm_4 = {
 			tooltip = {
 				add_country_modifier = {
 					name = me_tim_trading_advice
-					duration = 5475
+					duration = -1
 				}
 				custom_tooltip = me_tim_every_level_1_or_2_cot
 			}
@@ -1349,7 +1349,7 @@ Timurid_vassal_swarm_4 = {
 			tooltip = {
 				add_province_modifier = {
 					name = me_tim_trading_posts
-					duration = 9125
+					duration = -1
 				}
 				add_base_production = 1
 			}
@@ -1360,7 +1360,7 @@ Timurid_vassal_swarm_4 = {
 					}
 					add_country_modifier = {
 						name = me_tim_hoarding_the_trade
-						duration = 7300
+						duration = -1
 					}
 				}
 				else_if = {
@@ -1369,7 +1369,7 @@ Timurid_vassal_swarm_4 = {
 					}
 					add_country_modifier = {
 						name = me_tim_trading_advice
-						duration = 5475
+						duration = -1
 					}
 					every_owned_province = {
 						limit = {
@@ -1400,7 +1400,7 @@ Timurid_vassal_swarm_4 = {
 						}
 						add_province_modifier = {
 							name = me_tim_trading_posts
-							duration = 9125
+							duration = -1
 						}
 						add_base_production = 1
 					}
@@ -1493,7 +1493,7 @@ Timurid_vassal_swarm_4 = {
 		effect = {
 			add_country_modifier = {
 				name = me_tim_invasion_of_india
-				duration = 5475
+				duration = -1
 			}
 			custom_tooltip = " "
 			custom_tooltip = me_tim_if_roh_has_fort
@@ -1686,7 +1686,7 @@ Timurid_vassal_swarm_4 = {
 				custom_tooltip = me_tim_every_culture_converted_province
 				add_province_modifier = {
 					name = me_tim_integration_of_cities
-					duration = 7300
+					duration = -1
 				}
 			}
 			custom_tooltip = " "
@@ -1695,7 +1695,7 @@ Timurid_vassal_swarm_4 = {
 				custom_tooltip = me_tim_every_high_development_province
 				add_province_modifier = {
 					name = me_tim_cultural_unity
-					duration = 7300
+					duration = -1
 				}
 			}
 		}
@@ -2121,7 +2121,7 @@ Timurid_vassal_swarm_5 = {
 			tooltip = {
 				add_country_modifier = {
 					name = me_tim_chagatai_nobility
-					duration = 7300
+					duration = -1
 				}
 			}
 			hidden_effect = {
@@ -2131,7 +2131,7 @@ Timurid_vassal_swarm_5 = {
 					}
 					add_country_modifier = {
 						name = me_tim_chagatai_nobility
-						duration = 7300
+						duration = -1
 					}
 				}
 			}

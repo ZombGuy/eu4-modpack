@@ -198,7 +198,7 @@ french_minor_missions = {
 			}
 			add_country_modifier = {
 				name = "centralization_modifier"
-				duration = 7300
+				duration = -1
 			}
 			add_prestige = 25
 			if = {

@@ -219,19 +219,19 @@ me_persia_missions_1 = {
 			al_jazira_area = {
 				add_permanent_province_modifier = {
 					name = persia_remediation
-					duration = 3650
+					duration = -1
 				}
 			}
 			iraq_arabi_area = {
 				add_permanent_province_modifier = {
 					name = persia_remediation
-					duration = 3650
+					duration = -1
 				}
 			}
 			basra_area = {
 				add_permanent_province_modifier = {
 					name = persia_remediation
-					duration = 3650
+					duration = -1
 				}
 			}
 		}
@@ -327,7 +327,7 @@ me_persia_missions_1 = {
 			377 = {
 				add_trade_modifier = {
 					who = ROOT
-					duration = 36500
+					duration = -1
 					power = 25
 					key = persia_controller_silk_road
 				}
@@ -335,7 +335,7 @@ me_persia_missions_1 = {
 			1320 = {
 				add_trade_modifier = {
 					who = ROOT
-					duration = 36500
+					duration = -1
 					power = 25
 					key = persia_controller_silk_road
 				}
@@ -343,7 +343,7 @@ me_persia_missions_1 = {
 			358 = {
 				add_trade_modifier = {
 					who = ROOT
-					duration = 36500
+					duration = -1
 					power = 25
 					key = persia_controller_silk_road
 				}
@@ -640,7 +640,7 @@ me_persia_missions_2 = {
 		effect = {
 			add_country_modifier = {
 				name = persia_claiming_leadership
-				duration = 7300
+				duration = -1
 			}
 			anatolia_region = {
 				limit = {
@@ -1156,12 +1156,12 @@ me_persia_missions_4 = {
 		effect = {
 			add_country_modifier = {
 				name = persia_controlling_indian_influence
-				duration = 5475
+				duration = -1
 			}
 			1334 = {
 				add_trade_modifier = {
 					who = ROOT
-					duration = 5475
+					duration = -1
 					power = 20
 					key = persia_controlling_indian_influence
 				}
@@ -1310,7 +1310,7 @@ me_persia_missions_5 = {
 		effect = {
 			add_country_modifier = {
 				name = persia_eastern_push
-				duration = 3650
+				duration = -1
 			}
 			khorasan_region = {
 				limit = {
@@ -1341,7 +1341,7 @@ me_persia_missions_5 = {
 		effect = {
 			add_country_modifier = {
 				name = persia_legitimate_ruler
-				duration = 18250
+				duration = -1
 			}
 		}
 	}
@@ -1375,7 +1375,7 @@ me_persia_missions_5 = {
 			khorasan_region = {
 				add_permanent_province_modifier = {
 					name = persia_restored_persian_rule
-					duration = 3650
+					duration = -1
 				}
 				add_permanent_province_modifier = {
 					name = persia_controlling_silk_road
@@ -1553,7 +1553,7 @@ me_persia_missions_1_great_persia = {
 		effect = {
 			add_country_modifier = {
 				name = persia_shah_sun
-				duration = 36500
+				duration = -1
 			}
 		}
 	}
@@ -1616,7 +1616,7 @@ me_persia_missions_1_great_persia = {
 		effect = {
 			add_country_modifier = {
 				name = persia_mediterranean_fleet_modifier
-				duration = 36500
+				duration = -1
 			}
 		}
 	}
@@ -1894,7 +1894,7 @@ me_persia_missions_3_great_persia = {
 		effect = {
 			add_country_modifier = {
 				name = persia_conquest_anatolia
-				duration = 5475
+				duration = -1
 			}
 		}
 	}
@@ -1937,7 +1937,7 @@ me_persia_missions_3_great_persia = {
 						}
 						add_permanent_province_modifier = {
 							name = persia_persian_hegemony_india
-							duration = 7300
+							duration = -1
 						}
 					}
 				}
@@ -1948,7 +1948,7 @@ me_persia_missions_3_great_persia = {
 						}
 						add_permanent_province_modifier = {
 							name = persia_persian_hegemony_india
-							duration = 7300
+							duration = -1
 						}
 					}
 				}
@@ -1959,7 +1959,7 @@ me_persia_missions_3_great_persia = {
 						limit = { country_or_non_sovereign_subject_holds = ROOT }
 						add_permanent_province_modifier = {
 							name = persia_persian_hegemony_india
-							duration = 7300
+							duration = -1
 						}
 					}
 				}
@@ -1968,7 +1968,7 @@ me_persia_missions_3_great_persia = {
 						limit = { country_or_non_sovereign_subject_holds = ROOT }
 						add_permanent_province_modifier = {
 							name = persia_persian_hegemony_india
-							duration = 7300
+							duration = -1
 						}
 					}
 				}
@@ -2024,7 +2024,7 @@ me_persia_missions_3_great_persia = {
 						limit = { country_or_non_sovereign_subject_holds = ROOT }
 						add_or_extend_province_modifier_effect = {
 							MODIFIER = persia_persian_hegemony_india
-							DURATION = 7300
+							duration = -1
 						}
 					}
 				}
@@ -2033,7 +2033,7 @@ me_persia_missions_3_great_persia = {
 						limit = { country_or_non_sovereign_subject_holds = ROOT }
 						add_or_extend_province_modifier_effect = {
 							MODIFIER = persia_persian_hegemony_india
-							DURATION = 7300
+							duration = -1
 						}
 					}
 				}
@@ -2114,7 +2114,7 @@ me_persia_missions_3_great_persia = {
 					}
 					add_permanent_province_modifier = {
 						name = persia_prosperity_eastern_border
-						duration = 18250
+						duration = -1
 					}
 				}
 				507 = {
@@ -2125,7 +2125,7 @@ me_persia_missions_3_great_persia = {
 					}
 					add_permanent_province_modifier = {
 						name = persia_prosperity_eastern_border
-						duration = 18250
+						duration = -1
 					}
 				}
 			}
@@ -2135,7 +2135,7 @@ me_persia_missions_3_great_persia = {
 						limit = { country_or_non_sovereign_subject_holds = ROOT }
 						add_permanent_province_modifier = {
 							name = persia_prosperity_eastern_border
-							duration = 18250
+							duration = -1
 						}
 					}
 				}
@@ -2144,7 +2144,7 @@ me_persia_missions_3_great_persia = {
 						limit = { country_or_non_sovereign_subject_holds = ROOT }
 						add_permanent_province_modifier = {
 							name = persia_prosperity_eastern_border
-							duration = 18250
+							duration = -1
 						}
 					}
 				}
@@ -2299,7 +2299,7 @@ me_persia_missions_3_great_persia = {
 			add_prestige_or_monarch_power = { amount = 20 }
 			add_country_modifier = {
 				name = persia_symbols_power
-				duration = 7300
+				duration = -1
 			}
 		}
 	}
@@ -2453,7 +2453,7 @@ me_persia_missions_4_great_persia = {
 		effect = {
 			add_country_modifier = {
 				name = persia_persian_gulf
-				duration = 18250
+				duration = -1
 			}
 			oman_area = {
 				limit = {
@@ -2502,12 +2502,12 @@ me_persia_missions_4_great_persia = {
 		effect = {
 			add_country_modifier = {
 				name = persia_indian_maritime_trade_route
-				duration = 7300
+				duration = -1
 			}
 			1335 = {
 				add_trade_modifier = {
 					who = ROOT
-					duration = 7300
+					duration = -1
 					power = 20
 					key = persia_indian_maritime_trade_route
 				}
@@ -2515,7 +2515,7 @@ me_persia_missions_4_great_persia = {
 			1334 = {
 				add_trade_modifier = {
 					who = ROOT
-					duration = 7300
+					duration = -1
 					power = 20
 					key = persia_indian_maritime_trade_route
 				}
@@ -2607,7 +2607,7 @@ me_persia_missions_4_great_persia = {
 		effect = {
 			add_country_modifier = {
 				name = persia_draft_fleet
-				duration = 18250
+				duration = -1
 			}
 			custom_tooltip = PERSIA_INDIAN_OCEAN_FLEET_TT
 			tooltip = {
@@ -2728,7 +2728,7 @@ me_persia_missions_4_great_persia = {
 		effect = {
 			add_country_modifier = {
 				name = persia_birth_naval_power
-				duration = 3650
+				duration = -1
 			}
 		}
 	}
@@ -3285,7 +3285,7 @@ me_persia_missions_1_trade = {
 		effect = {
 			add_country_modifier = {
 				name = persia_new_horizons
-				duration = 7300
+				duration = -1
 			}
 		}
 	}
@@ -3387,7 +3387,7 @@ me_persia_missions_1_trade = {
 		effect = {
 			add_country_modifier = {
 				name = persia_equal_trade_partnership
-				duration = 18250
+				duration = -1
 			}
 		}
 	}
@@ -3547,7 +3547,7 @@ me_persia_missions_2_trade = {
 					}
 					add_trade_modifier = {
 						who = ROOT
-						duration = 9125
+						duration = -1
 						power = 10
 						key = PER_great_trading_city
 					}
@@ -3748,7 +3748,7 @@ me_persia_missions_3_trade = {
 		effect = {
 			add_country_modifier = {
 				name = persia_piracy_protection
-				duration = 18250
+				duration = -1
 			}
 			custom_tooltip = PERSIA_GULF_SUPREMACY_TT
 			hidden_effect = {
@@ -3830,7 +3830,7 @@ me_persia_missions_3_trade = {
 			504 = {
 				add_trade_modifier = {
 					who = ROOT
-					duration = 18250
+					duration = -1
 					power = 25
 					key = ven_discovered_trade_route
 				}
@@ -3838,7 +3838,7 @@ me_persia_missions_3_trade = {
 			1340 = {
 				add_trade_modifier = {
 					who = ROOT
-					duration = 18250
+					duration = -1
 					power = 25
 					key = ven_discovered_trade_route
 				}
@@ -3846,7 +3846,7 @@ me_persia_missions_3_trade = {
 			507 = {
 				add_trade_modifier = {
 					who = ROOT
-					duration = 18250
+					duration = -1
 					power = 25
 					key = ven_discovered_trade_route
 				}
@@ -3874,7 +3874,7 @@ me_persia_missions_3_trade = {
 		effect = {
 			add_country_modifier = {
 				name = persia_persian_ports_modifier
-				duration = 9125
+				duration = -1
 			}
 			custom_tooltip = PER_every_area_with_a_shipyard
 			tooltip = {
@@ -3887,7 +3887,7 @@ me_persia_missions_3_trade = {
 					}
 					add_permanent_province_modifier = {
 						name = PER_shipyard_building
-						duration = 10950
+						duration = -1
 					}
 				}
 			}
@@ -3901,7 +3901,7 @@ me_persia_missions_3_trade = {
 					}
 					add_permanent_province_modifier = {
 						name = PER_shipyard_building
-						duration = 10950
+						duration = -1
 					}
 				}
 			}
@@ -3979,7 +3979,7 @@ me_persia_missions_4_trade = {
 		effect = {
 			add_country_modifier = {
 				name = persia_first_contact
-				duration = 3650
+				duration = -1
 			}
 		}
 	}
@@ -4030,7 +4030,7 @@ me_persia_missions_4_trade = {
 		effect = {
 			add_country_modifier = {
 				name = persia_chinese_scientist_persia
-				duration = 7300
+				duration = -1
 			}
 			if = {
 				limit = {
@@ -4050,7 +4050,7 @@ me_persia_missions_4_trade = {
 					limit = { is_emperor_of_china = yes }
 					add_country_modifier = {
 						name = persia_persian_scientist_china
-						duration = 7300
+						duration = -1
 					}
 				}
 			}
@@ -4066,7 +4066,7 @@ me_persia_missions_4_trade = {
 					}
 					add_country_modifier = {
 						name = persia_persian_scientist_china
-						duration = 7300
+						duration = -1
 					}
 				}
 			}
@@ -4136,7 +4136,7 @@ me_persia_missions_4_trade = {
 			country_event = { id = ME_Persia_Events.10 }
 			add_country_modifier = {
 				name = persia_elephant_army
-				duration = 9125
+				duration = -1
 			}
 		}
 	}
@@ -4167,7 +4167,7 @@ me_persia_missions_4_trade = {
 		effect = {
 			add_country_modifier = {
 				name = persia_foes_friends
-				duration = 3650
+				duration = -1
 			}
 			464 = { create_silk_route_outpost = yes }
 			466 = { create_silk_route_outpost = yes }
@@ -4249,13 +4249,13 @@ me_persia_missions_4_trade = {
 		effect = {
 			add_country_modifier = {
 				name = persia_caspian_trade_modifier
-				duration = 7300
+				duration = -1
 			}
 			custom_tooltip = PERSIA_CASPIAN_TRADE_EFFECT_TT
 			tooltip = {
 				add_country_modifier = {
 					name = persia_trade_with_persia
-					duration = 7300
+					duration = -1
 				}
 			}
 			custom_tooltip = PERSIA_CASPIAN_TRADE_EFFECT_PERMANENT_TT
@@ -4294,7 +4294,7 @@ me_persia_missions_4_trade = {
 						controller = {
 							add_country_modifier = {
 								name = persia_trade_with_persia
-								duration = 7300
+								duration = -1
 							}
 						}
 					}
@@ -4327,7 +4327,7 @@ me_persia_missions_4_trade = {
 						controller = {
 							add_country_modifier = {
 								name = persia_trade_with_persia
-								duration = 7300
+								duration = -1
 							}
 						}
 					}
@@ -4360,7 +4360,7 @@ me_persia_missions_4_trade = {
 						controller = {
 							add_country_modifier = {
 								name = persia_trade_with_persia
-								duration = 7300
+								duration = -1
 							}
 						}
 					}
@@ -4393,7 +4393,7 @@ me_persia_missions_4_trade = {
 						controller = {
 							add_country_modifier = {
 								name = persia_trade_with_persia
-								duration = 7300
+								duration = -1
 							}
 						}
 					}
@@ -4426,7 +4426,7 @@ me_persia_missions_4_trade = {
 						controller = {
 							add_country_modifier = {
 								name = persia_trade_with_persia
-								duration = 7300
+								duration = -1
 							}
 						}
 					}
@@ -4459,7 +4459,7 @@ me_persia_missions_4_trade = {
 						controller = {
 							add_country_modifier = {
 								name = persia_trade_with_persia
-								duration = 7300
+								duration = -1
 							}
 						}
 					}
@@ -4492,7 +4492,7 @@ me_persia_missions_4_trade = {
 						controller = {
 							add_country_modifier = {
 								name = persia_trade_with_persia
-								duration = 7300
+								duration = -1
 							}
 						}
 					}
@@ -4525,7 +4525,7 @@ me_persia_missions_4_trade = {
 						controller = {
 							add_country_modifier = {
 								name = persia_trade_with_persia
-								duration = 7300
+								duration = -1
 							}
 						}
 					}
@@ -4558,7 +4558,7 @@ me_persia_missions_4_trade = {
 						controller = {
 							add_country_modifier = {
 								name = persia_trade_with_persia
-								duration = 7300
+								duration = -1
 							}
 						}
 					}
@@ -4591,7 +4591,7 @@ me_persia_missions_4_trade = {
 						controller = {
 							add_country_modifier = {
 								name = persia_trade_with_persia
-								duration = 7300
+								duration = -1
 							}
 						}
 					}
@@ -4624,7 +4624,7 @@ me_persia_missions_4_trade = {
 						controller = {
 							add_country_modifier = {
 								name = persia_trade_with_persia
-								duration = 7300
+								duration = -1
 							}
 						}
 					}
@@ -4657,7 +4657,7 @@ me_persia_missions_4_trade = {
 						controller = {
 							add_country_modifier = {
 								name = persia_trade_with_persia
-								duration = 7300
+								duration = -1
 							}
 						}
 					}
@@ -4690,7 +4690,7 @@ me_persia_missions_4_trade = {
 						controller = {
 							add_country_modifier = {
 								name = persia_trade_with_persia
-								duration = 7300
+								duration = -1
 							}
 						}
 					}
@@ -4855,7 +4855,7 @@ me_persia_missions_5_trade = {
 		effect = {
 			add_country_modifier = {
 				name = persia_chinese_cultural_influence
-				duration = 7300
+				duration = -1
 			}
 			if = {
 				limit = {
@@ -4881,7 +4881,7 @@ me_persia_missions_5_trade = {
 					}
 					add_country_modifier = {
 						name = persia_persian_cultural_influence
-						duration = 7300
+						duration = -1
 					}
 				}
 			}
@@ -4899,7 +4899,7 @@ me_persia_missions_5_trade = {
 					}
 					add_country_modifier = {
 						name = persia_persian_cultural_influence
-						duration = 7300
+						duration = -1
 					}
 				}
 			}
@@ -5099,7 +5099,7 @@ me_persia_missions_5_trade = {
 		effect = {
 			add_country_modifier = {
 				name = persia_chinese_porcelain_country_modifier
-				duration = 7300
+				duration = -1
 			}
 			china_superregion = {
 				limit = {
@@ -5555,13 +5555,13 @@ me_persia_missions_3_tall = {
 				}
 				add_country_modifier = {
 					name = persia_restoring_iranian_architecture_leviathan
-					duration = 18250
+					duration = -1
 				}
 			}
 			else = {
 				add_country_modifier = {
 					name = persia_restoring_iranian_architecture
-					duration = 18250
+					duration = -1
 				}
 			}
 		}
@@ -5712,7 +5712,7 @@ me_persia_missions_4_tall = {
 					}
 					add_permanent_province_modifier = {
 						name = persia_futuwa
-						duration = 18250
+						duration = -1
 					}
 				}
 			}
@@ -5737,7 +5737,7 @@ me_persia_missions_4_tall = {
 						add_base_production = 1
 						add_permanent_province_modifier = {
 							name = persia_futuwa
-							duration = 18250
+							duration = -1
 						}
 					}
 				}
@@ -5776,7 +5776,7 @@ me_persia_missions_4_tall = {
 			}
 			add_country_modifier = {
 				name = persia_marvels_creations
-				duration = 18250
+				duration = -1
 			}
 		}
 	}
@@ -5926,7 +5926,7 @@ me_persia_missions_1_military = {
 		effect = {
 			add_country_modifier = {
 				name = persia_turks_tajiks
-				duration = 18250
+				duration = -1
 			}
 			kashgaria_area = {
 				add_permanent_province_modifier = {
@@ -6301,7 +6301,7 @@ me_persia_missions_4_military = {
 				}
 				add_country_modifier = {
 					name = persia_gunpowder_empires_zoroastrian
-					duration = 9125
+					duration = -1
 				}
 			}
 			else = {
@@ -6483,7 +6483,7 @@ me_persia_missions_2_new = {
 			}
 			add_country_modifier = {
 				name = persia_faith_control_modifier
-				duration = 9125
+				duration = -1
 			}
 			arabia_region = {
 				limit = {
@@ -6907,7 +6907,7 @@ me_persia_missions_4_new = {
 		effect = {
 			add_country_modifier = {
 				name = PER_pilgrim_routes_protected
-				duration = 9125
+				duration = -1
 			}
 		}
 	}
@@ -7350,7 +7350,7 @@ me_persia_missions_4_ancient = {
 			}
 			add_country_modifier = {
 				name = persia_northern_flames
-				duration = 36500
+				duration = -1
 			}
 		}
 	}

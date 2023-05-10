@@ -102,7 +102,7 @@ tr_russian_minors_1 = {
 		effect = {
 			add_country_modifier = {
 				name = "tr_conquered_nov"
-				duration = 7300
+				duration = -1
 			}
 			pskov_area = {
 				limit = {
@@ -246,7 +246,7 @@ tr_russian_minors_1 = {
 				}
 				add_province_modifier = {
 					name = "ruthenian_integration"
-					duration = 7300
+					duration = -1
 				}
 			}
 		}
@@ -357,7 +357,7 @@ tr_russian_minors_2 = {
 			add_mil_power = 100
 			add_country_modifier = {
 				name = "tr_united_russia"
-				duration = 7300
+				duration = -1
 			}
 		}
 	}
@@ -480,7 +480,7 @@ tr_russian_minors_3 = {
 		effect = {
 			add_country_modifier = {
 				name = "nov_defeated_muscovy"
-				duration = 7300
+				duration = -1
 			}
 			oka_area = {
 				limit = {
@@ -589,7 +589,7 @@ tr_russian_minors_3 = {
 			add_mil_power = 100
 			add_country_modifier = {
 				name = "tr_ended_tatar_yoke"
-				duration = 7300
+				duration = -1
 			}
 		}
 	}

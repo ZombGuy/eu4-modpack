@@ -48,7 +48,7 @@ MAI_Missions_1 = {
 				}
 				add_country_modifier = {
 					name = MAI_renegotiated_peace_of_frankfurt
-					duration = 10950
+					duration = -1
 				}
 			}
 		}
@@ -178,7 +178,7 @@ MAI_Missions_4 = {
 			add_dip_power = 100
 			add_country_modifier = {
 				name = MAI_primas_germaniae_modifier
-				duration = 10950
+				duration = -1
 			}
 		}
 	}
@@ -239,7 +239,7 @@ MAI_Missions_5 = {
 			}
 			add_country_modifier = {
 				name = MAI_legatus_natus_modifier
-				duration = 10950
+				duration = -1
 			}
 		}
 	}

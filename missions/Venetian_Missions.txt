@@ -97,7 +97,7 @@ venice_missions_1 = {
 			1320 = {
 				add_trade_modifier = {
 					who = ROOT
-					duration = 7300
+					duration = -1
 					power = 20
 					key = genoese_trade_concession
 				}
@@ -180,7 +180,7 @@ venice_missions_2 = {
 		effect = {
 			add_country_modifier = {
 				name = "mediterranean_ambition"
-				duration = 3650
+				duration = -1
 			}
 		}
 	}

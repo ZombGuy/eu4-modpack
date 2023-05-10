@@ -216,13 +216,13 @@ hun_north_group = {
 			serbia_area = {
 				add_province_modifier = {
 					name = "hun_moldavia_mod"
-					duration = 10950
+					duration = -1
 				}
 			}
 			rascia_area = {
 				add_province_modifier = {
 					name = "hun_moldavia_mod"
-					duration = 10950
+					duration = -1
 				}
 			}
 			croatia_area = {
@@ -286,7 +286,7 @@ hun_south_group = {
 			moldavia_area = {
 				add_province_modifier = {
 					name = "hun_moldavia_mod"
-					duration = 10950
+					duration = -1
 				}
 			}
 
@@ -359,19 +359,19 @@ hun_south_group = {
 			bosnia_area = {
 				add_province_modifier = {
 					name = "hun_moldavia_mod"
-					duration = 10950
+					duration = -1
 				}
 			}
 			croatia_area = {
 				add_province_modifier = {
 					name = "hun_moldavia_mod"
-					duration = 10950
+					duration = -1
 				}
 			}
 			east_adriatic_coast_area = {
 				add_province_modifier = {
 					name = "hun_moldavia_mod"
-					duration = 10950
+					duration = -1
 				}
 			}
 			if = {
@@ -586,7 +586,7 @@ hun_ottoman_group = {
 			add_prestige = 30
 			add_country_modifier = {
 				name = "hun_constantinople"
-				duration = 7300
+				duration = -1
 			}
 			northern_greece_area = {
 				limit = {

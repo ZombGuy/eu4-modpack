@@ -46,7 +46,7 @@ MAM_missions_1 = {
 			
 			add_country_modifier = {
 				name = MAM_selling_kharaj_to_iqta_holders
-				duration = 9125
+				duration = -1
 			}
 		}
 	}
@@ -79,7 +79,7 @@ MAM_missions_1 = {
 					trade_goods = coffee
 					key = MAM_protector_of_the_secret
 					value = 0.25
-					duration = 9125
+					duration = -1
 				}
 			}
 			country_event = { id = ME_Mamluks_Events.25 }
@@ -161,7 +161,7 @@ MAM_missions_1 = {
 				
 				add_province_modifier = {
 					name = MAM_citadel
-					duration = -1 
+					duration = -1
 				}
 			}
 		}
@@ -268,7 +268,7 @@ MAM_missions_1 = {
 			
 			add_country_modifier = {
 				name = MAM_furusiyya_modifier
-				duration = 9125
+				duration = -1
 			}
 		}
 	}
@@ -297,7 +297,7 @@ MAM_missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = MAM_mamluk_infantry_reforms
-				duration = 14600
+				duration = -1
 			}
 			
 			add_mil_power = 50
@@ -337,7 +337,7 @@ MAM_missions_1 = {
 			
 			add_country_modifier = {
 				name = MAM_piety_accelerator
-				duration = 9125
+				duration = -1
 			}
 			
 			ARB_claims_yemen = yes
@@ -385,7 +385,7 @@ MAM_missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = MAM_arabia_tamed
-				duration = 10950
+				duration = -1
 			}
 			
 			add_adm_power = 50
@@ -411,7 +411,7 @@ MAM_missions_1 = {
 			ME_give_claims = { id = 320 }
 			add_country_modifier = {
 				name = MAM_cypriot_crusaders_bend_the_knee
-				duration = 14600
+				duration = -1
 			}
 		}
 	}
@@ -814,7 +814,7 @@ MAM_missions_2 = {
 			custom_tooltip = " "
 			add_country_modifier = {
 				name = MAM_new_mamluks
-				duration = 9125
+				duration = -1
 			}
 			set_country_flag = MAM_purchase_new_mamluks_flag
 			custom_tooltip = MAM_new_diplo_action
@@ -834,7 +834,7 @@ MAM_missions_2 = {
 		effect = {
 			add_country_modifier = {
 				name = MAM_governing_military
-				duration = 10950
+				duration = -1
 			}
 			
 			if = {
@@ -1084,7 +1084,7 @@ MAM_missions_3 = {
 			
 			add_country_modifier = {
 				name = MAM_trade_modifier
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -1345,7 +1345,7 @@ MAM_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = MAM_naval_cooperation
-				duration = 7300
+				duration = -1
 			}
 			create_admiral = { tradition = 40 }
 			custom_tooltip = " "
@@ -1478,7 +1478,7 @@ MAM_missions_3 = {
 			
 			add_country_modifier = {
 				name = MAM_securing_the_flank
-				duration = 7300
+				duration = -1
 			}
 			
 			custom_tooltip = " "
@@ -1612,7 +1612,7 @@ MAM_missions_3 = {
 			
 			add_country_modifier = {
 				name = MAM_aksum_defeated
-				duration = 9125
+				duration = -1
 			}
 		}
 	}
@@ -1683,7 +1683,7 @@ MAM_missions_4 = {
 				remove_country_modifier = MAM_trade_modifier
 				add_country_modifier = {
 					name = MAM_trade_modifier_2
-					duration = -1 
+					duration = -1
 				}
 			}
 			
@@ -1719,7 +1719,7 @@ MAM_missions_4 = {
 				remove_country_modifier = MAM_trade_modifier_2
 				add_country_modifier = {
 					name = MAM_trade_modifier_3
-					duration = -1 
+					duration = -1
 				}
 			}
 			
@@ -1838,7 +1838,7 @@ MAM_missions_4 = {
 			
 			add_country_modifier = {
 				name = MAM_protectors_of_the_caliph_modifier
-				duration = 7300
+				duration = -1
 			}
 		}
 	}
@@ -1885,21 +1885,21 @@ MAM_missions_4 = {
 				tooltip = {
 					add_country_modifier = {
 						name = AYY_maliki_scholar
-						duration = 14600
+						duration = -1
 					}
 				}
 				custom_tooltip = AYY_if_we_have_invited_hanbali
 				tooltip = {
 					add_country_modifier = {
 						name = AYY_hanbali_scholar
-						duration = 14600
+						duration = -1
 					}
 				}
 				custom_tooltip = AYY_if_we_have_invited_hanafi
 				tooltip = {
 					add_country_modifier = {
 						name = AYY_hanafi_scholar
-						duration = 14600
+						duration = -1
 					}
 				}
 				
@@ -1910,7 +1910,7 @@ MAM_missions_4 = {
 						}
 						add_country_modifier = {
 							name = AYY_hanafi_scholar
-							duration = 14600
+							duration = -1
 						}
 					}
 					else_if = {
@@ -1919,7 +1919,7 @@ MAM_missions_4 = {
 						}
 						add_country_modifier = {
 							name = AYY_hanbali_scholar
-							duration = 14600
+							duration = -1
 						}
 					}
 					else_if = {
@@ -1928,7 +1928,7 @@ MAM_missions_4 = {
 						}
 						add_country_modifier = {
 							name = AYY_maliki_scholar
-							duration = 14600
+							duration = -1
 						}
 					}
 					else = { }
@@ -1949,7 +1949,7 @@ MAM_missions_4 = {
 		effect = {
 			add_country_modifier = {
 				name = MAM_found_zuwiyas
-				duration = 7300
+				duration = -1
 			}
 		}
 	}
@@ -2016,7 +2016,7 @@ MAM_missions_4 = {
 			
 			add_country_modifier = {
 				name = MAM_the_levant_turnabout
-				duration = 7300
+				duration = -1
 			}
 		}
 	}
@@ -2102,7 +2102,7 @@ MAM_missions_4 = {
 		effect = {
 			add_country_modifier = {
 				name = MAM_sphere_of_influence
-				duration = 10950
+				duration = -1
 			}
 			
 			add_power_projection = {

@@ -47,7 +47,7 @@ mug_reconquest_persia = {
 		effect = {
 			add_country_modifier = {
 				name = "mug_hindustan_mod"
-				duration = 5475
+				duration = -1
 			}
 			malwa_area = {
 				limit = {
@@ -87,13 +87,13 @@ mug_reconquest_persia = {
 			malwa_area = {
 				add_province_modifier = {
 					name = "mug_malwa_mod"
-					duration = 5475
+					duration = -1
 				}
 			}
 			gird_area = {
 				add_province_modifier = {
 					name = "mug_malwa_mod"
-					duration = 5475
+					duration = -1
 				}
 			}
 			saurashtra_area = {
@@ -163,7 +163,7 @@ mug_reconquest_persia = {
 		effect = {
 			add_country_modifier = {
 				name = "mug_gujarat_mod"
-				duration = 5475
+				duration = -1
 			}
 			north_bengal_area = {
 				limit = {

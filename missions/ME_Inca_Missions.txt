@@ -43,7 +43,7 @@ inca_missions_1 = {
 				add_nationalism = -3
 				add_province_modifier = {
 					name = inca_conquer_incan_lands_province_modifier
-					duration = 5475
+					duration = -1
 				}
 			}
 			if = {
@@ -84,7 +84,7 @@ inca_missions_1 = {
 				add_nationalism = -3
 				add_province_modifier = {
 					name = inca_conquer_incan_lands_province_modifier
-					duration = 5475
+					duration = -1
 				}
 			}
 			if = {
@@ -148,14 +148,14 @@ inca_missions_1 = {
 				add_nationalism = -3
 				add_province_modifier = {
 					name = inca_conquer_incan_lands_province_modifier
-					duration = 5475
+					duration = -1
 				}
 			}
 			potosi_area = {
 				add_nationalism = -3
 				add_province_modifier = {
 					name = inca_conquer_incan_lands_province_modifier
-					duration = 5475
+					duration = -1
 				}
 			}
 			794 = {
@@ -203,7 +203,7 @@ inca_missions_1 = {
 			add_legitimacy_equivalent = { amount = 10 republican_tradition = 10 }
 			add_country_modifier = {
 				name = inca_conquer_jujuy_and_santa_catalina_modifier
-				duration = 7300
+				duration = -1
 			}
 		}
 	}
@@ -236,7 +236,7 @@ inca_missions_1 = {
 			}
 			add_country_modifier = {
 				name = inca_military_buildup_modifier
-				duration = 7300
+				duration = -1
 			}
 		}
 	}
@@ -266,7 +266,7 @@ inca_missions_1 = {
 			add_prestige = 20
 			add_country_modifier = {
 				name = inca_secure_our_position_modifier
-				duration = 7300
+				duration = -1
 			}
 		}
 	}
@@ -333,7 +333,7 @@ inca_missions_1 = {
 			add_legitimacy_equivalent = { amount = 20 republican_tradition = 20 }
 			add_country_modifier = {
 				name = inca_expel_the_foreigners_modifier
-				duration = 9125
+				duration = -1
 			}
 			if = {
 				limit = {
@@ -454,7 +454,7 @@ inca_missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = inca_destroy_european_administration_modifier
-				duration = 7300
+				duration = -1
 			}
 			every_owned_province = {
 				limit = {
@@ -558,7 +558,7 @@ inca_missions_1 = {
 			add_legitimacy_equivalent = { amount = 20 republican_tradition = 20 }
 			add_country_modifier = {
 				name = inca_repulse_the_europeans_modifier
-				duration = 18250
+				duration = -1
 			}
 		}
 	}
@@ -724,7 +724,7 @@ inca_missions_2 = {
 		effect = {
 			add_country_modifier = {
 				name = inca_the_incan_cores_modifier
-				duration = 5475
+				duration = -1
 			}
 			if = {
 				limit = {
@@ -780,7 +780,7 @@ inca_missions_2 = {
 			add_treasury = 200
 			add_country_modifier = {
 				name = inca_securing_gold_mines_modifier
-				duration = 3650
+				duration = -1
 			}
 		}
 	}
@@ -828,7 +828,7 @@ inca_missions_2 = {
 				}
 				add_province_modifier = {
 					name = inca_improved_gold_mining_province_modifier
-					duration = 5475
+					duration = -1
 				}
 			}
 		}
@@ -922,28 +922,28 @@ inca_missions_2 = {
 				add_nationalism = -10
 				add_province_modifier = {
 					name = inca_improve_administration_province_modifier
-					duration = 5475
+					duration = -1
 				}
 			}
 			cajamarca_area = {
 				add_nationalism = -10
 				add_province_modifier = {
 					name = inca_improve_administration_province_modifier
-					duration = 5475
+					duration = -1
 				}
 			}
 			chimor_area = {
 				add_nationalism = -10
 				add_province_modifier = {
 					name = inca_improve_administration_province_modifier
-					duration = 5475
+					duration = -1
 				}
 			}
 			quito_area = {
 				add_nationalism = -10
 				add_province_modifier = {
 					name = inca_improve_administration_province_modifier
-					duration = 5475
+					duration = -1
 				}
 			}
 		}
@@ -1163,7 +1163,7 @@ inca_missions_2 = {
 				}
 				add_trade_modifier = {
 					who = ROOT
-					duration = 5475
+					duration = -1
 					power = 20
 					key = inca_trade_cities_trade_modifier
 				}
@@ -1204,7 +1204,7 @@ inca_missions_2 = {
 		effect = {
 			add_country_modifier = {
 				name = inca_fortification_efforts_modifier
-				duration = 7300
+				duration = -1
 			}
 			every_owned_province = {
 				limit = {
@@ -1217,7 +1217,7 @@ inca_missions_2 = {
 				}
 				add_province_modifier = {
 					name = inca_fortification_efforts_province_modifier
-					duration = 7300
+					duration = -1
 				}
 			}
 		}
@@ -1254,7 +1254,7 @@ inca_missions_2 = {
 			add_prestige = 10
 			add_country_modifier = {
 				name = inca_strangers_from_a_new_world_modifier
-				duration = 3650
+				duration = -1
 			}
 		}
 	}
@@ -1285,7 +1285,7 @@ inca_missions_2 = {
 			add_dip_power = 100
 			add_country_modifier = {
 				name = inca_diplomatic_ties_modifier
-				duration = 5475
+				duration = -1
 			}
 			every_known_country = {
 				limit = {
@@ -1353,7 +1353,7 @@ inca_missions_2 = {
 			add_mil_power = 100
 			add_country_modifier = {
 				name = inca_seek_technological_adoption_modifier
-				duration = 5475
+				duration = -1
 			}
 		}
 	}
@@ -1370,7 +1370,7 @@ inca_missions_2 = {
 			add_army_tradition = 20
 			add_country_modifier = {
 				name = inca_modern_military_modifier
-				duration = 7300
+				duration = -1
 			}
 		}
 	}
@@ -1468,7 +1468,7 @@ inca_missions_2 = {
 		effect = {
 			add_country_modifier = {
 				name = inca_colonize_the_south_east_modifier
-				duration = 7300
+				duration = -1
 			}
 		}
 	}
@@ -1548,7 +1548,7 @@ inca_missions_3 = {
 			add_adm_power = 100
 			add_country_modifier = {
 				name = inca_stabilized_government_modifier
-				duration = 5475
+				duration = -1
 			}
 		}
 	}
@@ -1615,7 +1615,7 @@ inca_missions_3 = {
 			}
 			add_country_modifier = {
 				name = inca_advisor_council_modifier
-				duration = 7300
+				duration = -1
 			}
 		}
 	}
@@ -1640,7 +1640,7 @@ inca_missions_3 = {
 			add_legitimacy_equivalent = { amount = 15 republican_tradition = 15 }
 			add_country_modifier = {
 				name = inca_advanced_native_administration_modifier
-				duration = 9125
+				duration = -1
 			}
 			if = {
 				limit = {
@@ -1649,7 +1649,7 @@ inca_missions_3 = {
 				}
 				add_country_modifier = {
 					name = inca_advanced_native_administration_modifier_no_dlc
-					duration = 3650
+					duration = -1
 				}
 			}
 		}
@@ -1689,14 +1689,14 @@ inca_missions_3 = {
 				add_nationalism = -10
 				add_province_modifier = {
 					name = inca_improve_administration_province_modifier
-					duration = 7300
+					duration = -1
 				}
 			}
 			peruan_coast = {
 				add_nationalism = -10
 				add_province_modifier = {
 					name = inca_improve_administration_province_modifier
-					duration = 7300
+					duration = -1
 				}
 			}
 		}
@@ -1816,7 +1816,7 @@ inca_missions_3 = {
 			}
 			add_country_modifier = {
 				name = inca_capital_administration_modifier
-				duration = 9125
+				duration = -1
 			}
 		}
 	}
@@ -1842,7 +1842,7 @@ inca_missions_3 = {
 				trade_goods = grain
 				key = inca_morays_price
 				value = 0.15
-				duration = 7300
+				duration = -1
 			}
 		}
 	}
@@ -1857,7 +1857,7 @@ inca_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = inca_mitma_modifier
-				duration = 7300
+				duration = -1
 			}
 		}
 	}
@@ -1947,7 +1947,7 @@ inca_missions_3 = {
 			}
 			add_country_modifier = {
 				name = inca_colonize_iquitos_modifier
-				duration = 7300
+				duration = -1
 			}
 		}
 	}
@@ -1966,7 +1966,7 @@ inca_missions_3 = {
 			add_mil_power = 100
 			add_country_modifier = {
 				name = inca_home_of_inventions_modifier
-				duration = 5475
+				duration = -1
 			}
 		}
 	}
@@ -2123,7 +2123,7 @@ inca_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = inca_colonize_guayra_and_minas_gerais_modifier
-				duration = 9125
+				duration = -1
 			}
 			minas_gerais_area = {
 				add_base_production = 1
@@ -2228,7 +2228,7 @@ inca_missions_4 = {
 			}
 			add_country_modifier = {
 				name = inca_temples_for_pacha_kamaq_modifier
-				duration = 5475
+				duration = -1
 			}
 		}
 	}
@@ -2258,7 +2258,7 @@ inca_missions_4 = {
 				add_nationalism = -10
 				add_province_modifier = {
 					name = inca_improve_administration_province_modifier
-					duration = 7300
+					duration = -1
 				}
 			}
 		}
@@ -2360,7 +2360,7 @@ inca_missions_4 = {
 		effect = {
 			add_country_modifier = {
 				name = inca_manual_production_modifier
-				duration = 5475
+				duration = -1
 			}
 		}
 	}
@@ -2375,7 +2375,7 @@ inca_missions_4 = {
 		effect = {
 			add_country_modifier = {
 				name = inca_copper_mining_modifier
-				duration = 5475
+				duration = -1
 			}
 		}
 	}
@@ -2412,7 +2412,7 @@ inca_missions_4 = {
 				}
 				add_province_modifier = {
 					name = inca_improved_mining_province_modifier
-					duration = 5475
+					duration = -1
 				}
 			}
 		}
@@ -2462,7 +2462,7 @@ inca_missions_4 = {
 			}
 			add_country_modifier = {
 				name = inca_colonize_moxos_modifier
-				duration = 9125
+				duration = -1
 			}
 		}
 	}
@@ -2527,7 +2527,7 @@ inca_missions_4 = {
 				trade_goods = iron
 				key = inca_secure_the_northern_chilenean_coast_price
 				value = 0.1
-				duration = 3650
+				duration = -1
 			}
 		}
 	}
@@ -2640,7 +2640,7 @@ inca_missions_4 = {
 		effect = {
 			add_country_modifier = {
 				name = inca_a_northern_coast_modifier
-				duration = 18250
+				duration = -1
 			}
 			749 = {
 				light_ship = ROOT
@@ -2674,7 +2674,7 @@ inca_missions_5 = {
 		effect = {
 			add_country_modifier = {
 				name = inca_solar_cult_modifier
-				duration = 7300
+				duration = -1
 			}
 		}
 	}
@@ -2704,7 +2704,7 @@ inca_missions_5_ED = {
 		effect = {
 			add_country_modifier = {
 				name = inca_the_power_of_the_sun_modifier
-				duration = 3650
+				duration = -1
 			}
 		}
 	}
@@ -2721,7 +2721,7 @@ inca_missions_5_ED = {
 			add_stability_or_adm_power = yes
 			add_country_modifier = {
 				name = inca_inti_reforms_modifier
-				duration = 7300
+				duration = -1
 			}
 		}
 	}
@@ -2737,7 +2737,7 @@ inca_missions_5_ED = {
 			add_legitimacy_equivalent = { amount = 20 republican_tradition = 20 }
 			add_country_modifier = {
 				name = inca_technology_reform_modifier
-				duration = 7300
+				duration = -1
 			}
 		}
 	}
@@ -2787,14 +2787,14 @@ inca_missions_5_2 = {
 				add_nationalism = -10
 				add_province_modifier = {
 					name = inca_improve_administration_province_modifier
-					duration = 7300
+					duration = -1
 				}
 			}
 			potosi_area = {
 				add_nationalism = -10
 				add_province_modifier = {
 					name = inca_improve_administration_province_modifier
-					duration = 7300
+					duration = -1
 				}
 			}
 		}
@@ -2915,7 +2915,7 @@ inca_missions_5_2 = {
 				}
 				add_province_modifier = {
 					name = inca_south_american_wool_province_modifier
-					duration = 3650
+					duration = -1
 				}
 			}
 		}
@@ -2950,7 +2950,7 @@ inca_missions_5_2 = {
 				trade_goods = wool
 				key = inca_improved_wool_farming_price
 				value = 0.1
-				duration = 10950
+				duration = -1
 			}
 			add_country_modifier = {
 				name = inca_improved_wool_farming_modifier
@@ -2970,13 +2970,13 @@ inca_missions_5_2 = {
 			add_mercantilism = 3
 			add_country_modifier = {
 				name = inca_incan_weaving_modifier
-				duration = 9125
+				duration = -1
 			}
 			change_price = {
 				trade_goods = cloth
 				key = inca_incan_weaving_price
 				value = 0.1
-				duration = 10950
+				duration = -1
 			}
 		}
 	}
@@ -3068,7 +3068,7 @@ inca_missions_5_2 = {
 				}
 				add_province_modifier = {
 					name = inca_colonize_western_amazon_province_modifier
-					duration = 7300
+					duration = -1
 				}
 			}
 			random_owned_province = {
@@ -3078,7 +3078,7 @@ inca_missions_5_2 = {
 				}
 				add_province_modifier = {
 					name = inca_colonize_western_amazon_province_modifier
-					duration = 7300
+					duration = -1
 				}
 			}
 			random_owned_province = {
@@ -3088,7 +3088,7 @@ inca_missions_5_2 = {
 				}
 				add_province_modifier = {
 					name = inca_colonize_western_amazon_province_modifier
-					duration = 7300
+					duration = -1
 				}
 			}
 			random_owned_province = {
@@ -3098,7 +3098,7 @@ inca_missions_5_2 = {
 				}
 				add_province_modifier = {
 					name = inca_colonize_western_amazon_province_modifier
-					duration = 7300
+					duration = -1
 				}
 			}
 			random_owned_province = {
@@ -3108,7 +3108,7 @@ inca_missions_5_2 = {
 				}
 				add_province_modifier = {
 					name = inca_colonize_western_amazon_province_modifier
-					duration = 7300
+					duration = -1
 				}
 			}
 		}
@@ -3433,7 +3433,7 @@ inca_missions_5_2 = {
 					add_trade_modifier = {
 						who = ROOT
 						power = 20
-						duration = 7300
+						duration = -1
 						key = inca_colonize_caribbean_coast_trade_modifier
 					}
 				}

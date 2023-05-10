@@ -23,7 +23,7 @@
 		effect = {
 			add_country_modifier = {
 				name = fra_our_army
-				duration = 7300
+				duration = -1
 			}
 			liguria_area = {
 				limit = {
@@ -75,13 +75,13 @@
 			piedmont_area = {
 				add_province_modifier = {
 					name = fra_frenchify_italians
-					duration = 3650
+					duration = -1
 				}
 			}
 			liguria_area = {
 				add_province_modifier = {
 					name = fra_frenchify_italians
-					duration = 3650
+					duration = -1
 				}
 			}
 		}
@@ -368,11 +368,11 @@
 		effect = {
 			add_country_modifier = {
 				name = fra_information_about_new_world
-				duration = 18250
+				duration = -1
 			}
 			add_country_modifier = {
 				name = fra_iberian_navigation_techniques
-				duration = 18250
+				duration = -1
 			}
 		}
 	}
@@ -466,7 +466,7 @@
 		effect = {
 			add_country_modifier = {
 				name = fra_riches_new_world
-				duration = 10950
+				duration = -1
 			}
 		}
 	}
@@ -512,31 +512,31 @@
 			174 = {
 				add_province_modifier = {
 					name = fra_urban_projects
-					duration = 18250
+					duration = -1
 				}
 			}
 			177 = {
 				add_province_modifier = {
 					name = fra_urban_projects
-					duration = 18250
+					duration = -1
 				}
 			}
 			183 = {
 				add_province_modifier = {
 					name = fra_urban_projects
-					duration = 18250
+					duration = -1
 				}
 			}
 			200 = {
 				add_province_modifier = {
 					name = fra_urban_projects
-					duration = 18250
+					duration = -1
 				}
 			}
 			203 = {
 				add_province_modifier = {
 					name = fra_urban_projects
-					duration = 18250
+					duration = -1
 				}
 			}
 		}
@@ -577,7 +577,7 @@
 		effect = {
 			add_country_modifier = {
 				name = fra_enligthened_rulers
-				duration = 43800
+				duration = -1
 			}
 			custom_tooltip = fra_inno_full_extra_reward_tt
 			hidden_effect = {
@@ -587,7 +587,7 @@
 					}
 					add_country_modifier = {
 						name = fra_scientific_revolution
-						duration = 18250
+						duration = -1
 					}
 				}
 			}
@@ -763,7 +763,7 @@ france_missions_2 = {
 			}
 			add_country_modifier = {
 				name = fra_iron_crown
-				duration = 7300
+				duration = -1
 			}
 		}
 	}
@@ -904,7 +904,7 @@ france_missions_2 = {
 		effect = {
 			add_country_modifier = {
 				name = fra_colonial_ventures
-				duration = 7300
+				duration = -1
 			}
 			carribeans_region = {
 				limit = {
@@ -944,7 +944,7 @@ france_missions_2 = {
 		effect = {
 			add_country_modifier = {
 				name = fra_new_home
-				duration = 18250
+				duration = -1
 			}
 			notre_dame_mountains_area = {
 				limit = {
@@ -981,12 +981,12 @@ france_missions_2 = {
 			country_event = { id = ME_France_Events.11 }
 			add_country_modifier = {
 				name = fra_monopolizing_angle
-				duration = 7300
+				duration = -1
 			}
 			1516 = {
 				add_trade_modifier = {
 					who = ROOT
-					duration = 7300
+					duration = -1
 					power = 15
 					key = fra_carribean_trade
 				}
@@ -1035,7 +1035,7 @@ france_missions_2 = {
 				}
 				add_country_modifier = {
 					name = fra_settle_brazil
-					duration = 18250
+					duration = -1
 				}
 			}
 			763 = {
@@ -1083,7 +1083,7 @@ france_missions_2 = {
 			186 = {
 				add_province_modifier = {
 					name = fra_school
-					duration = 18250
+					duration = -1
 				}
 				add_base_tax = 2
 			}
@@ -1263,7 +1263,7 @@ france_missions_3 = {
 			country_event = { id = ME_France_Events.12 }
 			add_country_modifier = {
 				name = fra_ancien_regime
-				duration = 18250
+				duration = -1
 			}
 			custom_tooltip = fra_provinces_gain_patriotism_tt
 			hidden_effect = {
@@ -1316,7 +1316,7 @@ france_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = fra_golden_age_france
-				duration = 3650
+				duration = -1
 			}
 			add_country_modifier = {
 				name = fra_successful_bureaucracy
@@ -1572,11 +1572,11 @@ france_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = fra_global_superpower
-				duration = 36500
+				duration = -1
 			}
 			add_country_modifier = {
 				name = fra_integrating_subjects
-				duration = 36500
+				duration = -1
 			}
 		}
 	}
@@ -1676,7 +1676,7 @@ france_missions_3 = {
 				}
 				add_country_modifier = {
 					name = fra_settle_acadia
-					duration = 18250
+					duration = -1
 				}
 			}
 			random_province = {
@@ -1731,7 +1731,7 @@ france_missions_3 = {
 				}
 				add_province_modifier = {
 					name = fra_fur_frenzy
-					duration = 18250
+					duration = -1
 				}
 			}
 		}
@@ -2128,7 +2128,7 @@ france_missions_4 = {
 			custom_tooltip = me_fra_every_province_that_meets_requirements
 			add_province_modifier = {
 				name = fra_french_fabric
-				duration = 10950
+				duration = -1
 			}
 			add_base_production = 1
 			hidden_effect = {
@@ -2141,7 +2141,7 @@ france_missions_4 = {
 					}
 					add_province_modifier = {
 						name = fra_french_fabric
-						duration = 10950
+						duration = -1
 					}
 					add_base_production = 1
 				}
@@ -2224,7 +2224,7 @@ france_missions_4 = {
 			add_adm_power = 50
 			add_country_modifier = {
 				name = fra_swiss_traditions
-				duration = 10950
+				duration = -1
 			}
 			lower_rhineland_area = {
 				limit = {
@@ -2377,7 +2377,7 @@ france_missions_4 = {
 			}
 			add_country_modifier = {
 				name = fra_bartering_with_natives
-				duration = 18250
+				duration = -1
 			}
 		}
 	}
@@ -2469,13 +2469,13 @@ france_missions_4 = {
 				}
 				add_country_modifier = {
 					name = fra_golden_age_trade_companies_dlc
-					duration = 18250
+					duration = -1
 				}
 			}
 			else = {
 				add_country_modifier = {
 					name = fra_golden_age_trade_companies
-					duration = 18250
+					duration = -1
 				}
 			}
 		}
@@ -3075,7 +3075,7 @@ france_missions_5 = {
 		effect = {
 			add_country_modifier = {
 				name = fra_triumph_emperor
-				duration = 7300
+				duration = -1
 			}
 			if = {
 				limit = {
@@ -3205,7 +3205,7 @@ france_missions_5 = {
 		effect = {
 			add_country_modifier = {
 				name = fra_will_god
-				duration = 18250
+				duration = -1
 			}
 			add_country_modifier = {
 				name = fra_absolute_power
@@ -3293,7 +3293,7 @@ france_missions_5 = {
 		effect = {
 			add_country_modifier = {
 				name = fra_cote_ivoire
-				duration = 7300
+				duration = -1
 			}
 			guinea_region = {
 				limit = {
@@ -3301,7 +3301,7 @@ france_missions_5 = {
 				}
 				add_province_modifier = {
 					name = fra_export_from_africa
-					duration = 7300
+					duration = -1
 				}
 			}
 		}
@@ -3335,7 +3335,7 @@ france_missions_5 = {
 			}
 			add_country_modifier = {
 				name = fra_french_commerce
-				duration = 7300
+				duration = -1
 			}
 		}
 	}
@@ -3499,7 +3499,7 @@ france_missions_5 = {
 		effect = {
 			add_country_modifier = {
 				name = fra_new_world_crops
-				duration = 7300
+				duration = -1
 			}
 		}
 	}
@@ -3582,7 +3582,7 @@ france_missions_5 = {
 					}
 					add_province_modifier = {
 						name = fra_protectionalism
-						duration = 3650
+						duration = -1
 					}
 				}
 				every_owned_province = {
@@ -3594,7 +3594,7 @@ france_missions_5 = {
 					}
 					add_province_modifier = {
 						name = fra_protectionalism
-						duration = 3650
+						duration = -1
 					}
 				}
 			}

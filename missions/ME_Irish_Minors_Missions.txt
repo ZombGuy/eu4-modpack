@@ -35,7 +35,7 @@ ME_irish_minors_missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = ire_war_is_coming
-				duration = 7300
+				duration = -1
 			}
 		}
 	}
@@ -97,7 +97,7 @@ ME_irish_minors_missions_1 = {
 			leinster_area = {
 				add_province_modifier = {
 					name = "Ireland_subjugation"
-					duration = 7300
+					duration = -1
 				}
 			}
 		}
@@ -164,7 +164,7 @@ ME_irish_minors_missions_2 = {
 			connacht_area= {
 				add_province_modifier = {
 					name = "Ireland_subjugation"
-					duration = 7300
+					duration = -1
 				}
 			}
 		}
@@ -252,7 +252,7 @@ ME_irish_minors_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = me_ireland_province_power
-				duration = 7300
+				duration = -1
 			}
 		}
 	}
@@ -290,7 +290,7 @@ ME_irish_minors_missions_3 = {
 			ulster_area = {
 				add_province_modifier = {
 					name = "Ireland_subjugation"
-					duration = 7300
+					duration = -1
 				}
 			}
 		}
@@ -393,7 +393,7 @@ ME_irish_minors_missions_4 = {
 			munster_area = {
 				add_province_modifier = {
 					name = "Ireland_subjugation"
-					duration = 7300
+					duration = -1
 				}
 			}
 		}
@@ -409,7 +409,7 @@ ME_irish_minors_missions_4 = {
 		effect = {
 			add_country_modifier = {
 				name = ireland_fight
-				duration = 10950
+				duration = -1
 			}
 		}
 	}

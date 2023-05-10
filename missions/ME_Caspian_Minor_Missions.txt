@@ -67,7 +67,7 @@ cpm_missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = cpm_mountain_warriors
-				duration = 18250
+				duration = -1
 			}
 		}
 	}
@@ -102,7 +102,7 @@ cpm_missions_2 = {
 		effect = {
 			add_country_modifier = {
 				name = cpm_allies_modifier
-				duration = 7300
+				duration = -1
 			}
 		}
 	}
@@ -137,7 +137,7 @@ cpm_missions_2_no_tab = {
 			add_prestige = 20
 			add_country_modifier = {
 				name = cpm_caspian_united
-				duration = 10950
+				duration = -1
 			}
 		}
 	}
@@ -168,7 +168,7 @@ cpm_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = cpm_conquest_of_rival
-				duration = 7300
+				duration = -1
 			}
 			426 = {
 				if = {
@@ -211,7 +211,7 @@ cpm_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = cpm_expanded_ports
-				duration = 5475
+				duration = -1
 			}
 		}
 	}
@@ -237,7 +237,7 @@ cpm_missions_4 = {
 		effect = {
 			add_country_modifier = {
 				name = cpm_army_modifier
-				duration = 7300
+				duration = -1
 			}
 			if = {
 				limit = {
@@ -302,7 +302,7 @@ cpm_missions_4 = {
 				}
 				add_province_modifier = {
 					name = cpm_silk_goods_produced
-					duration = 9125
+					duration = -1
 				}
 			}
 			add_years_of_income = 5
@@ -324,7 +324,7 @@ cpm_missions_4 = {
 		effect = {
 			add_country_modifier = {
 				name = cpm_silk_expansion
-				duration = 7300
+				duration = -1
 			}
 		}
 	}
@@ -387,7 +387,7 @@ cpm_missions_5 = {
 			add_stability = 1
 			add_country_modifier = {
 				name = cpm_mosques_modifier
-				duration = 10950
+				duration = -1
 			}
 		}
 	}

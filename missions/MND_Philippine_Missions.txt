@@ -41,7 +41,7 @@ filipino_missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = "filipino_conquer_luzon"
-				duration = 7300 
+				duration = -1
 			}
 		}
 	}
@@ -124,7 +124,7 @@ filipino_missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = "filipino_conquer_visayas"
-				duration = 7300 
+				duration = -1
 			}
 		}
 	}
@@ -197,7 +197,7 @@ filipino_missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = "filipino_conquer_mindanao"
-				duration = 7300
+				duration = -1
 			}
 		}
 	}

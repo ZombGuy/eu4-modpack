@@ -55,7 +55,7 @@ NOR_mission_group_1 = {
 		effect = {
 			add_country_modifier = {
 				name = "norges_arme"
-				duration = 7300
+				duration = -1
 			}
 			add_mil_power = 50
 		}
@@ -584,7 +584,7 @@ NOR_mission_group_3 = {
 			17 = {				# Lubeck
 				add_trade_modifier = {
 					who = ROOT
-					duration = 7300
+					duration = -1
 					power = 50
 					key = norway_danish_sea_ambition
 				}
@@ -592,7 +592,7 @@ NOR_mission_group_3 = {
 			43 = {				# Baltic Sea
 				add_trade_modifier = {
 					who = ROOT
-					duration = 7300
+					duration = -1
 					power = 50
 					key = norway_baltic_sea_ambition
 				}
@@ -1020,7 +1020,7 @@ NOR_mission_group_4 = {
 			236 = {				# English Channel
 				add_trade_modifier = {
 					who = ROOT
-					duration = 7300
+					duration = -1
 					power = 50
 					key = norway_english_channel_ambition
 				}
@@ -1063,7 +1063,7 @@ NOR_mission_group_5 = {
 		effect = {
 			add_country_modifier = {
 				name = "greenland_settled"
-				duration = 7300
+				duration = -1
 			}
 		}
 	}
@@ -1091,7 +1091,7 @@ NOR_mission_group_5 = {
 			994 = {				# Gulf of St. Lawrence
 				add_trade_modifier = {
 					who = ROOT
-					duration = 5475
+					duration = -1
 					power = 50
 					key = vinland_colony_ambition
 				}
@@ -1123,7 +1123,7 @@ NOR_mission_group_5 = {
 			484 = {				# Carribean
 				add_trade_modifier = {
 					who = ROOT
-					duration = 5475
+					duration = -1
 					power = 20
 					key = norway_carribean_ambition
 				}
@@ -1131,7 +1131,7 @@ NOR_mission_group_5 = {
 			950 = {				# Chesapeake Bay
 				add_trade_modifier = {
 					who = ROOT
-					duration = 5475
+					duration = -1
 					power = 20
 					key = norway_chesapeake_bay_ambition
 				}
@@ -1218,7 +1218,7 @@ NOR_mission_group_5 = {
 			183 = {				# Champagne
 				add_trade_modifier = {
 					who = ROOT
-					duration = 7300
+					duration = -1
 					power = 20
 					key = norwegian_normandy_modifier
 				}
@@ -1251,7 +1251,7 @@ NOR_mission_group_5 = {
 			172 = {				# Bordeaux
 				add_trade_modifier = {
 					who = ROOT
-					duration = 7300
+					duration = -1
 					power = 20
 					key = norway_bordeaux_ambition
 				}
@@ -1259,7 +1259,7 @@ NOR_mission_group_5 = {
 			183 = {				# Champagne
 				add_trade_modifier = {
 					who = ROOT
-					duration = 7300
+					duration = -1
 					power = 20
 					key = norway_bordeaux_ambition
 				}

@@ -131,7 +131,7 @@ SWA_missions_2 = {
 		effect = {
 			add_country_modifier = {
 				name = SWA_uniting_the_stem_duchy
-				duration = 9125
+				duration = -1
 			}
 			mecklenburg_area = {
 				limit = {
@@ -166,7 +166,7 @@ SWA_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = SWA_FC_modifier
-				duration = 9125
+				duration = -1
 			}
 			#Bavaria
 			lower_bavaria_area = {
@@ -344,7 +344,7 @@ SWA_missions_4 = {
 		effect = {
 			add_country_modifier = {
 				name = RHN_bavaria_modifier
-				duration = 9125
+				duration = -1
 			}
 			franconia_area = {
 				limit = {
@@ -373,7 +373,7 @@ SWA_missions_4 = {
 		effect = {
 			add_country_modifier = {
 				name = SWA_Franconian_modifier
-				duration = 9125
+				duration = -1
 			}
 			thuringia_area = {
 				limit = {
@@ -440,7 +440,7 @@ SWA_missions_4 = {
 		effect = {
 			add_country_modifier = {
 				name = SWA_Lessons_of_the_Saxons
-				duration = 9125
+				duration = -1
 			}
 			vorpommern_area = {
 				limit = {
@@ -808,7 +808,7 @@ SWA_BRB_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = "gen_hre_emperor_mod"
-				duration = 9125
+				duration = -1
 			}
 		}
 	}
@@ -1043,7 +1043,7 @@ SWA_BRB_missions_4 = {
 		effect = {
 			add_country_modifier = {
 				name = SWA_jesuits
-				duration = 36500
+				duration = -1
 			}
 		}
 	}
@@ -1177,7 +1177,7 @@ SWA_BRB_missions_5 = {
 			add_years_of_income = 2
 			add_country_modifier = {
 				name = SWA_support_of_the_pope
-				duration = 36500
+				duration = -1
 			}
 		}
 	}
@@ -1605,7 +1605,7 @@ SWA_CON_missions_3 = {
 					}
 					add_province_modifier = {
 						name = SWA_helping_develop
-						duration = 9125
+						duration = -1
 					}
 				}
 			}

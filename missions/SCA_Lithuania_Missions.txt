@@ -44,7 +44,7 @@ lit_dlc_1 = { #Designed / Scripted and Localised by Big Boss
 		effect = {
 			add_country_modifier = {
 				name = lit_wave_piety_modifier
-				duration = 7300 
+				duration = -1
 			}
 			if = {
 				limit = { religion = catholic }
@@ -113,7 +113,7 @@ lit_dlc_1 = { #Designed / Scripted and Localised by Big Boss
 		effect = {
 			add_country_modifier = {
 				name = lit_privilege_vilnius_modifier
-				duration = 10950
+				duration = -1
 			}
 		}
 	}
@@ -147,13 +147,13 @@ lit_dlc_1 = { #Designed / Scripted and Localised by Big Boss
 				}
 				add_country_modifier = {
 					name = "lit_conferedation_on_religion"
-					duration = 7300
+					duration = -1
 				}
 			}
 			else = {
 				add_country_modifier = {
 					name = "lithuanian_counter_reformation"
-					duration = 7300
+					duration = -1
 				}
 				define_advisor = {
 					culture = lithuanian
@@ -255,13 +255,13 @@ lit_dlc_2 = {
 				limit = { has_dlc = "Mandate of Heaven" }
 				add_ruler_modifier = {
 					name = lit_stable_rule_modifier
-					duration = -1 
+					duration = -1
 				}
 			}
 			else = {
 				add_ruler_modifier = {
 					name = lit_stable_rule_2_modifier
-					duration = -1 
+					duration = -1
 				}
 			}
 			change_ruler_stat = {
@@ -321,7 +321,7 @@ lit_dlc_2 = {
 			tooltip = { 
 				add_province_modifier = {
 					name = lit_centers_urbanization_modifier
-					duration = 7300 
+					duration = -1
 				}
 			}
 			custom_tooltip = lit_reform_magdeburg_laws 
@@ -336,7 +336,7 @@ lit_dlc_2 = {
 					}
 					add_province_modifier = {
 						name = lit_centers_urbanization_modifier
-						duration = 9125 
+						duration = -1
 					}
 				}					
 			}
@@ -358,7 +358,7 @@ lit_dlc_2 = {
 		effect = {
 			add_country_modifier = {
 				name = lit_efficient_sejmiks_modifier
-				duration = 5475 
+				duration = -1
 			}
 			add_adm_power = 100 
 		}
@@ -395,7 +395,7 @@ lit_dlc_2 = {
 			change_government_reform_progress = 100 
 			add_country_modifier = {
 				name = lit_efficient_leg_proceedings_modifier
-				duration = 7300
+				duration = -1
 			}
 		}
 	}
@@ -534,7 +534,7 @@ lit_dlc_3 = {
 		effect = {
 			add_country_modifier = {
 				name = "proto_industrialization"
-				duration = 9125
+				duration = -1
 			}
 			add_years_of_income = 2
 			custom_tooltip = lit_every_province_with_man_base_production_tt
@@ -745,7 +745,7 @@ lit_dlc_4 = {
 			tooltip = {
 				add_province_modifier = {
 					name = lit_harnessed_steppes_modifier
-					duration = 7300 
+					duration = -1
 				}
 			}
 			hidden_effect = {
@@ -766,7 +766,7 @@ lit_dlc_4 = {
 					}
 					add_province_modifier = {
 						name = lit_harnessed_steppes_modifier
-						duration = 7300 
+						duration = -1
 					}
 				}
 			}
@@ -801,7 +801,7 @@ lit_dlc_4 = {
 			}
 			add_country_modifier = {
 				name = lit_golden_age_lit_modifier
-				duration = 9125
+				duration = -1
 			}
 			if = { 
 				limit = { has_dlc = "Emperor" }
@@ -879,7 +879,7 @@ lit_dlc_5 = {
 				complete_mission = lit_march_west 
 				add_country_modifier = {
 					name = lit_part_of_the_polish_domain_modifier
-					duration = 5475
+					duration = -1
 				}
 			}
 			custom_tooltip = pol_alternatively_tt
@@ -914,7 +914,7 @@ lit_dlc_5 = {
 					complete_mission = lit_march_west 
 					add_country_modifier = {
 						name = lit_part_of_the_polish_domain_modifier
-						duration = 5475
+						duration = -1
 					}
 				}	
 				else_if = { 
@@ -1018,7 +1018,7 @@ lit_dlc_5 = {
 						add_liberty_desire = -20
 						add_country_modifier = {
 							name = lit_increased_dev_modifier
-							duration = 1825
+							duration = -1
 							hidden = yes 
 						}
 					}
@@ -1076,7 +1076,7 @@ lit_dlc_5 = {
 		effect = {		
 			add_country_modifier = {
 				name = "baltic_ambition_new"
-				duration = 7300
+				duration = -1
 			}
 			malopolska_area = {
 				limit = {
@@ -1177,14 +1177,14 @@ lit_dlc_5 = {
 			tooltip = {
 				add_country_modifier = {
 					name = lit_attracting_migrants_modifier
-					duration = 3650 
+					duration = -1
 				}
 			}
 			custom_tooltip = pol_alternatively_tt
 			tooltip = {
 				add_country_modifier = {
 					name = lit_lithuanian_supremacy_modifier
-					duration = 10950 
+					duration = -1
 				}
 			}
 			hidden_effect = {
@@ -1197,13 +1197,13 @@ lit_dlc_5 = {
 					}
 					add_country_modifier = {
 						name = lit_lithuanian_supremacy_modifier
-						duration = 10950 
+						duration = -1
 					}
 				}
 				else = {
 					add_country_modifier = {
 						name = lit_attracting_migrants_modifier
-						duration = 3650 
+						duration = -1
 					}
 				}
 			}
@@ -1383,13 +1383,13 @@ lit_dlc_5 = {
 				}
 				add_country_modifier = {
 					name = "lit_lord_of_the_rus"
-					duration = 7300
+					duration = -1
 				}
 			}
 			else = {
 				add_country_modifier = {
 					name = "lit_conquered_rus"
-					duration = 7300
+					duration = -1
 				}
 			}
 		}

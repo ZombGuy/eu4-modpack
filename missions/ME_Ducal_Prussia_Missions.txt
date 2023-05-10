@@ -33,7 +33,7 @@ Ducal_PRU_missions_1 = {
 			41 = {
 				add_trade_modifier = {
 					who = ROOT
-					duration = 9125
+					duration = -1
 					power = 20
 					key = Ducal_PRU_loyal_burghers
 				}
@@ -43,7 +43,7 @@ Ducal_PRU_missions_1 = {
 				41 = {
 					add_trade_modifier = {
 						who = PREV
-						duration = 9125
+						duration = -1
 						power = 15
 						key = Ducal_PRU_loyal_burghers
 					}
@@ -120,7 +120,7 @@ Ducal_PRU_missions_1 = {
 			overlord = {
 				add_country_modifier = {
 					name = Ducal_PRU_influx_of_thought
-					duration = 10950
+					duration = -1
 				}
 			}
 		}
@@ -160,7 +160,7 @@ Ducal_PRU_missions_2 = {
 			}
 			add_country_modifier = {
 				name = Ducal_PRU_influx_of_thought
-				duration = 10950
+				duration = -1
 			}
 			
 			overlord = {

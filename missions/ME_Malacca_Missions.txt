@@ -138,7 +138,7 @@ MLC_missions_1 = {
 			home_trade_node_effect_scope = {
 				add_trade_modifier = {
 					who = ROOT
-					duration = 10950
+					duration = -1
 					power = 20
 					key = MSA_brunei_sultanate
 				}
@@ -230,7 +230,7 @@ MLC_missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = MLC_firearms_imported
-				duration = 9125
+				duration = -1
 			}
 		}
 	}
@@ -253,7 +253,7 @@ MLC_missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = MLC_pioneering_new_cannon_technologies
-				duration = 10950
+				duration = -1
 			}
 			add_mil_power = 50
 		}
@@ -319,7 +319,7 @@ MLC_missions_2 = {
 			}
 			add_country_modifier = {
 				name = MLC_enforcing_zealotry
-				duration = 9125
+				duration = -1
 			}
 			minangkabau_area = {
 				limit = {
@@ -556,7 +556,7 @@ MLC_missions_3 = {
 			add_mil_power = 25
 			add_country_modifier = {
 				name = MLC_quest_for_hegemony
-				duration = 9125
+				duration = -1
 			}
 		}
 	}
@@ -767,7 +767,7 @@ MLC_missions_4 = {
 			tenasserim_area = {
 				add_province_modifier = {
 					name = MLC_integrating_the_panhandle
-					duration = 9125
+					duration = -1
 				}
 			}
 			add_country_modifier = {
@@ -808,7 +808,7 @@ MLC_missions_4 = {
 		effect = {
 			add_country_modifier = {
 				name = MLC_foreign_merchants_in_our_lands
-				duration = 10950
+				duration = -1
 			}
 			add_mercantilism = 2
 		}
@@ -886,7 +886,7 @@ MLC_missions_4 = {
 			tooltip = {
 				add_country_modifier = {
 					name = MLC_diplomats
-					duration = 9125
+					duration = -1
 				}
 				add_dip_power = 50
 			}
@@ -894,7 +894,7 @@ MLC_missions_4 = {
 			tooltip = {
 				add_country_modifier = {
 					name = MLC_harm_to_injury
-					duration = 7300
+					duration = -1
 				}
 				add_mil_power = 50
 			}
@@ -902,7 +902,7 @@ MLC_missions_4 = {
 			tooltip = {
 				add_country_modifier = {
 					name = MLC_careful_distancing
-					duration = 9125
+					duration = -1
 				}
 				add_adm_power = 50
 			}
@@ -916,7 +916,7 @@ MLC_missions_4 = {
 					}
 					add_country_modifier = {
 						name = MLC_diplomats
-						duration = 9125
+						duration = -1
 					}
 					add_dip_power = 50
 				}
@@ -929,14 +929,14 @@ MLC_missions_4 = {
 					}
 					add_country_modifier = {
 						name = MLC_harm_to_injury
-						duration = 7300
+						duration = -1
 					}
 					add_mil_power = 50
 				}
 				else = {
 					add_country_modifier = {
 						name = MLC_careful_distancing
-						duration = 9125
+						duration = -1
 					}
 					add_adm_power = 50
 				}
@@ -1236,7 +1236,7 @@ MLC_missions_5 = {
 		effect = {
 			add_country_modifier = {
 				name = MLC_tin_ingots
-				duration = 9125
+				duration = -1
 			}
 			custom_tooltip = MLC_if_we_have_level_2_mom
 			hidden_effect = {

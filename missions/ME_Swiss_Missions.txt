@@ -29,7 +29,7 @@ FU_swiss_missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = SWI_integration_of_graubunden
-				duration = 5475
+				duration = -1
 			}
 		
 			custom_tooltip = SWI_if_done_via_subjugation
@@ -119,7 +119,7 @@ FU_swiss_missions_1 = {
 			
 			add_country_modifier = {
 				name = swi_direct_democracy_modifier 
-				duration = 9125 
+				duration = -1
 			}
 		}
 	}
@@ -201,7 +201,7 @@ FU_swiss_missions_1 = {
 			
 			add_country_modifier = {
 				name = swi_the_swiss_defense_modifier
-				duration = -1 
+				duration = -1
 			}
 			# custom_tooltip = swi_complement_reward_tt 			
 		}
@@ -229,7 +229,7 @@ FU_swiss_missions_1 = {
 			
 			add_country_modifier = {
 				name = swi_founded_basel_university_modifier 
-				duration = 7300 
+				duration = -1
 			}
 		}
 	}
@@ -253,7 +253,7 @@ FU_swiss_missions_1 = {
 				1870 = {
 					add_province_modifier = {
 						name = swi_swiss_linen_industry_modifier
-						duration = -1 
+						duration = -1
 					}
 				}
 				add_years_of_owned_provinces_production_income = {
@@ -385,7 +385,7 @@ FU_swiss_missions_2 = {
 			# hidden_effect = {
 				# add_country_modifier = {
 					# name =  swi_accept_culture_modifier
-					# duration = -1 
+					# duration = -1
 					# hidden = yes 
 				# }
 				# add_accepted_culture = piedmontese
@@ -427,7 +427,7 @@ FU_swiss_missions_2 = {
 			hidden_effect = { set_country_flag = mlo_attracted_elite_swiss_merc }
 			add_country_modifier = {
 				name = swi_swiss_mercenaries_modifier2 
-				duration = -1 
+				duration = -1
 			}
 			#custom_tooltip = swi_compliment_modifier_if_ige_merc_exists_tt not applicable
 			
@@ -467,7 +467,7 @@ FU_swiss_missions_2 = {
 		effect = {
 			add_country_modifier = {
 				name = swi_immigrant_citizenship_modifier 
-				duration = 7300 
+				duration = -1
 			}
 		}
 	}
@@ -634,7 +634,7 @@ FU_swiss_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = swi_invasion_of_italy_modifier 
-				duration = 7300 
+				duration = -1
 			}
 			
 			ME_give_claims = { area = lombardy_area }
@@ -658,13 +658,13 @@ FU_swiss_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = swi_standarization_of_designs_modifier
-				duration = -1 
+				duration = -1
 			}
 			1298 = { #Genoese Banks
 				add_trade_modifier = {
 					who = ROOT
 					power = 25
-					duration = 7300
+					duration = -1
 					key = swi_capital_venture
 				}
 			}
@@ -707,7 +707,7 @@ FU_swiss_missions_3 = {
 			
 			add_country_modifier = {
 				name = swi_regional_diets_modifier 
-				duration = 7300 
+				duration = -1
 			}
 		}
 	}
@@ -800,7 +800,7 @@ FU_swiss_missions_4 = {
 		effect = {
 			add_country_modifier = {
 				name = swi_eidgenossenschaft_modifier
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -831,7 +831,7 @@ FU_swiss_missions_4 = {
 				
 				add_province_modifier = {
 					name = swi_prosperous_community_modifier 
-					duration = 7300 
+					duration = -1
 				}
 				add_base_production = 2
 			}
@@ -873,7 +873,7 @@ FU_swiss_missions_4 = {
 		effect = {
 			add_country_modifier = {
 				name = swi_booming_home_node_modifier
-				duration = 9125
+				duration = -1
 			}
 			add_mercantilism = 3 
 		}
@@ -913,7 +913,7 @@ FU_swiss_missions_4 = {
 			tooltip = {
 				add_country_modifier = {
 					name = swi_period_of_stability_modifier 
-					duration = -1 
+					duration = -1
 					desc = swi_period_of_stability_tt 
 				}
 			}
@@ -959,13 +959,13 @@ FU_swiss_missions_4 = {
 			romandie_area = {
 				add_province_modifier = {
 					name = swi_national_expansion_plan_modifier
-					duration = -1 
+					duration = -1
 				}
 			}
 			switzerland_area = {
 				add_province_modifier = {
 					name = swi_national_expansion_plan_modifier
-					duration = -1 
+					duration = -1
 				}
 			}
 		}
@@ -1034,7 +1034,7 @@ FU_swiss_missions_4 = {
 		effect = {
 			add_country_modifier = {
 				name = swi_prosperity_in_the_cantons_modifier 
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -1155,7 +1155,7 @@ FU_swiss_missions_5 = {
 			tooltip = {
 				add_country_modifier = {
 					name = swi_cutthroat_diplomacy 
-					duration = 7300
+					duration = -1
 				}
 			}
 			custom_tooltip = SWI_if_done_via_diplomacy
@@ -1174,7 +1174,7 @@ FU_swiss_missions_5 = {
 					}
 					add_country_modifier = {
 						name = swi_cutthroat_diplomacy 
-						duration = 7300
+						duration = -1
 					}
 				}
 				else = {
@@ -1203,7 +1203,7 @@ FU_swiss_missions_5 = {
 		effect = {
 			add_country_modifier = {
 				name = swi_lessons_of_war_modifier
-				duration = 7300
+				duration = -1
 			}
 			ME_give_claims = { area = tirol_area }
 		}
@@ -1233,7 +1233,7 @@ FU_swiss_missions_5 = {
 				73 = {
 					add_province_modifier = {
 						name = hab_schwaz_mine
-						duration = -1 
+						duration = -1
 					}
 				}
 			}
@@ -1258,7 +1258,7 @@ FU_swiss_missions_5 = {
 		effect = {
 			add_country_modifier = {
 				name = swi_rising_power 
-				duration = -1 
+				duration = -1
 			}
 			add_republican_tradition = 10 
 			add_legitimacy = 20
@@ -1289,7 +1289,7 @@ FU_swiss_missions_5 = {
 		effect = {
 			add_country_modifier = {
 				name = swi_treaty_of_stans_modifier
-				duration = -1 
+				duration = -1
 			}
 			
 			capital_scope = {
@@ -1302,7 +1302,7 @@ FU_swiss_missions_5 = {
 			tooltip = {
 				add_country_modifier = {
 					name = swi_signed_the_treaty_of_stans_subject_modifier
-					duration = -1 
+					duration = -1
 				}
 			}
 			
@@ -1313,7 +1313,7 @@ FU_swiss_missions_5 = {
 					}
 					add_country_modifier = {
 						name = swi_signed_the_treaty_of_stans_subject_modifier
-						duration = -1 
+						duration = -1
 					}
 				}
 			}
@@ -1367,7 +1367,7 @@ FU_swiss_missions_5 = {
 			tooltip = {
 				add_country_modifier = {
 					name = swi_peaceful_debate_of_ideas_modifier
-					duration = 9125
+					duration = -1
 				}
 				custom_tooltip = swi_relations_with_heretics
 			}
@@ -1424,7 +1424,7 @@ FU_swiss_missions_5 = {
 					}
 					add_country_modifier = {
 						name = swi_peaceful_debate_of_ideas_modifier
-						duration = 9125
+						duration = -1
 					}
 					custom_tooltip = swi_relations_with_heretics
 					hidden_effect = {

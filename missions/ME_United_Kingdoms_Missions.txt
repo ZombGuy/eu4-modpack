@@ -47,7 +47,7 @@ ENG_UKS_missions_1 = {
 			country_event = { id = ME_United_Kingdoms_Events.1 }
 			add_country_modifier = {
 				name = UKS_promote_culture
-				duration = 9125
+				duration = -1
 			}
 			brittany_area = {
 				limit = {
@@ -92,7 +92,7 @@ ENG_UKS_missions_1 = {
 			186 = {
 				add_trade_modifier = {
 					who = ROOT
-					duration = 5475
+					duration = -1
 					power = 15
 					key = UKS_trade_support
 				}
@@ -100,7 +100,7 @@ ENG_UKS_missions_1 = {
 			174 = {
 				add_trade_modifier = {
 					who = ROOT
-					duration = 5475
+					duration = -1
 					power = 15
 					key = UKS_trade_support
 				}
@@ -180,7 +180,7 @@ ENG_UKS_missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = UKS_trade_support
-				duration = 5475
+				duration = -1
 			}
 		}
 	}
@@ -265,7 +265,7 @@ ENG_UKS_missions_2 = {
 				add_base_manpower = 1
 				add_province_modifier = {
 					name = UKS_summer_residence
-					duration = 36500
+					duration = -1
 				}
 			}
 			88 = {
@@ -399,7 +399,7 @@ ENG_UKS_missions_2 = {
 		effect = {
 			add_country_modifier = {
 				name = UKS_monopolized_the_channel
-				duration = 9125
+				duration = -1
 			}
 			north_brabant_area = {
 				limit = {
@@ -460,7 +460,7 @@ ENG_UKS_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = UKS_Recovery_of_population
-				duration = 9125
+				duration = -1
 			}
 		}
 	}
@@ -540,7 +540,7 @@ ENG_UKS_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = UKS_last_valois_defeated
-				duration = 9125
+				duration = -1
 			}
 			bourgogne_area = {
 				limit = {
@@ -593,7 +593,7 @@ ENG_UKS_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = UKS_Burgundy_Defeated
-				duration = 9125
+				duration = -1
 			}
 		}
 	}
@@ -616,7 +616,7 @@ ENG_UKS_missions_3 = {
 			lorraine_area = {
 				add_province_modifier = {
 					name = UKS_Lorraine_subjugated
-					duration = 9125
+					duration = -1
 				}
 			}
 		}
@@ -720,7 +720,7 @@ ENG_UKS_missions_4 = {
 		effect = {
 			add_country_modifier = {
 				name = UKS_Recovery_of_population
-				duration = 9125
+				duration = -1
 			}
 			FRA = {
 				add_liberty_desire = -10
@@ -824,7 +824,7 @@ ENG_UKS_missions_5 = {
 		effect = {
 			add_country_modifier = {
 				name = UKS_anglo_french_coop
-				duration = 9125
+				duration = -1
 			}
 		}
 	}
@@ -1000,12 +1000,12 @@ ENG_UKS_missions_5 = {
 		effect = {
 			add_country_modifier = {
 				name = UKS_striving_for_religious_unity
-				duration = 9125
+				duration = -1
 			}
 			FRA = {
 				add_country_modifier = {
 					name = UKS_striving_for_religious_unity_2
-					duration = 9125
+					duration = -1
 				}
 			}
 		}
@@ -1040,7 +1040,7 @@ UKS_missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = UKS_grand_navy
-				duration = 9125
+				duration = -1
 			}
 		}
 	}
@@ -1120,7 +1120,7 @@ UKS_missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = UKS_HRE_eclipsed
-				duration = 18250
+				duration = -1
 			}
 		}
 	}
@@ -1145,7 +1145,7 @@ UKS_missions_1 = {
 			add_dip_power = 50
 			add_country_modifier = {
 				name = UKS_heir_to_the_emperor
-				duration = 9125
+				duration = -1
 			}
 		}
 	}
@@ -1452,7 +1452,7 @@ UKS_missions_2 = {
 				}
 				add_country_modifier = {
 					name = ENG_italy_conquered
-					duration = 9125
+					duration = -1
 				}
 			}
 			else = {
@@ -1559,7 +1559,7 @@ UKS_missions_2 = {
 				trade_goods = fur
 				key = UKS_fur_trade
 				value = 0.25
-				duration = 5475
+				duration = -1
 			}
 		}
 	}
@@ -1811,7 +1811,7 @@ UKS_missions_3 = {
 				}
 				add_province_modifier = {
 					name = UKS_taxation_with_representation
-					duration = 5475
+					duration = -1
 				}
 			}
 		}
@@ -2052,7 +2052,7 @@ UKS_missions_3 = {
 			add_army_tradition = 10
 			add_country_modifier = {
 				name = UKS_Italy
-				duration = 10950
+				duration = -1
 			}
 			tuscany_area = {
 				limit = {
@@ -2095,7 +2095,7 @@ UKS_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = UKS_custodian2
-				duration = 9125
+				duration = -1
 			}
 		}
 	}
@@ -2117,7 +2117,7 @@ UKS_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = UKS_colonize
-				duration = 9125
+				duration = -1
 			}
 		}
 	}
@@ -2295,7 +2295,7 @@ UKS_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = UKS_the_spice_trade
-				duration = 9125
+				duration = -1
 			}
 			1090 = {
 				if = {
@@ -3287,7 +3287,7 @@ UKS_missions_4 = {
 		effect = {
 			add_country_modifier = {
 				name = UKS_competition
-				duration = 9125
+				duration = -1
 			}
 			if = {
 				limit = {
@@ -3337,7 +3337,7 @@ UKS_missions_4 = {
 		effect = {
 			add_country_modifier = {
 				name = UKS_quest_for_the_spices
-				duration = 9125
+				duration = -1
 			}
 			1177 = {
 				add_base_manpower = 1
@@ -3611,7 +3611,7 @@ UKS_missions_5 = {
 			add_years_of_income = 1.5
 			add_country_modifier = {
 				name = "proto_industrialization"
-				duration = 9125
+				duration = -1
 			}
 		}
 	}
@@ -3988,7 +3988,7 @@ UKS_missions_5 = {
 			add_years_of_income = 0.5
 			add_country_modifier = {
 				name = "wealth_of_africa_modifier"
-				duration = 9125
+				duration = -1
 			}
 		}
 	}

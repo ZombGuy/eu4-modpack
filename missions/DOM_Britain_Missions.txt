@@ -135,7 +135,7 @@ eng_row_slot_1 = {
 			}
 			add_country_modifier = {
 				name = eng_unified_britain
-				duration = 9125
+				duration = -1
 			}
 			if = {
 				limit = { NOT = { has_country_flag = eng_took_ave_branch } }
@@ -236,7 +236,7 @@ eng_row_slot_1 = {
 					}
 					add_country_modifier = {
 						name = eng_dynastical_security
-						duration = 9125
+						duration = -1
 					}
 				}
 				else = {
@@ -325,7 +325,7 @@ eng_row_slot_1 = {
 						}
 						add_country_modifier = {
 							name = eng_loyalty_to_catholocisim
-							duration = 9125
+							duration = -1
 						}
 						"
 						second_custom_tooltip = eng_handle_the_reformation_bt
@@ -337,7 +337,7 @@ eng_row_slot_1 = {
 						}
 						add_country_modifier = {
 							name = eng_own_church_creation
-							duration = 9125
+							duration = -1
 						}"
 						third_custom_tooltip = eng_handle_the_reformation_ct
 						third_limit = "religion = reformed"
@@ -348,7 +348,7 @@ eng_row_slot_1 = {
 						}
 						add_country_modifier = {
 							name = eng_calvinist_path
-							duration = 9125
+							duration = -1
 						}"
 						fourth_custom_tooltip = eng_handle_the_reformation_dt
 						fourth_limit = "religion = anglican"
@@ -359,7 +359,7 @@ eng_row_slot_1 = {
 						}
 						add_country_modifier = {
 							name = eng_head_of_the_anglican_church
-							duration = 9125
+							duration = -1
 						}
 						"
 					}
@@ -675,25 +675,25 @@ eng_row_slot_2 = {
 			munster_area = { 
 				add_province_modifier = {
 					name = "eng_irish_revolts"
-					duration = 5475
+					duration = -1
 				}
 			}
 			connacht_area = { 
 				add_province_modifier = {
 					name = "eng_irish_revolts"
-					duration = 5475
+					duration = -1
 				}
 			}
 			ulster_area = { 
 				add_province_modifier = {
 					name = "eng_irish_revolts"
-					duration = 5475
+					duration = -1
 				}
 			}
 			leinster_area = { 
 				add_province_modifier = {
 					name = "eng_irish_revolts"
-					duration = 5475
+					duration = -1
 				}
 			}
 			unlock_issue = {
@@ -847,7 +847,7 @@ gbr_row_slot_2 = {
 		effect = {
 			add_country_modifier = {
 				name = "the_unknown_frontier"
-				duration = 5475
+				duration = -1
 			}
 			add_dip_power = 50
 			unlock_issue = {
@@ -906,7 +906,7 @@ gbr_row_slot_2 = {
 		effect = {
 			add_country_modifier = {
 				name = "eng_rb_established_shipping"
-				duration = 9125
+				duration = -1
 			}
 			country_event_with_insight = {
 				id = flavor_gbr.7
@@ -917,7 +917,7 @@ gbr_row_slot_2 = {
 					trade_goods = fur
 					key = ENGLISH_FUR_TRADE
 					value = 0.25
-					duration = 3650
+					duration = -1
 				}"
 			}
 		}
@@ -1003,7 +1003,7 @@ ave_row_slot_2 = {
 			1276 = {
 				add_trade_modifier = {
 					who = root
-					duration = 5475
+					duration = -1
 					power = 25
 					key = bordeaux_ambition
 				}
@@ -1090,7 +1090,7 @@ ave_row_slot_2 = {
 			}
 			add_country_modifier = {
 				name = ave_iberian_conquest
-				duration = 7300
+				duration = -1
 			}
 			capital_scope = {
 				tercio_infantry = ROOT
@@ -1209,7 +1209,7 @@ gbr_row_slot_2_continuation = {
 			1340 = {
 				add_trade_modifier = {
 					who = ROOT
-					duration = 7300
+					duration = -1
 					power = 20
 					key = COROMANDEL_PRESENCE
 				}
@@ -1522,7 +1522,7 @@ gbr_row_3 = {
 				add_stability_or_adm_power = yes
 				add_country_modifier = {
 					name = gbr_recovering_prestige
-					duration = 7300
+					duration = -1
 				}
 			}
 		}
@@ -1548,7 +1548,7 @@ gbr_row_3 = {
 			}
 			add_country_modifier = {
 				name = gbr_end_of_the_villeinage
-				duration = 9125
+				duration = -1
 			}
 		}
 		ai_weight = {
@@ -1580,7 +1580,7 @@ gbr_row_3 = {
 			}
 			add_country_modifier = {
 				name = gbr_exploration_spirit
-				duration = 9125
+				duration = -1
 			}
 			unlock_issue = {
 				issue = act_of_exploration
@@ -1917,7 +1917,7 @@ ave_row_3 = {
 			}
 			add_country_modifier = {
 				name = "eng_french_recovery"
-				duration = 9125
+				duration = -1
 			}
 		}
 		ai_weight = {
@@ -2565,7 +2565,7 @@ gbr_row_4 = {
 			}
 			add_country_modifier = {
 				name = "eng_caribbean_trade"
-				duration = 5475
+				duration = -1
 			}
 		}
 		ai_weight = {
@@ -2772,7 +2772,7 @@ gbr_row_4 = {
 							}
 							add_province_modifier = {
 								name = gbr_influence_of_the_trade_company
-								duration = 9125
+								duration = -1
 							}
 						}
 						"
@@ -2780,7 +2780,7 @@ gbr_row_4 = {
 					tooltip = {
 						add_province_modifier = {
 							name = gbr_influence_of_the_trade_company
-							duration = 9125
+							duration = -1
 						}
 					}
 				}
@@ -2803,7 +2803,7 @@ gbr_row_4 = {
 						}
 						add_province_modifier = {
 							name = gbr_influence_of_the_trade_company
-							duration = 9125
+							duration = -1
 						}
 					}
 					"
@@ -2811,7 +2811,7 @@ gbr_row_4 = {
 				tooltip = {
 					add_province_modifier = {
 						name = gbr_influence_of_the_trade_company
-						duration = 9125
+						duration = -1
 					}
 				}
 				hindusthan_region = {
@@ -2906,7 +2906,7 @@ ave_row_4 = {
 		effect = {
 			add_country_modifier = {
 				name = "the_unknown_frontier"
-				duration = 9125
+				duration = -1
 			}
 			add_dip_power = 50
 		}
@@ -2949,21 +2949,21 @@ ave_row_4 = {
 				add_nationalism = -10
 				add_province_modifier = {
 					name = "eng_rb_local_conv"
-					duration = 5475
+					duration = -1
 				}
 			}
 			west_burgundy_area = {
 				add_nationalism = -10
 				add_province_modifier = {
 					name = "eng_rb_local_conv"
-					duration = 5475
+					duration = -1
 				}
 			}
 			bourgogne_area = {
 				add_nationalism = -10
 				add_province_modifier = {
 					name = "eng_rb_local_conv"
-					duration = 5475
+					duration = -1
 				}
 			}
 		}
@@ -3044,7 +3044,7 @@ ave_row_4 = {
 					first_effect = "
 					add_country_modifier = {
 						name = ave_imperial_favoritism
-						duration = 7300	
+						duration = -1
 					}"
 					second_custom_tooltip = ave_deal_with_the_hre_bt
 					second_limit = "
@@ -3079,7 +3079,7 @@ ave_row_4 = {
 			else = {
 				add_country_modifier = {
 					name = ave_expnansionist_path
-					duration = 7300
+					duration = -1
 				}
 			}
 		}
@@ -3127,7 +3127,7 @@ ave_row_4 = {
 				second_effect = "
 				add_country_modifier = {
 					name = ave_end_of_the_empire
-					duration = -1	
+					duration = -1
 				}"
 			}
 		}
@@ -3163,7 +3163,7 @@ ave_row_4 = {
 			tooltip = {
 				add_province_modifier = {
 					name = ave_prosperous_metropolis
-					duration = 9125
+					duration = -1
 				}
 			}
 			hidden_effect = {
@@ -3174,7 +3174,7 @@ ave_row_4 = {
 					}
 					add_province_modifier = {
 						name = ave_prosperous_metropolis
-						duration = 9125
+						duration = -1
 					}
 				}
 				british_isles_region = {
@@ -3184,7 +3184,7 @@ ave_row_4 = {
 					}
 					add_province_modifier = {
 						name = ave_prosperous_metropolis
-						duration = 9125
+						duration = -1
 					}
 				}
 			}
@@ -3654,7 +3654,7 @@ gbr_row_5 = {
 		effect = {
 			add_country_modifier = {
 				name = "eng_australian_colony"
-				duration = 9125
+				duration = -1
 			}
 		}
 		ai_weight = {
@@ -3696,7 +3696,7 @@ gbr_row_5 = {
 		effect = {
 			add_country_modifier = {
 				name = gbr_colonial_australia
-				duration = 9125
+				duration = -1
 			}
 		}
 		ai_weight = {
@@ -3746,7 +3746,7 @@ gbr_row_5 = {
 			}
 			add_country_modifier = {
 				name = "east_india_trade_rush"
-				duration = 9125
+				duration = -1
 			}
 		}
 		ai_weight = {
@@ -3796,7 +3796,7 @@ ave_row_5 = {
 		effect = {
 			add_country_modifier = {
 				name = ave_national_bank
-				duration = 9125
+				duration = -1
 			}
 		}
 		ai_weight = {
@@ -3854,7 +3854,7 @@ ave_row_5 = {
 		effect = {
 			add_country_modifier = {
 				name = "eng_rb_established_shipping"
-				duration = 7300
+				duration = -1
 			}
 			add_dip_power = 150
 		}
@@ -4192,7 +4192,7 @@ gbr_ave_row_1 = {
 		effect = {
 			add_country_modifier = {
 				name = "eng_channel_dominance"
-				duration = 9125
+				duration = -1
 			}
 			add_treasury = 500
 		}
@@ -4285,7 +4285,7 @@ gbr_ave_row_2 = {
 		effect = {
 			add_country_modifier = {
 				name = eng_the_two_houses
-				duration = 9125
+				duration = -1
 			}
 			disable_rebels_from_seize_land_for_estate = {
 				estate = all

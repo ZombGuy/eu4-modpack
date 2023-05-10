@@ -38,7 +38,7 @@ MLC_generic_missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = MLC_generic_laksamana
-				duration = 7300
+				duration = -1
 			}
 			MSA_claims_borneo = yes
 			#first nation to complete gets 60 tradition admiral
@@ -92,7 +92,7 @@ MLC_generic_missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = MLC_ambitions_overseas
-				duration = 9125
+				duration = -1
 			}
 			add_navy_tradition = 15
 		}
@@ -191,7 +191,7 @@ MLC_generic_missions_2 = {
 			custom_tooltip = MLC_general_pips
 			add_country_modifier = {
 				name = MLC_generic_independent
-				duration = 9125
+				duration = -1
 			}
 		}
 	}
@@ -211,7 +211,7 @@ MLC_generic_missions_2 = {
 		effect = {
 			add_country_modifier = {
 				name = MLC_trade_is_right
-				duration = 7300
+				duration = -1
 			}
 		}
 	}
@@ -301,7 +301,7 @@ MLC_generic_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = MLC_to_defy_the_giant
-				duration = 7300
+				duration = -1
 			}
 			MSA_claims_malaya = yes
 		}
@@ -608,7 +608,7 @@ MLC_generic_missions_5 = {
 		effect = {
 			add_country_modifier = {
 				name = MLC_generic_challenging
-				duration = 9125
+				duration = -1
 			}
 			add_prestige_or_monarch_power = { amount = 10 }
 		}

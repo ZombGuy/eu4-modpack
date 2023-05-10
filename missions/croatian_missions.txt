@@ -258,7 +258,7 @@ cro_2 = {
 			add_navy_tradition = 20
 			add_country_modifier = {
 				name = "croatian_fleet"
-				duration = 7300
+				duration = -1
 			}	
 		}
 		ai_weight = {

@@ -147,7 +147,7 @@ EMP_crusader_2 = {
 				}
 				add_country_modifier = {
 					name = "kni_new_crusade"
-					duration = 7300
+					duration = -1
 				}
 			}
 			aleppo_area = {
@@ -231,7 +231,7 @@ EMP_crusader_2 = {
 				}
 				add_country_modifier = {
 					name = "kni_kingdom_of_heaven"
-					duration = 7300
+					duration = -1
 				}
 			}
 			delta_area = {

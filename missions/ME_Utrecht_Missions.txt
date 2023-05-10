@@ -29,7 +29,7 @@ utrecht_missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = "align_with_the_pope_modifier"
-				duration = 3650
+				duration = -1
 			}
 		}
 	}

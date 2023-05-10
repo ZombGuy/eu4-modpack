@@ -402,7 +402,7 @@ kamchatka_missions_5 = {
 			}
 			add_country_modifier = {
 				name = evenk_true_faith
-				duration = 9125
+				duration = -1
 			}
 		}
 	}

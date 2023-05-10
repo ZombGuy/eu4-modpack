@@ -154,7 +154,7 @@ emp_burgundy_1 = {
 			}
 			add_country_modifier = {
 				name = "bur_arles_mod"
-				duration = "7300"
+				duration = -1
 			}
 			piedmont_area = {
 				limit = {
@@ -401,7 +401,7 @@ emp_burgundy_2 = {
 				limit = { owned_by = root }
 				add_province_modifier = {
 					name = bur_realm_united_mod
-					duration = 7300
+					duration = -1
 				}
 			}
 		}
@@ -441,7 +441,7 @@ emp_burgundy_2 = {
 			low_countries_region = {
 				add_province_modifier = {
 					name = bur_lowlands_secured_mod
-					duration = 7300
+					duration = -1
 				}
 			}
 		}
@@ -659,7 +659,7 @@ emp_burgundy_3 = {
 			add_prestige = 15
 			add_country_modifier = {
 				name = "bur_diplo_mod"
-				duration = 5475
+				duration = -1
 			}
 			frisia_area = {
 				limit = {
@@ -696,7 +696,7 @@ emp_burgundy_3 = {
 			1975 = {
 				add_trade_modifier = {
 					who = root
-					duration = 7300
+					duration = -1
 					power = 20
 					key = bur_channel_ambition
 				}
@@ -770,7 +770,7 @@ emp_burgundy_3 = {
 						estate = estate_nobles
 						desc = VAL_BUR_APPEASED_ESTATES
 						loyalty = 10
-						duration = 7300
+						duration = -1
 					}
 				}
 				if = {
@@ -781,7 +781,7 @@ emp_burgundy_3 = {
 						estate = estate_church
 						desc = VAL_BUR_APPEASED_ESTATES
 						loyalty = 10
-						duration = 7300
+						duration = -1
 					}
 				}
 				if = {
@@ -792,7 +792,7 @@ emp_burgundy_3 = {
 						estate = estate_burghers
 						desc = VAL_BUR_APPEASED_ESTATES
 						loyalty = 10
-						duration = 7300
+						duration = -1
 					}
 				}
 			}
@@ -1057,7 +1057,7 @@ emp_burgundy_4 = {
 		effect = {
 			add_country_modifier = {
 				name = bur_english_diplomacy
-				duration = 7300
+				duration = -1
 			}
 		}
 		ai_weight = {
@@ -1292,7 +1292,7 @@ emp_burgundy_4 = {
 		effect = {
 			add_country_modifier = {
 				name = bur_king_of_franks
-				duration = 7300
+				duration = -1
 			}
 
 			if = {
@@ -1502,7 +1502,7 @@ emp_burgundy_4 = {
 			}
 			add_country_modifier = {
 				name = bur_influence_over_princes
-				duration = 7300
+				duration = -1
 			}
 		}
 	}
@@ -1714,13 +1714,13 @@ emp_burgundy_5 = {
 				limit = { religion = catholic }
 				add_country_modifier = {
 					name = bur_special_place_in_popes_heart
-					duration = 7300
+					duration = -1
 				}
 			}
 			else = {
 				add_country_modifier = {
 					name = bur_pope_is_hated
-					duration = 7300
+					duration = -1
 				}
 			}
 		}
@@ -1871,7 +1871,7 @@ emp_burgundy_5 = {
 			}
 			add_country_modifier = {
 				name = bur_we_shall_not_be_annexed
-				duration = 7300
+				duration = -1
 			}
 			if = {
 				limit = {

@@ -216,7 +216,7 @@ NUM_missions_5 = {
 		effect = {
 			add_country_modifier = {
 				name = ara_golden_age
-				duration = 36500
+				duration = -1
 			}
 			67 = {
 				create_or_add_center_of_trade_level = {

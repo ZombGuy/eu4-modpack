@@ -22,7 +22,7 @@ mas_1 = {
 		effect = {
 			add_country_modifier = {
 				name = mas_all_the_ships_of_aklan
-				duration = 7300
+				duration = -1
 			}
 			visayas_area = {
 				limit = {
@@ -132,7 +132,7 @@ mas_1 = {
 			1397 = { 
 				add_trade_modifier = {
 					who = ROOT
-					duration = 5475
+					duration = -1
 					power = 50
 					key = mas_going_back_home
 				}
@@ -140,7 +140,7 @@ mas_1 = {
 			1357 = {
 				add_trade_modifier = {
 					who = root
-					duration = 5475
+					duration = -1
 					power = 20
 					key = mas_going_back_home
 				}

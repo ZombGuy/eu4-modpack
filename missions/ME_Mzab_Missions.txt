@@ -169,7 +169,7 @@ MZB_missions_2 = {
 			
 			add_country_modifier = {
 				name = MZB_expansionist_help
-				duration = 10950
+				duration = -1
 			}
 		}
 	}
@@ -284,7 +284,7 @@ MZB_missions_3 = {
 				
 				add_province_modifier = {
 					name = MZB_conversion_of_laghouat
-					duration = 9125
+					duration = -1
 				}
 				
 				change_culture = berber
@@ -321,7 +321,7 @@ MZB_missions_3 = {
 				
 				add_province_modifier = {
 					name = MZB_conversion_of_ouargla
-					duration = 9125
+					duration = -1
 				}
 			}
 		}
@@ -724,7 +724,7 @@ MZB_missions_5 = {
 			
 			add_country_modifier = {
 				name = MZB_religious_scholars
-				duration = 9125
+				duration = -1
 			}
 		}
 	}

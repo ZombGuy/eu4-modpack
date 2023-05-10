@@ -530,7 +530,7 @@ mongolia_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = mongolia_independence
-				duration = 5475
+				duration = -1
 			}
 			uliastai_area = {
 				limit = {
@@ -639,7 +639,7 @@ mongolia_missions_3 = {
 			add_manpower = 3
 			add_country_modifier = {
 				name = mongolia_desire
-				duration = 1825
+				duration = -1
 			}
 			703 = {
 				if = {
@@ -675,7 +675,7 @@ mongolia_missions_3 = {
 			}
 			add_country_modifier = {
 				name = kha_broke_the_shackles
-				duration = 9125
+				duration = -1
 			}
 		}
 	}
@@ -950,7 +950,7 @@ mongolia_missions_4 = {
 					add_mandate = -10
 					add_country_modifier = {
 						name = mongolia_rising_mongol_threat
-						duration = 9125
+						duration = -1
 					}
 				}
 			}
@@ -961,7 +961,7 @@ mongolia_missions_4 = {
 				}
 				add_country_modifier = {
 					name = mongolia_manchu_barbarians_subjugated
-					duration = 9125
+					duration = -1
 				}
 			}
 			else = {
@@ -1144,13 +1144,13 @@ mongolia_missions_5 = {
 				}
 				add_country_modifier = {
 					name = mongolia_elite_cavalry
-					duration = 7300
+					duration = -1
 				}
 			}
 			else = {
 				add_country_modifier = {
 					name = mongolia_elite_cavalry_no_dlc
-					duration = 7300
+					duration = -1
 				}
 			}
 		}

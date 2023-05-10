@@ -48,7 +48,7 @@ mnd_maj_1 = {
 			set_country_flag = maj_no_more_subject_liberty
 			add_country_modifier = {
 				name = maj_subject_liberty_modifier
-				duration = 7300
+				duration = -1
 			}
 		}
 	}
@@ -213,7 +213,7 @@ mnd_maj_2 = {
 			set_country_flag = maj_no_more_pretenders
 			add_country_modifier = {
 				name = maj_legitimacy_modifier
-				duration = 7300
+				duration = -1
 			}
 		}
 	}
@@ -306,7 +306,7 @@ mnd_maj_2 = {
 					ROOT = { vassalize = PREV }
 					add_country_modifier = {
 						name = maj_reduced_lib_desire
-						duration = 5475
+						duration = -1
 					}
 				}
 			}
@@ -453,7 +453,7 @@ mnd_maj_3 = {
 			}
 			add_country_modifier = {
 				name = maj_religion_modifier
-				duration = 7300
+				duration = -1
 			}
 		}
 	}
@@ -913,13 +913,13 @@ mnd_maj_4 = {
 				}
 				add_country_modifier = {
 					name = maj_privateer_china
-					duration = 7300
+					duration = -1
 				}
 			}
 			else = {
 				add_country_modifier = {
 					name = maj_china_trade
-					duration = 7300
+					duration = -1
 				}
 			}
 		}

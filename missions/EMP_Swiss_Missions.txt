@@ -166,7 +166,7 @@ swiss_missions_2 = {
 		effect = {
 			add_country_modifier = {
 				name = "integration_of_the_three_leagues"
-				duration = 7300
+				duration = -1
 			}
 			switzerland_area = {
 				add_base_tax = 1
@@ -332,7 +332,7 @@ swiss_missions_3 = {
 			}
 			add_country_modifier = {
 				name = "swi_expanded_papal_guard"
-				duration = 7300
+				duration = -1
 			}
 		}
 	}
@@ -400,7 +400,7 @@ swiss_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = "swi_swabia_joins_the_confederacy"
-				duration = 7300
+				duration = -1
 			}
 		}
 	}
