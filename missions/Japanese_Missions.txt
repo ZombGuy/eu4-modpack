@@ -7,7 +7,10 @@ japanse_missions_sea = {
 			has_reform = indep_daimyo
 			has_reform = daimyo
 			has_reform = shogunate
-			tag = JAP
+			AND = { 
+				NOT = { has_dlc = "Domination" }
+				tag = JAP
+			}
 		}
 		has_country_flag = use_paradox_missions
 		NOT = { map_setup = map_setup_random }
@@ -70,7 +73,7 @@ japanse_missions_sea = {
 				}
 				add_province_modifier = {
 					name = "integrating_ainu"
-					duration = -1 
+					duration = 7300
 				}
 			}
 			if = {
@@ -112,7 +115,7 @@ japanse_missions_sea = {
 		effect = {
 			add_country_modifier = {
 				name = "colonial_enthusiasm"
-				duration = -1 
+				duration = 7300
 			}
 			kamchatka_area = {
 				limit = {
@@ -163,7 +166,7 @@ japanse_missions_sea = {
 					}
 					add_province_modifier = {
 						name = "JAP_siberian_boom"
-						duration = -1 
+						duration = 3650
 					}
 				}
 			}
@@ -177,10 +180,12 @@ japanse_missions_china = {
 	ai = yes
 	potential = {
 		OR = {
-			has_reform = indep_daimyo
 			has_reform = daimyo
 			has_reform = shogunate
-			tag = JAP
+			AND = { 
+				NOT = { has_dlc = "Domination" }
+				tag = JAP
+			}
 		}
 		has_country_flag = use_paradox_missions
 		NOT = { map_setup = map_setup_random }
@@ -197,7 +202,7 @@ japanse_missions_china = {
 			add_navy_tradition = 20
 			add_country_modifier = {
 				name = "divine_wind_modifier"
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -311,7 +316,7 @@ japanse_missions_china = {
 			add_mil_power = 100
 			add_country_modifier = {
 				name = "military_victory"
-				duration = -1 
+				duration = 7300
 			}
 			hebei_area = {
 				limit = {
@@ -483,7 +488,7 @@ japanse_missions_china = {
 		effect = {
 			add_country_modifier = {
 				name = JAP_indochinese_trade
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -495,10 +500,12 @@ japanse_missions_the_empire = {
 	ai = yes
 	potential = {
 		OR = {
-			has_reform = indep_daimyo
 			has_reform = daimyo
 			has_reform = shogunate
-			tag = JAP
+			AND = { 
+				NOT = { has_dlc = "Domination" }
+				tag = JAP
+			}
 		}
 		has_country_flag = use_paradox_missions
 		NOT = { map_setup = map_setup_random }
@@ -514,7 +521,7 @@ japanse_missions_the_empire = {
 		effect = {
 			add_country_modifier = {
 				name = JAP_sengoku_contender
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -530,7 +537,7 @@ japanse_missions_the_empire = {
 			}
 		}
 		effect = {
-			add_prestige = 50
+			add_prestige_or_monarch_power = { amount = 50 }
 			south_korea_area = {
 				limit = {
 					NOT = { is_core = ROOT }
@@ -568,7 +575,7 @@ japanse_missions_the_empire = {
 			# province modifier in okinawa. 3 mountains.
 			add_country_modifier = {
 				name = "jap_three_mountains"
-				duration = -1 
+				duration = 7300
 			}
 			taiwan_area = {
 				limit = {
@@ -709,10 +716,12 @@ japanse_missions_domestic = {
 	ai = yes
 	potential = {
 		OR = {
-			has_reform = indep_daimyo
 			has_reform = daimyo
 			has_reform = shogunate
-			tag = JAP
+			AND = { 
+				NOT = { has_dlc = "Domination" }
+				tag = JAP
+			}
 		}
 		has_country_flag = use_paradox_missions
 		NOT = { map_setup = map_setup_random }
@@ -728,7 +737,7 @@ japanse_missions_domestic = {
 		effect = {
 			add_country_modifier = {
 				name = "strengthened_bushido"
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -849,7 +858,7 @@ japanse_missions_domestic = {
 				every_owned_province = {
 					add_province_modifier = {
 						name = JAP_gokaido_stations
-						duration = -1 
+						duration = 3650
 					}
 				}
 			}
@@ -866,7 +875,7 @@ japanse_missions_domestic = {
 		effect = {
 			add_country_modifier = {
 				name = JAP_sankin_kotai_modifier
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -918,7 +927,7 @@ japanse_missions_domestic = {
 		effect = {
 			add_country_modifier = {
 				name = JAP_social_hierarchy
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -930,10 +939,12 @@ japanse_missions_economic = {
 	ai = yes
 	potential = {
 		OR = {
-			has_reform = indep_daimyo
 			has_reform = daimyo
 			has_reform = shogunate
-			tag = JAP
+			AND = { 
+				NOT = { has_dlc = "Domination" }
+				tag = JAP
+			}
 		}
 		has_country_flag = use_paradox_missions
 		NOT = { map_setup = map_setup_random }
@@ -1030,7 +1041,7 @@ japanse_missions_economic = {
 		effect = {
 			add_country_modifier = {
 				name = JAP_currency_regulations
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -1044,7 +1055,7 @@ japanse_missions_economic = {
 		effect = {
 			add_country_modifier = {
 				name = "growing_economy"
-				duration = -1 
+				duration = 9125 #25 years
 			}
 		}
 	}
@@ -1062,7 +1073,7 @@ japanse_missions_economic = {
 		effect = {
 			add_country_modifier = {
 				name = JAP_cadastral_surveys
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -1177,7 +1188,7 @@ japanse_missions_economic = {
 		effect = {
 			add_country_modifier = {
 				name = "JAP_trade_hegemon"
-				duration = -1 
+				duration = -1
 			}
 		}
 	}

@@ -77,7 +77,7 @@ emp_hab_poland_branch = {
 		effect = {
 			add_country_modifier = {
 				name = "austrian_empire"
-				duration = -1 
+				duration = 7300
 			}
 			if = {
 				limit = {
@@ -189,7 +189,7 @@ emp_hab_empire_branch = {
 			add_dip_power = 50
 			add_country_modifier = {
 				name = hab_ascendancy_in_empire
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -346,7 +346,7 @@ emp_hab_empire_branch = {
 				}
 				add_country_modifier = {
 					name = hab_empire_united_in_religion_mod_catholic
-					duration = -1 
+					duration = -1
 				}
 			}
 			else_if = {
@@ -356,7 +356,7 @@ emp_hab_empire_branch = {
 				}
 				add_country_modifier = {
 					name = hab_empire_united_in_religion_mod_protestant
-					duration = -1 
+					duration = -1
 				}
 			}
 			else_if = {
@@ -366,13 +366,13 @@ emp_hab_empire_branch = {
 				}
 				add_country_modifier = {
 					name = hab_empire_united_in_religion_mod_reformed
-					duration = -1 
+					duration = -1
 				}
 			}
 			else = {
 				add_country_modifier = {
 					name = hab_empire_united_in_religion_mod_generic
-					duration = -1 
+					duration = -1
 				}
 			}
 			custom_tooltip = emp_hab_empire_united_in_religion_effect_remove_tooltip
@@ -410,7 +410,7 @@ emp_hab_empire_branch = {
 			add_prestige = 33
 			add_country_modifier = {
 				name = hab_empire_has_rome
-				duration = -1 
+				duration = -1
 			}
 			custom_tooltip = emp_hab_empire_united_in_religion_effect_remove_tooltip
 		}
@@ -500,7 +500,7 @@ emp_hab_empire_branch = {
 			}
 			add_country_modifier = {
 				name = hab_aeiou_mod
-				duration = -1 
+				duration = -1
 			}
 			custom_tooltip = emp_hab_empire_united_in_religion_effect_remove_tooltip
 		}
@@ -588,7 +588,7 @@ emp_hab_prestige_branch = {
 						estate = estate_nobles
 						desc = VAL_HAB_BALANCED_ESTATES
 						loyalty = 10
-						duration = -1 
+						duration = 7300
 					}
 				}
 				if = {
@@ -599,7 +599,7 @@ emp_hab_prestige_branch = {
 						estate = estate_church
 						desc = VAL_HAB_BALANCED_ESTATES
 						loyalty = 10
-						duration = -1 
+						duration = 7300
 					}
 				}
 				if = {
@@ -610,7 +610,7 @@ emp_hab_prestige_branch = {
 						estate = estate_burghers
 						desc = VAL_HAB_BALANCED_ESTATES
 						loyalty = 10
-						duration = -1 
+						duration = 7300
 					}
 				}
 			}
@@ -660,7 +660,7 @@ emp_hab_prestige_branch = {
 		effect = {
 			add_country_modifier = {
 				name = hab_prosperity_windfall
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -717,7 +717,7 @@ emp_hab_prestige_branch = {
 			add_prestige = 25
 			add_country_modifier = {
 				name = hab_flourishing_in_empire
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -748,7 +748,7 @@ emp_hab_prestige_branch = {
 			134 = {
 				add_province_modifier = {
 					name = hab_viennese_ballrooms
-					duration = -1 
+					duration = -1
 				}
 			}
 		}
@@ -867,7 +867,13 @@ emp_hab_minorities_branch = {
 					NOT = { accepted_culture = slovak }
 					NOT = { primary_culture = slovak }
 				}
-				add_accepted_culture_or_dip_power = { culture = slovak }
+				if = {
+					limit = { has_updated_culture = { culture = slavic } }
+					add_accepted_culture_or_dip_power = { culture = slovak_new }
+				}
+				else = {
+					add_accepted_culture_or_dip_power = { culture = slovak }
+				}
 				if = {
 					limit = {
 						1772 = { culture = austrian }
@@ -936,7 +942,7 @@ emp_hab_minorities_branch = {
 			else = {
 				add_country_modifier = {
 					name = hab_tolerant_society
-					duration = -1 
+					duration = -1
 				}
 			}
 		}
@@ -1085,7 +1091,7 @@ emp_hab_german_expansion_branch = {
 		effect = {
 			add_country_modifier = {
 				name = hab_pure_bavarian_beer
-				duration = -1 
+				duration = 7300
 			}
 		}
 		ai_weight = {
@@ -1138,7 +1144,7 @@ emp_hab_german_expansion_branch = {
 				add_nationalism = -5
 				add_province_modifier = {
 					name = hab_holdings_in_swabia
-					duration = -1 
+					duration = 10950
 				}
 			}
 			lower_swabia_area = {
@@ -1146,7 +1152,7 @@ emp_hab_german_expansion_branch = {
 				add_nationalism = -5
 				add_province_modifier = {
 					name = hab_holdings_in_swabia
-					duration = -1 
+					duration = 10950
 				}
 			}
 			upper_rhineland_area = {
@@ -1154,7 +1160,7 @@ emp_hab_german_expansion_branch = {
 				add_nationalism = -5
 				add_province_modifier = {
 					name = hab_holdings_in_swabia
-					duration = -1 
+					duration = 10950
 				}
 			}
 		}
@@ -1411,14 +1417,6 @@ emp_hab_western_expansion_branch = {
 	
 	emp_hab_connect_further_austria = {
 		icon = connect_further_austria
-		
-		ai_weight = {
-			factor = 3
-			modifier = {
-				factor = 0.33
-				NOT = { owns = 1880 }
-			}
-		}
 
 		position = 9
 		
@@ -1478,6 +1476,10 @@ emp_hab_western_expansion_branch = {
 			modifier = {
 				is_emperor = yes	#But not when you are the emperor
 				factor = 0
+			}
+			modifier = {
+				factor = 0.33
+				NOT = { owns = 1880 }
 			}
 		}
 	}
@@ -1592,18 +1594,18 @@ emp_hab_western_expansion_branch = {
 		effect = {
 			add_country_modifier = {
 				name = hab_empire_in_the_west
-				duration = -1 
+				duration = 7300
 			}
 			bourgogne_area = {
 				add_province_modifier = {
 					name = hab_back_into_empire
-					duration = -1 
+					duration = 7300
 				}
 			}
 			lorraine_area = {
 				add_province_modifier = {
 					name = hab_back_into_empire
-					duration = -1 
+					duration = 7300
 				}
 			}
 			every_country = {
@@ -1652,7 +1654,7 @@ emp_hab_western_expansion_branch = {
 		effect = {
 			add_country_modifier = {
 				name = hab_take_that_napoleon
-				duration = -1 
+				duration = 10950
 			}
 		}
 		ai_weight = {
@@ -1684,10 +1686,6 @@ emp_hab_balkans = {
 		icon = defeat_the_serbs
 
 		position = 7
-
-		ai_weight = {
-			factor = 2
-		}
 		
 		required_missions = { austrian_croatia }
 		provinces_to_highlight = {
@@ -1740,7 +1738,7 @@ emp_hab_balkans = {
 			
 			add_country_modifier = {
 				name = hab_conquered_serbia
-				duration = -1 
+				duration = 7300
 			}
 
 			bulgaria_area = {
@@ -1778,10 +1776,6 @@ emp_hab_balkans_2 = {
 		icon = push_on_to_bulgaria
 
 		position = 8
-
-		ai_weight = {
-			factor = 2
-		}
 		
 		required_missions = { emp_hab_take_serbia conquer_transylvania }
 		provinces_to_highlight = {
@@ -1838,10 +1832,6 @@ emp_hab_balkans_2 = {
 		icon = mission_ottoman_diplomacy
 
 		position = 10
-
-		ai_weight = {
-			factor = 2
-		}
 		
 		required_missions = { emp_hab_take_wallachia_bulgaria }
 		provinces_to_highlight = {
@@ -1866,7 +1856,7 @@ emp_hab_balkans_2 = {
 			add_prestige = 20
 			add_country_modifier = {
 				name = hab_victory_over_ottomans
-				duration = -1 
+				duration = -1
 			}
 			if = {
 				limit = {
@@ -1903,10 +1893,6 @@ emp_hab_more_italy_branch = {
 		icon = kingdom_of_lombardy
 
 		position = 9
-		
-		ai_weight = {
-			factor = 3
-		}
 		
 		required_missions = { austrian_italian_ambition }
 		provinces_to_highlight = {
@@ -2008,12 +1994,7 @@ emp_hab_more_italy_branch = {
 	
 	emp_hab_naples = {
 		icon = union_with_naples
-
 		position = 10
-		
-		ai_weight = {
-			factor = 3
-		}
 		
 		required_missions = { emp_hab_veneto_lombardy }
 		provinces_to_highlight = {
@@ -2055,7 +2036,7 @@ emp_hab_more_italy_branch = {
 		effect = {
 			add_country_modifier = {
 				name = hab_conquest_of_italy
-				duration = -1 
+				duration = 7300
 			}
 			italy_region = {
 				limit = {
@@ -2172,7 +2153,7 @@ emp_hab_diplo_branch = {
 		effect = {
 			add_country_modifier = {
 				name = hab_balance_of_power_mod
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -2370,13 +2351,13 @@ emp_hab_diplo_branch = {
 				}
 				add_country_modifier = {
 					name = hab_many_thrones
-					duration = -1 
+					duration = 7300
 				}
 			}
 			else = {
 				add_country_modifier = {
 					name = hab_lots_of_influence
-					duration = -1 
+					duration = 7300
 				}
 			}
 		}
@@ -2484,7 +2465,7 @@ emp_hab_diplo_branch = {
 			change_heir_dip = 2
 			add_country_modifier = {
 				name = hab_our_balance_of_power_mod
-				duration = -1 
+				duration = 10950
 			}
 		}
 	}
@@ -2528,7 +2509,7 @@ emp_hab_diplo_branch = {
 				}
 				add_country_modifier = {
 					name = "hab_reactionary_zeal"
-					duration = -1 
+					duration = 7300
 				}
 			}
 			else = {
@@ -2604,7 +2585,7 @@ emp_hab_diplo_branch = {
 			}
 			add_country_modifier = {
 				name = hab_supreme_in_europe
-				duration = -1 
+				duration = -1
 			}
 		}
 	}

@@ -26,7 +26,7 @@
 		effect = {
 			add_country_modifier = {
 				name = RYU_deterrent
-				duration = -1 
+				duration = 10950
 			}
 			kyushu_area = {
 				limit = {
@@ -48,7 +48,7 @@
 		effect = {
 			add_country_modifier = {
 				name = RYU_growing
-				duration = -1 
+				duration = 7300
 			}
 			capital_scope = {
 				add_base_tax = 1
@@ -71,7 +71,7 @@
 		effect = {
 			add_country_modifier = {
 				name = RYU_great_far_eastern_empire
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -105,27 +105,12 @@ RYU_missions_2 = {
 			}
 		}
 		effect = {
-			if = {
-				limit = {
-					is_expanded_mod_active = { mod = trade_goods }
-				}
-				capital_scope = {
-					change_trade_goods = gunpowder
-					add_province_modifier = {
-						name = RYU_centre_of_tge_gunpowder
-						duration = -1 
-					}
+			capital_scope = {
+				add_province_modifier = {
+					name = RYU_center_of_gunpowder
+					duration = -1
 				}
 			}
-			else = {
-				capital_scope = {
-					add_province_modifier = {
-						name = RYU_center_of_gunpowder
-						duration = -1 
-					}
-				}
-			}
-			
 		}
 	}
 
@@ -152,7 +137,7 @@ RYU_missions_2 = {
 			add_mil_power = 100
 			add_country_modifier = {
 				name = RYU_technology_sharing
-				duration = -1 
+				duration = 9125
 			}
 		}
 	}
@@ -306,7 +291,7 @@ RYU_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = RYU_the_medium
-				duration = -1 
+				duration = 9125
 			}
 		}
 	}
@@ -347,7 +332,7 @@ RYU_missions_4 = {
 			else = {
 				add_country_modifier = {
 					name = RYU_maritime_culture_thriving
-					duration = -1 
+					duration = 10950
 				}
 			}
 		}
@@ -365,7 +350,7 @@ RYU_missions_4 = {
 			add_stability_or_adm_power = yes
 			add_country_modifier = {
 				name = RYU_prospering_times
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -471,7 +456,7 @@ RYU_missions_5 = {
 		effect = {
 			add_country_modifier = {
 				name = RYU_relations_with_china
-				duration = -1 
+				duration = 9125
 			}
 		}
 	}
@@ -563,7 +548,7 @@ RYU_missions_5 = {
 		effect = {
 			add_country_modifier = {
 				name = RYU_chinese_approval
-				duration = -1 
+				duration = 5475
 			}
 		}
 	}

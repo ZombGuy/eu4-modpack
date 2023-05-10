@@ -263,7 +263,7 @@ granada_slot_2_missions = {
 				}
 				add_country_modifier = {
 					name = gra_bolstered_morale
-					duration = -1
+					duration = 7300
 				}
 				custom_tooltip = gra_friends_in_high_places_tooltip
 				tooltip = {
@@ -277,14 +277,14 @@ granada_slot_2_missions = {
 				}
 				add_country_modifier = {
 					name = gra_bolstered_morale
-					duration = -1
+					duration = 7300
 				}
 				add_prestige = 25
 			}
 			else = {
 				add_country_modifier = {
 					name = gra_bolstered_morale
-					duration = -1
+					duration = 7300
 				}
 			}
 		}
@@ -451,19 +451,19 @@ granada_slot_2_missions = {
 			221 = {
 				add_province_modifier = {
 					name = gra_rebuilding_mosques
-					duration = -1
+					duration = 7300
 				}
 			}
 			4547 = {
 				add_province_modifier = {
 					name = gra_rebuilding_mosques
-					duration = -1
+					duration = 7300
 				}
 			}
 			valencia_area = {
 				add_province_modifier = {
 					name = gra_rebuilding_mosques
-					duration = -1
+					duration = 7300
 				}
 			}
 		}
@@ -495,7 +495,7 @@ granada_slot_2_missions = {
 		effect = {
 			add_country_modifier = {
 				name = "adu_righteous_conquest"
-				duration = -1
+				duration = 7300
 			}
 			toledo_area = {
 				limit = {
@@ -518,41 +518,19 @@ granada_slot_2_missions = {
 				}
 				add_permanent_claim = ROOT
 			}
-			if = {
+			valencia_area = {
 				limit = {
-					218 = {
-						NOT = {
-							owned_by = ROOT
-						}
-					}
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
 				}
-				218 = {
-					add_permanent_claim = ROOT
-				}
+				add_permanent_claim = ROOT
 			}
-			if = {
+			extremadura_area = {
 				limit = {
-					1747 = {
-						NOT = {
-							owned_by = ROOT
-						}
-					}
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
 				}
-				1747 = {
-					add_permanent_claim = ROOT
-				}
-			}
-			if = {
-				limit = {
-					216 = {
-						NOT = {
-							owned_by = ROOT
-						}
-					}
-				}
-				216 = {
-					add_permanent_claim = ROOT
-				}
+				add_permanent_claim = ROOT
 			}
 		}
 		
@@ -733,7 +711,7 @@ adu_slot_2_missions = {
 		effect = {
 			add_country_modifier = {
 				name = adu_white_phoenix
-				duration = -1
+				duration = 7300
 			}
 			languedoc_area = {
 				limit = {
@@ -837,7 +815,7 @@ adu_slot_2_missions = {
 		effect = {
 			add_country_modifier = {
 				name = "adu_trade_company_founded"
-				duration = -1
+				duration = 7300
 			}
 			define_advisor = {
 				type = naval_reformer
@@ -916,7 +894,7 @@ granada_slot_3_missions = {
 				add_historical_friend = MOR
 				add_country_modifier = {
 					name = gra_seperation_of_power
-					duration = -1
+					duration = 7300
 				}
 			}
 			else_if = {
@@ -1056,7 +1034,7 @@ andalusia_slot_3_missions = {
 			}
 			add_country_modifier = {
 				name = "adu_new_world_discoveries"
-				duration = -1
+				duration = 7300
 			}
 		}
 		
@@ -1154,7 +1132,7 @@ andalusia_slot_3_missions_c = {
 			add_prestige = 25
 			add_country_modifier = {
 				name = "the_unknown_frontier"
-				duration = -1
+				duration = 7300
 			}
 		}
 	}
@@ -1190,7 +1168,7 @@ granada_slot_4_missions = {
 		effect = {
 			add_country_modifier = {
 				name = gra_merchants_inspired
-				duration = -1
+				duration = 7300
 			}
 		}
 		
@@ -1475,7 +1453,7 @@ andalusia_slot_4_missions_b = {
 		effect = {
 			add_country_modifier = {
 				name = "adu_native_concord"
-				duration = -1
+				duration = 18250
 			}
 		}
 	}
@@ -1539,7 +1517,7 @@ andalusia_slot_4_missions_c = {
 		effect = {
 			add_country_modifier = {
 				name = "adu_tolerance_heretics_mod"
-				duration = -1
+				duration = 7300
 			}
 		}
 	}
@@ -1583,22 +1561,7 @@ andalusia_slot_4_missions_c = {
 		effect = {
 			add_adm_power = 300
 			408 = {
-				if = {
-					limit = {	
-						NOT = {
-							province_has_center_of_trade_of_level = 2
-						}
-					}
-					add_center_of_trade_level = 2
-				}
-				else_if = {
-					limit = {	
-						NOT = {
-							province_has_center_of_trade_of_level = 3
-						}
-					}
-					add_center_of_trade_level = 1
-				}
+				set_center_level_3_center_of_trade = yes
 			}
 			persian_gulf_coast = {
 				limit = {
@@ -1668,7 +1631,7 @@ granada_slot_5_missions = {
 		effect = {
 			add_country_modifier = {
 				name = "gra_eagerness_to_serve"
-				duration = -1
+				duration = 7300
 			}
 		}
 		
@@ -2211,7 +2174,7 @@ andalusia_slot_5_missions = {
 			add_adm_power = 300
 			add_country_modifier = {
 				name = "adu_greater_than_alexander"
-				duration = -1
+				duration = 7300
 			}
 			iraq_e_ajam_area = {
 				limit = {

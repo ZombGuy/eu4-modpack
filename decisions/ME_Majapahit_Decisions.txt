@@ -92,13 +92,17 @@ country_decisions = {
 		potential = {
 			NOT = { tag = MAJ }
 			NOT = { has_country_flag = formed_majapahit_flag }
-			primary_culture = malay
+			culture_group = malay
 			religion = hinduism
 			current_age = age_of_discovery
 		}
 		allow = {
 			religion = hinduism
 			current_age = age_of_discovery
+			num_of_owned_provinces_with = {
+				is_core = MAJ
+				value = 4
+			}
 			NOT = { exists = MAJ }
 		}
 		effect = {

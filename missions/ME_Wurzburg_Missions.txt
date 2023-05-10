@@ -62,7 +62,7 @@ WBG_missions_1 = {
 			add_dip_power = 50
 			add_country_modifier = {
 				name = WBG_diplomacy
-				duration = -1 
+				duration = 10950
 			}
 		}
 	}
@@ -99,7 +99,7 @@ WBG_missions_1 = {
 			79 = {
 				add_province_modifier = {
 					name = WBG_wurzburg_residenz_modifier
-					duration = -1 
+					duration = -1
 				}
 			}
 		}
@@ -181,7 +181,7 @@ WBG_missions_5 = {
 			79 = {
 				add_province_modifier = {
 					name = WBG_annual_kilianimesse
-					duration = -1 
+					duration = -1
 				}
 			}
 		}

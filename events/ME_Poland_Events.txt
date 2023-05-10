@@ -520,21 +520,6 @@ country_event = {
 		add_dip_power = 50
 		add_mil_power = 50
 	}
-	
-	option = {
-		name = ME_Poland_Events.10.c
-		
-		ai_chance = { factor = 0.5 }
-		
-		trigger = {
-			is_expanded_mod_active = { mod = governments }
-		}
-		
-		add_country_modifier = {
-			name = POL_additional_privileges
-			duration = -1
-		}
-	}
 }
 
 country_event = {

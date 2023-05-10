@@ -40,9 +40,6 @@ defined_text = {
 
 	text = {
 		localisation_key = MSA_gold_and_silver
-		trigger = {
-			is_expanded_mod_active = { mod = trade_goods }
-		}
 	}
 	text = {
 		localisation_key = MSA_gold
@@ -94,9 +91,6 @@ defined_text = {
 
 	text = {
 		localisation_key = TGEspices
-		trigger = {
-			is_expanded_mod_active = { mod = trade_goods }
-		}
 	}
 	text = {
 		localisation_key = VaniSpices
@@ -267,21 +261,6 @@ defined_text = {
 					days = 5475
 				}
 			}
-			if = {
-				limit = {
-					is_expanded_mod_active = { mod = trade_goods }
-				}
-				any_owned_province = {
-					OR = {
-						trade_goods = spices
-						trade_goods = cloves
-						trade_goods = nutmeg
-						trade_goods = vanilla
-					}
-					NOT = { has_province_modifier = MSA_enhanced_spice_production }
-				}
-			}
-			else = {
 				any_owned_province = {
 					OR = {
 						trade_goods = spices
@@ -289,7 +268,7 @@ defined_text = {
 					}
 					NOT = { has_province_modifier = MSA_enhanced_spice_production }
 				}
-			}
+			
 		}
 	}
 	text = {

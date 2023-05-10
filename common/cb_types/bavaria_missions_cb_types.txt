@@ -1,9 +1,12 @@
 cb_bavaria_conquer_italy_for_ferrara = {
 	valid_for_subject = no
 
-	prerequisites = {
+	prerequisites_self = {
 		NOT = { has_dlc = "Art of War" }
 		has_country_flag = me_bav_ferrara_subject_can_form_italy
+	}
+
+	prerequisites = {
 		OR = {
 			AND = {
 				NOT = { exists = ITA }

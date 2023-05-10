@@ -230,28 +230,12 @@ MSA_has_available_request_trigger = {
 						days = 5475
 					}
 				}
-				if = {
-					limit = {
-						is_expanded_mod_active = { mod = trade_goods }
+				any_owned_province = {
+					OR = {
+						trade_goods = spices
+						trade_goods = cloves
 					}
-					any_owned_province = {
-						OR = {
-							trade_goods = spices
-							trade_goods = cloves
-							trade_goods = nutmeg
-							trade_goods = vanilla
-						}
-						NOT = { has_province_modifier = MSA_enhanced_spice_production }
-					}
-				}
-				else = {
-					any_owned_province = {
-						OR = {
-							trade_goods = spices
-							trade_goods = cloves
-						}
-						NOT = { has_province_modifier = MSA_enhanced_spice_production }
-					}
+					NOT = { has_province_modifier = MSA_enhanced_spice_production }
 				}
 			}
 			AND = {

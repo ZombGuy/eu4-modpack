@@ -9,6 +9,7 @@ byz_pp_balkans_north_italy = {
 		tag = BYZ
 		has_dlc = "Purple Phoenix"
 		NOT = { map_setup = map_setup_random }
+		has_country_flag = use_paradox_missions
 	}
 	has_country_shield = yes
 	
@@ -63,6 +64,9 @@ byz_pp_balkans_north_italy = {
 				add_permanent_claim = ROOT
 			}
 		}
+		ai_weight = {
+			factor = 500	#Byzantium is basically Ottomans in its conquest behavior
+		}
 	}
 	
 	recover_western_balkans = {
@@ -113,8 +117,11 @@ byz_pp_balkans_north_italy = {
 			}
 			add_country_modifier = {
 				name = "balkan_empire"
-				duration = -1 
+				duration = 5475
 			}
+		}
+		ai_weight = {
+			factor = 500	#Byzantium is basically Ottomans in its conquest behavior
 		}
 	}
 	
@@ -147,6 +154,9 @@ byz_pp_balkans_north_italy = {
 				add_permanent_claim = ROOT
 			}
 		}
+		ai_weight = {
+			factor = 500	#Byzantium is basically Ottomans in its conquest behavior
+		}
 	}
 	destroy_venice_pp = { #New
 		icon = mission_conquer_50_development
@@ -165,8 +175,11 @@ byz_pp_balkans_north_italy = {
 			country_event = { id = flavor_byz.1 }
 			add_country_modifier = {
 				name = "venetian_revenge"
-				duration = -1 
+				duration = 7300
 			}
+		}
+		ai_weight = {
+			factor = 500	#Byzantium is basically Ottomans in its conquest behavior
 		}
 	}
 }
@@ -182,6 +195,7 @@ byz_pp_italian = {
 		tag = BYZ
 		has_dlc = "Purple Phoenix"
 		NOT = { map_setup = map_setup_random }
+		has_country_flag = use_paradox_missions
 	}
 	has_country_shield = yes
 	
@@ -202,7 +216,7 @@ byz_pp_italian = {
 		effect = {
 			add_country_modifier = {
 				name = "roman_italy"
-				duration = -1 
+				duration = 5475
 			}
 			tuscany_area = {
 				limit = {
@@ -225,6 +239,9 @@ byz_pp_italian = {
 				}
 				add_permanent_claim = ROOT
 			}
+		}
+		ai_weight = {
+			factor = 500	#Byzantium is basically Ottomans in its conquest behavior
 		}
 	}
 	recover_north_italy = {
@@ -259,21 +276,21 @@ byz_pp_italian = {
 				limit = { owned_by = ROOT }
 				add_province_modifier = {
 					name = "faster_integration"
-					duration = -1 
+					duration = 5475
 				}
 			}
 			central_italy_area = {
 				limit = { owned_by = ROOT }
 				add_province_modifier = {
 					name = "faster_integration"
-					duration = -1 
+					duration = 5475
 				}
 			}
 			emilia_romagna_area = {
 				limit = { owned_by = ROOT }
 				add_province_modifier = {
 					name = "faster_integration"
-					duration = -1 
+					duration = 5475
 				}
 			}
 			lombardy_area = {
@@ -304,6 +321,9 @@ byz_pp_italian = {
 				}
 				add_permanent_claim = ROOT
 			}
+		}
+		ai_weight = {
+			factor = 500	#Byzantium is basically Ottomans in its conquest behavior
 		}
 	}
 	
@@ -342,8 +362,11 @@ byz_pp_italian = {
 		effect = {
 			add_country_modifier = {
 				name = "byzantine_unification_of_italy"
-				duration = -1 
+				duration = 7300
 			}
+		}
+		ai_weight = {
+			factor = 500	#Byzantium is basically Ottomans in its conquest behavior
 		}
 	}
 }
@@ -360,6 +383,7 @@ byz_pp_maritime = {
 		tag = BYZ
 		has_dlc = "Purple Phoenix"
 		NOT = { map_setup = map_setup_random }
+		has_country_flag = use_paradox_missions
 	}
 	has_country_shield = yes
 	
@@ -439,6 +463,9 @@ byz_pp_maritime = {
 				add_permanent_claim = ROOT
 			}
 		}
+		ai_weight = {
+			factor = 500	#Byzantium is basically Ottomans in its conquest behavior
+		}
 	}
 	
 	recover_tripoli = {
@@ -478,6 +505,9 @@ byz_pp_maritime = {
 				}
 				add_permanent_claim = ROOT
 			}
+		}
+		ai_weight = {
+			factor = 500	#Byzantium is basically Ottomans in its conquest behavior
 		}
 	}
 	
@@ -519,6 +549,9 @@ byz_pp_maritime = {
 				add_permanent_claim = ROOT
 			}
 		}
+		ai_weight = {
+			factor = 500	#Byzantium is basically Ottomans in its conquest behavior
+		}
 	}
 	
 	recover_south_spain = {
@@ -555,16 +588,19 @@ byz_pp_maritime = {
 				limit = { owned_by = ROOT }
 				add_province_modifier = {
 					name = "faster_integration"
-					duration = -1 
+					duration = 5475
 				}
 			}
 			lower_andalucia_area = {
 				limit = { owned_by = ROOT }
 				add_province_modifier = {
 					name = "faster_integration"
-					duration = -1 
+					duration = 5475
 				}
 			}
+		}
+		ai_weight = {
+			factor = 500	#Byzantium is basically Ottomans in its conquest behavior
 		}
 	}
 }
@@ -581,6 +617,7 @@ byz_pp_religion = {
 		tag = BYZ
 		has_dlc = "Purple Phoenix"
 		NOT = { map_setup = map_setup_random }
+		has_country_flag = use_paradox_missions
 	}
 	has_country_shield = yes
 	
@@ -631,6 +668,9 @@ byz_pp_religion = {
 				add_permanent_claim = ROOT
 			}
 		}
+		ai_weight = {
+			factor = 500	#Byzantium is basically Ottomans in its conquest behavior
+		}
 	}
 	recover_antioch = {
 		icon = mission_pf_cross
@@ -676,6 +716,9 @@ byz_pp_religion = {
 			add_claim = 2314
 			add_claim = 4292
 		}
+		ai_weight = {
+			factor = 500	#Byzantium is basically Ottomans in its conquest behavior
+		}
 	}
 	
 	recover_jerusalem = {
@@ -718,6 +761,9 @@ byz_pp_religion = {
 			}
 			add_claim = 365
 			add_claim = 2315
+		}
+		ai_weight = {
+			factor = 500	#Byzantium is basically Ottomans in its conquest behavior
 		}
 	}
 	
@@ -779,6 +825,9 @@ byz_pp_religion = {
 				add_claim = ROOT
 			}
 		}
+		ai_weight = {
+			factor = 500	#Byzantium is basically Ottomans in its conquest behavior
+		}
 	}
 	
 	the_pentarchy_pp = {
@@ -809,9 +858,12 @@ byz_pp_religion = {
 			add_patriarch_authority = 0.1
 			add_country_modifier = {
 				name = "healing_the_schism"
-				duration = -1 
+				duration = -1
 			}
 			country_event = { id = catholic_flavor.3 }
+		}
+		ai_weight = {
+			factor = 500	#Byzantium is basically Ottomans in its conquest behavior
 		}
 	}
 	
@@ -838,7 +890,7 @@ byz_pp_religion = {
 			add_patriarch_authority = 0.2
 			add_country_modifier = {
 				name = "conversion_of_rome"
-				duration = -1 
+				duration = 7300
 			}
 			hidden_effect = {
 				every_country = {
@@ -849,6 +901,9 @@ byz_pp_religion = {
 					country_event = { id = flavor_byz.2 }
 				}
 			}
+		}
+		ai_weight = {
+			factor = 500	#Byzantium is basically Ottomans in its conquest behavior
 		}
 	}
 }
@@ -864,6 +919,7 @@ byz_pp_east = {
 		tag = BYZ
 		has_dlc = "Purple Phoenix"
 		NOT = { map_setup = map_setup_random }
+		has_country_flag = use_paradox_missions
 	}
 	has_country_shield = yes
 	
@@ -918,6 +974,9 @@ byz_pp_east = {
 				add_permanent_claim = ROOT
 			}
 		}
+		ai_weight = {
+			factor = 500	#Byzantium is basically Ottomans in its conquest behavior
+		}
 	}
 	recover_central_anatolia = {
 		icon = mission_pf_soldier
@@ -962,6 +1021,9 @@ byz_pp_east = {
 				add_permanent_claim = ROOT
 			}
 		}
+		ai_weight = {
+			factor = 500	#Byzantium is basically Ottomans in its conquest behavior
+		}
 	}
 	
 	reestablish_the_theme_system_pp = {
@@ -1003,8 +1065,11 @@ byz_pp_east = {
 			}	
 			add_country_modifier = {
 				name = "the_theme_system"
-				duration = -1 
+				duration = -1
 			}
+		}
+		ai_weight = {
+			factor = 500	#Byzantium is basically Ottomans in its conquest behavior
 		}
 	}
 	
@@ -1029,11 +1094,14 @@ byz_pp_east = {
 			285 = {
 				add_trade_modifier = {
 					who = root
-					duration = -1 
+					duration = 7300
 					power = 35
 					key = byzantine_kaffa
 				}
 			}
+		}
+		ai_weight = {
+			factor = 500	#Byzantium is basically Ottomans in its conquest behavior
 		}
 	}
 	

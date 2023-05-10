@@ -164,7 +164,7 @@ SMI_missions_1 = {
 			}
 			add_country_modifier = {
 				name = "unified_sami"
-				duration = -1 
+				duration = 9125
 			}
 		}
 	}
@@ -331,13 +331,6 @@ SMI_missions_1 = {
 				}
 				add_permanent_claim = ROOT
 			}
-			iceland_area = {
-				limit = {
-					NOT = { owned_by = ROOT	}
-					NOT = { is_core = ROOT }
-				}
-				add_permanent_claim = ROOT
-			}
 			add_adm_power = 25
 			add_dip_power = 25
 			add_mil_power = 25
@@ -350,7 +343,6 @@ SMI_missions_1 = {
 		provinces_to_highlight = {
 			OR = {
 				area = subarctic_islands_area
-				area = iceland_area
 			}
 			NOT = { country_or_non_sovereign_subject_holds = ROOT }
 		}
@@ -358,10 +350,6 @@ SMI_missions_1 = {
 		trigger = {
 			is_at_war = no
 			subarctic_islands_area = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT
-			}
-			iceland_area = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
 			}
@@ -418,7 +406,7 @@ SMI_missions_1 = {
 			23 = {				# North Sea
 				add_trade_modifier = {
 					who = ROOT
-					duration = -1 
+					duration = 5475
 					power = 20
 					key = north_sea_ambition
 				}
@@ -648,7 +636,7 @@ SMI_missions_2 = {
 			17 = {				# Lubeck
 				add_trade_modifier = {
 					who = ROOT
-					duration = -1 
+					duration = 5475
 					power = 20
 					key = danish_sea_ambition
 				}
@@ -729,7 +717,7 @@ SMI_missions_3 = {
 			capital_scope = {
 				add_province_modifier = {
 					name = sami_defensiveness
-					duration = -1 
+					duration = -1
 				}
 			}
 		}
@@ -782,7 +770,7 @@ SMI_missions_3 = {
 			23 = {				# North Sea
 				add_trade_modifier = {
 					who = ROOT
-					duration = -1 
+					duration = 5475
 					power = 20
 					key = north_sea_ambition
 				}
@@ -960,7 +948,7 @@ SMI_missions_3 = {
 			43 = {				# Baltic Sea
 				add_trade_modifier = {
 					who = ROOT
-					duration = -1 
+					duration = 5475
 					power = 20
 					key = baltic_sea_ambition
 				}
@@ -991,7 +979,7 @@ SMI_missions_4 = {
 			23 = {				# North Sea
 				add_trade_modifier = {
 					who = ROOT
-					duration = -1 
+					duration = 5475
 					power = 20
 					key = north_sea_ambition
 				}
@@ -999,7 +987,7 @@ SMI_missions_4 = {
 			315 = {				# White Sea
 				add_trade_modifier = {
 					who = ROOT
-					duration = -1 
+					duration = 5475
 					power = 20
 					key = white_sea_ambition
 				}
@@ -1023,7 +1011,7 @@ SMI_missions_4 = {
 			28 = {				# Baltic Sea
 				add_trade_modifier = {
 					who = ROOT
-					duration = -1 
+					duration = 5475
 					power = 20
 					key = baltic_sea_ambition
 				}
@@ -1047,7 +1035,7 @@ SMI_missions_4 = {
 			17 = {				# Lubeck
 				add_trade_modifier = {
 					who = ROOT
-					duration = -1 
+					duration = 5475
 					power = 20
 					key = danish_sea_ambition
 				}
@@ -1067,7 +1055,7 @@ SMI_missions_4 = {
 		effect = {
 			add_country_modifier = {
 				name = scandinavian_trade
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -1091,7 +1079,7 @@ SMI_missions_4 = {
 			add_mil_power = 50
 			add_country_modifier = {
 				name = "sami_empire"
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -1127,7 +1115,7 @@ SMI_missions_5 = {
 		effect = {
 			add_country_modifier = {
 				name = sami_colonial_enthusiasm
-				duration = -1 
+				duration = 5475
 			}
 		}
 	}
@@ -1165,7 +1153,7 @@ SMI_missions_5 = {
 			add_dip_power = 50
 			add_country_modifier = {
 				name = sami_colonial_enthusiasm
-				duration = -1 
+				duration = 5475
 			}
 			add_prestige = 10
 		}

@@ -26,7 +26,11 @@ NAJ_missions_1 = {
 		effect = {
 			ARB_claims_central_arabia = yes
 			
-			add_tribal_allegiance = 30
+			add_government_power = {
+				mechanic_type = tribal_federation_mechanic
+				power_type = tribal_allegiance
+				value = 30
+			}
 		}
 	}
 	
@@ -208,7 +212,7 @@ NAJ_missions_2 = {
 			
 			add_country_modifier = {
 				name = NAJ_warriors_of_the_sands
-				duration = -1
+				duration = 7300
 			}
 		}
 	}
@@ -243,7 +247,7 @@ NAJ_missions_2 = {
 		effect = {
 			add_country_modifier = {
 				name = NAJ_horses
-				duration = -1
+				duration = 9125
 			}
 			
 			add_army_tradition_or_mil_power = { amount = 10 }
@@ -329,7 +333,7 @@ NAJ_missions_3 = {
 			
 			add_country_modifier = {
 				name = NAJ_morale
-				duration = -1
+				duration = 7300
 			}
 		}
 	}
@@ -412,7 +416,7 @@ NAJ_missions_4 = {
 		effect = {
 			add_country_modifier = {
 				name = NAJ_support_of_tribes
-				duration = -1
+				duration = 10950
 			}
 			
 			add_manpower = 4.582
@@ -530,7 +534,7 @@ NAJ_missions_4 = {
 			
 			add_country_modifier = {
 				name = NAJ_ummah_challenged
-				duration = -1
+				duration = 10950
 			}
 			
 			add_stability_or_adm_power = yes
@@ -651,7 +655,7 @@ NAJ_missions_5 = {
 			
 			add_country_modifier = {
 				name = NAJ_building_a_great_future
-				duration = -1
+				duration = 9125
 			}
 		}
 	}
@@ -756,7 +760,7 @@ NAJ_missions_5 = {
 		effect = {
 			add_country_modifier = {
 				name = NAJ_legacy_lives_on
-				duration = -1
+				duration = 10950
 			}
 			
 			add_army_tradition_or_mil_power = { amount = 20 }

@@ -4,6 +4,7 @@ Yuan_missions_1 = {
 	ai = yes
 	potential = {
 		tag = YUA
+		NOT = { was_tag = TIM }
 		OR = {
 			has_country_flag = use_missions_expanded_missions_instead_of_paradox
 			AND = {
@@ -33,7 +34,7 @@ Yuan_missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = YUA_subservient_ming
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -69,7 +70,7 @@ Yuan_missions_1 = {
 			1816 = {
 				add_province_modifier = {
 					name = YUA_pax_mongolica
-					duration = -1 
+					duration = -1
 				}
 			}
 		}
@@ -94,7 +95,7 @@ Yuan_missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = YUA_pax_caucasia
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -106,6 +107,7 @@ Yuan_missions_2 = {
 	ai = yes
 	potential = {
 		tag = YUA
+		NOT = { was_tag = TIM }
 		OR = {
 			has_country_flag = use_missions_expanded_missions_instead_of_paradox
 			AND = {
@@ -135,7 +137,7 @@ Yuan_missions_2 = {
 		effect = {
 			add_country_modifier = {
 				name = YUA_tibetan_pride
-				duration = -1 
+				duration = 7300
 			}
 			central_asia_region = {
 				limit = {
@@ -166,7 +168,7 @@ Yuan_missions_2 = {
 		effect = {
 			add_country_modifier = {
 				name = YUA_pastoralist_submission
-				duration = -1 
+				duration = 7300
 			}
 			crimea_region = {
 				limit = {
@@ -197,7 +199,7 @@ Yuan_missions_2 = {
 		effect = {
 			add_country_modifier = {
 				name = YUA_great_mongol_restoration
-				duration = -1 
+				duration = -1
 			}
 			khorasan_region = {
 				limit = {
@@ -237,7 +239,7 @@ Yuan_missions_2 = {
 		effect = {
 			add_country_modifier = {
 				name = YUA_timurid_cavalry
-				duration = -1 
+				duration = -1
 			}
 			persia_region = {
 				limit = {
@@ -368,7 +370,7 @@ Yuan_missions_2 = {
 		effect = {
 			add_country_modifier = {
 				name = YUA_greater_mongol_empire
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -380,6 +382,7 @@ Yuan_missions_3 = {
 	ai = yes
 	potential = {
 		tag = YUA
+		NOT = { was_tag = TIM }
 		OR = {
 			has_country_flag = use_missions_expanded_missions_instead_of_paradox
 			AND = {
@@ -418,7 +421,7 @@ Yuan_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = YUA_tuvan_subjects
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -442,7 +445,7 @@ Yuan_missions_3 = {
 		effect = {
 			add_country_modifier = {	
 				name = YUA_subservient_manchus
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -466,7 +469,7 @@ Yuan_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = YUA_intermeadiary_island
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -491,7 +494,7 @@ Yuan_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = YUA_gateway_to_the_spice_trade
-				duration = -1 
+				duration = 5475
 			}
 			620 = {
 				if = {
@@ -554,6 +557,7 @@ Yuan_missions_4 = {
 	ai = yes
 	potential = {
 		tag = YUA
+		NOT = { was_tag = TIM }
 		OR = {
 			has_country_flag = use_missions_expanded_missions_instead_of_paradox
 			AND = {
@@ -613,7 +617,7 @@ Yuan_missions_4 = {
 		effect = {
 			add_country_modifier = {
 				name = YUA_the_grand_shipyards
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -630,7 +634,7 @@ Yuan_missions_4 = {
 		effect = {
 			add_country_modifier = {
 				name = YUA_transport_officers
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -683,7 +687,7 @@ Yuan_missions_4 = {
 		effect = {
 			add_country_modifier = {
 				name = YUA_okinawa_base
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -695,6 +699,7 @@ Yuan_missions_5 = {
 	ai = yes
 	potential = {
 		tag = YUA
+		NOT = { was_tag = TIM }
 		OR = {
 			has_country_flag = use_missions_expanded_missions_instead_of_paradox
 			AND = {
@@ -797,7 +802,7 @@ Yuan_missions_5 = {
 		effect = {
 			add_country_modifier = {
 				name = YUA_conquest_of_korea
-				duration = -1 
+				duration = 3650
 			}
 			northern_kyushu = {
 				limit = {
@@ -843,7 +848,7 @@ Yuan_missions_5 = {
 		effect = {
 			add_country_modifier = {
 				name = YUA_kamikaze_disechanted
-				duration = -1 
+				duration = 7300
 			}
 			shikoku_area = {
 				limit = {
@@ -883,7 +888,7 @@ Yuan_missions_5 = {
 		effect = {
 			add_country_modifier = {
 				name = YUA_japanese_invasion
-				duration = -1 
+				duration = 1825
 			}
 		}
 	}

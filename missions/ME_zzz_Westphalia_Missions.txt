@@ -42,7 +42,7 @@ WES_missions_1 = {
 			add_accepted_culture_or_dip_power = { culture = hessian  }
 			add_country_modifier = {
 				name = WES_rhenish_goods
-				duration = -1 
+				duration = 9125
 			}
 			alsace_area = {
 				limit = {
@@ -116,13 +116,13 @@ WES_missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = "mercenaries_to_the_standard"
-				duration = -1 
+				duration = 9125
 				hidden = yes
 			}
 			custom_tooltip = WES_more_mercs
 			add_country_modifier = {
 				name = WES_swabia
-				duration = -1 
+				duration = 9125
 			}
 			#ME_mercenary_commander?
 			upper_bavaria_area = {
@@ -168,7 +168,7 @@ WES_missions_1 = {
 			add_prestige_or_monarch_power = { amount = 25 }
 			add_country_modifier = {
 				name = WES_defeated_the_southern_bastion
-				duration = -1 
+				duration = 9125
 			}
 		}
 	}
@@ -213,7 +213,7 @@ WES_missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = WES_compound
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -236,7 +236,7 @@ WES_missions_1 = {
 			add_years_of_income = 0.5
 			add_country_modifier = {
 				name = WES_manufactory_advent
-				duration = -1 
+				duration = 9125
 			}
 		}
 	}
@@ -364,7 +364,7 @@ WES_missions_2 = {
 		effect = {
 			add_country_modifier  = {
 				name = WES_progressive_society
-				duration = -1 
+				duration = 10950
 			}
 		}
 	}
@@ -401,14 +401,14 @@ WES_missions_2 = {
 			tooltip = {
 				add_country_modifier = {
 					name = WES_the_noble_of_westphalia
-					duration = -1 
+					duration = 9125
 				}
 			}
 			custom_tooltip = WES_if_we_have_removed
 			tooltip = {
 				add_country_modifier = {
 					name = WES_more_property
-					duration = -1 
+					duration = 10950
 				}
 			}
 		}
@@ -437,7 +437,7 @@ WES_missions_2 = {
 			}
 			add_country_modifier = {
 				name = WES_hansa_modifier
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -516,7 +516,7 @@ WES_missions_3 = {
 			add_accepted_culture_or_dip_power = { culture = lower_saxon }
 			add_country_modifier = {
 				name = WES_conquest
-				duration = -1 
+				duration = 9125
 			}
 			mittelmark_area = {
 				limit = {
@@ -595,7 +595,7 @@ WES_missions_3 = {
 			add_army_tradition_or_mil_power = { amount = 20 }
 			add_country_modifier = {
 				name = WES_saxon_traditions
-				duration = -1 
+				duration = 5475
 			}
 			hinter_pommern_area = {
 				limit = {
@@ -639,13 +639,13 @@ WES_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = WES_reformer
-				duration = -1 
+				duration = -1
 			}
 			custom_tooltip = WES_if_we_have_good_relations_with_a_french_nation
 			tooltip = {
 				define_advisor = {
 					type = philosopher
-					culture = francien
+					culture = franconian
 					religion = ROOT
 					cost_multiplier = 0.5
 					skill = 1
@@ -667,7 +667,7 @@ WES_missions_3 = {
 					}
 					define_advisor = {
 						type = philosopher
-						culture = francien
+						culture = franconian
 						religion = ROOT
 						cost_multiplier = 0.5
 						skill = 1
@@ -711,7 +711,7 @@ WES_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = WES_reform_progress
-				duration = -1 
+				duration = 9125
 			}
 			custom_tooltip = WES_for_every_province
 			hidden_effect = {
@@ -749,7 +749,7 @@ WES_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = WES_a_modern_state
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -773,7 +773,7 @@ WES_missions_3 = {
 			add_mil_power = 50
 			add_country_modifier = {
 				name = WES_conscription
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -793,7 +793,7 @@ WES_missions_3 = {
 			add_stability_or_adm_power = yes
 			add_country_modifier = {
 				name = WES_centralization_modifier
-				duration = -1 
+				duration = 10950
 			}
 		}
 	}
@@ -826,7 +826,7 @@ WES_missions_3 = {
 			}
 			add_country_modifier = {
 				name = WES_soest_city_rights
-				duration = -1 
+				duration = 10950
 			}
 		}
 	}
@@ -885,7 +885,7 @@ WES_missions_4 = {
 		effect = {
 			add_country_modifier = {
 				name = WES_equal_opportunities
-				duration = -1 
+				duration = -1
 			}
 			custom_tooltip = WES_invite_foreign_experts
 			set_country_flag = WES_experts_decision
@@ -974,14 +974,14 @@ WES_missions_4 = {
 		effect = {
 			add_country_modifier = {
 				name = WES_theological_faculties
-				duration = -1 
+				duration = 10950
 			}
 			custom_tooltip = WES_if_we_supported_paderborn
 			tooltip = {
 				westphalia_area = {
 					add_province_modifier = {
 						name = WES_favored
-						duration = -1 
+						duration = 9125
 					}
 				}
 			}
@@ -990,7 +990,7 @@ WES_missions_4 = {
 				north_westphalia_area = {
 					add_province_modifier = {
 						name = WES_favored
-						duration = -1 
+						duration = 9125
 					}
 				}
 			}
@@ -999,13 +999,13 @@ WES_missions_4 = {
 				north_westphalia_area = {
 					add_province_modifier = {
 						name = WES_equal
-						duration = -1 
+						duration = 9125
 					}
 				}
 				westphalia_area = {
 					add_province_modifier = {
 						name = WES_equal
-						duration = -1 
+						duration = 9125
 					}
 				}
 			}
@@ -1027,13 +1027,13 @@ WES_missions_4 = {
 						north_westphalia_area = {
 							add_province_modifier = {
 								name = WES_equal
-								duration = -1 
+								duration = 9125
 							}
 						}
 						westphalia_area = {
 							add_province_modifier = {
 								name = WES_equal
-								duration = -1 
+								duration = 9125
 							}
 						}
 					}
@@ -1041,7 +1041,7 @@ WES_missions_4 = {
 						westphalia_area = {
 							add_province_modifier = {
 								name = WES_favored
-								duration = -1 
+								duration = 9125
 							}
 						}
 					}
@@ -1050,7 +1050,7 @@ WES_missions_4 = {
 					north_westphalia_area = {
 						add_province_modifier = {
 							name = WES_favored
-							duration = -1 
+							duration = 9125
 						}
 					}
 				}
@@ -1088,7 +1088,7 @@ WES_missions_5 = {
 		effect = {
 			add_country_modifier = {
 				name = WES_ewalds
-				duration = -1 
+				duration = 10950
 			}
 			add_estate_loyalty = {
 				estate = estate_church
@@ -1107,7 +1107,7 @@ WES_missions_5 = {
 		effect = {
 			add_country_modifier = {
 				name = WES_united_in_faith
-				duration = -1 
+				duration = -1
 			}
 
 			add_stability_or_adm_power = yes
@@ -1161,7 +1161,7 @@ WES_missions_5 = {
 		effect = {
 			add_country_modifier = {
 				name = WES_discipline
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -1192,7 +1192,7 @@ WES_missions_5 = {
 		effect = {
 			add_country_modifier = {
 				name = WES_enemies_wont_survive
-				duration = -1 
+				duration = 9125
 			}
 		}
 	}
@@ -1217,7 +1217,7 @@ WES_missions_5 = {
 		effect = {
 			add_country_modifier = {
 				name = WES_unbreakable_state
-				duration = -1 
+				duration = 10950
 			}
 			add_army_tradition_or_mil_power = { amount = 20 }
 		}

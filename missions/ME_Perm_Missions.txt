@@ -253,7 +253,7 @@ perm_missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = loyal_subjects
-				duration = -1 
+				duration = 3650
 			}
 			oka_area = {
 				limit = {
@@ -297,7 +297,7 @@ perm_missions_2 = {
 		effect = {
 			add_country_modifier = {
 				name = perm_army_buildings
-				duration = -1 
+				duration = 7300
 			}
 			add_mil_power = 100
 		}
@@ -438,7 +438,7 @@ perm_missions_2 = {
 			add_prestige = 20
 			add_country_modifier = {
 				name = perm_conquer_russia_modifier
-				duration = -1 
+				duration = 7300
 			}
 			if = {
 				limit = {
@@ -619,7 +619,7 @@ perm_missions_4 = {
 		effect = {
 			add_country_modifier = {
 				name = perm_eastern_colonies_small
-				duration = -1 
+				duration = 3650
 			}
 		}
 	}
@@ -641,7 +641,7 @@ perm_missions_4 = {
 		effect = {
 			add_country_modifier = {
 				name = perm_eastern_colonies_middle
-				duration = -1 
+				duration = 5475
 			}
 		}
 	}
@@ -670,7 +670,7 @@ perm_missions_4 = {
 		effect = {
 			add_country_modifier = {
 				name = perm_eastern_colonies_big
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -705,7 +705,7 @@ perm_missions_5 = {
 		effect = {
 			add_country_modifier = {
 				name = perm_tax_buildings
-				duration = -1 
+				duration = 7300
 			}
 			add_adm_power = 50
 		}
@@ -728,7 +728,7 @@ perm_missions_5 = {
 		effect = {
 			add_country_modifier = {
 				name = perm_trade_buildings
-				duration = -1 
+				duration = 7300
 			}
 			add_dip_power = 50
 		}
@@ -750,7 +750,7 @@ perm_missions_5 = {
 		effect = {
 			add_country_modifier = {
 				name = perm_production_buildings
-				duration = -1 
+				duration = 7300
 			}
 			add_dip_power = 50
 		}
@@ -773,7 +773,7 @@ perm_missions_5 = {
 		effect = {
 			add_country_modifier = {
 				name = perm_government_buildings
-				duration = -1 
+				duration = 7300
 			}
 			add_adm_power = 50
 		}
@@ -789,7 +789,7 @@ perm_missions_5 = {
 		effect = {
 			add_country_modifier = {
 				name = perm_eastern_colonies_very_small
-				duration = -1 
+				duration = 1825
 			}
 		}
 	}

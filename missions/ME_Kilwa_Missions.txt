@@ -32,7 +32,7 @@ ZAN_missions_1 = {
 				trade_goods = slaves
 				key = kilwa_slave_trade
 				value = 0.2
-				duration = -1 
+				duration = -1
 			}
 			if = {
 				limit = {
@@ -104,7 +104,7 @@ ZAN_missions_1 = {
 				add_base_tax = 4
 				add_province_modifier = {
 					name = kilwa_invite_foreign_city_designers_province_modifier
-					duration = -1 
+					duration = 3650
 				}
 			}
 		}
@@ -149,7 +149,7 @@ ZAN_missions_1 = {
 			}
 			add_country_modifier = {
 				name = kilwa_the_great_mosque_of_kilwa_modifier
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -256,7 +256,7 @@ ZAN_missions_1 = {
 			1196 = {
 				add_province_modifier = {
 					name = kilwa_husuni_kubwa_modifier
-					duration = -1 
+					duration = -1
 				}
 			}
 		}
@@ -318,7 +318,7 @@ ZAN_missions_2 = {
 					add_trade_modifier = {
 						who = ROOT
 						power = 20
-						duration = -1 
+						duration = -1
 						key = kilwa_contacts_in_gujarat_trade_modifier
 					}
 				}
@@ -356,7 +356,7 @@ ZAN_missions_2 = {
 					add_trade_modifier = {
 						who = ROOT
 						power = 30
-						duration = -1 
+						duration = -1
 						key = kilwa_gulf_of_aden_trade_modifier
 					}
 				}
@@ -387,7 +387,7 @@ ZAN_missions_2 = {
 				trade_goods = ivory
 				key = kilwa_ivory_trade
 				value = 0.1
-				duration = -1 
+				duration = -1
 			}
 			if = {
 				limit = {
@@ -399,7 +399,7 @@ ZAN_missions_2 = {
 					}
 					add_province_modifier = {
 						name = kilwa_the_ivory_trade_province_modifier
-						duration = -1 
+						duration = -1
 					}
 				}
 			}
@@ -594,7 +594,7 @@ ZAN_missions_2 = {
 		effect = {
 			add_country_modifier = {
 				name = kilwa_the_venice_of_africa_modifier
-				duration = -1 
+				duration = -1
 			}
 			1196 = {
 				if = {
@@ -632,7 +632,7 @@ ZAN_missions_2 = {
 			add_army_tradition = -5
 			add_country_modifier = {
 				name = kilwa_kilwa_mercenary_army_modifier
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -688,7 +688,7 @@ ZAN_missions_3 = {
 				add_trade_modifier = {
 					who = ROOT
 					power = 15
-					duration = -1 
+					duration = -1
 					key = kilwa_conqueror_of_madagascar_trade_modifier
 				}
 			}
@@ -732,7 +732,7 @@ ZAN_missions_4 = {
 		effect = {
 			add_country_modifier = {
 				name = kilwa_true_sultan_of_zanzibar_modifier
-				duration = -1 
+				duration = -1
 			}
 			4034 = {
 				if = {
@@ -852,7 +852,7 @@ ZAN_missions_4 = {
 					}
 					add_province_modifier = {
 						name = kilwa_ending_the_shona_culture_province_modifier
-						duration = -1 
+						duration = 9125
 					}
 				}
 			}
@@ -982,7 +982,7 @@ ZAN_missions_4 = {
 		effect = {
 			add_country_modifier = {
 				name = kilwa_men_at_work_modifier
-				duration = -1 
+				duration = 7300
 			}
 			every_subject_country = {
 				limit = {
@@ -991,7 +991,7 @@ ZAN_missions_4 = {
 				}
 				add_country_modifier = {
 					name = kilwa_men_at_work_modifier
-					duration = -1 
+					duration = 7300
 				}
 			}
 		}
@@ -1030,7 +1030,7 @@ ZAN_missions_5 = {
 		effect = {
 			add_country_modifier = {
 				name = kilwa_exploring_the_indian_ocean_modifier
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -1160,19 +1160,19 @@ ZAN_missions_5 = {
 			indonesian_islands_area = {
 				add_province_modifier = {
 					name = kilwa_bahari_yetu_province_modifier
-					duration = -1 
+					duration = -1
 				}
 			}
 			indian_ocean_islands_area = {
 				add_province_modifier = {
 					name = kilwa_bahari_yetu_province_modifier
-					duration = -1 
+					duration = -1
 				}
 			}
 			mascarenes_area = {
 				add_province_modifier = {
 					name = kilwa_bahari_yetu_province_modifier
-					duration = -1 
+					duration = -1
 				}
 			}
 		}
@@ -1196,13 +1196,13 @@ ZAN_missions_5 = {
 		effect = {
 			add_country_modifier = {
 				name = kilwa_the_spice_trade_modifier
-				duration = -1 
+				duration = -1
 			}
 			change_price = {
 				trade_goods = spices
 				key = kilwa_spice_trade
 				value = 0.1
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -1268,13 +1268,13 @@ ZAN_missions_3_spain = {
 				}
 				add_country_modifier = {
 					name = kilwa_cave_into_SPA
-					duration = -1 
+					duration = -1
 				}
 				capital_scope = {
 					add_trade_modifier = {
 						who = SPA
 						power = 10
-						duration = -1 
+						duration = -1
 						key = kilwa_trade_ally_trade_modifier_SPA
 					}
 				}
@@ -1290,13 +1290,13 @@ ZAN_missions_3_spain = {
 				}
 				add_country_modifier = {
 					name = kilwa_cave_into_CAS
-					duration = -1 
+					duration = -1
 				}
 				capital_scope = {
 					add_trade_modifier = {
 						who = CAS
 						power = 10
-						duration = -1 
+						duration = -1
 						key = kilwa_trade_ally_trade_modifier_CAS
 					}
 				}
@@ -1312,13 +1312,13 @@ ZAN_missions_3_spain = {
 				}
 				add_country_modifier = {
 					name = kilwa_cave_into_GBR
-					duration = -1 
+					duration = -1
 				}
 				capital_scope = {
 					add_trade_modifier = {
 						who = GBR
 						power = 10
-						duration = -1 
+						duration = -1
 						key = kilwa_trade_ally_trade_modifier_GBR
 					}
 				}
@@ -1331,13 +1331,13 @@ ZAN_missions_3_spain = {
 			else = {
 				add_country_modifier = {
 					name = kilwa_cave_into_ENG
-					duration = -1 
+					duration = -1
 				}
 				capital_scope = {
 					add_trade_modifier = {
 						who = ENG
 						power = 10
-						duration = -1 
+						duration = -1
 						key = kilwa_trade_ally_trade_modifier_ENG
 					}
 				}
@@ -1400,7 +1400,7 @@ ZAN_missions_3_spain_2 = {
 			tooltip = {
 				add_country_modifier = {
 					name = kilwa_ship_purchase
-					duration = -1 
+					duration = -1
 				}
 			}
 		}
@@ -1446,7 +1446,7 @@ ZAN_missions_3_spain_2 = {
 			add_mercantilism = 5
 			add_country_modifier = {
 				name = kilwa_kick_out_foreign_traders_modifier
-				duration = -1 
+				duration = 18250
 			}
 		}
 	}
@@ -1493,7 +1493,7 @@ ZAN_missions_4_spain = {
 			tooltip = {
 				add_country_modifier = {
 					name = kilwa_officers_purchase
-					duration = -1 
+					duration = -1
 				}
 			}
 		}
@@ -1544,13 +1544,13 @@ ZAN_missions_2_portugal = {
 				}
 				add_country_modifier = {
 					name = kilwa_cave_into_POR
-					duration = -1 
+					duration = -1
 				}
 				capital_scope = {
 					add_trade_modifier = {
 						who = POR
 						power = 10
-						duration = -1 
+						duration = -1
 						key = kilwa_trade_ally_trade_modifier_POR
 					}
 				}
@@ -1563,13 +1563,13 @@ ZAN_missions_2_portugal = {
 			else = {
 				add_country_modifier = {
 					name = kilwa_cave_into_FRA
-					duration = -1 
+					duration = -1
 				}
 				capital_scope = {
 					add_trade_modifier = {
 						who = FRA
 						power = 10
-						duration = -1 
+						duration = -1
 						key = kilwa_trade_ally_trade_modifier_FRA
 					}
 				}
@@ -1642,7 +1642,7 @@ ZAN_missions_1_portugal = {
 			tooltip = {
 				add_country_modifier = {
 					name = kilwa_shared_tactics
-					duration = -1 
+					duration = -1
 				}
 			}
 		}
@@ -1683,7 +1683,7 @@ ZAN_missions_2_portugal_2 = {
 			tooltip = {
 				add_country_modifier = {
 					name = kilwa_invited_merchants
-					duration = -1 
+					duration = -1
 				}
 			}
 		}
@@ -1729,7 +1729,7 @@ ZAN_missions_2_portugal_2 = {
 			add_mercantilism = 5
 			add_country_modifier = {
 				name = kilwa_kick_out_foreign_traders_modifier
-				duration = -1 
+				duration = 18250
 			}
 		}
 	}
@@ -1764,7 +1764,7 @@ ZAN_missions_1_neutrality = {
 				add_trade_modifier = {
 					who = ROOT
 					power = 10
-					duration = -1 
+					duration = -1
 					key = kilwa_trade_ally_trade_modifier_ZAN
 				}
 			}
@@ -1954,7 +1954,7 @@ ZAN_missions_1_neutrality_2 = {
 						add_trade_modifier = {
 							who = PREV
 							power = -50
-							duration = -1 
+							duration = -1
 							key = kilwa_neutrality_others_trade_modifier
 						}
 					}
@@ -1994,7 +1994,7 @@ ZAN_missions_2_neutrality = {
 		effect = {
 			add_country_modifier = {
 				name = kilwa_modernize_our_army_modifier
-				duration = -1 
+				duration = 9125
 			}
 		}
 	}
@@ -2039,7 +2039,7 @@ ZAN_missions_2_neutrality = {
 			add_mercantilism = 5
 			add_country_modifier = {
 				name = kilwa_kick_out_foreign_traders_modifier
-				duration = -1 
+				duration = 18250
 			}
 		}
 	}

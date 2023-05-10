@@ -440,20 +440,9 @@ country_event = {
 				}
 			}
 		}
-		if = {
-			limit = {
-				is_expanded_mod_active = { mod = subjects }
-			}
-			create_subject = {
-				subject = GOT
-				subject_type = fief_subject
-			}
-		}
-		else = {
-			create_subject = {
-				subject = GOT
-				subject_type = vassal
-			}
+		create_subject = {
+			subject = GOT
+			subject_type = vassal
 		}
 	}
 	

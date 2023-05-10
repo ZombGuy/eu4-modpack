@@ -98,7 +98,7 @@ MAJ_missions_1 = {
 				add_prestige_or_monarch_power = { amount = 20 }
 				add_country_modifier = {
 					name = MAJ_sunda_conquered
-					duration = -1 
+					duration = 7300
 				}
 			}
 			hidden_effect = {
@@ -136,7 +136,7 @@ MAJ_missions_1 = {
 
 					add_country_modifier = {
 						name = MAJ_sunda_conquered
-						duration = -1 
+						duration = 7300
 					}
 				}
 			}
@@ -154,7 +154,7 @@ MAJ_missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = MAJ_shipbuilding
-				duration = -1 
+				duration = 9125
 			}
 			create_admiral = {
 				tradition = 60
@@ -167,40 +167,21 @@ MAJ_missions_1 = {
 		required_missions = { MAJ_naval_prowess }
 		position = 4
 		trigger = {
-			if = {
-				limit = {
-					is_expanded_mod_active = { mod = trade_goods }
-				}
-				trading_part = {
-					trade_goods = nutmeg
-					value = 0.25
-				}
-				trading_part = {
-					trade_goods = cloves
-					value = 0.25
-				}
-				trading_part = {
-					trade_goods = vanilla
-					value = 0.25
-				}
-			}
-			else = {
-				trading_part = {
-					trade_goods = spices
-					value = 0.25
-				}
+			trading_part = {
+				trade_goods = spices
+				value = 0.25
 			}
 		}
 		effect = {
 			add_country_modifier = {
 				name = MAJ_spice_flow
-				duration = -1 
+				duration = 7300
 			}
 			add_mercantilism = 3
 			1361 = {
 				add_trade_modifier = {
 					who = ROOT
-					duration = -1 
+					duration = -1
 					power = 10
 					key = MAJ_spice_trade
 				}
@@ -208,7 +189,7 @@ MAJ_missions_1 = {
 			1357 = {
 				add_trade_modifier = {
 					who = ROOT
-					duration = -1 
+					duration = -1
 					power = 10
 					key = MAJ_spice_trade
 				}
@@ -242,7 +223,7 @@ MAJ_missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = MAJ_trade_links_modifier
-				duration = -1 
+				duration = -1
 			}
 			add_years_of_income = 0.5
 		}
@@ -267,7 +248,7 @@ MAJ_missions_1 = {
 			tooltip = {
 				add_province_modifier = {
 					name = MAJ_mancanegara_modifier
-					duration = -1 
+					duration = -1
 				}
 			}
 			hidden_effect = {
@@ -275,21 +256,21 @@ MAJ_missions_1 = {
 					limit = { owned_by = ROOT }
 					add_province_modifier = {
 						name = MAJ_mancanegara_modifier
-						duration = -1 
+						duration = -1
 					}
 				}
 				central_java_area = {
 					limit = { owned_by = ROOT }
 					add_province_modifier = {
 						name = MAJ_mancanegara_modifier
-						duration = -1 
+						duration = -1
 					}
 				}
 				surabaya_area = {
 					limit = { owned_by = ROOT }
 					add_province_modifier = {
 						name = MAJ_mancanegara_modifier
-						duration = -1 
+						duration = -1
 					}
 				}
 			}
@@ -356,7 +337,7 @@ MAJ_missions_2 = {
 		effect = {
 			add_country_modifier = {
 				name = MAJ_bedil
-				duration = -1 
+				duration = 7300
 			}
 			country_event = { id = ME_Majapahit_Events.101 } #Selling firearms (Malaccan Malays obtained those from Java)
 		}
@@ -373,7 +354,7 @@ MAJ_missions_2 = {
 		effect = {
 			add_country_modifier = {
 				name = MAJ_cetbangs_modifier
-				duration = -1 
+				duration = 9125
 			}
 		}
 	}
@@ -407,7 +388,7 @@ MAJ_missions_2 = {
 		effect = {
 			add_country_modifier = {
 				name = MAJ_back_in_business
-				duration = -1 
+				duration = 10950
 			}
 		}
 	}
@@ -427,19 +408,11 @@ MAJ_missions_2 = {
 		}
 		effect = {
 			custom_tooltip = MAJ_distribute_15_manpower
-			if = {
-				limit = {
-					is_expanded_mod_active = { mod = trade_goods }
-				}
-				custom_tooltip = MAJ_rice_provs
-			}
-			else = {
-				custom_tooltip = MAJ_provinces_fulfilling_triggers
-			}
+			custom_tooltip = MAJ_provinces_fulfilling_triggers
 			tooltip = {
 				add_province_modifier = {
 					name = MAJ_rice_fields
-					duration = -1 
+					duration = 9125
 				}
 			}
 			hidden_effect = {
@@ -453,48 +426,7 @@ MAJ_missions_2 = {
 							add_base_manpower = 1
 						}
 					"
-				}
-				if = {
-					limit = {
-						is_expanded_mod_active = { mod = trade_goods }
-					}
-					east_java_area = {
-						limit = { trade_goods = rice }
-						add_province_modifier = {
-							name = MAJ_rice_fields
-							duration = -1 
-						}
-					}
-					central_java_area = {
-						limit = { trade_goods = rice }
-						add_province_modifier = {
-							name = MAJ_rice_fields
-							duration = -1 
-						}
-					}
-					west_java_area = {
-						limit = { trade_goods = rice }
-						add_province_modifier = {
-							name = MAJ_rice_fields
-							duration = -1 
-						}
-					}
-					surabaya_area = {
-						limit = { trade_goods = rice }
-						add_province_modifier = {
-							name = MAJ_rice_fields
-							duration = -1 
-						}
-					}
-					banten_area = {
-						limit = { trade_goods = rice }
-						add_province_modifier = {
-							name = MAJ_rice_fields
-							duration = -1 
-						}
-					}
-				}
-				else = { #inefficient use of space but eh
+				} #inefficient use of space but eh
 					east_java_area = {
 						limit = {
 							has_production_building_trigger = yes
@@ -503,7 +435,7 @@ MAJ_missions_2 = {
 						}
 						add_province_modifier = {
 							name = MAJ_rice_fields
-							duration = -1 
+							duration = 9125
 						}
 					}
 					central_java_area = {
@@ -514,7 +446,7 @@ MAJ_missions_2 = {
 						}
 						add_province_modifier = {
 							name = MAJ_rice_fields
-							duration = -1 
+							duration = 9125
 						}
 					}
 					west_java_area = {
@@ -525,7 +457,7 @@ MAJ_missions_2 = {
 						}
 						add_province_modifier = {
 							name = MAJ_rice_fields
-							duration = -1 
+							duration = 9125
 						}
 					}
 					surabaya_area = {
@@ -536,7 +468,7 @@ MAJ_missions_2 = {
 						}
 						add_province_modifier = {
 							name = MAJ_rice_fields
-							duration = -1 
+							duration = 9125
 						}
 					}
 					banten_area = {
@@ -547,10 +479,10 @@ MAJ_missions_2 = {
 						}
 						add_province_modifier = {
 							name = MAJ_rice_fields
-							duration = -1 
+							duration = 9125
 						}
 					}
-				}
+				
 			}
 		}
 	}
@@ -576,7 +508,7 @@ MAJ_missions_2 = {
 			capital_scope = {
 				add_province_modifier = {
 					name = MAJ_trowulan_rebuilt
-					duration = -1 
+					duration = -1
 				}
 			}
 			add_adm_power = 100
@@ -669,14 +601,14 @@ MAJ_missions_3 = {
 				2690 = {
 					add_province_modifier = {
 						name = MAJ_kotagede
-						duration = -1 
+						duration = -1
 					}
 				}
 				custom_tooltip = MAJ_every_state_with_a_great_project
 				tooltip = {
 					add_province_modifier = {
 						name = MAJ_great_power_surroundings
-						duration = -1 
+						duration = 9125
 					}
 				}
 				hidden_effect = {
@@ -692,7 +624,7 @@ MAJ_missions_3 = {
 						}
 						add_province_modifier = {
 							name = MAJ_great_power_surroundings
-							duration = -1 
+							duration = 9125
 						}
 					}
 				}
@@ -700,7 +632,7 @@ MAJ_missions_3 = {
 			else = {
 				add_country_modifier = {
 					name = MAJ_monuments
-					duration = -1 
+					duration = 10950
 				}
 				add_prestige_or_monarch_power = { amount = 50 }
 			}
@@ -726,7 +658,7 @@ MAJ_missions_3 = {
 			MSA_claims_borneo = yes
 			add_country_modifier = {
 				name = MAJ_preserving_remaining_tributaries
-				duration = -1 
+				duration = 10950
 			}
 			create_general = { tradition = 60 }
 		}
@@ -753,7 +685,7 @@ MAJ_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = MAJ_unruly_subject_defeated
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -783,7 +715,7 @@ MAJ_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = MAJ_strategic_island_secured
-				duration = -1 
+				duration = 7300
 			}
 			add_army_tradition_or_mil_power = { amount = 10 }
 		}
@@ -813,7 +745,7 @@ MAJ_missions_3 = {
 				remove_country_modifier = MAJ_suvarnadvipa
 				add_country_modifier = {
 					name = MAJ_empire
-					duration = -1 
+					duration = -1
 				}
 			}
 			MSA_malaya_effect = yes
@@ -860,7 +792,7 @@ MAJ_missions_4 = {
 		effect = {
 			add_country_modifier = {
 				name = MAJ_majapahit_architecture
-				duration = -1 
+				duration = 9125
 			}
 			add_stability_or_adm_power = yes
 		}
@@ -894,7 +826,7 @@ MAJ_missions_4 = {
 			custom_tooltip = MAJ_palapa_campaigns_cb
 			add_country_modifier = {
 				name = MAJ_we_will_taste_spice
-				duration = -1 
+				duration = -1
 				desc = MAJ_until_end_of_discovery
 			}
 			MSA_claims_sulawesi = yes
@@ -1033,7 +965,7 @@ MAJ_missions_4 = {
 		effect = {
 			add_country_modifier = {
 				name = MAJ_suvarnadvipa
-				duration = -1 
+				duration = -1
 			}
 			add_years_of_income = 0.5
 		}
@@ -1119,7 +1051,7 @@ MAJ_missions_5 = {
 			set_country_flag = MAJ_immunity_from_spread
 			add_country_modifier = {
 				name = MAJ_conversion
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -1157,7 +1089,7 @@ MAJ_missions_5 = {
 		effect = {
 			add_country_modifier = {
 				name = MAJ_a_call_of_shiva
-				duration = -1 
+				duration = 9125
 			}
 			add_army_tradition_or_mil_power = { amount = 10 }
 		}
@@ -1197,14 +1129,14 @@ MAJ_missions_5 = {
 			1357 = {
 				add_trade_modifier = {
 					who = ROOT
-					duration = -1 
+					duration = -1
 					power = 25
 					key = MAJ_pillar_island_control
 				}
 			}
 			add_country_modifier = {
 				name = MAJ_securing_important_territories
-				duration = -1 
+				duration = 10950
 			}
 			MSA_claims_spice_islands = yes
 			custom_tooltip = MAJ_lose_5_autonomy_everywhere
@@ -1234,19 +1166,19 @@ MAJ_missions_5 = {
 		effect = {
 			add_country_modifier = {
 				name = MAJ_maluku_cloves
-				duration = -1 
+				duration = 9125
 			}
 			add_mercantilism = 2
 			650 = {
 				add_province_modifier = {
 					name = MAJ_cloves
-					duration = -1 
+					duration = -1
 				}
 			}
 			649 = {
 				add_province_modifier = {
 					name = MAJ_cloves
-					duration = -1 
+					duration = -1
 				}
 			}
 		}
@@ -1275,7 +1207,7 @@ MAJ_missions_5 = {
 		effect = {
 			add_country_modifier = {
 				name = MAJ_temasik_defeated
-				duration = -1 
+				duration = -1
 			}
 			country_event = { id = ME_Majapahit_Events.102 }
 		}
@@ -1306,7 +1238,7 @@ MAJ_missions_5 = {
 		effect = {
 			add_country_modifier = {
 				name = MAJ_verge_of_the_empire
-				duration = -1 
+				duration = 9125
 			}
 		}
 	}

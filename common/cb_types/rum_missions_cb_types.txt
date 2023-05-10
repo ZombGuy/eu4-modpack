@@ -1,8 +1,11 @@
 cb_rum_enforce_trading_rights = {
 	valid_for_subject = no
 
-	prerequisites = {
+	prerequisites_self = {
 		has_country_flag = RUM_casus_belli_on_trade_node_flag
+	}
+	
+	prerequisites = {
 		FROM = {
 			OR = {
 				1308 = {

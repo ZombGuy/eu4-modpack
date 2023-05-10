@@ -19,7 +19,7 @@ lur_slot_1 = {
 		effect = {
 			add_country_modifier = {
 				name = "obedient_subjects"
-				duration = -1 
+				duration = 9125 #25 years
 			}
 		}
 	}
@@ -50,7 +50,7 @@ lur_slot_2 = {
 		effect = {
 			add_country_modifier = {
 				name = "influential_diplomacy"
-				duration = -1 
+				duration = 9125 #25 years
 			}
 			add_dip_power = 50
 		}
@@ -113,7 +113,7 @@ lur_slot_2 = {
 			}
 			add_country_modifier = {
 				name = LRI_Heart
-				duration = -1 
+				duration = 3650
 			}
 		}
 	}
@@ -201,7 +201,7 @@ lur_slot_3 = {
 			add_manpower = 5
 			add_country_modifier = {
 				name = LRI_Forever
-				duration = -1 
+				duration = 3650
 			}
 			add_mil_power = 50
 		}
@@ -276,7 +276,7 @@ lur_slot_3 = {
 			}
 			add_country_modifier = {
 				name = LRI_Victor
-				duration = -1 
+				duration = 9125
 			}
 			farsistan_area = {
 				limit = {
@@ -431,7 +431,7 @@ lur_slot_3 = {
 			}
 			add_country_modifier = {
 				name = LRI_Push
-				duration = -1 
+				duration = 3650
 			}
 		}
 	}
@@ -459,7 +459,7 @@ lur_slot_3 = {
 		effect = {
 			add_country_modifier = {
 				name = LRI_Reborn
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -481,7 +481,7 @@ lur_slot_4 = {
 		effect = {
 			add_country_modifier = {
 				name = "growing_economy"
-				duration = -1 
+				duration = 14600 #40 years
 			}
 			add_adm_power = 50
 		}
@@ -504,7 +504,7 @@ lur_slot_4 = {
 		effect = {
 			add_country_modifier = {
 				name = "building_spree"
-				duration = -1 
+				duration = 9125
 			}
 		}
 	}
@@ -534,7 +534,7 @@ lur_slot_4 = {
 		effect = {
 			add_country_modifier = {
 				name = LRI_Trade
-				duration = -1 
+				duration = 10950
 			}
 		}
 	}
@@ -577,7 +577,7 @@ lur_slot_5 = {
 					capital_scope = {
 						add_trade_modifier = {
 							who = ROOT
-							duration = -1 
+							duration = 5475
 							power = 15
 							key = KRD_supporting_trade
 						}
@@ -594,7 +594,7 @@ lur_slot_5 = {
 				}
 				add_trade_modifier = {
 					who = ROOT
-					duration = -1 
+					duration = 5475
 					power = 15
 					key = KRD_supporting_trade
 				}

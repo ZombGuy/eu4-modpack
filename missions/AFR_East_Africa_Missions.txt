@@ -180,12 +180,84 @@ east_african_trade_slot2 = {
 				}
 				treasury = 200
 			}
+			any_owned_province = {
+				province_has_center_of_trade_of_level = 2
+			}
 		}
 		effect = {
 			add_country_modifier = {
 				name = "east_africa_blooming_nation"
-				duration = -1 
-			}		
+				duration = 9125
+			}	
+			if = {
+				limit = { has_reform = pirate_republic_reform }
+				complete_mission = east_africa_dominate_tn
+				add_republican_tradition = 5
+				hidden_effect = {
+					home_trade_node_effect_scope = {
+						random_trade_node_member_province = {
+							limit = {
+								owned_by = ROOT
+							}
+							save_event_target_as = reward_province
+						}
+						random_trade_node_member_province = {
+							limit = {
+								owned_by = ROOT
+								is_capital = yes
+							}
+							save_event_target_as = reward_province
+						}
+						random_trade_node_member_province = {
+							limit = {
+								owned_by = ROOT
+								development = CAPITAL
+								is_capital = no
+							}
+							save_event_target_as = reward_province
+						}
+						random_trade_node_member_province = {
+							limit = {
+								owned_by = ROOT
+								development = CAPITAL
+								is_capital = no
+								development = 20
+							}
+							save_event_target_as = reward_province
+						}
+						random_trade_node_member_province = {
+							limit = {
+								owned_by = ROOT
+								development = CAPITAL
+								is_capital = no
+								development = 25
+							}
+							save_event_target_as = reward_province
+						}
+						random_trade_node_member_province = {
+							limit = {
+								owned_by = ROOT
+								development = CAPITAL
+								is_capital = no
+								development = 30
+							}
+							save_event_target_as = reward_province
+						}
+					}
+				}
+				if = {
+					limit = { has_saved_event_target = reward_province }
+					event_target:reward_province = {
+						add_province_modifier = {
+							name = "east_africa_trading_hub"
+							duration = -1
+						}
+					}
+				}
+				else = {
+					custom_tooltip = east_africa_trading_hub_tooltip
+				}	
+			}	
 		}
 		ai_weight = {
 			factor = 75	#Default
@@ -268,7 +340,7 @@ east_african_trade_slot2 = {
 				event_target:reward_province = {
 					add_province_modifier = {
 						name = "east_africa_trading_hub"
-						duration = -1 
+						duration = -1
 					}
 				}
 			}
@@ -292,7 +364,7 @@ east_african_trade_slot2 = {
 		effect = {
 			add_country_modifier = {
 				name = "east_africa_money_calls_money"
-				duration = -1 
+				duration = 9125
 			}
 		}
 		ai_weight = {
@@ -321,7 +393,7 @@ east_african_trade_slot2 = {
 			add_mil_power = 100
 			add_country_modifier = {
 				name = "east_africa_modern_army"
-				duration = -1 
+				duration = 9125	
 			}
 		}
 		ai_weight = {
@@ -346,7 +418,7 @@ east_african_trade_slot2 = {
 				change_innovativeness = 10	
 				add_country_modifier = {
 					name = "east_africa_modern_nation"
-					duration = -1 
+					duration = 9125
 				}
 			}
 			else = {
@@ -355,7 +427,7 @@ east_african_trade_slot2 = {
 				add_mil_power = 100
 				add_country_modifier = {
 					name = "east_africa_modern_nation"
-					duration = -1 
+					duration = 9125
 				}
 			}
 		}
@@ -411,7 +483,7 @@ east_african_diplomatic_slot = {
 		effect = {
 			add_country_modifier = {
 				name = "east_africa_commercial_routes"
-				duration = -1 
+				duration = 9125
 			}
 		}
 		ai_weight = {
@@ -454,7 +526,7 @@ east_african_diplomatic_slot = {
 					limit = { owned_by = ROOT }
 					add_province_modifier = {
 						name = "east_africa_attracting_capital"
-						duration = -1 
+						duration = 9125
 					}
 				}
 			}
@@ -520,7 +592,7 @@ east_african_diplomatic_slot = {
 		effect = {
 			add_country_modifier = {
 				name = "east_africa_indian_trade"
-				duration = -1 
+				duration = 9125
 			}		
 		}
 		ai_weight = {
@@ -563,7 +635,7 @@ east_african_diplomatic_slot = {
 			684 = {
 				add_trade_modifier = {
 					who = ROOT
-					duration = -1 
+					duration = -1
 					power = 20
 					key = chinese_trade_agreement
 				}
@@ -571,7 +643,7 @@ east_african_diplomatic_slot = {
 			1371 = {
 				add_trade_modifier = {
 					who = ROOT
-					duration = -1 
+					duration = -1
 					power = 20
 					key = chinese_trade_agreement
 				}
@@ -579,7 +651,7 @@ east_african_diplomatic_slot = {
 			4233 = {
 				add_trade_modifier = {
 					who = ROOT
-					duration = -1 
+					duration = -1
 					power = 20
 					key = chinese_trade_agreement
 				}
@@ -637,7 +709,7 @@ east_african_militar_slot = {
 		effect = {	
 			add_country_modifier = {
 				name = "east_africa_fearless_army"
-				duration = -1 
+				duration = 9125
 			}	
 		}
 		ai_weight = {
@@ -730,7 +802,7 @@ east_african_militar_slot = {
 			}
 			add_country_modifier = {
 				name = "east_africa_big_friends"
-				duration = -1 
+				duration = 9125
 			}	
 		}
 		ai_weight = {
@@ -753,7 +825,7 @@ east_african_militar_slot = {
 			add_prestige = 30
 			add_country_modifier = {
 				name = "east_africa_regional_hegemon"
-				duration = -1 
+				duration = 9125
 			}	
 		}
 		ai_weight = {

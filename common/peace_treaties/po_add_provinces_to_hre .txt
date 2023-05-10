@@ -20,7 +20,7 @@ po_HAB_add_provinces_to_hre = {
 	is_make_subject = yes 
 	requires_is_allowed = yes 
 	effect = { 
-		FROM = { me_add_to_empire = yes }
+		FROM = { set_in_empire = yes }
 		add_imperial_influence = 10
 	}
 	ai_weight = { 

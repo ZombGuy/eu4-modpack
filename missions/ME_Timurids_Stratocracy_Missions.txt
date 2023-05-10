@@ -32,7 +32,7 @@ Timurid_stratocracy_path_1 = {
         effect = {
             add_country_modifier = {
                 name = me_tim_increase_in_power
-                duration = -1
+                duration = 7300
             }
             change_government_reform_progress = 50
         }
@@ -137,7 +137,7 @@ Timurid_stratocracy_path_2 = {
         trigger = {
     		OR = {
                 full_idea_group = quantity_ideas
-                manpower = 70k
+                manpower = 70
             }
             num_of_owned_provinces_with = {
                 base_manpower = 5
@@ -244,7 +244,7 @@ Timurid_stratocracy_path_3 = {
         effect = {
             add_country_modifier = {
                 name = me_tim_hard_trained_generals
-                duration = -1
+                duration = 7300
             }
             fifty_percent_merc_army_professionalism_cost = yes
             custom_tooltip = " "
@@ -268,9 +268,11 @@ Timurid_stratocracy_path_3 = {
                     }
                 }
             }
-            army_size = 150
+            army_size = 100
         }
         effect = {
+            custom_tooltip = me_tim_stratocracy_allows_us_to_declare_war
+            custom_tooltip = " "
             custom_tooltip = me_tim_modify_military_leadership_3
             custom_tooltip = " "
             custom_tooltip = me_tim_unlock_war_against_world
@@ -423,7 +425,11 @@ Timurid_stratocracy_path_5 = {
         effect = {
             custom_tooltip = me_tim_winning_battles_increases_militarism
             custom_tooltip = " "
-            add_militarised_society = 15
+            add_government_power = {
+				mechanic_type = timurid_militarization
+				power_type = timurid_stratocracy_power
+				value = 15
+			}
         }
     }
 

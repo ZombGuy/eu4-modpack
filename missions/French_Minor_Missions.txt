@@ -181,6 +181,7 @@ french_minor_missions = {
 				}
 			}
 			change_tag = FRA
+			on_change_tag_effect = yes
 			swap_non_generic_missions = yes
 			remove_non_electors_emperors_from_empire_effect = yes
 			if = {
@@ -197,7 +198,7 @@ french_minor_missions = {
 			}
 			add_country_modifier = {
 				name = "centralization_modifier"
-				duration = -1 
+				duration = 7300
 			}
 			add_prestige = 25
 			if = {

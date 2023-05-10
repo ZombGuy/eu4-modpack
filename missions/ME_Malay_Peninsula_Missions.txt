@@ -38,7 +38,7 @@ MLC_generic_missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = MLC_generic_laksamana
-				duration = -1 
+				duration = 7300
 			}
 			MSA_claims_borneo = yes
 			#first nation to complete gets 60 tradition admiral
@@ -92,7 +92,7 @@ MLC_generic_missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = MLC_ambitions_overseas
-				duration = -1 
+				duration = 9125
 			}
 			add_navy_tradition = 15
 		}
@@ -191,7 +191,7 @@ MLC_generic_missions_2 = {
 			custom_tooltip = MLC_general_pips
 			add_country_modifier = {
 				name = MLC_generic_independent
-				duration = -1 
+				duration = 9125
 			}
 		}
 	}
@@ -211,7 +211,7 @@ MLC_generic_missions_2 = {
 		effect = {
 			add_country_modifier = {
 				name = MLC_trade_is_right
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -301,7 +301,7 @@ MLC_generic_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = MLC_to_defy_the_giant
-				duration = -1 
+				duration = 7300
 			}
 			MSA_claims_malaya = yes
 		}
@@ -364,7 +364,7 @@ MLC_generic_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = MLC_srivijaya
-				duration = -1 
+				duration = -1
 			}
 			add_accepted_culture_or_dip_power = { culture = sumatran }
 			MSA_claims_java = yes
@@ -372,7 +372,7 @@ MLC_generic_missions_3 = {
 			tooltip = {
 				add_country_modifier = {
 					name = MLC_generic_srivijaya
-					duration = -1 
+					duration = -1
 				}
 			}
 			hidden_effect = {
@@ -382,7 +382,7 @@ MLC_generic_missions_3 = {
 					}
 					add_country_modifier = {
 						name = MLC_generic_srivijaya
-						duration = -1 
+						duration = -1
 					}
 				}
 			}
@@ -534,7 +534,7 @@ MLC_generic_missions_4 = {
 				custom_tooltip = MLC_add_or_upgrade_center_of_trade
 				add_province_modifier = {
 					name = MLC_port_rival_to_malacca
-					duration = -1 
+					duration = -1
 				}
 			}
 			hidden_effect = {
@@ -554,7 +554,7 @@ MLC_generic_missions_4 = {
 						create_or_add_center_of_trade_level = { level = 1 }
 						add_province_modifier = {
 							name = MLC_port_rival_to_malacca
-							duration = -1 
+							duration = -1
 						}
 					}
 				}
@@ -608,7 +608,7 @@ MLC_generic_missions_5 = {
 		effect = {
 			add_country_modifier = {
 				name = MLC_generic_challenging
-				duration = -1 
+				duration = 9125
 			}
 			add_prestige_or_monarch_power = { amount = 10 }
 		}
@@ -659,32 +659,32 @@ MLC_generic_missions_5 = {
 			tooltip = {
 				add_province_modifier = {
 					name = MLC_golden_peninsula_modifier
-					duration = -1 
+					duration = -1
 				}
 			}
 			hidden_effect = {
 				malaya_area = {
 					add_province_modifier = {
 						name = MLC_golden_peninsula_modifier
-						duration = -1 
+						duration = -1
 					}
 				}
 				johor_area = {
 					add_province_modifier = {
 						name = MLC_golden_peninsula_modifier
-						duration = -1 
+						duration = -1
 					}
 				}
 				north_malaya_area = {
 					add_province_modifier = {
 						name = MLC_golden_peninsula_modifier
-						duration = -1 
+						duration = -1
 					}
 				}
 				malacca_area = {
 					add_province_modifier = {
 						name = MLC_golden_peninsula_modifier
-						duration = -1 
+						duration = -1
 					}
 				}
 			}

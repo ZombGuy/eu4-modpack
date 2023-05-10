@@ -41,7 +41,7 @@ TID_TER_missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = MKS_ambitions_outwards
-				duration = -1 
+				duration = 9125
 			}
 			MSA_claims_borneo = yes
 		}
@@ -114,7 +114,7 @@ TID_TER_missions_2 = {
 			MSA_claims_sulawesi = yes
 			add_country_modifier = {
 				name = TID_TER_no_rival_sultanate
-				duration = -1 
+				duration = 9125
 			}
 		}
 	}
@@ -308,7 +308,7 @@ TID_TER_missions_3 = {
 			#Raid on Bohol event?
 			add_country_modifier = {
 				name = TID_TER_raids_into_mindanao
-				duration = -1 
+				duration = 9125
 			}
 			
 			add_mil_power = 50
@@ -431,7 +431,7 @@ TID_TER_missions_4 = {
 		effect = {
 			add_country_modifier = {
 				name = TID_TER_thalassocracy
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -452,28 +452,9 @@ TID_TER_missions_4 = {
 			}
 		}
 		trigger = {
-			if = {
-				limit = {
-					is_expanded_mod_active = { mod = trade_goods }
-				}
-				trading_part = {
-					trade_goods = nutmeg
-					value = 0.2
-				}
-				trading_part = {
-					trade_goods = cloves
-					value = 0.2
-				}
-				trading_part = {
-					trade_goods = vanilla
-					value = 0.2
-				}
-			}
-			else = {
-				trading_part = {
-					trade_goods = spices
-					value = 0.2
-				}
+			trading_part = {
+				trade_goods = spices
+				value = 0.2
 			}
 			649 = {
 				owned_by = ROOT
@@ -492,19 +473,19 @@ TID_TER_missions_4 = {
 			649 = {
 				add_permanent_province_modifier = {
 					name = clove_boom
-					duration = -1 
+					duration = -1
 				}
 			}
 			650 = {
 				add_permanent_province_modifier = {
 					name = clove_boom
-					duration = -1 
+					duration = -1
 				}
 			}
 			648 = {
 				add_permanent_province_modifier = {
 					name = clove_boom
-					duration = -1 
+					duration = -1
 				}
 			}
 			
@@ -515,9 +496,7 @@ TID_TER_missions_4 = {
 				trigger = {
 					OR = {
 						trade_goods = spices
-						trade_goods = nutmeg
 						trade_goods = cloves
-						trade_goods = vanilla
 					}
 				}
 				custom_tooltip = MSA_from_spice_production_TGE
@@ -567,7 +546,7 @@ TID_TER_missions_5 = {
 			
 			add_country_modifier = {
 				name = TID_TER_naval_tradition_from_battles
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -689,7 +668,7 @@ TID_TER_missions_5 = {
 			tooltip = {
 				add_country_modifier = {
 					name = TID_TER_kept_traditions
-					duration = -1 
+					duration = -1
 				}
 			}
 			hidden_effect = {
@@ -707,7 +686,7 @@ TID_TER_missions_5 = {
 				else = {
 					add_country_modifier = {
 						name = TID_TER_kept_traditions
-						duration = -1 
+						duration = -1
 					}
 				}
 			}

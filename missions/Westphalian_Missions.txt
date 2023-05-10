@@ -150,7 +150,7 @@ westfalian_group_1 = {
 					add_base_manpower = 1
 					add_province_modifier = { 
 						name = westfalen_capital_modifier
-						duration = -1 
+						duration = 3650
 					}
 				}
 			}
@@ -392,7 +392,7 @@ westfalian_group_3 = {
 			add_mercantilism = 5
 			add_country_modifier = { 
 				name = efficienct_merchants 
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}

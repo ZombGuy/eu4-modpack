@@ -58,7 +58,7 @@ MAM_mamluk_infantry_reforms = {
 
 MAM_furusiyya_modifier = {
 	cavalry_power = 0.15
-	army_tradition_from_battle = 1
+	warscore_from_battles_modifier = 0.33
 }
 
 MAM_new_mamluks = {

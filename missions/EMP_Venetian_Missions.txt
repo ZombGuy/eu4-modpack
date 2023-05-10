@@ -25,7 +25,7 @@ emp_ven_slot_1 = {
 		effect = {
 			add_country_modifier = {
 				name = ven_aldine_monopoly_modifier
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -57,7 +57,7 @@ emp_ven_slot_1 = {
 		effect = {
 			add_country_modifier = {
 				name = ven_venetian_carnevale
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -100,7 +100,7 @@ emp_ven_slot_2 = {
 			112 = {
 				add_province_modifier = {
 					name = "ven_urban_renewal"
-					duration = -1 
+					duration = 7300
 				}
 			}
 		}
@@ -210,7 +210,7 @@ emp_ven_slot_2 = {
 		effect = {
 			add_country_modifier = {
 				name = ven_standardized_relazioni
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -287,7 +287,7 @@ emp_ven_slot_3 = {
 			add_mil_power = 50
 			add_country_modifier = {
 				name = ven_venture_captain_recruitment
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -303,7 +303,7 @@ emp_ven_slot_3 = {
 		effect = {
 			add_country_modifier = {
 				name = ven_mercenaries_paid_with_land
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -441,7 +441,7 @@ emp_ven_slot_3 = {
 		effect = {
 			add_country_modifier = {
 				name = "ven_political_monopolist"
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -483,7 +483,7 @@ emp_ven_slot_4 = {
 			}
 			add_country_modifier = {
 				name = "ven_arsenal_marines"
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -539,7 +539,7 @@ emp_ven_slot_4 = {
 			add_mercantilism = 1
 			add_country_modifier = {
 				name = "ven_genoese_humiliation"
-				duration = -1 
+				duration = 3650
 			}
 		}
 	}
@@ -561,7 +561,7 @@ emp_ven_slot_4 = {
 		effect = {
 			add_country_modifier = {
 				name = "ven_la_francocrazia"
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -582,7 +582,7 @@ emp_ven_slot_4 = {
 		effect = {
 			add_country_modifier = {
 				name = "ven_autonomous_venetian_patriarchate"
-				duration = -1 
+				duration = 5475
 			}
 		}
 	}
@@ -640,9 +640,6 @@ emp_ven_slot_5 = {
 		effect = {
 			add_mercantilism = 2
 			add_dip_power = 100
-			unlock_estate_privilege = {
-				estate_privilege = estate_burghers_orthodox_tolerance
-			}
 		}
 	}
 	
@@ -713,7 +710,7 @@ emp_ven_slot_5 = {
 		effect = {
 			add_country_modifier = {
 				name = "mediterranean_ambition"
-				duration = -1 
+				duration = 3650
 			}
 			delta_area = {
 				limit = {
@@ -758,7 +755,7 @@ emp_ven_slot_5 = {
 			358 = {
 				add_trade_modifier = {
 					who = ROOT
-					duration = -1 
+					duration = 5475
 					power = 20
 					key = PROTECTED_VENETIAN_MERCHANTS
 				}
@@ -766,7 +763,7 @@ emp_ven_slot_5 = {
 			377 = {
 				add_trade_modifier = {
 					who = ROOT
-					duration = -1 
+					duration = 5475
 					power = 20
 					key = PROTECTED_VENETIAN_MERCHANTS
 				}
@@ -851,7 +848,7 @@ emp_ven_slot_5 = {
 		effect = {
 			add_country_modifier = {
 				name = "ven_nothing_ventured_nothing_gained"
-				duration = -1 
+				duration = 5475
 			}
 		}
 	}

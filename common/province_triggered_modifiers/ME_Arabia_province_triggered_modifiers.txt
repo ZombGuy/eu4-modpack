@@ -58,7 +58,7 @@ ARB_house_of_wisdom_modifier = {
 	}
 
 	technology_cost = -0.05
-	institution_growth = 24
+	yearly_innovativeness = 0.6
 	
 	#Province scope
 	on_activation = {

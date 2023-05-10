@@ -4,12 +4,15 @@ cb_restore_personal_union_saxony_poland = {
 	is_triggered_only = yes
 	months = 240
 
-	prerequisites = {
+	prerequisites_self = {
 		OR = {
 			government = monarchy
 			has_reform = dutch_republic
 		}
 		is_revolutionary = no
+	}
+	
+	prerequisites = {
 		FROM = {
 			OR = {
 				government = monarchy

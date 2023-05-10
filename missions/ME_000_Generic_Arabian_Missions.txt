@@ -28,7 +28,11 @@ ARB_generic_missions_1 = {
 			
 			custom_tooltip = " "
 			
-			add_tribal_allegiance = 20
+			add_government_power = {
+				mechanic_type = tribal_federation_mechanic
+				power_type = tribal_allegiance
+				value = 20
+			}
 			
 			custom_tooltip = " "
 			
@@ -66,7 +70,7 @@ ARB_generic_missions_1 = {
 		effect = {
 			add_age_modifier = {
 				name = ARB_tribal_unity
-				duration = -1
+				duration = 18250
 				age = age_of_reformation
 			}
 			
@@ -101,7 +105,7 @@ ARB_generic_missions_2 = {
 		effect = {
 			add_country_modifier = {
 				name = ARBG_flames_of_war
-				duration = -1
+				duration = 7300
 			}
 			
 			ARB_claims_capital = yes
@@ -242,11 +246,6 @@ ARB_generic_missions_3 = {
 		provinces_to_highlight = {
 			OR = {
 				AND = {
-					is_expanded_mod_active = { mod = trade_goods }
-					trade_goods = dates
-				}
-				AND = {
-					NOT = { is_expanded_mod_active = { mod = trade_goods } }
 					owned_by = ROOT
 					OR = {
 						NOT = { has_trade_building_trigger = yes }
@@ -256,60 +255,18 @@ ARB_generic_missions_3 = {
 			}
 		}
 		trigger = {
-			if = {
-				limit = {
-					is_expanded_mod_active = { mod = trade_goods }
-				}
-				trading_part = {
-					trade_goods = dates
-					value = 0.1
-				}
-				#custom_trigger_tooltip = { tooltip = ARB_playtester_note }
-			}
-			else = {
-				num_of_owned_provinces_with = {
-					has_production_building_trigger = yes
-					has_trade_building_trigger = yes
-					value = 3
-				}
+			num_of_owned_provinces_with = {
+				has_production_building_trigger = yes
+				has_trade_building_trigger = yes
+				value = 3
 			}
 		}
 		effect = {
-			if = {
-				limit = {
-					is_expanded_mod_active = { mod = trade_goods }
-				}
-				ME_add_years_of_trade_income = { years = 3 }
+			ME_add_years_of_trade_income = { years = 3 }
 				
-				custom_tooltip = " "
+			custom_tooltip = " "
 				
-				custom_tooltip = ARB_every_province_producing_dates
-				tooltip = {
-					add_province_modifier = {
-						name = ARB_date_production
-						duration = -1
-					}
-				}
-				
-				hidden_effect = {
-					every_owned_province = {
-						limit = {
-							trade_goods = dates
-						}
-						add_province_modifier = {
-							name = ARB_date_production
-							duration = -1
-						}
-					}
-				}
-			}
-			else = {
-				ME_add_years_of_trade_income = { years = 3 }
-				
-				custom_tooltip = " "
-				
-				add_mercantilism = 10
-			}
+			add_mercantilism = 10
 		}
 	}
 	
@@ -401,7 +358,7 @@ ARB_generic_missions_4 = {
 			
 			add_country_modifier = {
 				name = ARB_shelters
-				duration = -1
+				duration = 9125
 			}
 		}
 	}

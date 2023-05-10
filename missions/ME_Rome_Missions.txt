@@ -18,7 +18,7 @@ ROM_missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = rome_navy
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -227,7 +227,7 @@ ROM_missions_1 = {
 				}
 				add_province_modifier = {
 					name = "rome_roman_culture"
-					duration = -1 
+					duration = -1
 				}
 			}
 		}
@@ -254,7 +254,7 @@ ROM_missions_1 = {
 				}
 				add_province_modifier = {
 					name = "rome_roman_culture"
-					duration = -1 
+					duration = -1
 				}
 			}
 		}
@@ -291,7 +291,7 @@ ROM_missions_2 = {
 		effect = {
 			add_country_modifier = {
 				name = rome_trade
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -330,7 +330,7 @@ ROM_missions_2 = {
 		effect = {
 			add_country_modifier = {
 				name = rome_amber_trade
-				duration = -1 
+				duration = -1
 			}
 			wielkopolska_area = {
 				limit = {
@@ -436,7 +436,7 @@ ROM_missions_2 = {
 		effect = {
 			add_country_modifier = {
 				name = rome_hussars
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -560,7 +560,7 @@ ROM_missions_2 = {
 				}
 				add_province_modifier = {
 					name = "rome_roman_culture"
-					duration = -1 
+					duration = -1
 				}
 			}
 			sus_area = {
@@ -569,7 +569,7 @@ ROM_missions_2 = {
 				}
 				add_province_modifier = {
 					name = "rome_roman_culture"
-					duration = -1 
+					duration = -1
 				}
 			}
 			marrekesh_area = {
@@ -578,7 +578,7 @@ ROM_missions_2 = {
 				}
 				add_province_modifier = {
 					name = "rome_roman_culture"
-					duration = -1 
+					duration = -1
 				}
 			}
 			northern_morocco_area = {
@@ -587,7 +587,7 @@ ROM_missions_2 = {
 				}
 				add_province_modifier = {
 					name = "rome_roman_culture"
-					duration = -1 
+					duration = -1
 				}
 			}
 			southern_morocco_area = {
@@ -596,7 +596,7 @@ ROM_missions_2 = {
 				}
 				add_province_modifier = {
 					name = "rome_roman_culture"
-					duration = -1 
+					duration = -1
 				}
 			}
 			western_morocco_area = {
@@ -605,7 +605,7 @@ ROM_missions_2 = {
 				}
 				add_province_modifier = {
 					name = "rome_roman_culture"
-					duration = -1 
+					duration = -1
 				}
 			}
 		}
@@ -655,7 +655,7 @@ ROM_missions_2 = {
 		effect = {
 			add_country_modifier = {
 				name = rome_morocco
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -884,7 +884,7 @@ ROM_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = rome_empire
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -1165,7 +1165,7 @@ ROM_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = rome_barbarians
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -1225,7 +1225,7 @@ ROM_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = rome_african_trade_secured
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -1244,7 +1244,7 @@ ROM_missions_3 = {
 			118 = {
 				add_province_modifier = {
 					name = "rome_roman_culture"
-					duration = -1 
+					duration = -1
 				}
 			}
 		}
@@ -1270,7 +1270,7 @@ ROM_missions_3 = {
 				}
 				add_province_modifier = {
 					name = "rome_roman_culture"
-					duration = -1 
+					duration = -1
 				}
 			}
 		}
@@ -1297,7 +1297,7 @@ ROM_missions_3 = {
 				}
 				add_province_modifier = {
 					name = "rome_roman_culture"
-					duration = -1 
+					duration = -1
 				}
 			}
 			iberia_region = {
@@ -1306,7 +1306,7 @@ ROM_missions_3 = {
 				}
 				add_province_modifier = {
 					name = "rome_roman_culture"
-					duration = -1 
+					duration = -1
 				}
 			}
 			balkan_region = {
@@ -1315,7 +1315,7 @@ ROM_missions_3 = {
 				}
 				add_province_modifier = {
 					name = "rome_roman_culture"
-					duration = -1 
+					duration = -1
 				}
 			}
 			tunisia_area = {
@@ -1324,7 +1324,7 @@ ROM_missions_3 = {
 				}
 				add_province_modifier = {
 					name = "rome_roman_culture"
-					duration = -1 
+					duration = -1
 				}
 			}
 			djerba_area = {
@@ -1333,7 +1333,7 @@ ROM_missions_3 = {
 				}
 				add_province_modifier = {
 					name = "rome_roman_culture"
-					duration = -1 
+					duration = -1
 				}
 			}
 			kabylia_area = {
@@ -1342,7 +1342,7 @@ ROM_missions_3 = {
 				}
 				add_province_modifier = {
 					name = "rome_roman_culture"
-					duration = -1 
+					duration = -1
 				}
 			}
 			algiers_area = {
@@ -1351,7 +1351,7 @@ ROM_missions_3 = {
 				}
 				add_province_modifier = {
 					name = "rome_roman_culture"
-					duration = -1 
+					duration = -1
 				}
 			}
 			hautes_plaines_area = {
@@ -1360,7 +1360,7 @@ ROM_missions_3 = {
 				}
 				add_province_modifier = {
 					name = "rome_roman_culture"
-					duration = -1 
+					duration = -1
 				}
 			}
 			north_saharan_area = {
@@ -1369,7 +1369,7 @@ ROM_missions_3 = {
 				}
 				add_province_modifier = {
 					name = "rome_roman_culture"
-					duration = -1 
+					duration = -1
 				}
 			}
 			ouled_nail_area = {
@@ -1378,7 +1378,7 @@ ROM_missions_3 = {
 				}
 				add_province_modifier = {
 					name = "rome_roman_culture"
-					duration = -1 
+					duration = -1
 				}
 			}
 			tripolitania_area = {
@@ -1387,7 +1387,7 @@ ROM_missions_3 = {
 				}
 				add_province_modifier = {
 					name = "rome_roman_culture"
-					duration = -1 
+					duration = -1
 				}
 			}
 		}
@@ -1414,7 +1414,7 @@ ROM_missions_3 = {
 				}
 				add_province_modifier = {
 					name = "rome_roman_culture"
-					duration = -1 
+					duration = -1
 				}
 			}
 		}
@@ -1437,7 +1437,7 @@ ROM_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = rome_britannia
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -1471,7 +1471,7 @@ ROM_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = rome_antiochia
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -1599,7 +1599,7 @@ ROM_missions_4 = {
 		effect = {
 			add_country_modifier = {
 				name = rome_arabian_horsement_recruits
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -1834,7 +1834,7 @@ ROM_missions_4 = {
 		effect = {
 			add_country_modifier = {
 				name = rome_illyricum
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -1860,7 +1860,7 @@ ROM_missions_5 = {
 		effect = {
 			add_country_modifier = {
 				name = rome_army
-				duration = -1 
+				duration = 7300
 			}
 			kingdom_of_the_isles_area = {
 				limit = {
@@ -2414,7 +2414,7 @@ ROM_missions_5 = {
 		effect = {
 			add_country_modifier = {
 				name = rome_steppe_trade
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -2462,7 +2462,7 @@ ROM_missions_5 = {
 				}
 				add_province_modifier = {
 					name = "rome_roman_culture"
-					duration = -1 
+					duration = -1
 				}
 			}
 		}
@@ -2489,7 +2489,7 @@ ROM_missions_5 = {
 				}
 				add_province_modifier = {
 					name = "rome_roman_culture"
-					duration = -1 
+					duration = -1
 				}
 			}
 			aleppo_area = {
@@ -2498,7 +2498,7 @@ ROM_missions_5 = {
 				}
 				add_province_modifier = {
 					name = "rome_roman_culture"
-					duration = -1 
+					duration = -1
 				}
 			}
 		}

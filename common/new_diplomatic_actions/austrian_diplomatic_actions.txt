@@ -4,17 +4,18 @@ austria_increase_relations = {
 	require_acceptance = no
 
 	is_visible = {
-		has_country_flag = habsburg_glory_unlocked
+		has_government_mechanic = habsburg_glory
 		dynasty = "von Habsburg"
 	}
 
 	is_allowed = {
 		hidden_trigger = {
-			has_country_flag = habsburg_glory_unlocked
+			has_government_mechanic = habsburg_glory
 			dynasty = "von Habsburg"
 		}
-		check_variable = {
-			which = habsburg_glory
+		has_government_power = {
+			mechanic_type = habsburg_glory
+			power_type = habsburg_glory_power
 			value = 20
 		}
 	}
@@ -32,8 +33,9 @@ austria_increase_relations = {
 	}
 
 	ai_will_do = {
-		check_variable = {
-			which = habsburg_glory
+		has_government_power = {
+			mechanic_type = habsburg_glory
+			power_type = habsburg_glory_power
 			value = 60
 		}
 		FROM = {
@@ -53,18 +55,19 @@ austria_add_favors = {
 	require_acceptance = no
 
 	is_visible = {
-		has_country_flag = habsburg_glory_unlocked
+		has_government_mechanic = habsburg_glory
 		has_country_flag = me_hab_more_actions
 		dynasty = "von Habsburg"
 	}
 
 	is_allowed = {
 		hidden_trigger = {
-			has_country_flag = habsburg_glory_unlocked
+			has_government_mechanic = habsburg_glory
 			dynasty = "von Habsburg"
 		}
-		check_variable = {
-			which = habsburg_glory
+		has_government_power = {
+			mechanic_type = habsburg_glory
+			power_type = habsburg_glory_power
 			value = 25
 		}
 	}
@@ -84,8 +87,9 @@ austria_add_favors = {
 	}
 
 	ai_will_do = {
-		check_variable = {
-			which = habsburg_glory
+		has_government_power = {
+			mechanic_type = habsburg_glory
+			power_type = habsburg_glory_power
 			value = 60
 		}
 		FROM = {
@@ -105,7 +109,7 @@ austria_put_relative_as_heir = {
 	require_acceptance = yes
 
 	is_visible = {
-		has_country_flag = habsburg_glory_unlocked
+		has_government_mechanic = habsburg_glory
 		dynasty = "von Habsburg"
 		FROM = {
 			government = monarchy
@@ -117,7 +121,7 @@ austria_put_relative_as_heir = {
 
 	is_allowed = {
 		hidden_trigger = {
-			has_country_flag = habsburg_glory_unlocked
+			has_government_mechanic = habsburg_glory
 			dynasty = "von Habsburg"
 			FROM = {
 				government = monarchy
@@ -126,9 +130,10 @@ austria_put_relative_as_heir = {
 				NOT = { dynasty = ROOT }
 			}
 		}
-		check_variable = {
-			which = habsburg_glory
-			value = 81 #The actual interaction requires the last tier of Habsburg Glory, hence why this
+		has_government_power = {
+			mechanic_type = habsburg_glory
+			power_type = habsburg_glory_power
+			value = 80
 		}
 		FROM = {
 			has_heir = no
@@ -152,7 +157,7 @@ austria_put_relative_as_heir = {
 		}
 		if = {
 			limit = {
-				has_country_flag me_hab_spread_dynasty_cheaper
+				has_country_flag = me_hab_spread_dynasty_cheaper
 			}
 			HAB_change_habsburg_glory = { remove = 25 }
 		}
@@ -290,8 +295,9 @@ austria_put_relative_as_heir = {
 	}
 
 	ai_will_do = {
-		check_variable = {
-			which = habsburg_glory
+		has_government_power = {
+			mechanic_type = habsburg_glory
+			power_type = habsburg_glory_power
 			value = 100
 		}
 		FROM = {
@@ -339,7 +345,7 @@ austria_establish_imperial_treasurer = {
 			has_country_flag = me_hab_new_diplo_actions
 		}
 		NOT = { has_global_flag = imperial_treasurer_established }
-		NOT = { has_country_modifier = imperial_court_chaplain_established }
+		NOT = { has_country_modifier = me_hab_imperial_court_chaplain }
 		NOT = { has_country_modifier = me_hab_imperial_marshall }
 	}
 
@@ -384,7 +390,7 @@ austria_establish_imperial_marshall = {
 			has_country_flag = me_hab_new_diplo_actions
 		}
 		NOT = { has_global_flag = imperial_marshall_established }
-		NOT = { has_country_modifier = imperial_court_chaplain_established }
+		NOT = { has_country_modifier = me_hab_imperial_court_chaplain  }
 		NOT = { has_country_modifier = me_hab_imperial_treasurer }
 	}
 

@@ -62,7 +62,7 @@ romanian_missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = "order_of_the_dragon_restored"
-				duration = -1 
+				duration = 7300
 			}
 			bulgaria_area = {
 				limit = {
@@ -245,7 +245,7 @@ romanian_missions_1 = {
 			add_adm_power = 100
 			add_country_modifier = {
 				name = "roman_romania"
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -293,7 +293,7 @@ romanian_missions_5 = {
 		effect = {
 			add_country_modifier = {
 				name = "united_voivodes"
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -328,7 +328,7 @@ romanian_missions_5 = {
 				add_base_manpower = 1
 				add_province_modifier = {
 					name = "bucharest_summer_capital"
-					duration = -1 
+					duration = -1
 				}
 			}
 			transylvania_area = {
@@ -372,7 +372,7 @@ romanian_missions_5 = {
 		effect = {
 			add_country_modifier = {
 				name = "rmn_consolidating_transylvania"
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -388,7 +388,7 @@ romanian_missions_5 = {
 		effect = {
 			add_country_modifier = {
 				name = "rmn_bulwark"
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -418,7 +418,7 @@ romanian_missions_5 = {
 			}
 			add_country_modifier = {
 				name = "dregatori_modifier"
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}

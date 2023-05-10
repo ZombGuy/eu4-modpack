@@ -117,7 +117,7 @@ pom_1 = {
 		effect = {
 			add_country_modifier = {
 				name = "pom_consolidated_front"
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -412,7 +412,7 @@ pom_1 = {
 					add_prestige = 20
 					add_country_modifier = {
 						name = pom_pol_unity
-						duration = -1 
+						duration = -1
 					}
 				}
 				else = {
@@ -466,7 +466,7 @@ pom_1 = {
 				add_prestige = 20
 				add_country_modifier = {
 					name = pom_royal_solidarity
-					duration = -1 
+					duration = 7300
 				}
 			}
 			else_if = {
@@ -491,7 +491,7 @@ pom_1 = {
 					add_prestige = 20
 					add_country_modifier = {
 						name = pom_pol_unity
-						duration = -1 
+						duration = -1
 					}
 				}
 				else = {
@@ -545,7 +545,7 @@ pom_1 = {
 				add_prestige = 20
 				add_country_modifier = {
 					name = pom_royal_solidarity
-					duration = -1 
+					duration = 7300
 				}
 			}
 			else = {
@@ -587,7 +587,7 @@ pom_1 = {
 			}
 			add_country_modifier = {
 				name = "pom_inspiring_revenge"
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -667,7 +667,7 @@ pom_2 = {
 		effect = {
 			add_country_modifier = {
 				name = "pom_trade_boom"
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}

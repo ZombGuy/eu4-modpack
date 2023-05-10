@@ -3,9 +3,12 @@
 cb_sunset_invasion = {
 	valid_for_subject = no
 	
-	prerequisites = {
+	prerequisites_self = {
 		tag = AZT
 		has_global_flag = sunset_invasion
+	}
+	
+	prerequisites = {
 		FROM = {
 			capital_scope = { continent = europe }
 		}

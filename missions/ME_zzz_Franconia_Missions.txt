@@ -66,7 +66,7 @@
 		effect = {
 			add_country_modifier = {
 				name = FKN_conquest_of_nuremburg
-				duration = -1 
+				duration = 10950
 			}
 		}
 	}
@@ -124,13 +124,13 @@
 		effect = {
 			add_country_modifier = {
 				name = FKN_imperial_diplomacy
-				duration = -1 
+				duration = 7300
 			}
 			custom_tooltip = FKN_emperor_tt
 			tooltip = {
 				add_country_modifier = {
 					name = FKN_emperor_recogntion
-					duration = -1 
+					duration = 10950
 				}
 			}
 			hidden_effect = {
@@ -140,7 +140,7 @@
 					}
 					add_country_modifier = {
 						name = FKN_emperor_recogntion
-						duration = -1 
+						duration = 10950
 					}
 					set_global_flag = FKN_emperor_mission_taken
 				}
@@ -252,7 +252,7 @@ FKN_Gen_Missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = FKN_conquest_of_wurzburg
-				duration = -1 
+				duration = 10950
 			}
 		}
 	}
@@ -484,7 +484,7 @@ FKN_Gen_Missions_4 = {
 		effect = {
 			add_country_modifier = {
 				name = FKN_conquest_of_ansbach
-				duration = -1 
+				duration = 10950
 			}
 		}
 	}
@@ -508,7 +508,7 @@ FKN_Gen_Missions_4 = {
 				area = {
 					add_province_modifier = {
 						name = FKN_selfreliant_burghers
-						duration = -1 
+						duration = 7300
 					}
 				}
 			}
@@ -539,7 +539,7 @@ FKN_Gen_Missions_4 = {
 			}
 			add_country_modifier = {
 				name = FKN_robber_barons_no_more
-				duration = -1 
+				duration = 9125
 			}
 		}
 	}
@@ -614,29 +614,6 @@ FKN_Missions_1 = {
 			add_papal_influence = 25
 			add_church_power = 25
 			add_fervor = 50
-			if = {
-				limit = {
-					is_expanded_mod_active = { mod = trade_goods }
-				}
-				custom_tooltip = FKN_every_beer_province
-				tooltip = {
-					add_province_modifier = {
-						name = FKN_monk_beer
-						duration = -1 
-					}
-				}
-				hidden_effect = {
-					every_owned_province = {
-						limit = {
-							trade_goods = beer
-						}
-						add_province_modifier = {
-							name = FKN_monk_beer
-							duration = -1 
-						}
-					}
-				}
-			}
 		}
 	}
 	
@@ -676,7 +653,7 @@ FKN_Missions_1 = {
 			}
 			add_country_modifier = {
 				name = growing_economy
-				duration = -1 
+				duration = 9125 
 			}
 		}
 	}
@@ -702,7 +679,7 @@ FKN_Missions_1 = {
 					}
 					add_province_modifier = {
 						name = FKN_rising_metropoly
-						duration = -1 
+						duration = -1
 					}
 				}
 			}
@@ -748,7 +725,7 @@ FKN_Missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = FKN_golden_era
-				duration = -1 
+				duration = 14600
 			}
 		}
 	}
@@ -841,7 +818,7 @@ FKN_Missions_2 = {
 			}
 			add_country_modifier = {
 				name = FKN_against_the_goliath
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -933,43 +910,18 @@ FKN_Missions_2 = {
 		position = 9
 		provinces_to_highlight = {
 			owned_by = ROOT
-			if = {
-				limit = {
-					is_expanded_mod_active = { mod = trade_goods }
-				}
-				OR = {
-					trade_goods = beer
-					trade_goods = wine
-				}
-			}
-			else = {
-				trade_goods = wine
-			}
+			trade_goods = wine
 		}
 		trigger = {
-			if = {
-				limit = {
-					is_expanded_mod_active = { mod = trade_goods }
-				}
-				development_in_provinces = {	
-					OR = {
-						trade_goods = beer
-						trade_goods = wine
-					}
-					value = 75
-				}
-			}
-			else = {
-				development_in_provinces = {	
-					trade_goods = wine
-					value = 75
-				}
+			development_in_provinces = {	
+				trade_goods = wine
+				value = 75
 			}
 		}
 		effect = {
 			add_country_modifier = {
 				name = FKN_alcohol
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -993,7 +945,7 @@ FKN_Missions_2 = {
 			capital_scope = {
 				add_province_modifier = {
 					name = FKN_festival
-					duration = -1 
+					duration = -1
 				}
 			}
 		}
@@ -1047,7 +999,7 @@ FKN_Missions_2 = {
 			clr_country_flag = FKN_CB
 			add_country_modifier = {
 				name = FKN_new_power_in_germany
-				duration = -1 
+				duration = 27375
 			}
 		}
 	}
@@ -1073,7 +1025,7 @@ FKN_Missions_2 = {
 			set_country_flag = FKN_powerbase_flag
 			add_country_modifier = {
 				name = FKN_the_protector_1
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -1090,7 +1042,7 @@ FKN_Missions_2 = {
 		effect = {
 			add_country_modifier = {
 				name = FKN_on_the_guard
-				duration = -1 
+				duration = 5475
 			}
 		}
 	}
@@ -1121,7 +1073,7 @@ FKN_Missions_2 = {
 				remove_country_modifier = FKN_the_protector_1
 				add_country_modifier = {
 					name = FKN_the_protector_2
-					duration = -1 
+					duration = -1
 				}
 			}
 		}
@@ -1170,7 +1122,7 @@ FKN_Missions_3 = {
 			tooltip = {
 				add_province_modifier = {
 					name = FKN_west_franconia_modifier
-					duration = -1 
+					duration = 7300
 				}
 			}
 			north_rhine_area = {
@@ -1281,7 +1233,7 @@ FKN_Missions_3 = {
 			70 =  {
 				add_trade_modifier = {
 					who = ROOT
-					duration = -1 
+					duration = 14600
 					power = 15
 					key = FKN_diverting_trade
 				}
@@ -1307,7 +1259,7 @@ FKN_Missions_3 = {
 			custom_tooltip = FKN_every_manufactory
 			add_country_modifier = {
 				name = FKN_rapid_adoption
-				duration = -1 
+				duration = 10950
 			}
 		}
 	}
@@ -1372,7 +1324,7 @@ FKN_Missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = FKN_absolute_loyalty_of_electoral
-				duration = -1 
+				duration = 10950
 			}
 		}
 	}
@@ -1417,7 +1369,7 @@ FKN_Missions_3 = {
 				remove_country_modifier = FKN_benevolent_emperor_2
 				add_country_modifier = {
 					name = FKN_final_modifier
-					duration = -1 
+					duration = -1
 				}
 			}
 		}
@@ -1468,7 +1420,7 @@ FKN_Missions_4 = {
 			61 = {
 				add_trade_modifier = {
 					who = ROOT
-					duration = -1 
+					duration = 14600
 					power = 15
 					key = FKN_influence_in_saxony
 				}
@@ -1538,7 +1490,7 @@ FKN_Missions_4 = {
 		effect = {
 			add_country_modifier = {
 				name = FKN_end_of_the_peasants_war
-				duration = -1 
+				duration = 5475
 			}
 			hidden_effect = {
 				if = {
@@ -1646,7 +1598,7 @@ FKN_Missions_4 = {
 		effect = {
 			add_country_modifier = {
 				name = FKN_benevolent_emperor_1
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -1671,7 +1623,7 @@ FKN_Missions_4 = {
 			tooltip = {
 				add_country_modifier = {
 					name = FKN_common_currency
-					duration = -1 
+					duration = 9125
 				}
 			}
 			hidden_effect = {
@@ -1681,7 +1633,7 @@ FKN_Missions_4 = {
 					}
 					add_country_modifier = {
 						name = FKN_common_currency
-						duration = -1 
+						duration = 9125
 					}
 				}
 			}
@@ -1701,7 +1653,7 @@ FKN_Missions_4 = {
 				remove_country_modifier = FKN_benevolent_emperor_1
 				add_country_modifier = {
 					name = FKN_benevolent_emperor_2
-					duration = -1 
+					duration = -1
 				}
 			}
 		}
@@ -1734,7 +1686,7 @@ FKN_Missions_5 = {
 		effect = {
 			add_country_modifier = {
 				name = FKN_german_ambition
-				duration = -1 
+				duration = 10950
 			}
 		}
 	}
@@ -1864,7 +1816,7 @@ FKN_Missions_5 = {
 			4716 = {
 				add_province_modifier = {
 					name = FKN_franconian_weimar
-					duration = -1 
+					duration = 10950
 				}
 			}
 		}
@@ -1885,7 +1837,7 @@ FKN_Missions_5 = {
 		effect = {
 			add_country_modifier = {
 				name = FKN_territorium_clausum
-				duration = -1 
+				duration = -1
 			}
 			add_adm_power = 25
 			add_dip_power = 25
@@ -1922,7 +1874,7 @@ FKN_Missions_5 = {
 		effect = {
 			add_country_modifier = {
 				name = FKN_loyal_knightly_estates
-				duration = -1 
+				duration = 9125
 			}
 		}
 	}
@@ -1985,7 +1937,7 @@ FKN_Missions_5 = {
 			}
 			add_country_modifier = {
 				name = FKN_the_imperial_cities
-				duration = -1 
+				duration = -1
 			}
 		}
 	}

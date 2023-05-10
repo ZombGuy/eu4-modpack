@@ -69,7 +69,7 @@ bijapur_column_1 = {
 			569 = {
 				add_province_modifier = {
 					name = "bijapur_hardened_capital"
-					duration = -1 
+					duration = -1
 				}
 			}
 		}
@@ -102,7 +102,7 @@ bijapur_column_1 = {
 			569 = {
 				add_province_modifier = {
 					name = "bijapur_venerated_ancestors"
-					duration = -1 
+					duration = -1
 				}
 			}
 		}
@@ -207,7 +207,7 @@ bijapur_column_2 = {
 			569 = {
 				add_province_modifier = {
 					name = "bijapur_market_profits"
-					duration = -1 
+					duration = -1
 				}
 			}
 		}
@@ -247,7 +247,7 @@ bijapur_column_2 = {
 		effect = {
 			add_country_modifier = {
 				name = "bijapur_blooming_of_education"
-				duration = -1 
+				duration = 9125 #25 Years
 			}
 			capital_scope = {
 				add_base_tax = 1
@@ -255,7 +255,7 @@ bijapur_column_2 = {
 			569 = {
 				add_province_modifier = {
 					name = "bijapur_new_varanasi_baghdad"
-					duration = -1 
+					duration = -1
 				}
 			}
 		}
@@ -544,7 +544,7 @@ bijapur_column_4 = {
 			add_piety = -0.25
 			add_country_modifier = {
 				name = "bijapur_religious_solidarity"
-				duration = -1 
+				duration = 7300 #20 Years
 			}
 			define_advisor = {
 				type = theologian
@@ -577,7 +577,7 @@ bijapur_column_4 = {
 			add_mil_power = 25
 			add_country_modifier = {
 				name = "bijapur_cannons_ready"
-				duration = -1 
+				duration = 7300 #20 Years
 			}
 		}
 	}
@@ -605,7 +605,7 @@ bijapur_column_4 = {
 			add_mil_power = 50
 			add_country_modifier = {
 				name = "bijapur_solidified_ranks"
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -687,7 +687,7 @@ bijapur_column_5 = {
 		effect = {
 			add_country_modifier = {
 				name = "bijapur_making_connections"
-				duration = -1 
+				duration = 7300 #20 Years
 			}
 		}
 	}
@@ -709,7 +709,7 @@ bijapur_column_5 = {
 		effect = {
 			add_country_modifier = {
 				name = "bijapur_projecting_power"
-				duration = -1 
+				duration = 9125 #25 Years
 			}
 		}
 	}
@@ -753,7 +753,7 @@ bijapur_column_5 = {
 		effect = {
 			add_country_modifier = {
 				name = "bijapur_marathi_loyalty"
-				duration = -1 
+				duration = -1
 			}
 		}
 	}

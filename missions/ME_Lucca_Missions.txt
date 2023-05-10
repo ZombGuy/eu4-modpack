@@ -88,7 +88,7 @@ lucca_missions_1 = {
 			capital_scope = {	
 				add_province_modifier = {
 					name = luc_luccan_city_walls
-					duration = -1 
+					duration = 9125
 				}
 			}
 		}
@@ -111,7 +111,7 @@ lucca_missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = luc_ports_lucca
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -136,7 +136,7 @@ lucca_missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = luc_luccan_silk_trade
-				duration = -1 
+				duration = 9125
 			}
 		}
 	}
@@ -271,7 +271,7 @@ lucca_missions_2 = {
 		effect = {
 			add_country_modifier = {
 				name = luc_end_florentine_threat
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -328,7 +328,7 @@ lucca_missions_3 = {
 			2980 = {
 				add_province_modifier = {
 					name = luc_holy_face_lucca
-					duration = -1 
+					duration = 18250
 				}
 			}
 			country_event = {
@@ -350,7 +350,7 @@ lucca_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = luc_office_marble
-				duration = -1 
+				duration = 9125
 			}
 		}
 	}
@@ -371,7 +371,7 @@ lucca_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = luc_secured_southern_tuscany
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -400,7 +400,7 @@ lucca_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = luc_libertas_secured
-				duration = -1 
+				duration = 7300
 			}
 			hidden_effect = {
 				complete_mission = pis_republic_reunited
@@ -465,7 +465,7 @@ lucca_missions_4 = {
 		effect = {
 			add_country_modifier = {
 				name = luc_knights_tau
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -495,7 +495,7 @@ lucca_missions_4 = {
 		effect = {
 			add_country_modifier = {
 				name = luc_luccan_spring_water
-				duration = -1 
+				duration = 7300
 			}
 			country_event = {
 				id = ME_Lucca_Events.2
@@ -587,7 +587,7 @@ lucca_missions_5 = {
 				}
 				add_country_modifier = {
 					name = luc_legacy_lucius_iii
-					duration = -1 
+					duration = 7300
 				}
 			}
 			else = {
@@ -609,7 +609,7 @@ lucca_missions_5 = {
 		effect = {
 			add_country_modifier = {
 				name = luc_luccan_art_schoool
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -636,7 +636,7 @@ lucca_missions_5 = {
 		effect = {
 			add_country_modifier = {
 				name = luc_university_lucca
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}

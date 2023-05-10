@@ -289,8 +289,8 @@ Timurid_main_1 = {
 			OR = {
 				ME_has_abbasid_caliph = yes
 				AND = {
-					total_development = 1500
-					army_size = 200
+					total_own_and_non_tributary_subject_development = 1500
+					army_size = 150
 					legitimacy_equivalent = 100
 				}
 			}
@@ -437,7 +437,7 @@ Timurid_main_2 = {
 			ME_give_claims = { area = lower_yik_area }
 			add_country_modifier = {
 				name = me_tim_march_west
-				duration = -1
+				duration = 5475
 			}
 		}
 	}
@@ -492,7 +492,7 @@ Timurid_main_2 = {
 				}
 				add_country_modifier = {
 					name = me_tim_inheriting_nomadic_warfare
-					duration = -1
+					duration = 5475
 				}
 			}
 			else = {
@@ -630,7 +630,11 @@ Timurid_main_2 = {
 				country_event = { id = ME_Timurid_Main_Events.43 }
 			}
 			else = {
-				country_event = { id = ME_Timurid_Main_Events.8 }
+				add_country_modifier = {
+					name = me_tim_tatar_slave_soldiers
+					duration = -1
+				}
+				add_years_of_income = 0.5
 			}
 		}
 	}
@@ -663,7 +667,7 @@ Timurid_main_2 = {
 				}
 				add_country_modifier = {
 					name = me_tim_persian_reign
-					duration = -1
+					duration = 5475
 				}
 				custom_tooltip = me_tim_silk_province_dip
 				hidden_effect = {
@@ -1051,7 +1055,7 @@ Timurid_main_3 = {
 				}
 				add_country_modifier = {
 					name = me_tim_scourge_of_europe
-					duration = -1
+					duration = 9125
 				}
 				custom_tooltip = me_tim_razing_european_provinces_give_us_manpower
 			}
@@ -1097,7 +1101,7 @@ Timurid_main_3 = {
 			ME_give_claims = { region = arabia_region }
 			add_country_modifier = {
 				name = me_tim_foothold_in_arabia
-				duration = -1
+				duration = 7300
 			}
 			custom_tooltip = me_tim_if_we_own_gem_provinces
 			tooltip = {
@@ -1209,7 +1213,7 @@ Timurid_main_4 = {
 			ME_give_claims = { area = khiva_area }
 			add_country_modifier = {
 				name = me_tim_counter_nomadic_warfare
-				duration = -1
+				duration = 7300
 			}
 		}
 	}
@@ -1289,6 +1293,8 @@ Timurid_main_4 = {
 		
 		effect = {
 			country_event = { id = ME_Timurid_Main_Events.4 }
+			custom_tooltip = " "
+			ME_give_claims = { region = north_china_region }
 		}
 	}
 	
@@ -1506,7 +1512,7 @@ Timurid_main_5 = {
 			tooltip = {
 				add_country_modifier = {
 					name = me_tim_modern_siege_engines
-					duration = -1
+					duration = 7300
 				}
 			}
 			hidden_effect = {
@@ -1519,7 +1525,7 @@ Timurid_main_5 = {
 					}
 					add_country_modifier = {
 						name = me_tim_modern_siege_engines
-						duration = -1
+						duration = 7300
 					}
 				}
 			}
@@ -1561,7 +1567,7 @@ Timurid_main_5 = {
 			else = {
 				add_country_modifier = {
 					name = me_tim_north_yuan_control
-					duration = -1
+					duration = 7300
 				}
 			}
 		}

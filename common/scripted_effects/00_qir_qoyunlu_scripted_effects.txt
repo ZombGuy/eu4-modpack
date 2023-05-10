@@ -145,7 +145,11 @@ QIR_give_legitimacy_or_tribal_allegiance = {
 			has_dlc = "Cradle of Civilization"
 			has_government_mechanic = tribal_federation_mechanic
 		}
-		add_tribal_allegiance = $t_amount$
+		add_government_power = {
+			mechanic_type = tribal_federation_mechanic
+			power_type = tribal_allegiance
+			value = $t_amount$
+		}
 	}
 	else = {
 		add_legitimacy = $l_amount$

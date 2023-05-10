@@ -62,8 +62,7 @@ sicily_mission_1 = {
 							}
 						}
 					}
-					any_country = {
-						is_papal_controller = yes
+					papal_controller = {
 						OR = {
 							has_opinion = {
 								who = ROOT
@@ -137,11 +136,11 @@ sicily_mission_1 = {
 				}
 				add_province_modifier = {
 					name = nap_legacy_ruggero
-					duration = -1 
+					duration = -1
 				}
 				add_province_modifier = {
 					name = nap_beauty_of_sicily
-					duration = -1 
+					duration = -1
 				}
 			}
 			sicily_area = {
@@ -155,11 +154,11 @@ sicily_mission_1 = {
 				}
 				add_province_modifier = {
 					name = nap_legacy_ruggero
-					duration = -1 
+					duration = -1
 				}
 				add_province_modifier = {
 					name = nap_beauty_of_sicily
-					duration = -1 
+					duration = -1
 				}
 			}
 		}
@@ -257,7 +256,7 @@ sicily_mission_1 = {
 		effect = {
 			add_country_modifier = {
 				name = sic_subjucation_spanyards
-				duration = -1 
+				duration = 9125
 			}
 			if = {
 				limit = {
@@ -335,8 +334,7 @@ sicily_mission_2 = {
 							}
 						}
 					}
-					any_country = {
-						is_papal_controller = yes
+					papal_controller = {
 						OR = {
 							has_opinion = {
 								who = ROOT
@@ -440,8 +438,7 @@ sicily_mission_2 = {
 									}
 								}
 							}
-							any_country = {
-								is_papal_controller = yes
+							papal_controller = {
 								OR = {
 									has_opinion = {
 										who = ROOT
@@ -460,13 +457,13 @@ sicily_mission_2 = {
 				}
 				add_country_modifier = {
 					name = sic_papal_delegation
-					duration = -1 
+					duration = 9125
 				}
 			}
 			else = {
 				add_country_modifier = {
 					name = sic_anti_pope_approval
-					duration = -1 
+					duration = -1
 				}
 			}
 		}
@@ -512,7 +509,7 @@ sicily_mission_2 = {
 		effect = {
 			add_country_modifier = {
 				name = sic_marche_savoye
-				duration = -1 
+				duration = 5475
 			}
 		}
 	}
@@ -630,7 +627,7 @@ sicily_mission_3 = {
 			add_yearly_manpower = 1
 			add_country_modifier = {
 				name = nap_struggle_anew
-				duration = -1 
+				duration = 3650
 			}
 			define_general = {
 				name = "Sergio di Discordia"
@@ -738,7 +735,7 @@ sicily_mission_3 = {
 		effect = {
 			add_country_modifier = {
 				name = sic_norman_navy_modifier
-				duration = -1 
+				duration = -1
 			}
 			add_yearly_sailors = 3			
 			if = {
@@ -826,13 +823,13 @@ sicily_mission_3 = {
 			tunisia_area = {
 				add_province_modifier = {
 					name = nap_sicilian_ruling
-					duration = -1 
+					duration = 7300
 				}
 			}
 			djerba_area = {
 				add_province_modifier = {
 					name = nap_sicilian_ruling
-					duration = -1 
+					duration = 7300
 				}
 			}
 		}
@@ -872,13 +869,13 @@ sicily_mission_3 = {
 			2452 = {
 				add_province_modifier = {
 					name = nap_sicilian_ruling
-					duration = -1 
+					duration = 7300
 				}
 			}
 			354 = {
 				add_province_modifier = {
 					name = nap_sicilian_ruling
-					duration = -1 
+					duration = 7300
 				}
 			}
 			country_event = {
@@ -1067,7 +1064,7 @@ sicily_mission_4 = {
 			add_yearly_manpower = 2
 			add_country_modifier = {
 				name = sic_military_campaign
-				duration = -1 
+				duration = 9125
 			}
 			country_event = {
 				id = ME_Sicily_Events.1
@@ -1124,7 +1121,7 @@ sicily_mission_4 = {
 			calabria_area = {
 				add_province_modifier = {
 					name = sic_calabrian_oil
-					duration = -1 
+					duration = -1
 				}
 			}
 		}
@@ -1217,7 +1214,7 @@ sicily_mission_4 = {
 		effect = {
 			add_country_modifier = {
 				name = sic_thousand_sigil
-				duration = -1 
+				duration = 9125
 			}
 		}
 	}
@@ -1261,7 +1258,7 @@ sicily_mission_5 = {
 		effect = {
 			add_country_modifier = {
 				name = nap_sicilian_school
-				duration = -1 
+				duration = 9125
 			}
 			country_event = {
 				id = ME_Sicily_Events.2
@@ -1319,7 +1316,7 @@ sicily_mission_5 = {
 				}
 				add_permanent_province_modifier = {
 					name = sic_parramentu_sicilianu_modifier
-					duration = -1 
+					duration = -1
 				}
 			}
 			western_sicily_area = {
@@ -1381,7 +1378,7 @@ sicily_mission_5 = {
 			apulia_area = {
 				add_province_modifier = {
 					name = tts_transumanza
-					duration = -1 
+					duration = -1
 				}
 			}
 			northern_greece_area = {
@@ -1530,7 +1527,7 @@ sicily_mission_5 = {
 			set_government_rank = 3
 			add_country_modifier = {
 				name = sic_champion_christianity
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -1571,7 +1568,7 @@ sicily_mission_5 = {
 		effect = {
 			add_country_modifier = {
 				name = sic_norman_knights
-				duration = -1 
+				duration = -1
 			}
 		}
 	}

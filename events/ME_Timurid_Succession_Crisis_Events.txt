@@ -20,7 +20,7 @@ country_event = {
 			}
 			EE_change_variable = {
 				which = timurid_legitimacy_value
-				remove = 50
+				subtract = 50
 			}
 			set_country_flag = me_tim_succession_crisis
 		}
@@ -371,6 +371,7 @@ country_event = {
 		}
 		
 		set_country_flag = me_tim_flight_to_india
+		set_global_flag = me_tim_flight_to_india_check
 		custom_tooltip = me_tim_10_years_flee_to_india
 		ME_give_claims = { region = hindusthan_region }
 		hidden_effect = {

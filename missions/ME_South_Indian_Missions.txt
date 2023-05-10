@@ -119,7 +119,7 @@ south_indian_column_1 = {
 			add_mil_power = 25
 			add_country_modifier = {
 				name = "south_ind_defensive_efforts"
-				duration = -1 
+				duration = 7300 #20 Years
 			}
 		}
 	}
@@ -183,7 +183,7 @@ south_indian_column_2 = {
 			add_prestige = 10
 			add_country_modifier = {
 				name = "south_ind_jungle_upstart"
-				duration = -1 
+				duration = 7300 #20 Years
 			}
 		}
 	}
@@ -316,7 +316,7 @@ south_indian_column_3 = {
 			add_mil_power = 25
 			add_country_modifier = {
 				name = "south_ind_united_tamilakam"
-				duration = -1 
+				duration = 7300 #20 Years
 			}
 			coromandel_region = {
 				limit = {
@@ -406,7 +406,7 @@ south_indian_column_4 = {
 			add_prestige = 10
 			add_country_modifier = {
 				name = "south_ind_naval_upstart"
-				duration = -1 
+				duration = 7300 #20 Years
 			}
 		}
 	}
@@ -526,7 +526,7 @@ south_indian_column_5 = {
 			add_dip_power = 25
 			add_country_modifier = {
 				name = "south_ind_naval_investments"
-				duration = -1 
+				duration = 7300 #20 Years
 			}
 		}
 	}

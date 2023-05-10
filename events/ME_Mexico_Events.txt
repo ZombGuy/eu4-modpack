@@ -397,10 +397,6 @@ province_event = { #Scope all Provinces in Colonial California
 			has_terrain = highlands
 		}
 		NOT = { trade_goods = gold }
-		OR = {
-			NOT = { is_expanded_mod_active = { mod = trade_goods } }
-			NOT = { trade_goods = silver }
-		}
 	}
 
 	mean_time_to_happen = {
@@ -471,26 +467,13 @@ province_event = {
 
 	immediate = {
 		hidden_effect = {
-			if = {
-				limit = {
-					is_expanded_mod_active = { mod = trade_goods }
-				}
-				random_list = {
-					40 = { set_province_flag = mex_found_silver }
-					25 = { set_province_flag = mex_found_gold }
-					15 = { set_province_flag = mex_found_gems }
-					15 = { set_province_flag = mex_found_metal }
-					5 = { set_province_flag = mex_found_nothing }
-				}
-			}
-			else = {
 				random_list = {
 					36 = { set_province_flag = mex_found_gems }
 					35 = { set_province_flag = mex_found_metal }
 					24 = { set_province_flag = mex_found_gold }
 					5 = { set_province_flag = mex_found_nothing }
 				}
-			}
+			
 		}
 	}
 
@@ -573,7 +556,6 @@ province_event = {
 		else_if = {
 			limit = { has_province_flag = mex_found_silver }
 			owner = { add_prestige = 5 }
-			change_trade_goods = silver
 		}
 		else_if = {
 			limit = { has_province_flag = mex_found_metal }
@@ -598,7 +580,7 @@ province_event = {
 	}
 
 	after = {
-		clr_province_flag = mex_found_silver
+		#clr_province_flag = mex_found_silver GUH
 		clr_province_flag = mex_found_gold
 		clr_province_flag = mex_found_gems
 		clr_province_flag = mex_found_metal
@@ -693,16 +675,6 @@ country_event = { #Secularisation or Spiritualism
 			}
 			if = {
 				limit = {
-					is_expanded_mod_active = { mod = idea_groups }
-					full_idea_group = humanist_ideas
-				}
-				add_country_modifier = {
-					name = mex_secularisation_max
-					duration = 7300
-				}
-			}
-			else_if = {
-				limit = {
 					full_idea_group = humanist_ideas
 				}
 				add_country_modifier = {
@@ -712,16 +684,6 @@ country_event = { #Secularisation or Spiritualism
 			}
 			else = {
 				add_legitimacy_equivalent = { amount = 15 republican_tradition = 15 }
-			}
-		}
-		else_if = {
-			limit = {
-				is_expanded_mod_active = { mod = idea_groups }
-				full_idea_group = humanist_ideas
-			}
-			add_country_modifier = {
-				name = mex_secularisation
-				duration = 7300
 			}
 		}
 		else_if = {

@@ -4,11 +4,14 @@ cb_defeat_chinese_enemies = {
 	is_triggered_only = no
 	months = 120
 
-	prerequisites = {
+	prerequisites_self = {
 		OR = {
 			has_country_flag = MSA_swayed_flag
 			has_country_flag = MSA_absolutely_loyal_flag
 		}
+	}
+	
+	prerequisites = {
 		FROM = {
 			has_country_flag = MSA_insulting_flag
 		}
@@ -23,8 +26,11 @@ cb_rise_of_brunei = {
 	is_triggered_only = no
 	months = 120
 
-	prerequisites = {
+	prerequisites_self = {
 		has_country_flag = BEI_rise_of_brunei
+	}
+	
+	prerequisites = {
 		FROM = {
 			capital_scope = {
 				MSA_is_in_borneo = yes
@@ -40,7 +46,14 @@ cb_aceh_campaigns = {
 
 	is_triggered_only = no
 	months = 120
-
+	
+	prerequisites_self = {
+		OR = {
+			has_country_flag = PSA_ATJ_cb_sumatra
+			has_country_flag = PSA_ATJ_cb_malaya
+		}
+	}
+	
 	prerequisites = {
 		OR = {
 			AND = {
@@ -71,8 +84,11 @@ cb_palapa_oath = {
 	is_triggered_only = no
 	months = 120
 
-	prerequisites = {
+	prerequisites_self = {
 		has_country_flag = MAJ_palapa_campaigns_cb
+	}
+	
+	prerequisites = {
 		claim = FROM
 		FROM = {
 			culture_group = malay

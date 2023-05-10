@@ -21,7 +21,7 @@ GHD_missions_1 = {
 			culture = berber
 			NOT = {
 				ROOT = {
-					has_estate = berber 
+					has_estate = estate_berbers
 				}
 			}
 		}
@@ -103,7 +103,7 @@ GHD_missions_1 = {
 		effect = {
 			add_age_modifier = {
 				name = GHD_army_buff
-				duration = -1
+				duration = -1 
 				age = age_of_reformation
 				else = "
 					create_general_with_pips = {
@@ -164,7 +164,7 @@ GHD_missions_2 = {
 		effect = {
 			add_country_modifier = {
 				name = GHD_a_tiny_community_with_an_ambition
-				duration = -1
+				duration = 10950
 			}
 			
 			# custom_tooltip = " "
@@ -201,7 +201,7 @@ GHD_missions_2 = {
 			
 			add_country_modifier = {
 				name = GHD_victory_is_all_but_a_mirage
-				duration = -1
+				duration = 9125
 			}
 			
 			if = {
@@ -293,7 +293,7 @@ GHD_missions_3 = {
 			custom_tooltip = " "
 			add_country_modifier = {
 				name = GHD_transsaharan_trade
-				duration = -1
+				duration = 7300 
 			}
 		}
 	}

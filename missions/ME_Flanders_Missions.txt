@@ -17,7 +17,7 @@ FLA_missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = fla_revived_cloth_trade
-				duration = -1 
+				duration = 10950
 			}
 		}
 	}
@@ -37,7 +37,7 @@ FLA_missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = fla_trade_share
-				duration = -1 
+				duration = 10950
 			}
 		}
 	}
@@ -55,7 +55,7 @@ FLA_missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = fla_strongest_trade
-				duration = -1 
+				duration = 10950
 			}
 		}
 	}
@@ -79,7 +79,7 @@ FLA_missions_2 = {
 		effect = {
 			add_country_modifier = {
 				name = fla_northern_renaissance
-				duration = -1 
+				duration = 10950
 			}
 		}
 	}
@@ -97,7 +97,7 @@ FLA_missions_2 = {
 		effect = {
 			add_country_modifier = {
 				name = fla_cloth 
-				duration = -1 
+				duration = 23000
 			}
 		}
 	}
@@ -178,11 +178,11 @@ FLA_missions_2 = {
 		effect = {
 			add_country_modifier = {
 				name = loyal_subjects
-				duration = -1 
+				duration = 3650
 			}
 			add_country_modifier = {
 				name = fla_inherited_brb
-				duration = -1 
+				duration = 10950
 			}
 		}
 	}
@@ -207,7 +207,7 @@ FLA_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = fla_recovering_from_war
-				duration = -1 
+				duration = 10950
 			}
 			holland_area = {
 				limit = {
@@ -312,7 +312,7 @@ FLA_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = fla_hainaut_conquered
-				duration = -1 
+				duration = 10950
 			}
 		}
 	}
@@ -337,7 +337,7 @@ FLA_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = fla_low_countries_united
-				duration = -1 
+				duration = 10950
 			}
 			add_adm_power = 200
 			add_dip_power = 200
@@ -359,7 +359,7 @@ FLA_missions_3 = {
 			add_prestige = 50
 			add_country_modifier = {
 				name = ned_formed_netherlands
-				duration = -1 
+				duration = 10950
 			}
 			swap_non_generic_missions = yes
 			if = {
@@ -475,7 +475,7 @@ FLA_missions_4 = {
 		effect = {
 			add_country_modifier = {
 				name = fla_defeated_liege
-				duration = -1 
+				duration = 10950
 			}
 		}
 	}
@@ -517,7 +517,7 @@ FLA_missions_5 = {
 				}
 				add_permanent_province_modifier = {
 					name = fla_renovated_castle
-					duration = -1 
+					duration = -1
 				}
 			}
 		}
@@ -544,7 +544,7 @@ FLA_missions_5 = {
 			1865 = {
 				add_permanent_province_modifier = {
 					name = fla_built_cloth_hall
-					duration = -1 
+					duration = -1
 				}
 				add_base_tax = 1
 			}
@@ -561,7 +561,7 @@ FLA_missions_5 = {
 		effect = {
 			add_country_modifier = {
 				name = fla_urban 
-				duration = -1 
+				duration = 10950
 			}
 		}
 	}

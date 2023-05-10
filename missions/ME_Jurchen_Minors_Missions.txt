@@ -82,7 +82,7 @@ donghai_missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = jurchen_ming_trade
-				duration = -1 
+				duration = 9125
 			}
 		}
 	}
@@ -162,7 +162,7 @@ haixi_missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = jurchen_ming_trade
-				duration = -1 
+				duration = 9125
 			}
 		}
 	}
@@ -214,7 +214,7 @@ haixi_missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = jurchen_old_ways
-				duration = -1 
+				duration = 9125
 			}
 		}
 	}
@@ -310,7 +310,7 @@ jianzhou_missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = jurchen_ming_trade
-				duration = -1 
+				duration = 9125
 			}
 		}
 	}
@@ -430,7 +430,7 @@ udege_missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = jurchen_siberian_traditions
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -532,7 +532,7 @@ yeren_missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = jurchen_siberian_traditions
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -823,7 +823,7 @@ jurchen_missions_3 = {
 		effect = {
 			add_ruler_modifier = { #copied from vanilla
 				name = "uniter_of_the_manchus"
-				duration = -1 
+				duration = -1
 			}
 			manchuria_region = {
 				add_devastation = -15

@@ -24,7 +24,7 @@ ICE_missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = ice_colonial_excitement
-				duration = -1 
+				duration = 7300
 			}
 			add_dip_power = 100
 		}
@@ -52,7 +52,7 @@ ICE_missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = ice_colonization_boom
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -79,7 +79,7 @@ ICE_missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = ice_colonization_boom
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -106,7 +106,7 @@ ICE_missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = ice_colonization_boom
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -138,7 +138,7 @@ ICE_missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = ice_school_of_lief_erikson
-				duration = -1 
+				duration = -1
 			}
 			add_dip_power = 100
 		}
@@ -164,7 +164,7 @@ ICE_missions_5 = {
 		effect = {
 			add_country_modifier = {
 				name = ice_ready_for_conquest
-				duration = -1 
+				duration = 9125
 			}
 			subarctic_islands_area	= {
 				limit = {
@@ -195,7 +195,7 @@ ICE_missions_5 = {
 			subarctic_islands_area	= {
 				add_province_modifier = {
 					name = ice_integration
-					duration = -1 
+					duration = 7300
 				}
 			}
 			kingdom_of_the_isles_area = {
@@ -242,7 +242,7 @@ ICE_missions_5 = {
 			capital_scope = {
 				add_province_modifier = {
 					name = ice_viking_empire
-					duration = -1 
+					duration = -1
 				}
 				add_base_tax = 2
 				add_base_production = 2
@@ -251,13 +251,13 @@ ICE_missions_5 = {
 			kingdom_of_the_isles_area = {
 				add_province_modifier = {
 					name = ice_integration
-					duration = -1 
+					duration = 7300
 				}
 			}
 			369 = {
 				add_province_modifier = {
 					name = ice_integration
-					duration = -1 
+					duration = 7300
 				}
 			}
 		}
@@ -284,7 +284,7 @@ ICE_missions_5 = {
 			370 = {
 				add_province_modifier = {
 					name = ice_reykjavik_cathedral
-					duration = -1 
+					duration = -1
 				}
 			}
 		}

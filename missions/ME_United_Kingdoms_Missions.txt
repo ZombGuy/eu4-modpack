@@ -5,7 +5,10 @@ ENG_UKS_missions_1 = {
 	potential = {
 		OR = {
 			AND = {
-				tag = ENG
+				OR = {
+					tag = ENG
+					tag = AVE 
+				}
 				has_country_flag = use_missions_expanded_missions_instead_of_paradox
 				has_country_flag = ENG_Angevin_Missions
 			}
@@ -44,7 +47,7 @@ ENG_UKS_missions_1 = {
 			country_event = { id = ME_United_Kingdoms_Events.1 }
 			add_country_modifier = {
 				name = UKS_promote_culture
-				duration = -1 
+				duration = 9125
 			}
 			brittany_area = {
 				limit = {
@@ -89,7 +92,7 @@ ENG_UKS_missions_1 = {
 			186 = {
 				add_trade_modifier = {
 					who = ROOT
-					duration = -1 
+					duration = 5475
 					power = 15
 					key = UKS_trade_support
 				}
@@ -97,7 +100,7 @@ ENG_UKS_missions_1 = {
 			174 = {
 				add_trade_modifier = {
 					who = ROOT
-					duration = -1 
+					duration = 5475
 					power = 15
 					key = UKS_trade_support
 				}
@@ -177,7 +180,7 @@ ENG_UKS_missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = UKS_trade_support
-				duration = -1 
+				duration = 5475
 			}
 		}
 	}
@@ -204,7 +207,10 @@ ENG_UKS_missions_2 = {
 	potential = {
 		OR = {
 			AND = {
-				tag = ENG
+				OR = {
+					tag = ENG
+					tag = AVE 
+				}
 				has_country_flag = use_missions_expanded_missions_instead_of_paradox
 				has_country_flag = ENG_Angevin_Missions
 			}
@@ -259,7 +265,7 @@ ENG_UKS_missions_2 = {
 				add_base_manpower = 1
 				add_province_modifier = {
 					name = UKS_summer_residence
-					duration = -1 
+					duration = 36500
 				}
 			}
 			88 = {
@@ -393,7 +399,7 @@ ENG_UKS_missions_2 = {
 		effect = {
 			add_country_modifier = {
 				name = UKS_monopolized_the_channel
-				duration = -1 
+				duration = 9125
 			}
 			north_brabant_area = {
 				limit = {
@@ -420,7 +426,10 @@ ENG_UKS_missions_3 = {
 	potential = {
 		OR = {
 			AND = {
-				tag = ENG
+				OR = {
+					tag = ENG
+					tag = AVE 
+				}
 				has_country_flag = use_missions_expanded_missions_instead_of_paradox
 				has_country_flag = ENG_Angevin_Missions
 			}
@@ -451,7 +460,7 @@ ENG_UKS_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = UKS_Recovery_of_population
-				duration = -1 
+				duration = 9125
 			}
 		}
 	}
@@ -531,7 +540,7 @@ ENG_UKS_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = UKS_last_valois_defeated
-				duration = -1 
+				duration = 9125
 			}
 			bourgogne_area = {
 				limit = {
@@ -584,7 +593,7 @@ ENG_UKS_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = UKS_Burgundy_Defeated
-				duration = -1 
+				duration = 9125
 			}
 		}
 	}
@@ -607,7 +616,7 @@ ENG_UKS_missions_3 = {
 			lorraine_area = {
 				add_province_modifier = {
 					name = UKS_Lorraine_subjugated
-					duration = -1 
+					duration = 9125
 				}
 			}
 		}
@@ -630,7 +639,7 @@ ENG_UKS_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = UKS_custodian
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -671,7 +680,10 @@ ENG_UKS_missions_4 = {
 	potential = {
 		OR = {
 			AND = {
-				tag = ENG
+				OR = {
+					tag = ENG
+					tag = AVE 
+				}
 				has_country_flag = use_missions_expanded_missions_instead_of_paradox
 				has_country_flag = ENG_Angevin_Missions
 			}
@@ -708,7 +720,7 @@ ENG_UKS_missions_4 = {
 		effect = {
 			add_country_modifier = {
 				name = UKS_Recovery_of_population
-				duration = -1 
+				duration = 9125
 			}
 			FRA = {
 				add_liberty_desire = -10
@@ -783,7 +795,10 @@ ENG_UKS_missions_5 = {
 	potential = {
 		OR = {
 			AND = {
-				tag = ENG
+				OR = {
+					tag = ENG
+					tag = AVE 
+				}
 				has_country_flag = use_missions_expanded_missions_instead_of_paradox
 				has_country_flag = ENG_Angevin_Missions
 			}
@@ -809,7 +824,7 @@ ENG_UKS_missions_5 = {
 		effect = {
 			add_country_modifier = {
 				name = UKS_anglo_french_coop
-				duration = -1 
+				duration = 9125
 			}
 		}
 	}
@@ -985,12 +1000,12 @@ ENG_UKS_missions_5 = {
 		effect = {
 			add_country_modifier = {
 				name = UKS_striving_for_religious_unity
-				duration = -1 
+				duration = 9125
 			}
 			FRA = {
 				add_country_modifier = {
 					name = UKS_striving_for_religious_unity_2
-					duration = -1 
+					duration = 9125
 				}
 			}
 		}
@@ -1002,7 +1017,13 @@ UKS_missions_1 = {
 	generic = no
 	ai = yes
 	potential = {
-		tag = UKS
+		OR = {
+			tag = UKS
+			AND = {
+				tag = AVE
+				has_country_flag = use_missions_expanded_missions_instead_of_paradox
+			}
+		}
 	}
 	has_country_shield  = yes
 	
@@ -1019,7 +1040,7 @@ UKS_missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = UKS_grand_navy
-				duration = -1 
+				duration = 9125
 			}
 		}
 	}
@@ -1052,7 +1073,7 @@ UKS_missions_1 = {
 			170 = {
 				add_province_modifier = {
 					name = UKS_naval_port
-					duration = -1 
+					duration = -1
 				}
 				add_unit_construction = {
 					type = heavy_ship
@@ -1099,7 +1120,7 @@ UKS_missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = UKS_HRE_eclipsed
-				duration = -1 
+				duration = 18250
 			}
 		}
 	}
@@ -1124,7 +1145,7 @@ UKS_missions_1 = {
 			add_dip_power = 50
 			add_country_modifier = {
 				name = UKS_heir_to_the_emperor
-				duration = -1 
+				duration = 9125
 			}
 		}
 	}
@@ -1139,7 +1160,7 @@ UKS_missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = "succesful_bid_for_imperial_crown"
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -1193,7 +1214,7 @@ UKS_missions_1 = {
 				}
 				add_province_modifier = {
 					name = UKS_local
-					duration = -1 
+					duration = -1
 				}
 			}
 		}
@@ -1235,7 +1256,7 @@ UKS_missions_1 = {
 				add_base_manpower = 1
 				add_province_modifier = {
 					name = UKS_local
-					duration = -1 
+					duration = -1
 				}
 			}
 		}
@@ -1282,7 +1303,7 @@ UKS_missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = UKS_hardy_settlers
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -1293,7 +1314,13 @@ UKS_missions_2 = {
 	generic = no
 	ai = yes
 	potential = {
-		tag = UKS
+		OR = {
+			tag = UKS
+			AND = {
+				tag = AVE
+				has_country_flag = use_missions_expanded_missions_instead_of_paradox
+			}
+		}
 	}
 	has_country_shield  = yes
 	
@@ -1335,13 +1362,13 @@ UKS_missions_2 = {
 			4373 = {
 				add_province_modifier = {
 					name = UKS_naval_port
-					duration = -1 
+					duration = -1
 				}
 			}
 			234 = {
 				add_province_modifier = {
 					name = UKS_naval_port
-					duration = -1 
+					duration = -1
 				}
 			}
 		}
@@ -1382,7 +1409,7 @@ UKS_missions_2 = {
 				}
 				add_province_modifier = {
 					name = UKS_naval_port
-					duration = -1 
+					duration = -1
 				}
 			}
 		}
@@ -1425,7 +1452,7 @@ UKS_missions_2 = {
 				}
 				add_country_modifier = {
 					name = ENG_italy_conquered
-					duration = -1 
+					duration = 9125
 				}
 			}
 			else = {
@@ -1468,10 +1495,6 @@ UKS_missions_2 = {
 			}
 		}
 		effect = {
-			add_country_modifier = {
-				name = fra_conquest_of_naples
-				duration = -1 
-			}
 			sicily_area = {
 				limit = {
 					NOT = { owned_by = ROOT }
@@ -1500,7 +1523,7 @@ UKS_missions_2 = {
 		effect = {
 			add_country_modifier = {
 				name = UKS_empire_destroyed
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -1527,7 +1550,7 @@ UKS_missions_2 = {
 			1490 = {
 				add_trade_modifier = {
 					who = ROOT
-					duration = -1 
+					duration = -1
 					power = 15
 					key = UKS_trade
 				}
@@ -1536,7 +1559,7 @@ UKS_missions_2 = {
 				trade_goods = fur
 				key = UKS_fur_trade
 				value = 0.25
-				duration = -1 
+				duration = 5475
 			}
 		}
 	}
@@ -1577,7 +1600,7 @@ UKS_missions_2 = {
 				add_base_manpower = 1
 				add_province_modifier = {
 					name = UKS_local
-					duration = -1 
+					duration = -1
 				}
 			}
 		}
@@ -1617,7 +1640,7 @@ UKS_missions_2 = {
 				add_base_manpower = 1
 				add_province_modifier = {
 					name = UKS_local
-					duration = -1 
+					duration = -1
 				}
 			}
 		}
@@ -1670,7 +1693,7 @@ UKS_missions_2 = {
 				}
 				add_province_modifier = {
 					name = UKS_local
-					duration = -1 
+					duration = -1
 				}
 			}
 		}
@@ -1698,7 +1721,7 @@ UKS_missions_2 = {
 			893 = {	
 				add_trade_modifier = {
 					who = ROOT
-					duration = -1 
+					duration = -1
 					power = 15
 					key = UKS_trade_2
 				}
@@ -1712,7 +1735,13 @@ UKS_missions_3 = {
 	generic = no
 	ai = yes
 	potential = {
-		tag = UKS
+		OR = {
+			tag = UKS
+			AND = {
+				tag = AVE
+				has_country_flag = use_missions_expanded_missions_instead_of_paradox
+			}
+		}
 	}
 	has_country_shield  = yes
 	
@@ -1782,7 +1811,7 @@ UKS_missions_3 = {
 				}
 				add_province_modifier = {
 					name = UKS_taxation_with_representation
-					duration = -1 
+					duration = 5475
 				}
 			}
 		}
@@ -1823,7 +1852,7 @@ UKS_missions_3 = {
 				}
 				add_province_modifier = {
 					name = UKS_prosperity
-					duration = -1 
+					duration = -1
 				}
 			}
 			france_region = {
@@ -1832,7 +1861,7 @@ UKS_missions_3 = {
 				}
 				add_province_modifier = {
 					name = UKS_prosperity
-					duration = -1 
+					duration = -1
 				}
 			}
 		}
@@ -1886,7 +1915,7 @@ UKS_missions_3 = {
 				}
 				add_province_modifier = {
 					name = fra_university
-					duration = -1 
+					duration = -1
 				}
 			}
 			237 = {
@@ -1901,7 +1930,7 @@ UKS_missions_3 = {
 				}
 				add_province_modifier = {
 					name = fra_university
-					duration = -1 
+					duration = -1
 				}
 			}
 		}
@@ -1931,7 +1960,7 @@ UKS_missions_3 = {
 					}
 					add_country_modifier = {
 						name = UKS_cooperation_of_unis
-						duration = -1 
+						duration = -1
 					}
 				}
 			}
@@ -1944,7 +1973,7 @@ UKS_missions_3 = {
 				}
 				add_province_modifier = {
 					name = fra_university
-					duration = -1 
+					duration = -1
 				}
 			}
 			random_owned_province = {
@@ -1955,7 +1984,7 @@ UKS_missions_3 = {
 				}
 				add_province_modifier = {
 					name = fra_university
-					duration = -1 
+					duration = -1
 				}
 			}
 			random_owned_province = {
@@ -1966,7 +1995,7 @@ UKS_missions_3 = {
 				}
 				add_province_modifier = {
 					name = fra_university
-					duration = -1 
+					duration = -1
 				}
 			}
 			random_owned_province = {
@@ -1977,7 +2006,7 @@ UKS_missions_3 = {
 				}
 				add_province_modifier = {
 					name = fra_university
-					duration = -1 
+					duration = -1
 				}
 			}
 			random_owned_province = {
@@ -1988,7 +2017,7 @@ UKS_missions_3 = {
 				}
 				add_province_modifier = {
 					name = fra_university
-					duration = -1 
+					duration = -1
 				}
 			}
 		}
@@ -2023,7 +2052,7 @@ UKS_missions_3 = {
 			add_army_tradition = 10
 			add_country_modifier = {
 				name = UKS_Italy
-				duration = -1 
+				duration = 10950
 			}
 			tuscany_area = {
 				limit = {
@@ -2066,7 +2095,7 @@ UKS_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = UKS_custodian2
-				duration = -1 
+				duration = 9125
 			}
 		}
 	}
@@ -2088,7 +2117,7 @@ UKS_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = UKS_colonize
-				duration = -1 
+				duration = 9125
 			}
 		}
 	}
@@ -2122,7 +2151,7 @@ UKS_missions_3 = {
 				}
 				add_country_modifier = {
 					name = UKS_production
-					duration = -1 
+					duration = -1
 				}
 			}
 		}
@@ -2266,7 +2295,7 @@ UKS_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = UKS_the_spice_trade
-				duration = -1 
+				duration = 9125
 			}
 			1090 = {
 				if = {
@@ -2300,7 +2329,7 @@ UKS_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = UKS_wealth_of_australia
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -2311,7 +2340,13 @@ UKS_missions_4 = {
 	generic = no
 	ai = yes
 	potential = {
-		tag = UKS
+		OR = {
+			tag = UKS
+			AND = {
+				tag = AVE
+				has_country_flag = use_missions_expanded_missions_instead_of_paradox
+			}
+		}
 	}
 	has_country_shield  = yes
 	
@@ -2396,42 +2431,42 @@ UKS_missions_4 = {
 				languedoc_area = {
 					add_province_modifier = {
 						name = UKS_minus
-						duration = -1 
+						duration = -1
 						hidden = yes
 					}
 				}
 				provence_area = {
 					add_province_modifier = {
 						name = UKS_minus
-						duration = -1 
+						duration = -1
 						hidden = yes
 					}
 				}
 				savoy_dauphine_area = {
 					add_province_modifier = {
 						name = UKS_minus
-						duration = -1 
+						duration = -1
 						hidden = yes
 					}
 				}
 				east_anglia_area = {
 					add_province_modifier = {
 						name = UKS_plus
-						duration = -1 
+						duration = -1
 						hidden = yes
 					}
 				}
 				east_midlands_area = {
 					add_province_modifier = {
 						name = UKS_plus
-						duration = -1 
+						duration = -1
 						hidden = yes
 					}
 				}
 				home_counties_area = {
 					add_province_modifier = {
 						name = UKS_plus
-						duration = -1 
+						duration = -1
 						hidden = yes
 					}
 				}
@@ -2674,203 +2709,203 @@ UKS_missions_4 = {
 			201 = {
 				add_province_modifier = {
 					name = UKS_roads
-					duration = -1 
+					duration = -1
 				}
 			}
 			202 = {
 				add_province_modifier = {
 					name = UKS_roads
-					duration = -1 
+					duration = -1
 				}
 			}
 			4391 = {
 				add_province_modifier = {
 					name = UKS_roads
-					duration = -1 
+					duration = -1
 				}
 			}
 			203 = {
 				add_province_modifier = {
 					name = UKS_roads
-					duration = -1 
+					duration = -1
 				}
 			}
 			1877 = {
 				add_province_modifier = {
 					name = UKS_roads
-					duration = -1 
+					duration = -1
 				}
 			}
 			192 = {
 				add_province_modifier = {
 					name = UKS_roads
-					duration = -1 
+					duration = -1
 				}
 			}
 			4392 = {
 				add_province_modifier = {
 					name = UKS_roads
-					duration = -1 
+					duration = -1
 				}
 			}
 			185 = {
 				add_province_modifier = {
 					name = UKS_roads
-					duration = -1 
+					duration = -1
 				}
 			}
 			4390 = {
 				add_province_modifier = {
 					name = UKS_roads
-					duration = -1 
+					duration = -1
 				}
 			}
 			#Provence-Bordeaux
 			200 = {
 				add_province_modifier = {
 					name = UKS_roads
-					duration = -1 
+					duration = -1
 				}
 			}
 			196 = {
 				add_province_modifier = {
 					name = UKS_roads
-					duration = -1 
+					duration = -1
 				}
 			}
 			175 = {
 				add_province_modifier = {
 					name = UKS_roads
-					duration = -1 
+					duration = -1
 				}
 			}
 			174 = {
 				add_province_modifier = {
 					name = UKS_roads
-					duration = -1 
+					duration = -1
 				}
 			}
 			2753 = {
 				add_province_modifier = {
 					name = UKS_roads
-					duration = -1 
+					duration = -1
 				}
 			}
 			#West Coast
 			4111 = {
 				add_province_modifier = {
 					name = UKS_roads
-					duration = -1 
+					duration = -1
 				}
 			}
 			4386 = {
 				add_province_modifier = {
 					name = UKS_roads
-					duration = -1 
+					duration = -1
 				}
 			}
 			170 = {
 				add_province_modifier = {
 					name = UKS_roads
-					duration = -1 
+					duration = -1
 				}
 			}
 			171 = {
 				add_province_modifier = {
 					name = UKS_roads
-					duration = -1 
+					duration = -1
 				}
 			}
 			172 = {
 				add_province_modifier = {
 					name = UKS_roads
-					duration = -1 
+					duration = -1
 				}
 			}
 			178 = {
 				add_province_modifier = {
 					name = UKS_roads
-					duration = -1 
+					duration = -1
 				}
 			}
 			177 = {
 				add_province_modifier = {
 					name = UKS_roads
-					duration = -1 
+					duration = -1
 				}
 			}
 			4385 = {
 				add_province_modifier = {
 					name = UKS_roads
-					duration = -1 
+					duration = -1
 				}
 			}
 			4389 = {
 				add_province_modifier = {
 					name = UKS_roads
-					duration = -1 
+					duration = -1
 				}
 			}
 			184 = {
 				add_province_modifier = {
 					name = UKS_roads
-					duration = -1 
+					duration = -1
 				}
 			}
 			4776 = {
 				add_province_modifier = {
 					name = UKS_roads
-					duration = -1 
+					duration = -1
 				}
 			}
 			#Calais
 			4388 = {
 				add_province_modifier = {
 					name = UKS_roads
-					duration = -1 
+					duration = -1
 				}
 			}
 			167 = {
 				add_province_modifier = {
 					name = UKS_roads
-					duration = -1 
+					duration = -1
 				}
 			}
 			89 = {
 				add_province_modifier = {
 					name = UKS_roads
-					duration = -1 
+					duration = -1
 				}
 			}
 			87 = {
 				add_province_modifier = {
 					name = UKS_roads
-					duration = -1 
+					duration = -1
 				}
 			}
 			#Rest
 			186 = {
 				add_province_modifier = {
 					name = UKS_roads
-					duration = -1 
+					duration = -1
 				}
 			}
 			187 = {
 				add_province_modifier = {
 					name = UKS_roads
-					duration = -1 
+					duration = -1
 				}
 			}
 			188 = {
 				add_province_modifier = {
 					name = UKS_roads
-					duration = -1 
+					duration = -1
 				}
 			}
 			189 = {
 				add_province_modifier = {
 					name = UKS_roads
-					duration = -1 
+					duration = -1
 				}
 			}
 		}
@@ -2998,99 +3033,99 @@ UKS_missions_4 = {
 			90 = {
 				add_province_modifier = {
 					name = UKS_roads
-					duration = -1 
+					duration = -1
 				}
 			}
 			1865 = {
 				add_province_modifier = {
 					name = UKS_roads
-					duration = -1 
+					duration = -1
 				}
 			}
 			1744 = {
 				add_province_modifier = {
 					name = UKS_roads
-					duration = -1 
+					duration = -1
 				}
 			}
 			96 = {
 				add_province_modifier = {
 					name = UKS_roads
-					duration = -1 
+					duration = -1
 				}
 			}
 			4383 = {
 				add_province_modifier = {
 					name = UKS_roads
-					duration = -1 
+					duration = -1
 				}
 			}
 			97 = {
 				add_province_modifier = {
 					name = UKS_roads
-					duration = -1 
+					duration = -1
 				}
 			}
 			98 = {
 				add_province_modifier = {
 					name = UKS_roads
-					duration = -1 
+					duration = -1
 				}
 			}
 			99 = {
 				add_province_modifier = {
 					name = UKS_roads
-					duration = -1 
+					duration = -1
 				}
 			}
 			4381 = {
 				add_province_modifier = {
 					name = UKS_roads
-					duration = -1 
+					duration = -1
 				}
 			}
 			4382 = {
 				add_province_modifier = {
 					name = UKS_roads
-					duration = -1 
+					duration = -1
 				}
 			}
 			1931 = {
 				add_province_modifier = {
 					name = UKS_roads
-					duration = -1 
+					duration = -1
 				}
 			}
 			#2 provs
 			91 = {
 				add_province_modifier = {
 					name = UKS_roads
-					duration = -1 
+					duration = -1
 				}
 			}
 			1743 = {
 				add_province_modifier = {
 					name = UKS_roads
-					duration = -1 
+					duration = -1
 				}
 			}
 			#rest
 			94 = {
 				add_province_modifier = {
 					name = UKS_roads
-					duration = -1 
+					duration = -1
 				}
 			}
 			93 = {
 				add_province_modifier = {
 					name = UKS_roads
-					duration = -1 
+					duration = -1
 				}
 			}
 			2974 = {
 				add_province_modifier = {
 					name = UKS_roads
-					duration = -1 
+					duration = -1
 				}
 			}
 		}
@@ -3129,7 +3164,7 @@ UKS_missions_4 = {
 					}
 					add_country_modifier = {
 						name = UKS_cooperation_of_unis
-						duration = -1 
+						duration = -1
 					}
 				}
 			}
@@ -3142,7 +3177,7 @@ UKS_missions_4 = {
 				}
 				add_province_modifier = {
 					name = fra_university
-					duration = -1 
+					duration = -1
 				}
 			}
 			random_owned_province = {
@@ -3153,7 +3188,7 @@ UKS_missions_4 = {
 				}
 				add_province_modifier = {
 					name = fra_university
-					duration = -1 
+					duration = -1
 				}
 			}
 			random_owned_province = {
@@ -3164,7 +3199,7 @@ UKS_missions_4 = {
 				}
 				add_province_modifier = {
 					name = fra_university
-					duration = -1 
+					duration = -1
 				}
 			}
 		}
@@ -3196,7 +3231,7 @@ UKS_missions_4 = {
 						ROOT = {
 							trading_policy_in_node = {
 								node = PREV
-								policy = maximize_profits
+								policy = maximize_profit
 							}
 						}
 					}
@@ -3252,7 +3287,7 @@ UKS_missions_4 = {
 		effect = {
 			add_country_modifier = {
 				name = UKS_competition
-				duration = -1 
+				duration = 9125
 			}
 			if = {
 				limit = {
@@ -3302,7 +3337,7 @@ UKS_missions_4 = {
 		effect = {
 			add_country_modifier = {
 				name = UKS_quest_for_the_spices
-				duration = -1 
+				duration = 9125
 			}
 			1177 = {
 				add_base_manpower = 1
@@ -3380,7 +3415,7 @@ UKS_missions_4 = {
 		effect = {
 			add_country_modifier = {
 				name = UKS_trade_company_in_indochina
-				duration = -1 
+				duration = -1
 			}
 			burma_region = {
 				limit = {
@@ -3405,7 +3440,13 @@ UKS_missions_5 = {
 	generic = no
 	ai = yes
 	potential = {
-		tag = UKS
+		OR = {
+			tag = UKS
+			AND = {
+				tag = AVE
+				has_country_flag = use_missions_expanded_missions_instead_of_paradox
+			}
+		}
 	}
 	has_country_shield  = yes
 	
@@ -3514,7 +3555,7 @@ UKS_missions_5 = {
 						}
 						add_province_modifier = {
 							name = UKS_monopoly
-							duration = -1 
+							duration = -1
 						}
 					}
 				}
@@ -3570,7 +3611,7 @@ UKS_missions_5 = {
 			add_years_of_income = 1.5
 			add_country_modifier = {
 				name = "proto_industrialization"
-				duration = -1 
+				duration = 9125
 			}
 		}
 	}
@@ -3695,98 +3736,98 @@ UKS_missions_5 = {
 			236 = {
 				add_province_modifier = {
 					name = UKS_roads
-					duration = -1 
+					duration = -1
 				}
 			}
 			235 = {
 				add_province_modifier = {
 					name = UKS_roads
-					duration = -1 
+					duration = -1
 				}
 			}
 			237 = {
 				add_province_modifier = {
 					name = UKS_roads
-					duration = -1 
+					duration = -1
 				}
 			}
 			239 = {
 				add_province_modifier = {
 					name = UKS_roads
-					duration = -1 
+					duration = -1
 				}
 			}
 			241 = {
 				add_province_modifier = {
 					name = UKS_roads
-					duration = -1 
+					duration = -1
 				}
 			}
 			234 = {
 				add_province_modifier = {
 					name = UKS_roads
-					duration = -1 
+					duration = -1
 				}
 			}
 			4366 = {
 				add_province_modifier = {
 					name = UKS_roads
-					duration = -1 
+					duration = -1
 				}
 			}
 			4130 = {
 				add_province_modifier = {
 					name = UKS_roads
-					duration = -1 
+					duration = -1
 				}
 			}
 			4373 = {
 				add_province_modifier = {
 					name = UKS_roads
-					duration = -1 
+					duration = -1
 				}
 			}
 			#rest
 			243 = {
 				add_province_modifier = {
 					name = UKS_roads
-					duration = -1 
+					duration = -1
 				}
 			}
 			245 = {
 				add_province_modifier = {
 					name = UKS_roads
-					duration = -1 
+					duration = -1
 				}
 			}
 			4372 = {
 				add_province_modifier = {
 					name = UKS_roads
-					duration = -1 
+					duration = -1
 				}
 			}
 			4370 = {
 				add_province_modifier = {
 					name = UKS_roads
-					duration = -1 
+					duration = -1
 				}
 			}
 			1861 = {
 				add_province_modifier = {
 					name = UKS_roads
-					duration = -1 
+					duration = -1
 				}
 			}
 			1743 = {
 				add_province_modifier = {
 					name = UKS_roads
-					duration = -1 
+					duration = -1
 				}
 			}
 			4785 = {
 				add_province_modifier = {
 					name = UKS_roads
-					duration = -1 
+					duration = -1
 				}
 			}
 		}
@@ -3808,7 +3849,7 @@ UKS_missions_5 = {
 		effect = {
 			add_country_modifier = {
 				name = UKS_genoese_charter
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -3849,12 +3890,12 @@ UKS_missions_5 = {
 			add_navy_tradition = 5
 			add_country_modifier = {
 				name = UKS_mediterranean_navy
-				duration = -1 
+				duration = -1
 			}
 			4696 = {
 				add_province_modifier = {
 					name = UKS_naval_port
-					duration = -1 
+					duration = -1
 				}
 			}
 		}
@@ -3947,7 +3988,7 @@ UKS_missions_5 = {
 			add_years_of_income = 0.5
 			add_country_modifier = {
 				name = "wealth_of_africa_modifier"
-				duration = -1 
+				duration = 9125
 			}
 		}
 	}
@@ -3982,7 +4023,7 @@ UKS_missions_5 = {
 			add_mercantilism = 2
 			add_country_modifier = {
 				name = UKS_trade_company
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -4027,7 +4068,7 @@ UKS_missions_5 = {
 			add_years_of_income = 5
 			add_country_modifier = {
 				name = UKS_indian_support
-				duration = -1 
+				duration = -1
 			}
 		}
 	}

@@ -84,9 +84,11 @@ KOR_forest_of_scholars = {
 }
 KOR_scholarly_traditions = {
 	innovativeness_gain = 0.5
+	yearly_innovativeness = 0.25
 }
 KOR_the_hall_of_worthies = {
 	technology_cost = -0.025
+	yearly_innovativeness = 0.25
 }
 KOR_trade_of_hanseong_modifier = {
 	trade_efficiency = 0.1
@@ -113,6 +115,7 @@ KOR_attrition = {
 }
 KOR_the_turtle_ship = {
 	ship_durability = 0.1
+	naval_morale_damage_received = -0.25
 }
 KOR_the_great_wall = {
 	fort_maintenance_modifier = -0.1
@@ -184,6 +187,7 @@ KOR_the_merchant_caste_forming = {
 }
 KOR_defenses = {
 	local_defensiveness = 0.2
+	local_defender_dice_roll_bonus = 1
 }
 KOR_beijing_conquered = {
 	prestige = 1

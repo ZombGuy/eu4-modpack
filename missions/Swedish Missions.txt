@@ -72,7 +72,7 @@ swedish_missions_scandinavia = {
 		effect = {
 			add_country_modifier = {
 				name = "consolidated_sweden"
-				duration = -1 
+				duration = 5475
 			}
 			northern_norway = {
 				limit = {
@@ -133,7 +133,7 @@ swedish_missions_scandinavia = {
 		effect = {
 			add_country_modifier = {
 				name = "norway_subjugated_swe"
-				duration = -1 
+				duration = 5475
 			}
 			jutland_area = {
 				limit = {
@@ -169,7 +169,7 @@ swedish_missions_scandinavia = {
 		effect = {
 			add_country_modifier = {
 				name = "colonial_enthusiasm"
-				duration = -1 
+				duration = 5475
 			}
 		}
 	}
@@ -271,7 +271,7 @@ swedish_missions_baltic = {
 		effect = {
 			add_country_modifier = {
 				name = "baltic_ambition_new"
-				duration = -1 
+				duration = 5475
 			}
 			vorpommern_area = {
 				limit = {
@@ -326,7 +326,7 @@ swedish_missions_baltic = {
 		effect = {
 			add_country_modifier = {
 				name = "swe_pommerania_conquered"
-				duration = -1 
+				duration = 5475
 			}
 			karelia_area = {
 				limit = {

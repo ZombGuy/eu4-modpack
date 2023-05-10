@@ -494,9 +494,9 @@ country_event = {
 							else_if = {
 								limit = {
 									OR = {
-										ruler_has_personality = sinner
-										ruler_has_personality = indulgent
-										ruler_has_personality = cruel
+										ruler_has_personality = sinner_personality
+										#ruler_has_personality = indulgent GUH?
+										ruler_has_personality = cruel_personality
 										AND = {
 											NOT = { ADM = 2 }
 											NOT = { DIP = 2 }
@@ -946,7 +946,7 @@ country_event = {
 				}
 			}
 		}
-		else = {
+		else_if = {
 			limit = {
 				has_country_flag = KOR_20_mil
 			}
@@ -2055,7 +2055,7 @@ country_event = {
 	option = {
 		name = ME_Korea_Events.49.a #yes.
 
-		add_government_reform = five_military_force_reform
+		#add_government_reform = five_military_force_reform doesn't exist
 	}
 
 	option = {

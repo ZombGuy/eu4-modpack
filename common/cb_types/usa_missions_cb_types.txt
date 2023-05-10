@@ -2,10 +2,13 @@ cb_usa_defense_of_the_americas = {
 	valid_for_subject = no
 
 	is_triggered_only = yes
-
-	prerequisites = {
+	
+	prerequisites_self = {
 		tag = USA
 		mission_completed = usa_expel_the_invaders
+	}
+	
+	prerequisites = {
 		FROM = {
 			capital_scope = {
 				continent = europe

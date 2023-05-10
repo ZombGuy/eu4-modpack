@@ -52,11 +52,9 @@ italy_four_maritime_republics = {
 		}
 	}
 	
-	mercantilism_cost = -0.25
-	trade_efficiency = 0.4
-	global_trade_goods_size_modifier = 0.25
-	trade_steering = 0.2
-	global_ship_trade_power = 0.5
+	mercantilism_cost = -0.20
+	trade_efficiency = 0.05
+	global_trade_goods_size_modifier = 0.10
 }
 
 ita_domus_marium = {
@@ -75,8 +73,8 @@ ita_domus_marium = {
 		}
 	}
 
-	ship_durability = 0.1
-	global_naval_engagement_modifier = 0.2
+	ship_durability = 0.05
+	global_naval_engagement_modifier = 0.10
 }
 
 ita_domus_terrae = {
@@ -95,6 +93,6 @@ ita_domus_terrae = {
 		}
 	}
 
-	discipline = 0.1
-	infantry_power = 0.15
+	discipline = 0.05
+	infantry_power = 0.10
 }

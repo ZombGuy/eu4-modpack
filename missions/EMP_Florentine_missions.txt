@@ -77,7 +77,7 @@ emp_tusc_fighting_1 = {
 		effect = {
 			add_country_modifier = {
 				name = "lan_tuscan_naval_expansion"
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -114,7 +114,7 @@ emp_tusc_dip_and_war_2 = {
 		effect = {
 			add_country_modifier = {
 				name = "lan_affable_leadership"
-				duration = -1 
+				duration = 5475
 			}
 		}
 	}	
@@ -338,7 +338,7 @@ emp_tusc_government_3 = {
 		effect = {
 			add_country_modifier = {
 				name = "lan_clean_government"
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -497,7 +497,7 @@ emp_tusc_renaissance_4 = {
 		effect = {
 			add_country_modifier = {
 				name = "lan_florentine_renaissance_modifier"
-				duration = -1 
+				duration = 5475
 			}
 		}
 	}
@@ -517,7 +517,7 @@ emp_tusc_renaissance_4 = {
 		effect = {
 			add_country_modifier = {
 				name = "lan_da_vincis_notebooks"
-				duration = -1 
+				duration = 5475
 			}
 		}
 	}
@@ -643,7 +643,7 @@ emp_tusc_renaissance_4 = {
 		effect = {
 			add_country_modifier = {
 				name = "lan_la_crusca"
-				duration = -1 
+				duration = -1
 			}
 			add_dip_power = 100
 		}
@@ -680,7 +680,7 @@ emp_tusc_infra_5 = {
 		effect = {
 			add_country_modifier = {
 				name = "lan_secure_public_funds"
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -705,7 +705,7 @@ emp_tusc_infra_5 = {
 		effect = {
 			add_country_modifier = {
 				name = "lan_medici_banking"
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -731,7 +731,7 @@ emp_tusc_infra_5 = {
 		effect = {
 			add_country_modifier = {
 				name = "lan_monumental_construction"
-				duration = -1 
+				duration = 5475
 			}
 		}
 	}
@@ -755,7 +755,7 @@ emp_tusc_infra_5 = {
 			116 = {
 				add_province_modifier = {
 					name = lan_arno_flood_controls
-					duration = -1 
+					duration = -1
 				}
 			}
 		}

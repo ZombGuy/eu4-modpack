@@ -15,11 +15,14 @@ cb_take_conquest_of_delhi = {
 }
 
 # Temporary claim CB (mostly used by missions)
-cb_conquest = {
+cb_conquest_tim = {
 
+	prerequisites_self = {
+		has_country_flag = me_tim_less_ae_claims
+	}
+	
 	prerequisites = {
 		claim = FROM
-		has_country_flag = me_tim_less_ae_claims
 	}
 
 	war_goal = take_claim_less_ae
@@ -30,9 +33,12 @@ cb_conquest_of_europe = {
 
 	is_triggered_only = no
 
-	prerequisites = {
+	prerequisites_self = {
 		has_country_flag = me_tim_conquest_of_europe
 		tag = MUG
+	}
+	
+	prerequisites = {
 		FROM = {
 			any_owned_province = {
 				continent = europe
@@ -48,13 +54,16 @@ cb_conquest_of_europe = {
 cb_timurids_conquests = {
 	valid_for_subject = no
 
+	prerequisites_self = {
+		tag = TIM
+		has_country_flag = me_tim_timurid_conquest
+	}
+	
 	prerequisites = {
 		OR = {
 			is_neighbor_of = FROM
 			has_country_modifier = ME_tim_horsemen_of_apocalypse_modifier
 		}
-		tag = TIM
-		has_country_flag = me_tim_timurid_conquest
 	}
 
 	war_goal = me_tim_timurid_conquest_type

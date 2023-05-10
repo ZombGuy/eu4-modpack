@@ -4,6 +4,7 @@ tr_russia_religious_missions = {
 	ai = yes
 	potential_on_load = {
 		has_dlc = "Third Rome"
+		NOT = { has_dlc = "Domination" }
 	}
 	potential = {
 		OR = {
@@ -11,6 +12,7 @@ tr_russia_religious_missions = {
 			tag = RUS
 		}
 		has_dlc = "Third Rome"
+		NOT = { has_dlc = "Domination" }
 		NOT = { map_setup = map_setup_random }
 		has_country_flag = use_paradox_missions
 	}
@@ -54,10 +56,12 @@ tr_russia_exclusive_church = {
 	ai = yes
 	potential_on_load = {
 		has_dlc = "Third Rome"
+		NOT = { has_dlc = "Domination" }
 	}
 	potential = {
 		tag = RUS
 		has_dlc = "Third Rome"
+		NOT = { has_dlc = "Domination" }
 		NOT = { map_setup = map_setup_random }
 		has_country_flag = use_paradox_missions
 	}
@@ -98,7 +102,7 @@ tr_russia_exclusive_church = {
 			country_event = { id = flavor_rus.9 }
 			add_country_modifier = {
 				name = "russian_patriarchate"
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -110,10 +114,12 @@ tr_muscovy_conquest = {
 	ai = yes
 	potential_on_load = {
 		has_dlc = "Third Rome"
+		NOT = { has_dlc = "Domination" }
 	}
 	potential = {
 		tag = RUS
 		has_dlc = "Third Rome"
+		NOT = { has_dlc = "Domination" }
 		NOT = { map_setup = map_setup_random }
 		has_country_flag = use_paradox_missions
 	}
@@ -151,7 +157,7 @@ tr_muscovy_conquest = {
 		effect = {
 			add_country_modifier = {
 				name = "baltic_ambition_new"
-				duration = -1 
+				duration = 5475
 			}
 		}
 	}
@@ -190,7 +196,7 @@ tr_muscovy_conquest = {
 		effect = {
 			add_country_modifier = {
 				name = "rus_partition_poland_modifier"
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -204,6 +210,7 @@ tr_russia_conquest_1 = {
 	ai = yes
 	potential_on_load = {
 		has_dlc = "Third Rome"
+		NOT = { has_dlc = "Domination" }
 	}
 	potential = {
 		OR = {
@@ -211,6 +218,7 @@ tr_russia_conquest_1 = {
 			tag = RUS
 		}
 		has_dlc = "Third Rome"
+		NOT = { has_dlc = "Domination" }
 		NOT = { map_setup = map_setup_random }
 		has_country_flag = use_paradox_missions
 	}
@@ -448,7 +456,7 @@ tr_russia_conquest_1 = {
 		effect = {
 			add_country_modifier = {
 				name = "russian_integration"
-				duration = -1 
+				duration = 5475
 			}
 			294 = {
 				add_base_tax = 1
@@ -542,7 +550,7 @@ tr_russia_conquest_1 = {
 				limit = { owned_by = ROOT }
 				add_province_modifier = {
 					name = "ruthenian_integration"
-					duration = -1 
+					duration = 5475
 				}
 			}
 			malopolska_area = {
@@ -597,10 +605,12 @@ tr_russia_exclusive_1 = {
 	ai = yes
 	potential_on_load = {
 		has_dlc = "Third Rome"
+		NOT = { has_dlc = "Domination" }
 	}
 	potential = {
 		tag = RUS
 		has_dlc = "Third Rome"
+		NOT = { has_dlc = "Domination" }
 		NOT = { map_setup = map_setup_random }
 		has_country_flag = use_paradox_missions
 	}
@@ -708,7 +718,7 @@ tr_russia_exclusive_1 = {
 			add_army_tradition = 15
 			add_country_modifier = {
 				name = "loyal_streltsy"
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -746,7 +756,7 @@ tr_russia_exclusive_1 = {
 			add_adm_power = 50
 			add_country_modifier = {
 				name = "russian_autocracy"
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -758,6 +768,7 @@ tr_russia_conquest_2 = {
 	ai = yes
 	potential_on_load = {
 		has_dlc = "Third Rome"
+		NOT = { has_dlc = "Domination" }
 	}
 	potential = {
 		OR = {
@@ -765,6 +776,7 @@ tr_russia_conquest_2 = {
 			tag = RUS
 		}
 		has_dlc = "Third Rome"
+		NOT = { has_dlc = "Domination" }
 		NOT = { map_setup = map_setup_random }
 		has_country_flag = use_paradox_missions
 	}
@@ -801,7 +813,7 @@ tr_russia_conquest_2 = {
 		effect = {
 			add_country_modifier = {
 				name = "conquest_of_finland"
-				duration = -1 
+				duration = 5475
 			}
 		}
 	}
@@ -813,10 +825,12 @@ tr_russia_exclusive_2 = {
 	ai = yes
 	potential_on_load = {
 		has_dlc = "Third Rome"
+		NOT = { has_dlc = "Domination" }
 	}
 	potential = {
 		tag = RUS
 		has_dlc = "Third Rome"
+		NOT = { has_dlc = "Domination" }
 		NOT = { map_setup = map_setup_random }
 		has_country_flag = use_paradox_missions
 	}
@@ -870,7 +884,7 @@ tr_russia_exclusive_2 = {
 				add_base_manpower = 1
 				add_province_modifier = {
 					name = "russian_pacific_port"
-					duration = -1 
+					duration = -1
 				}
 			}
 		}
@@ -933,13 +947,13 @@ tr_russia_exclusive_2 = {
 				}		
 				add_country_modifier = {
 					name = "rus_revolutionary_zeal"
-					duration = -1 
+					duration = -1
 				}
 			}
 			else = {
 				add_country_modifier = {
 					name = "rus_reactionary_zeal"
-					duration = -1 
+					duration = -1
 				}
 			}
 		}
@@ -952,6 +966,7 @@ tr_russia_conquest_3 = {
 	ai = yes
 	potential_on_load = {
 		has_dlc = "Third Rome"
+		NOT = { has_dlc = "Domination" }
 	}
 	potential = {
 		OR = {
@@ -959,6 +974,7 @@ tr_russia_conquest_3 = {
 			tag = RUS
 		}
 		has_dlc = "Third Rome"
+		NOT = { has_dlc = "Domination" }
 		NOT = { map_setup = map_setup_random }
 		has_country_flag = use_paradox_missions
 	}
@@ -1087,7 +1103,7 @@ tr_russia_conquest_3 = {
 				}
 				add_province_modifier = {
 					name = "convert_the_steppes"
-					duration = -1 
+					duration = 5475
 				}
 			}
 			lower_don_area = {
@@ -1096,7 +1112,7 @@ tr_russia_conquest_3 = {
 				}
 				add_province_modifier = {
 					name = "convert_the_steppes"
-					duration = -1 
+					duration = 5475
 				}
 			}
 			astrakhan_area = {
@@ -1105,7 +1121,7 @@ tr_russia_conquest_3 = {
 				}
 				add_province_modifier = {
 					name = "convert_the_steppes"
-					duration = -1 
+					duration = 5475
 				}
 			}
 			saratov_area = {
@@ -1114,7 +1130,7 @@ tr_russia_conquest_3 = {
 				}
 				add_province_modifier = {
 					name = "convert_the_steppes"
-					duration = -1 
+					duration = 5475
 				}
 			}
 			crimea_region = {
@@ -1159,7 +1175,7 @@ tr_russia_conquest_3 = {
 		effect = {
 			add_country_modifier = {
 				name = "controlling_the_steppes"
-				duration = -1 
+				duration = 5475
 			}
 			crimea_region = {
 				limit = {
@@ -1167,7 +1183,7 @@ tr_russia_conquest_3 = {
 				}
 				add_province_modifier = {
 					name = "convert_the_steppes"
-					duration = -1 
+					duration = 5475
 				}
 			}
 		}
@@ -1214,7 +1230,7 @@ tr_russia_conquest_3 = {
 				}
 				add_province_modifier = {
 					name = "siberian_fur_production"
-					duration = -1 
+					duration = 7300
 				}
 			}
 		}
@@ -1244,7 +1260,7 @@ tr_russia_conquest_3 = {
 				}
 				add_province_modifier = {
 					name = "siberian_fur_production"
-					duration = -1 
+					duration = 7300
 				}
 			}
 		}
@@ -1257,10 +1273,12 @@ tr_russia_exclusive_3 = {
 	ai = yes
 	potential_on_load = {
 		has_dlc = "Third Rome"
+		NOT = { has_dlc = "Domination" }
 	}
 	potential = {
 		tag = RUS
 		has_dlc = "Third Rome"
+		NOT = { has_dlc = "Domination" }
 		NOT = { map_setup = map_setup_random }
 		has_country_flag = use_paradox_missions
 	}
@@ -1315,7 +1333,7 @@ tr_russia_exclusive_3 = {
 		effect = {
 			add_country_modifier = {
 				name = "prikazy_modifier"
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -1343,7 +1361,7 @@ tr_russia_exclusive_3 = {
 		effect = {
 			add_country_modifier = {
 				name = "proto_industrialization"
-				duration = -1 
+				duration = 9125
 			}
 			add_years_of_income = 1.5
 		}
@@ -1356,6 +1374,7 @@ tr_siberia_missions = {
 	ai = yes
 	potential_on_load = {
 		has_dlc = "Third Rome"
+		NOT = { has_dlc = "Domination" }
 	}
 	potential = {
 		OR = {
@@ -1363,6 +1382,7 @@ tr_siberia_missions = {
 			tag = RUS
 		}
 		has_dlc = "Third Rome"
+		NOT = { has_dlc = "Domination" }
 		NOT = { map_setup = map_setup_random }
 		has_country_flag = use_paradox_missions
 	}
@@ -1407,28 +1427,28 @@ tr_siberia_missions = {
 				limit = { owned_by = ROOT }
 				add_province_modifier = {
 					name = "convert_the_steppes"
-					duration = -1 
+					duration = 5475
 				}
 			}
 			volga_area = {
 				limit = { owned_by = ROOT }
 				add_province_modifier = {
 					name = "convert_the_steppes"
-					duration = -1 
+					duration = 5475
 				}
 			}
 			kama_area = {
 				limit = { owned_by = ROOT }
 				add_province_modifier = {
 					name = "convert_the_steppes"
-					duration = -1 
+					duration = 5475
 				}
 			}
 			samara_area = {
 				limit = { owned_by = ROOT }
 				add_province_modifier = {
 					name = "convert_the_steppes"
-					duration = -1 
+					duration = 5475
 				}
 			}
 			ural_region = {
@@ -1503,7 +1523,7 @@ tr_siberia_missions = {
 		effect = {
 			add_country_modifier = {
 				name = "controlling_the_steppes"
-				duration = -1 
+				duration = 5475
 			}
 			ural_region = {
 				limit = {
@@ -1511,7 +1531,7 @@ tr_siberia_missions = {
 				}
 				add_province_modifier = {
 					name = "convert_the_steppes"
-					duration = -1 
+					duration = 5475
 				}
 			}
 			west_siberia_region = {
@@ -1520,7 +1540,7 @@ tr_siberia_missions = {
 				}
 				add_province_modifier = {
 					name = "convert_the_steppes"
-					duration = -1 
+					duration = 5475
 				}
 			}
 			nogai_area = {
@@ -1529,7 +1549,7 @@ tr_siberia_missions = {
 				}
 				add_province_modifier = {
 					name = "convert_the_steppes"
-					duration = -1 
+					duration = 5475
 				}
 			}
 			lower_yik_area = {
@@ -1538,7 +1558,7 @@ tr_siberia_missions = {
 				}
 				add_province_modifier = {
 					name = "convert_the_steppes"
-					duration = -1 
+					duration = 5475
 				}
 			}
 		}
@@ -1636,7 +1656,7 @@ tr_siberia_missions = {
 			1043 = {
 				add_province_modifier = {
 					name = "russian_pacific_port"
-					duration = -1 
+					duration = -1
 				}
 			}
 			furdan_area = {
@@ -1688,7 +1708,7 @@ tr_siberia_missions = {
 		effect = {
 			add_country_modifier = {
 				name = "rus_alaska_modifier"
-				duration = -1 
+				duration = 7300
 			}
 			2613 = {
 				change_province_name = "Novo-Arkhangelsk"

@@ -156,7 +156,7 @@ songhai_military_slot = {
 		effect = {
 			add_country_modifier = {
 				name = son_reformed_army_technology
-				duration = -1 
+				duration = -1
 			}
 		}
 		ai_weight = {
@@ -190,7 +190,7 @@ songhai_military_slot = {
 			}
 			add_country_modifier = {
 				name = son_modern_government
-				duration = -1 
+				duration = -1
 			}
 		}
 		ai_weight = {
@@ -281,7 +281,7 @@ songhai_historical_conquest_slot = {
 			2246 = {
 				add_province_modifier = {
 					name = son_foothold_in_enemy_territory
-					duration = -1 
+					duration = 9125
 				}
 			}
 		}
@@ -445,7 +445,7 @@ songhai_historical_conquest_slot = {
 		effect = {
 			add_country_modifier = {
 				name = son_songhaian_empire
-				duration = -1 
+				duration = -1
 			}
 		}
 		ai_weight = {
@@ -923,7 +923,7 @@ songhai_question_mark_slot = {
 					add_local_autonomy = -100
 					add_province_modifier = {
 						name = son_separitism_killer
-						duration = -1 
+						duration = 10950
 					}
 				}
 			}
@@ -943,7 +943,7 @@ songhai_question_mark_slot = {
 			else = {
 				add_country_modifier = {
 					name = son_tolerance_of_old_traditions
-					duration = -1 
+					duration = 9125
 				}
 			}
 		}
@@ -1020,7 +1020,7 @@ songhai_question_mark_slot = {
 			}
 			add_country_modifier = {
 				name = son_religious_scholars
-				duration = -1 
+				duration = 9125
 			}
 			custom_tooltip = son_tolerance_effects_tt
 			custom_tooltip = add_increase_opinion_of_fetishists_tt
@@ -1180,7 +1180,7 @@ songhai_question_mark_slot = {
 			else = {
 				add_country_modifier = {
 					name = son_religious_friends
-					duration = -1 
+					duration = 9125
 				}
 			}
 			custom_tooltip = son_tolerance_effects_tt
@@ -1190,7 +1190,7 @@ songhai_question_mark_slot = {
 			}
 			add_country_modifier = {
 				name = son_defender_of_traditions
-				duration = -1 
+				duration = 9125
 			}
 		}
 	}
@@ -1256,10 +1256,9 @@ songhai_question_mark_slot = {
 		}
 		effect = {
 			custom_tooltip = son_religious_effects_tt
-			add_increase_same_religion_opinion = yes
 			add_country_modifier = {
 				name = son_beacon_of_islam
-				duration = -1 
+				duration = -1
 			}
 			custom_tooltip = son_tolerance_effects_tt
 			country_event = {
@@ -1321,7 +1320,7 @@ songhai_jihad_slot = {
 					add_local_autonomy = -100
 					add_province_modifier = {
 						name = son_separitism_killer
-						duration = -1 
+						duration = 10950
 					}
 				}
 			}
@@ -1366,7 +1365,7 @@ songhai_jihad_slot = {
 			}
 			add_country_modifier = {
 				name = son_religious_scholars
-				duration = -1 
+				duration = 9125
 			}
 		}
 		ai_weight = {
@@ -1525,7 +1524,7 @@ songhai_jihad_slot = {
 			else = {
 				add_country_modifier = {
 					name = son_religious_friends
-					duration = -1 
+					duration = 9125
 				}
 			}
 		}
@@ -1567,10 +1566,9 @@ songhai_jihad_slot = {
 			}
 		}
 		effect = {
-			add_increase_same_religion_opinion = yes
 			add_country_modifier = {
 				name = son_beacon_of_islam
-				duration = -1 
+				duration = -1
 			}
 		}
 		ai_weight = {
@@ -1637,7 +1635,7 @@ songhai_protection_slot = {
 			else = {
 				add_country_modifier = {
 					name = son_tolerance_of_old_traditions
-					duration = -1 
+					duration = 9125
 				}
 			}
 		}
@@ -1750,7 +1748,7 @@ songhai_protection_slot = {
 			}
 			add_country_modifier = {
 				name = son_defender_of_traditions
-				duration = -1 
+				duration = 9125
 			}
 		}
 		ai_weight = {
@@ -1897,7 +1895,7 @@ songhai_money_maker_slot = {
 			hidden_effect = {
 				add_country_modifier = {
 					name = son_salt_cloth_trader
-					duration = -1 
+					duration = 9125
 				}
 			}
 		}
@@ -2017,7 +2015,7 @@ songhai_money_maker_slot = {
 			1132 = {
 				add_trade_modifier = {
 					who = ROOT
-					duration = -1 
+					duration = -1
 					power = 15
 					key = mal_trade_domination
 				}
@@ -2025,7 +2023,7 @@ songhai_money_maker_slot = {
 			1466 = {
 				add_trade_modifier = {
 					who = ROOT
-					duration = -1 
+					duration = -1
 					power = 15
 					key = mal_trade_domination
 				}
@@ -2033,14 +2031,14 @@ songhai_money_maker_slot = {
 			1149 = {
 				add_trade_modifier = {
 					who = ROOT
-					duration = -1 
+					duration = -1
 					power = 15
 					key = mal_trade_domination
 				}
 			}
 			add_country_modifier = {
 				name = mal_protected_economy
-				duration = -1 
+				duration = 9125
 			}
 		}
 		ai_weight = {

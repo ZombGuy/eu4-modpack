@@ -85,6 +85,18 @@ me_ulugh_beg_observatory = {
 			owner = {
 				change_innovativeness = 3
 			}
+			custom_tooltip = " "
+			custom_tooltip = me_tim_grant_1_innovativeness_to_subjects_and_allies
+			hidden_effect = {
+				owner = {
+					every_subject_country = {
+						change_innovativeness = 1
+					}
+					every_ally = {
+						change_innovativeness = 1
+					}
+				}
+			}
 		}
 	}
 
@@ -126,6 +138,18 @@ me_ulugh_beg_observatory = {
 				change_innovativeness = 5
 			}
 			custom_tooltip = me_tim_observatory_conditional_modifier
+			custom_tooltip = " "
+			custom_tooltip = me_tim_grant_3_innovativeness_to_subjects_and_allies
+			hidden_effect = {
+				owner = {
+					every_subject_country = {
+						change_innovativeness = 3
+					}
+					every_ally = {
+						change_innovativeness = 3
+					}
+				}
+			}
 		}
 	}
 }
@@ -233,6 +257,8 @@ me_grand_palace = {
 		}
 		province_modifiers = {
 		}
+		area_modifier = {
+		}
 		region_modifier = {
 			local_tax_modifier = 1 #Tax meta time
 			local_build_time = -0.1
@@ -245,6 +271,19 @@ me_grand_palace = {
 			owner = {
 				every_subject_country = {
 					add_liberty_desire = -30
+				}
+			}
+			custom_tooltip = " "
+			custom_tooltip = me_tim_grant_mana_per_subject
+			hidden_effect = {
+				owner = {
+					every_subject_country = {
+						overlord = {
+							add_adm_power = 25
+							add_dip_power = 25
+							add_mil_power = 25
+						}
+					}
 				}
 			}
 		}
@@ -370,6 +409,8 @@ me_skull_pyramid = {
 			factor = 0
 		}
 		province_modifiers = {
+		}
+		area_modifier = {
 		}
 		region_modifier = {
 			local_governing_cost_increase = -15

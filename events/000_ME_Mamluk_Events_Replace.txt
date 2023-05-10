@@ -117,85 +117,96 @@ country_event = {
 			}
 		}
 		trigger = {
-			event_target:MAM_new_mamluk_target = {
-				exists = yes
+			if = {
+				limit = {
+					has_saved_global_event_target = Caliph_province
+				}
+				event_target:MAM_new_mamluk_target = {
+					exists = yes
+				}
 			}
+			else = { always = no }
 		}
 		
 		add_mil_power = 50
 		add_dip_power = 50
 		add_adm_power = 50
 		
-		trigger_switch = {
-			on_trigger = has_country_flag
-			age_1 = {
-				define_ruler = {
-					culture = event_target:MAM_new_mamluk_target
-					hide_skills = yes
-					age = 30
-				}
+		if = {
+			limit = {
+				has_saved_global_event_target = Caliph_province
 			}
-			age_2 = {
-				define_ruler = {
-					culture = event_target:MAM_new_mamluk_target
-					hide_skills = yes
-					age = 32
-				}
-			}
-			age_3 = {
-				define_ruler = {
-					culture = event_target:MAM_new_mamluk_target
-					hide_skills = yes
-					age = 35
-				}
-			}
-			age_4 = {
-				define_ruler = {
-					culture = event_target:MAM_new_mamluk_target
-					hide_skills = yes
-					age = 40
-				}
-			}
-			age_5 = {
-				define_ruler = {
-					culture = event_target:MAM_new_mamluk_target
-					hide_skills = yes
-					age = 42
-				}
-			}
-			age_6 = {
-				define_ruler = {
-					culture = event_target:MAM_new_mamluk_target
-					hide_skills = yes
-					age = 45
-				}
-			}
-			age_7 = {
-				define_ruler = {
-					culture = event_target:MAM_new_mamluk_target
-					hide_skills = yes
-					age = 50
-				}
-			}
-		}
-		hidden_effect = {
-			if = {
-				limit = {
-					event_target:MAM_new_mamluk_target = {
-						culture = polish
+			trigger_switch = {
+				on_trigger = has_country_flag
+				age_1 = {
+					define_ruler = {
+						culture = event_target:MAM_new_mamluk_target
+						hide_skills = yes
+						age = 30
 					}
 				}
-				country_event = { id = ME_Mamluks_Events.19 days = 30 random = 60  }
-			}
-			else_if = {
-				limit = {
-					event_target:MAM_new_mamluk_target = {
-						culture = greek
+				age_2 = {
+					define_ruler = {
+						culture = event_target:MAM_new_mamluk_target
+						hide_skills = yes
+						age = 32
 					}
 				}
-				country_event = { id = ME_Mamluks_Events.20 days = 30 random = 60  }
+				age_3 = {
+					define_ruler = {
+						culture = event_target:MAM_new_mamluk_target
+						hide_skills = yes
+						age = 35
+					}
+				}
+				age_4 = {
+					define_ruler = {
+						culture = event_target:MAM_new_mamluk_target
+						hide_skills = yes
+						age = 40
+					}
+				}
+				age_5 = {
+					define_ruler = {
+						culture = event_target:MAM_new_mamluk_target
+						hide_skills = yes
+						age = 42
+					}
+				}
+				age_6 = {
+					define_ruler = {
+						culture = event_target:MAM_new_mamluk_target
+						hide_skills = yes
+						age = 45
+					}
+				}
+				age_7 = {
+					define_ruler = {
+						culture = event_target:MAM_new_mamluk_target
+						hide_skills = yes
+						age = 50
+					}
+				}
 			}
-			else = { }
+			hidden_effect = {
+				if = {
+					limit = {
+						event_target:MAM_new_mamluk_target = {
+							culture = polish
+						}
+					}
+					country_event = { id = ME_Mamluks_Events.19 days = 30 random = 60  }
+				}
+				else_if = {
+					limit = {
+						event_target:MAM_new_mamluk_target = {
+							culture = greek
+						}
+					}
+					country_event = { id = ME_Mamluks_Events.20 days = 30 random = 60  }
+				}
+				else = { }
+			}
 		}
 	}
 	

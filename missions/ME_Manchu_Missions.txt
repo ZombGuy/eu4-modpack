@@ -170,7 +170,7 @@ me_manchu_missions_1 = {
 			}
 			add_country_modifier = {
 				name = manchu_northern_hegemony
-				duration = -1
+				duration = 5475
 			}
 		}
 	}
@@ -321,7 +321,7 @@ me_manchu_missions_2 = {
 		effect = {
 			add_country_modifier = {
 				name = manchu_enforced_korean_trade
-				duration = -1
+				duration = 3650
 			}
 		}
 	}
@@ -517,7 +517,7 @@ me_manchu_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = QNG_invasion_of_ming
-				duration = -1
+				duration = 10950 #30 years
 			}
 			north_china_region = {
 				limit = {
@@ -548,7 +548,7 @@ me_manchu_missions_3 = {
 			MNG = {
 				add_country_modifier = {
 					name = manchu_destabilize_ming
-					duration = -1
+					duration = 5475
 				}
 			}
 			south_china_region = {
@@ -709,7 +709,7 @@ me_manchu_missions_4 = {
 			}
 			add_country_modifier = {
 				name = manchu_mongol_horsemen
-				duration = -1
+				duration = 9125
 			}
 		}
 	}
@@ -854,50 +854,23 @@ me_manchu_missions_5 = {
 			grown_by_states = 10
 		}
 		effect = {
-			if = {
-				limit = {
-					is_expanded_mod_active = { mod = governments }
-				}
-				custom_tooltip = mukun_effect_GE.tt
-				tooltip = {
-					capital_scope = {
-						add_province_modifier = {
-							name = manchu_mukun_ge_modifier
-							duration = -1
-						}
-					}
-				}
-				hidden_effect = {
-					every_owned_province = {
-						limit = {
-							culture = manchu_new
-						}
-						add_province_modifier ={
-							name = manchu_mukun_ge_modifier
-							duration = -1
-						}
+			custom_tooltip = mukun_effect.tt
+			tooltip = {
+				capital_scope = {
+					add_province_modifier = {
+						name = manchu_mukun_modifier
+						duration = -1
 					}
 				}
 			}
-			else = {
-				custom_tooltip = mukun_effect.tt
-				tooltip = {
-					capital_scope = {
-						add_province_modifier = {
-							name = manchu_mukun_modifier
-							duration = -1
-						}
+			hidden_effect = {
+				every_owned_province = {
+					limit = {
+						culture = manchu_new
 					}
-				}
-				hidden_effect = {
-					every_owned_province = {
-						limit = {
-							culture = manchu_new
-						}
-						add_province_modifier ={
-							name = manchu_mukun_modifier
-							duration = -1
-						}
+					add_province_modifier ={
+						name = manchu_mukun_modifier
+						duration = -1
 					}
 				}
 			}
@@ -917,7 +890,7 @@ me_manchu_missions_5 = {
 		effect = {
 			add_country_modifier = {
 				name = manchu_close_circle
-				duration = -1
+				duration = 9125
 			}
 		}
 	}

@@ -5,6 +5,7 @@ byz_western = {
 	potential = {
 		tag = BYZ
 		NOT = { map_setup = map_setup_random }
+		has_country_flag = use_paradox_missions
 	}
 	has_country_shield = yes
 	
@@ -46,7 +47,7 @@ byz_western = {
 		effect = {
 			add_country_modifier = {
 				name = "byzantium_resurgent"
-				duration = -1 
+				duration = 5475
 			}
 			bulgaria_area = {
 				limit = {
@@ -140,6 +141,10 @@ byz_western = {
 			}
 		}
 		effect = {
+			if = {
+				limit = { has_reform = byzantine_autocracy_reform }
+				add_government_reform = reformed_byzantine_monarchy_reform
+			}
 			apulia_area = {
 				limit = {
 					NOT = { is_core = ROOT }
@@ -247,7 +252,7 @@ byz_western = {
 		effect = {
 			add_country_modifier = {
 				name = "theme_of_sicily"
-				duration = -1 
+				duration = 5475
 			}
 		}
 		ai_weight = {
@@ -264,6 +269,7 @@ byz_generic_slot_2 = {
 		NOT = { map_setup = map_setup_random }
 		tag = BYZ
 		NOT = { has_dlc = "Purple Phoenix" }
+		has_country_flag = use_paradox_missions
 	}
 	has_country_shield = yes
 	
@@ -281,7 +287,7 @@ byz_generic_slot_2 = {
 		effect = {
 			add_country_modifier = {
 				name = "roman_italy"
-				duration = -1 
+				duration = 5475
 			}
 			venetia_area = {
 				limit = {
@@ -294,7 +300,19 @@ byz_generic_slot_2 = {
 				limit = {
 					NOT = { has_dlc = "Purple Phoenix" }
 				}
-				country_event = { id = flavor_byz.2 }
+				add_country_modifier = {
+					name = "conversion_of_rome"
+					duration = 7300
+				}
+				hidden_effect = {
+					every_country = {
+						limit = { 
+							religion = catholic 
+							knows_country = BYZ
+						}
+						country_event = { id = flavor_byz.2 }
+					}
+				}
 			}
 		}
 		ai_weight = {
@@ -322,7 +340,7 @@ byz_generic_slot_2 = {
 			venetia_area = {
 				add_province_modifier = {
 					name = "faster_integration"
-					duration = -1 
+					duration = 5475
 				}
 			}
 		}
@@ -340,6 +358,7 @@ byz_east = {
 	potential = {
 		NOT = { map_setup = map_setup_random }
 		tag = BYZ
+		has_country_flag = use_paradox_missions
 	}
 	
 	has_country_shield = yes
@@ -459,6 +478,7 @@ byz_generic_slot_5 = {
 		NOT = { map_setup = map_setup_random }
 		tag = BYZ
 		NOT = { has_dlc = "Purple Phoenix" }
+		has_country_flag = use_paradox_missions
 	}
 	has_country_shield = yes
 	
@@ -542,7 +562,7 @@ byz_generic_slot_5 = {
 						
 			add_country_modifier = {
 				name = "the_theme_system"
-				duration = -1 
+				duration = -1
 			}
 		}
 		ai_weight = {
@@ -580,7 +600,7 @@ byz_generic_slot_5 = {
 		effect = {
 			add_country_modifier = {
 				name = "growth_of_the_orthodox_church"
-				duration = -1 
+				duration = 7300
 			}
 			add_patriarch_authority = 0.1
 			add_permanent_claim = 358
@@ -618,7 +638,7 @@ byz_generic_slot_5 = {
 		effect = {
 			add_country_modifier = {
 				name = "healing_the_schism"
-				duration = -1 
+				duration = -1
 			}
 			country_event = { id = catholic_flavor.3 }
 		}

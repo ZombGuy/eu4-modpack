@@ -43,7 +43,7 @@ emp_gen_missions_general = {
 		effect = {
 			add_country_modifier = {
 				name = gen_leader_of_trade_league
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -165,7 +165,7 @@ emp_gen_missions_general_2 = {
 			101 = { add_base_tax = 2 }
 			add_country_modifier = {
 				name = gen_prosperous_republic
-				duration = -1 
+				duration = 7300
 			}
 		}
 		ai_weight = {
@@ -294,7 +294,7 @@ emp_gen_missions_general_2 = {
 		effect = {
 			add_country_modifier = {
 				name = gen_achieved_mare_nostrum
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -414,7 +414,7 @@ emp_gen_missions_western_med = {
 			1298 = {
 				add_trade_modifier = {
 					who = GEN
-					duration = -1 
+					duration = 7300
 					power = 50
 					key = gen_dominance_of_tyrrhennian
 				}
@@ -541,12 +541,12 @@ emp_gen_missions_western_med = {
 					}
 					add_country_modifier = {
 						name = gen_spanish_alliance_modifier
-						duration = -1 
+						duration = 7300
 					}
 					1295 = {
 						add_trade_modifier = {
 							who = root
-							duration = -1 
+							duration = 7300
 							power = 30
 							key = gen_trade_spanish_alliance
 						}
@@ -569,12 +569,12 @@ emp_gen_missions_western_med = {
 					}
 					add_country_modifier = {
 						name = gen_spanish_alliance_modifier
-						duration = -1 
+						duration = 7300
 					}
 					1295 = {
 						add_trade_modifier = {
 							who = root
-							duration = -1 
+							duration = 7300
 							power = 30
 							key = gen_trade_spanish_alliance
 						}
@@ -604,12 +604,12 @@ emp_gen_missions_western_med = {
 					}
 					add_country_modifier = {
 						name = gen_victory_over_spain
-						duration = -1 
+						duration = 7300
 					}
 					1295 = {
 						add_trade_modifier = {
 							who = root
-							duration = -1 
+							duration = 7300
 							power = 30
 							key = gen_trade_spanish_conquest
 						}
@@ -653,12 +653,12 @@ emp_gen_missions_western_med = {
 					}
 					add_country_modifier = {
 						name = gen_spanish_alliance_modifier
-						duration = -1 
+						duration = 7300
 					}
 					1295 = {
 						add_trade_modifier = {
 							who = root
-							duration = -1 
+							duration = 7300
 							power = 30
 							key = gen_trade_spanish_alliance
 						}
@@ -697,12 +697,12 @@ emp_gen_missions_western_med = {
 					}
 					add_country_modifier = {
 						name = gen_victory_over_spain
-						duration = -1 
+						duration = 7300
 					}
 					1295 = {
 						add_trade_modifier = {
 							who = root
-							duration = -1 
+							duration = 7300
 							power = 30
 							key = gen_trade_spanish_conquest
 						}
@@ -734,12 +734,12 @@ emp_gen_missions_western_med = {
 					}
 					add_country_modifier = {
 						name = gen_victory_over_spain
-						duration = -1 
+						duration = 7300
 					}
 					1295 = {
 						add_trade_modifier = {
 							who = root
-							duration = -1 
+							duration = 7300
 							power = 30
 							key = gen_trade_spanish_conquest
 						}
@@ -781,7 +781,7 @@ emp_gen_missions_western_med_2 = {
 		effect = {
 			add_country_modifier = {
 				name = gen_ascendant_force
-				duration = -1 
+				duration = 7300
 			}
 			venetia_area = {
 				limit = {
@@ -812,7 +812,7 @@ emp_gen_missions_western_med_2 = {
 			1308 = {
 				add_trade_modifier = {
 					who = GEN
-					duration = -1 
+					duration = 7300
 					power = 50
 					key = gen_ambitions_on_venice
 				}
@@ -855,7 +855,7 @@ emp_gen_missions_western_med_2 = {
 			}
 			add_country_modifier = {
 				name = gen_dominant_trader
-				duration = -1 
+				duration = 10950	
 			}
 		}
 	}

@@ -1,8 +1,17 @@
 cb_swabia_add_provinces_back_to_hre = {
 	valid_for_subject = no
 	
-	prerequisites = {
+	prerequisites_self = {
 		is_emperor = yes
+		OR = {
+			mission_completed = SWA_Low_countries
+			mission_completed = SWA_North_italy
+			mission_completed = SWA_South_italy
+			mission_completed = SWA_France
+		}
+	}
+	
+	prerequisites = {
 		NOT = { truce_with = FROM }
 		FROM = {
 			is_subject = no

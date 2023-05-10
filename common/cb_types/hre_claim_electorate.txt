@@ -1,10 +1,13 @@
 cb_hre_claim_electorate = {
 	valid_for_subject = no
+	
+	prerequisites_self = {
+		has_country_flag = emperor_claim_electorate_approved
+		is_part_of_hre = yes
+	}
 
 	prerequisites = {
 		NOT = { truce_with = FROM }
-		has_country_flag = emperor_claim_electorate_approved
-		is_part_of_hre = yes
 		FROM = {
 			is_part_of_hre = yes
 			is_subject = no

@@ -40,7 +40,7 @@ FRN_Missions_1 = {
 				add_or_upgrade_trade_building = yes
 				add_trade_modifier = {
 					who = ROOT
-					duration = -1 
+					duration = -1
 					power = 10
 					key = FRN_income
 				}
@@ -64,7 +64,7 @@ FRN_Missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = FRN_dissemination_of_knowledge
-				duration = -1 
+				duration = 10950
 			}
 		}
 	}
@@ -84,7 +84,7 @@ FRN_Missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = FRN_bethmann
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -158,7 +158,7 @@ FRN_Missions_3 = {
 			1876 = {
 				add_province_modifier = {
 					name = FRN_imperial_capital
-					duration = -1 
+					duration = -1
 				}
 			}
 			add_prestige_or_monarch_power = { amount = 10 }

@@ -159,7 +159,7 @@ QIR_missions_1_sedentary = {
 			
 			add_country_modifier = {
 				name = QIR_tribes_of_anatolia
-				duration = -1
+				duration = 10950
 			}
 		}
 	}
@@ -681,7 +681,7 @@ QIR_missions_2_sedentary = {
 			
 			add_country_modifier = {
 				name = QIR_cornucopia
-				duration = -1
+				duration = 7300
 			}
 		}
 	}
@@ -878,7 +878,7 @@ QIR_missions_3_sedentary = {
 		effect = {
 			add_country_modifier = {
 				name = QIR_supporting_the_tribes
-				duration = -1
+				duration = 10950 
 			}
 			
 			add_stability_or_adm_power = yes
@@ -1093,7 +1093,7 @@ QIR_missions_3_sedentary = {
 		effect = {
 			add_country_modifier = {
 				name = QIR_manor_culture
-				duration = -1
+				duration = 10950 
 			}
 			
 			custom_tooltip = " "
@@ -1264,7 +1264,7 @@ QIR_missions_4_sedentary = {
 			
 			add_country_modifier = {
 				name = QIR_further_our_conquests
-				duration = -1
+				duration = 9125
 			}
 		}
 	}
@@ -1543,7 +1543,11 @@ QIR_missions_4_sedentary = {
 								value = 15
 							}
 						}
-						add_tribal_allegiance = 45
+						add_government_power = {
+							mechanic_type = tribal_federation_mechanic
+							power_type = tribal_allegiance
+							value = 45
+						}
 					}
 					else = {
 						every_owned_province = {
@@ -1551,7 +1555,11 @@ QIR_missions_4_sedentary = {
 								has_manpower_building_trigger = yes
 							}
 							ROOT = {
-								add_tribal_allegiance = 3
+								add_government_power = {
+									mechanic_type = tribal_federation_mechanic
+									power_type = tribal_allegiance
+									value = 3
+								}
 							}
 						}
 					}
@@ -1564,7 +1572,7 @@ QIR_missions_4_sedentary = {
 			
 			add_country_modifier = {
 				name = QIR_standing_army_modifier
-				duration = -1
+				duration = 5475
 			}
 		}
 	}
@@ -1603,7 +1611,7 @@ QIR_missions_4_sedentary = {
 			else = {
 				add_country_modifier = {
 					name = QIR_elite_cossacks_modifier_no_Dlc
-					duration = -1
+					duration = 10950
 				}
 			}
 		}	
@@ -1760,7 +1768,7 @@ QIR_missions_5_sedentary = {
 			tooltip = {
 				add_province_modifier = {
 					name = QIR_gems_and_dates
-					duration = -1
+					duration = 7300
 				}
 			}
 			hidden_effect = {
@@ -1780,7 +1788,7 @@ QIR_missions_5_sedentary = {
 					}
 					add_province_modifier = {
 						name = QIR_gems_and_dates
-						duration = -1
+						duration = 7300
 					}
 				}
 			}
@@ -1830,7 +1838,7 @@ QIR_missions_5_sedentary = {
 			
 			add_country_modifier = {
 				name = QIR_new_cabinet
-				duration = -1
+				duration = 10950
 			}
 			
 			add_adm_power = 100
@@ -1894,7 +1902,7 @@ QIR_missions_5_sedentary = {
 		effect = {
 			add_country_modifier = {
 				name = QIR_cool_artillery
-				duration = -1
+				duration = 9125
 			}
 			
 			create_general_with_pips = {
@@ -1943,7 +1951,11 @@ QIR_missions_5_sedentary = {
 								value = 15
 							}
 						}
-						add_tribal_allegiance = 75
+						add_government_power = {
+							mechanic_type = tribal_federation_mechanic
+							power_type = tribal_allegiance
+							value = 75
+						}
 					}
 					else = {
 						every_owned_province = {
@@ -1951,7 +1963,11 @@ QIR_missions_5_sedentary = {
 								has_forcelimit_building_trigger = yes
 							}
 							ROOT = {
-								add_tribal_allegiance = 5
+								add_government_power = {
+									mechanic_type = tribal_federation_mechanic
+									power_type = tribal_allegiance
+									value = 5
+								}
 							}
 						}
 					}
@@ -2028,7 +2044,7 @@ QIR_missions_1_tribal = {
 		effect = {
 			add_country_modifier = {
 				name = QIR_blow_to_the_ottoman_empire
-				duration = -1
+				duration = 10950
 			}
 			
 			ME_add_power_projection = { amount = 10 }
@@ -2174,7 +2190,7 @@ QIR_missions_2_tribal = {
 			
 			add_country_modifier = {
 				name = QIR_ferocious_push_south
-				duration = -1
+				duration = 7300
 			}
 		}
 	}
@@ -2256,7 +2272,11 @@ QIR_missions_2_tribal = {
 			custom_tooltip = QIR_reward_if_done_via_conquest
 			tooltip = {
 				add_adm_power = 100
-				add_tribal_allegiance = 35
+				add_government_power = {
+					mechanic_type = tribal_federation_mechanic
+					power_type = tribal_allegiance
+					value = 35
+				}
 			}
 			
 			hidden_effect = {
@@ -2320,7 +2340,11 @@ QIR_missions_2_tribal = {
 				}
 				else = {
 					add_adm_power = 100
-					add_tribal_allegiance = 35
+					add_government_power = {
+						mechanic_type = tribal_federation_mechanic
+						power_type = tribal_allegiance
+						value = 35
+					}
 				}
 			}
 		}
@@ -2363,7 +2387,7 @@ QIR_missions_2_tribal = {
 	
 	QIR_demand_oaths_of_loyalty = {
 		icon = mission_abu_saids_dream
-		required_missions = { QIR_wind_of_change }
+		required_missions = { QIR_wind_of_change QIR_raze }
 		position = 16
 		provinces_to_highlight = {
 		}
@@ -2385,7 +2409,11 @@ QIR_missions_2_tribal = {
 				limit = {
 					ME_tribal_federation_trigger = yes 
 				}
-				tribal_allegiance = 90
+				has_government_power = {
+					mechanic_type = tribal_federation_mechanic
+					power_type = tribal_allegiance
+					value = 90
+				}
 			}
 			
 			if = {
@@ -2451,7 +2479,11 @@ QIR_missions_2_tribal = {
 				}
 				custom_tooltip = QIR_privilege_for_expansion
 				custom_tooltip = " "
-				add_tribal_allegiance = 25
+				add_government_power = {
+					mechanic_type = tribal_federation_mechanic
+					power_type = tribal_allegiance
+					value = 25
+				}
 				custom_tooltip = " "
 			}
 			set_country_flag = QIR_privilege_for_expansion_flag
@@ -2642,7 +2674,7 @@ QIR_missions_3_tribal = {
 				tooltip = {
 					add_province_modifier = {
 						name = QIR_free_fort
-						duration = -1
+						duration = 36500
 					}
 				}
 			}
@@ -2668,7 +2700,7 @@ QIR_missions_3_tribal = {
 						}
 						add_province_modifier = {
 							name = QIR_free_fort
-							duration = -1
+							duration = 36500
 						}
 					}
 				}
@@ -2684,7 +2716,7 @@ QIR_missions_3_tribal = {
 						}
 						add_province_modifier = {
 							name = QIR_free_fort
-							duration = -1
+							duration = 36500
 						}
 					}
 				}
@@ -2700,7 +2732,7 @@ QIR_missions_3_tribal = {
 						}
 						add_province_modifier = {
 							name = QIR_free_fort
-							duration = -1
+							duration = 36500
 						}
 					}
 				}
@@ -2716,7 +2748,7 @@ QIR_missions_3_tribal = {
 						}
 						add_province_modifier = {
 							name = QIR_free_fort
-							duration = -1
+							duration = 36500
 						}
 					}
 				}
@@ -2732,7 +2764,7 @@ QIR_missions_3_tribal = {
 						}
 						add_province_modifier = {
 							name = QIR_free_fort
-							duration = -1
+							duration = 36500
 						}
 					}
 				}
@@ -2795,7 +2827,7 @@ QIR_missions_4_tribal = {
 			
 			add_country_modifier = {
 				name = QIR_expansion_into_eastern_persia
-				duration = -1
+				duration = 10950
 			}
 		}
 	}
@@ -2935,7 +2967,7 @@ QIR_missions_4_tribal = {
 			tooltip = {
 				add_country_modifier = {
 					name = QIR_dynamic_recruitment
-					duration = -1
+					duration = 5475
 				}
 			}
 			hidden_effect = {
@@ -2945,7 +2977,7 @@ QIR_missions_4_tribal = {
 					}
 					add_country_modifier = {
 						name = QIR_dynamic_recruitment
-						duration = -1
+						duration = 5475
 					}
 				}
 			}
@@ -3026,7 +3058,7 @@ QIR_missions_5_tribal = {
 			
 			add_country_modifier = {
 				name = QIR_tribute_from_arabia
-				duration = -1
+				duration = 5475
 			}
 		}
 	}
@@ -3057,7 +3089,7 @@ QIR_missions_5_tribal = {
 		effect = {
 			add_country_modifier = {
 				name = QIR_baluchistan_modifier
-				duration = -1
+				duration = 9125
 			}
 			
 			makran_area = {
@@ -3107,7 +3139,7 @@ QIR_missions_5_tribal = {
 			else = {
 				add_country_modifier = {
 					name = QIR_tribal_register_modifier
-					duration = -1
+					duration = 9125
 				}
 			}
 		}

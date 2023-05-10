@@ -63,7 +63,7 @@ KOR_missions_1 = {
 			add_adm_power = 50
 			add_country_modifier = {
 				name = KOR_Harmony
-				duration = -1
+				duration = 10950
 			}
 		}
 	}
@@ -117,7 +117,7 @@ KOR_missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = KOR_Hwacha
-				duration = -1
+				duration = 18250
 			}
 		}
 	}
@@ -136,7 +136,7 @@ KOR_missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = KOR_militarized
-				duration = -1
+				duration = 10950
 			}
 			jilin_area = {
 				limit = {
@@ -337,7 +337,7 @@ KOR_missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = KOR_wall_relieved
-				duration = -1
+				duration = 7300
 			}
 		}
 	}
@@ -413,7 +413,7 @@ KOR_missions_2 = {
 			eastern_korea_area = {
 				add_province_modifier = {
 					name = KOR_direct_rule_from_hanseong
-					duration = -1
+					duration = 9125
 				}
 			}
 		}
@@ -450,7 +450,7 @@ KOR_missions_2 = {
 			}
 			add_country_modifier = {
 				name = KOR_wannabe_literatis
-				duration = -1
+				duration = 7300
 			}
 		}
 	}
@@ -495,16 +495,9 @@ KOR_missions_2 = {
 			army_tradition = 20
 		}
 		effect = {
-			if = {
-				limit = {
-					is_expanded_mod_active = { mod = governments }
-				}
-				custom_tooltip = KOR_REFUND_REFORM_PROGRESS
-				set_country_flag = KOR_GE_refund
-			}
 			add_country_modifier = {
 				name = KOR_mobile_army
-				duration = -1
+				duration = 10950
 			}
 		}
 	}
@@ -577,16 +570,9 @@ KOR_missions_2 = {
 			}
 		}
 		effect = {
-			if = {
-				limit = {
-					is_expanded_mod_active = { mod = governments }
-					has_reform = jaeseungbangryak_reform
-				}
-				country_event = { id = ME_Korea_Events.49 }
-			}
 			add_country_modifier = {
 				name = KOR_modernizing_army
-				duration = -1
+				duration = 10950
 			}
 		}
 	}
@@ -695,12 +681,12 @@ KOR_missions_2 = {
 		effect = {
 			add_country_modifier = {
 				name = KOR_beijing_conquered
-				duration = -1
+				duration = 7300
 			}
 			1816 = {
 				add_trade_modifier = {
 					who = ROOT
-					duration = -1
+					duration = 9125
 					power = 25
 					key = KOR_dominion_over_yellow_sea
 				}
@@ -708,7 +694,7 @@ KOR_missions_2 = {
 			735 = {
 				add_trade_modifier = {
 					who = ROOT
-					duration = -1
+					duration = 9125
 					power = 25
 					key = KOR_dominion_over_yellow_sea
 				}
@@ -1294,7 +1280,7 @@ KOR_missions_4 = {
 		effect = {
 			add_country_modifier = {
 				name = KOR_trade_of_hanseong_modifier
-				duration = -1
+				duration = 9125
 			}
 		}
 	}
@@ -1315,7 +1301,7 @@ KOR_missions_4 = {
 		effect = {
 			add_country_modifier = {
 				name = KOR_the_merchant_caste_forming
-				duration = -1
+				duration = 7300
 			}
 		}
 	}
@@ -1366,7 +1352,7 @@ KOR_missions_4 = {
 		effect = {
 			add_country_modifier = {
 				name = KOR_international_trade
-				duration = -1
+				duration = 10950
 			}
 			if = {
 				limit = {
@@ -1434,7 +1420,7 @@ KOR_missions_4 = {
 				}
 				add_province_modifier = {
 					name = KOR_attrition
-					duration = -1
+					duration = 9125
 				}
 			}
 			hamgyeong_area = {
@@ -1443,7 +1429,7 @@ KOR_missions_4 = {
 				}
 				add_province_modifier = {
 					name = KOR_attrition
-					duration = -1
+					duration = 9125
 				}
 			}
 		}
@@ -1618,7 +1604,7 @@ KOR_missions_5 = {
 					}
 					add_province_modifier = {
 						name = KOR_industry
-						duration = -1
+						duration = 9125
 					}
 				}
 			}
@@ -1636,7 +1622,7 @@ KOR_missions_5 = {
 			add_years_of_income = 1.5
 			add_country_modifier = {
 				name = "proto_industrialization"
-				duration = -1
+				duration = 9125
 			}
 		}
 	}
@@ -1770,7 +1756,7 @@ KOR_missions_5 = {
 			}
 			add_country_modifier = {
 				name = KOR_dominance_in_the_strait
-				duration = -1
+				duration = 10950
 			}
 			sanindo_area = {
 				limit = {
@@ -2120,7 +2106,7 @@ KOR_missions_2_Daehan = {
 			add_stability_or_adm_power = yes
 			add_country_modifier = {
 				name = KOR_centralization
-				duration = -1
+				duration = 10950
 			}
 		}
 	}
@@ -2221,7 +2207,7 @@ KOR_missions_3_Daehan = {
 		effect = {
 			add_country_modifier = {
 				name = KOR_new_prospects_modifier
-				duration = -1
+				duration = 9125
 			}
 		}
 	}
@@ -2631,7 +2617,7 @@ KOR_missions_5_Daehan = {
 		effect = {
 			add_country_modifier = {
 				name = KOR_dealing_with_waegu
-				duration = -1
+				duration = 10950
 			}
 		}
 	}
@@ -2712,7 +2698,7 @@ KOR_missions_1_Colonial = {
 		effect = {
 			add_country_modifier = {
 				name = KOR_saboteurs
-				duration = -1
+				duration = 10950
 			}
 			custom_tooltip = KOR_CLAIM_ON_ALL_CENTERS_OF_TRADE
 			hidden_effect = {
@@ -2935,7 +2921,7 @@ KOR_missions_2_Colonial = {
 				trade_goods = spices
 				key = KOR_korean_trade
 				value = 0.2
-				duration = -1
+				duration = 9125
 			}
 			596 = {
 				add_trade_node_income = 60
@@ -3326,7 +3312,7 @@ KOR_missions_4_Colonial = {
 			add_prestige_or_monarch_power = { amount = 25 }
 			add_country_modifier = {
 				name = KOR_fusang_found
-				duration = -1
+				duration = 9125
 			}
 		}
 	}
@@ -3443,7 +3429,7 @@ KOR_missions_5_Colonial = {
 			create_conquistador = { tradition = 20 }
 			add_country_modifier = {
 				name = KOR_colonial_enthusiasm #Colonial Enthusiasm that stacks :)
-				duration = -1
+				duration = 10950
 			}
 		}
 	}

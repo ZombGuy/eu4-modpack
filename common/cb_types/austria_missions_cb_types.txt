@@ -1,9 +1,12 @@
 cb_order_in_the_empire = {
 	valid_for_subject = no
 	
-	prerequisites = {
+	prerequisites_self = {
 		is_emperor = yes
 		has_country_flag = me_hab_reformation_cb
+	}
+	
+	prerequisites = {
 		NOT = { religion = FROM }
 		FROM = { is_part_of_hre = yes }
 	}

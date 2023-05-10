@@ -592,6 +592,9 @@ country_event = {
 
 country_event = {
 	id = ME_Timurid_Princes_Event.15
+	title = ME_Timurid_Princes_Event.15.t
+	desc = ME_Timurid_Princes_Event.15.d
+	picture = KING_SICK_IN_BED_eventPicture
 
 	hidden = yes
 	is_triggered_only = yes
@@ -609,6 +612,9 @@ country_event = {
 
 country_event = {
 	id = ME_Timurid_Princes_Event.16
+	title = ME_Timurid_Princes_Event.16.t
+	desc = ME_Timurid_Princes_Event.16.d
+	picture = KING_SICK_IN_BED_eventPicture
 
 	hidden = yes
 	is_triggered_only = yes
@@ -628,6 +634,7 @@ country_event = { #Timurid Demands
 	id = ME_Timurid_Princes_Event.17
 	title = ME_Timurid_Princes_Event.17.t
 	desc = ME_Timurid_Princes_Event.17.d
+	picture = KING_SICK_IN_BED_eventPicture
 	
 	is_triggered_only = yes
 
@@ -927,7 +934,7 @@ country_event = { #A Plot
 		hidden_effect = {
 			random_neighbor_country = {
 				limit = {
-					government = horde
+					government = tribal #Well, or the government attribute
 				}
 				country_event = { id = ME_Timurid_Princes_Event.25 days = 10 }
 			}

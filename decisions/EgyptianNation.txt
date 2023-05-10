@@ -64,14 +64,11 @@ country_decisions = {
 				move_capital_effect = yes
 			}
 			change_tag = MAM
+			on_change_tag_effect = yes
 			swap_non_generic_missions = yes
 			if = {
-				limit = { has_regency = no }
-				kill_ruler = yes
-			}
-			if = {
-				limit = { has_heir = yes }
-				kill_heir = {}
+				limit = { NOT = { government_rank = 2 } }
+				set_government_rank = 2
 			}
 			MAM = {
 				if = {
@@ -80,9 +77,8 @@ country_decisions = {
 							government = monarchy
 						}
 					}
-					change_government_to_monarchy = yes
+					change_government = monarchy
 				}
-				set_government_rank = 2
 				add_government_reform = mamluk_government
 				add_country_modifier = {
 					name = "centralization_modifier"
@@ -102,6 +98,14 @@ country_decisions = {
 					add_permanent_claim = MAM
 				}
 				set_country_flag = formed_mamluks
+				if = {
+					limit = { has_regency = no }
+					kill_ruler = yes
+				}
+				if = {
+					limit = { has_heir = yes }
+					kill_heir = {}
+				} 
 			}
 		}
 		ai_will_do = {

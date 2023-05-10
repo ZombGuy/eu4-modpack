@@ -8,7 +8,7 @@ country_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		NOT = { mission_completed = golden_horde_salt_production }
+		#NOT = { mission_completed = golden_horde_salt_production }
 		salt = 1
 		NOT = { has_country_modifier = salt_crisis }
 	}

@@ -19,8 +19,11 @@ cb_granada_fight_crusaders = {
 cb_andalusia_convert_fetishists = {
 	valid_for_subject = no
 	
-	prerequisites = {
+	prerequisites_self = {
 		has_country_flag = GRA_cb_on_fetishists_flag
+	}
+	
+	prerequisites = {
 		FROM = {
 			religion = shamanism 
 			capital_scope = {
@@ -39,9 +42,11 @@ cb_andalusia_convert_fetishists = {
 cb_fight_caliph_holder = {
 	valid_for_subject = no
 	
+	prerequisites_self = {
+		has_country_flag = TUN_cb_on_caliphate_holder_flag
+	}
 	
 	prerequisites = {
-		has_country_flag = TUN_cb_on_caliphate_holder_flag
 		FROM = {
 			ME_has_abbasid_caliph = yes
 		}
@@ -53,12 +58,15 @@ cb_fight_caliph_holder = {
 cb_oran_fatwa = {
 	valid_for_subject = no
 	
-	prerequisites = {
+	prerequisites_self = {
 		capital_scope = {
 			region = maghreb_region
 		}
 		religion_group = muslim
 		has_global_flag = TUN_oran_fatwa_issued
+	}
+	
+	prerequisites = {
 		FROM = {
 			religion_group = christian
 		}
@@ -73,9 +81,12 @@ cb_oran_fatwa = {
 
 cb_tunis_capture_islands = {
 	valid_for_subject = no
-		
-	prerequisites = {
+	
+	prerequisites_self = {
 		has_country_flag = TUN_cb_on_the_island_nations_flag
+	}
+	
+	prerequisites = {
 		OR = {
 			aegean_archipelago_area = { owned_by = FROM }
 			163 = { owned_by = FROM }

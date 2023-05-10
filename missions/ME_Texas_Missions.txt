@@ -134,25 +134,25 @@ texas_missions_1 = {
 			2498 = {
 				add_province_modifier = {
 					name = tex_rio_grandean_navigation
-					duration = -1 
+					duration = -1
 				}
 			}
 			2499 = {
 				add_province_modifier = {
 					name = tex_rio_grandean_navigation
-					duration = -1 
+					duration = -1
 				}
 			}
 			2666 = {
 				add_province_modifier = {
 					name = tex_rio_grandean_navigation
-					duration = -1 
+					duration = -1
 				}
 			}
 			2668 = {
 				add_province_modifier = {
 					name = tex_rio_grandean_navigation
-					duration = -1 
+					duration = -1
 				}
 			}
 			4628 = {
@@ -160,7 +160,7 @@ texas_missions_1 = {
 				rename_capital = "El Paso"
 				add_province_modifier = {
 					name = tex_rio_grandean_navigation
-					duration = -1 
+					duration = -1
 				}
 			}
 		}
@@ -348,7 +348,7 @@ texas_missions_2_native = {
 		effect = {
 			add_country_modifier = {
 				name = tex_assimilation_natives
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -420,7 +420,7 @@ texas_missions_2_tex = {
 		effect = {
 			add_country_modifier = {
 				name = tex_settle_natives_lands
-				duration = -1 
+				duration = 12775
 			}
 		}
 	}
@@ -442,7 +442,7 @@ texas_missions_2_tex = {
 		effect = {
 			add_country_modifier = {
 				name = tex_culturally_united_texas
-				duration = -1 
+				duration = 12775
 			}
 		}
 	}
@@ -487,13 +487,13 @@ texas_missions_3 = {
 			texas_area = {
 				add_province_modifier = {
 					name = tex_purified_texas
-					duration = -1 
+					duration = 10950
 				}
 			}
 			coastal_prarie_area = {
 				add_province_modifier = {
 					name = tex_purified_texas
-					duration = -1 
+					duration = 10950
 				}
 			}
 		}
@@ -529,7 +529,7 @@ texas_missions_3 = {
 			}
 			add_country_modifier = {
 				name = tex_gulf_trade
-				duration = -1 
+				duration = 10950
 			}
 		}
 	}
@@ -579,7 +579,7 @@ texas_missions_3 = {
 			1551 = {
 				add_trade_modifier = {
 					who = ROOT
-					duration = -1 
+					duration = 14600
 					power = 40
 					key = tex_texan_dominance_mexico
 				}
@@ -654,7 +654,7 @@ texas_missions_3 = {
 				north_america = {
 					add_trade_modifier = {
 						who = THIS
-						duration = -1 
+						duration = 10950
 						power = -15
 						key = tex_merchants_outcompeted
 					}
@@ -732,12 +732,12 @@ texas_missions_4 = {
 		effect = {
 			add_country_modifier = {
 				name = tex_diplomatic_enterprise
-				duration = -1 
+				duration = 10950
 			}
 			capital_scope = {
 				add_province_modifier = {
 					name = tex_shining_fort_capital
-					duration = -1 
+					duration = 9125
 				}
 			}
 		}
@@ -769,7 +769,7 @@ texas_missions_4 = {
 		effect = {
 			add_country_modifier = {
 				name = tex_ranches_new_mexico
-				duration = -1 
+				duration = 7300
 			}
 			california_region = { discover_country = ROOT }
 		}
@@ -809,7 +809,7 @@ texas_missions_4 = {
 			}
 			add_country_modifier = {
 				name = tex_centralization_texas
-				duration = -1 
+				duration = 14600
 			}
 		}
 	}
@@ -882,14 +882,14 @@ texas_missions_4 = {
 			2479 = {
 				add_province_modifier = {
 					name = tex_texan_gold_mines
-					duration = -1 
+					duration = -1
 				}
 			}
 			2480 = {
 				create_or_add_center_of_trade_level = { level = 1 }
 				add_province_modifier = {
 					name = tex_texan_gold_mines
-					duration = -1 
+					duration = -1
 				}
 			}
 		}
@@ -929,7 +929,7 @@ texas_missions_5 = {
 			add_army_tradition = 10
 			add_country_modifier = {
 				name = tex_army_people
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -950,7 +950,7 @@ texas_missions_5 = {
 			change_mil = 1
 			add_country_modifier = {
 				name = tex_professionalize_rangers
-				duration = -1 
+				duration = 12775
 			}
 		}
 	}

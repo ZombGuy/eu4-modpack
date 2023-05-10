@@ -28,7 +28,7 @@ defined_text = {
 	text = {
 		localisation_key = ME_herat
 		trigger = {
-			tag = HRT
+			tag = HER
 		}
 	}
 	text = {

@@ -113,14 +113,12 @@ me_schonbrunn_palace = {
 		country_modifiers = {
 			all_estate_loyalty_equilibrium = 0.05
 			diplomatic_reputation = 1
+			monthly_habsburg_glory_power = 0.1
 		}
 
 		#what effects happen when this tier is achieved
 		on_upgraded = {
-			custom_tooltip = me_gain_one_habsburg_splendor
-			hidden_effect = {
-				province_event = { id = me_monuments.2 }
-			}
+
 		}
 	}
 
@@ -151,11 +149,11 @@ me_schonbrunn_palace = {
 		country_modifiers = {
 			all_estate_loyalty_equilibrium = 0.1
 			diplomatic_reputation = 1
+			monthly_habsburg_glory_power = 0.25
 		}
 
 		#what effects happen when this tier is achieved
 		on_upgraded = {
-			custom_tooltip = me_gain_two_habsburg_splendor
 			add_base_tax = 1
 			add_base_production = 1
 			add_base_manpower = 1
@@ -190,11 +188,11 @@ me_schonbrunn_palace = {
 			all_estate_loyalty_equilibrium = 0.1
 			diplomatic_reputation = 2
 			reasons_to_elect = 20
+			monthly_habsburg_glory_power = 0.5
 		}
 
 		#what effects happen when this tier is achieved
 		on_upgraded = {
-			custom_tooltip = me_gain_five_habsburg_splendor
 			add_base_tax = 1
 			add_base_production = 1
 			add_base_manpower = 1

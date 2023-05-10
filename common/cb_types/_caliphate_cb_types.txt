@@ -1,8 +1,11 @@
 cb_take_caliphate = {
 	valid_for_subject = no
 
-	prerequisites = {
+	prerequisites_self = {
 		is_subject = no
+	}
+	
+	prerequisites = {
 		is_neighbor_of = FROM
 		OR = {
 			AND = {

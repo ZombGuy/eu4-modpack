@@ -48,7 +48,7 @@ KLE_Missions_1 = {
 			}
 			add_country_modifier = {
 				name = KLE_participant_in_the_gelder_wars
-				duration = -1 
+				duration = 9125
 			}
 			ME_override_country_name = { name = BRGKLE }
 		}
@@ -81,7 +81,7 @@ KLE_Missions_1 = {
 			}
 			add_country_modifier = {
 				name = KLE_participant_in_the_gelder_wars
-				duration = -1 
+				duration = 10950
 			}
 		}
 	}
@@ -125,14 +125,14 @@ KLE_Missions_4 = {
 				}
 				add_country_modifier = {
 					name = KLE_triumph_over_cologne
-					duration = -1 
+					duration = 9125
 				}
 			}
 			custom_tooltip = KLE_if_vassal
 			tooltip = {
 				add_country_modifier = {
 					name = KLE_lordship_over_soest
-					duration = -1 
+					duration = 10950
 				}
 				82 = {
 					add_base_tax = 1
@@ -175,7 +175,7 @@ KLE_Missions_5 = {
 		effect = {
 			add_country_modifier = {
 				name = BRG_geheimer_rat_fur_die_mark
-				duration = -1 
+				duration = 10950
 			}
 		}
 	}

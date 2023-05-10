@@ -44,7 +44,7 @@ saxony_missions_slot_1 = {
 			62 = {
 				add_province_modifier = {
 					name = saxony_leipziger_reichsmesse_province_modifier
-					duration = -1 
+					duration = -1
 				}
 			}
 		}
@@ -75,7 +75,7 @@ saxony_missions_slot_1 = {
 			62 = {
 				add_province_modifier = {
 					name = saxony_leipziger_buchmesse_province_modifier
-					duration = -1 
+					duration = -1
 				}
 			}
 		}
@@ -175,11 +175,11 @@ saxony_missions_slot_1 = {
 			add_accepted_culture_or_dip_power = { culture = polish }
 			add_country_modifier = {
 				name = saxony_integrate_poland_modifier_1
-				duration = -1 
+				duration = -1
 			}
 			add_country_modifier = {
 				name = saxony_integrate_poland_modifier_2
-				duration = -1 
+				duration = 10950
 			}
 		}
 	}
@@ -215,7 +215,7 @@ saxony_missions_slot_1 = {
 		effect = {
 			add_country_modifier = {
 				name = saxony_imperial_religious_conflict_modifier
-				duration = -1 
+				duration = 5475
 			}
 		}
 	}
@@ -256,7 +256,7 @@ saxony_missions_slot_1 = {
 				add_prestige = 10
 				add_country_modifier = {
 					name = saxony_church_above_crown_modifier
-					duration = -1 
+					duration = 3650
 				}
 				custom_tooltip = saxony_church_above_crown_tt
 				hidden_effect = {
@@ -297,7 +297,7 @@ saxony_missions_slot_1 = {
 			else = {
 				add_country_modifier = {
 					name = saxony_oppose_the_reformation_modifier
-					duration = -1 
+					duration = 9125
 				}
 			}
 		}
@@ -345,7 +345,7 @@ saxony_missions_slot_1 = {
 				add_mil_power = 100
 				add_country_modifier = {
 					name = saxony_the_catholic_league_modifier
-					duration = -1 
+					duration = 7300
 				}
 			}
 		}
@@ -398,7 +398,7 @@ saxony_missions_slot_2 = {
 				add_base_manpower = 2
 				add_province_modifier = {
 					name = saxony_entwicklungsprogramm_province_modifier
-					duration = -1 
+					duration = 5475
 				}
 			}
 		}
@@ -426,7 +426,7 @@ saxony_missions_slot_2 = {
 			62 = {
 				add_province_modifier = {
 					name = saxony_saxon_university_province_modifier
-					duration = -1 
+					duration = -1
 				}
 			}
 		}
@@ -477,7 +477,7 @@ saxony_missions_slot_2 = {
 			}
 			add_country_modifier = {
 				name = saxony_leipziger_handelsboerse_modifier
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -500,7 +500,7 @@ saxony_missions_slot_2 = {
 			add_accepted_culture_or_dip_power = { culture = sorbian }
 			add_country_modifier = {
 				name = saxony_reconquest_of_the_lausitz_modifier
-				duration = -1 
+				duration = -1
 			}
 			neumark_area = {
 				limit = {
@@ -543,7 +543,7 @@ saxony_missions_slot_2 = {
 			4778 = {
 				add_province_modifier = {
 					name = saxony_construct_the_finstertor_province_modifier
-					duration = -1 
+					duration = -1
 				}
 			}
 		}
@@ -693,7 +693,7 @@ saxony_missions_slot_2 = {
 		effect = {
 			add_country_modifier = {
 				name = saxony_the_saxon_polish_union_modifier
-				duration = -1 
+				duration = 3650
 			}
 			if = {
 				limit = {
@@ -782,7 +782,7 @@ saxony_missions_slot_2 = {
 		effect = {
 			add_country_modifier = {
 				name = saxony_the_polish_prerogative_modifier
-				duration = -1 
+				duration = 5475
 			}
 			if = {
 				limit = {
@@ -825,7 +825,7 @@ saxony_missions_slot_2 = {
 		effect = {
 			add_country_modifier = {
 				name = saxony_secure_the_saxon_coasts_modifier
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -863,7 +863,7 @@ saxony_missions_slot_2 = {
 				add_prestige = 10
 				add_country_modifier = {
 					name = saxony_crown_above_church_modifier
-					duration = -1 
+					duration = 3650
 				}
 				custom_tooltip = saxony_crown_above_church_tt
 				hidden_effect = {
@@ -897,7 +897,7 @@ saxony_missions_slot_2 = {
 			else = {
 				add_country_modifier = {
 					name = saxony_embrace_the_reformation_modifier
-					duration = -1 
+					duration = 9125
 				}
 			}
 		}
@@ -953,7 +953,7 @@ saxony_missions_slot_2 = {
 				add_mil_power = 100
 				add_country_modifier = {
 					name = saxony_union_of_auhausen_modifier
-					duration = -1 
+					duration = 7300
 				}
 			}
 		}
@@ -999,7 +999,7 @@ saxony_missions_slot_2 = {
 			add_legitimacy_equivalent = { amount = 20 republican_tradition = 20 }
 			add_country_modifier = {
 				name = saxony_victory_in_the_league_war_modifier
-				duration = -1 
+				duration = 10950
 			}
 		}
 	}
@@ -1051,7 +1051,7 @@ saxony_missions_slot_3 = {
 				add_base_manpower = 2
 				add_province_modifier = {
 					name = saxony_entwicklungsprogramm_province_modifier
-					duration = -1 
+					duration = 5475
 				}
 			}
 		}
@@ -1079,7 +1079,7 @@ saxony_missions_slot_3 = {
 				add_next_institution_embracement = 20
 				add_province_modifier = {
 					name = saxony_saxon_university_province_modifier
-					duration = -1 
+					duration = -1
 				}
 			}
 		}
@@ -1112,11 +1112,11 @@ saxony_missions_slot_3 = {
 			add_inflation = -3
 			add_country_modifier = {
 				name = saxony_saxon_coinage_modifier_1
-				duration = -1 
+				duration = 5475
 			}
 			add_country_modifier = {
 				name = saxony_saxon_coinage_modifier_2
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -1230,7 +1230,7 @@ saxony_missions_slot_3 = {
 			}
 			add_country_modifier = {
 				name = saxony_a_saxon_march_modifier
-				duration = -1 
+				duration = 7300
 			}
 			vorpommern_area = {
 				limit = {
@@ -1285,7 +1285,7 @@ saxony_missions_slot_3 = {
 		effect = {
 			add_country_modifier = {
 				name = saxony_a_saxon_coast_modifier
-				duration = -1 
+				duration = 7300
 			}
 			west_prussia_area = {
 				limit = {
@@ -1342,7 +1342,7 @@ saxony_missions_slot_3 = {
 		effect = {
 			add_country_modifier = {
 				name = saxony_eastward_expansion_modifier
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -1370,7 +1370,7 @@ saxony_missions_slot_3 = {
 			add_yearly_sailors = 1
 			add_country_modifier = {
 				name = saxony_a_saxon_naval_base_modifier
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -1392,7 +1392,7 @@ saxony_missions_slot_3 = {
 		effect = {
 			add_country_modifier = {
 				name = saxony_conquer_hesse_modifier
-				duration = -1 
+				duration = 5475
 			}
 			franconia_area = {
 				limit = {
@@ -1428,7 +1428,7 @@ saxony_missions_slot_3 = {
 		effect = {
 			add_country_modifier = {
 				name = saxony_conquer_lower_franconia_modifier
-				duration = -1 
+				duration = 3650
 			}
 			upper_bavaria_area = {
 				limit = {
@@ -1486,7 +1486,7 @@ saxony_missions_slot_3 = {
 				add_prestige = 25
 				add_country_modifier = {
 					name = saxony_the_road_to_germany_modifier
-					duration = -1 
+					duration = 9125
 				}
 				hidden_effect = {
 					set_country_flag = saxony_the_road_to_germany_completed
@@ -1604,7 +1604,7 @@ saxony_missions_slot_3 = {
 		effect = {
 			add_country_modifier = {
 				name = saxony_the_reichserzmarschall_of_saxony_modifier
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -1620,7 +1620,7 @@ saxony_missions_slot_3 = {
 			add_imperial_influence = 10
 			add_country_modifier = {
 				name = saxony_a_throne_built_on_blood_modifier
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -1712,7 +1712,7 @@ saxony_missions_slot_3 = {
 				add_legitimacy_equivalent = { amount = 25 republican_tradition = 25 }
 				add_country_modifier = {
 					name = saxony_claim_east_frankish_heritage_modifier
-					duration = -1 
+					duration = 36500
 				}
 				hidden_effect = {
 					restore_country_name = yes
@@ -1796,7 +1796,7 @@ saxony_missions_slot_4 = {
 				add_base_manpower = 2
 				add_province_modifier = {
 					name = saxony_entwicklungsprogramm_province_modifier
-					duration = -1 
+					duration = 5475
 				}
 			}
 		}
@@ -1830,7 +1830,7 @@ saxony_missions_slot_4 = {
 			61 = {
 				add_province_modifier = {
 					name = saxony_saxon_mining_industry_province_modifier
-					duration = -1 
+					duration = 7300
 				}
 			}
 		}
@@ -1856,7 +1856,7 @@ saxony_missions_slot_4 = {
 		effect = {
 			add_country_modifier = {
 				name = saxony_eisenkammer_pirna_modifier
-				duration = -1 
+				duration = 9125
 			}
 		}
 	}
@@ -1960,7 +1960,7 @@ saxony_missions_slot_4 = {
 		effect = {
 			add_country_modifier = {
 				name = saxony_construct_the_german_cathedral_modifier
-				duration = -1 
+				duration = 5475
 			}
 			50 = {
 				if = {
@@ -1997,7 +1997,7 @@ saxony_missions_slot_4 = {
 		effect = {
 			add_country_modifier = {
 				name = saxony_westward_expansion_modifier
-				duration = -1 
+				duration = 5475
 			}
 			thuringia_area = {
 				limit = {
@@ -2028,7 +2028,7 @@ saxony_missions_slot_4 = {
 			thuringia_area = {
 				add_province_modifier = {
 					name = saxony_reunite_saxony_and_thuringia_province_modifier
-					duration = -1 
+					duration = 5475
 				}
 			}
 			upper_franconia_area = {
@@ -2083,41 +2083,22 @@ saxony_missions_slot_4 = {
 		position = 11
 		required_missions = { saxony_the_weimar_classic }
 		trigger = {
-			if = {
-				limit = {
-					is_expanded_mod_active = { mod = ages_and_splendor }
-				}
-				OR = {
-					full_idea_group = humanist_ideas
-					custom_trigger_tooltip = {
-						tooltip = SAX_HAS_AT_LEAST_1_TOLERANCE_HERETIC
-						has_global_modifier_value = {
-							which = tolerance_heretic
-							value = 1
-						}
+			OR = {
+				full_idea_group = humanist_ideas
+				custom_trigger_tooltip = {
+					tooltip = SAX_HAS_AT_LEAST_1_TOLERANCE_HERETIC
+					has_global_modifier_value = {
+						which = tolerance_heretic
+						value = 1
 					}
-					num_accepted_cultures = 4
-					has_age_ability = ase_saxony_piety
 				}
-			}
-			else = {
-				OR = {
-					full_idea_group = humanist_ideas
-					custom_trigger_tooltip = {
-						tooltip = SAX_HAS_AT_LEAST_1_TOLERANCE_HERETIC
-						has_global_modifier_value = {
-							which = tolerance_heretic
-							value = 1
-						}
-					}
-					num_accepted_cultures = 4
-				}
+				num_accepted_cultures = 4
 			}
 		}
 		effect = {
 			add_country_modifier = {
 				name = saxony_saxon_humanism_modifier
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -2135,7 +2116,7 @@ saxony_missions_slot_4 = {
 			add_years_of_income = 1
 			add_country_modifier = {
 				name = saxony_a_grand_kursachsen_modifier
-				duration = -1 
+				duration = 3650
 			}
 		}
 	}
@@ -2165,7 +2146,7 @@ saxony_missions_slot_4 = {
 			}
 			add_country_modifier = {
 				name = saxony_a_kingdom_within_modifier
-				duration = -1 
+				duration = 5475
 			}
 		}
 	}
@@ -2219,7 +2200,7 @@ saxony_missions_slot_4 = {
 		effect = {
 			add_country_modifier = {
 				name = saxony_saxon_imperial_ambitions_modifier
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -2278,12 +2259,12 @@ saxony_missions_slot_5 = {
 		effect = {
 			add_country_modifier = {
 				name = saxony_meissener_porzellan_modifier
-				duration = -1 
+				duration = -1
 			}
 			61 = {
 				add_province_modifier = {
 					name = saxony_meissener_porzellan_province_modifier
-					duration = -1 
+					duration = -1
 				}
 			}
 		}
@@ -2321,7 +2302,7 @@ saxony_missions_slot_5 = {
 				tooltip = {
 					add_province_modifier = {
 						name = saxony_desdner_residenzschloss_tooltip_province_modifier
-						duration = -1 
+						duration = -1
 						desc = SAX_UNTIL_NOT_CAPITAL_ANYMORE
 					}
 				}
@@ -2356,7 +2337,7 @@ saxony_missions_slot_5 = {
 				}
 				add_province_modifier = {
 					name = saxony_integrate_the_city_of_goslar_province_modifier
-					duration = -1 
+					duration = 5475
 				}
 			}
 		}
@@ -2385,7 +2366,7 @@ saxony_missions_slot_5 = {
 		effect = {
 			add_country_modifier = {
 				name = saxony_construct_the_royal_library_modifier
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -2418,7 +2399,7 @@ saxony_missions_slot_5 = {
 			}
 			add_country_modifier = {
 				name = saxony_the_origin_of_knowledge_and_culture_modifier
-				duration = -1 
+				duration = 10950
 			}
 		}
 	}
@@ -2473,7 +2454,7 @@ saxony_missions_slot_5 = {
 		effect = {
 			add_country_modifier = {
 				name = saxony_the_weimar_classic_modifier
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -2514,7 +2495,7 @@ saxony_missions_slot_5 = {
 		effect = {
 			add_country_modifier = {
 				name = saxony_the_enlightenment_ideals_modifier
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -2548,7 +2529,7 @@ saxony_missions_slot_5 = {
 			}
 			add_country_modifier = {
 				name = saxony_literature_of_the_weimar_classic_modifier
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -2583,7 +2564,7 @@ saxony_missions_slot_5 = {
 			add_army_tradition = 5
 			add_country_modifier = {
 				name = saxony_obersaechsischer_reichskreis_modifier
-				duration = -1 
+				duration = 3650
 			}
 		}
 	}

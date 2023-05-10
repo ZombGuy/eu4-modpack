@@ -31,6 +31,30 @@ country_event = { #Manufacturing and Trading of Swiss Textiles
 			custom_tooltip = swi_2_years_income_from_cloth_tt
 		}
 	}
+	
+	option = {
+		name = FU_Switzerland_Events.1.b
+		
+		trigger = {
+			1870 = {
+				NOT = { trade_goods = cloth }
+			}
+		}
+		
+		1870 = {
+			add_province_modifier = {
+				name = swi_swiss_linen_industry_modifier
+				duration = -1 
+			}
+		}
+		add_years_of_owned_provinces_production_income = {
+			years = 2
+			trigger = {
+				trade_goods = cloth 
+			}
+			custom_tooltip = swi_2_years_income_from_cloth_tt
+		}
+	}
 }
 
 country_event = { #Swiss Cheese
@@ -44,22 +68,18 @@ country_event = { #Swiss Cheese
 	option = {
 		name = FU_Switzerland_Events.2.a 
 		
-		if = {
-			limit = { has_global_flag = trade_goods_expanded_mod_active }
-			4722 = { change_trade_goods = cheese }
-			every_owned_province = {
-				limit = { trade_goods = cheese }
-				add_province_modifier = {
-					name = swi_swiss_cheese_modifier
-					duration = 9125
-				}
-				add_base_production = 1 
-			}
-		}
-		else = {
-			add_years_of_income = 2 
-			add_prestige = 25
-		}
+		add_years_of_income = 2
+
+		custom_tooltip = " "
+		
+		add_prestige_or_monarch_power = { amount = 25 }
+		
+		custom_tooltip = " "
+		
+		1871 = { add_or_upgrade_production_building = yes }
+		1867 = { add_or_upgrade_production_building = yes }
+		1873 = { add_or_upgrade_production_building = yes }
+		4722 = { add_or_upgrade_production_building = yes }
 	}
 }
 
@@ -91,7 +111,7 @@ country_event = { #Swiss Cheese
 	option = {
 		name = FU_Switzerland_Events.3.b 
 		
-		add_prestige = 5
+		add_prestige_or_monarch_power = { amount = 5 }
 		
 		ai_chance = { factor = 0 }
 	}

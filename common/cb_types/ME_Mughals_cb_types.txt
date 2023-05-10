@@ -3,13 +3,16 @@ cb_conquest_of_india = {
 
 	is_triggered_only = no
 
-	prerequisites = {
+	prerequisites_self = {
 		has_country_flag = me_mug_conquest_of_hindustan
 		NOT = {
 			has_country_flag = me_mug_india_less_ae
 			has_country_flag = me_mug_india_less_prov
 		}
 		tag = MUG
+	}
+
+	prerequisites = {
 		FROM = {
 			any_owned_province = {
 				OR = {
@@ -31,9 +34,12 @@ cb_conquest_of_india_less_ae = {
 
 	is_triggered_only = no
 
-	prerequisites = {
+	prerequisites_self = {	
 		has_country_flag = me_mug_india_less_ae
 		tag = MUG
+	}
+	
+	prerequisites = {
 		FROM = {
 			any_owned_province = {
 				OR = {
@@ -55,9 +61,12 @@ cb_conquest_of_india_less_province = {
 
 	is_triggered_only = no
 
-	prerequisites = {
+	prerequisites_self = {
 		has_country_flag = me_mug_india_less_prov
 		tag = MUG
+	}
+	
+	prerequisites = {
 		FROM = {
 			any_owned_province = {
 				OR = {

@@ -23,7 +23,7 @@ SPA_missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = spain_prepare_reconquista_modifier
-				duration = -1 
+				duration = 5475
 			}
 		}
 	}
@@ -68,7 +68,7 @@ SPA_missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = spa_rb_christian_iberia
-				duration = -1 
+				duration = 5475
 			}
 			add_papal_influence = 30
 		}
@@ -278,7 +278,7 @@ SPA_missions_1 = {
 			add_prestige = 10
 			add_country_modifier = {
 				name = spain_conquer_atlantic_islands_modifier
-				duration = -1 
+				duration = 5475
 			}
 		}
 	}
@@ -340,7 +340,7 @@ SPA_missions_1 = {
 			else = {
 				add_country_modifier = {
 					name = spain_the_malian_gold_modifier
-					duration = -1 
+					duration = 5475
 				}
 			}
 		}
@@ -439,7 +439,7 @@ SPA_missions_1 = {
 			add_mil_power = 100
 			add_country_modifier = {
 				name = spain_conquer_kongo_modifier
-				duration = -1 
+				duration = 5475
 			}
 			if = {
 				limit = {
@@ -499,7 +499,7 @@ SPA_missions_1 = {
 			add_dip_power = 100
 			add_country_modifier = {
 				name = spain_colonize_the_cape_modifier
-				duration = -1 
+				duration = 10950
 			}
 		}
 	}
@@ -538,7 +538,7 @@ SPA_missions_2 = {
 			add_mil_power = 50
 			add_country_modifier = {
 				name = spain_army_buildings
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -564,7 +564,7 @@ SPA_missions_2 = {
 			add_yearly_sailors = 3
 			add_country_modifier = {
 				name = spain_naval_buildings
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -581,7 +581,7 @@ SPA_missions_2 = {
 		effect = {
 			add_country_modifier = {
 				name = spain_discover_mexico_modifier
-				duration = -1 
+				duration = 5475
 			}
 			every_country = {
 				limit = {
@@ -751,7 +751,7 @@ SPA_missions_2 = {
 			add_years_of_income = 2
 			add_country_modifier = {
 				name = spain_the_atztec_savages_modifier
-				duration = -1 
+				duration = 5475
 			}
 		}
 	}
@@ -795,7 +795,7 @@ SPA_missions_2 = {
 			}
 			add_country_modifier = {
 				name = spain_colonize_mexico_modifier
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -1004,7 +1004,7 @@ SPA_missions_2 = {
 		effect = {
 			add_country_modifier = {
 				name = spain_conquer_moroccan_coast_modifier
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -1248,7 +1248,7 @@ SPA_missions_2 = {
 			add_prestige = 20
 			add_country_modifier = {
 				name = spain_conquer_french_pyrenees_modifier
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -1290,7 +1290,7 @@ SPA_missions_2 = {
 			add_prestige = 20
 			add_country_modifier = {
 				name = spain_better_than_france_modifier
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -1342,7 +1342,7 @@ SPA_missions_2 = {
 		effect = {
 			add_country_modifier = {
 				name = spain_vassalize_france_modifier
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -1371,7 +1371,7 @@ SPA_missions_3 = {
 			add_dip_power = 50
 			add_country_modifier = {
 				name = spain_beginning_of_a_colonial_empire_modifier
-				duration = -1 
+				duration = 5475
 			}
 		}
 	}
@@ -1388,7 +1388,7 @@ SPA_missions_3 = {
 			add_prestige = 10
 			add_country_modifier = {
 				name = spain_conquistadors_modifier
-				duration = -1 
+				duration = 3650
 			}
 		}
 	}
@@ -1405,7 +1405,7 @@ SPA_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = spain_discover_the_caribbeans_modifier
-				duration = -1 
+				duration = 5475
 			}
 		}
 	}
@@ -1444,7 +1444,7 @@ SPA_missions_3 = {
 			add_prestige = 15
 			add_country_modifier = {
 				name = spain_colonize_the_caribbeans_modifier
-				duration = -1 
+				duration = 5475
 			}
 		}
 	}
@@ -1483,7 +1483,7 @@ SPA_missions_3 = {
 			add_prestige = 10
 			add_country_modifier = {
 				name = spain_colonize_la_plata_modifier
-				duration = -1 
+				duration = 5475
 			}
 		}
 	}
@@ -1535,7 +1535,7 @@ SPA_missions_3 = {
 			else = {
 				add_country_modifier = {
 					name = spain_control_trade_node_sevilla_modifier
-					duration = -1 
+					duration = 5475
 				}
 			}
 			if = {
@@ -1592,7 +1592,7 @@ SPA_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = spain_conquer_maghreb_cot_modifier
-				duration = -1 
+				duration = 5475
 			}
 			random_province = {
 				limit = {
@@ -1635,7 +1635,7 @@ SPA_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = spain_control_trade_node_genoa_modifier
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -1652,7 +1652,7 @@ SPA_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = spain_control_trade_node_venice_modifier
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -1676,7 +1676,7 @@ SPA_missions_3 = {
 			add_dip_power = 50
 			add_country_modifier = {
 				name = spain_production_buildings
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -1701,7 +1701,7 @@ SPA_missions_3 = {
 			add_adm_power = 50
 			add_country_modifier = {
 				name = spain_trade_buildings
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -1857,7 +1857,7 @@ SPA_missions_4 = {
 			add_stability_or_adm_power = yes
 			add_country_modifier = {
 				name = spain_become_an_empire_modifier
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -1877,7 +1877,7 @@ SPA_missions_4 = {
 		effect = {
 			add_country_modifier = {
 				name = spain_become_a_colonial_empire_modifier
-				duration = -1 
+				duration = 7300
 			}
 			every_subject_country = {
 				limit = {
@@ -1900,7 +1900,7 @@ SPA_missions_4 = {
 		effect = {
 			add_country_modifier = {
 				name = spain_discover_south_america_modifier
-				duration = -1 
+				duration = 5475
 			}
 		}
 	}
@@ -1939,7 +1939,7 @@ SPA_missions_4 = {
 			add_prestige = 10
 			add_country_modifier = {
 				name = spain_colonize_colombia_modifier
-				duration = -1 
+				duration = 5475
 			}
 		}
 	}
@@ -1956,7 +1956,7 @@ SPA_missions_4 = {
 		effect = {
 			add_country_modifier = {
 				name = spain_discover_peru_modifier
-				duration = -1 
+				duration = 5475
 			}
 		}
 	}
@@ -2149,7 +2149,7 @@ SPA_missions_4 = {
 		effect = {
 			add_country_modifier = {
 				name = spain_conquer_genoa_and_milan_modifier
-				duration = -1 
+				duration = 7300
 			}
 			country_event = { id = ME_Spain_Events.1 }
 		}
@@ -2438,7 +2438,7 @@ SPA_missions_4 = {
 		effect = {
 			add_country_modifier = {
 				name = spain_the_spanish_armada_modifier
-				duration = -1 
+				duration = 5475
 			}
 			235 = {
 				if = {
@@ -2552,7 +2552,7 @@ SPA_missions_4 = {
 		effect = {
 			add_country_modifier = {
 				name = spain_an_unholy_alliance_modifier
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -2588,7 +2588,7 @@ SPA_missions_4 = {
 			add_years_of_income = 1
 			add_country_modifier = {
 				name = spain_build_churches_modifier
-				duration = -1 
+				duration = 3650
 			}
 		}
 	}
@@ -2604,7 +2604,7 @@ SPA_missions_4 = {
 			add_years_of_income = 2
 			add_country_modifier = {
 				name = spain_build_cathedrals_modifier
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -2620,7 +2620,7 @@ SPA_missions_4 = {
 		effect = {
 			add_country_modifier = {
 				name = spain_become_papal_controller_modifier
-				duration = -1 
+				duration = 5475
 			}
 		}
 	}
@@ -2649,7 +2649,7 @@ SPA_missions_4 = {
 			add_prestige = 20
 			add_country_modifier = {
 				name = spain_the_last_crusade_modifier
-				duration = -1 
+				duration = 3650
 			}
 		}
 	}
@@ -2716,7 +2716,7 @@ SPA_missions_5 = {
 			add_treasury = 300
 			add_country_modifier = {
 				name = spain_build_manufactories_modifier
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -2767,7 +2767,7 @@ SPA_missions_5 = {
 			add_prestige = 10
 			add_country_modifier = {
 				name = spain_colonize_the_philippines_modifier
-				duration = -1 
+				duration = 5475
 			}
 		}
 	}
@@ -2847,7 +2847,7 @@ SPA_missions_5 = {
 			add_prestige = 10
 			add_country_modifier = {
 				name = spain_colonize_brazil_modifier
-				duration = -1 
+				duration = 5475
 			}
 		}
 	}
@@ -2901,7 +2901,7 @@ SPA_missions_5 = {
 			add_years_of_income = 2.5
 			add_country_modifier = {
 				name = spain_the_incan_gold_modifier
-				duration = -1 
+				duration = 5475
 			}
 		}
 	}
@@ -2945,7 +2945,7 @@ SPA_missions_5 = {
 			}
 			add_country_modifier = {
 				name = spain_colonize_peru_modifier
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -2965,7 +2965,7 @@ SPA_missions_5 = {
 		effect = {
 			add_country_modifier = {
 				name = spain_imperial_ambitions_modifier
-				duration = -1 
+				duration = 5475
 			}
 		}
 	}
@@ -2981,7 +2981,7 @@ SPA_missions_5 = {
 			add_imperial_influence = 5
 			add_country_modifier = {
 				name = spain_become_emperor_modifier
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -3005,7 +3005,7 @@ SPA_missions_5 = {
 			add_imperial_influence = 5
 			add_country_modifier = {
 				name = spain_become_hre_member_modifier
-				duration = -1 
+				duration = 5475
 			}
 		}
 	}
@@ -3046,7 +3046,7 @@ SPA_missions_5 = {
 			}
 			add_country_modifier = {
 				name = spain_catholic_spanish_lands_modifier
-				duration = -1 
+				duration = 5475
 			}
 			custom_tooltip = SPA_OWNED_HRE_PROVINCE_GET_SPANISH_LANDS_MODIFIER
 			hidden_effect = {
@@ -3058,7 +3058,7 @@ SPA_missions_5 = {
 					}
 					add_province_modifier = {
 						name = spain_catholic_spanish_lands_province_modifier
-						duration = -1 
+						duration = 3650
 					}
 				}
 			}
@@ -3115,7 +3115,7 @@ SPA_missions_5 = {
 			add_papal_influence = 25
 			add_country_modifier = {
 				name = spain_strong_catholic_league_modifier
-				duration = -1 
+				duration = 5475
 			}
 		}
 	}
@@ -3175,7 +3175,7 @@ SPA_missions_5 = {
 			add_papal_influence = 10
 			add_country_modifier = {
 				name = spain_win_the_league_war_modifier
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -3195,7 +3195,7 @@ SPA_missions_5 = {
 			add_dip_power = 100
 			add_country_modifier = {
 				name = spain_catholic_electors_modifier
-				duration = -1 
+				duration = 5475
 			}
 		}
 	}
@@ -3223,7 +3223,7 @@ SPA_missions_5 = {
 			add_papal_influence = 30
 			add_country_modifier = {
 				name = spain_spanish_inquisition_modifier
-				duration = -1 
+				duration = 5475
 			}
 		}
 	}
@@ -3251,7 +3251,7 @@ SPA_missions_5 = {
 			add_papal_influence = 25
 			add_country_modifier = {
 				name = spain_catholic_hre_modifier
-				duration = -1 
+				duration = 5475
 			}
 		}
 	}
@@ -3275,7 +3275,7 @@ SPA_missions_5 = {
 			add_legitimacy_equivalent = { amount = 20 republican_tradition = 20 }
 			add_country_modifier = {
 				name = spain_catholic_empire_modifier
-				duration = -1 
+				duration = 5475
 			}
 		}
 	}

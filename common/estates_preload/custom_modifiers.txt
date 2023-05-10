@@ -96,3 +96,12 @@ estate_nobles = {
 		}
 	}
 }
+
+estate_nobles = {
+	modifier_definition = {
+		key = iqta_abilities_effectiveness
+		trigger = {
+			always = yes
+		}
+	}
+}

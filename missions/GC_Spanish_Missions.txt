@@ -4,9 +4,11 @@ gc_spain_1 = {
 	ai = yes
 	potential_on_load = {
 		has_dlc = "Golden Century"
+		NOT = { has_dlc = "Domination" }
 	}
 	potential = {
 		has_dlc = "Golden Century"
+		NOT = { has_dlc = "Domination" }
 		OR = {
 			tag = CAS
 			AND = {
@@ -49,7 +51,7 @@ gc_spain_1 = {
 		effect = {
 			add_country_modifier = {
 				name = "spa_plus_ultra"
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -91,7 +93,7 @@ gc_spain_1 = {
 			}
 			add_country_modifier = {
 				name = "spa_hispaniola_discovered"
-				duration = -1 
+				duration = 5475
 			}
 		}
 	}
@@ -103,9 +105,11 @@ gc_spain_1_b = {
 	ai = yes
 	potential_on_load = {
 		has_dlc = "Golden Century"
+		NOT = { has_dlc = "Domination" }
 	}
 	potential = {
 		has_dlc = "Golden Century"
+		NOT = { has_dlc = "Domination" }
 		OR = {
 			tag = CAS
 			AND = {
@@ -149,7 +153,7 @@ gc_spain_1_b = {
 			add_prestige = 15
 			add_country_modifier = {
 				name = "the_unknown_frontier"
-				duration = -1 
+				duration = 5475
 			}
 		}
 	}
@@ -269,6 +273,7 @@ gc_spain_1_b = {
 		trigger = {
 			if = {
 				limit = {
+					has_dlc = "Golden Century"
 					religion = catholic
 				}
 				2021 = {
@@ -310,9 +315,11 @@ gc_spain_2 = {
 	ai = yes
 	potential_on_load = {
 		has_dlc = "Golden Century"
+		NOT = { has_dlc = "Domination" }
 	}
 	potential = {
 		has_dlc = "Golden Century"
+		NOT = { has_dlc = "Domination" }
 		OR = {
 			tag = CAS
 			AND = {
@@ -363,7 +370,7 @@ gc_spain_2 = {
 			210 = {
 				add_province_modifier = {
 					name = "fortified_navarra"
-					duration = -1 
+					duration = 7300
 				}
 			}
 			if = {
@@ -476,7 +483,7 @@ gc_spain_2 = {
 			add_dip_power = 100
 			add_country_modifier = {
 				name = "displaced_moriscos"
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -488,9 +495,11 @@ gc_spain_2_b = {
 	ai = yes
 	potential_on_load = {
 		has_dlc = "Golden Century"
+		NOT = { has_dlc = "Domination" }
 	}
 	potential = {
 		has_dlc = "Golden Century"
+		NOT = { has_dlc = "Domination" }
 		OR = {
 			tag = CAS
 			AND = {
@@ -653,6 +662,7 @@ gc_spain_2_b = {
 		trigger = {
 			if = {
 				limit = {
+					has_dlc = "Golden Century"
 					religion = catholic
 				}
 				custom_trigger_tooltip = {
@@ -682,7 +692,7 @@ gc_spain_2_b = {
 		effect = {
 			add_country_modifier = {
 				name = "viceroyalty_of_new_spain"
-				duration = -1 
+				duration = 7300
 			}
 			if = {
 				limit = {
@@ -764,7 +774,7 @@ gc_spain_2_b = {
 					}
 					add_province_modifier = {
 						name = "fortified_florida_modifier"
-						duration = -1 
+						duration = -1
 					}
 				}
 			}
@@ -778,9 +788,11 @@ gc_spain_3 = {
 	ai = yes
 	potential_on_load = {
 		has_dlc = "Golden Century"
+		NOT = { has_dlc = "Domination" }
 	}
 	potential = {
 		has_dlc = "Golden Century"
+		NOT = { has_dlc = "Domination" }
 		OR = {
 			tag = CAS
 			AND = {
@@ -811,7 +823,7 @@ gc_spain_3 = {
 		effect = {
 			add_country_modifier = {
 				name = "spa_rb_morale"
-				duration = -1 
+				duration = 5475
 			}
 			upper_andalucia_area = {
 				limit = {
@@ -923,7 +935,7 @@ gc_spain_3 = {
 		effect = {
 			add_country_modifier = {
 				name = "spa_rb_christian_iberia"
-				duration = -1 
+				duration = 5475
 			}
 			126 = {
 				add_permanent_claim = ROOT
@@ -958,7 +970,7 @@ gc_spain_3 = {
 		effect = {
 			add_country_modifier = {
 			name = "completing_the_reconquista"
-			duration = -1 
+			duration = 5475
 			}
 			western_morocco_area = {
 				limit = {
@@ -984,9 +996,11 @@ gc_spain_3_b = {
 	ai = yes
 	potential_on_load = {
 		has_dlc = "Golden Century"
+		NOT = { has_dlc = "Domination" }
 	}
 	potential = {
 		has_dlc = "Golden Century"
+		NOT = { has_dlc = "Domination" }
 		OR = {
 			tag = CAS
 			AND = {
@@ -1330,26 +1344,26 @@ gc_spain_3_b = {
 				795 = {
 					add_province_modifier = {
 						name = "spa_rb_gold_rush"
-						duration = -1 
+						duration = 5475
 					}
 				}
 			}
 			2946 = {
 				add_province_modifier = {
 					name = "spa_rb_gold_rush"
-					duration = -1 
+					duration = 5475
 				}
 			}
 			2941 = {
 				add_province_modifier = {
 					name = "spa_rb_gold_rush"
-					duration = -1 
+					duration = 5475
 				}
 			}
 			804 = {
 				add_province_modifier = {
 					name = "spa_rb_gold_rush"
-					duration = -1 
+					duration = 5475
 				}
 			}
 		}
@@ -1371,6 +1385,7 @@ gc_spain_3_b = {
 		trigger = {
 			if = {
 				limit = {
+					has_dlc = "Golden Century"
 					religion = catholic
 				}
 				custom_trigger_tooltip = {
@@ -1431,7 +1446,7 @@ gc_spain_3_b = {
 					}
 					add_country_modifier = {
 						name = "spa_native_reductions"
-						duration = -1 
+						duration = 7300
 					}
 				}
 			}
@@ -1445,9 +1460,11 @@ gc_spain_4 = {
 	ai = yes
 	potential_on_load = {
 		has_dlc = "Golden Century"
+		NOT = { has_dlc = "Domination" }
 	}
 	potential = {
 		has_dlc = "Golden Century"
+		NOT = { has_dlc = "Domination" }
 		OR = {
 			tag = CAS
 			AND = {
@@ -1644,7 +1661,7 @@ gc_spain_4 = {
 		effect = {
 			add_country_modifier = {
 				name = "spa_rb_italian_ambition_mod"
-				duration = -1 
+				duration = 5475
 			}
 			tuscany_area = {
 				limit = {
@@ -1726,7 +1743,7 @@ gc_spain_4 = {
 		effect = {
 			add_country_modifier = {
 				name = "spa_milan"
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -1738,9 +1755,11 @@ gc_spain_4_b = {
 	ai = yes
 	potential_on_load = {
 		has_dlc = "Golden Century"
+		NOT = { has_dlc = "Domination" }
 	}
 	potential = {
 		has_dlc = "Golden Century"
+		NOT = { has_dlc = "Domination" }
 		tag = SPA
 		NOT = { primary_culture = aragonese }
 		NOT = { primary_culture = catalan }
@@ -1775,7 +1794,7 @@ gc_spain_4_b = {
 		effect = {
 			add_country_modifier = {
 				name = "spa_prepared_armada"
-				duration = -1 
+				duration = 7300
 			}
 			if = {
 				limit = {
@@ -1939,9 +1958,11 @@ gc_spain_4_c = {
 	ai = yes
 	potential_on_load = {
 		has_dlc = "Golden Century"
+		NOT = { has_dlc = "Domination" }
 	}
 	potential = {
 		has_dlc = "Golden Century"
+		NOT = { has_dlc = "Domination" }
 		OR = {
 			tag = CAS
 			AND = {
@@ -1979,7 +2000,7 @@ gc_spain_4_c = {
 		effect = {
 			add_country_modifier = {
 				name = "spa_rb_overseas_trade"
-				duration = -1 
+				duration = 5475
 			}
 		}
 	}
@@ -1991,9 +2012,11 @@ gc_spain_4_d = {
 	ai = yes
 	potential_on_load = {
 		has_dlc = "Golden Century"
+		NOT = { has_dlc = "Domination" }
 	}
 	potential = {
 		has_dlc = "Golden Century"
+		NOT = { has_dlc = "Domination" }
 		OR = {
 			tag = CAS
 			AND = {
@@ -2173,9 +2196,11 @@ gc_spain_5_a = {
 	ai = yes
 	potential_on_load = {
 		has_dlc = "Golden Century"
+		NOT = { has_dlc = "Domination" }
 	}
 	potential = {
 		has_dlc = "Golden Century"
+		NOT = { has_dlc = "Domination" }
 		tag = SPA
 		NOT = { primary_culture = aragonese }
 		NOT = { primary_culture = catalan }
@@ -2306,7 +2331,7 @@ gc_spain_5_a = {
 		effect = {
 			add_country_modifier = {
 				name = "spanish_imperial_ambition"
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -2353,9 +2378,11 @@ gc_spain_5_c = {
 	ai = yes
 	potential_on_load = {
 		has_dlc = "Golden Century"
+		NOT = { has_dlc = "Domination" }
 	}
 	potential = {
 		has_dlc = "Golden Century"
+		NOT = { has_dlc = "Domination" }
 		OR = {
 			tag = CAS
 			AND = {
@@ -2383,6 +2410,7 @@ gc_spain_5_c = {
 		trigger = {
 			if = {
 				limit = {
+					has_dlc = "Golden Century"
 					religion = catholic
 				}
 				custom_trigger_tooltip = {
@@ -2419,7 +2447,7 @@ gc_spain_5_c = {
 			}
 			add_country_modifier = {
 				name = "spa_new_granada"
-				duration = -1 
+				duration = 7300
 			}
 			if = {
 				limit = {

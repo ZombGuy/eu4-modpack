@@ -49,7 +49,7 @@ swabian_group_1 = {
 		effect = {
 			add_country_modifier = {
 				name = swa_new_diplomatic_relevance_mod
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -266,7 +266,7 @@ swabian_group_1 = {
 		effect = {
 			add_country_modifier = {
 				name = swa_restored_stem_duchy
-				duration = -1 
+				duration = 7300
 			}
 			tirol_area = {
 				limit = {
@@ -485,7 +485,7 @@ swabian_group_2 = {
 		effect = {
 			add_country_modifier = {
 				name = swa_lombard_league_mod
-				duration = -1 
+				duration = 7300
 			}
 			western_sicily_area = {
 				limit = {
@@ -697,7 +697,7 @@ swabian_group_2 = {
 		effect = {
 			add_country_modifier = {
 				name = swa_supremacy_mod
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -859,13 +859,13 @@ swabian_group_3 = { #crusader group
 				}
 				add_country_modifier = {
 					name = swa_crusader_lord
-					duration = -1 
+					duration = -1
 				}
 			}
 			else = {
 				add_country_modifier = {
 					name = swa_heathen_crusader_lord
-					duration = -1 
+					duration = -1
 				}
 			}
 		}

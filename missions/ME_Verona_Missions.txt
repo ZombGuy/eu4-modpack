@@ -34,12 +34,12 @@ verona_mission_1 = {
 		effect = {
 			add_country_modifier = {
 				name = man_grazing_fields_emilia
-				duration = -1 
+				duration = 9125
 			}
 			emilia_romagna_area = {
 				add_province_modifier = {
 					name = man_grazing_fields
-					duration = -1 
+					duration = 7300
 				}
 			}
 		}
@@ -60,7 +60,7 @@ verona_mission_1 = {
 		effect = {
 			add_country_modifier = {
 				name = man_military_conducts
-				duration = -1 
+				duration = 18250
 			}
 		}
 	}
@@ -109,7 +109,7 @@ verona_mission_1 = {
 		effect = {
 			add_country_modifier = {
 				name = man_venetian_trading_secret
-				duration = -1 
+				duration = 9125
 			}
 		}
 	}
@@ -158,7 +158,7 @@ verona_mission_1 = {
 		effect = {
 			add_country_modifier = {
 				name = pga_tuscan_baking_secrets
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -216,7 +216,7 @@ verona_mission_2 = {
 		effect = {
 			add_country_modifier = {
 				name = man_supreme_diplomacy
-				duration = -1 
+				duration = 9125
 			}
 			define_advisor = {
 				type = diplomat
@@ -286,7 +286,7 @@ verona_mission_2 = {
 		effect = {
 			add_country_modifier = {
 				name = fer_berberi_mantovani
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -336,7 +336,7 @@ verona_mission_2 = {
 		effect = {
 			add_country_modifier = {
 				name = man_reign_northern_italy
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -427,55 +427,24 @@ verona_mission_3 = {
 		trigger = {
 			if = {
 				limit = { hre_size = 1 }
-				if = {
-					limit = {
-						is_expanded_mod_active = { mod = subjects }
+				OR = {
+					emperor = {
+						OR = {
+							alliance_with = ROOT
+							has_opinion = {
+								who = ROOT
+								value = 100
+							}
+						}
 					}
-					OR = {
-						emperor = {
+					calc_true_if = {
+						amount = 2
+						all_elector = {
 							OR = {
 								alliance_with = ROOT
 								has_opinion = {
 									who = ROOT
 									value = 100
-								}
-							}
-						}
-						calc_true_if = {
-							amount = 2
-							all_elector = {
-								OR = {
-									alliance_with = ROOT
-									has_opinion = {
-										who = ROOT
-										value = 100
-									}
-								}
-							}
-						}
-						is_subject_of_type = imperial_feud_subject
-					}
-				}
-				else = {
-					OR = {
-						emperor = {
-							OR = {
-								alliance_with = ROOT
-								has_opinion = {
-									who = ROOT
-									value = 100
-								}
-							}
-						}
-						calc_true_if = {
-							amount = 2
-							all_elector = {
-								OR = {
-									alliance_with = ROOT
-									has_opinion = {
-										who = ROOT
-										value = 100
-									}
 								}
 							}
 						}
@@ -501,7 +470,7 @@ verona_mission_3 = {
 		effect = {
 			add_country_modifier = {
 				name = man_imperial_consecration
-				duration = -1 
+				duration = 7300
 			}
 			if = {
 				limit = { hre_size = 1 }
@@ -587,8 +556,7 @@ verona_mission_3 = {
 									}
 								}
 							}
-							any_country = {
-								is_papal_controller = yes
+							papal_controller = {
 								NOT = {
 									has_opinion = {
 										who = ROOT
@@ -645,8 +613,7 @@ verona_mission_3 = {
 									}
 								}
 							}
-							any_country = {
-								is_papal_controller = yes
+							papal_controller = {
 								has_opinion = {
 									who = ROOT
 									value = 75
@@ -660,7 +627,7 @@ verona_mission_3 = {
 		effect = {
 			add_country_modifier = {
 				name = pga_guelph_ghibelline
-				duration = -1 
+				duration = 5475
 			}
 		}
 	}
@@ -701,8 +668,7 @@ verona_mission_3 = {
 								war_with = ROOT
 							}
 						}
-						any_country = {
-							is_papal_controller = yes
+						papal_controller = {
 							war_with = ROOT
 						}
 					}
@@ -760,7 +726,7 @@ verona_mission_3 = {
 		effect = {
 			add_country_modifier = {
 				name = man_milanese_knowledge
-				duration = -1 
+				duration = 9125
 			}
 		}
 	}
@@ -778,7 +744,7 @@ verona_mission_3 = {
 		effect = {
 			add_country_modifier = {
 				name = vrn_notabili_fier_opere_sue
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -943,7 +909,7 @@ verona_mission_4 = {
 			108 = {
 				add_permanent_province_modifier = {
 					name = vrn_chiesa_santa_maria_antica
-					duration = -1 
+					duration = -1
 				}
 			}
 		}
@@ -972,7 +938,7 @@ verona_mission_4 = {
 			108 = {
 				add_permanent_province_modifier = {
 					name = vrn_domus_mercatorum
-					duration = -1 
+					duration = -1
 				}
 			}
 		}
@@ -1040,8 +1006,7 @@ verona_mission_4 = {
 							}
 							}
 						}
-						any_country = {
-							is_papal_controller = yes
+						papal_controller = {
 							ROOT = {
 								has_won_war_against = {
 									who = PREV
@@ -1157,7 +1122,7 @@ verona_mission_4 = {
 		effect = {
 			add_country_modifier = {
 				name = man_sicilian_knights
-				duration = -1 
+				duration = 9125
 			}
 		}
 	}
@@ -1197,7 +1162,7 @@ verona_mission_5 = {
 		effect = {
 			add_country_modifier = {
 				name = man_greatest_court
-				duration = -1 
+				duration = 9125
 			}
 			define_advisor = {
 				type = philosopher
@@ -1230,7 +1195,7 @@ verona_mission_5 = {
 			108 = {
 				add_permanent_province_modifier = {
 					name = vrn_rinascimento_scaligeri
-					duration = -1 
+					duration = 18250
 				}
 			}
 		}
@@ -1259,7 +1224,7 @@ verona_mission_5 = {
 			108 = {
 				add_permanent_province_modifier = {
 					name = vrn_epoca_scaligera
-					duration = -1 
+					duration = -1
 				}
 			}
 		}
@@ -1360,7 +1325,7 @@ verona_mission_5 = {
 		effect = {
 			add_country_modifier = {
 				name = man_court_intrigue
-				duration = -1 
+				duration = 9125
 			}
 		}
 	}
@@ -1393,7 +1358,7 @@ verona_mission_5 = {
 		effect = {
 			add_country_modifier = {
 				name = fer_munich_unifaction
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}

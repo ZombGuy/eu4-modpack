@@ -1,61 +1,18 @@
 HAB_change_habsburg_glory = { #amount
-	tooltip = {
-		[[remove]
-			subtract_variable = {
-				which = habsburg_glory
-				value = $remove$
-			}
-		]
-		[[amount]
-			change_variable = {
-				which = habsburg_glory
-				value = $amount$
-			}
-		]
-	}
-	
-	hidden_effect = {
-		[[remove]
-			subtract_variable = {
-				which = habsburg_glory
-				value = $remove$
-			}
-		]
-		[[amount]
-			change_variable = {
-				which = habsburg_glory
-				value = $amount$
-			}
-		]
-		if = {
-			limit = {
-				check_variable = {
-					which = habsburg_glory
-					value = 101
-				}
-			}
-			set_variable = {
-				which = habsburg_glory
-				value = 100
-			}
+	[[remove]
+		add_government_power = {
+			mechanic_type = habsburg_glory
+			power_type = habsburg_glory_power
+			value = $remove$
 		}
-		
-		if = {
-			limit = {
-				NOT = {
-					check_variable = {
-						which = habsburg_glory
-						value = 0
-					}
-				}
-			}
-			set_variable = {
-				which = habsburg_glory
-				value = 1
-			}
+	]
+	[[amount]
+		add_government_power = {
+			mechanic_type = habsburg_glory
+			power_type = habsburg_glory_power
+			value = $amount$
 		}
-		HAB_determine_habsburg_glory_bonus = yes
-	}
+	]
 }
 
 HAB_determine_habsburg_glory_bonus = {
@@ -940,8 +897,7 @@ me_increase_emperor_of_romans_level = {
 	}
 	if = {
 		limit = {
-			has_ruler_modifier = me_sty_emperor_of_romans_4
-			NOT = { has_ruler_modifier = me_sty_emperor_of_romans }
+			check_variable = { which = me_emperor_of_romans_level value = 4 }
 		}
 		remove_country_modifier = me_sty_emperor_of_romans_4
 		add_ruler_modifier = {
@@ -951,8 +907,8 @@ me_increase_emperor_of_romans_level = {
 	}
 	else_if = {
 		limit = {
-			has_ruler_modifier = me_sty_emperor_of_romans_3
-			NOT = { has_ruler_modifier = me_sty_emperor_of_romans }
+			check_variable = { which = me_emperor_of_romans_level value = 3 }
+			NOT = { check_variable = { which = me_emperor_of_romans_level value = 2 } }
 		}
 		remove_country_modifier = me_sty_emperor_of_romans_3
 		add_ruler_modifier = {
@@ -962,8 +918,8 @@ me_increase_emperor_of_romans_level = {
 	}
 	else_if = {
 		limit = {
-			has_ruler_modifier = me_sty_emperor_of_romans_3
-			NOT = { has_ruler_modifier = me_sty_emperor_of_romans }
+			check_variable = { which = me_emperor_of_romans_level value = 2 }
+			NOT = { check_variable = { which = me_emperor_of_romans_level value = 1 } }
 		}
 		remove_country_modifier = me_sty_emperor_of_romans_3
 		add_ruler_modifier = {
@@ -973,8 +929,8 @@ me_increase_emperor_of_romans_level = {
 	}
 	else_if = {
 		limit = {
-			has_ruler_modifier = me_sty_emperor_of_romans_2
-			NOT = { has_ruler_modifier = me_sty_emperor_of_romans }
+			check_variable = { which = me_emperor_of_romans_level value = 1 }
+			NOT = { check_variable = { which = me_emperor_of_romans_level value = 0 } }
 		}
 		remove_country_modifier = me_sty_emperor_of_romans_2
 		add_ruler_modifier = {
@@ -988,7 +944,7 @@ me_increase_emperor_of_romans_level = {
 			NOT = { has_ruler_modifier = me_sty_emperor_of_romans_2 }
 			NOT = { has_ruler_modifier = me_sty_emperor_of_romans_3 }
 			NOT = { has_ruler_modifier = me_sty_emperor_of_romans_4 }
-			NOT = { has_ruler_modifier = me_sty_emperor_of_romans }
+			NOT = { has_ruler_modifier = me_sty_emperor_of_romans_1 }
 		}
 		add_ruler_modifier = {
 			name = me_sty_emperor_of_romans_4

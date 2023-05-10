@@ -113,19 +113,19 @@ nor_colonialism_mission_slot = {
 			17 = {
 				add_province_modifier = {
 					name = nor_trade_posts_of_the_north
-					duration = -1 
+					duration = -1
 				}
 			}
 			20 = {
 				add_province_modifier = {
 					name = nor_trade_posts_of_the_north
-					duration = -1 
+					duration = -1
 				}
 			}
 			23 = {
 				add_province_modifier = {
 					name = nor_trade_posts_of_the_north
-					duration = -1 
+					duration = -1
 				}
 			}
 		}
@@ -203,7 +203,7 @@ nor_colonialism_mission_slot = {
 				estate = estate_burghers
 				desc = nor_dominate_trade_tt
 				loyalty = 20
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -280,7 +280,7 @@ nor_colonialism_mission_slot = {
 			add_navy_tradition = 20
 			add_country_modifier = {
 				name = nor_colonial_enthusiasm
-				duration = -1 
+				duration = 14600
 			}
 			if = {
 				limit = {
@@ -464,7 +464,7 @@ nor_colonize_north_america_slot = {
 			1486 = {
 				add_trade_modifier = {
 					who = ROOT
-					duration = -1 
+					duration = 10950
 					power = 15
 					key = nor_colonize_canada_and_na_at
 				}
@@ -472,7 +472,7 @@ nor_colonize_north_america_slot = {
 			1490 = {
 				add_trade_modifier = {
 					who = ROOT
-					duration = -1 
+					duration = 10950
 					power = 15
 					key = nor_colonize_canada_and_na_at
 				}
@@ -480,7 +480,7 @@ nor_colonize_north_america_slot = {
 			1500 = {
 				add_trade_modifier = {
 					who = ROOT
-					duration = -1 
+					duration = 10950
 					power = 15
 					key = nor_colonize_canada_and_na_at
 				}
@@ -584,7 +584,7 @@ nor_colonize_random_new_world_slot = {
 		effect = {
 			add_country_modifier = {
 				name = nor_new_world_administration
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -776,7 +776,7 @@ nor_conquest_mission_slot = {
 			}
 			add_country_modifier = {
 				name = nor_sailors_of_norway
-				duration = -1 
+				duration = 9125
 			}
 		}
 	}
@@ -838,7 +838,7 @@ nor_conquest_mission_slot = {
 				1975 = {
 					add_trade_modifier = {
 						who = ROOT
-						duration = -1 
+						duration = -1
 						power = 10
 						key = nor_control_over_scotland
 					}
@@ -1197,7 +1197,7 @@ nor_circumnavigate_the_world_slot = {
 			}
 			add_country_modifier = {
 				name = nor_great_navigators
-				duration = -1 
+				duration = 36500
 			}
 		}
 	}
@@ -1390,7 +1390,7 @@ nor_kalmar_union_mission_slot = {
 				}
 				add_country_modifier = {
 					name = nor_holder_of_the_kalmar_union
-					duration = -1 
+					duration = -1
 				}
 			}
 			else = {
@@ -1447,7 +1447,7 @@ nor_dominate_colonialism_slot = {
 			1516 = {
 				add_trade_modifier = {
 					who = ROOT
-					duration = -1 
+					duration = -1
 					power = 25
 					key = nor_colonize_caribbeans_tt
 				}
@@ -1455,7 +1455,7 @@ nor_dominate_colonialism_slot = {
 			1500 = {
 				add_trade_modifier = {
 					who = ROOT
-					duration = -1 
+					duration = 18250
 					power = 20
 					key = nor_colonize_caribbeans_tt
 				}
@@ -1463,7 +1463,7 @@ nor_dominate_colonialism_slot = {
 			2935 = {
 				add_trade_modifier = {
 					who = ROOT
-					duration = -1 
+					duration = 18250
 					power = 20
 					key = nor_colonize_caribbeans_tt
 				}
@@ -1471,7 +1471,7 @@ nor_dominate_colonialism_slot = {
 			1551 = {
 				add_trade_modifier = {
 					who = ROOT
-					duration = -1 
+					duration = 18250
 					power = 20
 					key = nor_colonize_caribbeans_tt
 				}
@@ -1479,7 +1479,7 @@ nor_dominate_colonialism_slot = {
 			835 = {
 				add_trade_modifier = {
 					who = ROOT
-					duration = -1 
+					duration = 18250
 					power = 20
 					key = nor_colonize_caribbeans_tt
 				}
@@ -1522,7 +1522,7 @@ nor_development_mission_slot = {
 			add_mil_power = 50
 			add_country_modifier = {
 				name = nor_fight_for_liberty
-				duration = -1 
+				duration = 9125
 			}
 		}
 	}
@@ -1588,7 +1588,7 @@ nor_development_mission_slot = {
 			}
 			add_country_modifier = {
 				name = nor_competent_marines
-				duration = -1 
+				duration = -1
 			}
 			add_mil_power = 150
 			hidden_effect = {
@@ -1616,7 +1616,7 @@ nor_development_mission_slot = {
 			add_legitimacy = 10
 			add_country_modifier = {
 				name = nor_norwegian_nobility_established
-				duration = -1 
+				duration = 9125
 			}
 			add_government_reform = norwegian_parliamentary_monarchy
 		}
@@ -1741,7 +1741,7 @@ nor_west_africa_slot = {
 		effect = {
 			add_country_modifier = {
 				name = nor_control_over_west_africa
-				duration = -1 
+				duration = 9125
 			}
 			guinea_region = {
 				limit = {
@@ -1806,7 +1806,7 @@ nor_army_and_religion_mission_slot = {
 		effect = {
 			add_country_modifier = {
 				name = nor_scandes_fortresses
-				duration = -1 
+				duration = 9125
 			}
 			define_advisor = {
 				type = fortification_expert
@@ -1927,7 +1927,7 @@ nor_army_and_religion_mission_slot = {
 			}
 			add_country_modifier = {
 				name = nor_scandinavian_empire
-				duration = -1 
+				duration = -1
 			}
 			custom_tooltip = nor_powerhouse_of_the_north_tt
 			hidden_effect = {
@@ -1937,7 +1937,7 @@ nor_army_and_religion_mission_slot = {
 					}
 					add_province_modifier = {
 						name = nor_scandinavian_empire_local
-						duration = -1 
+						duration = -1
 					}
 				}
 			}
@@ -2158,14 +2158,14 @@ nor_religion_mission_slot = {
 			add_papal_influence = 25
 			add_country_modifier = {
 				name = nor_defender_of_the_catholic_faith
-				duration = -1 
+				duration = 9125
 			}
 			custom_tooltip = swe_reformation_effects_tt
 			add_church_power = 50
 			add_fervor = 25
 			add_country_modifier = {
 				name = nor_sword_of_the_reformation
-				duration = -1 
+				duration = 9125
 			}
 			custom_tooltip = swe_humanist_effects_tt
 			disable_rebels_from_seize_land_for_estate = {
@@ -2285,7 +2285,7 @@ nor_religion_mission_slot = {
 				}
 			}
 			custom_tooltip = swe_humanist_effects_tt
-			add_stat_or_monarch_power = {
+			change_ruler_stat = {
 				stat = dip
 				amount = 3
 			}
@@ -2346,7 +2346,7 @@ nor_catholic_mission_slot = {
 			add_papal_influence = 25
 			add_country_modifier = {
 				name = nor_defender_of_the_catholic_faith
-				duration = -1 
+				duration = 9125
 			}
 		}
 	}
@@ -2480,7 +2480,7 @@ nor_protestant_mission_slot = {
 			add_fervor = 25
 			add_country_modifier = {
 				name = nor_sword_of_the_reformation
-				duration = -1 
+				duration = 9125
 			}
 		}
 	}
@@ -2634,7 +2634,7 @@ nor_humanist_mission_slot = {
 			NOT = { num_of_rebel_controlled_provinces = 1 }
 		}
 		effect = {
-			add_stat_or_monarch_power = {
+			change_ruler_stat = {
 				stat = dip
 				amount = 3
 			}
@@ -2753,7 +2753,7 @@ nor_norse_mission_slot = {
 			}
 			add_country_modifier = {
 				name = swe_norse_great_power
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -2782,7 +2782,7 @@ nor_sca_colonize_more_na_slot = {
 	has_country_shield = yes
 	
 	nor_sca_rio_grande_and_california = {
-		icon = mission_southern_frontier
+		icon = mission_southern_frontier_lotn
 		position = 8
 		required_missions = { nor_colonize_the_north }
 		provinces_to_highlight = {
@@ -2833,7 +2833,7 @@ nor_sca_colonize_more_na_slot = {
 					}
 					add_province_modifier = {
 						name = sca_nor_search_for_gold
-						duration = -1 
+						duration = 9125
 					}
 				}
 				california_region = {
@@ -2844,13 +2844,13 @@ nor_sca_colonize_more_na_slot = {
 					}
 					add_province_modifier = {
 						name = sca_nor_search_for_gold
-						duration = -1 
+						duration = 9125
 					}
 				}
 			}
 			add_country_modifier = {
 				name = sca_nor_treasure_fleet
-				duration = -1 
+				duration = -1
 			}
 			custom_tooltip = nor_sca_rio_grande_and_california_ct
 			hidden_effect = {
@@ -2946,7 +2946,7 @@ nor_sca_colonize_more_na_slot = {
 		effect = {
 			add_country_modifier = {
 				name = nor_new_world_administration
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -2993,11 +2993,11 @@ nor_sca_colonize_sa_slot = {
 			835 = {
 				add_permanent_province_modifier = {
 					name = sca_nor_panama_sound_toll
-					duration = -1 
+					duration = -1
 				}
 				add_trade_modifier = {
 					who = ROOT
-					duration = -1 
+					duration = -1
 					power = 15
 					key = nor_sca_control_the_panama_tt
 				}
@@ -3043,7 +3043,7 @@ nor_sca_colonize_sa_slot = {
 		effect = {
 			add_country_modifier = {
 				name = sca_nor_curiosity_of_the_forefathers
-				duration = -1 
+				duration = 9125
 			}
 			create_conquistador = {
 				tradition = 100
@@ -3186,7 +3186,7 @@ nor_sca_colonize_peru_slot = {
 		effect = {
 			add_country_modifier = {
 				name = nor_domination_of_the_new_world
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -3330,7 +3330,7 @@ nor_sca_south_africa_slot = {
 			4097 = {
 				add_trade_modifier = {
 					who = root
-					duration = -1 
+					duration = 5475
 					power = 20
 					key = ivory_coast_ambition
 				}
@@ -3404,7 +3404,7 @@ nor_sca_navy_slot = {
 		effect = {
 			add_country_modifier = {
 				name = sca_nor_naval_investment
-				duration = -1 
+				duration = 9125
 			}
 		}
 	}
@@ -3460,7 +3460,7 @@ nor_sca_navy_slot = {
 		effect = {
 			add_country_modifier = {
 				name = sca_nor_goods_tranportation
-				duration = -1 
+				duration = -1
 			}
 			enable_admirals_army_professionalism = yes
 		}
@@ -3520,7 +3520,7 @@ nor_sca_marine_slot = {
 			}
 			add_country_modifier = {
 				name = sca_nor_reformed_leidang_conscription
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -3576,7 +3576,7 @@ nor_sca_mighty_fleet_slot = {
 			add_yearly_sailors = 10
 			add_country_modifier = {
 				name = sca_nor_enhanced_naval_doctrines
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -3701,7 +3701,7 @@ nor_sca_internal_development = {
 					}
 					add_province_modifier = {
 						name = swe_arctic_expansion
-						duration = -1 
+						duration = -1
 					}
 				}
 				scandinavia_region = {
@@ -3914,7 +3914,7 @@ nor_sca_conquest = {
 		effect = {
 			add_country_modifier = {
 				name = dan_sca_balticum_dominance_mod
-				duration = -1 
+				duration = -1
 			}
 		}
 	}

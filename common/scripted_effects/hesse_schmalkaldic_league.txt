@@ -6,7 +6,7 @@ HES_victory_effect = {
 	tooltip = {
 		add_country_modifier = {
 			name = HES_independent_schmalkaldic_league
-			duration = -1
+			duration = 10950
 		}
 	}
 	set_global_flag = HES_victory
@@ -20,7 +20,7 @@ HES_loss_effect = {
 	tooltip = {
 		add_country_modifier = {
 			name = HES_loss_schmalkaldic_league
-			duration = -1
+			duration = 10950
 		}
 	}
 	set_global_flag = HES_loss
@@ -43,7 +43,7 @@ HES_league_tooltip = {
 	custom_tooltip = HES_being_part
 	add_country_modifier = {
 		name = HES_member_of_the_league
-		duration = -1
+		duration = 10950
 	}
 	
 	custom_tooltip = HES_beware

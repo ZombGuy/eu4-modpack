@@ -1038,7 +1038,7 @@ ME_estate_burghers_QIR_persian_development = {
 	loyalty = 0.0
 	influence = 0.1
 	is_valid = {
-		has_country_flag = 
+		has_country_flag = QIR_unlock_persian_development_privilege_flag
 	}
 	
 	can_select = {
@@ -1118,7 +1118,7 @@ ME_estate_burghers_steppe_development = {
 		hidden_effect = {
 			every_owned_province = {
 				limit = {
-					has_climate = steppes
+					has_terrain = steppe
 				}
 				add_province_modifier = {
 					name = estate_burghers_steppe_development
@@ -1170,7 +1170,7 @@ ME_estate_nomadic_tribes_horde_unity = {
 			every_owned_province = {
 				limit = {
 					OR = {
-						culture = afghan
+						culture = afghani
 						culture = khorasani
 					}
 				}
@@ -1196,7 +1196,6 @@ ME_estate_nomadic_tribes_horde_unity = {
 		}
 	}
 	on_revoked = {
-		custom_tooltip = estate_burghers_steppe_development_rt
 		hidden_effect = {
 			every_owned_province = {
 				limit = {
@@ -1546,7 +1545,7 @@ ME_estate_dhimmi_MAM_dhimmi_in_high_places = {
 			}
 		}
 		modifier = {
-			infantry_power = 0.02
+			infantry_power = 0.2
 		}
 	}
 	ai_will_do = {
@@ -1654,6 +1653,110 @@ ME_estate_nobles_loyal_military = {
 	benefits = {
 		army_tradition = 0.5
 	}
+	ai_will_do = {
+		factor = 10
+		modifier = {
+			factor = 0
+			is_absolutism_active = yes
+		}
+	}
+}
+
+ME_estate_burghers_SWI_peace_in_the_cantons = {
+	icon = privilege_recruit_minister
+	max_absolutism = -5
+	loyalty = 0.1
+	influence = 0.1
+	is_valid = {
+		has_country_flag = SWI_peace_in_the_cantons
+	}
+	on_granted = {
+		custom_tooltip = SWI_when_we_have_2_stab
+	}
+	conditional_modifier = {
+		trigger = {
+			stability = 2
+		}
+		modifier = {
+			development_cost = -0.1
+			stability_cost_modifier = -0.25
+		}
+	}
+	ai_will_do = {
+		factor = 10
+		modifier = {
+			factor = 0
+			is_absolutism_active = yes
+		}
+	}
+}
+
+ME_estate_nobles_theme_system = {
+	icon = privilege_promote_maratha_nobility
+	max_absolutism = -5
+	loyalty = 0.05
+	influence = 0.15
+	is_valid = {
+		mission_completed = byz_restore_themata
+	}
+	penalties = {
+	}
+	benefits = {
+	}
+
+	on_granted = {
+		custom_tooltip = EE_BYZ_EXTRA_MANPOWER_PER_AUTONOMY
+	}
+
+	conditional_modifier = {
+		trigger = {
+			average_autonomy = 80
+		}
+		modifier = {
+			manpower_in_accepted_culture_provinces = 0.025
+			manpower_in_culture_group_provinces = 0.05
+		}
+	}
+	conditional_modifier = {
+		trigger = {
+			NOT = { average_autonomy = 80 }
+			average_autonomy = 60
+		}
+		modifier = {
+			manpower_in_accepted_culture_provinces = 0.05
+			manpower_in_culture_group_provinces = 0.1
+		}
+	}
+	conditional_modifier = {
+		trigger = {
+			NOT = { average_autonomy = 60 }
+			average_autonomy = 40
+		}
+		modifier = {
+			manpower_in_accepted_culture_provinces = 0.075
+			manpower_in_culture_group_provinces = 0.15
+		}
+	}
+	conditional_modifier = {
+		trigger = {
+			NOT = { average_autonomy = 40 }
+			average_autonomy = 20
+		}
+		modifier = {
+			manpower_in_accepted_culture_provinces = 0.1
+			manpower_in_culture_group_provinces = 0.2
+		}
+	}
+	conditional_modifier = {
+		trigger = {
+			NOT = { average_autonomy = 20 }
+		}
+		modifier = {
+			manpower_in_accepted_culture_provinces = 0.15
+			manpower_in_culture_group_provinces = 0.25
+		}
+	}
+
 	ai_will_do = {
 		factor = 10
 		modifier = {

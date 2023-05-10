@@ -672,37 +672,42 @@ ME_on_province_owner_change_estate_privileges_effect = {
 	
 	if = {
 		limit = {
-			OR = {
-				has_province_modifier = ORM_icon
-				has_province_modifier = ORM_icon_gray
-			}
-			event_target:target_ORM = {
-				has_estate_privilege = ME_estate_burghers_ORM_improve_relations
-			}
-		}
-		owner = {
-			add_opinion = {
-				who = event_target:target_ORM
-				modifier = ORM_opinion_priv
-			}
+			has_saved_global_event_target = target_ORM
 		}
 		if = {
 			limit = {
-				FROM = {
-					NOT = {
-						any_owned_province = {
-							OR = {
-								has_province_modifier = ORM_icon
-								has_province_modifier = ORM_icon_gray
+				OR = {
+					has_province_modifier = ORM_icon
+					has_province_modifier = ORM_icon_gray
+				}
+				event_target:target_ORM = {
+					has_estate_privilege = ME_estate_burghers_ORM_improve_relations
+				}
+			}
+			owner = {
+				add_opinion = {
+					who = event_target:target_ORM
+					modifier = ORM_opinion_priv
+				}
+			}
+			if = {
+				limit = {
+					FROM = {
+						NOT = {
+							any_owned_province = {
+								OR = {
+									has_province_modifier = ORM_icon
+									has_province_modifier = ORM_icon_gray
+								}
 							}
 						}
 					}
 				}
-			}
-			event_target:target_ORM = {
-				reverse_remove_opinion = {
-					who = FROM
-					modifier = ORM_opinion_priv
+				event_target:target_ORM = {
+					reverse_remove_opinion = {
+						who = FROM
+						modifier = ORM_opinion_priv
+					}
 				}
 			}
 		}

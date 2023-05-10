@@ -171,7 +171,7 @@ mongol_missions_1 = {
 			}
 			add_country_modifier = {
 				name = mongol_fleet_modifier
-				duration = -1 
+				duration = 7300
 			}
 			kinai_area = {
 				limit = {
@@ -202,7 +202,7 @@ mongol_missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = "mongol_defeated_japan"
-				duration = -1 
+				duration = -1
 			}
 			japan_region = {
 				limit = {
@@ -248,10 +248,8 @@ mongol_missions_2 = {
 				province_id = 2116
 				province_id = 4678
 			}
-			NOT = {
-				owned_by = ROOT
-				is_core = ROOT
-			}
+			NOT = { owned_by = ROOT }
+			NOT = { is_core = ROOT }
 		}
 		trigger = {
 			owns_core_province = 2116
@@ -328,7 +326,7 @@ mongol_missions_2 = {
 				}
 				add_country_modifier = {
 					name = "reorganized_mongols"
-					duration = -1 
+					duration = -1
 				}
 			}
 			else = {
@@ -524,7 +522,7 @@ mongol_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = "mongol_religion_unity"
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -641,7 +639,7 @@ mongol_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = "pax_mongolica"
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -697,7 +695,7 @@ mongol_missions_4 = {
 		effect = {
 			add_country_modifier = {
 				name = "mongol_european_conquest"
-				duration = -1 
+				duration = -1
 			}
 			poland_region = {
 				limit = {

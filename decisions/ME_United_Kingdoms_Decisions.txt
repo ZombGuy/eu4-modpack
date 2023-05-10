@@ -5,6 +5,7 @@ country_decisions = {
 			OR = {
 				tag = ENG
 				tag = UKS
+				tag = AVE
 			}
 			OR = {
 				has_country_flag = ENG_Angevin_Missions

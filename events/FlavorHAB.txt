@@ -369,7 +369,6 @@ country_event = {
 	
 	option = {		# They must be crushed
 		name = "flavor_hab.EVTOPTA3195"
-		
 		add_stability = -1
 		random_owned_province = {
 			limit = {
@@ -2075,7 +2074,7 @@ country_event = {
 
 	trigger = {
 		tag = HAB
-		has_institution = colonialism
+		has_institution = new_world_i
 		
 		owns = 90
 		NOT = { has_country_modifier = india_trade_co }

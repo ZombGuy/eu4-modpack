@@ -733,14 +733,7 @@ country_event = {
 		
 		ai_chance = { factor = 1 }
 		
-		set_country_flag = habsburg_glory_unlocked
 		custom_tooltip = HAB_habsburg_glory
-		hidden_effect = {
-			set_variable = {
-				which = habsburg_glory
-				value = 10
-			}
-		}
 	}
 }
 
@@ -1092,7 +1085,7 @@ country_event = {
 		random_owned_province = {
 			limit = {
 				area = venetia_area
-				has_port = no
+				has_port = yes
 			}
 			add_unit_construction = {
 				type = galley
@@ -1104,7 +1097,7 @@ country_event = {
 		random_owned_province = {
 			limit = {
 				area = venetia_area
-				has_port = no
+				has_port = yes
 			}
 			add_unit_construction = {
 				type = galley
@@ -1650,6 +1643,11 @@ country_event = {
 			}
 			white_peace = FROM
 		}
+
+		change_country_color = {
+			color = { 250  250  250 }
+		}
+		set_country_flag = has_overriden_color_flag
 		
 		FROM = {
 			create_subject = {
@@ -1922,6 +1920,9 @@ country_event = {
 
 country_event = {
 	id = ME_Austria_Events.39
+	title = ME_Austria_Events.39.t
+	desc = ME_Austria_Events.39.d
+	picture = CULTURE_eventPicture
 	
 	hidden = yes
 	
@@ -2061,6 +2062,9 @@ country_event = {
 
 country_event = {
 	id = ME_Austria_Events.42
+	title = ME_Austria_Events.42.t
+	desc = ME_Austria_Events.42.d
+	picture = CULTURE_eventPicture
 	
 	hidden = yes
 	
@@ -2122,6 +2126,9 @@ country_event = {
 
 country_event = {
 	id = ME_Austria_Events.43
+	title = ME_Austria_Events.43.t
+	desc = ME_Austria_Events.43.d
+	picture = CULTURE_eventPicture
 	
 	hidden = yes
 	
@@ -2192,6 +2199,9 @@ country_event = {
 
 country_event = {
 	id = ME_Austria_Events.45
+	title = ME_Austria_Events.45.t
+	desc = ME_Austria_Events.45.d
+	picture = CULTURE_eventPicture
 	
 	hidden = yes
 	
@@ -2400,8 +2410,6 @@ country_event = { #A centralized state
 		else = {
 			change_dip = 1
 		}
-		
-		set_country_flag = me_hab_allow_edict_of_tolernace
 	}
 }
 
@@ -2434,7 +2442,7 @@ country_event = { #Edict of Tolerance
 		
 		add_country_modifier = {
 			name = me_hab_no_tolerance
-			duration = 7300
+			duration = -1
 		}
 	}
 	
@@ -2445,14 +2453,7 @@ country_event = { #Edict of Tolerance
 		
 		add_country_modifier = {
 			name = me_hab_edict_of_tolerance
-			duration = 7300
-		}
-		if = {
-			limit = {
-				has_dlc = "Mandate of Heaven"
-			}
-			set_country_flag = me_hab_unlock_state_edict_tolerance
-			custom_tooltip = me_hab_edict_of_tolerance_unlocked
+			duration = -1
 		}
 	}
 	
@@ -2463,6 +2464,9 @@ country_event = { #Edict of Tolerance
 
 country_event = {
 	id = ME_Austria_Events.53
+	title = ME_Austria_Events.53.t
+	desc = ME_Austria_Events.53.d
+	picture = CULTURE_eventPicture
 	
 	hidden = yes
 	
@@ -2494,6 +2498,9 @@ country_event = {
 
 country_event = {
 	id = ME_Austria_Events.54
+	title = ME_Austria_Events.54.t
+	desc = ME_Austria_Events.54.d
+	picture = CULTURE_eventPicture
 	
 	hidden = yes
 	
@@ -2904,6 +2911,9 @@ country_event = {
 
 country_event = {
 	id = ME_Austria_Events.62
+	title = ME_Austria_Events.62.t
+	desc = ME_Austria_Events.62.d
+	picture = CULTURE_eventPicture
 
 	hidden = yes
 	
@@ -2928,6 +2938,9 @@ country_event = {
 
 country_event = {
 	id = ME_Austria_Events.63
+	title = ME_Austria_Events.63.t
+	desc = ME_Austria_Events.63.d
+	picture = CULTURE_eventPicture
 
 	hidden = yes
 	
@@ -2952,6 +2965,9 @@ country_event = {
 
 country_event = {
 	id = ME_Austria_Events.64
+	title = ME_Austria_Events.64.t
+	desc = ME_Austria_Events.64.d
+	picture = CULTURE_eventPicture
 
 	hidden = yes
 	
@@ -3156,7 +3172,7 @@ country_event = {
 		
 		tooltip = {
 			FROM = {
-				me_join_the_empire = yes
+				set_in_empire = yes
 			}
 		}
 	}
@@ -3257,6 +3273,9 @@ country_event = {
 
 country_event = {
 	id = ME_Austria_Events.75
+	title = ME_Austria_Events.75.t
+	desc = ME_Austria_Events.75.d
+	picture = CULTURE_eventPicture
 	
 	hidden = yes
 	
@@ -3390,5 +3409,51 @@ country_event = { #The Neapolitan Throne
 			months = 120
 		}
 		HAB_change_habsburg_glory = { amount = 10 }
+	}
+}
+
+country_event = { #The Last Knight
+	id = ME_Austria_Events.79
+	title = ME_Austria_Events.79.t
+	desc = ME_Austria_Events.79.d
+	picture = HRE_eventPicture
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = HAB
+		is_year = 1470
+		NOT = { has_heir_flag = me_charles_court }
+	}
+	
+	mean_time_to_happen = {
+		months = 30
+	}
+	
+	option = {
+		name = ME_Austria_Events.79.a
+		
+		define_heir = {
+			name = "Maximilian"
+			dynasty = ROOT
+			adm = 3
+			dip = 6
+			mil = 4
+			age = 15
+			male = yes
+		}
+		
+		define_heir_to_general = {
+			fire = 5
+			shock = 4
+			manuever = 2
+			siege = 2
+		}
+		add_heir_personality = maximilian_personality
+	}
+	
+	option = {
+		name = ME_Austria_Events.79.b
+		
 	}
 }

@@ -45,7 +45,7 @@ SWA_missions_2 = {
 			1878 = {
 				add_trade_modifier = {
 					who = ROOT
-					duration = -1 
+					duration = -1
 					power = 15
 					key = SWA_Rhineland_modifier
 				}
@@ -131,7 +131,7 @@ SWA_missions_2 = {
 		effect = {
 			add_country_modifier = {
 				name = SWA_uniting_the_stem_duchy
-				duration = -1 
+				duration = 9125
 			}
 			mecklenburg_area = {
 				limit = {
@@ -166,7 +166,7 @@ SWA_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = SWA_FC_modifier
-				duration = -1 
+				duration = 9125
 			}
 			#Bavaria
 			lower_bavaria_area = {
@@ -255,7 +255,7 @@ SWA_missions_3 = {
 			166 = {
 				add_trade_modifier = {
 					who = ROOT
-					duration = -1 
+					duration = -1
 					power = 15
 					key = SWA_Pathway_through_the_alps
 				}
@@ -263,7 +263,7 @@ SWA_missions_3 = {
 			165 = {
 				add_trade_modifier = {
 					who = ROOT
-					duration = -1 
+					duration = -1
 					power = 15
 					key = SWA_Pathway_through_the_alps
 				}
@@ -302,7 +302,7 @@ SWA_missions_3 = {
 			add_navy_tradition = 25
 			add_country_modifier = {
 				name = SWA_access_to_baltic_sea
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -344,7 +344,7 @@ SWA_missions_4 = {
 		effect = {
 			add_country_modifier = {
 				name = RHN_bavaria_modifier
-				duration = -1 
+				duration = 9125
 			}
 			franconia_area = {
 				limit = {
@@ -373,7 +373,7 @@ SWA_missions_4 = {
 		effect = {
 			add_country_modifier = {
 				name = SWA_Franconian_modifier
-				duration = -1 
+				duration = 9125
 			}
 			thuringia_area = {
 				limit = {
@@ -440,7 +440,7 @@ SWA_missions_4 = {
 		effect = {
 			add_country_modifier = {
 				name = SWA_Lessons_of_the_Saxons
-				duration = -1 
+				duration = 9125
 			}
 			vorpommern_area = {
 				limit = {
@@ -556,7 +556,7 @@ SWA_BRB_missions_2 = {
 		effect = {
 			add_country_modifier = {
 				name = SWA_Legitimate_Successor
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -583,7 +583,7 @@ SWA_BRB_missions_2 = {
 		effect = {
 			add_country_modifier = {
 				name = SWA_allies_modifier
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -808,7 +808,7 @@ SWA_BRB_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = "gen_hre_emperor_mod"
-				duration = -1 
+				duration = 9125
 			}
 		}
 	}
@@ -825,7 +825,7 @@ SWA_BRB_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = "SWA_popular_emperor"
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -1003,7 +1003,7 @@ SWA_BRB_missions_4 = {
 		effect = {
 			add_country_modifier = {
 				name = SWA_support_of_electors
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -1019,7 +1019,7 @@ SWA_BRB_missions_4 = {
 		effect = {
 			add_country_modifier = {
 				name = SWA_acting_in_counterreformation
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -1043,7 +1043,7 @@ SWA_BRB_missions_4 = {
 		effect = {
 			add_country_modifier = {
 				name = SWA_jesuits
-				duration = -1 
+				duration = 36500
 			}
 		}
 	}
@@ -1067,7 +1067,7 @@ SWA_BRB_missions_4 = {
 		effect = {
 			add_country_modifier = {
 				name = "SWA_protector_of_peace"
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -1094,7 +1094,7 @@ SWA_BRB_missions_4 = {
 		effect = {
 			add_country_modifier = {
 				name = "SWA_income_from_vassals"
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -1138,7 +1138,7 @@ SWA_BRB_missions_4 = {
 		effect = {
 			add_country_modifier = {
 				name = "SWA_Renovation_Imperii"
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -1177,7 +1177,7 @@ SWA_BRB_missions_5 = {
 			add_years_of_income = 2
 			add_country_modifier = {
 				name = SWA_support_of_the_pope
-				duration = -1 
+				duration = 36500
 			}
 		}
 	}
@@ -1377,7 +1377,7 @@ SWA_CON_missions_1 = {
 			68 = {
 				add_province_modifier = {
 					name = SWA_Important_Press
-					duration = -1 
+					duration = -1
 				}
 			}
 		}
@@ -1416,7 +1416,7 @@ SWA_CON_missions_1 = {
 			75 = {
 				add_province_modifier = {
 					name = SWA_Fortification
-					duration = -1 
+					duration = -1
 				}
 			}
 		}
@@ -1464,7 +1464,7 @@ SWA_CON_missions_2 = {
 				}
 				add_province_modifier = {
 					name = fra_university
-					duration = -1 
+					duration = -1
 				}
 			}
 		}
@@ -1491,7 +1491,7 @@ SWA_CON_missions_2 = {
 			75 = {
 				add_province_modifier = {
 					name = SWA_Important_Press
-					duration = -1 
+					duration = -1
 				}
 			}
 		}
@@ -1530,7 +1530,7 @@ SWA_CON_missions_2 = {
 			1872 = {
 				add_province_modifier = {
 					name = SWA_Fortification
-					duration = -1 
+					duration = -1
 				}
 			}
 		}
@@ -1556,7 +1556,7 @@ SWA_CON_missions_2 = {
 		effect = {
 			add_country_modifier = {
 				name = SWA_Safe_people
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -1605,7 +1605,7 @@ SWA_CON_missions_3 = {
 					}
 					add_province_modifier = {
 						name = SWA_helping_develop
-						duration = -1 
+						duration = 9125
 					}
 				}
 			}
@@ -1635,7 +1635,7 @@ SWA_CON_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = SWA_Investing
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -1701,7 +1701,7 @@ SWA_CON_missions_4 = {
 			add_adm_power = -100
 			add_country_modifier = {
 				name = SWA_12_articles_modifier
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -1727,7 +1727,7 @@ SWA_CON_missions_4 = {
 			74 = {
 				add_province_modifier = {
 					name = SWA_Spa
-					duration = -1 
+					duration = -1
 				}
 			}
 		}
@@ -1753,7 +1753,7 @@ SWA_CON_missions_4 = {
 		effect = {
 			add_country_modifier = {
 				name = SWA_Swabian_League
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -1783,7 +1783,7 @@ SWA_CON_missions_5 = {
 		effect = {
 			add_country_modifier = {
 				name = SWA_Swabian_Tradition
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -1841,7 +1841,7 @@ SWA_CON_missions_5 = {
 		effect = {
 			add_country_modifier = {
 				name = SWA_Prospering_cities
-				duration = -1 
+				duration = -1
 			}
 		}
 	}

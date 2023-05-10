@@ -64,6 +64,7 @@ country_decisions = {
 		}
 		effect = {
 			change_tag = PLC
+			on_change_tag_effect = yes
 			inherit = LIT
 			swap_non_generic_missions = yes
 			if = {
@@ -132,6 +133,7 @@ country_decisions = {
 					OR = {
 						culture = polishBOH
 						culture = polish
+						culture = polish_new
 					}
 				}
 				add_base_tax = 1
@@ -223,6 +225,7 @@ country_decisions = {
 		}
 		effect = {
 			change_tag = PLC
+			on_change_tag_effect = yes
 			if = { 
 				limit = { 
 					OR = { 
@@ -241,8 +244,15 @@ country_decisions = {
 				limit = {
 					NOT = { accepted_culture = polishBOH }
 					NOT = { accepted_culture = polish }
+					NOT = { accepted_culture = polish_new }
 				}
 				if = {
+					limit = {
+						has_updated_culture = { culture = slavic } 
+					}
+					add_accepted_culture = polish_new
+				}
+				else_if = {
 					limit = {
 						has_global_flag = boh_merge_slavic_into_germanic
 					}
@@ -318,7 +328,6 @@ country_decisions = {
 			complete_mission = pol_leverage_magnates
 			complete_mission = pol_great_sejm
 			complete_mission = plc_articles_agreement
-			complete_mission = pol_varna_aftermath
 			if = {
 				limit = { has_custom_ideas = no }
 				country_event = { id = ideagroups.1 } #Swap Ideas
@@ -398,6 +407,7 @@ country_decisions = {
 		}
 		effect = {
 			change_tag = PLC
+			on_change_tag_effect = yes
 			if = { 
 				limit = { 
 					OR = { 
@@ -409,6 +419,7 @@ country_decisions = {
 				set_country_flag = is_LPC_flag
 			}
 			else = { restore_country_name = yes }
+			set_country_flag = pol_chose_pu_flag
 			swap_non_generic_missions = yes
 			remove_non_electors_emperors_from_empire_effect = yes
 			if = {
@@ -417,12 +428,17 @@ country_decisions = {
 			}
 			if = {
 				limit = {
-					NOT = { primary_culture = polishBOH }
 					NOT = { accepted_culture = polishBOH }
-					NOT = { primary_culture = polish }
 					NOT = { accepted_culture = polish }
+					NOT = { accepted_culture = polish_new }
 				}
 				if = {
+					limit = {
+						has_updated_culture = { culture = slavic } 
+					}
+					add_accepted_culture = polish_new
+				}
+				else_if = {
 					limit = {
 						has_global_flag = boh_merge_slavic_into_germanic
 					}

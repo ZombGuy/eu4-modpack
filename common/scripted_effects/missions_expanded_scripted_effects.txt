@@ -908,58 +908,6 @@ release_subjects_and_cede_cores = {
 	]
 }
 
-## adds prestige until 100 is reached and then adds the rest as a random monarch power
-### add_prestige_or_monarch_power = { amount = <number> }
-add_prestige_or_monarch_power = {
-	[[amount]
-		tooltip = {
-			add_prestige = $amount$
-		}
-		custom_tooltip = ME_ADD_PRESTIGE_OR_MONARCHPOWER
-		hidden_effect = {
-			for = {
-				amount = $amount$
-				effect = "
-					if = {
-						limit = {
-							NOT = { prestige = 100 }
-						}
-						add_prestige = 1
-					}
-					else = {
-						add_adm_power = 1
-						add_dip_power = 1
-						add_mil_power = 1
-					}
-				"
-			}
-		}
-	]
-	[[value]
-		tooltip = {
-			add_prestige = $value$
-		}
-		hidden_effect = {
-			for = {
-				amount = $value$
-				effect = "
-					if = {
-						limit = {
-							NOT = { prestige = 100 }
-						}
-						add_prestige = 1
-					}
-					else = {
-						add_adm_power = 1
-						add_dip_power = 1
-						add_mil_power = 1
-					}
-				"
-			}
-		}
-	]
-}
-
 ## adds army tradition until 100 is reached and then adds the rest as mil power
 ### add_army_tradition_or_mil_power = { amount = <number> }
 add_army_tradition_or_mil_power = {
@@ -2597,4 +2545,61 @@ EE_change_variable = {
 			value = $multiply$
 		}
 	]
+}
+
+ME_create_flagship = {
+	hidden_effect = {
+		owner = {
+			set_country_flag = ME_flagship_effect
+			set_country_flag = ME_flagship_$mod_1$_flag
+			set_country_flag = ME_flagship_$mod_2$_flag 
+			set_country_flag = ME_flagship_$mod_3$_flag
+		}
+	}
+	create_flagship = {
+		[[name] name = "$name$" ]
+		type = $type$
+	}
+	custom_tooltip = ME_flagship_$mod_1$_tt
+	custom_tooltip = ME_flagship_$mod_2$_tt
+	custom_tooltip = ME_flagship_$mod_3$_tt
+	hidden_effect = {
+		owner = {
+			clr_country_flag = ME_flagship_effect
+		}
+	}
+}
+
+add_stat_or_monarch_power = {
+    tooltip = {
+        change_$stat$ = $amount$
+    }
+    custom_tooltip = ADD_STAT_OR_POWER_$stat$
+    hidden_effect = {
+		set_variable = {
+			which = ForLoopCounter
+			value = $amount$
+		}
+		while = {
+			limit = {
+				check_variable = {
+					which = ForLoopCounter
+					value = 1
+				}
+			}
+			if = {
+				limit = {
+					NOT = { $stat$ = 6 }
+				}
+				change_$stat$ = 1
+			}
+			else = {
+				add_$stat$_power = 100
+			}
+			subtract_variable = {
+				which = ForLoopCounter
+				value = 1
+			}
+		}
+    }
 }

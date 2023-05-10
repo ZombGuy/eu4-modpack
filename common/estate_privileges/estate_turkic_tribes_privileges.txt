@@ -88,7 +88,7 @@ estate_turkic_tribes_recruit_tribes = {
 			NOT = { has_country_flag = QIR_upgrade_recruit_from_the_tribes_estate_priv_flag }
 		}
 		modifier = {
-			manpower_in_own_culture_provinces = 0.2
+			manpower_in_own_culture_provinces = 0.15
 		}
 	}
 	
@@ -104,7 +104,7 @@ estate_turkic_tribes_recruit_tribes = {
 			NOT = { has_country_flag = QIR_upgrade_recruit_from_the_tribes_estate_priv_flag }
 		}
 		modifier = {
-			manpower_in_own_culture_provinces = 0.25
+			manpower_in_own_culture_provinces = 0.2
 		}
 	}
 	
@@ -175,12 +175,16 @@ estate_turkic_tribes_demand_new_oaths = {
 	}
 	
 	on_granted = {
-		add_tribal_allegiance = 5
+		add_government_power = {
+			mechanic_type = tribal_federation_mechanic
+			power_type = tribal_allegiance
+			value = 5
+		}
 	}
 	penalties = {
 	}
 	benefits = {
-		yearly_tribal_allegiance = 0.5
+		yearly_government_power = 0.5
 	}
 	
 	can_revoke = { 
@@ -211,8 +215,7 @@ estate_turkic_tribes_tribal_cavalry = {
 	penalties = {
 	}
 	benefits = {
-		cav_to_inf_ratio = 0.25
-		cavalry_power = 0.05
+		cav_to_inf_ratio = 0.15
 	}
 	
 	can_revoke = { 
@@ -245,6 +248,7 @@ estate_turkic_tribes_settle_the_tribes = {
 	}
 	benefits = {
 		culture_conversion_cost = -0.25
+		culture_conversion_time = -0.33
 	}
 	
 	can_revoke = { 
@@ -469,7 +473,7 @@ estate_turkic_tribes_QIR_sedentary_tribes = {
 	}
 	
 	penalties = {
-		yearly_tribal_allegiance = -1
+		yearly_government_power = -1
 	}
 	benefits = {
 	}
@@ -480,7 +484,11 @@ estate_turkic_tribes_QIR_sedentary_tribes = {
 	
 	conditional_modifier = {
 		trigger = {
-			tribal_allegiance = 40
+			has_government_power = {
+				mechanic_type = tribal_federation_mechanic
+				power_type = tribal_allegiance
+				value = 40
+			}
 		}
 		modifier = {
 			development_cost = -0.05
@@ -511,7 +519,7 @@ estate_turkic_tribes_QIR_exploit_tribal_connections = {
 	}
 	
 	penalties = {
-		yearly_tribal_allegiance = -1
+		yearly_government_power = -1
 	}
 	benefits = {
 		horde_unity = 1
@@ -542,11 +550,11 @@ estate_turkic_tribes_QIR_tribal_contribution = {
 	}
 	
 	penalties = {
-		yearly_tribal_allegiance = -0.5
+		yearly_government_power = -0.5
 	}
 	benefits = {
 		leader_land_shock = 1
-		cavalry_power = 0.1
+		cavalry_power = 0.05
 	}
 	
 	can_revoke = { 
@@ -579,16 +587,24 @@ estate_turkic_tribes_QIR_maintain_tribal_unity = {
 	
 	conditional_modifier = {
 		trigger = {
-			tribal_allegiance = 45
+			has_government_power = {
+				mechanic_type = tribal_federation_mechanic
+				power_type = tribal_allegiance
+				value = 45
+			}
 		}
 		modifier = {
-			yearly_tribal_allegiance = -0.25
+			yearly_government_power = -0.25
 		}
 	}
 	
 	conditional_modifier = {
 		trigger = {
-			tribal_allegiance = 50
+			has_government_power = {
+				mechanic_type = tribal_federation_mechanic
+				power_type = tribal_allegiance
+				value = 50
+			}
 		}
 		modifier = {
 			years_of_nationalism = -5

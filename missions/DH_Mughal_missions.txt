@@ -125,6 +125,9 @@ mug_timurid_resurgence = {
 				add_permanent_claim = ROOT
 			}
 		}
+		ai_weight = {
+			factor = 500	#Mughals are a conquest monster, so they should focus on that mission
+		}
 	}
 	mug_afghan_frontier = {
 		icon = mission_afghan_frontier
@@ -173,7 +176,7 @@ mug_timurid_resurgence = {
 			507 = {
 				add_trade_modifier = {
 					who = root
-					duration = -1
+					duration = 7300
 					power = 35
 					key = pacified_kabulistan
 				}
@@ -183,6 +186,9 @@ mug_timurid_resurgence = {
 			add_permanent_claim = 454
 			add_permanent_claim = 2213
 			add_permanent_claim = 2221
+		}
+		ai_weight = {
+			factor = 500	#Mughals are a conquest monster, so they should focus on that mission
 		}
 	}
 	mug_abu_saids_dream = {
@@ -208,7 +214,7 @@ mug_timurid_resurgence = {
 		effect = {
 			add_country_modifier = {
 				name = "heirs_of_timur"
-				duration = -1
+				duration = 9125
 			}
 			persia_region = {
 				limit = {
@@ -266,6 +272,9 @@ mug_timurid_resurgence = {
 				}
 				add_claim = ROOT
 			}
+		}
+		ai_weight = {
+			factor = 75	#Persia, however, is a little bit too far fetched
 		}
 	}
 }
@@ -346,6 +355,9 @@ mug_towards_china = {
 				add_permanent_claim = ROOT
 			}
 		}
+		ai_weight = {
+			factor = 75	#China, too, is a little bit too far fetched
+		}
 	}
 	mug_upper_burma_campaign = {
 		icon = mission_upper_burma_campaign
@@ -387,7 +399,7 @@ mug_towards_china = {
 			add_treasury =  500
 			add_country_modifier = {
 				name = "mug_burmese_ruby_trade"
-				duration = -1
+				duration = 7300
 			}
 			yun_gui_borderland_area = {
 				limit = {
@@ -407,6 +419,9 @@ mug_towards_china = {
 				}
 				add_permanent_claim = ROOT
 			}
+		}
+		ai_weight = {
+			factor = 50	#China, too, is a little bit too far fetched
 		}
 	}
 	mug_open_up_china = {
@@ -461,8 +476,11 @@ mug_towards_china = {
 		effect = {
 			add_country_modifier = {
 				name = "mughal_china"
-				duration = -1
+				duration = 9125
 			}
+		}
+		ai_weight = {
+			factor = 0	#China, too, is a little bit too far fetched
 		}
 	}
 }
@@ -495,8 +513,11 @@ mug_land_assesement = {
 			change_government_reform_progress = 50
 			add_country_modifier = {
 				name = "mug_general_land_assessement_modifier"
-				duration = -1
+				duration = 9125
 			}
+		}
+		ai_weight = {
+			factor = 500	#Tall
 		}
 	}
 }
@@ -542,11 +563,14 @@ mug_indus_branch = {
 			504 = {
 				add_trade_modifier = {
 					who = root
-					duration = -1
+					duration = 7300
 					power = 50
 					key = mug_conquest_of_sindh
 				}
 			}
+		}
+		ai_weight = {
+			factor = 500	#Reasonable conquest
 		}
 	}
 }
@@ -591,7 +615,7 @@ mug_ganges_branch = {
 		effect = {
 			add_country_modifier = {
 				name = "mug_conquest_of_bengal"
-				duration = -1
+				duration = 9125
 			}
 			orissa_area = {
 				limit = {
@@ -612,6 +636,9 @@ mug_ganges_branch = {
 				add_permanent_claim = ROOT
 			}
 		}
+		ai_weight = {
+			factor = 500	#Reasonable conquest
+		}
 	}
 	mug_conquer_orissa = {
 		icon = mission_conquer_orissa_mug
@@ -629,8 +656,11 @@ mug_ganges_branch = {
 		effect = {
 			add_country_modifier = {
 				name = "mug_garjat_recruitment"
-				duration = -1
+				duration = 7300
 			}
+		}
+		ai_weight = {
+			factor = 500	#Reasonable conquest
 		}
 	}
 	mug_bengal_entrepot = {
@@ -675,6 +705,9 @@ mug_ganges_branch = {
 				add_permanent_claim = ROOT
 			}
 		}
+		ai_weight = {
+			factor = 500	#Tall
+		}
 	}
 	mug_lower_burma_campaign = {
 		icon = mission_lower_burma_campaign
@@ -705,7 +738,7 @@ mug_ganges_branch = {
 			1343 = {
 				add_trade_modifier = {
 					who = root
-					duration = -1
+					duration = 7300
 					power = 50
 					key = mug_lower_burma
 				}
@@ -791,6 +824,9 @@ mug_ganges_branch = {
 				}
 				add_permanent_claim = ROOT
 			}
+		}
+		ai_weight = {
+			factor = 50	#Too far away
 		}
 	}
 	mug_subah_of_ayuddhya = {
@@ -938,6 +974,9 @@ mug_ganges_branch = {
 				add_permanent_claim = ROOT
 			}
 		}
+		ai_weight = {
+			factor = 0	#Too far away
+		}
 	}
 	mug_malaccan_viceroyalty = {
 		icon = mission_malayan_viceroyalty
@@ -973,16 +1012,19 @@ mug_ganges_branch = {
 			add_navy_tradition = 20
 			add_country_modifier = {
 				name = "mug_malay_seamanship"
-				duration = -1
+				duration = 9125
 			}
 			1361 = {
 				add_trade_modifier = {
 					who = root
-					duration = -1
+					duration = 9125
 					power = 50
 					key = mug_malaccan_viceroyalty_established
 				}
 			}
+		}
+		ai_weight = {
+			factor = 0	#Too far away
 		}
 	}
 }
@@ -1062,6 +1104,9 @@ mug_hindustan_branch = {
 				add_permanent_claim = ROOT
 			}
 		}
+		ai_weight = {
+			factor = 500	#Reasonable conquest
+		}
 	}
 	mug_bengal_campaign = {
 		icon = mission_bengal_campaign
@@ -1096,7 +1141,7 @@ mug_hindustan_branch = {
 		effect = {
 			add_country_modifier = {
 				name = "conquest_of_bihar_and_bengal"
-				duration = -1
+				duration = 7300
 			}
 			east_bengal_area = {
 				limit = {
@@ -1117,10 +1162,26 @@ mug_hindustan_branch = {
 				add_permanent_claim = ROOT
 			}
 		}
+		ai_weight = {
+			factor = 500	#Reasonable conquest
+		}
 	}
 	mug_fortify_the_plains = {
 		icon = mission_fortifying_the_plain
 		required_missions = { mug_bengal_campaign }
+		provinces_to_highlight = {
+			OR = {
+				area = upper_doab_area
+				area = lower_doab_area
+				area = oudh_area
+				area = purvanchal_area
+				area = bihar_area
+			}
+			OR = {
+				NOT = { fort_level = 2 }
+				NOT = { owned_by = ROOT }
+			}
+		}
 		trigger = {
 			upper_doab_area = {
 				fort_level = 2
@@ -1158,9 +1219,12 @@ mug_hindustan_branch = {
 				}
 				add_province_modifier =  {
 					name = "fortified_the_doab"
-					duration = -1
+					duration = 9125
 				}
 			}
+		}
+		ai_weight = {
+			factor = 500	#Tall
 		}
 	}
 	mug_grand_trunk_road = {
@@ -1251,7 +1315,7 @@ mug_hindustan_branch = {
 			524 = {
 				add_trade_modifier = {
 					who = root
-					duration = -1
+					duration = 7300
 					power = 50
 					key = renovated_grand_trunk_road
 				}
@@ -1259,7 +1323,7 @@ mug_hindustan_branch = {
 			1343 = {
 				add_trade_modifier = {
 					who = root
-					duration = -1
+					duration = 7300
 					power = 50
 					key = renovated_grand_trunk_road
 				}
@@ -1267,11 +1331,14 @@ mug_hindustan_branch = {
 			507 = {
 				add_trade_modifier = {
 					who = root
-					duration = -1
+					duration = 7300
 					power = 50
 					key = renovated_grand_trunk_road
 				}
 			}
+		}
+		ai_weight = {
+			factor = 500	#Reasonable conquest
 		}
 	}
 	mug_embassy_to_the_west = {
@@ -1292,8 +1359,11 @@ mug_hindustan_branch = {
 			add_prestige = 15
 			add_country_modifier = {
 				name = "western_trade_relations"
-				duration = -1
+				duration = 7300
 			}
+		}
+		ai_weight = {
+			factor = 500	#Tall
 		}
 	}
 }
@@ -1337,8 +1407,11 @@ mug_desh = {
 		effect = {
 			add_country_modifier = {
 				name = "maratha_recruitment"
-				duration = -1
+				duration = 7300
 			}
+		}
+		ai_weight = {
+			factor = 500	#Reasonable conquest
 		}
 	}
 }
@@ -1420,7 +1493,7 @@ mug_sufis = {
 				add_piety = -0.25
 				add_country_modifier = {
 					name = "mug_control_of_sufi_shrines"
-					duration = -1
+					duration = 9125
 				}
 				add_estate_loyalty = {
 					estate = estate_church
@@ -1430,6 +1503,9 @@ mug_sufis = {
 			else = {
 				add_prestige = 20
 			}
+		}
+		ai_weight = {
+			factor = 500	#Reasonable conquest
 		}
 	}
 	
@@ -1504,7 +1580,7 @@ mug_rajput_branch = {
 		effect = {
 			add_country_modifier = {
 				name = "mug_conquest_of_rajputana"
-				duration = -1
+				duration = 10950
 			}
 			2087 = {
 				add_province_modifier = {
@@ -1512,6 +1588,9 @@ mug_rajput_branch = {
 					duration = -1
 				}
 			}
+		}
+		ai_weight = {
+			factor = 500	#Reasonable conquest
 		}
 	}
 	mug_rajput_mansabdars = {
@@ -1537,8 +1616,11 @@ mug_rajput_branch = {
 			}
 			add_country_modifier = {
 				name = "mug_watan_jagirs_rajputs"
-				duration = -1
+				duration = 9125
 			}
+		}
+		ai_weight = {
+			factor = 500	#Tall
 		}
 	}
 	mug_fatehpur_sikri = {
@@ -1610,6 +1692,9 @@ mug_rajput_branch = {
 				}
 			}
 		}
+		ai_weight = {
+			factor = 500	#Reasonable conquest
+		}
 	}
 	mug_din_i_illah = {
 		icon = mission_din_i_llahi
@@ -1659,13 +1744,16 @@ mug_rajput_branch = {
 					estate = estate_nobles
 					desc = EST_VAL_DIVINE_FAITH
 					loyalty = 10
-					duration = -1
+					duration = 10950
 				}
 			}
 			add_country_modifier = {
 				name = "mug_divine_faith"
-				duration = -1
+				duration = 10950
 			}
+		}
+		ai_weight = {
+			factor = 500	#Reasonable conquest
 		}
 	}
 }
@@ -1722,8 +1810,11 @@ mug_hyderabad_branch = {
 			}
 			add_country_modifier = {
 				name = "mug_southern_markets"
-				duration = -1
+				duration = 10950
 			}
+		}
+		ai_weight = {
+			factor = 500	#Reasonable conquest
 		}
 	}
 	
@@ -1773,6 +1864,9 @@ mug_hyderabad_branch = {
 				# }
 			# }
 		}
+		ai_weight = {
+			factor = 500	#Reasonable conquest
+		}
 	}
 }
 
@@ -1807,7 +1901,7 @@ mug_deccan_branch = {
 		effect = {
 			add_country_modifier = {
 				name = "mughal_strongholds"
-				duration = -1
+				duration = 10950
 			}
 			malwa_area = {
 				limit = {
@@ -1895,6 +1989,9 @@ mug_deccan_branch = {
 				}
 			}
 		}
+		ai_weight = {
+			factor = 500	#Reasonable conquest
+		}
 	}
 	mug_conquer_malwa = {
 		icon = mission_conquer_malwa_mug
@@ -1958,6 +2055,9 @@ mug_deccan_branch = {
 				add_permanent_claim = ROOT
 			}
 		}
+		ai_weight = {
+			factor = 500	#Reasonable conquest
+		}
 	}
 	mug_secure_hajj_ports = {
 		icon = mission_secure_hajj_ports
@@ -1994,7 +2094,7 @@ mug_deccan_branch = {
 			add_treasury = 500
 			add_country_modifier = {
 				name = "hajj_ports"
-				duration = -1
+				duration = 10950
 			}
 			khandesh_area = {
 				limit = {
@@ -2026,6 +2126,9 @@ mug_deccan_branch = {
 			add_claim = 1099
 			add_claim = 388
 			add_claim = 387
+		}
+		ai_weight = {
+			factor = 500	#Reasonable conquest
 		}
 	}
 	mug_across_vindhyas = {
@@ -2137,6 +2240,9 @@ mug_deccan_branch = {
 				add_permanent_claim = ROOT
 			}
 		}
+		ai_weight = {
+			factor = 500	#Reasonable conquest
+		}
 	}
 	mug_riches_of_golconda = {
 		icon = mission_riches_of_golconda
@@ -2171,7 +2277,7 @@ mug_deccan_branch = {
 			}
 			add_country_modifier = {
 				name = "mug_riches_of_golconda_modifier"
-				duration = -1
+				duration = 10950
 			}
 			north_carnatic_area = {
 				limit = {
@@ -2218,6 +2324,9 @@ mug_deccan_branch = {
 				}
 				add_permanent_claim = ROOT
 			}
+		}
+		ai_weight = {
+			factor = 500	#Reasonable conquest
 		}
 	}
 	mug_coromandel_coast = {
@@ -2258,16 +2367,19 @@ mug_deccan_branch = {
 		effect = {
 			add_country_modifier = {
 				name = "coromandel_traders"
-				duration = -1
+				duration = 10950
 			}
 			1340 = {
 				add_trade_modifier = {
 					who = root
-					duration = -1
+					duration = 10950
 					power = 50
 					key = mug_coromandel_dominance
 				}
 			}
+		}
+		ai_weight = {
+			factor = 500	#Reasonable conquest
 		}
 	}
 }

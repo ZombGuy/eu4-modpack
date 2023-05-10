@@ -105,7 +105,7 @@ country_decisions = {
 		major = yes
 		potential = {
 			has_global_flag = great_peasants_war_flag
-			has_reform = peasants_republic
+			has_government_attribute = is_peasants_republic
 			is_part_of_hre = yes
 		}		
 		allow = {

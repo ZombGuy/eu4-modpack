@@ -328,7 +328,7 @@ songhai_missions_2 = {
 					}
 					add_province_modifier = {
 						name = son_centre_of_gold
-						duration = -1 
+						duration = 12775
 					}
 				}
 			}
@@ -336,7 +336,7 @@ songhai_missions_2 = {
 			tooltip = {
 				add_province_modifier = {
 					name = son_centre_of_gold
-					duration = -1 
+					duration = 12775
 				}
 			}
 		}
@@ -562,7 +562,7 @@ songhai_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = son_religious_supremacy
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -581,7 +581,7 @@ songhai_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = son_scholars_of_songhai
-				duration = -1 
+				duration = 7300
 			}
 			if = {
 				limit = {
@@ -646,7 +646,7 @@ songhai_missions_4 = {
 				}
 				add_province_modifier = {
 					name = son_convert_the_unbelievers
-					duration = -1 
+					duration = 7300
 				}
 			}
 			atacora_oueme_area = {
@@ -655,7 +655,7 @@ songhai_missions_4 = {
 				}
 				add_province_modifier = {
 					name = son_convert_the_unbelievers
-					duration = -1 
+					duration = 7300
 				}
 			}
 			lower_volta_area = {
@@ -664,7 +664,7 @@ songhai_missions_4 = {
 				}
 				add_province_modifier = {
 					name = son_convert_the_unbelievers
-					duration = -1 
+					duration = 7300
 				}
 			}
 			lower_niger_area = {
@@ -713,14 +713,14 @@ songhai_missions_4 = {
 				}
 				add_ruler_modifier = {
 					name = son_rise_of_an_empire
-					duration = -1 
+					duration = -1
 				}
 			}
 
 			else = {
 				add_country_modifier = {
 					name = son_conservative_society
-					duration = -1 
+					duration = 7300
 				}
 			}
 		}
@@ -767,20 +767,9 @@ songhai_missions_4 = {
 		}
 
 		effect = {
-			if = {
-				limit = {
-					is_expanded_mod_active = { mod = governments }
-				}
-				add_country_modifier = { #This for some reason doesn't work
-					name = son_ge_trade_with_europe
-					duration = -1 
-				}
-			}
-			else = {
-				add_country_modifier = {
-					name = son_trade_with_europe
-					duration = -1 
-				}
+			add_country_modifier = {
+				name = son_trade_with_europe
+				duration = 5475
 			}
 		}
 	}
@@ -868,13 +857,13 @@ songhai_missions_5 = {
 				}
 				add_country_modifier = {
 					name = son_tran_saharan_trade
-					duration = -1 
+					duration = 7300
 				}
 			}
 			else = {
 				add_country_modifier = {
 					name = son_tran_saharan_trade_no_dlc
-					duration = -1 
+					duration = 7300
 				}
 			}
 		}

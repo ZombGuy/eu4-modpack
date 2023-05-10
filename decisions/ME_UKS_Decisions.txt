@@ -53,7 +53,7 @@ country_decisions = {
 			}
 		}
 		effect = {
-			change_tag = UKS
+			change_tag = AVE
 			set_government_rank = 3
 			add_country_modifier = {
 				name = "centralization_modifier"

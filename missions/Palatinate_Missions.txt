@@ -363,7 +363,7 @@ palatinate_conquest_group = {
 			}
 			add_country_modifier = {
 				name = pal_kingdom_of_the_rhine_mod
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -519,7 +519,7 @@ palatinate_other_group = {
 		effect = {
 			add_country_modifier = {
 				name = pal_great_king
-				duration = -1 
+				duration = 10950
 			}
 		}
 	}
@@ -764,7 +764,7 @@ palatinate_other_group = {
 			add_prestige = 25
 			add_country_modifier = {
 				name = pal_glorious_palatine_mod
-				duration = -1 
+				duration = -1
 			}
 		}
 	}

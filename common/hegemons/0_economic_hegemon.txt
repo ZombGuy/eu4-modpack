@@ -1,20 +1,34 @@
 economic_hegemon = {
 	allow = {
 		is_great_power = yes
-		OR = {
-			monthly_income = 1000
-			custom_trigger_tooltip = {
-				tooltip = me_mug_completed_industrial_mission
-				has_country_flag = me_mug_economic_hegemon
+		if = {
+			limit = {
+				NOT = { has_country_flag = halve_hegemony_requirements }
+			}
+			OR = {
+				monthly_income = 1000
+				custom_trigger_tooltip = {
+					tooltip = me_mug_completed_industrial_mission
+					has_country_flag = me_mug_economic_hegemon
+				}
 			}
 		}
+		else = {
+			OR = {
+				monthly_income = 500 
+				custom_trigger_tooltip = {
+					tooltip = me_mug_completed_industrial_mission
+					has_country_flag = me_mug_economic_hegemon
+				}
+			}
+		} 
 		NOT = { any_other_great_power = { monthly_income = root } }
 		NOT = { has_country_modifier = lost_hegemony }
 	}
 	
 	base = {
 		war_exhaustion = -0.1
-		global_spy_defence = 0.25
+		development_cost_modifier = -0.05
 		mercenary_manpower = 1.0
 	}
 	

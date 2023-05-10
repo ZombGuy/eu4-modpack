@@ -587,7 +587,7 @@ british = {
 		primary = CAN
 	}
 	quebecois = {
-		primary = QBC
+		primary = QUE
 	}
 	dynasty_names = {
 		"de Valois" "de Bourbon" "de la Tour" "d'Anjou" 

@@ -71,36 +71,6 @@ ferrara_missions_1 = {
 		trigger = {
 			if = {
 				limit = { hre_size = 1 }
-				if = {
-					limit = {
-						is_expanded_mod_active = { mod = subjects }
-					}
-					OR = {
-						emperor = {
-							OR = {
-								alliance_with = ROOT
-								has_opinion = {
-									who = ROOT
-									value = 100
-								}
-							}
-						}
-						calc_true_if = {
-							amount = 2
-							all_elector = {
-								OR = {
-									alliance_with = ROOT
-									has_opinion = {
-										who = ROOT
-										value = 100
-									}
-								}
-							}
-						}
-						is_subject_of_type = imperial_feud_subject
-					}
-				}
-				else = {
 					OR = {
 						emperor = {
 							OR = {
@@ -124,7 +94,7 @@ ferrara_missions_1 = {
 							}
 						}
 					}
-				}
+				
 			}
 			else = {
 				custom_trigger_tooltip = {
@@ -145,7 +115,7 @@ ferrara_missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = man_imperial_consecration
-				duration = -1 
+				duration = 7300
 			}
 			if = {
 				limit = { hre_size = 1 }
@@ -191,7 +161,7 @@ ferrara_missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = man_military_conducts
-				duration = -1 
+				duration = 18250
 			}
 		}
 	}
@@ -240,7 +210,7 @@ ferrara_missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = man_venetian_trading_secret
-				duration = -1 
+				duration = 9125
 			}
 		}
 	}
@@ -298,7 +268,7 @@ ferrara_missions_2 = {
 		effect = {
 			add_country_modifier = {
 				name = man_supreme_diplomacy
-				duration = -1 
+				duration = 9125
 			}
 			define_advisor = {
 				type = diplomat
@@ -341,7 +311,7 @@ ferrara_missions_2 = {
 			emilia_romagna_area = {
 				add_province_modifier = {
 					name = man_grazing_fields
-					duration = -1 
+					duration = 7300
 				}
 			}
 		}
@@ -393,7 +363,7 @@ ferrara_missions_2 = {
 		effect = {
 			add_country_modifier = {
 				name = fer_berberi_mantovani
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -443,7 +413,7 @@ ferrara_missions_2 = {
 		effect = {
 			add_country_modifier = {
 				name = man_reign_northern_italy
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -542,7 +512,7 @@ ferrara_mission_3 = {
 			114 = {
 				add_permanent_province_modifier = {
 					name = fer_basilica_santa_maria
-					duration = -1 
+					duration = -1
 				}
 			}
 		}
@@ -592,7 +562,7 @@ ferrara_mission_3 = {
 		effect = {
 			add_country_modifier = {
 				name = man_milanese_knowledge
-				duration = -1 
+				duration = 9125
 			}
 		}
 	}
@@ -609,7 +579,7 @@ ferrara_mission_3 = {
 		effect = {
 			add_country_modifier = {
 				name = fer_blasting_fire
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -684,13 +654,13 @@ ferrara_mission_4 = {
 			113 = {
 				add_province_modifier = {
 					name = fer_tempi_arte
-					duration = -1 
+					duration = -1
 				}
 			}
 			106 = {
 				add_province_modifier = {
 					name = fer_tempi_arte
-					duration = -1 
+					duration = -1
 				}
 			}
 		}
@@ -709,7 +679,7 @@ ferrara_mission_4 = {
 			113 = {
 				add_province_modifier = {
 					name = fer_fortificazione_moderna
-					duration = -1 
+					duration = -1
 				}
 			}
 			add_mil_power = 100
@@ -738,7 +708,7 @@ ferrara_mission_4 = {
 			}
 			add_country_modifier = {
 				name = fer_universita_ferrara
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -890,7 +860,7 @@ ferrara_mission_4 = {
 		effect = {
 			add_country_modifier = {
 				name = fer_munich_unifaction
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -930,7 +900,7 @@ ferrara_mission_5 = {
 		effect = {
 			add_country_modifier = {
 				name = fer_scuola_ferrarese
-				duration = -1 
+				duration = 9125
 			}
 			define_advisor = {
 				type = artist
@@ -965,15 +935,7 @@ ferrara_mission_5 = {
 			113 = {
 				add_province_modifier = {
 					name = fer_metallurgista
-					duration = -1 
-				}
-			}
-			if = {
-				limit = {
-					is_expanded_mod_active = { mod = trade_goods }
-				}
-				country_event = {
-					id = ME_Ferrara_Events.1
+					duration = -1
 				}
 			}
 		}
@@ -996,7 +958,7 @@ ferrara_mission_5 = {
 		effect = {
 			add_country_modifier = {
 				name = fer_fonditore_cannoni
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -1080,7 +1042,7 @@ ferrara_mission_5 = {
 		effect = {
 			add_country_modifier = {
 				name = man_court_intrigue
-				duration = -1 
+				duration = 9125
 			}
 			if = {
 				limit = {
@@ -1154,7 +1116,7 @@ ferrara_mission_5 = {
 		effect = {
 			add_country_modifier = {
 				name = fer_saxon_von
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}

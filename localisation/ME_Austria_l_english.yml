@@ -829,6 +829,11 @@
  ME_Austria_Events.78.d: "With the succession crisis in Naples, it is time to take action. King Alfonso V of Aragon lies dead, and his successions have split up the realm. One of them took charge of Naples, but his claim is weak. With the usage of our spies and our legitimacy, we will be able to lay claim to the Neapolitan throne, and then seize it for ourselves."
  ME_Austria_Events.78.a: "We will claim it for ourselves."
  
+ ME_Austria_Events.79.t: "The Last Knight"
+ ME_Austria_Events.79.d: "Maximilian I of Austria, also known as Maximilian I of the Holy Roman Empire, was a prominent European ruler during the late 15th and early 16th centuries.\n\nMaximilian was a shrewd politician, a military leader, and a patron of the arts. He was one of the most important rulers of his time, as he was involved in many significant events and initiatives that shaped the course of European history.\n\nOne of Maximilian's most important achievements was his role in securing the Habsburg dynasty's power in Europe. He expanded the family's territories through diplomacy, marriage, and war. Maximilian also worked to consolidate the Holy Roman Empire, which was a loose confederation of German states, into a more centralized state. He established a standing army and implemented reforms to the imperial bureaucracy, which improved the empire's efficiency and power.\n\n"
+ ME_Austria_Events.79.a: "Invictus, our leader!"
+ ME_Austria_Events.79.b: "The age of Chivalry is dead. He does not fit as an heir."
+ 
  me_austria_nobles.1.t: "The Nobles Demand Rights"
  me_austria_nobles.1.d: "With our ruler death, the nobles have asked us that we grant them privileges. They seek to support a ruler that will serve them, rather than them wishing to serve us. Failing to meet their demands may lead to unrest, but accepting their demands will only weaken our rule."
  me_austria_nobles.1.a: "Very well."
@@ -891,7 +896,7 @@
  ME_Hungarian_Revolution_Events.4.d: " "
  ME_Hungarian_Revolution_Events.4.a: "We cannot fight them anymore."
  
- ME_Hungarian_Revolution_Events.5.t: "Rebellion
+ ME_Hungarian_Revolution_Events.5.t: "Rebellion"
  ME_Hungarian_Revolution_Events.5.d: " "
  ME_Hungarian_Revolution_Events.5.a: "Just give them their rights."
  ME_Hungarian_Revolution_Events.5.b: "We can afford to fight them."
@@ -1039,6 +1044,10 @@
  me_hab_medieval_weapons: "Medieval Weapons"
  me_hab_preparing_the_guns: "Preparing the Guns"
  austria_occupation_of_rome: "Occupation of Rome"
+ me_hab_centralized_nobility: "Centralized Nobility"
+ me_hab_no_tolerance: "No Edict of Tolerance"
+ me_hab_edict_of_tolerance: "Edict of Tolerance"
+ me_hab_imperial_bribery: "Imperial Bribery"
  
  #countries:
  SOUTH_GERMAN_CONFEDERATION: "South German Confederation"
@@ -1193,10 +1202,12 @@
  
  #Personalities:
  me_enlightened_despote_personality: "Enlightened Despot"
+ maximilian_personality: "The Last Knight"
  
  #Vassal types:
  ME_personal_union_title: "Personal Union"
  ME_Austrian_personal_union_title: "Austrian Personal Union"
+ ME_Austrian_personal_union_title_plural: "Austrian Personal Unions"
  
  #Parliament Debates:
  me_hab_strengthen_peacetime_army: "Strengthen the Peacetime Army"
@@ -1277,3 +1288,24 @@
  GNE_ADJ: "Gnesen"
  WRM: "Warmia"
  WRM_ADJ: "Warmian"
+
+
+ #Mechanics:
+ ability_habsburg_glory: "§YHabsburg Glory§!"
+ habsburg_glory_power_desc: "§YHabsburg Glory§! represents how powerful the §YHabsburg§! dynasty is within the courts of Europe. It is gained by: \n\n §G+2§! From getting elected §YHoly Roman Emperor§! \n §G+5§! From accepting a new §YCulture§! \n Levelling up the §YSchonbrunn Palace§! \n From various §YMissions§! and §YEvents§!  \n\n\n§YHabsburg Glory§! can be lost by the following: \n\n §R-5§! When a §YWeak Heir§! ascends the throne \n §R-7§! from Demoting §YCultures§!\n\n"
+ habsburg_glory_power: "§YHabsburg Glory§!"
+ monthly_habsburg_glory_power: "Monthly Habsburg Glory"
+
+ glory_of_habsburg: "Glory of Habsburg"
+ glory_of_habsburg_desc: " "
+ imperial_bribbing: "Imperial Bribery"
+ imperial_bribbing_desc: " "
+ unshaken_reputation: "Unshaken Reputation"
+ unshaken_reputation_desc: " "
+ favors_modifier: "Favor Boost"
+ favors_modifier_desc: " "
+ courtly_help: "Courtly Help"
+ courtly_help_desc: " "
+ vassal_taxation: "Vassal Taxation"
+ vassal_taxation_desc: " "
+ ME_HAB_ALL_SUBJECTS_GAIN_LD: "All of our §YSubjects§! will gain §R+15.0%§! Liberty Desire"

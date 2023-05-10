@@ -40,7 +40,7 @@ ETH_slot_2 = {
 		effect = {
 			add_country_modifier = {
 				name = jewish_subjugation
-				duration = -1 
+				duration = 9125
 			}
 			shewa_area = {
 				limit = {
@@ -133,7 +133,7 @@ ETH_slot_2 = {
 		effect = {
 			add_country_modifier = {
 				name = ethiopian_unification
-				duration = -1 
+				duration = 7300
 			}
 			upper_nubia_area = {
 				limit = {
@@ -214,7 +214,7 @@ ETH_slot_2 = {
 			add_accepted_culture_or_dip_power = { culture = nubian }
 			add_country_modifier = {
 				name = nubian_integration
-				duration = -1 
+				duration = 9125
 			}
 		}
 	}
@@ -461,7 +461,7 @@ ETH_slot_2 = {
 			}
 			add_country_modifier = {
 				name = ark_returned
-				duration = -1 
+				duration = -1
 			}
 			syria_area = {
 				limit = {
@@ -524,7 +524,7 @@ ETH_slot_3 = {
 			add_dip_power = 50
 			add_country_modifier = {
 				name = ethiopian_architecture
-				duration = -1 
+				duration = 9125
 			}
 		}
 	}
@@ -556,7 +556,7 @@ ETH_slot_3 = {
 			add_prestige = 25
 			add_country_modifier = {
 				name = ethiopian_unification
-				duration = -1 
+				duration = 7300
 			}
 			northern_swahili_coast_area = {
 				limit = {
@@ -878,7 +878,7 @@ ETH_slot_3 = {
 			add_dip_power = 200
 			add_country_modifier = {
 				name = madagascar_and_beyond
-				duration = -1 
+				duration = 9125
 			}
 		}
 	}
@@ -894,7 +894,7 @@ ETH_slot_3 = {
 		effect = {
 			add_country_modifier = {
 				name = solo_and_sheb
-				duration = -1 
+				duration = -1
 			}
 			379 = {
 				if = {

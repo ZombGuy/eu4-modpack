@@ -39,7 +39,7 @@ IRQ_SYR_missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = SYR_expansion
-				duration = -1
+				duration = -1 
 			}
 			
 			ME_overlord_effect = {
@@ -193,7 +193,7 @@ IRQ_SYR_missions_2 = {
 		effect = {
 			add_country_modifier = {
 				name = SYR_combat_readiness
-				duration = -1
+				duration = 9125
 			}
 			
 			add_adm_power = 100
@@ -286,7 +286,7 @@ IRQ_SYR_missions_3 = {
 				effect = "
 					add_country_modifier = {
 						name = SYR_conscripts_from_the_march
-						duration = -1
+						duration = 5475
 					}
 				"
 			}

@@ -179,7 +179,7 @@ franconia_conquest_group_1 = {
 		effect = {
 			add_country_modifier = {
 				name = fkn_franconia_ascendant
-				duration = -1 
+				duration = 7300
 			}
 
 			upper_bavaria_area = {
@@ -392,7 +392,7 @@ franconia_conquest_group_2 = {
 			}
 			add_country_modifier = {
 				name = fkn_kingdom_of_the_franks_mod
-				duration = -1 
+				duration = -1
 			}
 			if = {
 				limit = {
@@ -471,7 +471,7 @@ franconia_splendour_group = {
 		effect = {
 			add_country_modifier = {
 				name = fkn_we_prosper
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -489,7 +489,7 @@ franconia_splendour_group = {
 		effect = {
 			add_country_modifier = {
 				name = fkn_arts_patronised
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -565,7 +565,7 @@ franconia_splendour_group = {
 		effect = {
 			add_country_modifier = {
 				name = fkn_we_produce_stuff
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -607,7 +607,7 @@ franconia_splendour_group_2 = {
 			capital_scope = {
 				add_province_modifier = {
 					name = fkn_franconian_palace
-					duration = -1 
+					duration = -1
 				}
 			}
 
@@ -697,7 +697,7 @@ franconia_splendour_group_2 = {
 		effect = {
 			add_country_modifier = {
 				name = fkn_expansionist_ambition
-				duration = -1 
+				duration = 10950
 			}
 		}
 	}

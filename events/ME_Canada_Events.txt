@@ -259,26 +259,7 @@ country_event = {
 
 	is_triggered_only = yes
 
-	trigger = {
-		is_expanded_mod_active = { mod = subjects }
-	}
 
-	option = {
-		name = ME_Canada_Events.6.OPT1
-
-		ai_chance = {
-			factor = 50
-			modifier = {
-				factor = 1.2
-				ai = yes
-			}
-		}
-		add_prestige = -20
-		create_subject = {
-			subject_type = autonomous_dominion
-			subject = FROM
-		}
-	}
 
 	option = {
 		name = ME_Canada_Events.6.OPT2
@@ -604,34 +585,12 @@ country_event = {
 
 	option = {
 		name = ME_Canada_Events.12.OPT1
-		trigger = {
-			is_expanded_mod_active = { mod = trade_goods }
-		}
 
 		ai_chance = {
 			factor = 50
 		}
 		custom_tooltip = CUISINES_OF_CANADA.TT
 		hidden_effect = {
-			if = {
-				limit = {
-					is_expanded_mod_active = { mod = trade_goods }
-				}
-				2012 = { change_trade_goods = maple_syrup }
-				2584 = { change_trade_goods = maple_syrup }
-				2583 = { change_trade_goods = maple_syrup }
-				2581 = { change_trade_goods = maple_syrup }
-				992 = { change_trade_goods = maple_syrup }
-				1001 = { change_trade_goods = maple_syrup }
-				998 = { change_trade_goods = maple_syrup }
-				2671 = { change_trade_goods = maple_syrup }
-				2588 = { change_trade_goods = maple_syrup }
-				995 = { change_trade_goods = maple_syrup }
-				998 = { change_trade_goods = maple_syrup }
-				999 = { change_trade_goods = maple_syrup }
-				993 = { change_trade_goods = maple_syrup }
-			}
-			else = {
 				2012 = {
 					add_province_modifier = {
 						name = can_maple_syrup_modifier
@@ -710,7 +669,7 @@ country_event = {
 						duration = -1
 					}
 				}
-			}
+			
 		}
 		canada_region = {
 			limit = {
@@ -749,21 +708,9 @@ country_event = {
 	option = {
 		name = ME_Canada_Events.13.OPT1
 		custom_tooltip = CAN_MAPLE_SYRUP.TT
-		trigger = {
-			is_expanded_mod_active = { mod = trade_goods }
-		}
 		ai_chance = {
 			factor = 50
 		}
-
-		if = {
-			limit = {
-				is_expanded_mod_active = { mod = trade_goods }
-			}
-			2580 = { change_trade_goods = maple_syrup }
-			2579 = { change_trade_goods = maple_syrup }
-		}
-		else = {
 			2580 = {
 				add_province_modifier = {
 					name = can_maple_syrup_modifier
@@ -775,9 +722,8 @@ country_event = {
 						name = can_maple_syrup_modifier
 						duration = -1
 					}
-				}
+				}	
 		}
-	}
 
 	option = {
 		name = ME_Canada_Events.13.OPT2
@@ -889,22 +835,7 @@ country_event = {
 		}
 
 		FROM = {
-			if = {
-				limit = {
-					is_expanded_mod_active = { mod = subjects }
-					can_create_subject_type = {
-						subject = ROOT
-						subject_type = native_reserve
-					}
-				}
-				create_subject = {
-					subject_type = native_reserve
-					subject = FROM
-				}
-			}
-			else = {
-				vassalize = ROOT
-			}
+			vassalize = ROOT
 		}
 	}
 

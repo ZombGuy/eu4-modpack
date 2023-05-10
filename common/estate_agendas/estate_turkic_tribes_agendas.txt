@@ -648,7 +648,13 @@ estate_turkic_tribes_increase_tribal_allegiance = {
 	can_select = {
 		ME_tribal_federation_trigger = yes
 		has_dlc = "Cradle of Civilization"
-		NOT = { tribal_allegiance = 80 }
+		NOT = { 
+			has_government_power = {
+				mechanic_type = tribal_federation_mechanic
+				power_type = tribal_allegiance
+				value = 80
+			} 
+		}
 	}
 	selection_weight = {
 		factor = 1.5
@@ -657,7 +663,11 @@ estate_turkic_tribes_increase_tribal_allegiance = {
 		if = {
 			limit = {
 				NOT = {
-					tribal_allegiance = 10
+					has_government_power = {
+						mechanic_type = tribal_federation_mechanic
+						power_type = tribal_allegiance
+						value = 10
+					}
 				}
 			}
 			set_variable = {
@@ -668,7 +678,11 @@ estate_turkic_tribes_increase_tribal_allegiance = {
 		else_if = {
 			limit = {
 				NOT = {
-					tribal_allegiance = 20
+					has_government_power = {
+						mechanic_type = tribal_federation_mechanic
+						power_type = tribal_allegiance
+						value = 20
+					}
 				}
 			}
 			set_variable = {
@@ -679,7 +693,11 @@ estate_turkic_tribes_increase_tribal_allegiance = {
 		else_if = {
 			limit = {
 				NOT = {
-					tribal_allegiance = 30
+					has_government_power = {
+						mechanic_type = tribal_federation_mechanic
+						power_type = tribal_allegiance
+						value = 30
+					}
 				}
 			}
 			set_variable = {
@@ -690,7 +708,11 @@ estate_turkic_tribes_increase_tribal_allegiance = {
 		else_if = {
 			limit = {
 				NOT = {
-					tribal_allegiance = 40
+					has_government_power = {
+						mechanic_type = tribal_federation_mechanic
+						power_type = tribal_allegiance
+						value = 40
+					}
 				}
 			}
 			set_variable = {
@@ -701,7 +723,11 @@ estate_turkic_tribes_increase_tribal_allegiance = {
 		else_if = {
 			limit = {
 				NOT = {
-					tribal_allegiance = 50
+					has_government_power = {
+						mechanic_type = tribal_federation_mechanic
+						power_type = tribal_allegiance
+						value = 50
+					}
 				}
 			}
 			set_variable = {
@@ -712,7 +738,11 @@ estate_turkic_tribes_increase_tribal_allegiance = {
 		else_if = {
 			limit = {
 				NOT = {
-					tribal_allegiance = 60
+					has_government_power = {
+						mechanic_type = tribal_federation_mechanic
+						power_type = tribal_allegiance
+						value = 60
+					}
 				}
 			}
 			set_variable = {
@@ -723,7 +753,11 @@ estate_turkic_tribes_increase_tribal_allegiance = {
 		else_if = {
 			limit = {
 				NOT = {
-					tribal_allegiance = 70
+					has_government_power = {
+						mechanic_type = tribal_federation_mechanic
+						power_type = tribal_allegiance
+						value = 70
+					}
 				}
 			}
 			set_variable = {
@@ -734,7 +768,11 @@ estate_turkic_tribes_increase_tribal_allegiance = {
 		else_if = {
 			limit = {
 				NOT = {
-					tribal_allegiance = 80
+					has_government_power = {
+						mechanic_type = tribal_federation_mechanic
+						power_type = tribal_allegiance
+						value = 10
+					}
 				}
 			}
 			set_variable = {
@@ -756,7 +794,11 @@ estate_turkic_tribes_increase_tribal_allegiance = {
 					value = 90
 				}
 			}
-			tribal_allegiance = 90
+			has_government_power = {
+				mechanic_type = tribal_federation_mechanic
+				power_type = tribal_allegiance
+				value = 90
+			}
 		}
 		else_if = {
 			limit = {
@@ -765,7 +807,11 @@ estate_turkic_tribes_increase_tribal_allegiance = {
 					value = 80
 				}
 			}
-			tribal_allegiance = 80
+			has_government_power = {
+				mechanic_type = tribal_federation_mechanic
+				power_type = tribal_allegiance
+				value = 80
+			}
 		}
 		else_if = {
 			limit = {
@@ -774,7 +820,11 @@ estate_turkic_tribes_increase_tribal_allegiance = {
 					value = 70
 				}
 			}
-			tribal_allegiance = 70
+			has_government_power = {
+				mechanic_type = tribal_federation_mechanic
+				power_type = tribal_allegiance
+				value = 70
+			}
 		}
 		else_if = {
 			limit = {
@@ -783,7 +833,11 @@ estate_turkic_tribes_increase_tribal_allegiance = {
 					value = 60
 				}
 			}
-			tribal_allegiance = 60
+			has_government_power = {
+				mechanic_type = tribal_federation_mechanic
+				power_type = tribal_allegiance
+				value = 60
+			}
 		}
 		else_if = {
 			limit = {
@@ -792,7 +846,11 @@ estate_turkic_tribes_increase_tribal_allegiance = {
 					value = 50
 				}
 			}
-			tribal_allegiance = 50
+			has_government_power = {
+				mechanic_type = tribal_federation_mechanic
+				power_type = tribal_allegiance
+				value = 50
+			}
 		}
 		else_if = {
 			limit = {
@@ -801,7 +859,11 @@ estate_turkic_tribes_increase_tribal_allegiance = {
 					value = 40
 				}
 			}
-			tribal_allegiance = 40
+			has_government_power = {
+				mechanic_type = tribal_federation_mechanic
+				power_type = tribal_allegiance
+				value = 40
+			}
 		}
 		else_if = {
 			limit = {
@@ -810,7 +872,11 @@ estate_turkic_tribes_increase_tribal_allegiance = {
 					value = 30
 				}
 			}
-			tribal_allegiance = 30
+			has_government_power = {
+				mechanic_type = tribal_federation_mechanic
+				power_type = tribal_allegiance
+				value = 30
+			}
 		}
 		else_if = {
 			limit = {
@@ -819,7 +885,11 @@ estate_turkic_tribes_increase_tribal_allegiance = {
 					value = 20
 				}
 			}
-			tribal_allegiance = 20
+			has_government_power = {
+				mechanic_type = tribal_federation_mechanic
+				power_type = tribal_allegiance
+				value = 20
+			}
 		}
 		else = {
 		}

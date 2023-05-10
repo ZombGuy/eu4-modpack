@@ -44,7 +44,7 @@ peasants_1 = {
 		effect = {
 			add_country_modifier =  {
 				name = "likedeelers_modifier"
-				duration = -1 
+				duration  =  7300
 			}
 			holstein_area = {
 				limit = {
@@ -74,7 +74,7 @@ peasants_1 = {
 		effect = {
 			add_country_modifier =  {
 				name = "hemmingstedt_victory"
-				duration = -1 
+				duration  =  7300
 			}
 			jutland_area = {
 				limit = {
@@ -119,7 +119,7 @@ peasants_1 = {
 		effect = {
 			add_country_modifier = {
 				name = "integrating_the_peasantry"
-				duration = -1 
+				duration = 7300
 			}
 		}
 		ai_weight = {
@@ -148,7 +148,7 @@ peasants_1 = {
 				# get a programmer to make this a thing
 			add_country_modifier = {
 				name = "conquest_of_bread_modifier"
-				duration = -1 
+				duration = -1
 			}
 		}
 		ai_weight = {
@@ -202,7 +202,7 @@ peasants_1 = {
 		effect = {
 			add_country_modifier =  {
 				name = "means_of_production"
-				duration = -1 
+				duration = 7300
 			}
 		}
 		ai_weight = {
@@ -245,7 +245,7 @@ peasants_2 = {
 		effect = {
 			add_country_modifier = {
 				name = "pious_peasants"
-				duration = -1 
+				duration = 7300
 			}
 			custom_tooltip = peasant_bremen_claims
 			hidden_effect = {
@@ -330,7 +330,7 @@ peasants_2 = {
 			area = frisia_area
 			NOT = {
 				owner = {
-					has_reform = peasants_republic
+					has_government_attribute = is_peasants_republic
 					alliance_with = ROOT
 				}
 			}
@@ -344,7 +344,7 @@ peasants_2 = {
 					OR = {
 						owned_by = ROOT
 						owner = {
-							has_reform = peasants_republic
+							has_government_attribute = is_peasants_republic
 							alliance_with = ROOT
 						}
 					}
@@ -369,7 +369,7 @@ peasants_2 = {
 			}
 			NOT = {
 				owner = {
-					has_reform = peasants_republic
+					has_government_attribute = is_peasants_republic
 				}
 			}
 		}
@@ -394,7 +394,7 @@ peasants_2 = {
 								region = south_german_region
 							}
 							owner = {
-								has_reform = peasants_republic
+								has_government_attribute = is_peasants_republic
 							}
 						}
 						amount = 30
@@ -410,7 +410,7 @@ peasants_2 = {
 							region = south_german_region
 						}
 						owner = {
-							has_reform = peasants_republic
+							has_government_attribute = is_peasants_republic
 						}
 					}
 					amount = 30
@@ -421,7 +421,7 @@ peasants_2 = {
 			change_government_reform_progress = 50
 			add_country_modifier = {
 				name = "peasants_war_victory"
-				duration = -1 
+				duration = -1
 			}
 		}
 		ai_weight = {
@@ -439,7 +439,7 @@ peasants_2 = {
 				# new revolution stuff
 				AND = {
 					num_of_cities = 50
-					has_reform = peasants_republic
+					has_government_attribute = is_peasants_republic
 				}
 			}
 		}
@@ -447,7 +447,7 @@ peasants_2 = {
 			# revolutionary zeal with dlc
 			add_country_modifier = {
 				name = "peasant_revolutionary_zeal"
-				duration = -1 
+				duration = -1
 			}
 			russia_region = {
 				limit = {
@@ -470,7 +470,10 @@ peasants_2 = {
 					region = russia_region
 				}
 				total_development = 100
-				culture_group = east_slavic
+				OR = {
+					culture_group = east_slavic
+					culture_group = slavic
+				}
 				is_subject = no
 			}
 		}
@@ -484,7 +487,10 @@ peasants_2 = {
 							region = russia_region
 						}
 						total_development = 100
-						culture_group = east_slavic
+						OR = {
+							culture_group = east_slavic
+							culture_group = slavic
+						}
 						is_subject = no
 					}
 				}

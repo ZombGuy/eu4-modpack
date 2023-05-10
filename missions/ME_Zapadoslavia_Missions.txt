@@ -97,7 +97,7 @@ ZCV_missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = zcv_religious_unity_modifier
-				duration = -1 
+				duration = 3650
 			}
 		}
 	}
@@ -121,7 +121,7 @@ ZCV_missions_1 = {
 			add_innovativeness_small_effect = yes
 			add_country_modifier = {
 				name = zcv_universities_expanded
-				duration = -1 
+				duration = 10950
 			}
 		}
 	}
@@ -146,7 +146,7 @@ ZCV_missions_2 = {
 		effect = {
 			add_country_modifier = {
 				name = zcv_full_army
-				duration = -1 
+				duration = 7300
 			}
 			add_yearly_manpower = 0.5
 		}
@@ -212,7 +212,7 @@ ZCV_missions_2 = {
 			41 = {
 				add_trade_modifier = {
 					who = ROOT
-					duration = -1 
+					duration = 10950
 					power = 30
 					key = zcv_baltic_trade
 				}
@@ -296,7 +296,7 @@ ZCV_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = zcv_legacy_of_lech_and_czech
-				duration = -1 
+				duration = 9125
 			}
 			west_prussia_area = {
 				limit = {
@@ -400,7 +400,7 @@ ZCV_missions_3 = {
 			}
 			add_country_modifier = {
 				name = zcv_conquered_rus
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -448,7 +448,7 @@ ZCV_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = zcv_united_the_slavs
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -475,7 +475,7 @@ ZCV_missions_3_2 = {
 		effect = {
 			add_country_modifier = {
 				name = ME_loyal_poles
-				duration = -1 
+				duration = 7300
 			}
 			add_absolutism = 20
 			change_variable = { ME_polish_loyalty = 20 }
@@ -500,12 +500,12 @@ ZCV_missions_3_2 = {
 			custom_tooltip = ME_ZCV_UPGRADED_GOVERNMENT
 			add_country_modifier = {
 				name = ME_legendary_bloodline
-				duration = -1 
+				duration = -1
 				desc = ME_zcv_modifier_expiration_date
 			}
 			add_ruler_modifier = {
 				name = ME_champion_of_zapadoslavia
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -579,7 +579,7 @@ ZCV_missions_4 = {
 		effect = {
 			add_country_modifier = {
 				name = zcv_claimed_wendish_land
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -715,7 +715,7 @@ ZCV_missions_5 = {
 		effect = {
 			add_country_modifier = {
 				name = zcv_humiliated_emperor
-				duration = -1 
+				duration = 14600
 			}
 			if = {
 				limit = {

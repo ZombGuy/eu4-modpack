@@ -136,13 +136,17 @@ AKK_missions_1 = {
 				limit = {
 					has_dlc = "Cradle of Civilization"
 				}
-				add_tribal_allegiance = 20
+				add_government_power = {
+					mechanic_type = tribal_federation_mechanic
+					power_type = tribal_allegiance
+					value = 20
+				}
 				custom_tooltip = " "
 			}
 			
 			add_country_modifier = {
 				name = AKK_subduing_the_tribes_of_dulkadir
-				duration = -1
+				duration = 9125
 			}
 			
 			ME_give_claims = { area = rum_area }
@@ -183,7 +187,7 @@ AKK_missions_1 = {
 			
 			add_country_modifier = {
 				name = AKK_war_is_imminent
-				duration = -1
+				duration = 10950
 			}
 		}
 	}
@@ -312,7 +316,7 @@ AKK_missions_2 = {
 		effect = {
 			add_country_modifier = {
 				name = AKK_loyalist_court
-				duration = -1
+				duration = 7300
 			}
 			
 			add_stability_or_adm_power = yes
@@ -370,7 +374,7 @@ AKK_missions_2 = {
 			tooltip = {
 				add_province_modifier = {
 					name = AKK_pwsc_syria
-					duration = -1
+					duration = 5475
 				}
 			}
 			
@@ -379,7 +383,7 @@ AKK_missions_2 = {
 				SYR = {
 					add_country_modifier = {
 						name = AKK_reconquest_of_syria
-						duration = -1
+						duration = 5475
 					}
 					capital_scope = {
 						infantry = SYR
@@ -399,7 +403,7 @@ AKK_missions_2 = {
 					SYR = {
 						add_country_modifier = {
 							name = AKK_reconquest_of_syria
-							duration = -1
+							duration = 5475
 						}
 						capital_scope = {
 							infantry = SYR
@@ -443,7 +447,7 @@ AKK_missions_2 = {
 		effect = {
 			add_country_modifier = {
 				name = QAR_advance_against_mamluks
-				duration = -1
+				duration = 10950
 			}
 			
 			custom_tooltip = QAR_directly_owned_provinces_in_syria_get
@@ -520,7 +524,7 @@ AKK_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = AKK_raids_on_qq_begin
-				duration = -1
+				duration = 7300
 			}
 			
 			QIR_add_turkic_tribes_loyalty = { amount = 15 }
@@ -556,7 +560,11 @@ AKK_missions_3 = {
 					limit = {
 						has_dlc = "Cradle of Civilization"
 					}
-					add_tribal_allegiance = 15
+					add_government_power = {
+						mechanic_type = tribal_federation_mechanic
+						power_type = tribal_allegiance
+						value = 15
+					}
 					custom_tooltip = " "
 				}
 				
@@ -588,7 +596,11 @@ AKK_missions_3 = {
 						limit = {
 							has_dlc = "Cradle of Civilization"
 						}
-						add_tribal_allegiance = 15
+						add_government_power = {
+							mechanic_type = tribal_federation_mechanic
+							power_type = tribal_allegiance
+							value = 15
+						}
 						custom_tooltip = " "
 					}
 					
@@ -603,7 +615,7 @@ AKK_missions_3 = {
 				}
 				else_if = {
 					limit = {
-						marriage_with = TRE
+						alliance_with = TRE
 					}
 					
 					custom_tooltip = QAR_if_trebizond_grows_no_larger
@@ -616,7 +628,11 @@ AKK_missions_3 = {
 						limit = {
 							has_dlc = "Cradle of Civilization"
 						}
-						add_tribal_allegiance = 15
+						add_government_power = {
+							mechanic_type = tribal_federation_mechanic
+							power_type = tribal_allegiance
+							value = 15
+						}
 						custom_tooltip = " "
 					}
 					
@@ -672,14 +688,18 @@ AKK_missions_3 = {
 			tooltip = {
 				add_country_modifier = {
 					name = AKK_defeated_the_last_remnant
-					duration = -1
+					duration = 5475
 				}
 			
 				if = {
 					limit = {
 						has_dlc = "Cradle of Civilization"
 					}
-					add_tribal_allegiance = 25
+					add_government_power = {
+						mechanic_type = tribal_federation_mechanic
+						power_type = tribal_allegiance
+						value = 25
+					}
 					custom_tooltip = " "
 				}
 				
@@ -724,7 +744,7 @@ AKK_missions_3 = {
 			
 			add_country_modifier = {
 				name = AKK_georgian_dissent
-				duration = -1
+				duration = 9125
 			}
 		}
 	}
@@ -845,7 +865,11 @@ AKK_missions_4 = {
 				limit = {
 					has_government_mechanic = tribal_federation_mechanic
 				}
-				tribal_allegiance = 50
+				has_government_power = {
+					mechanic_type = tribal_federation_mechanic
+					power_type = tribal_allegiance
+					value = 50
+				}
 			}
 		
 			if = {
@@ -912,7 +936,7 @@ AKK_missions_4 = {
 			else = {
 				add_country_modifier = {
 					name = AKK_conquest_of_armenia_yay
-					duration = -1
+					duration = 5475
 				}
 			}
 			set_country_flag = AKK_empower_the_tolerating_armenians_privilege_flag
@@ -1089,7 +1113,11 @@ AKK_missions_5 = {
 				limit = {
 					ME_tribal_federation_trigger = yes
 				}
-				tribal_allegiance = 20
+				has_government_power = {
+					mechanic_type = tribal_federation_mechanic
+					power_type = tribal_allegiance
+					value = 20
+				}
 			}
 			else = {
 				legitimacy = 90
@@ -1104,7 +1132,7 @@ AKK_missions_5 = {
 			
 			add_country_modifier = {
 				name = AKK_tribal_cohesion
-				duration = -1
+				duration = 7300
 			}
 		}
 	}
@@ -1176,7 +1204,7 @@ AKK_missions_5 = {
 		effect = {
 			add_country_modifier = {
 				name = AKK_tribal_feuds
-				duration = -1
+				duration = 10950
 			}
 			
 			add_casus_belli = {

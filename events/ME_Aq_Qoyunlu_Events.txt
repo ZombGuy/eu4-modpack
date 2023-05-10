@@ -114,7 +114,11 @@ country_event = {
 			limit = {
 				has_dlc = "Cradle of Civilization"
 			}
-			add_tribal_allegiance = 25
+			add_government_power = {
+				mechanic_type = tribal_federation_mechanic
+				power_type = tribal_allegiance
+				value = 15
+			}
 			custom_tooltip = " "
 		}
 		

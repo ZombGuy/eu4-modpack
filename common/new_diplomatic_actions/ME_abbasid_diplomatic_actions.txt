@@ -78,6 +78,15 @@ abbasid_denounce_actions = {
 			amount = 10
 		}
 		set_country_flag = abbasid_recently_denounced
+		if = {
+			limit = {
+				has_country_flag = me_tim_abbasid_completion
+			}
+			change_variable = {
+				which = METimCaliphActions
+				value = 1
+			}
+		}
 	}
 	
 	ai_will_do = {
@@ -147,6 +156,15 @@ abbasid_call_jihad = {
 			country_event = { id = ME_Abbasid_Events.7 }
 		}
 		set_country_flag = abbasid_recently_called_jihad
+		if = {
+			limit = {
+				has_country_flag = me_tim_abbasid_completion
+			}
+			change_variable = {
+				which = METimCaliphActions
+				value = 1
+			}
+		}
 	}
 	
 	ai_will_do = {
@@ -213,6 +231,15 @@ abbasid_praise = {
 			mutual = yes
 		}
 		set_country_flag = abbasid_recently_praised
+		if = {
+			limit = {
+				has_country_flag = me_tim_abbasid_completion
+			}
+			change_variable = {
+				which = METimCaliphActions
+				value = 1
+			}
+		}
 	}
 	
 	ai_will_do = {
@@ -408,6 +435,16 @@ abbasid_invite_scholar = {
 		
 		set_country_flag = abbasid_recently_invited_scholars
 		
+		if = {
+			limit = {
+				has_country_flag = me_tim_abbasid_completion
+			}
+			change_variable = {
+				which = METimCaliphActions
+				value = 1
+			}
+		}
+		
 		FROM = {
 			save_event_target_as = temp_aba_target
 		}
@@ -463,6 +500,16 @@ abbasid_send_help = {
 	on_accept = {
 		set_country_flag = abbasid_recently_sent_help
 		add_mil_power = -50
+		
+		if = {
+			limit = {
+				has_country_flag = me_tim_abbasid_completion
+			}
+			change_variable = {
+				which = METimCaliphActions
+				value = 1
+			}
+		}
 		
 		save_event_target_as = temp_caliph
 		FROM = { 
@@ -584,6 +631,15 @@ abbasid_zakat = {
 		set_variable = {
 			which = ABA_Temp
 			value = 0
+		}
+		if = {
+			limit = {
+				has_country_flag = me_tim_abbasid_completion
+			}
+			change_variable = {
+				which = METimCaliphActions
+				value = 1
+			}
 		}
 	}
 	

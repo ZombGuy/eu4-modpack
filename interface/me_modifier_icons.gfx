@@ -64,4 +64,8 @@ spriteTypes = {
 		name = "GFX_modifier_icon_hussite_stronghold"
 		textureFile = "gfx/interface/ideas_EU4/modifier_icon_hussite_stronghold.dds"
 	}
+	spriteType = {
+		name = "GFX_modifier_icon_hussite_stronghold"
+		textureFile = "gfx/interface/ideas_EU4/modifier_icon_hussite_stronghold.dds"
+	}
 }

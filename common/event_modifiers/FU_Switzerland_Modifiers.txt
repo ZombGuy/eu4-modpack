@@ -16,6 +16,11 @@ swi_direct_democracy_modifier = {
 swi_the_swiss_defense_modifier = {
 	defensiveness = 0.1 
 }
+
+SWI_integration_of_graubunden = {
+	monthly_reform_progress = 0.25
+}
+
 swi_the_swiss_defense_modifier2 = {
 	defensiveness = 0.1
 	garrison_size = 0.25 
@@ -45,7 +50,8 @@ swi_regional_diets_modifier = {
 	country_admin_power = 1 
 }
 swi_national_expansion_plan_modifier = {
-	local_manpower_modifier = 0.2
+	local_manpower_modifier = 0.4
+	trade_goods_size_modifier = 0.25
 	local_hostile_movement_speed = -0.33
 }
 swi_eidgenossenschaft_modifier = {
@@ -69,12 +75,13 @@ swi_cutthroat_diplomacy = {
 	province_warscore_cost = -0.1
 }
 swi_lessons_of_war_modifier = {
-	yearly_army_professionalism = 0.005 
+	yearly_army_professionalism = 0.002 
 	drill_gain_modifier = 0.25
 	land_morale = 0.05
 }
 swi_rising_power = {
-	core_creation = -0.2 
+	num_accepted_cultures = 1
+	global_autonomy = -0.05
 }
 swi_treaty_of_stans_modifier = {
 	vassal_forcelimit_bonus = 0.5
@@ -103,4 +110,8 @@ swi_canton_republican_ties_modifier = {
 swi_bastion_catholicism_modifier = {
 	papal_influence = 2 
 	tolerance_own = 1
+}
+
+swi_canton_administration_modifier = {
+	country_admin_power = 1 
 }

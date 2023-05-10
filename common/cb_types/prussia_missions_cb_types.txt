@@ -1,8 +1,11 @@
 cb_humiliate_prussia = {
 	valid_for_subject = no
 	
-	prerequisites = {
+	prerequisites_self = {
 		has_country_flag = PRU_TARGET_INITIALIZED
+	}
+	
+	prerequisites = {
 		FROM = {
 			has_country_flag = ME_PRU_a_target
 		}

@@ -89,7 +89,7 @@ TEU_Missions_1 = {
 			tooltip = {
 				add_country_modifier = {
 					name = TEU_grunwald
-					duration = -1 
+					duration = 7300
 				}
 				create_general = { tradition = 50 }
 			}
@@ -160,21 +160,38 @@ TEU_Missions_1 = {
 		}
 		trigger = {
 			OR = {
-				custom_trigger_tooltip = {
-					tooltip = TEU_curtailed_prussian_conf
-					has_country_flag = pru_confederation_curtailed
+				AND = {
+					stability = 1
+					NOT = { num_of_rebel_controlled_provinces = 1 }
+					NOT = {
+						has_spawned_rebels = particularist_rebels
+					}
+					OR = {
+						NOT = { has_estate = estate_burghers }
+						crown_land_share = 40
+					}
+					NOT = { has_estate_privilege = estate_burghers_prussian_confederation }
 				}
 				AND = {
-					custom_trigger_tooltip = {
-						tooltip = TEU_prussian_conf_fired
-						has_country_flag = pru_confederation_happened
-					}
-					is_at_war = no
+					NOT = { current_age = age_of_discovery }
+					NOT = { has_disaster = prussian_confederation_disaster }
+				}
+				custom_trigger_tooltip = {
+					tooltip = teu_handle_the_prussian_confederation_tt
+					has_country_flag = pru_confederation_happened
 				}
 			}
+			NOT = { has_estate_privilege = estate_burghers_prussian_confederation }
 		}
 		effect = {
-			add_stability_or_adm_power = yes
+			set_country_flag = pru_confederation_curtailed
+			custom_tooltip = curtail_prussian_confederation.tooltip
+			end_disaster = prussian_confederation_disaster
+			add_prestige_or_monarch_power = { amount = 10}
+			add_country_modifier = {
+				name = "pru_confederation_curtailed_modifier"
+				duration = 7300
+			}
 		}
 	}
 
@@ -199,7 +216,7 @@ TEU_Missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = TEU_control
-				duration = -1 
+				duration = 10950
 			}
 			custom_tooltip = TEU_get_25_monarch_power
 			hidden_effect = {
@@ -325,7 +342,7 @@ TEU_Missions_2 = {
 		effect = {
 			add_country_modifier = {
 				name = TEU_samogitia
-				duration = -1 
+				duration = 9125
 			}
 			add_power_projection = {
 				type = mission_rewards_power_projection
@@ -361,7 +378,7 @@ TEU_Missions_2 = {
 		effect = {
 			add_country_modifier = {
 				name = TEU_revenge
-				duration = -1 
+				duration = 9125
 			}
 			mittelmark_area = {
 				limit = {
@@ -404,7 +421,7 @@ TEU_Missions_2 = {
 			add_adm_power = 50
 			add_country_modifier = {
 				name = TEU_brandenburg_acquired
-				duration = -1 
+				duration = 9125
 			}
 		}
 	}
@@ -433,7 +450,7 @@ TEU_Missions_2 = {
 		effect = {
 			add_country_modifier = {
 				name = TEU_stability_for_days
-				duration = -1 
+				duration = 10950
 			}
 			add_dip_power = 100
 		}
@@ -516,7 +533,7 @@ TEU_Missions_3 = {
 					add_favors = { who = LIV amount = 25 }
 					add_country_modifier = {
 						name = TEU_diplomacy
-						duration = -1 
+						duration = 9125
 					}
 				}
 			}
@@ -533,7 +550,7 @@ TEU_Missions_3 = {
 				}
 				add_country_modifier = {
 					name = TEU_diplomacy
-					duration = -1 
+					duration = 9125
 				}
 			}
 
@@ -559,7 +576,7 @@ TEU_Missions_3 = {
 				hidden_effect = {
 					add_country_modifier = {
 						name = TEU_conquest_of_livonia
-						duration = -1 
+						duration = 7300
 					}
 					curonia_area = {
 						limit = {
@@ -612,7 +629,7 @@ TEU_Missions_3 = {
 				}
 				add_country_modifier = {
 					name = TEU_conquest_of_livonia
-					duration = -1 
+					duration = 7300
 				}
 			}
 		}
@@ -674,11 +691,11 @@ TEU_Missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = TEU_holy_roman_mercenaries
-				duration = -1 
+				duration = 10950
 			}
 			add_country_modifier = {
 				name = "mercenaries_to_the_standard"
-				duration = -1 
+				duration = -1
 				hidden = yes
 			}
 			custom_tooltip = TEU_more_mercs_available
@@ -710,7 +727,7 @@ TEU_Missions_3 = {
 			1841 = {
 				add_province_modifier = {
 					name = TEU_marienburg
-					duration = -1 
+					duration = -1
 				}
 			}
 		}
@@ -750,7 +767,7 @@ TEU_Missions_3 = {
 				hidden_effect = {
 					add_country_modifier = {
 						name = BRA_prussian_ambition
-						duration = -1 
+						duration = -1
 					}
 				}
 			}
@@ -758,7 +775,7 @@ TEU_Missions_3 = {
 				hidden_effect = {
 					add_country_modifier = {
 						name = BRA_prussian_ambition_2
-						duration = -1 
+						duration = 5475
 					}
 				}
 			}
@@ -814,7 +831,7 @@ TEU_Missions_4 = {
 			41 = {
 				add_trade_modifier = {
 					who = ROOT
-					duration = -1 
+					duration = 7300
 					power = 10
 					key = TEU_navy
 				}
@@ -840,7 +857,7 @@ TEU_Missions_4 = {
 			25 = {
 				add_province_modifier = {
 					name = TEU_naval_base
-					duration = -1 
+					duration = -1
 				}
 				create_or_add_center_of_trade_level = { level = 1 }
 			}
@@ -867,7 +884,7 @@ TEU_Missions_4 = {
 
 			add_country_modifier = {
 				name = TEU_development_of_kulm_law
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -898,13 +915,13 @@ TEU_Missions_4 = {
 			1841 = {
 				add_province_modifier = {
 					name = TEU_seat_of_schaeffer
-					duration = -1 
+					duration = -1
 				}
 			}
 			41 = {
 				add_province_modifier = {
 					name = TEU_seat_of_schaeffer
-					duration = -1 
+					duration = -1
 				}
 			}
 			define_advisor = {
@@ -952,7 +969,7 @@ TEU_Missions_4 = {
 					add_fervor = 50
 					add_country_modifier = {
 						name = TEU_books_of_prussia
-						duration = -1 
+						duration = 9125
 					}
 				}
 			}
@@ -964,7 +981,7 @@ TEU_Missions_4 = {
 				add_fervor = 50
 				add_country_modifier = {
 					name = TEU_books_of_prussia
-					duration = -1 
+					duration = 9125
 				}
 			}
 			if = {
@@ -984,7 +1001,7 @@ TEU_Missions_4 = {
 				add_papal_influence = 50
 				add_country_modifier = {
 					name = TEU_loyal_to_the_pope
-					duration = -1 
+					duration = 9125
 				}
 				#custom_tooltip = TEU_disable_prussia_formation_make_LO_subject
 			}
@@ -1056,17 +1073,9 @@ TEU_Missions_5 = {
 		required_missions = { TEU_teutonic_cities TEU_hanseatic_cities }
 		position = 4
 		provinces_to_highlight = {
-			if = {
-				limit = {
-					is_expanded_mod_active  = { mod = trade_goods }
-				}
-				trade_goods = amber
-			}
-			else = {
-				OR = {
-					province_id = 43
-					province_id = 41
-				}
+			OR = {
+				province_id = 43
+				province_id = 41
 			}
 		}
 		trigger = {
@@ -1074,34 +1083,17 @@ TEU_Missions_5 = {
 				who = HSA
 				value = 125
 			}
-			if = {
-				limit = {
-					is_expanded_mod_active  = { mod = trade_goods }
+			OR = {
+				development_in_provinces = {
+					OR = {
+						province_id = 43
+						province_id = 41
+					}
+					value = 40
 				}
-				OR = {
-					development_in_provinces = {
-						trade_goods = amber
-						value = 40
-					}
-					custom_trigger_tooltip = {
-						tooltip = TEU_faceting
-						always = no
-					}
-				}
-			}
-			else = {
-				OR = {
-					development_in_provinces = {
-						OR = {
-							province_id = 43
-							province_id = 41
-						}
-						value = 40
-					}
-					custom_trigger_tooltip = {
-						tooltip = TEU_faceting
-						always = no
-					}
+				custom_trigger_tooltip = {
+					tooltip = TEU_faceting
+					always = no
 				}
 			}
 		}
@@ -1140,7 +1132,7 @@ TEU_Missions_5 = {
 		effect = {
 			add_country_modifier = {
 				name = TEU_pious_power
-				duration = -1 
+				duration = 9125
 			}
 		}
 	}
@@ -1173,7 +1165,7 @@ TEU_Missions_5 = {
 			}
 			add_country_modifier = {
 				name = TEU_piety
-				duration = -1 
+				duration = 5475
 			}
 			custom_tooltip = TEU_every_church
 			hidden_effect = {

@@ -428,7 +428,7 @@ tib_slot_3 = {
 			}
 			add_country_modifier = {
 				name = "tibet_china_defeated"
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -726,7 +726,7 @@ tib_slot_4 = {
 		effect = {
 			add_country_modifier = {
 				name = "tibet_restored_pala"
-				duration = -1 
+				duration = 7300
 			}
 			if = {
 				limit = {

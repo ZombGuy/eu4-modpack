@@ -340,7 +340,7 @@ estate_berbers_develop = {
 
 estate_berbers_expand_tribal_land = {
 	can_select = {
-		always = true
+		always = yes
 	}
 	selection_weight = {
 		factor = 1

@@ -37,20 +37,9 @@ evenk_missions_1 = {
 			}
 		}
 		effect = {
-			if = {
-				limit = {
-					is_expanded_mod_active = { mod = governments }
-				}
-				add_country_modifier = {
-					name = evenk_reindeer_cavalry_ge
-					duration = -1 
-				}
-			}
-			else = {
-				add_country_modifier = {
-					name = evenk_reindeer_cavalry
-					duration = -1 
-				}
+			add_country_modifier = {
+				name = evenk_reindeer_cavalry
+				duration = -1
 			}
 		}
 	}
@@ -100,7 +89,7 @@ evenk_missions_2 = {
 		effect = {
 			add_country_modifier = {
 				name = evenk_guns
-				duration = -1 
+				duration = 10950
 			}
 		}
 	}
@@ -124,7 +113,7 @@ evenk_missions_2 = {
 			capital_scope = {
 				add_province_modifier = {
 					name = evenk_capital_defense
-					duration = -1 
+					duration = -1
 				}
 			}
 		}
@@ -319,8 +308,6 @@ evenk_missions_4 = {
 			OR = {
 				has_reform = martial_society_reform
 				has_reform = civil_society_reform
-				has_reform = snow_life_reform
-				has_reform = three_jurchen_tribes_reform
 			}
 		}
 		effect = {
@@ -412,7 +399,7 @@ evenk_missions_5 = {
 			}
 			add_country_modifier = {
 				name = evenk_true_faith
-				duration = -1 
+				duration = 9125
 			}
 		}
 	}

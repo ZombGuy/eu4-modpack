@@ -282,13 +282,13 @@ country_event = {
 			age = age_of_discovery
 		}
 		
-		TIM = {
-			add_casus_belli = {
-				type = cb_punish_qara_qoyunlu
-				target = ROOT
-				months = 120
-			}
-		}
+		# TIM = {
+			# add_casus_belli = {
+				# type = cb_punish_qara_qoyunlu
+				# target = ROOT
+				# months = 120
+			# }
+		# }
 	}
 	
 	# option = {
@@ -665,7 +665,11 @@ country_event = {
 			limit = {
 				has_dlc = "Cradle of Civilization"
 			}
-			add_tribal_allegiance = 30
+			add_government_power = {
+				mechanic_type = tribal_federation_mechanic
+				power_type = tribal_allegiance
+				value = 30
+			}
 		}
 	}
 }

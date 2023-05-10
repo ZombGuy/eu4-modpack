@@ -98,13 +98,13 @@ vijayanagara_mission_1 = {
 			south_lanka_area = {
 				add_province_modifier = {
 					name = vij_improved_cinnamon_trade
-					duration = -1 
+					duration = -1
 				}
 			}
 			lanka_area = {
 				add_province_modifier = {
 					name = vij_improved_cinnamon_trade
-					duration = -1 
+					duration = -1
 				}
 			}
 		}
@@ -134,7 +134,7 @@ vijayanagara_mission_1 = {
 				cavalry = ROOT
 				add_province_modifier = {
 					name = vij_horse_import
-					duration = -1 
+					duration = 5475
 				}
 			}
 		}
@@ -164,7 +164,7 @@ vijayanagara_mission_1 = {
 			}
 			add_country_modifier = {
 				name = vij_navigadaprabhu
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -227,7 +227,7 @@ vijayanagara_mission_1 = {
 			add_mercantilism = 5
 			add_country_modifier = {
 				name = vij_spice_empire
-				duration = -1 
+				duration = 18250
 			}
 		}
 	}
@@ -267,7 +267,7 @@ vijayanagara_mission_2 = {
 			malabar_area = {
 				add_province_modifier = {
 					name = vij_malabar_spice_trade
-					duration = -1 
+					duration = 7300
 				}
 			}
 		}
@@ -300,7 +300,7 @@ vijayanagara_mission_2 = {
 			534 = {
 				add_province_modifier = {
 					name = vij_city_spices
-					duration = -1 
+					duration = -1
 				}
 				if = {
 					limit = { has_no_manufactory_trigger = yes }
@@ -443,7 +443,7 @@ vijayanagara_mission_2 = {
 						}
 						add_province_modifier = {
 							name = vij_indian_spice_market
-							duration = -1 
+							duration = -1
 						}
 					}
 				}
@@ -458,7 +458,7 @@ vijayanagara_mission_2 = {
 						}
 						add_province_modifier = {
 							name = vij_indian_spice_market
-							duration = -1 
+							duration = -1
 						}
 					}
 				}
@@ -484,27 +484,12 @@ vijayanagara_mission_2 = {
 		}
 		position = 5
 		trigger = {
-			if = {
-				limit = {
-					is_expanded_mod_active = { mod = trade_goods }
-				}
-				custom_trigger_tooltip = {
-					tooltip = VIJ_MALACCAN_SPICE_TGE
-					num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
-						value = 7
-						trade_goods = spices
-						any_trade_node_member_province = { province_id = 1361 }
-					}
-				}
-			}
-			else = {
-				custom_trigger_tooltip = {
-					tooltip = VIJ_MALACCAN_SPICE
-					num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
-						value = 10
-						trade_goods = spices
-						any_trade_node_member_province = { province_id = 1361 }
-					}
+			custom_trigger_tooltip = {
+				tooltip = VIJ_MALACCAN_SPICE
+				num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+					value = 10
+					trade_goods = spices
+					any_trade_node_member_province = { province_id = 1361 }
 				}
 			}
 		}
@@ -514,7 +499,7 @@ vijayanagara_mission_2 = {
 			1361 = {
 				add_trade_modifier = {
 					who = ROOT
-					duration = -1 
+					duration = 7300
 					power = 50
 					key = rajendra_modifier
 				}
@@ -570,7 +555,7 @@ vijayanagara_mission_3 = {
 		effect = {
 			add_country_modifier = {
 				name = vij_preparation_war
-				duration = -1 
+				duration = 5475
 			}
 			malabar_area = {
 				limit = {
@@ -664,20 +649,9 @@ vijayanagara_mission_3 = {
 				id = flavor_vij.17
 				days = 3
 			}
-			if = {
-				limit = {
-					is_expanded_mod_active = { mod = governments }
-				}
-				add_country_modifier = {
-					name = vij_trade_dominion_ge
-					duration = -1 
-				}
-			}
-			else = {
-				add_country_modifier = {
-					name = vij_trade_dominion
-					duration = -1 
-				}
+			add_country_modifier = {
+				name = vij_trade_dominion
+				duration = -1
 			}
 			1340 = {
 				every_trade_node_member_province = {
@@ -799,7 +773,7 @@ vijayanagara_mission_4 = {
 		effect = {
 			add_country_modifier = {
 				name = vij_reign_telugu
-				duration = -1 
+				duration = 9125
 			}
 		}
 	}
@@ -839,7 +813,7 @@ vijayanagara_mission_4 = {
 			andhra_area = {
 				add_province_modifier = {
 					name = vij_remediation
-					duration = -1 
+					duration = 5475
 				}
 			}
 		}
@@ -882,7 +856,7 @@ vijayanagara_mission_4 = {
 				capital_scope = {
 					add_province_modifier = {
 						name = "city_of_victory_modifier"
-						duration = -1 
+						duration = -1
 					}
 				}
 			}
@@ -912,7 +886,7 @@ vijayanagara_mission_4 = {
 		effect = {
 			add_country_modifier = {
 				name = vij_patronising_kannada_literature
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -977,7 +951,7 @@ vijayanagara_mission_4 = {
 		effect = {
 			add_country_modifier = {
 				name = vij_dominion_indian_ocean
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -1028,7 +1002,7 @@ vijayanagara_mission_5 = {
 				}
 				add_province_modifier = {
 					name = vij_architects_city_victory
-					duration = -1 
+					duration = 7300
 				}
 			}
 		}
@@ -1070,7 +1044,7 @@ vijayanagara_mission_5 = {
 			tooltip = {
 				add_province_modifier = {
 					name = vij_tamil_trade_guilds
-					duration = -1 
+					duration = 18250
 				}
 			}
 			hidden_effect = {
@@ -1078,7 +1052,7 @@ vijayanagara_mission_5 = {
 					limit = { culture = tamil }
 					add_province_modifier = {
 						name = vij_tamil_trade_guilds
-						duration = -1 
+						duration = 18250
 					}
 				}
 			}
@@ -1161,7 +1135,7 @@ vijayanagara_mission_5 = {
 			add_mercantilism = 5
 			add_country_modifier = {
 				name = vij_tamil_trading_secrets
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -1211,7 +1185,7 @@ vijayanagara_mission_1_expansion = {
 				}
 				add_province_modifier = {
 					name = vij_berari_artillery
-					duration = -1 
+					duration = -1
 				}
 			}
 		}
@@ -1256,7 +1230,7 @@ vijayanagara_mission_1_expansion = {
 		effect = {
 			add_country_modifier = {
 				name = vij_maratha_modifier
-				duration = -1 
+				duration = 7300
 			}
 			telingana_area = {
 				if = {
@@ -1410,7 +1384,7 @@ vijayanagara_mission_1_expansion = {
 		effect = {
 			add_country_modifier = {
 				name = vij_turkish_knowledge
-				duration = -1 
+				duration = 5475
 			}
 		}
 	}
@@ -1604,7 +1578,7 @@ vijayanagara_mission_2_expansion = {
 			4428 = {
 				add_province_modifier = {
 					name = vij_improved_fortifications
-					duration = -1 
+					duration = 18250
 				}
 			}
 		}
@@ -1718,13 +1692,13 @@ vijayanagara_mission_2_expansion = {
 			raichur_doab_area = {
 				add_province_modifier = {
 					name = vij_damboli
-					duration = -1 
+					duration = -1
 				}
 			}
 			golconda_area = {
 				add_province_modifier = {
 					name = vij_damboli
-					duration = -1 
+					duration = -1
 				}
 			}
 		}
@@ -1798,7 +1772,7 @@ vijayanagara_mission_2_expansion = {
 			add_yearly_manpower = 1
 			add_country_modifier = {
 				name = vij_recruiting_sarf_khas
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -1827,7 +1801,7 @@ vijayanagara_mission_2_expansion = {
 		effect = {
 			add_country_modifier = {
 				name = vij_oriya_literature
-				duration = -1 
+				duration = 9125
 			}
 			orissa_area = {
 				add_base_tax = 1
@@ -1872,7 +1846,7 @@ vijayanagara_mission_2_expansion = {
 		effect = {
 			add_country_modifier = {
 				name = vij_marwari_cavalry
-				duration = -1 
+				duration = 10950
 			}
 		}
 	}
@@ -1920,7 +1894,7 @@ vijayanagara_mission_3_expansion = {
 				add_or_upgrade_production_building = yes
 				add_permanent_province_modifier = {
 					name = vij_improved_mineral_mines
-					duration = -1 
+					duration = -1
 				}
 			}
 		}
@@ -1956,7 +1930,7 @@ vijayanagara_mission_3_expansion = {
 			add_mil_power = 120
 			add_country_modifier = {
 				name = vij_dream_unification
-				duration = -1 
+				duration = -1
 			}
 			orissa_area = {
 				limit = {
@@ -2127,7 +2101,7 @@ vijayanagara_mission_3_expansion = {
 			}
 			add_country_modifier = {
 				name = vij_hindu_india
-				duration = -1 
+				duration = -1
 			}
 			506 = {
 				if = {
@@ -2287,7 +2261,7 @@ vijayanagara_mission_4_expansion = {
 		effect = {
 			add_country_modifier = {
 				name = vij_guns
-				duration = -1 
+				duration = 5475
 			}
 			if = {
 				limit = {
@@ -2348,7 +2322,7 @@ vijayanagara_mission_4_expansion = {
 		effect = {
 			add_country_modifier = {
 				name = vij_samu_garidi
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -2366,69 +2340,16 @@ vijayanagara_mission_4_expansion = {
 		}
 		trigger = {
 			owns_core_province = 541
-			if = {
-				limit = {
-					has_dlc = "Leviathan"
-					is_expanded_mod_active = { mod = great_monuments }
-				}
-				541 = {
-					OR = {
-						has_great_project = {
-							type = gme_elephant_stables
-							tier = 2
-						}
-						has_great_project = {
-							type = gme_elephant_stables
-							tier = 3
-						}
-					}
-				}
-			}
-			else = {
-				541 = {
-					base_manpower = 10
-					has_manpower_building_trigger = yes
-				}
+			541 = {
+				base_manpower = 10
+				has_manpower_building_trigger = yes
 			}
 		}
 		effect = {
-			if = {
-				limit = {
-					is_expanded_mod_active = { mod = trade_goods }
-				}
-				custom_tooltip = VIJ_ELEPHANTS_TT
-				hidden_effect = {
-					every_owned_province = {
-						limit = { trade_goods = elephants }
-						if = {
-							limit = {
-								owner = { MIL = 6 }
-							}
-							add_base_manpower = 2
-						}
-						else = {
-							add_base_manpower = 1
-						}
-					}
-				}
-			}
-			if = {
-				limit = {
-					is_expanded_mod_active = { mod = great_monuments }
-				}
-				541 = {
-					add_province_modifier = {
-						name = vij_improved_warfare
-						duration = -1 
-					}
-				}
-			}
-			else = {
-				541 = {
-					add_province_modifier = {
-						name = vij_elephant_stables
-						duration = -1 
-					}
+			541 = {
+				add_province_modifier = {
+					name = vij_elephant_stables
+					duration = -1
 				}
 			}
 		}
@@ -2522,7 +2443,7 @@ vijayanagara_mission_4_expansion = {
 		effect = {
 			add_country_modifier = {
 				name = vij_bengal_supremacy
-				duration = -1 
+				duration = 36500
 			}
 		}
 	}
@@ -2563,7 +2484,7 @@ vijayanagara_mission_5_expansion = {
 			tooltip = {
 				add_province_modifier = {
 					name = vij_training_gyms
-					duration = -1 
+					duration = -1
 				}
 			}
 			hidden_effect = {
@@ -2577,7 +2498,7 @@ vijayanagara_mission_5_expansion = {
 					}
 					add_province_modifier = {
 						name = vij_training_gyms
-						duration = -1 
+						duration = -1
 					}
 				}
 			}
@@ -2620,7 +2541,7 @@ vijayanagara_mission_5_expansion = {
 			tooltip = {
 				add_province_modifier = {
 					name = vij_development_wootz_steel
-					duration = -1 
+					duration = 9125
 				}
 			}
 			hidden_effect = {
@@ -2633,7 +2554,7 @@ vijayanagara_mission_5_expansion = {
 					}
 					add_province_modifier = {
 						name = vij_development_wootz_steel
-						duration = -1 
+						duration = 9125
 					}
 				}
 			}
@@ -2658,15 +2579,7 @@ vijayanagara_mission_5_expansion = {
 		effect = {
 			add_country_modifier = {
 				name = vij_reformed_gunnery
-				duration = -1 
-			}
-			if = {
-				limit = {
-					is_expanded_mod_active = { mod = trade_goods }
-				}
-				country_event = {
-					id = ME_Vijayanagara_Events.5
-				}
+				duration = -1
 			}
 		}
 	}
@@ -2769,7 +2682,7 @@ vijayanagara_mission_1_tall = {
 			add_mil_power = 120
 			add_country_modifier = {
 				name = vij_ministers
-				duration = -1 
+				duration = 9125
 			}
 		}
 	}
@@ -2814,7 +2727,7 @@ vijayanagara_mission_1_tall = {
 				every_trade_node_member_province = {
 					add_province_modifier = {
 						name = vij_six_provinces
-						duration = -1 
+						duration = -1
 					}
 				}
 			}
@@ -2835,7 +2748,7 @@ vijayanagara_mission_1_tall = {
 		effect = {
 			add_country_modifier = {
 				name = vij_taxing_privilegs
-				duration = -1 
+				duration = -1
 			}
 			add_inflation = -3
 		}
@@ -2866,23 +2779,10 @@ vijayanagara_mission_1_tall = {
 			541 = {
 				add_development_half_monthly_monarch_power = yes
 			}
-			if = {
-				limit = {
-					is_expanded_mod_active = { mod = great_monuments }
-				}
-				rayalaseema_area = {
-					limit = {
-						NOT = { province_id = 541 }
-					}
-					add_development_third_monthly_monarch_power = yes
-				}
-			}
-			else = {
-				rayalaseema_area = {
-					add_permanent_province_modifier = {
-						name = vij_dasavanda
-						duration = -1 
-					}
+			rayalaseema_area = {
+				add_permanent_province_modifier = {
+					name = vij_dasavanda
+					duration = -1
 				}
 			}
 		}
@@ -2896,7 +2796,6 @@ vijayanagara_mission_1_tall = {
 			if = {
 				limit = {
 					has_dlc = "Leviathan"
-					is_expanded_mod_active = { mod = great_monuments }
 				}
 				541 = {
 					OR = {
@@ -2967,7 +2866,7 @@ vijayanagara_mission_2_tall = {
 			add_adm_power = 150
 			add_country_modifier = {
 				name = vij_nayankara
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -3009,55 +2908,22 @@ vijayanagara_mission_2_tall = {
 				province_is_in_trade_node = { center = 1340 }
 				base_manpower = 10
 			}
-			if = {
-				limit = {
-					is_expanded_mod_active = { mod = trade_goods }
+			OR = {
+				trading_bonus = {
+					trade_goods = naval_supplies
+					value = yes
 				}
-				OR = {
-					trading_bonus = {
-						trade_goods = cinnamon
-						value = yes
-					}
-					trading_bonus = {
-						trade_goods = naval_supplies
-						value = yes
-					}
-					trading_bonus = {
-						trade_goods = tropical_wood
-						value = yes
-					}
-					any_owned_province = {
-						trade_goods = cinnamon
-						development = 25
-					}
-					any_owned_province = {
-						trade_goods = naval_supplies
-						development = 25
-					}
-					any_owned_province = {
-						trade_goods = tropical_wood
-						development = 25
-					}
+				trading_bonus = {
+					trade_goods = tropical_wood
+					value = yes
 				}
-			}
-			else = {
-				OR = {
-					trading_bonus = {
-						trade_goods = naval_supplies
-						value = yes
-					}
-					trading_bonus = {
-						trade_goods = tropical_wood
-						value = yes
-					}
-					any_owned_province = {
-						trade_goods = naval_supplies
-						development = 25
-					}
-					any_owned_province = {
-						trade_goods = tropical_wood
-						development = 25
-					}
+				any_owned_province = {
+					trade_goods = naval_supplies
+					development = 25
+				}
+				any_owned_province = {
+					trade_goods = tropical_wood
+					development = 25
 				}
 			}
 		}
@@ -3067,21 +2933,21 @@ vijayanagara_mission_2_tall = {
 			tooltip = {
 				add_permanent_province_modifier = {
 					name = vij_wet_land
-					duration = -1 
+					duration = -1
 				}
 			}
 			custom_tooltip = VIJ_LAND_REVENUE_DRY_TT
 			tooltip = {
 				add_permanent_province_modifier = {
 					name = vij_dry_land
-					duration = -1 
+					duration = -1
 				}
 			}
 			custom_tooltip = VIJ_LAND_REVENUE_WOODS_TT
 			tooltip = {
 				add_permanent_province_modifier = {
 					name = vij_wood
-					duration = -1 
+					duration = -1
 				}
 			}
 			1340 = {
@@ -3090,7 +2956,7 @@ vijayanagara_mission_2_tall = {
 						limit = { has_terrain = jungle }
 						add_permanent_province_modifier = {
 							name = vij_wet_land
-							duration = -1 
+							duration = -1
 						}
 					}
 					else_if = {
@@ -3103,13 +2969,12 @@ vijayanagara_mission_2_tall = {
 						}
 						add_permanent_province_modifier = {
 							name = vij_dry_land
-							duration = -1 
+							duration = -1
 						}
 					}
 					else_if = {
 						limit = {
 							OR = {
-								trade_goods = cinnamon
 								trade_goods = naval_supplies
 								trade_goods = tropical_wood
 							}
@@ -3119,7 +2984,7 @@ vijayanagara_mission_2_tall = {
 						}
 						add_permanent_province_modifier = {
 							name = vij_wood
-							duration = -1 
+							duration = -1
 						}
 					}
 				}
@@ -3140,7 +3005,7 @@ vijayanagara_mission_2_tall = {
 		effect = {
 			add_country_modifier = {
 				name = vij_temples_deities
-				duration = -1 
+				duration = 5475
 			}
 		}
 	}
@@ -3159,21 +3024,14 @@ vijayanagara_mission_2_tall = {
 			}
 		}
 		effect = {
-			if = {
-				limit = {
-					is_expanded_mod_active = { mod = ages_and_splendor }
-				}
-				change_adm = 1
-				change_dip = 1
-				add_adm_power = 120
+			change_adm = 1
+			change_dip = 1
+			add_adm_power = 120
 			add_dip_power = 120
 			add_mil_power = 120
-			}
-			else = {
-				add_country_modifier = {
-					name = vij_dharmic_syncretism
-					duration = -1 
-				}
+			add_country_modifier = {
+				name = vij_dharmic_syncretism
+				duration = 18250
 			}
 		}
 	}
@@ -3206,7 +3064,7 @@ vijayanagara_mission_3_tall = {
 		effect = {
 			add_country_modifier = {
 				name = vij_careful_investment
-				duration = -1 
+				duration = 5475
 			}
 		}
 	}
@@ -3219,35 +3077,16 @@ vijayanagara_mission_3_tall = {
 			any_trade_node_member_province = { province_id = 1340 }
 			OR = {
 				trade_goods = gems
-				trade_goods = pearls
 			}
 			NOT = { owned_by = ROOT }
 		}
 		trigger = {
-			if = {
-				limit = {
-					is_expanded_mod_active = { mod = trade_goods }
+			OR = {
+				development_in_provinces = {
+					value = 50
+					trade_goods = gems
 				}
-				OR = {
-					development_in_provinces = {
-						value = 50
-						OR = {
-							trade_goods = gems
-							trade_goods = pearls
-						}
-					}
-					production_leader = { trade_goods = gems }
-					production_leader = { trade_goods = pearls }
-				}
-			}
-			else = {
-				OR = {
-					development_in_provinces = {
-						value = 50
-						trade_goods = gems
-					}
-					production_leader = { trade_goods = gems }
-				}
+				production_leader = { trade_goods = gems }
 			}
 		}
 		effect = {
@@ -3255,14 +3094,14 @@ vijayanagara_mission_3_tall = {
 				add_base_production = 4
 				add_permanent_province_modifier = {
 					name = vij_center_production
-					duration = -1 
+					duration = -1
 				}
 			}
 			custom_tooltip = VIJ_FASCINATING_TT
 			tooltip = {
 				add_permanent_province_modifier = {
 					name = vij_fascinating
-					duration = -1 
+					duration = -1
 				}
 			}
 			hidden_effect = {
@@ -3270,12 +3109,11 @@ vijayanagara_mission_3_tall = {
 					limit = {
 						OR = {
 							trade_goods = gems
-							trade_goods = pearls
 						}
 					}
 					add_permanent_province_modifier = {
 						name = vij_fascinating
-						duration = -1 
+						duration = -1
 					}
 				}
 			}
@@ -3295,31 +3133,11 @@ vijayanagara_mission_3_tall = {
 			}
 		}
 		trigger = {
-			if = {
-				limit = {
-					is_expanded_mod_active = { mod = trade_goods }
-				}
-				development_in_provinces = {
-					value = 100
-					OR = {
-						trade_goods = gems
-						trade_goods = pearls
-					}
-				}
-			}
-			else = {
-				development_in_provinces = {
-					value = 100
-					trade_goods = gems
-				}
+			development_in_provinces = {
+				value = 100
+				trade_goods = gems
 			}
 			production_leader = { trade_goods = gems }
-			if = {
-				limit = {
-					is_expanded_mod_active = { mod = trade_goods }
-				}
-				production_leader = { trade_goods = pearls }
-			}
 			custom_trigger_tooltip = {
 				tooltip = VIJ_GEM_CUTTING_INDUSTRIES_TT
 				1340 = {
@@ -3345,7 +3163,7 @@ vijayanagara_mission_3_tall = {
 				remove_province_modifier = vij_center_production
 				add_permanent_province_modifier = {
 					name = vij_industrial_center
-					duration = -1 
+					duration = -1
 				}
 			}
 			custom_tooltip = VIJ_FASCINATING_TT
@@ -3353,7 +3171,7 @@ vijayanagara_mission_3_tall = {
 				remove_province_modifier = vij_fascinating
 				add_permanent_province_modifier = {
 					name = vij_fascinating_industry
-					duration = -1 
+					duration = -1
 				}
 			}
 			hidden_effect = {
@@ -3362,7 +3180,7 @@ vijayanagara_mission_3_tall = {
 					remove_province_modifier = vij_fascinating
 					add_permanent_province_modifier = {
 						name = vij_fascinating_industry
-						duration = -1 
+						duration = -1
 					}
 				}
 			}
@@ -3449,7 +3267,7 @@ vijayanagara_mission_4_tall = {
 			add_years_of_income = 1
 			add_country_modifier = {
 				name = vij_favourable_balance
-				duration = -1 
+				duration = 10950
 			}
 			custom_tooltip = VIJ_FRUITS_OF_TRADE_DESC
 			hidden_effect = {
@@ -3457,7 +3275,7 @@ vijayanagara_mission_4_tall = {
 					limit = { province_has_center_of_trade_of_level = 2 }
 					add_province_modifier = {
 						name = vij_fruitful_trade_modifier
-						duration = -1 
+						duration = 9125
 					}
 				}
 			}
@@ -3524,7 +3342,7 @@ vijayanagara_mission_5_tall = {
 			tooltip = {
 				add_province_modifier = {
 					name = vij_defying_external_trade
-					duration = -1 
+					duration = 9125
 				}
 			}
 			hidden_effect = {
@@ -3542,7 +3360,7 @@ vijayanagara_mission_5_tall = {
 					}
 					add_province_modifier = {
 						name = vij_defying_external_trade
-						duration = -1 
+						duration = 9125
 					}
 				}
 			}
@@ -3578,7 +3396,7 @@ vijayanagara_mission_5_tall = {
 				}
 				add_province_modifier = {
 					name = vij_indian_trade
-					duration = -1 
+					duration = -1
 				}
 			}
 			hidden_effect = {
@@ -3593,7 +3411,7 @@ vijayanagara_mission_5_tall = {
 					}
 					add_province_modifier = {
 						name = vij_indian_trade
-						duration = -1 
+						duration = -1
 					}
 				}
 			}

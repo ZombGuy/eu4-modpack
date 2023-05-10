@@ -10,7 +10,6 @@ country_event = {
 	fire_only_once = yes
 
 	trigger = {
-		NOT = { is_expanded_mod_active = { mod = great_monuments } }
 		OR = {
 			AND = {
 				tag = ITA

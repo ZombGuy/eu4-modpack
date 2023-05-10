@@ -34,7 +34,7 @@ francia_missions_1 = {
 			custom_tooltip = only_cores_change.tooltip
 			add_country_modifier = {
 				name = "frankish_literature"
-				duration = -1 
+				duration = 9125
 			}
 			change_primary_culture = frankish
 		}
@@ -59,7 +59,7 @@ francia_missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = "frankish_education"
-				duration = -1 
+				duration = 9125
 			}
 			capital_scope = {
 				add_base_manpower = 2
@@ -95,7 +95,7 @@ francia_missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = "frankish_unity"
-				duration = -1 
+				duration = 9125
 			}
 			capital_scope = {
 				add_base_manpower = 2
@@ -285,7 +285,7 @@ francia_missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = "frx_ligurian_trade"
-				duration = -1 
+				duration = 9125
 			}
 		}
 	}
@@ -491,7 +491,7 @@ francia_missions_2 = {
 		effect = {
 			add_country_modifier = {
 				name = "croatian_trade"
-				duration = -1 
+				duration = 9125
 			}
 		}
 	}
@@ -534,36 +534,36 @@ francia_missions_2 = {
 		effect = {
 			add_country_modifier = {
 				name = "iberian_march"
-				duration = -1 
+				duration = 9125
 			}
 			210 = {
 				add_province_modifier = {
 					name = "fortified_pyrenees"
-					duration = -1 
+					duration = -1
 				}
 			}
 			211 = {
 				add_province_modifier = {
 					name = "fortified_pyrenees"
-					duration = -1 
+					duration = -1
 				}
 			}
 			2987 = {
 				add_province_modifier = {
 					name = "fortified_pyrenees"
-					duration = -1 
+					duration = -1
 				}
 			}
 			212 = {
 				add_province_modifier = {
 					name = "fortified_pyrenees"
-					duration = -1 
+					duration = -1
 				}
 			}
 			197 = {
 				add_province_modifier = {
 					name = "fortified_pyrenees"
-					duration = -1 
+					duration = -1
 				}
 			}
 		}
@@ -808,7 +808,7 @@ francia_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = "east_francia_unified"
-				duration = -1 
+				duration = 9125
 			}
 		}
 	}
@@ -1028,7 +1028,7 @@ francia_missions_3 = {
 		effect = {
 			add_ruler_modifier = {
 				name = "king_of_romans"
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -1185,7 +1185,7 @@ francia_missions_4 = {
 		effect = {
 			add_country_modifier = {
 				name = "czech_subjugation"
-				duration = -1 
+				duration = 9125
 			}
 		}
 	}
@@ -1238,7 +1238,7 @@ francia_missions_4 = {
 		effect = {
 			add_country_modifier = {
 				name = "buffer_state"
-				duration = -1 
+				duration = 9125
 			}
 		}
 	}
@@ -1262,7 +1262,7 @@ francia_missions_4 = {
 		effect = {
 			add_country_modifier = {
 				name = "frx_venetian_trade"
-				duration = -1 
+				duration = 9125
 			}
 			113 = {
 				if = {
@@ -1412,7 +1412,7 @@ francia_missions_5 = {
 		effect = {
 			add_country_modifier = {
 				name = "frankish_trade_boom"
-				duration = -1 
+				duration = 9125
 			}
 		}
 	}

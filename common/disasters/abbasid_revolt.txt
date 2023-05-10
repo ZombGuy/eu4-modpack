@@ -1,17 +1,24 @@
 ABB_abbasid_caliph_revolt = {
 	potential = {
-		custom_trigger_tooltip = {
-			tooltip = ME_has_abbasid_caliph
-			event_target:Caliph_province = {
-				owned_by = ROOT
+		if = {
+			limit = {
+				has_saved_global_event_target = Caliph_province
+			}
+			custom_trigger_tooltip = {
+				tooltip = ME_has_abbasid_caliph
+				event_target:Caliph_province = {
+					owned_by = ROOT
+				}
 			}
 		}
+		else = { always = no }
+		religion = sunni
 	}
 	can_start = {
 		NOT = { stability = 1 }
 		OR = {
-			unrest = 2
-			war_exhaustion = 4
+			unrest = 4
+			war_exhaustion = 6
 		}
 	}
 	can_stop = {

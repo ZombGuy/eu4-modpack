@@ -41,7 +41,7 @@ nitra_first = {
 			}
 			add_country_modifier = {
 				name = "slo_core"
-				duration = -1 
+				duration = 9125
 			}
 			custom_tooltip = SLO_VELEHRAD_CAPITAL
 			custom_tooltip = SLO_BOH_1
@@ -153,7 +153,7 @@ nitra_first = {
 			add_accepted_culture_or_dip_power = { culture = czech }
 			add_country_modifier = {
 				name = "slo_svatopluk"
-				duration = -1 
+				duration = -1
 			}
 			silesia_area = {
 				limit = {
@@ -234,7 +234,7 @@ nitra_first = {
 			154 = {
 				add_province_modifier = {
 					name = "slo_mint"
-					duration = -1 
+					duration = -1
 				}
 			}
 		}
@@ -279,7 +279,7 @@ nitra_first = {
 			}
 			add_country_modifier = {
 				name = "slo_royal"
-				duration = -1 
+				duration = 5475
 			}
 		}
 	}
@@ -296,7 +296,7 @@ nitra_second = {
 	has_country_shield = yes
 
 	slo_break_chains = {
-		icon = me_mission_nitra
+		icon = mission_destroy_the_hungarians
 		required_missions = { slo_independence_war }
 		position = 2
 
@@ -328,28 +328,28 @@ nitra_second = {
 			custom_tooltip = SLO_PROVINCE_NAMES
 			add_country_modifier = {
 				name = "slo_stabilize"
-				duration = -1 
+				duration = 7300
 			}
 			hidden_effect = {
 				1772 = {
-					change_province_name = "Prešporok"
-					rename_capital = "Prešporok"
+					change_province_name = "Preï¿½porok"
+					rename_capital = "Preï¿½porok"
 				}
 				154 = {
 					change_province_name = "Nitra"
 					rename_capital = "Nitra"
 				}
 				4236 = {
-					change_province_name = "Trencín"
-					rename_capital = "Trencín"
+					change_province_name = "Trencï¿½n"
+					rename_capital = "Trencï¿½n"
 				}
 				1318 = {
-					change_province_name = "Spiš"
-					rename_capital = "Spiš"
+					change_province_name = "Spiï¿½"
+					rename_capital = "Spiï¿½"
 				}
 				162 = {
-					change_province_name = "Zemplín"
-					rename_capital = "Zemplín"
+					change_province_name = "Zemplï¿½n"
+					rename_capital = "Zemplï¿½n"
 				}
 			}
 		}
@@ -369,7 +369,7 @@ nitra_second = {
 			set_country_flag = slovak_westernization
 			add_country_modifier = {
 				name = "slo_entrance"
-				duration = -1 
+				duration = 7300
 			}
 			custom_tooltip = SLO_EMPEROR_ALLY
 			tooltip = {
@@ -408,7 +408,7 @@ nitra_second = {
 			262 = {
 				add_trade_modifier = {
 					who = ROOT
-					duration = -1 
+					duration = 5475
 					power = 25
 					key = nitra_krakow_trade
 				}
@@ -467,7 +467,7 @@ nitra_second = {
 			create_general = { tradition = 75 }
 			add_country_modifier = {
 				name = "slo_rex"
-				duration = -1 
+				duration = -1
 			}
 			volhynia_area = {
 				limit = {
@@ -499,7 +499,7 @@ nitra_second = {
 		effect = {
 			add_country_modifier = {
 				name = "slo_sphere"
-				duration = -1 
+				duration = 9125
 			}
 			1770 = {
 				if = {
@@ -617,7 +617,7 @@ nitra_second = {
 			1772 = {
 				add_province_modifier = {
 					name = "slo_pearl"
-					duration = -1 
+					duration = -1
 				}
 			}
 			1772 = {
@@ -666,7 +666,7 @@ nitra_second = {
 			tooltip = {
 				add_country_modifier = {
 					name = "slo_class"
-					duration = -1 
+					duration = 9125
 				}
 			}
 			hidden_effect = {
@@ -678,7 +678,7 @@ nitra_second = {
 					}
 					add_country_modifier = {
 						name = "slo_class"
-						duration = -1 
+						duration = 9125
 					}
 				}
 			}
@@ -722,7 +722,7 @@ nitra_second = {
 			1772 = {
 				add_province_modifier = {
 					name = "slo_cities"
-					duration = -1 
+					duration = -1
 				}
 			}
 		}
@@ -741,7 +741,7 @@ nitra_third = {
 	has_country_shield = yes
 
 	slo_independence_war = {
-		icon = protect_against_austria
+		icon = me_mission_nitra
 		required_missions = { }
 		position = 1
 
@@ -753,7 +753,7 @@ nitra_third = {
 			custom_tooltip = SLO_HUNGARY_SUBJECT
 			add_country_modifier = {
 				name = "slo_independence"
-				duration = -1 
+				duration = 5475
 			}
 			hidden_effect = {
 				if = {
@@ -799,7 +799,7 @@ nitra_third = {
 			tooltip = {
 				add_country_modifier = {
 					name = "slo_foreign_support"
-					duration = -1 
+					duration = 9125
 				}
 			}
 			hidden_effect = {
@@ -814,7 +814,7 @@ nitra_third = {
 					}
 					add_country_modifier = {
 						name = "slo_foreign_support"
-						duration = -1 
+						duration = 9125
 					}
 				}
 			}
@@ -858,7 +858,7 @@ nitra_third = {
 			custom_tooltip = SLO_NAMES_CARPATHIA
 			add_country_modifier = {
 				name = slo_hegemony
-				duration = -1 
+				duration = 9125
 			}
 			hidden_effect = {
 				4125 = {
@@ -866,40 +866,40 @@ nitra_third = {
 					rename_capital = "Solnok"
 				}
 				1953 = {
-					change_province_name = "Debrecín"
-					rename_capital = "Debrecín"
+					change_province_name = "Debrecï¿½n"
+					rename_capital = "Debrecï¿½n"
 				}
 				155 = {
-					change_province_name = "Békeš"
-					rename_capital = "Békešská Caba"
+					change_province_name = "Bï¿½keï¿½"
+					rename_capital = "Bï¿½keï¿½skï¿½ Caba"
 				}
 				1954 = {
 					change_province_name = "Vojvodina"
-					rename_capital = "Velký Beckerek"
+					rename_capital = "Velkï¿½ Beckerek"
 				}
 				156 = {
-					change_province_name = "Temešvár"
-					rename_capital = "Temešvár"
+					change_province_name = "Temeï¿½vï¿½r"
+					rename_capital = "Temeï¿½vï¿½r"
 				}
 				1951 = {
 					change_province_name = "Balhrad"
 					rename_capital = "Balhrad"
 				}
 				157 = {
-					change_province_name = "Velký Varadín"
-					rename_capital = "Velký Varadín"
+					change_province_name = "Velkï¿½ Varadï¿½n"
+					rename_capital = "Velkï¿½ Varadï¿½n"
 				}
 				1952 = {
 					change_province_name = "Podkarpatie"
 					rename_capital = "Chust"
 				}
 				4127 = {
-					change_province_name = "Kluž"
-					rename_capital = "Kluž"
+					change_province_name = "Kluï¿½"
+					rename_capital = "Kluï¿½"
 				}
 				158 = {
-					change_province_name = "Maruša"
-					rename_capital = "Marušské Trhovište"
+					change_province_name = "Maruï¿½a"
+					rename_capital = "Maruï¿½skï¿½ Trhoviï¿½te"
 				}
 				4128 = {
 					change_province_name = "Sibin"
@@ -990,22 +990,25 @@ nitra_third = {
 					army_size = ROOT
 				}
 			}
-			has_won_war_against = {
-				who = HAB
-				max_years_since = 10
+			OR = {
+				has_won_war_against = {
+					who = HAB
+					max_years_since = 10
+				}
+				NOT = { exists = HAB }
 			}
 		}
 		effect = {
 			add_adm_power = 100
 			add_country_modifier = {
 				name = "slo_imperial"
-				duration = -1 
+				duration = 5475
 			}
 			custom_tooltip = SLO_CONQUER_VIENNA
 			tooltip = {
 				add_country_modifier = {
 					name = "slo_capture"
-					duration = -1 
+					duration = 9125
 				}
 			}
 			hidden_effect = {
@@ -1017,7 +1020,7 @@ nitra_third = {
 					}
 					add_country_modifier = {
 						name = "slo_capture"
-						duration = -1 
+						duration = 9125
 					}
 				}
 			}
@@ -1048,7 +1051,7 @@ nitra_third = {
 		effect = {
 			add_country_modifier = {
 				name = "slo_embraced_slovakization"
-				duration = -1 
+				duration = 9125
 			}
 			define_advisor = {
 				type = statesman
@@ -1091,7 +1094,7 @@ nitra_third = {
 			custom_tooltip = SLO_BURGHER_MANA
 			add_country_modifier = {
 				name = "slo_prosperous_towns"
-				duration = -1 
+				duration = 9125
 			}
 			hidden_effect = {
 				if = {
@@ -1215,16 +1218,16 @@ nitra_fourth = {
 					rename_capital = "Kamenec"
 				}
 				4240 = {
-					change_province_name = "Stolicný Belehrad"
-					rename_capital = "Stolicný Belehrad"
+					change_province_name = "Stolicnï¿½ Belehrad"
+					rename_capital = "Stolicnï¿½ Belehrad"
 				}
 				1864 = {
 					change_province_name = "Blatnohrad"
 					rename_capital = "Blatnohrad"
 				}
 				153 = {
-					change_province_name = "Pestbudín"
-					rename_capital = "Pestbudín"
+					change_province_name = "Pestbudï¿½n"
+					rename_capital = "Pestbudï¿½n"
 				}
 				4126 = {
 					change_province_name = "Backa"
@@ -1263,7 +1266,7 @@ nitra_fourth = {
 			4752 = {
 				add_province_modifier = {
 					name = slo_adriatic_port
-					duration = -1 
+					duration = -1
 				}
 			}
 			east_adriatic_coast_area  = {
@@ -1333,7 +1336,7 @@ nitra_fourth = {
 			add_yearly_manpower = 3
 			add_country_modifier = {
 				name = slo_romania
-				duration = -1 
+				duration = 7300
 			}
 			bulgaria_area = {
 				limit = {
@@ -1353,7 +1356,7 @@ nitra_fourth = {
 			tooltip = {
 				add_country_modifier = {
 					name = "slo_march"
-					duration = -1 
+					duration = -1
 				}
 			}
 			hidden_effect = {
@@ -1370,7 +1373,7 @@ nitra_fourth = {
 					}
 					add_country_modifier = {
 						name = "slo_march"
-						duration = -1 
+						duration = -1
 					}
 				}
 			}
@@ -1409,7 +1412,7 @@ nitra_fourth = {
 			}
 			add_ruler_modifier = {
 				name = "slo_bane"
-				duration = -1 
+				duration = -1
 			}
 			balkan_region  = {
 				limit = {
@@ -1473,7 +1476,7 @@ nitra_fourth = {
 			custom_tooltip = SLO_TUR_CLAIM
 			add_country_modifier = {
 				name = "slo_bulwark_christianity"
-				duration = -1 
+				duration = -1
 			}
 			hidden_effect = {
 				every_province = {
@@ -1518,7 +1521,7 @@ nitra_fourth = {
 			}
 			add_country_modifier = {
 				name = "slo_literary"
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -1571,13 +1574,13 @@ nitra_fourth = {
 			}
 			add_country_modifier = {
 				name = "slo_slovak_romanticism"
-				duration = -1 
+				duration = 18250
 			}
 			custom_tooltip = SLO_MISSION_CATHOLIC
 			tooltip = {
 				define_advisor = {
 					type = theologian
-					name = "Anton Bernolák"
+					name = "Anton Bernolï¿½k"
 					skill = 3
 					culture = slovak
 					religion = catholic
@@ -1588,7 +1591,7 @@ nitra_fourth = {
 			tooltip = {
 				define_advisor = {
 					type = philosopher
-					name = "Ludovít Štúr"
+					name = "Ludovï¿½t ï¿½tï¿½r"
 					skill = 3
 					culture = slovak
 					religion = protestant
@@ -1602,7 +1605,7 @@ nitra_fourth = {
 					}
 					define_advisor = {
 						type = theologian
-						name = "Anton Bernolák"
+						name = "Anton Bernolï¿½k"
 						skill = 3
 						culture = slovak
 						religion = catholic
@@ -1620,7 +1623,7 @@ nitra_fourth = {
 					}
 					define_advisor = {
 						type = philosopher
-						name = "Ludovít Štúr"
+						name = "Ludovï¿½t ï¿½tï¿½r"
 						skill = 3
 						culture = slovak
 						religion = protestant
@@ -1681,7 +1684,7 @@ nitra_fourth = {
 			custom_tooltip = SLO_CULTURE_MANPOWER
 			add_country_modifier = {
 				name = "slo_lightning"
-				duration = -1 
+				duration = -1
 			}
 			hidden_effect = {
 				for = {
@@ -1745,7 +1748,7 @@ nitra_fifth = {
 				1772 = {
 					add_province_modifier = {
 						name = "slo_fortress"
-						duration = -1 
+						duration = -1
 					}
 				}
 			}
@@ -1754,7 +1757,7 @@ nitra_fifth = {
 				1772 = {
 					add_province_modifier = {
 						name = "slo_fortress2"
-						duration = -1 
+						duration = -1
 					}
 				}
 			}
@@ -1769,7 +1772,7 @@ nitra_fifth = {
 					1772 = {
 						add_province_modifier = {
 							name = "slo_fortress"
-							duration = -1 
+							duration = -1
 						}
 					}
 				}
@@ -1782,7 +1785,7 @@ nitra_fifth = {
 					1772 = {
 						add_province_modifier = {
 							name = "slo_fortress2"
-							duration = -1 
+							duration = -1
 						}
 					}
 				}
@@ -1818,7 +1821,7 @@ nitra_fifth = {
 			slovakia_area = {
 				add_province_modifier = {
 					name = "slo_castles"
-					duration = -1 
+					duration = -1
 				}
 			}
 			hidden_effect = {
@@ -1829,7 +1832,7 @@ nitra_fifth = {
 					}
 					add_province_modifier = {
 						name = "slo_castles_2"
-						duration = -1 
+						duration = -1
 					}
 				}
 			}
@@ -1905,7 +1908,7 @@ nitra_fifth = {
 			}
 			add_country_modifier = {
 				name = "slo_carpathian_wall"
-				duration = -1 
+				duration = -1
 			}
 			define_advisor = {
 				type = fortification_expert
@@ -2025,7 +2028,7 @@ nitra_fifth = {
 			change_government_reform_progress = 25
 			add_country_modifier = {
 				name = "slo_law"
-				duration = -1 
+				duration = -1
 			}
 		}
 	}

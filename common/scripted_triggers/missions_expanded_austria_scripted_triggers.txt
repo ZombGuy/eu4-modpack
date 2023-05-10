@@ -109,7 +109,6 @@ ME_amount_of_mil_ideas = {
 
 		amount = $amount$
 	}
-	custom_tooltip = ME_mil_ideas_completed_$amount$
 }
 
 has_mil_advisor_5 = {

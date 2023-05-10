@@ -27,7 +27,7 @@ ME_OTM_missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = me_otomo_contact_with_europe
-				duration = -1 
+				duration = 3650
 			}
 		}
 	}
@@ -138,7 +138,7 @@ ME_OTM_missions_2 = {
 		effect = {
 			add_country_modifier = {
 				name = me_otomo_portuguese_tercos
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -156,7 +156,7 @@ ME_OTM_missions_2 = {
 		effect = {
 			add_country_modifier = {
 				name = me_otomo_loyal_daimyos
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -190,7 +190,7 @@ ME_OTM_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = me_otomo_the_clan_is_marching
-				duration = -1 
+				duration = 7300
 			}
 			northern_kyushu = {
 				limit = {
@@ -240,7 +240,7 @@ ME_OTM_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = me_otomo_into_the_mainland
-				duration = -1 
+				duration = 5475
 			}
 		}
 	}
@@ -264,7 +264,7 @@ ME_OTM_missions_3 = {
 		effect = {
 			add_ruler_modifier = {
 				name = me_otomo_a_new_shogun
-				duration = -1 
+				duration = -1
 			}
 			every_subject_country = {
 				add_liberty_desire = -5
@@ -327,7 +327,7 @@ ME_OTM_missions_4 = {
 		effect = {
 			add_country_modifier = {
 				name = me_otomo_master_gunners
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -425,7 +425,7 @@ ME_OTM_missions_5 = {
 			1818 = {
 				add_province_modifier = {
 					name = me_otomo_buzen_castle
-					duration = -1 
+					duration = -1
 				}
 			}
 		}
@@ -495,7 +495,7 @@ ME_OTM_missions_5 = {
 		effect = {
 			add_country_modifier = {
 				name = me_otomo_pride_of_kyushu
-				duration = -1 
+				duration = -1
 			}
 		}
 	}

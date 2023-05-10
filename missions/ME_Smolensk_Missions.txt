@@ -44,7 +44,7 @@ SMO_missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = Adopted_smolensk_arty
-				duration = -1 
+				duration = -1
 			}
 			white_ruthenia_area = {
 				limit = {

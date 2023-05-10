@@ -44,7 +44,7 @@ TUN_missions_1 = {
 			
 			add_country_modifier = {
 				name = TUN_abu_l_hasans_rebellion_defeated
-				duration = -1
+				duration = 9125
 			}
 			
 			ME_give_claims = { area = barbary_coast_area }
@@ -180,7 +180,7 @@ TUN_missions_1 = {
 			
 			add_country_modifier = {
 				name = TUN_conquest_of_al_andalus
-				duration = -1
+				duration = 9125
 			}
 		}
 	}
@@ -536,7 +536,7 @@ TUN_missions_2 = {
 			
 			add_country_modifier = {
 				name = MOR_zayyanids_subjugated
-				duration = -1
+				duration = 9125
 			}
 			
 			ME_give_claims = { area = sus_area }
@@ -585,7 +585,7 @@ TUN_missions_2 = {
 				add_local_autonomy = -50
 				add_province_modifier = {
 					name = TUN_gold_mine_secured
-					duration = -1
+					duration = 9125
 				}
 			}
 		}
@@ -615,25 +615,25 @@ TUN_missions_2 = {
 			2986 = {
 				add_province_modifier = {
 					name = TUN_sardinia_baleares_strength
-					duration = -1
+					duration = 9125
 				}
 			}
 			127 = {
 				add_province_modifier = {
 					name = TUN_sardinia_baleares_strength
-					duration = -1
+					duration = 9125
 				}
 			}
 			4735 = {
 				add_province_modifier = {
 					name = TUN_sardinia_baleares_strength
-					duration = -1
+					duration = 9125
 				}
 			}
 			
 			add_country_modifier = {
 				name = TUN_capture_of_sardinia
-				duration = -1
+				duration = 10950
 			}
 		}
 	}
@@ -659,7 +659,7 @@ TUN_missions_2 = {
 			baleares_area = {
 				add_province_modifier = {
 					name = TUN_sardinia_baleares_strength
-					duration = -1
+					duration = 9125
 				}
 			}
 			
@@ -742,7 +742,7 @@ TUN_missions_2 = {
 			tooltip = {
 				add_province_modifier = {
 					name = TUN_grain_prod
-					duration = -1
+					duration = 10950
 				}
 			}
 			
@@ -753,7 +753,7 @@ TUN_missions_2 = {
 					}
 					add_province_modifier = {
 						name = TUN_grain_prod
-						duration = -1
+						duration = 10950
 					}
 				}
 			}
@@ -903,7 +903,7 @@ TUN_missions_3 = {
 			
 			add_country_modifier = {
 				name = TUN_navy_buff
-				duration = -1
+				duration = 9125
 			}
 		}
 	}
@@ -951,14 +951,14 @@ TUN_missions_3 = {
 					add_nationalism = -10
 					add_province_modifier = {
 						name = TUN_muslims_in_sicily
-						duration = -1
+						duration = 9125
 					}
 				}
 				sicily_area = {
 					add_nationalism = -10
 					add_province_modifier = {
 						name = TUN_muslims_in_sicily
-						duration = -1
+						duration = 9125
 					}
 				}
 			}
@@ -977,14 +977,14 @@ TUN_missions_3 = {
 						add_nationalism = -10
 						add_province_modifier = {
 							name = TUN_muslims_in_sicily
-							duration = -1
+							duration = 9125
 						}
 					}
 					sicily_area = {
 						add_nationalism = -10
 						add_province_modifier = {
 							name = TUN_muslims_in_sicily
-							duration = -1
+							duration = 9125
 						}
 					}
 				}
@@ -1034,7 +1034,7 @@ TUN_missions_3 = {
 			
 			add_country_modifier = {
 				name = TUN_east_captured
-				duration = -1
+				duration = 9125
 			}
 		}
 	}
@@ -1447,7 +1447,7 @@ TUN_missions_4 = {
 			
 			add_country_modifier = {
 				name = TUN_madrasah_modifier
-				duration = -1
+				duration = 7300
 			}
 		
 			set_country_flag = TUN_empower_madrasah_event_flag
@@ -1661,7 +1661,7 @@ TUN_missions_5 = {
 			
 			add_country_modifier = {
 				name = TUN_readied_the_troops
-				duration = -1
+				duration = 5475
 			}
 		}
 	}
@@ -1689,7 +1689,7 @@ TUN_missions_5 = {
 		effect = {
 			add_country_modifier = {
 				name = TUN_asserting_hafsid_authority
-				duration = -1
+				duration = 10950 
 			}
 		
 			custom_tooltip = TUN_if_we_have_at_least_60_berber_loyalty
@@ -1798,7 +1798,7 @@ TUN_missions_5 = {
 			
 			add_country_modifier = {
 				name = TUN_dyes_of_kano_modifier
-				duration = -1
+				duration = 7300 
 			}
 		}
 	}
@@ -1947,7 +1947,7 @@ TUN_missions_5 = {
 		effect = {
 			add_country_modifier = {
 				name = TUN_administration
-				duration = -1
+				duration = 9125
 			}
 			
 			add_stability_or_adm_power = yes
@@ -2028,14 +2028,14 @@ TUN_missions_5 = {
 					custom_tooltip = TUN_distribute_10_base_tax
 					add_country_modifier = {
 						name = TUN_estate_management
-						duration = -1
+						duration = 7300
 					}
 				}
 				custom_tooltip = TUN_if_done_improving_provinces
 				tooltip = {
 					add_country_modifier = {
 						name = TUN_estate_management_provinces
-						duration = -1
+						duration = 7300
 					}
 				}
 				hidden_effect = {
@@ -2064,13 +2064,13 @@ TUN_missions_5 = {
 						
 						add_country_modifier = {
 							name = TUN_estate_management
-							duration = -1
+							duration = 7300
 						}
 					}
 					else = {
 						add_country_modifier = {
 							name = TUN_estate_management_provinces
-							duration = -1
+							duration = 7300
 						}
 					}
 				}
@@ -2078,7 +2078,7 @@ TUN_missions_5 = {
 			else = {
 				add_country_modifier = {
 					name = TUN_estate_management_provinces
-					duration = -1
+					duration = 7300
 				}
 			}
 		}		

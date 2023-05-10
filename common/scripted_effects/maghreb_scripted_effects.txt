@@ -93,7 +93,7 @@ GRA_offer_silk = {
 	tooltip = {
 		add_country_modifier = {
 			name = GRA_andalusian_silk
-			duration = -1
+			duration = 14600
 		}
 		
 		add_prestige_or_monarch_power = { amount = 25 }
@@ -116,7 +116,7 @@ GRA_offer_silk = {
 GRA_pay_FROM_for_silk = {
 	add_country_modifier = {
 		name = GRA_andalusian_silk
-		duration = -1
+		duration = 14600
 	}
 		
 	add_prestige_or_monarch_power = { amount = 25 }
@@ -160,7 +160,7 @@ GRA_pay_FROM_for_silk = {
 			FROM = {
 				add_country_modifier = {
 					name = GRA_offered_to_player
-					duration = -1
+					duration = 7300
 				}
 			}
 		}

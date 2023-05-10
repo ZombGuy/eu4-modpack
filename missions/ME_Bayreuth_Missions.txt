@@ -59,7 +59,7 @@ BYT_missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = BYT_minting_new_coin
-				duration = -1 
+				duration = 18250
 			}
 		}
 	}
@@ -85,7 +85,7 @@ BYT_missions_1 = {
 			4717 = {
 				add_province_modifier = {
 					name = BYT_tales_of_the_lady
-					duration = -1 
+					duration = -1
 				}
 			}
 		}
@@ -130,7 +130,7 @@ BYT_missions_5 = {
 		effect = {
 			add_country_modifier = {
 				name = BYT_order
-				duration = -1 
+				duration = 10950
 			}
 		}
 	}
@@ -194,7 +194,7 @@ BYT_missions_5 = {
 			4717 = {
 				add_province_modifier = {
 					name = BYT_st_georg
-					duration = -1 
+					duration = -1
 				}
 			}
 		}

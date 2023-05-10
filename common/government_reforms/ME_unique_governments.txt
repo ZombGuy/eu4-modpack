@@ -28,11 +28,11 @@ greek_league = {
 		has_parliament = yes
 	}
 
-	factions = {
-		gl_aristocrats
-		gl_democrats
-		gl_oligarchs
-	}
+	#factions = {
+	#	gl_aristocrats
+	#	gl_democrats
+	#	gl_oligarchs
+	#}
 
 	ai = {
 		factor = 0
@@ -46,11 +46,11 @@ greek_league_reform = {
 		has_reform = greek_league_reform
 	}
 	duration = 5
-	factions = {
-		gl_aristocrats
-		gl_democrats
-		gl_oligarchs
-	}
+	#factions = {
+	#	gl_aristocrats
+	#	gl_democrats
+	#	gl_oligarchs
+	#}
 	legacy_equivalent = greek_league
 	valid_for_nation_designer = yes
 	nation_designer_cost = 30
@@ -217,12 +217,12 @@ trade_confederation = {
 	republican_name = yes
 	royal_marriage = no
 	boost_income = yes
-	factions = {
-		tc_cities
-		tc_federal
-		tc_merchants
-		tc_pirates
-	}
+	#factions = {
+	#	tc_cities
+	#	tc_federal
+	#	tc_merchants
+	#	tc_pirates
+	#}
 	republic = yes
 	modifiers = {
 		merchants = 1
@@ -276,11 +276,11 @@ trade_confederation_reform = {
 	}
 	boost_income = yes
 	duration = 4
-	factions = {
-		tc_cities
-		tc_federal
-		tc_merchants
-	}
+	#factions = {
+	#	tc_cities
+	#	tc_federal
+	#	tc_merchants
+	#}
 	conditional = {
 		allow = {
 			has_dlc = "Res Publica"
@@ -440,7 +440,9 @@ german_kaiserreich_legacy = {
 
 	conditional = {
 		allow = { has_dlc = "Rights of Man" }
-		militarised_society = yes
+		government_abilities = {
+			militarization_mechanic
+		}
 	}
 	conditional = {
 		allow = { has_dlc = "Common Sense" }
@@ -473,7 +475,9 @@ german_kaiserreich = {
 
 	conditional = {
 		allow = { has_dlc = "Rights of Man" }
-		militarised_society = yes
+		government_abilities = {
+			militarization_mechanic
+		}
 	}
 	conditional = {
 		allow = { has_dlc = "Common Sense" }
@@ -490,11 +494,11 @@ west_slavic_legacy = {
 	legacy_government = yes
 	valid_for_new_country = no
 	allow_convert = no
-	factions = {
-		west_slav_slovaks
-		west_slav_poles
-		west_slav_czechs
-	}
+	#factions = {
+	#	west_slav_slovaks
+	#	west_slav_poles
+	#	west_slav_czechs
+	#}
 	monarchy = yes
 	queen = no
 	heir = no
@@ -519,11 +523,11 @@ west_slavic_monarchy = {
 	}
 	valid_for_nation_designer = no
 	legacy_equivalent = west_slavic_legacy
-	factions = {
-		west_slav_slovaks
-		west_slav_poles
-		west_slav_czechs
-	}
+	#factions = {
+	#	west_slav_slovaks
+	#	west_slav_poles
+	#	west_slav_czechs
+	#}
 	queen = no
 	heir = no
 
@@ -555,6 +559,10 @@ austria_hungary_reform = {
 		reform_progress_growth = -0.5
 	}
 
+	government_abilities = {
+		habsburg_glory
+	}
+
 	custom_attributes = {
 		locked_government_type = yes
 	}
@@ -579,6 +587,10 @@ enlightened_despotism_reform = {
 	custom_attributes = {
 		locked_government_type = yes
 		enables_enlightened_despot = yes
+	}
+
+	government_abilities = {
+		habsburg_glory
 	}
 }
 
@@ -618,8 +630,8 @@ me_baroque_monarchy_reform = {
 		governing_capacity = 150
 	}
 
-	custom_attributes = {
-	
+	government_abilities = {
+		habsburg_glory
 	}
 }
 
@@ -646,6 +658,50 @@ me_nordmark = {
 
 	conditional = {
 		allow = { has_dlc = "Rights of Man" }
-		militarised_society = yes
+		government_abilities = {
+			militarization_mechanic
+		}
+	}
+}
+
+EE_synthetic_monarchy = {
+	icon = "prussian_monarchy"
+	allow_normal_conversion = no
+	potential = {
+		has_reform = EE_synthetic_monarchy
+	}
+	trigger = {
+		has_reform = EE_synthetic_monarchy
+	}
+	valid_for_nation_designer = no
+
+	modifiers = {
+		stability_cost_to_declare_war = -5
+		technology_cost = -0.15
+	}
+}
+
+EE_synthetic_monarchy_militarized = {
+	icon = "prussian_monarchy"
+	allow_normal_conversion = no
+	potential = {
+		has_reform = EE_synthetic_monarchy_militarized
+	}
+	trigger = {
+		has_reform = EE_synthetic_monarchy_militarized
+	}
+	valid_for_nation_designer = no
+
+	modifiers = {
+		stability_cost_to_declare_war = -5
+		technology_cost = -0.15
+		discipline = 0.05
+	}
+
+	conditional = {
+		allow = { has_dlc = "Rights of Man" }
+		government_abilities = {
+			militarization_mechanic
+		}
 	}
 }

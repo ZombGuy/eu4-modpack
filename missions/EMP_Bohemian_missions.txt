@@ -6,9 +6,9 @@ emp_bohemia_1 = {
 		has_dlc = "Emperor"
 	}
 	potential = {
-		has_dlc = "Emperor"
 		tag = BOH
 		NOT = { map_setup = map_setup_random }
+		has_dlc = "Emperor"
 		has_country_flag = use_paradox_missions
 		NOT = {
 			has_country_flag = ME_boh_pu_missions
@@ -41,7 +41,7 @@ emp_bohemia_1 = {
 				}
 				add_country_modifier = { # misionary maintenance cost
 					name = "hussite_conversions"
-					duration = -1 
+					duration = 7300
 				}
 			}
 			else_if = {
@@ -126,7 +126,7 @@ emp_bohemia_1 = {
 				}
 				add_country_modifier = {
 					name = "boh_hussite_revolt"
-					duration = -1 
+					duration = 7300
 				}
 			}
 			else = {
@@ -192,7 +192,7 @@ emp_bohemia_1 = {
 		effect = {
 			add_country_modifier = {
 				name = "defenestrations_of_prague"
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -318,7 +318,7 @@ emp_bohemia_1 = {
 		effect = {
 			add_country_modifier = {
 				name = "bergordnung_reforms"
-				duration = -1 
+				duration = -1
 			}
 		}
 		ai_weight = {
@@ -335,9 +335,9 @@ emp_bohemia_2 = {
 		has_dlc = "Emperor"
 	}
 	potential = {
-		has_dlc = "Emperor"
 		tag = BOH
 		NOT = { map_setup = map_setup_random }
+		has_dlc = "Emperor"
 		has_country_flag = use_paradox_missions
 		NOT = {
 			has_country_flag = ME_boh_pu_missions
@@ -370,7 +370,7 @@ emp_bohemia_2 = {
 			}
 			add_country_modifier = {
 				name = "boh_integrated_silesia"
-				duration = -1 
+				duration = 7300
 			}
 			slovakia_area = {
 				limit = {
@@ -459,7 +459,7 @@ emp_bohemia_2 = {
 		effect = {
 			add_country_modifier = {
 				name = "boh_fortification_effort"
-				duration = -1 
+				duration = 7300
 			}
 			austria_proper_area = {
 				limit = {
@@ -596,9 +596,9 @@ emp_bohemia_3 = {
 		has_dlc = "Emperor"
 	}
 	potential = {
-		has_dlc = "Emperor"
 		tag = BOH
 		NOT = { map_setup = map_setup_random }
+		has_dlc = "Emperor"
 		has_country_flag = use_paradox_missions
 		NOT = {
 			has_country_flag = ME_boh_pu_missions
@@ -786,7 +786,7 @@ emp_bohemia_3 = {
 			add_adm_power = 100
 			add_country_modifier = {
 				name = "boh_premysl_mod"
-				duration = -1 
+				duration = 7300
 			}
 		}
 		ai_weight = {
@@ -831,7 +831,7 @@ emp_bohemia_3 = {
 		effect = {
 			add_country_modifier = {
 				name = "bohemian_commonwealth"
-				duration = -1 
+				duration = -1
 			}
 		}
 		ai_weight = {
@@ -848,9 +848,9 @@ emp_bohemia_4 = {
 		has_dlc = "Emperor"
 	}
 	potential = {
-		has_dlc = "Emperor"
 		tag = BOH
 		NOT = { map_setup = map_setup_random }
+		has_dlc = "Emperor"
 		has_country_flag = use_paradox_missions
 		NOT = {
 			has_country_flag = ME_boh_pu_missions
@@ -1044,7 +1044,7 @@ emp_bohemia_4 = {
 				}
 				add_country_modifier = {
 					name = "boh_sigismund_reforms"
-					duration = -1 
+					duration = 7300
 				}
 			}
 			else = {
@@ -1077,7 +1077,7 @@ emp_bohemia_4 = {
 			change_dip = 1
 			add_country_modifier = {
 				name = "boh_peace_in_europe"
-				duration = -1 
+				duration = -1
 			}
 		}
 	}

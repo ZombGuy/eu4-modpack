@@ -128,7 +128,7 @@ me_hab_1_branching_germany = {
 			76 = {
 				add_province_modifier = {
 					name = me_hab_castle_of_salt
-					duration = -1
+					duration = 7300
 				}
 			}
 			custom_tooltip = me_hab_salt_modifier_renew
@@ -164,7 +164,7 @@ me_hab_1_branching_germany = {
 			}
 			add_country_modifier = {
 				name = me_hab_a_new_iron_emperor
-				duration = -1
+				duration = 9125
 			}
 		}
 	}
@@ -228,7 +228,7 @@ me_hab_1_hre = {
 			}
 			add_country_modifier = {
 				name = me_hab_a_new_iron_emperor
-				duration = -1
+				duration = 9125
 			}
 		}
 	}
@@ -267,7 +267,7 @@ me_hab_1_german = {
 			76 = {
 				add_province_modifier = {
 					name = me_hab_castle_of_salt
-					duration = -1
+					duration = 7300
 				}
 			}
 			custom_tooltip = me_hab_salt_modifier_renew
@@ -448,7 +448,7 @@ me_hab_1_1 = {
 				custom_tooltip = me_hab_every_italian_country
 				add_country_modifier = {
 					name = me_hab_peaceful_rein
-					duration = -1
+					duration = 10950
 				}
 			}
 			custom_tooltip = " "
@@ -456,7 +456,7 @@ me_hab_1_1 = {
 			tooltip = {
 				add_country_modifier = {
 					name = me_hab_iron_fist_ita
-					duration = -1
+					duration = 7300
 				}
 			}
 			custom_tooltip = " "
@@ -465,7 +465,7 @@ me_hab_1_1 = {
 				custom_tooltip = me_hab_every_italian_province
 				add_province_modifier = {
 					name = me_hab_habsburg_rule
-					duration = -1
+					duration = 7300
 				}
 			}
 			hidden_effect = {
@@ -486,7 +486,7 @@ me_hab_1_1 = {
 						}
 						add_country_modifier = {
 							name = me_hab_peaceful_rein
-							duration = -1
+							duration = 10950
 						}
 					}
 				}
@@ -496,7 +496,7 @@ me_hab_1_1 = {
 					}
 					add_country_modifier = {
 						name = me_hab_iron_fist_ita
-						duration = -1
+						duration = 7300
 					}
 				}
 				else = {
@@ -506,7 +506,7 @@ me_hab_1_1 = {
 						}
 						add_province_modifier = {
 							name = me_hab_habsburg_rule
-							duration = -1
+							duration = 7300
 						}
 					}
 				}
@@ -604,7 +604,7 @@ me_hab_1_1 = {
 			tooltip = {
 				add_province_modifier = {
 					name = me_hab_new_bohemian_cities
-					duration = -1
+					duration = 9125
 				}
 			}
 			hidden_effect = {
@@ -619,7 +619,7 @@ me_hab_1_1 = {
 					}
 					add_province_modifier = {
 						name = me_hab_new_bohemian_cities
-						duration = -1
+						duration = 9125
 					}
 				}
 			}
@@ -633,8 +633,9 @@ me_hab_1_1 = {
 		}
 		position = 14
 		trigger = {
-			check_variable = {
-				which = habsburg_glory
+			has_government_power = {
+				mechanic_type = habsburg_glory
+				power_type = habsburg_glory_power
 				value = 60
 			}
 			num_of_royal_marriages = 5
@@ -795,7 +796,7 @@ me_hab_1_1 = {
 		effect = {
 			add_country_modifier = {
 				name = me_hab_state_of_council
-				duration = -1
+				duration = 10950
 			}
 			custom_tooltip = " "
 			ME_add_scaling_adm_advisor_bonuses = yes
@@ -844,16 +845,9 @@ me_hab_2 = {
 			army_size = 25
 		}
 		effect = {
-			if = {
-				limit = {
-					NOT = {
-						has_ruler_modifier = me_sty_emperor_of_romans
-					}
-				}
-				add_ruler_modifier = {
-					name = me_sty_emperor_of_romans_2
-					duration = -1
-				}
+			add_ruler_modifier = {
+				name = me_sty_emperor_of_romans_2
+				duration = -1
 			}
 			custom_tooltip = me_sty_modifier_declines_with_each_ruler
 			set_country_flag = me_sty_emperor_of_the_romans
@@ -941,7 +935,7 @@ me_hab_2_branching_germany = {
 			}
 			add_country_modifier = {
 				name = me_hab_empire_secured
-				duration = -1
+				duration = 3650
 			}
 		}
 	}
@@ -1030,7 +1024,7 @@ me_hab_2_branching_germany = {
 					}
 					add_province_modifier = {
 						name = me_hab_bestow_imperial_privileges
-						duration = -1
+						duration = 9125
 					}
 				}
 			}
@@ -1038,7 +1032,7 @@ me_hab_2_branching_germany = {
 			tooltip = {
 				add_province_modifier = {
 					name = me_hab_bestow_imperial_privileges
-					duration = -1
+					duration = 9125
 				}
 			}
 			add_imperial_influence = 10
@@ -1085,7 +1079,7 @@ me_hab_2_hre = {
 			tooltip = {
 				add_country_modifier = {
 					name = me_hab_a_secure_empire
-					duration = -1
+					duration = 7300
 				}
 			}
 			hidden_effect = {
@@ -1103,13 +1097,13 @@ me_hab_2_hre = {
 					}
 					add_country_modifier = {
 						name = me_hab_a_secure_empire
-						duration = -1
+						duration = 7300
 					}
 				}
 			}
 			add_country_modifier = {
 				name = me_hab_empire_secured
-				duration = -1
+				duration = 3650
 			}
 		}
 	}
@@ -1146,7 +1140,7 @@ me_hab_2_hre = {
 					}
 					add_province_modifier = {
 						name = me_hab_bestow_imperial_privileges
-						duration = -1
+						duration = 9125
 					}
 				}
 			}
@@ -1154,7 +1148,7 @@ me_hab_2_hre = {
 			tooltip = {
 				add_province_modifier = {
 					name = me_hab_bestow_imperial_privileges
-					duration = -1
+					duration = 9125
 				}
 			}
 			add_imperial_influence = 10
@@ -1494,13 +1488,13 @@ me_hab_2_1 = {
 				custom_tooltip = " "
 				add_country_modifier = {
 					name = me_hab_papal_cooperation
-					duration = -1
+					duration = 7300
 				}
 			}
 			else = {
 				add_country_modifier = {
 					name = me_hab_conquest_of_rome
-					duration = -1
+					duration = 7300
 				}
 			}
 		}
@@ -1523,7 +1517,6 @@ me_hab_2_1 = {
 				area = western_sicily_area
 				area = sicily_area
 				area = corsica_sardinia_area
-				province_id = 120
 			}
 		}
 		trigger = {
@@ -1920,7 +1913,7 @@ me_hab_2_1 = {
 					
 				add_country_modifier = {
 					name = me_hab_burgundian_wars
-					duration = -1
+					duration = 9125
 				}
 			}
 			hidden_effect = {
@@ -1967,7 +1960,7 @@ me_hab_2_1 = {
 					
 					add_country_modifier = {
 						name = me_hab_burgundian_wars
-						duration = -1
+						duration = 9125
 					}
 				}
 				else = {
@@ -2207,7 +2200,7 @@ me_hab_2_1 = {
 			tooltip = {
 				add_country_modifier = {
 					name = me_hab_advanced_pike_and_shot
-					duration = -1
+					duration = 7300
 				}
 			}
 			hidden_effect = {
@@ -2227,7 +2220,7 @@ me_hab_2_1 = {
 				else = {
 					add_country_modifier = {
 						name = me_hab_advanced_pike_and_shot
-						duration = -1
+						duration = 7300
 					}
 				}
 			}
@@ -2333,25 +2326,6 @@ me_hab_2_1 = {
 				name = me_hab_general_staff
 				duration = -1
 			}
-			custom_tooltip = me_hab_if_we_have_10_or_more_leaders
-			tooltip = {
-				add_country_modifier = {
-					name = me_hab_staff_planning
-					duration = -1
-				}
-			}
-			hidden_effect = {
-				if = {
-					limit = {
-						num_of_generals = 10
-					}
-				}
-				add_country_modifier = {
-					name = me_hab_staff_planning
-					duration = -1
-				}
-			}
-			custom_tooltip = me_hab_recruiting_generals_gives_1_army_tradition
 		}
 	}
 	
@@ -2390,7 +2364,7 @@ me_hab_2_1 = {
 			else = {
 				religious_unity = 1
 				OR = {
-					ruler_has_personality = zealous_personality
+					ruler_has_personality = zealot_personality
 					full_idea_group = religious_ideas
 				}
 			}
@@ -2411,7 +2385,7 @@ me_hab_2_1 = {
 			}
 			add_country_modifier = {
 				name = me_hab_the_church_is_me
-				duration = -1
+				duration = 7300
 			}
 		}
 	}
@@ -2630,13 +2604,13 @@ me_hab_3_branching_germany = {
 			franconia_area = {
 				add_province_modifier = {
 					name = me_hab_austrian_unifcation
-					duration = -1
+					duration = 7300
 				}
 			}
 			upper_franconia_area = {
 				add_province_modifier = {
 					name = me_hab_austrian_unifcation
-					duration = -1
+					duration = 7300
 				}
 			}
 			custom_tooltip = " "
@@ -3035,13 +3009,13 @@ me_hab_3_germany = {
 			franconia_area = {
 				add_province_modifier = {
 					name = me_hab_austrian_unifcation
-					duration = -1
+					duration = 7300
 				}
 			}
 			upper_franconia_area = {
 				add_province_modifier = {
 					name = me_hab_austrian_unifcation
-					duration = -1
+					duration = 7300
 				}
 			}
 		}
@@ -3317,7 +3291,7 @@ me_hab_3_1 = {
 				}
 				add_country_modifier = {
 					name = me_hab_conquest_of_naples
-					duration = -1
+					duration = 7300
 				}
 			}
 			hidden_effect = {
@@ -3338,7 +3312,7 @@ me_hab_3_1 = {
 					}
 					add_country_modifier = {
 						name = me_hab_conquest_of_naples
-						duration = -1
+						duration = 7300
 					}
 				}
 			}
@@ -3802,7 +3776,7 @@ me_hab_3_2 = {
 				}
 				add_country_modifier = {
 					name = me_hab_polish_hussars
-					duration = -1
+					duration = 9125
 				}
 			}
 			custom_tooltip = " "
@@ -3811,7 +3785,7 @@ me_hab_3_2 = {
 				add_imperial_influence = 10
 				add_country_modifier = {
 					name = me_hab_conquered_poland
-					duration = -1
+					duration = 7300
 				}
 			}
 			custom_tooltip = " "
@@ -3837,7 +3811,7 @@ me_hab_3_2 = {
 					}
 					add_country_modifier = {
 						name = me_hab_polish_hussars
-						duration = -1
+						duration = 9125
 					}
 				}
 				else_if = {
@@ -3847,7 +3821,7 @@ me_hab_3_2 = {
 					add_imperial_influence = 10
 					add_country_modifier = {
 						name = me_hab_conquered_poland
-						duration = -1
+						duration = 7300
 					}
 				}
 				else = {
@@ -5003,7 +4977,7 @@ me_hab_4_1 = {
 				transylvania_area = {
 					add_province_modifier = {
 						name = me_placated_transylvanian_nobility
-						duration = -1
+						duration = 7300
 					}
 				}
 			}
@@ -5021,7 +4995,7 @@ me_hab_4_1 = {
 				southern_transylvania_area = {
 					add_province_modifier = {
 						name = me_placated_transylvanian_nobility
-						duration = -1
+						duration = 7300
 					}
 				}
 			}
@@ -5169,7 +5143,7 @@ me_hab_4_navy = {
 			custom_tooltip = me_hab_every_province_with_a_shipyard
 			add_province_modifier = {
 				name = me_hab_prepare_the_sailors
-				duration = -1
+				duration = 7300
 			}
 			hidden_effect = {
 				every_owned_province = {
@@ -5178,7 +5152,7 @@ me_hab_4_navy = {
 					}
 					add_province_modifier = {
 						name = me_hab_prepare_the_sailors
-						duration = -1
+						duration = 7300
 					}
 				}
 			}
@@ -5223,7 +5197,7 @@ me_hab_4_navy = {
 				}
 				112 = {
 					has_great_project = {
-						type = me_venetian_arsenal
+						type = fu_venetian_arsenal
 						tier = 2
 					}
 				}
@@ -5395,7 +5369,7 @@ me_hab_4_venetian_module = {
 			custom_tooltip = me_hab_every_province_with_a_shipyard
 			add_province_modifier = {
 				name = me_hab_prepare_the_sailors
-				duration = -1
+				duration = 7300
 			}
 			set_country_flag = lan_allow_access_to_venetian_arsenal_flag
 			if = {
@@ -5411,7 +5385,7 @@ me_hab_4_venetian_module = {
 					}
 					add_province_modifier = {
 						name = me_hab_prepare_the_sailors
-						duration = -1
+						duration = 7300
 					}
 				}
 			}
@@ -5435,7 +5409,7 @@ me_hab_4_venetian_module = {
 				}
 				112 = {
 					has_great_project = {
-						type = me_venetian_arsenal
+						type = fu_venetian_arsenal
 						tier = 2
 					}
 				}
@@ -5710,7 +5684,7 @@ me_hab_4_2 = {
 			red_ruthenia_area = {
 				add_province_modifier = {
 					name = me_hab_german_settlers
-					duration = -1
+					duration = 18250
 				}
 			}
 		}
@@ -6000,7 +5974,7 @@ me_hab_4_2 = {
 					}
 					add_province_modifier = {
 						name = me_habsburg_land
-						duration = -1
+						duration = 18250
 					}
 				}
 			}
@@ -6008,7 +5982,7 @@ me_hab_4_2 = {
 			tooltip = {
 				add_province_modifier = {
 					name = me_habsburg_land
-					duration = -1
+					duration = 10950
 				}
 			}
 			country_event = { id = ME_Austria_Events.26 }
@@ -6505,7 +6479,7 @@ me_hab_4_3 = {
 			add_estate_loyalty_modifier = {
 				estate = estate_nobles
 				loyalty = 10
-				duration = -1
+				duration = 7300
 				desc = ME_EST_VAL_ARISTOCRATIC
 			}
 		}
@@ -6527,25 +6501,6 @@ me_hab_4_3 = {
 			add_country_modifier = {
 				name = ME_hab_austrian_absolutism
 				duration = -1
-			}
-			custom_tooltip = me_if_we_have_120_absolutism
-			tooltip = {
-				add_country_modifier = {
-					name = ME_hab_more_absolutism
-					duration = -1
-				}
-			}
-			hidden_effect = {
-				set_country_flag = me_hab_more_absolutism_flag
-				if = {
-					limit = {
-						absolutism = 120
-					}
-					add_country_modifier = {
-						name = ME_hab_more_absolutism
-						duration = -1
-					}
-				}
 			}
 		}
 	}
@@ -6642,6 +6597,8 @@ me_hab_5 = {
 				name = me_hab_austrian_archduchy
 				duration = -1
 			}
+			custom_tooltip = " "
+			add_government_reform = austrian_archduchy_reform
 		}
 	}
 	##Mission End
@@ -6895,7 +6852,7 @@ me_hab_5 = {
 					slavonia_area = {
 						add_province_modifier = {
 							name = me_the_croatian_border
-							duration = -1
+							duration = 7300
 						}
 					}
 				}
@@ -6913,7 +6870,7 @@ me_hab_5 = {
 					4752 = {
 						add_province_modifier = {
 							name = me_the_croatian_border
-							duration = -1
+							duration = 7300
 						}
 					}
 				}
@@ -6931,7 +6888,7 @@ me_hab_5 = {
 					131 = {
 						add_province_modifier = {
 							name = me_the_croatian_border
-							duration = -1
+							duration = 7300
 						}
 					}
 				}
@@ -6949,7 +6906,7 @@ me_hab_5 = {
 					1826 = {
 						add_province_modifier = {
 							name = me_the_croatian_border
-							duration = -1
+							duration = 7300
 						}
 					}
 				}
@@ -6958,7 +6915,7 @@ me_hab_5 = {
 			tooltip = {
 				add_province_modifier = {
 					name = me_the_croatian_border
-					duration = -1
+					duration = 7300
 				}
 			}
 			custom_tooltip = me_hab_remove_autonomy_decreased
@@ -7044,7 +7001,7 @@ me_hab_5 = {
 		effect = {
 			add_country_modifier = {
 				name = me_hab_a_victorious_crusade
-				duration = -1
+				duration = 7300
 			}
 		}
 	}
@@ -7140,7 +7097,7 @@ me_hab_5_navy = {
 			custom_tooltip = me_hab_venetian_branch
 			add_country_modifier = {
 				name = me_hab_venetian_trade
-				duration = -1
+				duration = 9125
 			}
 			112 = {
 				add_province_modifier = {
@@ -7184,7 +7141,7 @@ me_hab_5_venetian_main = {
 		effect = {
 			add_country_modifier = {
 				name = me_hab_venetian_trade
-				duration = -1
+				duration = 9125
 			}
 			112 = {
 				add_province_modifier = {
@@ -7490,7 +7447,7 @@ me_hab_5_internal_development = {
 				}
 				add_province_modifier = {
 					name = me_hab_foundation_of_new_cities
-					duration = -1
+					duration = 9125
 				}
 			}
 			erzgebirge_area = {
@@ -7499,7 +7456,7 @@ me_hab_5_internal_development = {
 				}
 				add_province_modifier = {
 					name = me_hab_foundation_of_new_cities
-					duration = -1
+					duration = 9125
 				}
 			}
 			moravia_area = {
@@ -7508,7 +7465,7 @@ me_hab_5_internal_development = {
 				}
 				add_province_modifier = {
 					name = me_hab_foundation_of_new_cities
-					duration = -1
+					duration = 9125
 				}
 			}
 			2967 = {
@@ -7688,7 +7645,7 @@ me_hab_5_minorities_branch = {
 				}
 				add_province_modifier = {
 					name = me_hab_foundation_of_new_cities
-					duration = -1
+					duration = 9125
 				}
 			}
 			erzgebirge_area = {
@@ -7697,7 +7654,7 @@ me_hab_5_minorities_branch = {
 				}
 				add_province_modifier = {
 					name = me_hab_foundation_of_new_cities
-					duration = -1
+					duration = 9125
 				}
 			}
 			moravia_area = {
@@ -7706,7 +7663,7 @@ me_hab_5_minorities_branch = {
 				}
 				add_province_modifier = {
 					name = me_hab_foundation_of_new_cities
-					duration = -1
+					duration = 9125
 				}
 			}
 			2967 = {

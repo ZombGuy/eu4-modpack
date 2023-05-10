@@ -2739,7 +2739,7 @@ country_event = {
 		
 		add_years_of_income = -0.5
 	
-		else_if = {
+		if = {
 			limit = {
 				total_development = 300
 			}

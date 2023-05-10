@@ -156,7 +156,7 @@ vij_north_conquest = {
 		effect = {
 			add_country_modifier = {
 				name = vij_maratha_modifier
-				duration = -1 
+				duration = 7300
 			}
 		}
 		ai_weight = {
@@ -192,7 +192,7 @@ vij_north_conquest = {
 			1448 = {
 				add_trade_modifier = {
 					who = root
-					duration = -1 
+					duration = 7300
 					power = 50
 					key = east_africa_conquest
 				}
@@ -245,7 +245,7 @@ vij_north_conquest = {
 		effect = {
 			add_country_modifier = {
 				name = vij_africa_trade_modifier
-				duration = -1 
+				duration = 7300
 			}
 		}
 		ai_weight = {
@@ -328,7 +328,7 @@ vij_south_conquest = {
 		effect = {
 			add_country_modifier = {
 				name = vij_lanka_modifier
-				duration = -1 
+				duration = 7300
 			}
 		}
 		ai_weight = {
@@ -355,7 +355,7 @@ vij_south_conquest = {
 			4346 = {
 				add_trade_modifier = {
 					who = root
-					duration = -1 
+					duration = 7300
 					power = 25
 					key = vij_oman_modifier
 				}
@@ -412,7 +412,7 @@ vij_south_conquest = {
 		effect = {
 			add_country_modifier = {
 				name = vij_hormuz_modifier
-				duration = -1 
+				duration = 7300
 			}
 		}
 		ai_weight = {
@@ -570,7 +570,7 @@ vij_tamil_conquest = {
 			malabar_area = {
 				add_province_modifier = {
 					name = vij_malabar_modifier
-					duration = -1 
+					duration = 7300
 				}
 			}
 		}	
@@ -730,7 +730,7 @@ vij_east_conquest = {
 		effect = {
 			add_country_modifier = {
 				name = vij_andhra_modifier
-				duration = -1 
+				duration = 7300
 			}
 		}
 		ai_weight = {
@@ -860,7 +860,7 @@ vij_religious_missions = {
 		effect = {
 			add_country_modifier = {
 				name = vij_plunder_modifier
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -878,7 +878,7 @@ vij_religious_missions = {
 			capital_scope = {
 				add_province_modifier = {
 					name = vij_building
-					duration = -1 
+					duration = 7300
 				}
 			}
 		}
@@ -903,7 +903,7 @@ vij_religious_missions = {
 		effect = {
 			add_country_modifier = {
 				name = vij_local_gods_modifier
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -936,7 +936,7 @@ vij_religious_missions = {
 				estate = estate_jains
 				desc = EST_VAL_VIJ_PROTECT_JAINS
 				loyalty = 10
-				duration = -1 
+				duration = 10950
 			}
 		}
 	}
@@ -1021,7 +1021,7 @@ vij_religious_missions = {
 			1361 = {
 				add_trade_modifier = {
 					who = root
-					duration = -1 
+					duration = 7300
 					power = 50
 					key = rajendra_modifier
 				}

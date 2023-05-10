@@ -93,7 +93,7 @@ italian_minor_misisons_1 = {
 			add_mercantilism = 2
 			add_country_modifier = {
 				name = italian_minor_venetian_secret
-				duration = -1 
+				duration = 5475
 			}
 		}
 	}
@@ -108,7 +108,7 @@ italian_minor_misisons_1 = {
 		effect = {
 			add_country_modifier = {
 				name = italian_minor_expansion_effort
-				duration = -1 
+				duration = 5475
 			}
 		}
 	}
@@ -145,7 +145,7 @@ italian_minor_misisons_1 = {
 				}
 				add_country_modifier = {
 					name = italian_minor_papal_loyalist
-					duration = -1 
+					duration = 5475
 				}
 			}
 			else = {
@@ -169,7 +169,7 @@ italian_minor_misisons_1 = {
 		effect = {
 			add_country_modifier = {
 				name = italian_minor_military_conducts
-				duration = -1 
+				duration = 18250
 			}
 		}
 	}
@@ -212,7 +212,7 @@ italian_minor_misisons_1 = {
 			}
 			add_country_modifier = {
 				name = italian_minor_standing_army
-				duration = -1 
+				duration = 5475
 			}
 		}
 	}
@@ -310,7 +310,7 @@ italian_minor_misisons_2 = {
 		effect = {
 			add_country_modifier = {
 				name = italian_minor_rising_tides
-				duration = -1 
+				duration = 5475
 			}
 		}
 	}
@@ -345,7 +345,7 @@ italian_minor_misisons_2 = {
 			add_dip_power = 100
 			add_country_modifier = {
 				name = italian_minor_italian_league
-				duration = -1 
+				duration = 5475
 			}
 		}
 	}
@@ -372,7 +372,7 @@ italian_minor_misisons_2 = {
 			capital_scope = {
 				add_province_modifier = {
 					name = italian_minor_local_defensiveness
-					duration = -1 
+					duration = -1
 				}
 			}
 		}
@@ -467,7 +467,7 @@ italian_minor_misisons_3 = {
 		effect = {
 			add_country_modifier = {
 				name = italian_minor_naval_propaganda
-				duration = -1 
+				duration = 5475
 			}
 		}
 	}
@@ -488,7 +488,7 @@ italian_minor_misisons_3 = {
 			add_mercantilism = 3
 			add_country_modifier = {
 				name = italian_minor_genoese_school
-				duration = -1 
+				duration = 5475
 			}
 		}
 	}
@@ -535,7 +535,7 @@ italian_minor_misisons_3 = {
 			}
 			add_country_modifier = {
 				name = italian_minor_italian_trade
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -575,7 +575,7 @@ italian_minor_misisons_3 = {
 			}
 			add_country_modifier = {
 				name = italian_minor_free_commune
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -602,7 +602,7 @@ italian_minor_misisons_3 = {
 			}
 			add_country_modifier = {
 				name = italian_minor_rising_power
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -623,7 +623,7 @@ italian_minor_misisons_3 = {
 			add_yearly_manpower = 3
 			add_country_modifier = {
 				name = italian_minor_dream_risorgimento
-				duration = -1 
+				duration = 7300
 			}
 			custom_tooltip = italian_minor_union_TT
 			hidden_effect = {
@@ -836,7 +836,7 @@ italian_minor_misisons_4 = {
 			capital_scope = {
 				add_province_modifier = {
 					name = italian_minor_prosperous_time
-					duration = -1 
+					duration = -1
 				}
 			}
 		}
@@ -864,11 +864,11 @@ italian_minor_misisons_4 = {
 					add_prosperity = 33
 					add_province_modifier = {
 						name = italian_minor_abbondanza
-						duration = -1 
+						duration = 5475
 					}
 					add_province_modifier = {
 						name = italian_minor_governing_efficiency
-						duration = -1 
+						duration = -1
 					}
 				}
 			}
@@ -973,7 +973,7 @@ italian_minor_misisons_5 = {
 				}
 				add_province_modifier = {
 					name = italian_minor_artigiani
-					duration = -1 
+					duration = -1
 				}
 				set_province_flag = exclude
 			}
@@ -990,7 +990,7 @@ italian_minor_misisons_5 = {
 				}
 				add_province_modifier = {
 					name = italian_minor_artigiani
-					duration = -1 
+					duration = -1
 				}
 				set_province_flag = exclude
 			}
@@ -1007,7 +1007,7 @@ italian_minor_misisons_5 = {
 				}
 				add_province_modifier = {
 					name = italian_minor_artigiani
-					duration = -1 
+					duration = -1
 				}
 				set_province_flag = exclude
 			}
@@ -1031,7 +1031,7 @@ italian_minor_misisons_5 = {
 			capital_scope = {
 				add_province_modifier = {
 					name = italian_minor_center_renaissance
-					duration = -1 
+					duration = 5475
 				}
 			}
 		}
@@ -1082,7 +1082,7 @@ italian_minor_misisons_5 = {
 		effect = {
 			add_country_modifier = {
 				name = "lan_clean_government"
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}

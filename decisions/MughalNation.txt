@@ -93,11 +93,13 @@ country_decisions = {
 				move_capital_effect = yes
 			}
 			change_tag = MUG
+			on_change_tag_effect = yes
 			restore_country_name = yes
 			swap_non_generic_missions = yes
 			remove_non_electors_emperors_from_empire_effect = yes
 			change_primary_culture = kanauji
 			clr_country_flag = ME_can_use_timurid_legitimacy
+			set_government_rank = 3
 			522 = {
 			 	add_base_tax = 1
 				add_base_production = 1
@@ -123,7 +125,7 @@ country_decisions = {
 					NOT = { government = monarchy }
 					is_revolutionary = no
 				}
-				change_government_to_monarchy = yes
+				change_government = monarchy
 			}
 			if = {
 				limit = {
@@ -153,7 +155,6 @@ country_decisions = {
 				}
 				remove_government_reform = states_general_reform
 			}
-			set_government_rank = 3
 			if = {
 				limit = { has_custom_ideas = no }
 				country_event = { id = ideagroups.1 } #Swap Ideas

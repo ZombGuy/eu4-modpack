@@ -8,7 +8,11 @@ ME_legitimacy_or_tribal_allegiance_trigger = {
 			has_dlc = "Cradle of Civilization"
 			has_government_mechanic = tribal_federation_mechanic
 		}
-		tribal_allegiance = $t_amount$
+		has_government_power = {
+			mechanic_type = tribal_federation_mechanic
+			power_type = tribal_allegiance
+			value = $t_amount$
+		}
 	}
 	else = {
 		legitimacy = $l_amount$

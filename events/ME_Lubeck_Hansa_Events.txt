@@ -237,19 +237,19 @@ country_event = { #Hansetage of [Current year]
 		#Prepare for War
 		add_country_modifier = {
 			name = "glut_of_mercs"
-			duration = -1
+			duration = 3650
 			hidden = yes
 		}
 		add_country_modifier = {
 			name = HNS_mercs
-			duration = -1
+			duration = 3650
 		}
 		custom_tooltip = generic_more_mercs_available_tt
 		custom_tooltip = HNS_every_trade_league_member
 		tooltip = {
 			add_country_modifier = {
 				name = HNS_mercs
-				duration = -1
+				duration = 3650
 			}
 		}
 		hidden_effect = {
@@ -283,7 +283,7 @@ country_event = { #Hansetage of [Current year]
 		add_years_of_income = 1
 		add_country_modifier = {
 			name = HNS_prospering_times
-			duration = -1
+			duration = 3650
 		}
 		if = {
 			limit = { has_dlc = "Mandate of Heaven" }
@@ -298,7 +298,7 @@ country_event = { #Hansetage of [Current year]
 			}
 			add_country_modifier = {
 				name = HNS_prospering_times
-				duration = -1
+				duration = 3650
 			}
 		}
 		hidden_effect = {
@@ -562,7 +562,7 @@ country_event = { #Decline of the Hansa
 	trigger = {
 		has_country_flag = HNS_age_of_hansa_country
 		NOT = { has_country_flag = HNS_disable_decline }
-		has_institution = colonialism
+		has_institution = new_world_i
 	}
 	
 	mean_time_to_happen = {
@@ -597,7 +597,7 @@ country_event = { #Decline of the Hansa
 		ai_chance = { factor = 1 }
 		
 		trigger = {
-			has_institution = colonialism
+			has_institution = new_world_i
 		}
 		highlight = yes
 		
@@ -615,7 +615,7 @@ country_event = { #Growth of Lothian
 	trigger = {
 		has_country_flag = HNS_age_of_hansa_country
 		is_year = 1600
-		has_institution = colonialism
+		has_institution = new_world_i
 	}
 	
 	mean_time_to_happen = {
@@ -628,7 +628,7 @@ country_event = { #Growth of Lothian
 		ai_chance = { factor = 1 }
 		
 		trigger = {
-			has_institution = colonialism
+			has_institution = new_world_i
 			is_year = 1600
 		}
 		highlight = yes
@@ -645,7 +645,13 @@ province_event = { #Direct Control
 
 	trigger = {
 		is_hanseatic_port = yes
-		owned_by = event_target:target_HANSA
+		if = {
+			limit = {
+				has_saved_global_event_target = target_HANSA
+			}
+			owned_by = event_target:target_HANSA
+		}
+		else = { always = no }
 	}
 	
 	mean_time_to_happen = {
@@ -800,15 +806,27 @@ province_event = { # A New Kontor
 	hidden = yes
 	
 	trigger = {
-		event_target:target_HANSA = {
-			has_country_flag = HNS_can_have_more_kontors
+		if = {
+			limit = {
+				has_saved_global_event_target = target_HANSA
+			}
+			event_target:target_HANSA = {
+				has_country_flag = HNS_can_have_more_kontors
+			}
 		}
+		else = { always = no }
 		NOT = { has_province_flag = HNS_this_node_has_kontor }
 		province_is_trade_node_center_province = yes
-		trade_share = {
-			country = event_target:target_HANSA
-			share = 5
+		if = {
+			limit = {
+				has_saved_global_event_target = target_HANSA
+			}
+			trade_share = {
+				country = event_target:target_HANSA
+				share = 5
+			}
 		}
+		else = { always = no }
 	}
 	
 	option = {
@@ -875,8 +893,13 @@ province_event = { # A New Kontor
 	is_triggered_only = yes
 	
 	immediate = {
-		event_target:target_HANSA = {
-			country_event = { id = ME_Hansa_Events.15 }
+		if = {
+			limit = {
+				has_saved_global_event_target = target_HANSA
+			}
+			event_target:target_HANSA = {
+				country_event = { id = ME_Hansa_Events.15 }
+			}
 		}
 	}
 	

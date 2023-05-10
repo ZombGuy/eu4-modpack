@@ -168,7 +168,7 @@
  MUG_qadi_desc: "The responsibilities of a nation at first sound numerous but when summarised are rather simple, the Romans were famous for saying ‘’breads and circuses’’. And while food and entertainment are indeed quite important services, law and order is perhaps as equally as important. While our subjects are Hindu and we are an empire of tolerance at the end of day we are an Islamic empire and because of such we enforce Islamic law. Sure, sometimes we compromise by not cutting off the hand of a bread thief but that does not change the fact that the ruling class of the empire is Hanafi and that the state law is that of Sharia law. In short, we shall introduce Qadis into court to facilitate the enforcement of law and make the state more efficient at law and order. This will aid us greatly in ruling our lands from a more centralised position."
  
  MUG_new_capital_title: "A New Capital"
- MUG_new_capital_desc: "By far the heart of the empire and the main seat of power is in the Northern plains, here lies the capital of many old Indian empires and vast majority of our belligerent and numerous subjects. Our current capital is the one of the old Delhi sultanate, it is a city where the people are particularly numerous, the elite particularly belligerent. The city also has massive amounts of urban sprawl to the point the empire’s best and brightest cartography and architects cannot make sense of any of it.\n\nOften the solution to capitals which create more problems than solutions is to simply create a new capital city, the new proposed capital would be in Middle Doab. This province is right next to our current capital which would facilitate any transfers of our power but would allow us to build a capital city more to our liking. We should start the construction of some basic infrastructure to prepare the province for transfer of power, and if at the end we rather keep the old city, we shall have a new powerful city right next to our current capital, a win-win."
+ MUG_new_capital_desc: "By far the heart of the empire and the main seat of power is in the Northern plains, here lies the capital of many old Indian empires and vast majority of our belligerent and numerous subjects. Our current capital is the one of the old Delhi sultanate, it is a city where the people are particularly numerous, the elite particularly belligerent. The city also has massive amounts of urban sprawl to the point the empire’s best and brightest cartography and architects cannot make sense of any of it."
  
  MUG_indian_iron_title: "Indian Iron"
  MUG_indian_iron_desc: "Southern India in particular is a producer of countless different goods ranging from luxuries such as spices to more essential goods like iron. Iron is a very valuable commodity, as it is massively consequential for producing a multitude of goods. Including tools and specifically weapons, which results in it being highly sought after. To profit, it would do us good to expand our iron-production capabilities in Southern India by developing the local industry."
@@ -243,7 +243,7 @@
  MUG_china_desc: "Canton, China. One of richest areas in the world, part of one of the most dominant, if not the most dominant culture to ever exist. People speak of Alexander, Persia, Rome, the Caliphate, the Mongols and nowadays us with a hint of awe in their voice, but China is a nation in its own league. It has existed for longer than most can remember, and is the only state to compare to us in sheer population and wealth, yet it triumphs us in both. Needless to say, it is our interest to tap into this wealth, but there is a question to be asked. Do we befriend the Chinese behemoth? Conduct diplomacy, trade and influence its population through faith. Or do we topple the giant? If the Mongols could do it, and the Chinese topple themselves every couple hundred years, then why can we not do it ourselves? After all, China is full of loot to plunder, and we should stop nothing short of being the greatest realm to ever exist."
  
  MUG_sea_dominance_title: "Hegemony Over Trade"
- MUG_sea_dominance_desc: "Hegemon, derived from the Greek word ‘hēgemonia’ used by rulers of Macedonia to ascertain their absolute dominance over the Greek world, the title used by Alexander himself. It was title befitting of Alexander, and now it is title befitting of us. For when it comes to the world of trade we are its hegemon, no one buys goods from Asia without us having say in it. Now one makes a coin of trade without us having our fair dues. Spice trade, silk road, all terms renowned by their sheer wealth carried through them. But those are outdated terms, for Mughal trade encomposes them all and more. Silk, gold, spices, precious metals, cotton, coffee, gems, chinaware, incense, the list goes on, and on, and on, and on of what can be bought off our markets. The Asian market is the Mughal market. The global economy is a Mughal economy. Tremble at our trade, tremble!"
+ MUG_sea_dominance_desc: "Hegemon, derived from the Greek word ‘hegemonia’ used by rulers of Macedonia to ascertain their absolute dominance over the Greek world, the title used by Alexander himself. It was title befitting of Alexander, and now it is title befitting of us. For when it comes to the world of trade we are its hegemon, no one buys goods from Asia without us having say in it. Now one makes a coin of trade without us having our fair dues. Spice trade, silk road, all terms renowned by their sheer wealth carried through them. But those are outdated terms, for Mughal trade encomposes them all and more. Silk, gold, spices, precious metals, cotton, coffee, gems, chinaware, incense, the list goes on, and on, and on, and on of what can be bought off our markets. The Asian market is the Mughal market. The global economy is a Mughal economy. Tremble at our trade, tremble!"
  
  MUG_naval_supplies_title: "Bolstering our Naval Supplies"
  MUG_naval_supplies_desc: "While the quality of trade supplies are already above that of the average state, the amount we produce will simply not suffice. We shall have to be more stern with the quality of our products, this will be done as to sharpen quality standards on certain parts as to bring down maintenance costs. All of this shall be done while either staying at the same production capacity or even increasing it due to streamlining. This will result in not only being capable of keeping a larger navy, but also bringing down costs for upkeep said navy. It is not enough to simply be a colossal nation with colossal infrastructure adjacent to the Indian ocean, we must also innovate as to stay ahead of the curve."
@@ -417,19 +417,19 @@
  ME_Mughal_Events.3.b: "We are conquerors, not looters."
  
  ME_Mughal_Events.4.t: "Triumph in Rajputana"
- ME_Mughal_Events.4.d: " "
+ ME_Mughal_Events.4.d: "Rajputana is troublesome land to say the least, the home of many Indian empires, hindu ones too. A powerful warrior class reigns in these lands, the rajputs are most effective and most dedicated warriors. They are always ready to slaughter armies larger than them, and establish new states on top of their corpses. For such our victory over these people is a great triumph most definitely worthy of celebration, but while for us it’s time bankets on our exquisite cuisine, it is a time of worry for the rest of India. For if the rajputs have fallen to us, what chance do they have? Because of such we must be careful with how we decide to treat our new territories, is it perhaps best to be cautious and attempt to lessen the worries of the other Indian states. Or do we treat our newest addition to the realm however we wish, indirectly sending a strong message to the other states in the subcontinent. That we are not only not concerned for their opinion but will subdue them just like how we subdued the Rajasthani."
  ME_Mughal_Events.4.a: "Victory here may be achieved, but let us not anger the rest of India."
  ME_Mughal_Events.4.b: "The rest of the people will know of our might!"
  ME_Mughal_Events.4.c: "A mighty parade in the region, displaying our triumph."
  ME_Mughal_Events.4.d: "Let us make the locals happy instead for legitimacy."
  
  ME_Mughal_Events.5.t: "Re-Organizing the Malwa Area"
- ME_Mughal_Events.5.d: " "
+ ME_Mughal_Events.5.d: "Another valuable piece of India has fallen below us and low behold, it is yet another plateau, one of countless in India. Malwa will prove thoroughly useful as a springboard to furth conquests down south. Due to its geography is not only Malwa like previously stated, a very valuable addition to our ever growing domain, it's also fairly distinct to lands surrounding it, which makes assigning a governor to it specifically quite wise. Assigning a governor from Malwa itself would be optimal, as it would make administration much easier and the province considerably more prosperous, but such can only be done if we trust our Malawi subjects."
  ME_Mughal_Events.5.a: "Any governor will do, as long as he covers our back."
  ME_Mughal_Events.5.b: "We should put a Malvi prince in charge."
  
  ME_Mughal_Events.6.t: "Subjugation of the Deccani People"
- ME_Mughal_Events.6.d: " "
+ ME_Mughal_Events.6.d: "The subjugation of Deccan and its people is no small feat! Many (Northern) Indian empires have attempted such and either failed or even destroyed themselves in the process. So our victory over these lands and people is inspiring to say the least! Yet again we have added another valuable jewel to the ever growing crown of India and beyond. The fine paper of Bahmani in particular shall be a lucrative endeavour that will benefit our state coffers! Naturally conquest isn’t the easiest, the amount of planning, funding, winning battles, managing sieges and more are all difficult work. But conquest is only half the battle, ruling and administering is an even larger struggle. So being able to subdue these proud people would truly result in our nation’s acclaim, to be seen as most prestigious and splendorous."
  ME_Mughal_Events.6.a: "Let them know of our conquests."
  
  ME_Mughal_Events.7.t: "Viceroyalty of Deccan"
@@ -444,7 +444,7 @@
  ME_Mughal_Events.8.a: "We shall go beyond India!"
  
  ME_Mughal_Events.9.t: "Beyond Bengal"
- ME_Mughal_Events.9.d: " "
+ ME_Mughal_Events.9.d: "The Bengali delta is ours, the one delta capable of rivalling the Nile is no longer just within our grasp but within our hands. When it comes to jewels, it is perhaps the shiniest of them all in India. The amount of people, food, valuable goods and more that exist within these lands is incredible, almost feels unquantifiable. But what is more unquantifiable than Bengal is our ambitions, the lands of Burma lay east of our new territories. Burma is not too dissimilar to India in certain aspects, perhaps a bit more backwards compared to its subcontinent cousin. But its land nonetheless, land whose people occasionally raze and pillage Bengal. So it would be in our best interest to bring our benevolence and tolerance to these people by force. But it's no mystery that ambition and recklessness has been the death of countless empires, and while ambition has been healthy for us, it could also bring us to ruin. Perhaps it would be wiser to simply build fortifications for now? It would make our east safer and allows us to focus elsewhere while still enjoying the labours of Bengal."
  ME_Mughal_Events.9.a: "Burma shall be ours!"
  ME_Mughal_Events.9.b: "Our ambitions end here."
  
@@ -454,16 +454,16 @@
  ME_Mughal_Events.10.b: "It is better to protect our current borders."
  
  ME_Mughal_Events.11.t: "The Spice Trade"
- ME_Mughal_Events.11.d: " "
+ ME_Mughal_Events.11.d: "Indian spice is one of most highly sought after commodities in the world and we have achieved monopoly within this niche market. It is certainly profitable in the domestic market, for anyone sensible relishes in the deliciousness of spice. But it is foreign market that makes spice an immensely lucrative endeavour. From China to Europe, traders sail great seas and merchants cross great expanses of deserts, mountains and more for our spices. Simply focusing on luxury and value of Indian spice would already make us immensely rich, but it would not be true monopoly, for the lands in south east asia occupy even more spice, arguably rivalling ours. We could lay claims to these as to achieve true monopoly and jack up prices even more!"
  ME_Mughal_Events.11.a: "No need to extend our influence. Our spice works just as well."
  ME_Mughal_Events.11.b: "The spice trade must flow."
  
  ME_Mughal_Events.12.t: "Mughal Spice Monopoly"
- ME_Mughal_Events.12.d: " "
+ ME_Mughal_Events.12.d: ""
  ME_Mughal_Events.12.a: "The spice shall flow only for us."
  
  ME_Mughal_Events.13.t: "Founding Agra City"
- ME_Mughal_Events.13.d: " "
+ ME_Mughal_Events.13.d: "Often the solution to capitals which create more problems than solutions is to simply create a new capital city, the new proposed capital would be in Middle Doab. This province is right next to our current capital which would facilitate any transfers of our power but would allow us to build a capital city more to our liking. We should start the construction of some basic infrastructure to prepare the province for transfer of power, and if at the end we rather keep the old city, we shall have a new powerful city right next to our current capital, a win-win."
  ME_Mughal_Events.13.a: "It shall serve as our new capital."
  ME_Mughal_Events.13.b: "Our old capital is just as fine."
  ME_Mughal_Events.13.c: "This city will now know new heights."
@@ -474,23 +474,23 @@
  ME_Mughal_Events.14.b: "With these new ports, we can begin on constructing a fleet."
  
  ME_Mughal_Events.15.t: "Establishment of a New Army"
- ME_Mughal_Events.15.d: " "
+ ME_Mughal_Events.15.d: "The most important part of a state is its army, one cannot raise taxes with the threat of execution, pillaging and starvation. One can not keep court or nobility loyal without having men to slaughter the traitors with. Armies can also occasionally be utilised incase of famine or natural disasters, or even as builders. But besides for the many, many, many and I cannot stress this enough, many internal threats. There’s also countless external threats, rival states that wish to conquer our land at literally every second, not that we take it personally, we would do the same to them. Which is why we need to reform our army, to fight off invasion and allow for invasions of our Thing is, how will we make our army the most terrifying on the field? Do we refine traditional warfare to its apex, and dominate through founded traditions and trusted methods. Or do we innovate on ideas of chinese, turn those fireworks into something that will allow us to burn down and destroy entire armies and cities?"
  ME_Mughal_Events.15.a: "We will maintain the people's fighting traditions."
  ME_Mughal_Events.15.b: "A modern Gunpowder Empire. Our strength will be adaptability."
  
  ME_Mughal_Events.16.t: "Strengthening the Diwan"
- ME_Mughal_Events.16.d: " "
+ ME_Mughal_Events.16.d: "The Mughal state is synonymous with Diwan, it is one of if not the main reason we have managed to grow so quickly and achieve such tremendous results. The level of acceptance and integration this form of rule gives us allows us to assimilate foreign cultures and mitigate ideas of unrest and the such. This is not even mentioning that India and the broader world is full of educated, capable people all who have useful services they can provide to the state when it comes to what they excel. Were we to put even greater emphasis on assimilation we could benefit from the unique bonuses the different cultures in our empire give us. Or we could simply focus on supremacy of government itself, such centralised absolute rule is always of use."
  ME_Mughal_Events.16.a: "A focus on assimilation will suit us best."
  ME_Mughal_Events.16.b: "The government itself is in need of power."
  
  ME_Mughal_Events.17.t: "The Coinage Reforms of [Root.Monarch.GetName]"
- ME_Mughal_Events.17.d: " "
+ ME_Mughal_Events.17.d: "Reforming coinage is not a rare thing for various reasons, sometimes its due to the metals utilised in coin production becoming rarer, perhaps the coins in circulation are of old or foreign state and cannot be reproduced. Or perhaps counterfeiting is running rampant. For us there are many reasons, lack of standardisation is one, in general anything that is gold and looks real is accepted as valuta, but such thing is dangerous for we might be getting tricked or let inflation run amok. For such our emperor is proud to announce a new coinage and for such reforms to be done, this is our emperor's personal project so he wishes to dedicate himself to the fullest to this project and put himself in charge. They are most competent so the reforms are quite radical yet effective, but were to lose our great leader it would throw the entirety of reform into disarray and hurt it considerably. For such perhaps taking a milder approach, distributing responsibilities and lowering ambitions would be a safer approach."
  ME_Mughal_Events.17.a: "A more safe course of reforms."
  ME_Mughal_Events.17.b: "Our reforms will be radical as possible."
  ME_Mughal_Events.17.c: "Let us take advice from our court."
  
  ME_Mughal_Events.18.t: "Creating Akbar's New Government"
- ME_Mughal_Events.18.d: " "
+ ME_Mughal_Events.18.d: "Islamic states in broad strokes have always been tolerant states, Indian sultanates specifically almost have to follow this doctrine of tolerance due to the fact that majority of their population is not only not of the muslim faith. But it is also generally of a singular religion, making rulership even more troublesome. But such a thing doesn’t have to, and for us hasn’t really been an issue. Our policy of tolerance has not only mitigated the issue but if anything allowed it to use it to our advantage. But we shouldn't be content with simply adapting the governments of previous states, for many of them have fallen before so something must be afoot with their way of doing things. We should reform our government and reach news highs!"
  ME_Mughal_Events.18.a: "We shall go with it."
  ME_Mughal_Events.18.b: "Only a small amount."
  
@@ -500,12 +500,12 @@
  ME_Mughal_Events.20.b: "Let us elevate the city in Burma."
  
  ME_Mughal_Events.21.t: "The Chinese Trade"
- ME_Mughal_Events.21.d: " "
+ ME_Mughal_Events.21.d: "It was not enough for us to simply monopolise things like Indian trade nor south asian or spices. We have become the market leader in south chinese trade, yet another opportunity bestowed by us due to our efforts that will make us fabulously wealthy. Yet the governing of China is not the easiest of affairs, it is like India in population, yet far more homogenous and worse, loyal to their leaders of their fellow culture. Our business here can be summarised as purely for the sake of trade, which is why creating a vassal in Southern China dedicated to the market might be wise. But we are powerful people and our merchants are crafty and shrewd, we can always continue with direct subjugation and try to win over the populace by religious conversion."
  ME_Mughal_Events.21.a: "We will establish a trading vassal there"
  ME_Mughal_Events.21.b: "It is our merchants that will prosper there"
  
  ME_Mughal_Events.22.t: "Establishing The Subahs"
- ME_Mughal_Events.22.d: " "
+ ME_Mughal_Events.22.d: "No place is quite like India, it is such a colossal place filled to the brim with variety and people. The areas, states, parts that make up India share similarities, yet are also radically different in certain aspects. For such an administration is beyond troublesome, for adapting one large plan for the whole state is not only hard, but inefficient. It is perhaps most wise to divide our lands into smaller administrative regions, this will ease the burden of administration and exploit our lands to what they excel at respectively. Yet we have engaged in continuous decentralisation and decentralisation is a dangerous game. Not necessarily because it will backfire but due to missing the opportunities of centralisation. A focus on centralised, absolutist rule would allow use to rule more efficiently with an iron fist, perhaps bringing long term benefits in the future."
  ME_Mughal_Events.22.a: "We cannot possibly administrate all of India"
  ME_Mughal_Events.22.b: "We will not throw away our power just like that"
  
@@ -835,7 +835,7 @@
  me_mug_completed_mission_architecture: "Has completed the @MUG §YMughal§! mission §YMughal Architecture§!"
  me_mug_second_option_in_malwa_event: "Picked the §YTolerance§! option in the §YRe-Organizing the Malwa Area§! event"
  me_mug_centralize_state_costs_less: "§YCentralize State§! is §Y50%§! cheaper"
- me_mug_unlock_subah_mechanic: "Unlocks the §YSubahs§! mechanic\n\nEach §YRuler§! we will be given an option to focus on a region in §YIndia§!. Each region will provide us with different §Ybonuses§!."
+ me_mug_unlock_subah_mechanic: "Unlocks the §YSubahs§! mechanic\n\nEach §YRuler§! we will be given an option to focus on a region in §YIndia§!. Each region will provide us with different §Ybonuses§!.\n\n§YHindu Subah§!:\n   Legitimacy: §G+1.00§!\n   Monthly Piety Accelerator: §Y+0.1§!\n\n§YBengal Subah§!:\n   Goods Produced Modifier: §G+10.0%§!\n   Ship Cost: §G-10.0%§!\n\n§YRajput Subah§!:\n   Morale Damage: §G+10.0%§!\n   Morale Damage Received: §G-10.0%§!\n   -Affects only Rajput Regiments\n\n§YGujarat Subah§!:\n   Trade Efficiency: §G+10.0%§!\n   Construction Cost: §G-10.0%§!\n\n§YMalwa Subah§!:\n   National Unrest: §G-1.00§!\n   Harsh Treatment Cost: §G-15.0%§!\n\n§YDeccan Subah§!:\n   Free Policies: §G+1§!\n   Possible Policies: §G+1§!\n\nThe bonuses will become §RNegative§! if the capital of the §YSubah§! is occupied"
  me_mug_until_ruler_death: "until the death of our ruler"
  
  me_mug_modifier_becomes_negative_hindustan: "§RThe modifier will become negative should we lose control of [522.GetName]§!"
@@ -872,6 +872,8 @@
  cb_conquest_of_india_less_ae_desc: "Conquer India"
  cb_conquest_of_india_less_province: "Conquest of India"
  cb_conquest_of_india_less_province_desc: "Conquer India"
+ cb_conquest_tim: "Conquest"
+ cb_conquest_tim_desc: ""
 
  MUG_conquer_india_ae: "Unification of India"
  MUG_conquer_india_cost: "Unification of India"

@@ -20,6 +20,7 @@ gc_aragon_1 = {
 			}
 		}
 		NOT = { map_setup = map_setup_random }
+		NOT = { has_dlc = "Domination" }
 		has_country_flag = use_paradox_missions
 	}
 	has_country_shield = yes
@@ -115,7 +116,7 @@ gc_aragon_1 = {
 				change_trade_goods = silk
 				add_province_modifier = {
 					name = "llotja_de_la_seda"
-					duration = -1 
+					duration = -1
 				}
 			}
 		}
@@ -147,7 +148,7 @@ gc_aragon_1 = {
 		effect = {
 			add_country_modifier = {
 				name = "industria_sedera"
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -161,7 +162,7 @@ gc_aragon_1 = {
 		effect = {
 			add_country_modifier = {
 				name = "ara_golden_age"
-				duration = -1 
+				duration = 36500
 			}
 		}
 	}
@@ -189,6 +190,7 @@ gc_aragon_2 = {
 			}
 		}
 		NOT = { map_setup = map_setup_random }
+		NOT = { has_dlc = "Domination" }
 		has_country_flag = use_paradox_missions
 	}
 	has_country_shield = yes
@@ -294,7 +296,7 @@ gc_aragon_2 = {
 				add_base_production = 3
 				add_province_modifier = {
 					name = "barcelona_guilds"
-					duration = -1 
+					duration = 7300
 				}
 			}
 		}
@@ -310,7 +312,7 @@ gc_aragon_2 = {
 		effect = {
 			add_country_modifier = {
 				name = "taula_de_canvi"
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -462,6 +464,7 @@ gc_aragon_3 = {
 			}
 		}
 		NOT = { map_setup = map_setup_random }
+		NOT = { has_dlc = "Domination" }
 		has_country_flag = use_paradox_missions
 	}
 	has_country_shield = yes
@@ -598,7 +601,7 @@ gc_aragon_3 = {
 		effect = {
 			add_country_modifier = {
 				name = military_vassalization
-				duration = -1 
+				duration = 7300
 			}
 			provence_area = {
 				limit = {
@@ -737,7 +740,7 @@ gc_aragon_3 = {
 			201 = {
 				add_province_modifier = {
 					name = "ara_toulon_dockyard"
-					duration = -1 
+					duration = -1
 				}
 			}
 			france_region = {
@@ -773,6 +776,7 @@ gc_aragon_4 = {
 			}
 		}
 		NOT = { map_setup = map_setup_random }
+		NOT = { has_dlc = "Domination" }
 		has_country_flag = use_paradox_missions
 	}
 	has_country_shield = yes
@@ -871,7 +875,7 @@ gc_aragon_4 = {
 		effect = {
 			add_country_modifier = {
 				name = "mediterranean_ambition"
-				duration = -1 
+				duration = 7300
 			}
 			albania_area = {
 				limit = {
@@ -1099,6 +1103,7 @@ gc_aragon_5 = {
 			}
 		}
 		NOT = { map_setup = map_setup_random }
+		NOT = { has_dlc = "Domination" }
 		has_country_flag = use_paradox_missions
 	}
 	has_country_shield = yes
@@ -1157,7 +1162,7 @@ gc_aragon_5 = {
 		effect = {
 			add_country_modifier = {
 				name = "refoming_barbary_pirates"
-				duration = -1 
+				duration = 7300
 			}
 			kabylia_area = {
 				limit = {
@@ -1202,7 +1207,7 @@ gc_aragon_5 = {
 		effect = {
 			add_country_modifier = {
 				name = "ara_ship_trade_modifier"
-				duration = -1 
+				duration = 7300
 			}
 			delta_area = {
 				limit = {
@@ -1304,7 +1309,7 @@ gc_aragon_5 = {
 		effect = {
 			add_country_modifier ={	
 				name = "ara_envoy_to_ethiopia"
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}

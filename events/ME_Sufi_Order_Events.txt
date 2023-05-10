@@ -78,7 +78,7 @@ country_event = {
 			
 			BKT = {
 				change_religion = shiite
-				change_culture = turkish
+				change_primary_culture = turkish
 				change_government = theocracy
 				add_government_reform = ME_bektashi_order_reform
 				

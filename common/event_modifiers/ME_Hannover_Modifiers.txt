@@ -9,6 +9,7 @@ HAN_stud = {
 
 HAN_salic_law_abolished = {
 	stability_cost_modifier = -0.1
+	chance_to_inherit = 0.5
 }
 
 HAN_salic_law_dynasty = {
@@ -54,6 +55,7 @@ HAN_diplo_bonus_three = {
 HAN_throne_game = {
 	diplomatic_reputation = 2
 	rival_change_cost = -0.5
+	chance_to_inherit = 0.5
 }
 
 HAN_agrarian_trade = {

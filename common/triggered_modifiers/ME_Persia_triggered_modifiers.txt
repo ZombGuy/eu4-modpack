@@ -43,16 +43,7 @@ persia_indian_hegemony_march_triggered_modifier = {
 			owns = 1948
 			owns = 541
 		}
-		OR = {
-			is_subject_of_type = march
-			AND = {
-				is_expanded_mod_active = { mod = subjects }
-				OR = {
-					is_subject_of_type = persian_satrapy
-					is_different_march_subject = yes
-				}
-			}
-		}
+		is_subject_of_type = march
 	}
 	trigger = {
 		if = {

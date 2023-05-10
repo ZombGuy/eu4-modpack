@@ -169,6 +169,7 @@ country_event = {
 		add_piety = -0.05
 		set_country_flag = mor_death_of_yahya
 	}
+	
 }
 
 #A Wattasid Conspiracy?
@@ -193,7 +194,6 @@ country_event = {
 	option = {
 		name = flavor_mor.6.a #Kill them all!
 		ai_chance = { factor = 1 }
-		
 		add_stability = -1
 		country_event = { id = flavor_mor.7 days = 30 }
 		

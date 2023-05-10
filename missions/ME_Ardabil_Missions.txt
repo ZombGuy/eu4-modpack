@@ -27,7 +27,7 @@ ARL_missions_1 = {
 			424 = {
 				add_province_modifier = {
 					name = ARL_The_Qizilbashi
-					duration = -1 
+					duration = 10950
 				}
 			}
 		}
@@ -59,7 +59,7 @@ ARL_missions_1 = {
 		effect = {
 			add_ruler_modifier = {
 				name = ARL_The_avenger
-				duration = -1 
+				duration = -1
 			}
 			armenia_area = {
 				limit = {
@@ -88,7 +88,7 @@ ARL_missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = "expansionist_country"
-				duration = -1 
+				duration = 9125 #25 years
 			}
 			kartli_kakheti_area = {
 				limit = {
@@ -190,7 +190,7 @@ ARL_missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = ARL_third_estate_administration
-				duration = -1 
+				duration = 9125
 			}
 		}
 	}
@@ -237,7 +237,7 @@ ARL_missions_2 = {
 			424 = {
 				add_province_modifier = {
 					name = ARL_base_of_operations
-					duration = -1 
+					duration = 9125
 				}
 			}
 		}
@@ -283,7 +283,7 @@ ARL_missions_2 = {
 			}
 			add_ruler_modifier = {
 				name = ARL_conqueror
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -361,13 +361,13 @@ ARL_missions_2 = {
 			erzurum_area = {
 				add_province_modifier = {
 					name = ALR_recruitment_of_turkic_shias
-					duration = -1 
+					duration = 14600
 				}
 			}
 			north_kurdistan_area = {
 				add_province_modifier = {
 					name = ALR_recruitment_of_turkic_shias
-					duration = -1 
+					duration = 14600
 				}
 			}
 		}
@@ -444,7 +444,7 @@ ARL_missions_2 = {
 		effect = {
 			add_country_modifier = {
 				name = ARL_conversion_of_mosques_modifier
-				duration = -1 
+				duration = 9125
 			}
 		}
 	}
@@ -591,7 +591,7 @@ ARL_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = ARL_steering
-				duration = -1 
+				duration = 9125
 			}
 		}
 	}
@@ -620,7 +620,7 @@ ARL_missions_3 = {
 			add_prestige = 25
 			add_country_modifier = {
 				name = ARL_the_levant_turnabout
-				duration = -1 
+				duration = 9125
 			}
 		}
 	}
@@ -642,7 +642,7 @@ ARL_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = ARL_endorsement
-				duration = -1 
+				duration = 18250
 			}
 		}
 	}
@@ -676,7 +676,7 @@ ARL_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = ARL_income_of_foreign_scholars
-				duration = -1 
+				duration = 9125
 			}
 		}
 	}
@@ -750,7 +750,7 @@ ARL_missions_4 = {
 				}
 				add_province_modifier = {
 					name = ARL_the_watch_on_pass
-					duration = -1 
+					duration = -1
 				}
 			}
 			khuzestan_area = {
@@ -848,7 +848,7 @@ ARL_missions_4 = {
 			add_prestige = 25
 			add_country_modifier = {
 				name = ARL_rightful_heir
-				duration = -1 
+				duration = 9125
 			}
 		}
 	}
@@ -909,7 +909,7 @@ ARL_missions_4 = {
 		effect = {
 			add_country_modifier = {
 				name = ARL_gholams_modifier
-				duration = -1 
+				duration = 9125
 			}
 		}
 	}
@@ -1094,7 +1094,7 @@ ARL_missions_5 = {
 		effect = {
 			add_country_modifier = {
 				name = ARL_the_western_frontier_secured
-				duration = -1 
+				duration = 9125
 			}
 		}
 	}
@@ -1117,7 +1117,7 @@ ARL_missions_5 = {
 		effect = {
 			add_country_modifier = {
 				name = ARL_qurchi_corps
-				duration = -1 
+				duration = 9125
 			}
 		}
 	}
@@ -1132,7 +1132,7 @@ ARL_missions_5 = {
 		effect = {
 			add_country_modifier = {
 				name = ARL_the_tupchi
-				duration = -1 
+				duration = 9125
 			}
 		}
 	}

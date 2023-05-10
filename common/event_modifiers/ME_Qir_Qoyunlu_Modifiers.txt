@@ -22,7 +22,7 @@ QIR_power_in_the_cities = {
 
 QIR_elite_cossacks_modifier = {
 	cavalry_power = 0.15
-	regiment_manpower_usage = -0.5
+	#regiment_manpower_usage = -0.5
 	is_cossack_modifier = yes
 }
 
@@ -44,7 +44,7 @@ QIR_cool_artillery = {
 }
 
 QIR_supporting_the_tribes = {
-	yearly_tribal_allegiance = 1
+	yearly_government_power = 1
 	global_autonomy = -0.05
 }
 
@@ -82,7 +82,7 @@ QIR_major_governmental_changes = {
 }
 
 QIR_tribes_of_anatolia = {
-	yearly_tribal_allegiance = 1
+	yearly_government_power = 1
 	manpower_recovery_speed = 0.1
 }
 
@@ -160,6 +160,7 @@ QIR_standing_army_modifier = {
 QIR_settling = {
 	manpower_in_own_culture_provinces = 0.25
 	culture_conversion_cost = -0.25
+	culture_conversion_time = -0.25
 }
 
 QIR_primary_culture = {
@@ -168,7 +169,7 @@ QIR_primary_culture = {
 
 QIR_blow_to_the_ottoman_empire = {
 	land_morale = 0.05
-	
+	warscore_from_battles_modifier = 0.33
 }
 
 QIR_cornucopia = {
@@ -179,7 +180,7 @@ QIR_cornucopia = {
 QIR_loyal_tribes = {
 	nobles_loyalty_modifier = 0.05
 	turkic_tribes_loyalty_modifier = 0.05
-	yearly_tribal_allegiance = 0.5
+	yearly_government_power = 0.5
 	legitimacy = 1
 }
 
@@ -215,6 +216,7 @@ QIR_power = {
 
 QIR_tribal_register_modifier = {
 	cavalry_power = 0.1
+	warscore_from_battles_modifier = 0.15
 }
 
 QIR_amount_of_loot = {

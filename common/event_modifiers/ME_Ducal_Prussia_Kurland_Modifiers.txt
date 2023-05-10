@@ -18,6 +18,10 @@ Ducal_KUR_funds = {
 	global_tax_income = 120
 }
 
+Ducal_KUR_ai = {
+	colony_cost_modifier = -0.9
+}
+
 Ducal_KUR_exotic_citizens = {
 	trade_efficiency = 0.2
 }

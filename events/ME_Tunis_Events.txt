@@ -876,7 +876,7 @@ country_event = {
 				save_global_event_target_as = Leo_Africanus_province
 			}
 			set_global_flag = Leo_Africanus_employment #every year of Leo Africanus' employment, his age will increase by 1, until he dies. He begins at 16 years old.
-			1 = { add_province_triggered_modifier = Leo_Africanus_manager }
+			#1 = { add_province_triggered_modifier = Leo_Africanus_manager } @stiopa
 			
 			#Leo Africanus manager checks if Leo Africanus can move to a different country if unemployed
 			set_country_flag = Leo_Africanus_introduced_here

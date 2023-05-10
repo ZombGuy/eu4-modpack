@@ -97,25 +97,6 @@ country_event = {
 				duration = -1
 			}
 		}
-		if = {
-			limit = {
-				me_bav_is_beer_enabled = yes
-			}
-			change_price = {
-				trade_goods = beer
-				key = bavaria_the_oktoberfest_title
-				value = 0.25
-				duration = -1
-			}
-			add_years_of_owned_provinces_production_income = {
-				years = 10
-				trigger = {
-					trade_goods = beer
-				}
-				custom_tooltip = BAV_INCOME_FROM_BEER_TT
-			}
-		}
-		else = {
 			add_years_of_income = 1
 			event_target:target_province_1 = {
 				add_base_production = 2
@@ -152,123 +133,95 @@ country_event = {
 					add_base_production = 2
 				}
 			}
-		}
+		
 	}
 }
 
-country_event = {
-	id = ME_Bavaria_Events.3
-	title = ME_Bavaria_Events.EVTNAME3
-	desc = ME_Bavaria_Events.EVTDESC3
-	picture = TRADEGOODS_eventPicture
-
-	major = yes
-	fire_only_once = yes
-	is_triggered_only = yes
-
-	immediate = {
-		hidden_effect = {
-			set_global_flag = me_bav_muenchner_reinheitsgebot
-		}
-	}
-
-	option = {
-		name = ME_Bavaria_Events3.EVTOPT1
-
-		if = {
-			limit = {
-				me_bav_is_beer_enabled = yes
-			}
-			change_price = {
-				trade_goods = beer
-				key = bavaria_muenchner_reinheitsgebot_title
-				value = 0.25
-				duration = -1
-			}
-			every_owned_province = {
-				limit = {
-					trade_goods = beer
-				}
-				add_province_modifier = {
-					name = bavaria_muenchner_reinheitsgebot_province_modifier
-					duration = -1
-				}
-			}
-			hidden_effect = {
-				if = {
-					limit = {
-						any_owned_province = {
-							NOT = { trade_goods = beer }
-						}
-					}
-					country_event = { id = ME_Bavaria_Events.4 days = 1 random = 9 }
-				}
-			}
-		}
-		else = {
-			custom_tooltip = BAVARIA_MUENCHNER_REINHEITSGEBOT_TT
-			hidden_effect = {
-				random_owned_province = {
-					limit = {
-						OR = {
-							trade_goods = wine
-							trade_goods = grain
-						}
-						development = 10
-						num_of_times_improved_by_owner = 3
-						NOT = { has_province_flag = bavaria_muenchner_reinheitsgebot_flag }
-					}
-					set_province_flag = bavaria_muenchner_reinheitsgebot_flag
-					add_base_production = 1
-				}
-				random_owned_province = {
-					limit = {
-						OR = {
-							trade_goods = wine
-							trade_goods = grain
-						}
-						development = 10
-						num_of_times_improved_by_owner = 3
-						NOT = { has_province_flag = bavaria_muenchner_reinheitsgebot_flag }
-					}
-					set_province_flag = bavaria_muenchner_reinheitsgebot_flag
-					add_base_production = 1
-				}
-				random_owned_province = {
-					limit = {
-						OR = {
-							trade_goods = wine
-							trade_goods = grain
-						}
-						development = 10
-						num_of_times_improved_by_owner = 3
-						NOT = { has_province_flag = bavaria_muenchner_reinheitsgebot_flag }
-					}
-					set_province_flag = bavaria_muenchner_reinheitsgebot_flag
-					add_base_production = 1
-				}
-				every_owned_province = {
-					limit = {
-						has_province_flag = bavaria_muenchner_reinheitsgebot_flag
-					}
-					clr_province_flag = bavaria_muenchner_reinheitsgebot_flag
-				}
-			}
-			add_years_of_owned_provinces_production_income = {
-				years = 3
-				trigger = {
-					OR = {
-						trade_goods = wine
-						trade_goods = grain
-					}
-					development = 10
-					num_of_times_improved_by_owner = 3
-				}
-				custom_tooltip = BAV_INCOME_FROM_GRAIN_AND_WINE
-			}
-		}
-	}
-}
+#country_event = {
+#	id = ME_Bavaria_Events.3
+#	title = ME_Bavaria_Events.EVTNAME3
+#	desc = ME_Bavaria_Events.EVTDESC3
+#	picture = TRADEGOODS_eventPicture
+#
+#	major = yes
+#	fire_only_once = yes
+#	is_triggered_only = yes
+#
+#	immediate = {
+#		hidden_effect = {
+#			set_global_flag = me_bav_muenchner_reinheitsgebot
+#		}
+#	}
+#
+#	option = {
+#		name = ME_Bavaria_Events3.EVTOPT1
+#			custom_tooltip = BAVARIA_MUENCHNER_REINHEITSGEBOT_TT
+#			hidden_effect = {
+#				random_owned_province = {
+#					limit = {
+#						OR = {
+#							trade_goods = wine
+#							trade_goods = grain
+#						}
+#						development = 10
+#						num_of_times_improved_by_owner = 3
+#						NOT = { has_province_flag = bavaria_muenchner_reinheitsgebot_flag }
+#					}
+#					set_province_flag = bavaria_muenchner_reinheitsgebot_flag
+#					add_base_production = 1
+#				}
+#				random_owned_province = {
+#					limit = {
+#						OR = {
+#							trade_goods = wine
+#							trade_goods = grain
+#						}
+#						development = 10
+#						num_of_times_improved_by_owner = 3
+#						NOT = { has_province_flag = bavaria_muenchner_reinheitsgebot_flag }
+#					}
+#					set_province_flag = bavaria_muenchner_reinheitsgebot_flag
+#					add_base_production = 1
+#				}
+#				random_owned_province = {
+#					limit = {
+#						OR = {
+#							trade_goods = wine
+#							trade_goods = grain
+#						}
+#						development = 10
+#						num_of_times_improved_by_owner = 3
+#						NOT = { has_province_flag = bavaria_muenchner_reinheitsgebot_flag }
+#					}
+#					set_province_flag = bavaria_muenchner_reinheitsgebot_flag
+#					add_base_production = 1
+#				}
+#				every_owned_province = {
+#					limit = {
+#						has_province_flag = bavaria_muenchner_reinheitsgebot_flag
+#					}
+#					add_province_modifier = {
+#						name = bavaria_muenchner_reinheitsgebot_province_modifier
+#						duration = -1
+#					}
+#					clr_province_flag = bavaria_muenchner_reinheitsgebot_flag
+#				}
+#			}
+#			add_years_of_owned_provinces_production_income = {
+#				years = 3
+#				trigger = {
+#					OR = {
+#						trade_goods = wine
+#						trade_goods = grain
+#					}
+#					development = 10
+#					num_of_times_improved_by_owner = 3
+##				}
+#				custom_tooltip = BAV_INCOME_FROM_GRAIN_AND_WINE
+#			}
+#		}
+#	
+#}
 
 country_event = {
 	id = ME_Bavaria_Events.4
@@ -280,9 +233,6 @@ country_event = {
 
 	trigger = {
 		me_bav_is_beer_enabled = yes
-		any_owned_province = {
-			NOT = { trade_goods = beer }
-		}
 	}
 
 	immediate = {
@@ -291,90 +241,8 @@ country_event = {
 				limit = {
 					NOT = { province_id = 4711 }
 					NOT = { province_id = 1868 }
-					NOT = { trade_goods = beer }
 				}
 				save_event_target_as = beer_province
-			}
-		}
-	}
-
-	option = {
-		name = ME_Bavaria_Events4.EVTOPT1
-
-		goto = 4711
-
-		trigger = {
-			owns = 4711
-			4711 = {
-				NOT = { trade_goods = beer }
-			}
-		}
-
-		ai_chance = { factor = 100 }
-
-		if = {
-			limit = {
-				me_bav_is_beer_enabled = yes
-			}
-			4711 = {
-				change_trade_goods = beer
-				add_province_modifier = {
-					name = bavaria_muenchner_reinheitsgebot_province_modifier
-					duration = -1
-				}
-			}
-		}
-	}
-
-	option = {
-		name = ME_Bavaria_Events4.EVTOPT2
-
-		goto = 1868
-
-		trigger = {
-			owns = 1868
-			1868 = {
-				NOT = { trade_goods = beer }
-			}
-		}
-
-		ai_chance = { factor = 100 }
-
-		if = {
-			limit = {
-				me_bav_is_beer_enabled = yes
-			}
-			1868 = {
-				change_trade_goods = beer
-				add_province_modifier = {
-					name = bavaria_muenchner_reinheitsgebot_province_modifier
-					duration = -1
-				}
-			}
-		}
-	}
-
-	option = {
-		name = ME_Bavaria_Events4.EVTOPT3
-
-		goto = beer_province
-
-		trigger = {
-			has_saved_event_target = beer_province
-		}
-
-		ai_chance = { factor = 100 }
-
-		if = {
-			limit = {
-				me_bav_is_beer_enabled = yes
-			}
-			event_target:beer_province = {
-				change_trade_goods = beer
-				add_province_modifier = {
-					name = bavaria_muenchner_reinheitsgebot_province_modifier
-					duration = -1
-				}
 			}
 		}
 	}
@@ -1344,52 +1212,50 @@ country_event = {
 	}
 }
 
-country_event = {
-	id = ME_Bavaria_Events.15
-	title = ME_Bavaria_Events.EVTNAME15
-	desc = ME_Bavaria_Events.EVTDESC15
-	picture = TRADEGOODS_eventPicture
-
-	hidden = yes
-
-	trigger = {
-		OR = {
-			tag = BAV
-			was_tag = BAV
-		}
-		has_global_flag = me_bav_muenchner_reinheitsgebot
-		me_bav_is_beer_enabled = yes
-		any_owned_province = {
-			trade_goods = beer
-			NOT = { has_province_modifier = bavaria_muenchner_reinheitsgebot_province_modifier }
-		}
-	}
-
-	mean_time_to_happen = {
-		months = 1
-	}
-
-	immediate = {
-		hidden_effect = {
-			every_owned_province = {
-				limit = {
-					trade_goods = beer
-					NOT = { has_province_modifier = bavaria_muenchner_reinheitsgebot_province_modifier }
-				}
-				add_province_modifier = {
-					name = bavaria_muenchner_reinheitsgebot_province_modifier
-					duration = -1
-				}
-			}
-		}
-	}
-
-	option = {
-		name = ME_Bavaria_Events15.EVTOPT1
-
-		ai_chance = { factor = 100 }
-	}
-}
+#country_event = {
+#	id = ME_Bavaria_Events.15
+#	title = ME_Bavaria_Events.EVTNAME15
+#	desc = ME_Bavaria_Events.EVTDESC15
+#	picture = TRADEGOODS_eventPicture
+#
+#	hidden = yes
+#
+#	trigger = {
+#		OR = {
+#			tag = BAV
+#			was_tag = BAV
+#		}
+#		has_global_flag = me_bav_muenchner_reinheitsgebot
+#		me_bav_is_beer_enabled = yes
+#		any_owned_province = {
+#			NOT = { has_province_modifier = bavaria_muenchner_reinheitsgebot_province_modifier }
+#		}
+#	}
+#
+#	mean_time_to_happen = {
+#		months = 1
+#	}
+#
+#	immediate = {
+#		hidden_effect = {
+#			every_owned_province = {
+#				limit = {
+#					NOT = { has_province_modifier = bavaria_muenchner_reinheitsgebot_province_modifier }
+#				}
+#				add_province_modifier = {
+#					name = bavaria_muenchner_reinheitsgebot_province_modifier
+#					duration = -1
+#				}
+#			}
+#		}
+#	}
+#
+#	option = {
+#		name = ME_Bavaria_Events15.EVTOPT1
+#
+#		ai_chance = { factor = 100 }
+#	}
+#}
 
 country_event = {
 	id = ME_Bavaria_Events.16

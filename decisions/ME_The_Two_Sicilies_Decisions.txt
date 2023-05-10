@@ -268,24 +268,6 @@ country_decisions = {
 			}
 			OR = {
 				development_in_provinces = {
-					value = 30
-					trade_goods = livestock
-				}
-				development_in_provinces = {
-					value = 30
-					trade_goods = cheese
-				}
-			}
-			OR = {
-				development_in_provinces = {
-					value = 30
-					trade_goods = tomato
-				}
-				development_in_provinces = {
-					value = 30
-					trade_goods = olive_oil
-				}
-				development_in_provinces = {
 					value = 100
 					OR = {
 						area = naples_area
@@ -308,37 +290,6 @@ country_decisions = {
 		}
 		effect = {
 			set_country_flag = tts_done_pizza
-			if = {
-				limit = {
-					is_expanded_mod_active = { mod = trade_goods }
-				}
-				custom_tooltip = tts_pizza_TIME_PROVINCE_BONUS_TOOLTIP_TGE
-				tooltip = {
-					add_permanent_province_modifier = {
-						name = tts_margherita_tge
-						duration = -1
-					}
-				}
-				hidden_effect = {
-					italy_region = {
-						limit = {
-							country_or_non_sovereign_subject_holds = ROOT
-							OR = {
-								trade_goods = grain
-								trade_goods = livestock
-								trade_goods = cheese
-								trade_goods = tomato
-								trade_goods = olive_oil
-							}
-						}
-						add_permanent_province_modifier = {
-							name = tts_margherita_tge
-							duration = -1
-						}
-					}
-				}
-			}
-			else = {
 				custom_tooltip = tts_pizza_TIME_PROVINCE_BONUS_TOOLTIP
 				tooltip = {
 					add_permanent_province_modifier = {
@@ -361,7 +312,7 @@ country_decisions = {
 						}
 					}
 				}
-			}
+			
 		}
 		ai_will_do = {
 			factor = 1
@@ -404,11 +355,6 @@ country_decisions = {
 	tts_duomo_monreale = {
 		major = yes
 		potential = {
-			125 = {
-				NOT = {
-					has_great_project = { type = gme_duomo_monreale }
-				}
-			}
 			OR = {
 				tag = NAP
 				tag = SIC
@@ -482,11 +428,6 @@ country_decisions = {
 	tts_parramentu_sicilianu = {
 		major = yes
 		potential = {
-			125 = {
-				NOT = {
-					has_great_project = { type = gme_parramentu_sicilianu }
-				}
-			}
 			OR = {
 				tag = NAP
 				tag = SIC
@@ -560,11 +501,6 @@ country_decisions = {
 	tts_university_federico_II = {
 		major = yes
 		potential = {
-			121 = {
-				NOT = {
-					has_great_project = { type = gme_federico_II }
-				}
-			}
 			OR = {
 				tag = NAP
 				tag = SIC

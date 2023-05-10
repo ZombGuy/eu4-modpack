@@ -588,6 +588,7 @@ country_event = {
 		OR = {
 			tag = ENG
 			tag = UKS
+			tag = AVE
 		}
 		has_country_flag = ENG_Angevin_Missions
 		NOT = { has_country_modifier = UKS_cooldown }
@@ -647,6 +648,7 @@ province_event = {
 			OR = {
 				tag = ENG
 				tag = UKS
+				tag = AVE
 			}
 			has_country_flag = Breton_Intolerance
 			any_owned_province = {
@@ -1009,7 +1011,10 @@ country_event = {
 	picture = CONQUEST_eventPicture
 	
 	trigger = {
-		tag = UKS
+		OR = {
+			tag = UKS
+			tag = AVE
+		}
 		has_country_flag = opt_in_italian_wars
 		any_country = {
 			is_in_war = {
@@ -1112,7 +1117,10 @@ country_event = {
 	picture = VILLAGE_BURNING_eventPicture
 	
 	trigger = {
-		tag = UKS
+		OR = {
+			tag = UKS
+			tag = AVE
+		}
 		has_country_flag = opt_in_italian_wars
 		any_country = {
 			is_in_war = {

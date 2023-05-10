@@ -61,14 +61,14 @@ country_event = {
 		random_owned_province = {
 			spawn_rebels = {
 				type = me_noble_rebels
-				size = 3
+				size = 2
 			}
 		}
 		
 		random_owned_province = {
 			spawn_rebels = {
 				type = me_noble_rebels
-				size = 3
+				size = 2
 			}
 		}
 		custom_tooltip = " "
@@ -128,14 +128,14 @@ country_event = {
 		random_owned_province = {
 			spawn_rebels = {
 				type = me_noble_rebels
-				size = 3
+				size = 2
 			}
 		}
 		
 		random_owned_province = {
 			spawn_rebels = {
 				type = me_noble_rebels
-				size = 3
+				size = 2
 			}
 		}
 		custom_tooltip = " "
@@ -192,14 +192,14 @@ country_event = {
 		random_owned_province = {
 			spawn_rebels = {
 				type = me_noble_rebels
-				size = 3
+				size = 2
 			}
 		}
 		
 		random_owned_province = {
 			spawn_rebels = {
 				type = me_noble_rebels
-				size = 3
+				size = 2
 			}
 		}
 		custom_tooltip = " "
@@ -260,18 +260,6 @@ country_event = {
 				loyalty = -100
 			}
 			capital_scope = {
-				spawn_rebels = {
-					type = me_noble_rebels
-					size = 3
-				}
-				spawn_rebels = {
-					type = me_noble_rebels
-					size = 3
-				}
-				spawn_rebels = {
-					type = me_noble_rebels
-					size = 3
-				}
 				spawn_rebels = {
 					type = me_noble_rebels
 					size = 3
@@ -427,10 +415,11 @@ country_event = {
 					region = north_german_region
 					region = south_german_region
 				}
+				development = 10
 			}
 			spawn_rebels = {
 				type = noble_rebels
-				size = 3
+				size = 2
 			}
 		}
 		

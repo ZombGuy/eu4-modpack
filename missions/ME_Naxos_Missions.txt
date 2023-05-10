@@ -35,7 +35,7 @@ Naxos_Missions_1 = {
 			164 = {
 				add_province_modifier = {
 					name = NAX_primary_garrisons
-					duration = -1 
+					duration = 14600
 				}
 			}
 		}
@@ -62,7 +62,7 @@ Naxos_Missions_1 = {
 			164 = {
 				add_province_modifier = {
 					name = NAX_independent_garrisons
-					duration = -1 
+					duration = -1
 				}
 			}
 		}
@@ -90,7 +90,7 @@ Naxos_Missions_1 = {
 			3003 = {
 				add_province_modifier = {
 					name = NAX_grand_aegean_fishery
-					duration = -1 
+					duration = -1
 				}
 			}
 		}
@@ -125,7 +125,7 @@ Naxos_Missions_2 = {
 		effect = {
 			add_country_modifier = {
 				name = NAX_crusader_ambitions
-				duration = -1 
+				duration = 9125
 			}
 		}
 	}
@@ -149,7 +149,7 @@ Naxos_Missions_2 = {
 			164 = {
 				add_province_modifier = {
 					name = NAX_island_fallback_points
-					duration = -1 
+					duration = 14600
 				}
 			}
 		}
@@ -196,7 +196,7 @@ Naxos_Missions_2 = {
 			add_patriarch_authority = 30
 			add_country_modifier = {
 				name = NAX_in_the_name_of_god
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -235,7 +235,7 @@ Naxos_Missions_3 = {
 			}
 			add_country_modifier = {
 				name = NAX_beyond_inhibitions
-				duration = -1 
+				duration = 10950
 			}
 		}
 	}
@@ -257,7 +257,7 @@ Naxos_Missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = NAX_masters_of_our_own_fate
-				duration = -1 
+				duration = 7300
 			}
 			aegean_archipelago_area = {
 				limit = {
@@ -284,7 +284,7 @@ Naxos_Missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = NAX_tamed_the_knights
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -305,7 +305,7 @@ Naxos_Missions_3 = {
 			163 = {
 				add_province_modifier = {
 					name = NAX_seized_shipyards
-					duration = -1 
+					duration = -1
 				}
 			}
 			321 = {
@@ -367,7 +367,7 @@ Naxos_Missions_4 = {
 		effect = {
 			add_country_modifier = {
 				name = NAX_security_ensured
-				duration = -1 
+				duration = 3650
 			}
 			capital_scope = {
 				infantry = ROOT
@@ -439,7 +439,7 @@ Naxos_Missions_4 = {
 		effect = {
 			add_country_modifier = {
 				name = NAX_legacy_of_templar
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -483,7 +483,7 @@ Naxos_Missions_5 = {
 		effect = {
 			add_country_modifier = {
 				name = NAX_lordship_of_land_and_sea
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -515,13 +515,13 @@ Naxos_Missions_5 = {
 				}
 				add_country_modifier = {
 					name = NAX_heir_to_the_empire_1
-					duration = -1 
+					duration = 18250
 				}
 			}
 			else = {
 				add_country_modifier = {
 					name = NAX_heir_to_the_empire_2
-					duration = -1 
+					duration = 18250
 				}
 			}
 		}
@@ -549,7 +549,7 @@ Naxos_Missions_5 = {
 			2348 = {
 				add_province_modifier = {
 					name = NAX_grand_aegean_vineyards
-					duration = -1 
+					duration = -1
 				}
 			}
 		}

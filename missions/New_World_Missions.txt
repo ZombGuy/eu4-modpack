@@ -1,3 +1,71 @@
+inc_mission_group = {
+	slot = 1
+	generic = no
+	ai = yes
+	potential = {
+		tag = CSU
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	
+	csu_buildforces = {
+		icon = mission_iroquois_warriors
+		required_missions = { }
+		position = 1
+		completed_by = 1450.1.1
+		
+		
+		trigger = {
+			army_size_percentage = 1
+			manpower_percentage = 0.8
+			num_of_generals = 1
+		}
+		
+		effect = {
+			add_country_modifier = {
+				name = "oma_buildforces_mod"
+				duration = 5475
+			}
+			huanuco_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+	
+	conquer_the_wankas = {
+		icon = mission_unite_home_region
+		required_missions = { csu_buildforces }
+		position = 3
+		completed_by = 1480.1.1
+		
+		provinces_to_highlight = {
+			area = huanuco_area
+			NOT = { owned_by = ROOT }
+		}
+		
+		trigger = {
+			NOT = {
+				exists = WKA
+			}
+			huanuco_area = {
+				type = all
+				owned_by = ROOT
+			}
+		}
+		
+		effect = {
+			add_country_modifier = {
+				name = "military_victory"
+				duration = 7300
+			}
+		}
+	}
+}
+
 new_world_natives_missions_modernization_tag = {
 	slot = 1
 	generic = no
@@ -178,7 +246,7 @@ new_world_natives_missions_slot1 = {
 		effect = {
 			add_country_modifier = {
 				name = "growing_economy"
-				duration = -1 
+				duration = 9125 #25 years
 			}
 		}
 	}
@@ -252,7 +320,7 @@ new_world_natives_missions_slot1 = {
 				event_target:reward_province = {
 					add_province_modifier = {
 						name = "dominant_trade_hub"
-						duration = -1 
+						duration = -1
 					}
 				}
 			}
@@ -302,7 +370,7 @@ new_world_natives_missions_slot2 = {
 					limit = { owned_by = ROOT }
 					add_province_modifier = {
 						name = "growth_of_capital"
-						duration = -1 
+						duration = 9125 #25 years
 					}
 				}
 			}
@@ -318,7 +386,7 @@ new_world_natives_missions_slot2 = {
 		effect = {
 			add_country_modifier = {
 				name = "strong_treasury"
-				duration = -1 
+				duration = 9125
 			}
 		}
 	}
@@ -333,7 +401,7 @@ new_world_natives_missions_slot2 = {
 			add_prestige = 30
 			add_country_modifier = {
 				name = "imperial_ambition"
-				duration = -1 
+				duration = 9125
 			}
 		}
 	}
@@ -400,7 +468,7 @@ new_world_natives_missions_slot4 = {
 		effect = {
 			add_country_modifier = {
 				name = "influential_diplomacy"
-				duration = -1 
+				duration = 9125 #25 years
 			}
 		}
 	}
@@ -412,7 +480,7 @@ new_world_natives_missions_slot4 = {
 		effect = {
 			add_country_modifier = {
 				name = "obedient_subjects"
-				duration = -1 
+				duration = 9125 #25 years
 			}
 		}
 	}
@@ -446,7 +514,7 @@ new_world_natives_missions_slot4 = {
 			add_mil_power = 50
 			add_country_modifier = {
 				name = "hegemonic_ambition"
-				duration = -1 
+				duration = 9125 #25 years
 			}
 		}
 	}
@@ -480,7 +548,7 @@ new_world_natives_missions_slot4 = {
 			add_mil_power = 50
 			add_country_modifier = {
 				name = "hegemonic_ambition"
-				duration = -1 
+				duration = 9125 #25 years
 			}
 		}
 	}
@@ -500,7 +568,7 @@ new_world_natives_missions_slot4 = {
 		effect = {
 			add_country_modifier = {
 				name = "colonize_the_continent"
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -539,7 +607,7 @@ new_world_natives_missions_slot5 = {
 		effect = { 
 			add_country_modifier = {
 				name = "thriving_arms_industry"
-				duration = -1 
+				duration = 9125 #25 years
 			}
 		}
 	}
@@ -553,7 +621,7 @@ new_world_natives_missions_slot5 = {
 		effect = {
 			add_country_modifier = {
 				name = "army_enthusiasm"
-				duration = -1 
+				duration = 9125 #25 years
 			}
 		}
 	}
@@ -588,7 +656,7 @@ new_world_natives_missions_slot5 = {
 			add_mil_power = 200
 			add_country_modifier = {
 				name = "military_victory"
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -603,6 +671,8 @@ new_world_natives_missions_slot5 = {
 			}
 		}
 		effect = {
+			change_technology_group = high_american
+			change_unit_type = high_american
 			add_adm_power = 100
 			add_dip_power = 100
 			add_mil_power = 100
@@ -643,7 +713,7 @@ new_world_natives_missions_slot5 = {
 		effect = {
 			add_country_modifier = {
 				name = "building_spree"
-				duration = -1 
+				duration = 9125
 			}
 		}
 	}

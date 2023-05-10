@@ -17,11 +17,7 @@ timurid_empire = {
 	lock_level_when_selected = yes
 	modifiers = {
 		liberty_desire_from_subject_development = -0.35
-		core_creation = -0.1
-	}
-
-	government_abilities = {
-		enables_heir_of_timur = yes
+		core_creation = -0.05
 	}
 	
 	conditional = {
@@ -54,17 +50,13 @@ timurid_stratocracy = {
 	
 	modifiers = {
 		war_exhaustion = -0.02
-		monthly_militarized_society = -0.1
 		global_autonomy = -0.05
 		republican_tradition = -0.3
 		max_absolutism = 40
-		governing_capacity_modifier = -0.1
-		capped_by_forcelimit = yes
 	}
 	
-	conditional = {
-		allow = { has_dlc = "Rights of Man" }
-		militarised_society = yes
+	government_abilities = {
+		timurid_militarization
 	}
 	
 	custom_attributes = {
@@ -148,11 +140,10 @@ timurid_semi_horde = {
 		religion_group = muslim
 	}
 	potential = {
-		tag = TIM
 		has_country_flag = me_tim_horde_path
 	}
 	trigger = {
-		tag = TIM
+		has_reform = timurid_semi_horde
 		custom_trigger_tooltip = {
 			tooltip = me_tim_picked_horde_path
 			has_country_flag = me_tim_horde_path
@@ -165,20 +156,18 @@ timurid_semi_horde = {
 	raze_province = yes
 	
 	modifiers = {
-		core_creation = -0.15
+		core_creation = -0.1
 		movement_speed = 0.1
 		legitimacy = -1
+		raze_power_gain = -0.75
 	}
 
 	custom_attributes = {
-		enables_spoils_of_war = yes
+		enables_horde_idea_group = yes
+		enables_aristocratic_idea_group = no
 	}
-	
-	conditional = {
-		allow = { has_dlc = "Cradle of Civilization" }
-		government_abilities = {
-			iqta_mechanic
-		}
+	government_abilities = {
+		conquest_frenzy
 	}
 
 	ai = {
@@ -195,11 +184,10 @@ timurid_empire_upgraded = {
 		religion_group = muslim
 	}
 	potential = {
-		tag = TIM
 		has_country_flag = me_tim_vassal_path
 	}
 	trigger = {
-		tag = TIM
+		has_reform = timurid_empire_upgraded
 		has_country_flag = me_tim_vassal_path
 	}
 	maintain_dynasty = yes
@@ -209,6 +197,7 @@ timurid_empire_upgraded = {
 		liberty_desire_from_subject_development = -0.5
 		vassal_income = 0.2
 		vassal_forcelimit_bonus = 0.5
+		iqta_abilities_effectiveness = 0.5
 	}
 
 	custom_attributes  = {
@@ -298,13 +287,14 @@ ME_reform_chaghatai_literature = {
 		has_country_flag = me_tim_chagatai_literature_reform
 	}
 	trigger = {
-	
+		tag = TIM
 	}
 	valid_for_nation_designer = no
 	
 	modifiers = {
 		global_unrest = -1
 		global_autonomy = -0.05
+		vassal_income = 0.25
 	}
 	
 	#custom_attributes  = {

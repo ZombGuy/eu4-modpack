@@ -380,7 +380,6 @@ GRA_catalonia_modifier = {
 }
 
 GRA_clergy_priv_slot = {
-	church_privilege_slots = 0.01
 	adm_advisor_cost = -0.1
 }
 

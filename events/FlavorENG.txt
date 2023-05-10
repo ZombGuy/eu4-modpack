@@ -27,7 +27,7 @@ country_event = {
 	
 
 	trigger = {
-		OR = { tag = ENG has_country_flag = wls_assimilated }
+		tag = ENG
 		NOT = { is_year = 1500 }
 		num_of_cities = 5
 		religion = catholic
@@ -80,7 +80,7 @@ country_event = {
 					NOT = { has_province_flag = lollards }
 				}
 				set_province_flag = lollards
-			}					
+			}									
 		}
 	}
 
@@ -99,13 +99,13 @@ country_event = {
 		add_country_modifier = {
 			name = eng_opposes_lollards
 			duration = -1
-		}
+		}		
 		PAP = {
 			add_opinion = {
 				who = ROOT
 				modifier = eng_opposes_lollards
 			}
-		}
+		}		
 	}
 	option = {		# Let them be
 		name = "flavor_eng.EVTOPTB9100"
@@ -179,28 +179,38 @@ country_event = {
 	desc = "flavor_eng.EVTDESC9104"
 	picture = DIPLOMACY_eventPicture
 	
+	fire_only_once = yes
+	
 	trigger = {
-		NOT = { is_year = 1500 }
-		NOT = { has_global_flag = eng_had_end_of_hundred_years_war }
 		OR = {
 			AND = {
-				OR = { tag = ENG has_country_flag = wls_assimilated }
-				NOT = { exists = GBR }
+				has_global_flag = hyw_mission_resolution
+				tag = ENG
 			}
-			tag = GBR
-		}
-		primary_culture = english
-		NOT = {
-			france_region = {
-				owned_by = ROOT
+			AND = {
+				NOT = { is_year = 1500 }
+				NOT = { has_global_flag = eng_had_end_of_hundred_years_war }
+				OR = {
+					AND = {
+						tag = ENG
+						NOT = { exists = GBR }
+					}
+					tag = GBR
+				}
+				primary_culture = english
+				NOT = {
+					france_region = {
+						owned_by = ROOT
+					}
+				}
+				FRA = {
+					exists = yes
+					NOT = { is_subject_of = ENG }
+					NOT = { is_subject_of = GBR }
+					NOT = { war_with = ENG }
+					NOT = { war_with = GBR }
+				}
 			}
-		}
-		FRA = {
-			exists = yes
-			NOT = { is_subject_of = ENG }
-			NOT = { is_subject_of = GBR }
-			NOT = { war_with = ENG }
-			NOT = { war_with = GBR }
 		}
 	}
 	
@@ -265,7 +275,7 @@ country_event = {
 		NOT = { is_year = 1509 }
 		OR = {
 			AND = {
-				OR = { tag = ENG has_country_flag = wls_assimilated }
+				tag = ENG
 				NOT = { exists = GBR }
 			}
 			tag = GBR
@@ -309,7 +319,7 @@ country_event = {
 		NOT = { is_year = 1550 }
 		OR = {
 			AND = {
-				OR = { tag = ENG has_country_flag = wls_assimilated }
+				tag = ENG
 				NOT = { exists = GBR }
 			}
 			tag = GBR
@@ -359,7 +369,7 @@ country_event = {
 		NOT = { is_year = 1600 }
 		OR = {
 			AND = {
-				OR = { tag = ENG has_country_flag = wls_assimilated }
+				tag = ENG
 				NOT = { exists = GBR }
 			}
 			tag = GBR
@@ -406,7 +416,7 @@ country_event = {
 		NOT = { is_year = 1521 }
 		OR = {
 			AND = {
-				OR = { tag = ENG has_country_flag = wls_assimilated }
+				tag = ENG
 				NOT = { exists = GBR }
 			}
 			tag = GBR
@@ -442,7 +452,7 @@ country_event = {
 			spawn_rebels = {
 				type = anti_tax_rebels
 				size = 1
-			}
+			}			
 			clr_province_flag = enclosure_movement
 		}
 	}
@@ -467,7 +477,7 @@ country_event = {
 		NOT = { is_year = 1560 }
 		OR = {
 			AND = {
-				OR = { tag = ENG has_country_flag = wls_assimilated }
+				tag = ENG
 				NOT = { exists = GBR }
 			}
 			tag = GBR
@@ -525,7 +535,7 @@ country_event = {
 		is_year = 1500
 		OR = {
 			AND = {
-				OR = { tag = ENG has_country_flag = wls_assimilated }
+				tag = ENG
 				NOT = { exists = GBR }
 			}
 			tag = GBR
@@ -571,7 +581,7 @@ country_event = {
 		is_year = 1500
 		OR = {
 			AND = {
-				OR = { tag = ENG has_country_flag = wls_assimilated }
+				tag = ENG
 				NOT = { exists = GBR }
 			}
 			tag = GBR
@@ -622,7 +632,7 @@ country_event = {
 		has_consort_regency = no
 		OR = {
 			AND = {
-				OR = { tag = ENG has_country_flag = wls_assimilated }
+				tag = ENG
 				NOT = { exists = GBR }
 			}
 			tag = GBR
@@ -650,7 +660,8 @@ country_event = {
 			spawn_rebels = {
 				type = pretender_rebels
 				size = 2
-				leader = "Jane Grey"
+				leader = "Jane"
+				leader_dynasty = "Grey"
 				female = yes
 			}
 		}
@@ -674,7 +685,7 @@ country_event = {
 		}
 		OR = {
 			AND = {
-				OR = { tag = ENG has_country_flag = wls_assimilated }
+				tag = ENG
 				NOT = { exists = GBR }
 			}
 			tag = GBR
@@ -764,7 +775,7 @@ country_event = {
 	trigger = {
 		OR = {
 			AND = {
-				OR = { tag = ENG has_country_flag = wls_assimilated }
+				tag = ENG
 				NOT = { exists = GBR }
 			}
 			tag = GBR
@@ -822,7 +833,7 @@ country_event = {
 		NOT = { is_year = 1590 }
 		OR = {
 			AND = {
-				OR = { tag = ENG has_country_flag = wls_assimilated }
+				tag = ENG
 				NOT = { exists = GBR }
 			}
 			tag = GBR
@@ -884,7 +895,7 @@ country_event = {
 		NOT = { is_year = 1579 }
 		OR = {
 			AND = {
-				OR = { tag = ENG has_country_flag = wls_assimilated }
+				tag = ENG
 				NOT = { exists = GBR }
 			}
 			tag = GBR
@@ -939,7 +950,7 @@ country_event = {
 		NOT = { has_country_modifier = aristocracy_modifier }
 		OR = {
 			AND = {
-				OR = { tag = ENG has_country_flag = wls_assimilated }
+				tag = ENG
 				NOT = { exists = GBR }
 			}
 			tag = GBR
@@ -1036,7 +1047,7 @@ country_event = {
 		}
 		if = {
 			limit = {
-				NOT = { owns = 246 } #Northumberland
+				NOT = { owns = 246 }	# Northumberland
 				owns = 247				# Cumbria
 			}
 			247 = {
@@ -1077,7 +1088,7 @@ country_event = {
 		NOT = { is_year = 1600 }
 		OR = {
 			AND = {
-				OR = { tag = ENG has_country_flag = wls_assimilated }
+				tag = ENG
 				NOT = { exists = GBR }
 			}
 			tag = GBR
@@ -1120,7 +1131,7 @@ country_event = {
 		NOT = { is_year = 1650 }
 		OR = {
 			AND = {
-				OR = { tag = ENG has_country_flag = wls_assimilated }
+				tag = ENG
 				NOT = { exists = GBR }
 			}
 			tag = GBR
@@ -1166,7 +1177,7 @@ country_event = {
 		NOT = { is_year = 1616 }
 		OR = {
 			AND = {
-				OR = { tag = ENG has_country_flag = wls_assimilated }
+				tag = ENG
 				NOT = { exists = GBR }
 			}
 			tag = GBR
@@ -1178,15 +1189,19 @@ country_event = {
 		OR = {
 			munster_area = {
 				owned_by = ROOT
+				culture = irish
 			}
 			connacht_area = {
 				owned_by = ROOT
+				culture = irish
 			}
 			leinster_area = {
 				owned_by = ROOT
+				culture = irish
 			}
 			ulster_area = {
 				owned_by = ROOT
+				culture = irish
 			}
 		}
 	}
@@ -1209,11 +1224,13 @@ country_event = {
 					area = leinster_area
 					area = ulster_area
 				}
+				culture = irish
 			}
 			spawn_rebels = {
 				type = noble_rebels
 				size = 2
-				leader = "Hugh O'Neill"
+				leader = "Hugh"
+				leader_dynasty = "O'Neill"
 			}
 		}
 	}
@@ -1233,7 +1250,7 @@ country_event = {
 		NOT = { is_year = 1700 }
 		OR = {
 			AND = {
-				OR = { tag = ENG has_country_flag = wls_assimilated }
+				tag = ENG
 				NOT = { exists = GBR }
 			}
 			tag = GBR
@@ -1341,7 +1358,7 @@ country_event = {
 		NOT = { is_year = 1700 }
 		OR = {
 			AND = {
-				OR = { tag = ENG has_country_flag = wls_assimilated }
+				tag = ENG
 				NOT = { exists = GBR }
 			}
 			tag = GBR
@@ -1444,7 +1461,7 @@ country_event = {
 		NOT = { is_year = 1700 }
 		OR = {
 			AND = {
-				OR = { tag = ENG has_country_flag = wls_assimilated }
+				tag = ENG
 				NOT = { exists = GBR }
 			}
 			tag = GBR
@@ -1481,7 +1498,7 @@ country_event = {
 		NOT = { is_year = 1700 }
 		OR = {
 			AND = {
-				OR = { tag = ENG has_country_flag = wls_assimilated }
+				tag = ENG
 				NOT = { exists = GBR }
 			}
 			tag = GBR
@@ -1536,7 +1553,7 @@ country_event = {
 		is_year = 1650
 		OR = {
 			AND = {
-				OR = { tag = ENG has_country_flag = wls_assimilated }
+				tag = ENG
 				NOT = { exists = GBR }
 			}
 			tag = GBR
@@ -1573,7 +1590,7 @@ country_event = {
 		NOT = { is_year = 1800 }
 		OR = {
 			AND = {
-				OR = { tag = ENG has_country_flag = wls_assimilated }
+				tag = ENG
 				NOT = { exists = GBR }
 			}
 			tag = GBR
@@ -1602,7 +1619,8 @@ country_event = {
 				spawn_rebels = {
 					type = pretender_rebels
 					size = 2
-					leader = "James Stuart"
+					leader = "James"
+					leader_dynasty = "Stuart"
 				}
 			}
 		}
@@ -1618,7 +1636,8 @@ country_event = {
 				spawn_rebels = {
 					type = pretender_rebels
 					size = 2
-					leader = "James Stuart"
+					leader = "James"
+					leader_dynasty = "Stuart"
 				}
 			}
 		}
@@ -1635,7 +1654,8 @@ country_event = {
 				spawn_rebels = {
 					type = pretender_rebels
 					size = 2
-					leader = "James Stuart"
+					leader = "James"
+					leader_dynasty = "Stuart"
 				}
 			}
 		}
@@ -1655,7 +1675,7 @@ country_event = {
 		NOT = { is_year = 1745 }
 		OR = {
 			AND = {
-				OR = { tag = ENG has_country_flag = wls_assimilated }
+				tag = ENG
 				NOT = { exists = GBR }
 			}
 			tag = GBR
@@ -1720,7 +1740,7 @@ country_event = {
 		NOT = { is_year = 1800 }
 		OR = {
 			AND = {
-				OR = { tag = ENG has_country_flag = wls_assimilated }
+				tag = ENG
 				NOT = { exists = GBR }
 			}
 			tag = GBR
@@ -1769,7 +1789,7 @@ country_event = {
 		NOT = { is_year = 1800 }
 		OR = {
 			AND = {
-				OR = { tag = ENG has_country_flag = wls_assimilated }
+				tag = ENG
 				NOT = { exists = GBR }
 			}
 			tag = GBR
@@ -1798,7 +1818,8 @@ country_event = {
 				spawn_rebels = {
 					type = pretender_rebels
 					size = 2
-					leader = "James Stuart"
+					leader = "James"
+					leader_dynasty = "Stuart"
 				}
 			}
 		}
@@ -1814,7 +1835,8 @@ country_event = {
 				spawn_rebels = {
 					type = pretender_rebels
 					size = 2
-					leader = "James Stuart"
+					leader = "James"
+					leader_dynasty = "Stuart"
 				}
 			}
 		}
@@ -1831,7 +1853,8 @@ country_event = {
 				spawn_rebels = {
 					type = pretender_rebels
 					size = 2
-					leader = "James Stuart"
+					leader = "James"
+					leader_dynasty = "Stuart"
 				}
 			}
 		}
@@ -1852,7 +1875,7 @@ country_event = {
 		NOT = { is_year = 1778 }
 		OR = {
 			AND = {
-				OR = { tag = ENG has_country_flag = wls_assimilated }
+				tag = ENG
 				NOT = { exists = GBR }
 			}
 			tag = GBR
@@ -1910,7 +1933,7 @@ country_event = {
 		NOT = { is_year = 1806 }
 		OR = {
 			AND = {
-				OR = { tag = ENG has_country_flag = wls_assimilated }
+				tag = ENG
 				NOT = { exists = GBR }
 			}
 			tag = GBR
@@ -1975,7 +1998,7 @@ country_event = {
 		NOT = { is_year = 1700 }
 		OR = {
 			AND = {
-				OR = { tag = ENG has_country_flag = wls_assimilated }
+				tag = ENG
 				NOT = { exists = GBR }
 			}
 			tag = GBR
@@ -1984,7 +2007,7 @@ country_event = {
 		exists = POR
 		OR = {
 			AND = {
-				OR = { tag = ENG has_country_flag = wls_assimilated }
+				tag = ENG
 				british_isles_region = {
 					owned_by = ENG
 					has_port = yes
@@ -2049,7 +2072,7 @@ country_event = {
 		NOT = { is_year = 1650 }
 		OR = {
 			AND = {
-				OR = { tag = ENG has_country_flag = wls_assimilated }
+				tag = ENG
 				NOT = { exists = GBR }
 			}
 			tag = GBR
@@ -2177,7 +2200,7 @@ country_event = {
 		NOT = { is_year = 1670 }
 		OR = {
 			AND = {
-				OR = { tag = ENG has_country_flag = wls_assimilated }
+				tag = ENG
 				NOT = { exists = GBR }
 			}
 			tag = GBR
@@ -2257,7 +2280,7 @@ country_event = {
 		NOT = { is_year = 1776 }
 		OR = {
 			AND = {
-				OR = { tag = ENG has_country_flag = wls_assimilated }
+				tag = ENG
 				NOT = { exists = GBR }
 			}
 			tag = GBR
@@ -2299,7 +2322,7 @@ country_event = {
 		NOT = { is_year = 1700 }
 		OR = {
 			AND = {
-				OR = { tag = ENG has_country_flag = wls_assimilated }
+				tag = ENG
 				NOT = { exists = GBR }
 			}
 			tag = GBR
@@ -2341,7 +2364,7 @@ country_event = {
 		NOT = { is_year = 1713 }
 		OR = {
 			AND = {
-				OR = { tag = ENG has_country_flag = wls_assimilated }
+				tag = ENG
 				NOT = { exists = GBR }
 			}
 			tag = GBR
@@ -2378,7 +2401,7 @@ country_event = {
 		NOT = { advisor_exists = 245 }
 		OR = {
 			AND = {
-				OR = { tag = ENG has_country_flag = wls_assimilated }
+				tag = ENG
 				NOT = { exists = GBR }
 			}
 			tag = GBR
@@ -2416,7 +2439,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
-		OR = { tag = ENG has_country_flag = wls_assimilated }
+		tag = ENG
 		has_regency = no
 		has_heir = no
 		is_lesser_in_union = no
@@ -2534,7 +2557,10 @@ country_event = {
 		4370 = {
 			owned_by = ROOT
 		}
-		mission_completed = eng_rb_universities
+		OR = {
+			mission_completed = eng_rb_universities
+			mission_completed = gbr_ave_renovate_universities
+		}
 	}
 	
 	immediate = {
@@ -2840,7 +2866,7 @@ country_event = {
 							value = 1
 						}
 					}
-				}
+				}	
 				set_variable = { which = oxbridge_symposium value = 2 }
 			}
 			else_if = {
@@ -2855,7 +2881,7 @@ country_event = {
 							value = 2
 						}
 					}
-				}
+				}	
 				set_variable = { which = oxbridge_symposium value = 2 }
 			}
 			else_if = {
@@ -2864,10 +2890,52 @@ country_event = {
 						which = oxbridge_symposium
 						value = 2
 					}
-				}
+				}	
 				set_variable = { which = oxbridge_symposium value = 1 }
 			}
 		}
 	}
 }
+
+# Emperor - Votes for Women (by James Beaumont)
+country_event = {
+	id = flavor_eng.99
+	title = flavor_eng.99.t
+	desc = flavor_eng.99.d
+	picture = wihgfx_FEMALE_GENERAL_eventPicture
 	
+	fire_only_once = yes
+	
+	trigger = {
+		capital_scope = {
+			region = british_isles_region
+		}
+		OR = {
+			culture_group = british
+			culture_group = gaelic
+			primary_culture = anglois
+			primary_culture = anglosaxon
+		}
+		has_reform = revolutionary_republic_reform
+	}
+
+	mean_time_to_happen = {
+		years = 2
+	}
+	
+	option = {
+		name = flavor_eng.99.a
+		add_country_modifier = {
+			name = sister_suffragettes
+			duration = -1
+		}
+	}
+	
+	option = {
+		name = flavor_eng.99.b
+		add_country_modifier = {
+			name = sexist_revolution
+			duration = 3650
+		}
+	}
+}

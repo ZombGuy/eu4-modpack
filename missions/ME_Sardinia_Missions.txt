@@ -57,7 +57,7 @@ sardinia_missions_1 = {
 			127 = {
 				add_province_modifier = {
 					name = sar_psthudorra
-					duration = -1 
+					duration = 10950
 				}
 			}
 		}
@@ -83,7 +83,7 @@ sardinia_missions_1 = {
 			333 = {
 				add_permanent_province_modifier = {
 					name = gen_pine_timber
-					duration = -1 
+					duration = -1
 				}
 			}
 		}
@@ -129,7 +129,7 @@ sardinia_missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = sar_crusade_against_piracy
-				duration = -1 
+				duration = 7300
 			}
 			tunisia_area = {
 				limit = {
@@ -207,18 +207,18 @@ sardinia_missions_1 = {
 			}
 			add_country_modifier = {
 				name = sar_piracy_defeaten
-				duration = -1 
+				duration = 9125
 			}
 			341 = {
 				add_province_modifier = {
 					name = sar_purification_land
-					duration = -1 
+					duration = 7300
 				}
 			}
 			338 = {
 				add_province_modifier = {
 					name = sar_purification_land
-					duration = -1 
+					duration = 7300
 				}
 			}
 		}
@@ -383,7 +383,7 @@ sardinia_missions_2 = {
 		effect = {
 			add_country_modifier = {
 				name = sar_reconnection
-				duration = -1 
+				duration = 9125
 			}
 		}
 	}
@@ -423,21 +423,21 @@ sardinia_missions_2 = {
 			tooltip = {
 				add_country_modifier = {
 					name = sar_genoese_marines
-					duration = -1 
+					duration = 5475
 				}
 			}
 			custom_tooltip = SAR_NAVAL_PISA_TT
 			tooltip = {
 				add_country_modifier = {
 					name = sar_pisan_help
-					duration = -1 
+					duration = 5475
 				}
 			}
 			custom_tooltip = SAR_NAVAL_TT
 			tooltip = {
 				add_country_modifier = {
 					name = sar_iscola_navale
-					duration = -1 
+					duration = 5475
 				}
 			}
 			hidden_effect = {
@@ -465,7 +465,7 @@ sardinia_missions_2 = {
 					}
 					add_country_modifier = {
 						name = sar_genoese_marines
-						duration = -1 
+						duration = 5475
 					}
 				}
 				if = {
@@ -481,7 +481,7 @@ sardinia_missions_2 = {
 					}
 					add_country_modifier = {
 						name = sar_pisan_help
-						duration = -1 
+						duration = 7300
 					}
 					liguria_area = {
 						limit = {
@@ -510,7 +510,7 @@ sardinia_missions_2 = {
 					}
 					add_country_modifier = {
 						name = sar_iscola_navale
-						duration = -1 
+						duration = 9125
 					}
 				}
 			}
@@ -583,13 +583,13 @@ sardinia_missions_2 = {
 				}
 				add_province_modifier = {
 					name = sar_beauty_sicily
-					duration = -1 
+					duration = 9125
 				}
 			}
 			western_sicily_area = {
 				add_province_modifier = {
 					name = sar_beauty_sicily
-					duration = -1 
+					duration = 9125
 				}
 			}
 		}
@@ -614,7 +614,7 @@ sardinia_missions_2 = {
 			341 = {
 				add_trade_modifier = {
 					who = ROOT
-					duration = -1 
+					duration = 7300
 					power = 15
 					key = sar_sicilian_fortress
 				}
@@ -690,7 +690,7 @@ sardinia_missions_3 = {
 			}
 			add_country_modifier = {
 				name = sar_steadiness
-				duration = -1 
+				duration = 5475
 			}
 		}
 	}
@@ -763,7 +763,7 @@ sardinia_missions_3 = {
 			hidden_effect = {
 				add_country_modifier = {
 					name = sar_conquest_piedmont
-					duration = -1 
+					duration = -1
 				}
 			}
 		}
@@ -789,7 +789,7 @@ sardinia_missions_3 = {
 			hidden_effect = { complete_mission = sav_dual_cities }
 			add_country_modifier = {
 				name = sar_new_mediterranean_power
-				duration = -1 
+				duration = 3650
 			}
 		}
 	}
@@ -935,7 +935,7 @@ sardinia_missions_4 = {
 			}
 			add_country_modifier = {
 				name = sar_resurgence
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -959,7 +959,7 @@ sardinia_missions_4 = {
 		effect = {
 			add_country_modifier = {
 				name = sar_sardinian_renaissance
-				duration = -1 
+				duration = 9125
 			}
 		}
 	}
@@ -990,7 +990,7 @@ sardinia_missions_4 = {
 			127 = {
 				add_permanent_province_modifier = {
 					name = sar_saxum
-					duration = -1 
+					duration = -1
 				}
 			}
 		}
@@ -1066,19 +1066,19 @@ sardinia_missions_5 = {
 			127 = {
 				add_province_modifier = {
 					name = sar_zuighe
-					duration = -1 
+					duration = 18250
 				}
 			}
 			4735 = {
 				add_province_modifier = {
 					name = sar_zuighe
-					duration = -1 
+					duration = 18250
 				}
 			}
 			2986 = {
 				add_province_modifier = {
 					name = sar_zuighe
-					duration = -1 
+					duration = 18250
 				}
 			}
 		}
@@ -1118,7 +1118,7 @@ sardinia_missions_5 = {
 			4735 = {
 				add_province_modifier = {
 					name = sar_afforte_arbaree
-					duration = -1 
+					duration = 18250
 				}
 			}
 		}
@@ -1137,7 +1137,7 @@ sardinia_missions_5 = {
 		effect = {
 			add_country_modifier = {
 				name = sar_renewed_economy
-				duration = -1 
+				duration = 18250
 			}
 		}
 	}

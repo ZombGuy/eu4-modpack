@@ -96,7 +96,6 @@ POL_king_of_bohemia = {
 }
 
 POL_additional_privileges = {
-	noble_privilege_slots = 0.01 #GE
 }
 
 POL_privileges_confirmed = {

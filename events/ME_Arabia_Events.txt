@@ -267,7 +267,14 @@ country_event = {
 		ME_become_caliphate_effect = yes
 	}
 	
-	
+	option = {
+		name = ME_Arabia_Events.6.b
+		
+		ai_chance = { factor = 100 }
+		
+		#ME_become_caliphate_effect = yes
+		custom_tooltip = ARB_nothing_will_happen
+	}
 }
 
 country_event = {
@@ -865,7 +872,6 @@ country_event = {
 				event_target_name = "Arabia_Target"
 				global_trigger = "
 					has_tax_building_trigger = yes
-					NOT = { trade_goods = carpet }
 					NOT = {
 						OR = {
 							has_province_modifier = MAM_upgraded_granary
@@ -901,38 +907,17 @@ country_event = {
 		ai_chance = { factor = 100 }
 		
 		event_target:Arabia_Target_1 = {
-			if = {
-				limit = {
-					is_expanded_mod_active = { mod = trade_goods }
-				}
-				change_trade_goods = carpet
-			}
-			else = { 
-				change_trade_goods = cloth
-			}
+			change_trade_goods = cloth
 			add_permanent_province_modifier = {
 				name = ARB_carpets
 				duration = -1
 			}
 		}
-		if = {
-			limit = {
-				is_expanded_mod_active = { mod = trade_goods }
-			}
-			change_price = {
-				trade_goods = carpet
-				key = ARB_carpet_bonus
-				value = 1
-				duration = 7300
-			}
-		}
-		else = {
-			change_price = {
-				trade_goods = cloth
-				key = ARB_carpet_bonus
-				value = 0.25
-				duration = 7300
-			}
+		change_price = {
+			trade_goods = cloth
+			key = ARB_carpet_bonus
+			value = 0.25
+			duration = 7300
 		}
 	}
 	
@@ -942,38 +927,17 @@ country_event = {
 		ai_chance = { factor = 0 }
 		
 		event_target:Arabia_Target_2 = {
-			if = {
-				limit = {
-					is_expanded_mod_active = { mod = trade_goods }
-				}
-				change_trade_goods = carpet
-			}
-			else = { 
-				change_trade_goods = cloth
-			}
+			change_trade_goods = cloth
 			add_permanent_province_modifier = {
 				name = ARB_carpets
 				duration = -1
 			}
 		}
-		if = {
-			limit = {
-				is_expanded_mod_active = { mod = trade_goods }
-			}
-			change_price = {
-				trade_goods = carpet
-				key = ARB_carpet_bonus
-				value = 1
-				duration = 7300
-			}
-		}
-		else = {
-			change_price = {
-				trade_goods = cloth
-				key = ARB_carpet_bonus
-				value = 0.25
-				duration = 7300
-			}
+		change_price = {
+			trade_goods = cloth
+			key = ARB_carpet_bonus
+			value = 0.25
+			duration = 7300
 		}
 	}
 	
@@ -983,38 +947,17 @@ country_event = {
 		ai_chance = { factor = 0 }
 		
 		event_target:Arabia_Target_3 = {
-			if = {
-				limit = {
-					is_expanded_mod_active = { mod = trade_goods }
-				}
-				change_trade_goods = carpet
-			}
-			else = { 
-				change_trade_goods = cloth
-			}
+			change_trade_goods = cloth
 			add_permanent_province_modifier = {
 				name = ARB_carpets
 				duration = -1
 			}
 		}
-		if = {
-			limit = {
-				is_expanded_mod_active = { mod = trade_goods }
-			}
-			change_price = {
-				trade_goods = carpet
-				key = ARB_carpet_bonus
-				value = 1
-				duration = 7300
-			}
-		}
-		else = {
-			change_price = {
-				trade_goods = cloth
-				key = ARB_carpet_bonus
-				value = 0.25
-				duration = 7300
-			}
+		change_price = {
+			trade_goods = cloth
+			key = ARB_carpet_bonus
+			value = 0.25
+			duration = 7300
 		}
 	}
 	
@@ -1024,38 +967,17 @@ country_event = {
 		ai_chance = { factor = 0 }
 		
 		event_target:Arabia_Target_4 = {
-			if = {
-				limit = {
-					is_expanded_mod_active = { mod = trade_goods }
-				}
-				change_trade_goods = carpet
-			}
-			else = { 
-				change_trade_goods = cloth
-			}
+			change_trade_goods = cloth
 			add_permanent_province_modifier = {
 				name = ARB_carpets
 				duration = -1
 			}
 		}
-		if = {
-			limit = {
-				is_expanded_mod_active = { mod = trade_goods }
-			}
-			change_price = {
-				trade_goods = carpet
-				key = ARB_carpet_bonus
-				value = 1
-				duration = 7300
-			}
-		}
-		else = {
-			change_price = {
-				trade_goods = cloth
-				key = ARB_carpet_bonus
-				value = 0.25
-				duration = 7300
-			}
+		change_price = {
+			trade_goods = cloth
+			key = ARB_carpet_bonus
+			value = 0.25
+			duration = 7300
 		}
 	}
 	
@@ -1065,38 +987,17 @@ country_event = {
 		ai_chance = { factor = 0 }
 		
 		event_target:Arabia_Target_5 = {
-			if = {
-				limit = {
-					is_expanded_mod_active = { mod = trade_goods }
-				}
-				change_trade_goods = carpet
-			}
-			else = { 
-				change_trade_goods = cloth
-			}
+			change_trade_goods = cloth
 			add_permanent_province_modifier = {
 				name = ARB_carpets
 				duration = -1
 			}
 		}
-		if = {
-			limit = {
-				is_expanded_mod_active = { mod = trade_goods }
-			}
-			change_price = {
-				trade_goods = carpet
-				key = ARB_carpet_bonus
-				value = 1
-				duration = 7300
-			}
-		}
-		else = {
-			change_price = {
-				trade_goods = cloth
-				key = ARB_carpet_bonus
-				value = 0.25
-				duration = 7300
-			}
+		change_price = {
+			trade_goods = cloth
+			key = ARB_carpet_bonus
+			value = 0.25
+			duration = 7300
 		}
 	}
 	

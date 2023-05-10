@@ -32,7 +32,7 @@ Styria_missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = "thriving_arms_industry"
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}

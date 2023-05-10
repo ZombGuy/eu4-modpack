@@ -75,7 +75,7 @@ LombardyVenetia_missions_1 = {
 			hidden_effect = {
 				add_country_modifier = {
 					name = lvn_accepted_cultures
-					duration = -1 
+					duration = -1
 				}
 			}
 			add_accepted_culture_or_dip_power = { culture = piedmontese }
@@ -233,7 +233,7 @@ LombardyVenetia_missions_2 = {
 			104 = {
 				add_permanent_province_modifier = {
 					name = lvn_teulie
-					duration = -1 
+					duration = 7300
 				}
 			}
 		}
@@ -774,13 +774,13 @@ LombardyVenetia_missions_4 = {
 			101 = {
 				add_permanent_province_modifier = {
 					name = lvn_marina_grande
-					duration = -1 
+					duration = 7300
 				}
 			}
 			112 = {
 				add_permanent_province_modifier = {
 					name = lvn_marina_grande
-					duration = -1 
+					duration = 7300
 				}
 			}
 		}
@@ -899,7 +899,7 @@ LombardyVenetia_missions_4 = {
 			}
 			add_country_modifier = {
 				name = lvn_challenging_berbers
-				duration = -1 
+				duration = 9125
 			}
 		}
 	}
@@ -1053,32 +1053,11 @@ LombardyVenetia_missions_5 = {
 			}
 		}
 		effect = {
-			if = {
-				limit = {
-					is_expanded_mod_active = { mod = trade_goods }
-				}
-				custom_tooltip = DARSENA_LVN_TT
-				tooltip = {
-					add_permanent_province_modifier = {
-						name = lvn_darsena
-						duration = -1 
-					}
-				}
-				custom_tooltip = INDUSTRIALISATION_LVN_TT
-				tooltip = {
-					add_province_modifier = {
-						name = lvn_industrialisation_sprint
-						duration = -1 
-					}
-				}
-			}
-			else = {
-				custom_tooltip = INDUSTRIALISATION_LVN_NON_TGE_TT
-				tooltip = {
-					add_province_modifier = {
-						name = lvn_industrialisation_sprint
-						duration = -1 
-					}
+			custom_tooltip = INDUSTRIALISATION_LVN_NON_TGE_TT
+			tooltip = {
+				add_province_modifier = {
+					name = lvn_industrialisation_sprint
+					duration = 18250
 				}
 			}
 			hidden_effect = {
@@ -1093,26 +1072,9 @@ LombardyVenetia_missions_5 = {
 							province_id = 113
 						}
 					}
-					if = {
-						limit = {
-							is_expanded_mod_active = { mod = trade_goods }
-							OR = {
-								trade_goods = rice
-								trade_goods = olive_oil
-								trade_goods = cheese
-								trade_goods = potato
-							}
-						}
-						add_permanent_province_modifier = {
-							name = lvn_darsena
-							duration = -1 
-						}
-					}
-					else = {
-						add_province_modifier = {
-							name = lvn_industrialisation_sprint
-							duration = -1 
-						}
+					add_province_modifier = {
+						name = lvn_industrialisation_sprint
+						duration = 18250
 					}
 				}
 			}

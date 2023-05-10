@@ -179,7 +179,7 @@ RMN_missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = romania_constantinople_regained
-				duration = -1 
+				duration = -1
 			}
 			add_prestige = 50
 			northern_greece_area = {
@@ -236,7 +236,7 @@ RMN_missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = romania_conversion_modifier
-				duration = -1 
+				duration = 3650
 			}
 			hudavendigar_area = {
 				limit = {
@@ -304,7 +304,7 @@ RMN_missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = romania_conversion_modifier
-				duration = -1 
+				duration = 3650
 			}
 			germiyan_area = {
 				limit = {
@@ -383,7 +383,7 @@ RMN_missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = romania_conversion_modifier
-				duration = -1 
+				duration = 3650
 			}
 			aleppo_area = {
 				limit = {
@@ -426,7 +426,7 @@ RMN_missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = romania_conversion_modifier
-				duration = -1 
+				duration = 3650
 			}
 			palestine_area = {
 				limit = {
@@ -455,7 +455,7 @@ RMN_missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = romania_conversion_modifier
-				duration = -1 
+				duration = 3650
 			}
 			add_prestige = 50
 		}
@@ -553,7 +553,7 @@ RMN_missions_2 = {
 		effect = {
 			add_country_modifier = {
 				name = romania_defeated_nomads_modifier
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -634,7 +634,7 @@ RMN_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = romania_dominate_trade_modifier
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -663,7 +663,7 @@ RMN_missions_4 = {
 			add_prestige = 5
 			add_country_modifier = {
 				name = romania_proper_developed
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -720,7 +720,7 @@ RMN_missions_4 = {
 		effect = {
 			add_country_modifier = {
 				name = romania_proper_defended
-				duration = -1 
+				duration = 3650
 			}
 		}
 	}
@@ -741,7 +741,7 @@ RMN_missions_4 = {
 		effect = {
 			add_country_modifier = {
 				name = romania_dominate_trade_modifier
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -770,7 +770,7 @@ RMN_missions_4 = {
 			add_prestige = 25
 			add_country_modifier = {
 				name = romania_golden_age_modifier
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -798,7 +798,7 @@ RMN_missions_5 = {
 		effect = {
 			add_country_modifier = {
 				name = romania_find_allies_modifier
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -813,7 +813,7 @@ RMN_missions_5 = {
 		effect = {
 			add_country_modifier = {
 				name = romania_fleet_expansion
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -835,7 +835,7 @@ RMN_missions_5 = {
 			add_prestige = 10
 			add_country_modifier = {
 				name = romania_undefeated_fleet
-				duration = -1 
+				duration = 3650
 			}
 		}
 	}

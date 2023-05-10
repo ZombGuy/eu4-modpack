@@ -34,7 +34,7 @@ BEI_missions_1 = {
 			capital_scope = {
 				add_province_modifier = {
 					name = BEI_humble_rise_to_greatness
-					duration = -1 
+					duration = 9125
 				}
 			}
 			set_country_flag = BEI_rise_of_brunei
@@ -68,7 +68,7 @@ BEI_missions_1 = {
 				}
 				add_province_modifier = {
 					name = BEI_islamization
-					duration = -1 
+					duration = 10950
 				}
 			}
 			custom_tooltip = BEI_convert_sambas
@@ -184,7 +184,7 @@ BEI_missions_1 = {
 			1361 = {
 				add_trade_modifier = {
 					who = ROOT
-					duration = -1 
+					duration = 10950
 					power = 25
 					key = BEI_controlling_the_strait
 				}
@@ -224,7 +224,7 @@ BEI_missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = BEI_western_seas_secured
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -269,7 +269,7 @@ BEI_missions_2 = {
 				}
 				add_province_modifier = {
 					name = BEI_islamization
-					duration = -1 
+					duration = 10950
 				}
 			}
 			kutai_area = {
@@ -278,7 +278,7 @@ BEI_missions_2 = {
 				}
 				add_province_modifier = {
 					name = BEI_islamization
-					duration = -1 
+					duration = 10950
 				}
 			}
 			custom_tooltip = BEI_convert_kutai
@@ -331,7 +331,7 @@ BEI_missions_2 = {
 				}
 				add_province_modifier = {
 					name = BEI_islamization
-					duration = -1 
+					duration = 10950
 				}
 			}
 			custom_tooltip = BEI_convert_banjar
@@ -365,7 +365,7 @@ BEI_missions_2 = {
 			set_government_rank = 3 #empire
 			add_country_modifier = {
 				name = BEI_bruneian_empire_modifier
-				duration = -1 
+				duration = -1
 			}
 			MSA_colonies_in_borneo = yes
 		}
@@ -424,7 +424,7 @@ BEI_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = BEI_victory_over_seludong
-				duration = -1 
+				duration = 10950
 			}
 			add_prestige_or_monarch_power = { amount = 15 }
 		}
@@ -473,7 +473,7 @@ BEI_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = BEI_lordship_over_phillipines
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -514,7 +514,7 @@ BEI_missions_3 = {
 			tooltip = {
 				add_country_modifier = {
 					name = BEI_safe_passage
-					duration = -1 
+					duration = 7300
 				}
 			}
 			hidden_effect = {
@@ -524,7 +524,7 @@ BEI_missions_3 = {
 					}
 					add_country_modifier = {
 						name = BEI_safe_passage
-						duration = -1 
+						duration = 7300
 					}
 				}
 			}
@@ -554,7 +554,7 @@ BEI_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = BEI_eastern_seas_secured
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -576,7 +576,7 @@ BEI_missions_3 = {
 				remove_country_modifier = BEI_western_seas_secured
 				add_country_modifier = {
 					name = BEI_seas_secured
-					duration = -1 
+					duration = -1
 				}
 			}
 			MSA_malaya_effect = yes
@@ -753,7 +753,7 @@ BEI_missions_4 = {
 			}
 			add_country_modifier = {
 				name = BEI_muslim_center
-				duration = -1 
+				duration = 9125
 			}
 		}
 	}
@@ -818,7 +818,7 @@ BEI_missions_5 = {
 			636 = {
 				add_province_modifier = {
 					name = BEI_sultan_alis_legacy
-					duration = -1 
+					duration = -1
 				}
 			}
 		}
@@ -847,7 +847,7 @@ BEI_missions_5 = {
 			636 = {
 				add_province_modifier = {
 					name = BEI_heyday
-					duration = -1 
+					duration = -1
 				}
 				if = {
 					limit = {
@@ -878,7 +878,7 @@ BEI_missions_5 = {
 		effect = {
 			add_country_modifier = {
 				name = BEI_camphor_trade
-				duration = -1 
+				duration = 9125
 			}
 			country_event = { id = ME_Brunei_Events.3 }
 			add_mercantilism = 3

@@ -1,0 +1,290 @@
+estate_dhimmi_manpower = {
+	icon = privilege_demand_more_troops
+	land_share = 5
+	max_absolutism = -5
+	conditional_modifier = { trigger = { has_absolutism_reduction_for_estate_privileges = yes } modifier = { max_absolutism = 1 } }
+	loyalty = -0.05
+	influence = 0.05
+	is_valid = {
+		any_owned_province = {
+			NOT = { religion_group = root }
+		}
+	}
+	can_select = {		
+		NOT = { has_estate_privilege = estate_janissary_strict_devshirme_recruitment }
+	}
+	on_granted = {
+		if = {
+			limit = {
+				has_country_flag = GRA_strengthen_the_dhimmi_privilege_flag
+			}
+			custom_tooltip = GRA_estate_dhimmi_manpower_effect_tooltip
+		}
+		else = {
+			custom_tooltip = estate_dhimmi_manpower_effect_tooltip
+		}
+	}
+	on_granted_province = {
+		if = {
+			limit = {
+				has_country_flag = GRA_strengthen_the_dhimmi_privilege_flag
+			}
+			if = {
+				limit = {
+					NOT = { religion_group = root }
+				}
+				add_province_modifier = {
+					name = GRA_estate_dhimmi_manpower_mod
+					duration = -1
+				}
+			}
+			else_if = {
+				limit = {
+					has_province_modifier = GRA_estate_dhimmi_manpower_mod
+				}
+				remove_province_modifier = GRA_estate_dhimmi_manpower_mod
+			}
+		}
+		else = {
+			if = {
+				limit = {
+					NOT = { religion_group = root }
+				}
+				add_province_modifier = {
+					name = estate_dhimmi_manpower_mod
+					duration = -1
+				}
+			}
+			else_if = {
+				limit = {
+					has_province_modifier = estate_dhimmi_manpower_mod
+				}
+				remove_province_modifier = estate_dhimmi_manpower_mod
+			}
+		}
+	}
+	on_revoked = {
+		if = {
+			limit = {
+				has_country_flag = GRA_strengthen_the_dhimmi_privilege_flag
+			}
+			custom_tooltip = GRA_estate_dhimmi_manpower_revoke_effect_tooltip
+		}
+		else = {
+			custom_tooltip = estate_dhimmi_manpower_revoke_effect_tooltip
+		}
+	}
+	on_revoked_province = {
+		if = {
+			limit = {
+				has_country_flag = GRA_strengthen_the_dhimmi_privilege_flag
+			}
+			if = {
+				limit = {
+					has_province_modifier = GRA_estate_dhimmi_manpower_mod
+				}
+				remove_province_modifier = GRA_estate_dhimmi_manpower_mod
+			}
+		}
+		else = {
+			if = {
+				limit = {
+					has_province_modifier = estate_dhimmi_manpower_mod
+				}
+				remove_province_modifier = estate_dhimmi_manpower_mod
+			}
+		}
+	}
+	on_invalid = {
+		if = {
+			limit = {
+				has_country_flag = GRA_strengthen_the_dhimmi_privilege_flag
+			}
+			custom_tooltip = GRA_estate_dhimmi_manpower_revoke_effect_tooltip
+		}
+		else = {
+			custom_tooltip = estate_dhimmi_manpower_revoke_effect_tooltip
+		}
+	}
+	on_invalid_province = {
+		if = {
+			limit = {
+				has_country_flag = GRA_strengthen_the_dhimmi_privilege_flag
+			}
+			if = {
+				limit = {
+					has_province_modifier = GRA_estate_dhimmi_manpower_mod
+				}
+				remove_province_modifier = GRA_estate_dhimmi_manpower_mod
+			}
+		}
+		else = {
+			if = {
+				limit = {
+					has_province_modifier = estate_dhimmi_manpower_mod
+				}
+				remove_province_modifier = estate_dhimmi_manpower_mod
+			}
+		}
+	}
+	conditional_modifier = {
+		trigger = { has_government_mechanic = russian_modernization_mechanic }
+		modifier = { monthly_russian_modernization = -0.03 }
+	}
+	#conditional_modifier = {
+	#	trigger = { has_government_mechanic = ottoman_decadence_mechanic }
+	#	modifier = { monthly_ottoman_decadence = 0.02 }
+	#}
+	penalties = {
+	}
+	benefits = {
+	}
+	ai_will_do = {
+		factor = 0
+	}
+}
+
+estate_dhimmi_dhimmi_nobles = {
+	icon = privilege_promoto_dhimmi_nobles
+	max_absolutism = -5
+	conditional_modifier = { trigger = { has_absolutism_reduction_for_estate_privileges = yes } modifier = { max_absolutism = 1 } }
+	loyalty = 0.05
+	influence = 0.05
+	penalties = {
+	}
+	benefits = {
+		free_leader_pool = 1
+	}
+	conditional_modifier = {
+		trigger = {
+			NOT = { has_global_flag = neo_sufism }
+		}
+		modifier = {
+			church_loyalty_modifier = -0.05
+			nobles_loyalty_modifier = -0.05
+		}
+	}
+	conditional_modifier = {
+		trigger = {
+			has_global_flag = neo_sufism
+		}
+		modifier = {
+			church_loyalty_modifier = -0.1
+			nobles_loyalty_modifier = -0.1
+		}
+	}
+	conditional_modifier = {
+		trigger = { has_government_mechanic = russian_modernization_mechanic }
+		modifier = { monthly_russian_modernization = -0.03 }
+	}
+	#conditional_modifier = {
+	#	trigger = { has_government_mechanic = ottoman_decadence_mechanic }
+	#	modifier = { monthly_ottoman_decadence = 0.02 }
+	#}
+	ai_will_do = {
+		factor = 0
+	}
+}
+
+estate_dhimmi_guaranteed_autonomy = {
+	icon = privilege_grant_autonomy
+	max_absolutism = -5
+	conditional_modifier = { trigger = { has_absolutism_reduction_for_estate_privileges = yes } modifier = { max_absolutism = 1 } }
+	loyalty = 0.05
+	influence = 0.05
+	is_valid = {
+		any_owned_province = {
+			NOT = { religion_group = root }
+		}
+		NOT = { has_unlocked_estate_privilege = { estate_privilege = estate_dhimmi_guarantee_of_traditions } }
+	}
+	on_granted = {
+		custom_tooltip = estate_dhimmi_guaranteed_autonomy_effect_tooltip
+		hidden_effect = {
+			set_country_flag = dhimmi_tolerates_wrong_religion
+		}
+	}
+	on_granted_province = {
+		if = {
+			limit = {
+				NOT = { religion_group = root }
+			}
+			add_province_modifier = {
+				name = estate_dhimmi_guaranteed_autonomy_mod
+				duration = -1
+			}
+		}
+		else_if = {
+			limit = {
+				has_province_modifier = estate_dhimmi_guaranteed_autonomy_mod
+			}
+			remove_province_modifier = estate_dhimmi_guaranteed_autonomy_mod
+		}
+	}
+	on_revoked = {
+		custom_tooltip = estate_dhimmi_guaranteed_autonomy_revoke_effect_tooltip
+		hidden_effect = {
+			clr_country_flag = dhimmi_tolerates_wrong_religion
+		}
+	}
+	on_revoked_province = {
+		if = {
+			limit = {
+				has_province_modifier = estate_dhimmi_guaranteed_autonomy_mod
+			}
+			remove_province_modifier = estate_dhimmi_guaranteed_autonomy_mod
+		}
+	}
+	on_invalid = {
+		custom_tooltip = estate_dhimmi_guaranteed_autonomy_revoke_effect_tooltip
+		hidden_effect = {
+			clr_country_flag = dhimmi_tolerates_wrong_religion
+		}
+	}
+	on_invalid_province = {
+		if = {
+			limit = {
+				has_province_modifier = estate_dhimmi_guaranteed_autonomy_mod
+			}
+			remove_province_modifier = estate_dhimmi_guaranteed_autonomy_mod
+		}
+	}
+	penalties = {
+	}
+	benefits = {
+	}
+	conditional_modifier = {
+		trigger = { has_government_attribute = free_guarantee_dhimmi_autonomy }
+		modifier = {
+			max_absolutism = 5
+			dhimmi_influence_modifier = -0.05
+		}
+	}
+	conditional_modifier = {
+		trigger = { has_government_mechanic = russian_modernization_mechanic }
+		modifier = { monthly_russian_modernization = -0.03 }
+	}
+	#conditional_modifier = {
+	#	trigger = { has_government_mechanic = ottoman_decadence_mechanic }
+	#	modifier = { monthly_ottoman_decadence = 0.02 }
+	#}
+	ai_will_do = {
+		factor = 1000
+		modifier = {
+			factor = 0
+			NOT = {
+				any_owned_province = {
+					NOT = { religion_group = ROOT }
+				}
+			}
+		}
+		modifier = {
+			factor = 0
+			is_subject = yes
+			overlord = {
+				religion = ROOT
+				has_idea_group = religious_ideas
+			}
+		}
+	}
+}

@@ -141,7 +141,7 @@ northumberland_missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = northumberland_england_modifier
-				duration = -1 
+				duration = 10950
 			}
 		}
 	}
@@ -283,7 +283,7 @@ northumberland_missions_3 = {
 			add_mil_power = 50
 			add_country_modifier = {
 				name = northumberland_army_buildings
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -298,7 +298,7 @@ northumberland_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = northumberland_army_tradition_modifier
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -368,7 +368,7 @@ northumberland_missions_4 = {
 			add_years_of_income = 2
 			add_country_modifier = {
 				name = northumberland_production_buildings
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -393,7 +393,7 @@ northumberland_missions_4 = {
 			add_dip_power = 50
 			add_country_modifier = {
 				name = northumberland_trade_buildings
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -429,7 +429,7 @@ northumberland_missions_5 = {
 			add_yearly_sailors = 3
 			add_country_modifier = {
 				name = northumberland_naval_buildings
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -444,7 +444,7 @@ northumberland_missions_5 = {
 		effect = {
 			add_country_modifier = {
 				name = northumberland_navy_tradition_modifier
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}

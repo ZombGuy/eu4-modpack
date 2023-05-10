@@ -841,6 +841,7 @@ country_event = {
 					}
 					GRA_can_convert_to_sephardic_trigger = yes
 					NOT = { has_province_flag = GRA_chosen_for_event }
+					NOT = { is_colony = yes }
 				}
 				save_event_target_as = Granada_jewish_province_3
 				set_province_flag = GRA_chosen_for_event
@@ -1872,7 +1873,7 @@ country_event = {
 	is_triggered_only = yes 
 	
 	option = {
-		name = ME_Granada_Events.34.a
+		name = ME_Granada_Events.34.b
 		
 		ai_chance = {
 			factor = 1 
@@ -1887,7 +1888,7 @@ country_event = {
 	}
 	
 	option = {
-		name = ME_Granada_Events.34.b
+		name = ME_Granada_Events.34.a
 		
 		ai_chance = {
 			factor = 1 

@@ -3,8 +3,8 @@
 ###Missions###
  swi_protect_cantons_title: "Defend the Cantons"
  swi_protect_cantons_desc: "The cantons are administrative divisions that comprise our wealthy confederation, thus, it is our duty to defend them from foreign threat"
- swi_three_leagues_title: "Raetia"
- swi_three_leagues_desc: "Historically encompassing most of the Alps, Raetia is ours as we are part of the region. It is imperative for us to claim it as naturally ours"
+ swi_three_leagues_title: "Integration of Raetia"
+ swi_three_leagues_desc: "Historically encompassing most of the Alps, Raetia is ours as we are part of the region. It is imperative for us to claim it as naturally ours."
  swi_federal_diet_title: "The Federal Diet"
  swi_federal_diet_desc: "Organized around 1500, the Tagsatzung is a legislative council where our cantons gather for important disscussions, it is best to practice this diet for the sake of our republic"
  swi_defend_alps_title: "Defend the Alps"
@@ -63,10 +63,16 @@
  swi_choice_freedom_foods_desc: "'To sum up briefly: if you want to fast, do so; if you do not want to eat meat, don’t eat it; but allow Christians a free choice. If you are a person of leisure, you should fast often and abstain from food that excites you; the worker moderates his desires by hoeing and plowing in the field. You say, ‘but the idlers will eat meat without needing to.’ The answer is that these very same people fill themselves with even richer foods, which enflame them even more than the highly-seasoned highly-spiced meats...' \n\nThus, the debate over the dietary habits of Christians, sparked the beginning of the Reformation in Switzerland." 
  swi_avoid_religious_division_title: "Articles of Religion" 
  swi_avoid_religious_division_desc: "Despite our differences in religious matters, the basis of every citizen of Switzerland is their national identity. We must strive to unite our prayers, across all religions that may survive or thrive within our borders however we see fit."  
+ swi_fortress_title: "National Redoubt"
+ swi_fortress_desc: "The precious mountain hinterland needs to be protected at all costs. Let us make a line of fortifications all around our country to serve as our ultimate defense."
  
  #Custom Tooltips#
+ SWI_when_we_have_2_stab: "For as long as we have at least §Y2§! Stability, we will gain §G-10.0%§! Development Cost and §G-25.0%§! Stability Cost Modifier."
+ SWI_enable_the_peace_in_the_cantons: "Enable the '§YPeace in the Cantons§!' Estate Privilege for the §Y[Root.GetBurghersName]§! Estate, with the following effects:"
+ SWI_fortification_expert_advisor: "'§YFortification Expert§!' Advisor Type will now additionally provide §G+5.0%§! Garrison Size per Advisor Level."
+ SWI_for_as_long_as_maintained_forts: "For as long as we own all of §YSwitzerland§! and §YRomandie§! areas and gain §G+1.00§! Yearly Army Tradition from §YMaintained Forts§! bonus, we will also gain the following:\n  Owned Territory Dice Roll Bonus: §G+1.00§!"
  swi_had_canton_event_tt: "Has had the '§YThe Swiss Confederation§!' event"
- swi_period_of_stability_tt: "until we fall below §Y2§! stability" 
+ swi_period_of_stability_tt: "for as long as we have at least §Y2§! Stability" 
  swi_all_subject_lib_desire_tt: "All §YSubjects§! have less than 5% liberty desire"
  swi_every_province_with_fort_1_manpower_tt: "Every owned province with a §GFortification§! gains §G1 Base Manpower Development§!"
  swi_complement_reward_tt: "\nIf we have completed '§YDefensive Ideas§!' the above modifier will be complimented"
@@ -74,30 +80,45 @@
  swi_compliment_modifier_if_ige_merc_exists_tt: "\nIf we have activated §MIdea Groups Expanded§! and its Mercenary Army Idea Group's '§YStandarized Contractors§!' idea, the above modifier will be complimented"
  swi_activate_home_guard_swi_tt: "Activates the Republican Swiss Guard §YMercenary Company§!"
  swi_applies_to_every_mountain_15_tt: "Every owned mountain province with at least §G15 Development§! gets '§YNational Expansion Plan§!' until the end of the game, giving the following effects: \nLocal Manpower Modifier: §G+20%§! \nLocal Hostile Movement Speed: §R-33%§!"
- swi_prosperous_romandie_tt: "Our capital area is prosperous"
- swi_tolerant_catholic_trigger_tt: "Is Catholic and has at least §G3§! Tolerance of Heretics"
+ swi_prosperous_romandie_tt: "Our §YCapital Area§! is §YProspering§!"
+ swi_tolerant_catholic_trigger_tt: "Is §YCatholic§! and has at least §G3§! Tolerance of Heretics"
  swi_based_on_the_development_of_our_capital_tt: "based on the development of our §Ycapital§!" 
  swi_2_years_income_from_cloth_tt: "from our provinces that produce §YCloth§!"
  swi_capital_venture: "Swiss Capital Venture"
  swi_income_from_silver_tt: "from our Silver production"
  swi_enable_cantons_tt: "Enables the §YCanton§! subject type which can be established either via diplomacy or military means. \nEach Canton will grant Republican Tradition and you may only have 4 Cantons at one time.\n\n§MPlease note that Paradox's Aggressive Expansion calculation is wack and will display greatly inflated numbers when it comes to establishing a Canton via a peacedeal option when in reality the actual AE will be far far less!§!"
  swi_relations_with_heretics: "Every §RHeretic§! country will gain §G25§! opinion of us"
+ SWI_make_canton: "Make §Y[This.GetName]§! into §YCanton§!, if it isn't one."
+ SWI_if_done_via_subjugation: "§YReward§! if the mission has been completed by §MSubjugation§!:"
+ SWI_if_done_via_direct_ownership: "§YReward§! if the mission has been completed by §MOwnership§!:"
+ SWI_if_done_via_ownership: "§YReward§! if the mission has been completed by §MOwnership§!:"
+ SWI_if_done_via_diplomacy: "§YReward§! if the mission has been completed by §MDiplomacy§!:"
+ SWI_if_not_catholic: "§YReward§! if the mission has been completed by §Mnot§! being §MCatholic§!:"
+ SWI_if_catholic_and_counter_reformation: "§YReward§! if the mission has been completed by §MCounterreformation§!:"
+ SWI_if_catholic_and_tolerant: "§YReward§! if the mission has been completed by §MCatholic Tolerance§!:"
+ SWI_if_catholic: "§YReward§! if the mission has been completed by §MCatholic§!"
+ SWI_we_will_request: "§GEvent Insight§!:\n\nWe will §Yrequest§! the provinces to be §Yceded§! to us. An §YAI§! player is very likely to accept."
+ SWI_every_canton: "Every §YSubject§! Country that is a §YCanton§!:"
+ SWI_event_insight: "§GEvent Insight§!:"
+ mlo_attract_swiss_elite_merc_tt: "We will be able to employ the §YRoyal Elite Swiss Guard§! Mercenary Company"
  
  #Modifiers#
  swi_period_of_stability_modifier: "Period of Stability"
  swi_swiss_linen_industry_modifier: "Swiss Linen Industry"
  swi_swiss_cheese_modifier: "Swiss Cheese Production"
  swi_direct_democracy_modifier: "Direct Democracy"
- swi_the_swiss_defense_modifier: "The Swiss Defense"
- swi_the_swiss_defense_modifier2: "The Swiss Defense"
+ swi_the_swiss_defense_modifier: "The Alpine Doctrine"
+ # swi_the_swiss_defense_modifier2: "The Swiss Defense"
  swi_founded_basel_university_modifier: "Founded the Basel University & Library"
  swi_accept_culture_modifier: "Swiss Cultural Acceptance"
  swi_swiss_mercenaries_modifier: "Swiss Mercenaries"
  swi_swiss_mercenaries_modifier2: "Swiss Mercenaries" 
  swi_immigrant_citizenship_modifier: "Immigrant Citizenship"
  swi_invasion_of_italy_modifier: "Invasion of Italy"
+ SWI_integration_of_graubunden: "Integration of the Graubünden"
  swi_regional_diets_modifier: "Regional Diets"
  swi_eidgenossenschaft_modifier: "Eidgenossenschaft"
+ swi_national_expansion_plan_modifier: "National Expansion Plan"
  swi_prosperous_community_modifier: "Prosperous Community" 
  swi_booming_home_node_modifier: "Booming Home Node"
  swi_prosperity_in_the_cantons_modifier: "Prosperity in the Cantons" 
@@ -120,6 +141,7 @@
  FU_Switzerland_Events.1.t: "Manufacturing & Trading of Swiss Embroidery" 
  FU_Switzerland_Events.1.d: "St. Gallen embroidery, sometimes known as Swiss embroidery, is embroidery from the city and the region of St. Gallen, Switzerland. Around [GetYear], its embroidery production was the largest export branch of the Swiss economy with 18 percent of the overall export value. The Swiss embroidery factories will eventually come to produce more than 50 percent of the world production due to its workers' tremendous skills and trade secrets, for centuries." 
  FU_Switzerland_Events.1.a: "Darling, you look fabulous!"
+ FU_Switzerland_Events.1.b: "But not that fabulous."
  
  FU_Switzerland_Events.2.t: "Swiss Cheese" 
  FU_Switzerland_Events.2.d: "Said to be discovered around the Neolithic Age, the Swiss Cheese became one of the proudest products in the said region. It was first recorded by Pliny the Elder around the first century, which he describes as "Caseus Helveticus". Switzerland has been a cheese hub since the Middle Ages and, like many European countries, it has always taken its culinary reputation very seriously. And in many ways, that seriousness has actually hindered its international appeal. A heavily government-subsidized organization called the Swiss Cheese Union enjoyed complete control over both production and export throughout much of the industrialized 18th and 19th centuries, dictating in no uncertain terms exactly how, where, and when Switzerland’s cheeses could be made. In the name of economic virility, the Union threw practically all of its weight behind just three top-sellers out of the country’s many beloved heritage styles—earthy, nutty Gruyère; the fragrant, Parmesan-like Sbrinz, and Emmentaler, better known as “the one with the holes.” (Appenzeller, a semi-hard cheese used in fondue, would join the pack later.) This effectively rendered the unapproved varieties obsolete and gave the rest of the world a very narrow understanding of Swiss cheesemaking." 
@@ -139,6 +161,9 @@
  FU_Switzerland_Events.5.a: "Let us move forward, together."
  
  
+ #Estate Privs
+ ME_estate_burghers_SWI_peace_in_the_cantons: "Peace in the Cantons"
+ ME_estate_burghers_SWI_peace_in_the_cantons_desc: "Our policy of peace and development has lead to the formation of a real confederacy, where all cantons are equal and cooperative."
  
  
  
@@ -158,7 +183,40 @@
  
  
  
+  
+ request_canton_title: "Establish Canton"
+ request_canton_desc: "Send an invitation to the representatives of this country, aiming at integrating their cities as part of our Confederation."
+ request_canton_tooltip: "Send an invitation to the representatives of this country, aiming at integrating their cities as part of our Confederation."
+ ATTITUDE_CANTON: "Attitude towards us"
+ MARRIAGE_CANTON: "Royal Marriage"
+ TRUST_CANTON: "Trust"
+ REPUTATION_CANTON: "Diplomatic Reputation" 
+ RANK_CANTON: "Difference in Government Rank" 
+ cancel_canton_title: "Kick from Confederation"
+ cancel_canton_desc: "Let us get rid of these unruly elements and preserve the prosperity of our Confederation."
+ cancel_canton_tooltip: "Will remove this country from our Confederation \n\n§RYou will lose 25 Prestige§!"
  
+ 
+ make_canton_desc: "They will be forcefully made into a Canton, a member of our Confederation!"
+ CB_ALLOWED_make_canton: "Forceful Entry in the Confederation"
+ PEACE_make_canton: "Become $TAKERS$ Canton"
+ 
+ canton_title: "Canton" 
+ canton_title_plural: "Cantons"
+ canton_long_desc: "A Canton is a member states of the Swiss Confederation. United by the common creed to protect their people, Cantons agree to let their absolute independence go, in favor of retaining control as well as the safety of their people."
+ 
+ 
+
+ canton_is_our: "§Y$NAME$§! is our Canton."
+ canton_no_overlord_dow: "You cannot declare war on your own Canton."
+ canton_overlord_title: "Leader of the Swiss Confederation"
+ 
+ SIZE_CANTON: "Size of the Swiss Confederation"
+ ATTITUDE_CANTON: "Attitude towards us" 
+ OPINION_CANTON: "Opinion of us" 
+ RELIGION_CANTON: "Different Religion Group" 
+ SAME_GROUP_DIFFERENT_RELIGION_CANTON: "Different Religion"
+ ARMY_CANTON: "Army size" 
  
  
  

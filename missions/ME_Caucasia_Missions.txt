@@ -31,7 +31,7 @@ caucasia_missions_1 = {
 				}
 				add_province_modifier = {
 					name = caucasia_plight_of_the_azerbaijani_province_modifier
-					duration = -1 
+					duration = -1
 				}
 			}
 		}
@@ -63,7 +63,7 @@ caucasia_missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = caucasia_defensive_innovation_modifier
-				duration = -1 
+				duration = 9125
 			}
 		}
 	}
@@ -84,7 +84,7 @@ caucasia_missions_1 = {
 			add_mercantilism = 5
 			add_country_modifier = {
 				name = caucasia_dominance_of_samarkand_modifier
-				duration = -1 
+				duration = 10950
 			}
 		}
 	}
@@ -126,19 +126,19 @@ caucasia_missions_2 = {
 			423 = {
 				add_province_modifier = {
 					name = caucasia_bastion_of_the_caucasus_province_modifier
-					duration = -1 
+					duration = 9125
 				}
 			}
 			2204 = {
 				add_province_modifier = {
 					name = caucasia_bastion_of_the_caucasus_province_modifier
-					duration = -1 
+					duration = 9125
 				}
 			}
 			422 = {
 				add_province_modifier = {
 					name = caucasia_bastion_of_the_caucasus_province_modifier
-					duration = -1 
+					duration = 9125
 				}
 			}
 		}
@@ -227,7 +227,7 @@ caucasia_missions_2 = {
 		effect = {
 			add_country_modifier = {
 				name = caucasia_strike_at_the_mongols_modifier
-				duration = -1 
+				duration = 10950
 			}
 		}
 	}
@@ -275,7 +275,7 @@ caucasia_missions_2 = {
 		effect = {
 			add_country_modifier = {
 				name = caucasia_bend_the_silk_road_modifier
-				duration = -1 
+				duration = 10950
 			}
 			419 = {
 				if = {
@@ -345,7 +345,7 @@ caucasia_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = caucasia_true_unity_modifier
-				duration = -1 
+				duration = 10950
 			}
 			2447 = {
 				if = {
@@ -417,13 +417,13 @@ caucasia_missions_3 = {
 				change_trade_goods = fish
 				add_province_modifier = {
 					name = caucasia_expel_the_westerners_province_modifier
-					duration = -1 
+					duration = 10950
 				}
 			}
 			284 = {
 				add_province_modifier = {
 					name = caucasia_expel_the_westerners_province_modifier
-					duration = -1 
+					duration = 10950
 				}
 			}
 		}
@@ -461,7 +461,7 @@ caucasia_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = caucasia_caucasian_dominion_modifier
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -498,7 +498,7 @@ caucasia_missions_3 = {
 			330 = {
 				add_province_modifier = {
 					name = caucasia_a_rear_threat_province_modifier
-					duration = -1 
+					duration = 5475
 				}
 			}
 		}
@@ -529,7 +529,7 @@ caucasia_missions_3 = {
 					}
 					add_province_modifier = {
 						name = caucasia_none_shall_pass_province_modifier
-						duration = -1 
+						duration = 10950
 					}
 				}
 			}
@@ -540,7 +540,7 @@ caucasia_missions_3 = {
 					}
 					add_province_modifier = {
 						name = caucasia_none_shall_pass_province_modifier
-						duration = -1 
+						duration = 10950
 					}
 				}
 			}
@@ -551,7 +551,7 @@ caucasia_missions_3 = {
 					}
 					add_province_modifier = {
 						name = caucasia_none_shall_pass_province_modifier
-						duration = -1 
+						duration = 10950
 					}
 				}
 			}
@@ -562,7 +562,7 @@ caucasia_missions_3 = {
 					}
 					add_province_modifier = {
 						name = caucasia_none_shall_pass_province_modifier
-						duration = -1 
+						duration = 10950
 					}
 				}
 			}
@@ -579,7 +579,7 @@ caucasia_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = caucasia_the_black_navy_modifier
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -664,7 +664,7 @@ caucasia_missions_4 = {
 		effect = {
 			add_country_modifier = {
 				name = caucasia_caucasia_federated_modifier
-				duration = -1 
+				duration = 10950
 			}
 		}
 	}
@@ -691,13 +691,13 @@ caucasia_missions_4 = {
 				}
 				add_country_modifier = {
 					name = caucasia_head_of_caucasia_modifier_1
-					duration = -1 
+					duration = 10950
 				}
 			}
 			else = {
 				add_country_modifier = {
 					name = caucasia_head_of_caucasia_modifier_2
-					duration = -1 
+					duration = 10950
 				}
 			}
 		}
@@ -759,7 +759,7 @@ caucasia_missions_4 = {
 		effect = {
 			add_country_modifier = {
 				name = caucasia_isfahan_campaign_modifier
-				duration = -1 
+				duration = 7300
 			}
 			isfahan_area = {
 				limit = {
@@ -806,7 +806,7 @@ caucasia_missions_4 = {
 					428 = {
 						add_province_modifier = {
 							name = caucasia_mountain_toll_province_modifier
-							duration = -1 
+							duration = -1
 						}
 					}
 				}
@@ -814,7 +814,7 @@ caucasia_missions_4 = {
 					capital_scope = {
 						add_province_modifier = {
 							name = caucasia_mountain_toll_province_modifier
-							duration = -1 
+							duration = -1
 						}
 					}
 				}
@@ -855,7 +855,7 @@ caucasia_missions_5 = {
 		effect = {
 			add_country_modifier = {
 				name = caucasia_national_heresy_modifier
-				duration = -1 
+				duration = 18250
 			}
 		}
 	}
@@ -903,19 +903,19 @@ caucasia_missions_5 = {
 			kartli_kakheti_area = {
 				add_province_modifier = {
 					name = caucasia_georgian_union_province_modifier
-					duration = -1 
+					duration = -1
 				}
 			}
 			imereti_area = {
 				add_province_modifier = {
 					name = caucasia_georgian_union_province_modifier
-					duration = -1 
+					duration = -1
 				}
 			}
 			samtskhe_area = {
 				add_province_modifier = {
 					name = caucasia_georgian_union_province_modifier
-					duration = -1 
+					duration = -1
 				}
 			}
 		}
@@ -937,7 +937,7 @@ caucasia_missions_5 = {
 			add_mercantilism = 3
 			add_country_modifier = {
 				name = caucasia_persian_dominance_modifier
-				duration = -1 
+				duration = 10950
 			}
 		}
 	}

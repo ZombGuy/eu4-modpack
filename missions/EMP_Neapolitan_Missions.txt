@@ -77,7 +77,7 @@ emp_naples_1 = {
 		effect = {
 			add_country_modifier = {
 				name = "naples_dotf_modifier"
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -155,7 +155,7 @@ emp_naples_2 = {
 		effect = {
 			add_country_modifier = {
 				name = "nap_italian_wars_modifier"
-				duration = -1 
+				duration = -1
 			}
 		}
 		ai_weight = {
@@ -199,7 +199,7 @@ emp_naples_2 = {
 			else = {
 				add_country_modifier = {
 					name = "nap_ragusa_trade"
-					duration = -1 
+					duration = 7300
 				}
 			}
 		}
@@ -425,7 +425,7 @@ emp_naples_3 = {
 		effect = {
 			add_country_modifier = {
 				name = "nap_liberty_desire"
-				duration = -1 
+				duration = -1
 			}
 		}
 		ai_weight = {
@@ -588,7 +588,7 @@ emp_naples_4 = {
 		effect = {
 			add_country_modifier = {
 				name = "nap_barbary_pirates"
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -675,15 +675,7 @@ emp_naples_5 = {
 			}
 		}
 		effect = {
-			if = {
-				limit = {
-					is_revolutionary = no
-				}
-				add_absolutism = 15
-			}
-			else = {
-				add_revolutionary_zeal = 15
-			}
+			add_revolutionary_zeal_or_absolutism = { amount = 15 }
 		}
 	}
 	emp_nap_neapolitan_governance = {

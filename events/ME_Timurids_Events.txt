@@ -24,12 +24,6 @@ country_event = {
 		swap_non_generic_missions = yes	
 		custom_tooltip = " "
 		custom_tooltip = me_tim_horde
-		hidden_effect = {
-			ME_tim_add_spoils_of_war = { add = 50 }
-			capital_scope = {
-				add_province_triggered_modifier = ME_tim_sow_check
-			}
-		}
 	}
 
 	option = {
@@ -41,6 +35,12 @@ country_event = {
 		custom_tooltip = me_tim_modify_timurid_gov_for_vassal
 		hidden_effect = {
 			add_government_reform = timurid_empire_upgraded
+			every_subject_country = {
+				limit = {
+					has_reform = timurid_governor
+				}
+				add_government_reform = timurid_governor_upgraded
+			}
 		}
 		custom_tooltip = " "
 		swap_non_generic_missions = yes	

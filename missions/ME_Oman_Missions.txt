@@ -48,7 +48,7 @@ OMA_missions_1 = {
 			add_accepted_culture_or_dip_power = { culture = mahri_culture }
 			add_country_modifier = {
 				name = OMA_mahri_culture
-				duration = -1
+				duration = -1 
 			}
 			
 			ARB_claims_yemen = yes
@@ -77,7 +77,7 @@ OMA_missions_1 = {
 				create_or_add_center_of_trade_level = { level = 1 }
 				add_trade_modifier = {
 					who = ROOT
-					duration = -1
+					duration = 9125
 					power = 15
 					key = OMA_suqutra_modifier
 				}
@@ -137,7 +137,7 @@ OMA_missions_2 = {
 			#Bayah received
 			add_country_modifier = {
 				name = OMA_bayah_received
-				duration = -1
+				duration = 7300
 			}
 		}
 	}

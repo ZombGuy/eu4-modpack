@@ -27,6 +27,8 @@ on_raid_coast = {
 			value = 1
 		}
 	}
+	
+	# ME Stuff
 	if = { 
 		limit = { has_country_flag = nss_raid_for_pp_flag } 
 		add_power_projection = {

@@ -50,6 +50,7 @@ country_decisions = {
 				}
 				NOT = { exists = ADE }
 				NOT = { exists = RAS }
+				NOT = { exists = YEM }
 			}
 			else_if = {
 				limit = {
@@ -57,6 +58,7 @@ country_decisions = {
 				}
 				NOT = { exists = YEM }
 				NOT = { exists = RAS }
+				NOT = { exists = RSL }
 			}
 			else_if = {
 				limit = {
@@ -64,11 +66,13 @@ country_decisions = {
 				}
 				NOT = { exists = ADE }
 				NOT = { exists = YEM }
+				NOT = { exists = RSL }
 			}
 			else = { #neither
 				NOT = { exists = ADE }
 				NOT = { exists = YEM }
 				NOT = { exists = RAS }
+				NOT = { exists = RSL }
 			}
 			owns_core_province = 387	# Mocha
 			owns_core_province = 388	# Aden
@@ -77,7 +81,7 @@ country_decisions = {
 		}
 		effect = {
 			change_tag = YEM
-		
+			on_change_tag_effect = yes
 			swap_non_generic_missions = yes
 			remove_non_electors_emperors_from_empire_effect = yes
 			if = {

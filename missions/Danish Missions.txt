@@ -46,7 +46,7 @@ danish_missions_kalmar = {
 		effect = {
 			add_country_modifier = {
 				name = "denmark_norway_united"
-				duration = -1 
+				duration = 5475
 			}
 			if = {
 				limit = {
@@ -140,7 +140,7 @@ danish_missions_kalmar = {
 		effect = {
 			add_country_modifier = {
 				name = "united_scandinavia"
-				duration = -1 
+				duration = 5475
 			}
 			scandinavia_region = {
 				limit = {
@@ -286,7 +286,7 @@ danish_missions_baltic = {
 		effect = {
 			add_country_modifier = {
 				name = "baltic_ambition_new"
-				duration = -1 
+				duration = 5475
 			}
 		}
 		ai_weight = {

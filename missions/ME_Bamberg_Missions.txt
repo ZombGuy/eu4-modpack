@@ -37,7 +37,7 @@ BAM_missions_1 = {
 			66 = {
 				add_province_modifier = {
 					name = BAM_rome
-					duration = -1 
+					duration = -1
 				}
 			}
 		}
@@ -65,16 +65,7 @@ BAM_missions_1 = {
 			66 = {
 				add_province_modifier = {
 					name = BAM_beer
-					duration = -1 
-				}
-			}
-			if = {
-				limit = {
-					66 = { trade_goods = beer }
-				}
-				add_province_modifier = {
-					name = BAM_beer_2
-					duration = -1 
+					duration = -1
 				}
 			}
 			add_prestige_or_monarch_power = { amount = 25 }
@@ -103,7 +94,7 @@ BAM_missions_1 = {
 			66 = {
 				add_province_modifier = {
 					name = BAM_leading_the_peasants
-					duration = -1 
+					duration = -1
 				}
 			}
 		}
@@ -147,7 +138,7 @@ BAM_missions_5 = {
 			66 = {
 				add_province_modifier = {
 					name = BAM_residence_of_the_bishops
-					duration = -1 
+					duration = 9125
 				}
 			}
 		}

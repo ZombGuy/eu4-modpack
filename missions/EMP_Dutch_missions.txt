@@ -56,7 +56,7 @@ emp_ned_slot1_branch = {
 			}
 			add_country_modifier = {
 				name = "ned_ceylon_mod"
-				duration = -1 
+				duration = "5475"
 			}
 		}
 	}
@@ -143,7 +143,7 @@ emp_ned_slot1_branch = {
 			taiwan_area = {
 				add_province_modifier = {
 					name = "ned_zeelandia_mod"
-					duration = -1 
+					duration = "-1"
 				}
 				add_base_tax = 2
 				add_base_production = 2
@@ -171,7 +171,7 @@ emp_ned_slot1_branch = {
 			1376 = {
 				add_trade_modifier = {
 					who = ROOT
-					duration = -1 
+					duration = 5475
 					power = 50
 					key = DUTCH_DEJIMA
 				}
@@ -280,7 +280,7 @@ emp_ned_slot2_branch = {
 		effect = {
 			add_country_modifier = {
 				name = ned_security_on_and_from_the_sea
-				duration = -1 
+				duration = 5475
 			}
 			add_navy_tradition = 15
 		}
@@ -345,7 +345,7 @@ emp_ned_slot2_branch = {
 		effect = {
 			add_country_modifier = {
 				name = "ned_fixed_garrisons"
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -398,7 +398,7 @@ emp_ned_slot2_ned_branch = {
 		effect = {
 			add_country_modifier = {
 				name = "ned_leiden_faculty"
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -451,7 +451,7 @@ emp_ned_slot2_ned_fla_branch = {
 		effect = {
 			add_country_modifier = {
 				name = "ned_leiden_faculty"
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -548,7 +548,7 @@ emp_ned_slot2_indies_branch = {
 		effect = {
 			add_country_modifier = {
 				name = "por_johor_dominance"
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -584,7 +584,7 @@ emp_ned_slot2_indies_branch = {
 			1357 = {
 				add_trade_modifier = {
 					who = root
-					duration = -1 
+					duration = 7300
 					power = 50
 					key = DUTCH_EAST_INDIES_TRADE
 				}
@@ -592,7 +592,7 @@ emp_ned_slot2_indies_branch = {
 			1361 = {
 				add_trade_modifier = {
 					who = root
-					duration = -1 
+					duration = 7300
 					power = 50
 					key = DUTCH_EAST_INDIES_TRADE
 				}
@@ -640,7 +640,7 @@ emp_ned_slot3_branch = {
 		effect = {
 			add_country_modifier = {
 				name = "ned_sea_beggar_activity"
-				duration = -1 
+				duration = 5475
 			}
 		}
 	}
@@ -706,7 +706,7 @@ emp_ned_slot3_branch = {
 		effect = {
 			add_country_modifier = {
 				name = ned_dutch_overseas_trade
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -732,7 +732,7 @@ emp_ned_slot3_branch = {
 		effect = {
 			add_country_modifier = {
 					name = ned_west_indies_charter
-					duration = -1 
+					duration = 7300
 			}
 		}
 	}
@@ -790,9 +790,15 @@ emp_ned_slot3_branch = {
 				colonial_australia = {
 					has_discovered = ROOT
 				}
+				trade_company_indonesia = {
+					has_discovered = ROOT
+				}
+				trade_company_moluccas = {
+					has_discovered = ROOT
+				}
 			}
 		}
-
+		
 		effect = {
 			create_admiral = {
 				tradition = 80
@@ -852,7 +858,7 @@ emp_ned_slot4_branch = { # Statists
 			if = {
 				limit = {
 					OR = {
-						has_reform = dutch_republic
+						has_government_attribute = has_dutch_election
 						has_reform = states_general_reform
 					}
 				}
@@ -861,7 +867,7 @@ emp_ned_slot4_branch = { # Statists
 			else_if = {
 				limit = {
 					government = republic
-					NOT = { has_reform = dutch_republic }
+					NOT = { has_government_attribute = has_dutch_election }
 				}
 				add_republican_tradition = 10
 			}
@@ -881,7 +887,7 @@ emp_ned_slot4_branch = { # Statists
 			if = {
 				limit = {
 					OR = {
-						has_reform = dutch_republic
+						has_government_attribute = has_dutch_election
 						has_reform = states_general_reform
 					}
 				}
@@ -890,7 +896,7 @@ emp_ned_slot4_branch = { # Statists
 			else_if = {
 				limit = {
 					government = republic
-					NOT = { has_reform = dutch_republic }
+					NOT = { has_government_attribute = has_dutch_election }
 				}
 				add_republican_tradition = 15
 			}
@@ -924,12 +930,12 @@ emp_ned_slot4_branch = { # Statists
 		effect = {
 			add_country_modifier = {
 				name = ned_distributed_tax_burden
-				duration = -1 
+				duration = 5475
 			}
 			if = {
 				limit = {
 					OR = {
-						has_reform = dutch_republic
+						has_government_attribute = has_dutch_election
 						has_reform = states_general_reform
 					}
 				}
@@ -938,7 +944,7 @@ emp_ned_slot4_branch = { # Statists
 			else_if = {
 				limit = {
 					government = republic
-					NOT = { has_reform = dutch_republic }
+					NOT = { has_government_attribute = has_dutch_election }
 				}
 				add_republican_tradition = 15
 			}
@@ -1034,7 +1040,7 @@ emp_ned_slot4_branch = { # Statists
 			if = {
 				limit = {
 					OR = {
-						has_reform = dutch_republic
+						has_government_attribute = has_dutch_election
 						has_reform = states_general_reform
 					}
 				}
@@ -1043,7 +1049,7 @@ emp_ned_slot4_branch = { # Statists
 			else_if = {
 				limit = {
 					government = republic
-					NOT = { has_reform = dutch_republic }
+					NOT = { has_government_attribute = has_dutch_election }
 				}
 				add_republican_tradition = 20
 			}
@@ -1061,12 +1067,12 @@ emp_ned_slot4_branch = { # Statists
 		effect = {
 			add_country_modifier = {
 				name = "ned_dutch_free_trade"
-				duration = -1 
+				duration = -1
 			}
 			if = {
 				limit = {
 					OR = {
-						has_reform = dutch_republic
+						has_government_attribute = has_dutch_election
 						has_reform = states_general_reform
 					}
 				}
@@ -1075,7 +1081,7 @@ emp_ned_slot4_branch = { # Statists
 			else_if = {
 				limit = {
 					government = republic
-					NOT = { has_reform = dutch_republic }
+					NOT = { has_government_attribute = has_dutch_election }
 				}
 				add_republican_tradition = 20
 			}
@@ -1142,7 +1148,7 @@ emp_ned_slot4_colony_branch = {
 			add_prestige = 15
 			add_country_modifier = {
 				name = "the_unknown_frontier"
-				duration = -1 
+				duration = 5475
 			}
 		}
 	}
@@ -1192,7 +1198,7 @@ emp_ned_slot4_colony_branch = {
 		effect = {
 			add_country_modifier = {
 				name = "por_brazil_colonial"
-				duration = -1 
+				duration = 5475
 			}
 		}
 	}
@@ -1237,7 +1243,7 @@ emp_ned_slot5_branch = { # Orangists
 			if = {
 				limit = {
 					OR = {
-						has_reform = dutch_republic
+						has_government_attribute = has_dutch_election
 						has_reform = states_general_reform
 					}
 				}
@@ -1266,7 +1272,7 @@ emp_ned_slot5_branch = { # Orangists
 			if = {
 				limit = {
 					OR = {
-						has_reform = dutch_republic
+						has_government_attribute = has_dutch_election
 						has_reform = states_general_reform
 					}
 				}
@@ -1313,7 +1319,7 @@ emp_ned_slot5_branch = { # Orangists
 			if = {
 				limit = {
 					OR = {
-						has_reform = dutch_republic
+						has_government_attribute = has_dutch_election
 						has_reform = states_general_reform
 					}
 				}
@@ -1373,7 +1379,7 @@ emp_ned_slot5_branch = { # Orangists
 			1269 = {
 				add_trade_modifier = {
 					who = root
-					duration = -1 
+					duration = 7300
 					power = 30
 					key = DUTCH_CHANNEL_SUPREMACY
 				}
@@ -1381,7 +1387,7 @@ emp_ned_slot5_branch = { # Orangists
 			if = {
 				limit = {
 					OR = {
-						has_reform = dutch_republic
+						has_government_attribute = has_dutch_election
 						has_reform = states_general_reform
 					}
 				}
@@ -1432,7 +1438,7 @@ emp_ned_slot5_branch = { # Orangists
 			if = {
 				limit = {
 					OR = {
-						has_reform = dutch_republic
+						has_government_attribute = has_dutch_election
 						has_reform = states_general_reform
 					}
 				}
@@ -1447,7 +1453,7 @@ emp_ned_slot5_branch = { # Orangists
 			}
 			add_country_modifier = {
 				name = ned_je_maintiendrai_mod
-				duration = -1 
+				duration = 9125
 			}
 		}
 	}
@@ -1523,7 +1529,7 @@ emp_ned_slot5_colony_branch = {
 			}
 			add_country_modifier = {
 				name = "ned_brazil_mod"
-				duration = -1 
+				duration = 5475
 			}
 		}
 	}

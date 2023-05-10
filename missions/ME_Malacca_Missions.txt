@@ -138,7 +138,7 @@ MLC_missions_1 = {
 			home_trade_node_effect_scope = {
 				add_trade_modifier = {
 					who = ROOT
-					duration = -1 
+					duration = 10950
 					power = 20
 					key = MSA_brunei_sultanate
 				}
@@ -230,7 +230,7 @@ MLC_missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = MLC_firearms_imported
-				duration = -1 
+				duration = 9125
 			}
 		}
 	}
@@ -253,7 +253,7 @@ MLC_missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = MLC_pioneering_new_cannon_technologies
-				duration = -1 
+				duration = 10950
 			}
 			add_mil_power = 50
 		}
@@ -319,7 +319,7 @@ MLC_missions_2 = {
 			}
 			add_country_modifier = {
 				name = MLC_enforcing_zealotry
-				duration = -1 
+				duration = 9125
 			}
 			minangkabau_area = {
 				limit = {
@@ -392,7 +392,7 @@ MLC_missions_2 = {
 		effect = {
 			add_country_modifier = {
 				name = MLC_srivijaya
-				duration = -1 
+				duration = -1
 			}
 			add_accepted_culture_or_dip_power = { culture = sumatran }
 			east_java_area = {
@@ -556,7 +556,7 @@ MLC_missions_3 = {
 			add_mil_power = 25
 			add_country_modifier = {
 				name = MLC_quest_for_hegemony
-				duration = -1 
+				duration = 9125
 			}
 		}
 	}
@@ -767,12 +767,12 @@ MLC_missions_4 = {
 			tenasserim_area = {
 				add_province_modifier = {
 					name = MLC_integrating_the_panhandle
-					duration = -1 
+					duration = 9125
 				}
 			}
 			add_country_modifier = {
 				name = MLC_siam_defeated
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -808,7 +808,7 @@ MLC_missions_4 = {
 		effect = {
 			add_country_modifier = {
 				name = MLC_foreign_merchants_in_our_lands
-				duration = -1 
+				duration = 10950
 			}
 			add_mercantilism = 2
 		}
@@ -886,7 +886,7 @@ MLC_missions_4 = {
 			tooltip = {
 				add_country_modifier = {
 					name = MLC_diplomats
-					duration = -1 
+					duration = 9125
 				}
 				add_dip_power = 50
 			}
@@ -894,7 +894,7 @@ MLC_missions_4 = {
 			tooltip = {
 				add_country_modifier = {
 					name = MLC_harm_to_injury
-					duration = -1 
+					duration = 7300
 				}
 				add_mil_power = 50
 			}
@@ -902,7 +902,7 @@ MLC_missions_4 = {
 			tooltip = {
 				add_country_modifier = {
 					name = MLC_careful_distancing
-					duration = -1 
+					duration = 9125
 				}
 				add_adm_power = 50
 			}
@@ -916,7 +916,7 @@ MLC_missions_4 = {
 					}
 					add_country_modifier = {
 						name = MLC_diplomats
-						duration = -1 
+						duration = 9125
 					}
 					add_dip_power = 50
 				}
@@ -929,14 +929,14 @@ MLC_missions_4 = {
 					}
 					add_country_modifier = {
 						name = MLC_harm_to_injury
-						duration = -1 
+						duration = 7300
 					}
 					add_mil_power = 50
 				}
 				else = {
 					add_country_modifier = {
 						name = MLC_careful_distancing
-						duration = -1 
+						duration = 9125
 					}
 					add_adm_power = 50
 				}
@@ -1102,7 +1102,7 @@ MLC_missions_5 = {
 			596 = {
 				add_province_modifier = {
 					name = MLC_entrepot
-					duration = -1 
+					duration = -1
 				}
 			}
 		}
@@ -1190,32 +1190,32 @@ MLC_missions_5 = {
 			tooltip = {
 				add_province_modifier = {
 					name = MLC_golden_peninsula_modifier
-					duration = -1 
+					duration = -1
 				}
 			}
 			hidden_effect = {
 				malaya_area = {
 					add_province_modifier = {
 						name = MLC_golden_peninsula_modifier
-						duration = -1 
+						duration = -1
 					}
 				}
 				johor_area = {
 					add_province_modifier = {
 						name = MLC_golden_peninsula_modifier
-						duration = -1 
+						duration = -1
 					}
 				}
 				north_malaya_area = {
 					add_province_modifier = {
 						name = MLC_golden_peninsula_modifier
-						duration = -1 
+						duration = -1
 					}
 				}
 				malacca_area = {
 					add_province_modifier = {
 						name = MLC_golden_peninsula_modifier
-						duration = -1 
+						duration = -1
 					}
 				}
 			}
@@ -1228,26 +1228,15 @@ MLC_missions_5 = {
 		position = 7
 		trigger = {
 			master_of_mint = 1
-			if = {
-				limit = {
-					is_expanded_mod_active = { mod = trade_goods }
-				}
-				any_owned_province = {
-					trade_goods = tin
-					has_production_building_trigger = yes
-				}
-			}
-			else = {
-				any_owned_province = {
-					trade_goods = copper
-					has_production_building_trigger = yes
-				}
+			any_owned_province = {
+				trade_goods = copper
+				has_production_building_trigger = yes
 			}
 		}
 		effect = {
 			add_country_modifier = {
 				name = MLC_tin_ingots
-				duration = -1 
+				duration = 9125
 			}
 			custom_tooltip = MLC_if_we_have_level_2_mom
 			hidden_effect = {

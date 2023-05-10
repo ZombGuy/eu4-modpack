@@ -23,6 +23,10 @@ ME_caliphate_reform_sunni = {
 	custom_attributes = {
 		locked_government_type = yes
 	}
+	
+	government_abilities = {
+		caliphal_authority_mechanic
+	}
 
 	assimilation_cultures = {
 		maghrebi = {
@@ -81,6 +85,10 @@ ME_caliphate_reform_sunni_andalusia = {
 	custom_attributes = {
 		locked_government_type = yes
 	}
+	
+	government_abilities = {
+		caliphal_authority_mechanic
+	}
 
 	assimilation_cultures = {
 		maghrebi = {
@@ -133,6 +141,10 @@ ME_caliphate_reform_sunni_arabian = {
 		locked_government_type = yes
 	}
 
+	government_abilities = {
+		caliphal_authority_mechanic
+	}
+	
 	assimilation_cultures = {
 		maghrebi = {
 			land_attrition = -0.1
@@ -189,6 +201,10 @@ ME_caliphate_reform_shia_ibadi = {
 
 	custom_attributes = {
 		locked_government_type = yes
+	}
+	
+	government_abilities = {
+		caliphal_authority_mechanic
 	}
 
 	assimilation_cultures = {

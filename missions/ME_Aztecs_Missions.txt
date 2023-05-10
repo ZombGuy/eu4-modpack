@@ -75,7 +75,7 @@ aztecs_2 = {
 			}
 			add_country_modifier = {
 				name = azt_north
-				duration = -1 
+				duration = 7300
 			}
 			jalisco_area = {
 				limit = {
@@ -136,7 +136,7 @@ aztecs_2 = {
 			add_adm_power = 100
 			add_country_modifier = {
 				name = azt_techwoke1
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -167,7 +167,7 @@ aztecs_3 = {
 					}
 					add_province_modifier = {
 						name = alliance_city
-						duration = -1 
+						duration = -1
 					}
 				}
 			}
@@ -178,7 +178,7 @@ aztecs_3 = {
 					}
 					add_province_modifier = {
 						name = alliance_city
-						duration = -1 
+						duration = -1
 					}
 				}
 			}
@@ -189,7 +189,7 @@ aztecs_3 = {
 					}
 					add_province_modifier = {
 						name = alliance_city
-						duration = -1 
+						duration = -1
 					}
 				}
 			}
@@ -227,7 +227,7 @@ aztecs_3 = {
 			}
 			add_country_modifier = {
 				name = azt_flower_warsME
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -241,7 +241,7 @@ aztecs_3 = {
 		effect = {
 			add_country_modifier = {
 				name = azt_blood_for_the_blood_gods1
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -257,7 +257,7 @@ aztecs_3 = {
 			add_mil_power = 100
 			add_country_modifier = {
 				name = azt_prepare_ME_Aztecs_Events
-				duration = -1 
+				duration = 7300
 			}
 			country_event = { id = ME_Aztecs_Events.4 }
 		}
@@ -286,7 +286,7 @@ aztecs_3 = {
 				
 				add_country_modifier = {
 					name = ME_azt_ME_Aztecs_Events
-					duration = -1 
+					duration = -1
 				}
 			}
 			change_technology_group = high_american

@@ -136,15 +136,6 @@ country_decisions = {
 		}
 		effect = {
 			set_country_flag = RHN_serfdom_used
-			if = {
-				limit = {
-					is_expanded_mod_active = { mod = governments }
-				}
-				add_country_modifier = {
-					name = RHN_abolished_serfdom
-					duration = -1
-				}
-			}
 			custom_tooltip = RHN_transfer_10_percent_dev
 			hidden_effect = {
 				set_variable = {

@@ -38,7 +38,7 @@ SUM_generic_missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = SUM_army_modifier
-				duration = -1 
+				duration = 7300
 			}
 			custom_tooltip = SUM_when_both_are_completed
 			
@@ -80,7 +80,7 @@ SUM_generic_missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = SUM_capital_of_srivijaya_conquered
-				duration = -1 
+				duration = 10950
 			}
 			add_adm_power = 100
 		}
@@ -253,7 +253,7 @@ SUM_generic_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = SUM_navy_modifier
-				duration = -1 
+				duration = 7300
 			}
 			custom_tooltip = SUM_when_both_are_completed
 			hidden_effect = {
@@ -295,7 +295,7 @@ SUM_generic_missions_3 = {
 			1361 = {
 				add_trade_modifier = {
 					who = ROOT
-					duration = -1 
+					duration = 9125
 					power = 15
 					key = MKS_gateway
 				}
@@ -384,7 +384,7 @@ SUM_generic_missions_4 = {
 		effect = {
 			add_country_modifier = {
 				name = SUM_sumatran_architecture
-				duration = -1 
+				duration = 10950
 			}
 			
 			capital_scope = {
@@ -416,44 +416,44 @@ SUM_generic_missions_4 = {
 			tooltip = {
 				add_province_modifier = {
 					name = SUM_generic_suvarnadvipa_modifier
-					duration = -1 
+					duration = -1
 				}
 			}
 			hidden_effect = {
 				central_sumatra_area = {
 					add_province_modifier = {
 						name = SUM_generic_suvarnadvipa_modifier
-						duration = -1 
+						duration = -1
 					}
 				}
 				jambi_area = {
 					add_province_modifier = {
 						name = SUM_generic_suvarnadvipa_modifier
-						duration = -1 
+						duration = -1
 					}
 				}
 				minangkabau_area = {
 					add_province_modifier = {
 						name = SUM_generic_suvarnadvipa_modifier
-						duration = -1 
+						duration = -1
 					}
 				}
 				north_sumatra_area = {
 					add_province_modifier = {
 						name = SUM_generic_suvarnadvipa_modifier
-						duration = -1 
+						duration = -1
 					}
 				}
 				south_sumatra_area = {
 					add_province_modifier = {
 						name = SUM_generic_suvarnadvipa_modifier
-						duration = -1 
+						duration = -1
 					}
 				}
 				batak_area = {
 					add_province_modifier = {
 						name = SUM_generic_suvarnadvipa_modifier
-						duration = -1 
+						duration = -1
 					}
 				}
 			}
@@ -481,7 +481,7 @@ SUM_generic_missions_4 = {
 			623 = {
 				add_province_modifier = {
 					name = lampung_pepper
-					duration = -1 
+					duration = -1
 				}
 				add_or_upgrade_production_building = yes
 			}
@@ -493,54 +493,12 @@ SUM_generic_missions_4 = {
 		required_missions = { SUM_generic_lampung_peppers SUM_generic_orang_laut }
 		position = 5
 		provinces_to_highlight = {
-			if = {
-				limit = {
-					is_expanded_mod_active = { mod = trade_goods }
-				}
-				OR = {
-					AND = {
-						trade_goods = nutmeg
-						NOT = {
-							ROOT = {
-								trading_part = {
-									trade_goods = nutmeg
-									value = 0.25
-								}
-							}
-						}
-					}
-					AND = {
-						trade_goods = cloves
-						NOT = {
-							ROOT = {
-								trading_part = {
-									trade_goods = cloves
-									value = 0.25
-								}
-							}
-						}
-					}
-					AND = {
-						trade_goods = vanilla
-						NOT = {
-							ROOT = {
-								trading_part = {
-									trade_goods = vanilla
-									value = 0.25
-								}
-							}
-						}
-					}
-				}
-			}
-			else = {
-				trade_goods = spices
-				NOT = {
-					ROOT = {
-						trading_part = {
-							trade_goods = spices
-							value = 0.25
-						}
+			trade_goods = spices
+			NOT = {
+				ROOT = {
+					trading_part = {
+						trade_goods = spices
+						value = 0.25
 					}
 				}
 			}
@@ -548,28 +506,9 @@ SUM_generic_missions_4 = {
 		trigger = {
 			share_of_starting_income = 3
 			monthly_income = 10
-			if = {
-				limit = {
-					is_expanded_mod_active = { mod = trade_goods }
-				}
-				trading_part = {
-					trade_goods = nutmeg
-					value = 0.25
-				}
-				trading_part = {
-					trade_goods = cloves
-					value = 0.25
-				}
-				trading_part = {
-					trade_goods = vanilla
-					value = 0.25
-				}
-			}
-			else = {
-				trading_part = {
-					trade_goods = spices
-					value = 0.25
-				}
+			trading_part = {
+				trade_goods = spices
+				value = 0.25
 			}
 		}
 		effect = {
@@ -577,7 +516,7 @@ SUM_generic_missions_4 = {
 			custom_tooltip = JAV_trade_income
 			add_country_modifier = {
 				name = SUM_generic_spice_flows
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -630,7 +569,7 @@ SUM_generic_missions_5 = {
 			}
 			add_country_modifier = {
 				name = SUM_trade
-				duration = -1 
+				duration = 9125
 			}
 		}
 	}
@@ -696,7 +635,7 @@ SUM_generic_missions_5 = {
 		effect = {
 			add_country_modifier = {
 				name = SUM_hegemony
-				duration = -1 
+				duration = -1
 			}
 			
 			add_army_tradition_or_mil_power = { amount = 15 }

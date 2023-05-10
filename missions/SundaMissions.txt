@@ -160,7 +160,7 @@ sun_1 = {
 			else = {
 				add_country_modifier = {
 					name = maj_religious_unity
-					duration = -1 
+					duration = -1
 				}
 			}
 		}
@@ -203,13 +203,13 @@ sun_1 = {
 				}
 				add_country_modifier = {
 					name = sun_borobudur
-					duration = -1 
+					duration = -1
 				}
 			}
 			else = {
 				add_country_modifier = {
 					name = sunda_construction
-					duration = -1 
+					duration = -1
 				}
 			}
 		}
@@ -365,7 +365,7 @@ sun_2 = {
 		effect = {
 			add_country_modifier = {
 				name = ruler_of_java
-				duration = -1 
+				duration = -1
 			}
 		}
 	}

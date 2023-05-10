@@ -69,7 +69,7 @@ Tuscany_missions_1 = {
 			tuscany_area = {
 				add_permanent_province_modifier = {
 					name = tus_arti_firenze
-					duration = -1 
+					duration = -1
 				}
 			}
 			if = {
@@ -108,7 +108,7 @@ Tuscany_missions_1 = {
 			tuscany_area = {
 				add_permanent_province_modifier = {
 					name = tus_medicean_trade_right
-					duration = -1 
+					duration = -1
 				}
 			}
 		}
@@ -150,7 +150,7 @@ Tuscany_missions_1 = {
 			116 = {
 				add_province_modifier = {
 					name = tus_sanita_marittima
-					duration = -1 
+					duration = -1
 				}
 			}
 		}
@@ -263,7 +263,7 @@ Tuscany_missions_2 = {
 			2980 = {
 				add_permanent_province_modifier = {
 					name = tus_marmor_lunensis
-					duration = -1 
+					duration = -1
 				}
 			}
 		}
@@ -296,7 +296,7 @@ Tuscany_missions_2 = {
 			tuscany_area = {
 				add_permanent_province_modifier = {
 					name = tus_medicean_reform
-					duration = -1 
+					duration = -1
 				}
 			}
 		}
@@ -415,7 +415,7 @@ Tuscany_missions_2 = {
 		effect = {
 			add_country_modifier = {
 				name = "lan_clean_government"
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -447,25 +447,25 @@ Tuscany_missions_2 = {
 			116 = {
 				add_permanent_province_modifier = {
 					name = tus_accademia_fiorentina
-					duration = -1 
+					duration = -1
 				}
 			}
 			115 = {
 				add_permanent_province_modifier = {
 					name = tus_accademia_dubbiosi
-					duration = -1 
+					duration = -1
 				}
 			}
 			117 = {
 				add_permanent_province_modifier = {
 					name = tus_accademia_intronati
-					duration = -1 
+					duration = -1
 				}
 			}
 			2978 = {
 				add_permanent_province_modifier = {
 					name = tus_accademia_etrusca
-					duration = -1 
+					duration = -1
 				}
 			}
 		}
@@ -501,7 +501,7 @@ Tuscany_missions_2 = {
 			tuscany_area = {
 				add_permanent_province_modifier = {
 					name = tus_basto_soma
-					duration = -1 
+					duration = -1
 				}
 			}
 		}
@@ -592,7 +592,7 @@ Tuscany_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = tus_rappresentanze_estere
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -610,7 +610,7 @@ Tuscany_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = "lan_secure_public_funds"
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -635,7 +635,7 @@ Tuscany_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = "lan_medici_banking"
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -793,7 +793,7 @@ Tuscany_missions_4 = {
 			add_yearly_sailors = 2
 			add_country_modifier = {
 				name = tus_porto_mezzo
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -812,7 +812,7 @@ Tuscany_missions_4 = {
 		effect = {
 			add_country_modifier = {
 				name = tus_colonial_ventures
-				duration = -1 
+				duration = 18250
 			}
 			create_conquistador = {
 				tradition = 50
@@ -851,18 +851,9 @@ Tuscany_missions_4 = {
 			1531 = {
 				add_trade_modifier = {
 					who = ROOT
-					duration = -1 
+					duration = 7300
 					power = 20
 					key = ita_carribean_import_ge
-				}
-			}
-			if = {
-				limit = {
-					is_expanded_mod_active = { mod = governments }
-				}
-				add_country_modifier = {
-					name = ita_carribean_import_ge
-					duration = -1 
 				}
 			}
 		}
@@ -883,7 +874,7 @@ Tuscany_missions_4 = {
 		effect = {
 			add_country_modifier = {
 				name = ita_colonial_victory
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -1013,7 +1004,7 @@ Tuscany_missions_5 = {
 		effect = {
 			add_country_modifier = {
 				name = tus_marina_granducato_toscana
-				duration = -1 
+				duration = 3650
 			}
 			custom_tooltip = CLAIM_ON_341_TRADE_NODE
 			hidden_effect = {
@@ -1065,18 +1056,18 @@ Tuscany_missions_5 = {
 			}
 			add_country_modifier = {
 				name = sar_piracy_defeaten
-				duration = -1 
+				duration = 9125
 			}
 			341 = {
 				add_province_modifier = {
 					name = sar_purification_land
-					duration = -1 
+					duration = 7300
 				}
 			}
 			339 = {
 				add_province_modifier = {
 					name = sar_purification_land
-					duration = -1 
+					duration = 7300
 				}
 			}
 		}

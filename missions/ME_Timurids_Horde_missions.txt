@@ -76,9 +76,9 @@ Timurid_horde_path_2 = {
 		trigger = {
 			has_global_modifier_value = {
 				which = cavalry_power
-				value = 0.25
+				value = 0.15
 			}
-			num_of_cavalry = 40
+			num_of_cavalry = 20
 		}
 		effect = {
 			add_country_modifier = {
@@ -96,8 +96,9 @@ Timurid_horde_path_2 = {
 			
 		}
 		trigger = {
-			check_variable = { 
-				which = METimSpoilsOfWar
+			has_government_power = { 
+				mechanic_type = conquest_frenzy
+				power_type = conquest_frenzy_power
 				value = 80
 			}
 			num_of_provinces_razed = { value = 25 }
@@ -165,6 +166,8 @@ Timurid_horde_path_2 = {
 		}
 		effect = {
 			country_event = { id = ME_Timurid_Main_Events.36 }
+			custom_tooltip = " "
+			custom_tooltip = ME_TIMURID_EVENT_INSIGHT_HORSEMEN_OF_APOCALYPSE
 			hidden_effect = {
 				set_variable = {
 					which = METimRazedHighDevProvinces
@@ -200,6 +203,8 @@ Timurid_horde_path_2 = {
 		}
 		effect = {
 			country_event = { id = ME_Timurid_Main_Events.42 }
+			custom_tooltip = " "
+			custom_tooltip = EE_TIM_SCOURGE_OF_GOD_EVENT_INSIGHT
 		}
 	}
 }
@@ -272,7 +277,7 @@ Timurid_horde_path_3 = {
 			tooltip = {
 				add_country_modifier = {
 					name = me_tim_frightening_enemy
-					duration = -1
+					duration = 5475
 				}
 			}
 			custom_tooltip = " "
@@ -281,7 +286,7 @@ Timurid_horde_path_3 = {
 				custom_tooltip = me_tim_said_country
 				add_country_modifier = {
 					name = me_tim_auxilary_elephants
-					duration = -1
+					duration = 7300
 				}
 				custom_tooltip = me_tim_they_must_accept
 			}
@@ -307,7 +312,7 @@ Timurid_horde_path_3 = {
 		effect = {
 			add_country_modifier = {
 				name = me_tim_art_of_offense
-				duration = -1
+				duration = 7300
 			}
 			custom_tooltip = " "
 			custom_tooltip = me_tim_modify_war_elephants
@@ -325,7 +330,7 @@ Timurid_horde_path_3 = {
 		trigger = {
 			OR = {
 				development_in_provinces = {
-					value = 400
+					value = 200
 					religion = tengri_pagan_reformed
 				}
 				custom_trigger_tooltip = { 
@@ -342,6 +347,8 @@ Timurid_horde_path_3 = {
 			custom_tooltip = " "
 			tooltip = {
 				country_event = { id = ME_Timurid_Main_Events.38 }
+				custom_tooltip = " "
+				custom_tooltip = EE_TIM_THE_OLD_WAYS_EVENT_INSIGHT
 			}
 			custom_tooltip = " "
 			custom_tooltip = ME_tim_if_completed_with_conversion
@@ -357,7 +364,7 @@ Timurid_horde_path_3 = {
 				if = {
 					limit = {
 						development_in_provinces = {
-							value = 400
+							value = 200
 							religion = tengri_pagan_reformed
 						}
 					}
@@ -402,6 +409,8 @@ Timurid_horde_path_4 = {
 		}
 		effect = {
 			country_event = { id = ME_Timurid_Main_Events.39 }
+			custom_tooltip = " "
+			custom_tooltip = EE_TIM_HORMUZ_FORTRESS_EVENT_INSIGHT
 		}
 	}
 
@@ -428,6 +437,8 @@ Timurid_horde_path_4 = {
 		}
 		effect = {
 			country_event = { id = ME_Timurid_Main_Events.17 }
+			custom_tooltip = " "
+			custom_tooltip = EE_TIM_ARABIAN_HORSES_EVENT_OVERSIGHT
 		}
 	}
 
@@ -446,6 +457,8 @@ Timurid_horde_path_4 = {
 		}
 		effect = {
 			country_event = { id = ME_Timurid_Main_Events.40 }
+			custom_tooltip = " "
+			custom_tooltip = EE_TIM_SCOURGE_OF_ARABIA_EVENT_OVERSIGHT
 		}
 	}
 
@@ -465,7 +478,7 @@ Timurid_horde_path_4 = {
 		effect = {
 			add_country_modifier = {
 				name = me_tim_invasion_of_india
-				duration = -1
+				duration = 5475
 			}
 			custom_tooltip = " "
 			custom_tooltip = me_tim_if_roh_has_fort
@@ -525,6 +538,8 @@ Timurid_horde_path_4 = {
 		}
 		effect = {
 			country_event = { id = ME_Timurid_Main_Events.19 }
+			custom_tooltip = " "
+			custom_tooltip = EE_TIM_SACK_OF_DELHI_EVENT_INSIGHT
 		}
 	}
 
@@ -622,13 +637,13 @@ Timurid_horde_path_5 = {
 		}
 		trigger = {
 			OR = {
-				custom_trigger_tooltip = { 
-					tooltip = ME_tim_razed_10_arabian_provinces
+				#custom_trigger_tooltip = { #This is better than the non existant custom trigger tooltip that exists right now
+					#tooltip = ME_tim_razed_10_arabian_provinces 
 					check_variable = { 
 						which = METimArabianPorvincesRazed
 						value = 10
 					}
-				}
+				#}
 				mercantilism = 20
 			}
 		}
@@ -676,7 +691,7 @@ Timurid_horde_path_5 = {
 				ME_distribute_development = {
 					type = manpower
 					amount = 10
-					limit = "region = { arabia_region }"
+					limit = " region = arabia_region "
 				}
 			}
 		}
@@ -757,13 +772,15 @@ Timurid_horde_path_5 = {
 			OR = {
 				num_of_owned_provinces_with = {
 					religion = tengri_pagan_reformed
-					value = 30
+					value = 15
 				}
 				religious_unity = 1
 			}
 		}
 		effect = {
 			country_event = { id = ME_Timurid_Main_Events.41 }
+			custom_tooltip = " "
+			custom_tooltip = EE_TIM_SYNCRENTISM_EVENT_INSIGHT
 		}
 	}
 

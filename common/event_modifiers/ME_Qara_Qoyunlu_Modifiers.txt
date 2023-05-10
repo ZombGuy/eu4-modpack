@@ -60,7 +60,7 @@ QAR_persianate_sultanate = {
 
 QAR_mausoleum_of_turkmen_emirs = {
 	legitimacy = 1
-	yearly_tribal_allegiance = 0.5
+	yearly_government_power = 0.5
 	monthly_heir_claim_increase = 0.1
 }
 
@@ -78,7 +78,7 @@ QAR_architectural_vision = {
 QAR_architectural_vision_no_dlc = {
 	local_development_cost = -0.5
 	local_build_cost = -0.5
-	yearly_tribal_allegiance = 0.25
+	yearly_government_power = 0.25
 	legitimacy = 1
 }
 
@@ -101,7 +101,7 @@ QAR_primary_culture_manpower = {
 }
 
 QAR_tribal_allegiance = {
-	yearly_tribal_allegiance = 1
+	yearly_government_power = 1
 	nobles_loyalty_modifier = 0.05
 }
 

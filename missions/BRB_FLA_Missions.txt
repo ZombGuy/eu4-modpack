@@ -145,7 +145,7 @@ fla_reconquest_group = {
 			}
 			add_country_modifier = {
 				name = "ned_lowlands_victory"
-				duration = -1 
+				duration = 5475
 			}
 		}
 		ai_weight = {
@@ -180,7 +180,7 @@ fla_reconquest_group = {
 		effect = {
 			add_country_modifier = {
 				name = "fla_belgium_nostrum"
-				duration = -1 
+				duration = -1
 			}
 		}
 		ai_weight = {
@@ -249,7 +249,7 @@ fla_slot4_branch = {
 		effect = {
 			add_country_modifier = {
 				name = fla_prosperous_burghers
-				duration = -1 
+				duration = 7300
 			}
 		}
 		ai_weight = {
@@ -321,7 +321,7 @@ fla_slot4_branch = {
 		effect = {
 			add_country_modifier = {
 				name = "proto_industrialization"
-				duration = -1 
+				duration = 9125
 			}
 			add_years_of_income = 1.5
 		}
@@ -353,7 +353,7 @@ fla_slot4_branch = {
 		effect = {
 			add_country_modifier = {
 				name = fla_european_agents_mod
-				duration = -1 
+				duration = 9125
 			}
 		}
 		ai_weight = {

@@ -116,7 +116,7 @@ gc_morocco_1 = {
 			}
 			add_country_modifier = {
 				name = mor_saharan_trade
-				duration = -1
+				duration = 7300
 			}
 		}
 	}
@@ -416,7 +416,7 @@ gc_morocco_1 = {
 		effect = {
 			add_country_modifier = {
 				name = conquest_of_benin_mor
-				duration = -1
+				duration = 7300
 			}
 		}
 	}
@@ -458,7 +458,7 @@ gc_morocco_2 = {
 		effect = {
 			add_country_modifier = {
 				name = mor_privateering
-				duration = -1
+				duration = 7300
 			}
 		}
 	}
@@ -487,7 +487,7 @@ gc_morocco_2 = {
 			capital_scope = {
 				add_province_modifier = {
 					name = mor_el_badi_palace
-					duration = -1
+					duration = 7300
 				}
 			}
 		}
@@ -569,7 +569,7 @@ gc_morocco_2 = {
 		effect = {
 			add_country_modifier = {
 				name = "mor_conquest_of_kanem"
-				duration = -1
+				duration = 7300
 			}
 		}
 	}
@@ -675,7 +675,7 @@ gc_morocco_3 = {
 		effect = {
 			add_country_modifier = {
 				name = "mor_barbary_pirate_coast"
-				duration = -1
+				duration = 7300
 			}
 		}
 	}
@@ -1003,7 +1003,7 @@ gc_morocco_4 = {
 		effect = {
 			add_country_modifier = {
 				name = "mor_tunis_conquest"
-				duration = -1
+				duration = 7300
 			}
 		}
 	}
@@ -1050,7 +1050,7 @@ gc_morocco_5 = {
 		effect = {
 			add_country_modifier = {
 				name = "mor_beyond_the_canaries"
-				duration = -1
+				duration = 7300
 			}
 		}
 	}
@@ -1090,7 +1090,7 @@ gc_morocco_5 = {
 		effect = {
 			add_country_modifier = {
 				name = "mor_colonized_brazil"
-				duration = -1
+				duration = 7300
 			}
 		}
 	}
@@ -1197,7 +1197,7 @@ gc_morocco_5 = {
 		effect = {
 			add_country_modifier = {
 				name = "mor_andalucia"
-				duration = -1
+				duration = 7300
 			}
 		}
 	}

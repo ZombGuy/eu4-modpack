@@ -361,7 +361,7 @@ maya_missions_1 = {
 			}
 			add_country_modifier = {
 				name = maya_dominate_mexico_modifier
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -394,7 +394,7 @@ maya_missions_1 = {
 			add_prestige = 10
 			add_country_modifier = {
 				name = maya_strangers_from_a_new_world_modifier
-				duration = -1 
+				duration = 3650
 			}
 		}
 	}
@@ -422,7 +422,7 @@ maya_missions_1 = {
 			add_dip_power = 50
 			add_country_modifier = {
 				name = maya_diplomatic_welcome_modifier
-				duration = -1 
+				duration = 5475
 			}
 			random_known_country = {
 				limit = {
@@ -470,7 +470,7 @@ maya_missions_1 = {
 			add_prestige = 20
 			add_country_modifier = {
 				name = maya_secure_our_position_modifier
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -510,7 +510,7 @@ maya_missions_1 = {
 			add_legitimacy_equivalent = { amount = 20 republican_tradition = 20 }
 			add_country_modifier = {
 				name = maya_expel_the_foreigners_modifier
-				duration = -1 
+				duration = 7300
 			}
 			if = {
 				limit = {
@@ -619,7 +619,7 @@ maya_missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = maya_destroy_european_administration_modifier
-				duration = -1 
+				duration = 7300
 			}
 			every_owned_province = {
 				limit = {
@@ -874,7 +874,7 @@ maya_missions_2 = {
 		effect = {
 			add_country_modifier = {
 				name = maya_a_great_army_modifier
-				duration = -1 
+				duration = 7300
 			}
 			central_america_region = {
 				limit = {
@@ -995,7 +995,7 @@ maya_missions_2 = {
 				rename_capital = "Chichen Itza"
 				add_province_modifier = {
 					name = maya_rebuild_abandoned_cities_province_modifier
-					duration = -1 
+					duration = -1
 				}
 			}
 			2633 = {
@@ -1003,7 +1003,7 @@ maya_missions_2 = {
 				rename_capital = "Mùayapùan"
 				add_province_modifier = {
 					name = maya_rebuild_abandoned_cities_province_modifier
-					duration = -1 
+					duration = -1
 				}
 			}
 			4590 = {
@@ -1011,7 +1011,7 @@ maya_missions_2 = {
 				rename_capital = "Uxmal"
 				add_province_modifier = {
 					name = maya_rebuild_abandoned_cities_province_modifier
-					duration = -1 
+					duration = -1
 				}
 			}
 		}
@@ -1058,7 +1058,7 @@ maya_missions_2 = {
 		effect = {
 			add_country_modifier = {
 				name = maya_mayan_renaissaince_modifier
-				duration = -1 
+				duration = 7300
 			}
 			random_owned_province = {
 				limit = {
@@ -1172,7 +1172,7 @@ maya_missions_2 = {
 			add_navy_tradition = 10
 			add_country_modifier = {
 				name = maya_trade_fleet_modifier
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -1190,7 +1190,7 @@ maya_missions_2 = {
 			add_mercantilism = 5
 			add_country_modifier = {
 				name = maya_mexican_trade_modifier
-				duration = -1 
+				duration = 9125
 			}
 			mexico_region = {
 				limit = {
@@ -1248,7 +1248,7 @@ maya_missions_2 = {
 			add_adm_power = 100
 			add_country_modifier = {
 				name = maya_mayan_mesoamerica_modifier
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -1264,7 +1264,7 @@ maya_missions_2 = {
 			add_prestige = 20
 			add_country_modifier = {
 				name = maya_mayan_empire_modifier
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -1289,7 +1289,7 @@ maya_missions_2 = {
 				}
 				add_province_modifier = {
 					name = maya_workshops_province_modifier
-					duration = -1 
+					duration = 7300
 				}
 			}
 		}
@@ -1334,7 +1334,7 @@ maya_missions_2 = {
 			add_mil_power = 50
 			add_country_modifier = {
 				name = maya_seek_technological_adoption_modifier
-				duration = -1 
+				duration = 5475
 			}
 		}
 	}
@@ -1351,7 +1351,7 @@ maya_missions_2 = {
 			add_army_tradition = 5
 			add_country_modifier = {
 				name = maya_modern_military_modifier
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -1445,7 +1445,7 @@ maya_missions_2 = {
 			add_prestige = 20
 			add_country_modifier = {
 				name = maya_riches_of_the_new_world_modifier
-				duration = -1 
+				duration = 18250
 			}
 			1749 = {
 				add_base_tax = 1
@@ -1514,7 +1514,7 @@ maya_missions_3 = {
 			capital_scope = {
 				add_province_modifier = {
 					name = maya_legitimate_rule_province_modifier
-					duration = -1 
+					duration = 5475
 				}
 			}
 		}
@@ -1567,11 +1567,11 @@ maya_missions_3 = {
 			}
 			add_country_modifier = {
 				name = maya_important_capital_modifier_1
-				duration = -1 
+				duration = -1
 			}
 			add_country_modifier = {
 				name = maya_important_capital_modifier_2
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -1620,7 +1620,7 @@ maya_missions_3 = {
 				}
 				add_province_modifier = {
 					name = maya_important_capital_province_modifier
-					duration = -1 
+					duration = 7300
 				}
 			}
 			every_owned_province = {
@@ -1643,7 +1643,7 @@ maya_missions_3 = {
 				}
 				add_province_modifier = {
 					name = maya_important_capital_province_modifier
-					duration = -1 
+					duration = 3650
 				}
 			}
 		}
@@ -1665,7 +1665,7 @@ maya_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = maya_one_people_one_culture_modifier
-				duration = -1 
+				duration = 36500
 			}
 		}
 	}
@@ -1690,7 +1690,7 @@ maya_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = maya_chontales_merchants_modifier
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -1712,7 +1712,7 @@ maya_missions_3 = {
 			}
 			add_country_modifier = {
 				name = maya_loyal_chroniclers_modifier
-				duration = -1 
+				duration = 5475
 			}
 		}
 	}
@@ -1733,7 +1733,7 @@ maya_missions_3 = {
 			}
 			add_country_modifier = {
 				name = maya_influence_of_the_scribes_modifier
-				duration = -1 
+				duration = 5475
 			}
 		}
 	}
@@ -1751,7 +1751,7 @@ maya_missions_3 = {
 			add_mercantilism = 5
 			add_country_modifier = {
 				name = maya_caribbean_trade_modifier
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -1772,7 +1772,7 @@ maya_missions_3 = {
 					who = ROOT
 					key = MAYA_LIMA_TRADE
 					power = 15
-					duration = -1 
+					duration = -1
 				}
 			}
 		}
@@ -1788,7 +1788,7 @@ maya_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = maya_adapt_european_agriculture_modifier
-				duration = -1 
+				duration = 5475
 			}
 		}
 	}
@@ -1920,7 +1920,7 @@ maya_missions_4 = {
 			# }
 			add_country_modifier = {
 				name = maya_loyal_advisor_modifier
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -1953,7 +1953,7 @@ maya_missions_4 = {
 		effect = {
 			add_country_modifier = {
 				name = maya_colonization_efforts_modifier
-				duration = -1 
+				duration = 7300
 			}
 			if = {
 				limit = {
@@ -2009,7 +2009,7 @@ maya_missions_4 = {
 		effect = {
 			add_country_modifier = {
 				name = maya_conquer_honduras_modifier
-				duration = -1 
+				duration = 7300
 			}
 			if = {
 				limit = {
@@ -2056,7 +2056,7 @@ maya_missions_4 = {
 		effect = {
 			add_country_modifier = {
 				name = maya_secure_nicaragua_modifier
-				duration = -1 
+				duration = 7300
 			}
 			costa_rica_area = {
 				limit = {
@@ -2103,7 +2103,7 @@ maya_missions_4 = {
 		effect = {
 			add_country_modifier = {
 				name = maya_expand_into_south_america_modifier
-				duration = -1 
+				duration = 5475
 			}
 			carribeans_region = {
 				limit = {
@@ -2168,7 +2168,7 @@ maya_missions_4 = {
 			add_prestige = 10
 			add_country_modifier = {
 				name = maya_colonize_the_caribbeans_modifier
-				duration = -1 
+				duration = -1
 			}
 			colombia_region = {
 				limit = {
@@ -2215,7 +2215,7 @@ maya_missions_4 = {
 					who = ROOT
 					key = MAYA_COLOMBIAN_TRADE
 					power = 15
-					duration = -1 
+					duration = -1
 				}
 			}
 			peru_region = {
@@ -2367,11 +2367,11 @@ maya_missions_4 = {
 			add_dip_power = 100
 			add_country_modifier = {
 				name = maya_another_high_culture_modifier_1
-				duration = -1 
+				duration = 5475
 			}
 			add_country_modifier = {
 				name = maya_another_high_culture_modifier_2
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -2508,7 +2508,7 @@ maya_missions_4 = {
 		effect = {
 			add_country_modifier = {
 				name = maya_long_distance_network_modifier
-				duration = -1 
+				duration = -1
 			}
 			quito_area = {
 				limit = {
@@ -2516,7 +2516,7 @@ maya_missions_4 = {
 				}
 				add_province_modifier = {
 					name = maya_roads_province_modifier
-					duration = -1 
+					duration = -1
 				}
 			}
 			popayan_area = {
@@ -2525,7 +2525,7 @@ maya_missions_4 = {
 				}
 				add_province_modifier = {
 					name = maya_roads_province_modifier
-					duration = -1 
+					duration = -1
 				}
 			}
 			panama_area = {
@@ -2534,7 +2534,7 @@ maya_missions_4 = {
 				}
 				add_province_modifier = {
 					name = maya_roads_province_modifier
-					duration = -1 
+					duration = -1
 				}
 			}
 			central_america_region = {
@@ -2543,7 +2543,7 @@ maya_missions_4 = {
 				}
 				add_province_modifier = {
 					name = maya_roads_province_modifier
-					duration = -1 
+					duration = -1
 				}
 			}
 		}
@@ -2563,7 +2563,7 @@ maya_missions_4 = {
 			}
 			add_country_modifier = {
 				name = maya_city_centralization_modifier
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -2591,7 +2591,7 @@ maya_missions_4 = {
 			}
 			add_country_modifier = {
 				name = maya_science_over_superstition_modifier
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -2618,7 +2618,7 @@ maya_missions_4 = {
 			}
 			add_country_modifier = {
 				name = maya_end_human_sacrifices_modifier
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -2653,7 +2653,7 @@ maya_missions_5 = {
 			}
 			add_country_modifier = {
 				name = maya_stable_government_modifier
-				duration = -1 
+				duration = 5475
 			}
 		}
 	}
@@ -2672,7 +2672,7 @@ maya_missions_5 = {
 			add_treasury = 200
 			add_country_modifier = {
 				name = maya_temples_for_ixchel_modifier
-				duration = -1 
+				duration = 5475
 			}
 		}
 	}
@@ -2692,7 +2692,7 @@ maya_missions_5 = {
 			add_splendor = 50
 			add_country_modifier = {
 				name = maya_ahkinob_modifier
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -2713,7 +2713,7 @@ maya_missions_5 = {
 			add_stability_or_adm_power = yes
 			add_country_modifier = {
 				name = maya_sacrifices_for_kinich_ahau_modifier
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -2775,7 +2775,7 @@ maya_missions_5 = {
 		effect = {
 			add_country_modifier = {
 				name = maya_one_country_one_faith_modifier
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -2803,7 +2803,7 @@ maya_missions_5 = {
 			add_prestige = 15
 			add_country_modifier = {
 				name = maya_colonize_the_north_modifier
-				duration = -1 
+				duration = 7300
 			}
 			california_region = {
 				limit = {
@@ -2855,7 +2855,7 @@ maya_missions_5 = {
 					}
 					add_province_modifier = {
 						name = maya_occupy_california_province_modifier
-						duration = -1 
+						duration = 7300
 					}
 				}
 			}
@@ -2901,7 +2901,7 @@ maya_missions_5 = {
 			add_adm_power = -100
 			add_country_modifier = {
 				name = maya_mayan_mathematics_modifier
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -2928,7 +2928,7 @@ maya_missions_5 = {
 			846 = {
 				add_permanent_province_modifier = {
 					name = maya_mayan_astronomy_province_modifier
-					duration = -1 
+					duration = -1
 				}
 			}
 			country_event = { id = ME_Maya_Events.1 tooltip = MAYA_ASTRONOMY_EVENT_TT }
@@ -2949,7 +2949,7 @@ maya_missions_5 = {
 			add_mil_power = 100
 			add_country_modifier = {
 				name = maya_home_of_inventions_modifier
-				duration = -1 
+				duration = 5475
 			}
 		}
 	}

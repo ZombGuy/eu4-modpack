@@ -6,6 +6,7 @@ eng_british_naval_conq = {
 	
 	potential_on_load = {
 		has_dlc = "Rule Britannia"
+		NOT = { has_dlc = "Domination" }
 	}
 	potential = {
 		OR = {
@@ -14,6 +15,7 @@ eng_british_naval_conq = {
 		}
 		has_country_flag = use_paradox_missions
 		has_dlc = "Rule Britannia"
+		NOT = { has_dlc = "Domination" }
 		NOT = { map_setup = map_setup_random }
 	}
 	has_country_shield = yes
@@ -58,6 +60,7 @@ eng_rb_gibraltar = {
 	ai = yes
 	potential_on_load = {
 		has_dlc = "Rule Britannia"
+		NOT = { has_dlc = "Domination" }
 	}
 	potential = {
 		OR = {
@@ -66,6 +69,7 @@ eng_rb_gibraltar = {
 		}
 		has_country_flag = use_paradox_missions
 		has_dlc = "Rule Britannia"
+		NOT = { has_dlc = "Domination" }
 		NOT = { map_setup = map_setup_random }
 	}
 	has_country_shield = yes
@@ -100,7 +104,7 @@ eng_rb_gibraltar = {
 		effect = {
 			add_country_modifier = {
 				name = "eng_rb_gibraltar_mod"
-				duration = -1 
+				duration = 5475
 			}
 			4559 = {
 				add_permanent_claim = ROOT
@@ -122,6 +126,7 @@ eng_rb_islands_med = {
 	ai = yes
 	potential_on_load = {
 		has_dlc = "Rule Britannia"
+		NOT = { has_dlc = "Domination" }
 	}
 	potential = {
 		OR = {
@@ -130,6 +135,7 @@ eng_rb_islands_med = {
 		}
 		has_country_flag = use_paradox_missions
 		has_dlc = "Rule Britannia"
+		NOT = { has_dlc = "Domination" }
 		NOT = { map_setup = map_setup_random }
 	}
 	has_country_shield = yes
@@ -221,6 +227,7 @@ eng_rb_egypt = {
 	ai = yes
 	potential_on_load = {
 		has_dlc = "Rule Britannia"
+		NOT = { has_dlc = "Domination" }
 	}
 	potential = {
 		OR = {
@@ -229,6 +236,7 @@ eng_rb_egypt = {
 		}
 		has_country_flag = use_paradox_missions
 		has_dlc = "Rule Britannia"
+		NOT = { has_dlc = "Domination" }
 		NOT = { map_setup = map_setup_random }
 	}
 	has_country_shield = yes
@@ -294,7 +302,7 @@ eng_rb_egypt = {
 			358 = {
 				add_trade_modifier = {
 					who = root
-					duration = -1 
+					duration = 7300
 					power = 50
 					key = alexandria_ambition
 				}
@@ -316,6 +324,7 @@ eng_rb_stability = {
 	ai = yes
 	potential_on_load = {
 		has_dlc = "Rule Britannia"
+		NOT = { has_dlc = "Domination" }
 	}
 	potential = {
 		OR = {
@@ -324,6 +333,7 @@ eng_rb_stability = {
 		}
 		has_country_flag = use_paradox_missions
 		has_dlc = "Rule Britannia"
+		NOT = { has_dlc = "Domination" }
 		NOT = { map_setup = map_setup_random }
 	}
 	has_country_shield = yes
@@ -349,7 +359,7 @@ eng_rb_stability = {
 		effect = {
 			add_country_modifier = {
 				name = "eng_rb_roses_legit"
-				duration = -1 
+				duration = 5475
 			}
 		}
 	}
@@ -372,7 +382,7 @@ eng_rb_stability = {
 		effect = {
 			add_country_modifier = {
 				name = "eng_rb_state_religion_mod"
-				duration = -1 
+				duration = 5475
 			}
 		}
 	}
@@ -407,6 +417,7 @@ eng_rb_burgundy = {
 	ai = yes
 	potential_on_load = {
 		has_dlc = "Rule Britannia"
+		NOT = { has_dlc = "Domination" }
 	}
 	potential = {
 		OR = {
@@ -415,6 +426,7 @@ eng_rb_burgundy = {
 		}
 		has_country_flag = use_paradox_missions
 		has_dlc = "Rule Britannia"
+		NOT = { has_dlc = "Domination" }
 		NOT = { map_setup = map_setup_random }
 	}
 	has_country_shield = yes
@@ -463,19 +475,19 @@ eng_rb_burgundy = {
 			picardy_area = {
 				add_province_modifier = {
 					name = "eng_rb_local_conv"
-					duration = -1 
+					duration = 5475
 				}
 			}
 			west_burgundy_area = {
 				add_province_modifier = {
 					name = "eng_rb_local_conv"
-					duration = -1 
+					duration = 5475
 				}
 			}
 			bourgogne_area = {
 				add_province_modifier = {
 					name = "eng_rb_local_conv"
-					duration = -1 
+					duration = 5475
 				}
 			}
 		}
@@ -488,10 +500,12 @@ gbr_rb_canada_group = {
 	ai = yes
 	potential_on_load = {
 		has_dlc = "Rule Britannia"
+		NOT = { has_dlc = "Domination" }
 	}
 	potential = {
 		tag = GBR
 		has_dlc = "Rule Britannia"
+		NOT = { has_dlc = "Domination" }
 		is_random_new_world = no
 		NOT = { map_setup = map_setup_random }
 		has_country_flag = use_paradox_missions
@@ -530,7 +544,7 @@ gbr_rb_canada_group = {
 		effect = {
 			add_country_modifier = {
 				name = "eng_rb_established_shipping"
-				duration = -1 
+				duration = 7300
 			}
 		}
 	
@@ -543,10 +557,12 @@ eng_rb_trade_value_group = {
 	ai = yes
 	potential_on_load = {
 		has_dlc = "Rule Britannia"
+		NOT = { has_dlc = "Domination" }
 	}
 	potential = {
 		tag = GBR
 		has_dlc = "Rule Britannia"
+		NOT = { has_dlc = "Domination" }
 		NOT = { map_setup = map_setup_random }
 		has_country_flag = use_paradox_missions
 	}
@@ -571,7 +587,7 @@ eng_rb_trade_value_group = {
 		effect = {
 			add_country_modifier = {
 				name = "eng_rb_trade_value_mod"
-				duration = -1 
+				duration = 7300
 			}
 		}
 	
@@ -584,6 +600,7 @@ eng_rb_buildings_group = {
 	ai = yes
 	potential_on_load = {
 		has_dlc = "Rule Britannia"
+		NOT = { has_dlc = "Domination" }
 	}
 	potential = {
 		OR = {
@@ -592,6 +609,7 @@ eng_rb_buildings_group = {
 		}
 		has_country_flag = use_paradox_missions
 		has_dlc = "Rule Britannia"
+		NOT = { has_dlc = "Domination" }
 		NOT = { map_setup = map_setup_random }
 	}
 	has_country_shield = yes
@@ -704,7 +722,7 @@ eng_rb_buildings_group = {
 				add_base_manpower = 3
 				add_province_modifier = {
 					name = "eng_rb_coal_produced_mod"
-					duration = -1 
+					duration = -1
 				}
 			}
 			241 = {
@@ -712,7 +730,7 @@ eng_rb_buildings_group = {
 				add_base_manpower = 3
 				add_province_modifier = {
 					name = "eng_rb_coal_produced_mod"
-					duration = -1 
+					duration = -1
 				}
 			}
 			4375 = {
@@ -720,7 +738,7 @@ eng_rb_buildings_group = {
 				add_base_manpower = 3
 				add_province_modifier = {
 					name = "eng_rb_coal_produced_mod"
-					duration = -1 
+					duration = -1
 				}
 			}
 			246 = {
@@ -728,7 +746,7 @@ eng_rb_buildings_group = {
 				add_base_manpower = 3
 				add_province_modifier = {
 					name = "eng_rb_coal_produced_mod"
-					duration = -1 
+					duration = -1
 				}
 			}
 		}
@@ -783,6 +801,7 @@ eng_rb_conquest_europe = {
 	ai = yes
 	potential_on_load = {
 		has_dlc = "Rule Britannia"
+		NOT = { has_dlc = "Domination" }
 	}
 	potential = {
 		OR = {
@@ -791,6 +810,7 @@ eng_rb_conquest_europe = {
 		}
 		has_country_flag = use_paradox_missions
 		has_dlc = "Rule Britannia"
+		NOT = { has_dlc = "Domination" }
 		NOT = { map_setup = map_setup_random }
 	}
 	has_country_shield = yes
@@ -828,7 +848,7 @@ eng_rb_conquest_europe = {
 			1276 = {
 				add_trade_modifier = {
 					who = root
-					duration = -1 
+					duration = 5475
 					power = 25
 					key = bordeaux_ambition
 				}
@@ -929,7 +949,7 @@ eng_rb_conquest_europe = {
 				add_base_manpower = 3
 				add_province_modifier = {
 					name = "eng_rb_angers_summer_court"
-					duration = -1 
+					duration = -1
 				}
 			}
 			picardy_area = {
@@ -963,10 +983,12 @@ gbr_rb_empire_group = {
 	ai = yes
 	potential_on_load = {
 		has_dlc = "Rule Britannia"
+		NOT = { has_dlc = "Domination" }
 	}
 	potential = {
 		tag = GBR
 		has_dlc = "Rule Britannia"
+		NOT = { has_dlc = "Domination" }
 		NOT = { map_setup = map_setup_random }
 		has_country_flag = use_paradox_missions
 	}
@@ -1006,7 +1028,7 @@ gbr_rb_empire_group = {
 		effect = {
 			add_country_modifier = {
 				name = "eng_rb_hre_relations"
-				duration = -1 
+				duration = 5475
 			}
 		}
 	}
@@ -1039,7 +1061,7 @@ gbr_rb_empire_group = {
 		effect = {
 			add_country_modifier = {
 				name = "eng_rb_imperial_ban_mod"
-				duration = -1 
+				duration = -1
 			}
 		}
 	
@@ -1052,6 +1074,7 @@ gbr_rb_spice_islands_group = {
 	ai = yes
 	potential_on_load = {
 		has_dlc = "Rule Britannia"
+		NOT = { has_dlc = "Domination" }
 	}
 	potential = {
 		OR = {
@@ -1060,6 +1083,7 @@ gbr_rb_spice_islands_group = {
 		}
 		has_country_flag = use_paradox_missions
 		has_dlc = "Rule Britannia"
+		NOT = { has_dlc = "Domination" }
 		NOT = { map_setup = map_setup_random }
 	}
 	has_country_shield = yes
@@ -1133,10 +1157,12 @@ gbr_rb_indian_group = {
 	ai = yes
 	potential_on_load = {
 		has_dlc = "Rule Britannia"
+		NOT = { has_dlc = "Domination" }
 	}
 	potential = {
 		tag = GBR
 		has_dlc = "Rule Britannia"
+		NOT = { has_dlc = "Domination" }
 		NOT = { map_setup = map_setup_random }
 		has_country_flag = use_paradox_missions
 	}
@@ -1308,7 +1334,7 @@ gbr_rb_indian_group = {
 		effect = {
 			add_country_modifier = {	
 				name = "gbr_rb_indian_integration"
-				duration = -1 
+				duration = -1
 			}
 			india_superregion = {
 				limit = {
@@ -1328,10 +1354,12 @@ gbr_rb_india_princes = {
 	ai = yes
 	potential_on_load = {
 		has_dlc = "Rule Britannia"
+		NOT = { has_dlc = "Domination" }
 	}
 	potential = {
 		tag = GBR
 		has_dlc = "Rule Britannia"
+		NOT = { has_dlc = "Domination" }
 		NOT = { map_setup = map_setup_random }
 		has_country_flag = use_paradox_missions
 	}
@@ -1384,7 +1412,7 @@ gbr_rb_india_princes = {
 				}
 				add_province_modifier = {
 					name = "gbr_inland_trade"
-					duration = -1 
+					duration = 5475
 				}
 			}
 			maidan_area = {
@@ -1393,7 +1421,7 @@ gbr_rb_india_princes = {
 				}
 				add_province_modifier = {
 					name = "gbr_inland_trade"
-					duration = -1 
+					duration = 5475
 				}
 			}
 			gondwana_area = {
@@ -1402,7 +1430,7 @@ gbr_rb_india_princes = {
 				}
 				add_province_modifier = {
 					name = "gbr_inland_trade"
-					duration = -1 
+					duration = 5475
 				}
 			}
 			garjat_area = {
@@ -1411,7 +1439,7 @@ gbr_rb_india_princes = {
 				}
 				add_province_modifier = {
 					name = "gbr_inland_trade"
-					duration = -1 
+					duration = 5475
 				}
 			}
 		}
@@ -1425,10 +1453,12 @@ gbr_rb_northern_colonial = {
 	ai = yes
 	potential_on_load = {
 		has_dlc = "Rule Britannia"
+		NOT = { has_dlc = "Domination" }
 	}
 	potential = {
 		tag = GBR
 		has_dlc = "Rule Britannia"
+		NOT = { has_dlc = "Domination" }
 		is_random_new_world = no
 		NOT = { map_setup = map_setup_random }
 		has_country_flag = use_paradox_missions
@@ -1464,7 +1494,7 @@ gbr_rb_northern_colonial = {
 		effect = {
 			add_country_modifier = {
 				name = "eng_rb_faro_coast"
-				duration = -1 
+				duration = 5475
 			}
 			greenland_area = {
 				limit = {
@@ -1506,7 +1536,7 @@ gbr_rb_northern_colonial = {
 		effect = {
 			add_country_modifier = {
 				name = "eng_rb_colony_chance"
-				duration = -1 
+				duration = 5475
 			}
 			1104 = {
 				add_base_production = 3
@@ -1585,6 +1615,7 @@ eng_rb_thirteen_colonies_group = {
 	ai = yes
 	potential_on_load = {
 		has_dlc = "Rule Britannia"
+		NOT = { has_dlc = "Domination" }
 	}
 	potential = {
 		OR = {
@@ -1594,6 +1625,7 @@ eng_rb_thirteen_colonies_group = {
 		has_country_flag = use_paradox_missions
 		is_random_new_world = no
 		has_dlc = "Rule Britannia"
+		NOT = { has_dlc = "Domination" }
 		NOT = { map_setup = map_setup_random }
 	}
 	has_country_shield = yes
@@ -1621,7 +1653,7 @@ eng_rb_thirteen_colonies_group = {
 		effect = {
 			add_country_modifier = {
 				name = "eng_rb_thirteen_colonies_mod"
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -1633,6 +1665,7 @@ eng_rb_trade_in_home_cot_group = {
 	ai = yes
 	potential_on_load = {
 		has_dlc = "Rule Britannia"
+		NOT = { has_dlc = "Domination" }
 	}
 	potential = {
 		OR = {
@@ -1641,6 +1674,7 @@ eng_rb_trade_in_home_cot_group = {
 		}
 		has_country_flag = use_paradox_missions
 		has_dlc = "Rule Britannia"
+		NOT = { has_dlc = "Domination" }
 		NOT = { map_setup = map_setup_random }
 	}
 	has_country_shield = yes
@@ -1692,7 +1726,7 @@ eng_rb_trade_in_home_cot_group = {
 		effect = {
 			add_country_modifier = {
 				name = "eng_channel_dominance"
-				duration = -1 
+				duration = 5475
 			}
 			1874 = {
 				add_permanent_claim = ROOT

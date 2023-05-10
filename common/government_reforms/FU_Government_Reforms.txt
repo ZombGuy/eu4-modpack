@@ -3,13 +3,13 @@ tur_organized_pashas_reform = {
 	allow_normal_conversion = yes
 	potential = {
 		OR = {
-			mission_completed = tur_organize_pashas
+			#mission_completed = tur_organize_pashas
 			has_reform = tur_organized_pashas_reform
 		}
 	}
 	trigger = {
 		OR = {
-			mission_completed = tur_organize_pashas
+			#mission_completed = tur_organize_pashas
 			has_reform = tur_organized_pashas_reform
 		}
 	}
@@ -81,7 +81,7 @@ fu_janissary_autocracy = {
 	modifiers = {
 		monarch_military_power = 1 
 		max_absolutism = -70
-		janissaries_influence_modifier = 0.05
+		#janissaries_influence_modifier = 0.05 #implement that one day Stiopa, plez
 		administrative_efficiency = -0.1
 	}
 	custom_attributes = {
@@ -91,7 +91,9 @@ fu_janissary_autocracy = {
 	
 	conditional = {
 		allow = { has_dlc = "Rights of Man" }
-		militarised_society = yes
+		government_abilities = {
+			militarization_mechanic
+		}
 	}
 }
 
@@ -138,7 +140,7 @@ fu_order_of_saint_joan_reform = {
 			AND = {
 				OR = {
 					tag = KOJ
-					has_country_modifier = orl_sisters_takeover_modifier
+					#has_country_modifier = orl_sisters_takeover_modifier
 				}
 				NOT = { map_setup = map_setup_random }
 			}
@@ -158,7 +160,9 @@ fu_order_of_saint_joan_reform = {
 	}
 	conditional = {
 		allow = { has_dlc = "Rights of Man" }
-		militarised_society = yes
+		government_abilities = {
+			militarization_mechanic
+		}
 	}
 	rulers_can_be_generals = yes
 	heirs_can_be_generals = yes
@@ -244,7 +248,7 @@ fu_declare_pirate_empire_reform = {
 	potential = {
 		OR = { 
 			have_had_reform = fu_declare_pirate_empire_reform 
-			mission_completed = nss_contact_far_east_pirates
+			#mission_completed = nss_contact_far_east_pirates
 		}
 	}
 	valid_for_nation_designer = no
@@ -262,7 +266,7 @@ fu_fleet_with_a_state_reform = {
 	potential = {
 		OR = { 
 			have_had_reform = fu_fleet_with_a_state_reform 
-			mission_completed = nss_strong_republican_foundations
+			#mission_completed = nss_strong_republican_foundations
 		}
 	}
 	valid_for_nation_designer = no
@@ -317,13 +321,13 @@ ara_consulate_of_the_sea = {
 	allow_normal_conversion = no
 	potential = {
 		OR = {
-			mission_completed = ara_maritime_law
+			#mission_completed = ara_maritime_law
 			has_reform = ara_consulate_of_the_sea
 		}
 	}
 	trigger = {
 		OR = {
-			mission_completed = ara_maritime_law
+			#mission_completed = ara_maritime_law
 			has_reform = ara_consulate_of_the_sea
 		}
 	}
@@ -343,13 +347,13 @@ ara_consell_de_cent = {
 	allow_normal_conversion = no
 	potential = {
 		OR = {
-			mission_completed = ara_tradicions_catalanes
+			#mission_completed = ara_tradicions_catalanes
 			has_reform = ara_consell_de_cent
 		}
 	}
 	trigger = {
 		OR = {
-			mission_completed = ara_tradicions_catalanes
+			#mission_completed = ara_tradicions_catalanes
 			has_reform = ara_consell_de_cent
 		}
 	}
@@ -360,9 +364,9 @@ ara_consell_de_cent = {
 	}
 	effect = { 
 		custom_tooltip = ara_gain_administrator_trait_tt
-		hidden_effect = { 
-			country_event = { id = FU_Aragon_Events.12 }
-		}
+		#hidden_effect = { 
+			#country_event = { id = FU_Aragon_Events.12 }
+		#}
 	}
 	ai = {
 		factor = 100
@@ -374,13 +378,13 @@ mil_secret_council = {
 	allow_normal_conversion = no
 	potential = {
 		OR = {
-			mission_completed = mlo_control_the_estates
+			#mission_completed = mlo_control_the_estates
 			has_reform = mil_secret_council
 		}
 	}
 	trigger = {
 		OR = {
-			mission_completed = mlo_control_the_estates
+			#mission_completed = mlo_control_the_estates
 			has_reform = mil_secret_council
 		}
 	}
@@ -400,13 +404,13 @@ mil_sforza_administration = {
 	allow_normal_conversion = no
 	potential = {
 		OR = {
-			mission_completed = mlo_modern_tax_system
+			#mission_completed = mlo_modern_tax_system
 			has_reform = mil_sforza_administration
 		}
 	}
 	trigger = {
 		OR = {
-			mission_completed = mlo_modern_tax_system
+			#mission_completed = mlo_modern_tax_system
 			has_reform = mil_sforza_administration
 		}
 	}
@@ -426,13 +430,13 @@ nov_commercial_law = {
 	allow_normal_conversion = no
 	potential = {
 		OR = {
-			mission_completed = nov_deal_with_hansa
+			#mission_completed = nov_deal_with_hansa
 			has_reform = nov_commercial_law
 		}
 	}
 	trigger = {
 		OR = {
-			mission_completed = nov_deal_with_hansa
+			#mission_completed = nov_deal_with_hansa
 			has_reform = nov_commercial_law
 		}
 	}
@@ -458,13 +462,13 @@ nov_republican_guard_reform = {
 	allow_normal_conversion = no
 	potential = {
 		OR = {
-			mission_completed = nov_republican_guard
+			#mission_completed = nov_republican_guard
 			has_reform = nov_republican_guard_reform
 		}
 	}
 	trigger = {
 		OR = {
-			mission_completed = nov_republican_guard
+			#mission_completed = nov_republican_guard
 			has_reform = nov_republican_guard_reform
 		}
 	}
@@ -537,13 +541,13 @@ aju_hydraulic_empire = {
 	potential = {
 		OR = { 
 			has_reform = aju_hydraulic_empire
-			mission_completed = aju_jubba_and_shebelle
+			#mission_completed = aju_jubba_and_shebelle
 		}
 	}
 	trigger = {
 		OR = { 
 			has_reform = aju_hydraulic_empire
-			mission_completed = aju_jubba_and_shebelle
+			#mission_completed = aju_jubba_and_shebelle
 		}
 	}
 	fixed_rank = 3
@@ -561,13 +565,13 @@ ada_adalan_empire = {
 	potential = {
 		OR = { 
 			has_reform = ada_adalan_empire
-			mission_completed = adal_end_abyssinian_hegemony
+			#mission_completed = adal_end_abyssinian_hegemony
 		}
 	}
 	trigger = {
 		OR = { 
 			has_reform = ada_adalan_empire
-			mission_completed = adal_end_abyssinian_hegemony
+			#mission_completed = adal_end_abyssinian_hegemony
 		}
 	}
 	fixed_rank = 3

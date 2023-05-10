@@ -246,6 +246,9 @@
  timurid_empire_desc: "The Timurid Empire proudly controls Persia with its governors. It is however shaken due to instability within the court and the princes."
  timurid_governor: "Timurid Governor"
  timurid_governor_desc: "This form of government serves the Timurid Empire as a vassal."
+
+ timurid_governor_upgaded: "Timurid Governor"
+ timurid_governor_upgraded_desc: "This form of government serves the Timurid Empire as a vassal."
  STATE: "State"
  
  #Priv:

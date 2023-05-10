@@ -15,7 +15,6 @@ PSA_ATJ_supplied_with_foreign_arms = {
 
 PSA_ATJ_islands_tip = {
 	trade_efficiency = 0.1
-	plantage_goods_produced_modifier = 0.05
 }
 
 PSA_ATJ_trade_language = {

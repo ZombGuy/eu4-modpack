@@ -25,7 +25,7 @@ albania_missions_1 = {
 				limit = { owned_by = ALB }
 				add_province_modifier = {
 					name = alb_mountain_passes
-					duration = -1 
+					duration = -1
 				}
 			}
 		}
@@ -62,7 +62,7 @@ albania_missions_1 = {
 			4174 = {
 				add_province_modifier = {
 					name = alb_adriatic_entrepot
-					duration = -1 
+					duration = 10950 #30 years
 				}
 			}
 		}
@@ -118,7 +118,7 @@ albania_missions_1 = {
 					limit = { owned_by = ROOT }
 					add_trade_modifier = {
 						who = ROOT
-						duration = -1 
+						duration = 5475 #15 years
 						power = 25
 						key = alb_competition_venice
 					}
@@ -126,7 +126,7 @@ albania_missions_1 = {
 			}
 			add_country_modifier = {
 				name = alb_competition_venice
-				duration = -1 
+				duration = 5475 #15 years
 			}
 		}
 	}
@@ -153,7 +153,7 @@ albania_missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = alb_traders_adriatic
-				duration = -1 
+				duration = 5475 #15 years
 			}
 			add_mercantilism = 3
 			add_dip_power = 100
@@ -193,7 +193,7 @@ albania_missions_2 = {
 			4750 = {
 				add_province_modifier = {
 					name = alb_kruje_castle
-					duration = -1 
+					duration = -1
 				}
 			}
 		}
@@ -214,7 +214,7 @@ albania_missions_2 = {
 			}
 			add_country_modifier = {
 				name = alb_mountain_ambush
-				duration = -1 
+				duration = 5475 #15 years
 			}
 		}
 	}
@@ -273,7 +273,7 @@ albania_missions_2 = {
 				else = {
 					add_province_modifier = {
 						name = alb_harbor_albania
-						duration = -1 
+						duration = -1
 					}
 				}
 			}
@@ -297,7 +297,7 @@ albania_missions_2 = {
 		effect = {
 			add_country_modifier = {
 				name = alb_church_bosnia
-				duration = -1 
+				duration = 7300 #20 years
 			}
 			add_prestige = 10
 		}
@@ -325,7 +325,7 @@ albania_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = alb_league_lezhe_mod
-				duration = -1 
+				duration = 5475 #15 years
 			}
 		}
 	}
@@ -392,7 +392,7 @@ albania_missions_3 = {
 				}
 				add_country_modifier = {
 					name = alb_christianity_restored
-					duration = -1 
+					duration = 7300 #20 years
 				}
 			}
 		}
@@ -450,7 +450,7 @@ albania_missions_3 = {
 			else = {
 				add_country_modifier = {
 					name = alb_champion_balkans
-					duration = -1 
+					duration = -1
 				}
 			}
 			
@@ -481,7 +481,7 @@ albania_missions_3 = {
 			}
 			add_country_modifier = {
 				name = alb_illyrian_heritage
-				duration = -1 
+				duration = 7300 #20 years
 			}
 		}
 	}
@@ -526,7 +526,7 @@ albania_missions_3 = {
 				4239 = {
 					add_province_modifier = {
 						name = alb_bastion_hungary
-						duration = -1 
+						duration = -1
 					}
 				}
 				add_mil_power = 50
@@ -562,7 +562,7 @@ albania_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = alb_illyrian_realized
-				duration = -1 
+				duration = 9125 #25 years
 			}
 			
 			if = {
@@ -621,7 +621,7 @@ albania_missions_4 = {
 		effect = {
 			add_country_modifier = {
 				name = alb_ottoman_offensive
-				duration = -1 
+				duration = 3650 #10 years
 			}
 			northern_greece_area = {
 				limit = {
@@ -650,7 +650,7 @@ albania_missions_4 = {
 		effect = {
 			add_country_modifier = {
 				name = alb_athleta_christi
-				duration = -1 
+				duration = 7300 #20 years
 			}
 			capital_scope = { add_cardinal = yes }
 		}
@@ -674,7 +674,7 @@ albania_missions_4 = {
 			137 = {
 				add_province_modifier = {
 					name = alb_secured_routes
-					duration = -1 
+					duration = 7300 #20 years
 				}
 			}
 			add_dip_power = 50
@@ -710,7 +710,7 @@ albania_missions_5 = {
 		effect = {
 			add_country_modifier = {
 				name = alb_seeking_protection
-				duration = -1 
+				duration = 5475 #15 years
 			}
 		}
 	}
@@ -770,7 +770,7 @@ albania_missions_5 = {
 					limit = { is_rival = TUR }
 					add_country_modifier = {
 						name = alb_led_crusade
-						duration = -1 
+						duration = 7300 #20 years
 					}
 				}
 				else = {
@@ -904,7 +904,7 @@ albania_missions_5 = {
 			
 			add_country_modifier = {
 				name = alb_albanian_expansion
-				duration = -1 
+				duration = 10950 #30 years
 			}
 			change_government_reform_progress = 20
 		}
@@ -940,13 +940,13 @@ albania_missions_5 = {
 				limit = { num_accepted_cultures = 3 }
 				add_country_modifier = {
 					name = alb_cultural_harmony
-					duration = -1 
+					duration = 10950 #30 years
 				}
 			}
 			else = {
 				add_country_modifier = {
 					name = alb_albanian_domination
-					duration = -1 
+					duration = 10950 #30 years
 				}
 			}
 		}

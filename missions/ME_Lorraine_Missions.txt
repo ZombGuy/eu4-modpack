@@ -21,7 +21,7 @@ LOR_missions_2 = {
 		effect = {
 			add_country_modifier = {
 				name = "swabian_marches"
-				duration = -1 
+				duration = 3650
 			}
 		}
 	}
@@ -36,7 +36,7 @@ LOR_missions_2 = {
 		effect = {
 			add_country_modifier = {
 				name = "duke_of_lorraine"
-				duration = -1 
+				duration = 5475
 			}
 		}
 	}
@@ -103,7 +103,7 @@ LOR_missions_2 = {
 		effect = {
 			add_country_modifier = {
 				name = "fortify_the_low_countries"
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -125,7 +125,7 @@ LOR_missions_2 = {
 		effect = {
 			add_country_modifier = {
 				name = "burgundian_wine"
-				duration = -1 
+				duration = 9125
 			}
 		}
 	}
@@ -160,7 +160,7 @@ LOR_missions_3 = {
 			}
 			add_country_modifier = {
 				name = "Free_Spirit"
-				duration = -1 
+				duration = 3650
 			}
 		}
 	}
@@ -333,7 +333,7 @@ LOR_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = "duke_of_lorraine"
-				duration = -1 
+				duration = 5475
 			}
 		}
 	}
@@ -413,7 +413,7 @@ LOR_missions_4 = {
 			}
 			add_country_modifier = {
 				name = "integrate_the_electorate"
-				duration = -1 
+				duration = 3650
 			}
 		}
 	}
@@ -433,11 +433,11 @@ LOR_missions_4 = {
 		effect = {
 			add_country_modifier = {
 				name = "liegan_veterans"
-				duration = -1 
+				duration = -1
 			}
 			add_country_modifier = {
 				name = "liegan_bishop"
-				duration = -1 
+				duration = 3650
 			}
 		}
 	}
@@ -463,7 +463,7 @@ LOR_missions_4 = {
 		effect = {
 			add_country_modifier = {
 				name = "frisian_support"
-				duration = -1 
+				duration = 3650
 			}
 		}
 	}
@@ -545,7 +545,7 @@ LOR_missions_4 = {
 		effect = {
 			add_country_modifier = {
 				name = "artery_of_lotharinga"
-				duration = -1 
+				duration = -1
 			}
 		}
 	}

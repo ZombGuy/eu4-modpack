@@ -161,7 +161,7 @@ ethiopia_european_slot = {
 		effect = {
 			add_country_modifier = {
 				name = eth_merchants_in_europe
-				duration = -1 
+				duration = 7300
 			}
 			add_years_of_income = 1
 		}
@@ -299,7 +299,7 @@ ethiopia_policy_with_the_cushitic_people = {
 				}
 				add_province_modifier = {
 					name = eth_active_missionaries
-					duration = -1 
+					duration = 9125
 				}
 			}
 			hadiya_area = {
@@ -308,7 +308,7 @@ ethiopia_policy_with_the_cushitic_people = {
 				}
 				add_province_modifier = {
 					name = eth_active_missionaries
-					duration = -1 
+					duration = 9125
 				}
 			}
 		}
@@ -353,14 +353,14 @@ ethiopia_policy_with_the_cushitic_people = {
 				add_local_autonomy = -100
 				add_province_modifier = {
 					name = eth_increased_gold_mining
-					duration = -1 
+					duration = 9125
 				}
 			}
 			2757 = {
 				add_local_autonomy = -100
 				add_province_modifier = {
 					name = eth_increased_gold_mining
-					duration = -1 
+					duration = 9125
 				}
 			}
 			change_government_reform_progress = 100
@@ -498,19 +498,19 @@ ethiopia_religion_slot = {
 				1227 = {
 					add_province_modifier = {
 						name = eth_new_christians
-						duration = -1 
+						duration = 7300
 					}
 				}
 				2771 = {
 					add_province_modifier = {
 						name = eth_new_christians
-						duration = -1 
+						duration = 7300
 					}
 				}
 				2772 = {
 					add_province_modifier = {
 						name = eth_new_christians
-						duration = -1 
+						duration = 7300
 					}
 				}
 			}
@@ -581,7 +581,7 @@ ethiopia_religion_slot = {
 			}
 			add_country_modifier = {
 				name = eth_united_church
-				duration = -1 
+				duration = 9125
 			}
 			change_government_reform_progress = 100
 		}
@@ -610,7 +610,7 @@ ethiopia_religion_slot = {
 		effect = {
 			add_country_modifier = {
 				name = eth_coptic_offense
-				duration = -1 
+				duration = 9125
 			}
 			egypt_region = {
 				limit = {
@@ -646,7 +646,7 @@ ethiopia_religion_slot = {
 			add_accepted_culture_or_dip_power = { culture = al_misr_arabic }
 			add_country_modifier = {
 				name = eth_legacy_of_alexandria
-				duration = -1 
+				duration = 9125
 			}
 			palestine_area = {
 				limit = {
@@ -694,7 +694,7 @@ ethiopia_religion_slot = {
 		effect = {
 			add_country_modifier = {
 				name = eth_conversion_focus
-				duration = -1 
+				duration = 18250
 			}
 		}
 		ai_weight = {
@@ -726,7 +726,7 @@ ethiopia_religion_slot = {
 		effect = {
 			add_country_modifier = {
 				name = eth_blessed_empire
-				duration = -1 
+				duration = -1
 			}
 		}
 		ai_weight = {
@@ -982,7 +982,7 @@ ethiopia_slot_aksumite_empire = {
 				}
 				add_province_modifier = {
 					name = eth_obelisk_of_axum
-					duration = -1 
+					duration = -1
 				}
 			}
 			if = {
@@ -1157,7 +1157,7 @@ ethiopia_slot_aksumite_empire = {
 		effect = {
 			add_country_modifier = {
 				name = eth_lord_of_the_horn
-				duration = -1 
+				duration = 9125
 			}
 			tihama_al_yemen_area = {
 				limit = {
@@ -1214,7 +1214,7 @@ ethiopia_slot_aksumite_empire = {
 			4346 = {
 				add_trade_modifier = {
 					who = ROOT
-					duration = -1 
+					duration = -1
 					power = 20
 					key = ETH_CONTROL_OVER_GATE_OF_TEARS
 				}
@@ -1291,6 +1291,7 @@ ethiopia_slot_aksumite_empire = {
 				region = arabia_region
 				value = 25
 			}
+			is_at_war = no
 		}
 		effect = {
 			country_event = {
@@ -1299,7 +1300,7 @@ ethiopia_slot_aksumite_empire = {
 			add_prestige = 30
 			add_country_modifier = {
 				name = eth_surpassed_aksumite_empire
-				duration = -1 
+				duration = 18250
 			}
 		}
 		ai_weight = {

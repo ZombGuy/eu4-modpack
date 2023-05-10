@@ -94,12 +94,12 @@ ROT_missions_1 = {
 			4715 = {
 				add_province_modifier = {
 					name = ROT_resistance_in_franconia
-					duration = -1 
+					duration = -1
 				}
 			}
 			add_country_modifier = {
 				name = ROT_against_the_heretics
-				duration = -1 
+				duration = 5475
 			}
 		}
 	}
@@ -142,7 +142,7 @@ ROT_missions_5 = {
 			4715 = {
 				add_province_modifier = {
 					name = ROT_terziarenkloster_modifier
-					duration = -1 
+					duration = -1
 				}
 			}
 		}
@@ -171,7 +171,7 @@ ROT_missions_5 = {
 			4715 = {
 				add_province_modifier = {
 					name = ROT_heilig_geist_spital_modifier
-					duration = -1 
+					duration = -1
 				}
 			}
 		}
@@ -191,7 +191,7 @@ ROT_missions_5 = {
 			add_mil_power = 50
 			add_country_modifier = {
 				name = ROT_resisting_foreign_powers
-				duration = -1 
+				duration = 9125
 			}
 		}
 	}

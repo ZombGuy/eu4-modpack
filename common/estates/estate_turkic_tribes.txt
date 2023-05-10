@@ -7,7 +7,7 @@ estate_turkic_tribes = {
 		OR = {
 			tag = QAR
 			tag = AKK 
-			tag = TKR
+			tag = TRK
 			tag = BAG
 			tag = QIZ
 			primary_culture = azerbaijani
@@ -23,7 +23,7 @@ estate_turkic_tribes = {
 	}
 
 	country_modifier_happy = {
-		yearly_tribal_allegiance = 0.5
+		yearly_government_power = 0.5
 		reform_progress_growth = 0.2 
 	}
 	country_modifier_neutral = {
@@ -31,6 +31,12 @@ estate_turkic_tribes = {
 	}
 	country_modifier_angry = {
 		reform_progress_growth = -0.2 
+	}
+	land_ownership_modifier = {
+	}
+
+	province_independence_weight = {
+		factor = 1
 	}
 	
 	# influence_modifier = {

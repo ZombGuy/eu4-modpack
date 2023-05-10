@@ -9,33 +9,6 @@ me_is_free_merc_company = { #put merc companies that are always free to hire her
 		mercenary_company = me_mug_ahadis
 		mercenary_company = me_mug_gurkhas
 		mercenary_company = me_mug_sowars
+		mercenary_company = ee_byz_varangian_guard
 	}
 }
-
-vanilla_on_mercenary_recruited_trigger = {
-	OR = {
-		AND = {
-			FROM = { has_country_flag = oyo_cavalry_do_not_consume_ap }
-			ROOT = { mercenary_company = merc_oyo_cavalry }
-		}
-	}
-}
-
-missions_expanded_on_mercenary_recruited_trigger = {
-	OR = {
-		FROM = { has_country_flag = me_mercenary_professionalism }
-		ROOT = { me_is_free_merc_company = yes }
-		AND = {
-			ROOT = { 
-				mercenary_company = merc_mor_ottoman_mercenaries
-			}
-			FROM = {
-				reverse_has_opinion = {
-					who = TUR
-					amount = 100
-				}
-			}
-		}
-	}
-}
-

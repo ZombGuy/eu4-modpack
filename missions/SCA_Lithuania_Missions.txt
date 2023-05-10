@@ -1,4 +1,4 @@
-lit_dlc_1 = { #Designed / Scripted and Localised by William 'Big Boss' Samelis
+lit_dlc_1 = { #Designed / Scripted and Localised by Big Boss
 	slot = 1  #Special thanks to ####nekalakinahappen#### for providing valuable research
 	generic = no
 	ai = yes
@@ -44,7 +44,7 @@ lit_dlc_1 = { #Designed / Scripted and Localised by William 'Big Boss' Samelis
 		effect = {
 			add_country_modifier = {
 				name = lit_wave_piety_modifier
-				duration = -1 
+				duration = 7300 
 			}
 			if = {
 				limit = { religion = catholic }
@@ -56,14 +56,14 @@ lit_dlc_1 = { #Designed / Scripted and Localised by William 'Big Boss' Samelis
 					add_cardinal = yes 
 				}
 			}
-			if = { 
-				limit = { 
-					religion = catholic
-					has_ruler_flag = lit_casimir_alive_flag 
-				}
-				custom_tooltip = lit_canonize_casimir_tt
-				country_event = { id = flavor_lit.14 }
-			}
+			#if = { #Commented out, as there was an error regarding Saint Casimir identity
+				#limit = { 
+					#religion = catholic
+					#has_ruler_flag = lit_casimir_alive_flag 
+				#}
+				#custom_tooltip = lit_canonize_casimir_tt
+				#country_event = { id = flavor_lit.14 }
+			#}
 			else_if = {
 				limit = { 
 					religion = orthodox 
@@ -72,14 +72,11 @@ lit_dlc_1 = { #Designed / Scripted and Localised by William 'Big Boss' Samelis
 				add_patriarch_authority = 0.1
 			}
 			else = {				
-				add_stat_or_monarch_power = {
+				change_ruler_stat = {
 					stat = dip
 					amount = 1
 				}
 			} 
-			unlock_estate_privilege = {
-                estate_privilege = estate_burghers_orthodox_tolerance
-            }
 		}
 	}
 	
@@ -116,7 +113,7 @@ lit_dlc_1 = { #Designed / Scripted and Localised by William 'Big Boss' Samelis
 		effect = {
 			add_country_modifier = {
 				name = lit_privilege_vilnius_modifier
-				duration = -1 
+				duration = 10950
 			}
 		}
 	}
@@ -150,13 +147,13 @@ lit_dlc_1 = { #Designed / Scripted and Localised by William 'Big Boss' Samelis
 				}
 				add_country_modifier = {
 					name = "lit_conferedation_on_religion"
-					duration = -1 
+					duration = 7300
 				}
 			}
 			else = {
 				add_country_modifier = {
 					name = "lithuanian_counter_reformation"
-					duration = -1 
+					duration = 7300
 				}
 				define_advisor = {
 					culture = lithuanian
@@ -267,7 +264,7 @@ lit_dlc_2 = {
 					duration = -1 
 				}
 			}
-			add_stat_or_monarch_power = {
+			change_ruler_stat = {
 				stat = adm
 				amount = 1
 			}
@@ -324,7 +321,7 @@ lit_dlc_2 = {
 			tooltip = { 
 				add_province_modifier = {
 					name = lit_centers_urbanization_modifier
-					duration = -1 
+					duration = 7300 
 				}
 			}
 			custom_tooltip = lit_reform_magdeburg_laws 
@@ -339,7 +336,7 @@ lit_dlc_2 = {
 					}
 					add_province_modifier = {
 						name = lit_centers_urbanization_modifier
-						duration = -1 
+						duration = 9125 
 					}
 				}					
 			}
@@ -361,7 +358,7 @@ lit_dlc_2 = {
 		effect = {
 			add_country_modifier = {
 				name = lit_efficient_sejmiks_modifier
-				duration = -1 
+				duration = 5475 
 			}
 			add_adm_power = 100 
 		}
@@ -387,7 +384,7 @@ lit_dlc_2 = {
 					NOT = { corruption = 1 } 
 					NOT = { 
 						num_of_estate_privileges = {
-							estate = esatate_nobles 
+							estate = estate_nobles 
 							value = 2 
 						}
 					}
@@ -398,7 +395,7 @@ lit_dlc_2 = {
 			change_government_reform_progress = 100 
 			add_country_modifier = {
 				name = lit_efficient_leg_proceedings_modifier
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -453,7 +450,7 @@ lit_dlc_3 = {
 			280 = {
 				add_province_modifier = {
 					name = "restoration_of_kiev"
-					duration = -1 
+					duration = -1
 				}
 			}
 			if = { 
@@ -464,7 +461,7 @@ lit_dlc_3 = {
 				add_ruler_personality = architectural_visionary_personality
 			}
 			else = { 
-				add_stat_or_monarch_power = {
+				change_ruler_stat = {
 					stat = adm
 					amount = 2
 				}
@@ -517,7 +514,7 @@ lit_dlc_3 = {
 				add_base_production = 3
 				add_province_modifier = {
 					name = "sluck_sashes"
-					duration = -1 
+					duration = -1
 				}
 			}
 		}
@@ -537,7 +534,7 @@ lit_dlc_3 = {
 		effect = {
 			add_country_modifier = {
 				name = "proto_industrialization"
-				duration = -1 
+				duration = 9125
 			}
 			add_years_of_income = 2
 			custom_tooltip = lit_every_province_with_man_base_production_tt
@@ -748,14 +745,16 @@ lit_dlc_4 = {
 			tooltip = {
 				add_province_modifier = {
 					name = lit_harnessed_steppes_modifier
-					duration = -1 
+					duration = 7300 
 				}
 			}
 			hidden_effect = {
 				every_province = {
 					limit = {
 						OR = {
-							owned_by = overlord 
+							owner = {
+								overlord_of = LIT	
+							}
 							country_or_non_sovereign_subject_holds = ROOT 
 						}
 						has_terrain = steppe 
@@ -767,7 +766,7 @@ lit_dlc_4 = {
 					}
 					add_province_modifier = {
 						name = lit_harnessed_steppes_modifier
-						duration = -1 
+						duration = 7300 
 					}
 				}
 			}
@@ -796,14 +795,13 @@ lit_dlc_4 = {
 			else = { total_development = 800 } 
 		}
 		effect = { 
-			add_power_projection = {
+			add_permanent_power_projection = {
 				type = 25_permanent_power_projection
 				amount = 25
 			}
-			custom_tooltip = zim_amongst_the_great_powers_tt
 			add_country_modifier = {
 				name = lit_golden_age_lit_modifier
-				duration = -1 
+				duration = 9125
 			}
 			if = { 
 				limit = { has_dlc = "Emperor" }
@@ -881,7 +879,7 @@ lit_dlc_5 = {
 				complete_mission = lit_march_west 
 				add_country_modifier = {
 					name = lit_part_of_the_polish_domain_modifier
-					duration = -1 
+					duration = 5475
 				}
 			}
 			custom_tooltip = pol_alternatively_tt
@@ -916,7 +914,7 @@ lit_dlc_5 = {
 					complete_mission = lit_march_west 
 					add_country_modifier = {
 						name = lit_part_of_the_polish_domain_modifier
-						duration = -1 
+						duration = 5475
 					}
 				}	
 				else_if = { 
@@ -994,15 +992,15 @@ lit_dlc_5 = {
 			}
 			custom_tooltip = pol_alternatively_tt
 			tooltip = {
-				add_stat_or_monarch_power = {
+				change_ruler_stat = {
 					stat = adm
 					amount = 1
 				}
-				add_stat_or_monarch_power = {
+				change_ruler_stat = {
 					stat = dip
 					amount = 1
 				}
-				add_stat_or_monarch_power = {
+				change_ruler_stat = {
 					stat = mil
 					amount = 1
 				}
@@ -1020,21 +1018,21 @@ lit_dlc_5 = {
 						add_liberty_desire = -20
 						add_country_modifier = {
 							name = lit_increased_dev_modifier
-							duration = -1 
+							duration = 1825
 							hidden = yes 
 						}
 					}
 				}
 				else = {
-					add_stat_or_monarch_power = {
+					change_ruler_stat = {
 						stat = adm
 						amount = 1
 					}
-					add_stat_or_monarch_power = {
+					change_ruler_stat = {
 						stat = dip
 						amount = 1
 					}
-					add_stat_or_monarch_power = {
+					change_ruler_stat = {
 						stat = mil
 						amount = 1
 					}
@@ -1078,7 +1076,7 @@ lit_dlc_5 = {
 		effect = {		
 			add_country_modifier = {
 				name = "baltic_ambition_new"
-				duration = -1 
+				duration = 7300
 			}
 			malopolska_area = {
 				limit = {
@@ -1179,14 +1177,14 @@ lit_dlc_5 = {
 			tooltip = {
 				add_country_modifier = {
 					name = lit_attracting_migrants_modifier
-					duration = -1 
+					duration = 3650 
 				}
 			}
 			custom_tooltip = pol_alternatively_tt
 			tooltip = {
 				add_country_modifier = {
 					name = lit_lithuanian_supremacy_modifier
-					duration = -1 
+					duration = 10950 
 				}
 			}
 			hidden_effect = {
@@ -1199,13 +1197,13 @@ lit_dlc_5 = {
 					}
 					add_country_modifier = {
 						name = lit_lithuanian_supremacy_modifier
-						duration = -1 
+						duration = 10950 
 					}
 				}
 				else = {
 					add_country_modifier = {
 						name = lit_attracting_migrants_modifier
-						duration = -1 
+						duration = 3650 
 					}
 				}
 			}
@@ -1385,13 +1383,13 @@ lit_dlc_5 = {
 				}
 				add_country_modifier = {
 					name = "lit_lord_of_the_rus"
-					duration = -1 
+					duration = 7300
 				}
 			}
 			else = {
 				add_country_modifier = {
 					name = "lit_conquered_rus"
-					duration = -1 
+					duration = 7300
 				}
 			}
 		}

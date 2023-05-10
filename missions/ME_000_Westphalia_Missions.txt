@@ -60,7 +60,7 @@ WES_Generic_Missions_1_1 = {
 		effect = {
 			add_country_modifier = {
 				name = WES_army_modifier
-				duration = -1 
+				duration = 9125
 			}
 			custom_tooltip = WES_extrabonus
 			tooltip = {
@@ -137,7 +137,7 @@ OLD_Missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = OLD_valiant_claimant
-				duration = -1 
+				duration = 9125
 			}
 			custom_tooltip = OLD_if_denmark_is_valid
 			tooltip = {
@@ -191,7 +191,7 @@ CLB_Missions_1 = {
 			add_accepted_culture_or_dip_power = { culture = lower_saxon }
 			add_country_modifier = {
 				name = CLB_the_guelphs
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -246,7 +246,7 @@ WES_Generic_Missions_1_2 = {
 		effect = {
 			add_country_modifier = {
 				name = WES_seized_the_title
-				duration = -1 
+				duration = 10950
 			}
 			add_prestige_or_monarch_power = { amount = 20 }
 		}
@@ -432,7 +432,7 @@ WES_Generic_Missions_2 = {
 			add_adm_power = 100
 			add_country_modifier = {
 				name = WES_consolidation_of_westphalia
-				duration = -1 
+				duration = 9125
 			}
 			north_rhine_area = {
 				limit = {
@@ -532,7 +532,7 @@ WES_Generic_Missions_3_1 = {
 		effect = {
 			add_country_modifier = {
 				name = WES_unconquered_capital
-				duration = -1 
+				duration = 10950
 			}
 			if = {
 				limit = {
@@ -542,7 +542,7 @@ WES_Generic_Missions_3_1 = {
 				55 = {
 					add_province_modifier = {
 						name = OLD_vri_jade
-						duration = -1 
+						duration = 18250
 					}
 				}
 			}
@@ -573,7 +573,7 @@ PAD_Missions_3 = {
 			}
 			add_country_modifier = {
 				name = PAD_paderborner
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -623,7 +623,7 @@ OSN_Missions_3 = {
 			56 = {
 				add_province_modifier = {
 					name = OSN_city_of_peace
-					duration = -1 
+					duration = -1
 				}
 			}
 		}
@@ -723,7 +723,7 @@ RVA_Missions_3 = {
 			69 = {
 				add_province_modifier = {
 					name = RVA_as_firm_as_dortmund_modifier
-					duration = -1 
+					duration = -1
 				}
 			}
 		}
@@ -813,7 +813,7 @@ WES_Generic_Missions_3_2 = {
 			else = {
 				add_country_modifier = {
 					name = WES_renaissance #-10% adm advisor cost_multiplier
-					duration = -1 
+					duration = 9125
 				}
 				custom_tooltip = WES_has_taken_the_mission
 				tooltip = {
@@ -871,7 +871,7 @@ WES_Generic_Missions_3_2 = {
 			tooltip = {
 				add_country_modifier = {
 					name = WES_catholic_book
-					duration = -1 
+					duration = 9125
 				}
 				custom_tooltip = WES_if_we_are_first_catholic
 				define_advisor = {
@@ -887,7 +887,7 @@ WES_Generic_Missions_3_2 = {
 			tooltip = {
 				add_country_modifier = {
 					name = WES_lippstadt_cathechism
-					duration = -1 
+					duration = 9125
 				}
 				custom_tooltip = WES_if_we_are_first_protestant
 				define_advisor = {
@@ -922,7 +922,7 @@ WES_Generic_Missions_3_2 = {
 				else = {
 					add_country_modifier = {
 						name = WES_lippstadt_cathechism
-						duration = -1 
+						duration = 9125
 					}
 					if = {
 						limit = {
@@ -990,7 +990,7 @@ MUN_Missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = MUN_the_pious_state
-				duration = -1 
+				duration = 9125
 			}
 		}
 	}
@@ -1039,7 +1039,7 @@ WES_Generic_Missions_4_1 = {
 			capital_scope = {
 				add_province_modifier = {
 					name = WES_tax
-					duration = -1 
+					duration = 9125
 				}
 			}
 		}
@@ -1110,7 +1110,7 @@ PAD_Missions_4 = {
 			2972 = {
 				add_province_modifier = {
 					name = PAD_irrigation_modifier
-					duration = -1 
+					duration = -1
 				}
 			}
 		}
@@ -1188,7 +1188,7 @@ RVA_Missions_4 = {
 			69 = {
 				add_province_modifier = {
 					name = RVA_new_guilds_created
-					duration = -1 
+					duration = 9125
 				}
 			}
 		}
@@ -1220,7 +1220,7 @@ RVA_Missions_4 = {
 		effect = {
 			add_country_modifier = {
 				name = RVA_a_new_heyday
-				duration = -1 
+				duration = 10950
 			}
 			capital_scope = {
 				add_prosperity = 100
@@ -1274,7 +1274,7 @@ WES_Generic_Missions_4_2 = {
 		effect = {
 			add_country_modifier = {
 				name = WES_control_regained
-				duration = -1 
+				duration = 9125
 			}
 		}
 	}
@@ -1394,7 +1394,7 @@ MUN_Missions_5 = {
 			86 = {
 				add_province_modifier = {
 					name = MUN_st_pauls_church_modifier
-					duration = -1 
+					duration = -1
 				}
 				add_or_upgrade_tax_building = yes
 			}
@@ -1457,7 +1457,7 @@ PAD_Missions_5 = {
 			2972 = {
 				add_province_modifier = {
 					name = PAD_libori
-					duration = -1 
+					duration = -1
 				}
 				add_or_upgrade_tax_building = yes
 			}
@@ -1577,7 +1577,7 @@ OSN_Missions_5 = {
 			86 = {
 				add_province_modifier = {
 					name = OSN_diocese_founded_by_charlemagne
-					duration = -1 
+					duration = -1
 				}
 				add_or_upgrade_tax_building = yes
 			}

@@ -154,7 +154,7 @@ emp_burgundy_1 = {
 			}
 			add_country_modifier = {
 				name = "bur_arles_mod"
-				duration = -1 
+				duration = "7300"
 			}
 			piedmont_area = {
 				limit = {
@@ -324,7 +324,7 @@ emp_lotharingia_1 = {
 			add_prestige = 20
 			add_country_modifier = {
 				name = bur_italian_king
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -401,7 +401,7 @@ emp_burgundy_2 = {
 				limit = { owned_by = root }
 				add_province_modifier = {
 					name = bur_realm_united_mod
-					duration = -1 
+					duration = 7300
 				}
 			}
 		}
@@ -441,7 +441,7 @@ emp_burgundy_2 = {
 			low_countries_region = {
 				add_province_modifier = {
 					name = bur_lowlands_secured_mod
-					duration = -1 
+					duration = 7300
 				}
 			}
 		}
@@ -541,7 +541,7 @@ emp_burgundy_2 = {
 		effect = {
 			add_country_modifier = {
 				name = bur_channel_trading
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -659,7 +659,7 @@ emp_burgundy_3 = {
 			add_prestige = 15
 			add_country_modifier = {
 				name = "bur_diplo_mod"
-				duration = -1 
+				duration = 5475
 			}
 			frisia_area = {
 				limit = {
@@ -696,7 +696,7 @@ emp_burgundy_3 = {
 			1975 = {
 				add_trade_modifier = {
 					who = root
-					duration = -1 
+					duration = 7300
 					power = 20
 					key = bur_channel_ambition
 				}
@@ -770,7 +770,7 @@ emp_burgundy_3 = {
 						estate = estate_nobles
 						desc = VAL_BUR_APPEASED_ESTATES
 						loyalty = 10
-						duration = -1 
+						duration = 7300
 					}
 				}
 				if = {
@@ -781,7 +781,7 @@ emp_burgundy_3 = {
 						estate = estate_church
 						desc = VAL_BUR_APPEASED_ESTATES
 						loyalty = 10
-						duration = -1 
+						duration = 7300
 					}
 				}
 				if = {
@@ -792,7 +792,7 @@ emp_burgundy_3 = {
 						estate = estate_burghers
 						desc = VAL_BUR_APPEASED_ESTATES
 						loyalty = 10
-						duration = -1 
+						duration = 7300
 					}
 				}
 			}
@@ -808,7 +808,19 @@ emp_burgundy_3 = {
 			has_regency = no
 		}
 		effect = {
-			country_event = { id = new_flavour_bur.5 }
+			country_event_with_insight = {
+				id = new_flavour_bur.5
+				insight_tooltip = INSIGHT_JUST_TOOLTIP
+				effect_tooltip = "
+				add_country_modifier = {
+					name = bur_prestigious_duchy_mod
+					duration = -1
+				}
+				add_permanent_power_projection = {
+					type = 25_permanent_power_projection
+					amount = 25
+				}"
+			}
 		}
 	}
 }
@@ -1045,7 +1057,7 @@ emp_burgundy_4 = {
 		effect = {
 			add_country_modifier = {
 				name = bur_english_diplomacy
-				duration = -1 
+				duration = 7300
 			}
 		}
 		ai_weight = {
@@ -1280,7 +1292,7 @@ emp_burgundy_4 = {
 		effect = {
 			add_country_modifier = {
 				name = bur_king_of_franks
-				duration = -1 
+				duration = 7300
 			}
 
 			if = {
@@ -1490,7 +1502,7 @@ emp_burgundy_4 = {
 			}
 			add_country_modifier = {
 				name = bur_influence_over_princes
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -1625,7 +1637,7 @@ emp_lotharingia_4 = {
 		effect = {
 			add_country_modifier = {
 				name = bur_german_empire
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -1702,13 +1714,13 @@ emp_burgundy_5 = {
 				limit = { religion = catholic }
 				add_country_modifier = {
 					name = bur_special_place_in_popes_heart
-					duration = -1 
+					duration = 7300
 				}
 			}
 			else = {
 				add_country_modifier = {
 					name = bur_pope_is_hated
-					duration = -1 
+					duration = 7300
 				}
 			}
 		}
@@ -1855,11 +1867,11 @@ emp_burgundy_5 = {
 			}
 			add_country_modifier = {
 				name = bur_seed_is_strong
-				duration = -1 
+				duration = -1
 			}
 			add_country_modifier = {
 				name = bur_we_shall_not_be_annexed
-				duration = -1 
+				duration = 7300
 			}
 			if = {
 				limit = {
@@ -2263,7 +2275,7 @@ emp_lotharingia_5 = {
 			}
 			add_country_modifier = {
 				name = bur_carolingia
-				duration = -1 
+				duration = -1
 			}
 		}
 	}

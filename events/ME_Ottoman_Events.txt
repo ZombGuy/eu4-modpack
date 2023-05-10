@@ -113,6 +113,10 @@ country_event = { #Fall of Constantinople
 		trigger = {
 			145 = {
 				owned_by = BYZ
+				OR = {
+					controlled_by = BYZ
+					controlled_by = ROOT
+				}
 			}
 		}
 		# BYZ = {

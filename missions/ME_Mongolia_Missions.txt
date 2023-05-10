@@ -134,7 +134,7 @@ mongolia_missions_2 = {
 			add_legitimacy_equivalent = { amount = 15 republican_tradition = 15 }
 			add_country_modifier = {
 				name = mongolia_overcoming
-				duration = -1 
+				duration = -1
 			}
 			add_accepted_culture_or_dip_power = { culture = oirats }
 		}
@@ -173,7 +173,7 @@ mongolia_missions_2 = {
 		effect = {
 			add_country_modifier = {
 				name = mongolia_among_the_great_khans
-				duration = -1 
+				duration = -1
 			}
 			add_accepted_culture_or_dip_power = { culture = uyghur }
 			west_siberia_region = {
@@ -530,7 +530,7 @@ mongolia_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = mongolia_independence
-				duration = -1 
+				duration = 5475
 			}
 			uliastai_area = {
 				limit = {
@@ -639,7 +639,7 @@ mongolia_missions_3 = {
 			add_manpower = 3
 			add_country_modifier = {
 				name = mongolia_desire
-				duration = -1 
+				duration = 1825
 			}
 			703 = {
 				if = {
@@ -675,7 +675,7 @@ mongolia_missions_3 = {
 			}
 			add_country_modifier = {
 				name = kha_broke_the_shackles
-				duration = -1 
+				duration = 9125
 			}
 		}
 	}
@@ -727,7 +727,7 @@ mongolia_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = mongolia_long_river
-				duration = -1 
+				duration = -1
 			}
 			south_china_region = {
 				limit = {
@@ -795,7 +795,7 @@ mongolia_missions_3 = {
 			}
 			add_country_modifier = {
 				name = mongolia_united_administration
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -821,7 +821,7 @@ mongolia_missions_3 = {
 			country_event = { id = ME_Mongolia_Events.3 }
 			add_country_modifier = {
 				name = mongolia_yuan_restored
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -841,7 +841,7 @@ mongolia_missions_3 = {
 			set_country_flag = kha_can_form_golden_horde_with_altaic_culture
 			add_country_modifier = {
 				name = mongolia_return_of_the_golden_horde
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -950,7 +950,7 @@ mongolia_missions_4 = {
 					add_mandate = -10
 					add_country_modifier = {
 						name = mongolia_rising_mongol_threat
-						duration = -1 
+						duration = 9125
 					}
 				}
 			}
@@ -961,7 +961,7 @@ mongolia_missions_4 = {
 				}
 				add_country_modifier = {
 					name = mongolia_manchu_barbarians_subjugated
-					duration = -1 
+					duration = 9125
 				}
 			}
 			else = {
@@ -1051,7 +1051,7 @@ mongolia_missions_4 = {
 		effect = {
 			add_country_modifier = {
 				name = mongolia_hemispheres
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -1099,13 +1099,13 @@ mongolia_missions_4 = {
 				}
 				add_country_modifier = {
 					name = mongolia_conquered_russia
-					duration = -1 
+					duration = -1
 				}
 			}
 			else = {
 				add_country_modifier = {
 					name = mongolia_conquered_russia_no_dlc
-					duration = -1 
+					duration = -1
 				}
 			}
 		}
@@ -1144,13 +1144,13 @@ mongolia_missions_5 = {
 				}
 				add_country_modifier = {
 					name = mongolia_elite_cavalry
-					duration = -1 
+					duration = 7300
 				}
 			}
 			else = {
 				add_country_modifier = {
 					name = mongolia_elite_cavalry_no_dlc
-					duration = -1 
+					duration = 7300
 				}
 			}
 		}
@@ -1180,7 +1180,7 @@ mongolia_missions_5 = {
 		effect = {
 			add_country_modifier = {
 				name = mongolia_benign_neglect
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -1206,7 +1206,7 @@ mongolia_missions_5 = {
 		effect = {
 			add_country_modifier = {
 				name = mongolia_united_tengri
-				duration = -1 
+				duration = -1
 			}
 			every_owned_province = {
 				limit = {

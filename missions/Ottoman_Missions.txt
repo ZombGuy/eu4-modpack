@@ -4,7 +4,10 @@ tur_conquerors_of_the_near_east = {
 	ai = yes
 	potential = {
 		OR = {
-			tag = TUR
+			AND = {
+				NOT = { has_dlc = "Domination" }
+				tag = TUR
+			}
 			tag = RUM
 		}
 		NOT = { map_setup = map_setup_random }
@@ -26,7 +29,7 @@ tur_conquerors_of_the_near_east = {
 		effect = {
 			add_country_modifier = {
 				name = "defeated_byzantine_empire"
-				duration = -1 
+				duration = 5475
 			}
 			every_province = {
 				limit = {
@@ -74,7 +77,7 @@ tur_conquerors_of_the_near_east = {
 		effect = {
 			add_country_modifier = {
 				name = "ottoman_naval_expansion"
-				duration = -1 
+				duration = 5475
 			}
 			rascia_area = {
 				limit = {
@@ -148,7 +151,7 @@ tur_conquerors_of_the_near_east = {
 		effect = {
 			add_country_modifier = {
 				name = "at_the_gates_of_europe"
-				duration = -1 
+				duration = 3650
 			}
 			bosnia_area = {
 				limit = {
@@ -223,7 +226,7 @@ tur_conquerors_of_the_near_east = {
 		effect = {
 			add_country_modifier = {
 				name = "ottoman_hungary"
-				duration = -1 
+				duration = 7300
 			}
 			austria_proper_area = {
 				limit = {
@@ -259,7 +262,10 @@ tur_eastern_balkans = {
 	
 	potential = {
 		OR = {
-			tag = TUR
+			AND = {
+				NOT = { has_dlc = "Domination" }
+				tag = TUR
+			}
 			tag = RUM
 		}
 		NOT = { map_setup = map_setup_random }
@@ -307,12 +313,7 @@ tur_eastern_balkans = {
 	vassalize_transylvania = {
 		icon = mission_eastern_european_city
 		required_missions = { vassalize_wallachia }
-		ai_weight = {
-			factor = 3
-		}
-		ai_priority = {
-			factor = 2
-		}
+
 		completed_by = 1599.3.17
 		provinces_to_highlight = {
 			OR = {
@@ -334,7 +335,7 @@ tur_eastern_balkans = {
 		effect = {
 			add_country_modifier = {
 				name = "principality_of_transylvania"
-				duration = -1 
+				duration = 5475
 			}
 			slovakia_area = {
 				limit = {
@@ -356,7 +357,10 @@ tur_conquest_of_middle_east = {
 	
 	potential = {
 		OR = {
-			tag = TUR
+			AND = {
+				NOT = { has_dlc = "Domination" }
+				tag = TUR
+			}
 			tag = RUM
 		}
 		NOT = { map_setup = map_setup_random }
@@ -439,12 +443,7 @@ tur_conquest_of_middle_east = {
 		required_missions = { army_reforms_of_mehemed_II }
 		position = 3
 		completed_by = 1469.1.1
-		ai_weight = {
-			factor = 3
-		}
-		ai_priority = {
-			factor = 5
-		}
+
 		provinces_to_highlight = {
 			OR = {
 				area = hudavendigar_area
@@ -494,7 +493,7 @@ tur_conquest_of_middle_east = {
 		effect = {
 			add_country_modifier = {
 				name = "anatolia_eyalet"
-				duration = -1 
+				duration = 3650
 			}
 			north_kurdistan_area = {
 				limit = {
@@ -537,13 +536,7 @@ tur_conquest_of_middle_east = {
 		icon = mission_unite_home_region
 		required_missions = { consolidate_asia_minor }
 		position = 5
-		
-		ai_weight = {
-			factor = 6
-		}
-		ai_priority = {
-			factor = 3
-		}
+
 		completed_by = 1514.8.23
 		provinces_to_highlight = {
 			OR = {
@@ -688,7 +681,7 @@ tur_conquest_of_middle_east = {
 			408 = {
 				add_trade_modifier = {
 					who = root
-					duration = -1 
+					duration = 7300
 					power = 20
 					key = indian_ocean_ambition
 				}
@@ -717,7 +710,10 @@ tur_black_sea = {
 	slot = 4
 	potential = {
 		OR = {
-			tag = TUR
+			AND = {
+				NOT = { has_dlc = "Domination" }
+				tag = TUR
+			}
 			tag = RUM
 		}
 		NOT = { map_setup = map_setup_random }
@@ -770,7 +766,7 @@ tur_black_sea = {
 			285 = {
 				add_trade_modifier = {
 					who = root
-					duration = -1 
+					duration = 7300
 					power = 35
 					key = black_sea_ambition
 				}
@@ -789,7 +785,10 @@ tur_eastern_mediterrenean_missions = {
 	
 	potential = {
 		OR = {
-			tag = TUR
+			AND = {
+				NOT = { has_dlc = "Domination" }
+				tag = TUR
+			}
 			tag = RUM
 		}
 		NOT = { map_setup = map_setup_random }
@@ -829,7 +828,7 @@ tur_eastern_mediterrenean_missions = {
 		effect = {
 			add_country_modifier = {
 				name = "conquest_of_the_levant"
-				duration = -1 
+				duration = 5475
 			}
 			delta_area = {
 				limit = {
@@ -891,12 +890,7 @@ tur_eastern_mediterrenean_missions = {
 		required_missions = { conquer_levant }
 		position = 6
 		completed_by = 1517.1.1
-		ai_weight = {
-			factor = 6
-		}
-		ai_priority = {
-			factor = 5
-		}
+
 		provinces_to_highlight = {
 			OR = {
 				area = delta_area
@@ -944,7 +938,7 @@ tur_eastern_mediterrenean_missions = {
 				limit = { owned_by = ROOT }
 				add_province_modifier = {
 					name = "faster_integration"
-					duration = -1 
+					duration = 5475
 				}
 			}
 			#Hejaz:
@@ -1017,7 +1011,7 @@ tur_eastern_mediterrenean_missions = {
 			add_permanent_claim = 163
 			add_country_modifier = {
 				name = "ottoman_naval_dominance"
-				duration = -1 
+				duration = 7300
 			}
 		}
 		
@@ -1042,7 +1036,7 @@ tur_eastern_mediterrenean_missions = {
 			add_claim = 142
 			add_country_modifier = {
 				name = "mediterranean_ambition"
-				duration = -1 
+				duration = 7300 #20 Years
 			}
 		}
 		
@@ -1057,7 +1051,10 @@ tur_conquer_western_mediterrenean = {
 	slot = 2
 	potential = {
 		OR = {
-			tag = TUR
+			AND = {
+				NOT = { has_dlc = "Domination" }
+				tag = TUR
+			}
 			tag = RUM
 		}
 		NOT = { map_setup = map_setup_random }
@@ -1155,7 +1152,7 @@ tur_conquer_western_mediterrenean = {
 		effect = {
 			add_country_modifier = {
 				name = "tur_barbary_pirates"
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -1165,7 +1162,10 @@ tur_indian_ocean = {
 	slot = 4
 	potential = {
 		OR = {
-			tag = TUR
+			AND = {
+				NOT = { has_dlc = "Domination" }
+				tag = TUR
+			}
 			tag = RUM
 		}
 		NOT = { map_setup = map_setup_random }
@@ -1247,7 +1247,7 @@ tur_indian_ocean = {
 			387 = {
 				add_trade_modifier = {
 					who = root
-					duration = -1 
+					duration = 7300
 					power = 25
 					key = indian_ocean_ambition
 				}

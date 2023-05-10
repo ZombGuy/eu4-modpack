@@ -82,7 +82,7 @@ Great_Horde_missions_1 = {
 			crimea_area = {
 				add_province_modifier = {
 					name = Great_Horde_The_crimean_traders_province_modifier
-					duration = -1 
+					duration = -1
 				}
 			}
 			hidden_effect = {
@@ -95,7 +95,7 @@ Great_Horde_missions_1 = {
 					}
 					add_province_modifier = {
 						name = Great_Horde_The_crimean_traders_province_modifier
-						duration = -1 
+						duration = -1
 					}
 				}
 			}
@@ -117,7 +117,7 @@ Great_Horde_missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = Great_Horde_Expel_the_infidels_modifier
-				duration = -1 
+				duration = -1
 			}
 			crimea_area = {
 				limit = {
@@ -349,18 +349,18 @@ Great_Horde_missions_2 = {
 		effect = {
 			add_country_modifier = {
 				name = Great_Horde_Subjugate_Nogai_modifier
-				duration = -1 
+				duration = 7300
 			}
 			lower_yik_area = {
 				add_province_modifier = {
 					name = Great_Horde_Subjugate_Nogai_province_modifier
-					duration = -1 
+					duration = 7300
 				}
 			}
 			nogai_area = {
 				add_province_modifier = {
 					name = Great_Horde_Subjugate_Nogai_province_modifier
-					duration = -1 
+					duration = 7300
 				}
 			}
 		}
@@ -388,7 +388,7 @@ Great_Horde_missions_3 = {
 			add_treasury = 500
 			add_country_modifier = {
 				name = Great_Horde_In_name_and_size_modifier
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -440,24 +440,24 @@ Great_Horde_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = Great_Horde_The_Mosque_of_Sarai_modifier
-				duration = -1 
+				duration = 7300
 			}
 			lower_don_area = {
 				add_province_modifier = {
 					name = Great_Horde_The_Mosque_of_Sarai_province_modifier
-					duration = -1 
+					duration = -1
 				}
 			}
 			saratov_area = {
 				add_province_modifier = {
 					name = Great_Horde_The_Mosque_of_Sarai_province_modifier
-					duration = -1 
+					duration = -1
 				}
 			}
 			astrakhan_area = {
 				add_province_modifier = {
 				name = Great_Horde_The_Mosque_of_Sarai_province_modifier
-				duration = -1 
+				duration = -1
 				}
 			}
 		}
@@ -487,7 +487,7 @@ Great_Horde_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = Great_Horde_One_true_horde_modifier
-				duration = -1 
+				duration = 7300
 			}
 			custom_tooltip = GOL_GAINS_CLAIMS_ON_NOG_KAZ_SHY
 			hidden_effect = {
@@ -543,7 +543,7 @@ Great_Horde_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = Great_Horde_Overshadow_Kazan_modifier
-				duration = -1 
+				duration = 7300
 			}
 			2444 = {
 				if = {
@@ -570,11 +570,11 @@ Great_Horde_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = Great_Horde_The_Sons_of_Jolchi_once_again_country_modifier
-				duration = -1 
+				duration = 18250
 			}
 			add_country_modifier = {
 				name = Great_Horde_The_Sons_of_Jolchi_once_again_modifier
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -679,7 +679,7 @@ Great_Horde_missions_4 = {
 				add_base_manpower = -2
 				add_province_modifier = {
 					name = Great_Horde_The_Caucasian_Pass_province_modifier
-					duration = -1 
+					duration = 1825
 				}
 			}
 			463 = { 
@@ -688,7 +688,7 @@ Great_Horde_missions_4 = {
 				add_base_manpower = -2
 				add_province_modifier = {
 					name = Great_Horde_The_Caucasian_Pass_province_modifier
-					duration = -1 
+					duration = 1825
 				}
 			}
 			466 = {
@@ -761,7 +761,7 @@ Great_Horde_missions_4 = {
 			add_legitimacy_equivalent = { amount = 30 republican_tradition = 30 }
 			add_country_modifier = {
 				name = Great_Horde_Consolidate_Caucassia_modifier
-				duration = -1 
+				duration = -1
 			}
 			astrakhan_area = {
 				limit = {
@@ -794,7 +794,7 @@ Great_Horde_missions_4 = {
 			add_treasury = 200
 			add_country_modifier = {
 				name = Great_Horde_Destroy_Uzbek_modifier
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -835,7 +835,7 @@ Great_Horde_missions_5 = {
 		effect = {
 			add_country_modifier = {
 				name = Great_Horde_The_Ryazanian_state_modifier
-				duration = -1 
+				duration = 3650
 			}
 			1778 = {
 				if = {
@@ -1085,7 +1085,7 @@ Great_Horde_missions_5 = {
 					who = ROOT
 					key = Great_Horde_Novgorod
 					power = 25
-					duration = -1 
+					duration = -1
 				}
 			}
 			finland_area = {

@@ -18,7 +18,7 @@ ME_HUN_branch1 = {
 		effect = {
 			add_country_modifier = {
 				name = ME_HUN_regConsol_modifier
-				duration = -1 
+				duration = 3650
 			}
 			custom_tooltip = ME_HUN_regQuestion_tt
 			hidden_effect = {
@@ -108,13 +108,13 @@ ME_HUN_branch1 = {
 				}
 				add_country_modifier = {
 					name = ME_HUN_habDiplo_modifier
-					duration = -1 
+					duration = 10950
 				}
 			}
 			else = {
 				add_country_modifier = {
 					name = ME_HUN_solidHungarianDynasty_modifier
-					duration = -1 
+					duration = 10950
 				}
 				austria_proper_area = {
 					limit = {
@@ -165,13 +165,13 @@ ME_HUN_branch1 = {
 				}
 				add_country_modifier = {
 					name = ME_HUN_brotherKingdoms_modifier
-					duration = -1 
+					duration = 18250
 				}
 			}
 			else = {
 				add_country_modifier = {
 					name = ME_HUN_warAgainstEmpire_modifier
-					duration = -1 
+					duration = 18250
 				}
 				if = {
 					limit = {
@@ -242,13 +242,13 @@ ME_HUN_branch1 = {
 				}
 				add_country_modifier = {
 					name = ME_HUN_habDominance_modifier
-					duration = -1 
+					duration = 21900
 				}
 			}
 			else = {
 				add_country_modifier = {
 					name = ME_HUN_hreDominance_modifier
-					duration = -1 
+					duration = 14600
 				}
 			}
 		}
@@ -276,7 +276,7 @@ ME_HUN_branch1 = {
 			capital_scope = {
 				add_province_modifier = {
 					name = ME_HUN_bibCorvia_modifier
-					duration = -1 
+					duration = -1
 				}
 			}
 		}
@@ -306,7 +306,7 @@ ME_HUN_branch1 = {
 		effect = {
 			add_country_modifier = {
 				name = ME_HUN_nagyUniver_modifier
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -368,7 +368,7 @@ ME_HUN_branch2 = {
 				hidden_effect = {
 					add_country_modifier = {
 						name = ME_HUN_hiddenModifier_v2
-						duration = -1 
+						duration = 7300
 						hidden = yes
 					}
 					set_country_flag = ME_HUN_quellHussite_flag
@@ -380,7 +380,7 @@ ME_HUN_branch2 = {
 				}
 				add_country_modifier = {
 					name = ME_HUN_pacifiedHussite_modifier
-					duration = -1 
+					duration = 3650
 				}
 			}
 			moravia_area = {
@@ -468,27 +468,16 @@ ME_HUN_branch2 = {
 		}
 		effect = {
 			custom_tooltip = ME_HUN_hreDom_tt
-			if = {
-				limit = {
-					NOT = { exists = BOH }
-				}
-				add_treasury = 200
-				266 = {
-					add_base_tax = -1
-					add_base_production = -1
-					add_base_manpower = -1
-				}
-				capital_scope = {
-					add_base_tax = 1
-					add_base_production = 1
-					add_base_manpower = 1
-				}
+			add_treasury = 200
+			266 = {
+				add_base_tax = -1
+				add_base_production = -1
+				add_base_manpower = -1
 			}
-			else = {
-				add_country_modifier = {
-					name = ME_HUN_crownsUnitedBohemia_modifier
-					duration = -1 
-				}
+			capital_scope = {
+				add_base_tax = 1
+				add_base_production = 1
+				add_base_manpower = 1
 			}
 		}
 	}
@@ -520,7 +509,7 @@ ME_HUN_branch2 = {
 			add_prestige = 5
 			add_country_modifier = {
 				name = ME_HUN_allRoadsLeadToBuda_modifier
-				duration = -1 
+				duration = 9125
 			}
 		}
 	}
@@ -549,13 +538,13 @@ ME_HUN_branch2 = {
 		effect = {
 			add_country_modifier = {
 				name = ME_HUN_custodianCathedral_modifier
-				duration = -1 
+				duration = -1
 			}
 			153 = {
 				add_or_upgrade_tax_building = yes
 				add_province_modifier = {
 					name = ME_HUN_estergormCathedral_modifier
-					duration = -1 
+					duration = -1
 				}
 			}
 		}
@@ -590,7 +579,7 @@ ME_HUN_branch2 = {
 				rename_capital = "Budapest"
 				add_province_modifier = {
 					name = ME_HUN_buda_modifier
-					duration = -1 
+					duration = 7300
 				}
 			}
 		}
@@ -625,19 +614,8 @@ ME_HUN_branch3 = {
 		}
 		effect = {
 			custom_tooltip = ME_HUN_hreDom_tt
-			if = {
-				limit = {
-					religion = catholic
-				}
-				add_prestige_or_monarch_power = { amount = 20 }
-				add_stability_or_adm_power = yes
-			}
-			else = {
-				add_country_modifier = {
-					name = ME_Hungary_fierceConversion_modifier
-					duration = -1 
-				}
-			}
+			add_prestige_or_monarch_power = { amount = 20 }
+			add_stability_or_adm_power = yes
 		}
 	}
 
@@ -696,7 +674,7 @@ ME_HUN_branch3 = {
 			1952 = {
 				add_province_modifier = {
 					name = ME_HUN_carpathianSettlers_modifier
-					duration = -1 
+					duration = 18250
 				}
 			}
 		}
@@ -773,7 +751,7 @@ ME_HUN_branch3 = {
 		effect = {
 			add_country_modifier = {
 				name = ME_HUN_carpatUnity_mission
-				duration = -1 
+				duration = -1
 			}
 			if = {
 				limit = {
@@ -850,7 +828,7 @@ ME_HUN_branch3 = {
 			hidden_effect = {
 				add_country_modifier = {
 					name = ME_HUN_hiddenModifier_v1
-					duration = -1 
+					duration = 18250
 					hidden = yes
 				}
 				set_country_flag = ME_HUN_heathenWar_flag
@@ -885,7 +863,7 @@ ME_HUN_branch3 = {
 		effect = {
 			add_country_modifier = {
 				name = ME_HUN_paxHungarica_modifier
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -954,13 +932,13 @@ ME_HUN_branch4 = {
 				}
 				add_country_modifier = {
 					name = ME_Hungary_northAlliance
-					duration = -1 
+					duration = 7300
 				}
 			}
 			else = {
 				add_country_modifier = {
 					name = ME_Hungary_innerReconcil
-					duration = -1 
+					duration = 7300
 				}
 			}
 			wallachia_area = {
@@ -1029,7 +1007,7 @@ ME_HUN_branch4 = {
 			wallachia_area = {
 				add_province_modifier = {
 					name = ME_HUN_danubianFrontier_modifier
-					duration = -1 
+					duration = 10950
 				}
 			}
 			if = {
@@ -1040,7 +1018,7 @@ ME_HUN_branch4 = {
 				moldavia_area = {
 					add_province_modifier = {
 						name = ME_HUN_danubianFrontier_modifier
-						duration = -1 
+						duration = 10950
 					}
 				}
 			}
@@ -1076,7 +1054,7 @@ ME_HUN_branch4 = {
 					}
 					add_country_modifier = {
 						name = ME_HUN_greatChristian_war_modifier
-						duration = -1 
+						duration = 5475
 					}
 				}
 				else_if = {
@@ -1090,24 +1068,24 @@ ME_HUN_branch4 = {
 					}
 					add_country_modifier = {
 						name = ME_HUN_greatChristian_war_modifier
-						duration = -1 
+						duration = 3650
 					}
 				}
 				else = {
 					add_country_modifier = {
 						name = ME_HUN_greatChristian_war_modifier
-						duration = -1 
+						duration = 1825
 					}
 				}
 				add_country_modifier = {
 					name = ME_HUN_greatChristian_war_modifier
-					duration = -1 
+					duration = 1825
 				}
 			}
 			else = {
 				add_country_modifier = {
 					name = ME_HUN_alreadyLeft_modifier
-					duration = -1 
+					duration = 1825
 				}
 			}
 		}
@@ -1158,14 +1136,14 @@ ME_HUN_branch4 = {
 				BUL = {
 					add_country_modifier = {
 						name = ME_HUN_bulgariaMarch_modifier
-						duration = -1 
+						duration = 14600
 					}
 				}
 			}
 			else = {
 				add_country_modifier = {
 					name = ME_HUN_reclaimBulgaria_modifier
-					duration = -1 
+					duration = 5475
 				}
 			}
 		}
@@ -1198,7 +1176,7 @@ ME_HUN_branch4 = {
 			add_inflation = -1
 			add_country_modifier = {
 				name = ME_HUN_hungarianMints_modifier
-				duration = -1 
+				duration = 3650
 			}
 		}
 	}
@@ -1227,7 +1205,7 @@ ME_HUN_branch4 = {
 			add_legitimacy_equivalent = { amount = 10 republican_tradition = 5 }
 			add_country_modifier = {
 				name = ME_HUN_urbanisation_modifier
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -1341,7 +1319,7 @@ ME_HUN_branch5 = {
 				}
 				add_province_modifier = {
 					name = ME_HUN_privRevoked_modifier
-					duration = -1 
+					duration = 5475
 				}
 			}
 			custom_tooltip = ME_HUN_privRevoked_tt
@@ -1428,7 +1406,7 @@ ME_HUN_branch5 = {
 					}
 					add_province_modifier = {
 						name = ME_HUN_frontierTown_modifier
-						duration = -1 
+						duration = 10950
 					}
 				}
 			}
@@ -1498,13 +1476,13 @@ ME_HUN_branch5 = {
 				}
 				add_country_modifier = {
 					name = ME_HUN_hungarianMintsImproved_modifier
-					duration = -1 
+					duration = 27375
 				}
 			}
 			else = {
 				add_country_modifier = {
 					name = ME_HUN_hungarianMints3_modifier
-					duration = -1 
+					duration = 27375
 				}
 			}
 		}
@@ -1547,13 +1525,13 @@ ME_HUN_branch5 = {
 			slavonia_area = {
 				add_province_modifier = {
 					name = ME_HUN_mergedCrown_modifier
-					duration = -1 
+					duration = 10950
 				}
 			}
 			croatia_area = {
 				add_province_modifier = {
 					name = ME_HUN_mergedCrown_modifier
-					duration = -1 
+					duration = 10950
 				}
 			}
 		}

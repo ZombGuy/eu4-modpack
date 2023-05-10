@@ -25,7 +25,7 @@ ANU_missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = ANU_The_ainu_resistance
-				duration = -1 
+				duration = 36500
 			}
 			hokkaido_area = {
 				limit = {
@@ -58,7 +58,7 @@ ANU_missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = ANU_spreading_the_culture
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -121,7 +121,7 @@ ANU_missions_2 = {
 				add_nationalism = -10
 				add_province_modifier = {
 					name = ANU_conversion_buff
-					duration = -1 
+					duration = -1
 				}
 			}
 			japan_region = {
@@ -166,7 +166,7 @@ ANU_missions_3 = {
 				}
 				add_province_modifier = {
 					name = ANU_clan_unity
-					duration = -1 
+					duration = -1
 				}
 			}
 		}
@@ -185,7 +185,7 @@ ANU_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = ANU_the_empire_of_the_rising_sun
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -268,7 +268,7 @@ ANU_missions_4 = {
 		effect = {
 			add_country_modifier = {
 				name = ANU_manchurian_war_techniques
-				duration = -1 
+				duration = 9125
 			}
 		}
 	}

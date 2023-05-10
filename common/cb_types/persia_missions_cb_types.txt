@@ -1,8 +1,11 @@
 cb_persia_indian_hegemony_vassalization = {
 	valid_for_subject = no
 
-	prerequisites = {
+	prerequisites_self = {
 		has_country_flag = me_persia_indian_hegemony_mechanic
+	}
+	
+	prerequisites = {
 		NOT = { overlord_of = FROM }
 		FROM = {
 			is_free_or_tributary_trigger = yes

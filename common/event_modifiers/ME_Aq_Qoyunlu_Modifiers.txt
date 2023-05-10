@@ -9,6 +9,7 @@ AKK_builder_of_monuments_no_dlc = {
 
 AKK_builder_of_monuments = {
 	great_project_upgrade_cost = -0.15 
+	great_project_upgrade_time = -0.15
 }
 
 AKK_subduing_the_tribes_of_dulkadir = {
@@ -32,7 +33,7 @@ AKK_persianate_empire = {
 }
 
 AKK_stayed_in_diyarbakir = {
-	yearly_tribal_allegiance = 1
+	yearly_government_power = 1
 	nobles_loyalty_modifier = 0.05
 	global_unrest = -1
 }
@@ -82,7 +83,7 @@ AKK_war_is_imminent = {
 }
 
 AKK_tribal_loyalty = {
-	yearly_tribal_allegiance = 1
+	yearly_government_power = 1
 	global_unrest = -0.5
 }
 
@@ -133,9 +134,9 @@ AKK_loyalist_court = {
 
 AKK_heirs_of_oghuz_khan = {
 	cav_to_inf_ratio = 0.25
-	yearly_tribal_allegiance = 0.5
+	yearly_government_power = 0.5
 	legitimacy = 1
-	cavalry_shock = 0.5
+	cavalry_shock = 0.25
 }
 
 AKK_upgraded_armenia = {
@@ -158,6 +159,7 @@ AKK_rise_of_uzun_hasan_ai = {
 	global_regiment_cost = -0.2
 	global_tax_income = 12
 	land_morale = 0.1
+	warscore_from_battles_modifier = 0.66
 }
 
 AKK_rise_of_uzun_hasan = {
@@ -165,4 +167,5 @@ AKK_rise_of_uzun_hasan = {
 	land_forcelimit = 3
 	global_regiment_cost = -0.1
 	land_morale = 0.05
+	warscore_from_battles_modifier = 0.33
 }

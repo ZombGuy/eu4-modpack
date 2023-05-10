@@ -115,12 +115,12 @@ mali_choice_slot = {
 			add_estate_church_loyalty_effect = yes
 			add_country_modifier = {
 				name = mal_fan_of_the_ulema
-				duration = -1 
+				duration = 9125
 			}
 			custom_tooltip = son_tolerance_effects_tt
 			add_country_modifier = {
 				name = mal_fan_of_the_dhimmi
-				duration = -1 
+				duration = 9125
 			}
 		}
 	}
@@ -170,7 +170,7 @@ mali_jihad_slot = {
 			add_estate_church_loyalty_effect = yes
 			add_country_modifier = {
 				name = mal_fan_of_the_ulema
-				duration = -1 
+				duration = 9125
 			}
 		}
 		ai_weight = {
@@ -220,7 +220,7 @@ mali_tolerance_slot = {
 		effect = {
 			add_country_modifier = {
 				name = mal_fan_of_the_dhimmi
-				duration = -1 
+				duration = 9125
 			}
 		}
 		ai_weight = {
@@ -385,7 +385,7 @@ mali_colonization_slot = {
 			}
 			add_country_modifier = {
 				name = mal_colonial_enthusiasm
-				duration = -1 
+				duration = 9125
 			}
 		}
 		ai_weight = {
@@ -527,7 +527,7 @@ mali_trade_slot = {
 			add_mercantilism = 5
 			add_country_modifier = {
 				name = mal_controller_of_the_market
-				duration = -1 
+				duration = -1
 			}
 		}
 		ai_weight = {
@@ -849,24 +849,24 @@ mali_conquest_slot = {
 		effect = {
 			custom_tooltip = mal_control_the_niger_river_tt
 			hidden_effect = {
-				1121 = { add_province_modifier = { name = mal_river_cultivation duration = -1 } }
-				2249 = { add_province_modifier = { name = mal_river_cultivation duration = -1 } }
-				1123 = { add_province_modifier = { name = mal_river_cultivation duration = -1 } }
-				1131 = { add_province_modifier = { name = mal_river_cultivation duration = -1 } }
-				2261 = { add_province_modifier = { name = mal_river_cultivation duration = -1 } }
-				2259 = { add_province_modifier = { name = mal_river_cultivation duration = -1 } }
-				2262 = { add_province_modifier = { name = mal_river_cultivation duration = -1 } }
-				1133 = { add_province_modifier = { name = mal_river_cultivation duration = -1 } }
-				2268 = { add_province_modifier = { name = mal_river_cultivation duration = -1 } }
-				1142 = { add_province_modifier = { name = mal_river_cultivation duration = -1 } }
-				2278 = { add_province_modifier = { name = mal_river_cultivation duration = -1 } }
-				2293 = { add_province_modifier = { name = mal_river_cultivation duration = -1 } }
-				1146 = { add_province_modifier = { name = mal_river_cultivation duration = -1 } }
-				1152 = { add_province_modifier = { name = mal_river_cultivation duration = -1 } }
-				2289 = { add_province_modifier = { name = mal_river_cultivation duration = -1 } }
-				2294 = { add_province_modifier = { name = mal_river_cultivation duration = -1 } }
-				1124 = { add_province_modifier = { name = mal_river_cultivation duration = -1 } }
-				1145 = { add_province_modifier = { name = mal_river_cultivation duration = -1 } }
+				1121 = { add_province_modifier = { name = mal_river_cultivation duration = 9125 } }
+				2249 = { add_province_modifier = { name = mal_river_cultivation duration = 9125 } }
+				1123 = { add_province_modifier = { name = mal_river_cultivation duration = 9125 } }
+				1131 = { add_province_modifier = { name = mal_river_cultivation duration = 9125 } }
+				2261 = { add_province_modifier = { name = mal_river_cultivation duration = 9125 } }
+				2259 = { add_province_modifier = { name = mal_river_cultivation duration = 9125 } }
+				2262 = { add_province_modifier = { name = mal_river_cultivation duration = 9125 } }
+				1133 = { add_province_modifier = { name = mal_river_cultivation duration = 9125 } }
+				2268 = { add_province_modifier = { name = mal_river_cultivation duration = 9125 } }
+				1142 = { add_province_modifier = { name = mal_river_cultivation duration = 9125 } }
+				2278 = { add_province_modifier = { name = mal_river_cultivation duration = 9125 } }
+				2293 = { add_province_modifier = { name = mal_river_cultivation duration = 9125 } }
+				1146 = { add_province_modifier = { name = mal_river_cultivation duration = 9125 } }
+				1152 = { add_province_modifier = { name = mal_river_cultivation duration = 9125 } }
+				2289 = { add_province_modifier = { name = mal_river_cultivation duration = 9125 } }
+				2294 = { add_province_modifier = { name = mal_river_cultivation duration = 9125 } }
+				1124 = { add_province_modifier = { name = mal_river_cultivation duration = 9125 } }
+				1145 = { add_province_modifier = { name = mal_river_cultivation duration = 9125 } }
 			}
 			niger_region = {
 				limit = {
@@ -954,7 +954,7 @@ mali_conquest_slot = {
 			1132 = {
 				add_trade_modifier = {
 					who = ROOT
-					duration = -1 
+					duration = -1
 					power = 15
 					key = mal_trade_domination
 				}
@@ -962,7 +962,7 @@ mali_conquest_slot = {
 			1466 = {
 				add_trade_modifier = {
 					who = ROOT
-					duration = -1 
+					duration = -1
 					power = 15
 					key = mal_trade_domination
 				}
@@ -970,14 +970,14 @@ mali_conquest_slot = {
 			1149 = {
 				add_trade_modifier = {
 					who = ROOT
-					duration = -1 
+					duration = -1
 					power = 15
 					key = mal_trade_domination
 				}
 			}
 			add_country_modifier = {
 				name = mal_protected_economy
-				duration = -1 
+				duration = 9125
 			}
 		}
 		ai_weight = {
@@ -1265,7 +1265,7 @@ mali_empire_slot = {
 			}
 			add_country_modifier = {
 				name = mal_generous_realm
-				duration = -1 
+				duration = 9125
 			}
 		}
 		ai_weight = {
@@ -1412,7 +1412,7 @@ mali_slot_disaster_slot = {
 			custom_tooltip = mal_absolute_authority_ct
 			add_country_modifier = {
 				name = mal_a_new_golden_age
-				duration = -1 
+				duration = -1
 			}
 		}
 		ai_weight = {
@@ -1452,7 +1452,7 @@ mali_slot_disaster_slot = {
 		effect = {
 			add_country_modifier = {
 				name = mal_great_imperial_power
-				duration = -1 
+				duration = -1
 			}
 		}
 		ai_weight = {

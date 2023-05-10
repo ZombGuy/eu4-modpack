@@ -113,7 +113,7 @@ PSA_ATJ_missions_1 = {
 			MSA_claims_philippines = yes
 			add_country_modifier = {
 				name = PSA_ATJ_brunei_modifier
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -136,7 +136,7 @@ PSA_ATJ_missions_1 = {
 			PSA_ATJ_modifier_extension = yes
 			add_country_modifier = {
 				name = PSA_ATJ_the_grand_quest_2
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -179,7 +179,7 @@ PSA_ATJ_missions_2 = {
 			capital_scope = {
 				add_province_modifier = {
 					name = PSA_ATJ_holy_war
-					duration = -1 
+					duration = 5475
 				}
 			}
 		}
@@ -306,7 +306,7 @@ PSA_ATJ_missions_2 = {
 		effect = {
 			add_country_modifier = {
 				name = PSA_ATJ_the_grand_quest
-				duration = -1 
+				duration = -1
 			}
 			PSA_ATJ_modifier_extension = yes
 		}
@@ -439,13 +439,13 @@ PSA_ATJ_missions_4 = {
 		effect = {
 			add_country_modifier = {
 				name = PSA_ATJ_trade_language
-				duration = -1 
+				duration = 9125
 			}
 			custom_tooltip = PSA_ATJ_every_muslim_ally
 			tooltip = {
 				add_country_modifier = {
 					name = PSA_ATJ_lingua_franca
-					duration = -1 
+					duration = 7300
 				}
 			}
 			hidden_effect = {
@@ -495,7 +495,7 @@ PSA_ATJ_missions_4 = {
 			add_yearly_manpower = 1
 			add_country_modifier = {
 				name = PSA_ATJ_supplied_with_foreign_arms
-				duration = -1 
+				duration = 7300
 			}
 			custom_tooltip = PSA_ATJ_the_nation_fulfilling_the_triggers
 			hidden_effect = {
@@ -573,7 +573,7 @@ PSA_ATJ_missions_4 = {
 			}
 			add_country_modifier = {
 				name = PSA_ATJ_port_management
-				duration = -1 
+				duration = 10950
 			}
 		}
 	}
@@ -614,16 +614,14 @@ PSA_ATJ_missions_4 = {
 				trigger = {
 					OR = {
 						trade_goods = spices
-						trade_goods = nutmeg
 						trade_goods = cloves
-						trade_goods = vanilla
 					}
 				}
 				custom_tooltip = MSA_from_spice_production_TGE
 			}
 			add_country_modifier = {
 				name = MSA_spice_production
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -682,7 +680,7 @@ PSA_ATJ_missions_5 = {
 			add_years_of_income = 0.5
 			add_country_modifier = {
 				name = PSA_ATJ_islands_tip
-				duration = -1 
+				duration = 9125
 			}
 		}
 	}
@@ -787,7 +785,7 @@ PSA_ATJ_missions_5 = {
 				add_or_upgrade_trade_building = yes
 				add_province_modifier = {
 					name = PSA_ATJ_porch_of_mecca_modifier
-					duration = -1 
+					duration = -1
 				}
 			}
 			hidden_effect = {
@@ -812,7 +810,7 @@ PSA_ATJ_missions_5 = {
 					add_or_upgrade_trade_building = yes
 					add_province_modifier = {
 						name = PSA_ATJ_porch_of_mecca_modifier
-						duration = -1 
+						duration = -1
 					}
 				}
 			}
@@ -899,7 +897,7 @@ PSA_ATJ_missions_5 = {
 			}
 			add_country_modifier = {
 				name = PSA_ATJ_orang_kaya_curbed
-				duration = -1 
+				duration = 9125
 			}
 		}
 	}

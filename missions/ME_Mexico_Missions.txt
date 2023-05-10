@@ -41,7 +41,7 @@ mexico_missions_1 = {
 				}
 				add_country_modifier = {
 					name = mex_desarollo1
-					duration = -1 
+					duration = 9125
 				}
 			}
 			else_if = {
@@ -53,13 +53,13 @@ mexico_missions_1 = {
 				}
 				add_country_modifier = {
 					name = mex_desarollo2
-					duration = -1 
+					duration = 9125
 				}
 			}
 			else = {
 				add_country_modifier = {
 					name = mex_desarollo3
-					duration = -1 
+					duration = 9125
 				}
 				capital_scope = {
 					add_base_manpower = 3
@@ -133,12 +133,12 @@ mexico_missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = mex_embracing_institution
-				duration = -1 
+				duration = 9125
 			}
 			capital_scope = {
 				add_province_modifier = {
 					name = mex_embracing_institution
-					duration = -1 
+					duration = 3650
 				}
 			}
 		}
@@ -172,7 +172,7 @@ mexico_missions_1 = {
 					add_base_production = 3
 					add_province_modifier = {
 						name = mex_ibarra
-						duration = -1 
+						duration = -1
 					}
 				}
 			}
@@ -294,7 +294,7 @@ mexico_missions_1 = {
 				}
 				add_province_modifier = {
 					name = mex_cuban_tobacco
-					duration = -1 
+					duration = 7300
 				}
 			}
 		}
@@ -417,7 +417,7 @@ mexico_missions_2 = {
 					}
 					add_province_modifier = {
 						name = mex_piloncillo
-						duration = -1 
+						duration = -1
 					}
 				}
 			}
@@ -435,7 +435,7 @@ mexico_missions_2 = {
 		effect = {
 			add_country_modifier = {
 				name = mex_sea_expansion
-				duration = -1 
+				duration = 5475
 			}
 			487 = { #Jamaica
 				if = {
@@ -605,7 +605,7 @@ mexico_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = mex_struggle_anew
-				duration = -1 
+				duration = 3650
 			}
 		}
 	}
@@ -647,7 +647,7 @@ mexico_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = mex_colonial_expansion
-				duration = -1 
+				duration = 9125
 			}
 		}
 	}
@@ -693,7 +693,7 @@ mexico_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = mex_glorious_domination
-				duration = -1 
+				duration = 5475
 			}
 			lower_louisiana_area = {
 				limit = {
@@ -785,7 +785,7 @@ mexico_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = mex_tropical_timber
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -813,7 +813,7 @@ mexico_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = mex_tacos_hegemony_modifier
-				duration = -1 
+				duration = -1
 			}
 			mindanao_area = {
 				limit = {
@@ -931,7 +931,7 @@ mexico_missions_4 = {
 		effect = {
 			add_country_modifier = {
 				name = mex_centralisation_modifier
-				duration = -1 
+				duration = 9125
 			}
 		}
 	}
@@ -1064,7 +1064,7 @@ mexico_missions_4 = {
 		effect = {
 			add_country_modifier = {
 				name = mex_grazing_plains
-				duration = -1 
+				duration = 7300
 			}
 			badlands_area = {
 				limit = {
@@ -1120,7 +1120,6 @@ mexico_missions_4 = {
 			}
 			OR = {
 				MIL = 5
-				has_idea = garrison_conscription
 				has_idea = defensive_mentality
 			}
 		}
@@ -1153,7 +1152,7 @@ mexico_missions_4 = {
 					}
 					add_province_modifier = {
 						name = mex_national_security
-						duration = -1 
+						duration = -1
 					}
 				}
 				885 = {
@@ -1182,7 +1181,7 @@ mexico_missions_4 = {
 					}
 					add_province_modifier = {
 						name = mex_national_security
-						duration = -1 
+						duration = -1
 					}
 				}
 				886 = {
@@ -1211,7 +1210,7 @@ mexico_missions_4 = {
 					}
 					add_province_modifier = {
 						name = mex_national_security
-						duration = -1 
+						duration = -1
 					}
 				}
 				2669 = {
@@ -1240,7 +1239,7 @@ mexico_missions_4 = {
 					}
 					add_province_modifier = {
 						name = mex_national_security
-						duration = -1 
+						duration = -1
 					}
 				}
 				2665 = {
@@ -1269,7 +1268,7 @@ mexico_missions_4 = {
 					}
 					add_province_modifier = {
 						name = mex_national_security
-						duration = -1 
+						duration = -1
 					}
 				}
 				2477 = {
@@ -1298,7 +1297,7 @@ mexico_missions_4 = {
 					}
 					add_province_modifier = {
 						name = mex_national_security
-						duration = -1 
+						duration = -1
 					}
 				}
 				2480 = {
@@ -1327,7 +1326,7 @@ mexico_missions_4 = {
 					}
 					add_province_modifier = {
 						name = mex_national_security
-						duration = -1 
+						duration = -1
 					}
 				}
 			}
@@ -1369,14 +1368,14 @@ mexico_missions_5 = {
 				}
 				add_country_modifier = {
 					name = mex_humanist_path1
-					duration = -1 
+					duration = 10950
 				}
 			}
 			else = {
 				change_religious_influence_equivalent = { add = 15 }
 				add_country_modifier = {
 					name = mex_converting_integrating
-					duration = -1 
+					duration = 10950
 				}
 			}
 		}
@@ -1431,7 +1430,7 @@ mexico_missions_5 = {
 				}
 				add_country_modifier = {
 					name = mex_humanist_path2
-					duration = -1 
+					duration = 7300
 				}
 			}
 			else = {

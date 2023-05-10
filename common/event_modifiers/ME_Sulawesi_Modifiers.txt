@@ -4,7 +4,6 @@ MKS_pillar_island_modifier = {
 }
 
 MKS_trade_deal = {
-	trade_deals_slots = 0.01
 }
 
 MKS_trade_with_australia = {

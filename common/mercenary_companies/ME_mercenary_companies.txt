@@ -149,10 +149,9 @@ ME_merc_klephts = {
 
 ME_merc_varangian_guard = {
 	regiments_per_development = 0.05
-    home_province = 151
 	sprites = { easterngfx_sprite_pack }
     trigger = {
-		tag = BYZ
+		always = no
 	}
 	modifier = {
 		infantry_power = 0.1
@@ -809,7 +808,10 @@ ME_Jurchen_Band = {
 	cavalry_weight = 1
 	sprites = {dlc048_nog_sprite_pack asiangfx_sprite_pack }
     trigger = {
-		NOT = { government = horde }
+		NOT = { 
+			has_government_attribute = enables_horde_idea_group
+			#government = tribal #Or this one, but not government = horde that aint existing
+		}
 		capital_scope = { continent = asia }
 	}
 	modifier = {
@@ -1152,5 +1154,20 @@ me_mug_sowars = {
 	modifier = {
 		morale_damage = 0.15
 		cavalry_flanking = 1
+	}
+}
+
+ee_byz_varangian_guard = {
+	regiments_per_development = 0.1
+	cost_modifier = 0.5
+	mercenary_desc_key = FREE_OF_ARMY_PROFESSIONALISM_COST
+	cavalry_weight = 0
+	artillery_weight = 0
+	trigger = {
+		mission_completed = byz_army_of_the_basileus
+	}
+	modifier = {
+		infantry_power = 0.1
+		shock_damage = 0.1
 	}
 }

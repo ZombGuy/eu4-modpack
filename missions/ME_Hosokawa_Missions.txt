@@ -34,7 +34,7 @@ HSK_missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = HSK_influential_position
-				duration = -1 
+				duration = 3650
 			}
 		}
 	}
@@ -81,7 +81,7 @@ HSK_missions_1 = {
 		effect = {
 			add_ruler_modifier = {
 				name = HSK_patronage
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -124,7 +124,7 @@ HSK_missions_2 = {
 		effect = {
 			add_country_modifier = {
 				name = HSK_time_of_hardship_is_coming
-				duration = -1 
+				duration = 3650
 			}
 		}
 	}
@@ -148,7 +148,7 @@ HSK_missions_2 = {
 			}
 			add_country_modifier = {
 				name = HSK_shogun_support
-				duration = -1 
+				duration = 3650
 			}
 		}
 	}
@@ -169,7 +169,7 @@ HSK_missions_2 = {
 		effect = {
 			add_country_modifier = {
 				name = HSK_heritage
-				duration = -1 
+				duration = 10950
 			}
 		}
 	}
@@ -201,7 +201,7 @@ HSK_missions_2 = {
 		effect = {
 			add_country_modifier = {
 				name = HSK_the_new_shogunate
-				duration = -1 
+				duration = 10950
 			}
 		}
 	}
@@ -265,7 +265,7 @@ HSK_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = HSK_foreign_support
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -284,7 +284,7 @@ HSK_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = HSK_the_kyocho_tyranny
-				duration = -1 
+				duration = 9125
 			}
 		}
 	}
@@ -302,7 +302,7 @@ HSK_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = HSK_unification_of_japan
-				duration = -1 
+				duration = 10950
 			}
 		}
 	}
@@ -336,7 +336,7 @@ HSK_missions_4 = {
 		effect = {
 			add_country_modifier = {
 				name = JAP_faithful_samurai
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -379,7 +379,7 @@ HSK_missions_4 = {
 		effect = {
 			add_country_modifier = {
 				name = HSK_shikoku_united
-				duration = -1 
+				duration = 9125
 			}
 		}
 	}
@@ -415,7 +415,7 @@ HSK_missions_5 = {
 		effect = {
 			add_country_modifier = {
 				name = JAP_ashigarus
-				duration = -1 
+				duration = 5475
 			}
 		}
 	}
@@ -447,7 +447,7 @@ HSK_missions_5 = {
 		effect = {
 			add_country_modifier = {
 				name = HSK_centralization
-				duration = -1 
+				duration = 9125
 			}
 			add_estate_loyalty = {
 				estate = estate_nobles

@@ -37,7 +37,7 @@ italian_minor_group_1 = {
 		effect = {
 			add_country_modifier = {
 				name = "itm_italian_renaissance_modifier"
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -59,7 +59,7 @@ italian_minor_group_1 = {
 			add_adm_power = 50
 			add_country_modifier = {
 				name = "itm_labor_surplus"
-				duration = -1 
+				duration = 9125
 			}
 		}
 	}
@@ -82,7 +82,7 @@ italian_minor_group_1 = {
 				limit = { has_estate = estate_burghers }
 				add_country_modifier = {
 					name = itm_merchant_princes_prosper
-					duration = -1 
+					duration = 7300
 				}
 			}
 			else = {
@@ -132,7 +132,7 @@ italian_minor_group_3 = {
 				limit = {
 					OR = {
 						government = monarchy
-						has_reform = dutch_republic
+						has_government_attribute = has_dutch_election
 						has_reform = signoria_reform
 					}
 				}
@@ -215,7 +215,7 @@ italian_minor_group_3 = {
 		effect = {
 			add_country_modifier = {
 				name = itm_influential_government
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -264,7 +264,7 @@ italian_minor_group_3 = {
 				limit = { has_estate = estate_church }
 				add_country_modifier = {
 					name = itm_loyalists_control_the_church
-					duration = -1 
+					duration = 7300
 				}
 			}
 			else = {
@@ -288,7 +288,7 @@ italian_minor_group_3 = {
 		effect = {
 			add_country_modifier = {
 				name = itm_italian_powerhouse
-				duration = -1 
+				duration = 9125
 			}
 		}
 	}

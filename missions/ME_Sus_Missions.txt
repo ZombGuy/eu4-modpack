@@ -42,7 +42,7 @@ SOS_missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = SOS_no_imposter_among_us
-				duration = -1
+				duration = 10950
 			}
 			
 			set_country_flag = SOS_no_desires_of_the_flesh
@@ -107,7 +107,7 @@ SOS_missions_2 = {
 		effect = {
 			add_country_modifier = {
 				name = SOS_the_task_is_to_pray
-				duration = -1
+				duration = 7300
 			}
 			
 			add_stability_or_adm_power = yes
@@ -188,7 +188,7 @@ SOS_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = SOS_do_the_tasks
-				duration = -1
+				duration = 10950
 			}
 			
 			ME_give_claims = { region = maghreb_region } 

@@ -47,7 +47,7 @@ mnd_khmer_1 = {
 			}
 			add_country_modifier = {
 				name = "angkor_restoration"
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -71,7 +71,7 @@ mnd_khmer_1 = {
 		effect = {
 			add_country_modifier = {
 				name = "angkor_complete"
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -176,7 +176,7 @@ mnd_khmer_2 = {
 		effect = {
 			add_country_modifier = {
 				name = new_khmer_golden_age
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -262,7 +262,7 @@ mnd_khmer_3 = {
 			add_adm_power = 100
 			add_country_modifier = {
 				name = rebuilding_the_towns
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -308,7 +308,7 @@ mnd_khmer_3 = {
 					}
 					add_province_modifier = {
 						name = grain_production_improved
-						duration = -1 
+						duration = 7300
 					}
 				}
 			}
@@ -473,7 +473,7 @@ mnd_khmer_3 = {
 		effect = {
 			add_country_modifier = {
 				name = "khm_navy"
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -557,7 +557,7 @@ mnd_khmer_4 = {
 		effect = {
 			add_country_modifier = {
 				name = "subjugation_of_ayu"
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -816,7 +816,7 @@ mnd_khmer_5 = {
 			add_mil_power = 100
 			add_country_modifier = {
 				name = "khm_burma_campaign"
-				duration = -1 
+				duration = -1
 			}
 		}
 	}

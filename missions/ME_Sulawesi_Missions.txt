@@ -73,7 +73,7 @@ MKS_missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = MKS_ambitions_outwards
-				duration = -1 
+				duration = 9125
 			}
 			MSA_claims_borneo = yes
 		}
@@ -139,26 +139,15 @@ MKS_missions_1 = {
 			}
 		}
 		effect = {
-			if = {
-				limit = {
-					is_expanded_mod_active = { mod = governments }
-				}
-				add_country_modifier = {
-					name = MKS_trade_deal
-					duration = -1 
-				}
-			}
-			else = {
-				add_country_modifier = {
-					name = MKS_trade_deal_non_GE
-					duration = -1 
-				}
+			add_country_modifier = {
+				name = MKS_trade_deal_non_GE
+				duration = 7300
 			}
 			custom_tooltip = MKS_if_we_are_the_first
 			tooltip = {
 				add_country_modifier = {
 					name = MKS_trade_with_australia
-					duration = -1 
+					duration = 9125
 				}
 			}
 			hidden_effect = {
@@ -169,7 +158,7 @@ MKS_missions_1 = {
 					set_global_flag = MKS_trade_with_tiwi
 					add_country_modifier = {
 						name = MKS_trade_with_australia
-						duration = -1 
+						duration = 9125
 					}
 				}
 			}
@@ -303,7 +292,7 @@ MKS_missions_2 = {
 			1361 = {
 				add_trade_modifier = {
 					who = ROOT
-					duration = -1 
+					duration = 9125
 					power = 15
 					key = MKS_gateway
 				}
@@ -426,24 +415,6 @@ MKS_missions_4 = {
 		provinces_to_highlight = {
 		}
 		trigger = {
-			if = {
-				limit = {
-					is_expanded_mod_active = { mod = trade_goods }
-				}
-				OR = {
-					home_trade_node = {
-						trade_share = {
-							country = ROOT
-							share = 15
-						}
-					}
-					trading_part = {
-						trade_goods = nutmeg
-						value = 0.1
-					}
-				}
-			}
-			else = {
 				OR = {
 					home_trade_node = {
 						trade_share = {
@@ -456,13 +427,13 @@ MKS_missions_4 = {
 						value = 0.15
 					}
 				}
-			}
+			
 		}
 		effect = {
 			add_mercantilism = 3
 			add_country_modifier = {
 				name = MKS_spice_control_modifier
-				duration = -1 
+				duration = 9125
 			}
 		}
 	}
@@ -516,7 +487,7 @@ MKS_missions_4 = {
 			
 			add_country_modifier = {
 				name = MKS_mastery_of_the_seas
-				duration = -1 
+				duration = 9125
 			}
 		}
 	}
@@ -557,7 +528,7 @@ MKS_missions_5 = {
 		effect = {
 			add_country_modifier = {
 				name = MKS_pillar_island_modifier
-				duration = -1 
+				duration = 9125
 			}
 			add_yearly_sailors = 1
 		}
@@ -600,7 +571,7 @@ MKS_missions_5 = {
 			642 = {
 				add_province_modifier = {
 					name = MKS_iron_extraction
-					duration = -1 
+					duration = -1
 				}
 			}
 		}
@@ -627,16 +598,10 @@ MKS_missions_5 = {
 			} #Makassar
 		}
 		effect = {
-			if = {
-				limit = {
-					is_expanded_mod_active = { mod = trade_goods }
-				}
-				#country_event = { id = ME_Sulawesi_Events.2 } #Cannon trade good
-			}
 			641 = {
 				add_province_modifier = {
 					name = MKS_artillery_foundry
-					duration = -1 
+					duration = -1
 				}
 			}
 		}
@@ -697,7 +662,7 @@ MKS_missions_5 = {
 			
 			add_country_modifier = {
 				name = MKS_naval_empire
-				duration = -1 
+				duration = -1
 			}
 		}
 	}

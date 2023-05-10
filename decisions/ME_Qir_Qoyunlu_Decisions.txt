@@ -83,10 +83,18 @@ country_decisions = {
 		provinces_to_highlight = {
 		}
 		allow = {
-			tribal_allegiance = 45 
+			has_government_power = {
+				mechanic_type = tribal_federation_mechanic
+				power_type = tribal_allegiance
+				value = 35
+			}
 		}
 		effect = {
-			add_tribal_allegiance = -45
+			add_government_power = {
+				mechanic_type = tribal_federation_mechanic
+				power_type = tribal_allegiance
+				value = -45
+			}
 			
 			if = {
 				limit = {
@@ -180,7 +188,11 @@ country_decisions = {
 		}
 		allow = {
 			NOT = { stability = 2 } 
-			tribal_allegiance = 30 
+			has_government_power = {
+				mechanic_type = tribal_federation_mechanic
+				power_type = tribal_allegiance
+				value = 30
+			}
 			custom_trigger_tooltip = {
 				tooltip = QIR_stability_decision_cooldown
 				OR = {
@@ -193,7 +205,11 @@ country_decisions = {
 			}
 		}
 		effect = {
-			add_tribal_allegiance = -30
+			add_government_power = {
+				mechanic_type = tribal_federation_mechanic
+				power_type = tribal_allegiance
+				value = -30
+			}
 			
 			add_stability_or_adm_power = yes
 			

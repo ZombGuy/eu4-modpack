@@ -51,7 +51,7 @@ emp_germany_hlr_1 = {
 		effect = {
 			add_country_modifier = {
 				name = "ger_crushed_dutch_independence"
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -97,7 +97,7 @@ emp_germany_hlr_1 = {
 					}
 					add_province_modifier = {
 						name = "industrialized_rhineland"
-						duration = -1 
+						duration = -1
 					}
 				}
 			}
@@ -135,7 +135,7 @@ emp_germany_hlr_1_ger = {
 		effect = {
 			add_country_modifier = {
 				name = "ger_german_education"
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -222,7 +222,7 @@ emp_germany_hlr_2 = {
 					estate = estate_burghers
 					desc = EST_VAL_GER_URBAN
 					loyalty = 15
-					duration = -1 
+					duration = -1
 				}
 			}
 			else = {
@@ -308,7 +308,7 @@ emp_germany_hlr_2_ger = {
 			}
 			add_country_modifier = {
 				name = "ger_chancellorship"
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -336,7 +336,7 @@ emp_germany_hlr_2_ger = {
 					estate = estate_nobles
 					desc = EST_VAL_GERMAN_JUNKERS
 					loyalty = 15
-					duration = -1 
+					duration = -1
 				}
 			}
 			else = {
@@ -369,7 +369,7 @@ emp_germany_hlr_2_ger = {
 		effect = {
 			add_country_modifier = {
 				name = "ger_kaiserreich"
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -460,7 +460,7 @@ emp_germany_hlr_2_hlr = {
 			else = {
 				add_country_modifier = {
 					name = "roman_hre"
-					duration = -1 
+					duration = -1
 				}
 			}
 		}
@@ -490,7 +490,7 @@ emp_germany_hlr_2_hlr = {
 		effect = {
 			add_country_modifier = {
 				name = "hre_autonomy"
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -657,7 +657,7 @@ emp_germany_hlr_3 = {
 				}
 				add_country_modifier = {
 					name = "protected_markets_modifier"
-					duration = -1 
+					duration = -1
 				}
 			}
 			else = {
@@ -690,7 +690,7 @@ emp_germany_hlr_3 = {
 		effect = {
 			add_country_modifier = {
 				name = "ger_burned_wooden_wall"
-				duration = -1 
+				duration = -1
 			}
 			home_counties_area = {
 				limit = {
@@ -750,7 +750,7 @@ emp_germany_hlr_3_ger = {
 		effect = {
 			add_country_modifier = {
 				name = "ger_concert_of_europe"
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -792,7 +792,7 @@ emp_germany_hlr_3_ger = {
 				}
 				add_country_modifier = {
 					name = "ger_reactionary_zeal"
-					duration = -1 
+					duration = -1
 				}
 			}
 			else = {
@@ -963,13 +963,13 @@ emp_germany_hlr_4 = {
 				}
 				add_country_modifier = {
 					name = "german_asia_companies"
-					duration = -1 
+					duration = -1
 				}
 			}
 			else = {
 				add_country_modifier = {
 					name = "german_asia_companies_backup"
-					duration = -1 
+					duration = -1
 				}
 			}
 		}

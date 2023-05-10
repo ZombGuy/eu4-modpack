@@ -18,7 +18,7 @@ me_RUS_missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = rus_prepare_expansion
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -174,7 +174,7 @@ me_RUS_missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = Adopted_smolensk_arty
-				duration = -1 
+				duration = -1
 			}
 			ruthenia_region = {
 				limit = {
@@ -186,7 +186,7 @@ me_RUS_missions_1 = {
 			293 = {
 				add_province_modifier = {
 					name = smolensk_arty
-					duration = -1 
+					duration = -1
 				}
 			}
 		}
@@ -208,7 +208,7 @@ me_RUS_missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = ruthenia_rus
-				duration = -1 
+				duration = 7300
 			}
 			azov_area = {
 				limit = {
@@ -392,7 +392,7 @@ me_RUS_missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = russia_warsaw
-				duration = -1 
+				duration = 5475
 			}
 		}
 	}
@@ -427,7 +427,7 @@ me_RUS_missions_1_2 = {
 				remove_country_modifier = foreign_auxilaries
 				add_country_modifier = {
 					name = foreign_auxilaries2
-					duration = -1 
+					duration = -1
 				}
 			}
 			custom_tooltip = modify_auxilaries1.tooltip
@@ -455,7 +455,7 @@ me_RUS_missions_1_2 = {
 				remove_country_modifier = foreign_auxilaries2
 				add_country_modifier = {
 					name = foreign_auxilaries3
-					duration = -1 
+					duration = -1
 				}
 			}
 			custom_tooltip = modify_auxilaries2.tooltip
@@ -502,7 +502,7 @@ me_RUS_missions_1_3 = {
 		effect = {
 			add_country_modifier = {
 				name = rus_national_pride
-				duration = -1 
+				duration = 7300
 			}
 			add_prestige = 50
 		}
@@ -553,7 +553,7 @@ me_RUS_missions_2 = {
 		effect = {
 			add_country_modifier = {
 				name = kazan_russia
-				duration = -1 
+				duration = 7300
 			}
 			saratov_area = {
 				limit = {
@@ -682,7 +682,7 @@ me_RUS_missions_2 = {
 		effect = {
 			add_country_modifier = {
 				name = Russia_push_east
-				duration = -1 
+				duration = 7300
 			}
 			2434 = {
 				if = {
@@ -801,7 +801,7 @@ me_RUS_missions_2 = {
 					remove_country_modifier = Russia_push_east
 					add_country_modifier = {
 						name = russia_push_east_2
-						duration = -1 
+						duration = 7300
 					}
 				}
 			}
@@ -898,7 +898,7 @@ me_RUS_missions_2_2 = {
 		effect = {
 			add_country_modifier = {
 				name = to_alaska
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -924,7 +924,7 @@ me_RUS_missions_2_2 = {
 		effect = {
 			add_country_modifier = {
 				name = alaska
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -958,7 +958,7 @@ me_RUS_missions_2_3 = {
 				remove_country_modifier = exotic_ships
 				add_country_modifier = {
 					name = exotic_ships2
-					duration = -1 
+					duration = -1
 				}
 			}
 			custom_tooltip = modify_ships1.tooltip
@@ -978,7 +978,7 @@ me_RUS_missions_2_3 = {
 				remove_country_modifier = exotic_ships2
 				add_country_modifier = {
 					name = exotic_ships3
-					duration = -1 
+					duration = -1
 				}
 			}
 			custom_tooltip = modify_ships2.tooltip
@@ -1047,7 +1047,7 @@ me_RUS_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = rus_united
-				duration = -1 
+				duration = 7300
 			}
 			custom_tooltip = MEunlock_reform_events.tooltip
 			set_country_flag = reform_realm
@@ -1072,13 +1072,13 @@ me_RUS_missions_3 = {
 					}
 					add_country_modifier = {
 						name = Rus_peter
-						duration = -1 
+						duration = -1
 					}
 				}
 				else = {
 					add_country_modifier = {
 						name = rus_isolation
-						duration = -1 
+						duration = -1
 					}
 				}
 				swap_non_generic_missions = yes
@@ -1103,7 +1103,7 @@ me_RUS_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = ME_mother_russia
-				duration = -1 
+				duration = 18250
 			}
 		}
 	}
@@ -1138,7 +1138,7 @@ me_RUS_missions_3_2 = {
 				remove_country_modifier = brought_western_administrators
 				add_country_modifier = {
 					name = brought_western_administrators2
-					duration = -1 
+					duration = -1
 				}
 			}
 			custom_tooltip = modify_west_adm1.tooltip
@@ -1159,7 +1159,7 @@ me_RUS_missions_3_2 = {
 				remove_country_modifier = brought_western_administrators2
 				add_country_modifier = {
 					name = brought_western_administrators3
-					duration = -1 
+					duration = -1
 				}
 			}
 			custom_tooltip = modify_west_adm2.tooltip
@@ -1195,7 +1195,7 @@ me_RUS_missions_3_3 = {
 		effect = {
 			add_country_modifier = {
 				name = empowered_nobles_rus
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -1306,7 +1306,7 @@ me_RUS_missions_3_4 = {
 				hidden_effect = {
 					add_country_modifier = {
 						name = western_russia3
-						duration = -1 
+						duration = -1
 					}
 				}
 				custom_tooltip = modify_westernization3.tooltip
@@ -1325,7 +1325,7 @@ me_RUS_missions_3_4 = {
 				hidden_effect = {
 					add_country_modifier = {
 						name = western_russia2
-						duration = -1 
+						duration = -1
 					}
 				}
 				custom_tooltip = modify_westernization2.tooltip
@@ -1344,7 +1344,7 @@ me_RUS_missions_3_4 = {
 				hidden_effect = {
 					add_country_modifier = {
 						name = western_russia1
-						duration = -1 
+						duration = -1
 					}
 				}
 				custom_tooltip = modify_westernization1.tooltip
@@ -1432,7 +1432,7 @@ me_RUS_missions_3_5 = {
 				hidden_effect = {
 					add_country_modifier = {
 						name = grand_isolation3
-						duration = -1 
+						duration = -1
 					}
 				}
 				custom_tooltip = modify_isolation3.tooltip
@@ -1451,7 +1451,7 @@ me_RUS_missions_3_5 = {
 				hidden_effect = {
 					add_country_modifier = {
 						name = grand_isolation2
-						duration = -1 
+						duration = -1
 					}
 				}
 				custom_tooltip = modify_isolation2.tooltip
@@ -1470,7 +1470,7 @@ me_RUS_missions_3_5 = {
 				hidden_effect = {
 					add_country_modifier = {
 						name = grand_isolation1
-						duration = -1 
+						duration = -1
 					}
 				}
 				custom_tooltip = modify_isolation1.tooltip
@@ -1584,7 +1584,7 @@ me_RUS_missions_4 = {
 		effect = {
 			add_country_modifier = {
 				name = stability_rus
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -1598,7 +1598,7 @@ me_RUS_missions_4 = {
 		effect = {
 			add_country_modifier = {
 				name = will_of_people_rus
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -1655,7 +1655,7 @@ me_RUS_missions_4_2 = {
 		effect = {
 			add_country_modifier = {
 				name = russian_patriarchy
-				duration = -1 
+				duration = -1
 			}
 			151 = {
 				if = {
@@ -1686,7 +1686,7 @@ me_RUS_missions_4_2 = {
 			151 = {
 				add_province_modifier = {
 					name = constantinople_reclaimed
-					duration = -1 
+					duration = -1
 				}
 			}
 		}
@@ -1712,7 +1712,7 @@ me_RUS_missions_4_2 = {
 		effect = {
 			add_country_modifier = {
 				name = third_rome
-				duration = -1 
+				duration = -1
 			}
 			add_patriarch_authority = 0.5
 		}
@@ -1749,7 +1749,7 @@ mr_RUS_missions_4_3 = {
 				remove_country_modifier = free_trade
 				add_country_modifier = {
 					name = free_trade2
-					duration = -1 
+					duration = -1
 				}
 			}
 			custom_tooltip = modify_free_trade1.tooltip
@@ -1778,7 +1778,7 @@ mr_RUS_missions_4_3 = {
 				remove_country_modifier = free_trade2
 				add_country_modifier = {
 					name = free_trade3
-					duration = -1 
+					duration = -1
 				}
 			}
 			custom_tooltip = modify_free_trade2.tooltip
@@ -1807,7 +1807,7 @@ me_RUS_missions_4_4 = {
 		effect = {
 			add_country_modifier = {
 				name = rus_our_trade
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -1837,7 +1837,7 @@ me_RUS_missions_5 = {
 		effect = {
 			add_country_modifier = {
 				name = rus_workshops
-				duration = -1 
+				duration = 7300
 			}
 			every_owned_province = {
 				limit = {
@@ -1899,7 +1899,7 @@ me_RUS_missions_5 = {
 		effect = {
 			add_country_modifier = {
 				name = rus_production
-				duration = -1 
+				duration = 7300
 			}
 			add_years_of_income = 2
 		}
@@ -1936,7 +1936,7 @@ me_RUS_missions_5 = {
 		effect = {
 			add_country_modifier = {
 				name = russia_culture
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -1955,7 +1955,7 @@ me_RUS_missions_5 = {
 			add_years_of_income = 2.0
 			add_country_modifier = {
 				name = markets
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -1969,7 +1969,7 @@ me_RUS_missions_5 = {
 		effect = {
 			add_country_modifier = {
 				name = englintement_rus
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -2037,7 +2037,7 @@ me_RUS_missions_5_2 = {
 				remove_country_modifier = western_diplomacy
 				add_country_modifier = {
 					name = western_diplomacy2
-					duration = -1 
+					duration = -1
 				}
 			}
 			custom_tooltip = modify_west_dip1.tooltip
@@ -2071,7 +2071,7 @@ me_RUS_missions_5_2 = {
 				remove_country_modifier = western_diplomacy2
 				add_country_modifier = {
 					name = western_diplomacy3
-					duration = -1 
+					duration = -1
 				}
 			}
 			custom_tooltip = modify_west_dip2.tooltip
@@ -2158,7 +2158,7 @@ russia_great_northern_war_incident2 = {
 		effect = {
 			add_country_modifier = {
 				name = rus_baltic_fleet
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -2288,7 +2288,7 @@ russia_great_northern_war_incident3 = {
 		effect = {
 			add_country_modifier = {
 				name = victors_of_gnw
-				duration = -1 
+				duration = 7300
 			}
 			event_target:finland_area_owner = {
 				country_event = { id = ME_Russia_Events.9 }

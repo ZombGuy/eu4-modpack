@@ -1,6 +1,13 @@
 cb_mam_cut_down_in_size = {
 	valid_for_subject = no
 
+	prerequisites_self = {
+		OR = {
+			has_country_flag = MAM_maghreb_flag
+			has_country_flag = MAM_nubia_flag
+		}
+	}
+	
 	prerequisites = {
 		OR = {
 			AND = {
@@ -23,15 +30,4 @@ cb_mam_cut_down_in_size = {
 	}
 
 	war_goal = superiority_mam_size
-}
-
-cb_mam_civil_war = {
-	valid_for_subject = no
-	ai_peace_desire = -300
-
-	prerequisites = {
-		always = no
-	}
-
-	war_goal = superiority_mam_civil_war
 }

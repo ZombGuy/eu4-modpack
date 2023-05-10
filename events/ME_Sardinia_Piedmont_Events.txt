@@ -83,44 +83,6 @@ country_event = {
 			}
 		}
 	}
-
-	option = {
-		name = ME_Sardinia_Piedmont_Events.2.OPT2
-		trigger = {
-			hidden_trigger = {
-				is_expanded_mod_active = { mod = trade_goods }
-			}
-		}
-
-		add_treasury = -500
-		2986 = {
-			change_trade_goods = silver
-			build_possible_manufactory_in_province = yes
-			add_province_modifier = {
-				name = spi_estrassione_mezoradeddha
-				duration = -1
-			}
-		}
-	}
-
-	option = {
-		name = ME_Sardinia_Piedmont_Events.2.OPT3
-		trigger = {
-			hidden_trigger = {
-				is_expanded_mod_active = { mod = trade_goods }
-			}
-		}
-
-		add_treasury = -500
-		2986 = {
-			change_trade_goods = lead
-			build_possible_manufactory_in_province = yes
-			add_province_modifier = {
-				name = spi_estrassione_mezoradeddha
-				duration = -1
-			}
-		}
-	}
 	option = {
 		name = ME_Sardinia_Piedmont_Events.2.OPT4
 

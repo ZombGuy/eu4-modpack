@@ -41,7 +41,7 @@ BRZ_missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = BRA_hardy_settlers
-				duration = -1 
+				duration = 10950
 			}
 			748 = {
 				add_base_tax = 1
@@ -102,7 +102,7 @@ BRZ_missions_1 = {
 			add_years_of_income = 0.5
 			add_country_modifier = {
 				name = BRZ_northern_reaches
-				duration = -1 
+				duration = 9125
 			}
 		}
 	}
@@ -126,7 +126,7 @@ BRZ_missions_1 = {
 			add_years_of_income = 0.5
 			add_country_modifier = {
 				name = BRZ_merchants
-				duration = -1 
+				duration = 10950
 			}
 		}
 	}
@@ -156,7 +156,7 @@ BRZ_missions_1 = {
 			2894 = {
 				add_province_modifier = {
 					name = BRZ_saint_john
-					duration = -1 
+					duration = -1
 				}
 			}
 		}
@@ -302,7 +302,7 @@ BRZ_missions_2 = {
 			custom_tooltip = BRZ_NEW_CB
 			add_country_modifier = {
 				name = BRZ_golden_law
-				duration = -1 
+				duration = 10950
 			}
 		}
 	}
@@ -321,7 +321,7 @@ BRZ_missions_2 = {
 		effect = {
 			add_country_modifier = {
 				name = BRZ_liberty_and_equality
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -347,7 +347,7 @@ BRZ_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = BRZ_struggle_for_freedom
-				duration = -1 
+				duration = 3650
 			}
 		}
 	}
@@ -374,7 +374,7 @@ BRZ_missions_3 = {
 			}
 			add_country_modifier = {
 				name = BRZ_bandeirantes
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -433,7 +433,7 @@ BRZ_missions_3 = {
 			brazil_region = {
 				add_province_modifier = {
 					name = BRZ_unity
-					duration = -1 
+					duration = 10950
 				}
 			}
 		}
@@ -474,7 +474,7 @@ BRZ_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = BRZ_enlightenment
-				duration = -1 
+				duration = 9125
 			}
 		}
 	}
@@ -543,7 +543,7 @@ BRZ_missions_4 = {
 				}
 				add_trade_modifier = {
 					who = ROOT
-					duration = -1 
+					duration = -1
 					power = 25
 					key = BRZ_southern_influence
 				}
@@ -568,13 +568,13 @@ BRZ_missions_4 = {
 				}
 				add_country_modifier = {
 					name = BRZ_national_guard
-					duration = -1 
+					duration = 9125
 				}
 			}
 			else = {
 				add_country_modifier = {
 					name = BRZ_foreign_mercenaries
-					duration = -1 
+					duration = 9125
 				}
 			}
 			banda_oriental_area = {
@@ -639,7 +639,7 @@ BRZ_missions_4 = {
 		effect = {
 			add_country_modifier = {
 				name = BRZ_hegemony_1
-				duration = -1 
+				duration = -1
 			}
 			cuyo_area = {
 				limit = {
@@ -700,7 +700,7 @@ BRZ_missions_4 = {
 				remove_country_modifier = BRZ_hegemony_1
 				add_country_modifier = {
 					name = BRZ_hegemony_2
-					duration = -1 
+					duration = -1
 				}
 			}
 			patagonia_area = {
@@ -800,7 +800,7 @@ BRZ_missions_5 = {
 				}
 				add_province_modifier = {
 					name = "por_minas_gerais"
-					duration = -1 
+					duration = -1
 				}
 			}
 		}
@@ -938,93 +938,6 @@ BRZ_missions_5 = {
 		}
 		effect = {
 			add_prestige_or_monarch_power = { amount = 10 }
-			if = {
-				limit = {
-					is_expanded_mod_active = { mod = trade_goods }
-				}
-				custom_tooltip = ME_BRZ_GOLD_SILVER_MODIFIER
-				hidden_effect = {
-					upper_peru = {
-						limit = {
-							country_or_non_sovereign_subject_holds = ROOT
-							OR = {
-								trade_goods = gold
-								trade_goods = silver
-							}
-						}
-						add_province_modifier = {
-							name = BRZ_gold_modifier
-							duration = -1 
-						}
-					}
-					potosi_area = {
-						limit = {
-							country_or_non_sovereign_subject_holds = ROOT
-							OR = {
-								trade_goods = gold
-								trade_goods = silver
-							}
-						}
-						add_province_modifier = {
-							name = BRZ_gold_modifier
-							duration = -1 
-						}
-					}
-					jujuy_area = {
-						limit = {
-							country_or_non_sovereign_subject_holds = ROOT
-							OR = {
-								trade_goods = gold
-								trade_goods = silver
-							}
-						}
-						add_province_modifier = {
-							name = BRZ_gold_modifier
-							duration = -1 
-						}
-					}
-					tucuman_area = {
-						limit = {
-							country_or_non_sovereign_subject_holds = ROOT
-							OR = {
-								trade_goods = gold
-								trade_goods = silver
-							}
-						}
-						add_province_modifier = {
-							name = BRZ_gold_modifier
-							duration = -1 
-						}
-					}
-					northern_chile_area = {
-						limit = {
-							country_or_non_sovereign_subject_holds = ROOT
-							OR = {
-								trade_goods = gold
-								trade_goods = silver
-							}
-						}
-						add_province_modifier = {
-							name = BRZ_gold_modifier
-							duration = -1 
-						}
-					}
-					antisuyu_area = {
-						limit = {
-							country_or_non_sovereign_subject_holds = ROOT
-							OR = {
-								trade_goods = gold
-								trade_goods = silver
-							}
-						}
-						add_province_modifier = {
-							name = BRZ_gold_modifier
-							duration = -1 
-						}
-					}
-				}
-			}
-			else = {
 				custom_tooltip = ME_BRZ_GOLD_MODIFIER
 				hidden_effect = {
 					antisuyu_area = {
@@ -1034,7 +947,7 @@ BRZ_missions_5 = {
 						}
 						add_province_modifier = {
 							name = BRZ_gold_modifier
-							duration = -1 
+							duration = -1
 						}
 					}
 					potosi_area = {
@@ -1044,7 +957,7 @@ BRZ_missions_5 = {
 						}
 						add_province_modifier = {
 							name = BRZ_gold_modifier
-							duration = -1 
+							duration = -1
 						}
 					}
 					jujuy_area = {
@@ -1054,7 +967,7 @@ BRZ_missions_5 = {
 						}
 						add_province_modifier = {
 							name = BRZ_gold_modifier
-							duration = -1 
+							duration = -1
 						}
 					}
 					upper_peru = {
@@ -1064,7 +977,7 @@ BRZ_missions_5 = {
 						}
 						add_province_modifier = {
 							name = BRZ_gold_modifier
-							duration = -1 
+							duration = -1
 						}
 					}
 					northern_chile_area = {
@@ -1074,7 +987,7 @@ BRZ_missions_5 = {
 						}
 						add_province_modifier = {
 							name = BRZ_gold_modifier
-							duration = -1 
+							duration = -1
 						}
 					}
 					tucuman_area = {
@@ -1084,11 +997,11 @@ BRZ_missions_5 = {
 						}
 						add_province_modifier = {
 							name = BRZ_gold_modifier
-							duration = -1 
+							duration = -1
 						}
 					}
 				}
-			}
+			
 		}
 	}
 	
@@ -1139,7 +1052,7 @@ BRZ_missions_5 = {
 				remove_country_modifier = BRZ_hegemony_2
 				add_country_modifier = {
 					name = BRZ_hegemony_3
-					duration = -1 
+					duration = -1
 				}
 			}
 		}

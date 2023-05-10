@@ -28,14 +28,14 @@ kiel_canal = {
 			owns_or_vassal_of = 1775
 			owns_or_vassal_of = 4141
 			is_subject = no			
-			adm_tech = 14
+			adm_tech = 22
 		}
 	}
 	
 	#what to do when it's built
 	on_built = {
 		add_canal = kiel_canal
-		owner = { add_prestige = 30 }
+		owner = { add_prestige_or_monarch_power = { amount = 30 } }
 	}
 	
 	#what to do when it's destroyed
@@ -113,6 +113,7 @@ kiel_canal = {
 
 		#what effects happen when this tier is achieved
 		on_upgraded = {
+			owner = { add_prestige_or_monarch_power = { amount = 30 } }
 		}
 	}
 
@@ -204,14 +205,13 @@ suez_canal = {
 	#can we build it?
 	build_trigger = {
 		FROM = {
-			OR = { 
-				AND = { 
-					owns_or_vassal_of = 4316
-					owns_or_vassal_of = 2315
-					is_subject = no
-					adm_tech = 14
-				}
-				has_country_flag = fu_enable_suez_canal
+			owns_or_vassal_of = 4316
+			owns_or_vassal_of = 2315
+			is_subject = no
+			OR = {
+				has_country_flag = AYY_may_upgrade_suez
+				#has_country_flag = fu_enable_suez_canal this flag doesn't exist anyway
+				adm_tech = 22
 			}
 		}
 	}
@@ -219,7 +219,7 @@ suez_canal = {
 	#what to do when it's built
 	on_built = {
 		add_canal = suez_canal
-		owner = { add_prestige = 40 }
+		owner = { add_prestige_or_monarch_power = { amount =  40 } }
 	}
 	
 	#what to do when it's destroyed
@@ -297,6 +297,7 @@ suez_canal = {
 
 		#what effects happen when this tier is achieved
 		on_upgraded = {
+			owner = { add_prestige_or_monarch_power = { amount =  40 } }
 		}
 	}
 
@@ -392,7 +393,7 @@ panama_canal = {
 				AND = {
 					owns_or_vassal_of = 835
 					is_subject = no
-					adm_tech = 14
+					adm_tech = 22
 				}
 				AND = { 
 					custom_trigger_tooltip = {
@@ -408,7 +409,7 @@ panama_canal = {
 	#what to do when it's built
 	on_built = {
 		add_canal = panama_canal
-		owner = { add_prestige = 50 }
+		owner = { add_prestige_or_monarch_power = { amount =  50 } }
 	}
 	
 	#what to do when it's destroyed
@@ -486,6 +487,7 @@ panama_canal = {
 
 		#what effects happen when this tier is achieved
 		on_upgraded = {
+			owner = { add_prestige_or_monarch_power = { amount =  50 } }
 		}
 	}
 

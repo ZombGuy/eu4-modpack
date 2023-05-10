@@ -87,7 +87,7 @@ emp_bav_prestige_branch = {
 
 			add_country_modifier = {
 				name = bav_splendorous_bavaria
-				duration = -1 
+				duration = 7300
 			}
 
 			if = {
@@ -158,7 +158,7 @@ emp_bav_prestige_branch = {
 			capital_scope = {
 				add_province_modifier = {
 					name = bav_established_oktoberfest
-					duration = -1 
+					duration = -1
 				}
 				if = {
 					limit = {
@@ -273,7 +273,7 @@ emp_bav_missions_conquest = {
 							limit = { owned_by = ROOT }
 							add_province_modifier = {
 								name = faster_integration
-								duration = -1 
+								duration = 7300
 							}
 						}
 					}
@@ -288,7 +288,7 @@ emp_bav_missions_conquest = {
 							limit = { owned_by = ROOT }
 							add_province_modifier = {
 								name = faster_integration
-								duration = -1 
+								duration = 7300
 							}
 						}
 					}
@@ -326,7 +326,7 @@ emp_bav_missions_conquest = {
 					limit = { owned_by = ROOT }
 					add_province_modifier = {
 						name = faster_integration
-						duration = -1 
+						duration = 7300
 					}
 				}
 			}
@@ -495,7 +495,7 @@ emp_bav_missions_conquest_2 = {
 		effect = {
 			add_country_modifier = {
 				name = bav_tamed_brandenburg
-				duration = -1 
+				duration = 7300
 			}
 		}
 		ai_weight = {
@@ -566,13 +566,13 @@ emp_bav_missions_military = {
 				}
 				add_country_modifier = {
 					name = bav_professional_army
-					duration = -1 
+					duration = 7300
 				}
 			}
 			else = {
 				add_country_modifier = {
 					name = bav_professional_army2
-					duration = -1 
+					duration = 7300
 				}
 			}
 		}
@@ -650,7 +650,7 @@ emp_bav_cultural_dominance_branch = {
 		effect = {
 			add_country_modifier = {
 				name = bav_boarisch_als_leitkultur
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -731,7 +731,7 @@ emp_bav_missions_religious = {
 		effect = {
 			add_country_modifier = {
 				name = bav_piety_shown
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -778,7 +778,7 @@ emp_bav_missions_religious = {
 		effect = {
 			add_country_modifier = {
 				name = bav_piety_spread
-				duration = -1 
+				duration = 7300
 			}
 			every_neighbor_country = {
 				add_opinion = {
@@ -935,7 +935,7 @@ emp_bav_missions_illuminati = {
 				}
 				add_country_modifier = {
 					name = bav_bavarian_absolutism
-					duration = -1 
+					duration = -1
 				}
 			}
 			if = {
@@ -960,13 +960,13 @@ emp_bav_missions_illuminati = {
 					estate = estate_nobles
 					desc = VAL_BAV_DEALT_WITH_ILLUMINATI
 					loyalty = 10
-					duration = -1 
+					duration = -1
 				}
 				add_estate_loyalty_modifier = {
 					estate = estate_church
 					desc = VAL_BAV_DEALT_WITH_ILLUMINATI
 					loyalty = 10
-					duration = -1 
+					duration = -1
 				}
 			}
 			else_if = {
@@ -979,7 +979,7 @@ emp_bav_missions_illuminati = {
 				}
 				add_country_modifier = {
 					name = bav_bavarian_absolutism
-					duration = -1 
+					duration = -1
 				}
 			}
 			else_if = {
@@ -991,7 +991,7 @@ emp_bav_missions_illuminati = {
 				}
 				add_country_modifier = {
 					name = bav_revolutionary_zeal
-					duration = -1 
+					duration = -1
 				}
 			}
 		}
@@ -1238,7 +1238,7 @@ emp_bav_missions_conquer_italy = {
 			}
 			add_country_modifier = {
 				name = bav_italian_coast
-				duration = -1 
+				duration = 7300
 			}
 		}
 		ai_weight = {
@@ -1310,7 +1310,7 @@ emp_bav_missions_netherlands = {
 		effect = {
 			add_country_modifier = {
 				name = bav_bavarian_netherlands
-				duration = -1 
+				duration = 7300
 			}
 		}
 		ai_weight = {

@@ -22,7 +22,7 @@ Generic_Persian_Missions_PER_1 = {
 		effect = {
 			add_country_modifier = {
 				name = PER_efficient_fiscal_policy
-				duration = -1 
+				duration = 7300
 			}
 			add_mercantilism = 2
 		}
@@ -118,7 +118,7 @@ Generic_Persian_Missions_PER_1 = {
 					}
 					add_province_modifier = {
 						name = PER_city
-						duration = -1 
+						duration = -1
 					}
 				}
 				random_owned_province = {
@@ -133,7 +133,7 @@ Generic_Persian_Missions_PER_1 = {
 					}
 					add_province_modifier = {
 						name = PER_city
-						duration = -1 
+						duration = -1
 					}
 				}
 				random_owned_province = {
@@ -148,7 +148,7 @@ Generic_Persian_Missions_PER_1 = {
 					}
 					add_province_modifier = {
 						name = PER_city
-						duration = -1 
+						duration = -1
 					}
 				}
 			}
@@ -156,7 +156,7 @@ Generic_Persian_Missions_PER_1 = {
 			tooltip = {
 				add_province_modifier = {
 					name = PER_city
-					duration = -1 
+					duration = -1
 				}
 			}
 		}
@@ -187,7 +187,7 @@ Generic_Persian_Missions_PER_2_1 = {
 		effect = {
 			add_country_modifier = {
 				name = PER_diplomacy
-				duration = -1 
+				duration = 9125
 			}
 			every_ally = {
 				add_trust = {
@@ -259,6 +259,7 @@ Generic_Persian_Missions_PER_2_2 = {
 						}
 						amount = 15
 					}
+					NOT = { has_global_flag = me_tim_flight_to_india_check }
 				}
 				custom_trigger_tooltip = {
 					tooltip = ME_Persian_Generic_Tooltips.8
@@ -312,6 +313,7 @@ Generic_Persian_Missions_PER_3 = {
 						}
 						amount = 2
 					}
+					NOT = { has_global_flag = me_tim_flight_to_india_check }
 				}
 				custom_trigger_tooltip = {
 					tooltip = ME_Persian_Generic_Tooltips.7
@@ -441,7 +443,7 @@ Generic_Persian_Missions_PER_4 = {
 			custom_tooltip = ME_Persian_Generic_Tooltips.1
 			add_country_modifier = {
 				name = "thriving_arms_industry"
-				duration = -1 
+				duration = 9125
 			}
 			if = {
 				limit = {
@@ -480,7 +482,7 @@ Generic_Persian_Missions_PER_4 = {
 		effect = {
 			add_country_modifier = {
 				name = PER_the_persian_army
-				duration = -1 
+				duration = 9125
 			}
 		}
 	}
@@ -504,7 +506,7 @@ Generic_Persian_Missions_BAL_5 = {
 		effect = {
 			add_country_modifier = {
 				name = BAL_tribes_united
-				duration = -1 
+				duration = 9125
 			}
 			sindh_area = {
 				limit = {
@@ -548,7 +550,7 @@ Generic_Persian_Missions_BAL_5 = {
 			504 = {
 				add_trade_modifier = {
 					who = ROOT
-					duration = -1 
+					duration = 9125
 					power = 30
 					key = PER_indus_secured
 				}
@@ -608,7 +610,7 @@ Generic_Persian_Missions_BAL_5 = {
 			add_mercantilism = 2
 			add_country_modifier = {
 				name = BAL_adopting_indian_military
-				duration = -1 
+				duration = 9125
 			}
 			522 = {
 				if = {
@@ -661,7 +663,7 @@ Generic_Persian_Missions_SIS = {
 			435 = {
 				add_province_modifier = {
 					name = SIS_zaranj_fortifications
-					duration = -1 
+					duration = -1
 				}
 			}
 		}
@@ -705,7 +707,7 @@ Generic_Persian_Missions_SIS_5 = {
 		effect = {
 			add_country_modifier = {
 				name = SIS_reconquest_of_quhistan
-				duration = -1 
+				duration = 9125
 			}
 			herat_area = {
 				add_local_autonomy = -25
@@ -734,7 +736,7 @@ Generic_Persian_Missions_SIS_5 = {
 		effect = {
 			add_country_modifier = {
 				name = SIS_mihrabanids
-				duration = -1 
+				duration = 36500
 			}
 		}
 	}
@@ -769,7 +771,7 @@ Generic_Persian_Missions_KRM_YZD_ISF_2 = {
 			capital_scope = {
 				add_province_modifier = {
 					name = YZD_KRM_ISF_the_new_persian_capital
-					duration = -1 
+					duration = -1
 				}
 			}
 		}
@@ -799,7 +801,7 @@ Generic_Persian_Missions_KRM_YZD_ISF_2 = {
 				area = {
 					add_province_modifier = {
 						name = YZD_KRM_ISF_prospering
-						duration = -1 
+						duration = 9125
 					}
 				}
 			}
@@ -839,7 +841,7 @@ Generic_Persian_Missions_KRM_YZD_ISF_5 = {
 		effect = {
 			add_country_modifier = {
 				name = YZD_KRM_ISF_loyal_shiite_warriors
-				duration = -1 
+				duration = 9125
 			}
 		}
 	}
@@ -869,7 +871,7 @@ Generic_Persian_Missions_KRM_ISF = {
 		effect = {
 			add_ruler_modifier = {
 				name = KRM_ISF_servant_of_the_twelver
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -920,7 +922,7 @@ Generic_Persian_Missions_YZD = {
 					}
 					add_ruler_modifier = {
 						name = KRM_ISF_servant_of_the_twelver
-						duration = -1 
+						duration = -1
 					}
 				}
 				else = {
@@ -940,7 +942,7 @@ Generic_Persian_Missions_YZD = {
 			tooltip = {
 				add_ruler_modifier = {
 					name = KRM_ISF_servant_of_the_twelver
-					duration = -1 
+					duration = -1
 				}
 			}
 			custom_tooltip = ME_Persian_Generic_Tooltips.6

@@ -81,13 +81,13 @@ siena_missions_1 = {
 				}
 				add_country_modifier = {
 					name = sie_rivalry_diminshed
-					duration = -1 
+					duration = 7300
 				}
 			}
 			else = {
 				add_country_modifier = {
 					name = sie_archrival_florence
-					duration = -1 
+					duration = 18250
 				}
 			}
 		}
@@ -129,13 +129,13 @@ siena_missions_1 = {
 				}
 				add_country_modifier = {
 					name = sie_supporting_papacy
-					duration = -1 
+					duration = 7300
 				}
 			}
 			else = {
 				add_country_modifier = {
 					name = sie_resisting_papal_influence
-					duration = -1 
+					duration = 7300
 				}
 			}
 		}
@@ -168,7 +168,7 @@ siena_missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = sie_influencing_church
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -199,7 +199,7 @@ siena_missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = sie_pope_siena
-				duration = -1 
+				duration = -1
 			}
 			if = {
 				limit = { religion = catholic }
@@ -208,13 +208,13 @@ siena_missions_1 = {
 				}
 				add_country_modifier = {
 					name = sie_control_papacy
-					duration = -1 
+					duration = 7300
 				}
 			}
 			else = {
 				add_country_modifier = {
 					name = sie_chair_st_peter
-					duration = -1 
+					duration = 7300
 				}
 			}
 		}
@@ -266,7 +266,7 @@ siena_missions_2 = {
 		effect = {
 			add_country_modifier = {
 				name = sie_sienese_banking_industry
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -291,7 +291,7 @@ siena_missions_2 = {
 		effect = {
 			add_country_modifier = {
 				name = sie_hospital_via_francigena
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -317,7 +317,7 @@ siena_missions_2 = {
 		effect = {
 			add_country_modifier = {
 				name = sie_sienese_school
-				duration = -1 
+				duration = 7300
 			}
 			custom_tooltip = SIE_RENAISSANCE_TT
 			hidden_effect = {
@@ -476,7 +476,7 @@ siena_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = sie_sienese_tuscany
-				duration = -1 
+				duration = 7300
 			}
 			hidden_effect = {
 				complete_mission = pis_republic_reunited
@@ -554,7 +554,7 @@ siena_missions_4 = {
 			add_dip_power = 50
 			add_country_modifier = {
 				name = sie_wolf_siena
-				duration = -1 
+				duration = 9125
 			}
 		}
 	}
@@ -685,7 +685,7 @@ siena_missions_5 = {
 		effect = {
 			add_country_modifier = {
 				name = sie_sienese_naval_ambitions
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -713,7 +713,7 @@ siena_missions_5 = {
 		effect = {
 			add_country_modifier = {
 				name = sie_elsa_valley_crystals
-				duration = -1 
+				duration = 9125
 			}
 		}
 	}

@@ -7,9 +7,9 @@ MSY_conversion_zeal = {
 MSY_ibn_faluh_modifier = {
 	morale_damage = 0.15
 	infantry_power = 0.15
-	global_unrest = -2
 	monarch_lifespan = 1
 	monthly_piety = -0.005
+	warscore_from_battles_modifier = 0.5
 }
 
 MSY_guarded_mountain_pass = {

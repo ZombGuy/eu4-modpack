@@ -95,7 +95,7 @@ EMP_crusader_1 = {
 		effect = {
 			add_country_modifier = {
 				name = "kni_converted_the_holy_land"
-				duration = -1 
+				duration = -1
 			}
 		}
 		ai_weight = {
@@ -147,7 +147,7 @@ EMP_crusader_2 = {
 				}
 				add_country_modifier = {
 					name = "kni_new_crusade"
-					duration = -1 
+					duration = 7300
 				}
 			}
 			aleppo_area = {
@@ -231,7 +231,7 @@ EMP_crusader_2 = {
 				}
 				add_country_modifier = {
 					name = "kni_kingdom_of_heaven"
-					duration = -1 
+					duration = 7300
 				}
 			}
 			delta_area = {
@@ -312,7 +312,7 @@ EMP_crusader_2 = {
 				358 = {
 					add_province_modifier = {
 						name = "kni_alexandrian_archbishopric"
-						duration = -1 
+						duration = -1
 					}
 				}
 			}
@@ -726,7 +726,7 @@ EMP_crusader_4 = {
 			126 = {
 				add_province_modifier = {
 					name = "malta_fort"
-					duration = -1 
+					duration = -1
 				}
 			}
 			354 = {
@@ -850,7 +850,7 @@ EMP_crusader_4 = {
 		effect = {
 			add_country_modifier = {
 				name = "kni_crusade_against_piracy"
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -967,7 +967,7 @@ EMP_crusader_5 = {
 		effect = {
 			add_country_modifier = {
 				name = "guardians_of_the_fountain"
-				duration = -1 
+				duration = -1
 			}
 		}
 	}

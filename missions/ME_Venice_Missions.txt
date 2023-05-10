@@ -59,19 +59,19 @@ me_venice_missions_1 = {
 			213 = {
 				add_province_modifier = {
 					name = ven_venetian_spanish_mastery
-					duration = -1 
+					duration = 9125
 				}
 			}
 			220 = {
 				add_province_modifier = {
 					name = ven_venetian_spanish_mastery
-					duration = -1 
+					duration = 9125
 				}
 			}
 			2988 = {
 				add_province_modifier = {
 					name = ven_venetian_spanish_mastery
-					duration = -1 
+					duration = 9125
 				}
 			}
 			random_owned_province = {
@@ -156,7 +156,7 @@ me_venice_missions_1 = {
 				377 = {	# Aleppo
 					add_trade_modifier = {
 						who = ROOT
-						duration = -1 
+						duration = 5475
 						power = 15
 						key = nap_italian_chestnut
 					}
@@ -261,7 +261,7 @@ me_venice_missions_1 = {
 			504 = {
 				add_trade_modifier = {
 					who = ROOT
-					duration = -1 
+					duration = 9125
 					power = 15
 					key = ven_discovered_trade_route
 				}
@@ -269,7 +269,7 @@ me_venice_missions_1 = {
 			1340 = {
 				add_trade_modifier = {
 					who = ROOT
-					duration = -1 
+					duration = 9125
 					power = 15
 					key = ven_discovered_trade_route
 				}
@@ -285,7 +285,7 @@ me_venice_missions_1 = {
 			1334 = {
 				add_trade_modifier = {
 					who = ROOT
-					duration = -1 
+					duration = 9125
 					power = 15
 					key = ven_discovered_trade_route
 				}
@@ -317,7 +317,7 @@ me_venice_missions_1 = {
 			112 = {
 				add_permanent_province_modifier = {
 					name = ven_arsenal_modifier_1
-					duration = -1 
+					duration = -1
 				}
 			}
 		}
@@ -457,7 +457,7 @@ me_venice_missions_1 = {
 			}
 			add_country_modifier = {
 				name = ven_protectors_of_mediterranean
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -492,7 +492,7 @@ me_venice_missions_1 = {
 			add_stability_or_adm_power = yes
 			add_country_modifier = {
 				name = ven_venetian_peace_modifier
-				duration = -1 
+				duration = 36500
 			}
 		}
 	}
@@ -549,7 +549,7 @@ me_venice_missions_2 = {
 				137 = {
 					add_province_modifier = {
 						name = ven_monopoio_adriatico
-						duration = -1 
+						duration = 7300
 					}
 				}
 			}
@@ -559,7 +559,7 @@ me_venice_missions_2 = {
 						limit = { owned_by = ROOT }
 						add_province_modifier = {
 							name = ven_monopoio_adriatico
-							duration = -1 
+							duration = 7300
 						}
 					}
 				}
@@ -725,7 +725,7 @@ me_venice_missions_2 = {
 				remove_province_modifier = ven_arsenal_modifier_1
 				add_permanent_province_modifier = {
 					name = ven_arsenal_modifier_2
-					duration = -1 
+					duration = -1
 				}
 				add_or_upgrade_dock_building = yes
 			}
@@ -752,7 +752,7 @@ me_venice_missions_2 = {
 			add_prestige_or_monarch_power = { amount = 10 }
 			add_country_modifier = {
 				name = ven_milan_modifier
-				duration = -1 
+				duration = 9125
 			}
 		}
 	}
@@ -801,7 +801,7 @@ me_venice_missions_3 = {
 			}
 			add_country_modifier = {
 				name = ven_venetian_naval_expansion
-				duration = -1 
+				duration = 7300
 			}
 			custom_tooltip = VEN_ARMADA_CONQUEST_TT
 			hidden_effect = {
@@ -892,7 +892,7 @@ me_venice_missions_3 = {
 			add_legitimacy_equivalent = { amount = 5 republican_tradition = 3 }
 			add_ruler_modifier = {
 				name = ven_victory_gen
-				duration = -1 
+				duration = -1
 			}
 			101 = {
 				create_or_add_center_of_trade_level = { level = 1 }
@@ -930,7 +930,7 @@ me_venice_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = ven_black_sea_trade
-				duration = -1 
+				duration = 9125
 			}
 			285 = {
 				create_or_add_center_of_trade_level = { level = 1 }
@@ -1010,7 +1010,7 @@ me_venice_missions_3 = {
 			add_mercantilism = 10
 			add_country_modifier = {
 				name = ven_mediterranean_trade_republic
-				duration = -1 
+				duration = 9125
 			}
 		}
 	}
@@ -1101,7 +1101,7 @@ me_venice_missions_3 = {
 			country_event = { id = ME_Maritime_Republics_Events.8 }
 			add_country_modifier = {
 				name = ven_spice_dominion
-				duration = -1 
+				duration = -1
 			}
 			535 = {
 				if = {
@@ -1110,13 +1110,13 @@ me_venice_missions_3 = {
 					}
 					add_permanent_province_modifier = {
 						name = ven_venesia_india_rp
-						duration = -1 
+						duration = -1
 					}
 				}
 				else = {
 					add_permanent_province_modifier = {
 						name = ven_venesia_india
-						duration = -1 
+						duration = -1
 					}
 				}
 			}
@@ -1136,7 +1136,7 @@ me_venice_missions_3 = {
 			}
 			add_country_modifier = {
 				name = ven_all_world_against
-				duration = -1 
+				duration = 9125
 			}
 			if = {
 				limit = {
@@ -1351,7 +1351,7 @@ me_venice_missions_4 = {
 					}
 					add_permanent_province_modifier = {
 						name = ven_negroponte_fort
-						duration = -1 
+						duration = -1
 					}
 				}
 			}
@@ -1360,7 +1360,7 @@ me_venice_missions_4 = {
 					limit = { owned_by = ROOT }
 					add_permanent_province_modifier = {
 						name = ven_atene_fort
-						duration = -1 
+						duration = -1
 					}
 				}
 			}
@@ -1420,7 +1420,7 @@ me_venice_missions_4 = {
 			151 = {
 				add_trade_modifier = {
 					who = ROOT
-					duration = -1 
+					duration = 10950 #30 yrs
 					power = 20
 					key = ven_colonisation_greece
 				}
@@ -1429,14 +1429,14 @@ me_venice_missions_4 = {
 				limit = { country_or_non_sovereign_subject_holds = ROOT }
 				add_province_modifier = {
 					name = ven_colonisation_greece
-					duration = -1 
+					duration = 7300
 				}
 			}
 			northern_greece_area = {
 				limit = { country_or_non_sovereign_subject_holds = ROOT }
 				add_province_modifier = {
 					name = ven_colonisation_greece
-					duration = -1 
+					duration = 7300
 				}
 			}
 			northern_greece_area = {
@@ -1514,7 +1514,7 @@ me_venice_missions_4 = {
 		effect = {
 			add_country_modifier = {
 				name = ven_expedition_boost
-				duration = -1 
+				duration = 9125
 			}
 			388 = {
 				add_nationalism = -5
@@ -1553,7 +1553,7 @@ me_venice_missions_4 = {
 			venetia_area = {
 				add_province_modifier = {
 					name = ven_prosperity
-					duration = -1 
+					duration = 9125
 				}
 			}
 		}
@@ -1585,14 +1585,14 @@ me_venice_missions_4 = {
 				FER = {
 					add_country_modifier = {
 						name = ven_vicedominus_ferrarie
-						duration = -1 
+						duration = 9125
 					}
 				}
 			}
 			emilia_romagna_area = {
 				add_province_modifier = {
 					name = ven_visdomio_veneziano
-					duration = -1 
+					duration = 7300
 				}
 				if = {
 					limit = {
@@ -1656,7 +1656,7 @@ me_venice_missions_5 = {
 			151 = {
 				add_trade_modifier = {
 					who = ROOT
-					duration = -1 
+					duration = -1
 					power = 15
 					key = ven_gateway_to_the_east
 				}
@@ -1871,7 +1871,7 @@ me_venice_missions_5 = {
 				limit = { owned_by = ROOT }
 				add_province_modifier = {
 					name = ven_venetian_factories
-					duration = -1 
+					duration = 10950
 				}
 			}
 			4316 = {
@@ -1881,7 +1881,7 @@ me_venice_missions_5 = {
 					}
 					add_province_modifier = {
 						name = ven_venetian_factories
-						duration = -1 
+						duration = 10950
 					}
 				}
 			}
@@ -1928,7 +1928,7 @@ me_venice_missions_5 = {
 					}
 					add_permanent_province_modifier = {
 						name = ven_port_araby
-						duration = -1 
+						duration = -1
 					}
 					add_unit_construction = {
 						type = light_ship
@@ -1996,7 +1996,7 @@ me_venice_missions_5 = {
 			112 = {
 				add_permanent_province_modifier = {
 					name = ven_a_new_age
-					duration = -1 
+					duration = -1
 				}
 				create_or_add_center_of_trade_level = { level = 1 }
 			}
@@ -2033,7 +2033,7 @@ me_venice_missions_5 = {
 				add_or_upgrade_trade_building = yes
 				add_province_modifier = {
 					name = ven_a_golden_century_for_venice
-					duration = -1 
+					duration = 36500
 				}
 			}
 		}
@@ -2088,7 +2088,7 @@ me_venice_missions_5 = {
 			}
 			add_country_modifier = {
 				name = ven_spread_of_ideas
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -2127,7 +2127,7 @@ me_venice_missions_5 = {
 			add_prestige_or_monarch_power = { amount = 40 }
 			add_country_modifier = {
 				name = ven_glass
-				duration = -1 
+				duration = 9125
 			}
 		}
 	}

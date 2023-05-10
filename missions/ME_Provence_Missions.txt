@@ -99,7 +99,7 @@ PRO_Missions_1 = {
 				}
 				add_country_modifier = {
 					name = PRO_splendor_of_marseille
-					duration = -1 
+					duration = -1
 				}
 			}
 			else = {
@@ -390,11 +390,11 @@ PRO_Missions_1 = {
 			country_event = { id = ME_Provence_Events.3 }
 			add_country_modifier = {
 				name = PRO_france_modifier
-				duration = -1 
+				duration = -1
 			}
 			add_country_modifier = {
 				name = PRO_united_the_house_of_France
-				duration = -1 
+				duration = 7300
 			}
 			custom_tooltip = PRO_reward_if_HUN_independent
 			tooltip = {
@@ -480,7 +480,7 @@ PRO_Missions_1 = {
 			country_event = { id = ME_Provence_Events.5 }
 			add_country_modifier = {
 				name = PRO_hungary_frontier
-				duration = -1 
+				duration = 10950
 			}
 		}
 	}
@@ -569,7 +569,7 @@ PRO_Missions_2 = {
 			tooltip = {
 				add_country_modifier = {
 					name = PRO_pushed_our_claims
-					duration = -1 
+					duration = 7300
 				}
 			}
 			custom_tooltip = PRO_reward_if_FRA_owns
@@ -644,7 +644,7 @@ PRO_Missions_2 = {
 			172 = {
 				add_province_modifier = {
 					name = PRO_pythean_school_of_cartography
-					duration = -1 
+					duration = -1
 				}
 			}
 			north_atlantic_area = {
@@ -678,7 +678,7 @@ PRO_Missions_2 = {
 		effect = {
 			add_country_modifier = {
 				name = PRO_renaissance_architecture
-				duration = -1 
+				duration = 10950
 			}
 		}
 	}
@@ -701,7 +701,7 @@ PRO_Missions_2 = {
 			add_legitimacy_equivalent = { amount = 20 republican_tradition = 20 }
 			add_country_modifier = {
 				name = PRO_court_modifier
-				duration = -1 
+				duration = 10950
 			}
 		}
 	}
@@ -784,7 +784,7 @@ PRO_Missions_3 = {
 			tooltip = {
 				add_country_modifier = {
 					name = PRO_integrated_lorraine
-					duration = -1 
+					duration = 7300
 				}
 				189 = {
 					add_base_tax = 2
@@ -802,7 +802,7 @@ PRO_Missions_3 = {
 					}
 					add_country_modifier = {
 						name = PRO_integrated_lorraine
-						duration = -1 
+						duration = 7300
 					}
 					189 = {
 						add_base_tax = 2
@@ -867,7 +867,7 @@ PRO_Missions_3 = {
 			change_adm = 1
 			add_country_modifier = {
 				name = PRO_undisputed_rule
-				duration = -1 
+				duration = 10950
 			}
 		}
 	}
@@ -945,7 +945,7 @@ PRO_Missions_4 = {
 			201 = {
 				add_province_modifier = {
 					name = PRO_strong_fortifications
-					duration = -1 
+					duration = -1
 				}
 			}
 			country_event = { id = ME_Provence_Events.7 }
@@ -981,7 +981,7 @@ PRO_Missions_4 = {
 			}
 			add_country_modifier = {
 				name = PRO_justified_demands
-				duration = -1 
+				duration = 3650
 			}
 		}
 	}
@@ -1003,7 +1003,7 @@ PRO_Missions_4 = {
 			add_mercantilism = 5
 			add_country_modifier = {
 				name = PRO_mercantile_duchy
-				duration = -1 
+				duration = 9125
 			}
 		}
 	}
@@ -1035,7 +1035,7 @@ PRO_Missions_4 = {
 		effect = {
 			add_country_modifier = {
 				name = PRO_provencal_trading_fleet
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -1063,7 +1063,7 @@ PRO_Missions_4 = {
 			tooltip = {
 				add_country_modifier = {
 					name = PRO_sacrum_imperium_romanum
-					duration = -1 
+					duration = 10950
 				}
 				add_imperial_influence = 10
 			}
@@ -1071,7 +1071,7 @@ PRO_Missions_4 = {
 			tooltip = {
 				add_country_modifier = {
 					name = PRO_overthrowing_an_emperor
-					duration = -1 
+					duration = 7300
 				}
 			}
 			custom_tooltip = PRO_reward_if_emperor_NONE
@@ -1086,7 +1086,7 @@ PRO_Missions_4 = {
 					}
 					add_country_modifier = {
 						name = PRO_sacrum_imperium_romanum
-						duration = -1 
+						duration = 10950
 					}
 					add_imperial_influence = 10
 				}
@@ -1100,7 +1100,7 @@ PRO_Missions_4 = {
 				else = {
 					add_country_modifier = {
 						name = PRO_overthrowing_an_emperor
-						duration = -1 
+						duration = 7300
 					}
 				}
 			}
@@ -1141,7 +1141,7 @@ PRO_Missions_4 = {
 		effect = {
 			add_country_modifier = {
 				name = PRO_immanuel
-				duration = -1 
+				duration = 7300
 			}
 			country_event = { id = ME_Provence_Events.6 }
 		}
@@ -1193,7 +1193,7 @@ PRO_Missions_5 = {
 		effect = {
 			add_country_modifier = {
 				name = PRO_order_of_the_crescent
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -1246,7 +1246,7 @@ PRO_Missions_5 = {
 		effect = {
 			add_country_modifier = {
 				name = PRO_provencal_control
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -1285,7 +1285,7 @@ PRO_Missions_5 = {
 				202 = {
 					add_trade_modifier = {
 						who = ROOT
-						duration = -1 
+						duration = 36500
 						power = 25
 						key = PRO_avignon_reclaimed
 					}
@@ -1307,7 +1307,7 @@ PRO_Missions_5 = {
 					202 = {
 						add_trade_modifier = {
 							who = ROOT
-							duration = -1 
+							duration = 36500
 							power = 25
 							key = PRO_avignon_reclaimed
 						}
@@ -1368,7 +1368,7 @@ PRO_Missions_5 = {
 				202 = {
 					add_province_modifier = {
 						name = PRO_holy_see_of_avignon
-						duration = -1 
+						duration = -1
 					}
 				}
 				add_mil_power = 100
@@ -1378,7 +1378,7 @@ PRO_Missions_5 = {
 				202 = {
 					add_province_modifier = {
 						name = PRO_secondary_see_of_avignon
-						duration = -1 
+						duration = -1
 					}
 				}
 				add_dip_power = 100
@@ -1403,7 +1403,7 @@ PRO_Missions_5 = {
 					202 = {
 						add_province_modifier = {
 							name = PRO_holy_see_of_avignon
-							duration = -1 
+							duration = -1
 						}
 					}
 					add_mil_power = 100
@@ -1412,7 +1412,7 @@ PRO_Missions_5 = {
 					202 = {
 						add_province_modifier = {
 							name = PRO_secondary_see_of_avignon
-							duration = -1 
+							duration = -1
 						}
 					}
 					add_dip_power = 100
@@ -1468,7 +1468,7 @@ PRO_Missions_5 = {
 			}
 			add_country_modifier = {
 				name = PRO_reestablish_the_true_faith
-				duration = -1 
+				duration = 9125
 			}
 			add_papal_influence = 20
 			add_fervor = 25
@@ -1533,7 +1533,7 @@ PRO_Missions_5 = {
 		effect = {
 			add_country_modifier = {
 				name = PRO_liberating_holy_lands
-				duration = -1 
+				duration = 9125
 			}
 		}
 	}

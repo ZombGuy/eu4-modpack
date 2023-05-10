@@ -3,14 +3,15 @@ decline_of_mali = {
 	potential = {
 		has_dlc = "Origins"
 		NOT = { has_country_flag = had_decline_of_mali }
-		NOT = { has_country_flag = formed_mali_flag } #A formed Mali should not go through a decline
+		NOT = { has_country_flag = formed_mali_flag }	#A formed Mali should not go through a decline
+		NOT = { mission_completed = mal_absolute_authority }
 		uses_doom = no
 		is_free_or_tributary_trigger = yes
 		normal_or_historical_nations = yes
 		tag = MAL
 		has_country_flag = use_paradox_missions
 	}
-
+	
 	can_start = {
 		has_any_disaster = no
 		NOT = { mission_completed = mal_absolute_authority }
@@ -25,19 +26,19 @@ decline_of_mali = {
 			}
 		}
 	}
-
-
+	
+	
 	progress = {
 		modifier = {
 			factor = 100
 			tag = MAL
 		}
 	}
-
+	
 	can_end = {
 		mission_completed = mal_absolute_authority
 	}
-
+	
 
 	modifier = {
 		caravan_power = -0.33
@@ -45,10 +46,10 @@ decline_of_mali = {
 		global_autonomy = 0.05
 		global_unrest = 1
 	}
-
+	
 	on_start = flavor_mal.9 # Mali is on the path of breaking apart
 	on_end = flavor_mal.10 # Mali managed to retain authority
-
+	
 	on_monthly = {
 		events = {
 			flavor_mal.16

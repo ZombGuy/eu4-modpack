@@ -209,7 +209,6 @@ country_event = { #The Pilsener
 		name = FU_Bohemian_Events.7.a 
 		
 		267 = {
-			change_trade_goods = beer 
 			add_province_modifier = {
 				name = boh_pislen_modifier 
 				duration = -1 

@@ -57,7 +57,7 @@ Javan_missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = MAJ_bedil
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -82,7 +82,7 @@ Javan_missions_1 = {
 			tooltip = {
 				add_province_modifier = {
 					name = JAV_foundry
-					duration = -1 
+					duration = -1
 				}
 			}
 			
@@ -96,7 +96,7 @@ Javan_missions_1 = {
 					}
 					add_province_modifier = {
 						name = JAV_foundry
-						duration = -1 
+						duration = -1
 					}
 				}
 			}
@@ -122,7 +122,7 @@ Javan_missions_1 = {
 		effect = {
 			add_ruler_modifier = {
 				name = JAV_in_face_of_new_era
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -159,7 +159,7 @@ Javan_missions_1 = {
 				
 				add_country_modifier = {
 					name = JAV_converting_candi
-					duration = -1 
+					duration = 9125
 				}
 				
 				add_dip_power = 50
@@ -167,7 +167,7 @@ Javan_missions_1 = {
 			else = {
 				add_country_modifier = {
 					name = JAV_spiritual_awakening
-					duration = -1 
+					duration = 10950
 				}
 				
 				add_stability_or_adm_power = yes
@@ -233,7 +233,7 @@ Javan_missions_2 = {
 			MSA_claims_java = yes
 			add_country_modifier = {
 				name = MSA_against_majapahit
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -278,7 +278,7 @@ Javan_missions_2 = {
 		effect = {
 			add_country_modifier = {
 				name = JAV_trade_steering
-				duration = -1 
+				duration = 14600
 			}
 		}
 	}
@@ -304,7 +304,7 @@ Javan_missions_2 = {
 		effect = {
 			if = {
 				limit = {
-					religion = hindu
+					religion = hinduism
 				}
 				
 				custom_tooltip = MAJ_immunity_from_spread
@@ -312,13 +312,13 @@ Javan_missions_2 = {
 				
 				add_country_modifier = {
 					name = MAJ_conversion
-					duration = -1 
+					duration = -1
 				}
 			}
 			else = {
 				add_country_modifier = {
 					name = JAV_spreading_islam
-					duration = -1 
+					duration = -1
 				}
 				
 				add_stability_or_adm_power = yes
@@ -522,7 +522,7 @@ Javan_missions_3 = {
 			set_government_rank = 3
 			add_country_modifier = {
 				name = JAV_hegemon_modifier
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -600,7 +600,7 @@ Javan_missions_4 = {
 		effect = {
 			add_country_modifier = {
 				name = JAV_javanese_malangbangs
-				duration = -1 
+				duration = 7300
 			}
 			
 			add_navy_tradition = 10
@@ -666,7 +666,7 @@ Javan_missions_4 = {
 			MSA_malaya_reward = yes
 			add_country_modifier = {
 				name = JAV_trade_eff
-				duration = -1 
+				duration = 14600
 			}
 		}
 	}
@@ -694,12 +694,12 @@ Javan_missions_4 = {
 			}
 			add_country_modifier = {
 				name = JAV_javan_manpower_might
-				duration = -1 
+				duration = -1
 			}
 			
 			add_country_modifier = {
 				name = JAV_reserves
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -771,54 +771,12 @@ Javan_missions_5 = {
 		required_missions = { JAV_naval_empires JAV_strait }
 		position = 4
 		provinces_to_highlight = {
-			if = {
-				limit = {
-					is_expanded_mod_active = { mod = trade_goods }
-				}
-				OR = {
-					AND = {
-						trade_goods = nutmeg
-						NOT = {
-							ROOT = {
-								trading_part = {
-									trade_goods = nutmeg
-									value = 0.25
-								}
-							}
-						}
-					}
-					AND = {
-						trade_goods = cloves
-						NOT = {
-							ROOT = {
-								trading_part = {
-									trade_goods = cloves
-									value = 0.25
-								}
-							}
-						}
-					}
-					AND = {
-						trade_goods = vanilla
-						NOT = {
-							ROOT = {
-								trading_part = {
-									trade_goods = vanilla
-									value = 0.25
-								}
-							}
-						}
-					}
-				}
-			}
-			else = {
-				trade_goods = spices
-				NOT = {
-					ROOT = {
-						trading_part = {
-							trade_goods = spices
-							value = 0.25
-						}
+			trade_goods = spices
+			NOT = {
+				ROOT = {
+					trading_part = {
+						trade_goods = spices
+						value = 0.25
 					}
 				}
 			}
@@ -826,28 +784,9 @@ Javan_missions_5 = {
 		trigger = {
 			share_of_starting_income = 5
 			monthly_income = 15
-			if = {
-				limit = {
-					is_expanded_mod_active = { mod = trade_goods }
-				}
-				trading_part = {
-					trade_goods = nutmeg
-					value = 0.25
-				}
-				trading_part = {
-					trade_goods = cloves
-					value = 0.25
-				}
-				trading_part = {
-					trade_goods = vanilla
-					value = 0.25
-				}
-			}
-			else = {
-				trading_part = {
-					trade_goods = spices
-					value = 0.25
-				}
+			trading_part = {
+				trade_goods = spices
+				value = 0.25
 			}
 		}
 		effect = {
@@ -860,7 +799,7 @@ Javan_missions_5 = {
 			1361 = {
 				add_trade_modifier = {
 					who = ROOT
-					duration = -1 
+					duration = -1
 					power = 10
 					key = MAJ_spice_trade
 				}
@@ -869,7 +808,7 @@ Javan_missions_5 = {
 			1357 = {
 				add_trade_modifier = {
 					who = ROOT
-					duration = -1 
+					duration = -1
 					power = 10
 					key = MAJ_spice_trade
 				}
@@ -900,19 +839,11 @@ Javan_missions_5 = {
 		}
 		effect = {
 			custom_tooltip = MAJ_distribute_15_manpower
-			if = {
-				limit = {
-					is_expanded_mod_active = { mod = trade_goods }
-				}
-				custom_tooltip = MAJ_rice_provs
-			}
-			else = {
-				custom_tooltip = MAJ_provinces_fulfilling_triggers
-			}
+			custom_tooltip = MAJ_provinces_fulfilling_triggers
 			tooltip = {
 				add_province_modifier = {
 					name = MAJ_rice_fields
-					duration = -1 
+					duration = 9125
 				}
 			}
 			hidden_effect = {
@@ -927,47 +858,7 @@ Javan_missions_5 = {
 						}
 					"
 				}
-				if = {
-					limit = {
-						is_expanded_mod_active = { mod = trade_goods }
-					}
-					east_java_area = {
-						limit = { trade_goods = rice }
-						add_province_modifier = {
-							name = MAJ_rice_fields
-							duration = -1 
-						}
-					}
-					central_java_area = {
-						limit = { trade_goods = rice }
-						add_province_modifier = {
-							name = MAJ_rice_fields
-							duration = -1 
-						}
-					}
-					west_java_area = {
-						limit = { trade_goods = rice }
-						add_province_modifier = {
-							name = MAJ_rice_fields
-							duration = -1 
-						}
-					}
-					surabaya_area = {
-						limit = { trade_goods = rice }
-						add_province_modifier = {
-							name = MAJ_rice_fields
-							duration = -1 
-						}
-					}
-					banten_area = {
-						limit = { trade_goods = rice }
-						add_province_modifier = {
-							name = MAJ_rice_fields
-							duration = -1 
-						}
-					}
-				}
-				else = { #inefficient use of space but eh
+				#inefficient use of space but eh
 					east_java_area = {
 						limit = {
 							has_production_building_trigger = yes
@@ -976,7 +867,7 @@ Javan_missions_5 = {
 						}
 						add_province_modifier = {
 							name = MAJ_rice_fields
-							duration = -1 
+							duration = 9125
 						}
 					}
 					central_java_area = {
@@ -987,7 +878,7 @@ Javan_missions_5 = {
 						}
 						add_province_modifier = {
 							name = MAJ_rice_fields
-							duration = -1 
+							duration = 9125
 						}
 					}
 					west_java_area = {
@@ -998,7 +889,7 @@ Javan_missions_5 = {
 						}
 						add_province_modifier = {
 							name = MAJ_rice_fields
-							duration = -1 
+							duration = 9125
 						}
 					}
 					surabaya_area = {
@@ -1009,7 +900,7 @@ Javan_missions_5 = {
 						}
 						add_province_modifier = {
 							name = MAJ_rice_fields
-							duration = -1 
+							duration = 9125
 						}
 					}
 					banten_area = {
@@ -1020,12 +911,11 @@ Javan_missions_5 = {
 						}
 						add_province_modifier = {
 							name = MAJ_rice_fields
-							duration = -1 
+							duration = 9125
 						}
 					}
-				}
+				
 			}
-			
 		}
 	}
 	
@@ -1051,38 +941,38 @@ Javan_missions_5 = {
 			tooltip = {
 				add_province_modifier = {
 					name = JAV_mancanegara
-					duration = -1 
+					duration = -1
 				}
 			}
 			hidden_effect = {
 				east_java_area = {
 					add_province_modifier = {
 						name = JAV_mancanegara
-						duration = -1 
+						duration = -1
 					}
 				}
 				central_java_area = {
 					add_province_modifier = {
 						name = JAV_mancanegara
-						duration = -1 
+						duration = -1
 					}
 				}
 				west_java_area = {
 					add_province_modifier = {
 						name = JAV_mancanegara
-						duration = -1 
+						duration = -1
 					}
 				}
 				surabaya_area = {
 					add_province_modifier = {
 						name = JAV_mancanegara
-						duration = -1 
+						duration = -1
 					}
 				}
 				banten_area = {
 					add_province_modifier = {
 						name = JAV_mancanegara
-						duration = -1 
+						duration = -1
 					}
 				}
 			}

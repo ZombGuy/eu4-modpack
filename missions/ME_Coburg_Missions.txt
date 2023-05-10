@@ -35,7 +35,7 @@ COB_missions_1 = {
 			4716 = {
 				add_province_modifier = {
 					name = COB_pearl_of_the_itz_modifier
-					duration = -1 
+					duration = -1
 				}
 			}
 		}
@@ -62,7 +62,7 @@ COB_missions_1 = {
 			4716 = {
 				add_province_modifier = {
 					name = COB_veste_coburg
-					duration = -1 
+					duration = -1
 				}
 			}
 		}
@@ -89,7 +89,7 @@ COB_missions_1 = {
 			4716 = {
 				add_province_modifier = {
 					name = COB_ehrenburg_palace_modifier
-					duration = -1 
+					duration = -1
 				}
 			}
 		}
@@ -168,7 +168,7 @@ COB_missions_5 = {
 		effect = {
 			add_country_modifier = {
 				name = COB_coburgian_tolerance
-				duration = -1 
+				duration = -1
 			}
 		}
 	}

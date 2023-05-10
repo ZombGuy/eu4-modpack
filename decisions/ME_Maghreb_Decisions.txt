@@ -31,8 +31,10 @@ country_decisions = {
 				limit = {
 					religion_group = christian
 					maghreb_region = {
+						NOT = { area = macaronesia_area }
 						owned_by = PREV
 					}
+					
 				}
 				reverse_add_casus_belli = {
 					target = ROOT

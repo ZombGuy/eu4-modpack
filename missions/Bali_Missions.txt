@@ -73,7 +73,7 @@ bli_1 = {
 			}
 			add_country_modifier = {
 				name = bli_colonies_modifier
-				duration = -1 
+				duration = -1
 			}
 		}
 		ai_weight = {
@@ -113,7 +113,7 @@ bli_2 = {
 		effect = {
 			add_country_modifier = {
 				name = bli_majapahit_refugees
-				duration = -1 
+				duration = 7300
 			}
 			east_java_area = {
 				limit = {

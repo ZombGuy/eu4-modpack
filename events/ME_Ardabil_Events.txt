@@ -232,6 +232,7 @@ country_event = {
 		GEO = {
 			change_government = monarchy
 			add_government_reform = despotic_monarchy
+			change_religion = orthodox
 		}
 		custom_tooltip = ARL_Tooltip.8
 		set_country_flag = ARL_Can_use_Georgia

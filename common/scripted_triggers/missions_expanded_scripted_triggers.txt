@@ -1,5 +1,23 @@
 country_has_both_paradox_and_me_missions = {
 	OR = {
+		AND = {
+			has_dlc = "Domination"
+			OR = {
+				tag = RUS
+				tag = MOS
+				tag = FRA
+				tag = ENG
+				tag = AVE
+				tag = GBR
+				tag = CAS
+				tag = ARA 
+				tag = SPA
+				tag = JAP
+				tag = TUR
+				tag = BRA
+				tag = PRU
+			}
+		}
 		# Dharma DLC
 		AND = {
 			has_dlc = "Dharma"
@@ -48,6 +66,7 @@ country_has_both_paradox_and_me_missions = {
 				tag = HLR
 				tag = SAX
 				tag = THU
+				tag = SWI
 				#Balkans
 				tag = HUN
 				#France
@@ -55,6 +74,12 @@ country_has_both_paradox_and_me_missions = {
 			}
 		}
 		# Third Rome DLC
+		AND = {
+			has_dlc = "Third Rome"
+			OR = {
+				tag = ZAZ
+			}
+		}
 		# Rule Britannia DLC
 		AND = {
 			has_dlc = "Rule Britannia"
@@ -105,6 +130,7 @@ country_has_both_paradox_and_me_missions = {
 			tag = USA
 		}
 		# Default
+		tag = BYZ
 		tag = MUG
 		tag = ARA
 		tag = CAS

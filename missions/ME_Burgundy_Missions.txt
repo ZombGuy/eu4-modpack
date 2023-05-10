@@ -119,7 +119,7 @@ BUR_missions_1 = {
 			add_prestige = 15
 			add_country_modifier = {
 				name = "bur_diplo_mod"
-				duration = -1 
+				duration = 5475
 			}
 			frisia_area = {
 				limit = {
@@ -151,7 +151,7 @@ BUR_missions_1 = {
 			1975 = {
 				add_trade_modifier = {
 					who = ROOT
-					duration = -1 
+					duration = 7300
 					power = 20
 					key = bur_channel_ambition
 				}
@@ -183,7 +183,7 @@ BUR_missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = bur_low_countries
-				duration = -1 
+				duration = 9125
 			}
 		}
 	}
@@ -215,7 +215,7 @@ BUR_missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = bur_dutch_trade
-				duration = -1 
+				duration = 5475
 			}
 			set_country_flag = bur_integrated_hol
 			if = {
@@ -370,7 +370,7 @@ BUR_missions_2 = {
 		effect = {
 			add_country_modifier = {
 				name = bur_sailor
-				duration = -1 
+				duration = 9125
 			}
 			set_country_flag = bur_integrated_fla
 			if = {
@@ -580,7 +580,7 @@ BUR_missions_2 = {
 		effect = {
 			add_country_modifier = {
 				name = bur_colonies
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -625,7 +625,7 @@ BUR_missions_3 = {
 				trade_goods = cloth
 				key = bur_cloth.tooltip
 				value = 0.15
-				duration = -1 
+				duration = 9125
 			}
 			set_country_flag = bur_integrated_brb
 			if = {
@@ -682,7 +682,7 @@ BUR_missions_3 = {
 			186 = {
 				add_trade_modifier = {
 					who = ROOT
-					duration = -1 
+					duration = 7300
 					power = 25
 					key = bur_champagne_trade
 				}
@@ -736,7 +736,7 @@ BUR_missions_3 = {
 			capital_scope = {
 				add_province_modifier = {
 					name = bur_thicc_capital_local
-					duration = -1 
+					duration = -1
 				}
 			}
 		}
@@ -771,7 +771,7 @@ BUR_missions_4 = {
 		effect = {
 			add_country_modifier = {
 				name = bur_fite_fra
-				duration = -1 
+				duration = 3650
 			}
 			186 = {
 				add_permanent_claim = ROOT
@@ -1113,7 +1113,7 @@ BUR_missions_5 = {
 			}
 			add_country_modifier = {
 				name = "bur_arles_mod"
-				duration = -1 
+				duration = "7300"
 			}
 			liguria_area = {
 				limit = {
@@ -1157,7 +1157,7 @@ BUR_missions_5 = {
 		effect = {
 			add_country_modifier = {
 				name = bur_italy_ambitions
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -1176,7 +1176,7 @@ BUR_missions_5 = {
 				}
 				add_province_modifier = {
 					name = bur_challenge_hre
-					duration = -1 
+					duration = -1
 				}
 			}
 			set_in_empire = no
@@ -1376,7 +1376,7 @@ BUR_missions_5 = {
 		effect = {
 			add_country_modifier = {
 				name = bur_france_ded
-				duration = -1 
+				duration = -1
 			}
 		}
 	}

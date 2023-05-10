@@ -21,5 +21,6 @@ UKS = "countries/UnitedKingdoms.txt"
 ZCV = "countries/Zapadoslavia.txt"
 HER = "countries/Herat.txt"
 
-#XSN = "countries/Singora.txt" deprecated Malay Content
-#GLU = "countries/Galuh.txt" deprecated Malay Content
+#Malaya
+XSN = "countries/Singora.txt"
+GLU = "countries/Galuh.txt"

@@ -49,7 +49,7 @@ TIM_crisis_missions_1 = {
 			tooltip = {
 				add_country_modifier = {
 					name = me_tim_new_generation
-					duration = -1
+					duration = 5475
 				}
 			}
 			hidden_effect = {
@@ -59,7 +59,7 @@ TIM_crisis_missions_1 = {
 					}
 					add_country_modifier = {
 						name = me_tim_new_generation
-						duration = -1
+						duration = 5475
 					}
 				}
 				else = {
@@ -84,7 +84,7 @@ TIM_crisis_missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = me_tim_loyal_generals
-				duration = -1
+				duration = 5475
 			}
 			custom_tooltip = me_tim_5_fall_timurid
 			hidden_effect = {
@@ -196,7 +196,7 @@ TIM_crisis_missions_2 = {
 							}
 							employed_advisor = {
 								category = ADM
-								culture = afghan
+								culture = afghani
 							}
 						}
 					}
@@ -215,7 +215,7 @@ TIM_crisis_missions_2 = {
 							}
 							employed_advisor = {
 								category = DIP
-								culture = afghan
+								culture = afghani
 							}
 						}
 					}
@@ -234,7 +234,7 @@ TIM_crisis_missions_2 = {
 							}
 							employed_advisor = {
 								category = MIL
-								culture = afghan
+								culture = afghani
 							}
 						}
 					}
@@ -470,7 +470,7 @@ TIM_crisis_missions_3 = {
 				add_estate_influence_modifier = {
 					estate = estate_nobles
 					influence = -30
-					duration = -1
+					duration = 7300
 				}
 			}
 			custom_tooltip = " "
@@ -496,7 +496,7 @@ TIM_crisis_missions_3 = {
 					add_estate_influence_modifier = {
 						estate = estate_nobles
 						influence = -30
-						duration = -1
+						duration = 7300
 					}
 				}
 				else = {
@@ -623,7 +623,7 @@ TIM_crisis_missions_4 = {
 		icon = mission_a_million_elephants
 		position = 2
 		required_missions = {
-			me_tim_court
+			
 		}
 		trigger = {
 			OR = {
@@ -662,7 +662,7 @@ TIM_crisis_missions_4 = {
 				
 				add_country_modifier = {
 					name = me_tim_revolt_pacified
-					duration = -1
+					duration = 7300
 				}
 			}
 			custom_tooltip = " "
@@ -708,7 +708,7 @@ TIM_crisis_missions_4 = {
 					
 					add_country_modifier = {
 						name = me_tim_revolt_pacified
-						duration = -1
+						duration = 7300
 					}
 				}
 				else = {
@@ -750,7 +750,7 @@ TIM_crisis_missions_4 = {
 		effect = {
 			add_country_modifier = {
 				name = me_tim_conquest_persia
-				duration = -1
+				duration = 7300
 			}
 			custom_tooltip = me_tim_gain_marchantilism_from_tcs
 			hidden_effect = {
@@ -807,7 +807,7 @@ TIM_crisis_missions_4 = {
 			add_estate_influence_modifier = {
 				estate = estate_nobles
 				influence = -25
-				duration = -1
+				duration = 7300
 			}
 			hidden_effect = {
 				if = {
@@ -853,7 +853,7 @@ TIM_crisis_missions_4 = {
 		effect = {
 			add_country_modifier = {
 				name = me_tim_governship
-				duration = -1
+				duration = 7300
 			}
 		}
 	}
@@ -921,7 +921,7 @@ TIM_crisis_missions_5 = {
 			tooltip = {
 				add_province_modifier = {
 					name = me_tim_courtly_investment
-					duration = -1
+					duration = 7300
 				}
 			}
 			hidden_effect = {
@@ -931,7 +931,7 @@ TIM_crisis_missions_5 = {
 					}
 					add_province_modifier = {
 						name = me_tim_courtly_investment
-						duration = -1
+						duration = 7300
 					}
 				}
 			}

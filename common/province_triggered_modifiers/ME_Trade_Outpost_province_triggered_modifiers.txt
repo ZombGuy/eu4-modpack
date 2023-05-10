@@ -5,12 +5,18 @@ HNS_kontor = {
 	}
 
 	trigger = {
-		owner = {
-			has_opinion = {
-				who = event_target:target_HANSA
-				value = 100
+		if = {
+			limit = {
+				has_saved_global_event_target = target_HANSA
+			}
+			owner = {
+				has_opinion = {
+					who = event_target:target_HANSA
+					value = 100
+				}
 			}
 		}
+		else = { always = no }
 	}
 	
 	hidden = yes
@@ -20,21 +26,26 @@ HNS_kontor = {
 	on_activation = {
 		if = {
 			limit = {
-				has_province_flag = HNS_upgraded
+				has_saved_global_event_target = target_HANSA
 			}
-			add_trade_modifier = {
-				who = event_target:target_HANSA
-				duration = -1
-				power = 30
-				key = HNS_ties
+			if = {
+				limit = {
+					has_province_flag = HNS_upgraded
+				}
+				add_trade_modifier = {
+					who = event_target:target_HANSA
+					duration = -1
+					power = 30
+					key = HNS_ties
+				}
 			}
-		}
-		else = {
-			add_trade_modifier = {
-				who = event_target:target_HANSA
-				duration = -1
-				power = 15
-				key = HNS_ties
+			else = {
+				add_trade_modifier = {
+					who = event_target:target_HANSA
+					duration = -1
+					power = 15
+					key = HNS_ties
+				}
 			}
 		}
 		add_permanent_province_modifier = {
@@ -54,9 +65,14 @@ HNS_kontor = {
 			duration = -1
 			#hidden = yes
 		}
-		remove_trade_modifier = {
-			who = event_target:target_HANSA
-			key = HNS_ties
+		if = {
+			limit = {
+				has_saved_global_event_target = target_HANSA
+			}
+			remove_trade_modifier = {
+				who = event_target:target_HANSA
+				key = HNS_ties
+			}
 		}
 		clr_province_flag = HNS_activated
 		set_province_flag = HNS_deactivated
@@ -69,12 +85,18 @@ ORM_outpost = {
 	}
 
 	trigger = {
-		owner = {
-			has_opinion = {
-				who = event_target:target_ORM
-				value = 80
+		if = {
+			limit = {
+				has_saved_global_event_target = target_ORM
+			}
+			owner = {
+				has_opinion = {
+					who = event_target:target_ORM
+					value = 80
+				}
 			}
 		}
+		else = { always = no }
 	}
 	
 	hidden = yes

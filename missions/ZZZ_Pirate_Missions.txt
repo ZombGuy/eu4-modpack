@@ -28,6 +28,7 @@ pirate_1 = {
 				NOT = { tag = GOT }
 				NOT = { was_tag = GOT }
 			}
+			NOT = { has_dlc = "Lions of the North" }
 		}
 	}
 
@@ -49,7 +50,7 @@ pirate_1 = {
 		effect = {
 			add_country_modifier = {
 				name = "pirate_trade_practices"
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -88,7 +89,7 @@ pirate_1 = {
 		effect = {
 			add_country_modifier = {
 				name = "pirate_trade_ports"
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -103,7 +104,7 @@ pirate_1 = {
 		effect = {
 			add_country_modifier = {
 				name = "pirate_trade_in_gold"
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -167,7 +168,7 @@ pirate_1 = {
 		effect = {
 			add_country_modifier = {
 				name = "pirate_triangle_trade"
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -203,6 +204,7 @@ pirate_2 = {
 				NOT = { tag = GOT }
 				NOT = { was_tag = GOT }
 			}
+			NOT = { has_dlc = "Lions of the North" }
 		}
 	}
 
@@ -226,7 +228,7 @@ pirate_2 = {
 		effect = {
 			add_country_modifier = {
 				name = "pirate_a_second_madagascar"
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -378,7 +380,7 @@ pirate_2 = {
 		effect = {
 			add_country_modifier = {
 				name = "pirate_all_of_the_gold"
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -409,6 +411,7 @@ pirate_3 = {
 				NOT = { tag = GOT }
 				NOT = { was_tag = GOT }
 			}
+			NOT = { has_dlc = "Lions of the North" }
 		}
 	}
 
@@ -427,7 +430,7 @@ pirate_3 = {
 		effect = {
 			add_country_modifier = {
 				name = "pirate_a_pirate_fleet"
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -442,7 +445,7 @@ pirate_3 = {
 		effect = {
 			add_country_modifier = {
 				name = "pirate_a_scourge_on_the_seven_seas"
-				duration = -1 
+				duration = 7300
 			}
 			create_admiral = {
 				tradition = 50
@@ -460,7 +463,7 @@ pirate_3 = {
 		effect = {
 			add_country_modifier = {
 				name = "pirate_the_pirate_code"
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -489,7 +492,7 @@ pirate_3 = {
 		effect = {
 			add_country_modifier = {
 				name = "pirate_diplomacy"
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -506,7 +509,7 @@ pirate_3 = {
 		effect = {
 			add_country_modifier = {
 				name = "pirate_the_pirate_threat"
-				duration = -1 
+				duration = 7300
 			}
 			add_mil_power = 100
 		}
@@ -537,6 +540,7 @@ pirate_5 = {
 				NOT = { tag = GOT }
 				NOT = { was_tag = GOT }
 			}
+			NOT = { has_dlc = "Lions of the North" }
 		}
 	}
 
@@ -554,7 +558,7 @@ pirate_5 = {
 		effect = {
 			add_country_modifier = {
 				name = "pirate_hoard"
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -573,7 +577,7 @@ pirate_5 = {
 		effect = {
 			add_country_modifier = {
 				name = "pirate_federation"
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -605,7 +609,7 @@ pirate_5 = {
 			set_country_flag = can_gain_legendary_pirates_flag
 			add_country_modifier = {
 				name = "pirate_a_famous_pirate"
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}

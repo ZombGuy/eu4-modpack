@@ -143,7 +143,7 @@ BRB_missions_4 = {
 		effect = {
 			add_country_modifier = {
 				name = "east_india_trade_rush"
-				duration = -1 
+				duration = 5475
 			}
 		}
 	}
@@ -157,7 +157,7 @@ BRB_missions_4 = {
 		effect = {
 			add_country_modifier = {
 				name = "strong_treasury"
-				duration = -1 
+				duration = -1
 			}
 			add_adm_power = -150
 		}
@@ -186,7 +186,7 @@ BRB_missions_4 = {
 		effect = {
 			add_country_modifier = {
 				name = "proto_industrialization"
-				duration = -1 
+				duration = 5475
 			}
 		}
 	}

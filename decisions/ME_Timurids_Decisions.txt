@@ -1,42 +1,4 @@
 country_decisions = {
-	TIM_enhance_observatory = {
-		major = yes
-		potential = {
-			tag = TIM
-			has_country_flag = me_tim_built_observatory
-		}
-		provinces_to_highlight = {
-			OR = {
-				AND = {
-					has_dlc = "Mandate of Heaven"
-					area = transoxiana_area
-					OR = {
-						NOT = { owned_by = ROOT }
-						is_state = no
-						is_prosperous = no
-					}
-				}
-				AND = {
-					NOT = { has_dlc = "Mandate of Heaven" }
-					province_id = 454
-					NOT = { has_building = workshop }
-					NOT = { has_building = counting_house }
-				}
-			}
-		}
-		allow = {
-
-		}
-		effect = {
-			454 = {
-				add_great_project = {
-					type = me_ulug_beg_observatory
-					instant = no 
-				}
-			}
-		}
-	}
-	
 	timurid_princes_open_legitimacy_shop = {
 		major = yes
 		potential = {
@@ -140,12 +102,6 @@ country_decisions = {
 		
 		effect = {
 			698 = {
-				owner = {
-					add_country_modifier = {
-						name = me_tim_battle_plans_revealed
-						duration = 1825
-					}
-				}
 				remove_fow = 32
 			}
 		}
@@ -165,7 +121,6 @@ country_decisions = {
 		effect = {
 			custom_tooltip = me_tim_current_sow_gives
 			custom_tooltip = " "
-			ME_tim_add_spoils_of_war_modifier = yes
 		}
 	}
 	
@@ -185,7 +140,7 @@ country_decisions = {
 		effect = {
 			add_estate_loyalty = {
 				estate = estate_burghers
-				loyalty = -1
+				loyalty = -10
 			}
 			add_mercantilism = -15
 			ME_distribute_development = {

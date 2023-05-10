@@ -72,7 +72,7 @@ italy_missions_1 = {
 			tooltip = {
 				add_province_modifier = {
 					name = ita_germanic_border
-					duration = -1 
+					duration = -1
 				}
 			}
 			hidden_effect = {
@@ -99,7 +99,7 @@ italy_missions_1 = {
 					}
 					add_permanent_province_modifier = {
 						name = ita_germanic_border
-						duration = -1 
+						duration = -1
 					}
 				}
 			}
@@ -161,7 +161,7 @@ italy_missions_1 = {
 			add_army_tradition = 10
 			add_country_modifier = {
 				name = ita_experienced_alpini
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -177,7 +177,7 @@ italy_missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = ita_monarca
-				duration = -1 
+				duration = 18250
 			}
 		}
 	}
@@ -230,7 +230,7 @@ italy_missions_2 = {
 			110 = {
 				add_permanent_province_modifier = {
 					name = ita_castello_buonconsiglio
-					duration = -1 
+					duration = -1
 				}
 			}
 		}
@@ -276,24 +276,24 @@ italy_missions_2 = {
 			103 = {
 				add_permanent_province_modifier = {
 					name = ita_accademia_militare
-					duration = -1 
+					duration = -1
 				}
 			}
 			104 = {
 				add_permanent_province_modifier = {
 					name = ita_accademia_militare
-					duration = -1 
+					duration = -1
 				}
 			}
 			121 = {
 				add_permanent_province_modifier = {
 					name = ita_accademia_militare
-					duration = -1 
+					duration = -1
 				}
 			}
 			add_country_modifier = {
 				name = ita_modernisation
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -419,7 +419,7 @@ italy_missions_2 = {
 		effect = {
 			add_country_modifier = {
 				name = ita_colonial_adventures
-				duration = -1 
+				duration = 18250
 			}
 			guinea_region = {
 				limit = {
@@ -465,7 +465,7 @@ italy_missions_2 = {
 		effect = {
 			add_country_modifier = {
 				name = ita_colonial_victory
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -487,23 +487,12 @@ italy_missions_2 = {
 			}
 		}
 		effect = {
-			if = {
-				limit = {
-					is_expanded_mod_active = { mod = governments }
-				}
-				add_country_modifier = {
-					name = ita_carribean_import_ge
-					duration = -1 
-				}
-			}
-			else = {
-				1516 = {
-					add_trade_modifier = {
-						who = ROOT
-						duration = -1 
-						power = 20
-						key = ita_carribean_import_ge
-					}
+			1516 = {
+				add_trade_modifier = {
+					who = ROOT
+					duration = -1
+					power = 20
+					key = ita_carribean_import_ge
 				}
 			}
 		}
@@ -565,34 +554,11 @@ italy_missions_3 = {
 				add_base_production = 4
 				add_base_manpower = 4
 			}
-			if = {
-				limit = {
-					is_expanded_mod_active = { mod = ages_and_splendor }
-				}
-				add_country_modifier = {
-					name = ita_italian_hegemony
-					duration = -1 
-				}
-				custom_tooltip = italy_italian_hegemony_ASE_tt
+			add_country_modifier = {
+				name = ita_italian_hegemony
+				duration = 18250
 			}
-			else = {
-				add_country_modifier = {
-					name = ita_italian_hegemony
-					duration = -1 
-				}
-				custom_tooltip = italy_italian_hegemony_nASE_tt
-			}
-			if = {
-				limit = {
-					is_expanded_mod_active = { mod = great_monuments }
-				}
-				118 = {
-					add_great_project_tier = {
-						type = gme_altare_patria
-						tier = 1
-					}
-				}
-			}
+			custom_tooltip = italy_italian_hegemony_nASE_tt
 		}
 	}
 
@@ -616,7 +582,7 @@ italy_missions_3 = {
 			italy_region = {
 				add_permanent_province_modifier = {
 					name = ita_finally_united
-					duration = -1 
+					duration = 7300
 				}
 				add_devastation = -10
 				add_prosperity = 10
@@ -676,20 +642,9 @@ italy_missions_3 = {
 		effect = {
 			add_years_of_income = 1
 			add_dip_power = 100
-			if = {
-				limit = {
-					is_expanded_mod_active = { mod = governments }
-				}
-				add_country_modifier = {
-					name = ita_eboriokratia_ge
-					duration = -1 
-				}
-			}
-			else = {
-				add_country_modifier = {
-					name = ita_eboriokratia
-					duration = -1 
-				}
+			add_country_modifier = {
+				name = ita_eboriokratia
+				duration = -1
 			}
 		}
 	}
@@ -726,7 +681,7 @@ italy_missions_3 = {
 			tooltip = {
 				add_province_modifier = {
 					name = ita_integration
-					duration = -1 
+					duration = 5475
 				}
 			}
 			hidden_effect = {
@@ -737,7 +692,7 @@ italy_missions_3 = {
 						}
 						add_province_modifier = {
 							name = ita_integration
-							duration = -1 
+							duration = 5475
 						}
 					}
 				}
@@ -812,12 +767,12 @@ italy_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = ita_seafering 
-				duration = -1 
+				duration = -1
 			}
 			341 = {
 				add_trade_modifier = {
 					who = ROOT
-					duration = -1 
+					duration = 3650
 					power = 15
 					key = ita_seafering
 				}
@@ -825,7 +780,7 @@ italy_missions_3 = {
 			1295 = {
 				add_trade_modifier = {
 					who = ROOT
-					duration = -1 
+					duration = 3650
 					power = 15
 					key = ita_seafering
 				}
@@ -833,7 +788,7 @@ italy_missions_3 = {
 			1298 = {
 				add_trade_modifier = {
 					who = ROOT
-					duration = -1 
+					duration = 3650
 					power = 15
 					key = ita_seafering
 				}
@@ -841,7 +796,7 @@ italy_missions_3 = {
 			1293 = {
 				add_trade_modifier = {
 					who = ROOT
-					duration = -1 
+					duration = 3650
 					power = 15
 					key = ita_seafering
 				}
@@ -849,7 +804,7 @@ italy_missions_3 = {
 			1110 = {
 				add_trade_modifier = {
 					who = ROOT
-					duration = -1 
+					duration = 3650
 					power = 15
 					key = ita_seafering
 				}
@@ -883,7 +838,7 @@ italy_missions_3 = {
 				}
 				add_country_modifier = {
 					name = ita_new_settlers
-					duration = -1 
+					duration = 7300
 				}
 			}
 			else = {
@@ -1078,7 +1033,7 @@ italy_missions_4 = {
 				}
 				add_permanent_province_modifier = {
 					name = ita_wine_monopolies
-					duration = -1 
+					duration = -1
 				}
 			}
 		}
@@ -1115,7 +1070,7 @@ italy_missions_4 = {
 		effect = {
 			add_country_modifier = {
 				name = ita_mare_sicuri
-				duration = -1 
+				duration = 18250
 			}
 		}
 	}
@@ -1432,7 +1387,7 @@ italy_missions_4 = {
 		effect = {
 			add_country_modifier = {
 				name = ita_safe_home_water
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -1466,7 +1421,7 @@ italy_missions_5 = {
 		effect = {
 			add_country_modifier = {
 				name = ita_benedizione_santa_barbara
-				duration = -1 
+				duration = 3650
 			}
 		}
 	}
@@ -1512,24 +1467,24 @@ italy_missions_5 = {
 			101 = {
 				add_permanent_province_modifier = {
 					name = ita_arsenale
-					duration = -1 
+					duration = -1
 				}
 			}
 			112 = {
 				add_permanent_province_modifier = {
 					name = ita_arsenale
-					duration = -1 
+					duration = -1
 				}
 			}
 			125 = {
 				add_permanent_province_modifier = {
 					name = ita_arsenale
-					duration = -1 
+					duration = -1
 				}
 			}
 			add_country_modifier = {
 				name = ita_mirage_sea
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -1599,7 +1554,7 @@ italy_missions_5 = {
 				}
 				add_province_modifier = {
 					name = ita_stato_ellenico
-					duration = -1 
+					duration = 3650
 				}
 			}
 			morea_area = {
@@ -1608,7 +1563,7 @@ italy_missions_5 = {
 				}
 				add_province_modifier = {
 					name = ita_stato_ellenico
-					duration = -1 
+					duration = 3650
 				}
 			}
 			macedonia_area = {
@@ -1617,7 +1572,7 @@ italy_missions_5 = {
 				}
 				add_province_modifier = {
 					name = ita_stato_ellenico
-					duration = -1 
+					duration = 3650
 				}
 			}
 			thrace_area = {
@@ -1626,7 +1581,7 @@ italy_missions_5 = {
 				}
 				add_province_modifier = {
 					name = ita_stato_ellenico
-					duration = -1 
+					duration = 3650
 				}
 			}
 			anatolia_region = {
@@ -1689,7 +1644,7 @@ italy_missions_5 = {
 		effect = {
 			add_country_modifier = {
 				name = ita_eastern_romans
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -1721,7 +1676,7 @@ italy_missions_5 = {
 			358 = {
 				add_trade_modifier = {
 					who = ROOT
-					duration = -1 
+					duration = 7300
 					power = 25
 					key = ita_alexandria_ambition
 				}
@@ -1765,7 +1720,7 @@ italy_missions_1_military = {
 		effect = {
 			add_country_modifier = {
 				name = ita_military_base_modifier
-				duration = -1 
+				duration = 9125
 			}
 		}
 	}
@@ -1802,7 +1757,7 @@ italy_missions_1_military = {
 			italy_region = {
 				add_permanent_province_modifier = {
 					name = ita_local_guard
-					duration = -1 
+					duration = -1
 				}
 			}
 		}
@@ -1841,9 +1796,9 @@ italy_missions_1_military = {
 			italy_region = {
 				type = all
 				OR = {
-					AND = {
-						NOT = { has_terrain = hills }
-						NOT = { has_terrain = mountain }
+					OR = {
+						has_terrain = hills
+						has_terrain = mountain
 					}
 					AND = {
 						country_or_non_sovereign_subject_holds = ROOT
@@ -1855,7 +1810,7 @@ italy_missions_1_military = {
 		effect = {
 			add_country_modifier = {
 				name = ita_alpini
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -1922,7 +1877,7 @@ italy_missions_2_military = {
 		effect = {
 			add_country_modifier = {
 				name = ita_bersaglieri
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -2013,7 +1968,7 @@ italy_missions_1_tall = {
 				}
 				add_country_modifier = {
 					name = ita_centralisation
-					duration = -1 
+					duration = -1
 				}
 				change_estate_land_share = {
 					estate = all
@@ -2051,7 +2006,7 @@ italy_missions_1_tall = {
 			add_adm_power = 300
 			add_country_modifier = {
 				name = ita_italian_ambition
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -2067,12 +2022,13 @@ italy_missions_1_tall = {
 				limit = {
 					has_dlc = "Leviathan"
 				}
-				if = {
-					limit = {
-						is_expanded_mod_active = { mod = great_monuments }
-					}
+				OR = {
 					num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
 						value = 3
+						region = italy_region
+						development = 50
+					}
+					any_owned_province = {
 						region = italy_region
 						has_great_project = {
 							type = any
@@ -2080,22 +2036,7 @@ italy_missions_1_tall = {
 						}
 					}
 				}
-				else = {
-					OR = {
-						num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
-							value = 3
-							region = italy_region
-							development = 50
-						}
-						any_owned_province = {
-							region = italy_region
-							has_great_project = {
-								type = any
-								tier = 3
-							}
-						}
-					}
-				}
+				
 			}
 			else = {
 				num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
@@ -2276,7 +2217,7 @@ italy_missions_2_tall = {
 			add_mil_power = 120
 			add_country_modifier = {
 				name = ita_center_technological_innovation
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -2306,74 +2247,74 @@ italy_missions_2_tall = {
 			tooltip = {
 				add_permanent_province_modifier = {
 					name = ita_bonifica_integrale
-					duration = -1 
+					duration = -1
 				}
 			}
 			hidden_effect = {
 				105 = {
 					add_permanent_province_modifier = {
 						name = ita_bonifica_integrale
-						duration = -1 
+						duration = -1
 					}
 				}
 				106 = {
 					add_permanent_province_modifier = {
 						name = ita_bonifica_integrale
-						duration = -1 
+						duration = -1
 					}
 				}
 				104 = {
 					add_permanent_province_modifier = {
 						name = ita_bonifica_integrale
-						duration = -1 
+						duration = -1
 					}
 				}
 				2978 = {
 					add_permanent_province_modifier = {
 						name = ita_bonifica_integrale
-						duration = -1 
+						duration = -1
 					}
 				}
 				117 = {
 					add_permanent_province_modifier = {
 						name = ita_bonifica_integrale
-						duration = -1 
+						duration = -1
 					}
 				}
 				2976 = {
 					add_permanent_province_modifier = {
 						name = ita_bonifica_integrale
-						duration = -1 
+						duration = -1
 					}
 				}
 				4732 = {
 					add_permanent_province_modifier = {
 						name = ita_bonifica_integrale
-						duration = -1 
+						duration = -1
 					}
 				}
 				1774 = {
 					add_permanent_province_modifier = {
 						name = ita_bonifica_integrale
-						duration = -1 
+						duration = -1
 					}
 				}
 				113 = {
 					add_permanent_province_modifier = {
 						name = ita_bonifica_integrale
-						duration = -1 
+						duration = -1
 					}
 				}
 				122 = {
 					add_permanent_province_modifier = {
 						name = ita_bonifica_integrale
-						duration = -1 
+						duration = -1
 					}
 				}
 				4735 = {
 					add_permanent_province_modifier = {
 						name = ita_bonifica_integrale
-						duration = -1 
+						duration = -1
 					}
 				}
 			}
@@ -2404,7 +2345,7 @@ italy_missions_2_tall = {
 			117 = {
 				add_permanent_province_modifier = {
 					name = ita_elsa_valley
-					duration = -1 
+					duration = 7300
 				}
 			}
 		}
@@ -2448,7 +2389,7 @@ italy_missions_3_tall = {
 		effect = {
 			add_country_modifier = {
 				name = ita_birthplace_knowledge
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -2470,10 +2411,6 @@ italy_missions_3_tall = {
 						trade_goods = grain
 						trade_goods = livestock
 						trade_goods = fish
-						trade_goods = rice
-						trade_goods = olive_oil
-						trade_goods = cheese
-						trade_goods = potato
 					}
 					NOT = { development = 20 }
 					NOT = { has_production_building_trigger = yes }
@@ -2497,10 +2434,6 @@ italy_missions_3_tall = {
 							trade_goods = grain
 							trade_goods = livestock
 							trade_goods = fish
-							trade_goods = rice
-							trade_goods = olive_oil
-							trade_goods = cheese
-							trade_goods = potato
 						}
 						development = 20
 						has_production_building_trigger = yes
@@ -2510,22 +2443,11 @@ italy_missions_3_tall = {
 			}
 		}
 		effect = {
-			if = {
-				limit = {
-					NOT = {
-						is_expanded_mod_active = { mod = great_monuments }
-					}
-				}
-				add_country_modifier = {
-					name = ita_supporting_newfounded_state
-					duration = -1 
-				}
-			}
 			custom_tooltip = ITA_Bolstering_Production_TT
 			tooltip = {
 				add_permanent_province_modifier = {
 					name = ita_bolstering_production
-					duration = -1 
+					duration = -1
 				}
 			}
 			hidden_effect = {
@@ -2539,10 +2461,6 @@ italy_missions_3_tall = {
 							trade_goods = livestock
 							trade_goods = fish
 							trade_goods = livestock
-							trade_goods = rice
-							trade_goods = olive_oil
-							trade_goods = cheese
-							trade_goods = potato
 						}
 						OR = {
 							development = 20
@@ -2552,7 +2470,7 @@ italy_missions_3_tall = {
 					}
 					add_permanent_province_modifier = {
 						name = ita_bolstering_production
-						duration = -1 
+						duration = -1
 					}
 				}
 			}
@@ -2598,19 +2516,19 @@ italy_missions_3_tall = {
 			101 = {
 				add_permanent_province_modifier = {
 					name = ita_to_mi_ge
-					duration = -1 
+					duration = -1
 				}
 			}
 			103 = {
 				add_permanent_province_modifier = {
 					name = ita_to_mi_ge
-					duration = -1 
+					duration = -1
 				}
 			}
 			104 = {
 				add_permanent_province_modifier = {
 					name = ita_to_mi_ge
-					duration = -1 
+					duration = -1
 				}
 			}
 		}
@@ -2682,62 +2600,62 @@ italy_missions_3_tall = {
 			tooltip = {
 				add_permanent_province_modifier = {
 					name = ita_ferrovie_italiane
-					duration = -1 
+					duration = -1
 				}
 			}
 			hidden_effect = {
 				101 = {
 					add_permanent_province_modifier = {
 						name = ita_ferrovie_italiane
-						duration = -1 
+						duration = -1
 					}
 				}
 				2981 = {
 					add_permanent_province_modifier = {
 						name = ita_ferrovie_italiane
-						duration = -1 
+						duration = -1
 					}
 				}
 				2979 = {
 					add_permanent_province_modifier = {
 						name = ita_ferrovie_italiane
-						duration = -1 
+						duration = -1
 					}
 				}
 				4739 = {
 					add_permanent_province_modifier = {
 						name = ita_ferrovie_italiane
-						duration = -1 
+						duration = -1
 					}
 				}
 				107 = {
 					add_permanent_province_modifier = {
 						name = ita_ferrovie_italiane
-						duration = -1 
+						duration = -1
 					}
 				}
 				4729 = {
 					add_permanent_province_modifier = {
 						name = ita_ferrovie_italiane
-						duration = -1 
+						duration = -1
 					}
 				}
 				108 = {
 					add_permanent_province_modifier = {
 						name = ita_ferrovie_italiane
-						duration = -1 
+						duration = -1
 					}
 				}
 				103 = {
 					add_permanent_province_modifier = {
 						name = ita_ferrovie_italiane
-						duration = -1 
+						duration = -1
 					}
 				}
 				104 = {
 					add_permanent_province_modifier = {
 						name = ita_ferrovie_italiane
-						duration = -1 
+						duration = -1
 					}
 				}
 			}
@@ -2746,7 +2664,7 @@ italy_missions_3_tall = {
 				remove_province_modifier = ita_italian_prosperity_1
 				add_permanent_province_modifier = {
 					name = ita_italian_prosperity_final
-					duration = -1 
+					duration = -1
 				}
 			}
 			lombardy_area = {
@@ -2754,7 +2672,7 @@ italy_missions_3_tall = {
 				remove_province_modifier = ita_italian_prosperity_1
 				add_permanent_province_modifier = {
 					name = ita_italian_prosperity_final
-					duration = -1 
+					duration = -1
 				}
 			}
 			piedmont_area = {
@@ -2762,7 +2680,7 @@ italy_missions_3_tall = {
 				remove_province_modifier = ita_italian_prosperity_1
 				add_permanent_province_modifier = {
 					name = ita_italian_prosperity_final
-					duration = -1 
+					duration = -1
 				}
 			}
 			tuscany_area = {
@@ -2770,7 +2688,7 @@ italy_missions_3_tall = {
 				remove_province_modifier = ita_italian_prosperity_1
 				add_permanent_province_modifier = {
 					name = ita_italian_prosperity_final
-					duration = -1 
+					duration = -1
 				}
 			}
 			liguria_area = {
@@ -2778,7 +2696,7 @@ italy_missions_3_tall = {
 				remove_province_modifier = ita_italian_prosperity_1
 				add_permanent_province_modifier = {
 					name = ita_italian_prosperity_final
-					duration = -1 
+					duration = -1
 				}
 			}
 			emilia_romagna_area = {
@@ -2786,7 +2704,7 @@ italy_missions_3_tall = {
 				remove_province_modifier = ita_italian_prosperity_1
 				add_permanent_province_modifier = {
 					name = ita_italian_prosperity_final
-					duration = -1 
+					duration = -1
 				}
 			}
 			central_italy_area = {
@@ -2794,7 +2712,7 @@ italy_missions_3_tall = {
 				remove_province_modifier = ita_italian_prosperity_1
 				add_permanent_province_modifier = {
 					name = ita_italian_prosperity_final
-					duration = -1 
+					duration = -1
 				}
 			}
 			lazio_area = {
@@ -2802,7 +2720,7 @@ italy_missions_3_tall = {
 				remove_province_modifier = ita_italian_prosperity_1
 				add_permanent_province_modifier = {
 					name = ita_italian_prosperity_final
-					duration = -1 
+					duration = -1
 				}
 			}
 			po_valley_area = {
@@ -2810,7 +2728,7 @@ italy_missions_3_tall = {
 				remove_province_modifier = ita_italian_prosperity_1
 				add_permanent_province_modifier = {
 					name = ita_italian_prosperity_final
-					duration = -1 
+					duration = -1
 				}
 			}
 		}
@@ -2889,7 +2807,7 @@ italy_missions_4_tall = {
 				limit = { country_or_non_sovereign_subject_holds = ROOT }
 				add_permanent_province_modifier = {
 					name = ita_italian_prosperity_1
-					duration = -1 
+					duration = -1
 				}
 			}
 		}
@@ -2921,7 +2839,7 @@ italy_missions_4_tall = {
 		effect = {
 			add_country_modifier = {
 				name = ita_coal_race
-				duration = -1 
+				duration = 5475
 			}
 		}
 	}
@@ -2963,13 +2881,13 @@ italy_missions_4_tall = {
 			121 = {
 				add_permanent_province_modifier = {
 					name = ita_napoli_portici
-					duration = -1 
+					duration = -1
 				}
 			}
 			2983 = {
 				add_permanent_province_modifier = {
 					name = ita_napoli_portici
-					duration = -1 
+					duration = -1
 				}
 			}
 		}
@@ -3023,13 +2941,13 @@ italy_missions_4_tall = {
 				limit = { has_global_flag = historical_national_ideas_mod_active }
 				add_country_modifier = {
 					name = ita_italian_hegemony_production_hni
-					duration = -1 
+					duration = -1
 				}
 			}
 			else = {
 				add_country_modifier = {
 					name = ita_italian_hegemony_production
-					duration = -1 
+					duration = -1
 				}
 			}
 		}
@@ -3221,35 +3139,35 @@ italy_missions_5_tall = {
 				limit = { country_or_non_sovereign_subject_holds = ROOT }
 				add_permanent_province_modifier = {
 					name = ita_southern_focus
-					duration = -1 
+					duration = 9125
 				}
 			}
 			calabria_area = {
 				limit = { country_or_non_sovereign_subject_holds = ROOT }
 				add_permanent_province_modifier = {
 					name = ita_southern_focus
-					duration = -1 
+					duration = 9125
 				}
 			}
 			apulia_area = {
 				limit = { country_or_non_sovereign_subject_holds = ROOT }
 				add_permanent_province_modifier = {
 					name = ita_southern_focus
-					duration = -1 
+					duration = 9125
 				}
 			}
 			western_sicily_area = {
 				limit = { country_or_non_sovereign_subject_holds = ROOT }
 				add_permanent_province_modifier = {
 					name = ita_southern_focus
-					duration = -1 
+					duration = 9125
 				}
 			}
 			sicily_area = {
 				limit = { country_or_non_sovereign_subject_holds = ROOT }
 				add_permanent_province_modifier = {
 					name = ita_southern_focus
-					duration = -1 
+					duration = 9125
 				}
 			}
 		}
@@ -3336,7 +3254,7 @@ italy_missions_5_tall = {
 				remove_province_modifier = ita_italian_prosperity_1
 				add_permanent_province_modifier = {
 					name = ita_italian_prosperity_final
-					duration = -1 
+					duration = -1
 				}
 			}
 			calabria_area = {
@@ -3344,7 +3262,7 @@ italy_missions_5_tall = {
 				remove_province_modifier = ita_italian_prosperity_1
 				add_permanent_province_modifier = {
 					name = ita_italian_prosperity_final
-					duration = -1 
+					duration = -1
 				}
 			}
 			apulia_area = {
@@ -3352,7 +3270,7 @@ italy_missions_5_tall = {
 				remove_province_modifier = ita_italian_prosperity_1
 				add_permanent_province_modifier = {
 					name = ita_italian_prosperity_final
-					duration = -1 
+					duration = -1
 				}
 			}
 			western_sicily_area = {
@@ -3360,7 +3278,7 @@ italy_missions_5_tall = {
 				remove_province_modifier = ita_italian_prosperity_1
 				add_permanent_province_modifier = {
 					name = ita_italian_prosperity_final
-					duration = -1 
+					duration = -1
 				}
 			}
 			sicily_area = {
@@ -3368,7 +3286,7 @@ italy_missions_5_tall = {
 				remove_province_modifier = ita_italian_prosperity_1
 				add_permanent_province_modifier = {
 					name = ita_italian_prosperity_final
-					duration = -1 
+					duration = -1
 				}
 			}
 			corsica_sardinia_area = {
@@ -3376,7 +3294,7 @@ italy_missions_5_tall = {
 				remove_province_modifier = ita_italian_prosperity_1
 				add_permanent_province_modifier = {
 					name = ita_italian_prosperity_final
-					duration = -1 
+					duration = -1
 				}
 			}
 		}

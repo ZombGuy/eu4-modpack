@@ -228,19 +228,19 @@ country_event = {
 
 	is_triggered_only = yes
 
-	option = {
-		name = ME_Vijayanagara_Events.5.OPT1
+	# option = {
+		# name = ME_Vijayanagara_Events.5.OPT1
 
-		ai_chance = { factor = 50 }
+		# ai_chance = { factor = 50 }
 
-		random_owned_province = {
-			limit = {
-				trade_goods = iron
-			}
-			change_trade_goods = munitions
-			add_base_manpower = 1
-		}
-	}
+		# random_owned_province = {
+			# limit = {
+				# trade_goods = iron
+			# }
+			# change_trade_goods = munitions
+			# add_base_manpower = 1
+		# }
+	# }
 
 	option = {
 		name = ME_Vijayanagara_Events.5.OPT2

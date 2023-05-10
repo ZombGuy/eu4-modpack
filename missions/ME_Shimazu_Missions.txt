@@ -25,7 +25,7 @@ SMZ_missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = SMZ_shimazu_drafting
-				duration = -1 
+				duration = 5475
 			}
 			northern_kyushu = {
 				limit = {
@@ -70,7 +70,7 @@ SMZ_missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = SMZ_robust_thrust
-				duration = -1 
+				duration = 7300
 			}
 			sanindo_area = {
 				limit = {
@@ -144,7 +144,7 @@ SMZ_missions_2 = {
 		effect = {
 			add_country_modifier = {
 				name = SMZ_well_advised
-				duration = -1 
+				duration = 9125
 			}
 		}
 	}
@@ -174,7 +174,7 @@ SMZ_missions_2 = {
 		effect = {
 			add_country_modifier = {
 				name = SMZ_march_on_kyoto
-				duration = -1 
+				duration = 7300
 			}
 			kinai_area = {
 				limit = {
@@ -202,7 +202,7 @@ SMZ_missions_2 = {
 		effect = {
 			add_country_modifier = {
 				name = SMZ_the_new_order
-				duration = -1 
+				duration = 9125
 			}
 			every_subject_country = {
 				add_liberty_desire = -20
@@ -238,7 +238,7 @@ SMZ_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = SMZ_invasion_of_ryukyu
-				duration = -1 
+				duration = 10950
 			}
 			1015 = {
 				if = {
@@ -270,7 +270,7 @@ SMZ_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = SMZ_modernization_effort
-				duration = -1 
+				duration = 10950
 			}
 		}
 	}
@@ -391,7 +391,7 @@ SMZ_missions_4 = {
 			add_mil_power = 100
 			add_country_modifier = {
 				name = SMZ_might
-				duration = -1 
+				duration = 10950
 			}
 		}
 	}
@@ -458,7 +458,7 @@ SMZ_missions_5 = {
 			1012 = {
 				add_province_modifier ={
 					name = SMZ_prospering_in_isolation
-					duration = -1 
+					duration = 10950
 				}
 			}
 		}
@@ -491,7 +491,7 @@ SMZ_missions_5 = {
 			1012 = {
 				add_province_modifier = {
 					name = SMZ_the_school
-					duration = -1 
+					duration = 10950
 				}
 			}
 		}
@@ -502,49 +502,25 @@ SMZ_missions_5 = {
 		position = 4
 		required_missions = { SMZ_fund_the_satsunan_school SMZ_acquire_foreign_weaponry }
 		trigger = {
-			if = {
-				limit = {
-					is_expanded_mod_active = { mod = trade_goods }
-				}
-				any_owned_province = {
-					OR = {
-						trade_goods = iron
-						trade_goods = gunpowder
-					}
-					base_production = 5
-					OR = {
-						has_building = workshop
-						has_building = counting_house
-					}
-				}
-			}
-			else = {
-				any_owned_province = {
-					trade_goods = iron
-					base_production = 5
-					OR = {
-						has_building = workshop
-						has_building = counting_house
-					}
+			any_owned_province = {
+				trade_goods = iron
+				base_production = 5
+				OR = {
+					has_building = workshop
+					has_building = counting_house
 				}
 			}
 		}
 		effect = {
 			add_country_modifier = {
 				name = SMZ_glorious_nippon_steel_modifier
-				duration = -1 
+				duration = 5475
 			}
 			custom_tooltip = SMZ_tooltips.3
 			hidden_effect = {
 				every_owned_province = {
 					limit = {
-						OR = {
-							trade_goods = iron
-							AND = {
-								is_expanded_mod_active = { mod = trade_goods }
-								trade_goods = gunpowder
-							}
-						}
+						trade_goods = iron
 						base_production = 5
 						OR = {
 							has_building = workshop
@@ -553,7 +529,7 @@ SMZ_missions_5 = {
 					}
 					add_province_modifier = {
 						name = SMZ_excellent_weaponsmiths
-						duration = -1 
+						duration = -1
 					}
 				}
 			}

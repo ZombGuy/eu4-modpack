@@ -229,7 +229,7 @@ TLC_missions_2 = {
 			
 			add_country_modifier = {
 				name = TLC_dont_get_partitioned
-				duration = -1
+				duration = 9125
 			}
 		}
 	}
@@ -427,7 +427,7 @@ TLC_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = TLC_deposed_the_imam
-				duration = -1
+				duration = 10950
 			}
 			
 			add_dip_power = 50
@@ -461,7 +461,7 @@ TLC_missions_3 = {
 			
 			add_country_modifier = {
 				name = TLC_united_tribes
-				duration = -1
+				duration = 9125
 			}
 		}
 	}
@@ -510,7 +510,7 @@ TLC_missions_3 = {
 			
 			add_country_modifier = {
 				name = TLC_scholars
-				duration = -1
+				duration = 7300
 			}
 		}
 	}
@@ -538,7 +538,7 @@ TLC_missions_3 = {
 			
 			add_country_modifier = {
 				name = TLC_madrasah
-				duration = -1
+				duration = 9125
 			}
 		
 			set_country_flag = TUN_empower_madrasah_event_flag
@@ -591,7 +591,7 @@ TLC_missions_4 = {
 			
 			add_country_modifier = {
 				name = TLC_exploiting_weakness
-				duration = -1
+				duration = 9125
 			}
 		}
 	}
@@ -771,7 +771,7 @@ TLC_missions_5 = {
 		effect = {
 			add_country_modifier = {
 				name = TLC_berber_piracy
-				duration = -1
+				duration = 10950
 			}
 			
 			add_yearly_sailors = 0.5

@@ -50,7 +50,7 @@ country_event = {
 		ai_chance = { factor = 100 }
 		highlight = yes
 		trigger = {
-			ruler_has_personality = belevolent_personality
+			ruler_has_personality = benevolent_personality
 		}
 		522 = {
 			create_or_add_center_of_trade_level = { level = 1 }
@@ -732,12 +732,17 @@ country_event = {
 		custom_tooltip = me_mug_if_completed_before_1550
 		custom_tooltip = me_unlock_imperialism_cb
 		hidden_effect = {
-			set_variable = {
-				which = MEImperialismUsage
-				value = 1
+			if = {
+				limit = {
+					NOT = { is_year = 1550 }
+				}
+				set_variable = {
+					which = MEImperialismUsage
+					value = 1
+				}
+				set_country_flag = me_mug_imperialism
 			}
 		}
-		set_country_flag = me_mug_imperialism
 	}
 }
 
@@ -1112,12 +1117,6 @@ country_event = {
 				has_port = yes
 			}
 			tooltip = {
-				add_unit_construction = {
-					type = heavy_ship
-					amount = 1
-					speed = 0.2
-					cost = 0
-				}
 				add_province_modifier = {
 					name = me_mug_eastern_ports
 					duration = -1
@@ -1135,12 +1134,6 @@ country_event = {
 						area = andhra_area
 					}
 					has_port = yes
-				}
-				add_unit_construction = {
-					type = heavy_ship
-					amount = 1
-					speed = 0.2
-					cost = 0
 				}
 				add_province_modifier = {
 					name = me_mug_eastern_ports
@@ -1270,6 +1263,9 @@ country_event = {
 
 country_event = {
 	id = ME_Mughal_Events.19
+	title = ME_Mughal_Events.19.t
+	desc = ME_Mughal_Events.19.d
+	picture = CULTURE_eventPicture
 	
 	hidden = yes
 	fire_only_once = yes

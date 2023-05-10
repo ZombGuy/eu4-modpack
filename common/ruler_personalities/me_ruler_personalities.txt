@@ -55,6 +55,27 @@ me_enlightened_despote_personality = {
 	nation_designer_cost = 2
 }
 
+maximilian_personality = {
+	
+	allow = {
+		always = no
+	}
+	
+	chance = {
+		
+	}
+	
+	easy_war_chance_multiplier = 2
+	war_chance_multiplier = 2.5
+	gift_chance = -100
+	wants_land = yes
+	
+	army_tradition_decay = -0.01
+	artillery_cost = -0.15
+
+	nation_designer_cost = 50
+}
+
 me_piety_pious_personality = {
 	
 	allow = {
@@ -87,4 +108,78 @@ me_piety_pious_personality = {
 	wants_heretic_land = yes
 
 	nation_designer_cost = 3
+}
+
+patron_of_arts_personality = {
+	
+	ruler_allow = {
+		allow = {
+			always = no 
+		}
+	}
+
+	heir_allow = {
+		allow = {
+			always = no 
+		}
+	}
+	
+	consort_allow = {
+		allow = {
+			always = no 
+		}
+	}
+	
+	innovativeness_gain = 0.5
+	idea_cost = -0.05 
+	nation_designer_cost = 5
+}
+
+fu_absolutist_personality = {
+	
+	ruler_allow = {
+		allow = {
+			always = no 
+		}
+	}
+
+	heir_allow = {
+		allow = {
+			always = no 
+		}
+	}
+	
+	consort_allow = {
+		allow = {
+			always = no 
+		}
+	}
+	
+	administrative_efficiency = 0.05 
+	nation_designer_cost = 10
+}
+
+fu_legendary_statesman_personality = {
+	
+	ruler_allow = {
+		allow = {
+			always = no 
+		}
+	}
+
+	heir_allow = {
+		allow = {
+			always = no 
+		}
+	}
+	
+	consort_allow = {
+		allow = {
+			always = no 
+		}
+	}
+	
+	diplomatic_reputation = 2 
+	stability_cost_to_declare_war = -1
+	nation_designer_cost = 10
 }

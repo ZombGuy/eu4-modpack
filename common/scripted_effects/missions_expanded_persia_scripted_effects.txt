@@ -86,27 +86,8 @@ persia_indian_hegemony_decision_march_effect = {
 				$province$ = {
 					PREV = { change_primary_culture = PREV }
 				}
-				if = {
-					limit = {
-						is_expanded_mod_active = { mod = subjects }
-						ROOT = {
-							can_create_subject_type = {
-								subject = PREV
-								subject_type = persian_satrapy
-							}
-						}
-					}
-					ROOT = {
-						create_subject = {
-							subject = PREV
-							subject_type = persian_satrapy
-						}
-					}
-				}
-				else = {
-					ROOT = {
-						create_march = PREV
-					}
+				ROOT = {
+					create_march = PREV
 				}
 			}
 		}
@@ -116,27 +97,8 @@ persia_indian_hegemony_decision_march_effect = {
 			limit = {
 				owns = $province$
 			}
-			if = {
-				limit = {
-					is_expanded_mod_active = { mod = subjects }
-					ROOT = {
-						can_create_subject_type = {
-							subject = PREV
-							subject_type = persian_satrapy
-						}
-					}
-				}
-				ROOT = {
-					create_subject = {
-						subject = PREV
-						subject_type = persian_satrapy
-					}
-				}
-			}
-			else = {
-				ROOT = {
-					create_march = PREV
-				}
+			ROOT = {
+				create_march = PREV
 			}
 			custom_tooltip = persia_indian_hegemony_decision_march_$province$_tt_cede_provinces_outside_of_tc_region
 			hidden_effect = {

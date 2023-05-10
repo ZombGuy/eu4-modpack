@@ -3,8 +3,11 @@ eng_british_conquest = {
 	slot = 1
 	generic = no
 	ai = yes
-	
+	potential_on_load = {
+		NOT = { has_dlc = "Domination" }
+	}
 	potential = {
+		NOT = { has_dlc = "Domination" }
 		OR = {
 			tag = ENG
 			tag = GBR
@@ -106,7 +109,11 @@ eng_british_conquest_ire = {
 	generic = no
 	ai = yes
 	
+	potential_on_load = {
+		NOT = { has_dlc = "Domination" }
+	}
 	potential = {
+		NOT = { has_dlc = "Domination" }
 		OR = {
 			tag = ENG
 			tag = GBR
@@ -156,25 +163,25 @@ eng_british_conquest_ire = {
 			munster_area = { 
 				add_province_modifier = {
 					name = "eng_irish_revolts"
-					duration = -1 
+					duration = 5475
 				}
 			}
 			connacht_area = { 
 				add_province_modifier = {
 					name = "eng_irish_revolts"
-					duration = -1 
+					duration = 5475
 				}
 			}
 			ulster_area = { 
 				add_province_modifier = {
 					name = "eng_irish_revolts"
-					duration = -1 
+					duration = 5475
 				}
 			}
 			leinster_area = { 
 				add_province_modifier = {
 					name = "eng_irish_revolts"
-					duration = -1 
+					duration = 5475
 				}
 			}
 		}
@@ -190,7 +197,11 @@ eng_british_conquest_scotland = {
 	generic = no
 	ai = yes
 	
+	potential_on_load = {
+		NOT = { has_dlc = "Domination" }
+	}
 	potential = {
+		NOT = { has_dlc = "Domination" }
 		OR = {
 			tag = ENG
 			tag = GBR
@@ -248,7 +259,7 @@ eng_british_conquest_scotland = {
 			add_adm_power = 150
 			add_country_modifier = {
 				name = "eng_culture_mission"
-				duration = -1 
+				duration = 5475
 			}
 			if = {
 				limit = {
@@ -279,7 +290,11 @@ eng_french_conquest = {
 	generic = no
 	ai = yes
 	
+	potential_on_load = {
+		NOT = { has_dlc = "Domination" }
+	}
 	potential = {
+		NOT = { has_dlc = "Domination" }
 		OR = {
 			tag = ENG
 			tag = GBR
@@ -370,6 +385,7 @@ eng_french_conquest = {
 			if = {
 				limit = {
 					exists = FRA
+					NOT = { FRA = { is_subject_of = ROOT } }
 				}
 				FRA = {
 					capital_scope = {
@@ -404,10 +420,17 @@ eng_french_conquest = {
 						}
 					}
 				}
-				else = {
-					183 = {
-						owned_by = ROOT
-					}
+			}
+			else_if = {
+				limit = {
+					exists = FRA
+					FRA = { is_subject_of = ROOT }
+				}
+				FRA = { is_subject_of = ROOT }
+			}
+			else = {
+				183 = {
+					owned_by = ROOT
 				}
 			}
 		}
@@ -486,7 +509,7 @@ eng_french_conquest = {
 			add_prestige = 25
 			add_country_modifier = {
 				name = "eng_french_recovery"
-				duration = -1 
+				duration = 5475
 			}
 		}
 	}
@@ -498,7 +521,11 @@ eng_exploration_americas = {
 	generic = no
 	ai = yes
 	
+	potential_on_load = {
+		NOT = { has_dlc = "Domination" }
+	}
 	potential = {
+		NOT = { has_dlc = "Domination" }
 		OR = {
 			tag = ENG
 			tag = GBR
@@ -529,7 +556,7 @@ eng_exploration_americas = {
 		effect = {
 			add_country_modifier = {
 				name = "the_unknown_frontier"
-				duration = -1 
+				duration = 5475
 			}
 			add_dip_power = 50
 		}
@@ -595,7 +622,7 @@ eng_exploration_americas = {
 		effect = {
 			add_country_modifier = {
 				name = "eng_caribbean_trade"
-				duration = -1 
+				duration = 5475
 			}
 		}
 		ai_weight = {
@@ -609,7 +636,11 @@ eng_chesapeake_dominance = {
 	slot = 2
 	ai = yes
 	
+	potential_on_load = {
+		NOT = { has_dlc = "Domination" }
+	}
 	potential = {
+		NOT = { has_dlc = "Domination" }
 		OR = {
 			tag = ENG
 			tag = GBR
@@ -643,7 +674,7 @@ eng_chesapeake_dominance = {
 		effect = {
 			add_country_modifier = {
 				name = "eng_chesapeake_dominance"
-				duration = -1 
+				duration = 7300
 			}
 			if = {
 				limit = {
@@ -666,7 +697,11 @@ eng_indian_ocean_exploration = {
 	slot = 5
 	ai = yes
 	
+	potential_on_load = {
+		NOT = { has_dlc = "Domination" }
+	}
 	potential = {
+		NOT = { has_dlc = "Domination" }
 		OR = {
 			tag = ENG
 			tag = GBR
@@ -744,7 +779,7 @@ eng_indian_ocean_exploration = {
 		effect = {
 			add_country_modifier = {
 				name = "eng_australian_colony"
-				duration = -1 
+				duration = 5475
 			}
 		}
 		ai_weight = {
@@ -759,7 +794,11 @@ eng_indian_cot_dominance = {
 	slot = 4
 	ai = yes
 	
+	potential_on_load = {
+		NOT = { has_dlc = "Domination" }
+	}
 	potential = {
+		NOT = { has_dlc = "Domination" }
 		OR = {
 			tag = ENG
 			tag = GBR
@@ -807,7 +846,7 @@ eng_indian_cot_dominance = {
 		effect = {
 			add_country_modifier = {
 				name = "east_india_trade_rush"
-				duration = -1 
+				duration = 5475
 			}
 		}
 		ai_weight = {
@@ -822,7 +861,11 @@ eng_british_cot_dominance = {
 	slot = 3
 	ai = yes
 	
+	potential_on_load = {
+		NOT = { has_dlc = "Domination" }
+	}
 	potential = {
+		NOT = { has_dlc = "Domination" }
 		OR = {
 			tag = ENG
 			tag = GBR
@@ -858,7 +901,7 @@ eng_british_cot_dominance = {
 		effect = {
 			add_country_modifier = {
 				name = "eng_channel_dominance"
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}

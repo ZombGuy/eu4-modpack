@@ -243,7 +243,7 @@ ragusa_missions_slot_1 = {
 		effect = {
 			add_country_modifier = {
 				name = rag_doge_demisal
-				duration = -1 
+				duration = 1825
 			}
 		}
 	}
@@ -264,7 +264,7 @@ ragusa_missions_slot_1 = {
 			add_mercantilism = 2
 			add_country_modifier = {
 				name = italian_minor_venetian_secret
-				duration = -1 
+				duration = 5475
 			}
 		}
 	}
@@ -393,7 +393,7 @@ ragusa_missions_slot_1 = {
 				add_base_production = 1
 				add_permanent_province_modifier = {
 					name = rag_ragusan_commerce
-					duration = -1 
+					duration = -1
 				}
 			}
 			hidden_effect = {
@@ -407,7 +407,7 @@ ragusa_missions_slot_1 = {
 					add_base_production = 1
 					add_permanent_province_modifier = {
 						name = rag_ragusan_commerce
-						duration = -1 
+						duration = -1
 					}
 				}
 			}
@@ -451,7 +451,7 @@ ragusa_missions_slot_1 = {
 			add_years_of_income = 2
 			add_country_modifier = {
 				name = rag_ragusan_mastery
-				duration = -1 
+				duration = 3650
 			}
 		}
 	}
@@ -533,7 +533,7 @@ ragusa_missions_slot_2 = {
 			1766 = {
 				add_province_modifier = {
 					name = rag_renewed_mine
-					duration = -1 
+					duration = -1
 				}
 				add_devastation = -25
 				if = {
@@ -574,7 +574,7 @@ ragusa_missions_slot_2 = {
 		effect = {
 			add_country_modifier = {
 				name = rag_new_strength
-				duration = -1 
+				duration = 5475
 			}
 		}
 	}
@@ -609,7 +609,7 @@ ragusa_missions_slot_2 = {
 				create_or_add_center_of_trade_level = { level = 1 }
 				add_permanent_province_modifier = {
 					name = nap_lighthouse_otranto
-					duration = -1 
+					duration = -1
 				}
 			}
 			naples_area = {
@@ -677,7 +677,7 @@ ragusa_missions_slot_2 = {
 		effect = {
 			add_country_modifier = {
 				name = rag_end_republic
-				duration = -1 
+				duration = 3650
 			}
 		}
 	}
@@ -711,7 +711,7 @@ ragusa_missions_slot_2 = {
 		effect = {
 			add_country_modifier = {
 				name = rag_four_maritime_republic
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -879,7 +879,7 @@ ragusa_missions_slot_3 = {
 				}
 				add_permanent_province_modifier = {
 					name = rag_basilica_san_biagio
-					duration = -1 
+					duration = -1
 				}
 			}
 		}
@@ -941,7 +941,7 @@ ragusa_missions_slot_3 = {
 		effect = {
 			add_country_modifier = {
 				name = italian_minor_naval_propaganda
-				duration = -1 
+				duration = 5475
 			}
 			macedonia_area = {
 				limit = {
@@ -976,7 +976,7 @@ ragusa_missions_slot_3 = {
 				add_base_production = 3
 				add_permanent_province_modifier = {
 					name = nap_restore_republic
-					duration = -1 
+					duration = -1
 				}
 				if = {
 					limit = {
@@ -1031,7 +1031,7 @@ ragusa_missions_slot_3 = {
 		effect = {
 			add_country_modifier = {
 				name = rag_tuscan_renaissance
-				duration = -1 
+				duration = 5475
 			}
 		}
 	}
@@ -1055,7 +1055,7 @@ ragusa_missions_slot_3 = {
 			add_mercantilism = 3
 			add_country_modifier = {
 				name = italian_minor_genoese_school
-				duration = -1 
+				duration = 5475
 			}
 		}
 	}
@@ -1082,7 +1082,7 @@ ragusa_missions_slot_3 = {
 			tooltip = {
 				add_province_modifier = {
 					name = rag_latin_slavic_union
-					duration = -1 
+					duration = -1
 				}
 			}
 			hidden_effect = {
@@ -1095,7 +1095,7 @@ ragusa_missions_slot_3 = {
 					}
 					add_province_modifier = {
 						name = rag_latin_slavic_union
-						duration = -1 
+						duration = -1
 					}
 				}
 			}
@@ -1138,7 +1138,7 @@ ragusa_missions_slot_4 = {
 			capital_scope = {
 				add_province_modifier = {
 					name = rag_balkan_crossway
-					duration = -1 
+					duration = 5475
 				}
 			}
 		}
@@ -1183,7 +1183,7 @@ ragusa_missions_slot_4 = {
 			137 = {
 				add_permanent_province_modifier = {
 					name = rag_walls_ragusa
-					duration = -1 
+					duration = -1
 				}
 			}
 		}
@@ -1392,7 +1392,7 @@ ragusa_missions_slot_4 = {
 		effect = {
 			add_country_modifier = {
 				name = rag_fondachi_ragusei
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -1452,7 +1452,7 @@ ragusa_missions_slot_5 = {
 		effect = {
 			add_country_modifier = {
 				name = ragusa_latin_slav_bridge
-				duration = -1 
+				duration = 9125
 			}
 		}
 	}
@@ -1520,7 +1520,7 @@ ragusa_missions_slot_5 = {
 			capital_scope = {
 				add_permanent_province_modifier = {
 					name = nap_controller_spice_trade
-					duration = -1 
+					duration = -1
 				}
 			}
 			321 = {
@@ -1587,7 +1587,7 @@ ragusa_missions_slot_5 = {
 			504 = {
 				add_trade_modifier = {
 					who = ROOT
-					duration = -1 
+					duration = 9125
 					power = 15
 					key = ven_discovered_trade_route
 				}
@@ -1595,7 +1595,7 @@ ragusa_missions_slot_5 = {
 			1340 = {
 				add_trade_modifier = {
 					who = ROOT
-					duration = -1 
+					duration = 9125
 					power = 15
 					key = ven_discovered_trade_route
 				}
@@ -1615,7 +1615,7 @@ ragusa_missions_slot_5 = {
 			1334 = {
 				add_trade_modifier = {
 					who = ROOT
-					duration = -1 
+					duration = 9125
 					power = 15
 					key = ven_discovered_trade_route
 				}
@@ -1701,7 +1701,7 @@ ragusa_missions_slot_5 = {
 			country_event = { id = ME_Maritime_Republics_Events.8 }
 			add_country_modifier = {
 				name = ven_spice_dominion
-				duration = -1 
+				duration = -1
 			}
 			2030 = {
 				if = {
@@ -1710,13 +1710,13 @@ ragusa_missions_slot_5 = {
 					}
 					add_permanent_province_modifier = {
 						name = ven_venesia_india_rp
-						duration = -1 
+						duration = -1
 					}
 				}
 				else = {
 					add_permanent_province_modifier = {
 						name = ven_venesia_india
-						duration = -1 
+						duration = -1
 					}
 				}
 			}

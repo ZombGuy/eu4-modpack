@@ -55,7 +55,7 @@ NOR_mission_group_1 = {
 		effect = {
 			add_country_modifier = {
 				name = "norges_arme"
-				duration = -1 
+				duration = 7300
 			}
 			add_mil_power = 50
 		}
@@ -82,7 +82,7 @@ NOR_mission_group_1 = {
 			17 = {
 				add_province_modifier = {
 					name = akershus_festning
-					duration = -1 
+					duration = -1
 				}
 			}
 			add_mil_power = 50
@@ -132,7 +132,7 @@ NOR_mission_group_1 = {
 				add_base_production  = 3
 				add_province_modifier = {
 					name = "glomma_lensing"
-					duration = -1 
+					duration = -1
 				}
 			}
 		}
@@ -584,7 +584,7 @@ NOR_mission_group_3 = {
 			17 = {				# Lubeck
 				add_trade_modifier = {
 					who = ROOT
-					duration = -1 
+					duration = 7300
 					power = 50
 					key = norway_danish_sea_ambition
 				}
@@ -592,7 +592,7 @@ NOR_mission_group_3 = {
 			43 = {				# Baltic Sea
 				add_trade_modifier = {
 					who = ROOT
-					duration = -1 
+					duration = 7300
 					power = 50
 					key = norway_baltic_sea_ambition
 				}
@@ -627,7 +627,7 @@ NOR_mission_group_3 = {
 			}
 			add_country_modifier = {
 				name = "norwegian_north_sea_empire_modifier"
-				duration = -1 
+				duration = -1
 			}
 			add_prestige = 25
 			add_legitimacy_equivalent = { amount = 25 republican_tradition = 25 }
@@ -660,7 +660,6 @@ NOR_mission_group_4 = {
 				area = eastern_norway
 				area = western_norway
 				area = subarctic_islands_area
-				area = iceland_area
 				province_id = 16
 				province_id = 315
 			}
@@ -683,10 +682,6 @@ NOR_mission_group_4 = {
 				country_or_non_sovereign_subject_holds = ROOT
 			}
 			subarctic_islands_area = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT
-			}
-			iceland_area = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
 			}
@@ -1025,7 +1020,7 @@ NOR_mission_group_4 = {
 			236 = {				# English Channel
 				add_trade_modifier = {
 					who = ROOT
-					duration = -1 
+					duration = 7300
 					power = 50
 					key = norway_english_channel_ambition
 				}
@@ -1068,7 +1063,7 @@ NOR_mission_group_5 = {
 		effect = {
 			add_country_modifier = {
 				name = "greenland_settled"
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -1096,7 +1091,7 @@ NOR_mission_group_5 = {
 			994 = {				# Gulf of St. Lawrence
 				add_trade_modifier = {
 					who = ROOT
-					duration = -1 
+					duration = 5475
 					power = 50
 					key = vinland_colony_ambition
 				}
@@ -1128,7 +1123,7 @@ NOR_mission_group_5 = {
 			484 = {				# Carribean
 				add_trade_modifier = {
 					who = ROOT
-					duration = -1 
+					duration = 5475
 					power = 20
 					key = norway_carribean_ambition
 				}
@@ -1136,7 +1131,7 @@ NOR_mission_group_5 = {
 			950 = {				# Chesapeake Bay
 				add_trade_modifier = {
 					who = ROOT
-					duration = -1 
+					duration = 5475
 					power = 20
 					key = norway_chesapeake_bay_ambition
 				}
@@ -1223,7 +1218,7 @@ NOR_mission_group_5 = {
 			183 = {				# Champagne
 				add_trade_modifier = {
 					who = ROOT
-					duration = -1 
+					duration = 7300
 					power = 20
 					key = norwegian_normandy_modifier
 				}
@@ -1256,7 +1251,7 @@ NOR_mission_group_5 = {
 			172 = {				# Bordeaux
 				add_trade_modifier = {
 					who = ROOT
-					duration = -1 
+					duration = 7300
 					power = 20
 					key = norway_bordeaux_ambition
 				}
@@ -1264,7 +1259,7 @@ NOR_mission_group_5 = {
 			183 = {				# Champagne
 				add_trade_modifier = {
 					who = ROOT
-					duration = -1 
+					duration = 7300
 					power = 20
 					key = norway_bordeaux_ambition
 				}

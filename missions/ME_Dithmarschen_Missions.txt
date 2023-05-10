@@ -45,13 +45,13 @@
 			# holstein_area = {
 				# add_province_modifier = {
 					# name = dtt_support_from_local_peasants
-					# duration = -1 
+					# duration = 9125
 				# }
 			# }
 			# jutland_area = {
 				# add_province_modifier = {
 					# name = dtt_support_from_local_peasants
-					# duration = -1 
+					# duration = 9125
 				# }
 			# }
 		# }
@@ -88,7 +88,7 @@
 			# 4141 = {
 				# add_province_modifier = {
 					# name = "dtt_dikess"
-					# duration = -1 
+					# duration = -1
 				# }
 			# }
 		# }
@@ -114,7 +114,7 @@
 			# 4141 = {
 				# add_province_modifier = {
 					# name = "dtt_earthworkss"
-					# duration = -1 
+					# duration = -1
 				# }
 			# }
 		# }
@@ -151,7 +151,7 @@
 		# effect = {
 			# add_country_modifier = {
 				# name = dtt_peasant_self_rule
-				# duration = -1 
+				# duration = 18250
 			# }
 		# }
 	# }

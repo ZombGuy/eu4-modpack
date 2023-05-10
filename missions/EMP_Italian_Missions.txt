@@ -42,7 +42,7 @@ emp_ita_development_branch = {
 		effect = {
 			add_country_modifier = {
 				name = ita_italian_prosperity
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -93,7 +93,7 @@ emp_ita_development_branch = {
 					}
 					add_province_modifier = {
 						name = ita_southern_focus
-						duration = -1 
+						duration = 7300
 					}
 				}
 			}
@@ -113,7 +113,7 @@ emp_ita_development_branch = {
 		effect = {
 			add_country_modifier = {
 				name = ita_continued_renaissance
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -287,7 +287,7 @@ emp_ita_gallia_branch = {
 		effect = {
 			add_country_modifier = {
 				name = ita_further_than_caesar
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -631,7 +631,7 @@ emp_ita_war_branch = {
 		effect = {
 			add_country_modifier = {
 				name = ita_experienced_alpini
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -843,7 +843,7 @@ emp_ita_unification_branch = {
 		effect = {
 			add_country_modifier = {
 				name = ita_from_po_to_toe
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -874,7 +874,7 @@ emp_ita_unification_branch = {
 		effect = {
 			add_country_modifier = {
 				name = ita_the_roman_answer
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -1079,7 +1079,7 @@ emp_ita_unification_branch = {
 		effect = {
 			add_country_modifier = {
 				name = ita_eastern_romans
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -1164,7 +1164,7 @@ emp_ita_overseas_branch = {
 		effect = {
 			add_country_modifier = {
 				name = ita_scipios_helmet
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -1292,7 +1292,7 @@ emp_ita_overseas_branch = {
 			358 = {
 				add_trade_modifier = {
 					who = root
-					duration = -1 
+					duration = 7300
 					power = 50
 					key = alexandria_ambition
 				}

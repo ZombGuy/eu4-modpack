@@ -48,13 +48,13 @@
 				# add_mercantilism = 2
 				# add_country_modifier = {
 					# name = "africa_slave_trade_mission"
-					# duration = -1 
+					# duration = 7300
 				# }
 			# }
 			# else = {
 				# add_country_modifier = {
 					# name = "african_abolitionists"
-					# duration = -1 
+					# duration = 7300
 				# }
 			# }
 		# }
@@ -99,7 +99,7 @@
 		# effect = {
 			# add_country_modifier = {
 				# name = "wealth_of_africa_modifier"
-				# duration = -1 
+				# duration = 7300
 			# }
 		# }
 	# }

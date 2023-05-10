@@ -50,7 +50,7 @@ country_event = {
 		hidden_effect = {
 			every_owned_province = {
 				limit = {
-					culture = kazakh
+					culture = khazak
 				}
 				owner = {
 					add_yearly_manpower = 0.1
@@ -846,9 +846,14 @@ country_event = { #Fall of Delhi
 	option = {
 		name = ME_Timurid_Main_Events.19.a
 		
-		custom_tooltip = me_tim_affects_hindustan_mission
-		set_country_flag = me_tim_harsh_hindustan
-		custom_tooltip = " "
+		if = {
+			limit = {
+				NOT = { has_country_flag = me_tim_horde_path }
+			}
+			custom_tooltip = me_tim_affects_hindustan_mission
+			set_country_flag = me_tim_harsh_hindustan
+			custom_tooltip = " "
+		}
 		522 = {
 			add_devastation = 75
 		}
@@ -870,8 +875,13 @@ country_event = { #Fall of Delhi
 	option = {
 		name = ME_Timurid_Main_Events.19.b
 		
-		custom_tooltip = me_tim_affects_hindustan_mission
-		custom_tooltip = " "
+		if = {
+			limit = {
+				NOT = { has_country_flag = me_tim_horde_path }
+			}
+			custom_tooltip = me_tim_affects_hindustan_mission
+			custom_tooltip = " "
+		}
 		custom_tooltip = me_tim_unlocks_red_fort
 		set_country_flag = per_delhi_requirement_flag
 		custom_tooltip = " "
@@ -1243,8 +1253,9 @@ country_event = { #Converting Cloth to Silk
 
 		custom_tooltip = me_tim_every_silk_province_gains_a_manufactory
 		hidden_effect = {
-			every_owned_province = {
+			every_province = {
 				limit = {
+				country_or_non_sovereign_subject_holds = ROOT
 					OR = {
 						region = khorasan_region
 						region = persia_region
@@ -1269,8 +1280,9 @@ country_event = { #Converting Cloth to Silk
 		
 		custom_tooltip = me_tim_every_wool_province_in_persia_becomes_silk
 		hidden_effect = {
-			every_owned_province = {
+			every_province = {
 				limit = {
+					country_or_non_sovereign_subject_holds = ROOT
 					OR = {
 						region = khorasan_region
 						region = persia_region
@@ -1653,17 +1665,17 @@ country_event = { #Scourge of Arabia
 		custom_tooltip = me_tim_distribute_development_in_arab_land
 		hidden_effect = {
 			ME_distribute_development = {
-				type = adm
+				type = tax
 				amount = 5
 				limit = "region = arabia_region"
 			}
 			ME_distribute_development = {
-				type = dip
+				type = production
 				amount = 5
 				limit = "region = arabia_region"
 			}
 			ME_distribute_development = {
-				type = mil
+				type = manpower
 				amount = 5
 				limit = "region = arabia_region"
 			}
@@ -1721,19 +1733,16 @@ country_event = { #Bringing Destruction
 		custom_tooltip = " "
 		add_country_modifier = {
 			name = me_tim_raising_new_hosts
-			duration = 10950
+			duration = -1
 		}
 	}
 
 	option = { #The end times are here
 		name = ME_Timurid_Main_Events.42.b
 		
-		custom_tooltip = me_tim_sow_now_does_not_decay
-		set_country_flag = me_tim_no_sow_decay
-		custom_tooltip = " "
 		add_country_modifier = {
 			name = me_tim_bringing_the_end
-			duration = 9125
+			duration = -1
 		}
 	}
 }

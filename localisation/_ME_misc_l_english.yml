@@ -8,6 +8,10 @@ l_english:
 
  ME_playtester_feedback_requested: "§MPlaytester Note§! What is a good value for above? ^ "
  
+ 
+ CHANNEL_music_zzz_EE_music: "Europa Expanded Music"
+ thevoyage: "The Voyage - EUIV Main Theme"
+ 
  ME_historian: "Historian"
  
  # loc for decision to update missions

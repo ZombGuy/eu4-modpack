@@ -245,6 +245,7 @@ timurids_establish_field_marshal = {
 
 	is_visible = {
 		FROM = { has_reform = timurid_governor_upgraded }
+		mission_completed = TIM_field_marshal
 	}
 
 	is_allowed = {
@@ -277,6 +278,7 @@ timurids_revoke_field_marshal = {
 
 	is_visible = {
 		FROM = { has_country_modifier = me_tim_field_marshal }
+		mission_completed = TIM_field_marshal
 	}
 
 	is_allowed = {

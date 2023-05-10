@@ -140,7 +140,7 @@ TIM_improved_ideas = {
 		caravan_power = 0.2
 	}
 	TIM_governors = {
-		liberty_desire = -15
+		reduced_liberty_desire = 15
 	}
 	TIM_war_elephants = {
 		cavalry_power = 0.15

@@ -33,7 +33,7 @@ Ducal_PRU_missions_1 = {
 			41 = {
 				add_trade_modifier = {
 					who = ROOT
-					duration = -1 
+					duration = 9125
 					power = 20
 					key = Ducal_PRU_loyal_burghers
 				}
@@ -43,7 +43,7 @@ Ducal_PRU_missions_1 = {
 				41 = {
 					add_trade_modifier = {
 						who = PREV
-						duration = -1 
+						duration = 9125
 						power = 15
 						key = Ducal_PRU_loyal_burghers
 					}
@@ -79,7 +79,7 @@ Ducal_PRU_missions_1 = {
 			41 = {
 				add_province_modifier = {
 					name = Ducal_PRU_krolewiec_fort
-					duration = -1 
+					duration = -1
 				}
 			}
 			
@@ -113,14 +113,14 @@ Ducal_PRU_missions_1 = {
 				add_or_upgrade_university_building = yes
 				add_province_modifier = {
 					name = PRU_universita_albertina
-					duration = -1 
+					duration = -1
 				}
 			}
 			
 			overlord = {
 				add_country_modifier = {
 					name = Ducal_PRU_influx_of_thought
-					duration = -1 
+					duration = 10950
 				}
 			}
 		}
@@ -160,7 +160,7 @@ Ducal_PRU_missions_2 = {
 			}
 			add_country_modifier = {
 				name = Ducal_PRU_influx_of_thought
-				duration = -1 
+				duration = 10950
 			}
 			
 			overlord = {

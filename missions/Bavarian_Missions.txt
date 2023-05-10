@@ -109,7 +109,7 @@ bavarian_missions_main = {
 			
 			add_country_modifier = {
 				name = bav_rising_power
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -237,7 +237,7 @@ bavarian_missions_main = {
 			add_prestige = 20
 			add_country_modifier = {
 				name = "bavarian_ambition"
-				duration = -1 
+				duration = 7300
 			}
 			lower_swabia_area = {
 				limit = {
@@ -345,7 +345,7 @@ bavarian_missions_palatinate = {
 				limit = { owned_by = ROOT }
 				add_province_modifier = {
 					name = faster_integration
-					duration = -1 
+					duration = 7300
 				}
 			}
 		}

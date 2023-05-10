@@ -257,13 +257,11 @@ FRX_ideas = {
 HNS_ideas_COC = {
 	start = {
 		merchants = 2
-		republican_tradition = 1.0
+		republican_tradition = 0.5
 	}
 
 	bonus = {
 		colonists = 1
-		range = 0.5
-		colonist_placement_chance = 0.1
 	}
 
 	trigger = {
@@ -281,20 +279,18 @@ HNS_ideas_COC = {
 		trade_efficiency = 0.05
 	}
 	HNS3_COC = {
-		diplomatic_reputation = 2
-		transfer_trade_power_reasons = 10
+		diplomatic_reputation = 1
 	}
 	HNS4_COC = {
 		yearly_army_professionalism = 0.005
-		trade_efficiency = 0.1
+		trade_efficiency = 0.05
 	}
 	HNS5_COC = {
 		own_coast_naval_combat_bonus = 1
-		ship_power_propagation = 0.15
 	}
 	HNS6_COC = {
 		trade_steering = 0.15
-		trade_efficiency = 0.1
+		trade_efficiency = 0.05
 	}
 	HNS7_COC = {
 		global_trade_power = 0.1

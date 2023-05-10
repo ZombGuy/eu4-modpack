@@ -25,7 +25,7 @@ alb_1 = {
 		effect = {
 			add_country_modifier = {
 				name = "skanderbeg_rebellion"
-				duration = -1 
+				duration = 7300
 			}
 		}
 		ai_weight = {
@@ -50,7 +50,7 @@ alb_1 = {
 		effect = {
 			add_country_modifier = {
 				name = "albanian_diplomacy"
-				duration = -1 
+				duration = 7300
 			}
 			if = {
 				limit = {
@@ -202,7 +202,7 @@ alb_1 = {
 		effect = {
 			add_country_modifier = {
 				name = "alb_inspire_resistance"
-				duration = -1 
+				duration = -1
 			}
 			custom_tooltip = albanian_inspiration_tt
 			hidden_effect = {
@@ -275,7 +275,7 @@ alb_1 = {
 			change_mil = 1
 			add_country_modifier = {
 				name = "legacy_of_skanderbeg"
-				duration = -1 
+				duration = -1
 			}
 		}
 		ai_weight = {

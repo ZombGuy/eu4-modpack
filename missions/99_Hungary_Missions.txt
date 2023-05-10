@@ -216,13 +216,13 @@ hun_north_group = {
 			serbia_area = {
 				add_province_modifier = {
 					name = "hun_moldavia_mod"
-					duration = -1 
+					duration = 10950
 				}
 			}
 			rascia_area = {
 				add_province_modifier = {
 					name = "hun_moldavia_mod"
-					duration = -1 
+					duration = 10950
 				}
 			}
 			croatia_area = {
@@ -286,7 +286,7 @@ hun_south_group = {
 			moldavia_area = {
 				add_province_modifier = {
 					name = "hun_moldavia_mod"
-					duration = -1 
+					duration = 10950
 				}
 			}
 
@@ -359,19 +359,19 @@ hun_south_group = {
 			bosnia_area = {
 				add_province_modifier = {
 					name = "hun_moldavia_mod"
-					duration = -1 
+					duration = 10950
 				}
 			}
 			croatia_area = {
 				add_province_modifier = {
 					name = "hun_moldavia_mod"
-					duration = -1 
+					duration = 10950
 				}
 			}
 			east_adriatic_coast_area = {
 				add_province_modifier = {
 					name = "hun_moldavia_mod"
-					duration = -1 
+					duration = 10950
 				}
 			}
 			if = {
@@ -529,7 +529,7 @@ hun_ottoman_group = {
 
 	hun_ottoman_borders_two = {
 		icon = mission_conquer_5_states
-		required_missions = { hun_ottoman_borders }
+		required_missions = { hun_ottoman_borders_three }
 		position = 6
 		
 		provinces_to_highlight = {
@@ -564,8 +564,7 @@ hun_ottoman_group = {
 	hun_ottoman_borders_four = {
 		icon = mission_ottoman_harem
 		required_missions = { 
-		hun_ottoman_borders_two 
-		hun_ottoman_borders_three
+			hun_ottoman_borders_two 
 		}
 		position = 7
 		
@@ -587,7 +586,7 @@ hun_ottoman_group = {
 			add_prestige = 30
 			add_country_modifier = {
 				name = "hun_constantinople"
-				duration = -1 
+				duration = 7300
 			}
 			northern_greece_area = {
 				limit = {

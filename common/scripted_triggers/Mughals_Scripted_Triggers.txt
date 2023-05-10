@@ -58,4 +58,5 @@ me_mug_own_all_indian_monuments = {
 	}
 	any_owned_province = {
 		me_has_great_project = { great_project = chola_temples }
+	}
 }

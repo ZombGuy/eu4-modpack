@@ -94,7 +94,7 @@ me_bavaria_minor_missions_1 = {
 					}
 					add_province_modifier = {
 						name = bavaria_minor_expand_the_capital_province_modifier
-						duration = -1 
+						duration = -1
 					}
 					hidden_effect = {
 						if = {
@@ -174,7 +174,7 @@ me_bavaria_minor_missions_1 = {
 					}
 					add_province_modifier = {
 						name = bavaria_minor_expand_the_capital_province_modifier
-						duration = -1 
+						duration = -1
 					}
 					hidden_effect = {
 						if = {
@@ -330,7 +330,7 @@ me_bavaria_minor_missions_2 = {
 				event_target:bav_former_capital = {
 					add_province_modifier = {
 						name = bavaria_a_thriving_city_province_modifier
-						duration = -1 
+						duration = -1
 					}
 				}
 			}
@@ -338,7 +338,7 @@ me_bavaria_minor_missions_2 = {
 				capital_scope = {
 					add_province_modifier = {
 						name = bavaria_a_thriving_city_province_modifier
-						duration = -1 
+						duration = -1
 					}
 				}
 			}
@@ -403,7 +403,7 @@ me_bavaria_minor_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = bavaria_minor_the_bavarian_economy_modifier
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -449,7 +449,7 @@ me_bavaria_minor_missions_3 = {
 			home_trade_node_effect_scope = {
 				add_trade_modifier = {
 					who = ROOT
-					duration = -1 
+					duration = -1
 					power = 20
 					key = bavaria_minor_growing_trade_connections_trade_modifier
 				}
@@ -507,7 +507,7 @@ me_bavaria_minor_missions_4_1 = {
 		effect = {
 			add_country_modifier = {
 				name = bavaria_minor_a_bavarian_army_modifier
-				duration = -1 
+				duration = 9125
 				desc = BAVARIA_MINOR_A_BAVARIAN_ARMY_MODIFIER_TT
 			}
 			if = {
@@ -575,7 +575,7 @@ me_bavaria_minor_missions_4_2 = {
 		effect = {
 			add_country_modifier = {
 				name = bavaria_minor_bavarian_churches_modifier
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -665,7 +665,7 @@ me_bavaria_minor_missions_5 = {
 			}
 			add_country_modifier = {
 				name = bavaria_minor_a_pious_people_modifier
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -718,7 +718,7 @@ me_bavaria_missions_1 = {
 				tooltip = {
 					add_permanent_province_modifier = {
 						name = bavaria_university_of_ingolstadt_tooltip_modifier
-						duration = -1 
+						duration = -1
 						desc = BAVARIA_UNIVERSITY_OF_INGOLSTADT_TOOLTIP_MODIFIER_TT
 					}
 				}
@@ -741,7 +741,7 @@ me_bavaria_missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = bavaria_bayerische_kuenste_modifier
-				duration = -1 
+				duration = -1
 			}
 			define_advisor = {
 				name = "Christoph Schwartz"
@@ -853,13 +853,13 @@ me_bavaria_missions_1 = {
 				}
 				add_country_modifier = {
 					name = bavaria_bayerische_schloesser_modifier
-					duration = -1 
+					duration = -1
 				}
 			}
 			else = {
 				add_country_modifier = {
 					name = bavaria_bayerische_schloesser_modifier_no_dlc
-					duration = -1 
+					duration = -1
 				}
 			}
 		}
@@ -873,30 +873,10 @@ me_bavaria_missions_1 = {
 			province_id = 65
 			OR = {
 				NOT = { owned_by = ROOT }
-				AND = {
-					NOT = { me_bav_is_beer_enabled = yes }
-					OR = {
-						NOT = { development = 35 }
-						NOT = { base_production = 15 }
-					}
-				}
 			}
 		}
 		trigger = {
 			owns = 65
-			if = {
-				limit = {
-					me_bav_is_beer_enabled = yes
-				}
-				production_leader = {
-					trade_goods = beer
-				}
-				trading_bonus = {
-					trade_goods = beer
-					value = yes
-				}
-			}
-			else = {
 				OR = {
 					production_leader = {
 						trade_goods = grain
@@ -919,28 +899,14 @@ me_bavaria_missions_1 = {
 					development = 35
 					base_production = 15
 				}
-			}
+			
 		}
 		effect = {
 			if = {
 				limit = {
 					has_global_flag = me_bav_the_oktoberfest
 				}
-				if = {
-					limit = {
-						me_bav_is_beer_enabled = yes
-					}
-					add_years_of_owned_provinces_production_income = {
-						years = 7
-						trigger = {
-							trade_goods = beer
-						}
-						custom_tooltip = BAV_INCOME_FROM_BEER_TT
-					}
-				}
-				else = {
-					add_years_of_income = 0.7
-				}
+				add_years_of_income = 0.7
 			}
 			else = {
 				country_event = { id = ME_Bavaria_Events.2 }
@@ -965,7 +931,7 @@ me_bavaria_missions_1 = {
 		effect = {
 			add_country_modifier = {
 				name = bavaria_a_bavarian_navy_modifier
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -1009,7 +975,7 @@ me_bavaria_missions_2 = {
 					}
 					add_province_modifier = {
 						name = bavaria_a_thriving_city_province_modifier
-						duration = -1 
+						duration = -1
 					}
 				}
 				create_or_add_center_of_trade_level = { level = 1 }
@@ -1070,7 +1036,7 @@ me_bavaria_missions_2 = {
 			}
 			add_country_modifier = {
 				name = bavaria_the_kingdom_of_bavaria_modifier_2
-				duration = -1 
+				duration = 5475
 			}
 			if = {
 				limit = {
@@ -1078,13 +1044,13 @@ me_bavaria_missions_2 = {
 				}
 				add_country_modifier = {
 					name = bavaria_the_kingdom_of_bavaria_modifier
-					duration = -1 
+					duration = -1
 				}
 			}
 			else = {
 				add_country_modifier = {
 					name = bavaria_the_kingdom_of_bavaria_modifier_no_dlc
-					duration = -1 
+					duration = -1
 				}
 			}
 		}
@@ -1123,13 +1089,13 @@ me_bavaria_missions_2 = {
 				}
 				add_country_modifier = {
 					name = bavaria_a_bavarian_emperor_modifier_1
-					duration = -1 
+					duration = -1
 				}
 			}
 			else = {
 				add_country_modifier = {
 					name = bavaria_a_bavarian_emperor_modifier_2
-					duration = -1 
+					duration = -1
 				}
 			}
 		}
@@ -1148,7 +1114,7 @@ me_bavaria_missions_2 = {
 		effect = {
 			add_country_modifier = {
 				name = bavaria_bayerischer_absolutismus_modifier
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -1197,7 +1163,7 @@ me_bavaria_missions_2 = {
 		effect = {
 			add_country_modifier = {
 				name = bavaria_the_bavarian_lands_modifier
-				duration = -1 
+				duration = -1
 			}
 			tirol_area = {
 				limit = {
@@ -1240,7 +1206,7 @@ me_bavaria_missions_2 = {
 		effect = {
 			add_country_modifier = {
 				name = bavaria_reclaim_styria_modifier
-				duration = -1 
+				duration = 9125
 			}
 			inner_austria_area = {
 				add_base_tax = 1
@@ -1321,13 +1287,13 @@ me_bavaria_missions_2 = {
 				}
 				add_country_modifier = {
 					name = bavaria_bavarian_diplomacy_modifier
-					duration = -1 
+					duration = -1
 				}
 			}
 			else = {
 				add_country_modifier = {
 					name = bavaria_bavarian_diplomacy_modifier_no_dlc
-					duration = -1 
+					duration = -1
 				}
 			}
 		}
@@ -1351,31 +1317,6 @@ me_bavaria_missions_3 = {
 		provinces_to_highlight = {
 			OR = {
 				AND = {
-					me_bav_is_beer_enabled = yes
-					trade_goods = beer
-					OR = {
-						AND = {
-							owned_by = ROOT
-							OR = {
-								NOT = { development = 10 }
-								NOT = { num_of_times_improved_by_owner = 3 }
-							}
-						}
-						AND = {
-							NOT = { owned_by = ROOT }
-							ROOT = {
-								NOT = {
-									num_of_owned_provinces_with = {
-										value = 3
-										trade_goods = beer
-									}
-								}
-							}
-						}
-					}
-				}
-				AND = {
-					NOT = { me_bav_is_beer_enabled = yes }
 					OR = {
 						trade_goods = wine
 						trade_goods = grain
@@ -1407,18 +1348,6 @@ me_bavaria_missions_3 = {
 			}
 		}
 		trigger = {
-			if = {
-				limit = {
-					me_bav_is_beer_enabled = yes
-				}
-				num_of_owned_provinces_with = {
-					value = 3
-					trade_goods = beer
-					development = 10
-					num_of_times_improved_by_owner = 3
-				}
-			}
-			else = {
 				num_of_owned_provinces_with = {
 					value = 3
 					OR = {
@@ -1428,103 +1357,76 @@ me_bavaria_missions_3 = {
 					development = 10
 					num_of_times_improved_by_owner = 3
 				}
-			}
+			
 		}
 		effect = {
-			if = {
-				limit = {
-					has_global_flag = me_bav_muenchner_reinheitsgebot
-				}
-				if = {
+			custom_tooltip = BAVARIA_MUENCHNER_REINHEITSGEBOT_TT
+			hidden_effect = {
+				random_owned_province = {
 					limit = {
-						me_bav_is_beer_enabled = yes
-					}
-					every_owned_province = {
-						limit = {
-							trade_goods = beer
+						OR = {
+							trade_goods = wine
+							trade_goods = grain
 						}
-						add_province_modifier = {
-							name = bavaria_muenchner_reinheitsgebot_province_modifier
-							duration = -1 
-						}
+						development = 10
+						num_of_times_improved_by_owner = 3
+						NOT = { has_province_flag = bavaria_muenchner_reinheitsgebot_flag }
 					}
-					if = {
-						limit = {
-							any_owned_province = {
-								NOT = { trade_goods = beer }
-							}
-						}
-						country_event = { id = ME_Bavaria_Events.4 }
-					}
+					set_province_flag = bavaria_muenchner_reinheitsgebot_flag
+					add_base_production = 1
 				}
-				else = {
-					custom_tooltip = BAVARIA_MUENCHNER_REINHEITSGEBOT_TT
-					hidden_effect = {
-						random_owned_province = {
-							limit = {
-								OR = {
-									trade_goods = wine
-									trade_goods = grain
-								}
-								development = 10
-								num_of_times_improved_by_owner = 3
-								NOT = { has_province_flag = bavaria_muenchner_reinheitsgebot_flag }
-							}
-							set_province_flag = bavaria_muenchner_reinheitsgebot_flag
-							add_base_production = 1
+				random_owned_province = {
+					limit = {
+						OR = {
+							trade_goods = wine
+							trade_goods = grain
 						}
-						random_owned_province = {
-							limit = {
-								OR = {
-									trade_goods = wine
-									trade_goods = grain
-								}
-								development = 10
-								num_of_times_improved_by_owner = 3
-								NOT = { has_province_flag = bavaria_muenchner_reinheitsgebot_flag }
-							}
-							set_province_flag = bavaria_muenchner_reinheitsgebot_flag
-							add_base_production = 1
-						}
-						random_owned_province = {
-							limit = {
-								OR = {
-									trade_goods = wine
-									trade_goods = grain
-								}
-								development = 10
-								num_of_times_improved_by_owner = 3
-								NOT = { has_province_flag = bavaria_muenchner_reinheitsgebot_flag }
-							}
-							set_province_flag = bavaria_muenchner_reinheitsgebot_flag
-							add_base_production = 1
-						}
-						every_owned_province = {
-							limit = {
-								has_province_flag = bavaria_muenchner_reinheitsgebot_flag
-							}
-							clr_province_flag = bavaria_muenchner_reinheitsgebot_flag
-						}
+						development = 10
+						num_of_times_improved_by_owner = 3
+						NOT = { has_province_flag = bavaria_muenchner_reinheitsgebot_flag }
 					}
-					add_years_of_owned_provinces_production_income = {
-						years = 3
-						trigger = {
-							OR = {
-								trade_goods = wine
-								trade_goods = grain
-							}
-							development = 10
-							num_of_times_improved_by_owner = 3
+					set_province_flag = bavaria_muenchner_reinheitsgebot_flag
+					add_base_production = 1
+				}
+				random_owned_province = {
+					limit = {
+						OR = {
+							trade_goods = wine
+							trade_goods = grain
 						}
-						custom_tooltip = BAV_INCOME_FROM_GRAIN_AND_WINE
+						development = 10
+						num_of_times_improved_by_owner = 3
+						NOT = { has_province_flag = bavaria_muenchner_reinheitsgebot_flag }
 					}
+					set_province_flag = bavaria_muenchner_reinheitsgebot_flag
+					add_base_production = 1
+				}
+				every_owned_province = {
+					limit = {
+						has_province_flag = bavaria_muenchner_reinheitsgebot_flag
+					}
+					add_province_modifier = {
+						name = bavaria_muenchner_reinheitsgebot_province_modifier
+						duration = -1
+					}
+					clr_province_flag = bavaria_muenchner_reinheitsgebot_flag
 				}
 			}
-			else = {
-				country_event = { id = ME_Bavaria_Events.3 }
+			add_years_of_owned_provinces_production_income = {
+				years = 3
+				trigger = {
+					OR = {
+						trade_goods = wine
+						trade_goods = grain
+					}
+					development = 10
+					num_of_times_improved_by_owner = 3
+				}
+				custom_tooltip = BAV_INCOME_FROM_GRAIN_AND_WINE
 			}
 		}
 	}
+
 
 	bavaria_monastery_breweries = {
 		icon = leiden_university
@@ -1538,21 +1440,6 @@ me_bavaria_missions_3 = {
 			}
 			OR = {
 				AND = {
-					me_bav_is_beer_enabled = yes
-					trade_goods = beer
-					ROOT = {
-						NOT = {
-							num_of_owned_provinces_with = {
-								value = 5
-								trade_goods = beer
-								development = 15
-								has_tax_building_trigger = yes
-							}
-						}
-					}
-				}
-				AND = {
-					NOT = { me_bav_is_beer_enabled = yes }
 					OR = {
 						trade_goods = wine
 						trade_goods = grain
@@ -1583,18 +1470,6 @@ me_bavaria_missions_3 = {
 					loyalty = 60
 				}
 			}
-			if = {
-				limit = {
-					me_bav_is_beer_enabled = yes
-				}
-				num_of_owned_provinces_with = {
-					value = 5
-					trade_goods = beer
-					development = 15
-					has_tax_building_trigger = yes
-				}
-			}
-			else = {
 				num_of_owned_provinces_with = {
 					value = 5
 					OR = {
@@ -1604,12 +1479,12 @@ me_bavaria_missions_3 = {
 					development = 15
 					has_tax_building_trigger = yes
 				}
-			}
+			
 		}
 		effect = {
 			add_country_modifier = {
 				name = bavaria_monastery_breweries_modifier
-				duration = -1 
+				duration = 9125
 			}
 			custom_tooltip = BAVARIA_MONASTERY_BREWERIES_TT
 			hidden_effect = {
@@ -1620,11 +1495,6 @@ me_bavaria_missions_3 = {
 						has_tax_building_trigger = yes
 						OR = {
 							AND = {
-								me_bav_is_beer_enabled = yes
-								trade_goods = beer
-							}
-							AND = {
-								NOT = { me_bav_is_beer_enabled = yes }
 								OR = {
 									trade_goods = wine
 									trade_goods = grain
@@ -1642,11 +1512,6 @@ me_bavaria_missions_3 = {
 						has_tax_building_trigger = yes
 						OR = {
 							AND = {
-								me_bav_is_beer_enabled = yes
-								trade_goods = beer
-							}
-							AND = {
-								NOT = { me_bav_is_beer_enabled = yes }
 								OR = {
 									trade_goods = wine
 									trade_goods = grain
@@ -1664,11 +1529,6 @@ me_bavaria_missions_3 = {
 						has_tax_building_trigger = yes
 						OR = {
 							AND = {
-								me_bav_is_beer_enabled = yes
-								trade_goods = beer
-							}
-							AND = {
-								NOT = { me_bav_is_beer_enabled = yes }
 								OR = {
 									trade_goods = wine
 									trade_goods = grain
@@ -1686,11 +1546,6 @@ me_bavaria_missions_3 = {
 						has_tax_building_trigger = yes
 						OR = {
 							AND = {
-								me_bav_is_beer_enabled = yes
-								trade_goods = beer
-							}
-							AND = {
-								NOT = { me_bav_is_beer_enabled = yes }
 								OR = {
 									trade_goods = wine
 									trade_goods = grain
@@ -1708,11 +1563,6 @@ me_bavaria_missions_3 = {
 						has_tax_building_trigger = yes
 						OR = {
 							AND = {
-								me_bav_is_beer_enabled = yes
-								trade_goods = beer
-							}
-							AND = {
-								NOT = { me_bav_is_beer_enabled = yes }
 								OR = {
 									trade_goods = wine
 									trade_goods = grain
@@ -1746,7 +1596,7 @@ me_bavaria_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = bavaria_a_bavarian_army_modifier
-				duration = -1 
+				duration = 5475
 			}
 			if = {
 				limit = {
@@ -1795,7 +1645,7 @@ me_bavaria_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = bavaria_reunification_of_bavaria_modifier
-				duration = -1 
+				duration = 5475
 			}
 			upper_swabia_area = {
 				limit = {
@@ -1909,7 +1759,7 @@ me_bavaria_missions_3 = {
 			73 = {
 				add_permanent_province_modifier = {
 					name = bavaria_recover_tirol_province_modifier
-					duration = -1 
+					duration = -1
 				}
 			}
 			venetia_area = {
@@ -1944,7 +1794,7 @@ me_bavaria_missions_3 = {
 			add_yearly_sailors = 1
 			add_country_modifier = {
 				name = bavaria_reconquer_verona_modifier
-				duration = -1 
+				duration = 10950
 			}
 		}
 	}
@@ -2072,7 +1922,7 @@ me_bavaria_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = bavaria_the_dynastic_question_modifier
-				duration = -1 
+				duration = -1
 			}
 			if = {
 				limit = {
@@ -2116,7 +1966,7 @@ me_bavaria_missions_4 = {
 			add_papal_influence = 50
 			add_country_modifier = {
 				name = bavaria_bastion_of_catholicism_modifier
-				duration = -1 
+				duration = -1
 				desc = BAVARIA_MODIFIER_UNTIL_RELIGION_CHANGE_TT
 			}
 			if = {
@@ -2177,7 +2027,7 @@ me_bavaria_missions_4 = {
 		effect = {
 			add_country_modifier = {
 				name = bavaria_bayerische_wehrhoheit_modifier
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -2202,7 +2052,7 @@ me_bavaria_missions_4 = {
 			add_accepted_culture_or_dip_power = { culture = franconian }
 			add_country_modifier = {
 				name = bavaria_conquer_upper_franconia_modifier
-				duration = -1 
+				duration = -1
 			}
 			franconia_area = {
 				limit = {
@@ -2232,7 +2082,7 @@ me_bavaria_missions_4 = {
 			franconia_area = {
 				add_province_modifier = {
 					name = bavaria_capture_lower_franconia_province_modifier
-					duration = -1 
+					duration = 5475
 				}
 			}
 			custom_tooltip = BAVARIA_CAPTURE_LOWER_FRANCONIA_TT
@@ -2313,7 +2163,7 @@ me_bavaria_missions_4 = {
 			austria_proper_area = {
 				add_province_modifier = {
 					name = bavaria_reintegrate_the_eastern_march_modifier
-					duration = -1 
+					duration = 9125
 				}
 			}
 		}
@@ -2379,7 +2229,7 @@ me_bavaria_missions_4 = {
 		effect = {
 			add_country_modifier = {
 				name = bavaria_the_austro_bavarian_culture_modifier
-				duration = -1 
+				duration = -1
 			}
 			enable_development_on_buildings_built = yes
 		}
@@ -2426,7 +2276,7 @@ me_bavaria_missions_4 = {
 		effect = {
 			add_country_modifier = {
 				name = bavaria_dynastic_ties_modifier
-				duration = -1 
+				duration = -1
 			}
 			disable_annexation_penalty = yes
 			hidden_effect = {
@@ -2498,7 +2348,7 @@ me_bavaria_missions_5 = {
 			}
 			add_country_modifier = {
 				name = bavaria_a_new_faith_modifier
-				duration = -1 
+				duration = -1
 				desc = BAVARIA_MODIFIER_UNTIL_RELIGION_CHANGE_TT
 			}
 			if = {
@@ -2629,7 +2479,7 @@ me_bavaria_missions_5_2 = {
 				}
 				add_country_modifier = {
 					name = bavaria_a_fight_for_faith_and_power_modifier
-					duration = -1 
+					duration = 9125
 				}
 			}
 			custom_tooltip = BAVARIA_A_FIGHT_FOR_FAITH_AND_POWER_TT_4
@@ -2674,7 +2524,7 @@ me_bavaria_missions_5_2 = {
 					}
 					add_country_modifier = {
 						name = bavaria_a_fight_for_faith_and_power_modifier
-						duration = -1 
+						duration = 9125
 					}
 					if = {
 						limit = {
@@ -2729,7 +2579,7 @@ me_bavaria_missions_5_3 = {
 			upper_swabia_area = {
 				add_province_modifier = {
 					name = bavaria_the_swabian_border_province_modifier
-					duration = -1 
+					duration = 7300
 				}
 			}
 			lower_swabia_area = {
@@ -2760,7 +2610,7 @@ me_bavaria_missions_5_3 = {
 			add_mil_power = 100
 			add_country_modifier = {
 				name = bavaria_the_swabian_heartland_modifier
-				duration = -1 
+				duration = 9125
 			}
 		}
 	}
@@ -2811,7 +2661,7 @@ me_bavaria_missions_5_3 = {
 		effect = {
 			add_country_modifier = {
 				name = bavaria_fortify_the_eastern_march_modifier
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -2850,7 +2700,7 @@ me_bavaria_missions_5_3 = {
 		effect = {
 			add_country_modifier = {
 				name = bavaria_bavarian_subjects_modifier
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -2911,7 +2761,7 @@ me_bavaria_missions_wittelsbach_1 = {
 		effect = {
 			add_country_modifier = {
 				name = bavaria_the_electorate_of_cologne_modifier
-				duration = -1 
+				duration = 7300
 			}
 			if = {
 				limit = {
@@ -2924,27 +2774,12 @@ me_bavaria_missions_wittelsbach_1 = {
 						}
 					}
 				}
-				if = {
-					limit = {
-						is_expanded_mod_active = { mod = subjects }
-						can_create_subject_type = {
-							subject = KOL
-							subject_type = palatinate_vassal
-						}
-					}
-					create_subject = {
-						subject = KOL
-						subject_type = palatinate_vassal
-					}
-				}
-				else = {
-					KOL = {
-						custom_tooltip = legitimate_subject_elector_tt
-						add_country_modifier = {
-							name = legitimate_subject_elector_modifer
-							duration = -1 
-							hidden = yes
-						}
+				KOL = {
+					custom_tooltip = legitimate_subject_elector_tt
+					add_country_modifier = {
+						name = legitimate_subject_elector_modifer
+						duration = -1
+						hidden = yes
 					}
 				}
 			}
@@ -3113,7 +2948,7 @@ me_bavaria_missions_wittelsbach_2 = {
 		effect = {
 			add_country_modifier = {
 				name = bavaria_restore_wittelsbach_rule_in_the_low_lands_modifier
-				duration = -1 
+				duration = 9125
 			}
 		}
 	}
@@ -3309,7 +3144,7 @@ me_bavaria_missions_wittelsbach_3 = {
 				}
 				add_country_modifier = {
 					name = bavaria_reunite_bavaria_and_the_palatinate_modifier
-					duration = -1 
+					duration = 7300
 				}
 				if = {
 					limit = {
@@ -3370,7 +3205,7 @@ me_bavaria_missions_wittelsbach_3 = {
 		effect = {
 			add_country_modifier = {
 				name = bavaria_a_powerful_dynasty_wittelsbach_modifier
-				duration = -1 
+				duration = -1
 			}
 			if = {
 				limit = {
@@ -3696,7 +3531,7 @@ me_bavaria_missions_wittelsbach_4 = {
 			else = {
 				add_country_modifier = {
 					name = bavaria_the_fate_of_brandenburg_modifier
-					duration = -1 
+					duration = 5475
 				}
 			}
 		}
@@ -3811,7 +3646,7 @@ me_bavaria_missions_wittelsbach_4 = {
 			}
 			add_country_modifier = {
 				name = bavaria_erbt_den_thron_brandenburgs_modifier
-				duration = -1 
+				duration = 10950
 			}
 		}
 	}
@@ -4031,14 +3866,14 @@ me_bavaria_missions_wittelsbach_5 = {
 				tooltip = {
 					add_country_modifier = {
 						name = bavaria_a_bavarian_denmark_modifier_1
-						duration = -1 
+						duration = 12775
 					}
 				}
 				custom_tooltip = BAVARIA_A_BAVARIAN_DENMARK_TT_2
 				tooltip = {
 					add_country_modifier = {
 						name = bavaria_a_bavarian_denmark_modifier_2
-						duration = -1 
+						duration = 9125
 					}
 				}
 				hidden_effect = {
@@ -4053,13 +3888,13 @@ me_bavaria_missions_wittelsbach_5 = {
 						}
 						add_country_modifier = {
 							name = bavaria_a_bavarian_denmark_modifier_1
-							duration = -1 
+							duration = 12775
 						}
 					}
 					else = {
 						add_country_modifier = {
 							name = bavaria_a_bavarian_denmark_modifier_2
-							duration = -1 
+							duration = 9125
 						}
 					}
 				}
@@ -4067,7 +3902,7 @@ me_bavaria_missions_wittelsbach_5 = {
 			else = {
 				add_country_modifier = {
 					name = bavaria_a_bavarian_denmark_modifier_3
-					duration = -1 
+					duration = 7300
 				}
 			}
 			if = {
@@ -4204,7 +4039,7 @@ me_bavaria_missions_wittelsbach_5 = {
 				}
 				add_province_modifier = {
 					name = bavaria_integration_of_norway_and_sweden_province_modifier
-					duration = -1 
+					duration = 18250
 				}
 			}
 		}
@@ -4295,7 +4130,7 @@ me_bavaria_missions_welf_1 = {
 			}
 			add_country_modifier = {
 				name = bavaria_the_welfs_in_saxony_modifier
-				duration = -1 
+				duration = 10950
 			}
 			braunschweig_area = {
 				limit = {
@@ -4459,7 +4294,7 @@ me_bavaria_missions_welf_2 = {
 			else = {
 				add_country_modifier = {
 					name = bavaria_the_fate_of_saxony_modifier
-					duration = -1 
+					duration = 5475
 				}
 			}
 		}
@@ -4529,7 +4364,7 @@ me_bavaria_missions_welf_2 = {
 			}
 			add_country_modifier = {
 				name = bavaria_das_haus_hannover_modifier
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -4721,7 +4556,7 @@ me_bavaria_missions_welf_3 = {
 		effect = {
 			add_country_modifier = {
 				name = bavaria_restore_the_welf_rule_in_the_palatinate_modifier
-				duration = -1 
+				duration = -1
 			}
 			if = {
 				limit = {
@@ -4806,7 +4641,7 @@ me_bavaria_missions_welf_3 = {
 		effect = {
 			add_country_modifier = {
 				name = bavaria_a_powerful_dynasty_welf_modifier
-				duration = -1 
+				duration = -1
 			}
 			if = {
 				limit = {
@@ -4928,7 +4763,7 @@ me_bavaria_missions_welf_4 = {
 		effect = {
 			add_country_modifier = {
 				name = bavaria_find_the_roots_modifier
-				duration = -1 
+				duration = 10950
 			}
 			if = {
 				limit = {
@@ -5034,7 +4869,7 @@ me_bavaria_missions_welf_4 = {
 		effect = {
 			add_country_modifier = {
 				name = bavaria_inherit_the_homeland_modifier
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -5207,7 +5042,7 @@ me_bavaria_missions_welf_5 = {
 		effect = {
 			add_country_modifier = {
 				name = bavaria_a_power_in_north_italy_modifier
-				duration = -1 
+				duration = 10950
 			}
 			if = {
 				limit = {
@@ -5251,7 +5086,7 @@ me_bavaria_missions_welf_5 = {
 			tooltip = {
 				add_country_modifier = {
 					name = bavaria_italy_subject_tooltip_modifier
-					duration = -1 
+					duration = -1
 					desc = BAVARIA_ITALY_SUBJECT_TOOLTIP_MODIFIER_TT
 				}
 				if = {
@@ -5261,7 +5096,7 @@ me_bavaria_missions_welf_5 = {
 					ITA = {
 						add_country_modifier = {
 							name = bavaria_italy_ita_subject_tooltip_modifier
-							duration = -1 
+							duration = -1
 							desc = BAVARIA_ITALY_ITA_SUBJECT_TOOLTIP_MODIFIER_TT
 						}
 					}
@@ -5270,7 +5105,7 @@ me_bavaria_missions_welf_5 = {
 					FER = {
 						add_country_modifier = {
 							name = bavaria_italy_ita_subject_tooltip_modifier
-							duration = -1 
+							duration = -1
 							desc = BAVARIA_ITALY_ITA_SUBJECT_TOOLTIP_MODIFIER_TT
 						}
 					}

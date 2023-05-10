@@ -65,22 +65,7 @@ country_decisions = {
 				is_city = yes
 			}
 			NOT = { exists = CAN }
-			if = {
-				limit = {
-					is_expanded_mod_active = { mod = subjects }
-				}
-				OR = {
-					AND = {
-						is_former_colonial_nation = yes
-						is_free_or_tributary_trigger = yes
-					}
-					is_subject_of_type = dominion
-					is_subject_of_type = autonomous_dominion
-				}
-			}
-			else = {
-				is_free_or_tributary_trigger = yes
-			}
+			is_free_or_tributary_trigger = yes
 		}
 		effect = {
 			hidden_effect = {
@@ -100,6 +85,7 @@ country_decisions = {
 				change_primary_culture = quebecois
 			}
 			change_tag = CAN
+			on_change_tag_effect = yes
 			if = {
 				limit = {
 					NOT = { is_former_colonial_nation = yes }

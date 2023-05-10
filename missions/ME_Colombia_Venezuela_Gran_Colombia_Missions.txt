@@ -75,7 +75,7 @@ colombia_venezuela_missions_1 = {
 				}
 				add_province_modifier = {
 					name = colombia_venezuela_fortify_panama_province_modifier
-					duration = -1 
+					duration = -1
 				}
 			}
 		}
@@ -112,7 +112,7 @@ colombia_venezuela_missions_2 = {
 		effect = {
 			add_country_modifier = {
 				name = colombia_venezuela_panama_dreaming_modifier
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -177,7 +177,7 @@ colombia_venezuela_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = colombia_venezuela_somos_libre_modifier
-				duration = -1 
+				duration = -1
 			}
 			quito_area = {
 				limit = {
@@ -364,7 +364,7 @@ colombia_venezuela_missions_5 = {
 				change_trade_goods = gems
 				add_province_modifier = {
 					name = colombia_venezuela_venezuelan_revolution_province_modifier
-					duration = -1 
+					duration = -1
 				}
 			}
 		}
@@ -430,7 +430,7 @@ gran_colombia_missions_2 = {
 		effect = {
 			add_country_modifier = {
 				name = gran_colombia_unite_the_central_american_states_modifier
-				duration = -1 
+				duration = 5475
 			}
 		}
 	}
@@ -532,7 +532,7 @@ gran_colombia_missions_3 = {
 		effect = {
 			add_country_modifier = {
 				name = gran_colombia_bolivars_ambition_modifier
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -668,7 +668,7 @@ colombia_venezuela_missions_1_2 = {
 		effect = {
 			add_country_modifier = {
 				name = colombia_venezuela_the_riches_of_the_south_modifier
-				duration = -1 
+				duration = 5475
 			}
 		}
 	}
@@ -697,7 +697,7 @@ colombia_venezuela_missions_2_2 = {
 		effect = {
 			add_country_modifier = {
 				name = colombia_venezuela_development_of_south_america_modifier
-				duration = -1 
+				duration = 5475
 			}
 		}
 	}
@@ -721,7 +721,7 @@ colombia_venezuela_missions_2_2 = {
 				}
 				add_province_modifier = {
 					name = colombia_venezuela_founding_new_towns_province_modifier
-					duration = -1 
+					duration = -1
 				}
 			}
 		}
@@ -760,7 +760,7 @@ colombia_venezuela_missions_2_2 = {
 			capital_scope = {
 				add_province_modifier = {
 					name = colombia_venezuela_the_seat_of_power_province_modifier
-					duration = -1 
+					duration = -1
 				}
 			}
 		}
@@ -802,7 +802,7 @@ colombia_venezuela_missions_3_2 = {
 		effect = {
 			add_country_modifier = {
 				name = colombia_venezuela_consolidate_our_independence_modifier
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -854,13 +854,13 @@ colombia_venezuela_missions_3_2 = {
 				}
 				add_country_modifier = {
 					name = colombia_venezuela_the_two_cultures_modifier_1
-					duration = -1 
+					duration = 10950
 				}
 			}
 			else = {
 				add_country_modifier = {
 					name = colombia_venezuela_the_two_cultures_modifier_2
-					duration = -1 
+					duration = 9125
 				}
 			}
 		}
@@ -893,7 +893,7 @@ colombia_venezuela_missions_4_2 = {
 		effect = {
 			add_country_modifier = {
 				name = colombia_venezuela_dealing_with_government_corruption_modifier
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -919,7 +919,7 @@ gran_colombia_missions_1_2 = {
 			add_years_of_income = 2
 			add_country_modifier = {
 				name = gran_colombia_fires_of_industry_modifier
-				duration = -1 
+				duration = 9125
 			}
 		}
 	}
@@ -962,7 +962,7 @@ gran_colombia_missions_3_2 = {
 					change_trade_goods = gems
 					add_province_modifier = {
 						name = gran_colombia_colombian_emeralds_province_modifier
-						duration = -1 
+						duration = -1
 					}
 				}
 				random_owned_province = {
@@ -973,7 +973,7 @@ gran_colombia_missions_3_2 = {
 					change_trade_goods = gems
 					add_province_modifier = {
 						name = gran_colombia_colombian_emeralds_province_modifier
-						duration = -1 
+						duration = -1
 					}
 				}
 				random_owned_province = {
@@ -984,7 +984,7 @@ gran_colombia_missions_3_2 = {
 					change_trade_goods = gems
 					add_province_modifier = {
 						name = gran_colombia_colombian_emeralds_province_modifier
-						duration = -1 
+						duration = -1
 					}
 				}
 			}
@@ -997,7 +997,7 @@ gran_colombia_missions_3_2 = {
 						change_trade_goods = gems
 						add_province_modifier = {
 							name = gran_colombia_colombian_emeralds_province_modifier
-							duration = -1 
+							duration = -1
 						}
 					}
 					random_province = {
@@ -1007,7 +1007,7 @@ gran_colombia_missions_3_2 = {
 						change_trade_goods = gems
 						add_province_modifier = {
 							name = gran_colombia_colombian_emeralds_province_modifier
-							duration = -1 
+							duration = -1
 						}
 					}
 					random_province = {
@@ -1017,7 +1017,7 @@ gran_colombia_missions_3_2 = {
 						change_trade_goods = gems
 						add_province_modifier = {
 							name = gran_colombia_colombian_emeralds_province_modifier
-							duration = -1 
+							duration = -1
 						}
 					}
 				}
@@ -1047,7 +1047,7 @@ gran_colombia_missions_4_2 = {
 		effect = {
 			add_country_modifier = {
 				name = gran_colombia_the_bolivar_constitution_modifier
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -1080,7 +1080,7 @@ colombia_venezuela_missions_2_3 = {
 		effect = {
 			add_country_modifier = {
 				name = colombia_venezuela_establishment_of_the_patriot_army_modifier
-				duration = -1 
+				duration = 12775
 			}
 		}
 	}
@@ -1109,7 +1109,7 @@ colombia_venezuela_missions_3_3 = {
 		effect = {
 			add_country_modifier = {
 				name = colombia_venezuela_founding_of_the_colombian_venezulean_army_modifier
-				duration = -1 
+				duration = 10950
 			}
 		}
 	}
@@ -1125,7 +1125,7 @@ colombia_venezuela_missions_3_3 = {
 		effect = {
 			add_country_modifier = {
 				name = colombia_venezuela_the_teachings_of_bolivar_modifier
-				duration = -1 
+				duration = 9125
 			}
 		}
 	}
@@ -1162,7 +1162,7 @@ gran_colombia_missions_3_3 = {
 		effect = {
 			add_country_modifier = {
 				name = gran_colombia_la_guardia_nacional_modifier
-				duration = -1 
+				duration = -1
 			}
 		}
 	}

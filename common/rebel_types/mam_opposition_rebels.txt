@@ -38,7 +38,7 @@ mam_opposition_rebels = {
 		modifier = {
 			factor = 0 
 			owner = {
-				NOT = { has_disaster = mam_opposition_rebels }
+				NOT = { has_disaster = mamluk_reforms }
 			}
 		}
 	}

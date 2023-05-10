@@ -87,7 +87,7 @@ hanseatic_expansion_tree = {
 			capital_scope = {
 				add_trade_modifier = {
 					who = root
-					duration = -1 
+					duration = 7300
 					power = 20
 					key = hsa_lubeck_ascendant
 				}
@@ -238,7 +238,7 @@ hanseatic_return_visby_tree = {
 			310 = {
 				add_trade_modifier = {
 					who = root
-					duration = -1 
+					duration = 7300
 					power = 50
 					key = hsa_hansa_in_novgorod
 				}
@@ -282,7 +282,7 @@ lubeck_misc_tree = {
 		effect = {
 			add_country_modifier = {
 				name = hanseatic_bookkeeping_modifier
-				duration = -1 
+				duration = 7300
 			}
 			if = { 
 				limit = { has_estate = estate_burghers }
@@ -328,7 +328,7 @@ hanseatic_united_tree = {
 				add_province_triggered_modifier = krantor_crane
 				add_province_modifier = { 
 					name = capital_expansion_modifier
-					duration = -1 
+					duration = 3650 
 				}
 			}
 		}
@@ -365,7 +365,7 @@ hanseatic_united_tree = {
 		effect = {
 			add_country_modifier = {
 				name = hanseatic_queen_modifier
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -403,7 +403,7 @@ hanseatic_united_tree = {
 		effect = {
 			add_country_modifier = {
 				name = "hsa_advance_our_interests_modifier"
-				duration = -1 
+				duration = 10950
 			}
 		}
 	}
@@ -456,7 +456,7 @@ hanseatic_london_tree = {
 			236 = {
 				add_trade_modifier = {
 					who = root
-					duration = -1 
+					duration = -1
 					power = 30
 					key = hsa_london_steelyard
 				}
@@ -516,7 +516,7 @@ hanseatic_sound_toll_tree = {
 			}
 			add_country_modifier = {
 				name = "hsa_baltic_trade_modifier"
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -762,7 +762,7 @@ hanseatic_britain_tree = {
 			1269 = {
 				add_trade_modifier = {
 					who = root
-					duration = -1 
+					duration = 7300
 					power = 25
 					key = hsa_hanseatic_channel
 				}
@@ -886,7 +886,7 @@ hanseatic_britain_tree = {
 		effect = {
 			add_country_modifier = {
 				name = hsa_north_sea_trading
-				duration = -1 
+				duration = 7300
 			}
 			create_explorer = {
 				tradition = 60
@@ -986,7 +986,7 @@ hanseatic_colonisation_tree = {
 		effect = {
 			add_country_modifier = {
 				name = new_lubeck_modifier
-				duration = -1 
+				duration = 7300	
 			}
 			965 = {
 				add_base_tax = 2
@@ -1025,7 +1025,7 @@ hanseatic_shipwright_tree = {
 		effect = {
 			add_country_modifier = {
 				name = hanseatic_merchant_navy_modifier
-				duration = -1 
+				duration = 9125			
 			}
 			if =  {
 				limit = { 
@@ -1091,7 +1091,7 @@ hanseatic_shipwright_tree = {
 			capital_scope = { 
 				add_province_modifier = {
 					name = "hanseatic_shipwrights_modifier"
-					duration = -1 
+					duration = -1
 				}
 			}
 		}
@@ -1153,7 +1153,7 @@ hanseatic_shipwright_tree = {
 		effect = {
 			add_country_modifier = {
 				name = adler_von_lubeck_modifier
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -1288,7 +1288,7 @@ hanseatic_united_tree_2 = {
 			}
 			add_country_modifier = { 
 				name = "hsa_united_league_modifier"
-				duration = -1 
+				duration = -1
 			}
 			override_country_name = HANSEATIC_LEAGUE
 			set_country_flag = is_hanseatic_league_flag

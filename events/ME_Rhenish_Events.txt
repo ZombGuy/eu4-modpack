@@ -262,7 +262,7 @@ country_event = {
 				FROM = {
 					ai_attitude = {
 						who = ROOT
-						attitude = attitude_rival
+						attitude = attitude_rivalry
 					}
 				}
 			}
@@ -399,7 +399,7 @@ country_event = {
 				FROM = {
 					ai_attitude = {
 						who = ROOT
-						attitude = attitude_ally
+						attitude = attitude_allied
 					}
 				}
 			}
@@ -469,15 +469,7 @@ country_event = {
 
 		ai_chance = { factor = 1 }
 
-		if = {
-			limit = {
-				is_expanded_mod_active = { mod = trade_goods }
-			}
-			81 = { change_trade_goods = zinc }
-		}
-		else = {
-			81 = { change_trade_goods = copper }
-		}
+		81 = { change_trade_goods = copper }
 	}
 
 	option = {
@@ -505,26 +497,12 @@ country_event = {
 	major = yes
 
 	immediate = {
-		if = {
+		random_owned_province = {
 			limit = {
-				is_expanded_mod_active = { mod = trade_goods }
+				trade_goods = livestock
+				has_manufactory_trigger = yes
 			}
-			random_owned_province = {
-				limit = {
-					trade_goods = leather
-					has_manufactory_trigger = yes
-				}
-				save_event_target_as = leather_province
-			}
-		}
-		else = {
-			random_owned_province = {
-				limit = {
-					trade_goods = livestock
-					has_manufactory_trigger = yes
-				}
-				save_event_target_as = leather_province
-			}
+			save_event_target_as = leather_province
 		}
 	}
 	option = {
@@ -538,15 +516,7 @@ country_event = {
 				duration = -1
 			}
 		}
-		if = {
-			limit = {
-				is_expanded_mod_active = { mod = trade_goods }
-			}
-			custom_tooltip = RHN_every_livestock_and_leather
-		}
-		else = {
-			custom_tooltip = RHN_every_livestock
-		}
+		custom_tooltip = RHN_every_livestock
 		tooltip = {
 			add_province_modifier = {
 				name = RHN_livestock_in_demand
@@ -554,32 +524,13 @@ country_event = {
 			}
 		}
 		hidden_effect = {
-			if = {
+			europe = {
 				limit = {
-					is_expanded_mod_active = { mod = trade_goods }
+					trade_goods = livestock
 				}
-				europe = {
-					limit = {
-						OR = {
-							trade_goods = leather
-							trade_goods = livestock
-						}
-					}
-					add_province_modifier = {
-						name = RHN_livestock_in_demand
-						duration = 10950
-					}
-				}
-			}
-			else = {
-				europe = {
-					limit = {
-						trade_goods = livestock
-					}
-					add_province_modifier = {
-						name = RHN_livestock_in_demand
-						duration = 10950
-					}
+				add_province_modifier = {
+					name = RHN_livestock_in_demand
+					duration = 10950
 				}
 			}
 		}
@@ -602,43 +553,19 @@ country_event = {
 		82 = {
 			set_province_flag = RHN_coal_debuff
 			change_trade_goods = coal
-			if = {
-				limit = {
-					is_expanded_mod_active = { mod = trade_goods }
-				}
-				add_permanent_province_modifier = {
-					name = RHN_coal_debuff_tge #-20% trade value 5 ducats -> 4
-					desc = RHN_until_enlightenment
-					duration = -1
-				}
-			}
-			else = {
-				add_permanent_province_modifier = {
-					name = RHN_coal_debuff #-60% trade value 10 ducats -> 4
-					desc = RHN_until_enlightenment
-					duration = -1
-				}
+			add_permanent_province_modifier = {
+				name = RHN_coal_debuff #-60% trade value 10 ducats -> 4
+				desc = RHN_until_enlightenment
+				duration = -1
 			}
 		}
 		1878 = {
 			set_province_flag = RHN_coal_debuff
 			change_trade_goods = coal
-			if = {
-				limit = {
-					is_expanded_mod_active = { mod = trade_goods }
-				}
-				add_permanent_province_modifier = {
-					name = RHN_coal_debuff_tge #-20% trade value 5 ducats -> 4
-					desc = RHN_until_enlightenment
-					duration = -1
-				}
-			}
-			else = {
-				add_permanent_province_modifier = {
-					name = RHN_coal_debuff #-60% trade value 10 ducats -> 4
-					desc = RHN_until_enlightenment
-					duration = -1
-				}
+			add_permanent_province_modifier = {
+				name = RHN_coal_debuff #-60% trade value 10 ducats -> 4
+				desc = RHN_until_enlightenment
+				duration = -1
 			}
 		}
 		set_country_flag = RHN_cant_get_coal
@@ -676,25 +603,12 @@ country_event = {
 
 	immediate = {
 		hidden_effect = {
-			if = {
+			random_owned_province = {
 				limit = {
-					is_expanded_mod_active = { mod = trade_goods }
+					trade_goods = gold
+					development = 30
 				}
-				random_owned_province = {
-					limit = {
-						trade_goods = jewellery
-					}
-					save_event_target_as = diamond_province
-				}
-			}
-			else = {
-				random_owned_province = {
-					limit = {
-						trade_goods = gold
-						development = 30
-					}
-					save_event_target_as = diamond_province
-				}
+				save_event_target_as = diamond_province
 			}
 			random_province = {
 				limit = {
@@ -705,34 +619,28 @@ country_event = {
 		}
 	}
 
+	#option = {
+	#	name = "ME_Rhenish_Events.9.a" #Advanced Faceting
+	#
+	#	ai_chance = { factor = 1 }
+	#
+	#	trigger = {
+	#		is_expanded_mod_active = { mod = trade_goods }
+	#	}
+
+	#	event_target:diamond_province = {
+	#		add_permanent_province_modifier = {
+	#			name = diamond_district
+	#			duration = -1
+	#		}
+	#	}
+	#	add_prestige_or_monarch_power = { amount = 50 }
+	#}
+
 	option = {
 		name = "ME_Rhenish_Events.9.a" #Advanced Faceting
 
 		ai_chance = { factor = 1 }
-
-		trigger = {
-			is_expanded_mod_active = { mod = trade_goods }
-		}
-
-		event_target:diamond_province = {
-			add_permanent_province_modifier = {
-				name = diamond_district
-				duration = -1
-			}
-		}
-		add_prestige_or_monarch_power = { amount = 50 }
-	}
-
-	option = {
-		name = "ME_Rhenish_Events.9.a" #Advanced Faceting
-
-		ai_chance = { factor = 1 }
-
-		trigger = {
-			NOT = {
-				is_expanded_mod_active = { mod = trade_goods }
-			}
-		}
 
 		event_target:diamond_province = {
 			change_trade_goods = gems
@@ -749,11 +657,6 @@ country_event = {
 
 		ai_chance = { factor = 1 }
 
-		trigger = {
-			NOT = {
-				is_expanded_mod_active = { mod = trade_goods }
-			}
-		}
 		add_years_of_income = 0.5
 		add_prestige_or_monarch_power = { amount = 50 }
 	}
@@ -807,18 +710,6 @@ country_event = {
 		name = "ME_Rhenish_Events.11.a" #Embrace woodworking
 
 		ai_chance = { factor = 1 }
-
-		if = {
-			limit = {
-				is_expanded_mod_active = { mod = trade_goods }
-			}
-			1760 = {
-				change_trade_goods = woodworking
-			}
-			80 = {
-				change_trade_goods = woodworking
-			}
-		}
 		custom_tooltip = RHN_every_forest
 		tooltip = {
 			add_province_modifier = {
@@ -1104,7 +995,6 @@ country_event = {
 						NOT = {
 							OR = {
 								trade_goods = gold 
-								trade_goods = silver 
 							}
 						}
 					}
@@ -1115,7 +1005,6 @@ country_event = {
 						NOT = {
 							OR = {
 								trade_goods = gold 
-								trade_goods = silver 
 							}
 						}
 						has_tax_building_trigger = yes

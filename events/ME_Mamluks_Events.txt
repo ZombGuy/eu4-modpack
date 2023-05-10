@@ -275,10 +275,10 @@ country_event = {
 				}
 				save_event_target_as = Mamluks_target
 			}
-		}
-		random_list = {
-			50 = { set_country_flag = MAM_venetian }
-			50 = { set_country_flag = MAM_genoan }
+			random_list = {
+				50 = { set_country_flag = MAM_venetian }
+				50 = { set_country_flag = MAM_genoan }
+			}
 		}
 	}
 	option = {
@@ -986,10 +986,16 @@ country_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		event_target:MAM_new_mamluk_target = {
-			exists = yes
-			culture = polish
+		if = {
+			limit = {
+				has_saved_global_event_target = Caliph_province
+			}
+			event_target:MAM_new_mamluk_target = {
+				exists = yes
+				culture = polish
+			}
 		}
+		else = { always = no }
 		has_leader = "Missions"
 	}
 	
@@ -1025,10 +1031,16 @@ country_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-		event_target:MAM_new_mamluk_target = {
-			exists = yes
-			culture = greek
+		if = {
+			limit = {
+				has_saved_global_event_target = Caliph_province
+			}
+			event_target:MAM_new_mamluk_target = {
+				exists = yes
+				culture = greek
+			}
 		}
+		else = { always = no }
 		has_leader = "Missions"
 	}
 	

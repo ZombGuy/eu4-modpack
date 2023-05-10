@@ -146,7 +146,7 @@ ENG_missions_1_1 = {
 			180 = {
 				add_province_modifier = {
 					name = ENG_defense
-					duration = -1 
+					duration = 1825
 				}
 			}
 		}
@@ -209,13 +209,13 @@ GBR_missions_1_1 = {
 			370 = {
 				add_province_modifier = {
 					name = ENG_cod_secured
-					duration = -1 
+					duration = -1
 				}
 			}
 			371 = {
 				add_province_modifier = {
 					name = ENG_cod_secured
-					duration = -1 
+					duration = -1
 				}
 			}
 		}
@@ -257,14 +257,14 @@ GBR_missions_1_1 = {
 			4142 = {
 				add_trade_modifier = {
 					who = ROOT
-					duration = -1 
+					duration = -1
 					power = 25
 					key = ENG_North_sea_empire
 				}
 			}
 			add_country_modifier = {
 				name = ENG_North_sea_empire
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -299,7 +299,7 @@ ENG_missions_1_2 = {
 			226 = {
 				add_province_modifier = {
 					name = ENG_at_the_gates_of_mediterranean
-					duration = -1 
+					duration = -1
 				}
 			}
 			126 = {
@@ -384,7 +384,7 @@ GBR_missions_1_2 = {
 		effect = {
 			add_country_modifier = {
 				name = ENG_Mediterranean_navy
-				duration = -1 
+				duration = -1
 			}
 			delta_area = {
 				limit = {
@@ -440,7 +440,7 @@ GBR_missions_1_2 = {
 			#Decision to build suez canal for lower cost
 			add_country_modifier = {
 				name = ENG_egyptian_authority
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -480,7 +480,7 @@ ENG_missions_1_3 = {
 		effect = {
 			add_country_modifier = {
 				name = ENG_professional_army
-				duration = -1 
+				duration = 9125
 			}
 		}
 	}
@@ -507,7 +507,7 @@ ENG_missions_1_3 = {
 		effect = {
 			add_country_modifier = {
 				name = ENG_royal_navy
-				duration = -1 
+				duration = 9125
 			}
 		}
 	}
@@ -542,7 +542,7 @@ GBR_missions_1_3 = {
 		effect = {
 			add_country_modifier = {
 				name = ENG_the_wooden_wall
-				duration = -1 
+				duration = 9125
 			}
 		}
 	}
@@ -576,7 +576,7 @@ GBR_missions_1_3 = {
 			4373 = {
 				add_province_modifier = {
 					name = ENG_major_port
-					duration = -1 
+					duration = -1
 				}
 			}
 			add_navy_tradition = 10
@@ -626,7 +626,7 @@ ENG_missions_2_1 = {
 		effect = {
 			add_country_modifier = {
 				name = eng_longbowmen
-				duration = -1 
+				duration = 1825
 			}
 			set_country_flag = ENG_engaged_France
 		}
@@ -691,7 +691,7 @@ ENG_missions_2_1 = {
 				}
 				add_province_modifier = {
 					name = ENG_safe
-					duration = -1 
+					duration = 1825
 				}
 			}
 		}
@@ -735,7 +735,7 @@ ENG_missions_2_1 = {
 		effect = {
 			add_country_modifier = {
 				name = ENG_path_to_victoria
-				duration = -1 
+				duration = 1825
 			}
 		}
 	}
@@ -780,7 +780,7 @@ ENG_missions_2_1 = {
 			170 = {
 				add_province_modifier = {
 					name = ENG_major_port
-					duration = -1 
+					duration = -1
 				}
 			}
 			89 = {
@@ -869,13 +869,13 @@ ENG_missions_2_1 = {
 			1979 = {
 				add_province_modifier = {
 					name = ENG_cod_secured
-					duration = -1 
+					duration = -1
 				}
 			}
 			1978 = {
 				add_province_modifier = {
 					name = ENG_cod_secured
-					duration = -1 
+					duration = -1
 				}
 			}
 			370 = {
@@ -926,7 +926,7 @@ GBR_missions_2_1 = {
 		effect = {
 			add_country_modifier = {
 				name = ENG_Trade_dominance_in_north_sea
-				duration = -1 
+				duration = 9125
 			}
 		}
 	}
@@ -969,7 +969,7 @@ GBR_missions_2_1 = {
 			}
 			add_country_modifier = {
 				name = ENG_viking_spirit
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -1129,7 +1129,7 @@ ENG_missions_2_2 = {
 			tooltip = {
 				add_province_modifier = {
 					name = ENG_crown_support
-					duration = -1 
+					duration = -1
 				}
 			}
 			hidden_effect = {
@@ -1139,7 +1139,7 @@ ENG_missions_2_2 = {
 					}
 					add_province_modifier = {
 						name = ENG_crown_support
-						duration = -1 
+						duration = -1
 					}
 				}
 			}
@@ -1236,7 +1236,7 @@ GBR_missions_2_2 = {
 		effect = {
 			add_country_modifier = {
 				name = ENG_world_map
-				duration = -1 
+				duration = 9125
 			}
 		}
 	}
@@ -1264,7 +1264,7 @@ GBR_missions_2_2 = {
 				trade_goods = spices
 				key = ENG_spices
 				value = 0.5
-				duration = -1 
+				duration = 3650
 			}
 		}
 	}
@@ -1287,7 +1287,7 @@ GBR_missions_2_2 = {
 		effect = {
 			add_country_modifier = {
 				name = ENG_redcoats
-				duration = -1 
+				duration = 9125
 			}
 		}
 	}
@@ -1343,7 +1343,7 @@ ENG_missions_2_3 = {
 			add_dip_power = 100
 			add_country_modifier = {
 				name = ENG_naval_infrastructure_modifier
-				duration = -1 
+				duration = 9125
 			}
 		}
 	}
@@ -1389,7 +1389,7 @@ GBR_missions_2_3 = {
 			4373 = {
 				add_province_modifier = {
 					name = ENG_major_port
-					duration = -1 
+					duration = -1
 				}
 			}
 			add_sailors = 10000
@@ -1499,7 +1499,7 @@ ENG_missions_3_1 = {
 		effect = {
 			add_country_modifier = {
 				name = ENG_looting
-				duration = -1 
+				duration = 1825
 			}
 		}
 	}
@@ -1618,7 +1618,7 @@ ENG_missions_3_1 = {
 				}
 				add_country_modifier = {
 					name = eng_longbowmen
-					duration = -1 
+					duration = -1
 				}
 			}
 			custom_tooltip = ENG_Tooltip.6
@@ -1705,7 +1705,7 @@ ENG_missions_3_1 = {
 			}
 			add_country_modifier = {
 				name = ENG_southern_scotland
-				duration = -1 
+				duration = 9125
 			}
 		}
 	}
@@ -1752,7 +1752,7 @@ ENG_missions_3_1 = {
 					}
 					add_province_modifier = {
 						name = ENG_schools
-						duration = -1 
+						duration = 9125
 					}
 				}
 			}
@@ -1811,7 +1811,7 @@ GBR_missions_3_1 = {
 			}
 			add_country_modifier = {
 				name = ENG_Naval_dominance
-				duration = -1 
+				duration = 9125
 			}
 		}
 	}
@@ -1896,7 +1896,7 @@ ENG_missions_3_2 = {
 			1269 = {
 				add_trade_modifier = {
 					who = ROOT
-					duration = -1 
+					duration = 9125
 					power = 15
 					key = ENG_growing_commerce
 				}
@@ -1924,7 +1924,7 @@ ENG_missions_3_2 = {
 		effect = {
 			add_country_modifier = {
 				name = ENG_Exploration
-				duration = -1 
+				duration = 9125
 			}
 			#custom_tooltip = ENG_Tooltip.15 bb estate :sadhappythonk:
 		}
@@ -1987,7 +1987,7 @@ GBR_missions_3_2 = {
 			set_government_rank = 3
 			add_country_modifier = {
 				name = ENG_sun_never_sets
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -2039,7 +2039,7 @@ ENG_missions_3_3 = {
 			1500 = {
 				add_trade_modifier = {
 					who = ROOT
-					duration = -1 
+					duration = 9125
 					power = 25
 					key = ENG_hegemony_in_Eastern_America
 				}
@@ -2082,7 +2082,7 @@ GBR_missions_3_3 = {
 		effect = {
 			add_country_modifier = {
 				name = ENG_colonial_trade
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -2124,7 +2124,7 @@ ENG_missions_3_4 = {
 			add_prestige = 20
 			add_country_modifier = {
 				name = ENG_terra_australis_incognita
-				duration = -1 
+				duration = 9125
 			}
 		}
 	}
@@ -2179,7 +2179,7 @@ GBR_missions_3_4 = {
 			596 = {
 				add_province_modifier = {
 					name = ENG_major_port
-					duration = -1 
+					duration = -1
 				}
 			}
 		}
@@ -2215,7 +2215,7 @@ GBR_missions_3_4 = {
 			1357 = {
 				add_trade_modifier = {
 					who = ROOT
-					duration = -1 
+					duration = -1
 					power = 25
 					key = ENG_british_influence
 				}
@@ -2258,7 +2258,7 @@ GBR_missions_3_4 = {
 			667 = {
 				add_trade_modifier = {
 					who = ROOT
-					duration = -1 
+					duration = -1
 					power = 15
 					key = ENG_chinese_entrepot
 				}
@@ -2295,7 +2295,7 @@ ENG_missions_3_5 = {
 			add_adm_power = 50
 			add_country_modifier = {
 				name = "building_spree"
-				duration = -1 
+				duration = 9125
 			}
 		}
 	}
@@ -2324,7 +2324,7 @@ ENG_missions_3_5 = {
 		effect = {
 			add_country_modifier = {
 				name = "proto_industrialization"
-				duration = -1 
+				duration = 9125
 			}
 			add_years_of_income = 1.5
 		}
@@ -2385,31 +2385,31 @@ GBR_missions_3_5 = {
 			241 = {
 				add_province_modifier = {
 					name = ENG_regional
-					duration = -1 
+					duration = -1
 				}
 			}
 			4362 = {
 				add_province_modifier = {
 					name = ENG_regional
-					duration = -1 
+					duration = -1
 				}
 			}
 			246 = {
 				add_province_modifier = {
 					name = ENG_regional
-					duration = -1 
+					duration = -1
 				}
 			}
 			4375 = {
 				add_province_modifier = {
 					name = ENG_regional
-					duration = -1 
+					duration = -1
 				}
 			}
 			1861 = {
 				add_province_modifier = {
 					name = ENG_regional
-					duration = -1 
+					duration = -1
 				}
 			}
 		}
@@ -2506,7 +2506,7 @@ GBR_missions_3_6 = {
 			change_innovativeness = 10
 			add_country_modifier = {
 				name = ENG_industralization
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -2545,7 +2545,7 @@ ENG_missions_4_1 = {
 		effect = {
 			add_ruler_modifier = {
 				name = ENG_legitimate_rule
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -2562,7 +2562,7 @@ ENG_missions_4_1 = {
 		effect = {
 			add_country_modifier = {
 				name = ENG_increasing_power
-				duration = -1 
+				duration = 9125
 			}
 		}
 	}
@@ -2638,25 +2638,25 @@ ENG_missions_4_1 = {
 			ulster_area = {
 				add_province_modifier = {
 					name = ENG_overseas_domain
-					duration = -1 
+					duration = 9125
 				}
 			}
 			leinster_area = {
 				add_province_modifier = {
 					name = ENG_overseas_domain
-					duration = -1 
+					duration = 9125
 				}
 			}
 			connacht_area = {
 				add_province_modifier = {
 					name = ENG_overseas_domain
-					duration = -1 
+					duration = 9125
 				}
 			}
 			munster_area = {
 				add_province_modifier = {
 					name = ENG_overseas_domain
-					duration = -1 
+					duration = 9125
 				}
 			}
 		}
@@ -2795,7 +2795,7 @@ ENG_missions_4_2 = {
 		effect = {
 			add_country_modifier = {
 				name = ENG_merchant_fleet
-				duration = -1 
+				duration = -1
 			}
 			add_mercantilism = 2
 		}
@@ -2819,7 +2819,7 @@ ENG_missions_4_2 = {
 			add_navy_tradition = 10
 			add_country_modifier = {
 				name = ENG_monopoly
-				duration = -1 
+				duration = 3650
 			}
 		}
 	}
@@ -2845,7 +2845,7 @@ ENG_missions_4_2 = {
 		effect = {
 			add_country_modifier = {
 				name = ENG_rush_of_colonists
-				duration = -1 
+				duration = 9125
 			}
 		}
 	}
@@ -2871,12 +2871,12 @@ ENG_missions_4_2 = {
 		effect = {
 			add_country_modifier = {
 				name = ENG_timber
-				duration = -1 
+				duration = 9125
 			}
 			1005 = {
 				add_trade_modifier = {
 					who = ROOT
-					duration = -1 
+					duration = -1
 					power = 20
 					key = ENG_fur_entrepot
 				}
@@ -2908,7 +2908,7 @@ ENG_missions_4_2 = {
 				}
 				add_country_modifier = {
 					name = ENG_loyal_dominion
-					duration = -1 
+					duration = -1
 				}
 			}
 			add_mercantilism = 2
@@ -3168,7 +3168,7 @@ GBR_missions_4_2 = {
 		effect = {
 			add_country_modifier = {
 				name = ENG_Pacific_empire
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -3314,7 +3314,7 @@ ENG_missions_4_3 = {
 		effect = {
 			add_country_modifier = {
 				name = ENG_surplus_of_materials
-				duration = -1 
+				duration = 7300
 			}
 		}
 	}
@@ -3368,7 +3368,7 @@ ENG_missions_4_3 = {
 		effect = {
 			add_country_modifier = {
 				name = ENG_dissemination
-				duration = -1 
+				duration = 9125
 			}
 		}
 	}
@@ -3440,7 +3440,7 @@ ENG_missions_5_1 = {
 		effect = {
 			add_country_modifier = {
 				name = ENG_Crisis_averted
-				duration = -1 
+				duration = 9125
 			}
 			custom_tooltip = ENG_Tooltip.13
 		}
@@ -3463,7 +3463,7 @@ ENG_missions_5_1 = {
 			add_adm_power = 100
 			add_country_modifier = {
 				name = ENG_commerce_going_back_to_life
-				duration = -1 
+				duration = 9125
 			}
 		}
 	}
@@ -3679,7 +3679,7 @@ ENG_missions_5_1 = {
 			change_innovativeness = 2
 			add_country_modifier = {
 				name = ENG_recovering_from_hectic_past
-				duration = -1 
+				duration = 9125
 			}
 		}
 	}
@@ -3702,7 +3702,7 @@ ENG_missions_5_1 = {
 			add_papal_influence = 25
 			add_country_modifier = {
 				name = ENG_control_of_the_state_religion
-				duration = -1 
+				duration = 9125
 			}
 		}
 	}
@@ -3813,7 +3813,7 @@ ENG_missions_5_1 = {
 		effect = {
 			add_country_modifier = {
 				name = ENG_entrenched_faith
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -3844,7 +3844,7 @@ ENG_missions_5_1 = {
 			}
 			add_country_modifier = {
 				name = eng_longbowmen
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -3958,25 +3958,25 @@ GBR_missions_5_1 = {
 			ulster_area = {
 				add_province_modifier = {
 					name = ENG_ulster_plantation
-					duration = -1 
+					duration = -1
 				}
 			}
 			munster_area = {
 				add_province_modifier = {
 					name = ENG_minor_land_seizure
-					duration = -1 
+					duration = -1
 				}
 			}
 			leinster_area = {
 				add_province_modifier = {
 					name = ENG_minor_land_seizure
-					duration = -1 
+					duration = -1
 				}
 			}
 			connacht_area = {
 				add_province_modifier = {
 					name = ENG_minor_land_seizure
-					duration = -1 
+					duration = -1
 				}
 			}
 		}
@@ -4022,7 +4022,7 @@ ENG_missions_5_2 = {
 				}
 				add_province_modifier = {
 					name = ENG_english_wool
-					duration = -1 
+					duration = 36500
 				}
 			}
 		}
@@ -4051,7 +4051,7 @@ ENG_missions_5_2 = {
 				}
 				add_province_modifier = {
 					name = ENG_technology_sharing
-					duration = -1 
+					duration = 9125
 				}
 			}
 		}
@@ -4107,7 +4107,7 @@ ENG_missions_5_2 = {
 		effect = {
 			add_country_modifier = {
 				name = ENG_to_east_indies
-				duration = -1 
+				duration = 9125
 			}
 			#custom_tooltip = ENG_Tooltip.10
 		}
@@ -4150,13 +4150,13 @@ GBR_missions_5_2 = {
 			cape_of_good_hope_area = {
 				add_province_modifier = {
 					name = ENG_wealth_of_africa
-					duration = -1 
+					duration = -1
 				}
 			}
 			south_african_plateau_area = {
 				add_province_modifier = {
 					name = ENG_wealth_of_africa
-					duration = -1 
+					duration = -1
 				}
 			}
 		}
@@ -4192,7 +4192,7 @@ GBR_missions_5_2 = {
 			1343 = {
 				add_trade_modifier = {
 					who = ROOT
-					duration = -1 
+					duration = -1
 					power = 25
 					key = ENG_Bengal_monopoly
 				}
@@ -4338,7 +4338,7 @@ GBR_missions_5_2 = {
 		effect = {
 			add_country_modifier = {
 				name = ENG_Indian_modifier
-				duration = -1 
+				duration = -1
 			}
 		}
 	}
@@ -4387,7 +4387,7 @@ ENG_missions_5_3 = {
 			add_mil_power = 100
 			add_country_modifier = {
 				name = ENG_research
-				duration = -1 
+				duration = 9125
 			}
 		}
 	}
@@ -4404,7 +4404,7 @@ ENG_missions_5_3 = {
 		effect = {
 			add_country_modifier = {
 				name = ENG_supporting_the_elizabethan_theatre
-				duration = -1 
+				duration = 18250
 			}
 		}
 	}

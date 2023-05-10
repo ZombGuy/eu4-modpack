@@ -107,7 +107,7 @@ country_event = {
 			}
 			hidden_effect = { add_ruler_personality_ancestor = { key = zealot } }
 		}
-		add_reform_desire = 0.03
+		add_reform_desire = 0.02
 		hidden_effect = { 
 			set_country_flag = boh_has_jiri_flag 
 			set_ruler_flag = jiri_alive_flagu
@@ -665,6 +665,7 @@ country_event = {
 			OR = {
 				culture = czechBOH
 				culture = czech
+				culture = czech_new
 			}
 		}
 		is_year = 1580

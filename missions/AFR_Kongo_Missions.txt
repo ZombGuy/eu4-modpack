@@ -117,7 +117,7 @@ kongo_fetishist_missions_slot = {
 			}
 			add_country_modifier = {
 				name = kon_united_shaman_tribes
-				duration = -1 
+				duration = 18250
 			}
 		}
 		ai_weight = {
@@ -161,7 +161,7 @@ kongo_fetishist_missions_slot = {
 			add_increase_opinion_of_fetishists = yes
 			add_country_modifier = {
 				name = kon_defender_of_the_old_ways
-				duration = -1 
+				duration = -1
 			}
 		}
 		ai_weight = {
@@ -372,7 +372,7 @@ kongo_catholic_missions_slot = {
 		effect = {
 			add_country_modifier = {
 				name = kon_catholic_fortress_of_africa
-				duration = -1 
+				duration = -1
 			}
 		}
 		ai_weight = {
@@ -449,9 +449,11 @@ kongo_choose_path_missions_slot = {
 		effect = {
 			add_country_modifier = {
 				name = kon_european_influence
-				duration = -1 
+				duration = 9125
 			}
-			change_government_to_monarchy = yes
+			country_event = {
+				id = flavor_kon.16
+			}
 		}
 		ai_weight = {
 			factor = 500	#They became a proper monarchy after becoming Catholic. Though, you could argue that the tribal version is also a monarchy too...
@@ -618,7 +620,7 @@ kongo_choose_path_missions_slot = {
 		effect = {
 			add_country_modifier = {
 				name = kon_defender_of_africa
-				duration = -1 
+				duration = -1
 			}
 		}
 		ai_weight = {
@@ -662,7 +664,7 @@ kongo_conquest_armies_missions_slot = {
 				add_local_autonomy = -100
 				add_province_modifier = {
 					name = kon_intensified_copper_mining
-					duration = -1 
+					duration = 9125
 				}
 			}
 		}
@@ -696,7 +698,7 @@ kongo_conquest_armies_missions_slot = {
 		effect = {
 			add_country_modifier = {
 				name = kon_kuban_art
-				duration = -1 
+				duration = 9125
 			}
 			sankuru_area = {
 				limit = {
@@ -742,7 +744,7 @@ kongo_conquest_armies_missions_slot = {
 						trade_goods = iron
 					}
 				}
-				custom_tooltip = MONOPOLY_INCOME_IRON_DESC
+				custom_tooltip = MONOPOLY_INCOME_IRON_AND_COPPER_DESC
 			}
 			create_colony_mission_reward = {
 				province = 4109
@@ -774,7 +776,7 @@ kongo_conquest_armies_missions_slot = {
 							has_dlc = "Rights of Man"
 							has_dlc = "Emperor"
 						}
-						NOT = { great_power_rank = 9 }
+						is_great_power = yes
 					}
 					AND = {
 						NOT = { has_dlc = "Rights of Man" }
@@ -864,7 +866,7 @@ kongo_conquest_armies_missions_slot = {
 			}
 			add_country_modifier = {
 				name = kon_great_power
-				duration = -1 
+				duration = 7300
 			}
 		}
 		ai_weight = {
@@ -1029,7 +1031,7 @@ kongo_conquest_missions_slot = {
 					}
 					add_province_modifier = {
 						name = kon_chokwe_craftsmenship
-						duration = -1 
+						duration = 10950
 					}
 				}
 			}
@@ -1108,7 +1110,7 @@ kongo_conquest_missions_slot = {
 		effect = {
 			add_country_modifier = {
 				name = kon_south_african_hegemony
-				duration = -1 
+				duration = -1
 			}
 			custom_tooltip = kon_greatest_power_kongo_tt
 			hidden_effect = {
@@ -1123,7 +1125,7 @@ kongo_conquest_missions_slot = {
 					}
 					add_province_modifier = {
 						name = kon_south_african_hegemony_province
-						duration = -1 
+						duration = -1
 					}
 				}
 			}
@@ -1186,7 +1188,7 @@ kongo_colonies_centralization_missions_slot = {
 		}
 		effect = {
 			add_temporary_colonist = {
-				duration = -1 
+				duration = 36500
 			}
 		}
 		ai_weight = {
@@ -1353,7 +1355,7 @@ kongo_colonies_centralization_missions_slot = {
 				NOT = { num_of_rebel_armies = 1 }
 				NOT = { num_of_rebel_controlled_provinces = 1 }
 				custom_trigger_tooltip = {
-					tooltip = kon_absolute_rule_ct
+					tooltip = absolutism_dynamic_reward_tt
 					is_absolutism_active = no
 				}
 			}
@@ -1376,7 +1378,7 @@ kongo_colonies_centralization_missions_slot = {
 		effect = {
 			add_country_modifier = {
 				name = kon_absolute_rulership
-				duration = -1 
+				duration = -1
 			}
 		}
 		ai_weight = {
