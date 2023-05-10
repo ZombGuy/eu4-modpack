@@ -5,7 +5,7 @@ me_ulugh_beg_observatory = {
 		months = 60
 	}
 	build_cost = 500
-	can_be_moved = no
+	can_be_moved = yes
 	starting_tier = 1
 	type = canal
 	build_trigger = {
@@ -161,7 +161,7 @@ me_grand_palace = {
 		months = 60
 	}
 	build_cost = 500
-	can_be_moved = no
+	can_be_moved = yes
 	starting_tier = 1
 	type = canal
 	build_trigger = {
@@ -297,7 +297,7 @@ me_skull_pyramid = {
 		months = 60
 	}
 	build_cost = 500
-	can_be_moved = no
+	can_be_moved = yes
 	starting_tier = 1
 	type = canal
 	build_trigger = {
@@ -440,7 +440,7 @@ tomb_timur = { #Yes, I got Parm's Permission for this
 	build_cost = 0
 	
 	#can we move it?
-	can_be_moved = no
+	can_be_moved = yes
 	
 	#time to move the project one unit of distance, in days
 	move_days_per_unit_distance = 10

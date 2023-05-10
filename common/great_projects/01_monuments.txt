@@ -14,7 +14,7 @@ hagia_sophia = {
 	build_cost = 0
 	
 	#can we move it?
-	can_be_moved = no
+	can_be_moved = yes
 	
 	#time to move the project one unit of distance, in days
 	move_days_per_unit_distance = 10
@@ -519,7 +519,7 @@ tower_of_london = {
 	build_cost = 0
 	
 	#can we move it?
-	can_be_moved = no
+	can_be_moved = yes
 	
 	#time to move the project one unit of distance, in days
 	move_days_per_unit_distance = 7
@@ -976,7 +976,7 @@ parthenon = {
 	build_cost = 0
 	
 	#can we move it?
-	can_be_moved = no
+	can_be_moved = yes
 	
 	#time to move the project one unit of distance, in days
 	move_days_per_unit_distance = 6
@@ -1200,7 +1200,7 @@ forbidden_city = {
 	build_cost = 0
 	
 	#can we move it?
-	can_be_moved = no
+	can_be_moved = yes
 	
 	#time to move the project one unit of distance, in days
 	move_days_per_unit_distance = 10
@@ -1384,7 +1384,7 @@ angkor_wat = {
 	build_cost = 0
 	
 	#can we move it?
-	can_be_moved = no
+	can_be_moved = yes
 	
 	#time to move the project one unit of distance, in days
 	move_days_per_unit_distance = 10
@@ -1572,7 +1572,7 @@ petra = {
 	build_cost = 0
 	
 	#can we move it?
-	can_be_moved = no
+	can_be_moved = yes
 	
 	#time to move the project one unit of distance, in days
 	move_days_per_unit_distance = 10
@@ -1778,7 +1778,7 @@ cologne_cathedral = {
 	build_cost = 0
 	
 	#can we move it?
-	can_be_moved = no
+	can_be_moved = yes
 	
 	#time to move the project one unit of distance, in days
 	move_days_per_unit_distance = 10
@@ -1978,7 +1978,7 @@ kremlin = {
 	build_cost = 0
 	
 	#can we move it?
-	can_be_moved = no
+	can_be_moved = yes
 	
 	#time to move the project one unit of distance, in days
 	move_days_per_unit_distance = 1
@@ -2168,7 +2168,7 @@ machu_picchu = {
 	build_cost = 0
 	
 	#can we move it?
-	can_be_moved = no
+	can_be_moved = yes
 	
 	#time to move the project one unit of distance, in days
 	move_days_per_unit_distance = 1
@@ -2359,7 +2359,7 @@ chichen_itza = {
 	build_cost = 0
 	
 	#can we move it?
-	can_be_moved = no
+	can_be_moved = yes
 	
 	#time to move the project one unit of distance, in days
 	move_days_per_unit_distance = 1
@@ -2557,7 +2557,7 @@ himeji_castle = {
 	build_cost = 0
 	
 	#can we move it?
-	can_be_moved = no
+	can_be_moved = yes
 	
 	#time to move the project one unit of distance, in days
 	move_days_per_unit_distance = 1
@@ -2924,7 +2924,7 @@ stpeters_cathedral = {
 	build_cost = 0
 	
 	#can we move it?
-	can_be_moved = no
+	can_be_moved = yes
 	
 	#time to move the project one unit of distance, in days
 	move_days_per_unit_distance = 1
@@ -3146,7 +3146,7 @@ mount_fuji = {
 	build_cost = 0
 	
 	#can we move it?
-	can_be_moved = no
+	can_be_moved = yes
 	
 	#time to move the project one unit of distance, in days
 	move_days_per_unit_distance = 1
@@ -3467,7 +3467,7 @@ tenochtitlan = {
 	build_cost = 0
 	
 	#can we move it?
-	can_be_moved = no
+	can_be_moved = yes
 	
 	#time to move the project one unit of distance, in days
 	move_days_per_unit_distance = 1
@@ -3652,7 +3652,7 @@ notre_dame_cathedral = {
 	build_cost = 0
 	
 	#can we move it?
-	can_be_moved = no
+	can_be_moved = yes
 	
 	#time to move the project one unit of distance, in days
 	move_days_per_unit_distance = 1
@@ -3841,7 +3841,7 @@ shwedagon_pagoda = {
 	build_cost = 0
 	
 	#can we move it?
-	can_be_moved = no
+	can_be_moved = yes
 	
 	#time to move the project one unit of distance, in days
 	move_days_per_unit_distance = 1
@@ -4027,7 +4027,7 @@ the_great_wall_of_china = {
 	build_cost = 0
 	
 	#can we move it?
-	can_be_moved = no
+	can_be_moved = yes
 	
 	#time to move the project one unit of distance, in days
 	move_days_per_unit_distance = 1
@@ -4225,7 +4225,7 @@ ambras_castle = {
 	build_cost = 0
 	
 	#can we move it?
-	can_be_moved = no
+	can_be_moved = yes
 	
 	#time to move the project one unit of distance, in days
 	move_days_per_unit_distance = 1
@@ -4424,7 +4424,7 @@ mesa_verde = {
 	build_cost = 0
 	
 	#can we move it?
-	can_be_moved = no
+	can_be_moved = yes
 	
 	#time to move the project one unit of distance, in days
 	move_days_per_unit_distance = 1
@@ -4608,7 +4608,7 @@ taj_mahal = {
 	build_cost = 0
 	
 	#can we move it?
-	can_be_moved = no
+	can_be_moved = yes
 	
 	#time to move the project one unit of distance, in days
 	move_days_per_unit_distance = 1
@@ -4848,7 +4848,7 @@ alhambra = {
 	build_cost = 0
 	
 	#can we move it?
-	can_be_moved = no
+	can_be_moved = yes
 	
 	#time to move the project one unit of distance, in days
 	move_days_per_unit_distance = 1
@@ -5024,7 +5024,7 @@ the_grand_palace = {
 	build_cost = 0
 	
 	#can we move it?
-	can_be_moved = no
+	can_be_moved = yes
 	
 	#time to move the project one unit of distance, in days
 	move_days_per_unit_distance = 1
@@ -5203,7 +5203,7 @@ bagan_temples = {
 	build_cost = 0
 	
 	#can we move it?
-	can_be_moved = no
+	can_be_moved = yes
 	
 	#time to move the project one unit of distance, in days
 	move_days_per_unit_distance = 1
@@ -5384,7 +5384,7 @@ ait_benhaddou = {
 	build_cost = 0
 	
 	#can we move it?
-	can_be_moved = no
+	can_be_moved = yes
 	
 	#time to move the project one unit of distance, in days
 	move_days_per_unit_distance = 1
@@ -5563,7 +5563,7 @@ registan_square = {
 	build_cost = 0
 	
 	#can we move it?
-	can_be_moved = no
+	can_be_moved = yes
 	
 	#time to move the project one unit of distance, in days
 	move_days_per_unit_distance = 1
@@ -5748,7 +5748,7 @@ golden_temple = {
 	build_cost = 0
 	
 	#can we move it?
-	can_be_moved = no
+	can_be_moved = yes
 	
 	#time to move the project one unit of distance, in days
 	move_days_per_unit_distance = 1
@@ -6003,7 +6003,7 @@ jokhang_temple = {
 	build_cost = 0
 	
 	#can we move it?
-	can_be_moved = no
+	can_be_moved = yes
 	
 	#time to move the project one unit of distance, in days
 	move_days_per_unit_distance = 1
@@ -6184,7 +6184,7 @@ borobudur_temple = {
 	build_cost = 0
 	
 	#can we move it?
-	can_be_moved = no
+	can_be_moved = yes
 	
 	#time to move the project one unit of distance, in days
 	move_days_per_unit_distance = 1
@@ -6381,7 +6381,7 @@ temple_of_confucius = {
 	build_cost = 0
 	
 	#can we move it?
-	can_be_moved = no
+	can_be_moved = yes
 	
 	#time to move the project one unit of distance, in days
 	move_days_per_unit_distance = 1
@@ -6592,7 +6592,7 @@ murud_janjira = {
 	build_cost = 0
 	
 	#can we move it?
-	can_be_moved = no
+	can_be_moved = yes
 	
 	#time to move the project one unit of distance, in days
 	move_days_per_unit_distance = 1
@@ -6771,7 +6771,7 @@ pura_besakih = {
 	build_cost = 0
 	
 	#can we move it?
-	can_be_moved = no
+	can_be_moved = yes
 	
 	#time to move the project one unit of distance, in days
 	move_days_per_unit_distance = 1
@@ -6956,7 +6956,7 @@ kanbawzathadi_palace = {
 	build_cost = 0
 	
 	#can we move it?
-	can_be_moved = no
+	can_be_moved = yes
 	
 	#time to move the project one unit of distance, in days
 	move_days_per_unit_distance = 1
@@ -7134,7 +7134,7 @@ pyramid_of_cheops = {
 	build_cost = 0
 	
 	#can we move it?
-	can_be_moved = no
+	can_be_moved = yes
 	
 	#time to move the project one unit of distance, in days
 	move_days_per_unit_distance = 1
@@ -7336,7 +7336,7 @@ khami_ruins = {
 	build_cost = 0
 	
 	#can we move it?
-	can_be_moved = no
+	can_be_moved = yes
 	
 	#time to move the project one unit of distance, in days
 	move_days_per_unit_distance = 1
@@ -7511,7 +7511,7 @@ prambanan_temple = {
 	build_cost = 0
 	
 	#can we move it?
-	can_be_moved = no
+	can_be_moved = yes
 	
 	#time to move the project one unit of distance, in days
 	move_days_per_unit_distance = 1
@@ -7867,7 +7867,7 @@ fire_temple_of_ateshgah = {
 	build_cost = 0
 	
 	#can we move it?
-	can_be_moved = no
+	can_be_moved = yes
 	
 	#time to move the project one unit of distance, in days
 	move_days_per_unit_distance = 1
@@ -8052,7 +8052,7 @@ kiev_pechersk_lavra = {
 	build_cost = 0
 	
 	#can we move it?
-	can_be_moved = no
+	can_be_moved = yes
 	
 	#time to move the project one unit of distance, in days
 	move_days_per_unit_distance = 1
@@ -8240,7 +8240,7 @@ kiev_pechersk_lavra = {
 	# build_cost = 0
 	
 	#can we move it?
-	# can_be_moved = no
+	# can_be_moved = yes
 	
 	#time to move the project one unit of distance, in days
 	# move_days_per_unit_distance = 1
@@ -8434,7 +8434,7 @@ belem_tower = {
 	build_cost = 0
 	
 	#can we move it?
-	can_be_moved = no
+	can_be_moved = yes
 	
 	#time to move the project one unit of distance, in days
 	move_days_per_unit_distance = 1
@@ -8616,7 +8616,7 @@ sankin_kotai_palaces = {
 	build_cost = 0
 	
 	#can we move it?
-	can_be_moved = no
+	can_be_moved = yes
 	
 	#time to move the project one unit of distance, in days
 	move_days_per_unit_distance = 1
@@ -8799,7 +8799,7 @@ mausoleum_at_halicarnassus = {
 	build_cost = 0
 	
 	#can we move it?
-	can_be_moved = no
+	can_be_moved = yes
 	
 	#time to move the project one unit of distance, in days
 	move_days_per_unit_distance = 1
@@ -8978,7 +8978,7 @@ heddal_stave_church = {
 	build_cost = 0
 	
 	#can we move it?
-	can_be_moved = no
+	can_be_moved = yes
 	
 	#time to move the project one unit of distance, in days
 	move_days_per_unit_distance = 1
@@ -9165,7 +9165,7 @@ versailles = {
 	build_cost = 0
 	
 	#can we move it?
-	can_be_moved = no
+	can_be_moved = yes
 	
 	#time to move the project one unit of distance, in days
 	move_days_per_unit_distance = 1
@@ -9364,7 +9364,7 @@ el_escorial = {
 	build_cost = 0
 	
 	#can we move it?
-	can_be_moved = no
+	can_be_moved = yes
 	
 	#time to move the project one unit of distance, in days
 	move_days_per_unit_distance = 1
@@ -9549,7 +9549,7 @@ potosi = {
 	build_cost = 0
 	
 	#can we move it?
-	can_be_moved = no
+	can_be_moved = yes
 	
 	#time to move the project one unit of distance, in days
 	move_days_per_unit_distance = 1
@@ -9788,7 +9788,7 @@ kaaba = {
 	build_cost = 0
 	
 	#can we move it?
-	can_be_moved = no
+	can_be_moved = yes
 	
 	#time to move the project one unit of distance, in days
 	move_days_per_unit_distance = 1
@@ -9992,7 +9992,7 @@ holy_city_jerusalem = {
 	build_cost = 0
 	
 	#can we move it?
-	can_be_moved = no
+	can_be_moved = yes
 	
 	#time to move the project one unit of distance, in days
 	move_days_per_unit_distance = 1
@@ -10212,7 +10212,7 @@ great_mosque_djenne = {
 	build_cost = 0
 	
 	#can we move it?
-	can_be_moved = no
+	can_be_moved = yes
 	
 	#time to move the project one unit of distance, in days
 	move_days_per_unit_distance = 1
@@ -10420,7 +10420,7 @@ imperial_city_hue = {
 	build_cost = 0
 	
 	#can we move it?
-	can_be_moved = no
+	can_be_moved = yes
 	
 	#time to move the project one unit of distance, in days
 	move_days_per_unit_distance = 1
@@ -10594,7 +10594,7 @@ baiturrahman_grand_mosque = {
 	date = 1444.01.01	#1612.01.01
 	time = { months = 0	}
 	build_cost = 0
-	can_be_moved = no
+	can_be_moved = yes
 	move_days_per_unit_distance = 10
 	starting_tier = 0
 	type = monument
@@ -10711,7 +10711,7 @@ bam_citadel = {
 	date = 10.01.01
 	time = { months = 0	}
 	build_cost = 0
-	can_be_moved = no
+	can_be_moved = yes
 	move_days_per_unit_distance = 10
 	starting_tier = 2
 	type = monument
@@ -10816,7 +10816,7 @@ bara_katra = {
 	date = 1444.01.01	#1644.01.01
 	time = { months = 0	}
 	build_cost = 0
-	can_be_moved = no
+	can_be_moved = yes
 	move_days_per_unit_distance = 10
 	starting_tier = 0
 	type = monument
@@ -10971,7 +10971,7 @@ bran_castle = {
 	date = 1357.01.01
 	time = { months = 0	}
 	build_cost = 0
-	can_be_moved = no
+	can_be_moved = yes
 	move_days_per_unit_distance = 10
 	starting_tier = 1
 	type = monument
@@ -11104,7 +11104,7 @@ brandenburg_gate = {
 	date = 1444.01.01	#1788.01.01
 	time = { months = 0	}
 	build_cost = 0
-	can_be_moved = no
+	can_be_moved = yes
 	move_days_per_unit_distance = 10
 	starting_tier = 0
 	type = monument
@@ -11241,7 +11241,7 @@ buda_castle = {
 	date = 1444.01.01 #1460.01.01
 	time = { months = 0	}
 	build_cost = 0
-	can_be_moved = no
+	can_be_moved = yes
 	move_days_per_unit_distance = 10
 	starting_tier = 0
 	type = monument
@@ -11344,7 +11344,7 @@ cahokia = {
 	date = 100.01.01
 	time = { months = 0	}
 	build_cost = 0
-	can_be_moved = no
+	can_be_moved = yes
 	move_days_per_unit_distance = 10
 	starting_tier = 2
 	type = monument
@@ -11458,7 +11458,7 @@ cartagena_de_indias = {
 	date = 1444.01.01	#1719.01.01
 	time = { months = 0	}
 	build_cost = 0
-	can_be_moved = no
+	can_be_moved = yes
 	move_days_per_unit_distance = 10
 	starting_tier = 0
 	type = monument
@@ -11570,7 +11570,7 @@ chan_chan_citadel = {
 	date = 850.01.01
 	time = { months = 0	}
 	build_cost = 0
-	can_be_moved = no
+	can_be_moved = yes
 	move_days_per_unit_distance = 10
 	starting_tier = 2
 	type = monument
@@ -11683,7 +11683,7 @@ doges_palace = {
 	date = 1340.01.01
 	time = { months = 0	}
 	build_cost = 0
-	can_be_moved = no
+	can_be_moved = yes
 	move_days_per_unit_distance = 10
 	starting_tier = 2
 	type = monument
@@ -11788,7 +11788,7 @@ duomo_milano = {
 	date = 1386.01.01
 	time = { months = 0	}
 	build_cost = 0
-	can_be_moved = no
+	can_be_moved = yes
 	move_days_per_unit_distance = 10
 	starting_tier = 1
 	type = monument
@@ -11915,7 +11915,7 @@ dutch_polders = {
 	date = 1100.01.01
 	time = { months = 0	}
 	build_cost = 0
-	can_be_moved = no
+	can_be_moved = yes
 	move_days_per_unit_distance = 10
 	starting_tier = 1
 	type = monument
@@ -12042,7 +12042,7 @@ ellora_caves = {
 	date = 100.01.01
 	time = { months = 0	}
 	build_cost = 0
-	can_be_moved = no
+	can_be_moved = yes
 	move_days_per_unit_distance = 10
 	starting_tier = 1
 	type = monument
@@ -12190,7 +12190,7 @@ erdene_zuu = {
 	date = 1444.01.01	#1585.01.01
 	time = { months = 0	}
 	build_cost = 0
-	can_be_moved = no
+	can_be_moved = yes
 	move_days_per_unit_distance = 10
 	starting_tier = 0
 	type = monument
@@ -12322,7 +12322,7 @@ etchimiadzin_cathedral = {
 	date = 301.01.01
 	time = { months = 0	}
 	build_cost = 0
-	can_be_moved = no
+	can_be_moved = yes
 	move_days_per_unit_distance = 10
 	starting_tier = 1
 	type = monument
@@ -12464,7 +12464,7 @@ fuerte_del_morro = {
 	date = 1444.01.01	#1589.01.01
 	time = { months = 0	}
 	build_cost = 0
-	can_be_moved = no
+	can_be_moved = yes
 	move_days_per_unit_distance = 10
 	starting_tier = 0
 	type = monument
@@ -12723,7 +12723,7 @@ chola_temples = {
 	date = 1035.01.01
 	time = { months = 0	}
 	build_cost = 0
-	can_be_moved = no
+	can_be_moved = yes
 	move_days_per_unit_distance = 10
 	starting_tier = 2
 	type = monument
@@ -12861,7 +12861,7 @@ gyeongbok_palace = {
 	date = 1394.01.01
 	time = { months = 0	}
 	build_cost = 0
-	can_be_moved = no
+	can_be_moved = yes
 	move_days_per_unit_distance = 10
 	starting_tier = 2
 	type = monument
@@ -13034,7 +13034,7 @@ hampi = {
 	date = 100.01.01	#Construction dates differ quite a lot, but it is definitely before 1444
 	time = { months = 0	}
 	build_cost = 0
-	can_be_moved = no
+	can_be_moved = yes
 	move_days_per_unit_distance = 10
 	starting_tier = 1
 	type = monument
@@ -13182,7 +13182,7 @@ prague = {
 	date = 700.01.01
 	time = { months = 0	}
 	build_cost = 0
-	can_be_moved = no
+	can_be_moved = yes
 	move_days_per_unit_distance = 10
 	starting_tier = 2
 	type = monument
@@ -13334,7 +13334,7 @@ holy_city_kairouan = {
 	date = 670.01.01
 	time = { months = 0	}
 	build_cost = 0
-	can_be_moved = no
+	can_be_moved = yes
 	move_days_per_unit_distance = 10
 	starting_tier = 2
 	type = monument
@@ -13448,7 +13448,7 @@ imam_hussein_al-abbas = {
 	date = 680.01.01
 	time = { months = 0	}
 	build_cost = 0
-	can_be_moved = no
+	can_be_moved = yes
 	move_days_per_unit_distance = 10
 	starting_tier = 1
 	type = monument
@@ -13563,7 +13563,7 @@ kashi_vishwanath = {
 	date = 1194.01.01
 	time = { months = 0	}
 	build_cost = 0
-	can_be_moved = no
+	can_be_moved = yes
 	move_days_per_unit_distance = 10
 	starting_tier = 1
 	type = monument
@@ -13765,7 +13765,7 @@ khajuraho = {
 	date = 850.01.01
 	time = { months = 0	}
 	build_cost = 0
-	can_be_moved = no
+	can_be_moved = yes
 	move_days_per_unit_distance = 10
 	starting_tier = 1
 	type = monument
@@ -13903,7 +13903,7 @@ kilwa_city = {
 	date = 975.01.01
 	time = { months = 0	}
 	build_cost = 0
-	can_be_moved = no
+	can_be_moved = yes
 	move_days_per_unit_distance = 10
 	starting_tier = 2
 	type = monument
@@ -14017,7 +14017,7 @@ krakow_cloth_hall = {
 	date = 1250.01.01
 	time = { months = 0	}
 	build_cost = 0
-	can_be_moved = no
+	can_be_moved = yes
 	move_days_per_unit_distance = 10
 	starting_tier = 1
 	type = monument
@@ -14122,7 +14122,7 @@ maidan-e_naqsh-e_jahan = {
 	date = 1444.01.01	#1600.01.01
 	time = { months = 0	}
 	build_cost = 0
-	can_be_moved = no
+	can_be_moved = yes
 	move_days_per_unit_distance = 10
 	starting_tier = 0
 	type = monument
@@ -14237,7 +14237,7 @@ malbork_castle = {
 	date = 1300.01.01
 	time = { months = 0	}
 	build_cost = 0
-	can_be_moved = no
+	can_be_moved = yes
 	move_days_per_unit_distance = 10
 	starting_tier = 2
 	type = monument
@@ -14352,7 +14352,7 @@ malta_forts = {
 	date = 100.01.01	#Ancient fortresses existed way earlier
 	time = { months = 0	}
 	build_cost = 0
-	can_be_moved = no
+	can_be_moved = yes
 	move_days_per_unit_distance = 10
 	starting_tier = 1
 	type = monument
@@ -14460,7 +14460,7 @@ mehrangarh_fort = {
 	date = 1444.01.01	#1454.01.01
 	time = { months = 0	}
 	build_cost = 0
-	can_be_moved = no
+	can_be_moved = yes
 	move_days_per_unit_distance = 10
 	starting_tier = 0
 	type = monument
@@ -14569,7 +14569,7 @@ nan_madoll = {
 	date = 500.01.01	#Date is a little bit iffy here
 	time = { months = 0	}
 	build_cost = 0
-	can_be_moved = no
+	can_be_moved = yes
 	move_days_per_unit_distance = 10
 	starting_tier = 1
 	type = monument
@@ -14672,7 +14672,7 @@ porcelain_tower_nanjing = {
 	date = 1431.01.01
 	time = { months = 0	}
 	build_cost = 0
-	can_be_moved = no
+	can_be_moved = yes
 	move_days_per_unit_distance = 10
 	starting_tier = 2
 	type = monument
@@ -14801,7 +14801,7 @@ qhapaq_nam = {
 	date = 100.01.01
 	time = { months = 0	}
 	build_cost = 0
-	can_be_moved = no
+	can_be_moved = yes
 	move_days_per_unit_distance = 10
 	starting_tier = 1
 	type = monument
@@ -14931,7 +14931,7 @@ rila_monasteries = {
 	date = 927.01.01
 	time = { months = 0	}
 	build_cost = 0
-	can_be_moved = no
+	can_be_moved = yes
 	move_days_per_unit_distance = 10
 	starting_tier = 1
 	type = monument
@@ -15046,7 +15046,7 @@ churches_lalibela = {
 	date = 1137.01.01
 	time = { months = 0	}
 	build_cost = 0
-	can_be_moved = no
+	can_be_moved = yes
 	move_days_per_unit_distance = 10
 	starting_tier = 2
 	type = monument
@@ -15160,7 +15160,7 @@ royal_palace_caserta = {
 	date = 1444.01.01	#1752.01.01
 	time = { months = 0	}
 	build_cost = 0
-	can_be_moved = no
+	can_be_moved = yes
 	move_days_per_unit_distance = 10
 	starting_tier = 0
 	type = monument
@@ -15265,7 +15265,7 @@ san_antonio_missions = {
 	date = 1444.01.01	#1716.01.01
 	time = { months = 0	}
 	build_cost = 0
-	can_be_moved = no
+	can_be_moved = yes
 	move_days_per_unit_distance = 10
 	starting_tier = 0
 	type = monument
@@ -15386,7 +15386,7 @@ sankore_madrasah = {
 	date = 989.01.01
 	time = { months = 0	}
 	build_cost = 0
-	can_be_moved = no
+	can_be_moved = yes
 	move_days_per_unit_distance = 10
 	starting_tier = 1
 	type = monument
@@ -15491,7 +15491,7 @@ santa_maria_del_fiore = {
 	date = 1379.01.01	#Cathedral was able to be used for praying
 	time = { months = 0	}
 	build_cost = 0
-	can_be_moved = no
+	can_be_moved = yes
 	move_days_per_unit_distance = 10
 	starting_tier = 2
 	type = monument
@@ -15637,7 +15637,7 @@ spiral_minaret_samarra = {
 	date = 850.01.01
 	time = { months = 0	}
 	build_cost = 0
-	can_be_moved = no
+	can_be_moved = yes
 	move_days_per_unit_distance = 10
 	starting_tier = 0
 	type = monument
@@ -15752,7 +15752,7 @@ sultan_ahmed_mosque = {
 	date = 1444.01.01	#1616.01.01
 	time = { months = 0	}
 	build_cost = 0
-	can_be_moved = no
+	can_be_moved = yes
 	move_days_per_unit_distance = 10
 	starting_tier = 0
 	type = monument
@@ -15867,7 +15867,7 @@ sun_temple_konarak = {
 	date = 1250.01.01
 	time = { months = 0	}
 	build_cost = 0
-	can_be_moved = no
+	can_be_moved = yes
 	move_days_per_unit_distance = 10
 	starting_tier = 2
 	type = monument
@@ -16005,7 +16005,7 @@ swayambhunath = {
 	date = 10.01.01	#Long before 1444
 	time = { months = 0	}
 	build_cost = 0
-	can_be_moved = no
+	can_be_moved = yes
 	move_days_per_unit_distance = 10
 	starting_tier = 1
 	type = monument
@@ -16142,7 +16142,7 @@ white_house = {
 	date = 1444.01.01	#1800.01.01
 	time = { months = 0	}
 	build_cost = 0
-	can_be_moved = no
+	can_be_moved = yes
 	move_days_per_unit_distance = 10
 	starting_tier = 0
 	type = monument
@@ -16278,7 +16278,7 @@ tikal = {
 	date = 10.01.01
 	time = { months = 0	}
 	build_cost = 0
-	can_be_moved = no
+	can_be_moved = yes
 	move_days_per_unit_distance = 10
 	starting_tier = 0
 	type = monument
@@ -16390,7 +16390,7 @@ tiwanaku = {
 	date = 10.01.01
 	time = { months = 0	}
 	build_cost = 0
-	can_be_moved = no
+	can_be_moved = yes
 	move_days_per_unit_distance = 10
 	starting_tier = 0
 	type = monument
@@ -16504,7 +16504,7 @@ tortuga_island = {
 	date = 1444.01.01	#1640.01.01
 	time = { months = 0	}
 	build_cost = 0
-	can_be_moved = no
+	can_be_moved = yes
 	move_days_per_unit_distance = 10
 	starting_tier = 0
 	type = monument
@@ -16615,7 +16615,7 @@ ulm_minster_great_project = {
 	date = 1377.01.01
 	time = { months = 0	}
 	build_cost = 0
-	can_be_moved = no
+	can_be_moved = yes
 	move_days_per_unit_distance = 10
 	starting_tier = 1
 	type = monument
@@ -16728,7 +16728,7 @@ walls_benin = {
 	date = 900.01.01
 	time = { months = 0	}
 	build_cost = 0
-	can_be_moved = no
+	can_be_moved = yes
 	move_days_per_unit_distance = 10
 	starting_tier = 2
 	type = monument
@@ -16856,7 +16856,7 @@ winter_palace = {
 	date = 1444.01.01	#1711.01.01
 	time = { months = 0	}
 	build_cost = 0
-	can_be_moved = no
+	can_be_moved = yes
 	move_days_per_unit_distance = 10
 	starting_tier = 0
 	type = monument
@@ -16993,7 +16993,7 @@ zacatecas_mine_city = {
 	date = 1444.01.01	#1548.01.01
 	time = { months = 0	}
 	build_cost = 0
-	can_be_moved = no
+	can_be_moved = yes
 	move_days_per_unit_distance = 10
 	starting_tier = 0
 	type = monument
@@ -17119,7 +17119,7 @@ falun_copper_mine = {
 	date = 1000.01.01
 	time = { months = 0	}
 	build_cost = 0
-	can_be_moved = no
+	can_be_moved = yes
 	move_days_per_unit_distance = 10
 	starting_tier = 1
 	type = monument
@@ -17227,7 +17227,7 @@ kronborg = {
 	date = 1420.01.01
 	time = { months = 0	}
 	build_cost = 0
-	can_be_moved = no
+	can_be_moved = yes
 	move_days_per_unit_distance = 10
 	starting_tier = 1
 	type = monument
@@ -17341,7 +17341,7 @@ visby_city = {
 	date = 800.01.01
 	time = { months = 0	}
 	build_cost = 0
-	can_be_moved = no
+	can_be_moved = yes
 	move_days_per_unit_distance = 10
 	starting_tier = 1
 	type = monument
@@ -17449,7 +17449,7 @@ trakai_castle = {
 	date = 1409.01.01
 	time = { months = 0	}
 	build_cost = 0
-	can_be_moved = no
+	can_be_moved = yes
 	move_days_per_unit_distance = 10
 	starting_tier = 1
 	type = monument
@@ -17554,7 +17554,7 @@ salvador_da_bahia = {
 	date = 1444.01.01	#1549.3.29
 	time = { months = 0	}
 	build_cost = 0
-	can_be_moved = no
+	can_be_moved = yes
 	move_days_per_unit_distance = 10
 	starting_tier = 0
 	type = monument
@@ -17666,7 +17666,7 @@ mbanza_kongo = {
 	date = 1390.01.01
 	time = { months = 0	}
 	build_cost = 0
-	can_be_moved = no
+	can_be_moved = yes
 	move_days_per_unit_distance = 10
 	starting_tier = 0
 	type = monument
@@ -17778,7 +17778,7 @@ harar_jugol = {
 	date = 500.01.01
 	time = { months = 0	}
 	build_cost = 0
-	can_be_moved = no
+	can_be_moved = yes
 	move_days_per_unit_distance = 10
 	starting_tier = 1
 	type = monument
@@ -17893,7 +17893,7 @@ dujiangyan = {
 	date = 100.01.01
 	time = { months = 0	}
 	build_cost = 0
-	can_be_moved = no
+	can_be_moved = yes
 	move_days_per_unit_distance = 10
 	starting_tier = 1
 	type = monument
@@ -17999,7 +17999,7 @@ palace_of_the_popes = {
 	date = 1335.10.07
 	time = { months = 0	}
 	build_cost = 0
-	can_be_moved = no
+	can_be_moved = yes
 	move_days_per_unit_distance = 10
 	starting_tier = 1
 	type = monument
@@ -18165,7 +18165,7 @@ edinburgh_castle = {
 	date = 1050.09.01
 	time = { months = 0	}
 	build_cost = 0
-	can_be_moved = no
+	can_be_moved = yes
 	move_days_per_unit_distance = 10
 	starting_tier = 1
 	type = monument
@@ -18338,7 +18338,7 @@ aljaferia_palace = {
 	date = 1035.11.04
 	time = { months = 0	}
 	build_cost = 0
-	can_be_moved = no
+	can_be_moved = yes
 	move_days_per_unit_distance = 10
 	starting_tier = 1
 	type = monument
@@ -18488,7 +18488,7 @@ divrigi_hospital_mosque = {
 	date = 879.11.04
 	time = { months = 0	}
 	build_cost = 0
-	can_be_moved = no
+	can_be_moved = yes
 	move_days_per_unit_distance = 10
 	starting_tier = 1
 	type = monument
@@ -18602,7 +18602,7 @@ st_basil_cathedral = {
 	date = 1444.06.01
 	time = { months = 0	}
 	build_cost = 0
-	can_be_moved = no
+	can_be_moved = yes
 	move_days_per_unit_distance = 10
 	starting_tier = 0
 	type = monument
@@ -18733,7 +18733,7 @@ grand_canal_1 = {
 	date = 1427.01.09
 	time = { months = 0	}
 	build_cost = 0
-	can_be_moved = no
+	can_be_moved = yes
 	move_days_per_unit_distance = 10
 	starting_tier = 1
 	type = monument
@@ -18843,7 +18843,7 @@ grand_canal_2 = {
 	date = 1427.01.09
 	time = { months = 0	}
 	build_cost = 0
-	can_be_moved = no
+	can_be_moved = yes
 	move_days_per_unit_distance = 10
 	starting_tier = 1
 	type = monument
@@ -18953,7 +18953,7 @@ grand_canal_3 = {
 	date = 1427.01.09
 	time = { months = 0	}
 	build_cost = 0
-	can_be_moved = no
+	can_be_moved = yes
 	move_days_per_unit_distance = 10
 	starting_tier = 1
 	type = monument
@@ -19063,7 +19063,7 @@ grand_canal_4 = {
 	date = 1427.01.09
 	time = { months = 0	}
 	build_cost = 0
-	can_be_moved = no
+	can_be_moved = yes
 	move_days_per_unit_distance = 10
 	starting_tier = 1
 	type = monument
@@ -19173,7 +19173,7 @@ imperial_city_kyoto = {
 	date = 723.05.01
 	time = { months = 0	}
 	build_cost = 0
-	can_be_moved = no
+	can_be_moved = yes
 	move_days_per_unit_distance = 10
 	starting_tier = 1
 	type = monument
