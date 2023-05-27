@@ -1,0 +1,66 @@
+﻿l_french:
+ #Decision
+ CSIG_config_decision_title: "Change Subject's Idea Group: Options"
+ CSIG_config_decision_desc: "Enact decision to configure features of the mod."
+
+ CSIG.cancel: "Cancel"
+ CSIG.confirm: "Confirm"
+ CSIG.alright: "Alright"
+ CSIG.return: "Return"
+ CSIG.enabled: "§GENABLED§!"
+ CSIG.disabled: "§RDISABLED§!"
+
+ CSIG_config_events.plus_10: "+10"
+ CSIG_config_events.plus_5: "+5"
+ CSIG_config_events.plus_1: "+1"
+ CSIG_config_events.minus_1: "-1"
+ CSIG_config_events.minus_5: "-5"
+ CSIG_config_events.minus_10: "-10"
+
+ #Events
+ CSIG_config_events.mod_options: "Change Subject's Idea Group: Options"
+ CSIG_config_events.mod_options_desc: "This mod allows changing subject's idea group at cost of some Diplomatic Power (configurable). Changing subject's idea group can done through Influence Actions in Diplomacy Menu."
+
+ CSIG_change_events.choose_idea_group_to_remove: "Idea Group to Abandon"
+ CSIG_change_events.choose_idea_group_to_remove_desc: "Country: [CSIG_selected_target.GetName]\n\nChoose the idea group that should be removed from [CSIG_selected_target.GetName]. Only existing idea groups are listed in the option below."
+
+ CSIG_change_events.choose_idea_group_to_add: "Idea Group to Embrace"
+ CSIG_change_events.choose_idea_group_to_add_desc: "Country: [CSIG_selected_target.GetName]\nIdea group to be removed: [Root.CSIG_idea_group_to_remove_localization]\n\nChoose the idea group that should be added to [CSIG_selected_target.GetName]. Only valid idea groups are listed in the option below. Keep in mind that the removed idea group will not be refunded and this might cause disruption in the target country.\n\nThis will cost [Root.GetName] [REB.CSIG_change_idea_group_dip_cost_var.GetValue] Diplomatic Power."
+
+ CSIG_config_events.change_idea_group_target: "Allowed Target Country"
+ CSIG_config_events.change_idea_group_target_desc: "Enable or disable the parties whose idea group can be changed."
+ CSIG_config_events.change_idea_group_independent_subjects_status: "Independent Subjects = [CSIG_independent_subjects_status_localization]"
+ CSIG_config_events.change_idea_group_non_independent_subjects_status: "Non-Independent Subjects = [CSIG_non_independent_subjects_status_localization]"
+ CSIG_config_events.change_idea_group_trade_league_members_status: "Trade League Members = [CSIG_trade_league_members_status_localization]"
+
+ CSIG_config_events.opinion_loss: "Subject's Opinion Loss"
+ CSIG_config_events.opinion_loss_desc: "If set to 'ENABLED', whenever a country idea group is changed by external power they will have -35 opinion with yearly decay of +3 against the initiator."
+ CSIG_config_events.opinion_loss_status: "Opinion Loss = [CSIG_opinion_loss_status_localization]"
+
+ CSIG_config_events.stability_hit: "Subject's Stability Hit"
+ CSIG_config_events.stability_hit_desc: "If set to 'ENABLED', whenever a country idea group is changed by external power they will lose 1 stability."
+ CSIG_config_events.stability_hit_status: "Stability Hit = [CSIG_stability_hit_status_localization]"
+
+ CSIG_config_events.change_idea_group_cost: "Change Subject's Idea Group Cost"
+ CSIG_config_events.change_idea_group_cost_desc: "Diplomatic Power Cost: [REB.CSIG_change_idea_group_dip_cost_var.GetValue]\n\nSet the cost of moving changing subject idea group."
+ CSIG_config_events.change_idea_group_cost_status: "Change Subject's Idea Group Cost = [REB.CSIG_change_idea_group_dip_cost_var.GetValue]£text_dip£"
+
+ CSIG_check_change_idea_cost: "[CSIG_check_change_idea_cost_localization]"
+ CSIG_check_change_idea_cost_tooltip: "\nLose §R[REB.CSIG_change_idea_group_dip_cost_var.GetValue]§! Diplomatic Power."
+ CSIG_remove_idea_group_tooltip: "Remove §Y[Root.CSIG_idea_group_to_remove_localization]§! idea group"
+ CSIG_stability_loss_check: "[CSIG_stability_hit_check_localization]"
+ CSIG_stability_loss_tooltip: "Lose §R1§! Stability."
+
+ CSIG_internal_meddling_opinion: "Internal Meddling"
+
+ #Diplomatic action: Change Idea Group
+ CSIG_change_idea_group_diplomatic_action: "Change Idea Group"
+ CSIG_change_idea_group_diplomatic_action_title: "Change Idea Group"
+ CSIG_change_idea_group_diplomatic_action_desc: "Begin the process to change idea group of §Y[From.GetName]§!.[Root.CSIG_change_idea_group_diplomatic_action_desc_diplomatic_cost_localization][Root.CSIG_change_idea_group_diplomatic_action_desc_consequence_check_localization]"
+ CSIG_change_idea_group_diplomatic_action_desc_diplomatic_cost_text: "\nThe action will cost us §Y[Root.CSIG_change_idea_group_dip_cost_var.GetValue]§!£dip£"
+ CSIG_change_idea_group_diplomatic_action_desc_consequence_check: "\n\nThis would led to:[Root.CSIG_change_idea_group_diplomatic_action_desc_opinion_loss_localization][Root.CSIG_change_idea_group_diplomatic_action_desc_stability_hit_localization]"
+ CSIG_change_idea_group_diplomatic_action_desc_opinion_loss_localization_text: "\n -§Y[From.GetName]§! will lose opinion of §Y[Root.GetName]§!"
+ CSIG_change_idea_group_diplomatic_action_desc_stability_hit_localization_text: "\n -§Y[From.GetName]§! will lose §R-1§! Stability"
+ CSIG_change_idea_group_diplomatic_action_tooltip: "Change target country idea group."
+
+ CSIG_ROOT_enough_dip_power_tooltip: "§Y[Root.GetName]§! has at least §Y[Root.CSIG_change_idea_group_dip_cost_var.GetValue]§!£dip£"

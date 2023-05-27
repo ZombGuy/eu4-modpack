@@ -1,0 +1,36 @@
+country_decisions = {
+	CSIG_config_decision = {
+		major = yes
+		potential = {
+			ai = no
+			NOT = { has_country_flag = CSIG_open_config_menu_flag }
+		}
+		allow = { always = yes }
+		effect = {
+			hidden_effect = {
+				if = {
+					limit = { NOT = { has_global_flag = CSIG_change_subject_idea_group_mod_active_global_flag } }
+					set_global_flag = CSIG_change_subject_idea_group_mod_active_global_flag
+					REB = {
+						set_variable = {
+							which = CSIG_change_idea_group_dip_cost_var
+							value = 50
+						}
+					}
+					#who can be changed
+					set_global_flag = CSIG_change_non_independent_subjects_idea_group_enabled_global_flag
+					set_global_flag = CSIG_change_trade_league_members_idea_group_enabled_global_flag
+		
+					#effect of meddling
+					set_global_flag = CSIG_target_opinion_loss_enabled_global_flag
+					set_global_flag = CSIG_target_stability_hit_enabled_global_flag
+				}
+				set_country_flag = CSIG_open_config_menu_flag
+				country_event = {
+					id = CSIG_config_events.0
+				}
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+}

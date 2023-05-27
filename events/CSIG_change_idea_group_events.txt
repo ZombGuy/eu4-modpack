@@ -1,0 +1,653 @@
+namespace = CSIG_change_events
+country_event = {
+	id = CSIG_change_events.1
+	title = CSIG_change_events.choose_idea_group_to_remove
+	desc = CSIG_change_events.choose_idea_group_to_remove_desc
+	picture = INVENTION_eventPicture
+	is_triggered_only = yes
+	immediate = {
+		clr_country_flag = CSIG_remove_aristocracy_ideas_country_flag
+		clr_country_flag = CSIG_remove_plutocracy_ideas_country_flag
+		clr_country_flag = CSIG_remove_horde_gov_ideas_country_flag
+		clr_country_flag = CSIG_remove_theocracy_gov_ideas_country_flag
+		clr_country_flag = CSIG_remove_indigenous_ideas_country_flag
+		clr_country_flag = CSIG_remove_innovativeness_ideas_country_flag
+		clr_country_flag = CSIG_remove_religious_ideas_country_flag
+		clr_country_flag = CSIG_remove_spy_ideas_country_flag
+		clr_country_flag = CSIG_remove_diplomatic_ideas_country_flag
+		clr_country_flag = CSIG_remove_offensive_ideas_country_flag
+		clr_country_flag = CSIG_remove_defensive_ideas_country_flag
+		clr_country_flag = CSIG_remove_trade_ideas_country_flag
+		clr_country_flag = CSIG_remove_economic_ideas_country_flag
+		clr_country_flag = CSIG_remove_exploration_ideas_country_flag
+		clr_country_flag = CSIG_remove_maritime_ideas_country_flag
+		clr_country_flag = CSIG_remove_quality_ideas_country_flag
+		clr_country_flag = CSIG_remove_quantity_ideas_country_flag
+		clr_country_flag = CSIG_remove_expansion_ideas_country_flag
+		clr_country_flag = CSIG_remove_administrative_ideas_country_flag
+		clr_country_flag = CSIG_remove_humanist_ideas_country_flag
+		clr_country_flag = CSIG_remove_influence_ideas_country_flag
+		clr_country_flag = CSIG_remove_naval_ideas_country_flag
+		clr_country_flag = CSIG_remove_infrastructure_ideas_country_flag
+		clr_country_flag = CSIG_remove_court_ideas_country_flag
+		clr_country_flag = CSIG_remove_mercenary_ideas_country_flag
+	}
+	option = {
+		name = aristocracy_ideas
+		ai_chance = { factor = 0 }
+		trigger = {
+			event_target:CSIG_selected_target = {
+				has_idea_group = aristocracy_ideas
+			}
+		}
+		hidden_effect = {
+			set_country_flag = CSIG_remove_aristocracy_ideas_country_flag
+		}
+	}
+	option = {
+		name = plutocracy_ideas
+		ai_chance = { factor = 0 }
+		trigger = {
+			event_target:CSIG_selected_target = {
+				has_idea_group = plutocracy_ideas
+			}
+		}
+		hidden_effect = {
+			set_country_flag = CSIG_remove_plutocracy_ideas_country_flag
+		}
+	}
+	option = {
+		name = horde_gov_ideas
+		ai_chance = { factor = 0 }
+		trigger = {
+			event_target:CSIG_selected_target = {
+				has_idea_group = horde_gov_ideas
+			}
+		}
+		hidden_effect = {
+			set_country_flag = CSIG_remove_horde_gov_ideas_country_flag
+		}
+	}
+	option = {
+		name = theocracy_gov_ideas
+		ai_chance = { factor = 0 }
+		trigger = {
+			event_target:CSIG_selected_target = {
+				has_idea_group = theocracy_gov_ideas
+			}
+		}
+		hidden_effect = {
+			set_country_flag = CSIG_remove_theocracy_gov_ideas_country_flag
+		}
+	}
+	option = {
+		name = indigenous_ideas
+		ai_chance = { factor = 0 }
+		trigger = {
+			event_target:CSIG_selected_target = {
+				has_idea_group = indigenous_ideas
+			}
+		}
+		hidden_effect = {
+			set_country_flag = CSIG_remove_indigenous_ideas_country_flag
+		}
+	}
+	option = {
+		name = innovativeness_ideas
+		ai_chance = { factor = 0 }
+		trigger = {
+			event_target:CSIG_selected_target = {
+				has_idea_group = innovativeness_ideas
+			}
+		}
+		hidden_effect = {
+			set_country_flag = CSIG_remove_innovativeness_ideas_country_flag
+		}
+	}
+	option = {
+		name = religious_ideas
+		ai_chance = { factor = 0 }
+		trigger = {
+			event_target:CSIG_selected_target = {
+				has_idea_group = religious_ideas
+			}
+		}
+		hidden_effect = {
+			set_country_flag = CSIG_remove_religious_ideas_country_flag
+		}
+	}
+	option = {
+		name = spy_ideas
+		ai_chance = { factor = 0 }
+		trigger = {
+			event_target:CSIG_selected_target = {
+				has_idea_group = spy_ideas
+			}
+		}
+		hidden_effect = {
+			set_country_flag = CSIG_remove_spy_ideas_country_flag
+		}
+	}
+	option = {
+		name = diplomatic_ideas
+		ai_chance = { factor = 0 }
+		trigger = {
+			event_target:CSIG_selected_target = {
+				has_idea_group = diplomatic_ideas
+			}
+		}
+		hidden_effect = {
+			set_country_flag = CSIG_remove_diplomatic_ideas_country_flag
+		}
+	}
+	option = {
+		name = offensive_ideas
+		ai_chance = { factor = 0 }
+		trigger = {
+			event_target:CSIG_selected_target = {
+				has_idea_group = offensive_ideas
+			}
+		}
+		hidden_effect = {
+			set_country_flag = CSIG_remove_offensive_ideas_country_flag
+		}
+	}
+	option = {
+		name = defensive_ideas
+		ai_chance = { factor = 0 }
+		trigger = {
+			event_target:CSIG_selected_target = {
+				has_idea_group = defensive_ideas
+			}
+		}
+		hidden_effect = {
+			set_country_flag = CSIG_remove_defensive_ideas_country_flag
+		}
+	}
+	option = {
+		name = trade_ideas
+		ai_chance = { factor = 0 }
+		trigger = {
+			event_target:CSIG_selected_target = {
+				has_idea_group = trade_ideas
+			}
+		}
+		hidden_effect = {
+			set_country_flag = CSIG_remove_trade_ideas_country_flag
+		}
+	}
+	option = {
+		name = economic_ideas
+		ai_chance = { factor = 0 }
+		trigger = {
+			event_target:CSIG_selected_target = {
+				has_idea_group = economic_ideas
+			}
+		}
+		hidden_effect = {
+			set_country_flag = CSIG_remove_economic_ideas_country_flag
+		}
+	}
+	option = {
+		name = exploration_ideas
+		ai_chance = { factor = 0 }
+		trigger = {
+			event_target:CSIG_selected_target = {
+				has_idea_group = exploration_ideas
+			}
+		}
+		hidden_effect = {
+			set_country_flag = CSIG_remove_exploration_ideas_country_flag
+		}
+	}
+	option = {
+		name = maritime_ideas
+		ai_chance = { factor = 0 }
+		trigger = {
+			event_target:CSIG_selected_target = {
+				has_idea_group = maritime_ideas
+			}
+		}
+		hidden_effect = {
+			set_country_flag = CSIG_remove_maritime_ideas_country_flag
+		}
+	}
+	option = {
+		name = quality_ideas
+		ai_chance = { factor = 0 }
+		trigger = {
+			event_target:CSIG_selected_target = {
+				has_idea_group = quality_ideas
+			}
+		}
+		hidden_effect = {
+			set_country_flag = CSIG_remove_quality_ideas_country_flag
+		}
+	}
+	option = {
+		name = quantity_ideas
+		ai_chance = { factor = 0 }
+		trigger = {
+			event_target:CSIG_selected_target = {
+				has_idea_group = quantity_ideas
+			}
+		}
+		hidden_effect = {
+			set_country_flag = CSIG_remove_quantity_ideas_country_flag
+		}
+	}
+	option = {
+		name = expansion_ideas
+		ai_chance = { factor = 0 }
+		trigger = {
+			event_target:CSIG_selected_target = {
+				has_idea_group = expansion_ideas
+			}
+		}
+		hidden_effect = {
+			set_country_flag = CSIG_remove_expansion_ideas_country_flag
+		}
+	}
+	option = {
+		name = administrative_ideas
+		ai_chance = { factor = 0 }
+		trigger = {
+			event_target:CSIG_selected_target = {
+				has_idea_group = administrative_ideas
+			}
+		}
+		hidden_effect = {
+			set_country_flag = CSIG_remove_administrative_ideas_country_flag
+		}
+	}
+	option = {
+		name = humanist_ideas
+		ai_chance = { factor = 0 }
+		trigger = {
+			event_target:CSIG_selected_target = {
+				has_idea_group = humanist_ideas
+			}
+		}
+		hidden_effect = {
+			set_country_flag = CSIG_remove_humanist_ideas_country_flag
+		}
+	}
+	option = {
+		name = influence_ideas
+		ai_chance = { factor = 0 }
+		trigger = {
+			event_target:CSIG_selected_target = {
+				has_idea_group = influence_ideas
+			}
+		}
+		hidden_effect = {
+			set_country_flag = CSIG_remove_influence_ideas_country_flag
+		}
+	}
+	option = {
+		name = naval_ideas
+		ai_chance = { factor = 0 }
+		trigger = {
+			event_target:CSIG_selected_target = {
+				has_idea_group = naval_ideas
+			}
+		}
+		hidden_effect = {
+			set_country_flag = CSIG_remove_naval_ideas_country_flag
+		}
+	}
+	option = {
+		name = infrastructure_ideas
+		ai_chance = { factor = 0 }
+		trigger = {
+			event_target:CSIG_selected_target = {
+				has_idea_group = infrastructure_ideas
+			}
+		}
+		hidden_effect = {
+			set_country_flag = CSIG_remove_infrastructure_ideas_country_flag
+		}
+	}
+	option = {
+		name = court_ideas
+		ai_chance = { factor = 0 }
+		trigger = {
+			event_target:CSIG_selected_target = {
+				has_idea_group = court_ideas
+			}
+		}
+		hidden_effect = {
+			set_country_flag = CSIG_remove_court_ideas_country_flag
+		}
+	}
+	option = {
+		name = mercenary_ideas
+		ai_chance = { factor = 0 }
+		trigger = {
+			event_target:CSIG_selected_target = {
+				has_idea_group = mercenary_ideas
+			}
+		}
+		hidden_effect = {
+			set_country_flag = CSIG_remove_mercenary_ideas_country_flag
+		}
+	}
+	option = {
+		#Cancel
+		name = CSIG.cancel
+        highlight = yes
+		hidden_effect = {
+			clr_country_flag = CSIG_change_idea_group_menu_flag
+		}
+		ai_chance = { factor = 0 }
+	}
+	after = {
+		if = {
+			limit = {
+				OR = {
+					has_country_flag = CSIG_remove_aristocracy_ideas_country_flag
+					has_country_flag = CSIG_remove_plutocracy_ideas_country_flag
+					has_country_flag = CSIG_remove_horde_gov_ideas_country_flag
+					has_country_flag = CSIG_remove_theocracy_gov_ideas_country_flag
+					has_country_flag = CSIG_remove_indigenous_ideas_country_flag
+					has_country_flag = CSIG_remove_innovativeness_ideas_country_flag
+					has_country_flag = CSIG_remove_religious_ideas_country_flag
+					has_country_flag = CSIG_remove_spy_ideas_country_flag
+					has_country_flag = CSIG_remove_diplomatic_ideas_country_flag
+					has_country_flag = CSIG_remove_offensive_ideas_country_flag
+					has_country_flag = CSIG_remove_defensive_ideas_country_flag
+					has_country_flag = CSIG_remove_trade_ideas_country_flag
+					has_country_flag = CSIG_remove_economic_ideas_country_flag
+					has_country_flag = CSIG_remove_exploration_ideas_country_flag
+					has_country_flag = CSIG_remove_maritime_ideas_country_flag
+					has_country_flag = CSIG_remove_quality_ideas_country_flag
+					has_country_flag = CSIG_remove_quantity_ideas_country_flag
+					has_country_flag = CSIG_remove_expansion_ideas_country_flag
+					has_country_flag = CSIG_remove_administrative_ideas_country_flag
+					has_country_flag = CSIG_remove_humanist_ideas_country_flag
+					has_country_flag = CSIG_remove_influence_ideas_country_flag
+					has_country_flag = CSIG_remove_naval_ideas_country_flag
+					has_country_flag = CSIG_remove_infrastructure_ideas_country_flag
+					has_country_flag = CSIG_remove_court_ideas_country_flag
+					has_country_flag = CSIG_remove_mercenary_ideas_country_flag
+				}
+			}
+			country_event = {
+				id = CSIG_change_events.2
+			}
+		}
+	}
+}
+country_event = {
+	id = CSIG_change_events.2
+	title = CSIG_change_events.choose_idea_group_to_add
+	desc = CSIG_change_events.choose_idea_group_to_add_desc
+	picture = INVENTION_eventPicture
+	is_triggered_only = yes
+	option = {
+		name = aristocracy_ideas
+		ai_chance = { factor = 0 }
+		trigger = {
+			event_target:CSIG_selected_target = {
+				NOT = { has_idea_group = aristocracy_ideas }
+				has_government_attribute = enables_aristocratic_idea_group
+			}
+		}
+		CSIG_change_idea_group_effect = { IDEAGROUP = aristocracy_ideas }
+	}
+	option = {
+		name = plutocracy_ideas
+		ai_chance = { factor = 0 }
+		trigger = {
+			event_target:CSIG_selected_target = {
+				NOT = { has_idea_group = plutocracy_ideas }
+				has_government_attribute = enables_plutocratic_idea_group
+			}
+		}
+		CSIG_change_idea_group_effect = { IDEAGROUP = plutocracy_ideas }
+	}
+	option = {
+		name = horde_gov_ideas
+		ai_chance = { factor = 0 }
+		trigger = {
+			event_target:CSIG_selected_target = {
+				NOT = { has_idea_group = horde_gov_ideas }
+				has_government_attribute = enables_horde_idea_group
+			}
+		}
+		CSIG_change_idea_group_effect = { IDEAGROUP = horde_gov_ideas }
+	}
+	option = {
+		name = theocracy_gov_ideas
+		ai_chance = { factor = 0 }
+		trigger = {
+			event_target:CSIG_selected_target = {
+				NOT = { has_idea_group = theocracy_gov_ideas }
+				has_government_attribute = enables_divine_idea_group
+			}
+		}
+		CSIG_change_idea_group_effect = { IDEAGROUP = theocracy_gov_ideas }
+	}
+	option = {
+		name = indigenous_ideas
+		ai_chance = { factor = 0 }
+		trigger = {
+			event_target:CSIG_selected_target = {
+				NOT = { has_idea_group = indigenous_ideas }
+				has_government_attribute = enables_natives_idea_group
+			}
+		}
+		CSIG_change_idea_group_effect = { IDEAGROUP = indigenous_ideas }
+	}
+	option = {
+		name = innovativeness_ideas
+		ai_chance = { factor = 0 }
+		trigger = {
+			event_target:CSIG_selected_target = {
+				NOT = { has_idea_group = innovativeness_ideas }
+			}
+		}
+		CSIG_change_idea_group_effect = { IDEAGROUP = innovativeness_ideas }
+	}
+	option = {
+		name = religious_ideas
+		ai_chance = { factor = 0 }
+		trigger = {
+			event_target:CSIG_selected_target = {
+				NOT = { has_idea_group = religious_ideas }
+			}
+		}
+		CSIG_change_idea_group_effect = { IDEAGROUP = religious_ideas }
+	}
+	option = {
+		name = spy_ideas
+		ai_chance = { factor = 0 }
+		trigger = {
+			event_target:CSIG_selected_target = {
+				NOT = { has_idea_group = spy_ideas }
+			}
+		}
+		CSIG_change_idea_group_effect = { IDEAGROUP = spy_ideas }
+	}
+	option = {
+		name = diplomatic_ideas
+		ai_chance = { factor = 0 }
+		trigger = {
+			event_target:CSIG_selected_target = {
+				NOT = { has_idea_group = diplomatic_ideas }
+			}
+		}
+		CSIG_change_idea_group_effect = { IDEAGROUP = diplomatic_ideas }
+	}
+	option = {
+		name = offensive_ideas
+		ai_chance = { factor = 0 }
+		trigger = {
+			event_target:CSIG_selected_target = {
+				NOT = { has_idea_group = offensive_ideas }
+			}
+		}
+		CSIG_change_idea_group_effect = { IDEAGROUP = offensive_ideas }
+	}
+	option = {
+		name = defensive_ideas
+		ai_chance = { factor = 0 }
+		trigger = {
+			event_target:CSIG_selected_target = {
+				NOT = { has_idea_group = defensive_ideas }
+			}
+		}
+		CSIG_change_idea_group_effect = { IDEAGROUP = defensive_ideas }
+	}
+	option = {
+		name = trade_ideas
+		ai_chance = { factor = 0 }
+		trigger = {
+			event_target:CSIG_selected_target = {
+				NOT = { has_idea_group = trade_ideas }
+			}
+		}
+		CSIG_change_idea_group_effect = { IDEAGROUP = trade_ideas }
+	}
+	option = {
+		name = economic_ideas
+		ai_chance = { factor = 0 }
+		trigger = {
+			event_target:CSIG_selected_target = {
+				NOT = { has_idea_group = economic_ideas }
+			}
+		}
+		CSIG_change_idea_group_effect = { IDEAGROUP = economic_ideas }
+	}
+	option = {
+		name = exploration_ideas
+		ai_chance = { factor = 0 }
+		trigger = {
+			event_target:CSIG_selected_target = {
+				NOT = { has_idea_group = exploration_ideas }
+			}
+		}
+		CSIG_change_idea_group_effect = { IDEAGROUP = exploration_ideas }
+	}
+	option = {
+		name = maritime_ideas
+		ai_chance = { factor = 0 }
+		trigger = {
+			event_target:CSIG_selected_target = {
+				NOT = { has_idea_group = maritime_ideas }
+			}
+		}
+		CSIG_change_idea_group_effect = { IDEAGROUP = maritime_ideas }
+	}
+	option = {
+		name = quality_ideas
+		ai_chance = { factor = 0 }
+		trigger = {
+			event_target:CSIG_selected_target = {
+				NOT = { has_idea_group = quality_ideas }
+			}
+		}
+		CSIG_change_idea_group_effect = { IDEAGROUP = quality_ideas }
+	}
+	option = {
+		name = quantity_ideas
+		ai_chance = { factor = 0 }
+		trigger = {
+			event_target:CSIG_selected_target = {
+				NOT = { has_idea_group = quantity_ideas }
+			}
+		}
+		CSIG_change_idea_group_effect = { IDEAGROUP = quantity_ideas }
+	}
+	option = {
+		name = expansion_ideas
+		ai_chance = { factor = 0 }
+		trigger = {
+			event_target:CSIG_selected_target = {
+				NOT = { has_idea_group = expansion_ideas }
+			}
+		}
+		CSIG_change_idea_group_effect = { IDEAGROUP = expansion_ideas }
+	}
+	option = {
+		name = administrative_ideas
+		ai_chance = { factor = 0 }
+		trigger = {
+			event_target:CSIG_selected_target = {
+				NOT = { has_idea_group = administrative_ideas }
+			}
+		}
+		CSIG_change_idea_group_effect = { IDEAGROUP = administrative_ideas }
+	}
+	option = {
+		name = humanist_ideas
+		ai_chance = { factor = 0 }
+		trigger = {
+			event_target:CSIG_selected_target = {
+				NOT = { has_idea_group = humanist_ideas }
+			}
+		}
+		CSIG_change_idea_group_effect = { IDEAGROUP = humanist_ideas }
+	}
+	option = {
+		name = influence_ideas
+		ai_chance = { factor = 0 }
+		trigger = {
+			event_target:CSIG_selected_target = {
+				NOT = { has_idea_group = influence_ideas }
+			}
+		}
+		CSIG_change_idea_group_effect = { IDEAGROUP = influence_ideas }
+	}
+	option = {
+		name = naval_ideas
+		ai_chance = { factor = 0 }
+		trigger = {
+			event_target:CSIG_selected_target = {
+				NOT = { has_idea_group = naval_ideas }
+			}
+		}
+		CSIG_change_idea_group_effect = { IDEAGROUP = naval_ideas }
+	}
+	option = {
+		name = infrastructure_ideas
+		ai_chance = { factor = 0 }
+		trigger = {
+			event_target:CSIG_selected_target = {
+				NOT = { has_idea_group = infrastructure_ideas }
+			}
+		}
+		CSIG_change_idea_group_effect = { IDEAGROUP = infrastructure_ideas }
+	}
+	option = {
+		name = court_ideas
+		ai_chance = { factor = 0 }
+		trigger = {
+			event_target:CSIG_selected_target = {
+				NOT = { has_idea_group = court_ideas }
+			}
+		}
+		CSIG_change_idea_group_effect = { IDEAGROUP = court_ideas }
+	}
+	option = {
+		name = mercenary_ideas
+		ai_chance = { factor = 0 }
+		trigger = {
+			event_target:CSIG_selected_target = {
+				NOT = { has_idea_group = mercenary_ideas }
+			}
+		}
+		CSIG_change_idea_group_effect = { IDEAGROUP = mercenary_ideas }
+	}
+	option = {
+		#Return
+		name = CSIG.return
+        highlight = yes
+		hidden_effect = {
+			country_event = {
+				id = CSIG_change_events.1
+			}
+		}
+		ai_chance = { factor = 0 }
+	}
+}

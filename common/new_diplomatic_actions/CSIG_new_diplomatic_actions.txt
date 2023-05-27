@@ -1,0 +1,93 @@
+CSIG_change_idea_group_diplomatic_action = {
+	category = influence
+	require_acceptance = no
+	is_visible = {
+		has_global_flag = CSIG_change_subject_idea_group_mod_active_global_flag
+		NOT = { has_country_flag = CSIG_open_config_menu_flag }
+		NOT = { has_country_flag = CSIG_change_idea_group_menu_flag }
+		has_country_flag = CSIG_set_cost_flag
+		OR = {
+			AND = {
+				has_global_flag = CSIG_change_independent_subjects_idea_group_enabled_global_flag
+				OR = {
+					FROM = { is_subject_of = ROOT }
+					FROM = { overlord = { is_subject_of = ROOT } }
+				}
+			}
+			AND = {
+				has_global_flag = CSIG_change_non_independent_subjects_idea_group_enabled_global_flag
+				OR = {
+					FROM = {
+						is_subject_of = ROOT
+						is_subject_other_than_tributary_trigger = yes
+					}
+					FROM = { overlord = { is_subject_of = ROOT } }
+				}
+			}
+			AND = {
+				has_global_flag = CSIG_change_trade_league_members_idea_group_enabled_global_flag
+				ROOT = { is_trade_league_leader = yes }
+				FROM = {
+					is_in_trade_league_with = ROOT
+				}
+			}
+		}
+		FROM = { CSIG_has_any_idea_group_triggers = yes }
+	}
+	is_allowed = {
+		hidden_trigger = {
+			has_global_flag = CSIG_change_subject_idea_group_mod_active_global_flag
+			NOT = { has_country_flag = CSIG_open_config_menu_flag }
+			NOT = { has_country_flag = CSIG_change_idea_group_menu_flag }
+			has_country_flag = CSIG_set_cost_flag
+			OR = {
+				AND = {
+					has_global_flag = CSIG_change_independent_subjects_idea_group_enabled_global_flag
+					OR = {
+						FROM = { is_subject_of = ROOT }
+						FROM = { overlord = { is_subject_of = ROOT } }
+					}
+				}
+				AND = {
+					has_global_flag = CSIG_change_non_independent_subjects_idea_group_enabled_global_flag
+					OR = {
+						FROM = {
+							is_subject_of = ROOT
+							is_subject_other_than_tributary_trigger = yes
+						}
+						FROM = { overlord = { is_subject_of = ROOT } }
+					}
+				}
+				AND = {
+					has_global_flag = CSIG_change_trade_league_members_idea_group_enabled_global_flag
+					ROOT = { is_trade_league_leader = yes }
+					FROM = {
+						is_in_trade_league_with = ROOT
+					}
+				}
+			}
+			FROM = { CSIG_has_any_idea_group_triggers = yes }
+		}
+		variable_arithmetic_trigger = {
+			custom_tooltip = CSIG_ROOT_enough_dip_power_tooltip
+			export_to_variable = {
+				which = CSIG_dip_power_var
+				value = trigger_value:dip_power
+			}
+			check_variable = { which = CSIG_dip_power_var which = CSIG_change_idea_group_dip_cost_var } 
+		}
+	}
+	on_accept = {
+		FROM = { set_country_flag = CSIG_change_idea_group_target@ROOT }
+		set_country_flag = CSIG_change_idea_group_menu_flag
+
+		country_event = {
+			id = CSIG_script_events.1
+		}
+
+		FROM = { clr_country_flag = CSIG_change_idea_group_target@ROOT }
+	}
+	ai_will_do = {
+		always = no
+	}
+}

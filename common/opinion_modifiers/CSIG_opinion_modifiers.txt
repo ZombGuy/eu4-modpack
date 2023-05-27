@@ -1,0 +1,4 @@
+CSIG_internal_meddling_opinion = {
+	opinion = -35
+	yearly_decay = 3
+}
