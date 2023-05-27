@@ -1,0 +1,200 @@
+#Config Events
+defined_text = {
+    name = LCLC_large_city_and_largest_city_development_growth_status_localization
+    text = {
+        localisation_key = LCLC_config_events.enabled
+        trigger = { has_global_flag = LCLC_large_city_and_largest_city_development_growth_enabled_global_flag }
+    }
+    text = {
+        localisation_key = LCLC_config_events.disabled
+        trigger = { NOT = { has_global_flag = LCLC_large_city_and_largest_city_development_growth_enabled_global_flag } }
+    }
+}
+defined_text = {
+    name = LCLC_large_city_change_notification_status_localization
+    text = {
+        localisation_key = LCLC_config_events.enabled
+        trigger = { has_global_flag = LCLC_large_city_change_notification_enabled_global_flag }
+    }
+    text = {
+        localisation_key = LCLC_config_events.disabled
+        trigger = { NOT = { has_global_flag = LCLC_large_city_change_notification_enabled_global_flag } }
+    }
+}
+defined_text = {
+    name = LCLC_largest_city_change_notification_status_localization
+    text = {
+        localisation_key = LCLC_config_events.enabled
+        trigger = { has_global_flag = LCLC_largest_city_change_notification_enabled_global_flag }
+    }
+    text = {
+        localisation_key = LCLC_config_events.disabled
+        trigger = { NOT = { has_global_flag = LCLC_largest_city_change_notification_enabled_global_flag } }
+    }
+}
+defined_text = {
+    name = LCLC_largest_city_in_the_world_after_global_trade_status_localization
+    text = {
+        localisation_key = LCLC_config_events.enabled
+        trigger = { has_global_flag = LCLC_largest_city_in_the_world_after_global_trade_enabled_global_flag }
+    }
+    text = {
+        localisation_key = LCLC_config_events.disabled
+        trigger = { NOT = { has_global_flag = LCLC_largest_city_in_the_world_after_global_trade_enabled_global_flag } }
+    }
+}
+#Notification event
+defined_text = {
+    name = LCLC_city_notification_localization
+    text = {
+        localisation_key = LCLC_script_events.large_city_in_region
+        trigger = { has_province_modifier = LCLC_large_city_in_region_modifier }
+    }
+    text = {
+        localisation_key = LCLC_script_events.largest_city_in_superregion
+        trigger = { has_province_modifier = LCLC_largest_city_in_superregion_modifier }
+    }
+    text = {
+        localisation_key = LCLC_script_events.largest_city_in_continent
+        trigger = { has_province_modifier = LCLC_largest_city_in_continent_modifier }
+    }
+    text = {
+        localisation_key = LCLC_script_events.largest_city_in_world
+        trigger = { has_province_modifier = LCLC_largest_city_in_world_modifier }
+    }
+    text = {
+        localisation_key = LCLC_script_events.common_city
+        trigger = {
+            NOT = { has_province_modifier = LCLC_large_city_in_region_modifier }
+            NOT = { has_province_modifier = LCLC_largest_city_in_superregion_modifier }
+            NOT = { has_province_modifier = LCLC_largest_city_in_continent_modifier }
+            NOT = { has_province_modifier = LCLC_largest_city_in_world_modifier }
+        }
+    }
+}
+defined_text = {
+    name = LCLC_city_change_notification_previous_status_localization
+    text = {
+        localisation_key = LCLC_script_events.city_change_notification_previous_common_city
+        trigger = { 
+            NOT = { has_province_flag = LCLC_previous_large_city_in_region_flag }
+            NOT = { has_province_flag = LCLC_previous_largest_city_in_superregion_flag }
+            NOT = { has_province_flag = LCLC_previous_largest_city_in_continent_flag }
+            NOT = { has_province_flag = LCLC_previous_largest_city_in_world_flag }
+        }
+    }
+    text = {
+        localisation_key = LCLC_script_events.city_change_notification_previous_large_city_in_region
+        trigger = { has_province_flag = LCLC_previous_large_city_in_region_flag }
+    }
+    text = {
+        localisation_key = LCLC_script_events.city_change_notification_previous_largest_city_in_superregion
+        trigger = { has_province_flag = LCLC_previous_largest_city_in_superregion_flag }
+    }
+    text = {
+        localisation_key = LCLC_script_events.city_change_notification_previous_largest_city_in_continent
+        trigger = { has_province_flag = LCLC_previous_largest_city_in_continent_flag }
+    }
+    text = {
+        localisation_key = LCLC_script_events.city_change_notification_previous_largest_city_in_world
+        trigger = { has_province_flag = LCLC_previous_largest_city_in_world_flag }
+    }
+}
+
+###
+defined_text = {
+    name = LCLC_get_development_increase_chance_localization
+    random = no
+    text = {
+        localisation_key = LCLC_development_increase_chance_value_localization
+        trigger = {
+			check_variable = {
+				which = LCLC_development_increase_chance_var
+				value = 1
+			}
+		}
+    }
+    text = {
+        localisation_key = LCLC_zero_growth_value_localization
+        trigger = {
+            NOT = {
+                check_variable = {
+                    which = LCLC_development_increase_chance_var
+                    value = 1
+                }
+            }
+		}
+    }
+}
+defined_text = {
+    name = LCLC_get_tax_growth_localization
+    random = no
+    text = {
+        localisation_key = LCLC_tax_growth_value_localization
+        trigger = {
+			check_variable = {
+				which = LCLC_tax_dev_growth_var
+				value = 1
+			}
+		}
+    }
+    text = {
+        localisation_key = LCLC_zero_growth_value_localization
+        trigger = {
+            NOT = {
+                check_variable = {
+                    which = LCLC_tax_dev_growth_var
+                    value = 1
+                }
+            }
+		}
+    }
+}
+defined_text = {
+    name = LCLC_get_production_growth_localization
+    random = no
+    text = {
+        localisation_key = LCLC_production_growth_value_localization
+        trigger = {
+			check_variable = {
+				which = LCLC_production_dev_growth_var
+				value = 1
+			}
+		}
+    }
+    text = {
+        localisation_key = LCLC_zero_growth_value_localization
+        trigger = {
+            NOT = {
+                check_variable = {
+                    which = LCLC_production_dev_growth_var
+                    value = 1
+                }
+            }
+		}
+    }
+}
+defined_text = {
+    name = LCLC_get_manpower_growth_localization
+    random = no
+    text = {
+        localisation_key = LCLC_manpower_growth_value_localization
+        trigger = {
+			check_variable = {
+				which = LCLC_manpower_dev_growth_var
+				value = 1
+			}
+		}
+    }
+    text = {
+        localisation_key = LCLC_zero_growth_value_localization
+        trigger = {
+            NOT = {
+                check_variable = {
+                    which = LCLC_manpower_dev_growth_var
+                    value = 1
+                }
+            }
+		}
+    }
+}

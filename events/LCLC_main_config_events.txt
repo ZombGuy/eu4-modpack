@@ -1,0 +1,119 @@
+country_event = {
+	id = LCLC_config_events.1
+	title = LCLC_config_events.large_city_and_largest_city_mod_options
+	desc = LCLC_config_events.large_city_and_largest_city_mod_options_desc
+	picture = INVENTION_eventPicture
+	is_triggered_only = yes
+	immediate = {
+		hidden_effect = {
+			REB = {
+				set_variable = {
+					which = LCLC_display_minimum_development_increase_chance_var
+					which = LCLC_minimum_development_increase_chance_var
+				}
+				multiply_variable = {
+					which = LCLC_display_minimum_development_increase_chance_var
+					value = 100
+				}
+			}
+		}
+	}
+	option = {
+		#Large City Development Growth Stat
+		name = LCLC_stat_events.dev_growth
+		highlight = yes
+		ai_chance = { factor = 0 }
+		trigger = { 
+			hidden_trigger = {
+				has_global_flag = LCLC_large_city_and_largest_city_development_growth_enabled_global_flag 
+			}
+		}
+		hidden_effect = {
+			country_event = {
+				id = LCLC_stat_events.1
+			}
+		}
+	}
+	option = {
+		#Rate of Large City per Cities in Region
+		name = LCLC_config_events.large_city_per_cities_in_region_status
+		ai_chance = { factor = 0 }
+		hidden_effect = {
+			country_event = {
+				id = LCLC_config_events.7
+			}
+		}
+	}
+	option = {
+		#Minimum Chance of Development Growth
+		name = LCLC_config_events.minimum_chance_of_development_growth_status
+		ai_chance = { factor = 0 }
+		trigger = { has_global_flag = LCLC_large_city_and_largest_city_development_growth_enabled_global_flag }
+		hidden_effect = {
+			country_event = {
+				id = LCLC_config_events.10
+			}
+		}
+	}
+	option = {
+		#Large City and Largest City Development Growth
+		name = LCLC_config_events.large_city_and_largest_city_development_growth_status
+		ai_chance = { factor = 0 }
+		hidden_effect = {
+			country_event = {
+				id = LCLC_config_events.3
+			}
+		}
+	}
+	option = {
+		#Large City Change Notification
+		name = LCLC_config_events.large_city_change_notification_status
+		ai_chance = { factor = 0 }
+		hidden_effect = {
+			country_event = {
+				id = LCLC_config_events.4
+			}
+		}
+	}
+	option = {
+		#Largest City Change Notification
+		name = LCLC_config_events.largest_city_change_notification_status
+		ai_chance = { factor = 0 }
+		hidden_effect = {
+			country_event = {
+				id = LCLC_config_events.5
+			}
+		}
+	}
+	option = {
+		#Largest City in The World After Global Trade
+		name = LCLC_config_events.largest_city_in_the_world_after_global_trade_status
+		ai_chance = { factor = 0 }
+		hidden_effect = {
+			country_event = {
+				id = LCLC_config_events.6
+			}
+		}
+	}
+	option = {
+		#Confirm
+		name = LCLC.confirm
+        highlight = yes
+		trigger = { hidden_trigger = { NOT = { has_global_flag = LCLC_initial_config_set_global_flag } } }
+		ai_chance = { factor = 0 }
+		hidden_effect = {
+			set_global_flag = LCLC_large_city_and_largest_city_mod_active_global_flag
+			set_global_flag = LCLC_initial_config_set_global_flag
+			set_global_flag = LCLC_set_minimum_development_increase_chance_flag
+			LCLC_assign_large_city_and_largest_city_effects = yes
+		}
+	}
+	option = {
+		#Confirm
+		name = LCLC.confirm
+        highlight = yes
+		trigger = { hidden_trigger = { has_global_flag = LCLC_initial_config_set_global_flag } }
+		clr_country_flag = LCLC_open_config_menu_flag
+		ai_chance = { factor = 0 }
+	}
+}

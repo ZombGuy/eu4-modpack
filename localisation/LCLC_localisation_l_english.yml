@@ -1,0 +1,109 @@
+﻿l_english:
+ #Decision
+ LCLC_config_decision_title: "Large City and Largest City: Options"
+ LCLC_config_decision_desc: "Enact decision to configure features of the mod."
+
+ LCLC_backup_decision_title: "Large City and Largest City: Set up"
+ LCLC_backup_decision_desc: "Enact decision if the initial event does not trigger."
+
+ #Modifiers
+ LCLC_large_city_in_region_modifier: "Large City in the Region"
+ desc_LCLC_large_city_in_region_modifier: "This city is among the most developed in its region. Being an important site helps development and production. On previous check, it has [Root.LCLC_get_development_increase_chance_localization] chance to gain 1 development\n--------------\nTotal development gained:\n£text_adm£: [Root.LCLC_get_tax_growth_localization] £text_dip£: [Root.LCLC_get_production_growth_localization] £text_mil£: [Root.LCLC_get_manpower_growth_localization]"
+ LCLC_largest_city_in_superregion_modifier: "Largest City in the Subcontinent"
+ desc_LCLC_largest_city_in_superregion_modifier: "This city has the most development in its subcontinent. Being such a significant site greatly helps development, production, and brings prestige to its owner. On previous check, it has [Root.LCLC_get_development_increase_chance_localization] chance to gain 1 development\n--------------\nTotal development gained:\n£text_adm£: [Root.LCLC_get_tax_growth_localization] £text_dip£: [Root.LCLC_get_production_growth_localization] £text_mil£: [Root.LCLC_get_manpower_growth_localization]"
+ LCLC_largest_city_in_continent_modifier: "Largest City in the Continent"
+ desc_LCLC_largest_city_in_continent_modifier: "This city has the most development in its continent. Being such a significant site greatly helps development, production, and brings prestige to its owner. On previous check, it has [Root.LCLC_get_development_increase_chance_localization] chance to gain 1 development\n--------------\nTotal development gained:\n£text_adm£: [Root.LCLC_get_tax_growth_localization] £text_dip£: [Root.LCLC_get_production_growth_localization] £text_mil£: [Root.LCLC_get_manpower_growth_localization]"
+ LCLC_largest_city_in_world_modifier: "Largest City in the World"
+ desc_LCLC_largest_city_in_world_modifier: "This city has the most development in the world. This greatly helps development, production, and brings prestige and splendor to its owner. On previous check, it has [Root.LCLC_get_development_increase_chance_localization] chance to gain 1 development\n--------------\nTotal development gained:\n£text_adm£: [Root.LCLC_get_tax_growth_localization] £text_dip£: [Root.LCLC_get_production_growth_localization] £text_mil£: [Root.LCLC_get_manpower_growth_localization]"
+
+ LCLC_ex_large_city_in_region_modifier: "Ex-Large City in Region"
+ desc_LCLC_ex_large_city_in_region_modifier: "This city used to be among the most developed in its region and it has experienced growth due to its position in the past.\n--------------\nTotal development gained:\n£text_adm£: [Root.LCLC_get_tax_growth_localization] £text_dip£: [Root.LCLC_get_production_growth_localization] £text_mil£: [Root.LCLC_get_manpower_growth_localization]"
+
+ LCLC_largest_city_in_every_continents_triggered_modifier: "Largest City in Every Continents"
+
+ #Modifier Variable
+ LCLC_development_increase_chance_value_localization: "§Y[Root.LCLC_development_increase_chance_var.GetValue]%§!"
+
+ LCLC_zero_growth_value_localization: "§Y0§!"
+ LCLC_tax_growth_value_localization: "§Y[Root.LCLC_tax_dev_growth_var.GetValue]§!"
+ LCLC_production_growth_value_localization: "§Y[Root.LCLC_production_dev_growth_var.GetValue]§!"
+ LCLC_manpower_growth_value_localization: "§Y[Root.LCLC_manpower_dev_growth_var.GetValue]§!"
+
+ #Events
+ LCLC_config_events.large_city_and_largest_city_mod_options: "Large City and Largest City: Options" #Desc on menu file as it will usually be overwritten by patches
+ 
+ 
+ LCLC.confirm: "Confirm"
+ LCLC.alright: "Alright"
+ LCLC_config_events.enabled: "§GENABLED§!"
+ LCLC_config_events.disabled: "§RDISABLED§!"
+
+ LCLC_config_events.large_city_per_cities_in_region_status: "Number of Large City in a Region = §Y1§! Large City per §Y[REB.LCLC_large_cities_per_cities_in_region_var.GetValue]§! Cities"
+ LCLC_config_events.minimum_chance_of_development_growth_status: "Minimum Chance of Development Growth = §Y[REB.LCLC_display_minimum_development_increase_chance_var.GetValue]%§!"
+ LCLC_config_events.large_city_and_largest_city_development_growth_status: "Large City and Largest City Development Growth = [LCLC_large_city_and_largest_city_development_growth_status_localization]"
+ LCLC_config_events.large_city_change_notification_status: "Large City Change Notification = [LCLC_large_city_change_notification_status_localization]"
+ LCLC_config_events.largest_city_change_notification_status: "Largest City Change Notification = [LCLC_largest_city_change_notification_status_localization]"
+ LCLC_config_events.largest_city_in_the_world_after_global_trade_status: "Delay Largest City in the World until after Global Trade = [LCLC_largest_city_in_the_world_after_global_trade_status_localization]"
+
+ LCLC_config_events.large_cities_per_cities_in_region: "Number of Large City in a Region"
+ LCLC_config_events.large_cities_per_cities_in_region_desc: "Current rate: 1 Large City per [REB.LCLC_large_cities_per_cities_in_region_var.GetValue] Cities\n\nDetermines number of Large Cities that will be assigned in a region based on number of cities. Cities are fully colonized provinces not owned by migratory tribes."
+ LCLC_config_events.plus_5: "+5"
+ LCLC_config_events.plus_1: "+1"
+ LCLC_config_events.minus_1: "-1"
+ LCLC_config_events.minus_5: "-5"
+
+ LCLC_config_events.minimum_chance_of_development_growth: "Minimum Development Grwoth"
+ LCLC_config_events.minimum_chance_of_development_growth_desc: "Minimum development growth: [REB.LCLC_display_minimum_development_increase_chance_var.GetValue]%\n\nThis will affect minimum chance of Large City and Largest City increasing their development every year. For example, if the minimum development is set to 20%, then expect affected provinces to grow by 20 development in 100 years."
+ LCLC_config_events.plus_10_percent: "+10%"
+ LCLC_config_events.plus_5_percent: "+5%"
+ LCLC_config_events.plus_1_percent: "+1%"
+ LCLC_config_events.minus_1_percent: "-1%"
+ LCLC_config_events.minus_5_percent: "-5%"
+ LCLC_config_events.minus_10_percent: "-10%"
+ 
+ LCLC_config_events.large_city_and_largest_city_development_growth: "Large City and Largest City Development Growth"
+ LCLC_config_events.large_city_and_largest_city_development_growth_desc: "If set to 'ENABLED', Large City and Largest City will have a yearly chance to increase their development. The chance is affected by province owner global development cost modifier and the province local development cost with a minimum chance of [REB.LCLC_display_minimum_development_increase_chance_var.GetValue]%."
+
+ LCLC_config_events.large_city_change_notification: "Large City Change Notification"
+ LCLC_config_events.large_city_change_notification_desc: "If set to 'ENABLED', whenever a Large City in the Region change, the owner of that city and owner of current Large City will receive an event notification."
+ 
+ LCLC_config_events.largest_city_change_notification: "Largest City Change Notification"
+ LCLC_config_events.largest_city_change_notification_desc: "If set to 'ENABLED', whenever a Largest City in a geographical scope change, every country that own a province in that geographical scope will receive an event notification."
+
+ LCLC_config_events.largest_city_in_the_world_after_global_trade: "Delay Largest City in the World until after Global Trade"
+ LCLC_config_events.largest_city_in_the_world_after_global_trade_desc: "If set to 'ENABLED', Largest City in the World modifier would only appear after Global Trade institution spawned."
+
+ #Stat event
+ LCLC_stat_events.dev_growth: "Large City and Largest City Development Growth Stats"
+
+ LCLC.world: "World"
+ LCLC_stat_events.root: "Current scope: [Root.GetName]\n\nDevelopment growth: [Root.LCLC_total_dev_growth_var.GetValue]\nTax growth: [Root.LCLC_total_tax_dev_growth_var.GetValue]\nProduction growth: [Root.LCLC_total_production_dev_growth_var.GetValue]\nManpower growth: [Root.LCLC_total_manpower_dev_growth_var.GetValue]"
+ LCLC_stat_events.world: "Current scope: World\n\nDevelopment growth: [Root.LCLC_total_dev_growth_var.GetValue]\nTax growth: [Root.LCLC_total_tax_dev_growth_var.GetValue]\nProduction growth: [Root.LCLC_total_production_dev_growth_var.GetValue]\nManpower growth: [Root.LCLC_total_manpower_dev_growth_var.GetValue]"
+ LCLC_stat_events.country_of_interest: "Current scope: [FILTER_country_of_interest.GetName]\n\nDevelopment growth: [Root.LCLC_total_dev_growth_var.GetValue]\n   Tax growth: [Root.LCLC_total_tax_dev_growth_var.GetValue]\n   Production growth: [Root.LCLC_total_production_dev_growth_var.GetValue]\n   Manpower growth: [Root.LCLC_total_manpower_dev_growth_var.GetValue]"
+
+ #Notification event
+ LCLC_script_events.city_change_notification_title: "[LCLC_city_notification_target.GetName], [LCLC_city_notification_target.LCLC_city_notification_localization]"
+ LCLC_script_events.common_city: "a mere city in [LCLC_city_notification_target.GetRegionName]"
+ LCLC_script_events.large_city_in_region: "a Large City in [LCLC_city_notification_target.GetRegionName]"
+ LCLC_script_events.largest_city_in_superregion: "the Largest City in [LCLC_city_notification_target.GetSuperRegionName]"
+ LCLC_script_events.largest_city_in_continent: "the Largest City in [LCLC_city_notification_target.GetContinentName]"
+ LCLC_script_events.largest_city_in_world: "the Largest City in the World"
+ 
+ LCLC_script_events.common_city_change_notification_desc: "[LCLC_city_notification_target.LCLC_city_change_notification_previous_status_localization]. Now the city is no longer considered of high development on any level. They better do something if they expect to regain their once held position."
+ LCLC_script_events.large_city_in_region_change_notification_desc: "[LCLC_city_notification_target.LCLC_city_change_notification_previous_status_localization]. The city is now considered as a Large City in [LCLC_city_notification_target.GetRegionName]."
+ LCLC_script_events.largest_city_in_superregion_change_notification_desc: "[LCLC_city_notification_target.LCLC_city_change_notification_previous_status_localization]. Now the city is the Largest City in [LCLC_city_notification_target.GetSuperRegionName]."
+ LCLC_script_events.largest_city_in_continent_change_notification_desc: "[LCLC_city_notification_target.LCLC_city_change_notification_previous_status_localization]. Now the city is the Largest City in [LCLC_city_notification_target.GetContinentName]."
+ LCLC_script_events.largest_city_in_world_change_notification_desc: "[LCLC_city_notification_target.LCLC_city_change_notification_previous_status_localization]. Now the city is the Largest City in the world."
+
+ LCLC_script_events.city_change_notification_previous_common_city: "Unforeseen to many, [LCLC_city_notification_target.GetName] has experienced a significant development"
+ LCLC_script_events.city_change_notification_previous_large_city_in_region: "Once was a Large City in [LCLC_city_notification_target.GetRegionName], times has changed for [LCLC_city_notification_target.GetName]"
+ LCLC_script_events.city_change_notification_previous_largest_city_in_superregion: "Once was the Largest City in [LCLC_city_notification_target.GetSuperRegionName], times has changed for [LCLC_city_notification_target.GetName]"
+ LCLC_script_events.city_change_notification_previous_largest_city_in_continent: "Once was the Largest City in [LCLC_city_notification_target.GetContinentName], times has changed for [LCLC_city_notification_target.GetName]"
+ LCLC_script_events.city_change_notification_previous_largest_city_in_world: "Once was the Largest City in the world, times has changed for [LCLC_city_notification_target.GetName]"
+
+ #Diplomatic action:Set country of interest
+ FILTER_select_country_of_interest_diplomatic_action: "Set Interest"
+ FILTER_select_country_of_interest_diplomatic_action_title: "Set Interest"
+ FILTER_select_country_of_interest_diplomatic_action_desc: "Designate §Y[From.GetName]§! as §YCountry of Interest§!. This meant to specify the country to interact with."
+ FILTER_select_country_of_interest_diplomatic_action_tooltip: "Set §Y[From.GetName]§! as country of interest."
+ FILTER_select_country_of_interest_diplomatic_action_alert_tooltip: "Set Interest"

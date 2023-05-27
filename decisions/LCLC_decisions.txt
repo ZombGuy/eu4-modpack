@@ -1,0 +1,55 @@
+country_decisions = {
+	LCLC_config_decision = {
+		major = yes
+		potential = {
+			NOT = { has_country_flag = LCLC_open_config_menu_flag }
+			has_global_flag = LCLC_large_city_and_largest_city_mod_active_global_flag
+			ai = no
+		}
+		allow = { always = yes }
+		effect = {
+			set_country_flag = LCLC_open_config_menu_flag
+			country_event = {
+				id = LCLC_config_events.1
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	LCLC_backup_decision = {
+		major = yes
+		potential = {
+			NOT = { has_global_flag = LCLC_initial_script_run_global_flag }
+			ai = no
+		}
+		allow = { always = yes }
+		effect = {
+			hidden_effect = {
+				set_global_flag = LCLC_initial_script_run_global_flag
+				REB = {
+					set_variable = {
+						which = LCLC_minimum_development_increase_chance_var
+						value = 0.05
+					}
+					set_variable = {
+						which = LCLC_large_cities_per_cities_in_region_var
+						value = 10
+					}
+				}
+	
+				set_global_flag = LCLC_large_city_and_largest_city_development_growth_enabled_global_flag
+				set_global_flag = LCLC_largest_city_change_notification_enabled_global_flag
+				
+				if = {
+					limit = { has_global_flag = beyond_typus_mod_enabled }
+					set_global_flag = LCLC_use_beyond_typus_map_global_flag
+				}
+				else = { set_global_flag = LCLC_use_base_game_map_global_flag }
+	
+				country_event = {
+					id = LCLC_config_events.1
+				}
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+}

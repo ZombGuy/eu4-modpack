@@ -1,0 +1,152 @@
+namespace = LCLC_stat_events
+country_event = { #Buffer to retrigger stat
+	id = LCLC_stat_events.0
+	title = NONE
+	desc = NONE
+	picture = NONE
+	hidden = yes
+	is_triggered_only = yes
+	option = {
+		#hidden
+	}
+	after = {
+		country_event = {
+			id = LCLC_stat_events.1
+		}
+	}
+}
+country_event = {
+	id = LCLC_stat_events.1
+	title = LCLC_stat_events.dev_growth
+	desc = {
+		trigger = {
+			NOT = {	has_country_flag = LCLC_check_world_dev_growth_flag	}
+			NOT = { has_country_flag = LCLC_check_country_of_interest_dev_growth_flag }
+		}
+		desc = LCLC_stat_events.root
+	}
+	desc = {
+		trigger = { has_country_flag = LCLC_check_world_dev_growth_flag }
+		desc = LCLC_stat_events.world
+	}
+	desc = {
+		trigger = { has_country_flag = LCLC_check_country_of_interest_dev_growth_flag }
+		desc = LCLC_stat_events.country_of_interest
+	}
+	picture = INVENTION_eventPicture
+	is_triggered_only = yes
+	immediate = {
+		hidden_effect = {
+			set_country_flag = LCLC_stay_in_stat_view_flag
+			set_variable = {
+				which = LCLC_total_dev_growth_var
+				value = 0
+			}
+			set_variable = {
+				which = LCLC_total_tax_dev_growth_var
+				value = 0
+			}
+			set_variable = {
+				which = LCLC_total_production_dev_growth_var
+				value = 0
+			}
+			set_variable = {
+				which = LCLC_total_manpower_dev_growth_var
+				value = 0
+			}
+			random_known_country = {
+				limit = { has_country_flag = FILTER_country_of_interest_flag@ROOT }
+				save_event_target_as = FILTER_country_of_interest
+			}
+			if = {
+				limit = {
+					NOT = {	has_country_flag = LCLC_check_world_dev_growth_flag	}
+					NOT = { has_country_flag = LCLC_check_country_of_interest_dev_growth_flag }
+				}
+				every_owned_province = {
+					ROOT = { LCLC_get_development_growth_effects = yes }
+				}
+			}
+			if = {
+				limit = { has_country_flag = LCLC_check_world_dev_growth_flag }
+				every_province = {
+					ROOT = { LCLC_get_development_growth_effects = yes }
+				}
+			}
+			if = {
+				limit = { has_country_flag = LCLC_check_country_of_interest_dev_growth_flag	}
+				event_target:FILTER_country_of_interest = {
+					every_owned_province = {
+						ROOT = { LCLC_get_development_growth_effects = yes }
+					}
+				}
+			}	
+		}
+	}
+	option = {
+		#ROOT
+		name = [Root.GetName]
+		ai_chance = { factor = 0 }
+		trigger = {
+			OR = {
+				has_country_flag = LCLC_check_country_of_interest_dev_growth_flag
+				has_country_flag = LCLC_check_world_dev_growth_flag
+			}
+		}
+		hidden_effect = {
+			clr_country_flag = LCLC_check_country_of_interest_dev_growth_flag
+			clr_country_flag = LCLC_check_world_dev_growth_flag
+			country_event = {
+				id = LCLC_stat_events.0
+			}
+		}
+	}
+	option = {
+		#Country of Interest
+		name = [FILTER_country_of_interest.GetName]
+		ai_chance = { factor = 0 }
+		trigger = {
+			any_known_country = {
+				has_country_flag = FILTER_country_of_interest_flag@ROOT
+			}
+			NOT = { has_country_flag = LCLC_check_country_of_interest_dev_growth_flag }
+		}
+		hidden_effect = {
+			set_country_flag = LCLC_check_country_of_interest_dev_growth_flag
+			clr_country_flag = LCLC_check_world_dev_growth_flag
+			country_event = {
+				id = LCLC_stat_events.0
+			}
+		}
+	}
+	option = {
+		#World
+		name = LCLC.world
+		ai_chance = { factor = 0 }
+		trigger = {
+			NOT = { has_country_flag = LCLC_check_world_dev_growth_flag }
+		}
+		hidden_effect = {
+			set_country_flag = LCLC_check_world_dev_growth_flag
+			clr_country_flag = LCLC_check_country_of_interest_dev_growth_flag
+			country_event = {
+				id = LCLC_stat_events.0
+			}
+		}
+	}
+	option = {
+		#Alright
+		name = LCLC.alright
+		highlight = yes
+		ai_chance = { factor = 0 }
+		hidden_effect = {
+			clr_country_flag = LCLC_stay_in_stat_view_flag
+
+			clr_country_flag = LCLC_check_country_of_interest_dev_growth_flag
+			clr_country_flag = LCLC_check_world_dev_growth_flag
+			country_event = {
+				id = LCLC_config_events.1
+			}
+		}
+	}
+}

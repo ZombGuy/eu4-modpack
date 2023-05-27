@@ -1,0 +1,2 @@
+﻿l_english:
+ LCLC_config_events.large_city_and_largest_city_mod_options_desc: "Enable or disable features of this mod.\nMap Version: Base Game 1.35\n\nMain feature of this mod is to periodically set Large City and Largest City. Large City is assigned to a number most developed provinces in a region where the number depends on total cities in the region. Largest City is assigned to province with highest development in each subcontinent, continent, and in the world.\n\nLarge City and Largest City are re-assigned quarterly."
