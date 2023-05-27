@@ -1,0 +1,201 @@
+SEB_share_furnace_effects = {
+	save_event_target_as = SEB_source_target
+
+	set_variable = {
+		which = SEB_source_num_of_furnace_var
+		value = 0
+	}
+	every_owned_province = {
+		limit = {
+			has_building = furnace
+		}
+		event_target:SEB_source_target = {
+			change_variable = {
+				which = SEB_source_num_of_furnace_var
+				value = 1
+			}
+		}
+	}
+	if = {
+		limit = { 
+			SEB_share_to_overlord_triggers = { TYPE = furnace }
+		}
+		if = {
+			limit = {
+				has_global_flag = SEB_share_furnace_to_non_independent_subjects_enabled_global_flag
+				is_subject_other_than_tributary_trigger = yes
+			}
+			overlord = {
+				SEB_get_receiving_num_of_furnace_effects = yes
+			}
+		}
+		if = {
+			limit = {
+				has_global_flag = SEB_share_furnace_to_independent_subjects_enabled_global_flag
+				is_free_or_tributary_trigger = yes
+				is_subject = yes
+			}
+			overlord = {
+				SEB_get_receiving_num_of_furnace_effects = yes
+			}
+		}
+		if = {
+			limit = { 
+				has_global_flag = SEB_share_furnace_to_non_independent_subjects_enabled_global_flag
+			}
+			every_subject_country = {
+				limit = { is_subject_other_than_tributary_trigger = yes }
+				SEB_get_receiving_num_of_furnace_effects = yes
+			}
+		}
+		if = {
+			limit = { 
+				has_global_flag = SEB_share_furnace_to_independent_subjects_enabled_global_flag
+			}
+			every_subject_country = {
+				limit = { is_free_or_tributary_trigger = yes }
+				SEB_get_receiving_num_of_furnace_effects = yes
+			}
+		}
+		if = {
+			limit = { 
+				has_global_flag = SEB_share_furnace_to_trade_league_members_enabled_global_flag
+				is_trade_league_leader = yes
+			}
+			every_known_country = {
+				limit = { is_in_trade_league_with = event_target:SEB_source_target }
+				SEB_get_receiving_num_of_furnace_effects = yes
+			}
+		}
+		if = {
+			limit = { 
+				has_global_flag = SEB_share_furnace_to_allies_enabled_global_flag
+			}
+			every_ally = {
+				SEB_get_receiving_num_of_furnace_effects = yes
+			}
+		}
+		set_variable = {
+			which = SEB_source_num_of_furnace_var
+			value = 0
+		}		
+	}
+}
+
+SEB_get_receiving_num_of_furnace_effects = {
+	set_variable = {
+		which = SEB_source_num_of_furnace_var
+		which = event_target:SEB_source_target
+	}
+	change_variable = {
+		which = SEB_receiving_num_of_furnace_var
+		which = SEB_source_num_of_furnace_var
+	}
+	set_variable = {
+		which = SEB_source_num_of_furnace_var
+		value = 0
+	}
+}
+
+SEB_remove_furnace_modifier_effects = {
+	remove_country_modifier = SEB_furnace_1_modifier
+	remove_country_modifier = SEB_furnace_2_modifier
+	remove_country_modifier = SEB_furnace_3_modifier
+	remove_country_modifier = SEB_furnace_4_modifier
+	remove_country_modifier = SEB_furnace_5_modifier
+	remove_country_modifier = SEB_furnace_6_modifier
+	remove_country_modifier = SEB_furnace_7_modifier
+	remove_country_modifier = SEB_furnace_8_modifier
+	remove_country_modifier = SEB_furnace_9_modifier
+	remove_country_modifier = SEB_furnace_10_modifier
+	remove_country_modifier = SEB_furnace_11_modifier
+	remove_country_modifier = SEB_furnace_12_modifier
+	remove_country_modifier = SEB_furnace_13_modifier
+	remove_country_modifier = SEB_furnace_14_modifier
+	remove_country_modifier = SEB_furnace_15_modifier
+	remove_country_modifier = SEB_furnace_16_modifier
+	remove_country_modifier = SEB_furnace_17_modifier
+	remove_country_modifier = SEB_furnace_18_modifier
+	remove_country_modifier = SEB_furnace_19_modifier
+	remove_country_modifier = SEB_furnace_20_modifier
+	remove_country_modifier = SEB_furnace_21_modifier
+	remove_country_modifier = SEB_furnace_22_modifier
+	remove_country_modifier = SEB_furnace_23_modifier
+	remove_country_modifier = SEB_furnace_24_modifier
+	remove_country_modifier = SEB_furnace_25_modifier
+	remove_country_modifier = SEB_furnace_26_modifier
+	remove_country_modifier = SEB_furnace_27_modifier
+	remove_country_modifier = SEB_furnace_28_modifier
+	remove_country_modifier = SEB_furnace_29_modifier
+	remove_country_modifier = SEB_furnace_30_modifier
+	remove_country_modifier = SEB_furnace_31_modifier
+	remove_country_modifier = SEB_furnace_32_modifier
+	remove_country_modifier = SEB_furnace_33_modifier
+	remove_country_modifier = SEB_furnace_34_modifier
+	remove_country_modifier = SEB_furnace_35_modifier
+	remove_country_modifier = SEB_furnace_36_modifier
+	remove_country_modifier = SEB_furnace_37_modifier
+	remove_country_modifier = SEB_furnace_38_modifier
+	remove_country_modifier = SEB_furnace_39_modifier
+	remove_country_modifier = SEB_furnace_40_modifier
+	remove_country_modifier = SEB_furnace_41_modifier
+	remove_country_modifier = SEB_furnace_42_modifier
+	remove_country_modifier = SEB_furnace_43_modifier
+	remove_country_modifier = SEB_furnace_44_modifier
+	remove_country_modifier = SEB_furnace_45_modifier
+	remove_country_modifier = SEB_furnace_46_modifier
+	remove_country_modifier = SEB_furnace_47_modifier
+	remove_country_modifier = SEB_furnace_48_modifier
+	remove_country_modifier = SEB_furnace_49_modifier
+	remove_country_modifier = SEB_furnace_50_modifier
+	remove_country_modifier = SEB_furnace_51_modifier
+	remove_country_modifier = SEB_furnace_52_modifier
+	remove_country_modifier = SEB_furnace_53_modifier
+	remove_country_modifier = SEB_furnace_54_modifier
+	remove_country_modifier = SEB_furnace_55_modifier
+	remove_country_modifier = SEB_furnace_56_modifier
+	remove_country_modifier = SEB_furnace_57_modifier
+	remove_country_modifier = SEB_furnace_58_modifier
+	remove_country_modifier = SEB_furnace_59_modifier
+	remove_country_modifier = SEB_furnace_60_modifier
+	remove_country_modifier = SEB_furnace_61_modifier
+	remove_country_modifier = SEB_furnace_62_modifier
+	remove_country_modifier = SEB_furnace_63_modifier
+	remove_country_modifier = SEB_furnace_64_modifier
+	remove_country_modifier = SEB_furnace_65_modifier
+	remove_country_modifier = SEB_furnace_66_modifier
+	remove_country_modifier = SEB_furnace_67_modifier
+	remove_country_modifier = SEB_furnace_68_modifier
+	remove_country_modifier = SEB_furnace_69_modifier
+	remove_country_modifier = SEB_furnace_70_modifier
+	remove_country_modifier = SEB_furnace_71_modifier
+	remove_country_modifier = SEB_furnace_72_modifier
+	remove_country_modifier = SEB_furnace_73_modifier
+	remove_country_modifier = SEB_furnace_74_modifier
+	remove_country_modifier = SEB_furnace_75_modifier
+	remove_country_modifier = SEB_furnace_76_modifier
+	remove_country_modifier = SEB_furnace_77_modifier
+	remove_country_modifier = SEB_furnace_78_modifier
+	remove_country_modifier = SEB_furnace_79_modifier
+	remove_country_modifier = SEB_furnace_80_modifier
+	remove_country_modifier = SEB_furnace_81_modifier
+	remove_country_modifier = SEB_furnace_82_modifier
+	remove_country_modifier = SEB_furnace_83_modifier
+	remove_country_modifier = SEB_furnace_84_modifier
+	remove_country_modifier = SEB_furnace_85_modifier
+	remove_country_modifier = SEB_furnace_86_modifier
+	remove_country_modifier = SEB_furnace_87_modifier
+	remove_country_modifier = SEB_furnace_88_modifier
+	remove_country_modifier = SEB_furnace_89_modifier
+	remove_country_modifier = SEB_furnace_90_modifier
+	remove_country_modifier = SEB_furnace_91_modifier
+	remove_country_modifier = SEB_furnace_92_modifier
+	remove_country_modifier = SEB_furnace_93_modifier
+	remove_country_modifier = SEB_furnace_94_modifier
+	remove_country_modifier = SEB_furnace_95_modifier
+	remove_country_modifier = SEB_furnace_96_modifier
+	remove_country_modifier = SEB_furnace_97_modifier
+	remove_country_modifier = SEB_furnace_98_modifier
+	remove_country_modifier = SEB_furnace_99_modifier
+	remove_country_modifier = SEB_furnace_100_modifier
+}

@@ -1,0 +1,11 @@
+SEB_enable_or_disable_share_effects = {
+	hidden_effect = {
+		if = {
+			limit = { has_global_flag = SEB_share_$TYPE$_to_$WHO$_enabled_global_flag }
+			clr_global_flag = SEB_share_$TYPE$_to_$WHO$_enabled_global_flag
+		}
+		else = {
+			set_global_flag = SEB_share_$TYPE$_to_$WHO$_enabled_global_flag
+		}	
+	}
+}

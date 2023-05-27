@@ -1,0 +1,161 @@
+namespace = SEB_script_events
+country_event = { #Get player to set global flag, set mod setting, and assign large city and largest city
+	id = SEB_script_events.0
+	title = NONE
+	desc = NONE
+	picture = NONE
+	fire_only_once = yes
+	mean_time_to_happen = { days = 1 }
+	hidden = yes
+	trigger = { always = yes }
+	immediate = {
+		hidden_effect = {
+			if = {
+				limit = {
+					NOT = { has_global_flag = SEB_initial_script_run_global_flag }
+				}
+				set_global_flag = SEB_initial_script_run_global_flag
+				set_global_flag = SEB_share_economic_bonus_mod_active_global_flag
+
+				#trading in
+				set_global_flag = SEB_share_trading_in_to_overlord_enabled_global_flag
+				set_global_flag = SEB_share_trading_in_to_non_independent_subjects_enabled_global_flag
+				set_global_flag = SEB_share_trading_in_to_trade_league_members_enabled_global_flag
+
+				#production leader
+				set_global_flag = SEB_share_production_leader_to_overlord_enabled_global_flag
+				set_global_flag = SEB_share_production_leader_to_non_independent_subjects_enabled_global_flag
+				set_global_flag = SEB_share_production_leader_to_trade_league_members_enabled_global_flag
+
+				if = {
+					limit = { has_dlc = "Rule Britannia" }
+					#furnace
+					set_global_flag = SEB_share_furnace_to_overlord_enabled_global_flag
+					set_global_flag = SEB_share_furnace_to_non_independent_subjects_enabled_global_flag
+					set_global_flag = SEB_share_furnace_to_trade_league_members_enabled_global_flag
+				}
+			}
+		}
+	}
+	option = {
+		#hidden
+	}
+}
+country_event = { #Quarterly reassignment event
+	id = SEB_script_events.1
+	title = NONE
+	desc = NONE
+	picture = NONE
+	hidden = yes
+	is_triggered_only = yes
+	immediate = {
+		hidden_effect = {
+			#trading in
+			if = {
+				limit = { SEB_any_sharing_enabled_triggers = { TYPE = trading_in } }
+				every_country = {
+					remove_country_modifier = SEB_grain_modifier
+					remove_country_modifier = SEB_wine_modifier
+					remove_country_modifier = SEB_wool_modifier
+					remove_country_modifier = SEB_cloth_modifier
+					remove_country_modifier = SEB_fish_modifier
+					remove_country_modifier = SEB_fur_modifier
+					remove_country_modifier = SEB_salt_modifier
+					remove_country_modifier = SEB_naval_supplies_modifier
+					remove_country_modifier = SEB_copper_modifier
+					remove_country_modifier = SEB_iron_modifier
+					remove_country_modifier = SEB_slaves_modifier
+					remove_country_modifier = SEB_ivory_modifier
+					remove_country_modifier = SEB_tea_modifier
+					remove_country_modifier = SEB_chinaware_modifier
+					remove_country_modifier = SEB_spices_modifier
+					remove_country_modifier = SEB_coffee_modifier
+					remove_country_modifier = SEB_cotton_modifier
+					remove_country_modifier = SEB_sugar_modifier
+					remove_country_modifier = SEB_tobacco_modifier
+					remove_country_modifier = SEB_cocoa_modifier
+					remove_country_modifier = SEB_silk_modifier
+					remove_country_modifier = SEB_dyes_modifier
+					remove_country_modifier = SEB_tropical_wood_modifier
+					remove_country_modifier = SEB_livestock_modifier
+					remove_country_modifier = SEB_incense_modifier
+					remove_country_modifier = SEB_glass_modifier
+					remove_country_modifier = SEB_paper_modifier
+					remove_country_modifier = SEB_gems_modifier
+					remove_country_modifier = SEB_coal_modifier
+					remove_country_modifier = SEB_cloves_modifier
+				}
+				every_country = {
+					limit = { SEB_has_any_trading_in_modifier_triggers = yes }
+					SEB_share_trading_in_effects = yes
+				}
+			}
+			#production leader
+			if = {
+				limit = { SEB_any_sharing_enabled_triggers = { TYPE = production_leader } }
+				every_province = { remove_province_modifier = SEB_shared_production_leader_bonus_modifier }
+				every_country = {
+					limit = { SEB_is_production_leader_triggers = yes }
+					SEB_share_production_leader_effects = yes
+				}
+			}
+			#furnace
+			if = {
+				limit = { SEB_any_sharing_enabled_triggers = { TYPE = furnace } }
+				every_country = {
+					set_variable = {
+						which = SEB_receiving_num_of_furnace_var
+						value = 0
+					}
+					SEB_remove_furnace_modifier_effects = yes
+				}
+				every_country = {
+					limit = { furnace = 1 }
+					SEB_share_furnace_effects = yes
+				}
+				every_country = {
+					limit = {
+						check_variable = {
+							which = SEB_receiving_num_of_furnace_var
+							value = 1
+						}
+					}
+					SEB_assign_furnace_modifier_effects = yes
+				}
+			}
+		}
+	}
+	option = {
+		#hidden
+	}
+}
+country_event = { #Set province triggered modifier
+	id = SEB_script_events.3
+	title = NONE
+	desc = NONE
+	picture = NONE
+	fire_only_once = yes
+	mean_time_to_happen = { days = 1 }
+	hidden = yes
+	trigger = { always = yes }
+	immediate = {
+		hidden_effect = {
+			if = {
+				limit = {
+					any_province = {
+						NOT = {
+							has_province_modifier = SEB_sharing_province_triggered_modifier
+						}
+					}
+				}
+				set_global_flag = SEB_sharing_check_global_flag
+				capital_scope = {
+					add_province_triggered_modifier = SEB_sharing_province_triggered_modifier
+				}
+			}
+		}
+	}
+	option = {
+		#hidden
+	}
+}

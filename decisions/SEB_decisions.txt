@@ -1,0 +1,48 @@
+country_decisions = {
+	SEB_config_decision = {
+		major = yes
+		potential = {
+			NOT = { has_country_flag = SEB_open_config_menu_flag }
+			has_global_flag = SEB_share_economic_bonus_mod_active_global_flag
+			ai = no
+		}
+		allow = { always = yes }
+		effect = {
+			set_country_flag = SEB_open_config_menu_flag
+			country_event = {
+				id = SEB_config_events.1
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+	SEB_backup_decision = {
+		major = yes
+		potential = {
+			NOT = { has_global_flag = SEB_initial_script_run_global_flag }
+			ai = no
+		}
+		allow = { always = yes }
+		effect = {
+			hidden_effect = {
+				set_global_flag = SEB_initial_script_run_global_flag
+				set_global_flag = SEB_share_economic_bonus_mod_active_global_flag
+
+				#trading in
+				set_global_flag = SEB_share_trading_in_to_overlord_enabled_global_flag
+				set_global_flag = SEB_share_trading_in_to_non_independent_subjects_enabled_global_flag
+				set_global_flag = SEB_share_trading_in_to_trade_league_members_enabled_global_flag
+
+				#production leader
+				set_global_flag = SEB_share_production_leader_to_overlord_enabled_global_flag
+				set_global_flag = SEB_share_production_leader_to_non_independent_subjects_enabled_global_flag
+				set_global_flag = SEB_share_production_leader_to_trade_league_members_enabled_global_flag
+
+				#furnace
+				set_global_flag = SEB_share_furnace_to_overlord_enabled_global_flag
+				set_global_flag = SEB_share_furnace_to_non_independent_subjects_enabled_global_flag
+				set_global_flag = SEB_share_furnace_to_trade_league_members_enabled_global_flag
+			}
+		}
+		ai_will_do = { factor = 0 }
+	}
+}
