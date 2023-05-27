@@ -10,6 +10,10 @@ country_decisions = {
 				ai = no
 				is_playing_custom_nation = no
 			}
+			OR = {
+				#is_free_or_tributary_trigger = yes																																		#Mod: Disabled 'is_free_or_tributary_trigger'
+				ai = no
+			}
 			NOT = { exists = TIB }
 			OR = {
 				primary_culture = tibetan
@@ -45,6 +49,7 @@ country_decisions = {
 		allow = {
 			religion = vajrayana
 			is_at_war = no
+			#is_free_or_tributary_trigger = yes																																			#Mod: Disabled 'is_free_or_tributary_trigger'
 			is_nomad = no
 			owns_core_province = 2135
 			owns_core_province = 678
@@ -59,6 +64,7 @@ country_decisions = {
 				move_capital_effect = yes
 			}
 			change_tag = TIB
+			on_change_tag_effect = yes
 			swap_non_generic_missions = yes
 			remove_non_electors_emperors_from_empire_effect = yes
 			if = {

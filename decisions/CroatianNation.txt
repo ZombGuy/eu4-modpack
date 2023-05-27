@@ -10,6 +10,10 @@ country_decisions = {
 				ai = no
 				is_playing_custom_nation = no
 			}
+			OR = {
+				#is_free_or_tributary_trigger = yes																																		#Mod: Disabled 'is_free_or_tributary_trigger'
+				ai = no
+			}
 			NOT = { tag = HLR }
 			NOT = { tag = CRO }
 			NOT = { tag = PAP }
@@ -19,6 +23,7 @@ country_decisions = {
 			}
 			OR = {
 				primary_culture = croatian
+				primary_culture = croatian_new
 				primary_culture = dalmatian
 			}
 			OR = {
@@ -52,6 +57,7 @@ country_decisions = {
 				AND = {
 					OR = {
 						culture = croatian
+						culture = croatian_new
 						culture = dalmatian
 					}
 					continent = europe
@@ -65,6 +71,7 @@ country_decisions = {
 								value = 6
 								OR = {
 									culture = croatian
+									culture = croatian_new
 									culture = dalmatian
 								}
 								is_core = root
@@ -81,19 +88,23 @@ country_decisions = {
 		}
 		allow = {
 			NOT = { exists = CRO }
+			#is_free_or_tributary_trigger = yes																																			#Mod: Disabled 'is_free_or_tributary_trigger'
 			is_nomad = no
 			is_at_war = no
 			OR = {
 				owns_core_province = 137			# Ragusa
-				owns_core_province = 131			# Zagreb
-				131 = { 							# Zagreb
-					is_state = yes
+				AND = {
+					owns_core_province = 131			# Zagreb
+					131 = { 							# Zagreb
+						is_state = yes
+					}
 				}
 			}
 			num_of_owned_provinces_with = {
 				value = 6
 				OR = {
 					culture = croatian
+					culture = croatian_new
 					culture = dalmatian
 				}
 				is_core = root
@@ -102,10 +113,19 @@ country_decisions = {
 		}
 		effect = {
 			add_prestige = 25
-			131 = { # Zagreb
-				move_capital_effect = yes
+			if = {
+				limit = {
+					owns_core_province = 131
+					131 = { 							# Zagreb
+						is_state = yes
+					}
+				}
+				131 = { # Zagreb
+					move_capital_effect = yes
+				}
 			}
 			change_tag = CRO
+			on_change_tag_effect = yes
 			swap_non_generic_missions = yes
 			if = {
 				limit = {
@@ -115,10 +135,16 @@ country_decisions = {
 			}
 			if = {
 				limit = {
-					NOT = { primary_culture = croatian }
-					NOT = { accepted_culture = croatian }
+					has_updated_culture = { culture = slavic }
 				}
-				add_accepted_culture = croatian
+				add_accepted_culture_or_dip_power = {
+					culture = croatian_new
+				}
+			}
+			else = {
+				add_accepted_culture_or_dip_power = {
+					culture = croatian
+				}
 			}
 			if = {
 				limit = {
@@ -142,6 +168,7 @@ country_decisions = {
 				limit = {
 					OR = {
 						culture = croatian
+						culture = croatian_new
 						culture = dalmatian
 					}
 					continent = europe
@@ -155,7 +182,7 @@ country_decisions = {
 				limit = {
 					government = republic
 				}
-				change_government_to_monarchy = yes
+				change_government = monarchy
 				#set_legacy_government = feudal_monarchy
 			}
 			if = {

@@ -11,7 +11,7 @@ country_decisions = {
 				is_playing_custom_nation = no
 			}
 			OR = {
-				is_free_or_tributary_trigger = yes
+				#is_free_or_tributary_trigger = yes																																		#Mod: Disabled 'is_free_or_tributary_trigger'
 				ai = no
 			}
 			NOT = { exists = YUA }
@@ -68,7 +68,7 @@ country_decisions = {
 			}
 		}
 		allow = {
-			is_free_or_tributary_trigger = yes
+			#is_free_or_tributary_trigger = yes																																			#Mod: Disabled 'is_free_or_tributary_trigger'
 			OR = {
 				primary_culture = altaic_new 
 				culture_group = altaic

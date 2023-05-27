@@ -11,6 +11,10 @@ country_decisions = {
 				is_playing_custom_nation = no
 			}
 			OR = {
+				#is_free_or_tributary_trigger = yes																																		#Mod: Disabled 'is_free_or_tributary_trigger'
+				ai = no
+			}
+			OR = {
 				AND = {
 					tag = BUR
 					NOT = { has_dlc = "Emperor" }
@@ -39,6 +43,7 @@ country_decisions = {
 		}
 		allow = {
 			is_at_war = no
+			#is_free_or_tributary_trigger = yes																																			#Mod: Disabled 'is_free_or_tributary_trigger'
 			is_nomad = no			
 			NOT = { exists = LOT }
 			num_of_cities = 30
@@ -58,6 +63,7 @@ country_decisions = {
 				move_capital_effect = yes
 			}
 			change_tag = LOT
+			on_change_tag_effect = yes
 			swap_non_generic_missions = yes
 			if = {
 				limit = {

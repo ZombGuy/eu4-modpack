@@ -9,6 +9,10 @@ country_decisions = {
 				ai = no
 				is_playing_custom_nation = no
 			}
+			OR = {
+				#is_free_or_tributary_trigger = yes																																		#Mod: Disabled 'is_free_or_tributary_trigger'
+				ai = no
+			}
 			NOT = {
 				tag = SCO
 			}
@@ -42,6 +46,7 @@ country_decisions = {
 		}
 		allow = {
 			is_at_war = no
+			#is_free_or_tributary_trigger = yes																																			#Mod: Disabled 'is_free_or_tributary_trigger'
 			is_nomad = no			
 			NOT = { exists = SCO }
 			owns_core_province = 251 	# aberdeen
@@ -65,6 +70,7 @@ country_decisions = {
 				}	
 			}
 			change_tag = SCO
+			on_change_tag_effect = yes
 			swap_non_generic_missions = yes
 			remove_non_electors_emperors_from_empire_effect = yes
 			if = {

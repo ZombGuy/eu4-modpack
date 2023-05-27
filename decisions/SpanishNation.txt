@@ -10,6 +10,10 @@ country_decisions = {
 				ai = no
 				is_playing_custom_nation = no
 			}
+			OR = {
+				#is_free_or_tributary_trigger = yes																																		#Mod: Disabled 'is_free_or_tributary_trigger'
+				ai = no
+			}
 			NOT = { tag = SPA }
 			NOT = { tag = PAP }
 			NOT = { tag = HLR }
@@ -79,6 +83,7 @@ country_decisions = {
 		allow = {
 			NOT = { exists = SPA }
 			adm_tech = 10
+			#is_free_or_tributary_trigger = yes																																			#Mod: Disabled 'is_free_or_tributary_trigger'
 			is_nomad = no
 			is_at_war = no
 			owns_core_province = 213	# Barcelona
@@ -96,6 +101,8 @@ country_decisions = {
 		}
 		effect = {
 			change_tag = SPA
+			on_change_tag_effect = yes
+			restore_country_name = yes
 			if = {
 				limit = {
 					NOT = { 
@@ -141,6 +148,18 @@ country_decisions = {
 		}
 		ai_will_do = {
 			factor = 1
+			modifier = {
+				factor = 0
+				tag = CAS
+				NOT = { is_enemy = ARA }
+				NOT = { is_rival = ARA }
+			}
+			modifier = {
+				factor = 0
+				tag = ARA
+				NOT = { is_enemy = CAS }
+				NOT = { is_rival = CAS }
+			}
 		}
 		ai_importance = 400
 	}
@@ -154,6 +173,10 @@ country_decisions = {
 			OR = {
 				ai = no
 				is_playing_custom_nation = no
+			}
+			OR = {
+				#is_free_or_tributary_trigger = yes																																		#Mod: Disabled 'is_free_or_tributary_trigger'
+				ai = no
 			}
 			is_tutorial_active = no
 			OR = {
@@ -195,9 +218,14 @@ country_decisions = {
 		}
 		allow = {
 			adm_tech = 10
+			#is_free_or_tributary_trigger = yes																																			#Mod: Disabled 'is_free_or_tributary_trigger'
 			is_nomad = no
 			is_at_war = no
-			legitimacy = 100
+			OR = {
+				legitimacy = 100
+				devotion = 100 
+				republican_tradition = 90 
+			}
 			iberia_region = {
 				type = all
 				NOT = { owner = { religion_group = muslim } }
@@ -255,6 +283,8 @@ country_decisions = {
 				inherit = CAS
 			}
 			change_tag = SPA
+			on_change_tag_effect = yes
+			restore_country_name = yes
 			if = {
 				limit = {
 					NOT = { 

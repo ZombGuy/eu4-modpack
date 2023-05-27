@@ -17,6 +17,10 @@ country_decisions = {
 				ai = no
 				is_playing_custom_nation = no
 			}
+			OR = {
+				#is_free_or_tributary_trigger = yes																																		#Mod: Disabled 'is_free_or_tributary_trigger'
+				ai = no
+			}
 			NOT = { tag = ZUL }
 			NOT = { tag = HLR }
 			NOT = { tag = PAP }
@@ -35,6 +39,7 @@ country_decisions = {
 		allow = {
 			NOT = { exists = ZUL }
 			is_at_war = no
+			#is_free_or_tributary_trigger = yes																																			#Mod: Disabled 'is_free_or_tributary_trigger'
 			789 = {
 				owned_by = ROOT
 				base_manpower = 8
@@ -70,9 +75,12 @@ country_decisions = {
 			add_yearly_manpower = 2
 		}
 		ai_will_do = {
-			factor = 0	#An AI should NEVER spawn the Zulu before 1810
+			factor = 10
+			modifier = {
+				factor = 0
+				NOT = { is_year = 1810 }	#An AI should NEVER spawn the Zulu before 1810
+			}
 		}
-		ai_importance = 0 #
 	}
 	
 }

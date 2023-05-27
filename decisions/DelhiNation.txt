@@ -41,6 +41,7 @@ country_decisions = {
 			}
 		}
 		allow = {
+			#is_free_or_tributary_trigger = yes																																			#Mod: Disabled 'is_free_or_tributary_trigger'
 			is_nomad = no
 			is_at_war = no
 			is_tribal = no
@@ -63,6 +64,7 @@ country_decisions = {
 				move_capital_effect = yes
 			}
 			change_tag = DLH
+			on_change_tag_effect = yes
 			swap_non_generic_missions = yes
 			remove_non_electors_emperors_from_empire_effect = yes
 			if = {
@@ -138,6 +140,28 @@ country_decisions = {
 		}
 		ai_will_do = {
 			factor = 1
+			modifier = {
+				factor = 0
+				exists = DLH
+			}
+			modifier = {
+				factor = 0
+				NOT = {
+					calc_true_if = {
+						owns_core_province = 522 	#Delhi
+						OR = {
+							owns_core_province = 510 #Sirhind
+							owns_core_province = 524 #Agra
+						}
+						OR = {
+							owns_core_province = 507 #Lahore
+							owns_core_province = 555 #Jaunpur
+						}
+						amount = 2
+					}
+				}
+			}
 		}
+		ai_importance = 200
 	}
 }

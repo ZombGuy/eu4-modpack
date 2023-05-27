@@ -46,7 +46,7 @@ country_decisions = {
 		}
 		allow = {
 			is_at_war = no
-			is_free_or_tributary_trigger = yes
+			#is_free_or_tributary_trigger = yes																																			#Mod: Disabled 'is_free_or_tributary_trigger'
 			is_nomad = no
 			if = {
 				limit = {
@@ -86,7 +86,7 @@ country_decisions = {
 				}
 				add_permanent_claim = MAY
 			}
-			add_prestige_or_monarch_power = { amount = 25 }
+			add_prestige = 25
 			set_country_flag = formed_mayapan_flag
 			if = {
 				limit = { is_tribal = yes }

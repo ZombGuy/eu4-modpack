@@ -9,6 +9,10 @@ country_decisions = {
 				ai = no
 				is_playing_custom_nation = no
 			}
+			OR = {
+				#is_free_or_tributary_trigger = yes																																		#Mod: Disabled 'is_free_or_tributary_trigger'
+				ai = no
+			}
 			NOT = { tag = MSI }
 			NOT = { tag = HLR }
 			NOT = { tag = PAP }
@@ -35,6 +39,7 @@ country_decisions = {
 		allow = {
 			NOT = { exists = MSI }
 			is_at_war = no
+			#is_free_or_tributary_trigger = yes																																			#Mod: Disabled 'is_free_or_tributary_trigger'
 			is_nomad = no
 			upper_volta_area = {
 				owned_by = ROOT
@@ -45,6 +50,7 @@ country_decisions = {
 		}
 		effect = {
 			change_tag = MSI
+			on_change_tag_effect = yes
 			remove_non_electors_emperors_from_empire_effect = yes
 			if = {
 				limit = { NOT = { government_rank = 2 } }

@@ -12,7 +12,7 @@ country_decisions = {
 				is_playing_custom_nation = no
 			}
 			OR = {
-				is_free_or_tributary_trigger = yes
+				#is_free_or_tributary_trigger = yes																																		#Mod: Disabled 'is_free_or_tributary_trigger'
 				ai = no
 			}
 			NOT = { tag = PAP }
@@ -73,7 +73,7 @@ country_decisions = {
 		allow = {
 			NOT = { exists = INC }
 			is_at_war = no
-			is_free_or_tributary_trigger = yes
+			#is_free_or_tributary_trigger = yes																																			#Mod: Disabled 'is_free_or_tributary_trigger'
 			is_nomad = no
 			owns_core_province = 808 #Qusqu
 			owns_core_province = 813 #Kashamarka
@@ -119,10 +119,6 @@ country_decisions = {
 			change_tag = INC
 			on_change_tag_effect = yes
 			change_religion = inti
-			swap_non_generic_missions = yes
-			hidden_effect = {
-				country_event = { id = paradox_or_mod_missions_events.2 }
-			}
 			peru_region = {
 				limit = {
 					NOT = { owned_by = ROOT }
@@ -175,7 +171,7 @@ country_decisions = {
 				}
 				add_permanent_claim = INC
 			}
-			add_prestige_or_monarch_power = { amount = 25 }
+			add_prestige = 25
 			if = {
 				limit = {
 					has_custom_ideas = no

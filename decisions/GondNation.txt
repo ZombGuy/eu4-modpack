@@ -11,6 +11,10 @@ country_decisions = {
 				is_playing_custom_nation = no
 			}
 			OR = {
+				#is_free_or_tributary_trigger = yes																																		#Mod: Disabled 'is_free_or_tributary_trigger'
+				ai = no
+			}
+			OR = {
 				NOT = { exists = NAG }
 				ai = no
 			}
@@ -51,6 +55,7 @@ country_decisions = {
 			NOT = { exists = NAG }
 			adm_tech = 10
 			is_at_war = no
+			#is_free_or_tributary_trigger = yes																																			#Mod: Disabled 'is_free_or_tributary_trigger'
 			owns_core_province = 551 	#Mandla
 			owns_core_province = 2082 	#Raipur
 			owns_core_province = 547 	#Bastar
@@ -70,6 +75,7 @@ country_decisions = {
 				move_capital_effect = yes
 			}
 			change_tag = NAG
+			on_change_tag_effect = yes
 			546 = {
 				change_province_name = "Nagpur"
 				rename_capital = "Nagpur"
@@ -134,6 +140,20 @@ country_decisions = {
 		}
 		ai_will_do = {
 			factor = 1
+			modifier = {
+				factor = 0
+				NOT = {
+					calc_true_if = {
+						owns_core_province = 551 	#Mandla
+						owns_core_province = 2082 	#Raipur
+						owns_core_province = 547 	#Bastar
+						owns_core_province = 2050 	#Chanda
+						owns_core_province = 560 	#Jharkhand
+						owns_core_province = 546 	#Nagpur
+						amount = 3
+					}
+				}
+			}
 		}
 		ai_importance = 400
 	}

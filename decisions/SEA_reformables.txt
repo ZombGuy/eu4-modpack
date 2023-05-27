@@ -9,6 +9,10 @@ country_decisions = {
 				ai = no
 				is_playing_custom_nation = no
 			}
+			OR = {
+				#is_free_or_tributary_trigger = yes																																		#Mod: Disabled 'is_free_or_tributary_trigger'
+				ai = no
+			}
 			NOT = { tag = DAI }
 			OR = {
 				ai = no
@@ -57,6 +61,7 @@ country_decisions = {
 		allow = {
 			NOT = { exists = DAI }
 			is_at_war = no
+			#is_free_or_tributary_trigger = yes																																			#Mod: Disabled 'is_free_or_tributary_trigger'
 			is_nomad = no		
 			vietnam_area = {
 				type = all
@@ -79,6 +84,7 @@ country_decisions = {
 		}
 		effect = {
 			change_tag = DAI
+			on_change_tag_effect = yes
 			swap_non_generic_missions = yes
 			remove_non_electors_emperors_from_empire_effect = yes
 			if = {
@@ -113,6 +119,10 @@ country_decisions = {
 				ai = no
 				is_playing_custom_nation = no
 			}
+			OR = {
+				#is_free_or_tributary_trigger = yes																																		#Mod: Disabled 'is_free_or_tributary_trigger'
+				ai = no
+			}
 			NOT = { tag = LXA }
 			OR = {
 				ai = no
@@ -132,6 +142,7 @@ country_decisions = {
 					ai = no
 				}
 			}
+			NOT = { has_country_flag = formed_siam_flag }
 		}
 		provinces_to_highlight = {
 			OR = {
@@ -166,6 +177,7 @@ country_decisions = {
 		}
 		allow = {
 			is_at_war = no
+			#is_free_or_tributary_trigger = yes																																			#Mod: Disabled 'is_free_or_tributary_trigger'
 			is_nomad = no
 			614 = {
 				owned_by = ROOT
@@ -195,6 +207,7 @@ country_decisions = {
 		}
 		effect = {
 			change_tag = LXA
+			on_change_tag_effect = yes
 			swap_non_generic_missions = yes
 			remove_non_electors_emperors_from_empire_effect = yes
 			if = {

@@ -10,6 +10,10 @@ country_decisions = {
 				ai = no
 				is_playing_custom_nation = no
 			}
+			OR = {
+				#is_free_or_tributary_trigger = yes																																		#Mod: Disabled 'is_free_or_tributary_trigger'
+				ai = no
+			}
 			NOT = { exists = ITA }
 			NOT = { tag = PAP }
 			NOT = { tag = HLR }
@@ -60,6 +64,7 @@ country_decisions = {
 		}
 		allow = {
 			adm_tech = 10
+			#is_free_or_tributary_trigger = yes																																			#Mod: Disabled 'is_free_or_tributary_trigger'
 			is_at_war = no
 			owns_core_province = 101	# Genoa
 			owns_core_province = 104	# Milan
@@ -99,6 +104,7 @@ country_decisions = {
 				set_government_rank = 2
 			}
 			change_tag = ITA
+			on_change_tag_effect = yes
 			#this is so that a tier 1 reform is always selected, preventing the user from just never selecting one and enjoying loads of absolutism
 			if = {
 				limit = {
@@ -124,7 +130,29 @@ country_decisions = {
 			set_country_flag = formed_italy_flag
 		}
 		ai_will_do = {
-			factor = 1
+			factor = 400
+			modifier = {
+				factor = 0
+				NOT = {
+					calc_true_if = {
+						owns_core_province = 101	# Genoa
+						owns_core_province = 104	# Milan
+						owns_core_province = 116	# Firenze
+						owns_core_province = 118	# Roma
+						amount = 3
+					}
+				}
+			}
+			modifier = {
+				factor = 0
+				NOT = {
+					num_of_cities = 10
+				}
+			}
+			modifier = {
+				factor = 0
+				NOT = { adm_tech = 8 }
+			}
 		}
 	}
 
@@ -135,6 +163,10 @@ country_decisions = {
 			OR = {
 				ai = no
 				is_playing_custom_nation = no
+			}
+			OR = {
+				#is_free_or_tributary_trigger = yes																																		#Mod: Disabled 'is_free_or_tributary_trigger'
+				ai = no
 			}
 			NOT = { exists = ITA }
 			tag = PAP
@@ -169,6 +201,7 @@ country_decisions = {
 			}
 		}
 		allow = {
+			#is_free_or_tributary_trigger = yes																																			#Mod: Disabled 'is_free_or_tributary_trigger'
 			is_nomad = no
 			is_at_war = no
 			#Ecclesiastical provinces of Northern Italy

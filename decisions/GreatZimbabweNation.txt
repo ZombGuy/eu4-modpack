@@ -4,7 +4,10 @@ country_decisions = {
 		potential = {
 			OR = {
 				has_country_flag = zim_can_form_gzi
-				NOT = { has_dlc = "Origins" }
+				AND = {
+					tag = ZIM
+					NOT = { has_dlc = "Origins" }
+				}
 			}
 			normal_or_historical_nations = yes
 			was_never_end_game_tag_trigger = yes
@@ -13,7 +16,10 @@ country_decisions = {
 				ai = no
 				is_playing_custom_nation = no
 			}
-			tag = ZIM
+			OR = {
+				#is_free_or_tributary_trigger = yes																																		#Mod: Disabled 'is_free_or_tributary_trigger'
+				ai = no
+			}
 			OR = {
 				ai = no
 				AND = {
@@ -46,6 +52,7 @@ country_decisions = {
 		allow = {
 			NOT = { exists = GZI }
 			is_at_war = no
+			#is_free_or_tributary_trigger = yes																																			#Mod: Disabled 'is_free_or_tributary_trigger'
 			is_nomad = no
 			butua_area = {
 				is_core = ROOT
@@ -65,6 +72,7 @@ country_decisions = {
 		}
 		effect = {
 			change_tag = GZI
+			on_change_tag_effect = yes
 			remove_non_electors_emperors_from_empire_effect = yes
 			if = {
 				limit = { NOT = { government_rank = 2 } }

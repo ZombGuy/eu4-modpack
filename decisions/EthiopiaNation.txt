@@ -9,6 +9,10 @@ country_decisions = {
 				ai = no
 				is_playing_custom_nation = no
 			}
+			OR = {
+				#is_free_or_tributary_trigger = yes																																		#Mod: Disabled 'is_free_or_tributary_trigger'
+				ai = no
+			}
 			NOT = { tag = ETH }
 			OR = {
 				ai = no
@@ -46,6 +50,7 @@ country_decisions = {
 		allow = {
 			NOT = { exists = ETH }
 			is_at_war = no
+			#is_free_or_tributary_trigger = yes																																			#Mod: Disabled 'is_free_or_tributary_trigger'
 			is_nomad = no
 			owns_core_province = 1224	# Gonder
 			owns_core_province = 1227	# Aksum
@@ -56,6 +61,7 @@ country_decisions = {
 		}
 		effect = {
 			change_tag = ETH
+			on_change_tag_effect = yes
 			remove_non_electors_emperors_from_empire_effect = yes
 			if = {
 				limit = { NOT = { government_rank = 3 } }

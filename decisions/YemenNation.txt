@@ -10,15 +10,22 @@ country_decisions = {
 				ai = no
 				is_playing_custom_nation = no
 			}
+			OR = {
+				#is_free_or_tributary_trigger = yes																																		#Mod: Disabled 'is_free_or_tributary_trigger'
+				ai = no
+			}
+			NOT = { tag = YEM }
+			OR = {
+				ai = no
+				AND = {
+					NOT = { exists = YEM }
+					num_of_cities = 3 #Carnage
+				}
+			}
 			NOT = { tag = HLR }
 			NOT = { tag = PAP }
 			NOT = { tag = ARB }
-			NOT = { tag = YEM }
-			OR = {
-				tag = MHR
-				tag = MFL
-				primary_culture = yemeni_culture
-			}
+			primary_culture = yemeni_culture
 			is_colonial_nation = no
 			OR = {
 				is_former_colonial_nation = no
@@ -34,6 +41,21 @@ country_decisions = {
 				province_id = 388	# Aden
 				province_id = 390	# Sa'ana
 				province_id = 4280	# Taiz
+				AND = {
+					province_id = 389
+					ROOT = { NOT = { owns_core_province = 391 } }
+					ROOT = { NOT = { owns_core_province = 2346 } }
+				}
+				AND = {
+					province_id = 2346
+					ROOT = { NOT = { owns_core_province = 391 } }
+					ROOT = { NOT = { owns_core_province = 389 } }
+				}
+				AND = {
+					province_id = 391
+					ROOT = { NOT = { owns_core_province = 2346 } }
+					ROOT = { NOT = { owns_core_province = 389 } }
+				}
 			}
 			OR = {
 				NOT = { owned_by = ROOT }
@@ -41,43 +63,19 @@ country_decisions = {
 			}
 		}
 		allow = {
+			NOT = { exists = YEM }
 			is_at_war = no
-			is_free_or_tributary_trigger = yes
+			#is_free_or_tributary_trigger = yes																																			#Mod: Disabled 'is_free_or_tributary_trigger'
 			is_nomad = no		
-			if = {
-				limit = {
-					tag = RSL #Rasulids
-				}
-				NOT = { exists = ADE }
-				NOT = { exists = RAS }
-				NOT = { exists = YEM }
-			}
-			else_if = {
-				limit = {
-					tag = ADE #Tahirids
-				}
-				NOT = { exists = YEM }
-				NOT = { exists = RAS }
-				NOT = { exists = RSL }
-			}
-			else_if = {
-				limit = {
-					tag = RAS #Rassids
-				}
-				NOT = { exists = ADE }
-				NOT = { exists = YEM }
-				NOT = { exists = RSL }
-			}
-			else = { #neither
-				NOT = { exists = ADE }
-				NOT = { exists = YEM }
-				NOT = { exists = RAS }
-				NOT = { exists = RSL }
-			}
 			owns_core_province = 387	# Mocha
 			owns_core_province = 388	# Aden
 			owns_core_province = 390	# Sa'ana
 			owns_core_province = 4280	# Taiz
+			OR = {
+				owns_core_province = 389 #Mukalla
+				owns_core_province = 391 #Najran
+				owns_core_province = 2346 #Jazan
+			}
 		}
 		effect = {
 			change_tag = YEM
@@ -90,27 +88,37 @@ country_decisions = {
 			}
 			yemen_area = {
 				limit = {
+					NOT = { owned_by = ROOT }
 					NOT = { is_core = ROOT }
 				}
-				add_core = ROOT
+				add_permanent_claim = YEM
 			}
 			upper_yemen_area = {
 				limit = {
+					NOT = { owned_by = ROOT }
 					NOT = { is_core = ROOT }
 				}
-				add_core = ROOT
+				add_permanent_claim = YEM
 			}
 			tihama_al_yemen_area = {
 				limit = {
+					NOT = { owned_by = ROOT }
 					NOT = { is_core = ROOT }
 				}
-				add_core = ROOT
+				add_permanent_claim = YEM
+			}
+			hadramut_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+					NOT = { is_core = ROOT }
+				}
+				add_permanent_claim = YEM
 			}
 			add_country_modifier = {
 				name = "centralization_modifier"
 				duration = 7300
 			}
-			add_prestige_or_monarch_power = { amount = 25 }
+			add_prestige = 25
 			if = {
 				limit = {
 					has_custom_ideas = no
@@ -122,6 +130,10 @@ country_decisions = {
 		}
 		ai_will_do = {
 			factor = 1
+			modifier = {
+				factor = 0
+				tag = RAS	#RAS' ideas are just better
+			}
 		}
 		ai_importance = 400 #
 	}

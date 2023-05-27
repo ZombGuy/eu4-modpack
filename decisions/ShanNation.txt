@@ -11,6 +11,10 @@ country_decisions = {
 				ai = no
 				is_playing_custom_nation = no
 			}
+			OR = {
+				#is_free_or_tributary_trigger = yes																																		#Mod: Disabled 'is_free_or_tributary_trigger'
+				ai = no
+			}
 			NOT = { exists = SST }
 			primary_culture = shan
 			is_colonial_nation = no
@@ -49,12 +53,14 @@ country_decisions = {
 			owns_core_province = 2396 #Mong Kawng
 			owns_core_province = 2399 #Pagan
 			owns_core_province = 2400 #Hsipaw
+			#is_free_or_tributary_trigger = yes																																			#Mod: Disabled 'is_free_or_tributary_trigger'
 			is_nomad = no
 			is_at_war = no
 		}
 		effect = {
 			add_prestige = 20
 			change_tag = SST
+			on_change_tag_effect = yes
 			remove_non_electors_emperors_from_empire_effect = yes
 			if = {
 				limit = { NOT = { government_rank = 2 } }

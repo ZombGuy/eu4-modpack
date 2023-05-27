@@ -10,6 +10,10 @@ country_decisions = {
 				is_playing_custom_nation = no
 			}
 			OR = {
+				#is_free_or_tributary_trigger = yes																																		#Mod: Disabled 'is_free_or_tributary_trigger'
+				ai = no
+			}
+			OR = {
 				ai = no
 				AND = {
 					NOT = { exists = NBI }
@@ -45,6 +49,7 @@ country_decisions = {
 		allow = {
 			NOT = { exists = NBI }
 			is_at_war = no
+			#is_free_or_tributary_trigger = yes																																			#Mod: Disabled 'is_free_or_tributary_trigger'
 			is_nomad = no
 			lower_nubia_area = {
 				is_core = ROOT
@@ -62,11 +67,10 @@ country_decisions = {
 				type = all
 			}
 			religion_group = christian
-			monthly_adm = 10
-			monthly_mil = 10
 		}
 		effect = {
 			change_tag = NBI
+			on_change_tag_effect = yes
 			remove_non_electors_emperors_from_empire_effect = yes
 			if = {
 				limit = { NOT = { government_rank = 2 } }

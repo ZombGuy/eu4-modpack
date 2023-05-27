@@ -10,10 +10,15 @@ country_decisions = {
 				ai = no
 				is_playing_custom_nation = no
 			}
+			OR = {
+				#is_free_or_tributary_trigger = yes																																		#Mod: Disabled 'is_free_or_tributary_trigger'
+				ai = no
+			}
 			NOT = { tag = HLR }
 			NOT = { tag = FRA }
 			NOT = { tag = PAP }
 			NOT = { tag = SPA }		# Basque is a valid culture for both FRA and SPA
+			NOT = { tag = AVE }		# Anglois is also valid
 			OR = {
 				ai = no
 				NOT = { exists = FRA }
@@ -60,6 +65,7 @@ country_decisions = {
 		}
 		allow = {
 			is_at_war = no
+			#is_free_or_tributary_trigger = yes																																			#Mod: Disabled 'is_free_or_tributary_trigger'
 			is_nomad = no			
 			NOT = { exists = FRA }
 			owns_core_province = 184	# Orl�annais
@@ -79,6 +85,8 @@ country_decisions = {
 				move_capital_effect = yes
 			}
 			change_tag = FRA
+			on_change_tag_effect = yes
+			restore_country_name = yes
 			swap_non_generic_missions = yes
 			remove_non_electors_emperors_from_empire_effect = yes
 			if = {

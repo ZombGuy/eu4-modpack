@@ -52,6 +52,7 @@ country_decisions = {
 			NOT = { exists = MAR }
 			is_at_war = no
 			adm_tech = 20
+			#is_free_or_tributary_trigger = yes																																			#Mod: Disabled 'is_free_or_tributary_trigger'
 			owns_core_province = 546 #Nagpur
 			owns_core_province = 1946 #Satar
 			owns_core_province = 2033 #Savanur
@@ -65,6 +66,7 @@ country_decisions = {
 		}
 		effect = {
 			change_tag = MAR
+			on_change_tag_effect = yes
 			deccan_region = {
 				limit = {
 					NOT = { owned_by = ROOT }

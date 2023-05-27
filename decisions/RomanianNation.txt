@@ -10,6 +10,10 @@ country_decisions = {
 				ai = no
 				is_playing_custom_nation = no
 			}
+			OR = {
+				#is_free_or_tributary_trigger = yes																																		#Mod: Disabled 'is_free_or_tributary_trigger'
+				ai = no
+			}
 			NOT = { tag = HLR }
 			NOT = { tag = PAP }
 			NOT = { exists = RMN }
@@ -39,6 +43,7 @@ country_decisions = {
 			}
 		}
 		allow = {
+			#is_free_or_tributary_trigger = yes																																			#Mod: Disabled 'is_free_or_tributary_trigger'
 			is_nomad = no
 			is_at_war = no
 			NOT = { exists = BYZ }
@@ -51,6 +56,7 @@ country_decisions = {
 		}
 		effect = {
 			change_tag = RMN
+			on_change_tag_effect = yes
 			remove_non_electors_emperors_from_empire_effect = yes
 			swap_non_generic_missions = yes
 			if = {

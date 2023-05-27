@@ -10,6 +10,10 @@ country_decisions = {
 				ai = no
 				is_playing_custom_nation = no
 			}
+			OR = {
+				#is_free_or_tributary_trigger = yes																																		#Mod: Disabled 'is_free_or_tributary_trigger'
+				ai = no
+			}
 			tag = SHY
 			NOT = { exists = BUK }
 			NOT = { has_reform = celestial_empire }
@@ -31,6 +35,7 @@ country_decisions = {
 		}
 		allow = {
 			has_institution = feudalism
+			#is_free_or_tributary_trigger = yes																																			#Mod: Disabled 'is_free_or_tributary_trigger'
 			is_at_war = no
 			owns_core_province = 442 	#Bukhara
 			442 = {						#Bukhara				
@@ -46,6 +51,7 @@ country_decisions = {
 				move_capital_effect = yes
 			}
 			change_tag = BUK
+			on_change_tag_effect = yes
 			remove_non_electors_emperors_from_empire_effect = yes
 			if = {
 				limit = {
@@ -75,7 +81,7 @@ country_decisions = {
 					NOT = { government = monarchy }
 					is_revolutionary = no
 				}
-				change_government_to_monarchy = yes
+				change_government = monarchy
 			}
 			if = {
 				limit = { is_revolutionary = no }
@@ -84,7 +90,13 @@ country_decisions = {
 			change_technology_group = muslim
 			change_unit_type = muslim
 			set_global_flag = bukhara_formed
-			#country_event = { id = ideagroups.1 } #Swap Ideas		#Removed for now, add back if Bukhara gets own ideas
+			if = {
+				limit = { 
+					has_custom_ideas = no
+					NOT = { has_idea_group = BUK_ideas }
+				}
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
 			set_country_flag = formed_bukhara_flag
 		}
 

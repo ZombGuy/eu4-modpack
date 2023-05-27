@@ -10,6 +10,10 @@ country_decisions = {
 				ai = no
 				is_playing_custom_nation = no
 			}
+			OR = {
+				#is_free_or_tributary_trigger = yes																																		#Mod: Disabled 'is_free_or_tributary_trigger'
+				ai = no
+			}
 			NOT = { tag = HLR }
 			NOT = { tag = DAL }
 			NOT = { tag = CRO }
@@ -50,6 +54,7 @@ country_decisions = {
 		allow = {
 			NOT = { exists = DAL }
 			NOT = { num_of_cities = 11 }
+			#is_free_or_tributary_trigger = yes																																			#Mod: Disabled 'is_free_or_tributary_trigger'
 			is_nomad = no
 			is_at_war = no
 			owns_core_province = 136			# Split
@@ -58,6 +63,7 @@ country_decisions = {
 		effect = {
 			add_prestige = 25
 			change_tag = DAL
+			on_change_tag_effect = yes
 			if = {
 				limit = {
 					NOT = { government_rank = 2 }

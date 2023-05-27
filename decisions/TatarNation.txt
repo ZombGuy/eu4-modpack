@@ -11,7 +11,7 @@ country_decisions = {
 				is_playing_custom_nation = no
 			}
 			OR = {
-				is_free_or_tributary_trigger = yes
+				#is_free_or_tributary_trigger = yes																																		#Mod: Disabled 'is_free_or_tributary_trigger'
 				ai = no
 			}
 			NOT = { tag = MUG }
@@ -21,13 +21,7 @@ country_decisions = {
 			NOT = { tag = TUR }
 			NOT = { tag = BYZ }
 			NOT = { exists = GLH }
-			OR = {
-				culture_group = tartar
-				AND = {
-					has_country_flag = kha_can_form_golden_horde_with_altaic_culture
-					culture_group = altaic
-				}
-			}
+			culture_group = tartar
 			has_reform = steppe_horde
 			is_colonial_nation = no
 			OR = {
@@ -109,7 +103,7 @@ country_decisions = {
 				country_or_non_sovereign_subject_holds = ROOT
 			}
 			num_of_cities = 30
-			is_free_or_tributary_trigger = yes
+			#is_free_or_tributary_trigger = yes																																			#Mod: Disabled 'is_free_or_tributary_trigger'
 			is_at_war = no
 		}
 		effect = {
@@ -165,7 +159,7 @@ country_decisions = {
 				name = "centralization_modifier"
 				duration = 7300
 			}
-			add_prestige_or_monarch_power = { amount = 25 }
+			add_prestige = 25
 		}
 		ai_will_do = {
 			factor = 1

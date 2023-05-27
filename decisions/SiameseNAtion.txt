@@ -11,6 +11,10 @@ country_decisions = {
 				is_playing_custom_nation = no
 			}
 			OR = {
+				#is_free_or_tributary_trigger = yes																																		#Mod: Disabled 'is_free_or_tributary_trigger'
+				ai = no
+			}
+			OR = {
 				NOT = { exists = SIA }
 				ai = no
 			}
@@ -54,6 +58,7 @@ country_decisions = {
 				adm_tech = 20
 			}
 			is_at_war = no
+			#is_free_or_tributary_trigger = yes																																			#Mod: Disabled 'is_free_or_tributary_trigger'
 			owns_core_province = 600
 			owns_core_province = 601
 			owns_core_province = 589
@@ -66,6 +71,7 @@ country_decisions = {
 		
 		effect = {
 			change_tag = SIA
+			on_change_tag_effect = yes
 			swap_non_generic_missions = yes
 			indo_china_region = {
 				limit = {

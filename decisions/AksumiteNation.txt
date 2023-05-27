@@ -1,10 +1,23 @@
 country_decisions = {
-	somalia_nation = {
+	aksumite_nation = {
 		major = yes
 		potential = {
 			normal_or_historical_nations = yes
-			was_never_end_game_tag_trigger = yes
-			NOT = { has_country_flag = formed_somalia_flag }
+			if = {
+				limit = {
+					tag = ETH
+				}
+				OR = {
+					NOT = { has_dlc = "Origins" }
+					has_country_flag = eth_can_form_aksumite
+				}
+			}
+			else = {
+				was_never_end_game_tag_trigger = yes
+				NOT = { tag = ETH }
+				primary_culture = tigray
+			}
+			NOT = { has_country_flag = formed_aksumite_empire_flag }
 			OR = {
 				ai = no
 				is_playing_custom_nation = no
@@ -13,17 +26,16 @@ country_decisions = {
 				#is_free_or_tributary_trigger = yes																																		#Mod: Disabled 'is_free_or_tributary_trigger'
 				ai = no
 			}
-			NOT = { tag = SOM }
 			OR = {
 				ai = no
 				AND = {
-					NOT = { exists = SOM }
+					NOT = { exists = AKS }
 					num_of_cities = 3 #Carnage
 				}
 			}
 			NOT = { tag = HLR }
 			NOT = { tag = PAP }
-			primary_culture = somali
+			NOT = { tag = AKS }
 			is_colonial_nation = no
 			OR = {
 				is_former_colonial_nation = no
@@ -35,14 +47,16 @@ country_decisions = {
 		}
 		provinces_to_highlight = {
 			OR = {
-				area = mogadishu_area
-				area = ajuuran_area
-				area = majarteen_area
-				area = somaliland_area
-				area = ogaden_area
-				area = ifat_area
-				province_id = 2774	# Kismayo
-				province_id = 2777	# Bardera
+				area = central_ethiopia_area
+				area = southern_ethiopia_area
+				area = damot_area
+				area = tigray_area
+				area = aussa_area
+				area = yemen_area
+				area = hadramut_area
+				area = mahra_area
+				province_id = 387
+				province_id = 4279
 			}
 			OR = {
 				NOT = { owned_by = ROOT }
@@ -50,86 +64,82 @@ country_decisions = {
 			}
 		}
 		allow = {
-			NOT = { exists = SOM }
+			NOT = { exists = AKS }
 			is_at_war = no
 			#is_free_or_tributary_trigger = yes																																			#Mod: Disabled 'is_free_or_tributary_trigger'
 			is_nomad = no
-			mogadishu_area = {
+			owns_core_province = 387	# Mukha
+			owns_core_province = 4279	# Zabid
+			central_ethiopia_area = {
 				is_core = ROOT
 				owned_by = ROOT
 				type = all
 			}
-			ajuuran_area = {
+			southern_ethiopia_area = {
 				is_core = ROOT
 				owned_by = ROOT
 				type = all
 			}
-			majarteen_area = {
+			damot_area = {
 				is_core = ROOT
 				owned_by = ROOT
 				type = all
 			}
-			somaliland_area = {
+			tigray_area = {
 				is_core = ROOT
 				owned_by = ROOT
 				type = all
 			}
-			ogaden_area = {
+			aussa_area = {
 				is_core = ROOT
 				owned_by = ROOT
 				type = all
 			}
-			ifat_area = {
+			yemen_area = {
 				is_core = ROOT
 				owned_by = ROOT
 				type = all
 			}
-			owns_core_province = 2774	# Kismayo
-			owns_core_province = 2777	# Bardera
+			hadramut_area = {
+				is_core = ROOT
+				owned_by = ROOT
+				type = all
+			}
+			mahra_area = {
+				is_core = ROOT
+				owned_by = ROOT
+				type = all
+			}
 		}
 		effect = {
-			change_tag = SOM
+			change_tag = AKS
 			on_change_tag_effect = yes
 			remove_non_electors_emperors_from_empire_effect = yes
 			if = {
-				limit = { NOT = { government_rank = 2 } }
-				set_government_rank = 2
+				limit = { NOT = { government_rank = 3 } }
+				set_government_rank = 3
 			}
-			set_capital = 1205
+			set_capital = 1227
 			horn_of_africa_region = {
 				limit = {
 					NOT = { owned_by = ROOT }
 					NOT = { is_core = ROOT }
 				}
-				add_permanent_claim = SOM
-			}
-			add_country_modifier = {
-				name = "centralization_modifier"
-				duration = 7300
+				add_permanent_claim = AKS
 			}
 			add_prestige = 25
 			if = {
 				limit = {
 					has_custom_ideas = no
-					NOT = { has_idea_group = SOM_ideas }
+					NOT = { has_idea_group = AKS_ideas }
 				}
 				country_event = { id = ideagroups.1 } #Swap Ideas
 			}
-			set_country_flag = formed_somalia_flag
-			create_colony_mission_reward = {
-				province = 4051
-			}
-			create_colony_mission_reward = {
-				province = 4052
-			}
+			set_country_flag = formed_aksumite_empire_flag
+			clr_country_flag = eth_can_form_aksumite
 		}
 		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 0
-				NOT = { owns_core_province = 2774 }
-				NOT = { owns_core_province = 2777 }
-			}
+			factor = 0
 		}
 		ai_importance = 400 #
 	}

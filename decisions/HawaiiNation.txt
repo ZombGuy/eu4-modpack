@@ -33,6 +33,7 @@ country_decisions = {
 			}
 		}
 		allow = {
+			#is_free_or_tributary_trigger = yes																																			#Mod: Disabled 'is_free_or_tributary_trigger'
 			is_at_war = no
 			capital_scope = {
 				area = northern_polynesia_area
@@ -47,6 +48,7 @@ country_decisions = {
 		}
 		effect = {
 			change_tag = UHW
+			on_change_tag_effect = yes
 			if = {
 				limit = {
 					NOT = { government_rank = 2 }

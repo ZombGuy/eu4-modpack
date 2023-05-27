@@ -11,7 +11,7 @@ country_decisions = {
 				is_playing_custom_nation = no
 			}
 			OR = {
-				is_free_or_tributary_trigger = yes
+				#is_free_or_tributary_trigger = yes																																		#Mod: Disabled 'is_free_or_tributary_trigger'
 				ai = no
 			}
 			NOT = { tag = GEO }
@@ -24,7 +24,6 @@ country_decisions = {
 			}
 			NOT = { tag = HLR }
 			NOT = { tag = PAP }
-			NOT = { tag = CAU }
 			primary_culture = georgian
 			is_colonial_nation = no
 			OR = {
@@ -66,7 +65,7 @@ country_decisions = {
 		allow = {
 			NOT = { exists = GEO }
 			is_at_war = no
-			is_free_or_tributary_trigger = yes
+			#is_free_or_tributary_trigger = yes																																			#Mod: Disabled 'is_free_or_tributary_trigger'
 			is_nomad = no
 			owns_core_province = 422	# Imereti
 			owns_core_province = 423	# Tblisi
@@ -82,7 +81,6 @@ country_decisions = {
 		effect = {
 			change_tag = GEO
 			on_change_tag_effect = yes
-			swap_non_generic_missions = yes
 			remove_non_electors_emperors_from_empire_effect = yes
 			if = {
 				limit = { NOT = { government_rank = 2 } }
@@ -113,7 +111,7 @@ country_decisions = {
 				name = "centralization_modifier"
 				duration = 7300
 			}
-			add_prestige_or_monarch_power = { amount = 25 }
+			add_prestige = 25
 			if = {
 				limit = {
 					has_custom_ideas = no
