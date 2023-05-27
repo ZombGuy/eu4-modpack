@@ -2,6 +2,6 @@ version="1.1"
 tags={
 	"Balance"
 }
-name="eu4 LARP modpack update 1.35"
-supported_version="1.35.*
+name="eu4 LARP modpack dev"
+supported_version="1.34.5"
 remote_file_id="2934443588"
