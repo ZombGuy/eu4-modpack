@@ -11,14 +11,15 @@ liberalism_mechanic = {
 			default = 0
 			scaled_modifier = {
 				modifier = {
-					development_cost = -0.10
-					idea_cost = -0.1
-					tolerance_heathen = 1
-					tolerance_of_heathens_capacity = 1
-					tolerance_heretic = 1
-					tolerance_of_heretics_capacity = 1
+					development_cost = -0.50
+					idea_cost = -0.5
+					tolerance_heathen = 2
+					tolerance_of_heathens_capacity = 2
+					tolerance_heretic = 2
+					tolerance_of_heretics_capacity = 2
 					max_absolutism = -25
 					monthly_liberalism = -1
+					trade_efficiency = 125
 				}
 			}
 			scaled_modifier = {
@@ -27,6 +28,9 @@ liberalism_mechanic = {
 				}
 				modifier = {
 					global_trade_goods_size_modifier = 0.25
+					embargo_efficiency = -0.25
+					trade_efficiency = 1.5
+					global_own_trade_power = 0.2
 				}
 			}
 		}
