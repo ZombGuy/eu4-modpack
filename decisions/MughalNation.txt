@@ -3,6 +3,11 @@ country_decisions = {
 	mughal_nation = {
 		major = yes
 		potential = {
+			OR = {
+				NOT = { tag = TIM }
+				has_country_flag = me_tim_mughal_path
+				has_country_flag = me_tim_babur_flight
+			}
 			normal_or_historical_nations = yes
 			was_never_end_game_tag_trigger = yes
 			NOT = { has_country_flag = formed_mughal_empire_flag }
@@ -12,7 +17,7 @@ country_decisions = {
 				is_playing_custom_nation = no
 			}
 			OR = {
-				#is_free_or_tributary_trigger = yes																																		#Mod: Disabled 'is_free_or_tributary_trigger'
+				is_free_or_tributary_trigger = yes
 				ai = no
 			}
 			NOT = { tag = PER }
@@ -61,15 +66,26 @@ country_decisions = {
 			religion_group = muslim
 			NOT = { exists = MUG }
 			is_at_war = no
-			#is_free_or_tributary_trigger = yes																																			#Mod: Disabled 'is_free_or_tributary_trigger'
-			OR = {
-				owns_core_province = 507 #Lahore
-				owns_core_province = 2075 #Sirhind
-				owns_core_province = 524 #Agra
+			is_free_or_tributary_trigger = yes
+			if = {
+				limit = {
+					has_country_flag = me_tim_babur_flight
+				}
+				num_of_owned_provinces_with = {
+					region = hindusthan_region
+					value = 6
+				}
 			}
-			owns_core_province = 522 	#Delhi
-			522 = {						#Delhi
-				is_state = yes
+			else = {
+				OR = {
+					owns_core_province = 507 #Lahore
+					owns_core_province = 2075 #Sirhind
+					owns_core_province = 524 #Agra
+				}
+				owns_core_province = 522 	#Delhi
+				522 = {						#Delhi
+					is_state = yes
+				}
 			}
 		}
 		effect = {
@@ -82,6 +98,7 @@ country_decisions = {
 			swap_non_generic_missions = yes
 			remove_non_electors_emperors_from_empire_effect = yes
 			change_primary_culture = kanauji
+			clr_country_flag = ME_can_use_timurid_legitimacy
 			set_government_rank = 3
 			522 = {
 			 	add_base_tax = 1
@@ -94,7 +111,7 @@ country_decisions = {
 				}
 				add_permanent_claim = MUG
 			}
-			add_prestige = 25
+			add_prestige_or_monarch_power = { amount = 25 }
 
 			if = {
 				limit = {
@@ -180,7 +197,7 @@ country_decisions = {
 				NOT = { tag = TIM }
 				NOT = { tag = AFG }
 				NOT = { tag = BAL }
-				NOT = { total_development = 350 }
+				NOT = { total_development = 500 }
 			}
 		}
 		ai_importance = 600

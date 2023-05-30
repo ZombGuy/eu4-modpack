@@ -2,14 +2,14 @@
 
 graphical_culture = westerngfx
 
-color = { 57  160  101 }
+color = { 0 82 152 }
 revolutionary_colors = { 9 8 5 }
 
 historical_score = 4700
 
 historical_idea_groups = {
 	exploration_ideas
-	trade_ideas  # Changed from Expansion_ideas to slow down colonization
+	expansion_ideas
 	offensive_ideas
 	religious_ideas
 	economic_ideas

@@ -11,7 +11,7 @@ country_decisions = {
 				is_playing_custom_nation = no
 			}
 			OR = {
-				#is_free_or_tributary_trigger = yes																																		#Mod: Disabled 'is_free_or_tributary_trigger'
+				is_free_or_tributary_trigger = yes
 				ai = no
 			}
 			NOT = { exists = PLC }
@@ -129,7 +129,13 @@ country_decisions = {
 				}
 			}
 			random_owned_province = {
-				limit = { OR = { culture = polish culture = polish_new } }
+				limit = {
+					OR = {
+						culture = polishBOH
+						culture = polish
+						culture = polish_new
+					}
+				}
 				add_base_tax = 1
 			}
 			set_country_flag = formed_plc_flag
@@ -166,7 +172,7 @@ country_decisions = {
 				is_playing_custom_nation = no
 			}
 			OR = {
-				#is_free_or_tributary_trigger = yes																																		#Mod: Disabled 'is_free_or_tributary_trigger'
+				is_free_or_tributary_trigger = yes
 				ai = no
 			}
 			NOT = { exists = PLC }
@@ -235,16 +241,25 @@ country_decisions = {
 			set_country_flag = pol_chose_pu_flag
 			swap_non_generic_missions = yes
 			if = {
-				limit = { has_updated_culture = { culture = slavic } }
-				if = {
-					limit = { NOT = { primary_culture = polish_new } }
-					change_primary_culture = polish_new
+				limit = {
+					NOT = { accepted_culture = polishBOH }
+					NOT = { accepted_culture = polish }
+					NOT = { accepted_culture = polish_new }
 				}
-			}
-			else = {
 				if = {
-					limit = { NOT = { primary_culture = polish } }
-					change_primary_culture = polish
+					limit = {
+						has_updated_culture = { culture = slavic } 
+					}
+					add_accepted_culture = polish_new
+				}
+				else_if = {
+					limit = {
+						has_global_flag = boh_merge_slavic_into_germanic
+					}
+					add_accepted_culture = polishBOH
+				}
+				else = {
+					add_accepted_culture = polish
 				}
 			}
 			add_country_modifier = {
@@ -336,7 +351,7 @@ country_decisions = {
 				is_playing_custom_nation = no
 			}
 			OR = {
-				#is_free_or_tributary_trigger = yes																																		#Mod: Disabled 'is_free_or_tributary_trigger'
+				is_free_or_tributary_trigger = yes
 				ai = no
 			}
 			NOT = { exists = PLC }
@@ -376,7 +391,7 @@ country_decisions = {
 		}
 		allow = {
 			adm_tech = 10
-			#is_free_or_tributary_trigger = yes																																			#Mod: Disabled 'is_free_or_tributary_trigger'
+			is_free_or_tributary_trigger = yes
 			is_nomad = no
 			stability = 3
 			is_at_war = no
@@ -412,16 +427,25 @@ country_decisions = {
 				PLC = { set_government_rank = 2 }
 			}
 			if = {
-				limit = { has_updated_culture = { culture = slavic } }
-				if = {
-					limit = { NOT = { primary_culture = polish_new } NOT = { accepted_culture = polish_new } }
-					change_primary_culture = polish_new
+				limit = {
+					NOT = { accepted_culture = polishBOH }
+					NOT = { accepted_culture = polish }
+					NOT = { accepted_culture = polish_new }
 				}
-			}
-			else = {
 				if = {
-					limit = { NOT = { primary_culture = polish } NOT = { accepted_culture = polish } }
-					change_primary_culture = polish
+					limit = {
+						has_updated_culture = { culture = slavic } 
+					}
+					add_accepted_culture = polish_new
+				}
+				else_if = {
+					limit = {
+						has_global_flag = boh_merge_slavic_into_germanic
+					}
+					add_accepted_culture = polishBOH
+				}
+				else = {
+					add_accepted_culture = polish
 				}
 			}
 			if = {

@@ -11,7 +11,7 @@ country_decisions = {
 				is_playing_custom_nation = no
 			}
 			OR = {
-				#is_free_or_tributary_trigger = yes																																		#Mod: Disabled 'is_free_or_tributary_trigger'
+				is_free_or_tributary_trigger = yes
 				ai = no
 			}
 			NOT = { exists = BAV }
@@ -66,7 +66,7 @@ country_decisions = {
 			}
 		}
 		allow = {
-			#is_free_or_tributary_trigger = yes																																			#Mod: Disabled 'is_free_or_tributary_trigger'
+			is_free_or_tributary_trigger = yes
 			is_at_war = no
 
 			if = {
@@ -151,10 +151,22 @@ country_decisions = {
 				name = "centralization_modifier"
 				duration = 7300
 			}
-			add_prestige = 25
-			set_capital = 65
+			add_prestige_or_monarch_power = { amount = 25 }
 			65 = { add_base_tax = 2 }
 			set_country_flag = formed_bavaria_flag
+			if = {
+				limit = {
+					has_country_modifier = bavaria_minor_a_bavarian_army_modifier
+				}
+				remove_country_modifier = bavaria_minor_a_bavarian_army_modifier
+			}
+			hidden_effect = {
+				set_global_flag = bav_former_capital_set
+				set_country_flag = bav_former_capital_saved
+				capital_scope = {
+					save_global_event_target_as = bav_former_capital
+				}
+			}
 			if = {
 				limit = { 
 					has_custom_ideas = no
@@ -162,17 +174,7 @@ country_decisions = {
 				}
 				country_event = { id = ideagroups.1 } #Swap Ideas
 			}
-			if = {
-				limit = {
-					NOT = { tag = UBV }
-					NOT = { tag = LBV }
-					NOT = { tag = ING }
-					NOT = { was_tag = UBV }
-					NOT = { was_tag = LBV }
-					NOT = { was_tag = ING }
-				}
-				swap_non_generic_missions = yes
-			}
+			swap_non_generic_missions = yes
 		}
 		ai_will_do = {
 			factor = 10
@@ -192,7 +194,7 @@ country_decisions = {
 				is_playing_custom_nation = no
 			}
 			OR = {
-				#is_free_or_tributary_trigger = yes																																		#Mod: Disabled 'is_free_or_tributary_trigger'
+				is_free_or_tributary_trigger = yes
 				ai = no
 			}
 			NOT = { exists = POM }
@@ -243,7 +245,7 @@ country_decisions = {
 			}
 		}
 		allow = {
-			#is_free_or_tributary_trigger = yes																																			#Mod: Disabled 'is_free_or_tributary_trigger'
+			is_free_or_tributary_trigger = yes
 			is_at_war = no
 
 			if = {
@@ -294,8 +296,8 @@ country_decisions = {
 				name = "centralization_modifier"
 				duration = 7300
 			}
-			add_prestige = 25
-			
+			add_prestige_or_monarch_power = { amount = 25 }
+
 			if = {
 				limit = {
 					NOT = { tag = WOL }
@@ -389,7 +391,7 @@ country_decisions = {
 				is_playing_custom_nation = no
 			}
 			OR = {
-				#is_free_or_tributary_trigger = yes																																		#Mod: Disabled 'is_free_or_tributary_trigger'
+				is_free_or_tributary_trigger = yes
 				ai = no
 			}
 			NOT = { exists = FKN }
@@ -451,7 +453,7 @@ country_decisions = {
 		}
 
 		allow = {
-			#is_free_or_tributary_trigger = yes																																			#Mod: Disabled 'is_free_or_tributary_trigger'
+			is_free_or_tributary_trigger = yes
 			is_at_war = no
 			#adm_tech = 10
 			OR = { #Wurzburg was the theoretical holder of the title
@@ -496,7 +498,7 @@ country_decisions = {
 				name = "centralization_modifier"
 				duration = 7300
 			}
-			add_prestige = 25
+			add_prestige_or_monarch_power = { amount = 25 }
 			set_country_flag = formed_franconia_flag
 
 			if = {
@@ -537,7 +539,7 @@ country_decisions = {
 				is_playing_custom_nation = no
 			}
 			OR = {
-				#is_free_or_tributary_trigger = yes																																		#Mod: Disabled 'is_free_or_tributary_trigger'
+				is_free_or_tributary_trigger = yes
 				ai = no
 			}
 			NOT = { exists = SWA }
@@ -577,7 +579,7 @@ country_decisions = {
 			}
 		}
 		allow = {
-			#is_free_or_tributary_trigger = yes																																			#Mod: Disabled 'is_free_or_tributary_trigger'
+			is_free_or_tributary_trigger = yes
 			is_at_war = no
 			#adm_tech = 10
 			owns_core_province = 70 #Wurttemberg
@@ -643,7 +645,7 @@ country_decisions = {
 				name = "centralization_modifier"
 				duration = 7300
 			}
-			add_prestige = 25
+			add_prestige_or_monarch_power = { amount = 25 }
 			set_country_flag = formed_swabia_flag
 
 			if = {
@@ -683,7 +685,7 @@ country_decisions = {
 				is_playing_custom_nation = no
 			}
 			OR = {
-				#is_free_or_tributary_trigger = yes																																		#Mod: Disabled 'is_free_or_tributary_trigger'
+				is_free_or_tributary_trigger = yes
 				ai = no
 			}
 			OR = {
@@ -749,7 +751,7 @@ country_decisions = {
 		}
 
 		allow = {
-			#is_free_or_tributary_trigger = yes																																			#Mod: Disabled 'is_free_or_tributary_trigger'
+			is_free_or_tributary_trigger = yes
 			is_at_war = no
 			NOT = { exists = SAX }
 			owns_core_province = 59			#Wittenberg
@@ -796,7 +798,7 @@ country_decisions = {
 				name = "centralization_modifier"
 				duration = 7300
 			}
-			add_prestige = 25
+			add_prestige_or_monarch_power = { amount = 25 }
 			set_country_flag = formed_saxony_flag
 
 			if = {
@@ -831,7 +833,7 @@ country_decisions = {
 				is_playing_custom_nation = no
 			}
 			OR = {
-				#is_free_or_tributary_trigger = yes																																		#Mod: Disabled 'is_free_or_tributary_trigger'
+				is_free_or_tributary_trigger = yes
 				ai = no
 			}
 			NOT = { tag = HLR }
@@ -886,7 +888,7 @@ country_decisions = {
 		}
 		allow = {
 			adm_tech = 10
-			#is_free_or_tributary_trigger = yes																																			#Mod: Disabled 'is_free_or_tributary_trigger'
+			is_free_or_tributary_trigger = yes
 			is_nomad = no
 			is_at_war = no
 			owns_core_province = 53	# Luneburg
@@ -935,7 +937,7 @@ country_decisions = {
 				add_permanent_claim = HAN
 			}
 			set_country_flag = formed_hannover_flag
-			add_prestige = 25
+			add_prestige_or_monarch_power = { amount = 25 }
 			if = {
 				limit = {
 					NOT = { government_rank = 2 }
@@ -971,7 +973,7 @@ country_decisions = {
 				is_playing_custom_nation = no
 			}
 			OR = {
-				#is_free_or_tributary_trigger = yes																																		#Mod: Disabled 'is_free_or_tributary_trigger'
+				is_free_or_tributary_trigger = yes
 				ai = no
 			}
 			NOT = { tag = HLR }
@@ -982,24 +984,23 @@ country_decisions = {
 			NOT = { tag = SWI }
 			NOT = { exists = WES }
 			NOT = { has_reform = celestial_empire }
-			OR = {
-				primary_culture = hannoverian #Westphalian
-				primary_culture = hessian
-			}
+			primary_culture = hannoverian #Westphalian
 			is_colonial_nation = no
 			OR = {
 				ai = no
 				AND = {
 					owns_core_province = 82	# Westfalen
-					owns_core_province = 1762	# Kassel
+					owns_core_province = 86	# Munster
 					OR = {
-						owns_core_province = 85	# Cologne
-						owns_core_province = 80	# Trier
-						owns_core_province = 78	# Mainz
-						owns_core_province = 86	# Munster
+						owns_core_province = 69	# Dortmund
+						owns_core_province = 2971	# Hoya
+					}
+					OR = {
+						owns_core_province = 2972	# Paderborn
+						owns_core_province = 4775	# Lippe/Lippstadt/Bielefeld
 					}
 				}
-			}			
+			}
 			OR = {
 				is_former_colonial_nation = no
 				AND = {
@@ -1011,46 +1012,48 @@ country_decisions = {
 		provinces_to_highlight = {
 			OR = {
 				province_id = 82	# Westfalen
-				province_id = 1762	# Kassel
+				province_id = 86	# Kassel
 				AND = {
 					OR = {
-						province_id = 85	# Cologne
-						province_id = 80	# Trier
-						province_id = 78	# Mainz
-						province_id = 86	# Munster
+						owns_core_province = 69	# Dortmund
+						owns_core_province = 2971	# Hoya
 					}
 					ROOT = {
-						NOT = { owns_core_province = 85 }
-						NOT = { owns_core_province = 80 }
-						NOT = { owns_core_province = 78 }
-						NOT = { owns_core_province = 86 }
+						NOT = { owns_core_province = 69 }
+						NOT = { owns_core_province = 2971 }
 					}
 				}
 				AND = {
 					OR = {
-						culture = hannoverian
-						culture = hessian
+						owns_core_province = 2972	# Dortmund
+						owns_core_province = 4775	# Hoya
 					}
+					ROOT = {
+						NOT = { owns_core_province = 2972 }
+						NOT = { owns_core_province = 4775 }
+					}
+				}
+				AND = {
+					culture = hannoverian
 					region = north_german_region
 					ROOT = {
 						NOT = {
 							num_of_owned_provinces_with = {
-								value = 12 #out of 22
-								OR = {
-									culture = hannoverian
-									culture = hessian
-								}
+								value = 6 #out of 9 #nice
+								culture = hannoverian
 								region = north_german_region
 								is_core = root
 							}
 						}
 						owns_core_province = 82
-						owns_core_province = 1762
+						owns_core_province = 86
 						OR = {
-							owns_core_province = 85
-							owns_core_province = 80
-							owns_core_province = 78
-							owns_core_province = 86
+							owns_core_province = 2972	# Dortmund
+							owns_core_province = 4775	# Hoya
+						}
+						OR = {
+							owns_core_province = 69	# Dortmund
+							owns_core_province = 2971	# Hoya
 						}
 					}
 				}
@@ -1062,32 +1065,30 @@ country_decisions = {
 		}
 		allow = {
 			adm_tech = 10
-			#is_free_or_tributary_trigger = yes																																			#Mod: Disabled 'is_free_or_tributary_trigger'
+			is_free_or_tributary_trigger = yes
 			is_nomad = no
 			is_at_war = no
 			AND = {
 				owns_core_province = 82	# Westfalen
-				owns_core_province = 1762	# Kassel
+				owns_core_province = 86	# Munster
 				OR = {
-					owns_core_province = 85	# Cologne
-					owns_core_province = 80	# Trier
-					owns_core_province = 78	# Mainz
-					owns_core_province = 86	# Munster
+					owns_core_province = 69	# Dortmund
+					owns_core_province = 2971	# Hoya
+				}
+				OR = {
+					owns_core_province = 2972	# Paderborn
+					owns_core_province = 4775	# Lippe/Lippstadt/Bielefeld
 				}
 			}
 			num_of_owned_provinces_with = {
-				value = 12 #out of 22
-				OR = {
-					culture = hannoverian
-					culture = hessian
-				}
+				value = 6 #out of 9 #nice
+				culture = hannoverian
 				region = north_german_region
 				is_core = root
 			}
 		}
 		effect = {
 			change_tag = WES
-			on_change_tag_effect = yes
 			restore_country_name_effect = yes
 			set_country_flag = formed_westphalia_flag
 			if = {
@@ -1099,13 +1100,6 @@ country_decisions = {
 					}
 				}
 				set_government_rank = 2
-			}
-			if = {
-				limit = {
-					NOT = { primary_culture = hessian }
-					NOT = { accepted_culture = hessian }
-				}
-				add_accepted_culture = hessian
 			}
 			if = {
 				limit = {
@@ -1126,41 +1120,18 @@ country_decisions = {
 				limit = { NOT = { owned_by = ROOT } }
 				add_permanent_claim = WES
 			}
-			hesse_area = {
-				limit = { NOT = { owned_by = ROOT } }
-				add_permanent_claim = WES
-			}
-			palatinate_area = {
-				limit = { NOT = { owned_by = ROOT } }
-				add_permanent_claim = WES
-			}
-			north_rhine_area = {
-				limit = { NOT = { owned_by = ROOT } }
-				add_permanent_claim = WES
-			}
-			lower_rhineland_area = {
-				limit = { NOT = { owned_by = ROOT } }
-				add_permanent_claim = WES
-			}
 			every_province = {
 				limit = {
 					NOT = { owned_by = ROOT }
-					OR = {
-						culture = hessian
-						culture = hannoverian
-					}
+					culture = hannoverian
 					NOT = { area = westphalia_area }
 					NOT = { area = north_westphalia_area }
-					NOT = { area = hesse_area }
-					NOT = { area = palatinate_area }
-					NOT = { area = north_rhine_area }
-					NOT = { area = lower_rhineland_area }
 					continent = europe
 				}
 				add_permanent_claim = WES
 			}
 			swap_non_generic_missions = yes
-			add_prestige = 25
+			add_prestige_or_monarch_power = { amount = 25 }
 			if = {
 				limit = {
 					has_custom_ideas = no

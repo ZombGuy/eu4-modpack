@@ -5,13 +5,16 @@ country_decisions = {
 		potential = {
 			normal_or_historical_nations = yes
 			NOT = { has_country_flag = restored_rome_flag }
-			owns = 118
+			OR = {
+				owns = 118
+				tag = BYZ
+			}
 			OR = {
 				ai = no
 				is_playing_custom_nation = no
 			}
 			OR = {
-				#is_free_or_tributary_trigger = yes																																		#Mod: Disabled 'is_free_or_tributary_trigger'
+				is_free_or_tributary_trigger = yes
 				ai = no
 			}
 			NOT = { tag = HLR }
@@ -74,7 +77,7 @@ country_decisions = {
 			owns = 96 # Zeeland
 			owns = 134 # Vienna
 			is_at_war = no
-			#is_free_or_tributary_trigger = yes																																			#Mod: Disabled 'is_free_or_tributary_trigger'
+			is_free_or_tributary_trigger = yes
 			is_nomad = no
 			118 = {
 				is_state = yes
@@ -97,6 +100,7 @@ country_decisions = {
 				}
 			}
 			change_primary_culture = roman
+			swap_non_generic_missions = yes
 			custom_tooltip = restore_roman_empire_tt
 			hidden_effect = {
 				every_owned_province = {
@@ -107,7 +111,7 @@ country_decisions = {
 				}
 			}
 			set_government_rank = 3
-			add_prestige = 50
+			add_prestige_or_monarch_power = { amount = 50 }
 			if = {
 				limit = {
 					has_dlc = "Domination"
@@ -176,7 +180,7 @@ country_decisions = {
 			set_country_flag = restored_rome_flag
 		}
 		ai_will_do = {
-			factor = 0
+			factor = 1
 		}
 	}
 	

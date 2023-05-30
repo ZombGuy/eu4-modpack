@@ -1,5 +1,5 @@
 government = monarchy
-add_government_reform = theocratic_autocracy
+add_government_reform = byzantine_autocracy
 government_rank = 3
 primary_culture = greek
 religion = orthodox

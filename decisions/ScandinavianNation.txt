@@ -11,7 +11,7 @@ country_decisions = {
 				is_playing_custom_nation = no
 			}
 			OR = {
-				#is_free_or_tributary_trigger = yes																																		#Mod: Disabled 'is_free_or_tributary_trigger'
+				is_free_or_tributary_trigger = yes
 				ai = no
 			}
 			NOT = { exists = SCA }
@@ -66,7 +66,7 @@ country_decisions = {
 			else = {
 				adm_tech = 20
 			}
-			#is_free_or_tributary_trigger = yes																																			#Mod: Disabled 'is_free_or_tributary_trigger'
+			is_free_or_tributary_trigger = yes
 			is_nomad = no
 			is_at_war = no
 			owns_core_province = 1		# Uppland
@@ -84,6 +84,7 @@ country_decisions = {
 			change_tag = SCA
 			on_change_tag_effect = yes
 			remove_non_electors_emperors_from_empire_effect = yes
+			swap_non_generic_missions = yes	
 			if = {
 				limit = { NOT = { government_rank = 2 } }
 				set_government_rank = 2
@@ -311,7 +312,7 @@ country_decisions = {
 				name = "centralization_modifier"
 				duration = 7300
 			}
-			add_prestige = 10
+			add_prestige_or_monarch_power = { amount = 10 }
 			set_country_flag = formed_scandinavia_flag
 			if = {
 				limit = {
@@ -325,8 +326,9 @@ country_decisions = {
 					religion = norse_pagan_reformed
 				}
 				override_country_name = NORTH_SEA_EMPIRE
-				set_country_flag = has_overriden_color_flag
 				change_country_color = { color = { 202 245 251 } }
+				set_country_flag = has_overriden_color_flag
+				set_country_flag = has_overriden_name_flag
 			}
 			else = {
 				if = {
@@ -334,8 +336,9 @@ country_decisions = {
 						has_reform = danish_archkingdom
 					}
 					override_country_name = KLU
-					set_country_flag = has_overriden_color_flag
 					change_country_color = { color = { 255 212 42 } }
+					set_country_flag = has_overriden_color_flag
+					set_country_flag = has_overriden_name_flag
 				}
 			}
 		}

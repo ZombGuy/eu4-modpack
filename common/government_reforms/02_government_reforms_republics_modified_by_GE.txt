@@ -103,7 +103,7 @@ venice_merchants_reform = {
 		yearly_corruption = -0.1
 		monarch_lifespan = 0.25
 		trade_deals_slots = 2
-		monthly_liberalism = 0.2
+		monthly_liberalism = 0.5
 	}
 	government_abilities = {
 		liberalism_mechanic
