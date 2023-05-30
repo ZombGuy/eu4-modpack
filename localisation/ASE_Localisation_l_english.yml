@@ -1,5 +1,4 @@
 ﻿l_english:
- ab_persia_court: "Persian Court"
 #Discovery
  ase_exploration_corp: "Exploration Corps"
  ase_glorious_renaissance: "Glorious Renaissance"
@@ -446,10 +445,11 @@
   ASE_Splendor_Events.3.OPT31: "Let's hire a £adm£ Imperial Bureaucrat"
   ASE_Splendor_Events.3.OPT32: "Let's hire a £adm£ Scholar"
   ASE_Splendor_Events.3.OPT33: "Let's hire a £adm£ Inventor"
+  ASE_Splendor_Events.3.OPT34: "Let's hire a £adm£ Witch Hunter"
 
  #Diplomatic Advisor
-  ASE_Splendor_Events.4.T: "Dip Advisors!" 
-  ASE_Splendor_Events.4.D: "With this option we will be able to hire an administrative advisor" 
+  ASE_Splendor_Events.4.T: "Dip Advisors!"
+  ASE_Splendor_Events.4.D: "With this option we will be able to hire an administrative advisor"
   ASE_Splendor_Events.4.OPT1: "I will decide another day"
   ASE_Splendor_Events.4.OPT2: "Let's hire a £dip£ Colonial Governor"
   ASE_Splendor_Events.4.OPT3: "Let's hire a £dip£ Diplomat"
@@ -540,8 +540,7 @@
  ase_jihad_triggered_modifier_TT: "Has Age Ability: §YJihad§!"
  ase_jihad_triggered_modifier_TT_infinite: "Has §MRetained§! The §YJihad§! Age Ability"
  ase_retain_decision_tooltip: "With this Decision you might select up to §G1§! §YAge Ability§! to store it as permanent modifier until the end of the game"
- ase_centralised_state_tt: "§G-50%§! §YState Maintenance§! in all provinces of §MAccepted§! or §MBrother§! culture"
+ ase_centralised_state_tt: "§G-25%§! §YLocal Governing Cost§! in all provinces of §MOwner§! or §MBrother§! culture"
  ase_centralised_state_retained_tt: "Will Retain the §YCentralised State§! Age Ability giving the following effect:"
 
  ase_chosen_retain_age_ability: "Has §RNOT§! chosen the §YAge Ability§! to retain from the past age"
- has_owner_culture_group_and_owner_has_cultural_union_tt: "Has Owner Culture, or is Accepted Culture or is part of the Culture Group and has cultural union."

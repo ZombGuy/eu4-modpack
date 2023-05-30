@@ -1,5 +1,5 @@
 ase_centralised_state_modifier = {
-	local_state_maintenance_modifier = -0.50
+	local_governing_cost = -0.25
 }
 
 #Classical Age
@@ -171,10 +171,10 @@ ase_latemiddle_careful_diplomacy = {
 
 #Discovery Age
 ase_boost_colony = {
-	can_colony_boost_development = yes
+	colony_development_boost = 1
 }
 ase_adaptative_combat_terrain = {
-	attack_bonus_in_capital_terrain = yes
+	attack_bonus_in_capital_terrain = 1
 }
 ase_exploration_corp_modifier = {
 	free_maintenance_on_expl_conq = yes
@@ -250,7 +250,7 @@ ase_cultural_relativism_modifier = {
 	promote_culture_cost = -0.5
 }
 ase_imperial_control_modifier = {
-	min_autonomy_in_territories = -0.20
+	governing_capacity_modifier = 0.15
 }
 
 #Revolution Age

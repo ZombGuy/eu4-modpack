@@ -75,7 +75,7 @@ country_decisions = {
 							has_country_modifier = pte_culture_group_hegemony_modifier
 							NOT = { is_variable_equal = { which = pte_culture_group_hegemony_var value = 0 } }
 						}
-						amount = 10
+						amount = 5
 					}
 				}
 			}

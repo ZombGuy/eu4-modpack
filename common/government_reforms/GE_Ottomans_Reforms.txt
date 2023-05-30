@@ -28,7 +28,7 @@ timariot_domains_reform = {
 	}
 	trigger = {
 		OR = {
-			primary_culture = turkish	
+			primary_culture = turkish
 			AND = {
 				accepted_culture = turkish
 				num_of_owned_provinces_with = {
@@ -67,13 +67,13 @@ qadi_authority_reform = {
 	}
 	potential = {
 		OR = {
-			primary_culture = turkish	
+			primary_culture = turkish
 			has_reform = qadi_authority_reform
 		}
 	}
 	trigger = {
 		OR = {
-			primary_culture = turkish	
+			primary_culture = turkish
 			has_reform = qadi_authority_reform
 		}
 	}
@@ -301,12 +301,10 @@ tanzimat_reforms_reform = {
 		}
 	}
 	modifiers = {
-		global_unrest = -2
-		max_absolutism = -5
 		global_institution_spread = 0.25
-	}
-	custom_attributes = {
-		enables_patriotism = yes #+25% Manpower in Own Culture Provinces.
+		global_unrest = -2
+		manpower_in_own_culture_provinces = 0.25
+		max_absolutism = -5
 	}
 	ai = {
 		factor = 100
@@ -370,7 +368,7 @@ caravanserai_reform = {
 	modifiers = {
 		caravan_power = 0.25
 		merchants = 1
-		trade_deals_slots = 0.01
+		trade_deals_slots = 1
 	}
 	custom_attributes = {
 		enables_caravanserai = yes #+5 Trade Power in provinces with centers of trade and a fort

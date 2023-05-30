@@ -178,7 +178,7 @@ pte_defend_rival_subject_war_goal = {
 						is_in_war = {
 							attacker_leader = FROM
 							defender_leader = THIS
-							casus_belli = cb_colonial_independance_war
+							casus_belli = cb_colonial_independence_war
 						}
 					}
 				}

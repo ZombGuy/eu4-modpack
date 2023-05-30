@@ -35,7 +35,7 @@ country_event = {
 		add_dip_power = -50
 		add_country_modifier = {
 			name = fee_ven_mercantile_fleet
-			duration = -1
+			duration = 5475
 		}
 	}
 
@@ -48,7 +48,7 @@ country_event = {
 		add_mil_power = -50
 		add_country_modifier = {
 			name = fee_ven_galley_fleet
-			duration = -1
+			duration = 5475
 		}
 	}
 
@@ -123,40 +123,17 @@ country_event = {
 
 		add_country_modifier = {
 			name = fee_ven_naval_reforms
-			duration = -1
+			duration = 5475
 		}
 		if = {
 			limit = {
 				has_dlc = "Golden Century"
 				has_flagship = no
 			}
-			if = {
-				limit = {
-					capital_scope = {
-						has_port = yes
-					}
-				}
-				capital_scope = {
-					create_flagship = {
-						name = "Leone Alato"
-						type = galley
-					}
-				}
-			}
-			else_if = {
-				limit = {
-					any_owned_province = {
-						has_port = yes
-					}
-				}
-				random_owned_province = {
-					limit = {
-						has_port = yes
-					}
-					create_flagship = {
-						name = "Leone Alato"
-						type = galley
-					}
+			112 = {
+				create_flagship = {
+					name = "Leone Alato"
+					type = galley
 				}
 			}
 		}
@@ -234,7 +211,7 @@ country_event = {
 		add_dip_power = 25
 		if = {
 			limit = {
-				has_dlc =  "Rule Britannia"	
+				has_dlc = "Rule Britannia"	
 			}
 			add_innovativeness_small_effect = yes
 		}
@@ -305,7 +282,7 @@ country_event = {
 		112 = {
 			add_permanent_province_modifier = {
 				name = fee_ven_arsenal_expansion
-				duration = -1
+				duration = 36500
 			}
 		}
 	}
@@ -906,7 +883,7 @@ country_event = {
 		1320 = {
 			add_trade_modifier = {
 				who = ROOT
-				duration = -1
+				duration = 7300
 				power = 15
 				key = fee_ven_bartolomeo_marcello
 			}
@@ -956,7 +933,7 @@ country_event = {
 		1298 = {
 			add_trade_modifier = {
 				who = ROOT
-				duration = -1
+				duration = 3650
 				power = 15
 				key = fee_ven_prosperity_po_valley
 			}
@@ -967,7 +944,7 @@ country_event = {
 			add_prosperity = 25
 			add_province_modifier = {
 				name = fee_ven_prosperity_po_valley
-				duration = -1
+				duration = 3650
 			}
 		}
 	}
@@ -1068,7 +1045,7 @@ country_event = {
 
 		add_country_modifier = {
 			name = fee_ven_malipiero_avogadore_comun
-			duration = -1
+			duration = 5475
 		}
 	}
 }
@@ -1344,7 +1321,7 @@ country_event = {
 			add_prosperity = 25
 			add_province_modifier = {
 				name = fee_ven_moro_provveditore_pubbliche_entrate
-				duration = -1
+				duration = 3650
 			}
 		}
 	}
@@ -1492,11 +1469,6 @@ country_event = {
 		if = {
 			limit = { religion = catholic }
 			add_papal_influence = 25
-		}
-		add_country_modifier = {
-			name = fee_ven_turko_venetian_wars
-			duration = -1
-			desc = FEE_UNTIL_WARS_ENDS_TT
 		}
 		declare_war_with_cb = {
 			casus_belli = cb_crusade
@@ -1674,6 +1646,7 @@ country_event = {
 			}
 		}
 
+		join_all_offensive_wars_of = FROM
 		add_yearly_manpower = 1
 		add_years_of_income = 1
 		add_yearly_sailors = 1
@@ -2102,7 +2075,7 @@ country_event = {
 		137 = {
 			add_trade_modifier = {
 				who = ROOT
-				duration = -1
+				duration = 7300
 				power = 20
 				key = fee_ven_craine
 			}
@@ -2187,7 +2160,6 @@ country_event = {
 		add_legitimacy_equivalent = { amount = -20 republican_tradition = -10 }
 		add_mercantilism = -15
 		add_splendor = -200
-		remove_country_modifier = fee_ven_turko_venetian_wars
 		1320 = {
 			add_trade_modifier = {
 				who = ROOT
@@ -2277,11 +2249,10 @@ country_event = {
 		}
 
 		add_mercantilism = 25
-		remove_country_modifier = fee_ven_turko_venetian_wars
 		1320 = {
 			add_trade_modifier = {
 				who = ROOT
-				duration = -1
+				duration = 7300
 				power = 20
 				key = fee_ven_aegean_superiority
 			}
@@ -2294,7 +2265,7 @@ country_event = {
 		}
 		add_country_modifier = {
 			name = fee_ven_aegean_superiority
-			duration = -1
+			duration = 7300
 		}
 		if = {
 			limit = {
@@ -2315,7 +2286,7 @@ country_event = {
 					add_base_production = 1
 					add_province_modifier = {
 						name = fee_ven_aegean_superiority_province
-						duration = -1
+						duration = 7300
 					}
 				}
 			}
@@ -2330,7 +2301,7 @@ country_event = {
 					add_base_production = 1
 					add_province_modifier = {
 						name = fee_ven_aegean_superiority_province
-						duration = -1
+						duration = 7300
 					}
 				}
 			}
@@ -4975,7 +4946,7 @@ country_event = {
 	mean_time_to_happen = {
 		months = 6
 	}
-	
+
 	goto = 110
 
 	option = {

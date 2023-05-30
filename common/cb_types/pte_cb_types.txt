@@ -1,10 +1,13 @@
 cb_pte_lift_excommunication = {
 	valid_for_subject = no
 
-	prerequisites = {
+	prerequisites_self = {
 		ai = no
 		religion = catholic
 		is_excommunicated = yes
+	}
+
+	prerequisites = {
 		FROM = {
 			religion = catholic
 			is_papal_controller = yes
@@ -37,9 +40,12 @@ cb_pte_lift_excommunication = {
 cb_pte_ban_slavery = {
 	valid_for_subject = no
 
-	prerequisites = {
+	prerequisites_self = {
 		has_country_modifier = the_abolish_slavery_act
 		NOT = { has_country_flag = was_forced_to_abolish_slavery }
+	}
+
+	prerequisites = {
 		FROM = {
 			NOT = { has_country_modifier = the_abolish_slavery_act }
 			is_free_or_tributary_trigger = yes
@@ -81,8 +87,11 @@ cb_pte_ban_slavery = {
 cb_pte_protect_religious_bretheren = {
 	valid_for_subject = no
 
-	prerequisites = {
+	prerequisites_self = {
 		is_defender_of_faith = yes
+	}
+
+	prerequisites = {
 		religion_group = FROM
 		NOT = { religion = FROM }
 		OR = {
@@ -200,18 +209,21 @@ cb_pte_liberation = {
 cb_pte_cultural_hegemony = {
 	valid_for_subject = no
 
-	prerequisites = {
+	prerequisites_self = {
 		is_subject = no
-		NOT = { truce_with = FROM }
 		NOT = { has_country_modifier = pte_culture_group_hegemony_cooldown_modifier }
+		any_owned_province = {
+			culture_group = ROOT
+		}
+	}
+
+	prerequisites = {
+		NOT = { truce_with = FROM }
 		FROM = {
 			has_country_modifier = pte_culture_group_hegemony_modifier
 			NOT = { is_variable_equal = { which = pte_culture_group_hegemony_var value = 0 } }
 		}
 		culture_group = variable:From:pte_culture_group_hegemony_var
-		any_owned_province = {
-			culture_group = ROOT
-		}
 		OR = {
 			total_development = 50
 			variable_arithmetic_trigger = {
@@ -236,8 +248,11 @@ cb_pte_cultural_hegemony = {
 cb_pte_defend_rival_subject = {
 	valid_for_subject = no
 
-	prerequisites = {
+	prerequisites_self = {
 		is_subject = no
+	}
+
+	prerequisites = {
 		is_rival = FROM
 		FROM = {
 			is_subject = no
@@ -254,7 +269,7 @@ cb_pte_defend_rival_subject = {
 				is_in_war = {
 					attacker_leader = THIS
 					defender_leader = FROM
-					casus_belli = cb_colonial_independance_war
+					casus_belli = cb_colonial_independence_war
 				}
 			}
 		}
@@ -279,10 +294,13 @@ cb_pte_defend_rival_subject = {
 cb_pte_economic_hegemon = {
 	valid_for_subject = no
 
-	prerequisites = {
+	prerequisites_self = {
 		has_dlc = "Emperor"
 		pte_is_hegemon_of_type = { type = economic_hegemon }
 		hegemon_strength = 25
+	}
+
+	prerequisites = {
 		FROM = {
 			is_great_power = yes
 			monthly_income = 300
@@ -309,10 +327,13 @@ cb_pte_economic_hegemon = {
 cb_pte_naval_hegemon = {
 	valid_for_subject = no
 
-	prerequisites = {
+	prerequisites_self = {
 		has_dlc = "Emperor"
 		pte_is_hegemon_of_type = { type = naval_hegemon }
 		hegemon_strength = 25
+	}
+
+	prerequisites = {
 		FROM = {
 			is_great_power = yes
 			navy_size = 1
@@ -355,10 +376,13 @@ cb_pte_naval_hegemon = {
 cb_pte_military_hegemon = {
 	valid_for_subject = no
 
-	prerequisites = {
+	prerequisites_self = {
 		has_dlc = "Emperor"
 		pte_is_hegemon_of_type = { type = military_hegemon }
 		hegemon_strength = 25
+	}
+
+	prerequisites = {
 		FROM = {
 			is_great_power = yes
 			army_size = 300
@@ -386,8 +410,11 @@ cb_pte_anti_coalition = {
 
 	ai_peace_desire = -30
 
-	prerequisites = {
+	prerequisites_self = {
 		is_in_coalition_war = no
+	}
+
+	prerequisites = {
 		FROM = {
 			coalition_target = ROOT
 			num_of_coalition_members = 3
@@ -399,14 +426,18 @@ cb_pte_anti_coalition = {
 }
 
 cb_pte_border_friction = {
+	valid_for_subject = no
 	is_triggered_only = yes
 	months = 24
 
 	ai_peace_desire = 10
 
+	prerequisites_self = {
+		is_free_or_tributary_trigger = yes
+	}
+
 	prerequisites = {
 		is_neighbor_of = FROM
-		is_free_or_tributary_trigger = yes
 		FROM = {
 			is_free_or_tributary_trigger = yes
 		}
@@ -418,9 +449,14 @@ cb_pte_border_friction = {
 }
 
 cb_pte_take_monument = {
-	prerequisites = {
+	valid_for_subject = no
+
+	prerequisites_self = {
 		has_dlc = "Leviathan"
 		is_free_or_tributary_trigger = yes
+	}
+
+	prerequisites = {
 		NOT = { overlord_of = FROM }
 		NOT = { is_subject_of = FROM }
 		NOT = { truce_with = FROM }
@@ -477,11 +513,16 @@ cb_pte_take_monument = {
 }
 
 cb_pte_stop_raiding = {
+	valid_for_subject = no
+
 	is_triggered_only = yes
 	months = 60
 
-	prerequisites = {
+	prerequisites_self = {
 		is_free_or_tributary_trigger = yes
+	}
+
+	prerequisites = {
 		has_opinion_modifier = {
 			who = FROM
 			modifier = slaves_raided
@@ -507,7 +548,9 @@ cb_pte_stop_raiding = {
 }
 
 cb_pte_force_convert_heathen = {
-	prerequisites = {
+	valid_for_subject = no
+
+	prerequisites_self = {
 		is_free_or_tributary_trigger = yes
 		OR = {
 			is_defender_of_faith = yes
@@ -522,6 +565,23 @@ cb_pte_force_convert_heathen = {
 		NOT = { current_age = classical_age }
 		NOT = { current_age = late_classical_age }
 		NOT = { current_age = age_of_migrations }
+		OR = {
+			full_idea_group = religious_ideas
+			AND = {
+				has_global_flag = extended_timeline_mod
+				full_idea_group = early_religious_ideas
+				NOT = { adm_tech = 50 }
+			}
+			has_reform = feudal_theocracy
+			has_reform = crusading_kingdom_reform
+			has_reform = militarized_crusader_order_reform
+			has_reform = holy_horde_reform
+			has_reform = kingdom_of_god_reform
+			has_reform = battle_pope_reform
+		}
+	}
+
+	prerequisites = {
 		NOT = { religion_group = FROM }
 		FROM = {
 			is_free_or_tributary_trigger = yes
@@ -546,20 +606,6 @@ cb_pte_force_convert_heathen = {
 					}
 				}
 			}
-		}
-		OR = {
-			full_idea_group = religious_ideas
-			AND = {
-				has_global_flag = extended_timeline_mod
-				full_idea_group = early_religious_ideas
-				NOT = { adm_tech = 50 }
-			}
-			has_reform = feudal_theocracy
-			has_reform = crusading_kingdom_reform
-			has_reform = militarized_crusader_order_reform
-			has_reform = holy_horde_reform
-			has_reform = kingdom_of_god_reform
-			has_reform = battle_pope_reform
 		}
 		FROM = {
 			OR = {

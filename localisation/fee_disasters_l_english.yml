@@ -182,6 +182,11 @@
  disaster_fee_division_of_the_habsburg_monarchy.EVTDESC1: "Starting in the 1400s, the Habsburg family sought to cement their rise to power by moving away from their tradition of dividing up their realm among multiple heirs and towards a primogeniture system. However, the ancient inheritance laws are still legally enforceable. Ensuring that the ever-increasing Habsburg possessions remained united has taken astute management and a firm grip. [Root.Monarch.GetName] has not been blessed with such an ability, and thus other branches of House von Habsburg have begun to assert their old rights. While this would, of course, benefit them, it threatens the fledgling Habsburg empire with division and ultimately dissolution."
  disaster_fee_division_of_the_habsburg_monarchy1.EVTOPT1: "All in the family..."
 
+ disaster_fee_decline_of_the_ottomans.EVTNAME28: "Egypt Demands Autonomy"
+ disaster_fee_decline_of_the_ottomans.EVTDESC28: "While the Ottomans conquered Egypt at lightning speed in the 16th century, this meant that many of the local power holders there still held onto power, simply under new management. While the Empire remained strong, the Egyptians remained loyal, if by fear more than anything else. In the process, they became an integral part of the empire's economic base. The outsized wealth wielded by Egyptian pashas, as well as the region never being as fully integrated under Ottoman rule, proved a recipe for instability when the rest of the empire began ailing. \nNow, the heads of the most powerful old Mamluk families, along with the governing Pashas, have approached the Sultan himself demanding self-governance in internal affairs and economic autonomy. While this bold request was unthinkable a generation ago, this may be unavoidable in the current state of the empire."
+ disaster_fee_decline_of_the_ottomans28.EVTOPT1: "We have no choice..."
+ disaster_fee_decline_of_the_ottomans28.EVTOPT2: "We will not back down!"
+
  disaster_fee_division_of_the_habsburg_monarchy.EVTNAME2: "Reunification!"
  disaster_fee_division_of_the_habsburg_monarchy.EVTDESC2: "At long last, the dream of reuniting the Habsburg monarchy has been achieved. The antiquated laws that threatened to leave the realm in tatters have been finally quashed. Now, we emerge from the chaos stronger for it. A modernized nation-state rather than the feudal monarchy we were."
  disaster_fee_division_of_the_habsburg_monarchy2.EVTOPT1: "A.E.I.O.U."
@@ -533,11 +538,11 @@
   disaster_fee_italy_republican_matter.2.OPT1: "A new Constitution"
   disaster_fee_italy_republican_matter.2.OPT2: "The king reigns but does not rule"
   disaster_fee_italy_republican_matter.2.OPT3: "Why should we change?"
- 
+
   disaster_fee_italy_republican_matter.3.T: "Giovine Italia"
   disaster_fee_italy_republican_matter.3.D: "The goal of these revolutionaries is to transform Italy into a unitary democratic republic, according to the principles of freedom, independence and unity, by dismissing the governments of the previous pre-unification states."
   disaster_fee_italy_republican_matter.3.OPT1: "They won't win"
- 
+
   disaster_fee_italy_republican_matter.4.T: "King's Aider"
   disaster_fee_italy_republican_matter.4.D: "A republic in our land? I think not. We have dismissed so many other republic when they rose against the Viceroys, and we will defy this one as well."
   disaster_fee_italy_republican_matter.4.OPT1: "They won't win"
@@ -658,7 +663,7 @@
   ita_republican_rebels_demand: "Install a Constitutional Republic"
   ita_republican_rebels_demand_desc: "These Republican rebels fight to overthrow the government and install a constitutional republic where the citiziens will be protected by any oppression."
   ita_republican_rebels_army: "Armata di Giovine Italia"
- 
+
   ita_monarchy_rebels_title: "Monarchici"
   ita_monarchy_rebels_name: "Monarch Aider"
   ita_monarchy_rebels_desc: "A republic in our land? I think not. We have dismissed so many other republic when they rose against the Viceroys, and we will defy this one as well."
@@ -720,5 +725,5 @@
  FEE_CRISIS_OF_THE_MUGHAL_EMPIRE_LESS_THAN_0_TOLERANCE_OF_HEATHENS_TT: "Our §YTolerance of Heathens§! is less than §Y0§!"
  FEE_CRISIS_OF_THE_MUGHAL_EMPIRE_RULER_STATS_LESS_THAN_6_TOTAL_TT: "The combined amount of the ruler skills of §Y[This.Monarch.GetName]§! is less than §Y6§!"
 
- ITA_DISASTER_REPUBLICAN_TT: "One of the followign must be true:\n    §YRepublican§! or §YMonarchist§! rebels enforce their demand\n    The disaster has been going for at least §Y15 years§!"
+ ITA_DISASTER_REPUBLICAN_TT: "One of the followign must be true:\n	§YRepublican§! or §YMonarchist§! rebels enforce their demand\n	The disaster has been going for at least §Y15 years§!"
  ITA_REPUBLICAN_MATTER_TT: "In the next years Republicans in the North and Monarchist in the South of Italy will rise to try impose their view. One of them might calm down only if we decide to become either: \nAny Monarchy with a §YParliament§! \n§YConstitutional Republic§!"

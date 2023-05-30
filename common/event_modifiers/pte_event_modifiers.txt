@@ -68,7 +68,7 @@ pte_demilitarize_border_modifier_5 = {
 
 # Decisions:
 pte_culture_group_hegemony_modifier = {
-	culture_conversion_cost = -0.5
+	culture_conversion_cost = -0.25
 	num_accepted_cultures = 1
 	promote_culture_cost = -0.5
 	same_culture_advisor_cost = -0.15
@@ -77,12 +77,8 @@ pte_culture_group_hegemony_modifier = {
 	manpower_in_own_culture_provinces = 0.1
 	manpower_in_accepted_culture_provinces = 0.1
 	manpower_in_culture_group_provinces = 0.1
-	global_unrest = -3
+	global_unrest = -2
 	relation_with_same_culture_group = 25
-	global_prosperity_growth = 0.1
-	administrative_efficiency = 0.2
-	possible_policy = 1
-	monthly_reform_progress = 0.5
 }
 
 pte_culture_group_hegemony_cooldown_modifier = {

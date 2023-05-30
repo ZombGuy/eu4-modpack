@@ -1,5 +1,16 @@
 government = monarchy
-add_government_reform = margrave_reform
+if = {
+	limit = {
+		has_dlc = "Domination"
+	}
+	add_government_reform = margraviate_reform
+}
+if = {
+	limit = {
+		NOT = { has_dlc = "Domination" }
+	}
+	add_government_reform = margrave_reform
+}
 primary_culture = czech
 religion = catholic
 government_rank = 1

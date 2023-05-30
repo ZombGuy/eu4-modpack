@@ -1,5 +1,4 @@
 ﻿l_german:
- ab_persia_court: "Persischer Hof"
 #Discovery
  ase_exploration_corp: "Erkundungskorps"
  ase_glorious_renaissance: "Glorreiche Renaissance"
@@ -530,8 +529,7 @@
  ase_jihad_triggered_modifier_TT: "Hat Zeitalter-Fähigkeit: §YJihad§!"
  ase_jihad_triggered_modifier_TT_infinite: "Hat die §YJihad§ Zeitalter-Fähigkeit §Mbeibehalten§"
  ase_retain_decision_tooltip: "Mit dieser Entscheidung können Sie bis zu §G1§! §YZeitalter-Fähigkeit§! bis zum Ende des Spiels zu speichern"
- ase_centralised_state_tt: "§G-50%§! §YState Maintenance§! in all provinces of §MAccepted§! or §MBrother§! culture"
+ ase_centralised_state_tt: "§G-25%§! §YGoverning Cost§! in all provinces of §MAccepted§! or §MBrother§! culture"
  ase_centralised_state_retained_tt: "Will Retain the §YCentralised State§! Age Ability giving the following effect:"
 
  ase_chosen_retain_age_ability: "Hat §RNICHT§! die §YZeitalter-Fähigkeit§! gewählt, um aus dem vergangenen Zeitalter zu bewahren"
- has_owner_culture_group_and_owner_has_cultural_union_tt: "Has Owner Culture, or is Accepted Culture or is part of the Culture Group and has cultural union."

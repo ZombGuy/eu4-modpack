@@ -1677,6 +1677,53 @@ country_event = {
 			cost_multiplier = 0.75
 		}
 	}
+
+	option = {
+		name = ASE_Splendor_Events.3.OPT34
+		trigger = {
+			splendor = 400
+			religion_group = christian
+			OR = {
+				any_owned_province = {
+					religion_group = PREV
+					OR = {
+						has_owner_religion = no
+						has_hostile_reformation_center = yes
+					}
+				}
+				AND = {
+					has_dlc = "Cradle of Civilization"
+					any_subject_country = {
+						religion = PREV
+						any_owned_province = {
+							religion_group = PREV
+							OR = {
+								has_owner_religion = no
+								has_hostile_reformation_center = yes
+							}
+						}
+					}
+				}
+			}
+		}
+		ai_chance = {
+			factor = 3
+			modifier = {
+				factor = 0
+				religious_unity = 80
+				has_hostile_reformation_center = no
+			}
+		}
+
+		clr_country_flag = ase_invest_splendor_flag
+		add_splendor = -400
+		define_advisor = {
+			type = ate_advisor_witch_hunter
+			culture = ROOT
+			skill = 2
+			cost_multiplier = 0.75
+		}
+	}
 }
 
 #Hire Dip Advisor
@@ -1891,7 +1938,8 @@ country_event = {
 			government = monarchy
 			has_government_attribute = heir
 			is_female = yes
-			has_regency = yes
+			has_regency = no
+			NOT = { has_government_attribute = has_harem }
 		}
 		ai_chance = {
 			factor = 3
@@ -1918,7 +1966,8 @@ country_event = {
 			government = monarchy
 			has_government_attribute = heir
 			is_female = no
-			has_regency = yes
+			has_regency = no
+			NOT = { has_government_attribute = has_harem }
 		}
 		ai_chance = {
 			factor = 3

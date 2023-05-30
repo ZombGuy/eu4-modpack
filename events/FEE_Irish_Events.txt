@@ -302,12 +302,10 @@ country_event = {
 			is_at_war = no
 			is_free_or_tributary_trigger = yes
 			any_country = {
-				limit = {
-					capital_scope = {
-						region = france_region
-					}
-					is_free_or_tributary_trigger = yes
+				capital_scope = {
+					region = france_region
 				}
+				is_free_or_tributary_trigger = yes
 			}
 		}
 		ai_chance = {
@@ -369,7 +367,7 @@ country_event = {
 			factor = 25
 		}
 
-		add_prestige = 15
+		add_prestige_or_monarch_power = { amount = 15 }
 		add_country_modifier = {
 			name = irish_fierce_independence
 			duration = 9125
