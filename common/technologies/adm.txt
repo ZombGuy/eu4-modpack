@@ -24,6 +24,8 @@ technology = { #Tribal Government
 	native_sweat_lodge = yes
 	native_great_trail = yes
 	native_ceremonial_fire_pit = yes
+
+	early_road = yes
 }
 
 technology = { #Advanced Tribes
@@ -150,6 +152,15 @@ technology = { #Modern Theocracy
 		new_world_i = 0.3
 	}
 	
+	gravel_road = yes
+	externalministry = yes
+	intelministry = yes
+	colonialministry = yes
+	navalministry = yes
+	celestialministry = yes
+	imperialministry = yes
+	commerceministry = yes
+	
 	theocratic_government = yes
 }
 
@@ -272,6 +283,7 @@ technology = { #National Sovereignty
 		global_trade = 0.3
 	}
 
+	royal_road = yes
 }
 
 technology = { #Cathedral
@@ -352,7 +364,8 @@ technology = { #Measuring the World
 		global_trade = 0.5
 		manufactories = 0.5
 	}
-	
+
+	macadam_road = yes
 	administrative_efficiency = 0.1
 	development_cost_modifier = -0.1
 	allowed_idea_groups = 11
@@ -481,6 +494,7 @@ technology = { #Advanced Production
 	
 	#Improved Draft Animals
 	production_efficiency 	=	0.02
+	rail_road = yes
 }
 
 technology = { #Revolutionary Ideals

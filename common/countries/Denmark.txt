@@ -10,16 +10,7 @@ historical_score = 1700
 
 preferred_religion = protestant
 
-historical_idea_groups = {
-	maritime_ideas
-	administrative_ideas
-	aristocracy_ideas
-	diplomatic_ideas  #Replaced expansion with 
-	naval_ideas 
-	trade_ideas 
-	quality_ideas
-	economic_ideas
-}
+historical_idea_groups = {}
 
 historical_units = {
 	western_medieval_infantry
