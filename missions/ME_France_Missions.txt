@@ -1164,7 +1164,7 @@ france_missions_3 = {
 				if = {
 					limit = {
 						quantity_ideas = 1
-						#conscription_focus = 2
+						conscription_focus = 2
 					}
 					every_owned_province = {
 						limit = {
@@ -1957,7 +1957,14 @@ france_missions_4 = {
 				}
 				add_permanent_claim = ROOT
 			}
-			palatinate_area = {
+			4767 = {
+				limit = {
+					NOT = { owned_by = ROOT }
+					NOT = { is_core = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			1761 = {
 				limit = {
 					NOT = { owned_by = ROOT }
 					NOT = { is_core = ROOT }
@@ -2640,6 +2647,8 @@ france_missions_5 = {
 		position = 6
 		provinces_to_highlight = {
 			OR = {
+				province_id = 1761
+				province_id = 4767
 				area = north_rhine_area
 				area = lower_rhineland_area
 			}
@@ -2654,7 +2663,11 @@ france_missions_5 = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
 			}
-			palatinate_area = {
+			1761 = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			4767 = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
 			}
@@ -2674,27 +2687,39 @@ france_missions_5 = {
 				}
 				add_permanent_claim = ROOT
 			}
-			toledo_area = {
+			aragon_area = {
 				limit = {
 					NOT = { owned_by = ROOT }
 					NOT = { is_core = ROOT }
 				}
 				add_permanent_claim = ROOT
 			}
-			castille_area = {
+			basque_country = {
 				limit = {
 					NOT = { owned_by = ROOT }
 					NOT = { is_core = ROOT }
 				}
 				add_permanent_claim = ROOT
 			}
-			north_rhine_area = {
+			1761 = {
 				add_province_modifier = {
 					name = fra_garde_rhine
 					duration = -1
 				}
 			}
-			lower_rhineland_area = {
+			1760 = {
+				add_province_modifier = {
+					name = fra_garde_rhine
+					duration = -1
+				}
+			}
+			85 = {
+				add_province_modifier = {
+					name = fra_garde_rhine
+					duration = -1
+				}
+			}
+			2975 = {
 				add_province_modifier = {
 					name = fra_garde_rhine
 					duration = -1
