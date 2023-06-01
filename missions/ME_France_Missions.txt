@@ -544,7 +544,7 @@ france_missions_2 = {
 		provinces_to_highlight = {
 			OR = {
 				area = wessex_area
-				area = northern_england_area
+				area = scottish_marches_area
 				area = east_anglia_area
 				area = west_midlands_area
 				area = east_midlands_area
@@ -558,7 +558,7 @@ france_missions_2 = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
 			}
-			northern_england_area = {
+			scottish_marches_area = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
 			}
@@ -1164,7 +1164,7 @@ france_missions_3 = {
 				if = {
 					limit = {
 						quantity_ideas = 1
-						conscription_focus = 2
+						#conscription_focus = 2
 					}
 					every_owned_province = {
 						limit = {
