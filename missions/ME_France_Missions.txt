@@ -83,56 +83,90 @@
 					name = fra_frenchify_italians
 					duration = -1
 				}
-				country_event = { id = ME_France_Events.8 }
 			}
 		}
 	}
 
-	fra_avenging_nicopolis = {
+	fra_march_southwards = {
 		required_missions = {
 			fra_doorway_italy
+			fra_secure_lombardy
 		}
-		icon = push_on_to_bulgaria
-		position = 8
+		icon = sway_the_pope
+		position = 6
 		provinces_to_highlight = {
 			OR = {
-				area = algiers_area
-				area = barbary_coast_area
-				area = hautes_plaines_area
+				area = tuscany_area
+				area = lazio_area
 			}
 			NOT = { country_or_non_sovereign_subject_holds = ROOT }
 		}
 		trigger = {
-			algiers_area = {
+			tuscany_area = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
 			}
-			barbary_coast_area = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT
-			}
-			hautes_plaines_area = {
+			lazio_area = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
 			}
 		}
 		effect = {
 			if = {
-				tunisia_area = {
+				limit = {
+					religion = catholic
+				}
+				add_country_modifier = {
+					name = fra_custodian_roma
+					duration = -1
+				}
+			}
+			else_if = {
+				limit = {
+					religion = protestant
+				}
+				add_country_modifier = {
+					name = fra_conquest_roma_pro
+					duration = -1
+				}
+			}
+			else_if = {
+				limit = {
+					religion = reformed
+				}
+				add_country_modifier = {
+					name = fra_conquest_roma_ref
+					duration = -1
+				}
+			}
+			if = {
+				limit = {
+					NOT = {
+						NAP = { is_subject_of = ROOT }
+					}
+				}
+				central_italy_area = {
 					limit = {
 						NOT = { owned_by = ROOT }
 						NOT = { is_core = ROOT }
 					}
 					add_permanent_claim = ROOT
 				}
-				djerba_area = {
+				naples_area = {
 					limit = {
 						NOT = { owned_by = ROOT }
 						NOT = { is_core = ROOT }
 					}
 					add_permanent_claim = ROOT
 				}
-				kabylia_area = {
+				apulia_area = {
+					limit = {
+						NOT = { owned_by = ROOT }
+						NOT = { is_core = ROOT }
+					}
+					add_permanent_claim = ROOT
+				}
+				calabria_area = {
 					limit = {
 						NOT = { owned_by = ROOT }
 						NOT = { is_core = ROOT }
@@ -140,8 +174,127 @@
 					add_permanent_claim = ROOT
 				}
 			}
+		}
+	}
+
+	fra_avenging_nicopolis = {
+		required_missions = {
+			fra_march_southwards
+			fra_complex_claim
+		}
+		icon = push_on_to_bulgaria
+		position = 8
+		provinces_to_highlight = {
+			OR = {
+				AND = {
+					OR = {
+						area = albania_area
+						area = macedonia_area
+					}
+					NOT = { country_or_non_sovereign_subject_holds = ROOT }
+				}
+				AND = {
+					area = bulgaria_area
+					OR = {
+						AND = {
+							exists = BUL
+							NOT = { country_or_non_sovereign_subject_holds = ROOT }
+						}
+						AND = {
+							NOT = { exists = BUL }
+							NOT = { owned_by = ROOT }
+						}
+					}
+				}
+			}
+		}
+		trigger = {
+			albania_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			macedonia_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			if = {
+				limit = {
+					exists = BUL
+				}
+				bulgaria_area = {
+					type = all
+					country_or_non_sovereign_subject_holds = ROOT
+				}
+			}
+			else = {
+				bulgaria_area = {
+					type = all
+					owned_by = ROOT
+				}
+			}
+		}
+		effect = {
+			if = {
+				limit = {
+					exists = BUL
+				}
+				add_casus_belli = {
+					type = cb_fra_crusade_against_tur
+					target = TUR
+				}
+			}
 			else = {
 				country_event = { id = ME_France_Events.4 }
+			}
+		}
+	}
+
+	fra_republic_connacht = {
+		required_missions = { fra_puppeteers_play }
+		icon = mission_rb_cod_wars
+		position = 10
+		provinces_to_highlight = {
+			region = british_isles_region
+			OR = {
+				AND = {
+					ROOT = { has_country_flag = fra_francia_formed }
+					NOT = { country_or_non_sovereign_subject_holds = ROOT }
+				}
+				AND = {
+					ROOT = {
+						NOT = { has_country_flag = fra_francia_formed }
+					}
+					NOT = { owned_by = ROOT }
+				}
+			}
+		}
+		trigger = {
+			if = {
+				limit = {
+					has_country_flag = fra_francia_formed
+				}
+				british_isles_region = {
+					type = all
+					country_or_non_sovereign_subject_holds = ROOT
+				}
+			}
+			else = {
+				NOT = { exists = HSC }
+				british_isles_region = {
+					type = all
+					owned_by = ROOT
+				}
+			}
+		}
+		effect = {
+			if = {
+				limit = {
+					has_country_flag = fra_francia_formed
+				}
+				add_prestige_or_monarch_power = { amount = 5 }
+			}
+			else = {
+				country_event = { id = ME_France_Events.69 }
 			}
 		}
 	}
@@ -543,9 +696,6 @@ france_missions_2 = {
 		position = 4
 		provinces_to_highlight = {
 			OR = {
-				area = wessex_area
-				area = northern_england_area
-				area = east_anglia_area
 				area = west_midlands_area
 				area = east_midlands_area
 				area = yorkshire_area
@@ -554,18 +704,6 @@ france_missions_2 = {
 			NOT = { country_or_non_sovereign_subject_holds = ROOT }
 		}
 		trigger = {
-			wessex_area = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT
-			}
-			northern_england_area = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT
-			}
-			east_anglia_area = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT
-			}
 			west_midlands_area = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
@@ -630,103 +768,16 @@ france_missions_2 = {
 		}
 	}
 
-	fra_march_southwards = {
-		required_missions = {
-			fra_secure_lombardy
-		}
-		icon = sway_the_pope
-		position = 6
-		provinces_to_highlight = {
-			OR = {
-				area = tuscany_area
-				area = lazio_area
-			}
-			NOT = { country_or_non_sovereign_subject_holds = ROOT }
-		}
-		trigger = {
-			tuscany_area = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT
-			}
-			lazio_area = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT
-			}
-		}
-		effect = {
-			if = {
-				limit = {
-					religion = catholic
-				}
-				add_country_modifier = {
-					name = fra_custodian_roma
-					duration = -1
-				}
-			}
-			else_if = {
-				limit = {
-					religion = protestant
-				}
-				add_country_modifier = {
-					name = fra_conquest_roma_pro
-					duration = -1
-				}
-			}
-			else_if = {
-				limit = {
-					religion = reformed
-				}
-				add_country_modifier = {
-					name = fra_conquest_roma_ref
-					duration = -1
-				}
-			}
-			if = {
-				limit = {
-					NOT = {
-						NAP = { is_subject_of = ROOT }
-					}
-				}
-				central_italy_area = {
-					limit = {
-						NOT = { owned_by = ROOT }
-						NOT = { is_core = ROOT }
-					}
-					add_permanent_claim = ROOT
-				}
-				naples_area = {
-					limit = {
-						NOT = { owned_by = ROOT }
-						NOT = { is_core = ROOT }
-					}
-					add_permanent_claim = ROOT
-				}
-				apulia_area = {
-					limit = {
-						NOT = { owned_by = ROOT }
-						NOT = { is_core = ROOT }
-					}
-					add_permanent_claim = ROOT
-				}
-				calabria_area = {
-					limit = {
-						NOT = { owned_by = ROOT }
-						NOT = { is_core = ROOT }
-					}
-					add_permanent_claim = ROOT
-				}
-			}
-		}
-	}
-
 	fra_complex_claim = {
 		required_missions = {
 			fra_march_southwards
+			fra_secure_lombardy
 		}
 		icon = mission_monarch_in_throne_room
 		position = 7
 		provinces_to_highlight = {
 			OR = {
+				province_id = 120
 				area = apulia_area
 				area = naples_area
 				area = calabria_area
@@ -738,6 +789,9 @@ france_missions_2 = {
 				overlord_of = NAP
 				AND = {
 					NOT = { exists = NAP }
+					120 = {
+						country_or_non_sovereign_subject_holds = ROOT
+					}
 					apulia_area = {
 						type = all
 						country_or_non_sovereign_subject_holds = ROOT
@@ -754,19 +808,71 @@ france_missions_2 = {
 			}
 		}
 		effect = {
-			central_italy_area = {
+			albania_area = {
 				limit = {
 					NOT = { owned_by = ROOT }
 					NOT = { is_core = ROOT }
 				}
 				add_permanent_claim = ROOT
 			}
-			emilia_romagna_area = {
+			macedonia_area = {
 				limit = {
 					NOT = { owned_by = ROOT }
 					NOT = { is_core = ROOT }
 				}
 				add_permanent_claim = ROOT
+			}
+			country_event = { id = ME_France_Events.8 }
+		}
+	}
+
+	fra_kingdom_spain = {
+		required_missions = { fra_puppeteers_play }
+		icon = mission_the_austrian_succession
+		position = 10
+		provinces_to_highlight = {
+			region = iberia_region
+			OR = {
+				AND = {
+					ROOT = { has_country_flag = fra_francia_formed }
+					NOT = { country_or_non_sovereign_subject_holds = ROOT }
+				}
+				AND = {
+					ROOT = {
+						NOT = { has_country_flag = fra_francia_formed }
+					}
+					NOT = { owned_by = ROOT }
+				}
+			}
+		}
+		trigger = {
+			if = {
+				limit = {
+					has_country_flag = fra_francia_formed
+				}
+				iberia_region = {
+					type = all
+					country_or_non_sovereign_subject_holds = ROOT
+				}
+			}
+			else = {
+				iberia_region = {
+					type = all
+					owned_by = ROOT
+				}
+				NOT = { exists = LON }
+			}
+		}
+		effect = {
+			custom_tooltip = fra_unlock_rhennish_campaign_tt
+			if = {
+				limit = {
+					has_country_flag = fra_francia_formed
+				}
+				add_prestige_or_monarch_power = { amount = 5 }
+			}
+			else = {
+				country_event = { id = ME_France_Events.26 }
 			}
 		}
 	}
@@ -1164,7 +1270,6 @@ france_missions_3 = {
 				if = {
 					limit = {
 						quantity_ideas = 1
-						conscription_focus = 2
 					}
 					every_owned_province = {
 						limit = {
@@ -1270,14 +1375,15 @@ france_missions_3 = {
 	fra_puppeteers_play = {
 		required_missions = {
 			fra_french_superiority
+			fra_avenging_nicopolis
 			fra_hornets_nest
 		}
 		icon = establish_client_states
 		position = 9
 		trigger = {
-			adm_tech = 23
+			adm_tech = 20
 			dip_tech = 23
-			mil_tech = 23
+			mil_tech = 20
 			army_size = 250
 			navy_size_percentage = 1
 			total_development = 1500
@@ -1293,6 +1399,184 @@ france_missions_3 = {
 					NOT = { has_country_flag = fra_francia_formed }
 				}
 				country_event = { id = ME_France_Events.70 }
+			}
+		}
+	}
+
+	fra_confederation_rhine = {
+		required_missions = { fra_puppeteers_play }
+		icon = control_swabia
+		position = 10
+		provinces_to_highlight = {
+			OR = {
+				area = north_rhine_area
+				area = lower_rhineland_area
+				area = hesse_area
+				area = palatinate_area
+				area = upper_rhineland_area
+				area = lower_swabia_area
+			}
+			OR = {
+				AND = {
+					ROOT = { has_country_flag = fra_francia_formed }
+					NOT = { country_or_non_sovereign_subject_holds = ROOT }
+				}
+				AND = {
+					ROOT = {
+						NOT = { has_country_flag = fra_francia_formed }
+					}
+					NOT = { owned_by = ROOT }
+				}
+			}
+		}
+		trigger = {
+			if = {
+				limit = {
+					has_country_flag = fra_francia_formed
+				}
+				north_rhine_area = {
+					type = all
+					country_or_non_sovereign_subject_holds = ROOT
+				}
+				lower_rhineland_area = {
+					type = all
+					country_or_non_sovereign_subject_holds = ROOT
+				}
+				palatinate_area = {
+					type = all
+					country_or_non_sovereign_subject_holds = ROOT
+				}
+				hesse_area = {
+					type = all
+					country_or_non_sovereign_subject_holds = ROOT
+				}
+				upper_rhineland_area = {
+					type = all
+					country_or_non_sovereign_subject_holds = ROOT
+				}
+				lower_swabia_area = {
+					type = all
+					country_or_non_sovereign_subject_holds = ROOT
+				}
+			}
+			else = {
+				north_rhine_area = {
+					type = all
+					owned_by = ROOT
+				}
+				lower_rhineland_area = {
+					type = all
+					owned_by = ROOT
+				}
+				palatinate_area = {
+					type = all
+					owned_by = ROOT
+				}
+				hesse_area = {
+					type = all
+					owned_by = ROOT
+				}
+				upper_rhineland_area = {
+					type = all
+					owned_by = ROOT
+				}
+				lower_swabia_area = {
+					type = all
+					owned_by = ROOT
+				}
+				NOT = { exists = GER }
+			}
+		}
+		effect = {
+			custom_tooltip = fra_unlock_polish_campaign_tt
+			if = {
+				limit = {
+					has_country_flag = fra_francia_formed
+				}
+				add_prestige_or_monarch_power = { amount = 5 }
+			}
+			else = {
+				country_event = { id = ME_France_Events.14 }
+			}
+		}
+	}
+
+	fra_one_nation_to_rule_them_all = {
+		required_missions = {
+			fra_tame_season
+			fra_republic_connacht
+			fra_confederation_rhine
+			fra_kingdom_spain
+			fra_polish_subjects
+		}
+		icon = french_empire
+		position = 11
+		trigger = {
+			if = {
+				limit = {
+					OR = {
+						has_dlc = "Emperor"
+						has_dlc = "Rights of Man"
+					}
+				}
+				NOT = { great_power_rank = 2 }
+				custom_trigger_tooltip = {
+					tooltip = FRANCE_HAS_TWICE_THE_DEVELOPMENT_ARMY_NAVY_2ND_GREAT_POWER
+					NOT = {
+						any_other_great_power = {
+							great_power_rank = 2
+							army_strength = {
+								who = ROOT
+								value = 0.75
+							}
+							naval_strength = {
+								who = ROOT
+								value = 0.75
+							}
+							variable_arithmetic_trigger = {
+								export_to_variable = {
+									which = their_total_development
+									value = trigger_value:total_development
+									who = PREV
+								}
+								export_to_variable = {
+									which = our_total_development
+									value = trigger_value:total_development
+								}
+								multiply_variable  = {
+									which = their_total_development
+									value = 2
+								}
+								check_variable = {
+									which = their_total_development
+									which = our_total_development
+								}
+							}
+						}
+					}
+				}
+			}
+			if = {
+  				limit = {
+					has_dlc = "Emperor"
+ 				}
+  				is_hegemon = yes
+			}
+			else = {
+				total_development = 2000
+				army_size = 200
+				naval_forcelimit = 200
+				navy_size = 125
+			}
+		}
+		effect = {
+			add_country_modifier = {
+				name = fra_global_superpower
+				duration = -1
+			}
+			add_country_modifier = {
+				name = fra_integrating_subjects
+				duration = -1
 			}
 		}
 	}
@@ -1859,7 +2143,6 @@ france_missions_4 = {
 						name = fra_french_fabric
 						duration = -1
 					}
-					add_base_tax = 1
 					add_base_production = 1
 				}
 			}
@@ -1876,8 +2159,8 @@ france_missions_4 = {
 			OR = {
 				area = catalonia_area
 				area = valencia_area
-				area = aragon_area
-				area = basque_country
+				area = toledo_area
+				area = castille_area
 			}
 			NOT = { country_or_non_sovereign_subject_holds = ROOT }
 		}
@@ -1890,11 +2173,11 @@ france_missions_4 = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
 			}
-			aragon_area = {
+			toledo_area = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
 			}
-			basque_country = {
+			castille_area = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
 			}
@@ -1907,10 +2190,10 @@ france_missions_4 = {
 			valencia_area = {
 				add_nationalism = -10
 			}
-			aragon_area = {
+			toledo_area = {
 				add_nationalism = -10
 			}
-			basque_country = {
+			castille_area = {
 				add_nationalism = -10
 			}
 		}
@@ -2015,6 +2298,57 @@ france_missions_4 = {
 				add_base_manpower = 2
 			}
 			add_ruler_personality = conqueror_personality
+		}
+	}
+
+	fra_polish_subjects = {
+		required_missions = { fra_puppeteers_play }
+		icon = polish_subjects
+		position = 10
+		provinces_to_highlight = {
+			region = poland_region
+			OR = {
+				AND = {
+					ROOT = { has_country_flag = fra_francia_formed }
+					NOT = { country_or_non_sovereign_subject_holds = ROOT }
+				}
+				AND = {
+					ROOT = {
+						NOT = { has_country_flag = fra_francia_formed }
+					}
+					NOT = { owned_by = ROOT }
+				}
+			}
+		}
+		trigger = {
+			if = {
+				limit = {
+					has_country_flag = fra_francia_formed
+				}
+				poland_region = {
+					type = all
+					country_or_non_sovereign_subject_holds = ROOT
+				}
+			}
+			else = {
+				poland_region = {
+					type = all
+					owned_by = ROOT
+				}
+				NOT = { exists = POL }
+			}
+		}
+		effect = {
+			custom_tooltip = fra_unlock_russian_campaign_tt
+			if = {
+				limit = {
+					has_country_flag = fra_francia_formed
+				}
+				add_prestige_or_monarch_power = { amount = 5 }
+			}
+			else = {
+				country_event = { id = ME_France_Events.18 }
+			}
 		}
 	}
 
@@ -2748,6 +3082,57 @@ france_missions_5 = {
 					HAB = { is_emperor = yes }
 				}
 				HAB = { add_imperial_influence = -30 }
+			}
+		}
+	}
+
+	fra_tame_season = {
+		required_missions = { fra_puppeteers_play }
+		icon = the_russian_campaign
+		position = 10
+		provinces_to_highlight = {
+			region = russia_region
+			OR = {
+				AND = {
+					ROOT = { has_country_flag = fra_francia_formed }
+					NOT = { country_or_non_sovereign_subject_holds = ROOT }
+				}
+				AND = {
+					ROOT = { 
+						NOT = { has_country_flag = fra_francia_formed }
+					}
+					NOT = { owned_by = ROOT }
+				}
+			}
+		}
+		trigger = {
+			if = {
+				limit = {
+					has_country_flag = fra_francia_formed
+				}
+				russia_region = {
+					type = all
+					country_or_non_sovereign_subject_holds = ROOT
+				}
+			}
+			else = {
+				russia_region = {
+					type = all
+					owned_by = ROOT
+				}
+				NOT = { exists = NOV }
+			}
+		}
+		effect = {
+			custom_tooltip =  fra_unlock_brittish_campaign_tt
+			if = {
+				limit = {
+					has_country_flag = fra_francia_formed
+				}
+				add_prestige_or_monarch_power = { amount = 5 }
+			}
+			else = {
+				country_event = { id = ME_France_Events.68 }
 			}
 		}
 	}

@@ -1,6 +1,6 @@
 fra_our_army = {
-	local_manpower_modifier = 0.10
-	infantry_power = 0.1
+	drill_gain_modifier = 0.25
+	army_tradition = 0.75
 }
 fra_etape = {
 	province_trade_power_modifier = 0.10
@@ -31,12 +31,12 @@ fra_grand_toulon_naval_base = {
 	global_naval_engagement_modifier = 0.10
 }
 fra_on_ne_passe_pas = {
-	local_garrison_size = 0.25
+	local_hostile_attrition = 0.5
 	local_hostile_movement_speed = -0.15
 }
 fra_french_canal = {
-	heavy_ship_power = 0.20
-	heavy_ship_cost = -0.1
+	heavy_ship_power = 0.05
+	naval_tradition_from_trade = 0.25
 }
 fra_modern_government = {
 	expand_administration_cost = -0.50
@@ -74,12 +74,10 @@ fra_prestige_versailles = {
 	prestige = 0.25
 }
 fra_golden_age_france = {
-	artillery_levels_available_vs_fort = 2
+	technology_cost = -0.20
 }
 fra_french_supremacy = {
 	possible_mil_policy = 1
-	artillery_fire = 0.5
-	shock_damage_received = -0.10
 }
 fra_french_lingua_franca = {
 	culture_conversion_cost = -0.10
@@ -88,8 +86,8 @@ fra_tamed_russian_winter = {
 	land_attrition = -0.10
 }
 fra_managing_client_states = {
-	vassal_manpower_bonus = 0.25
-	vassal_forcelimit_bonus = 0.25
+	diplomatic_upkeep = 2
+	vassal_forcelimit_bonus = 0.50
 	liberty_desire_from_subject_development = -0.15
 }
 fra_global_superpower = {
