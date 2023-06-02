@@ -93,7 +93,7 @@ country_event = {
 
 		add_country_modifier = {
 			name = fee_italian_wars_infantry
-			duration = 3650
+			duration = -1
 		}
 	}
 }
@@ -115,7 +115,7 @@ country_event = {
 
 		add_country_modifier = {
 			name = fee_italian_wars_cavalry
-			duration = 3650
+			duration = -1
 		}
 	}
 }
@@ -137,7 +137,7 @@ country_event = {
 
 		add_country_modifier = {
 			name = fee_italian_wars_artillery
-			duration = 3650
+			duration = -1
 		}
 	}
 }
@@ -159,7 +159,7 @@ country_event = {
 
 		add_country_modifier = {
 			name = fee_italian_wars_forts
-			duration = 3650
+			duration = -1
 		}
 	}
 }
