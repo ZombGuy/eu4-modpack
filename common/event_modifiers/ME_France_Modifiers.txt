@@ -12,10 +12,12 @@ fra_chateau_loire_valley = {
 	prestige = 0.5
 }
 fra_information_about_new_world = {
-	adm_tech_cost_modifier = -0.10
+	adm_tech_cost_modifier = -0.025
+	range = 0.20
 }
 fra_iberian_navigation_techniques = {
-	dip_tech_cost_modifier = -0.10
+	dip_tech_cost_modifier = -0.025
+	global_ship_cost = -0.025
 }
 fra_co_existence = {
 	native_assimilation = 0.10
@@ -117,11 +119,11 @@ fra_colonial_empire_exploration = {
 	allowed_marine_fraction = 0.15
 }
 fra_colonial_empire = {
-	liberty_desire_from_subject_development = -0.10
-	allowed_marine_fraction = 0.1
+	liberty_desire_from_subject_development = -0.15
+	allowed_marine_fraction = 0.35
 }
 fra_french_fabric = {
-	trade_goods_size_modifier = 0.10
+	trade_goods_size_modifier = 0.20
 }
 fra_local_university = {
 	local_institution_spread = 0.25
@@ -152,7 +154,7 @@ fra_natural_wall_modifier = {
 	local_hostile_attrition = 1
 }
 fra_garde_rhine = {
-	local_defensiveness = 0.10
+	local_defensiveness = 0.20
 }
 fra_enligthened_rulers = {
 	country_admin_power = 1
@@ -162,17 +164,19 @@ fra_scientific_revolution = {
 	idea_cost = -0.10
 }
 fra_royal_monopoly_force_modifier = {
-	global_unrest = -1
-	harsh_treatment_cost = -0.25
+	global_unrest = -3
+	stability_cost_modifier = 0.1
 }
 fra_bailwick = {
 	state_maintenance_modifier = -0.10
 }
 fra_will_god = {
 	yearly_absolutism = 1
+	years_of_nationalism = 10
 }
 fra_absolute_power = {
-	max_absolutism = 5
+	max_absolutism = 20
+	all_estate_influence_modifier = -0.1
 	all_estate_influence_modifier = -0.1
 }
 fra_cote_ivoire = {
@@ -313,8 +317,8 @@ fra_invest_lyon = {
 }
 
 fra_french_marines = {
-	shock_damage_received = -0.1
-	infantry_power = 0.1
+	shock_damage_received = -0.5
+	infantry_power = 0.25
 	is_marine_modifier = yes
 }
 

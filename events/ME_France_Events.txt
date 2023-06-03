@@ -386,7 +386,7 @@ country_event = {
 
 		add_country_modifier = {
 			name = fra_investing_navy
-			duration = 7300
+			duration = -1
 		}
 		167 = {
 			change_province_name = "Le Havre"
