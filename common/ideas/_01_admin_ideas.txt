@@ -33,7 +33,6 @@ innovativeness_ideas = {
 	}
 	formalized_officer_corps = {
 		free_leader_pool = 2
-		general_cost = 0.25
 	}
 
 	ai_will_do = {
@@ -114,7 +113,7 @@ economic_ideas = {
 		build_time = -0.10
 	}
 	national_bank = {
-		inflation_reduction = -0.05
+		inflation_reduction = 0.05
 		monthly_gold_inflation_modifier = -0.5
 	}
 	debt_and_loans = {
@@ -285,7 +284,6 @@ administrative_ideas = {
 
 	organised_mercenary_payment = {
 		min_autonomy_in_territories = -0.15
-		trade_company_governing_cost = 0.15
 	}
 	adaptability = {
 		core_creation = -0.25
@@ -516,7 +514,6 @@ justiz0 = {
 	}
 	justiz2 = {
 		yearly_corruption = -0.1
-		enemy_core_creation = -0.25
 	}
 	justiz3 = {
 		idea_cost = -0.1
@@ -569,7 +566,6 @@ entwicklung0 = {
 		gold_depletion_chance_modifier = -0.25
 	}
 	entwicklung1 = {
-		global_tax_income = -24
 		# Natural events that increase development
 	}
 	
@@ -594,7 +590,6 @@ gesundheit0 = {
 	}
 	gesundheit2 = {
 		defensiveness = 0.25
-		trade_efficiency = -0.2
 	}
 	gesundheit3 = {
 		global_manpower_modifier = 0.15	
@@ -641,7 +636,6 @@ monarchie0 = {
 	}
 	monarchie2 = {
 		heir_chance = 1
-		monarch_lifespan = -0.25
 	}
 	monarchie3 = {
 		advisor_pool = 2
@@ -876,7 +870,6 @@ staatsverwaltung0 = {
 	}
 	staatsverwaltung6 = {
 		global_institution_spread = 0.30
-		mercantilism_cost = 0.5
 	}
 	staatsverwaltung7 = {
 		caravan_power = 0.50
@@ -1011,7 +1004,6 @@ state_affairs_idea_groups_expanded = {
 	}
 	efficient_regional_governors = {
 		all_estate_loyalty_equilibrium = 0.1
-		min_autonomy_in_territories = 0.1
 	}
 	stable_rule = {
 		stability_cost_modifier = -0.1
