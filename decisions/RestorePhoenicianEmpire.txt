@@ -202,7 +202,7 @@ country_decisions = {
 		}
 		allow = {
 			OR = {
-				adm_tech = 20
+				adm_tech = 10
 				is_great_power = yes
 			}
 			owns = 118 #Rome
