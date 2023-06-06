@@ -8,7 +8,7 @@ humanist_bonus = {
 		has_idea = cultural_ties_2
 		num_accepted_cultures = 7
 	}
-	land_morale = 0.075
+	land_morale = 0.15
 }
 
 dynastic_bonus = { #elective_monarchy_dip_buff
@@ -46,8 +46,8 @@ kolo3_1_bonus = {
 		NOT = { colony = 2 }
 		
 	}
-	global_tariffs = 0.05
-	inflation_reduction = -0.025
+	global_tariffs = 0.075
+	inflation_reduction = -0.05
 	
 	
 }
@@ -65,8 +65,8 @@ kolo3_2_bonus = {
 		NOT = { colony = 3 }
 		
 	}
-	global_tariffs = 0.1
-	inflation_reduction = -0.05
+	global_tariffs = 0.15
+	inflation_reduction = -0.1
 }
 
 kolo3_3_bonus = {
@@ -81,8 +81,8 @@ kolo3_3_bonus = {
 		NOT = { colony = 4 }
 		
 	}
-	global_tariffs = 0.15
-	inflation_reduction = -0.075
+	global_tariffs = 0.225
+	inflation_reduction = -0.15
 	
 }
 
@@ -98,8 +98,8 @@ kolo3_4_bonus = {
 		NOT = { colony = 5 }
 		
 	}
-	global_tariffs = 0.2
-	inflation_reduction = -0.100
+	global_tariffs = 0.3
+	inflation_reduction = -0.2
 }
 
 kolo3_5_bonus = {
@@ -114,8 +114,8 @@ kolo3_5_bonus = {
 		NOT = { colony = 6 }
 		
 	}
-	global_tariffs = 0.25
-	inflation_reduction = -0.125
+	global_tariffs = 0.375
+	inflation_reduction = -0.25
 }
 
 kolo3_6_bonus = {
@@ -130,8 +130,8 @@ kolo3_6_bonus = {
 		NOT = { colony = 7 }
 		
 	}
-	global_tariffs = 0.30
-	inflation_reduction = -0.150
+	global_tariffs = 0.45
+	inflation_reduction = -0.3
 }
 
 kolo3_7_bonus = {
@@ -147,8 +147,8 @@ kolo3_7_bonus = {
 		
 		
 	}
-	global_tariffs = 0.35
-	inflation_reduction = -0.175
+	global_tariffs = 0.525
+	inflation_reduction = -0.35
 }
 
 kolo3_8_bonus = {
@@ -163,8 +163,8 @@ kolo3_8_bonus = {
 		NOT = { colony = 9 }
 		
 	}
-	global_tariffs = 0.4
-	inflation_reduction = -0.200
+	global_tariffs = 0.6
+	inflation_reduction = -0.4
 }
 
 kolo3_9_bonus = {
@@ -179,8 +179,8 @@ kolo3_9_bonus = {
 		NOT = { colony = 10 }	
 		
 	}
-	global_tariffs = 0.45
-	inflation_reduction = -0.225
+	global_tariffs = 0.675
+	inflation_reduction = -0.45
 }
 
 kolo3_10_bonus = {
@@ -195,8 +195,8 @@ kolo3_10_bonus = {
 		
 		
 	}
-	global_tariffs = 0.50
-	inflation_reduction = -0.250
+	global_tariffs = 0.75
+	inflation_reduction = -0.5
 }
 
 kolo4_1_bonus = {

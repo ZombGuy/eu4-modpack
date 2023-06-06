@@ -10,14 +10,14 @@ innovativeness_ideas = {
 	category = ADM
 
 	bonus = {
-		advisor_cost = -0.25
+		advisor_cost = -0.33
 	}
 
 	patron_of_art_2  = {
-		prestige_decay = -0.005
+		prestige_decay = -0.01
 	}
 	pragmatism = { # Scientific Method
-		global_institution_spread = 0.30
+		global_institution_spread = 0.50
 	}
 	scientific_revolution = {
 		innovativeness_gain = 0.5
@@ -26,10 +26,10 @@ innovativeness_ideas = {
 		advisor_pool = 2
 	}
 	resilient_state = {
-		stability_cost_modifier = -0.10
+		technology_cost = -0.1
 	}
 	optimism = {
-		war_exhaustion = -0.05
+		idea_cost = -0.1
 	}
 	formalized_officer_corps = {
 		free_leader_pool = 2
@@ -107,7 +107,7 @@ economic_ideas = {
 	}
 
 	bureaucracy = {
-		global_tax_modifier = 0.25
+		global_tax_modifier = 0.2
 	}
 	organised_construction = {
 		build_time = -0.10
@@ -219,14 +219,13 @@ expansion_ideas = {
 		global_colonial_growth = 10
 	}
 	organised_recruiting = {
-		global_manpower_modifier = 0.15
+		global_manpower_modifier = 0.25
 	}
 	expan5 = {
-		build_cost_in_subject_nation = -0.25
-		min_autonomy_in_territories = -0.05
+		min_autonomy_in_territories = -0.1
 	}
 	expan6 = {
-		governing_capacity_modifier = 0.05
+		governing_capacity_modifier = 0.1
 		trade_company_governing_cost = -0.25
 	}
 	expan7 = {
@@ -283,7 +282,7 @@ administrative_ideas = {
 	}
 
 	organised_mercenary_payment = {
-		min_autonomy_in_territories = -0.15
+		min_autonomy_in_territories = -0.1
 	}
 	adaptability = {
 		core_creation = -0.25
@@ -295,7 +294,8 @@ administrative_ideas = {
 		interest = -0.5
 	}
 	organised_mercenary_recruitment = {
-		merchants = 1
+		ignore_coring_distance = yes
+		global_allowed_num_of_buildings = 1
 	}
 	administrative_efficiency_idea = {
 		yearly_corruption = -0.2
@@ -366,29 +366,29 @@ humanist_ideas = {
 	category = ADM
 
 	bonus = {
-		idea_cost = -0.05
+		idea_cost = -0.1
 		yearly_harmony = 0.25
 	}
 	benevolence = {
-		tolerance_own = 2
+		tolerance_own = 3
 	}
 	local_traditions = {
 		global_unrest = -2
 		harmonization_speed = 0.25
 	}
 	ecumenism = {
-		tolerance_heretic = 2
+		tolerance_heretic = 3
 	}
 	humanist_tolerance = {
-		tolerance_heathen = 2
+		tolerance_heathen = 3
 	}
 	cultural_ties_2 = {
-		num_accepted_cultures = 2
+		num_accepted_cultures = 5
 		culture_conversion_cost = 0.25
 		# <<WIKI>> morale_bonus_5_cultures = yes
 	}
 	indirect_rule = {
-		years_of_nationalism = -5
+		years_of_nationalism = -10
 	}
 	tolerance_idea_2 = {
 		religious_unity = 0.25
@@ -502,7 +502,7 @@ justiz0 = {
 	category = ADM
 
 	bonus = {
-		ae_impact = -0.15
+		ae_impact = -0.25
 	}
 		
 	justiz1 = {
@@ -593,6 +593,7 @@ gesundheit0 = {
 	}
 	gesundheit3 = {
 		global_manpower_modifier = 0.15	
+		land_forcelimit_modifier = 0.15
 	}
 	gesundheit4 = {
 		land_attrition = -0.10
@@ -621,7 +622,7 @@ monarchie0 = {
 	category = ADM
 
 	bonus = {
-		max_absolutism = 15
+		max_absolutism = 25
 	}
 		
 	trigger = {
@@ -699,7 +700,7 @@ republik0 = {
 		capped_by_forcelimit = yes
 	}
 	republik7 = {
-		republican_tradition = 0.75
+		republican_tradition = 0.25
 	}
 
 	ai_will_do = {
@@ -853,26 +854,26 @@ staatsverwaltung0 = {
 	}
 	
 	staatsverwaltung1 = {
-		embargo_efficiency = 0.40
+		embargo_efficiency = 0.4
 	}
 	staatsverwaltung2 = {
 		trade_efficiency = 0.15
 	}
 	staatsverwaltung3 = {
-		envoy_travel_time = -0.40
-		global_tax_modifier = 0.20
+		envoy_travel_time = -0.4
+		global_tax_modifier = 0.2
 	}
 	staatsverwaltung4 = {
-		trade_steering = 0.20
+		trade_steering = 0.1
 	}
 	staatsverwaltung5 = {
 		merchants = 1
 	}
 	staatsverwaltung6 = {
-		global_institution_spread = 0.30
+		global_institution_spread = 0.3
 	}
 	staatsverwaltung7 = {
-		caravan_power = 0.50
+		caravan_power = 0.5
 	}
 	
 	ai_will_do = {
@@ -894,15 +895,15 @@ zentra0 = {
 	}
 	
 	bonus = {
-		state_governing_cost = -0.2
+		state_governing_cost = -0.25
 	}
 		
 	zentra1 = {
 		build_time = -0.5
 	}
 	zentra2 = {
-		production_efficiency = 0.1
-		global_trade_goods_size = 0.1
+		production_efficiency = 0.2
+		global_trade_goods_size = 0.2
 	}
 	zentra3 = {
 		global_tax_modifier = 0.50
@@ -912,12 +913,11 @@ zentra0 = {
 		state_maintenance_modifier = -0.25
 	}
 	zentra5 = {
-		global_manpower_modifier = 0.2
-		global_sailors_modifier = 0.1
+		global_allowed_num_of_buildings = 2
 	}
 	zentra6 = {
 		development_cost_modifier = -0.15
-		governing_capacity_modifier = -0.25
+		governing_capacity_modifier = -0.40
 	}
 	zentra7 = {
 		# <<WIKI>> development_cost_over_25 = yes
@@ -949,14 +949,13 @@ dezentra0 = {
 		
 	dezentra1 = {
 		global_allowed_num_of_buildings = 1
-		global_allowed_num_of_manufactories = -1
 		build_time = -0.25
 	}
 	dezentra2 = {
 		yearly_corruption = -0.1
 	}
 	dezentra3 = {
-		trade_efficiency = 0.1
+		trade_efficiency = 0.25
 	}
 	dezentra4 = {
 		global_institution_spread = 0.3
@@ -1006,7 +1005,7 @@ state_affairs_idea_groups_expanded = {
 		all_estate_loyalty_equilibrium = 0.1
 	}
 	stable_rule = {
-		stability_cost_modifier = -0.1
+		stability_cost_modifier = -0.2
 	}
 	public_works = {
 		build_cost = -0.1
