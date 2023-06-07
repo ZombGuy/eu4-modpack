@@ -1,0 +1,28 @@
+country_decisions = {
+	give_me_a_center_of_reformation = {
+		color = { 183 65 37 }
+		potential = {
+			OR = {
+				religion = protestant
+				religion = reformed
+			}
+			NOT = {
+				has_country_flag = got_a_center_of_reformation
+			}
+		}
+
+		allow = {
+
+		}
+
+		major = yes
+
+		effect = {
+
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+	}
+}
