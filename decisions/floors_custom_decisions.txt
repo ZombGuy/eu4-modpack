@@ -18,19 +18,21 @@ country_decisions = {
 		major = yes
 
 		effect = {
-			if = {
-				limit = { religion = protestant }
-				capital_scope = {
-					add_reform_center = protestant
+			ROOT = {
+				if = {
+					limit = { religion = protestant }
+					capital_scope = {
+						add_reform_center = protestant
+					}
 				}
-			}
-			if = {
-				limit = { religion = reformed }
-				capital_scope = {
-					add_reform_center = reformed
+				if = {
+					limit = { religion = reformed }
+					capital_scope = {
+						add_reform_center = reformed
+					}
 				}
+				set_country_flag = got_a_center_of_reformation
 			}
-			set_country_flag = got_a_center_of_reformation
 		}
 
 		ai_will_do = {
