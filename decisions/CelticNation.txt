@@ -43,7 +43,6 @@ country_decisions = {
 				area = leinster_area
 				area = ulster_area
 				area = wales_area
-				area = brittany_area
 				area = lowlands_area 
 				area = highlands_area 
 				area = kingdom_of_the_isles_area
@@ -77,10 +76,6 @@ country_decisions = {
 				owned_by = ROOT
 			}
 			wales_area = {
-				type = all
-				owned_by = ROOT
-			}
-			brittany_area = {
 				type = all
 				owned_by = ROOT
 			}

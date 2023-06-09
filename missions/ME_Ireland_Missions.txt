@@ -397,6 +397,24 @@ ireland_missions_column_2 = {
 				add_permanent_claim = ROOT
 			}
 		}
+		effect = {
+			scottish_marches_area = {
+				limit = {
+					NOT = { owned_by = ROOT	}
+					NOT = { is_core = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+		effect = {
+			yorkshire_area = {
+				limit = {
+					NOT = { owned_by = ROOT	}
+					NOT = { is_core = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+		}
 	}
 }
 
@@ -439,6 +457,18 @@ ireland_missions_column_3 = {
 			}
 		}
 		effect = {
+			4380 = {
+    			change_trade_goods = potato
+			}
+			4378 = {
+    			change_trade_goods = potato
+			}
+			374 = {
+    			change_trade_goods = potato
+			}
+			4379 = {
+    			change_trade_goods = potato
+			}
 			add_country_modifier = {
 				name = "production_growth_ire"
 				duration = -1
@@ -677,6 +707,33 @@ ireland_missions_column_4 = {
 		}
 		effect = {
 			home_counties_area = {
+				limit = {
+					NOT = { owned_by = ROOT	}
+					NOT = { is_core = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+		effect = {
+			east_midlands_area = {
+				limit = {
+					NOT = { owned_by = ROOT	}
+					NOT = { is_core = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+		effect = {
+			home_counties_area = {
+				limit = {
+					NOT = { owned_by = ROOT	}
+					NOT = { is_core = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+		effect = {
+			east_anglia_area = {
 				limit = {
 					NOT = { owned_by = ROOT	}
 					NOT = { is_core = ROOT }
