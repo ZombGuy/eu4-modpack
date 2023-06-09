@@ -1417,3 +1417,15 @@ GE_guards_regiments = {
 	discipline = 0.05
 	is_rajput_modifier = yes
 }
+
+rus_manpower_mod = {
+	war_taxes_cost_modifier = -0.5
+	global_manpower_modifier = 0.1
+	global_unrest = -1
+}
+
+rus_modernisation_modifier = {
+	russian_modernization_gain_modifier = 0.1
+	global_institution_spread = 0.1
+	monthly_russian_modernization = 0.5
+}
