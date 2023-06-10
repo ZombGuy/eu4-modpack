@@ -4386,15 +4386,22 @@ has_not_locked_first_tier_reform = {
 num_of_issues_passed = {
 	if = {
 		limit = {
-			has_dlc = "Common Sense"
+			OR = {
+				has_dlc = "Common Sense"
+				has_dlc = "Domination"
+			}
+			has_parliament = yes
 		}
 		custom_trigger_tooltip = {
-			tooltip = $tooltip$
+			tooltip = num_of_issues_passed_$amount$
 			check_variable = {
 				which = issues_passed
-				value = $value$
+				value = $amount$
 			}
 		}
+	}
+	else = {
+		[[alternative_trigger]$alternative_trigger$]
 	}
 }
 
