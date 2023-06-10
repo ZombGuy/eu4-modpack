@@ -1,23 +1,24 @@
-estate_nobles =
-{
+estate_nobles = {
 	icon = 2
 
 	# If true, country will get estate
 	trigger = {
+		#NOT = { has_government_attribute = is_merchant_republic }
+		#NOT = { has_reform = veche_republic }
+		#NOT = { has_reform = trading_city }
+		NOT = { has_government_attribute = disables_estate_nobles }
+		NOT = { has_country_flag = disables_estate_nobles_flag }
 		OR = {
+			has_government_attribute = enables_estate_nobles
+			has_country_flag = enables_estate_nobles_flag
 			AND = {
-				#NOT = { has_government_attribute = is_merchant_republic } #allows Venice, Genoa and others to have it
-				NOT = { has_reform = pirate_republic_reform }
-				#NOT = { has_reform = veche_republic } #Allows Novgorod to have it
-				NOT = { has_reform = cossacks_reform }
+				NOT = { has_government_attribute = is_pirate_republic_reform }
 				NOT = { government = native }
-				NOT = { has_reform = trading_city }
 				NOT = { has_reform = siberian_tribe }
 				NOT = { is_revolutionary_republic_trigger = yes }
 				NOT = { has_reform = revolutionary_empire_reform }
-				NOT = { has_reform = peasants_republic }
-				NOT = { has_reform = american_republic }
-				NOT = { has_reform = federal_republic }
+				is_nomad = no
+				is_colonial_nation = no
 				if = {
 					limit = {
 						NOT = { religion_group = muslim }
@@ -71,15 +72,19 @@ estate_nobles =
 	country_modifier_happy = {
 		manpower_recovery_speed = 0.2 
 		land_maintenance_modifier = -0.1
-		monthly_support_heir_gain = 0.33
+		monthly_support_heir_gain = 0.1
+		rr_royalists_influence = 0.2
 	}
 	country_modifier_neutral = {
 		manpower_recovery_speed = 0.2 
+		rr_royalists_influence = 0.1
 	}	
 	country_modifier_angry = {
 		manpower_recovery_speed = -0.1
 		land_maintenance_modifier = 0.1
+		monthly_support_heir_gain = -0.2
 		global_unrest = 2
+		rr_royalists_influence = -0.1
 	}
 	land_ownership_modifier = {
 		nobles_loyalty_modifier = 0.2
@@ -237,6 +242,12 @@ estate_nobles =
 	
 	#Alternative naming of estates
 	custom_name = {
+		desc = estate_imperial_nobility
+		trigger = {
+			has_reform = revolutionary_empire_reform
+		}
+	}
+	custom_name = {
 		desc = estate_oyo_mesi
 		trigger = {
 			tag = OYO
@@ -268,7 +279,9 @@ estate_nobles =
 				culture_group = east_slavic
 				primary_culture = bulgarian
 				primary_culture = romanian
+				culture_group = slavic
 			}
+			NOT = { primary_culture = polish_new }
 		}
 	}
 	custom_name = {
@@ -276,6 +289,7 @@ estate_nobles =
 		trigger = {
 			OR = {
 				primary_culture = polish
+				primary_culture = polish_new
 				primary_culture = lithuanian
 			}
 		}
@@ -313,7 +327,10 @@ estate_nobles =
 	custom_name = {
 		desc = estate_mansabdars
 		trigger = {
-			tag = MUG
+			OR = {
+				tag = MUG
+				has_government_attribute = enable_mansabdar_privileges
+			}
 		}
 	}
 	custom_name = {
@@ -359,6 +376,7 @@ estate_nobles =
 		trigger = {
 			OR = {
 				has_reform = prussian_republic_reform
+				has_reform = prussian_monarchy_base
 				has_reform = prussian_monarchy
 				tag = GER
 			}
@@ -459,6 +477,30 @@ estate_nobles =
 		estate_nobles_leidang_mass_conscription
 		estate_nobles_leidang_elite_conscription
 		estate_nobles_sponsor_hussars
+		estate_nobles_mansabdari_cav_maintenance
+		estate_nobles_mansabdari_military_service
+		estate_nobles_mansabdari_royal_rule
+		estate_nobles_mestnichestvo
+		estate_nobles_early_serfdom
+		estate_nobles_legalized_serfdom
+		estate_nobles_total_serfdom
+		estate_nobles_restricted_serfdom
+		estate_nobles_devastating_serfdom
+		estate_nobles_increased_peasant_freedom
+		estate_nobles_peasant_liberation
+		estate_nobles_rynda
+		estate_nobles_landed_army
+		estate_nobles_factionalist_nobility
+		estate_nobles_consolidated_noble_contracts
+		estate_nobles_english_villeinage
+		estate_nobles_english_copyhold_tenure
+		estate_nobles_development_of_castles
+		estate_nobles_statesman_servitude
+		estate_nobles_royal_court_tasks
+		estate_nobles_diet_right
+		estate_nobles_force_conscription
+		estate_nobles_noble_officer_right
+		estate_nobles_expedition_rights
 		#GE
 		estate_nobles_diplomatic_privilege
 		estate_nobles_magnate_law_privilege
