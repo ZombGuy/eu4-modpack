@@ -10,6 +10,12 @@
 quality_ideas = {
 	category = MIL
 
+	trigger = {
+		NOT = {
+			has_idea_group = quantity_ideas
+			}
+		}
+	
 	bonus = {
 		discipline = 0.075
 	}
@@ -128,6 +134,12 @@ quality_ideas = {
 # QUANTITY IDEAS
 quantity_ideas = {
 	category = MIL
+
+	trigger = {
+		NOT = {
+			has_idea_group = quality_ideas
+			}
+		}
 
 	bonus = {
 		land_forcelimit_modifier  = 0.5

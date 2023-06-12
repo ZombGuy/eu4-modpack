@@ -10,7 +10,7 @@ innovativeness_ideas = {
 	category = ADM
 
 	bonus = {
-		advisor_cost = -0.33
+		advisor_cost = -0.2
 	}
 
 	patron_of_art_2  = {
@@ -850,7 +850,7 @@ staatsverwaltung0 = {
 	category = ADM
 
 	bonus = {
-		advisor_cost = -0.20
+		advisor_cost = -0.1
 	}
 	
 	staatsverwaltung1 = {
@@ -993,7 +993,7 @@ state_affairs_idea_groups_expanded = {
 	
 	meritocratic_offices = {
 		yearly_corruption = -0.05
-		advisor_cost = -0.2
+		advisor_cost = -0.1
 	}
 	modernized_administration = {
 		global_autonomy = -0.1

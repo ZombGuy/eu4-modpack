@@ -11,7 +11,7 @@ spy_ideas = {
 
 	bonus = {
 		harsh_treatment_cost = -0.75
-		advisor_cost = -0.25
+		advisor_cost = -0.1
 	}
 
 	efficient_spies = {
@@ -865,7 +865,7 @@ gesellschaft0 = {
 		global_institution_spread = 0.2
 	}
 	gesellschaft4 = {
-		advisor_cost = -0.2
+		advisor_cost = -0.1
 	}
 	gesellschaft5 = {
 		global_spy_defence = 0.33
