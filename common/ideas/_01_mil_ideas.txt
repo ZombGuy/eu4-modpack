@@ -5,6 +5,142 @@
 #######################################
 #######################################
 
+aristocracy_ideas = {
+	category = MIL
+
+	bonus = {
+		leader_siege = 1
+		nobles_loyalty_modifier = 0.1
+		rajput_loyalty_modifier = 0.1
+		maratha_loyalty_modifier = 0.1
+	}
+
+	trigger = {
+		has_government_attribute = enables_aristocratic_idea_group
+	}
+	
+	noble_knights = {
+		cavalry_power = 0.25
+	}
+	serfdom = {
+		global_manpower_modifier = 0.30
+	}
+	noble_resilience = {
+		cav_to_inf_ratio = 0.25
+		cavalry_cost = -0.1
+	}
+	noble_officers = {
+		army_tradition_decay = -0.01
+		navy_tradition_decay = -0.01
+	}
+	international_nobility = {
+		diplomats = 1
+		general_cost = -0.2
+	}
+	rightful_conquest = {
+		fabricate_claims_cost = -0.75
+	}
+	local_nobility = {
+		yearly_absolutism = 1
+	}
+	
+	ai_will_do = {
+		factor = 3.75
+		
+		modifier = {
+			factor = 1.25
+			has_global_modifier_value = {
+				which = cavalry_power 
+				value = 0.25
+			}
+		}
+		modifier = {
+			factor = 1.25
+			cavalry_fraction = 0.3
+		}
+		modifier = {
+			factor = 0.5
+			NOT = { monthly_mil = 7 }
+		}
+		modifier = {
+			factor = 1.1
+			personality = ai_militarist 
+		}
+		modifier = {
+			factor = 0.5
+			is_subject = yes
+		}
+		modifier = { 
+			factor = 1.25
+			has_idea_group = spy_ideas 
+		}
+	}
+}
+
+
+plutocracy_ideas = {
+	category = MIL
+
+	bonus = {
+		global_prov_trade_power_modifier = 0.25
+		burghers_loyalty_modifier = 0.1
+		vaisyas_loyalty_modifier = 0.1
+	}
+
+	trigger = {
+		has_government_attribute = enables_plutocratic_idea_group
+	}
+
+	tradition_of_payment = {
+		mercenary_cost = -0.25
+		global_regiment_cost = -0.2
+		capped_by_forcelimit = yes
+	}
+	abolished_serfdom = {
+		land_morale = 0.15
+		global_unrest = -1
+	}
+	bill_of_rights = {
+		monthly_liberalism = 0.25
+	}
+	free_merchants = {
+		merchants = 1
+	}
+	free_subjects = {
+		global_trade_goods_size_modifier = 0.1
+	}
+	free_cities = {
+		caravan_power = 0.2
+		development_cost = -0.05
+	}
+	emancipation = {
+		manpower_recovery_speed = 0.2
+	}
+
+	ai_will_do = {
+		factor = 3.75
+		
+		modifier = {
+			factor = 1.25
+			trade_income_percentage = 0.4
+		}
+		modifier = {
+			factor = 1.25
+			production_income_percentage = 0.35
+		}
+		modifier = {
+			factor = 0.5
+			NOT = { monthly_mil = 7 }
+		}
+		modifier = {
+			factor = 1.1
+			OR = {
+				personality = ai_capitalist
+				personality = ai_militarist 
+			}
+		}
+	}
+}
 
 # QUALITY IDEAS
 quality_ideas = {
