@@ -15,6 +15,7 @@ maritime_republic_mechanic = {
 					mercantilism_cost = -0.25
 					global_own_trade_power = 0.15
 					global_ship_trade_power = 0.25
+					trade_efficiency = 0.25
 				}
 			}
 			on_max_reached = {
