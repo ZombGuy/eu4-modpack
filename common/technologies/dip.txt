@@ -52,7 +52,7 @@ technology = { #Early Ships
 	steam_factory = yes	
 	mine = yes
 	steam_engine_manu = yes
-
+	enable = war_canoe
 
 }
 
