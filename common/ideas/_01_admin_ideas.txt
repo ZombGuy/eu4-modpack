@@ -697,7 +697,6 @@ republik0 = {
 	}
 	republik6 = {
 		production_efficiency = 0.15
-		capped_by_forcelimit = yes
 	}
 	republik7 = {
 		republican_tradition = 0.25

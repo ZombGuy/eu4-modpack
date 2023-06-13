@@ -94,7 +94,6 @@ plutocracy_ideas = {
 	tradition_of_payment = {
 		mercenary_cost = -0.25
 		global_regiment_cost = -0.2
-		capped_by_forcelimit = yes
 	}
 	abolished_serfdom = {
 		land_morale = 0.15
