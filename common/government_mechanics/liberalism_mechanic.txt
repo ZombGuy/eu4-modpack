@@ -29,7 +29,7 @@ liberalism_mechanic = {
 				modifier = {
 					global_trade_goods_size_modifier = 0.25
 					embargo_efficiency = -0.25
-					trade_efficiency = 0.5
+					trade_efficiency = 1.0
 					global_own_trade_power = 0.2
 				}
 			}
