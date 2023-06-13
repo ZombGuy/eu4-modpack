@@ -18,7 +18,7 @@ liberalism_mechanic = {
 					tolerance_heretic = 2
 					tolerance_of_heretics_capacity = 2
 					max_absolutism = -50
-					monthly_liberalism = -1.25
+					monthly_liberalism = -1
 					trade_efficiency = 0.5
 				}
 			}
