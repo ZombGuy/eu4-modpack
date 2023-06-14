@@ -6,7 +6,7 @@ fu_sari_markets = {
 		months = 60
 	}
 	build_cost = 1000
-	can_be_moved = no
+	can_be_moved = yes
 	starting_tier = 1
 	type = canal
 	build_trigger = {
@@ -243,7 +243,7 @@ fu_mehmed_pasha_mosque = {
 		months = 60
 	}
 	build_cost = 0
-	can_be_moved = no
+	can_be_moved = yes
 	starting_tier = 1
 	type = canal
 	build_trigger = {
@@ -347,7 +347,7 @@ fu_acemi_oglan = {
 		months = 60
 	}
 	build_cost = 0
-	can_be_moved = no
+	can_be_moved = yes
 	starting_tier = 1
 	type = canal
 	build_trigger = {
@@ -451,7 +451,7 @@ fu_holy_cross_cathedral = {
 		months = 24
 	}
 	build_cost = 0
-	can_be_moved = no
+	can_be_moved = yes
 	starting_tier = 1
 	type = canal
 	build_trigger = {
