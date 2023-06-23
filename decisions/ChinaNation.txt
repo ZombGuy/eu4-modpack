@@ -68,9 +68,9 @@ country_decisions = {
 				is_state = yes
 			}
 			OR = {
-				adm_tech = 20
-				is_year = 1800
-				has_institution = industrialization
+				adm_tech = 10
+				is_year = 1500
+				has_institution = colonialism
 			}
 			if = {
 				limit = {

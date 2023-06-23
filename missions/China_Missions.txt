@@ -206,7 +206,7 @@ chinese_diplomatic = {
 						was_tag = MNG
 					}
 				}
-				tributary_state = 25
+				tributary_state = 10
 			}
 			else = { tributary_state = 10 }
 		}
@@ -347,7 +347,7 @@ chinese_economy = {
 		icon = mission_early_game_buildings
 		position = 1
 		required_missions = { }
-		trigger = { treasury = 15000 }
+		trigger = { treasury = 10000}
 		effect = {
 			add_country_modifier = {
 				name = CCP_chinese_bank

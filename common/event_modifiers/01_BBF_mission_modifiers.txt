@@ -76,7 +76,7 @@ ROM_overly_ambitious_claims = {
 }
 #Great Chinese Bank
 CCP_chinese_bank = {
-	global_tax_modifier = -0.10
+	global_tax_modifier = 0.10
 	interest = -0.50
 	global_unrest = -2
 }
