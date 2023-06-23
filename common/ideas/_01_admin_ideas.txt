@@ -103,7 +103,7 @@ economic_ideas = {
 	category = ADM
 
 	bonus = {
-		development_cost = -0.1
+		development_cost = -0.2
 	}
 
 	bureaucracy = {
@@ -117,16 +117,16 @@ economic_ideas = {
 		monthly_gold_inflation_modifier = -0.5
 	}
 	debt_and_loans = {
-		interest = -2
+		interest = -1
 	}
 	centralization = {
 		global_autonomy = -0.05
 	}
 	nationalistic_enthusiasm = {
-		land_maintenance_modifier = -0.05
+		land_maintenance_modifier = -0.1
 	}
 	smithian_economics = {
-		production_efficiency = 0.1
+		production_efficiency = 0.2
  	}
 
 	 ai_will_do = {
@@ -697,6 +697,7 @@ republik0 = {
 	}
 	republik6 = {
 		production_efficiency = 0.15
+		capped_by_forcelimit = yes
 	}
 	republik7 = {
 		republican_tradition = 0.25
