@@ -16,6 +16,7 @@ Goguryeo_ideas = {
 
 	hanguel_alphabet = {
 		technology_cost = -0.1
+		global_institution_spread = 0.20
 	}
 	hostilities_in_the_north = {
 		cavalry_power = 0.10
@@ -25,7 +26,8 @@ Goguryeo_ideas = {
 		production_efficiency = 0.10
 	}
 	geobukseon_Goguryeo = {
-		ship_durability = 0.15
+		galley_power = 0.15
+		artillery_power = 0.10
 	}
 	hopae_system = {
 		global_manpower_modifier = 0.10

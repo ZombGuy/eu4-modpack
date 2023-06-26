@@ -1549,8 +1549,15 @@ KOR_missions_4 = {
 		required_missions = { KOR_cheonghaejin }
 		position = 15
 		trigger = {
-			num_of_heavy_ship = 5
-			navy_tradition = 30
+			OR = {
+				num_of_heavy_ship = 5
+				navy_tradition = 30
+			}
+			OR = {
+				has_idea_group = expansion_ideas
+				has_idea_group = exploration_ideas
+				has_idea_group = maritime_ideas
+			}
 		}
 		effect = {
 			if = {
