@@ -688,6 +688,7 @@ republik0 = {
 	}
 	republik3 = {
 		global_unrest = -2
+		monthly_liberalism = 0.1
 	}
 	republik4 = {
 		promote_culture_cost = -0.75
@@ -697,7 +698,7 @@ republik0 = {
 	}
 	republik6 = {
 		production_efficiency = 0.15
-		capped_by_forcelimit = yes
+		# capped_by_forcelimit = yes
 	}
 	republik7 = {
 		republican_tradition = 0.25

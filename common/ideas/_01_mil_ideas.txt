@@ -100,7 +100,7 @@ plutocracy_ideas = {
 		global_unrest = -1
 	}
 	bill_of_rights = {
-		monthly_liberalism = 0.25
+		monthly_liberalism = 0.15
 	}
 	free_merchants = {
 		merchants = 1
