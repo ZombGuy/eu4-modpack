@@ -8,11 +8,6 @@ country_decisions = {
 			any_owned_province = {
 				trade_company_region = trade_company_indonesia
 			}
-			capital_scope = {
-				AND = {
-					NOT = { superregion = east_indies_superregion }
-				}
-			}
 		}
 		provinces_to_highlight = {
 			country_or_subject_holds = ROOT
@@ -41,7 +36,7 @@ country_decisions = {
 			}
 		}
 		ai_will_do = { 
-			factor = 1
+			factor = 0
 			modifier = {
 				factor = 0
 				NOT = { total_development = 150 }
@@ -72,11 +67,6 @@ country_decisions = {
 			any_owned_province = {
 				trade_company_region = trade_company_moluccas
 			}
-			capital_scope = {
-				AND = {
-					NOT = { superregion = east_indies_superregion }
-				}
-			}
 		}
 		provinces_to_highlight = {
 			country_or_subject_holds = ROOT
@@ -105,7 +95,7 @@ country_decisions = {
 			}
 		}
 		ai_will_do = { 
-			factor = 1
+			factor = 0
 			modifier = {
 				factor = 0
 				NOT = { total_development = 150 }
@@ -136,11 +126,6 @@ country_decisions = {
 			any_owned_province = {
 				trade_company_region = trade_company_philippines
 			}
-			capital_scope = {
-				AND = {
-					NOT = { superregion = east_indies_superregion }
-				}
-			}
 		}
 		provinces_to_highlight = {
 			country_or_subject_holds = ROOT
@@ -169,7 +154,7 @@ country_decisions = {
 			}
 		}
 		ai_will_do = { 
-			factor = 1
+			factor = 0
 			modifier = {
 				factor = 0
 				NOT = { total_development = 150 }
@@ -200,11 +185,6 @@ country_decisions = {
 			any_owned_province = {
 				trade_company_region = trade_company_indochina
 			}
-			capital_scope = {
-				AND = {
-					NOT = { continent = asia }
-				}
-			}
 		}
 		provinces_to_highlight = {
 			country_or_subject_holds = ROOT
@@ -233,7 +213,7 @@ country_decisions = {
 			}
 		}
 		ai_will_do = { 
-			factor = 1
+			factor = 0
 			modifier = {
 				factor = 0
 				NOT = { total_development = 150 }
@@ -264,11 +244,6 @@ country_decisions = {
 			any_owned_province = {
 				trade_company_region = trade_company_burma
 			}
-			capital_scope = {
-				AND = {
-					NOT = { continent = asia }
-				}
-			}
 		}
 		provinces_to_highlight = {
 			country_or_subject_holds = ROOT
@@ -297,7 +272,7 @@ country_decisions = {
 			}
 		}
 		ai_will_do = { 
-			factor = 1
+			factor = 0
 			modifier = {
 				factor = 0
 				NOT = { total_development = 150 }
@@ -328,11 +303,6 @@ country_decisions = {
 			any_owned_province = {
 				trade_company_region = trade_company_north_sea
 			}
-			capital_scope = {
-				AND = {
-					NOT = { continent = europe }
-				}
-			}
 		}
 		provinces_to_highlight = {
 			country_or_subject_holds = ROOT
@@ -361,7 +331,7 @@ country_decisions = {
 			}
 		}
 		ai_will_do = { 
-			factor = 1
+			factor = 0
 			modifier = {
 				factor = 0
 				NOT = { total_development = 150 }
@@ -392,11 +362,6 @@ country_decisions = {
 			any_owned_province = {
 				trade_company_region = trade_company_english_channel
 			}
-			capital_scope = {
-				AND = {
-					NOT = { continent = europe }
-				}
-			}
 		}
 		provinces_to_highlight = {
 			country_or_subject_holds = ROOT
@@ -425,7 +390,7 @@ country_decisions = {
 			}
 		}
 		ai_will_do = { 
-			factor = 1
+			factor = 0
 			modifier = {
 				factor = 0
 				NOT = { total_development = 150 }
@@ -456,11 +421,6 @@ country_decisions = {
 			any_owned_province = {
 				trade_company_region = trade_company_bordeaux
 			}
-			capital_scope = {
-				AND = {
-					NOT = { continent = europe }
-				}
-			}
 		}
 		provinces_to_highlight = {
 			country_or_subject_holds = ROOT
@@ -489,7 +449,7 @@ country_decisions = {
 			}
 		}
 		ai_will_do = { 
-			factor = 1
+			factor = 0
 			modifier = {
 				factor = 0
 				NOT = { total_development = 150 }
@@ -520,11 +480,6 @@ country_decisions = {
 			any_owned_province = {
 				trade_company_region = trade_company_champagne
 			}
-			capital_scope = {
-				AND = {
-					NOT = { continent = europe }
-				}
-			}
 		}
 		provinces_to_highlight = {
 			country_or_subject_holds = ROOT
@@ -553,7 +508,7 @@ country_decisions = {
 			}
 		}
 		ai_will_do = { 
-			factor = 1
+			factor = 0
 			modifier = {
 				factor = 0
 				NOT = { total_development = 150 }
@@ -584,11 +539,6 @@ country_decisions = {
 			any_owned_province = {
 				trade_company_region = trade_company_sevilla
 			}
-			capital_scope = {
-				AND = {
-					NOT = { continent = europe }
-				}
-			}
 		}
 		provinces_to_highlight = {
 			country_or_subject_holds = ROOT
@@ -617,7 +567,7 @@ country_decisions = {
 			}
 		}
 		ai_will_do = { 
-			factor = 1
+			factor = 0
 			modifier = {
 				factor = 0
 				NOT = { total_development = 150 }
@@ -648,11 +598,6 @@ country_decisions = {
 			any_owned_province = {
 				trade_company_region = trade_company_valencia
 			}
-			capital_scope = {
-				AND = {
-					NOT = { continent = europe }
-				}
-			}
 		}
 		provinces_to_highlight = {
 			country_or_subject_holds = ROOT
@@ -681,7 +626,7 @@ country_decisions = {
 			}
 		}
 		ai_will_do = { 
-			factor = 1
+			factor = 0
 			modifier = {
 				factor = 0
 				NOT = { total_development = 150 }
@@ -712,11 +657,6 @@ country_decisions = {
 			any_owned_province = {
 				trade_company_region = trade_company_venice
 			}
-			capital_scope = {
-				AND = {
-					NOT = { continent = europe }
-				}
-			}
 		}
 		provinces_to_highlight = {
 			country_or_subject_holds = ROOT
@@ -745,7 +685,7 @@ country_decisions = {
 			}
 		}
 		ai_will_do = { 
-			factor = 1
+			factor = 0
 			modifier = {
 				factor = 0
 				NOT = { total_development = 150 }
@@ -776,11 +716,6 @@ country_decisions = {
 			any_owned_province = {
 				trade_company_region = trade_company_genua
 			}
-			capital_scope = {
-				AND = {
-					NOT = { continent = europe }
-				}
-			}
 		}
 		provinces_to_highlight = {
 			country_or_subject_holds = ROOT
@@ -809,7 +744,7 @@ country_decisions = {
 			}
 		}
 		ai_will_do = { 
-			factor = 1
+			factor = 0
 			modifier = {
 				factor = 0
 				NOT = { total_development = 150 }
@@ -840,11 +775,6 @@ country_decisions = {
 			any_owned_province = {
 				trade_company_region = trade_company_rheinland
 			}
-			capital_scope = {
-				AND = {
-					NOT = { continent = europe }
-				}
-			}
 		}
 		provinces_to_highlight = {
 			country_or_subject_holds = ROOT
@@ -873,7 +803,7 @@ country_decisions = {
 			}
 		}
 		ai_will_do = { 
-			factor = 1
+			factor = 0
 			modifier = {
 				factor = 0
 				NOT = { total_development = 150 }
@@ -904,11 +834,6 @@ country_decisions = {
 			any_owned_province = {
 				trade_company_region = trade_company_wien
 			}
-			capital_scope = {
-				AND = {
-					NOT = { continent = europe }
-				}
-			}
 		}
 		provinces_to_highlight = {
 			country_or_subject_holds = ROOT
@@ -937,7 +862,7 @@ country_decisions = {
 			}
 		}
 		ai_will_do = { 
-			factor = 1
+			factor = 0
 			modifier = {
 				factor = 0
 				NOT = { total_development = 150 }
@@ -968,11 +893,6 @@ country_decisions = {
 			any_owned_province = {
 				trade_company_region = trade_company_saxony
 			}
-			capital_scope = {
-				AND = {
-					NOT = { continent = europe }
-				}
-			}
 		}
 		provinces_to_highlight = {
 			country_or_subject_holds = ROOT
@@ -1001,7 +921,7 @@ country_decisions = {
 			}
 		}
 		ai_will_do = { 
-			factor = 1
+			factor = 0
 			modifier = {
 				factor = 0
 				NOT = { total_development = 150 }
@@ -1032,11 +952,6 @@ country_decisions = {
 			any_owned_province = {
 				trade_company_region = trade_company_lubeck
 			}
-			capital_scope = {
-				AND = {
-					NOT = { continent = europe }
-				}
-			}
 		}
 		provinces_to_highlight = {
 			country_or_subject_holds = ROOT
@@ -1065,7 +980,7 @@ country_decisions = {
 			}
 		}
 		ai_will_do = { 
-			factor = 1
+			factor = 0
 			modifier = {
 				factor = 0
 				NOT = { total_development = 150 }
@@ -1096,11 +1011,6 @@ country_decisions = {
 			any_owned_province = {
 				trade_company_region = trade_company_baltic_sea
 			}
-			capital_scope = {
-				AND = {
-					NOT = { continent = europe }
-				}
-			}
 		}
 		provinces_to_highlight = {
 			country_or_subject_holds = ROOT
@@ -1129,7 +1039,7 @@ country_decisions = {
 			}
 		}
 		ai_will_do = { 
-			factor = 1
+			factor = 0
 			modifier = {
 				factor = 0
 				NOT = { total_development = 150 }
@@ -1160,11 +1070,6 @@ country_decisions = {
 			any_owned_province = {
 				trade_company_region = trade_company_krakow
 			}
-			capital_scope = {
-				AND = {
-					NOT = { continent = europe }
-				}
-			}
 		}
 		provinces_to_highlight = {
 			country_or_subject_holds = ROOT
@@ -1193,7 +1098,7 @@ country_decisions = {
 			}
 		}
 		ai_will_do = { 
-			factor = 1
+			factor = 0
 			modifier = {
 				factor = 0
 				NOT = { total_development = 150 }
@@ -1224,11 +1129,6 @@ country_decisions = {
 			any_owned_province = {
 				trade_company_region = trade_company_pest
 			}
-			capital_scope = {
-				AND = {
-					NOT = { continent = europe }
-				}
-			}
 		}
 		provinces_to_highlight = {
 			country_or_subject_holds = ROOT
@@ -1257,7 +1157,7 @@ country_decisions = {
 			}
 		}
 		ai_will_do = { 
-			factor = 1
+			factor = 0
 			modifier = {
 				factor = 0
 				NOT = { total_development = 150 }
@@ -1288,11 +1188,6 @@ country_decisions = {
 			any_owned_province = {
 				trade_company_region = trade_company_ragusa
 			}
-			capital_scope = {
-				AND = {
-					NOT = { continent = europe }
-				}
-			}
 		}
 		provinces_to_highlight = {
 			country_or_subject_holds = ROOT
@@ -1321,7 +1216,7 @@ country_decisions = {
 			}
 		}
 		ai_will_do = { 
-			factor = 1
+			factor = 0
 			modifier = {
 				factor = 0
 				NOT = { total_development = 150 }
@@ -1352,11 +1247,6 @@ country_decisions = {
 			any_owned_province = {
 				trade_company_region = trade_company_crimea
 			}
-			capital_scope = {
-				AND = {
-					NOT = { continent = europe }
-				}
-			}
 		}
 		provinces_to_highlight = {
 			country_or_subject_holds = ROOT
@@ -1385,7 +1275,7 @@ country_decisions = {
 			}
 		}
 		ai_will_do = { 
-			factor = 1
+			factor = 0
 			modifier = {
 				factor = 0
 				NOT = { total_development = 150 }
@@ -1416,11 +1306,6 @@ country_decisions = {
 			any_owned_province = {
 				trade_company_region = trade_company_kiev
 			}
-			capital_scope = {
-				AND = {
-					NOT = { continent = europe }
-				}
-			}
 		}
 		provinces_to_highlight = {
 			country_or_subject_holds = ROOT
@@ -1449,7 +1334,7 @@ country_decisions = {
 			}
 		}
 		ai_will_do = { 
-			factor = 1
+			factor = 0
 			modifier = {
 				factor = 0
 				NOT = { total_development = 150 }
@@ -1480,11 +1365,6 @@ country_decisions = {
 			any_owned_province = {
 				trade_company_region = trade_company_novgorod
 			}
-			capital_scope = {
-				AND = {
-					NOT = { continent = europe }
-				}
-			}
 		}
 		provinces_to_highlight = {
 			country_or_subject_holds = ROOT
@@ -1513,7 +1393,7 @@ country_decisions = {
 			}
 		}
 		ai_will_do = { 
-			factor = 1
+			factor = 0
 			modifier = {
 				factor = 0
 				NOT = { total_development = 150 }
@@ -1544,11 +1424,6 @@ country_decisions = {
 			any_owned_province = {
 				trade_company_region = trade_company_white_sea
 			}
-			capital_scope = {
-				AND = {
-					NOT = { continent = europe }
-				}
-			}
 		}
 		provinces_to_highlight = {
 			country_or_subject_holds = ROOT
@@ -1577,7 +1452,7 @@ country_decisions = {
 			}
 		}
 		ai_will_do = { 
-			factor = 1
+			factor = 0
 			modifier = {
 				factor = 0
 				NOT = { total_development = 150 }
@@ -1608,11 +1483,6 @@ country_decisions = {
 			any_owned_province = {
 				trade_company_region = trade_company_kazan
 			}
-			capital_scope = {
-				AND = {
-					NOT = { continent = europe }
-				}
-			}
 		}
 		provinces_to_highlight = {
 			country_or_subject_holds = ROOT
@@ -1641,7 +1511,7 @@ country_decisions = {
 			}
 		}
 		ai_will_do = { 
-			factor = 1
+			factor = 0
 			modifier = {
 				factor = 0
 				NOT = { total_development = 150 }
@@ -1672,11 +1542,6 @@ country_decisions = {
 			any_owned_province = {
 				trade_company_region = trade_company_astrakhan
 			}
-			capital_scope = {
-				AND = {
-					NOT = { continent = europe }
-				}
-			}
 		}
 		provinces_to_highlight = {
 			country_or_subject_holds = ROOT
@@ -1705,7 +1570,7 @@ country_decisions = {
 			}
 		}
 		ai_will_do = { 
-			factor = 1
+			factor = 0
 			modifier = {
 				factor = 0
 				NOT = { total_development = 150 }
@@ -1748,11 +1613,6 @@ country_decisions = {
 		}
 		allow = {
 			is_at_war = no
-			capital_scope = {
-				NOT = { superregion = near_east_superregion }
-				NOT = { region = balkan_region }
-				NOT = { region = carpathia_region }
-			}
 		}
 		effect = {
 			#set_country_flag = colonize_it_constantinople_colony
@@ -1770,7 +1630,7 @@ country_decisions = {
 			}
 		}
 		ai_will_do = { 
-			factor = 1
+			factor = 0
 			modifier = {
 				factor = 0
 				NOT = { total_development = 150 }
@@ -1810,11 +1670,6 @@ country_decisions = {
 			any_owned_province = {
 				trade_company_region = trade_company_aleppo
 			}
-			capital_scope = {
-				AND = {
-					NOT = { continent = asia }
-				}
-			}
 		}
 		provinces_to_highlight = {
 			country_or_subject_holds = ROOT
@@ -1843,7 +1698,7 @@ country_decisions = {
 			}
 		}
 		ai_will_do = { 
-			factor = 1
+			factor = 0
 			modifier = {
 				factor = 0
 				NOT = { total_development = 150 }
@@ -1874,11 +1729,6 @@ country_decisions = {
 			any_owned_province = {
 				trade_company_region = trade_company_alexandria
 			}
-			capital_scope = {
-				AND = {
-					NOT = { continent = africa }
-				}
-			}
 		}
 		provinces_to_highlight = {
 			country_or_subject_holds = ROOT
@@ -1907,7 +1757,7 @@ country_decisions = {
 			}
 		}
 		ai_will_do = { 
-			factor = 1
+			factor = 0
 			modifier = {
 				factor = 0
 				NOT = { total_development = 150 }
@@ -1948,11 +1798,6 @@ country_decisions = {
 			any_owned_province = {
 				trade_company_region = trade_company_basra
 			}
-			capital_scope = {
-				AND = {
-					NOT = { continent = asia }
-				}
-			}
 		}
 		provinces_to_highlight = {
 			country_or_subject_holds = ROOT
@@ -1981,7 +1826,7 @@ country_decisions = {
 			}
 		}
 		ai_will_do = { 
-			factor = 1
+			factor = 0
 			modifier = {
 				factor = 0
 				NOT = { total_development = 150 }
@@ -2022,11 +1867,6 @@ country_decisions = {
 			any_owned_province = {
 				trade_company_region = trade_company_gulf_of_aden
 			}
-			capital_scope = {
-				AND = {
-					NOT = { continent = asia }
-				}
-			}
 		}
 		provinces_to_highlight = {
 			country_or_subject_holds = ROOT
@@ -2055,7 +1895,7 @@ country_decisions = {
 			}
 		}
 		ai_will_do = { 
-			factor = 1
+			factor = 0
 			modifier = {
 				factor = 0
 				NOT = { total_development = 150 }
@@ -2098,11 +1938,6 @@ country_decisions = {
 			any_owned_province = {
 				trade_company_region = trade_company_persia
 			}
-			capital_scope = {
-				AND = {
-					NOT = { continent = asia }
-				}
-			}
 		}
 		provinces_to_highlight = {
 			country_or_subject_holds = ROOT
@@ -2131,7 +1966,7 @@ country_decisions = {
 			}
 		}
 		ai_will_do = { 
-			factor = 1
+			factor = 0
 			modifier = {
 				factor = 0
 				NOT = { total_development = 150 }
@@ -2175,11 +2010,6 @@ country_decisions = {
 			any_owned_province = {
 				trade_company_region = trade_company_hormuz
 			}
-			capital_scope = {
-				AND = {
-					NOT = { continent = asia }
-				}
-			}
 		}
 		provinces_to_highlight = {
 			country_or_subject_holds = ROOT
@@ -2208,7 +2038,7 @@ country_decisions = {
 			}
 		}
 		ai_will_do = { 
-			factor = 1
+			factor = 0
 			modifier = {
 				factor = 0
 				NOT = { total_development = 150 }
@@ -2248,11 +2078,6 @@ country_decisions = {
 			any_owned_province = {
 				trade_company_region = trade_company_tunis
 			}
-			capital_scope = {
-				AND = {
-					NOT = { continent = africa }
-				}
-			}
 		}
 		provinces_to_highlight = {
 			country_or_subject_holds = ROOT
@@ -2281,7 +2106,7 @@ country_decisions = {
 			}
 		}
 		ai_will_do = { 
-			factor = 1
+			factor = 0
 			modifier = {
 				factor = 0
 				NOT = { total_development = 150 }
@@ -2322,11 +2147,6 @@ country_decisions = {
 			any_owned_province = {
 				trade_company_region = trade_company_safi
 			}
-			capital_scope = {
-				AND = {
-					NOT = { continent = africa }
-				}
-			}
 		}
 		provinces_to_highlight = {
 			country_or_subject_holds = ROOT
@@ -2355,7 +2175,7 @@ country_decisions = {
 			}
 		}
 		ai_will_do = { 
-			factor = 1
+			factor = 0
 			modifier = {
 				factor = 0
 				NOT = { total_development = 150 }
@@ -2396,11 +2216,6 @@ country_decisions = {
 			any_owned_province = {
 				trade_company_region = trade_company_timbuktu
 			}
-			capital_scope = {
-				AND = {
-					NOT = { continent = africa }
-				}
-			}
 		}
 		provinces_to_highlight = {
 			country_or_subject_holds = ROOT
@@ -2429,7 +2244,7 @@ country_decisions = {
 			}
 		}
 		ai_will_do = { 
-			factor = 1
+			factor = 0
 			modifier = {
 				factor = 0
 				NOT = { total_development = 150 }
@@ -2460,11 +2275,6 @@ country_decisions = {
 			any_owned_province = {
 				trade_company_region = trade_company_west_africa
 			}
-			capital_scope = {
-				AND = {
-					NOT = { continent = africa }
-				}
-			}
 		}
 		provinces_to_highlight = {
 			country_or_subject_holds = ROOT
@@ -2493,7 +2303,7 @@ country_decisions = {
 			}
 		}
 		ai_will_do = { 
-			factor = 1
+			factor = 0
 			modifier = {
 				factor = 0
 				NOT = { total_development = 150 }
@@ -2524,11 +2334,6 @@ country_decisions = {
 			any_owned_province = {
 				trade_company_region = trade_company_ethiopia
 			}
-			capital_scope = {
-				AND = {
-					NOT = { continent = africa }
-				}
-			}
 		}
 		provinces_to_highlight = {
 			country_or_subject_holds = ROOT
@@ -2557,7 +2362,7 @@ country_decisions = {
 			}
 		}
 		ai_will_do = { 
-			factor = 1
+			factor = 0
 			modifier = {
 				factor = 0
 				NOT = { total_development = 150 }
@@ -2588,11 +2393,6 @@ country_decisions = {
 			any_owned_province = {
 				trade_company_region = trade_company_east_africa
 			}
-			capital_scope = {
-				AND = {
-					NOT = { continent = africa }
-				}
-			}
 		}
 		provinces_to_highlight = {
 			country_or_subject_holds = ROOT
@@ -2621,7 +2421,7 @@ country_decisions = {
 			}
 		}
 		ai_will_do = { 
-			factor = 1
+			factor = 0
 			modifier = {
 				factor = 0
 				NOT = { total_development = 150 }
@@ -2652,11 +2452,6 @@ country_decisions = {
 			any_owned_province = {
 				trade_company_region = trade_company_great_lakes
 			}
-			capital_scope = {
-				AND = {
-					NOT = { continent = africa }
-				}
-			}
 		}
 		provinces_to_highlight = {
 			country_or_subject_holds = ROOT
@@ -2685,7 +2480,7 @@ country_decisions = {
 			}
 		}
 		ai_will_do = { 
-			factor = 1
+			factor = 0
 			modifier = {
 				factor = 0
 				NOT = { total_development = 150 }
@@ -2716,11 +2511,6 @@ country_decisions = {
 			any_owned_province = {
 				trade_company_region = trade_company_zambezi
 			}
-			capital_scope = {
-				AND = {
-					NOT = { continent = africa }
-				}
-			}
 		}
 		provinces_to_highlight = {
 			country_or_subject_holds = ROOT
@@ -2749,7 +2539,7 @@ country_decisions = {
 			}
 		}
 		ai_will_do = { 
-			factor = 1
+			factor = 0
 			modifier = {
 				factor = 0
 				NOT = { total_development = 150 }
@@ -2780,11 +2570,6 @@ country_decisions = {
 			any_owned_province = {
 				trade_company_region = trade_company_kongo
 			}
-			capital_scope = {
-				AND = {
-					NOT = { continent = africa }
-				}
-			}
 		}
 		provinces_to_highlight = {
 			country_or_subject_holds = ROOT
@@ -2813,7 +2598,7 @@ country_decisions = {
 			}
 		}
 		ai_will_do = { 
-			factor = 1
+			factor = 0
 			modifier = {
 				factor = 0
 				NOT = { total_development = 150 }
@@ -2844,11 +2629,6 @@ country_decisions = {
 			any_owned_province = {
 				trade_company_region = trade_company_south_africa
 			}
-			capital_scope = {
-				AND = {
-					NOT = { continent = africa }
-				}
-			}
 		}
 		provinces_to_highlight = {
 			country_or_subject_holds = ROOT
@@ -2877,7 +2657,7 @@ country_decisions = {
 			}
 		}
 		ai_will_do = { 
-			factor = 1
+			factor = 0
 			modifier = {
 				factor = 0
 				NOT = { total_development = 150 }
@@ -2908,11 +2688,6 @@ country_decisions = {
 			any_owned_province = {
 				trade_company_region = trade_company_lahore
 			}
-			capital_scope = {
-				AND = {
-					NOT = { continent = asia }
-				}
-			}
 		}
 		provinces_to_highlight = {
 			country_or_subject_holds = ROOT
@@ -2941,7 +2716,7 @@ country_decisions = {
 			}
 		}
 		ai_will_do = { 
-			factor = 1
+			factor = 0
 			modifier = {
 				factor = 0
 				NOT = { total_development = 150 }
@@ -2972,11 +2747,6 @@ country_decisions = {
 			any_owned_province = {
 				trade_company_region = trade_company_west_india
 			}
-			capital_scope = {
-				AND = {
-					NOT = { continent = asia }
-				}
-			}
 		}
 		provinces_to_highlight = {
 			country_or_subject_holds = ROOT
@@ -3005,7 +2775,7 @@ country_decisions = {
 			}
 		}
 		ai_will_do = { 
-			factor = 1
+			factor = 0
 			modifier = {
 				factor = 0
 				NOT = { total_development = 150 }
@@ -3036,11 +2806,6 @@ country_decisions = {
 			any_owned_province = {
 				trade_company_region = trade_company_north_india
 			}
-			capital_scope = {
-				AND = {
-					NOT = { continent = asia }
-				}
-			}
 		}
 		provinces_to_highlight = {
 			country_or_subject_holds = ROOT
@@ -3069,7 +2834,7 @@ country_decisions = {
 			}
 		}
 		ai_will_do = { 
-			factor = 1
+			factor = 0
 			modifier = {
 				factor = 0
 				NOT = { total_development = 150 }
@@ -3100,11 +2865,6 @@ country_decisions = {
 			any_owned_province = {
 				trade_company_region = trade_company_deccan
 			}
-			capital_scope = {
-				AND = {
-					NOT = { continent = asia }
-				}
-			}
 		}
 		provinces_to_highlight = {
 			country_or_subject_holds = ROOT
@@ -3133,7 +2893,7 @@ country_decisions = {
 			}
 		}
 		ai_will_do = { 
-			factor = 1
+			factor = 0
 			modifier = {
 				factor = 0
 				NOT = { total_development = 150 }
@@ -3164,11 +2924,6 @@ country_decisions = {
 			any_owned_province = {
 				trade_company_region = trade_company_coromandel
 			}
-			capital_scope = {
-				AND = {
-					NOT = { continent = asia }
-				}
-			}
 		}
 		provinces_to_highlight = {
 			country_or_subject_holds = ROOT
@@ -3197,7 +2952,7 @@ country_decisions = {
 			}
 		}
 		ai_will_do = { 
-			factor = 1
+			factor = 0
 			modifier = {
 				factor = 0
 				NOT = { total_development = 150 }
@@ -3228,11 +2983,6 @@ country_decisions = {
 			any_owned_province = {
 				trade_company_region = trade_company_east_india
 			}
-			capital_scope = {
-				AND = {
-					NOT = { continent = asia }
-				}
-			}
 		}
 		provinces_to_highlight = {
 			country_or_subject_holds = ROOT
@@ -3261,7 +3011,7 @@ country_decisions = {
 			}
 		}
 		ai_will_do = { 
-			factor = 1
+			factor = 0
 			modifier = {
 				factor = 0
 				NOT = { total_development = 150 }
@@ -3292,11 +3042,6 @@ country_decisions = {
 			any_owned_province = {
 				trade_company_region = trade_company_samarkand
 			}
-			capital_scope = {
-				AND = {
-					NOT = { continent = asia }
-				}
-			}
 		}
 		provinces_to_highlight = {
 			country_or_subject_holds = ROOT
@@ -3325,7 +3070,7 @@ country_decisions = {
 			}
 		}
 		ai_will_do = { 
-			factor = 1
+			factor = 0
 			modifier = {
 				factor = 0
 				NOT = { total_development = 150 }
@@ -3367,11 +3112,6 @@ country_decisions = {
 			any_owned_province = {
 				trade_company_region = trade_company_siberia
 			}
-			capital_scope = {
-				AND = {
-					NOT = { continent = asia }
-				}
-			}
 		}
 		provinces_to_highlight = {
 			country_or_subject_holds = ROOT
@@ -3400,7 +3140,7 @@ country_decisions = {
 			}
 		}
 		ai_will_do = { 
-			factor = 1
+			factor = 0
 			modifier = {
 				factor = 0
 				NOT = { total_development = 150 }
@@ -3442,11 +3182,6 @@ country_decisions = {
 			any_owned_province = {
 				trade_company_region = trade_company_yumen
 			}
-			capital_scope = {
-				AND = {
-					NOT = { continent = asia }
-				}
-			}
 		}
 		provinces_to_highlight = {
 			country_or_subject_holds = ROOT
@@ -3475,7 +3210,7 @@ country_decisions = {
 			}
 		}
 		ai_will_do = { 
-			factor = 1
+			factor = 0
 			modifier = {
 				factor = 0
 				NOT = { total_development = 150 }
@@ -3517,11 +3252,6 @@ country_decisions = {
 			any_owned_province = {
 				trade_company_region = trade_company_lhasa
 			}
-			capital_scope = {
-				AND = {
-					NOT = { continent = asia }
-				}
-			}
 		}
 		provinces_to_highlight = {
 			country_or_subject_holds = ROOT
@@ -3550,7 +3280,7 @@ country_decisions = {
 			}
 		}
 		ai_will_do = { 
-			factor = 1
+			factor = 0
 			modifier = {
 				factor = 0
 				NOT = { total_development = 150 }
@@ -3581,11 +3311,6 @@ country_decisions = {
 			any_owned_province = {
 				trade_company_region = trade_company_north_china
 			}
-			capital_scope = {
-				AND = {
-					NOT = { continent = asia }
-				}
-			}
 		}
 		provinces_to_highlight = {
 			country_or_subject_holds = ROOT
@@ -3614,7 +3339,7 @@ country_decisions = {
 			}
 		}
 		ai_will_do = { 
-			factor = 1
+			factor = 0
 			modifier = {
 				factor = 0
 				NOT = { total_development = 150 }
@@ -3645,11 +3370,6 @@ country_decisions = {
 			any_owned_province = {
 				trade_company_region = trade_company_chengdu
 			}
-			capital_scope = {
-				AND = {
-					NOT = { continent = asia }
-				}
-			}
 		}
 		provinces_to_highlight = {
 			country_or_subject_holds = ROOT
@@ -3678,7 +3398,7 @@ country_decisions = {
 			}
 		}
 		ai_will_do = { 
-			factor = 1
+			factor = 0
 			modifier = {
 				factor = 0
 				NOT = { total_development = 150 }
@@ -3709,11 +3429,6 @@ country_decisions = {
 			any_owned_province = {
 				trade_company_region = trade_company_xian
 			}
-			capital_scope = {
-				AND = {
-					NOT = { continent = asia }
-				}
-			}
 		}
 		provinces_to_highlight = {
 			country_or_subject_holds = ROOT
@@ -3742,7 +3457,7 @@ country_decisions = {
 			}
 		}
 		ai_will_do = { 
-			factor = 1
+			factor = 0
 			modifier = {
 				factor = 0
 				NOT = { total_development = 150 }
@@ -3773,11 +3488,6 @@ country_decisions = {
 			any_owned_province = {
 				trade_company_region = trade_company_south_china
 			}
-			capital_scope = {
-				AND = {
-					NOT = { continent = asia }
-				}
-			}
 		}
 		provinces_to_highlight = {
 			country_or_subject_holds = ROOT
@@ -3806,7 +3516,7 @@ country_decisions = {
 			}
 		}
 		ai_will_do = { 
-			factor = 1
+			factor = 0
 			modifier = {
 				factor = 0
 				NOT = { total_development = 150 }
@@ -3837,11 +3547,7 @@ country_decisions = {
 			any_owned_province = {
 				trade_company_region = trade_company_east_china
 			}
-			capital_scope = {
-				AND = {
-					NOT = { continent = asia }
-				}
-			}
+
 		}
 		provinces_to_highlight = {
 			country_or_subject_holds = ROOT
@@ -3870,7 +3576,7 @@ country_decisions = {
 			}
 		}
 		ai_will_do = { 
-			factor = 1
+			factor = 0
 			modifier = {
 				factor = 0
 				NOT = { total_development = 150 }
@@ -3901,11 +3607,6 @@ country_decisions = {
 			any_owned_province = {
 				trade_company_region = trade_company_girin
 			}
-			capital_scope = {
-				AND = {
-					NOT = { continent = asia }
-				}
-			}
 		}
 		provinces_to_highlight = {
 			country_or_subject_holds = ROOT
@@ -3934,7 +3635,7 @@ country_decisions = {
 			}
 		}
 		ai_will_do = { 
-			factor = 1
+			factor = 0
 			modifier = {
 				factor = 0
 				NOT = { total_development = 150 }
@@ -3965,11 +3666,6 @@ country_decisions = {
 			any_owned_province = {
 				trade_company_region = trade_company_nippon
 			}
-			capital_scope = {
-				AND = {
-					NOT = { continent = asia }
-				}
-			}
 		}
 		provinces_to_highlight = {
 			country_or_subject_holds = ROOT
@@ -3998,7 +3694,7 @@ country_decisions = {
 			}
 		}
 		ai_will_do = { 
-			factor = 1
+			factor = 0
 			modifier = {
 				factor = 0
 				NOT = { total_development = 150 }
@@ -4029,9 +3725,6 @@ country_decisions = {
 			any_owned_province = {
 				trade_company_region = trade_company_polynesia
 			}
-			capital_scope = {
-				trade_company_region = trade_company_polynesia
-			}
 		}
 		provinces_to_highlight = {
 			country_or_subject_holds = ROOT
@@ -4060,7 +3753,7 @@ country_decisions = {
 			}
 		}
 		ai_will_do = { 
-			factor = 1
+			factor = 0
 			modifier = {
 				factor = 0
 				NOT = { total_development = 150 }
@@ -4091,11 +3784,6 @@ country_decisions = {
 			any_owned_province = {
 				trade_company_region = trade_company_katsina
 			}
-			capital_scope = {
-				AND = {
-					NOT = { continent = africa }
-				}
-			}
 		}
 		provinces_to_highlight = {
 			country_or_subject_holds = ROOT
@@ -4124,7 +3812,7 @@ country_decisions = {
 			}
 		}
 		ai_will_do = { 
-			factor = 1
+			factor = 0
 			modifier = {
 				factor = 0
 				NOT = { total_development = 150 }
@@ -4155,12 +3843,6 @@ country_decisions = {
 			any_owned_province = {
 				colonial_region = colonial_mexico
 			}
-			capital_scope = {
-				OR = {
-					continent = south_america
-					continent = oceania
-				}
-			}
 		}
 		provinces_to_highlight = {
 			country_or_subject_holds = ROOT
@@ -4189,7 +3871,7 @@ country_decisions = {
 			}
 		}
 		ai_will_do = { 
-			factor = 1
+			factor = 0
 			modifier = {
 				factor = 0
 				NOT = { total_development = 150 }
@@ -4230,12 +3912,7 @@ country_decisions = {
 			any_owned_province = {
 				colonial_region = colonial_california
 			}
-			capital_scope = {
-				OR = {
-					continent = south_america
-					continent = oceania
-				}
-			}
+
 		}
 		provinces_to_highlight = {
 			country_or_subject_holds = ROOT
@@ -4264,7 +3941,7 @@ country_decisions = {
 			}
 		}
 		ai_will_do = { 
-			factor = 1
+			factor = 0
 			modifier = {
 				factor = 0
 				NOT = { total_development = 150 }
@@ -4295,12 +3972,6 @@ country_decisions = {
 			any_owned_province = {
 				colonial_region = colonial_alaska
 			}
-			capital_scope = {
-				OR = {
-					continent = south_america
-					continent = oceania
-				}
-			}
 		}
 		provinces_to_highlight = {
 			country_or_subject_holds = ROOT
@@ -4329,7 +4000,7 @@ country_decisions = {
 			}
 		}
 		ai_will_do = { 
-			factor = 1
+			factor = 0
 			modifier = {
 				factor = 0
 				NOT = { total_development = 150 }
@@ -4360,12 +4031,6 @@ country_decisions = {
 			any_owned_province = {
 				colonial_region = colonial_louisiana
 			}
-			capital_scope = {
-				OR = {
-					continent = south_america
-					continent = oceania
-				}
-			}
 		}
 		provinces_to_highlight = {
 			country_or_subject_holds = ROOT
@@ -4394,7 +4059,7 @@ country_decisions = {
 			}
 		}
 		ai_will_do = { 
-			factor = 1
+			factor = 0
 			modifier = {
 				factor = 0
 				NOT = { total_development = 150 }
@@ -4425,12 +4090,6 @@ country_decisions = {
 			any_owned_province = {
 				colonial_region = colonial_eastern_america
 			}
-			capital_scope = {
-				OR = {
-					continent = south_america
-					continent = oceania
-				}
-			}
 		}
 		provinces_to_highlight = {
 			country_or_subject_holds = ROOT
@@ -4459,7 +4118,7 @@ country_decisions = {
 			}
 		}
 		ai_will_do = { 
-			factor = 1
+			factor = 0
 			modifier = {
 				factor = 0
 				NOT = { total_development = 150 }
@@ -4490,12 +4149,6 @@ country_decisions = {
 			any_owned_province = {
 				colonial_region = colonial_canada
 			}
-			capital_scope = {
-				OR = {
-					continent = south_america
-					continent = oceania
-				}
-			}
 		}
 		provinces_to_highlight = {
 			country_or_subject_holds = ROOT
@@ -4524,7 +4177,7 @@ country_decisions = {
 			}
 		}
 		ai_will_do = { 
-			factor = 1
+			factor = 0
 			modifier = {
 				factor = 0
 				NOT = { total_development = 150 }
@@ -4555,12 +4208,6 @@ country_decisions = {
 			any_owned_province = {
 				colonial_region = colonial_the_carribean
 			}
-			capital_scope = {
-				OR = {
-					continent = south_america
-					continent = oceania
-				}
-			}
 		}
 		provinces_to_highlight = {
 			country_or_subject_holds = ROOT
@@ -4589,7 +4236,7 @@ country_decisions = {
 			}
 		}
 		ai_will_do = { 
-			factor = 1
+			factor = 0
 			modifier = {
 				factor = 0
 				NOT = { total_development = 150 }
@@ -4630,12 +4277,6 @@ country_decisions = {
 			any_owned_province = {
 				colonial_region = colonial_colombia
 			}
-			capital_scope = {
-				OR = {
-					continent = north_america
-					continent = oceania
-				}
-			}
 		}
 		provinces_to_highlight = {
 			country_or_subject_holds = ROOT
@@ -4664,7 +4305,7 @@ country_decisions = {
 			}
 		}
 		ai_will_do = { 
-			factor = 1
+			factor = 0
 			modifier = {
 				factor = 0
 				NOT = { total_development = 150 }
@@ -4704,12 +4345,6 @@ country_decisions = {
 			any_owned_province = {
 				colonial_region = colonial_peru
 			}
-			capital_scope = {
-				OR = {
-					continent = north_america
-					continent = oceania
-				}
-			}
 		}
 		provinces_to_highlight = {
 			country_or_subject_holds = ROOT
@@ -4738,7 +4373,7 @@ country_decisions = {
 			}
 		}
 		ai_will_do = { 
-			factor = 1
+			factor = 0
 			modifier = {
 				factor = 0
 				NOT = { total_development = 150 }
@@ -4769,12 +4404,6 @@ country_decisions = {
 			any_owned_province = {
 				colonial_region = colonial_brazil
 			}
-			capital_scope = {
-				OR = {
-					continent = north_america
-					continent = oceania
-				}
-			}
 		}
 		provinces_to_highlight = {
 			country_or_subject_holds = ROOT
@@ -4803,7 +4432,7 @@ country_decisions = {
 			}
 		}
 		ai_will_do = { 
-			factor = 1
+			factor = 0
 			modifier = {
 				factor = 0
 				NOT = { total_development = 150 }
@@ -4834,12 +4463,6 @@ country_decisions = {
 			any_owned_province = {
 				colonial_region = colonial_la_plata
 			}
-			capital_scope = {
-				OR = {
-					continent = north_america
-					continent = oceania
-				}
-			}
 		}
 		provinces_to_highlight = {
 			country_or_subject_holds = ROOT
@@ -4868,7 +4491,7 @@ country_decisions = {
 			}
 		}
 		ai_will_do = { 
-			factor = 1
+			factor = 0
 			modifier = {
 				factor = 0
 				NOT = { total_development = 150 }
@@ -4899,12 +4522,6 @@ country_decisions = {
 			any_owned_province = {
 				colonial_region = colonial_australia
 			}
-			capital_scope = {
-				OR = {
-					continent = north_america
-					continent = south_america
-				}
-			}
 		}
 		provinces_to_highlight = {
 			country_or_subject_holds = ROOT
@@ -4933,7 +4550,7 @@ country_decisions = {
 			}
 		}
 		ai_will_do = { 
-			factor = 1
+			factor = 0
 			modifier = {
 				factor = 0
 				NOT = { total_development = 150 }
