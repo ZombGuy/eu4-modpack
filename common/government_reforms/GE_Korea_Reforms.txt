@@ -7,6 +7,8 @@ hermit_kingdom_reform = {
 		OR = {
 			primary_culture = korean 
 			has_reform = hermit_kingdom_reform
+			primary_culture = korean_new
+
 		}
 	}
 	trigger = {
@@ -15,11 +17,39 @@ hermit_kingdom_reform = {
 			primary_culture = korean
 		}
 	}
+	conditional = {
+		allow = { has_dlc = "Domination" }
+		government_abilities = {
+			perfectionism_mechanic
+		}
+	}
+	conditional = {
+		allow = { has_dlc = "Domination" }
+		custom_attributes = {
+			has_hangeul_alphabet_decisions = yes
+			has_weaker_harem_events = yes
+		}
+	}
 	modifiers = {
 		defensiveness = 0.2
+		development_cost_in_primary_culture = -0.1
+		same_culture_advisor_cost = -0.1
+		global_institution_spread = 0.15
 	}
 	custom_attributes = {
 		enables_peace_development_reduction = yes
+	}
+	effect = {
+		hidden_effect = {
+			if = {
+				limit = { has_dlc = "Domination" }
+				add_country_modifier = {
+					name = no_perfectionism_focus
+					duration = -1
+					desc = has_no_perfectionism_focus
+				}
+			}
+		}
 	}
 }
 nobi_jongbubub_reform= {

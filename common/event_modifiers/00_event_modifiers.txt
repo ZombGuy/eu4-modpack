@@ -1674,15 +1674,16 @@ hangeul_alphabet = {
 }
 
 tripitaka_koreana = {
-	harmonization_speed = 0.1
+	harmonization_speed = 0.25
 	yearly_karma_decay = 0.01
-	monthly_splendor = 1
-	institution_growth = 3
+	yearly_harmony = 1
+	monthly_splendor = 2
+	institution_growth = 5
 }
 
 tripitaka_koreana_defenses = {
-	fort_level = 1
-	local_defensiveness = 0.15
+	fort_level = 2
+	local_defensiveness = 0.35
 }
 
 hangeul_alphabet_revoked = {
@@ -9413,22 +9414,22 @@ overlord_military_mission = {
 
 # Religions
 harmonized_vajrayana = {
-	production_efficiency = 0.1
+	production_efficiency = 0.2
 	religion = yes
 }
 
 harmonized_buddhism = { #Theravada
-	advisor_cost = -0.1
+	advisor_cost = -0.2
 	religion = yes
 }
 
 harmonized_mahayana = {
-	idea_cost = -0.1
+	idea_cost = -0.2
 	religion = yes
 }
 
 harmonized_shinto = {
-	infantry_power = 0.1
+	infantry_power = 0.2
 	religion = yes
 }
 
@@ -9439,34 +9440,34 @@ harmonized_pagan = {
 }
 
 harmonized_jewish_group = {
-	global_institution_spread = 0.15
+	global_institution_spread = 0.33
 	religion = yes
 }
 
 harmonized_zoroastrian_group = {
-	global_trade_goods_size_modifier = 0.1
+	global_trade_goods_size_modifier = 0.2
 	religion = yes
 }
 
 harmonized_dharmic = {
-	diplomatic_reputation = 1
+	diplomatic_reputation = 2
 	religion = yes
 }
 
 harmonized_muslim = {
-	trade_efficiency = 0.1
+	trade_efficiency = 0.33
 	religion = yes
 }
 
 harmonized_christian = {
-	stability_cost_modifier = -0.1
+	stability_cost_modifier = -0.33
 	religion = yes
 }
 
 #On the route to Harmonization:
 
 harmonization_classics_translated = {
-	idea_cost = -0.05
+	idea_cost = -0.15
 	yearly_harmony = -1
 	religion = yes
 }
@@ -9477,7 +9478,7 @@ harmonization_classics_defended = {
 }
 
 harmonization_converted_minister = {
-	global_institution_spread = 0.1
+	global_institution_spread = 0.33
 	tolerance_own = -2
 }
 

@@ -1,14 +1,14 @@
 #Hangul introduced
 fee_kor_hangul_introduced = {
-	adm_tech_cost_modifier = -0.1
+	adm_tech_cost_modifier = -0.15
 }
 #Sarim in Korea
 fee_kor_sarim = {
-	idea_cost = -0.05
+	idea_cost = -0.15
 }
 #Hyangyak
 fee_kor_hyangyak = {
-	local_development_cost = -0.1
+	local_development_cost = -0.15
 }
 #Silhak
 fee_kor_silhak = {

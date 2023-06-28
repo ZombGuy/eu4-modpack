@@ -71,12 +71,16 @@ KOR_taehak_modifier ={
 KOR_militarized = {
 	army_tradition = 1.25
 	war_taxes_cost_modifier = -1
+	no_cost_for_reinforcing = yes
+	reinforce_speed = 0.25
+
 }
 KOR_religious = {
 	tolerance_own = 1
 }
 KOR_pride = {
 	legitimacy = 1
+	republican_tradition = 0.25
 }
 KOR_forest_of_scholars = {
 	local_institution_spread = 0.33
@@ -186,7 +190,7 @@ KOR_the_merchant_caste_forming = {
 	placed_merchant_power = 10
 }
 KOR_defenses = {
-	local_defensiveness = 0.2
+	local_defensiveness = 00.33
 	local_defender_dice_roll_bonus = 1
 }
 KOR_beijing_conquered = {

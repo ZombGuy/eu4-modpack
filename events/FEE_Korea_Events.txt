@@ -66,13 +66,12 @@ country_event = {
 	option = {
 		name = FEE_Korea_Events.2.OPT1
 
-		add_stability = -1
 		define_ruler = {
 			name = "Sejo"
 			dynasty = "Yi"
-			adm = 5
-			dip = 4
-			mil = 5
+			adm = 6
+			dip = 6
+			mil = 6
 			age = 28
 		}
 		kill_heir = {}

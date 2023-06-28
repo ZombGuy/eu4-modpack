@@ -2820,11 +2820,10 @@ estate_church_inwards_perfection = {
 		global_tax_modifier = 0.33
 		production_efficiency = 0.33
 		manpower_in_true_faith_provinces = 0.33
-		core_creation = 1
-		province_warscore_cost = 2
+		core_creation = 0.33
+		unjustified_demands = 0.1
 	}
 	penalties = {
-		stability_cost_to_declare_war = 1
 	}
 	benefits = {
 		tolerance_own = 2

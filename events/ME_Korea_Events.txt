@@ -677,7 +677,7 @@ country_event = {
 
 		add_country_modifier = {
 			name = KOR_reform_halt_progress
-			duration = 3650
+			duration = 365
 		}
 		KOR_add_modifier_for_current_faction = yes
 	}
@@ -869,7 +869,7 @@ country_event = {
 		}
 		add_country_modifier = {
 			name = KOR_emancipation
-			duration = 5475
+			duration = -1
 		}
 	}
 
@@ -1084,7 +1084,7 @@ country_event = {
 		add_prestige = 15
 		add_country_modifier = {
 			name = KOR_students_on_strike
-			duration = 9125
+			duration = 730
 		}
 	}
 }
@@ -1197,7 +1197,7 @@ country_event = {
 
 		add_country_modifier = {
 			name = KOR_hostilities
-			duration = 5475
+			duration = 730
 		}
 	}
 }
@@ -1451,7 +1451,7 @@ country_event = {
 
 		add_country_modifier = {
 			name = KOR_oligopoly
-			duration = 5475
+			duration = 730
 		}
 	}
 }
@@ -1682,7 +1682,7 @@ country_event = {
 
 		add_country_modifier = {
 			name = KOR_religious
-			duration = 10950
+			duration = -1
 		}
 	}
 
@@ -1691,7 +1691,7 @@ country_event = {
 
 		add_country_modifier = {
 			name = KOR_pride
-			duration = 10950
+			duration = -1
 		}
 	}
 }

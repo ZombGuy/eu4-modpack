@@ -1032,6 +1032,7 @@ gme_tripitaka_koreana = {
 		country_modifiers = {
 			prestige = 0.25
 			global_missionary_strength = 0.01
+			yearly_harmony = 1
 		}
 		on_upgraded = {	}
 	}
@@ -1045,6 +1046,8 @@ gme_tripitaka_koreana = {
 			prestige = 0.5
 			global_missionary_strength = 0.02
 			yearly_karma_decay = 0.05
+			yearly_harmony = 1.5
+			harmonization_speed = 0.25
 		}
 		on_upgraded = {	}
 	}
@@ -1058,6 +1061,8 @@ gme_tripitaka_koreana = {
 			prestige = 1
 			global_missionary_strength = 0.03
 			yearly_karma_decay = 0.10
+			yearly_harmony = 2
+			harmonization_speed = 0.35
 		}
 		on_upgraded = {	}
 	}
