@@ -1,4 +1,0 @@
-Hansa_complete_leadership_missions = {
-	complete_mission = HSA_leadership
-	complete_mission = HNS_leadership
-}

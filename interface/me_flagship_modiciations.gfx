@@ -1,6 +1,0 @@
-spriteTypes = {
-	spriteType = {
-		name = "GFX_flagship_ME_mug_pride_of_the_fleet"
-		texturefile = "gfx//interface//flagships//me_mug_pride_of_the_fleet.dds"
-	}
-}

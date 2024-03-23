@@ -1,3 +1,0 @@
-me_bav_is_beer_enabled = {
-	NOT = { has_global_flag = No_Beer }
-}

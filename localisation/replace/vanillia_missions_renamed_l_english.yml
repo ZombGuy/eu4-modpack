@@ -1,6 +1,0 @@
-﻿l_english: 
- #Aragon
- gc_ara_navy_title:1 "[Root.gc_ara_fleet_BBFEvent] Navy"
- gc_ara_navy_desc:0 "As our realm is divided across the Mediterranean, we must make the construction of a fleet our utmost priority. If we cannot secure dominance on the water, our enemies will have free reign to plunder and capture our territories."
- string_gc_AIU_FLEET_Text:0 "Mediterranean"
- string_gc_ARA_FLEET_Text:0 "[Root.GetAdjective]"

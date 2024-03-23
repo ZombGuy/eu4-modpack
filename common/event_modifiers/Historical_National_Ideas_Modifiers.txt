@@ -1,3 +1,0 @@
-ven_hie_galeazza = {
-	galley_power = 0.15
-}

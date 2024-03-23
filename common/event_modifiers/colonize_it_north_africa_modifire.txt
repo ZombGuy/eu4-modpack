@@ -1,8 +1,0 @@
-mansa_musa_wasting_money = {
-	build_cost = -0.2
-	infantry_cost = -0.1
-	cavalry_cost = -0.1
-	artillery_cost = -0.1
-	local_state_maintenance_modifier = -0.1
-	picture = "administrative_efficiency"
-}

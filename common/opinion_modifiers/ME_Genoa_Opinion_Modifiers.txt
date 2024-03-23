@@ -1,7 +1,0 @@
-gen_accepted_treaty = {
-	opinion = 50
-}
-gen_refused_treaty = {
-	opinion = -50
-	yearly_decay = 1
-}

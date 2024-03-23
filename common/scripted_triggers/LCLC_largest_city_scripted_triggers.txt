@@ -1,4 +1,0 @@
-LCLC_valid_large_city_triggers = {
-	is_city = yes
-	owner = { NOT = { is_native_tribe = yes } }
-}

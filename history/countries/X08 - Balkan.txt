@@ -1,5 +1,0 @@
-1government = monarchy
-add_government_reform = autocracy_reform
-primary_culture = serbian
-religion = orthodox
-technology_group = western

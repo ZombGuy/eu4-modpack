@@ -1,7 +1,0 @@
-#Maratha Uprising
-fee_mar_western_aid_marathan_enemy = {
-	siege_ability = 0.15
-}
-fee_mar_seized_western_arms = {
-	discipline = 0.05
-}
